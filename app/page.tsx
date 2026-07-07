@@ -12,7 +12,6 @@ import {
   Wrench
 } from "lucide-react";
 import LazyHeroVideo from "./components/LazyHeroVideo";
-import MegaMenu from "./components/MegaMenu";
 import { siteName } from "./site";
 
 export const metadata: Metadata = {
@@ -160,22 +159,6 @@ const faqs = [
 export default function Home() {
   return (
     <main className="site-shell">
-      <header className="topbar">
-        <a className="brand" href="#">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" fetchPriority="high" />
-        </a>
-        <nav className="main-nav" aria-label="Primary navigation">
-          <MegaMenu />
-          <a href="/factory">Factory</a>
-          <a href="/resources">Resources</a>
-          <a href="/projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a className="topbar-cta" href="/contact">
-          Get a Quote
-        </a>
-      </header>
-
       <section className="hero">
         <LazyHeroVideo />
         <div className="hero-copy">
