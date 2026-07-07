@@ -32,25 +32,25 @@ const products = [
   {
     name: "Dumbbells",
     copy: "Rubber, chrome and hex dumbbells with OEM logo, handle color and full gym set options.",
-    image: "/assets/hex-dumbbells.webp",
+    image: "/assets/hex-dumbbells.avif",
     href: "/products/dumbbells"
   },
   {
     name: "Weight plates",
     copy: "Bumper plates, rubber plates and cast iron plates for wholesale and commercial gym projects.",
-    image: "/assets/weight-plate.webp",
+    image: "/assets/weight-plate.avif",
     href: "/products/weight-plates"
   },
   {
     name: "Multi-functional Racks & Benches",
     copy: "Power racks, storage racks and adjustable benches for complete free weight training areas.",
-    image: "/assets/racks-benches.webp",
+    image: "/assets/racks-benches.avif",
     href: "/products/racks-benches"
   },
   {
     name: "Gym Accessories",
     copy: "Handles, bars, kettlebells, collars, ropes and training accessories for add-on sales.",
-    image: "/assets/gym-accessories.webp",
+    image: "/assets/gym-accessories.avif",
     href: "/products/gym-accessories"
   }
 ];
@@ -104,32 +104,32 @@ const projects = [
   {
     title: "Commercial Dumbbell Zone",
     copy: "Rows of black hex dumbbells for a high-traffic commercial gym free weight area.",
-    image: "/assets/project-dumbbell-zone.webp"
+    image: "/assets/project-dumbbell-zone.avif"
   },
   {
     title: "Weight Plate & Barbell Area",
     copy: "Organized plate storage, Olympic bars and lifting platforms for strength facilities.",
-    image: "/assets/project-plate-zone.webp"
+    image: "/assets/project-plate-zone.avif"
   },
   {
     title: "Premium Home Gym Project",
     copy: "Multi-functional rack, bench and chrome dumbbells for a high-end private training room.",
-    image: "/assets/racks-benches.webp"
+    image: "/assets/racks-benches.avif"
   },
   {
     title: "Dealer Product Display",
     copy: "Free weight display solutions for showrooms, dealers and branded retail spaces.",
-    image: "/assets/case-gym.webp"
+    image: "/assets/case-gym.avif"
   },
   {
     title: "Private Label Dumbbell Sets",
     copy: "Custom logo dumbbells and racks prepared for gyms, distributors and franchise buyers.",
-    image: "/assets/case-showroom.webp"
+    image: "/assets/case-showroom.avif"
   },
   {
     title: "Accessory Add-on Program",
     copy: "Handles, ropes, kettlebells and attachments to increase full-container order value.",
-    image: "/assets/gym-accessories.webp"
+    image: "/assets/gym-accessories.avif"
   }
 ];
 
@@ -259,7 +259,7 @@ export default function Home() {
         </div>
         <div className="factory-showcase">
           <div className="factory-image">
-            <img src="/assets/factory.webp" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" />
+            <img src="/assets/factory.avif" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" />
           </div>
           <div className="capability-list">
             {strengths.map((item) => {
@@ -297,9 +297,9 @@ export default function Home() {
           </div>
         </div>
         <div className="resource-gallery">
-          <img src="/assets/dumbbell-production.webp" alt="Finished dumbbell production area" loading="lazy" decoding="async" />
-          <img src="/assets/resource-plate-finishing.webp" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" />
-          <img src="/assets/resource-cnc-machining.webp" alt="Precision machining for free weight parts" loading="lazy" decoding="async" />
+          <img src="/assets/dumbbell-production.avif" alt="Finished dumbbell production area" loading="lazy" decoding="async" />
+          <img src="/assets/resource-plate-finishing.avif" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" />
+          <img src="/assets/resource-cnc-machining.avif" alt="Precision machining for free weight parts" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -418,3 +418,5 @@ export default function Home() {
     </main>
   );
 }
+
+

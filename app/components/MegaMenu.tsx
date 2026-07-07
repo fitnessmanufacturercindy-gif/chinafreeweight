@@ -1,7 +1,4 @@
-"use client";
-
 import { ArrowRight, ChevronDown } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
 
 const categories = [
   {
@@ -27,41 +24,11 @@ const categories = [
 ];
 
 export default function MegaMenu() {
-  const [open, setOpen] = useState(false);
-  const rootRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handlePointerDown(event: PointerEvent) {
-      if (!rootRef.current?.contains(event.target as Node)) {
-        setOpen(false);
-      }
-    }
-
-    function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") {
-        setOpen(false);
-      }
-    }
-
-    document.addEventListener("pointerdown", handlePointerDown);
-    document.addEventListener("keydown", handleKeyDown);
-    return () => {
-      document.removeEventListener("pointerdown", handlePointerDown);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
-
   return (
-    <div className={`nav-item has-mega ${open ? "is-open" : ""}`} ref={rootRef}>
-      <button
-        type="button"
-        className="nav-trigger"
-        aria-expanded={open}
-        aria-controls="products-mega-menu"
-        onClick={() => setOpen((current) => !current)}
-      >
+    <details className="nav-item has-mega">
+      <summary className="nav-trigger" aria-controls="products-mega-menu">
         Products <ChevronDown size={14} />
-      </button>
+      </summary>
       <div className="mega-menu" id="products-mega-menu" aria-label="Products mega menu">
         <div className="mega-feature">
           <span>PowerBaseFit Product System</span>
@@ -70,13 +37,13 @@ export default function MegaMenu() {
             Explore the four core categories buyers need for wholesale,
             private label and commercial gym projects.
           </p>
-          <a href="/contact" onClick={() => setOpen(false)}>
+          <a href="/contact">
             Send RFQ <ArrowRight size={16} />
           </a>
         </div>
         <div className="mega-category-grid">
           {categories.map((category) => (
-            <a href={category.href} className="mega-category" key={category.title} onClick={() => setOpen(false)}>
+            <a href={category.href} className="mega-category" key={category.title}>
               <strong>{category.title}</strong>
               <span>{category.copy}</span>
               <em>
@@ -86,6 +53,6 @@ export default function MegaMenu() {
           ))}
         </div>
       </div>
-    </div>
+    </details>
   );
 }

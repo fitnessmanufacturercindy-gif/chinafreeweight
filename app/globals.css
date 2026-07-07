@@ -500,7 +500,7 @@ a {
   border: 1px solid rgba(241, 199, 107, 0.28);
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.44)),
-    url("/assets/products/dumbbells/catalog/tpu-dumbbell-kg.webp") center right / contain no-repeat,
+    url("/assets/products/dumbbells/catalog/tpu-dumbbell-kg.avif") center right / contain no-repeat,
     linear-gradient(135deg, rgba(201, 161, 93, 0.22), rgba(255, 255, 255, 0.04));
 }
 
@@ -895,7 +895,7 @@ textarea {
 
 .main-nav a:hover,
 .nav-trigger:hover,
-.nav-trigger[aria-expanded="true"] {
+.has-mega[open] > .nav-trigger {
   opacity: 1;
   color: var(--gold-bright);
 }
@@ -907,6 +907,7 @@ textarea {
 }
 
 .nav-trigger {
+  list-style: none;
   min-height: 42px;
   padding: 0;
   display: inline-flex;
@@ -920,11 +921,16 @@ textarea {
   cursor: pointer;
 }
 
+.nav-trigger::-webkit-details-marker {
+  display: none;
+}
+
 .nav-trigger svg {
   transition: transform 180ms ease;
 }
 
-.nav-trigger[aria-expanded="true"] svg {
+.has-mega[open] > .nav-trigger svg,
+.has-mega:hover > .nav-trigger svg {
   transform: rotate(180deg);
 }
 
@@ -957,7 +963,8 @@ textarea {
   z-index: 20;
 }
 
-.has-mega.is-open .mega-menu,
+.has-mega[open] .mega-menu,
+.has-mega:hover .mega-menu,
 .has-mega:focus-within .mega-menu {
   opacity: 1;
   visibility: visible;
@@ -972,7 +979,7 @@ textarea {
   overflow: hidden;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.64)),
-    url("/assets/hex-dumbbells.webp") center / cover;
+    url("/assets/hex-dumbbells.avif") center / cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1109,13 +1116,17 @@ textarea {
 }
 
 .hero-video-layer {
+  --hero-poster: image-set(
+    url("/assets/hero-poster.avif") type("image/avif"),
+    url("/assets/hero-poster.webp") type("image/webp")
+  );
   position: absolute;
   inset: 0;
   z-index: 0;
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.28)),
-    url("/assets/hero-poster.webp") center / cover no-repeat,
+    var(--hero-poster) center / cover no-repeat,
     #050505;
 }
 
@@ -1939,6 +1950,10 @@ textarea {
   }
 
   .hero {
+    --hero-poster: image-set(
+      url("/assets/hero-poster-mobile.avif") type("image/avif"),
+      url("/assets/hero-poster-mobile.webp") type("image/webp")
+    );
     padding-top: 28px;
     min-height: 720px;
     align-items: flex-start;
@@ -2065,7 +2080,7 @@ textarea {
   .product-final-cta {
     background:
       linear-gradient(180deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.72)),
-      url("/assets/products/dumbbells/catalog/tpu-dumbbell-kg.webp") center bottom / contain no-repeat,
+      url("/assets/products/dumbbells/catalog/tpu-dumbbell-kg.avif") center bottom / contain no-repeat,
       linear-gradient(135deg, rgba(201, 161, 93, 0.22), rgba(255, 255, 255, 0.04));
     padding-bottom: 250px;
   }

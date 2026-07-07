@@ -40,7 +40,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preload" as="image" href="/assets/hero-poster.webp" fetchPriority="high" />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/hero-poster.avif"
+          type="image/avif"
+          media="(min-width: 701px)"
+          fetchPriority="high"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/hero-poster-mobile.avif"
+          type="image/avif"
+          media="(max-width: 700px)"
+          fetchPriority="high"
+        />
       </head>
       <body>
         <script

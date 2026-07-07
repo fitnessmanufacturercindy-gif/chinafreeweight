@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 type IdleWindow = Window &
   typeof globalThis & {
-    requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => number;
+    requestIdleCallback?: (callback: () => void) => number;
     cancelIdleCallback?: (handle: number) => void;
   };
 
@@ -13,15 +13,44 @@ export default function LazyHeroVideo() {
 
   useEffect(() => {
     const win = window as IdleWindow;
-    const showVideo = () => setCanPlayVideo(true);
+    const isDesktop = win.matchMedia("(min-width: 900px)").matches;
+    const allowsMotion = !win.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (win.requestIdleCallback) {
-      const idleId = win.requestIdleCallback(showVideo, { timeout: 1800 });
-      return () => win.cancelIdleCallback?.(idleId);
+    if (!isDesktop || !allowsMotion) {
+      return;
     }
 
-    const timer = window.setTimeout(showVideo, 1200);
-    return () => window.clearTimeout(timer);
+    let idleId: number | undefined;
+    let requested = false;
+    const interactionEvents = ["pointermove", "pointerdown", "keydown", "scroll"] as const;
+    const removeInteractionListeners = () => {
+      interactionEvents.forEach((eventName) => {
+        window.removeEventListener(eventName, showVideo);
+      });
+    };
+    const showVideo = () => {
+      if (requested) {
+        return;
+      }
+      requested = true;
+      removeInteractionListeners();
+      if (win.requestIdleCallback) {
+        idleId = win.requestIdleCallback(() => setCanPlayVideo(true));
+      } else {
+        setCanPlayVideo(true);
+      }
+    };
+
+    interactionEvents.forEach((eventName) => {
+      window.addEventListener(eventName, showVideo, { once: true, passive: true });
+    });
+
+    return () => {
+      removeInteractionListeners();
+      if (idleId !== undefined) {
+        win.cancelIdleCallback?.(idleId);
+      }
+    };
   }, []);
 
   return (
