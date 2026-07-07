@@ -11,6 +11,7 @@ import {
   ShieldCheck,
   Wrench
 } from "lucide-react";
+import LazyHeroVideo from "./components/LazyHeroVideo";
 import MegaMenu from "./components/MegaMenu";
 import { siteName } from "./site";
 
@@ -32,25 +33,25 @@ const products = [
   {
     name: "Dumbbells",
     copy: "Rubber, chrome and hex dumbbells with OEM logo, handle color and full gym set options.",
-    image: "/assets/hex-dumbbells.png",
+    image: "/assets/hex-dumbbells.webp",
     href: "/products/dumbbells"
   },
   {
     name: "Weight plates",
     copy: "Bumper plates, rubber plates and cast iron plates for wholesale and commercial gym projects.",
-    image: "/assets/weight-plate.jpg",
+    image: "/assets/weight-plate.webp",
     href: "/products/weight-plates"
   },
   {
     name: "Multi-functional Racks & Benches",
     copy: "Power racks, storage racks and adjustable benches for complete free weight training areas.",
-    image: "/assets/racks-benches.png",
+    image: "/assets/racks-benches.webp",
     href: "/products/racks-benches"
   },
   {
     name: "Gym Accessories",
     copy: "Handles, bars, kettlebells, collars, ropes and training accessories for add-on sales.",
-    image: "/assets/gym-accessories.png",
+    image: "/assets/gym-accessories.webp",
     href: "/products/gym-accessories"
   }
 ];
@@ -104,32 +105,32 @@ const projects = [
   {
     title: "Commercial Dumbbell Zone",
     copy: "Rows of black hex dumbbells for a high-traffic commercial gym free weight area.",
-    image: "/assets/project-dumbbell-zone.png"
+    image: "/assets/project-dumbbell-zone.webp"
   },
   {
     title: "Weight Plate & Barbell Area",
     copy: "Organized plate storage, Olympic bars and lifting platforms for strength facilities.",
-    image: "/assets/project-plate-zone.png"
+    image: "/assets/project-plate-zone.webp"
   },
   {
     title: "Premium Home Gym Project",
     copy: "Multi-functional rack, bench and chrome dumbbells for a high-end private training room.",
-    image: "/assets/racks-benches.png"
+    image: "/assets/racks-benches.webp"
   },
   {
     title: "Dealer Product Display",
     copy: "Free weight display solutions for showrooms, dealers and branded retail spaces.",
-    image: "/assets/case-gym.png"
+    image: "/assets/case-gym.webp"
   },
   {
     title: "Private Label Dumbbell Sets",
     copy: "Custom logo dumbbells and racks prepared for gyms, distributors and franchise buyers.",
-    image: "/assets/case-showroom.png"
+    image: "/assets/case-showroom.webp"
   },
   {
     title: "Accessory Add-on Program",
     copy: "Handles, ropes, kettlebells and attachments to increase full-container order value.",
-    image: "/assets/gym-accessories.png"
+    image: "/assets/gym-accessories.webp"
   }
 ];
 
@@ -161,7 +162,7 @@ export default function Home() {
     <main className="site-shell">
       <header className="topbar">
         <a className="brand" href="#">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.png" alt="PowerBaseFit" fetchPriority="high" />
         </a>
         <nav className="main-nav" aria-label="Primary navigation">
           <MegaMenu />
@@ -176,10 +177,7 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <div className="hero-video-layer" aria-hidden="true">
-          <video className="hero-bg-video hero-bg-video-one" src="/assets/banner.mp4" autoPlay muted loop playsInline />
-          <video className="hero-bg-video hero-bg-video-two" src="/assets/hero-loop-2.mp4" autoPlay muted loop playsInline />
-        </div>
+        <LazyHeroVideo />
         <div className="hero-copy">
           <div className="brandline">PowerBaseFit</div>
           <h1>Free Weight Equipment Manufacturer</h1>
@@ -237,7 +235,7 @@ export default function Home() {
           {products.map((product) => (
             <article className="product-card" key={product.name}>
               <a href={product.href} aria-label={`View ${product.name}`}>
-                <img src={product.image} alt={product.name} />
+                <img src={product.image} alt={product.name} loading="lazy" decoding="async" />
               </a>
               <div>
                 <h3>{product.name}</h3>
@@ -278,7 +276,7 @@ export default function Home() {
         </div>
         <div className="factory-showcase">
           <div className="factory-image">
-            <img src="/assets/factory.png" alt="PowerBaseFit factory exterior" />
+            <img src="/assets/factory.webp" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" />
           </div>
           <div className="capability-list">
             {strengths.map((item) => {
@@ -316,9 +314,9 @@ export default function Home() {
           </div>
         </div>
         <div className="resource-gallery">
-          <img src="/assets/dumbbell-production.jpg" alt="Finished dumbbell production area" />
-          <img src="/assets/resource-plate-finishing.png" alt="Weight plate finishing and inspection" />
-          <img src="/assets/resource-cnc-machining.png" alt="Precision machining for free weight parts" />
+          <img src="/assets/dumbbell-production.webp" alt="Finished dumbbell production area" loading="lazy" decoding="async" />
+          <img src="/assets/resource-plate-finishing.webp" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" />
+          <img src="/assets/resource-cnc-machining.webp" alt="Precision machining for free weight parts" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -338,7 +336,7 @@ export default function Home() {
         <div className="project-grid">
           {projects.map((project) => (
             <article className="project-card" key={project.title}>
-              <img src={project.image} alt={project.title} />
+              <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
               <div>
                 <h3>{project.title}</h3>
                 <p>{project.copy}</p>
