@@ -356,7 +356,7 @@ a {
 }
 
 .racks-benches-page .dumbbell-card > a {
-  height: 330px;
+  height: 430px;
   background: #f8f7f3;
 }
 
@@ -369,6 +369,30 @@ a {
   object-position: center;
   padding: 12px;
   background: #f8f7f3;
+}
+
+.racks-benches-page .product-detail-media {
+  min-height: 680px;
+  overflow: hidden;
+}
+
+.racks-benches-page .product-detail-media img {
+  max-height: 660px;
+  object-fit: contain;
+  object-position: center;
+  padding: 16px;
+}
+
+.racks-benches-page .product-showcase-frame {
+  min-height: 780px;
+  overflow: hidden;
+}
+
+.racks-benches-page .product-showcase-frame img {
+  max-height: 760px;
+  object-fit: contain;
+  object-position: center;
+  padding: 10px;
 }
 
 .dumbbell-card > div {
@@ -2070,6 +2094,28 @@ textarea {
 
   .dumbbell-card > a {
     height: 240px;
+  }
+
+  .racks-benches-page .dumbbell-card > a {
+    height: 360px;
+  }
+
+  .racks-benches-page .product-detail-media {
+    min-height: 470px;
+  }
+
+  .racks-benches-page .product-detail-media img {
+    max-height: 450px;
+    padding: 12px;
+  }
+
+  .racks-benches-page .product-showcase-frame {
+    min-height: 520px;
+  }
+
+  .racks-benches-page .product-showcase-frame img {
+    max-height: 500px;
+    padding: 8px;
   }
 
   .dumbbell-buying,
