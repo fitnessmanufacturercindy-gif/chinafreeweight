@@ -1,7 +1,7 @@
 "use client";
 
 import { Send } from "lucide-react";
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useState } from "react";
 
 type FormValues = {
   name: string;
@@ -49,7 +49,13 @@ export default function InquiryForm() {
   const [errors, setErrors] = useState<FormErrors>({});
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [statusMessage, setStatusMessage] = useState("");
-  const startedAt = useMemo(() => Date.now(), []);
+
+  useEffect(() => {
+    if (window.location.search.includes("inquiry=sent")) {
+      setStatus("success");
+      setStatusMessage("Inquiry submitted successfully. We will reply within 12 hours.");
+    }
+  }, []);
 
   function updateField(name: keyof FormValues, value: string) {
     setValues((current) => ({ ...current, [name]: value }));
@@ -86,13 +92,12 @@ export default function InquiryForm() {
     return nextErrors;
   }
 
-  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     const nextErrors = validate();
     setErrors(nextErrors);
 
     if (Object.keys(nextErrors).length > 0) {
+      event.preventDefault();
       setStatus("error");
       setStatusMessage("Please complete the required fields before submitting.");
       return;
@@ -100,37 +105,22 @@ export default function InquiryForm() {
 
     setStatus("submitting");
     setStatusMessage("Sending your inquiry...");
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          ...values,
-          submittedFrom: "contact-page",
-          elapsedMs: Date.now() - startedAt
-        })
-      });
-
-      const result = (await response.json()) as { message?: string; emailSent?: boolean };
-
-      if (!response.ok) {
-        throw new Error("Request failed");
-      }
-
-      setValues(initialValues);
-      setStatus(result.emailSent === false ? "error" : "success");
-      setStatusMessage(
-        result.message || "Inquiry submitted and email sent successfully"
-      );
-    } catch {
-      setStatus("error");
-      setStatusMessage("Submission failed. Please try again or contact us by WhatsApp.");
-    }
   }
 
   return (
-    <form className="quote-form" onSubmit={handleSubmit} noValidate>
+    <form
+      className="quote-form"
+      action="https://formsubmit.co/kloe@powerbasefit.com"
+      method="POST"
+      onSubmit={handleSubmit}
+      noValidate
+    >
+      <input type="hidden" name="_subject" value="New Inquiry from ChinaFreeWeight Website" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://www.chinafreeweight.com/contact?inquiry=sent#inquiry" />
+      <input type="hidden" name="source" value="ChinaFreeWeight contact page" />
+      <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>
         Name <span className="required-mark">*</span>
         <input
