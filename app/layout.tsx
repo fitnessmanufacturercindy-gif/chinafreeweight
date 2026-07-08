@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
+import AnalyticsEvents from "./components/AnalyticsEvents";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -37,6 +39,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="en">
       <head>
@@ -66,7 +70,9 @@ export default function RootLayout({
         {children}
         <SiteFooter />
         <WhatsAppButton />
+        <AnalyticsEvents />
       </body>
+      {gaMeasurementId ? <GoogleAnalytics gaId={gaMeasurementId} /> : null}
     </html>
   );
 }
