@@ -3,3 +3,7 @@
 {"mode":"draft","runId":"2026-07-10T07-05-03-916Z","status":"skipped","reason":"no approved_for_draft","at":"2026-07-10T07:05:03.919Z"}
 {"mode":"commit","runId":"2026-07-10T07-05-04-681Z","status":"skipped","reason":"no approved_for_commit","at":"2026-07-10T07:05:04.683Z"}
 {"mode":"publish","runId":"2026-07-10T07-05-04-726Z","status":"skipped","reason":"auto publish disabled","at":"2026-07-10T07:05:04.727Z"}
+{"mode":"daily","runId":"2026-07-10T14-44-25-055Z","status":"failed","error":"Cannot convert undefined or null to object","at":"2026-07-10T14:44:30.814Z"}
+{"mode":"daily","runId":"2026-07-10T14-44-45-360Z","status":"completed","reportDir":"seo-engine\\reports\\daily\\2026-07-10","at":"2026-07-10T14:44:51.988Z"}
+{"mode":"daily","runId":"2026-07-10T14-45-47-807Z","status":"completed","reportDir":"seo-engine\\reports\\daily\\2026-07-10","at":"2026-07-10T14:46:14.826Z"}
+{"mode":"daily","runId":"2026-07-10T14-47-19-524Z","status":"completed","reportDir":"seo-engine\\reports\\daily\\2026-07-10","at":"2026-07-10T14:47:50.336Z"}

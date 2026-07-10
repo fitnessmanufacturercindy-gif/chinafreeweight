@@ -1,10 +1,10 @@
 {
   "reportType": "daily",
-  "runId": "2026-07-10T07-04-26-080Z",
-  "executionStartedAt": "2026-07-10T07:04:26.081Z",
-  "executionEndedAt": "2026-07-10T07:04:26.095Z",
+  "runId": "2026-07-10T14-47-19-524Z",
+  "executionStartedAt": "2026-07-10T14:47:19.527Z",
+  "executionEndedAt": "2026-07-10T14:47:50.313Z",
   "timezone": "UTC runtime; report includes Beijing time conversion",
-  "beijingTime": "Jul 10, 2026, 3:04:26 p.m. GMT+8",
+  "beijingTime": "Jul 10, 2026, 10:47:50 p.m. GMT+8",
   "projectState": {
     "stack": {
       "framework": "Next.js",
@@ -33,6 +33,60 @@
       ".github\\workflows\\seo-engine-weekly.yml"
     ]
   },
+  "apiStatus": {
+    "gsc": {
+      "label": "Google Search Console",
+      "configured": false,
+      "requiredFor": "自有网站真实查询、点击、展示、平均排名"
+    },
+    "ga4": {
+      "label": "GA4",
+      "configured": false,
+      "requiredFor": "网站真实访问、互动和转化"
+    },
+    "serp": {
+      "label": "SERP API",
+      "configured": false,
+      "requiredFor": "Google 实时排名、SERP 竞争页面、AI Overview/搜索结果证据"
+    },
+    "keywordData": {
+      "label": "Keyword Data API",
+      "configured": false,
+      "requiredFor": "Search Volume、Keyword Difficulty、第三方流量估算"
+    }
+  },
+  "dataSourceNotes": [
+    {
+      "metric": "Google排名",
+      "source": "需要 SERP API",
+      "status": "暂不可用"
+    },
+    {
+      "metric": "自有网站平均排名",
+      "source": "需要 Google Search Console",
+      "status": "暂不可用"
+    },
+    {
+      "metric": "Search Volume",
+      "source": "需要 Google Ads Keyword Planner 或 SEO 工具 API",
+      "status": "暂不可用"
+    },
+    {
+      "metric": "Keyword Difficulty",
+      "source": "需要第三方 SEO 工具 API",
+      "status": "暂不可用"
+    },
+    {
+      "metric": "Traffic Estimate",
+      "source": "属于第三方估算数据，不等同于 GA4 真实访问",
+      "status": "暂不可用"
+    },
+    {
+      "metric": "网站真实访问和转化",
+      "source": "需要 GA4",
+      "status": "暂不可用"
+    }
+  ],
   "keywords": [
     {
       "keyword": "gym accessories",
@@ -41,7 +95,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -51,7 +108,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -61,7 +121,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -71,7 +134,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -81,7 +147,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -91,7 +160,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -101,7 +173,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -111,7 +186,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -121,7 +199,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -131,7 +212,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -141,7 +225,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -151,7 +238,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -161,7 +251,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -171,7 +264,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -181,7 +277,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -191,7 +290,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -201,7 +303,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -211,7 +316,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -221,7 +329,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -231,7 +342,10 @@
       "recommendedPageType": "OEM page",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -241,7 +355,10 @@
       "recommendedPageType": "OEM page",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "High",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     },
     {
@@ -251,7 +368,10 @@
       "recommendedPageType": "category or buying guide",
       "targetMarket": "Global English B2B buyers",
       "commercialValue": "Medium",
-      "competitionLevel": "Estimated / Inferred",
+      "competitionLevel": "暂不可用",
+      "searchVolume": "暂不可用",
+      "keywordDifficulty": "暂不可用",
+      "preciseRanking": "暂不可用",
       "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
     }
   ],
@@ -263,34 +383,106 @@
       "type": "distributor",
       "reasonToMonitor": "Ranks for commercial free weight and gym equipment buying intent in the US market.",
       "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
-      "trafficPages": "Unavailable without SERP or SEO API",
-      "categoryStructure": "Estimated / Inferred",
-      "productStructure": "Estimated / Inferred",
-      "blogStructure": "Estimated / Inferred",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
       "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
       "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
       "geoCoverage": "United States",
-      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
-      "lastScannedAt": "2026-07-10T07:04:26.095Z",
-      "rankingKeywords": "Unavailable without SERP API"
+      "firstDiscoveredAt": "2026-07-10T14:47:21.137Z",
+      "lastScannedAt": "2026-07-10T14:47:21.137Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://ironcompany.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:19.539Z",
+          "methodUsed": "HEAD",
+          "headStatus": 302,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 302,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:19.539Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "domain": "repfitness.com",
       "brand": "REP Fitness",
       "country": "United States",
-      "type": "brand",
-      "reasonToMonitor": "Strong category and product SEO around dumbbells, plates, racks and commercial gym purchasing.",
-      "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
-      "trafficPages": "Unavailable without SERP or SEO API",
-      "categoryStructure": "Estimated / Inferred",
-      "productStructure": "Estimated / Inferred",
-      "blogStructure": "Estimated / Inferred",
-      "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
-      "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
+      "type": "brand / ecommerce",
+      "reasonToMonitor": "Strong product-category SEO can influence buyer expectations for dumbbell comparison, visuals, and category filters.",
+      "relevantPage": "https://repfitness.com/collections/dumbbells",
+      "httpStatus": 200,
+      "observedTitle": "No title captured",
+      "mainProductLines": [
+        "dumbbells"
+      ],
+      "seoKeywordDirection": [
+        "dumbbells",
+        "commercial strength equipment"
+      ],
+      "buyerIntentDirection": [
+        "product comparison",
+        "brand purchase"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
       "geoCoverage": "United States",
-      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
-      "lastScannedAt": "2026-07-10T07:04:26.095Z",
-      "rankingKeywords": "Unavailable without SERP API"
+      "firstDiscoveredAt": "2026-07-10T14:47:23.355Z",
+      "lastScannedAt": "2026-07-10T14:47:23.355Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://repfitness.com/collections/dumbbells",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:21.137Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:21.137Z"
+            }
+          ]
+        },
+        {
+          "url": "https://repfitness.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:21.981Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:21.981Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "domain": "roguefitness.com",
@@ -299,16 +491,43 @@
       "type": "brand/manufacturer",
       "reasonToMonitor": "High visibility for free weights, bumper plates, bars, and strength equipment.",
       "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
-      "trafficPages": "Unavailable without SERP or SEO API",
-      "categoryStructure": "Estimated / Inferred",
-      "productStructure": "Estimated / Inferred",
-      "blogStructure": "Estimated / Inferred",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
       "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
       "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
       "geoCoverage": "United States",
-      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
-      "lastScannedAt": "2026-07-10T07:04:26.095Z",
-      "rankingKeywords": "Unavailable without SERP API"
+      "firstDiscoveredAt": "2026-07-10T14:47:24.891Z",
+      "lastScannedAt": "2026-07-10T14:47:24.891Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://roguefitness.com/",
+          "accessible": false,
+          "checkedAt": "2026-07-10T14:47:24.306Z",
+          "methodUsed": "GET",
+          "headStatus": 403,
+          "getStatus": 403,
+          "message": "HEAD 和 GET 都失败，页面不可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 403,
+              "ok": false,
+              "checkedAt": "2026-07-10T14:47:23.355Z"
+            },
+            {
+              "method": "GET",
+              "status": 403,
+              "ok": false,
+              "checkedAt": "2026-07-10T14:47:24.306Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "domain": "againfaster.com",
@@ -317,16 +536,407 @@
       "type": "brand/distributor",
       "reasonToMonitor": "Covers free weight categories with B2B and gym procurement relevance.",
       "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
-      "trafficPages": "Unavailable without SERP or SEO API",
-      "categoryStructure": "Estimated / Inferred",
-      "productStructure": "Estimated / Inferred",
-      "blogStructure": "Estimated / Inferred",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
       "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
       "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
       "geoCoverage": "United States",
-      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
-      "lastScannedAt": "2026-07-10T07:04:26.095Z",
-      "rankingKeywords": "Unavailable without SERP API"
+      "firstDiscoveredAt": "2026-07-10T14:47:25.795Z",
+      "lastScannedAt": "2026-07-10T14:47:25.795Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://againfaster.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:24.891Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:24.891Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "wavar.com",
+      "brand": "Wavar",
+      "country": "China / Inferred",
+      "type": "manufacturer / supplier",
+      "relevantPage": "https://www.wavar.com/wholesale-dumbbells/",
+      "httpStatus": 200,
+      "observedTitle": "Wholesale Dumbbells Manufacturer | Commercial Gym Dumbbell Supplier",
+      "mainProductLines": [
+        "wholesale dumbbells",
+        "commercial gym dumbbells"
+      ],
+      "seoKeywordDirection": [
+        "wholesale dumbbells manufacturer",
+        "commercial gym dumbbell supplier"
+      ],
+      "buyerIntentDirection": [
+        "bulk order",
+        "commercial gym",
+        "supplier comparison"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Direct B2B manufacturer/supplier intent overlaps with ChinaFreeWeight dumbbell category.",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
+      "geoCoverage": "China / Inferred",
+      "firstDiscoveredAt": "2026-07-10T14:47:29.700Z",
+      "lastScannedAt": "2026-07-10T14:47:29.700Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:25.795Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:25.795Z"
+            }
+          ]
+        },
+        {
+          "url": "https://wavar.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:29.163Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:29.163Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "alohamuscle.com",
+      "brand": "MANTA / Aloha Muscle",
+      "country": "China / Inferred",
+      "type": "manufacturer",
+      "relevantPage": "https://alohamuscle.com/rubber-hex-dumbbells/",
+      "httpStatus": 200,
+      "observedTitle": "Rubber Hex Dumbbells - Manufacturers China MANTA",
+      "mainProductLines": [
+        "rubber hex dumbbells"
+      ],
+      "seoKeywordDirection": [
+        "rubber hex dumbbells",
+        "manufacturers China"
+      ],
+      "buyerIntentDirection": [
+        "factory sourcing",
+        "hex dumbbell product specification"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Dedicated rubber hex dumbbell page targets a specific product intent that PBF currently covers only as part of a broader dumbbell category.",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
+      "geoCoverage": "China / Inferred",
+      "firstDiscoveredAt": "2026-07-10T14:47:36.334Z",
+      "lastScannedAt": "2026-07-10T14:47:36.334Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://alohamuscle.com/rubber-hex-dumbbells/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:29.700Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:29.700Z"
+            }
+          ]
+        },
+        {
+          "url": "https://alohamuscle.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:33.497Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:33.497Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "yanrefitness.com",
+      "brand": "YANRE Fitness",
+      "country": "China / Inferred",
+      "type": "manufacturer / content-led supplier",
+      "relevantPages": [
+        "https://www.yanrefitness.com/rubber-dumbbell/",
+        "https://www.yanrefitness.com/weight-plate/"
+      ],
+      "httpStatus": 200,
+      "observedTitles": [
+        "Rubber Dumbbells Manufacturer",
+        "Best Gym Owner's Weight Plate Buying Guide In 2022"
+      ],
+      "mainProductLines": [
+        "rubber dumbbells",
+        "weight plates"
+      ],
+      "seoKeywordDirection": [
+        "rubber dumbbells manufacturer",
+        "weight plate buying guide"
+      ],
+      "buyerIntentDirection": [
+        "manufacturer sourcing",
+        "gym owner education"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Combines manufacturer-intent product pages with long-form buyer guide content.",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
+      "geoCoverage": "China / Inferred",
+      "firstDiscoveredAt": "2026-07-10T14:47:42.230Z",
+      "lastScannedAt": "2026-07-10T14:47:42.230Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://www.yanrefitness.com/rubber-dumbbell/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:36.334Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:36.334Z"
+            }
+          ]
+        },
+        {
+          "url": "https://www.yanrefitness.com/weight-plate/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:37.743Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:37.743Z"
+            }
+          ]
+        },
+        {
+          "url": "https://yanrefitness.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:40.300Z",
+          "methodUsed": "HEAD",
+          "headStatus": 301,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 301,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:40.300Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "mndfitnessequip.com",
+      "brand": "MND Fitness",
+      "country": "China / Inferred",
+      "type": "factory / manufacturer",
+      "relevantPage": "https://www.mndfitnessequip.com/free-weights/",
+      "httpStatus": 200,
+      "observedTitle": "Wholesale Free Weights Factory and Manufacturers, Suppliers",
+      "mainProductLines": [
+        "free weights"
+      ],
+      "seoKeywordDirection": [
+        "wholesale free weights factory",
+        "free weights manufacturers suppliers"
+      ],
+      "buyerIntentDirection": [
+        "factory sourcing",
+        "wholesale procurement"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Targets broad free weight factory intent and may compete with a future ChinaFreeWeight free weight hub.",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
+      "geoCoverage": "China / Inferred",
+      "firstDiscoveredAt": "2026-07-10T14:47:43.750Z",
+      "lastScannedAt": "2026-07-10T14:47:43.750Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://www.mndfitnessequip.com/free-weights/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:42.230Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:42.230Z"
+            }
+          ]
+        },
+        {
+          "url": "https://mndfitnessequip.com/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:43.037Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:43.037Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "titan.fitness",
+      "brand": "Titan Fitness",
+      "country": "United States",
+      "type": "brand / ecommerce",
+      "relevantPage": "https://titan.fitness/collections/dumbbells",
+      "httpStatus": 200,
+      "observedTitle": "Close Search",
+      "mainProductLines": [
+        "dumbbells"
+      ],
+      "seoKeywordDirection": [
+        "dumbbells",
+        "strength equipment"
+      ],
+      "buyerIntentDirection": [
+        "retail and gym equipment product comparison"
+      ],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Useful reference for category merchandising and product comparison expectations, not a direct China factory competitor.",
+      "trafficPages": "暂不可用",
+      "trafficEstimate": "暂不可用",
+      "categoryStructure": "暂不可用",
+      "productStructure": "暂不可用",
+      "blogStructure": "暂不可用",
+      "geoCoverage": "United States",
+      "firstDiscoveredAt": "2026-07-10T14:47:50.313Z",
+      "lastScannedAt": "2026-07-10T14:47:50.313Z",
+      "rankingKeywords": "暂不可用",
+      "preciseRanking": "暂不可用",
+      "accessChecks": [
+        {
+          "url": "https://titan.fitness/collections/dumbbells",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:43.750Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:43.750Z"
+            }
+          ]
+        },
+        {
+          "url": "https://titan.fitness/",
+          "accessible": true,
+          "checkedAt": "2026-07-10T14:47:49.083Z",
+          "methodUsed": "HEAD",
+          "headStatus": 200,
+          "getStatus": null,
+          "message": "HEAD 请求正常，页面可访问。",
+          "attempts": [
+            {
+              "method": "HEAD",
+              "status": 200,
+              "ok": true,
+              "checkedAt": "2026-07-10T14:47:49.083Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "gaps": [
@@ -404,6 +1014,9 @@
   "success": [
     "Generated daily SEO intelligence data in restricted mode."
   ],
-  "failed": [],
+  "failed": [
+    "https://roguefitness.com/: HEAD 和 GET 都失败，页面不可访问。 HEAD=403 GET=403 at 2026-07-10T14:47:24.306Z"
+  ],
+  "warnings": [],
   "skipped": []
 }
