@@ -18,6 +18,10 @@ const logPath = path.join(engineRoot, "logs", `${new Date().toISOString().slice(
 const success = [];
 const failed = [];
 const skipped = [];
+const warnings = [];
+const requestCache = new Map();
+const headFallbackStatuses = new Set([403, 405, 429]);
+const unavailable = "暂不可用";
 
 function nowIso() {
   return new Date().toISOString();
@@ -33,6 +37,179 @@ function beijingTime(date = new Date()) {
 
 function scoreOpportunity(item) {
   return Object.values(item.prioritySignals || {}).reduce((sum, value) => sum + Number(value || 0), 0);
+}
+
+function isConfigured(...names) {
+  return names.every((name) => Boolean(process.env[name]));
+}
+
+function getApiStatus() {
+  return {
+    gsc: {
+      label: "Google Search Console",
+      configured: isConfigured("GSC_SERVICE_ACCOUNT_JSON", "GSC_SITE_URL"),
+      requiredFor: "自有网站真实查询、点击、展示、平均排名"
+    },
+    ga4: {
+      label: "GA4",
+      configured: isConfigured("GA4_PROPERTY_ID") && (isConfigured("GA4_CLIENT_EMAIL", "GA4_PRIVATE_KEY") || Boolean(process.env.GA4_SERVICE_ACCOUNT_JSON)),
+      requiredFor: "网站真实访问、互动和转化"
+    },
+    serp: {
+      label: "SERP API",
+      configured: isConfigured("SERP_API_PROVIDER", "SERP_API_KEY"),
+      requiredFor: "Google 实时排名、SERP 竞争页面、AI Overview/搜索结果证据"
+    },
+    keywordData: {
+      label: "Keyword Data API",
+      configured: Boolean(process.env.SEO_TOOL_API_KEY || process.env.KEYWORD_DATA_API_KEY || process.env.GOOGLE_ADS_KEYWORD_PLANNER_TOKEN),
+      requiredFor: "Search Volume、Keyword Difficulty、第三方流量估算"
+    }
+  };
+}
+
+function getDataSourceNotes(apiStatus = getApiStatus()) {
+  return [
+    {
+      metric: "Google排名",
+      source: "需要 SERP API",
+      status: apiStatus.serp.configured ? "已配置" : unavailable
+    },
+    {
+      metric: "自有网站平均排名",
+      source: "需要 Google Search Console",
+      status: apiStatus.gsc.configured ? "已配置" : unavailable
+    },
+    {
+      metric: "Search Volume",
+      source: "需要 Google Ads Keyword Planner 或 SEO 工具 API",
+      status: apiStatus.keywordData.configured ? "已配置" : unavailable
+    },
+    {
+      metric: "Keyword Difficulty",
+      source: "需要第三方 SEO 工具 API",
+      status: apiStatus.keywordData.configured ? "已配置" : unavailable
+    },
+    {
+      metric: "Traffic Estimate",
+      source: "属于第三方估算数据，不等同于 GA4 真实访问",
+      status: apiStatus.keywordData.configured ? "已配置" : unavailable
+    },
+    {
+      metric: "网站真实访问和转化",
+      source: "需要 GA4",
+      status: apiStatus.ga4.configured ? "已配置" : unavailable
+    }
+  ];
+}
+
+function normalizeUrl(url) {
+  if (!url) return "";
+  try {
+    return new URL(url.startsWith("http") ? url : `https://${url}`).toString();
+  } catch {
+    return "";
+  }
+}
+
+async function requestUrl(url, method) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000);
+  const checkedAt = nowIso();
+  try {
+    const response = await fetch(url, {
+      method,
+      redirect: "manual",
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "ChinaFreeWeight SEO compatibility checker; +https://seo.chinafreeweight.com",
+        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      }
+    });
+    return { method, status: response.status, ok: response.status >= 200 && response.status <= 399, checkedAt };
+  } catch (error) {
+    return {
+      method,
+      status: null,
+      ok: false,
+      checkedAt,
+      error: error.name === "AbortError" ? "timeout" : "network_error"
+    };
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function checkPageAccess(url) {
+  const normalized = normalizeUrl(url);
+  if (!normalized) {
+    return {
+      url,
+      accessible: false,
+      checkedAt: nowIso(),
+      message: "URL 格式无效。",
+      attempts: []
+    };
+  }
+  if (requestCache.has(normalized)) return requestCache.get(normalized);
+
+  const checkPromise = (async () => {
+    const head = await requestUrl(normalized, "HEAD");
+    if (head.ok) {
+      return {
+        url: normalized,
+        accessible: true,
+        checkedAt: head.checkedAt,
+        methodUsed: "HEAD",
+        headStatus: head.status,
+        getStatus: null,
+        message: "HEAD 请求正常，页面可访问。",
+        attempts: [head]
+      };
+    }
+
+    const shouldFallback = headFallbackStatuses.has(Number(head.status)) || head.error || !head.ok;
+    if (!shouldFallback) {
+      return {
+        url: normalized,
+        accessible: false,
+        checkedAt: head.checkedAt,
+        methodUsed: "HEAD",
+        headStatus: head.status,
+        getStatus: null,
+        message: "HEAD 请求失败。",
+        attempts: [head]
+      };
+    }
+
+    const get = await requestUrl(normalized, "GET");
+    if (get.ok) {
+      return {
+        url: normalized,
+        accessible: true,
+        checkedAt: get.checkedAt,
+        methodUsed: "GET",
+        headStatus: head.status,
+        getStatus: get.status,
+        message: "该页面不支持HEAD请求，但GET访问正常。",
+        attempts: [head, get],
+        warning: true
+      };
+    }
+
+    return {
+      url: normalized,
+      accessible: false,
+      checkedAt: get.checkedAt,
+      methodUsed: "GET",
+      headStatus: head.status,
+      getStatus: get.status,
+      message: "HEAD 和 GET 都失败，页面不可访问。",
+      attempts: [head, get]
+    };
+  })();
+  requestCache.set(normalized, checkPromise);
+  return checkPromise;
 }
 
 function inspectProjectState() {
@@ -71,27 +248,67 @@ function buildKeywordDiscoveries() {
     recommendedPageType: keyword.includes("OEM") || keyword.includes("private label") ? "OEM page" : "category or buying guide",
     targetMarket: "Global English B2B buyers",
     commercialValue: keyword.match(/manufacturer|supplier|wholesale|OEM|private label/i) ? "High" : "Medium",
-    competitionLevel: "Estimated / Inferred",
+    competitionLevel: unavailable,
+    searchVolume: unavailable,
+    keywordDifficulty: unavailable,
+    preciseRanking: unavailable,
     evidenceSource: "Seed keyword configuration; connect SERP API for live ranking evidence."
   }));
 }
 
-function buildCompetitorDiscoveries() {
-  return config.competitors.map((competitor) => ({
-    ...competitor,
-    mainProductLines: "Free weights / strength equipment, inferred from public brand positioning",
-    trafficPages: "Unavailable without SERP or SEO API",
-    categoryStructure: "Estimated / Inferred",
-    productStructure: "Estimated / Inferred",
-    blogStructure: "Estimated / Inferred",
-    seoKeywordDirection: "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
-    buyerIntentDirection: "Gym owner, distributor, strength equipment buyer",
-    geoCoverage: competitor.country,
-    firstDiscoveredAt: nowIso(),
-    lastScannedAt: nowIso(),
-    rankingKeywords: "Unavailable without SERP API",
-    reasonToMonitor: competitor.reasonToMonitor
-  }));
+function readStoredCompetitors() {
+  const competitorDir = path.join(engineRoot, "data", "competitors");
+  return listFilesSafe(competitorDir, ".json").flatMap((file) => {
+    try {
+      const data = readJson(file, {});
+      return Array.isArray(data.competitors) ? data.competitors : [];
+    } catch {
+      return [];
+    }
+  });
+}
+
+function mergeCompetitorSources() {
+  const merged = new Map();
+  for (const competitor of [...config.competitors, ...readStoredCompetitors()]) {
+    if (!competitor.domain) continue;
+    const existing = merged.get(competitor.domain) || {};
+    merged.set(competitor.domain, { ...existing, ...competitor });
+  }
+  return [...merged.values()];
+}
+
+async function buildCompetitorDiscoveries() {
+  const competitors = [];
+  for (const competitor of mergeCompetitorSources()) {
+    const urls = [competitor.relevantPage, ...(competitor.relevantPages || []), `https://${competitor.domain}`].filter(Boolean);
+    const accessChecks = [];
+    for (const url of [...new Set(urls)].slice(0, 3)) {
+      const check = await checkPageAccess(url);
+      accessChecks.push(check);
+      if (check.warning) warnings.push(`${check.url}: ${check.message} HEAD=${check.headStatus || "无"} GET=${check.getStatus || "无"} at ${check.checkedAt}`);
+      if (!check.accessible) failed.push(`${check.url}: ${check.message} HEAD=${check.headStatus || "无"} GET=${check.getStatus || "无"} at ${check.checkedAt}`);
+    }
+    competitors.push({
+      ...competitor,
+      mainProductLines: competitor.mainProductLines || "Free weights / strength equipment, inferred from public brand positioning",
+      trafficPages: unavailable,
+      trafficEstimate: unavailable,
+      categoryStructure: unavailable,
+      productStructure: unavailable,
+      blogStructure: unavailable,
+      seoKeywordDirection: competitor.seoKeywordDirection || "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
+      buyerIntentDirection: competitor.buyerIntentDirection || "Gym owner, distributor, strength equipment buyer",
+      geoCoverage: competitor.country,
+      firstDiscoveredAt: nowIso(),
+      lastScannedAt: nowIso(),
+      rankingKeywords: unavailable,
+      preciseRanking: unavailable,
+      accessChecks,
+      reasonToMonitor: competitor.reasonToMonitor
+    });
+  }
+  return competitors;
 }
 
 function buildContentGaps(projectState, opportunities) {
@@ -107,7 +324,7 @@ function buildContentGaps(projectState, opportunities) {
   }));
 }
 
-function reportMarkdown({ title, projectState, keywords, competitors, gaps, opportunities, issueLinks = [] }) {
+function reportMarkdown({ title, projectState, keywords, competitors, gaps, opportunities, apiStatus, dataSourceNotes, issueLinks = [] }) {
   const lines = [
     `# ${title}`,
     "",
@@ -130,11 +347,15 @@ function reportMarkdown({ title, projectState, keywords, competitors, gaps, oppo
     "",
     "## New Keywords",
     "",
-    ...keywords.slice(0, 20).map((item) => `- ${item.keyword} | ${item.searchIntent} | ${item.buyerStage} | ${item.commercialValue} | ${item.evidenceSource}`),
+    ...keywords.slice(0, 20).map((item) => `- ${item.keyword} | ${item.searchIntent} | ${item.buyerStage} | ${item.commercialValue} | 精确排名: ${item.preciseRanking} | 搜索量: ${item.searchVolume} | 难度: ${item.keywordDifficulty} | ${item.evidenceSource}`),
     "",
     "## New / Monitored Competitors",
     "",
-    ...competitors.map((item) => `- ${item.domain} (${item.country}, ${item.type}) - ${item.reasonToMonitor}`),
+    ...competitors.map((item) => `- ${item.domain} (${item.country}, ${item.type}) - 流量估算: ${item.trafficEstimate} - ${item.reasonToMonitor}`),
+    "",
+    "## Page Access Checks",
+    "",
+    ...competitors.flatMap((item) => (item.accessChecks || []).map((check) => `- ${check.accessible ? "可访问" : "失败"} | ${check.url} | method: ${check.methodUsed || "N/A"} | HEAD: ${check.headStatus || "无"} | GET: ${check.getStatus || "无"} | checked: ${check.checkedAt} | ${check.message}`)),
     "",
     "## Content Gaps",
     "",
@@ -153,14 +374,31 @@ function reportMarkdown({ title, projectState, keywords, competitors, gaps, oppo
     `- Failed: ${failed.join("; ") || "None"}`,
     `- Skipped: ${skipped.join("; ") || "None"}`,
     "",
+    "## Warnings or Compatibility Notes",
+    "",
+    warnings.length ? warnings.map((item) => `- ${item}`).join("\n") : "- None",
+    "",
     "## GitHub Issues",
     "",
     issueLinks.length ? issueLinks.map((link) => `- ${link}`).join("\n") : "- Not created in local or unauthenticated mode.",
     "",
+    "## API Configuration Status",
+    "",
+    ...Object.values(apiStatus).map((item) => `- ${item.label}: ${item.configured ? "已配置" : "未配置"}；用途：${item.requiredFor}`),
+    "",
+    "## Data Source Status",
+    "",
+    ...dataSourceNotes.map((item) => `- ${item.metric}: ${item.status}；${item.source}`),
+    "",
     "## Data Limits",
     "",
     "- Search volume, traffic, keyword difficulty, and ranking positions are not invented.",
-    "- Live SERP, GSC, GA4 and SEO tool data require API configuration listed in SETUP_REQUIRED.md."
+    "- Google排名需要 SERP API。",
+    "- 自有网站平均排名需要 Google Search Console。",
+    "- Search Volume 需要 Google Ads Keyword Planner 或 SEO 工具 API。",
+    "- Keyword Difficulty 需要第三方 SEO 工具 API。",
+    "- Traffic Estimate 属于第三方估算数据，不等同于 GA4 真实访问。",
+    "- 网站真实访问和转化需要 GA4。"
   ];
   return `${lines.join("\n")}\n`;
 }
@@ -202,11 +440,13 @@ async function createRecommendationIssues(opportunities, reportFile) {
   return links;
 }
 
-function writeReport(kind) {
+async function writeReport(kind) {
   const projectState = inspectProjectState();
   const opportunities = readJson(opportunitiesPath, []);
+  const apiStatus = getApiStatus();
+  const dataSourceNotes = getDataSourceNotes(apiStatus);
   const keywords = buildKeywordDiscoveries();
-  const competitors = buildCompetitorDiscoveries();
+  const competitors = await buildCompetitorDiscoveries();
   const gaps = buildContentGaps(projectState, opportunities);
   const date = new Date().toISOString().slice(0, 10);
   const dir = path.join(engineRoot, "reports", kind, date);
@@ -218,21 +458,24 @@ function writeReport(kind) {
     timezone,
     beijingTime: beijingTime(),
     projectState,
+    apiStatus,
+    dataSourceNotes,
     keywords,
     competitors,
     gaps,
     opportunities: opportunities.map((item) => ({ ...item, priorityScore: scoreOpportunity(item) })),
     success,
     failed,
+    warnings,
     skipped
   };
   writeJson(path.join(dir, `${kind}-seo-growth-report.json`), payload);
-  return { dir, payload, projectState, keywords, competitors, gaps, opportunities };
+  return { dir, payload, projectState, apiStatus, dataSourceNotes, keywords, competitors, gaps, opportunities };
 }
 
 async function runReport(kind) {
   success.push(`Generated ${kind} SEO intelligence data in restricted mode.`);
-  const report = writeReport(kind);
+  const report = await writeReport(kind);
   const reportFile = path.relative(root, path.join(report.dir, `${kind}-seo-growth-report.md`));
   const issueLinks = kind === "daily" ? await createRecommendationIssues(report.opportunities, reportFile) : [];
   writeText(
