@@ -1,0 +1,3243 @@
+{
+  "summary": {
+    "checkedAt": "2026-07-10T03:00:59.972Z",
+    "baseUrl": "http://127.0.0.1:3000",
+    "urlCount": 110,
+    "okPages": 110,
+    "abnormalPages": 0,
+    "severityCounts": {
+      "Critical": 0,
+      "High": 0,
+      "Medium": 1,
+      "Low": 0
+    },
+    "autoFixedIssues": 0,
+    "needsHumanReviewIssues": 1
+  },
+  "pages": [
+    {
+      "url": "http://127.0.0.1:3000/",
+      "finalUrl": "http://127.0.0.1:3000/",
+      "status": 200,
+      "ok": true,
+      "type": "home",
+      "loadMs": 1792,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "WebSite"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/contact",
+      "finalUrl": "http://127.0.0.1:3000/contact",
+      "status": 200,
+      "ok": true,
+      "type": "contact",
+      "loadMs": 1447,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "ContactPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/factory",
+      "finalUrl": "http://127.0.0.1:3000/factory",
+      "status": 200,
+      "ok": true,
+      "type": "factory",
+      "loadMs": 617,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells",
+      "status": 200,
+      "ok": true,
+      "type": "product-category",
+      "loadMs": 657,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-heavy-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/tpu-round-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/tpu-small-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/selectorized-adjustable-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-kg",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/tpu-adjustable-dumbbell-lb",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-compact-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-twelve-sided-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-wide",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-full-range"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 652,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/adjustable-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 636,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 634,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 609,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-compact-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-compact-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 654,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-full-range",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-full-range",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 653,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 641,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-heavy-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-heavy-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 624,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-wide",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-hexagonal-dumbbell-wide",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 626,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 627,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-square-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 624,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/cpu-twelve-sided-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/cpu-twelve-sided-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 1180,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/hex-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 631,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 647,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/neoprene-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 635,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 644,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/pu-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 682,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/selectorized-adjustable-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/selectorized-adjustable-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 653,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 630,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/sus304-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 654,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/tpu-adjustable-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/tpu-adjustable-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 663,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-lb",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/tpu-dumbbell-lb",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 690,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/tpu-round-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/tpu-round-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/tpu-small-dumbbell-kg",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/tpu-small-dumbbell-kg",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 681,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+      "finalUrl": "http://127.0.0.1:3000/products/dumbbells/twelve-sided-steel-dumbbell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 1000,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/dumbbells/cast-iron-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/chrome-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/classic-rubber-round-dumbbell",
+        "http://127.0.0.1:3000/products/dumbbells/cpu-dumbbell-kg"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories",
+      "status": 200,
+      "ok": true,
+      "type": "product-category",
+      "loadMs": 685,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle",
+        "http://127.0.0.1:3000/products/gym-accessories/tetragonal-cable-handle",
+        "http://127.0.0.1:3000/products/gym-accessories/tpe-yoga-mat",
+        "http://127.0.0.1:3000/products/gym-accessories/vipr-training-tube",
+        "http://127.0.0.1:3000/products/gym-accessories/yoga-ball",
+        "http://127.0.0.1:3000/products/gym-accessories/bosu-ball",
+        "http://127.0.0.1:3000/products/gym-accessories/aerobic-step",
+        "http://127.0.0.1:3000/products/gym-accessories/compact-aerobic-step"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/aerobic-step",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/aerobic-step",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 662,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/bosu-ball",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/bosu-ball",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 644,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/compact-aerobic-step",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/compact-aerobic-step",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 691,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 642,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 636,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/tetragonal-cable-handle",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/tetragonal-cable-handle",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 657,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/tpe-yoga-mat",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/tpe-yoga-mat",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 618,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/six-side-cable-handle"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/vipr-training-tube",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/vipr-training-tube",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 612,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/gym-accessories/yoga-ball",
+      "finalUrl": "http://127.0.0.1:3000/products/gym-accessories/yoga-ball",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 613,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/gym-accessories/vinyl-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/cast-iron-kettlebell",
+        "http://127.0.0.1:3000/products/gym-accessories/competition-kettlebell"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches",
+      "status": 200,
+      "ok": true,
+      "type": "product-category",
+      "loadMs": 674,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack",
+        "http://127.0.0.1:3000/products/racks-benches/dual-pulley-smith-rack",
+        "http://127.0.0.1:3000/products/racks-benches/custom-home-gym-rack",
+        "http://127.0.0.1:3000/products/racks-benches/storage-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/cable-crossover-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/adjustable-weight-bench",
+        "http://127.0.0.1:3000/products/racks-benches/smith-squat-frame",
+        "http://127.0.0.1:3000/products/racks-benches/half-frame-squat-rack",
+        "http://127.0.0.1:3000/products/racks-benches/cable-cross-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/six-column-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/cable-crossover-machine",
+        "http://127.0.0.1:3000/products/racks-benches/full-frame-squat-rack",
+        "http://127.0.0.1:3000/products/racks-benches/eight-column-training-rack",
+        "http://127.0.0.1:3000/products/racks-benches/wall-mounted-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/smith-cable-crossover-machine",
+        "http://127.0.0.1:3000/products/racks-benches/floor-plate-cable-crossover",
+        "http://127.0.0.1:3000/products/racks-benches/smith-machine",
+        "http://127.0.0.1:3000/products/racks-benches/wall-folding-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/incline-flat-decline-bench",
+        "http://127.0.0.1:3000/products/racks-benches/commercial-adjustable-bench",
+        "http://127.0.0.1:3000/products/racks-benches/heavy-duty-adjustable-bench",
+        "http://127.0.0.1:3000/products/racks-benches/compact-adjustable-bench",
+        "http://127.0.0.1:3000/products/racks-benches/three-in-one-smith-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/smith-dual-pulley-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/olympic-bench-plate-storage",
+        "http://127.0.0.1:3000/products/racks-benches/multi-jungle-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/single-station-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/three-station-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/five-station-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/multi-jungle-training-system"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/adjustable-weight-bench",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/adjustable-weight-bench",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 663,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/cable-cross-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/cable-cross-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 669,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/cable-crossover-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/cable-crossover-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 628,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/cable-crossover-machine",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/cable-crossover-machine",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 648,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/commercial-adjustable-bench",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/commercial-adjustable-bench",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 612,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/compact-adjustable-bench",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/compact-adjustable-bench",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 646,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 650,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/custom-home-gym-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/custom-home-gym-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 652,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/dual-pulley-smith-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/dual-pulley-smith-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 674,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/eight-column-training-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/eight-column-training-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 638,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/five-station-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/five-station-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 646,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/floor-plate-cable-crossover",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/floor-plate-cable-crossover",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 666,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/full-frame-squat-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/full-frame-squat-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 627,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/half-frame-squat-rack",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/half-frame-squat-rack",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 628,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/heavy-duty-adjustable-bench",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/heavy-duty-adjustable-bench",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 628,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 617,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/incline-flat-decline-bench",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/incline-flat-decline-bench",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/multi-jungle-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/multi-jungle-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 647,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/multi-jungle-training-system",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/multi-jungle-training-system",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 655,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/olympic-bench-plate-storage",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/olympic-bench-plate-storage",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 676,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 638,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 655,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/compact-cable-power-rack"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/single-station-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/single-station-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 659,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/six-column-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/six-column-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 626,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/smith-cable-crossover-machine",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/smith-cable-crossover-machine",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 628,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/smith-dual-pulley-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/smith-dual-pulley-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 610,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/smith-machine",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/smith-machine",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 662,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/smith-squat-frame",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/smith-squat-frame",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 645,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/storage-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/storage-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 617,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/three-in-one-smith-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/three-in-one-smith-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 660,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/three-station-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/three-station-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 686,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/wall-folding-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/wall-folding-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 668,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/racks-benches/wall-mounted-functional-trainer",
+      "finalUrl": "http://127.0.0.1:3000/products/racks-benches/wall-mounted-functional-trainer",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 1008,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/racks-benches/private-home-gym-rack-system",
+        "http://127.0.0.1:3000/products/racks-benches/power-rack-functional-trainer",
+        "http://127.0.0.1:3000/products/racks-benches/home-gym-functional-trainer"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates",
+      "status": 200,
+      "ok": true,
+      "type": "product-category",
+      "loadMs": 671,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/black-competition-plate",
+        "http://127.0.0.1:3000/products/weight-plates/solid-steel-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/custom-solid-steel-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/heavy-solid-steel-plate",
+        "http://127.0.0.1:3000/products/weight-plates/gold-steel-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-competition-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cast-iron-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/seven-hole-cast-iron-plate",
+        "http://127.0.0.1:3000/products/weight-plates/spray-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/tpu-olympic-plate",
+        "http://127.0.0.1:3000/products/weight-plates/star-tpu-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-grip-plate",
+        "http://127.0.0.1:3000/products/weight-plates/pu-grip-plate",
+        "http://127.0.0.1:3000/products/weight-plates/pu-color-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-mini-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-olympic-plate",
+        "http://127.0.0.1:3000/products/weight-plates/pu-plate-set",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/four-grip-cpu-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/black-competition-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/black-competition-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 624,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/cast-iron-weight-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/cast-iron-weight-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 626,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 629,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 633,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/cpu-grip-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/cpu-grip-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 632,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/cpu-mini-bumper-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/cpu-mini-bumper-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 619,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/custom-solid-steel-barbell-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/custom-solid-steel-barbell-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 612,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/four-grip-cpu-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/four-grip-cpu-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 638,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 626,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/gold-steel-barbell-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/gold-steel-barbell-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 624,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/heavy-solid-steel-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/heavy-solid-steel-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 613,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/pu-color-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/pu-color-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 629,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/pu-grip-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/pu-grip-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 621,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/pu-plate-set",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/pu-plate-set",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 626,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 621,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/rubber-bumper-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/rubber-bumper-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 594,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/rubber-competition-bumper-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/rubber-competition-bumper-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 653,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/rubber-olympic-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/rubber-olympic-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 629,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 677,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate",
+        "http://127.0.0.1:3000/products/weight-plates/full-rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/seven-hole-cast-iron-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/seven-hole-cast-iron-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 650,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/solid-steel-barbell-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/solid-steel-barbell-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 655,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/spray-weight-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/spray-weight-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/star-tpu-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/star-tpu-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 634,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/products/weight-plates/tpu-olympic-plate",
+      "finalUrl": "http://127.0.0.1:3000/products/weight-plates/tpu-olympic-plate",
+      "status": 200,
+      "ok": true,
+      "type": "product-detail",
+      "loadMs": 620,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/cpu-color-bumper-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-weight-plate",
+        "http://127.0.0.1:3000/products/weight-plates/rubber-barbell-plate"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Product",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/projects",
+      "finalUrl": "http://127.0.0.1:3000/projects",
+      "status": 200,
+      "ok": true,
+      "type": "projects",
+      "loadMs": 640,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/resources",
+      "finalUrl": "http://127.0.0.1:3000/resources",
+      "status": 200,
+      "ok": true,
+      "type": "resources-list",
+      "loadMs": 599,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/resources/evaluate-oem-gym-equipment-factory-china",
+        "http://127.0.0.1:3000/resources/how-to-choose-commercial-dumbbells",
+        "http://127.0.0.1:3000/resources/weight-plates-vs-bumper-plates-b2b-guide"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "CollectionPage",
+        "BreadcrumbList"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/resources/evaluate-oem-gym-equipment-factory-china",
+      "finalUrl": "http://127.0.0.1:3000/resources/evaluate-oem-gym-equipment-factory-china",
+      "status": 200,
+      "ok": true,
+      "type": "resource-detail",
+      "loadMs": 636,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/resources/how-to-choose-commercial-dumbbells",
+        "http://127.0.0.1:3000/resources/weight-plates-vs-bumper-plates-b2b-guide"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/resources/how-to-choose-commercial-dumbbells",
+      "finalUrl": "http://127.0.0.1:3000/resources/how-to-choose-commercial-dumbbells",
+      "status": 200,
+      "ok": true,
+      "type": "resource-detail",
+      "loadMs": 680,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/resources/evaluate-oem-gym-equipment-factory-china",
+        "http://127.0.0.1:3000/resources/weight-plates-vs-bumper-plates-b2b-guide"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:3000/resources/weight-plates-vs-bumper-plates-b2b-guide",
+      "finalUrl": "http://127.0.0.1:3000/resources/weight-plates-vs-bumper-plates-b2b-guide",
+      "status": 200,
+      "ok": true,
+      "type": "resource-detail",
+      "loadMs": 625,
+      "issues": [],
+      "links": [
+        "http://127.0.0.1:3000/",
+        "http://127.0.0.1:3000/contact",
+        "http://127.0.0.1:3000/products/dumbbells",
+        "http://127.0.0.1:3000/products/weight-plates",
+        "http://127.0.0.1:3000/products/racks-benches",
+        "http://127.0.0.1:3000/products/gym-accessories",
+        "http://127.0.0.1:3000/factory",
+        "http://127.0.0.1:3000/resources",
+        "http://127.0.0.1:3000/projects",
+        "http://127.0.0.1:3000/resources/evaluate-oem-gym-equipment-factory-china",
+        "http://127.0.0.1:3000/resources/how-to-choose-commercial-dumbbells"
+      ],
+      "schemaTypes": [
+        "Organization",
+        "Article",
+        "BreadcrumbList",
+        "FAQPage"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "severity": "Medium",
+      "area": "language",
+      "url": "http://127.0.0.1:3000",
+      "message": "No language-prefixed public URLs were found, so independent minor-language page health, canonical, and hreflang coverage cannot be fully verified.",
+      "details": {
+        "needsHumanReview": true
+      },
+      "autoFixable": false,
+      "needsHumanReview": true
+    }
+  ],
+  "autoFixes": {
+    "applied": [],
+    "pullRequests": [],
+    "candidates": []
+  }
+}

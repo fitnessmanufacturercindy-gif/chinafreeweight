@@ -1,0 +1,111 @@
+name: Daily Site Health
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  site-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Build
+        run: npm run build
+
+      - name: Start preview server
+        run: npm run start -- --port 3000 > /tmp/site-health-next.log 2>&1 &
+
+      - name: Wait for preview server
+        run: |
+          for i in {1..60}; do
+            if curl -fsS http://127.0.0.1:3000 >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          cat /tmp/site-health-next.log
+          exit 1
+
+      - name: Run full site health check
+        env:
+          SITE_HEALTH_BASE_URL: http://127.0.0.1:3000
+        run: npm run site:health
+
+      - name: Run Playwright health assertion
+        env:
+          SITE_HEALTH_BASE_URL: http://127.0.0.1:3000
+        run: npm run test:site-health
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-site-health-report
+          path: reports/daily-site-health/
+
+      - name: Create issue for Critical or High findings
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const dir = path.join(process.cwd(), 'reports', 'daily-site-health');
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter((name) => name.endsWith('site-health-report.json')).sort()
+              : [];
+            if (!files.length) return;
+            const report = JSON.parse(fs.readFileSync(path.join(dir, files[files.length - 1]), 'utf8'));
+            const critical = report.summary.severityCounts.Critical || 0;
+            const high = report.summary.severityCounts.High || 0;
+            if (critical + high === 0) return;
+            const body = [
+              `Daily site health found ${critical} Critical and ${high} High issue(s).`,
+              '',
+              `Checked at: ${report.summary.checkedAt}`,
+              `Checked URLs: ${report.summary.urlCount}`,
+              '',
+              'Top findings:',
+              ...report.issues
+                .filter((item) => ['Critical', 'High'].includes(item.severity))
+                .slice(0, 20)
+                .map((item) => `- **${item.severity}** ${item.area}: ${item.message} (${item.url})`),
+              '',
+              'See the workflow artifact for the full Markdown and JSON reports.'
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Daily site health alert - ${new Date().toISOString().slice(0, 10)}`,
+              body,
+              labels: ['site-health', 'automated']
+            });
+
+      - name: Create safe-fix pull request when possible
+        if: always()
+        env:
+          CREATE_PR: "true"
+          GH_TOKEN: ${{ github.token }}
+        run: npm run site:fix-safe

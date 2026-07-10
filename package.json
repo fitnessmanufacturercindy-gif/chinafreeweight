@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1"
+    "start": "next start --hostname 127.0.0.1",
+    "site:health": "node scripts/site-health-check.js",
+    "site:fix-safe": "node scripts/site-auto-fix.js",
+    "test:site-health": "playwright test tests/site-health.spec.js --project=chromium"
   },
   "browserslist": [
     "Chrome >= 111",
@@ -21,6 +24,7 @@
     "react-dom": "19.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
