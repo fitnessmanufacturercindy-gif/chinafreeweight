@@ -1,0 +1,35 @@
+{
+  "reportType": "daily_real_scan",
+  "scanDate": "2026-07-10",
+  "timezone": "Asia/Shanghai",
+  "executionStartedAt": "2026-07-10 15:00 Asia/Shanghai",
+  "executionEndedAt": "2026-07-10 15:34 Asia/Shanghai",
+  "success": [
+    "Google search pages returned 200 for three core B2B queries.",
+    "Accessible competitor pages were checked and recorded.",
+    "Existing ChinaFreeWeight pages were compared against competitor evidence.",
+    "Keywords, competitors, content gaps, briefs, and drafts were saved locally."
+  ],
+  "failed": [
+    "Exact Google ranking positions unavailable without compliant SERP API.",
+    "Search volume, keyword difficulty, and traffic estimates unavailable without SEO/GSC/GA4 APIs."
+  ],
+  "skipped": [
+    "No PR created.",
+    "No production content written.",
+    "No publishing attempted."
+  ],
+  "savedFiles": {
+    "keywords": "seo-engine/data/keywords/2026-07-10-real-scan-keywords.json",
+    "competitors": "seo-engine/data/competitors/2026-07-10-real-scan-competitors.json",
+    "contentGap": "seo-engine/data/content-gap/2026-07-10-real-scan-content-gap.json",
+    "briefs": [
+      "seo-engine/content-briefs/2026-07-10-rubber-hex-dumbbells-manufacturer.md",
+      "seo-engine/content-briefs/2026-07-10-bumper-plate-manufacturer-oem.md"
+    ],
+    "drafts": [
+      "seo-engine/drafts/2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+      "seo-engine/drafts/2026-07-10-bumper-plate-manufacturer-oem-guide.md"
+    ]
+  }
+}

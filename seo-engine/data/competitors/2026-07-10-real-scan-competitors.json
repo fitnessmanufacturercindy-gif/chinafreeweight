@@ -1,0 +1,101 @@
+{
+  "scanDate": "2026-07-10",
+  "timezone": "Asia/Shanghai",
+  "competitors": [
+    {
+      "domain": "wavar.com",
+      "brand": "Wavar",
+      "country": "China / Inferred",
+      "type": "manufacturer / supplier",
+      "relevantPage": "https://www.wavar.com/wholesale-dumbbells/",
+      "httpStatus": 200,
+      "observedTitle": "Wholesale Dumbbells Manufacturer | Commercial Gym Dumbbell Supplier",
+      "mainProductLines": ["wholesale dumbbells", "commercial gym dumbbells"],
+      "seoKeywordDirection": ["wholesale dumbbells manufacturer", "commercial gym dumbbell supplier"],
+      "buyerIntentDirection": ["bulk order", "commercial gym", "supplier comparison"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Direct B2B manufacturer/supplier intent overlaps with ChinaFreeWeight dumbbell category."
+    },
+    {
+      "domain": "alohamuscle.com",
+      "brand": "MANTA / Aloha Muscle",
+      "country": "China / Inferred",
+      "type": "manufacturer",
+      "relevantPage": "https://alohamuscle.com/rubber-hex-dumbbells/",
+      "httpStatus": 200,
+      "observedTitle": "Rubber Hex Dumbbells - Manufacturers China MANTA",
+      "mainProductLines": ["rubber hex dumbbells"],
+      "seoKeywordDirection": ["rubber hex dumbbells", "manufacturers China"],
+      "buyerIntentDirection": ["factory sourcing", "hex dumbbell product specification"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Dedicated rubber hex dumbbell page targets a specific product intent that PBF currently covers only as part of a broader dumbbell category."
+    },
+    {
+      "domain": "yanrefitness.com",
+      "brand": "YANRE Fitness",
+      "country": "China / Inferred",
+      "type": "manufacturer / content-led supplier",
+      "relevantPages": [
+        "https://www.yanrefitness.com/rubber-dumbbell/",
+        "https://www.yanrefitness.com/weight-plate/"
+      ],
+      "httpStatus": 200,
+      "observedTitles": ["Rubber Dumbbells Manufacturer", "Best Gym Owner's Weight Plate Buying Guide In 2022"],
+      "mainProductLines": ["rubber dumbbells", "weight plates"],
+      "seoKeywordDirection": ["rubber dumbbells manufacturer", "weight plate buying guide"],
+      "buyerIntentDirection": ["manufacturer sourcing", "gym owner education"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Combines manufacturer-intent product pages with long-form buyer guide content."
+    },
+    {
+      "domain": "mndfitnessequip.com",
+      "brand": "MND Fitness",
+      "country": "China / Inferred",
+      "type": "factory / manufacturer",
+      "relevantPage": "https://www.mndfitnessequip.com/free-weights/",
+      "httpStatus": 200,
+      "observedTitle": "Wholesale Free Weights Factory and Manufacturers, Suppliers",
+      "mainProductLines": ["free weights"],
+      "seoKeywordDirection": ["wholesale free weights factory", "free weights manufacturers suppliers"],
+      "buyerIntentDirection": ["factory sourcing", "wholesale procurement"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Targets broad free weight factory intent and may compete with a future ChinaFreeWeight free weight hub."
+    },
+    {
+      "domain": "repfitness.com",
+      "brand": "REP Fitness",
+      "country": "United States",
+      "type": "brand / ecommerce",
+      "relevantPage": "https://repfitness.com/collections/dumbbells",
+      "httpStatus": 200,
+      "observedTitle": "No title captured",
+      "mainProductLines": ["dumbbells"],
+      "seoKeywordDirection": ["dumbbells", "commercial strength equipment"],
+      "buyerIntentDirection": ["product comparison", "brand purchase"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Strong product-category SEO can influence buyer expectations for dumbbell comparison, visuals, and category filters."
+    },
+    {
+      "domain": "titan.fitness",
+      "brand": "Titan Fitness",
+      "country": "United States",
+      "type": "brand / ecommerce",
+      "relevantPage": "https://titan.fitness/collections/dumbbells",
+      "httpStatus": 200,
+      "observedTitle": "Close Search",
+      "mainProductLines": ["dumbbells"],
+      "seoKeywordDirection": ["dumbbells", "strength equipment"],
+      "buyerIntentDirection": ["retail and gym equipment product comparison"],
+      "trafficData": "Unavailable",
+      "rankingData": "Unavailable without SERP API",
+      "reasonToMonitor": "Useful reference for category merchandising and product comparison expectations, not a direct China factory competitor."
+    }
+  ],
+  "platformsExcludedAsDirectCompetitors": ["Amazon", "Alibaba", "Made-in-China"],
+  "notes": "Traffic, exact rankings, and search volume were not available without a compliant SERP/SEO API."
+}

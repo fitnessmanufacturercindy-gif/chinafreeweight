@@ -1,0 +1,169 @@
+{
+  "scanDate": "2026-07-10",
+  "timezone": "Asia/Shanghai",
+  "sourceMode": "Live Google query access plus directly accessible competitor pages; no paid SERP API",
+  "googleQueriesChecked": [
+    {
+      "query": "commercial dumbbells manufacturer supplier OEM dumbbells",
+      "status": 200,
+      "evidence": "Google search page returned successfully during local scan.",
+      "rankingPositionData": "Unavailable without SERP API"
+    },
+    {
+      "query": "hex dumbbells manufacturer wholesale rubber hex dumbbells",
+      "status": 200,
+      "evidence": "Google search page returned successfully during local scan.",
+      "rankingPositionData": "Unavailable without SERP API"
+    },
+    {
+      "query": "bumper plate manufacturer Olympic weight plates supplier",
+      "status": 200,
+      "evidence": "Google search page returned successfully during local scan.",
+      "rankingPositionData": "Unavailable without SERP API"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "commercial dumbbells manufacturer",
+      "intent": "B2B sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category page / manufacturer landing page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Google query plus Wavar wholesale dumbbells manufacturer page"
+    },
+    {
+      "keyword": "commercial gym dumbbell supplier",
+      "intent": "supplier comparison",
+      "buyerStage": "decision",
+      "recommendedPageType": "category page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Wavar page title includes Commercial Gym Dumbbell Supplier"
+    },
+    {
+      "keyword": "wholesale dumbbells manufacturer",
+      "intent": "bulk purchase",
+      "buyerStage": "decision",
+      "recommendedPageType": "manufacturer landing page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Wavar wholesale dumbbells page"
+    },
+    {
+      "keyword": "rubber hex dumbbells manufacturer China",
+      "intent": "factory sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "product page / buying guide",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "MANTA rubber hex dumbbells page returned 200"
+    },
+    {
+      "keyword": "hex dumbbells wholesale",
+      "intent": "bulk product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "buying guide",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Google query and accessible competitor page evidence"
+    },
+    {
+      "keyword": "rubber dumbbells manufacturer",
+      "intent": "factory sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "product category page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "YANRE Fitness rubber dumbbell manufacturer page"
+    },
+    {
+      "keyword": "bumper plate manufacturer",
+      "intent": "factory sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "manufacturer landing page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Google query and existing competitor/product category evidence"
+    },
+    {
+      "keyword": "Olympic weight plates supplier",
+      "intent": "supplier comparison",
+      "buyerStage": "decision",
+      "recommendedPageType": "category page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Google query for bumper plate manufacturer Olympic weight plates supplier"
+    },
+    {
+      "keyword": "wholesale free weights factory",
+      "intent": "factory sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "free weights hub",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "MND free weights page title includes Wholesale Free Weights Factory"
+    },
+    {
+      "keyword": "custom logo dumbbells",
+      "intent": "OEM customization",
+      "buyerStage": "decision",
+      "recommendedPageType": "OEM page / product page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Existing PBF dumbbells page plus competitor OEM positioning"
+    },
+    {
+      "keyword": "private label dumbbells",
+      "intent": "brand/OEM sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "OEM guide",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Existing PBF OEM factory guide and Google seed query intent"
+    },
+    {
+      "keyword": "dumbbell set with rack wholesale",
+      "intent": "bundle procurement",
+      "buyerStage": "consideration",
+      "recommendedPageType": "application page / buying guide",
+      "commercialValue": "Medium-High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Buyer intent inferred from commercial dumbbell category pages and PBF rack/product mix"
+    },
+    {
+      "keyword": "urethane dumbbells manufacturer",
+      "intent": "premium product sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "product page",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "PBF dumbbell product range includes PU/TPU; competitor category pages cover dumbbells broadly"
+    },
+    {
+      "keyword": "commercial dumbbell buying guide",
+      "intent": "procurement education",
+      "buyerStage": "consideration",
+      "recommendedPageType": "buying guide",
+      "commercialValue": "Medium-High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Vulcan commercial dumbbells guide style result identified in public search exploration"
+    },
+    {
+      "keyword": "weight plate buying guide",
+      "intent": "procurement education",
+      "buyerStage": "consideration",
+      "recommendedPageType": "buying guide",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "YANRE weight plate buying guide page returned 200"
+    }
+  ],
+  "unavailableMetrics": [
+    "Search volume",
+    "Keyword difficulty",
+    "Exact Google ranking positions",
+    "Historical ranking movement",
+    "Traffic estimates"
+  ]
+}

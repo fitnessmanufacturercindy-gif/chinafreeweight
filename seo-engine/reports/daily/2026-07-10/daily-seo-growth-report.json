@@ -1,0 +1,409 @@
+{
+  "reportType": "daily",
+  "runId": "2026-07-10T07-04-26-080Z",
+  "executionStartedAt": "2026-07-10T07:04:26.081Z",
+  "executionEndedAt": "2026-07-10T07:04:26.095Z",
+  "timezone": "UTC runtime; report includes Beijing time conversion",
+  "beijingTime": "Jul 10, 2026, 3:04:26 p.m. GMT+8",
+  "projectState": {
+    "stack": {
+      "framework": "Next.js",
+      "nextVersion": "^15.5.7",
+      "packageManager": "npm",
+      "deployment": "Vercel / Next.js"
+    },
+    "contentStorage": {
+      "resourcesDirectory": "content/resources",
+      "resourceCount": 3,
+      "productDataFiles": [
+        "app\\products\\dumbbells\\productData.ts",
+        "app\\products\\gym-accessories\\productData.ts",
+        "app\\products\\racks-benches\\productData.ts",
+        "app\\products\\weight-plates\\productData.ts"
+      ],
+      "sitemap": "app/sitemap.ts",
+      "metadata": "app/layout.tsx plus page metadata",
+      "schema": "app/site.ts organization JSON-LD",
+      "multilingualRoutes": "No dedicated locale route detected"
+    },
+    "workflows": [
+      ".github\\workflows\\seo-engine-approval.yml",
+      ".github\\workflows\\seo-engine-daily.yml",
+      ".github\\workflows\\seo-engine-monthly.yml",
+      ".github\\workflows\\seo-engine-weekly.yml"
+    ]
+  },
+  "keywords": [
+    {
+      "keyword": "gym accessories",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "gym free weight",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "commercial free weights",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "commercial dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "dumbbell manufacturer",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "dumbbell supplier",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "wholesale dumbbells",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "hex dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "rubber hex dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "urethane dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "chrome dumbbell",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "weight plates",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "weight plate manufacturer",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "weight plate supplier",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "bumper plates",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "bumper plate manufacturer",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "Olympic weight plates",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "barbell manufacturer",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "free weight equipment supplier",
+      "searchIntent": "commercial sourcing",
+      "buyerStage": "decision",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "OEM page",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "private label dumbbells",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "OEM page",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "High",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    },
+    {
+      "keyword": "gym equipment distributor",
+      "searchIntent": "product research",
+      "buyerStage": "consideration",
+      "recommendedPageType": "category or buying guide",
+      "targetMarket": "Global English B2B buyers",
+      "commercialValue": "Medium",
+      "competitionLevel": "Estimated / Inferred",
+      "evidenceSource": "Seed keyword configuration; connect SERP API for live ranking evidence."
+    }
+  ],
+  "competitors": [
+    {
+      "domain": "ironcompany.com",
+      "brand": "IRON COMPANY",
+      "country": "United States",
+      "type": "distributor",
+      "reasonToMonitor": "Ranks for commercial free weight and gym equipment buying intent in the US market.",
+      "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
+      "trafficPages": "Unavailable without SERP or SEO API",
+      "categoryStructure": "Estimated / Inferred",
+      "productStructure": "Estimated / Inferred",
+      "blogStructure": "Estimated / Inferred",
+      "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
+      "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
+      "geoCoverage": "United States",
+      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
+      "lastScannedAt": "2026-07-10T07:04:26.095Z",
+      "rankingKeywords": "Unavailable without SERP API"
+    },
+    {
+      "domain": "repfitness.com",
+      "brand": "REP Fitness",
+      "country": "United States",
+      "type": "brand",
+      "reasonToMonitor": "Strong category and product SEO around dumbbells, plates, racks and commercial gym purchasing.",
+      "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
+      "trafficPages": "Unavailable without SERP or SEO API",
+      "categoryStructure": "Estimated / Inferred",
+      "productStructure": "Estimated / Inferred",
+      "blogStructure": "Estimated / Inferred",
+      "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
+      "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
+      "geoCoverage": "United States",
+      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
+      "lastScannedAt": "2026-07-10T07:04:26.095Z",
+      "rankingKeywords": "Unavailable without SERP API"
+    },
+    {
+      "domain": "roguefitness.com",
+      "brand": "Rogue Fitness",
+      "country": "United States",
+      "type": "brand/manufacturer",
+      "reasonToMonitor": "High visibility for free weights, bumper plates, bars, and strength equipment.",
+      "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
+      "trafficPages": "Unavailable without SERP or SEO API",
+      "categoryStructure": "Estimated / Inferred",
+      "productStructure": "Estimated / Inferred",
+      "blogStructure": "Estimated / Inferred",
+      "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
+      "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
+      "geoCoverage": "United States",
+      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
+      "lastScannedAt": "2026-07-10T07:04:26.095Z",
+      "rankingKeywords": "Unavailable without SERP API"
+    },
+    {
+      "domain": "againfaster.com",
+      "brand": "Again Faster",
+      "country": "United States",
+      "type": "brand/distributor",
+      "reasonToMonitor": "Covers free weight categories with B2B and gym procurement relevance.",
+      "mainProductLines": "Free weights / strength equipment, inferred from public brand positioning",
+      "trafficPages": "Unavailable without SERP or SEO API",
+      "categoryStructure": "Estimated / Inferred",
+      "productStructure": "Estimated / Inferred",
+      "blogStructure": "Estimated / Inferred",
+      "seoKeywordDirection": "Commercial gym equipment, dumbbells, plates, racks, strength equipment",
+      "buyerIntentDirection": "Gym owner, distributor, strength equipment buyer",
+      "geoCoverage": "United States",
+      "firstDiscoveredAt": "2026-07-10T07:04:26.095Z",
+      "lastScannedAt": "2026-07-10T07:04:26.095Z",
+      "rankingKeywords": "Unavailable without SERP API"
+    }
+  ],
+  "gaps": [
+    {
+      "gap": "commercial hex dumbbells",
+      "competitorEvidence": [
+        "Existing site has a commercial dumbbell guide but no dedicated commercial hex dumbbell buying guide.",
+        "Seed competitor set covers dumbbell and commercial gym equipment categories; live SERP API evidence is required before final publication."
+      ],
+      "existingChinaFreeWeightPage": "Existing resources cover broad dumbbell / plate buying guides but this specific page intent is not dedicated.",
+      "recommendedAction": "Create content brief after approval",
+      "priority": 89,
+      "status": "recommended"
+    },
+    {
+      "gap": "bumper plate manufacturer",
+      "competitorEvidence": [
+        "Existing weight plate guide explains plate differences but does not fully cover manufacturer/OEM supplier intent.",
+        "Product data contains weight plate products that can support internal links from a stronger manufacturer page."
+      ],
+      "existingChinaFreeWeightPage": "Existing resources cover broad dumbbell / plate buying guides but this specific page intent is not dedicated.",
+      "recommendedAction": "Upgrade or create category/manufacturer page",
+      "priority": 89,
+      "status": "recommended"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "commercial-hex-dumbbell-buying-guide",
+      "status": "recommended",
+      "keyword": "commercial hex dumbbells",
+      "intent": "B2B buyers comparing hex dumbbells for gyms, wholesale programs, OEM branding, packaging, and shipment planning.",
+      "buyerStage": "consideration",
+      "recommendedPageType": "buying_guide",
+      "targetMarket": "United States, Canada, United Kingdom",
+      "evidence": [
+        "Existing site has a commercial dumbbell guide but no dedicated commercial hex dumbbell buying guide.",
+        "Seed competitor set covers dumbbell and commercial gym equipment categories; live SERP API evidence is required before final publication."
+      ],
+      "prioritySignals": {
+        "b2bInquiryValue": 28,
+        "coreProductRelevance": 20,
+        "searchAiCitationOpportunity": 12,
+        "contentGapStrength": 13,
+        "rankingFeasibility": 7,
+        "geoExpansionValue": 4,
+        "internalLinkValue": 5
+      },
+      "priorityScore": 89
+    },
+    {
+      "id": "bumper-plates-manufacturer-oem-page",
+      "status": "recommended",
+      "keyword": "bumper plate manufacturer",
+      "intent": "Importers and gym equipment brands looking for a factory supplier for bumper plates and Olympic plates.",
+      "buyerStage": "decision",
+      "recommendedPageType": "category_page",
+      "targetMarket": "United States, Germany, France, Middle East",
+      "evidence": [
+        "Existing weight plate guide explains plate differences but does not fully cover manufacturer/OEM supplier intent.",
+        "Product data contains weight plate products that can support internal links from a stronger manufacturer page."
+      ],
+      "prioritySignals": {
+        "b2bInquiryValue": 30,
+        "coreProductRelevance": 19,
+        "searchAiCitationOpportunity": 11,
+        "contentGapStrength": 14,
+        "rankingFeasibility": 6,
+        "geoExpansionValue": 4,
+        "internalLinkValue": 5
+      },
+      "priorityScore": 89
+    }
+  ],
+  "success": [
+    "Generated daily SEO intelligence data in restricted mode."
+  ],
+  "failed": [],
+  "skipped": []
+}

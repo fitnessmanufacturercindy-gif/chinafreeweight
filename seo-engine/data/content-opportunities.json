@@ -1,0 +1,46 @@
+[
+  {
+    "id": "commercial-hex-dumbbell-buying-guide",
+    "status": "recommended",
+    "keyword": "commercial hex dumbbells",
+    "intent": "B2B buyers comparing hex dumbbells for gyms, wholesale programs, OEM branding, packaging, and shipment planning.",
+    "buyerStage": "consideration",
+    "recommendedPageType": "buying_guide",
+    "targetMarket": "United States, Canada, United Kingdom",
+    "evidence": [
+      "Existing site has a commercial dumbbell guide but no dedicated commercial hex dumbbell buying guide.",
+      "Seed competitor set covers dumbbell and commercial gym equipment categories; live SERP API evidence is required before final publication."
+    ],
+    "prioritySignals": {
+      "b2bInquiryValue": 28,
+      "coreProductRelevance": 20,
+      "searchAiCitationOpportunity": 12,
+      "contentGapStrength": 13,
+      "rankingFeasibility": 7,
+      "geoExpansionValue": 4,
+      "internalLinkValue": 5
+    }
+  },
+  {
+    "id": "bumper-plates-manufacturer-oem-page",
+    "status": "recommended",
+    "keyword": "bumper plate manufacturer",
+    "intent": "Importers and gym equipment brands looking for a factory supplier for bumper plates and Olympic plates.",
+    "buyerStage": "decision",
+    "recommendedPageType": "category_page",
+    "targetMarket": "United States, Germany, France, Middle East",
+    "evidence": [
+      "Existing weight plate guide explains plate differences but does not fully cover manufacturer/OEM supplier intent.",
+      "Product data contains weight plate products that can support internal links from a stronger manufacturer page."
+    ],
+    "prioritySignals": {
+      "b2bInquiryValue": 30,
+      "coreProductRelevance": 19,
+      "searchAiCitationOpportunity": 11,
+      "contentGapStrength": 14,
+      "rankingFeasibility": 6,
+      "geoExpansionValue": 4,
+      "internalLinkValue": 5
+    }
+  }
+]

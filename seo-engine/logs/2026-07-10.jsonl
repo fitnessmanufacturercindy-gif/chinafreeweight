@@ -1,0 +1,5 @@
+{"mode":"daily","runId":"2026-07-10T07-03-45-076Z","status":"completed","reportDir":"seo-engine\\reports\\daily\\2026-07-10","at":"2026-07-10T07:03:45.153Z"}
+{"mode":"daily","runId":"2026-07-10T07-04-26-080Z","status":"completed","reportDir":"seo-engine\\reports\\daily\\2026-07-10","at":"2026-07-10T07:04:26.135Z"}
+{"mode":"draft","runId":"2026-07-10T07-05-03-916Z","status":"skipped","reason":"no approved_for_draft","at":"2026-07-10T07:05:03.919Z"}
+{"mode":"commit","runId":"2026-07-10T07-05-04-681Z","status":"skipped","reason":"no approved_for_commit","at":"2026-07-10T07:05:04.683Z"}
+{"mode":"publish","runId":"2026-07-10T07-05-04-726Z","status":"skipped","reason":"auto publish disabled","at":"2026-07-10T07:05:04.727Z"}

@@ -1,0 +1,82 @@
+{
+  "scanDate": "2026-07-10",
+  "timezone": "Asia/Shanghai",
+  "contentGaps": [
+    {
+      "id": "rubber-hex-dumbbells-manufacturer",
+      "gap": "Dedicated rubber hex dumbbells manufacturer page / guide",
+      "missingKeywords": ["rubber hex dumbbells manufacturer China", "hex dumbbells wholesale", "commercial hex dumbbells"],
+      "missingQuestions": [
+        "What weight range should a distributor stock for rubber hex dumbbells?",
+        "How should rubber smell, handle knurling, and head bonding be checked?",
+        "What packaging protects hex dumbbells in bulk export orders?"
+      ],
+      "existingChinaFreeWeightPage": "/products/dumbbells",
+      "existingWeakness": "PBF has a strong broad dumbbell category page, but hex dumbbells are not isolated into a dedicated procurement guide with RFQ checklist, QC details, weight range planning, and distributor-specific advice.",
+      "competitorEvidence": [
+        {
+          "domain": "alohamuscle.com",
+          "url": "https://alohamuscle.com/rubber-hex-dumbbells/",
+          "evidence": "Dedicated rubber hex dumbbells manufacturer page returned 200."
+        },
+        {
+          "domain": "wavar.com",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "evidence": "Wholesale dumbbells manufacturer page returned 200 and targets supplier/manufacturer intent."
+        }
+      ],
+      "recommendedAction": "Create a buying guide or product-support page for commercial rubber hex dumbbells and link it from /products/dumbbells.",
+      "priority": 92,
+      "status": "approved_for_draft"
+    },
+    {
+      "id": "bumper-plate-manufacturer-oem",
+      "gap": "Bumper plate manufacturer and OEM sourcing page",
+      "missingKeywords": ["bumper plate manufacturer", "Olympic weight plates supplier", "custom logo bumper plates"],
+      "missingQuestions": [
+        "How should buyers choose between rubber bumper, CPU bumper, and competition bumper plates?",
+        "What center insert and weight tolerance checks matter before shipment?",
+        "What OEM logo and color options require sample confirmation?"
+      ],
+      "existingChinaFreeWeightPage": "/products/weight-plates",
+      "existingWeakness": "The existing weight plates page covers manufacturer and product categories, but the manufacturer/OEM bumper plate intent could be made more explicit with a focused sourcing guide and comparison table.",
+      "competitorEvidence": [
+        {
+          "domain": "yanrefitness.com",
+          "url": "https://www.yanrefitness.com/weight-plate/",
+          "evidence": "Weight plate buying guide page returned 200."
+        },
+        {
+          "domain": "mndfitnessequip.com",
+          "url": "https://www.mndfitnessequip.com/free-weights/",
+          "evidence": "Wholesale free weights factory page returned 200."
+        }
+      ],
+      "recommendedAction": "Create a bumper plate manufacturer/OEM brief or upgrade /products/weight-plates with a dedicated bumper plate procurement section.",
+      "priority": 90,
+      "status": "approved_for_draft"
+    },
+    {
+      "id": "free-weight-equipment-manufacturer-hub",
+      "gap": "Free weight equipment manufacturer hub",
+      "missingKeywords": ["free weight equipment manufacturer", "wholesale free weights factory", "free weight equipment supplier"],
+      "missingQuestions": [
+        "How can buyers source dumbbells, plates, bars, racks, and accessories from one supplier?",
+        "What information is needed for a mixed-container RFQ?",
+        "How should importers compare factory-direct pricing against product quality and packaging?"
+      ],
+      "existingChinaFreeWeightPage": "/",
+      "existingWeakness": "The site has product categories and factory content, but not a single hub that maps the full free weight supply program for importers, distributors, and gym projects.",
+      "competitorEvidence": [
+        {
+          "domain": "mndfitnessequip.com",
+          "url": "https://www.mndfitnessequip.com/free-weights/",
+          "evidence": "Targets wholesale free weights factory / manufacturers / suppliers language."
+        }
+      ],
+      "recommendedAction": "Plan a free weight equipment manufacturer hub after the two higher-priority product-intent pages.",
+      "priority": 84,
+      "status": "recommended"
+    }
+  ]
+}
