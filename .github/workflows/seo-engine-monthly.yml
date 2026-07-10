@@ -1,0 +1,40 @@
+name: Monthly SEO Strategy Review
+
+on:
+  schedule:
+    # Day 1 11:00 Beijing time = Day 1 03:00 UTC.
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  monthly-seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate monthly SEO strategy review
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run seo:monthly
+
+      - name: Upload SEO reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-seo-strategy-review
+          path: seo-engine/reports/monthly/

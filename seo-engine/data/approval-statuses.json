@@ -1,0 +1,16 @@
+{
+  "items": [],
+  "allowedStatuses": [
+    "discovered",
+    "recommended",
+    "approved_for_draft",
+    "draft_generated",
+    "approved_for_commit",
+    "pull_request_created",
+    "approved_for_publish",
+    "published",
+    "rejected"
+  ],
+  "lastUpdated": null,
+  "notes": "GitHub Issue labels are the primary approval source. This file is a fallback for local or restricted-mode runs."
+}

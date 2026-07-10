@@ -1,0 +1,40 @@
+name: Weekly Competitive Intelligence Report
+
+on:
+  schedule:
+    # Monday 08:30 Beijing time = Monday 00:30 UTC.
+    - cron: "30 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  weekly-seo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate weekly competitive intelligence report
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run seo:weekly
+
+      - name: Upload SEO reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-competitive-intelligence-report
+          path: seo-engine/reports/weekly/

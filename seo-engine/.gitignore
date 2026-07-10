@@ -1,0 +1,6 @@
+reports/
+logs/
+competitors/latest-competitors.json
+keywords/latest-keywords.json
+content-gaps/latest-content-gaps.json
+drafts/*.md

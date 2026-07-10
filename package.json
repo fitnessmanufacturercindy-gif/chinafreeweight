@@ -5,7 +5,14 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1"
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "seo:daily": "node seo-engine/scripts/run-seo-engine.mjs --mode daily",
+    "seo:weekly": "node seo-engine/scripts/run-seo-engine.mjs --mode weekly",
+    "seo:monthly": "node seo-engine/scripts/run-seo-engine.mjs --mode monthly",
+    "seo:draft": "node seo-engine/scripts/run-seo-engine.mjs --mode draft",
+    "seo:commit": "node seo-engine/scripts/run-seo-engine.mjs --mode commit",
+    "seo:publish": "node seo-engine/scripts/run-seo-engine.mjs --mode publish"
   },
   "browserslist": [
     "Chrome >= 111",

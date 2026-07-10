@@ -1,0 +1,134 @@
+{
+  "site": {
+    "domain": "www.chinafreeweight.com",
+    "baseUrl": "https://www.chinafreeweight.com",
+    "brand": "PowerBaseFit",
+    "positioning": "China-based B2B free weight manufacturer and supplier for importers, distributors, commercial gyms, OEM and private label buyers"
+  },
+  "productCategories": [
+    {
+      "name": "Commercial Dumbbells",
+      "coreKeywords": ["commercial dumbbells", "dumbbell manufacturer", "wholesale dumbbells", "OEM dumbbells"]
+    },
+    {
+      "name": "Hex Dumbbells",
+      "coreKeywords": ["hex dumbbells", "rubber hex dumbbells", "hex dumbbell supplier"]
+    },
+    {
+      "name": "Weight Plates",
+      "coreKeywords": ["weight plates", "weight plate manufacturer", "Olympic weight plates", "bumper plates"]
+    },
+    {
+      "name": "Barbells and Free Weight Storage",
+      "coreKeywords": ["barbell manufacturer", "free weight storage", "gym equipment distributor"]
+    },
+    {
+      "name": "OEM / ODM / Private Label",
+      "coreKeywords": ["private label dumbbells", "OEM free weights", "custom logo dumbbells", "factory price gym equipment"]
+    }
+  ],
+  "targetCountries": ["United States", "Canada", "United Kingdom", "Germany", "France", "Spain", "Portugal", "Saudi Arabia", "United Arab Emirates", "Australia"],
+  "targetLanguages": ["en", "es", "fr", "ar", "pt"],
+  "seedKeywords": [
+    "gym accessories",
+    "gym free weight",
+    "commercial free weights",
+    "commercial dumbbells",
+    "dumbbell manufacturer",
+    "dumbbell supplier",
+    "wholesale dumbbells",
+    "hex dumbbells",
+    "rubber hex dumbbells",
+    "urethane dumbbells",
+    "chrome dumbbell",
+    "weight plates",
+    "weight plate manufacturer",
+    "weight plate supplier",
+    "bumper plates",
+    "bumper plate manufacturer",
+    "Olympic weight plates",
+    "barbell manufacturer",
+    "free weight equipment supplier",
+    "OEM dumbbells",
+    "private label dumbbells",
+    "gym equipment distributor"
+  ],
+  "competitors": [
+    {
+      "domain": "ironcompany.com",
+      "brand": "IRON COMPANY",
+      "country": "United States",
+      "type": "distributor",
+      "reasonToMonitor": "Ranks for commercial free weight and gym equipment buying intent in the US market."
+    },
+    {
+      "domain": "repfitness.com",
+      "brand": "REP Fitness",
+      "country": "United States",
+      "type": "brand",
+      "reasonToMonitor": "Strong category and product SEO around dumbbells, plates, racks and commercial gym purchasing."
+    },
+    {
+      "domain": "roguefitness.com",
+      "brand": "Rogue Fitness",
+      "country": "United States",
+      "type": "brand/manufacturer",
+      "reasonToMonitor": "High visibility for free weights, bumper plates, bars, and strength equipment."
+    },
+    {
+      "domain": "againfaster.com",
+      "brand": "Again Faster",
+      "country": "United States",
+      "type": "brand/distributor",
+      "reasonToMonitor": "Covers free weight categories with B2B and gym procurement relevance."
+    }
+  ],
+  "excludedDomains": ["amazon.com", "alibaba.com", "made-in-china.com", "ebay.com", "walmart.com"],
+  "limits": {
+    "dailySearchLimit": 25,
+    "dailyContentSuggestions": 3,
+    "weeklyCompetitorLimit": 10
+  },
+  "priorityScoring": {
+    "b2bInquiryValue": 30,
+    "coreProductRelevance": 20,
+    "searchAiCitationOpportunity": 15,
+    "contentGapStrength": 15,
+    "rankingFeasibility": 10,
+    "geoExpansionValue": 5,
+    "internalLinkValue": 5
+  },
+  "approval": {
+    "defaultMode": "github_issue_labels",
+    "labels": [
+      "seo-recommended",
+      "approved-for-draft",
+      "draft-generated",
+      "approved-for-commit",
+      "pull-request-created",
+      "approved-for-publish",
+      "hold",
+      "rejected",
+      "published",
+      "failed"
+    ],
+    "statuses": [
+      "discovered",
+      "recommended",
+      "approved_for_draft",
+      "draft_generated",
+      "approved_for_commit",
+      "pull_request_created",
+      "approved_for_publish",
+      "published",
+      "rejected"
+    ]
+  },
+  "apiProviders": {
+    "serp": "SERP_API_PROVIDER",
+    "googleSearchConsole": "GSC_SERVICE_ACCOUNT_JSON",
+    "googleAnalytics": "GA4_PROPERTY_ID",
+    "github": "GITHUB_TOKEN",
+    "vercel": "VERCEL_TOKEN"
+  }
+}
