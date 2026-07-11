@@ -1,0 +1,53 @@
+{
+  "provider": "dataforseo",
+  "scope": {
+    "seedKeywords": [
+      "gym accessories",
+      "gym free weight",
+      "dumbbells",
+      "weight plates",
+      "bumper plates",
+      "hex dumbbells",
+      "chrome dumbbell"
+    ],
+    "maxKeywordExpansion": 30,
+    "maxSerpTasks": 20,
+    "retry": 1
+  },
+  "scannedAt": "2026-07-11T13:00:38.821Z",
+  "requestCount": 4,
+  "taskCount": 28,
+  "estimatedCostUsd": 0,
+  "keywords": [],
+  "serpSnapshots": [],
+  "competitors": [],
+  "competitorPages": [],
+  "contentGaps": [],
+  "peopleAlsoAsk": [],
+  "relatedSearches": [],
+  "autocomplete": [],
+  "duplicates": [],
+  "failures": [
+    {
+      "endpoint": "related_keywords",
+      "status": "failed",
+      "message": "403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+    },
+    {
+      "endpoint": "keyword_suggestions",
+      "status": "failed",
+      "message": "403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+    },
+    {
+      "endpoint": "autocomplete",
+      "status": "failed",
+      "message": "403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+    },
+    {
+      "endpoint": "organic_serp",
+      "status": "failed",
+      "message": "403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+    }
+  ],
+  "rawStatus": []
+}
