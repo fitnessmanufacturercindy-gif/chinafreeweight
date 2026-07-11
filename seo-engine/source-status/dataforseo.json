@@ -4,7 +4,7 @@
   "category": "SEO 数据平台",
   "enabled": true,
   "connected": false,
-  "lastSync": "2026-07-11T13:01:07.592Z",
+  "lastSync": "2026-07-11T13:01:18.028Z",
   "status": "error",
   "error": "related_keywords: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；keyword_suggestions: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；autocomplete: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；organic_serp: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
   "nextSync": "手动小规模测试",
