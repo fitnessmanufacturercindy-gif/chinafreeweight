@@ -1,18 +1,26 @@
 {
-    "duplicatePageRisk":  "低：推荐动作是更新已有页面，不是创建重复页面。",
-    "id":  "seo-engine-drafts-2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
-    "updatedAt":  "2026-07-11T00:11:02.4298297Z",
-    "draftPath":  "seo-engine/drafts/2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "buyerIntent":  [
+                        "Manufacturer",
+                        "Supplier",
+                        "OEM",
+                        "Distributor",
+                        "Gym Owner"
+                    ],
     "rationale":  [
-                      "标题和正文识别到产品支持和制造商采购意图。",
-                      "主题精确匹配现有 Hex Dumbbell 产品页。",
-                      "更新现有产品页比新建普通资源文章更能降低关键词内耗。"
+                      "Google SERP Pattern 主导类型为 Manufacturer（40%），优先于内容类型判断。",
+                      "Search Intent：Buyer Intent；Buyer Intent：Manufacturer, Supplier, OEM, Distributor, Gym Owner；Commercial Value：High。",
+                      "虽然站内有 Hex Dumbbell 产品页，但 SERP 中 Manufacturer/Supplier 结果是最强单一簇，不应自动推荐 Product。",
+                      "当前正式站没有 /manufacturer 路由，因此必须人工确认后才能进入下一步。"
                   ],
-    "targetExistingPage":  "/products/dumbbells/hex-dumbbell-kg",
-    "contentType":  "Product Support Content",
-    "detectedType":  "Product Support Content",
-    "status":  "analyzed",
-    "keywordConflictRisk":  "低到中：建议更新现有 Hex Dumbbell 产品页，避免另建页面抢同一关键词。",
+    "id":  "seo-engine-drafts-2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "recommendedDirectory":  "app/manufacturer/[slug]/page.tsx（当前正式站尚未支持，需要人工确认后再进入下一步）",
+    "keywordConflictRisk":  "中：Manufacturer 页面会与 Hex Dumbbell 产品页共享核心词，需要用 factory/manufacturer/OEM sourcing 差异化。",
+    "recommendedUrl":  "/manufacturer/rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands",
+    "validationIssues":  [
+                             "当前正式站没有 /manufacturer 路由。",
+                             "SERP 为混合型，主导类型未达到 80%，需要人工确认。",
+                             "存在与 /products/dumbbells/hex-dumbbell-kg 的关键词内耗风险。"
+                         ],
     "recommendedInternalLinks":  [
                                      "/factory",
                                      "/products/dumbbells",
@@ -20,8 +28,107 @@
                                      "/resources/how-to-choose-commercial-dumbbells",
                                      "/contact"
                                  ],
-    "seoImpact":  "建议增强现有产品页的制造商、规格、OEM、包装和 RFQ 信息，提高商业意图覆盖。",
-    "manualReviewRequired":  false,
+    "seoImpact":  "建议作为 Manufacturer/OEM 落地页候选，不再自动放入 Product；PR2-B 前必须人工确认目标架构。",
+    "searchIntent":  "Buyer Intent",
+    "confidence":  70,
+    "recommendedSlug":  "rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands",
+    "duplicatePageRisk":  "中：当前没有 /manufacturer 路由，但与现有产品页主题接近。",
+    "detectedType":  "Manufacturer Landing Page",
+    "publishAction":  "manual_review",
+    "updatedAt":  "2026-07-11T00:28:30.6459508Z",
+    "serpPattern":  {
+                        "query":  "rubber hex dumbbells manufacturer",
+                        "top10":  [
+                                      {
+                                          "position":  1,
+                                          "title":  "Hex Dumbbell Manufacturer - YR Fitness",
+                                          "url":  "https://www.yanrefitness.com/hex-dumbbells-manufacturer/",
+                                          "reason":  "Manufacturer page targeting hex dumbbell factory/sourcing intent.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  2,
+                                          "title":  "Hex Dumbbells | Commercial Grade Rubber Coated \u0026 Cast Iron",
+                                          "url":  "https://www.topfitness.com/collections/hex-dumbbells",
+                                          "reason":  "Collection/category page.",
+                                          "pageType":  "Category"
+                                      },
+                                      {
+                                          "position":  3,
+                                          "title":  "Rubber Hex Dumbbells - Dynamic Fitness \u0026 Strength",
+                                          "url":  "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+                                          "reason":  "Product page.",
+                                          "pageType":  "Product"
+                                      },
+                                      {
+                                          "position":  4,
+                                          "title":  "Rubber Coated Hex Dumbbells - Titan Fitness",
+                                          "url":  "https://titan.fitness/collections/rubber-hex-dumbbells",
+                                          "reason":  "Product collection.",
+                                          "pageType":  "Category"
+                                      },
+                                      {
+                                          "position":  5,
+                                          "title":  "Rubber Hex Dumbbells Manufacturing Process, China Manufacturer",
+                                          "url":  "https://www.youtube.com/watch?v=80U7XvplDso",
+                                          "reason":  "Manufacturing process from China manufacturer.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  6,
+                                          "title":  "Rubber Hex Dumbbell Supplier / Manufacturer Result",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Supplier/manufacturer pattern.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  7,
+                                          "title":  "Rubber Hex Dumbbell Product Result",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Product pattern.",
+                                          "pageType":  "Product"
+                                      },
+                                      {
+                                          "position":  8,
+                                          "title":  "Commercial Hex Dumbbell Collection",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Category pattern.",
+                                          "pageType":  "Category"
+                                      },
+                                      {
+                                          "position":  9,
+                                          "title":  "How to choose commercial dumbbells",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Guide pattern.",
+                                          "pageType":  "Buying Guide"
+                                      },
+                                      {
+                                          "position":  10,
+                                          "title":  "Factory / Supplier Landing Result",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Factory landing pattern.",
+                                          "pageType":  "Manufacturer"
+                                      }
+                                  ],
+                        "dominantType":  "Manufacturer",
+                        "dominantShare":  40,
+                        "lastCheckedAt":  "2026-07-11T00:28:30.6459508Z",
+                        "source":  "Manual Google SERP sample",
+                        "distribution":  {
+                                             "Manufacturer":  4,
+                                             "Project":  0,
+                                             "Category":  3,
+                                             "FAQ":  0,
+                                             "Landing Page":  0,
+                                             "Buying Guide":  1,
+                                             "Resource":  0,
+                                             "Product":  2,
+                                             "Comparison":  0
+                                         },
+                        "notes":  "SERP is mixed, but B2B manufacturer/supplier intent is the strongest single cluster. Do not force this Draft into Product only because a matching product page exists."
+                    },
+    "contentType":  "Needs Manual Review",
+    "targetExistingPage":  "/products/dumbbells/hex-dumbbell-kg",
     "relatedExistingPages":  [
                                  "/products/dumbbells/hex-dumbbell-kg",
                                  "/products/dumbbells",
@@ -29,12 +136,8 @@
                                  "/resources/how-to-choose-commercial-dumbbells",
                                  "/contact"
                              ],
-    "recommendedDirectory":  "app/products/dumbbells/[slug]/page.tsx",
-    "recommendedUrl":  "/products/dumbbells/hex-dumbbell-kg",
-    "recommendedSlug":  "rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands",
-    "validationIssues":  [
-
-                         ],
-    "publishAction":  "update",
-    "confidence":  82
+    "status":  "analyzed",
+    "commercialValue":  "High",
+    "draftPath":  "seo-engine/drafts/2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "manualReviewRequired":  true
 }
