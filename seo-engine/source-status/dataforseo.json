@@ -1,0 +1,25 @@
+{
+  "id": "dataforseo",
+  "name": "DataForSEO",
+  "category": "SEO 数据平台",
+  "enabled": true,
+  "connected": false,
+  "lastSync": "2026-07-11T13:00:38.821Z",
+  "status": "error",
+  "error": "related_keywords: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；keyword_suggestions: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；autocomplete: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；organic_serp: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+  "nextSync": "手动小规模测试",
+  "requiredVariables": [
+    "DATAFORSEO_LOGIN",
+    "DATAFORSEO_PASSWORD"
+  ],
+  "provider": "dataforseo",
+  "requestCount": 4,
+  "taskCount": 28,
+  "estimatedCostUsd": 0,
+  "keywordCount": 0,
+  "peopleAlsoAskCount": 0,
+  "relatedSearchesCount": 0,
+  "competitorCount": 0,
+  "duplicateCount": 0,
+  "failureCount": 4
+}
