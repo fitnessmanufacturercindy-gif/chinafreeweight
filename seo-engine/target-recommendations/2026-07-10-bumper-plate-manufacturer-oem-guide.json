@@ -1,0 +1,41 @@
+{
+    "duplicatePageRisk":  "低：未发现完全相同 URL，但目标路由当前不存在。",
+    "id":  "seo-engine-drafts-2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "updatedAt":  "2026-07-11T00:11:02.3792133Z",
+    "draftPath":  "seo-engine/drafts/2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "rationale":  [
+                      "标题和正文识别到 OEM / Private Label Page 意图。",
+                      "主题与现有页面 /products/weight-plates/rubber-bumper-plate 相关。",
+                      "当前正式站尚未提供 /oem 目标目录的自动发布路由。"
+                  ],
+    "targetExistingPage":  "/products/weight-plates/rubber-bumper-plate",
+    "contentType":  "Needs Manual Review",
+    "detectedType":  "OEM / Private Label Page",
+    "status":  "analyzed",
+    "keywordConflictRisk":  "中：核心关键词可能与 /products/weight-plates/rubber-bumper-plate 形成内耗，建议人工决定是新建 OEM 页还是更新现有产品页。",
+    "recommendedInternalLinks":  [
+                                     "/factory",
+                                     "/products/weight-plates",
+                                     "/products/weight-plates/rubber-bumper-plate",
+                                     "/resources/evaluate-oem-gym-equipment-factory-china",
+                                     "/contact"
+                                 ],
+    "seoImpact":  "需要人工确认目标位置后才能进入下一步，避免误建重复商业落地页。",
+    "manualReviewRequired":  true,
+    "relatedExistingPages":  [
+                                 "/products/weight-plates/rubber-bumper-plate",
+                                 "/products/weight-plates",
+                                 "/factory",
+                                 "/resources/evaluate-oem-gym-equipment-factory-china",
+                                 "/contact"
+                             ],
+    "recommendedDirectory":  "app/oem/[slug]/page.tsx（当前正式站尚未支持，需要人工确认后再进入下一步）",
+    "recommendedUrl":  "/oem/bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
+    "recommendedSlug":  "bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
+    "validationIssues":  [
+                             "当前正式站没有 /oem 路由。",
+                             "存在关键词内耗风险：主题已关联现有页面 /products/weight-plates/rubber-bumper-plate。"
+                         ],
+    "publishAction":  "manual_review",
+    "confidence":  74
+}
