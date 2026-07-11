@@ -1,0 +1,73 @@
+{
+    "status":  "analyzed",
+    "id":  "seo-engine-drafts-2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "publishingDecision":  "Needs Manual Review",
+    "draftPath":  "seo-engine/drafts/2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "recommendedExistingPage":  {
+                                    "whyUpdate":  "该页面与 Bumper Plate 主题最接近，但 Draft 的 OEM/Manufacturer 意图更像商业落地页，不能直接覆盖产品页主意图。",
+                                    "keepExistingContent":  [
+                                                                "产品核心介绍",
+                                                                "应用场景",
+                                                                "产品图片",
+                                                                "询盘路径"
+                                                            ],
+                                    "title":  "Rubber Bumper Plate",
+                                    "modulesToAdd":  [
+                                                         "OEM bumper plate sourcing section",
+                                                         "Manufacturer quality checklist",
+                                                         "Private label options",
+                                                         "Packaging/export planning",
+                                                         "RFQ checklist"
+                                                     ],
+                                    "url":  "/products/weight-plates/rubber-bumper-plate",
+                                    "currentKeyword":  "rubber bumper plate manufacturer",
+                                    "seoElementsToAdjust":  [
+                                                                "FAQ 增加 OEM 问题",
+                                                                "Meta 补充 sourcing/RFQ",
+                                                                "内链到 Factory 和 Contact",
+                                                                "避免 H1 过度改成 OEM 页"
+                                                            ],
+                                    "whyIntentIsPreserved":  "如果选择更新产品页，新增内容必须作为支持模块，产品页仍保持 Rubber Bumper Plate 主意图。"
+                                },
+    "riskIfPublishedWrong":  [
+                                 "稀释现有 Rubber Bumper Plate 产品页。",
+                                 "造成 OEM/Manufacturer 与 Product 页面关键词内耗。",
+                                 "当前正式网站没有该路由，进入下一步前必须人工确认是否新建该结构。",
+                                 "放入 Resources 会让商业意图错位。",
+                                 "Google 难以判断哪个页面是主落地页。"
+                             ],
+    "manualReviewRequired":  true,
+    "recommendedTargetType":  "OEM Landing",
+    "recommendedNewUrl":  {
+                              "finalUrl":  "/oem/bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
+                              "needsNewRoute":  true,
+                              "directory":  "app/oem/[slug]/page.tsx 或 app/manufacturer/[slug]/page.tsx",
+                              "slug":  "bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates"
+                          },
+    "decisionReason":  [
+                           "Search Intent 为 Buyer Intent，Buyer Intent 为 Manufacturer, Supplier, OEM, Importer, Distributor, Factory。",
+                           "Google SERP Pattern 为混合型，Manufacturer/Product/Buying Guide 都明显，但商业意图强。",
+                           "当前正式网站没有 OEM 或 Manufacturer 路由，Route Availability 为 0/100。",
+                           "商业价值高，适合承接 OEM 与批量采购询盘。",
+                           "与现有 /products/weight-plates/rubber-bumper-plate 关系强，新建前必须处理关键词内耗。"
+                       ],
+    "requiredSiteChange":  [
+                               "需要新增目录",
+                               "需要新增路由",
+                               "可能需要修改导航",
+                               "需要人工确认"
+                           ],
+    "scores":  {
+                   "businessValue":  92,
+                   "cannibalizationRisk":  72,
+                   "duplicateContentRisk":  64,
+                   "existingPageMatch":  82,
+                   "overallPublishingConfidence":  58,
+                   "buyerIntentMatch":  92,
+                   "routeAvailability":  0,
+                   "serpConfidence":  75,
+                   "googleIntentMatch":  88
+               },
+    "updatedAt":  "2026-07-11T00:56:39.3034627Z",
+    "proposedAction":  "Create New Page"
+}
