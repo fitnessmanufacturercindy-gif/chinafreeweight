@@ -5,7 +5,7 @@
   "category": "SEO 数据平台",
   "enabled": true,
   "connected": false,
-  "lastSync": "2026-07-11T13:01:50.578Z",
+  "lastSync": "2026-07-11T13:02:01.138Z",
   "status": "error",
   "error": "GitHub 文件读取失败：502 <!DOCTYPE html>\r\n<!--\r\n\r\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\r\nDRY up these templates and make 'em nice and re-usable, right?\r\n\r\nPlease, don't. https://github.com/styleguide/templates/2.0\r\n\r\n-->\r\n<h",
   "nextSync": "修复问题后手动重试",
