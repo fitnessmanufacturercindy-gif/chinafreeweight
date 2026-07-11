@@ -41,7 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
   const seoLandingRoutes = [
-    "/manufacturer/rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands"
+    "/manufacturer/rubber-hex-dumbbells-manufacturer"
   ];
 
   return [
