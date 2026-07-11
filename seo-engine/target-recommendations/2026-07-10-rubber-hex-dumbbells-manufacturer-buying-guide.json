@@ -1,0 +1,40 @@
+{
+    "duplicatePageRisk":  "低：推荐动作是更新已有页面，不是创建重复页面。",
+    "id":  "seo-engine-drafts-2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "updatedAt":  "2026-07-11T00:11:02.4298297Z",
+    "draftPath":  "seo-engine/drafts/2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "rationale":  [
+                      "标题和正文识别到产品支持和制造商采购意图。",
+                      "主题精确匹配现有 Hex Dumbbell 产品页。",
+                      "更新现有产品页比新建普通资源文章更能降低关键词内耗。"
+                  ],
+    "targetExistingPage":  "/products/dumbbells/hex-dumbbell-kg",
+    "contentType":  "Product Support Content",
+    "detectedType":  "Product Support Content",
+    "status":  "analyzed",
+    "keywordConflictRisk":  "低到中：建议更新现有 Hex Dumbbell 产品页，避免另建页面抢同一关键词。",
+    "recommendedInternalLinks":  [
+                                     "/factory",
+                                     "/products/dumbbells",
+                                     "/products/dumbbells/hex-dumbbell-kg",
+                                     "/resources/how-to-choose-commercial-dumbbells",
+                                     "/contact"
+                                 ],
+    "seoImpact":  "建议增强现有产品页的制造商、规格、OEM、包装和 RFQ 信息，提高商业意图覆盖。",
+    "manualReviewRequired":  false,
+    "relatedExistingPages":  [
+                                 "/products/dumbbells/hex-dumbbell-kg",
+                                 "/products/dumbbells",
+                                 "/factory",
+                                 "/resources/how-to-choose-commercial-dumbbells",
+                                 "/contact"
+                             ],
+    "recommendedDirectory":  "app/products/dumbbells/[slug]/page.tsx",
+    "recommendedUrl":  "/products/dumbbells/hex-dumbbell-kg",
+    "recommendedSlug":  "rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands",
+    "validationIssues":  [
+
+                         ],
+    "publishAction":  "update",
+    "confidence":  82
+}
