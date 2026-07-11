@@ -1,18 +1,27 @@
 {
-    "duplicatePageRisk":  "低：未发现完全相同 URL，但目标路由当前不存在。",
-    "id":  "seo-engine-drafts-2026-07-10-bumper-plate-manufacturer-oem-guide.md",
-    "updatedAt":  "2026-07-11T00:11:02.3792133Z",
-    "draftPath":  "seo-engine/drafts/2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "buyerIntent":  [
+                        "Manufacturer",
+                        "Supplier",
+                        "OEM",
+                        "Importer",
+                        "Distributor",
+                        "Factory"
+                    ],
     "rationale":  [
-                      "标题和正文识别到 OEM / Private Label Page 意图。",
-                      "主题与现有页面 /products/weight-plates/rubber-bumper-plate 相关。",
-                      "当前正式站尚未提供 /oem 目标目录的自动发布路由。"
+                      "Google SERP Pattern 主导类型为 Manufacturer（30%），Product 与 Buying Guide 也占明显比例。",
+                      "Search Intent：Buyer Intent；Buyer Intent：Manufacturer, Supplier, OEM, Importer, Distributor, Factory；Commercial Value：High。",
+                      "SERP 商业意图强，不应只按 Buying Guide 或 Product 处理。",
+                      "当前正式站没有 /manufacturer 或 /oem 路由，因此必须人工确认。"
                   ],
-    "targetExistingPage":  "/products/weight-plates/rubber-bumper-plate",
-    "contentType":  "Needs Manual Review",
-    "detectedType":  "OEM / Private Label Page",
-    "status":  "analyzed",
-    "keywordConflictRisk":  "中：核心关键词可能与 /products/weight-plates/rubber-bumper-plate 形成内耗，建议人工决定是新建 OEM 页还是更新现有产品页。",
+    "id":  "seo-engine-drafts-2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "recommendedDirectory":  "app/manufacturer/[slug]/page.tsx（当前正式站尚未支持，需要人工确认后再进入下一步）",
+    "keywordConflictRisk":  "中：Manufacturer/OEM 页面会与 Rubber Bumper Plate 产品页共享核心词，需要明确采购、工厂、OEM 差异化。",
+    "recommendedUrl":  "/manufacturer/bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
+    "validationIssues":  [
+                             "当前正式站没有 /manufacturer 或 /oem 路由。",
+                             "SERP 为混合型，主导类型未达到 80%，需要人工确认。",
+                             "存在与 /products/weight-plates/rubber-bumper-plate 的关键词内耗风险。"
+                         ],
     "recommendedInternalLinks":  [
                                      "/factory",
                                      "/products/weight-plates",
@@ -20,8 +29,107 @@
                                      "/resources/evaluate-oem-gym-equipment-factory-china",
                                      "/contact"
                                  ],
-    "seoImpact":  "需要人工确认目标位置后才能进入下一步，避免误建重复商业落地页。",
-    "manualReviewRequired":  true,
+    "seoImpact":  "建议作为 Manufacturer/OEM 落地页候选；不能自动写正式站，需在 PR2-B 前确认信息架构。",
+    "searchIntent":  "Buyer Intent",
+    "confidence":  68,
+    "recommendedSlug":  "bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
+    "duplicatePageRisk":  "中：当前没有目标路由，且 SERP 混合 Product/Guide/Manufacturer。",
+    "detectedType":  "Manufacturer Landing Page",
+    "publishAction":  "manual_review",
+    "updatedAt":  "2026-07-11T00:28:30.6459508Z",
+    "serpPattern":  {
+                        "query":  "bumper plate manufacturer china oem",
+                        "top10":  [
+                                      {
+                                          "position":  1,
+                                          "title":  "Bumper Plate Suppliers in China - The Ultimate Guide",
+                                          "url":  "https://www.leadmanfitness.com/news/bumper-plate-suppliers-in-china-the-ultimate-guide.html",
+                                          "reason":  "Supplier guide focused on China sourcing.",
+                                          "pageType":  "Buying Guide"
+                                      },
+                                      {
+                                          "position":  2,
+                                          "title":  "Bumper Plates In China - YR Fitness",
+                                          "url":  "https://www.yanrefitness.com/china-bumper-plates/",
+                                          "reason":  "Manufacturer/OEM landing page.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  3,
+                                          "title":  "2026 Bumper Plates - Made-in-China supplier catalog",
+                                          "url":  "https://qdmodun.en.made-in-china.com/product-group/vqzAmcCrhuRy/Bumper-Plates-catalog-1.html",
+                                          "reason":  "Marketplace supplier category.",
+                                          "pageType":  "Category"
+                                      },
+                                      {
+                                          "position":  4,
+                                          "title":  "China Bumper Plate and Weight Plate Prices",
+                                          "url":  "https://www.baopengfitness.com/china-bumper-plate-and-weight-plate-price/",
+                                          "reason":  "Manufacturer/supplier landing page.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  5,
+                                          "title":  "New IWF Competition Bumper Plate from China Manufacturers",
+                                          "url":  "https://dynomaster.goldsupplier.com/426591-New-IWF-Competition-Bumper-Plate/",
+                                          "reason":  "Supplier product page.",
+                                          "pageType":  "Product"
+                                      },
+                                      {
+                                          "position":  6,
+                                          "title":  "China Rubber Bumper Plates Set Supplier",
+                                          "url":  "https://www.chinafitnessequipmentsupplier.com/products/China-Rubber-Bumper-Plates-Set-Supplier.html",
+                                          "reason":  "Supplier product page.",
+                                          "pageType":  "Product"
+                                      },
+                                      {
+                                          "position":  7,
+                                          "title":  "Different Types of Bumper Plates Buying Guide",
+                                          "url":  "https://www.youtube.com/watch?v=nPQuuAVINQM",
+                                          "reason":  "Buying guide/video result.",
+                                          "pageType":  "Buying Guide"
+                                      },
+                                      {
+                                          "position":  8,
+                                          "title":  "Pro-grade Bumper Plate from China manufacturer",
+                                          "url":  "https://www.rzfleader.com/Pro-grade-Bumper-Plate-pd503888868.html",
+                                          "reason":  "Manufacturer product detail.",
+                                          "pageType":  "Product"
+                                      },
+                                      {
+                                          "position":  9,
+                                          "title":  "Rubber Coated Weight Plates Making Process from China OEM",
+                                          "url":  "https://www.youtube.com/watch?v=YsHx6Lqy35M",
+                                          "reason":  "OEM/manufacturing process result.",
+                                          "pageType":  "Manufacturer"
+                                      },
+                                      {
+                                          "position":  10,
+                                          "title":  "Factory discussion and supplier comparison",
+                                          "url":  "Google SERP sample",
+                                          "reason":  "Research/resource result.",
+                                          "pageType":  "Resource"
+                                      }
+                                  ],
+                        "dominantType":  "Manufacturer",
+                        "dominantShare":  30,
+                        "lastCheckedAt":  "2026-07-11T00:28:30.6459508Z",
+                        "source":  "Manual Google SERP sample",
+                        "distribution":  {
+                                             "Manufacturer":  3,
+                                             "Project":  0,
+                                             "Category":  1,
+                                             "FAQ":  0,
+                                             "Landing Page":  0,
+                                             "Buying Guide":  2,
+                                             "Resource":  1,
+                                             "Product":  3,
+                                             "Comparison":  0
+                                         },
+                        "notes":  "SERP is mixed but strongly commercial. Manufacturer/OEM and supplier pages are at least as important as product pages, so automatic Product recommendation is not safe."
+                    },
+    "contentType":  "Needs Manual Review",
+    "targetExistingPage":  "/products/weight-plates/rubber-bumper-plate",
     "relatedExistingPages":  [
                                  "/products/weight-plates/rubber-bumper-plate",
                                  "/products/weight-plates",
@@ -29,13 +137,8 @@
                                  "/resources/evaluate-oem-gym-equipment-factory-china",
                                  "/contact"
                              ],
-    "recommendedDirectory":  "app/oem/[slug]/page.tsx（当前正式站尚未支持，需要人工确认后再进入下一步）",
-    "recommendedUrl":  "/oem/bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
-    "recommendedSlug":  "bumper-plate-manufacturer-china-oem-sourcing-guide-for-olympic-weight-plates",
-    "validationIssues":  [
-                             "当前正式站没有 /oem 路由。",
-                             "存在关键词内耗风险：主题已关联现有页面 /products/weight-plates/rubber-bumper-plate。"
-                         ],
-    "publishAction":  "manual_review",
-    "confidence":  74
+    "status":  "analyzed",
+    "commercialValue":  "High",
+    "draftPath":  "seo-engine/drafts/2026-07-10-bumper-plate-manufacturer-oem-guide.md",
+    "manualReviewRequired":  true
 }
