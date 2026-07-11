@@ -1,25 +1,25 @@
 {
   "id": "dataforseo",
-  "provider": "dataforseo",
   "name": "DataForSEO",
   "category": "SEO 数据平台",
   "enabled": true,
   "connected": false,
-  "lastSync": "2026-07-11T13:02:01.138Z",
+  "lastSync": "2026-07-11T13:02:03.227Z",
   "status": "error",
-  "error": "GitHub 文件读取失败：502 <!DOCTYPE html>\r\n<!--\r\n\r\nHello future GitHubber! I bet you're here to remove those nasty inline styles,\r\nDRY up these templates and make 'em nice and re-usable, right?\r\n\r\nPlease, don't. https://github.com/styleguide/templates/2.0\r\n\r\n-->\r\n<h",
-  "nextSync": "修复问题后手动重试",
+  "error": "related_keywords: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；keyword_suggestions: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；autocomplete: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .；organic_serp: 403 40104 Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+  "nextSync": "手动小规模测试",
   "requiredVariables": [
     "DATAFORSEO_LOGIN",
     "DATAFORSEO_PASSWORD"
   ],
-  "requestCount": 0,
-  "taskCount": 0,
+  "provider": "dataforseo",
+  "requestCount": 4,
+  "taskCount": 28,
   "estimatedCostUsd": 0,
   "keywordCount": 0,
   "peopleAlsoAskCount": 0,
   "relatedSearchesCount": 0,
   "competitorCount": 0,
   "duplicateCount": 0,
-  "failureCount": 1
+  "failureCount": 4
 }
