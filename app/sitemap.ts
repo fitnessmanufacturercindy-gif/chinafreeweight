@@ -39,8 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...gymAccessoryProducts.map((product) => `/products/gym-accessories/${product.slug}`)
   ];
 
-  const resourceRoutes = getAllPosts().map((post) => /resources/${post.slug});
-  const seoLandingRoutes = ["/manufacturer/rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands"];
+  const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
+  const seoLandingRoutes = [
+    "/manufacturer/rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands"
+  ];
 
   return [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),
