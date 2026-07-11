@@ -1,0 +1,73 @@
+{
+    "status":  "analyzed",
+    "id":  "seo-engine-drafts-2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "publishingDecision":  "Needs Manual Review",
+    "draftPath":  "seo-engine/drafts/2026-07-10-rubber-hex-dumbbells-manufacturer-buying-guide.md",
+    "recommendedExistingPage":  {
+                                    "whyUpdate":  "该页面与 Draft 的产品主题最接近，但 SERP 显示 Manufacturer 意图更强，因此它是关系页面，不是自动发布目标。",
+                                    "keepExistingContent":  [
+                                                                "产品核心介绍",
+                                                                "现有应用场景",
+                                                                "产品图片",
+                                                                "询盘路径"
+                                                            ],
+                                    "title":  "Hex Dumbbell",
+                                    "modulesToAdd":  [
+                                                         "Manufacturer sourcing block",
+                                                         "OEM options",
+                                                         "RFQ checklist",
+                                                         "Packaging/export planning",
+                                                         "FAQ expansion"
+                                                     ],
+                                    "url":  "/products/dumbbells/hex-dumbbell-kg",
+                                    "currentKeyword":  "hex dumbbell manufacturer",
+                                    "seoElementsToAdjust":  [
+                                                                "Title 补强 manufacturer/supplier",
+                                                                "Meta 增加 OEM/RFQ",
+                                                                "FAQ 加采购问题",
+                                                                "内链到 Factory 和 Contact"
+                                                            ],
+                                    "whyIntentIsPreserved":  "如果选择更新产品页，新增模块仍围绕 Hex Dumbbell 采购，不改变产品页主意图。"
+                                },
+    "riskIfPublishedWrong":  [
+                                 "稀释现有 Hex Dumbbell 产品页。",
+                                 "造成 Manufacturer 与 Product 页面关键词内耗。",
+                                 "当前正式网站没有该路由，进入下一步前必须人工确认是否新建该结构。",
+                                 "页面意图错位会让 Google 难以判断主页面。",
+                                 "与已有产品内容重复。"
+                             ],
+    "manualReviewRequired":  true,
+    "recommendedTargetType":  "Manufacturer Landing",
+    "recommendedNewUrl":  {
+                              "finalUrl":  "/manufacturer/rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands",
+                              "needsNewRoute":  true,
+                              "directory":  "app/manufacturer/[slug]/page.tsx",
+                              "slug":  "rubber-hex-dumbbells-manufacturer-china-buying-guide-for-commercial-gyms-distributors-and-oem-brands"
+                          },
+    "decisionReason":  [
+                           "Search Intent 为 Buyer Intent，Buyer Intent 为 Manufacturer, Supplier, OEM, Distributor, Gym Owner。",
+                           "Google SERP Pattern 主导为 Manufacturer，当前样本为 4/10，是最强单一页面类型。",
+                           "当前正式网站没有 Manufacturer Landing 路由，Route Availability 为 0/100。",
+                           "商业价值高，适合承接 B2B 采购和询盘意图。",
+                           "与现有 /products/dumbbells/hex-dumbbell-kg 关系强，但直接新建会有关键词内耗。"
+                       ],
+    "requiredSiteChange":  [
+                               "需要新增目录",
+                               "需要新增路由",
+                               "可能需要修改导航",
+                               "需要人工确认"
+                           ],
+    "scores":  {
+                   "businessValue":  92,
+                   "cannibalizationRisk":  72,
+                   "duplicateContentRisk":  64,
+                   "existingPageMatch":  82,
+                   "overallPublishingConfidence":  61,
+                   "buyerIntentMatch":  92,
+                   "routeAvailability":  0,
+                   "serpConfidence":  85,
+                   "googleIntentMatch":  89
+               },
+    "updatedAt":  "2026-07-11T00:56:39.3034627Z",
+    "proposedAction":  "Create New Page"
+}
