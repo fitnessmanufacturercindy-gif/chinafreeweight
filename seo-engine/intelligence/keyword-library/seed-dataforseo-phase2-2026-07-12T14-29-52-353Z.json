@@ -1,0 +1,1973 @@
+{
+  "generatedAt": "2026-07-12T14:29:52.353Z",
+  "summary": {
+    "phase": "Seed Library + DataForSEO Integration Phase 2",
+    "generatedAt": "2026-07-12T14:29:52.353Z",
+    "seedFile": "seo-engine/intelligence/seed-library/seed-library-v1.json",
+    "selectedSeedCount": 20,
+    "selectedSeeds": [
+      {
+        "id": "dumbbells-001",
+        "keyword": "rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-002",
+        "keyword": "rubber hex dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-003",
+        "keyword": "rubber hex dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-004",
+        "keyword": "rubber hex dumbbells wholesale",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-005",
+        "keyword": "commercial rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-007",
+        "keyword": "chrome dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-010",
+        "keyword": "urethane dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-011",
+        "keyword": "commercial dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-012",
+        "keyword": "commercial dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-013",
+        "keyword": "commercial dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-014",
+        "keyword": "dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-015",
+        "keyword": "dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-016",
+        "keyword": "dumbbell factory",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-017",
+        "keyword": "OEM dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-018",
+        "keyword": "private label dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-019",
+        "keyword": "custom logo dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "plates-001",
+        "keyword": "bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-002",
+        "keyword": "bumper plate manufacturer",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-003",
+        "keyword": "bumper plate supplier",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-004",
+        "keyword": "OEM bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      }
+    ],
+    "requestCount": 40,
+    "totalCost": 0.2875600000000001,
+    "returnedKeywordCount": 63,
+    "serpCount": 185,
+    "peopleAlsoAskCount": 20,
+    "relatedSearchesCount": 160,
+    "competitorDomainCount": 76,
+    "opportunityCount": 63,
+    "failedCallCount": 0,
+    "failedCalls": [],
+    "status": "success"
+  },
+  "keywords": [
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells",
+      "searchVolume": 4400,
+      "cpc": 2.62,
+      "competition": 0.71
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells set",
+      "searchVolume": 2400,
+      "cpc": 2.26,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells for sale",
+      "searchVolume": 390,
+      "cpc": 13.67,
+      "competition": 0.29
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbell set 5-50",
+      "searchVolume": 90,
+      "cpc": 2.2,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "cap rubber hex dumbbells",
+      "searchVolume": 90,
+      "cpc": 1.1,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber coated dumbbells set",
+      "searchVolume": 70,
+      "cpc": 1.39,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells 20lb",
+      "searchVolume": 30,
+      "cpc": 0.93,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells 50 lbs",
+      "searchVolume": 10,
+      "cpc": 0.31,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells amazon",
+      "searchVolume": 10,
+      "cpc": 0.31,
+      "competition": 0.92
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbell manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "keyword": "rubber hex dumbbells wholesale",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "dumbbells set",
+      "searchVolume": 60500,
+      "cpc": 1.44,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "dumbbell set with rack 5-50",
+      "searchVolume": 1900,
+      "cpc": 1.92,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "dumbbell set with rack 5-100",
+      "searchVolume": 880,
+      "cpc": 4.06,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "hammer strength dumbbells",
+      "searchVolume": 720,
+      "cpc": 3.37,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "american barbell dumbbells",
+      "searchVolume": 320,
+      "cpc": 1.72,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "urethane dumbbells set",
+      "searchVolume": 320,
+      "cpc": 5.36,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "commercial dumbbells",
+      "searchVolume": 140,
+      "cpc": 4.87,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "commercial dumbbells set",
+      "searchVolume": 110,
+      "cpc": 4.22,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "keyword": "best commercial dumbbells",
+      "searchVolume": 20,
+      "cpc": 7.24,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "dumbbells",
+      "searchVolume": 201000,
+      "cpc": 1.11,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "cast iron dumbbells",
+      "searchVolume": 4400,
+      "cpc": 0.87,
+      "competition": 0.99
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "urethane dumbbells",
+      "searchVolume": 1000,
+      "cpc": 3.31,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "ivanko dumbbells",
+      "searchVolume": 720,
+      "cpc": 2.01,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "keyword": "dumbbell manufacturer",
+      "searchVolume": 70,
+      "cpc": 4.71,
+      "competition": 0.9
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "keyword": "dumbbell supplier",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": 0.36
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "dumbbell sets with rack",
+      "searchVolume": 12100,
+      "cpc": 2.52,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "steel dumbbells",
+      "searchVolume": 590,
+      "cpc": 1.13,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "rubber dumbbell set with rack",
+      "searchVolume": 260,
+      "cpc": 4.08,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "how are dumbbells weighed",
+      "searchVolume": 30,
+      "cpc": null,
+      "competition": 0.01
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "dumbbell rack set costco",
+      "searchVolume": 20,
+      "cpc": 1.14,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "dumbbell factory",
+      "searchVolume": 10,
+      "cpc": 2.12,
+      "competition": 0.38
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "dumbbell manufacturing machine",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "how are cast iron dumbbells made",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "keyword": "fitness factory dumbbells",
+      "searchVolume": 10,
+      "cpc": 4.91,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "adjustable dumbbells",
+      "searchVolume": 110000,
+      "cpc": 1.79,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom gym equipment",
+      "searchVolume": 260,
+      "cpc": 7.25,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom weights plates",
+      "searchVolume": 210,
+      "cpc": 2.84,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom dumbbell set",
+      "searchVolume": 110,
+      "cpc": 3.85,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom logo dumbbells",
+      "searchVolume": 30,
+      "cpc": 2.79,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "build your own dumbbell set",
+      "searchVolume": 30,
+      "cpc": 1.64,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom dumbbells manufacturer",
+      "searchVolume": 10,
+      "cpc": 6.18,
+      "competition": 0.52
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "custom logo weight plates",
+      "searchVolume": 10,
+      "cpc": 3.39,
+      "competition": 0.92
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "keyword": "engraved dumbbells",
+      "searchVolume": 10,
+      "cpc": 1.11,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates",
+      "searchVolume": 9900,
+      "cpc": 3.02,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates set",
+      "searchVolume": 2400,
+      "cpc": 3.35,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates 45lb",
+      "searchVolume": 1300,
+      "cpc": 1.74,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "cap bumper plates",
+      "searchVolume": 880,
+      "cpc": 0.8,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates walmart",
+      "searchVolume": 590,
+      "cpc": 0.48,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates vs weight plates",
+      "searchVolume": 110,
+      "cpc": 3.44,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates amazon",
+      "searchVolume": 70,
+      "cpc": 1.09,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates reddit",
+      "searchVolume": 50,
+      "cpc": 5.22,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "keyword": "bumper plates 5 lbs",
+      "searchVolume": 20,
+      "cpc": 3.35,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "bumper rubber plates",
+      "searchVolume": 590,
+      "cpc": 2.52,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "cheap bumper plates",
+      "searchVolume": 480,
+      "cpc": 2.18,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "how are bumper plates made",
+      "searchVolume": 30,
+      "cpc": null,
+      "competition": 0.07
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "luxiaojun bumper plates",
+      "searchVolume": 20,
+      "cpc": 2.12,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "bumper plate manufacturer",
+      "searchVolume": 10,
+      "cpc": 6.02,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "bumper plate package",
+      "searchVolume": 10,
+      "cpc": 4.41,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "weight plate manufacturers",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": 0.17
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "iron company bumper plates",
+      "searchVolume": 10,
+      "cpc": 0.92,
+      "competition": 1
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "keyword": "alibaba bumper plates",
+      "searchVolume": 10,
+      "cpc": 0.42,
+      "competition": 0.96
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "keyword": "bumper plate supplier",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    }
+  ],
+  "opportunities": [
+    {
+      "keyword": "rubber hex dumbbells",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 4400,
+      "cpc": 2.62,
+      "competition": 0.71,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells set",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 2400,
+      "cpc": 2.26,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells for sale",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 390,
+      "cpc": 13.67,
+      "competition": 0.29,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbell set 5-50",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 90,
+      "cpc": 2.2,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "cap rubber hex dumbbells",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 90,
+      "cpc": 1.1,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber coated dumbbells set",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 70,
+      "cpc": 1.39,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells 20lb",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 30,
+      "cpc": 0.93,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells 50 lbs",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 10,
+      "cpc": 0.31,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells amazon",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 10,
+      "cpc": 0.31,
+      "competition": 0.92,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbell manufacturer",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber hex dumbbells wholesale",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Wholesale",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbells set",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 60500,
+      "cpc": 1.44,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell set with rack 5-50",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 1900,
+      "cpc": 1.92,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell set with rack 5-100",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 880,
+      "cpc": 4.06,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "hammer strength dumbbells",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 720,
+      "cpc": 3.37,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "american barbell dumbbells",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 320,
+      "cpc": 1.72,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "urethane dumbbells set",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 320,
+      "cpc": 5.36,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "commercial dumbbells",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 140,
+      "cpc": 4.87,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "commercial dumbbells set",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 110,
+      "cpc": 4.22,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "best commercial dumbbells",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "searchVolume": 20,
+      "cpc": 7.24,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbells",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 201000,
+      "cpc": 1.11,
+      "competition": 1,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "cast iron dumbbells",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 4400,
+      "cpc": 0.87,
+      "competition": 0.99,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "urethane dumbbells",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 1000,
+      "cpc": 3.31,
+      "competition": 1,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "ivanko dumbbells",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 720,
+      "cpc": 2.01,
+      "competition": 1,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell manufacturer",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 70,
+      "cpc": 4.71,
+      "competition": 0.9,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell supplier",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": 0.36,
+      "serpType": "Guide / Resource",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review for resource update or new resource page; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell sets with rack",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 12100,
+      "cpc": 2.52,
+      "competition": 1,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "steel dumbbells",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 590,
+      "cpc": 1.13,
+      "competition": 1,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "rubber dumbbell set with rack",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 260,
+      "cpc": 4.08,
+      "competition": 1,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "how are dumbbells weighed",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 30,
+      "cpc": null,
+      "competition": 0.01,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell rack set costco",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 20,
+      "cpc": 1.14,
+      "competition": 1,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell factory",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 10,
+      "cpc": 2.12,
+      "competition": 0.38,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "dumbbell manufacturing machine",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "how are cast iron dumbbells made",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "fitness factory dumbbells",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "searchVolume": 10,
+      "cpc": 4.91,
+      "competition": 1,
+      "serpType": "Manufacturer / Supplier",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "adjustable dumbbells",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 110000,
+      "cpc": 1.79,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom gym equipment",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 260,
+      "cpc": 7.25,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom weights plates",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 210,
+      "cpc": 2.84,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom dumbbell set",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 110,
+      "cpc": 3.85,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom logo dumbbells",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 30,
+      "cpc": 2.79,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "build your own dumbbell set",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 30,
+      "cpc": 1.64,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom dumbbells manufacturer",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 10,
+      "cpc": 6.18,
+      "competition": 0.52,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "custom logo weight plates",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 10,
+      "cpc": 3.39,
+      "competition": 0.92,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "engraved dumbbells",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "searchVolume": 10,
+      "cpc": 1.11,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review OEM or private label landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 9900,
+      "cpc": 3.02,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates set",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 2400,
+      "cpc": 3.35,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates 45lb",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 1300,
+      "cpc": 1.74,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "cap bumper plates",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 880,
+      "cpc": 0.8,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates walmart",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 590,
+      "cpc": 0.48,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates vs weight plates",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 110,
+      "cpc": 3.44,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates amazon",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 70,
+      "cpc": 1.09,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates reddit",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 50,
+      "cpc": 5.22,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plates 5 lbs",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "searchVolume": 20,
+      "cpc": 3.35,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review product/category page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper rubber plates",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 590,
+      "cpc": 2.52,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "cheap bumper plates",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 480,
+      "cpc": 2.18,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "how are bumper plates made",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 30,
+      "cpc": null,
+      "competition": 0.07,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "luxiaojun bumper plates",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 20,
+      "cpc": 2.12,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plate manufacturer",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 10,
+      "cpc": 6.02,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plate package",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 10,
+      "cpc": 4.41,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "weight plate manufacturers",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 10,
+      "cpc": null,
+      "competition": 0.17,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "iron company bumper plates",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 10,
+      "cpc": 0.92,
+      "competition": 1,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "alibaba bumper plates",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": 10,
+      "cpc": 0.42,
+      "competition": 0.96,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    },
+    {
+      "keyword": "bumper plate supplier",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Product / Category",
+      "currentWebsiteMatch": "Needs website inventory mapping before content action.",
+      "recommendedAction": "Review manufacturer/supplier landing page fit; no Draft generated.",
+      "priority": "High",
+      "evidence": [
+        "Seed Library V1.0",
+        "DataForSEO related keywords",
+        "SERP type: Product / Category"
+      ],
+      "status": "New"
+    }
+  ]
+}
