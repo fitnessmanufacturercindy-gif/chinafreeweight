@@ -1,0 +1,504 @@
+{
+  "generatedAt": "2026-07-12T14:29:52.353Z",
+  "summary": {
+    "phase": "Seed Library + DataForSEO Integration Phase 2",
+    "generatedAt": "2026-07-12T14:29:52.353Z",
+    "seedFile": "seo-engine/intelligence/seed-library/seed-library-v1.json",
+    "selectedSeedCount": 20,
+    "selectedSeeds": [
+      {
+        "id": "dumbbells-001",
+        "keyword": "rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-002",
+        "keyword": "rubber hex dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-003",
+        "keyword": "rubber hex dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-004",
+        "keyword": "rubber hex dumbbells wholesale",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-005",
+        "keyword": "commercial rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-007",
+        "keyword": "chrome dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-010",
+        "keyword": "urethane dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-011",
+        "keyword": "commercial dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-012",
+        "keyword": "commercial dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-013",
+        "keyword": "commercial dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-014",
+        "keyword": "dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-015",
+        "keyword": "dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-016",
+        "keyword": "dumbbell factory",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-017",
+        "keyword": "OEM dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-018",
+        "keyword": "private label dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-019",
+        "keyword": "custom logo dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "plates-001",
+        "keyword": "bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-002",
+        "keyword": "bumper plate manufacturer",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-003",
+        "keyword": "bumper plate supplier",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-004",
+        "keyword": "OEM bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      }
+    ],
+    "requestCount": 40,
+    "totalCost": 0.2875600000000001,
+    "returnedKeywordCount": 63,
+    "serpCount": 185,
+    "peopleAlsoAskCount": 20,
+    "relatedSearchesCount": 160,
+    "competitorDomainCount": 76,
+    "opportunityCount": 63,
+    "failedCallCount": 0,
+    "failedCalls": [],
+    "status": "success"
+  },
+  "apiCalls": [
+    {
+      "seed": "rubber hex dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbell supplier",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbell supplier",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbells wholesale",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbells wholesale",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "commercial rubber hex dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "commercial rubber hex dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "chrome dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "chrome dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "urethane dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "urethane dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbell supplier",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbell supplier",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.0126,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell supplier",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell supplier",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell factory",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell factory",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "private label dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "private label dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "custom logo dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "custom logo dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "bumper plates",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "bumper plates",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate supplier",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate supplier",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "OEM bumper plates",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "OEM bumper plates",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    }
+  ]
+}
