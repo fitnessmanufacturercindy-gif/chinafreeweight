@@ -1,0 +1,288 @@
+{
+  "summary": {
+    "phase": "DataForSEO Phase 1 rerun",
+    "generatedAt": "2026-07-12T13:39:00.809Z",
+    "country": "United States",
+    "language": "English",
+    "seeds": [
+      "rubber hex dumbbells",
+      "dumbbell manufacturer",
+      "weight plate manufacturer",
+      "bumper plate manufacturer",
+      "olympic weight plates",
+      "commercial dumbbells",
+      "OEM dumbbells"
+    ],
+    "apiConnected": true,
+    "requestCount": 14,
+    "totalCost": 0.08796,
+    "returnedKeywordCount": 33,
+    "peopleAlsoAskCount": 16,
+    "relatedSearchesCount": 48,
+    "serpCount": 56,
+    "competitorDomainCount": 38,
+    "growthIntelligenceWriteStatus": "success",
+    "httpStatuses": [
+      {
+        "seed": "rubber hex dumbbells",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "rubber hex dumbbells",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "dumbbell manufacturer",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "dumbbell manufacturer",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "weight plate manufacturer",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "weight plate manufacturer",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "bumper plate manufacturer",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "bumper plate manufacturer",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "olympic weight plates",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "olympic weight plates",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "commercial dumbbells",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 403,
+        "dataForSeoStatusCode": 40104,
+        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+        "ok": false
+      },
+      {
+        "seed": "commercial dumbbells",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "OEM dumbbells",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      },
+      {
+        "seed": "OEM dumbbells",
+        "endpoint": "/v3/serp/google/organic/live/advanced",
+        "httpStatus": 200,
+        "dataForSeoStatusCode": 20000,
+        "dataForSeoStatusMessage": "Ok.",
+        "ok": true
+      }
+    ],
+    "failedCalls": [
+      {
+        "seed": "commercial dumbbells",
+        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+        "httpStatus": 403,
+        "dataForSeoStatusCode": 40104,
+        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+        "cost": 0,
+        "ok": false
+      }
+    ]
+  },
+  "apiCalls": [
+    {
+      "seed": "rubber hex dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "rubber hex dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.0126,
+      "ok": true
+    },
+    {
+      "seed": "dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "bumper plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "olympic weight plates",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01308,
+      "ok": true
+    },
+    {
+      "seed": "olympic weight plates",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "commercial dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 403,
+      "dataForSeoStatusCode": 40104,
+      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+      "cost": 0,
+      "ok": false
+    },
+    {
+      "seed": "commercial dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    }
+  ],
+  "seeds": [
+    "rubber hex dumbbells",
+    "dumbbell manufacturer",
+    "weight plate manufacturer",
+    "bumper plate manufacturer",
+    "olympic weight plates",
+    "commercial dumbbells",
+    "OEM dumbbells"
+  ]
+}
