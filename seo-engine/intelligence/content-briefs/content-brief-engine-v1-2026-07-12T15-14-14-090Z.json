@@ -1,0 +1,3645 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-07-12T15:14:14.090Z",
+  "source": "Opportunity Engine V1.1",
+  "metrics": {
+    "totalBriefs": 47,
+    "updateBriefs": 12,
+    "createBriefs": 35,
+    "skippedDoNotCreate": 3,
+    "skippedNeedMoreData": 13
+  },
+  "briefs": [
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/urethane-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "urethane dumbbells",
+      "secondaryKeywords": [
+        "dumbbell manufacturer",
+        "urethane dumbbells supplier",
+        "urethane dumbbells manufacturer",
+        "urethane dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing urethane dumbbells?",
+        "What materials and finishes are available for urethane dumbbells?",
+        "How can importers verify factory quality for urethane dumbbells?",
+        "What customization options are available for urethane dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 1000",
+        "DataForSEO CPC: 3.31",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing urethane dumbbells?",
+        "What materials and finishes are available for urethane dumbbells?",
+        "How can importers verify factory quality for urethane dumbbells?",
+        "What customization options are available for urethane dumbbells?",
+        "Can PowerBaseFit customize urethane dumbbells?",
+        "What information is needed to request a quote for urethane dumbbells?"
+      ],
+      "requiredImages": [
+        "urethane dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for urethane dumbbells without changing protected SEO assets. DataForSEO search volume: 1000.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "dumbbells",
+      "secondaryKeywords": [
+        "dumbbell manufacturer",
+        "dumbbells supplier",
+        "dumbbells manufacturer",
+        "dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing dumbbells?",
+        "What materials and finishes are available for dumbbells?",
+        "How can importers verify factory quality for dumbbells?",
+        "What customization options are available for dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 201000",
+        "DataForSEO CPC: 1.11",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing dumbbells?",
+        "What materials and finishes are available for dumbbells?",
+        "How can importers verify factory quality for dumbbells?",
+        "What customization options are available for dumbbells?",
+        "Can PowerBaseFit customize dumbbells?",
+        "What information is needed to request a quote for dumbbells?"
+      ],
+      "requiredImages": [
+        "dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for dumbbells without changing protected SEO assets. DataForSEO search volume: 201000.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/cast-iron-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "cast iron dumbbells",
+      "secondaryKeywords": [
+        "dumbbell manufacturer",
+        "cast iron dumbbells supplier",
+        "cast iron dumbbells manufacturer",
+        "cast iron dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing cast iron dumbbells?",
+        "What materials and finishes are available for cast iron dumbbells?",
+        "How can importers verify factory quality for cast iron dumbbells?",
+        "What customization options are available for cast iron dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 4400",
+        "DataForSEO CPC: 0.87",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing cast iron dumbbells?",
+        "What materials and finishes are available for cast iron dumbbells?",
+        "How can importers verify factory quality for cast iron dumbbells?",
+        "What customization options are available for cast iron dumbbells?",
+        "Can PowerBaseFit customize cast iron dumbbells?",
+        "What information is needed to request a quote for cast iron dumbbells?"
+      ],
+      "requiredImages": [
+        "cast iron dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for cast iron dumbbells without changing protected SEO assets. DataForSEO search volume: 4400.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/adjustable-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "adjustable dumbbells",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "adjustable dumbbells supplier",
+        "adjustable dumbbells manufacturer",
+        "adjustable dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing adjustable dumbbells?",
+        "What materials and finishes are available for adjustable dumbbells?",
+        "How can importers verify factory quality for adjustable dumbbells?",
+        "What customization options are available for adjustable dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 110000",
+        "DataForSEO CPC: 1.79",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing adjustable dumbbells?",
+        "What materials and finishes are available for adjustable dumbbells?",
+        "How can importers verify factory quality for adjustable dumbbells?",
+        "What customization options are available for adjustable dumbbells?",
+        "Can PowerBaseFit customize adjustable dumbbells?",
+        "What information is needed to request a quote for adjustable dumbbells?"
+      ],
+      "requiredImages": [
+        "adjustable dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for adjustable dumbbells without changing protected SEO assets. DataForSEO search volume: 110000.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/ivanko-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "ivanko dumbbells",
+      "secondaryKeywords": [
+        "dumbbell manufacturer",
+        "ivanko dumbbells supplier",
+        "ivanko dumbbells manufacturer",
+        "ivanko dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing ivanko dumbbells?",
+        "What materials and finishes are available for ivanko dumbbells?",
+        "How can importers verify factory quality for ivanko dumbbells?",
+        "What customization options are available for ivanko dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 720",
+        "DataForSEO CPC: 2.01",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing ivanko dumbbells?",
+        "What materials and finishes are available for ivanko dumbbells?",
+        "How can importers verify factory quality for ivanko dumbbells?",
+        "What customization options are available for ivanko dumbbells?",
+        "Can PowerBaseFit customize ivanko dumbbells?",
+        "What information is needed to request a quote for ivanko dumbbells?"
+      ],
+      "requiredImages": [
+        "ivanko dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for ivanko dumbbells without changing protected SEO assets. DataForSEO search volume: 720.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/free-weight-manufacturer",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "dumbbell manufacturer",
+      "secondaryKeywords": [
+        "dumbbell manufacturer supplier",
+        "dumbbell manufacturer manufacturer",
+        "dumbbell manufacturer wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing dumbbell manufacturer?",
+        "What materials and finishes are available for dumbbell manufacturer?",
+        "How can importers verify factory quality for dumbbell manufacturer?",
+        "What customization options are available for dumbbell manufacturer?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 70",
+        "DataForSEO CPC: 4.71",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing dumbbell manufacturer?",
+        "What materials and finishes are available for dumbbell manufacturer?",
+        "How can importers verify factory quality for dumbbell manufacturer?",
+        "What customization options are available for dumbbell manufacturer?",
+        "Can PowerBaseFit customize dumbbell manufacturer?",
+        "What information is needed to request a quote for dumbbell manufacturer?"
+      ],
+      "requiredImages": [
+        "dumbbell manufacturer product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for dumbbell manufacturer without changing protected SEO assets. DataForSEO search volume: 70.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/dumbbell-factory",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "dumbbell factory",
+      "secondaryKeywords": [
+        "dumbbell factory supplier",
+        "dumbbell factory manufacturer",
+        "dumbbell factory wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing dumbbell factory?",
+        "What materials and finishes are available for dumbbell factory?",
+        "How can importers verify factory quality for dumbbell factory?",
+        "What customization options are available for dumbbell factory?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 2.12",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing dumbbell factory?",
+        "What materials and finishes are available for dumbbell factory?",
+        "How can importers verify factory quality for dumbbell factory?",
+        "What customization options are available for dumbbell factory?",
+        "Can PowerBaseFit customize dumbbell factory?",
+        "What information is needed to request a quote for dumbbell factory?"
+      ],
+      "requiredImages": [
+        "dumbbell factory product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for dumbbell factory without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/fitness-factory-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "fitness factory dumbbells",
+      "secondaryKeywords": [
+        "dumbbell factory",
+        "fitness factory dumbbells supplier",
+        "fitness factory dumbbells manufacturer",
+        "fitness factory dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing fitness factory dumbbells?",
+        "What materials and finishes are available for fitness factory dumbbells?",
+        "How can importers verify factory quality for fitness factory dumbbells?",
+        "What customization options are available for fitness factory dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 4.91",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing fitness factory dumbbells?",
+        "What materials and finishes are available for fitness factory dumbbells?",
+        "How can importers verify factory quality for fitness factory dumbbells?",
+        "What customization options are available for fitness factory dumbbells?",
+        "Can PowerBaseFit customize fitness factory dumbbells?",
+        "What information is needed to request a quote for fitness factory dumbbells?"
+      ],
+      "requiredImages": [
+        "fitness factory dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for fitness factory dumbbells without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/custom-gym-equipment",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "custom gym equipment",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "custom gym equipment supplier",
+        "custom gym equipment manufacturer",
+        "custom gym equipment wholesale"
+      ],
+      "questionsToAnswer": [
+        "What buyer problem does custom gym equipment solve?",
+        "What proof should a manufacturer show for custom gym equipment?",
+        "What questions should importers ask before sourcing custom gym equipment?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 260",
+        "DataForSEO CPC: 7.25",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What buyer problem does custom gym equipment solve?",
+        "What proof should a manufacturer show for custom gym equipment?",
+        "What questions should importers ask before sourcing custom gym equipment?",
+        "Can PowerBaseFit customize custom gym equipment?",
+        "What information is needed to request a quote for custom gym equipment?"
+      ],
+      "requiredImages": [
+        "custom gym equipment product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for custom gym equipment without changing protected SEO assets. DataForSEO search volume: 260.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Low. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/custom-weights-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "custom weights plates",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "custom weights plates supplier",
+        "custom weights plates manufacturer",
+        "custom weights plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable custom weights plates supplier?",
+        "Which materials and tolerances matter for custom weights plates?",
+        "How should buyers compare packaging, warranty, and QC for custom weights plates?",
+        "What factory evidence should be shown for custom weights plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 210",
+        "DataForSEO CPC: 2.84",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable custom weights plates supplier?",
+        "Which materials and tolerances matter for custom weights plates?",
+        "How should buyers compare packaging, warranty, and QC for custom weights plates?",
+        "What factory evidence should be shown for custom weights plates?",
+        "Can PowerBaseFit customize custom weights plates?",
+        "What information is needed to request a quote for custom weights plates?"
+      ],
+      "requiredImages": [
+        "custom weights plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for custom weights plates without changing protected SEO assets. DataForSEO search volume: 210.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Low. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/custom-logo-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "custom logo dumbbells",
+      "secondaryKeywords": [
+        "custom logo dumbbells supplier",
+        "custom logo dumbbells manufacturer",
+        "custom logo dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing custom logo dumbbells?",
+        "What materials and finishes are available for custom logo dumbbells?",
+        "How can importers verify factory quality for custom logo dumbbells?",
+        "What customization options are available for custom logo dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 30",
+        "DataForSEO CPC: 2.79",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing custom logo dumbbells?",
+        "What materials and finishes are available for custom logo dumbbells?",
+        "How can importers verify factory quality for custom logo dumbbells?",
+        "What customization options are available for custom logo dumbbells?",
+        "Can PowerBaseFit customize custom logo dumbbells?",
+        "What information is needed to request a quote for custom logo dumbbells?"
+      ],
+      "requiredImages": [
+        "custom logo dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for custom logo dumbbells without changing protected SEO assets. DataForSEO search volume: 30.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/custom-dumbbells-manufacturer",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "custom dumbbells manufacturer",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "custom dumbbells manufacturer supplier",
+        "custom dumbbells manufacturer manufacturer",
+        "custom dumbbells manufacturer wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing custom dumbbells manufacturer?",
+        "What materials and finishes are available for custom dumbbells manufacturer?",
+        "How can importers verify factory quality for custom dumbbells manufacturer?",
+        "What customization options are available for custom dumbbells manufacturer?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 6.18",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing custom dumbbells manufacturer?",
+        "What materials and finishes are available for custom dumbbells manufacturer?",
+        "How can importers verify factory quality for custom dumbbells manufacturer?",
+        "What customization options are available for custom dumbbells manufacturer?",
+        "Can PowerBaseFit customize custom dumbbells manufacturer?",
+        "What information is needed to request a quote for custom dumbbells manufacturer?"
+      ],
+      "requiredImages": [
+        "custom dumbbells manufacturer product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for custom dumbbells manufacturer without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/custom-logo-weight-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "custom logo weight plates",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "custom logo weight plates supplier",
+        "custom logo weight plates manufacturer",
+        "custom logo weight plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable custom logo weight plates supplier?",
+        "Which materials and tolerances matter for custom logo weight plates?",
+        "How should buyers compare packaging, warranty, and QC for custom logo weight plates?",
+        "What factory evidence should be shown for custom logo weight plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 3.39",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable custom logo weight plates supplier?",
+        "Which materials and tolerances matter for custom logo weight plates?",
+        "How should buyers compare packaging, warranty, and QC for custom logo weight plates?",
+        "What factory evidence should be shown for custom logo weight plates?",
+        "Can PowerBaseFit customize custom logo weight plates?",
+        "What information is needed to request a quote for custom logo weight plates?"
+      ],
+      "requiredImages": [
+        "custom logo weight plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for custom logo weight plates without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/bumper-rubber-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "bumper rubber plates",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "bumper rubber plates supplier",
+        "bumper rubber plates manufacturer",
+        "bumper rubber plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper rubber plates supplier?",
+        "Which materials and tolerances matter for bumper rubber plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper rubber plates?",
+        "What factory evidence should be shown for bumper rubber plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 590",
+        "DataForSEO CPC: 2.52",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper rubber plates supplier?",
+        "Which materials and tolerances matter for bumper rubber plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper rubber plates?",
+        "What factory evidence should be shown for bumper rubber plates?",
+        "Can PowerBaseFit customize bumper rubber plates?",
+        "What information is needed to request a quote for bumper rubber plates?"
+      ],
+      "requiredImages": [
+        "bumper rubber plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper rubber plates without changing protected SEO assets. DataForSEO search volume: 590.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/cheap-bumper-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "cheap bumper plates",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "cheap bumper plates supplier",
+        "cheap bumper plates manufacturer",
+        "cheap bumper plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable cheap bumper plates supplier?",
+        "Which materials and tolerances matter for cheap bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for cheap bumper plates?",
+        "What factory evidence should be shown for cheap bumper plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 480",
+        "DataForSEO CPC: 2.18",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable cheap bumper plates supplier?",
+        "Which materials and tolerances matter for cheap bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for cheap bumper plates?",
+        "What factory evidence should be shown for cheap bumper plates?",
+        "Can PowerBaseFit customize cheap bumper plates?",
+        "What information is needed to request a quote for cheap bumper plates?"
+      ],
+      "requiredImages": [
+        "cheap bumper plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for cheap bumper plates without changing protected SEO assets. DataForSEO search volume: 480.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/luxiaojun-bumper-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "luxiaojun bumper plates",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "luxiaojun bumper plates supplier",
+        "luxiaojun bumper plates manufacturer",
+        "luxiaojun bumper plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable luxiaojun bumper plates supplier?",
+        "Which materials and tolerances matter for luxiaojun bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for luxiaojun bumper plates?",
+        "What factory evidence should be shown for luxiaojun bumper plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 20",
+        "DataForSEO CPC: 2.12",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable luxiaojun bumper plates supplier?",
+        "Which materials and tolerances matter for luxiaojun bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for luxiaojun bumper plates?",
+        "What factory evidence should be shown for luxiaojun bumper plates?",
+        "Can PowerBaseFit customize luxiaojun bumper plates?",
+        "What information is needed to request a quote for luxiaojun bumper plates?"
+      ],
+      "requiredImages": [
+        "luxiaojun bumper plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for luxiaojun bumper plates without changing protected SEO assets. DataForSEO search volume: 20.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates",
+      "action": "Update Existing Page",
+      "sourceAction": "Update Existing Page",
+      "reason": "Existing page intent appears aligned and the change can be limited to low-risk supporting modules rather than a rewrite.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "bumper plate manufacturer",
+      "secondaryKeywords": [
+        "bumper plate manufacturer supplier",
+        "bumper plate manufacturer manufacturer",
+        "bumper plate manufacturer wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plate manufacturer supplier?",
+        "Which materials and tolerances matter for bumper plate manufacturer?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate manufacturer?",
+        "What factory evidence should be shown for bumper plate manufacturer?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 6.02",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plate manufacturer supplier?",
+        "Which materials and tolerances matter for bumper plate manufacturer?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate manufacturer?",
+        "What factory evidence should be shown for bumper plate manufacturer?",
+        "Can PowerBaseFit customize bumper plate manufacturer?",
+        "What information is needed to request a quote for bumper plate manufacturer?"
+      ],
+      "requiredImages": [
+        "bumper plate manufacturer product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plate manufacturer without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Low-risk additive update only; avoid changing URL, canonical, or primary intent."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/bumper-plate-package",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "bumper plate package",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "bumper plate package supplier",
+        "bumper plate package manufacturer",
+        "bumper plate package wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plate package supplier?",
+        "Which materials and tolerances matter for bumper plate package?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate package?",
+        "What factory evidence should be shown for bumper plate package?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 4.41",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plate package supplier?",
+        "Which materials and tolerances matter for bumper plate package?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate package?",
+        "What factory evidence should be shown for bumper plate package?",
+        "Can PowerBaseFit customize bumper plate package?",
+        "What information is needed to request a quote for bumper plate package?"
+      ],
+      "requiredImages": [
+        "bumper plate package product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plate package without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/rubber-hex-dumbbell-manufacturer",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "rubber hex dumbbell manufacturer",
+      "secondaryKeywords": [
+        "rubber hex dumbbell manufacturer supplier",
+        "rubber hex dumbbell manufacturer manufacturer",
+        "rubber hex dumbbell manufacturer wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbell manufacturer?",
+        "What materials and finishes are available for rubber hex dumbbell manufacturer?",
+        "How can importers verify factory quality for rubber hex dumbbell manufacturer?",
+        "What customization options are available for rubber hex dumbbell manufacturer?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbell manufacturer?",
+        "What materials and finishes are available for rubber hex dumbbell manufacturer?",
+        "How can importers verify factory quality for rubber hex dumbbell manufacturer?",
+        "What customization options are available for rubber hex dumbbell manufacturer?",
+        "Can PowerBaseFit customize rubber hex dumbbell manufacturer?",
+        "What information is needed to request a quote for rubber hex dumbbell manufacturer?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbell manufacturer product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbell manufacturer without changing protected SEO assets. DataForSEO search volume: unknown.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/dumbbell-supplier",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "dumbbell supplier",
+      "secondaryKeywords": [
+        "dumbbell supplier supplier",
+        "dumbbell supplier manufacturer",
+        "dumbbell supplier wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing dumbbell supplier?",
+        "What materials and finishes are available for dumbbell supplier?",
+        "How can importers verify factory quality for dumbbell supplier?",
+        "What customization options are available for dumbbell supplier?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing dumbbell supplier?",
+        "What materials and finishes are available for dumbbell supplier?",
+        "How can importers verify factory quality for dumbbell supplier?",
+        "What customization options are available for dumbbell supplier?",
+        "Can PowerBaseFit customize dumbbell supplier?",
+        "What information is needed to request a quote for dumbbell supplier?"
+      ],
+      "requiredImages": [
+        "dumbbell supplier product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for dumbbell supplier without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/steel-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "steel dumbbells",
+      "secondaryKeywords": [
+        "dumbbell factory",
+        "steel dumbbells supplier",
+        "steel dumbbells manufacturer",
+        "steel dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing steel dumbbells?",
+        "What materials and finishes are available for steel dumbbells?",
+        "How can importers verify factory quality for steel dumbbells?",
+        "What customization options are available for steel dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 590",
+        "DataForSEO CPC: 1.13",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing steel dumbbells?",
+        "What materials and finishes are available for steel dumbbells?",
+        "How can importers verify factory quality for steel dumbbells?",
+        "What customization options are available for steel dumbbells?",
+        "Can PowerBaseFit customize steel dumbbells?",
+        "What information is needed to request a quote for steel dumbbells?"
+      ],
+      "requiredImages": [
+        "steel dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for steel dumbbells without changing protected SEO assets. DataForSEO search volume: 590.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/how-are-dumbbells-weighed",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "how are dumbbells weighed",
+      "secondaryKeywords": [
+        "dumbbell factory",
+        "how are dumbbells weighed supplier",
+        "how are dumbbells weighed manufacturer",
+        "how are dumbbells weighed wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing how are dumbbells weighed?",
+        "What materials and finishes are available for how are dumbbells weighed?",
+        "How can importers verify factory quality for how are dumbbells weighed?",
+        "What customization options are available for how are dumbbells weighed?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 30",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing how are dumbbells weighed?",
+        "What materials and finishes are available for how are dumbbells weighed?",
+        "How can importers verify factory quality for how are dumbbells weighed?",
+        "What customization options are available for how are dumbbells weighed?",
+        "Can PowerBaseFit customize how are dumbbells weighed?",
+        "What information is needed to request a quote for how are dumbbells weighed?"
+      ],
+      "requiredImages": [
+        "how are dumbbells weighed product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for how are dumbbells weighed without changing protected SEO assets. DataForSEO search volume: 30.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/dumbbell-manufacturing-machine",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "dumbbell manufacturing machine",
+      "secondaryKeywords": [
+        "dumbbell factory",
+        "dumbbell manufacturing machine supplier",
+        "dumbbell manufacturing machine manufacturer",
+        "dumbbell manufacturing machine wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing dumbbell manufacturing machine?",
+        "What materials and finishes are available for dumbbell manufacturing machine?",
+        "How can importers verify factory quality for dumbbell manufacturing machine?",
+        "What customization options are available for dumbbell manufacturing machine?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing dumbbell manufacturing machine?",
+        "What materials and finishes are available for dumbbell manufacturing machine?",
+        "How can importers verify factory quality for dumbbell manufacturing machine?",
+        "What customization options are available for dumbbell manufacturing machine?",
+        "Can PowerBaseFit customize dumbbell manufacturing machine?",
+        "What information is needed to request a quote for dumbbell manufacturing machine?"
+      ],
+      "requiredImages": [
+        "dumbbell manufacturing machine product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for dumbbell manufacturing machine without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/how-are-cast-iron-dumbbells-made",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Factory",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "how are cast iron dumbbells made",
+      "secondaryKeywords": [
+        "dumbbell factory",
+        "how are cast iron dumbbells made supplier",
+        "how are cast iron dumbbells made manufacturer",
+        "how are cast iron dumbbells made wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing how are cast iron dumbbells made?",
+        "What materials and finishes are available for how are cast iron dumbbells made?",
+        "How can importers verify factory quality for how are cast iron dumbbells made?",
+        "What customization options are available for how are cast iron dumbbells made?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing how are cast iron dumbbells made?",
+        "What materials and finishes are available for how are cast iron dumbbells made?",
+        "How can importers verify factory quality for how are cast iron dumbbells made?",
+        "What customization options are available for how are cast iron dumbbells made?",
+        "Can PowerBaseFit customize how are cast iron dumbbells made?",
+        "What information is needed to request a quote for how are cast iron dumbbells made?"
+      ],
+      "requiredImages": [
+        "how are cast iron dumbbells made product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for how are cast iron dumbbells made without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/oem/engraved-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "targetCustomer": "Brand Owner / Importer",
+      "primaryKeyword": "engraved dumbbells",
+      "secondaryKeywords": [
+        "custom logo dumbbells",
+        "engraved dumbbells supplier",
+        "engraved dumbbells manufacturer",
+        "engraved dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing engraved dumbbells?",
+        "What materials and finishes are available for engraved dumbbells?",
+        "How can importers verify factory quality for engraved dumbbells?",
+        "What customization options are available for engraved dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 1.11",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing engraved dumbbells?",
+        "What materials and finishes are available for engraved dumbbells?",
+        "How can importers verify factory quality for engraved dumbbells?",
+        "What customization options are available for engraved dumbbells?",
+        "Can PowerBaseFit customize engraved dumbbells?",
+        "What information is needed to request a quote for engraved dumbbells?"
+      ],
+      "requiredImages": [
+        "engraved dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory",
+        "/oem"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for engraved dumbbells without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/how-are-bumper-plates-made",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "how are bumper plates made",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "how are bumper plates made supplier",
+        "how are bumper plates made manufacturer",
+        "how are bumper plates made wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable how are bumper plates made supplier?",
+        "Which materials and tolerances matter for how are bumper plates made?",
+        "How should buyers compare packaging, warranty, and QC for how are bumper plates made?",
+        "What factory evidence should be shown for how are bumper plates made?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 30",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable how are bumper plates made supplier?",
+        "Which materials and tolerances matter for how are bumper plates made?",
+        "How should buyers compare packaging, warranty, and QC for how are bumper plates made?",
+        "What factory evidence should be shown for how are bumper plates made?",
+        "Can PowerBaseFit customize how are bumper plates made?",
+        "What information is needed to request a quote for how are bumper plates made?"
+      ],
+      "requiredImages": [
+        "how are bumper plates made product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for how are bumper plates made without changing protected SEO assets. DataForSEO search volume: 30.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/weight-plate-manufacturers",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "weight plate manufacturers",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "weight plate manufacturers supplier",
+        "weight plate manufacturers manufacturer",
+        "weight plate manufacturers wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable weight plate manufacturers supplier?",
+        "Which materials and tolerances matter for weight plate manufacturers?",
+        "How should buyers compare packaging, warranty, and QC for weight plate manufacturers?",
+        "What factory evidence should be shown for weight plate manufacturers?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable weight plate manufacturers supplier?",
+        "Which materials and tolerances matter for weight plate manufacturers?",
+        "How should buyers compare packaging, warranty, and QC for weight plate manufacturers?",
+        "What factory evidence should be shown for weight plate manufacturers?",
+        "Can PowerBaseFit customize weight plate manufacturers?",
+        "What information is needed to request a quote for weight plate manufacturers?"
+      ],
+      "requiredImages": [
+        "weight plate manufacturers product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for weight plate manufacturers without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/iron-company-bumper-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "iron company bumper plates",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "iron company bumper plates supplier",
+        "iron company bumper plates manufacturer",
+        "iron company bumper plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable iron company bumper plates supplier?",
+        "Which materials and tolerances matter for iron company bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for iron company bumper plates?",
+        "What factory evidence should be shown for iron company bumper plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 0.92",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable iron company bumper plates supplier?",
+        "Which materials and tolerances matter for iron company bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for iron company bumper plates?",
+        "What factory evidence should be shown for iron company bumper plates?",
+        "Can PowerBaseFit customize iron company bumper plates?",
+        "What information is needed to request a quote for iron company bumper plates?"
+      ],
+      "requiredImages": [
+        "iron company bumper plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for iron company bumper plates without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/alibaba-bumper-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "alibaba bumper plates",
+      "secondaryKeywords": [
+        "bumper plate manufacturer",
+        "alibaba bumper plates supplier",
+        "alibaba bumper plates manufacturer",
+        "alibaba bumper plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable alibaba bumper plates supplier?",
+        "Which materials and tolerances matter for alibaba bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for alibaba bumper plates?",
+        "What factory evidence should be shown for alibaba bumper plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Guide / Resource",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 0.42",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable alibaba bumper plates supplier?",
+        "Which materials and tolerances matter for alibaba bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for alibaba bumper plates?",
+        "What factory evidence should be shown for alibaba bumper plates?",
+        "Can PowerBaseFit customize alibaba bumper plates?",
+        "What information is needed to request a quote for alibaba bumper plates?"
+      ],
+      "requiredImages": [
+        "alibaba bumper plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for alibaba bumper plates without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/bumper-plate-supplier",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "bumper plate supplier",
+      "secondaryKeywords": [
+        "bumper plate supplier supplier",
+        "bumper plate supplier manufacturer",
+        "bumper plate supplier wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plate supplier supplier?",
+        "Which materials and tolerances matter for bumper plate supplier?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate supplier?",
+        "What factory evidence should be shown for bumper plate supplier?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plate supplier supplier?",
+        "Which materials and tolerances matter for bumper plate supplier?",
+        "How should buyers compare packaging, warranty, and QC for bumper plate supplier?",
+        "What factory evidence should be shown for bumper plate supplier?",
+        "Can PowerBaseFit customize bumper plate supplier?",
+        "What information is needed to request a quote for bumper plate supplier?"
+      ],
+      "requiredImages": [
+        "bumper plate supplier product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plate supplier without changing protected SEO assets. DataForSEO search volume: unknown.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells",
+      "secondaryKeywords": [
+        "rubber hex dumbbells supplier",
+        "rubber hex dumbbells manufacturer",
+        "rubber hex dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells?",
+        "What materials and finishes are available for rubber hex dumbbells?",
+        "How can importers verify factory quality for rubber hex dumbbells?",
+        "What customization options are available for rubber hex dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 4400",
+        "DataForSEO CPC: 2.62",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells?",
+        "What materials and finishes are available for rubber hex dumbbells?",
+        "How can importers verify factory quality for rubber hex dumbbells?",
+        "What customization options are available for rubber hex dumbbells?",
+        "Can PowerBaseFit customize rubber hex dumbbells?",
+        "What information is needed to request a quote for rubber hex dumbbells?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells without changing protected SEO assets. DataForSEO search volume: 4400.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells set",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbells set supplier",
+        "rubber hex dumbbells set manufacturer",
+        "rubber hex dumbbells set wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells set?",
+        "What materials and finishes are available for rubber hex dumbbells set?",
+        "How can importers verify factory quality for rubber hex dumbbells set?",
+        "What customization options are available for rubber hex dumbbells set?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 2400",
+        "DataForSEO CPC: 2.26",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells set?",
+        "What materials and finishes are available for rubber hex dumbbells set?",
+        "How can importers verify factory quality for rubber hex dumbbells set?",
+        "What customization options are available for rubber hex dumbbells set?",
+        "Can PowerBaseFit customize rubber hex dumbbells set?",
+        "What information is needed to request a quote for rubber hex dumbbells set?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells set product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells set without changing protected SEO assets. DataForSEO search volume: 2400.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "bumper plates",
+      "secondaryKeywords": [
+        "bumper plates supplier",
+        "bumper plates manufacturer",
+        "bumper plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plates supplier?",
+        "Which materials and tolerances matter for bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates?",
+        "What factory evidence should be shown for bumper plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 9900",
+        "DataForSEO CPC: 3.02",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plates supplier?",
+        "Which materials and tolerances matter for bumper plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates?",
+        "What factory evidence should be shown for bumper plates?",
+        "Can PowerBaseFit customize bumper plates?",
+        "What information is needed to request a quote for bumper plates?"
+      ],
+      "requiredImages": [
+        "bumper plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plates without changing protected SEO assets. DataForSEO search volume: 9900.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates-45lb",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "bumper plates 45lb",
+      "secondaryKeywords": [
+        "bumper plates",
+        "bumper plates 45lb supplier",
+        "bumper plates 45lb manufacturer",
+        "bumper plates 45lb wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plates 45lb supplier?",
+        "Which materials and tolerances matter for bumper plates 45lb?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates 45lb?",
+        "What factory evidence should be shown for bumper plates 45lb?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 1300",
+        "DataForSEO CPC: 1.74",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plates 45lb supplier?",
+        "Which materials and tolerances matter for bumper plates 45lb?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates 45lb?",
+        "What factory evidence should be shown for bumper plates 45lb?",
+        "Can PowerBaseFit customize bumper plates 45lb?",
+        "What information is needed to request a quote for bumper plates 45lb?"
+      ],
+      "requiredImages": [
+        "bumper plates 45lb product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plates 45lb without changing protected SEO assets. DataForSEO search volume: 1300.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells for sale",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbells for sale supplier",
+        "rubber hex dumbbells for sale manufacturer",
+        "rubber hex dumbbells for sale wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells for sale?",
+        "What materials and finishes are available for rubber hex dumbbells for sale?",
+        "How can importers verify factory quality for rubber hex dumbbells for sale?",
+        "What customization options are available for rubber hex dumbbells for sale?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 390",
+        "DataForSEO CPC: 13.67",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells for sale?",
+        "What materials and finishes are available for rubber hex dumbbells for sale?",
+        "How can importers verify factory quality for rubber hex dumbbells for sale?",
+        "What customization options are available for rubber hex dumbbells for sale?",
+        "Can PowerBaseFit customize rubber hex dumbbells for sale?",
+        "What information is needed to request a quote for rubber hex dumbbells for sale?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells for sale product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells for sale without changing protected SEO assets. DataForSEO search volume: 390.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/hammer-strength-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "hammer strength dumbbells",
+      "secondaryKeywords": [
+        "commercial dumbbells",
+        "hammer strength dumbbells supplier",
+        "hammer strength dumbbells manufacturer",
+        "hammer strength dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing hammer strength dumbbells?",
+        "What materials and finishes are available for hammer strength dumbbells?",
+        "How can importers verify factory quality for hammer strength dumbbells?",
+        "What customization options are available for hammer strength dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 720",
+        "DataForSEO CPC: 3.37",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing hammer strength dumbbells?",
+        "What materials and finishes are available for hammer strength dumbbells?",
+        "How can importers verify factory quality for hammer strength dumbbells?",
+        "What customization options are available for hammer strength dumbbells?",
+        "Can PowerBaseFit customize hammer strength dumbbells?",
+        "What information is needed to request a quote for hammer strength dumbbells?"
+      ],
+      "requiredImages": [
+        "hammer strength dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for hammer strength dumbbells without changing protected SEO assets. DataForSEO search volume: 720.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/commercial-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "commercial dumbbells",
+      "secondaryKeywords": [
+        "commercial dumbbells supplier",
+        "commercial dumbbells manufacturer",
+        "commercial dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing commercial dumbbells?",
+        "What materials and finishes are available for commercial dumbbells?",
+        "How can importers verify factory quality for commercial dumbbells?",
+        "What customization options are available for commercial dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 140",
+        "DataForSEO CPC: 4.87",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing commercial dumbbells?",
+        "What materials and finishes are available for commercial dumbbells?",
+        "How can importers verify factory quality for commercial dumbbells?",
+        "What customization options are available for commercial dumbbells?",
+        "Can PowerBaseFit customize commercial dumbbells?",
+        "What information is needed to request a quote for commercial dumbbells?"
+      ],
+      "requiredImages": [
+        "commercial dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for commercial dumbbells without changing protected SEO assets. DataForSEO search volume: 140.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/best-commercial-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "best commercial dumbbells",
+      "secondaryKeywords": [
+        "commercial dumbbells",
+        "best commercial dumbbells supplier",
+        "best commercial dumbbells manufacturer",
+        "best commercial dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing best commercial dumbbells?",
+        "What materials and finishes are available for best commercial dumbbells?",
+        "How can importers verify factory quality for best commercial dumbbells?",
+        "What customization options are available for best commercial dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 20",
+        "DataForSEO CPC: 7.24",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing best commercial dumbbells?",
+        "What materials and finishes are available for best commercial dumbbells?",
+        "How can importers verify factory quality for best commercial dumbbells?",
+        "What customization options are available for best commercial dumbbells?",
+        "Can PowerBaseFit customize best commercial dumbbells?",
+        "What information is needed to request a quote for best commercial dumbbells?"
+      ],
+      "requiredImages": [
+        "best commercial dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for best commercial dumbbells without changing protected SEO assets. DataForSEO search volume: 20.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates-vs-weight-plates",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "bumper plates vs weight plates",
+      "secondaryKeywords": [
+        "bumper plates",
+        "bumper plates vs weight plates supplier",
+        "bumper plates vs weight plates manufacturer",
+        "bumper plates vs weight plates wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plates vs weight plates supplier?",
+        "Which materials and tolerances matter for bumper plates vs weight plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates vs weight plates?",
+        "What factory evidence should be shown for bumper plates vs weight plates?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 110",
+        "DataForSEO CPC: 3.44",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plates vs weight plates supplier?",
+        "Which materials and tolerances matter for bumper plates vs weight plates?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates vs weight plates?",
+        "What factory evidence should be shown for bumper plates vs weight plates?",
+        "Can PowerBaseFit customize bumper plates vs weight plates?",
+        "What information is needed to request a quote for bumper plates vs weight plates?"
+      ],
+      "requiredImages": [
+        "bumper plates vs weight plates product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plates vs weight plates without changing protected SEO assets. DataForSEO search volume: 110.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates-reddit",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "bumper plates reddit",
+      "secondaryKeywords": [
+        "bumper plates",
+        "bumper plates reddit supplier",
+        "bumper plates reddit manufacturer",
+        "bumper plates reddit wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plates reddit supplier?",
+        "Which materials and tolerances matter for bumper plates reddit?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates reddit?",
+        "What factory evidence should be shown for bumper plates reddit?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 50",
+        "DataForSEO CPC: 5.22",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plates reddit supplier?",
+        "Which materials and tolerances matter for bumper plates reddit?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates reddit?",
+        "What factory evidence should be shown for bumper plates reddit?",
+        "Can PowerBaseFit customize bumper plates reddit?",
+        "What information is needed to request a quote for bumper plates reddit?"
+      ],
+      "requiredImages": [
+        "bumper plates reddit product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plates reddit without changing protected SEO assets. DataForSEO search volume: 50.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/bumper-plates-5-lbs",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "bumper plates 5 lbs",
+      "secondaryKeywords": [
+        "bumper plates",
+        "bumper plates 5 lbs supplier",
+        "bumper plates 5 lbs manufacturer",
+        "bumper plates 5 lbs wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable bumper plates 5 lbs supplier?",
+        "Which materials and tolerances matter for bumper plates 5 lbs?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates 5 lbs?",
+        "What factory evidence should be shown for bumper plates 5 lbs?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 20",
+        "DataForSEO CPC: 3.35",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable bumper plates 5 lbs supplier?",
+        "Which materials and tolerances matter for bumper plates 5 lbs?",
+        "How should buyers compare packaging, warranty, and QC for bumper plates 5 lbs?",
+        "What factory evidence should be shown for bumper plates 5 lbs?",
+        "Can PowerBaseFit customize bumper plates 5 lbs?",
+        "What information is needed to request a quote for bumper plates 5 lbs?"
+      ],
+      "requiredImages": [
+        "bumper plates 5 lbs product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for bumper plates 5 lbs without changing protected SEO assets. DataForSEO search volume: 20.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "cap rubber hex dumbbells",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "cap rubber hex dumbbells supplier",
+        "cap rubber hex dumbbells manufacturer",
+        "cap rubber hex dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing cap rubber hex dumbbells?",
+        "What materials and finishes are available for cap rubber hex dumbbells?",
+        "How can importers verify factory quality for cap rubber hex dumbbells?",
+        "What customization options are available for cap rubber hex dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 90",
+        "DataForSEO CPC: 1.1",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing cap rubber hex dumbbells?",
+        "What materials and finishes are available for cap rubber hex dumbbells?",
+        "How can importers verify factory quality for cap rubber hex dumbbells?",
+        "What customization options are available for cap rubber hex dumbbells?",
+        "Can PowerBaseFit customize cap rubber hex dumbbells?",
+        "What information is needed to request a quote for cap rubber hex dumbbells?"
+      ],
+      "requiredImages": [
+        "cap rubber hex dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for cap rubber hex dumbbells without changing protected SEO assets. DataForSEO search volume: 90.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells 20lb",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbells 20lb supplier",
+        "rubber hex dumbbells 20lb manufacturer",
+        "rubber hex dumbbells 20lb wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells 20lb?",
+        "What materials and finishes are available for rubber hex dumbbells 20lb?",
+        "How can importers verify factory quality for rubber hex dumbbells 20lb?",
+        "What customization options are available for rubber hex dumbbells 20lb?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 30",
+        "DataForSEO CPC: 0.93",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells 20lb?",
+        "What materials and finishes are available for rubber hex dumbbells 20lb?",
+        "How can importers verify factory quality for rubber hex dumbbells 20lb?",
+        "What customization options are available for rubber hex dumbbells 20lb?",
+        "Can PowerBaseFit customize rubber hex dumbbells 20lb?",
+        "What information is needed to request a quote for rubber hex dumbbells 20lb?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells 20lb product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells 20lb without changing protected SEO assets. DataForSEO search volume: 30.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells 50 lbs",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbells 50 lbs supplier",
+        "rubber hex dumbbells 50 lbs manufacturer",
+        "rubber hex dumbbells 50 lbs wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells 50 lbs?",
+        "What materials and finishes are available for rubber hex dumbbells 50 lbs?",
+        "How can importers verify factory quality for rubber hex dumbbells 50 lbs?",
+        "What customization options are available for rubber hex dumbbells 50 lbs?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 0.31",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells 50 lbs?",
+        "What materials and finishes are available for rubber hex dumbbells 50 lbs?",
+        "How can importers verify factory quality for rubber hex dumbbells 50 lbs?",
+        "What customization options are available for rubber hex dumbbells 50 lbs?",
+        "Can PowerBaseFit customize rubber hex dumbbells 50 lbs?",
+        "What information is needed to request a quote for rubber hex dumbbells 50 lbs?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells 50 lbs product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells 50 lbs without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells amazon",
+      "secondaryKeywords": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbells amazon supplier",
+        "rubber hex dumbbells amazon manufacturer",
+        "rubber hex dumbbells amazon wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells amazon?",
+        "What materials and finishes are available for rubber hex dumbbells amazon?",
+        "How can importers verify factory quality for rubber hex dumbbells amazon?",
+        "What customization options are available for rubber hex dumbbells amazon?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 10",
+        "DataForSEO CPC: 0.31",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells amazon?",
+        "What materials and finishes are available for rubber hex dumbbells amazon?",
+        "How can importers verify factory quality for rubber hex dumbbells amazon?",
+        "What customization options are available for rubber hex dumbbells amazon?",
+        "Can PowerBaseFit customize rubber hex dumbbells amazon?",
+        "What information is needed to request a quote for rubber hex dumbbells amazon?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells amazon product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells amazon without changing protected SEO assets. DataForSEO search volume: 10.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "action": "Update Existing Page",
+      "sourceAction": "Protect Existing Page",
+      "reason": "Protect existing asset: optimization brief only. Do not create a new page and do not rewrite the core page intent.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Wholesale",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "rubber hex dumbbells wholesale",
+      "secondaryKeywords": [
+        "rubber hex dumbbells wholesale supplier",
+        "rubber hex dumbbells wholesale manufacturer",
+        "rubber hex dumbbells wholesale wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing rubber hex dumbbells wholesale?",
+        "What materials and finishes are available for rubber hex dumbbells wholesale?",
+        "How can importers verify factory quality for rubber hex dumbbells wholesale?",
+        "What customization options are available for rubber hex dumbbells wholesale?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "Current page intent and asset protection note",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing rubber hex dumbbells wholesale?",
+        "What materials and finishes are available for rubber hex dumbbells wholesale?",
+        "How can importers verify factory quality for rubber hex dumbbells wholesale?",
+        "What customization options are available for rubber hex dumbbells wholesale?",
+        "Can PowerBaseFit customize rubber hex dumbbells wholesale?",
+        "What information is needed to request a quote for rubber hex dumbbells wholesale?"
+      ],
+      "requiredImages": [
+        "rubber hex dumbbells wholesale product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for rubber hex dumbbells wholesale without changing protected SEO assets. DataForSEO search volume: unknown.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: High. Existing asset must not be rewritten or split without external validation."
+    },
+    {
+      "targetUrl": "https://www.chinafreeweight.com/products/american-barbell-dumbbells",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Gym Owner",
+      "targetCustomer": "Buyer / Distributor",
+      "primaryKeyword": "american barbell dumbbells",
+      "secondaryKeywords": [
+        "commercial dumbbells",
+        "american barbell dumbbells supplier",
+        "american barbell dumbbells manufacturer",
+        "american barbell dumbbells wholesale"
+      ],
+      "questionsToAnswer": [
+        "What should buyers check before sourcing american barbell dumbbells?",
+        "What materials and finishes are available for american barbell dumbbells?",
+        "How can importers verify factory quality for american barbell dumbbells?",
+        "What customization options are available for american barbell dumbbells?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO related keywords",
+        "SERP type: Product / Category",
+        "DataForSEO Search Volume: 320",
+        "DataForSEO CPC: 1.72",
+        "DataForSEO SERP Type: Product / Category"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What should buyers check before sourcing american barbell dumbbells?",
+        "What materials and finishes are available for american barbell dumbbells?",
+        "How can importers verify factory quality for american barbell dumbbells?",
+        "What customization options are available for american barbell dumbbells?",
+        "Can PowerBaseFit customize american barbell dumbbells?",
+        "What information is needed to request a quote for american barbell dumbbells?"
+      ],
+      "requiredImages": [
+        "american barbell dumbbells product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/dumbbells",
+        "/contact",
+        "/factory"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for american barbell dumbbells without changing protected SEO assets. DataForSEO search volume: 320.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    }
+  ]
+}
