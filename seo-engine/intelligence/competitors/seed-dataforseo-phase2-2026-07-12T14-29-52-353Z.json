@@ -1,0 +1,783 @@
+{
+  "generatedAt": "2026-07-12T14:29:52.353Z",
+  "summary": {
+    "phase": "Seed Library + DataForSEO Integration Phase 2",
+    "generatedAt": "2026-07-12T14:29:52.353Z",
+    "seedFile": "seo-engine/intelligence/seed-library/seed-library-v1.json",
+    "selectedSeedCount": 20,
+    "selectedSeeds": [
+      {
+        "id": "dumbbells-001",
+        "keyword": "rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-002",
+        "keyword": "rubber hex dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-003",
+        "keyword": "rubber hex dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-004",
+        "keyword": "rubber hex dumbbells wholesale",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-005",
+        "keyword": "commercial rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-007",
+        "keyword": "chrome dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-010",
+        "keyword": "urethane dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-011",
+        "keyword": "commercial dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-012",
+        "keyword": "commercial dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-013",
+        "keyword": "commercial dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-014",
+        "keyword": "dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-015",
+        "keyword": "dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-016",
+        "keyword": "dumbbell factory",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-017",
+        "keyword": "OEM dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-018",
+        "keyword": "private label dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-019",
+        "keyword": "custom logo dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "plates-001",
+        "keyword": "bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-002",
+        "keyword": "bumper plate manufacturer",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-003",
+        "keyword": "bumper plate supplier",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-004",
+        "keyword": "OEM bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      }
+    ],
+    "requestCount": 40,
+    "totalCost": 0.2875600000000001,
+    "returnedKeywordCount": 63,
+    "serpCount": 185,
+    "peopleAlsoAskCount": 20,
+    "relatedSearchesCount": 160,
+    "competitorDomainCount": 76,
+    "opportunityCount": 63,
+    "failedCallCount": 0,
+    "failedCalls": [],
+    "status": "success"
+  },
+  "competitors": [
+    {
+      "domain": "titan.fitness",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell supplier",
+        "rubber hex dumbbells wholesale",
+        "commercial rubber hex dumbbells",
+        "bumper plates"
+      ]
+    },
+    {
+      "domain": "topfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbell supplier",
+        "rubber hex dumbbells wholesale",
+        "commercial rubber hex dumbbells"
+      ]
+    },
+    {
+      "domain": "repfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "amazon.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells"
+      ]
+    },
+    {
+      "domain": "youtube.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbells wholesale",
+        "urethane dumbbell manufacturer",
+        "commercial dumbbell supplier",
+        "dumbbell supplier",
+        "OEM dumbbells",
+        "bumper plates",
+        "bumper plate manufacturer",
+        "bumper plate supplier",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "roguefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "urethane dumbbell manufacturer",
+        "bumper plates"
+      ]
+    },
+    {
+      "domain": "vulcanstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell manufacturer",
+        "commercial rubber hex dumbbells",
+        "commercial dumbbells",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "shop.lifefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "commercial dumbbells",
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "torquefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell supplier",
+        "rubber hex dumbbells wholesale",
+        "commercial rubber hex dumbbells"
+      ]
+    },
+    {
+      "domain": "ironcompany.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells",
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbell supplier",
+        "rubber hex dumbbells wholesale",
+        "commercial rubber hex dumbbells",
+        "chrome dumbbell manufacturer",
+        "urethane dumbbell manufacturer",
+        "commercial dumbbells",
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier",
+        "dumbbell manufacturer",
+        "dumbbell supplier",
+        "private label dumbbells",
+        "bumper plate manufacturer",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "smai.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbell supplier",
+        "commercial rubber hex dumbbells"
+      ]
+    },
+    {
+      "domain": "mydynamicfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "fitnesssuperstore.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer",
+        "rubber hex dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "johnsonfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer",
+        "commercial rubber hex dumbbells"
+      ]
+    },
+    {
+      "domain": "americanbarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer",
+        "commercial dumbbells",
+        "custom logo dumbbells",
+        "bumper plates",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "yanrefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "boltfitnesssupply.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "sorinex.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell supplier",
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "barbend.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbell supplier",
+        "chrome dumbbell manufacturer",
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "strengthwarehouseusa.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells wholesale",
+        "commercial dumbbells",
+        "dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "freedomfitnessequipment.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells wholesale",
+        "dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "wavar.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells wholesale",
+        "commercial dumbbell supplier",
+        "dumbbell supplier",
+        "dumbbell factory",
+        "OEM dumbbells",
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "alohamuscle.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells wholesale"
+      ]
+    },
+    {
+      "domain": "extremetrainingequipment.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "rubber hex dumbbells wholesale"
+      ]
+    },
+    {
+      "domain": "gtechfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial rubber hex dumbbells",
+        "commercial dumbbells",
+        "commercial dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "fitnessthings.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial rubber hex dumbbells",
+        "commercial dumbbells",
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "xmarkfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial rubber hex dumbbells",
+        "commercial dumbbells",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "ivankobarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "technogym.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "dumbbellsdirect.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer",
+        "commercial dumbbell manufacturer",
+        "dumbbell manufacturer",
+        "dumbbell supplier",
+        "private label dumbbells",
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "made-in-china.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer",
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "facebook.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "networldsports.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "baopengfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "oksporting.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer",
+        "dumbbell factory"
+      ]
+    },
+    {
+      "domain": "gearmashers.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "leadmanfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer",
+        "dumbbell manufacturer",
+        "dumbbell factory"
+      ]
+    },
+    {
+      "domain": "gymtechfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "corehandf.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbells",
+        "commercial dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "shop.blackironstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbells"
+      ]
+    },
+    {
+      "domain": "ironbullstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier",
+        "dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "blackironstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier",
+        "dumbbell supplier",
+        "private label dumbbells",
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "sourceready.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbell manufacturer",
+        "commercial dumbbell supplier",
+        "dumbbell manufacturer",
+        "dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "china-fitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "commercial dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "irongrip.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell manufacturer",
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "garagegymreviews.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell manufacturer",
+        "bumper plates",
+        "bumper plate manufacturer",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "tworepcave.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "performbetter.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell supplier",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "outdoorgearlab.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "playitagainsports.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell supplier"
+      ]
+    },
+    {
+      "domain": "fitnessfactory.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell factory",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "chinafitnessequipmentsupplier.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell factory"
+      ]
+    },
+    {
+      "domain": "instagram.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "dumbbell factory",
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "nuoathletics.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "reddit.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "yogafitness.group",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "yorkbarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "ironpowerfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "ardentfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells",
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "elivatefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "powerfitnesssuperstore.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells",
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "weightitout.us",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "troyfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "intekstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "custom logo dumbbells"
+      ]
+    },
+    {
+      "domain": "fringesport.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plates",
+        "bumper plate manufacturer",
+        "bumper plate supplier",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "prxperformance.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plates"
+      ]
+    },
+    {
+      "domain": "homegrownlifting.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plates",
+        "bumper plate manufacturer"
+      ]
+    },
+    {
+      "domain": "againfaster.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plates"
+      ]
+    },
+    {
+      "domain": "bellsofsteel.us",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plates"
+      ]
+    },
+    {
+      "domain": "thestrength.co",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plate manufacturer"
+      ]
+    },
+    {
+      "domain": "valorfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plate manufacturer",
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "powersystems.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plate manufacturer"
+      ]
+    },
+    {
+      "domain": "matchory.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plate manufacturer",
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "qdmodun.en.made-in-china.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "bumper plate supplier"
+      ]
+    },
+    {
+      "domain": "can-am-shop.brp.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM bumper plates"
+      ]
+    },
+    {
+      "domain": "lycanfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM bumper plates"
+      ]
+    }
+  ]
+}
