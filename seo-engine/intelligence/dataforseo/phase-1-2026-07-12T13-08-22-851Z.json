@@ -1,433 +1,433 @@
 {
-  "summary": {
-    "phase": "DataForSEO Phase 1",
-    "generatedAt": "2026-07-12T13:08:22.851Z",
-    "country": "United States",
-    "language": "English",
-    "seeds": [
-      "rubber hex dumbbells",
-      "dumbbell manufacturer",
-      "weight plate manufacturer",
-      "bumper plate manufacturer",
-      "olympic weight plates",
-      "commercial dumbbells",
-      "OEM dumbbells"
-    ],
-    "apiConnected": false,
-    "requestCount": 14,
-    "totalCost": 0,
-    "httpStatuses": [
-      {
-        "seed": "rubber hex dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "rubber hex dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "dumbbell manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "dumbbell manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "weight plate manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "weight plate manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "bumper plate manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "bumper plate manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "olympic weight plates",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "olympic weight plates",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "commercial dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "commercial dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "OEM dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      },
-      {
-        "seed": "OEM dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "ok": false
-      }
-    ],
-    "returnedKeywordCount": 0,
-    "peopleAlsoAskCount": 0,
-    "relatedSearchesCount": 0,
-    "serpCount": 0,
-    "competitorDomainCount": 0,
-    "growthIntelligenceWriteStatus": "pending",
-    "failedCalls": [
-      {
-        "seed": "rubber hex dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "rubber hex dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "dumbbell manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "dumbbell manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "weight plate manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "weight plate manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "bumper plate manufacturer",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "bumper plate manufacturer",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "olympic weight plates",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "olympic weight plates",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "commercial dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "commercial dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "OEM dumbbells",
-        "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      },
-      {
-        "seed": "OEM dumbbells",
-        "endpoint": "/v3/serp/google/organic/live/advanced",
-        "httpStatus": 403,
-        "dataForSeoStatusCode": 40104,
-        "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-        "cost": 0,
-        "ok": false,
-        "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-      }
-    ]
-  },
-  "apiCalls": [
-    {
-      "seed": "rubber hex dumbbells",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "rubber hex dumbbells",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "dumbbell manufacturer",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "dumbbell manufacturer",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "weight plate manufacturer",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "weight plate manufacturer",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "bumper plate manufacturer",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "bumper plate manufacturer",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "olympic weight plates",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "olympic weight plates",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "commercial dumbbells",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "commercial dumbbells",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "OEM dumbbells",
-      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    },
-    {
-      "seed": "OEM dumbbells",
-      "endpoint": "/v3/serp/google/organic/live/advanced",
-      "httpStatus": 403,
-      "dataForSeoStatusCode": 40104,
-      "dataForSeoStatusMessage": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
-      "cost": 0,
-      "ok": false,
-      "error": "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
-    }
-  ],
-  "seeds": [
-    "rubber hex dumbbells",
-    "dumbbell manufacturer",
-    "weight plate manufacturer",
-    "bumper plate manufacturer",
-    "olympic weight plates",
-    "commercial dumbbells",
-    "OEM dumbbells"
-  ]
+    "summary":  {
+                    "phase":  "DataForSEO Phase 1",
+                    "generatedAt":  "2026-07-12T13:08:22.851Z",
+                    "country":  "United States",
+                    "language":  "English",
+                    "seeds":  [
+                                  "rubber hex dumbbells",
+                                  "dumbbell manufacturer",
+                                  "weight plate manufacturer",
+                                  "bumper plate manufacturer",
+                                  "olympic weight plates",
+                                  "commercial dumbbells",
+                                  "OEM dumbbells"
+                              ],
+                    "apiConnected":  false,
+                    "requestCount":  14,
+                    "totalCost":  0,
+                    "httpStatuses":  [
+                                         {
+                                             "seed":  "rubber hex dumbbells",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "rubber hex dumbbells",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "dumbbell manufacturer",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "dumbbell manufacturer",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "weight plate manufacturer",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "weight plate manufacturer",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "bumper plate manufacturer",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "bumper plate manufacturer",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "olympic weight plates",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "olympic weight plates",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "commercial dumbbells",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "commercial dumbbells",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "OEM dumbbells",
+                                             "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         },
+                                         {
+                                             "seed":  "OEM dumbbells",
+                                             "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                             "httpStatus":  403,
+                                             "dataForSeoStatusCode":  40104,
+                                             "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                             "ok":  false
+                                         }
+                                     ],
+                    "returnedKeywordCount":  0,
+                    "peopleAlsoAskCount":  0,
+                    "relatedSearchesCount":  0,
+                    "serpCount":  0,
+                    "competitorDomainCount":  0,
+                    "growthIntelligenceWriteStatus":  "success",
+                    "failedCalls":  [
+                                        {
+                                            "seed":  "rubber hex dumbbells",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "rubber hex dumbbells",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "dumbbell manufacturer",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "dumbbell manufacturer",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "weight plate manufacturer",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "weight plate manufacturer",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "bumper plate manufacturer",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "bumper plate manufacturer",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "olympic weight plates",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "olympic weight plates",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "commercial dumbbells",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "commercial dumbbells",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "OEM dumbbells",
+                                            "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        },
+                                        {
+                                            "seed":  "OEM dumbbells",
+                                            "endpoint":  "/v3/serp/google/organic/live/advanced",
+                                            "httpStatus":  403,
+                                            "dataForSeoStatusCode":  40104,
+                                            "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                                            "cost":  0,
+                                            "ok":  false,
+                                            "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                                        }
+                                    ]
+                },
+    "apiCalls":  [
+                     {
+                         "seed":  "rubber hex dumbbells",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "rubber hex dumbbells",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "dumbbell manufacturer",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "dumbbell manufacturer",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "weight plate manufacturer",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "weight plate manufacturer",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "bumper plate manufacturer",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "bumper plate manufacturer",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "olympic weight plates",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "olympic weight plates",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "commercial dumbbells",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "commercial dumbbells",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "OEM dumbbells",
+                         "endpoint":  "/v3/dataforseo_labs/google/related_keywords/live",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     },
+                     {
+                         "seed":  "OEM dumbbells",
+                         "endpoint":  "/v3/serp/google/organic/live/advanced",
+                         "httpStatus":  403,
+                         "dataForSeoStatusCode":  40104,
+                         "dataForSeoStatusMessage":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ .",
+                         "cost":  0,
+                         "ok":  false,
+                         "error":  "Please verify your account before using the API. You can complete verification in the user panel: https://app.dataforseo.com/ ."
+                     }
+                 ],
+    "seeds":  [
+                  "rubber hex dumbbells",
+                  "dumbbell manufacturer",
+                  "weight plate manufacturer",
+                  "bumper plate manufacturer",
+                  "olympic weight plates",
+                  "commercial dumbbells",
+                  "OEM dumbbells"
+              ]
 }
