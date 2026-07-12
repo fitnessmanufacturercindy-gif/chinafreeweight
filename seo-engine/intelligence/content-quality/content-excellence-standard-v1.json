@@ -1,0 +1,418 @@
+{
+  "version": "1.0",
+  "title": "PowerBaseFit Content Excellence Standard",
+  "principle": "PowerBaseFit content must serve real buyers, reflect manufacturing experience, support purchase decisions, and become a long-term commercial asset.",
+  "scope": [
+    "Product Page",
+    "Category Page",
+    "Manufacturer Page",
+    "OEM Page",
+    "Resource Page",
+    "Buying Guide",
+    "Comparison",
+    "FAQ",
+    "Factory Content",
+    "Project Content"
+  ],
+  "standards": [
+    {
+      "name": "Professional Depth",
+      "requirement": "Content must show product understanding, manufacturing experience, material knowledge, production process, QC, procurement experience, and industry context.",
+      "mustInclude": [
+        "Product understanding",
+        "Material knowledge",
+        "Production process",
+        "Quality control",
+        "Procurement guidance"
+      ],
+      "prohibited": [
+        "Generic introduction",
+        "Copied encyclopedia style",
+        "Ordinary AI template wording",
+        "Description without practical value"
+      ]
+    },
+    {
+      "name": "Truthfulness",
+      "requirement": "Content must not invent customers, cases, certifications, data, factory capabilities, partner brands, rankings, or promises.",
+      "mustInclude": [
+        "Evidence source",
+        "Missing Evidence label when proof is unavailable",
+        "Qualified wording"
+      ],
+      "prohibited": [
+        "Best",
+        "No.1",
+        "World Leading",
+        "Guaranteed",
+        "Fake customer",
+        "Fake certification",
+        "Unsupported ranking"
+      ]
+    },
+    {
+      "name": "Buyer Value",
+      "requirement": "Content must help distributors, importers, gym owners, OEM brands, retailers, and commercial buyers make sourcing decisions.",
+      "mustInclude": [
+        "How to choose",
+        "Quality checks",
+        "Material differences",
+        "MOQ",
+        "Lead time",
+        "Packaging",
+        "After-sales",
+        "OEM process"
+      ],
+      "prohibited": [
+        "Simple product listing",
+        "Benefits without procurement detail",
+        "Claims without buyer decision support"
+      ]
+    },
+    {
+      "name": "Manufacturer Differentiation",
+      "requirement": "Content must show PowerBaseFit manufacturing capability without inventing unverified details.",
+      "mustInclude": [
+        "Factory capability",
+        "OEM capability",
+        "Customization",
+        "QC",
+        "Production process",
+        "Packaging",
+        "Shipping",
+        "Distributor support"
+      ],
+      "prohibited": [
+        "Unsupported production capacity",
+        "Unverified brand cooperation",
+        "Fabricated factory proof"
+      ]
+    },
+    {
+      "name": "Competitive Superiority",
+      "requirement": "Every brief or draft must explain why strong competing pages work and how PowerBaseFit can provide deeper buyer help and stronger manufacturing evidence.",
+      "mustInclude": [
+        "Competitor coverage analysis",
+        "Question coverage",
+        "Purchase decision support",
+        "Trust evidence"
+      ],
+      "prohibited": [
+        "Copying competitor content",
+        "Rewriting competitor structure without added evidence"
+      ]
+    }
+  ],
+  "scoring": {
+    "name": "Content Excellence Score",
+    "minimumToEnterDraft": 90,
+    "total": 100,
+    "criteria": [
+      {
+        "name": "Professional Depth",
+        "weight": 15,
+        "passRequirement": "Explains materials, specifications, manufacturing process, quality checks, and practical buyer implications.",
+        "failureSignals": [
+          "Generic product description",
+          "No production or material detail"
+        ]
+      },
+      {
+        "name": "Buyer Value",
+        "weight": 15,
+        "passRequirement": "Answers real procurement questions for distributors, importers, gym owners, OEM brands, retailers, and commercial buyers.",
+        "failureSignals": [
+          "No MOQ/lead time/packaging/OEM guidance",
+          "No decision support"
+        ]
+      },
+      {
+        "name": "Manufacturing Expertise",
+        "weight": 15,
+        "passRequirement": "Shows factory capability, production process, QC, customization, packaging, and export support with evidence.",
+        "failureSignals": [
+          "No factory proof",
+          "Unsupported manufacturer claims"
+        ]
+      },
+      {
+        "name": "Trust Level",
+        "weight": 15,
+        "passRequirement": "Avoids unverified claims and labels missing proof clearly.",
+        "failureSignals": [
+          "Fake case",
+          "Fake certification",
+          "Best/No.1/Guaranteed wording"
+        ]
+      },
+      {
+        "name": "Content Completeness",
+        "weight": 15,
+        "passRequirement": "Includes introduction, definitions, features, selection method, comparison, manufacturing, QC, FAQ, procurement advice, and summary when relevant.",
+        "failureSignals": [
+          "Thin content",
+          "Missing FAQ",
+          "Missing procurement guidance"
+        ]
+      },
+      {
+        "name": "Differentiation",
+        "weight": 10,
+        "passRequirement": "Explains why PowerBaseFit is credible through factory experience, product expertise, service capability, and evidence.",
+        "failureSignals": [
+          "Only repeats industry common knowledge",
+          "No PowerBaseFit-specific angle"
+        ]
+      },
+      {
+        "name": "Image Readiness",
+        "weight": 8,
+        "passRequirement": "Plans at least 2-3 useful images with purpose, scene, alt text, and title.",
+        "failureSignals": [
+          "Decorative images only",
+          "No image evidence plan"
+        ]
+      },
+      {
+        "name": "Conversion Readiness",
+        "weight": 7,
+        "passRequirement": "Includes buyer CTA, quote readiness, internal links, and clear next step.",
+        "failureSignals": [
+          "No CTA",
+          "No quote guidance",
+          "No internal links"
+        ]
+      }
+    ]
+  },
+  "validation-rules": [
+    {
+      "check": "Content goal clarity",
+      "passCondition": "The page target, buyer, search intent, and business purpose are explicit.",
+      "failAction": "Block Draft and return to brief refinement."
+    },
+    {
+      "check": "Page type correctness",
+      "passCondition": "The planned page type matches search intent and Opportunity Engine decision.",
+      "failAction": "Block Draft until page type is corrected."
+    },
+    {
+      "check": "Evidence completeness",
+      "passCondition": "Factory, product, QC, packaging, OEM, and project proof are present or clearly marked Missing Evidence.",
+      "failAction": "Block unsupported claims and require Missing Evidence labels."
+    },
+    {
+      "check": "Image plan readiness",
+      "passCondition": "At least 2-3 relevant images are planned with purpose, scene, alt text, and title.",
+      "failAction": "Block Draft until image plan is complete."
+    },
+    {
+      "check": "Differentiation value",
+      "passCondition": "The content explains why PowerBaseFit is credible and more helpful than generic competitor coverage.",
+      "failAction": "Block Draft until differentiation is added."
+    },
+    {
+      "check": "Score threshold",
+      "passCondition": "Content Excellence Score is 90 or higher.",
+      "failAction": "Do not allow Draft generation."
+    }
+  ],
+  "image-rules": [
+    {
+      "context": "Factory",
+      "requiredImages": [
+        "Production line",
+        "Manufacturing process",
+        "Quality inspection",
+        "Packaging",
+        "Loading"
+      ],
+      "requiredFields": [
+        "Image purpose",
+        "Scene description",
+        "ALT text",
+        "Image title"
+      ],
+      "prohibitedUse": "Do not use decorative or invented factory images as proof."
+    },
+    {
+      "context": "Product",
+      "requiredImages": [
+        "Product detail",
+        "Material detail",
+        "Manufacturing detail",
+        "Usage scenario"
+      ],
+      "requiredFields": [
+        "Image purpose",
+        "Scene description",
+        "ALT text",
+        "Image title"
+      ],
+      "prohibitedUse": "Do not use unrelated lifestyle images that do not help buyers inspect the product."
+    },
+    {
+      "context": "OEM",
+      "requiredImages": [
+        "Custom logo",
+        "Packaging",
+        "Production",
+        "Brand customization"
+      ],
+      "requiredFields": [
+        "Image purpose",
+        "Scene description",
+        "ALT text",
+        "Image title"
+      ],
+      "prohibitedUse": "Do not imply a brand cooperation unless verified."
+    },
+    {
+      "context": "Project",
+      "requiredImages": [
+        "Real project scene",
+        "Installed product",
+        "Packaging or delivery proof"
+      ],
+      "requiredFields": [
+        "Image purpose",
+        "Scene description",
+        "ALT text",
+        "Image title"
+      ],
+      "prohibitedUse": "Do not invent customer cases or project photos."
+    },
+    {
+      "context": "Resource",
+      "requiredImages": [
+        "Comparison table",
+        "Material example",
+        "Inspection example"
+      ],
+      "requiredFields": [
+        "Image purpose",
+        "Scene description",
+        "ALT text",
+        "Image title"
+      ],
+      "prohibitedUse": "Do not add generic stock imagery that does not improve buyer understanding."
+    }
+  ],
+  "evidence-rules": [
+    {
+      "evidence": "Factory images",
+      "requiredFor": [
+        "Manufacturer Page",
+        "Factory Content",
+        "OEM Page"
+      ],
+      "ifMissing": "Missing Evidence: factory image required before draft."
+    },
+    {
+      "evidence": "QC images",
+      "requiredFor": [
+        "Product Page",
+        "Category Page",
+        "Manufacturer Page",
+        "OEM Page",
+        "Buying Guide"
+      ],
+      "ifMissing": "Missing Evidence: QC image or process proof required."
+    },
+    {
+      "evidence": "Product detail images",
+      "requiredFor": [
+        "Product Page",
+        "Category Page",
+        "Comparison",
+        "Buying Guide"
+      ],
+      "ifMissing": "Missing Evidence: product detail image required."
+    },
+    {
+      "evidence": "Packaging images",
+      "requiredFor": [
+        "Product Page",
+        "OEM Page",
+        "Project Content"
+      ],
+      "ifMissing": "Missing Evidence: packaging image or packaging specification required."
+    },
+    {
+      "evidence": "Case or project proof",
+      "requiredFor": [
+        "Project Content",
+        "Manufacturer Page"
+      ],
+      "ifMissing": "Missing Evidence: do not invent customer or project case."
+    }
+  ],
+  "page-type-structures": [
+    {
+      "pageType": "Product Page",
+      "requiredSections": [
+        "Opening value",
+        "Product definition",
+        "Specifications",
+        "Materials",
+        "Manufacturing details",
+        "QC",
+        "Packaging",
+        "FAQ",
+        "CTA"
+      ]
+    },
+    {
+      "pageType": "Manufacturer Page",
+      "requiredSections": [
+        "Manufacturer positioning",
+        "Factory capability",
+        "Product range",
+        "Production process",
+        "QC",
+        "OEM support",
+        "Export support",
+        "FAQ",
+        "CTA"
+      ]
+    },
+    {
+      "pageType": "OEM Page",
+      "requiredSections": [
+        "OEM service scope",
+        "Customization options",
+        "Logo and packaging",
+        "Production workflow",
+        "QC",
+        "MOQ and lead time guidance",
+        "FAQ",
+        "CTA"
+      ]
+    },
+    {
+      "pageType": "Buying Guide",
+      "requiredSections": [
+        "Buyer problem",
+        "Selection criteria",
+        "Material comparison",
+        "Quality checks",
+        "Supplier evaluation",
+        "Procurement tips",
+        "FAQ",
+        "Summary"
+      ]
+    },
+    {
+      "pageType": "Comparison",
+      "requiredSections": [
+        "Comparison purpose",
+        "Key differences",
+        "Use cases",
+        "Buyer decision table",
+        "Manufacturing and QC implications",
+        "FAQ",
+        "Recommendation"
+      ]
+    }
+  ]
+}
