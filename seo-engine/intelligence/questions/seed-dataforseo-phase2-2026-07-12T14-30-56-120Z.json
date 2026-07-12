@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-07-12T14:30:56.120Z",
+  "summary": {
+    "phase": "Seed Library + DataForSEO Integration Phase 2",
+    "generatedAt": "2026-07-12T14:30:56.120Z",
+    "seedFile": "seo-engine/intelligence/seed-library/seed-library-v1.json",
+    "selectedSeedCount": 20,
+    "selectedSeeds": [
+      {
+        "id": "dumbbells-001",
+        "keyword": "rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-002",
+        "keyword": "rubber hex dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-003",
+        "keyword": "rubber hex dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-004",
+        "keyword": "rubber hex dumbbells wholesale",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-005",
+        "keyword": "commercial rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-007",
+        "keyword": "chrome dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-010",
+        "keyword": "urethane dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-011",
+        "keyword": "commercial dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-012",
+        "keyword": "commercial dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-013",
+        "keyword": "commercial dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-014",
+        "keyword": "dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-015",
+        "keyword": "dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-016",
+        "keyword": "dumbbell factory",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-017",
+        "keyword": "OEM dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-018",
+        "keyword": "private label dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-019",
+        "keyword": "custom logo dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "plates-001",
+        "keyword": "bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-002",
+        "keyword": "bumper plate manufacturer",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-003",
+        "keyword": "bumper plate supplier",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-004",
+        "keyword": "OEM bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      }
+    ],
+    "requestCount": 40,
+    "totalCost": 0.2875600000000001,
+    "returnedKeywordCount": 63,
+    "serpCount": 185,
+    "peopleAlsoAskCount": 36,
+    "relatedSearchesCount": 160,
+    "competitorDomainCount": 70,
+    "opportunityCount": 63,
+    "failedCallCount": 0,
+    "failedCalls": [],
+    "status": "success"
+  },
+  "questions": [
+    {
+      "question": "Are rubber hex dumbbells good?",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "How long do rubber hex dumbbells last?",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best rubber hex dumbbells?",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Which is better, rubber or metal dumbbells?",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What dumbbells are made in the USA?",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Are chrome dumbbells good?",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Is Ivanko Barbell still in business?",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best quality dumbbells?",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best quality dumbbells?",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What dumbbells are made in the USA?",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Does York still make dumbbells?",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What company makes weights?",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Which company is best for dumbbells?",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What is the cheapest way to buy dumbbells?",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best quality dumbbells?",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "How much does a 50 lb dumbbell cost?",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What dumbbells are made in the USA?",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What is the best dumbbell company?",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Does York still make dumbbells?",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What company makes weights?",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Which company is best for dumbbells?",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What is the cheapest way to buy dumbbells?",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best quality dumbbells?",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "How much does a 50 lb dumbbell cost?",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Supplier",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best quality dumbbells?",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Which company is best for dumbbells?",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What dumbbells are made in the USA?",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Is there a difference between cheap and expensive dumbbells?",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What is the point of bumper plates?",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What is a bumper plate?",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What are the best cheap bumper plates?",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What are the disadvantages of bumper plates?",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Buyer Intent",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Who makes the best bumper plates?",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "What does OEM bumper mean?",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "How much should you pay for bumper plates?",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    },
+    {
+      "question": "Are bumper plates worth it?",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "OEM",
+      "source": "DataForSEO SERP",
+      "status": "New"
+    }
+  ]
+}
