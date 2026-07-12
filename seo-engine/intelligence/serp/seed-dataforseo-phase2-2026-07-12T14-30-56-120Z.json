@@ -1,0 +1,4458 @@
+{
+  "generatedAt": "2026-07-12T14:30:56.120Z",
+  "summary": {
+    "phase": "Seed Library + DataForSEO Integration Phase 2",
+    "generatedAt": "2026-07-12T14:30:56.120Z",
+    "seedFile": "seo-engine/intelligence/seed-library/seed-library-v1.json",
+    "selectedSeedCount": 20,
+    "selectedSeeds": [
+      {
+        "id": "dumbbells-001",
+        "keyword": "rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-002",
+        "keyword": "rubber hex dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-003",
+        "keyword": "rubber hex dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-004",
+        "keyword": "rubber hex dumbbells wholesale",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-005",
+        "keyword": "commercial rubber hex dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-007",
+        "keyword": "chrome dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-010",
+        "keyword": "urethane dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-011",
+        "keyword": "commercial dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-012",
+        "keyword": "commercial dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-013",
+        "keyword": "commercial dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-014",
+        "keyword": "dumbbell manufacturer",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-015",
+        "keyword": "dumbbell supplier",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-016",
+        "keyword": "dumbbell factory",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-017",
+        "keyword": "OEM dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-018",
+        "keyword": "private label dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "dumbbells-019",
+        "keyword": "custom logo dumbbells",
+        "category": "Dumbbells",
+        "priority": "High"
+      },
+      {
+        "id": "plates-001",
+        "keyword": "bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-002",
+        "keyword": "bumper plate manufacturer",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-003",
+        "keyword": "bumper plate supplier",
+        "category": "Weight Plates",
+        "priority": "High"
+      },
+      {
+        "id": "plates-004",
+        "keyword": "OEM bumper plates",
+        "category": "Weight Plates",
+        "priority": "High"
+      }
+    ],
+    "requestCount": 40,
+    "totalCost": 0.2875600000000001,
+    "returnedKeywordCount": 63,
+    "serpCount": 185,
+    "peopleAlsoAskCount": 36,
+    "relatedSearchesCount": 160,
+    "competitorDomainCount": 70,
+    "opportunityCount": 63,
+    "failedCallCount": 0,
+    "failedCalls": [],
+    "status": "success"
+  },
+  "serp": [
+    {
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Rubber Coated Hex Dumbbells",
+          "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+          "domain": "titan.fitness"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+          "url": "https://www.topfitness.com/collections/hex-dumbbells",
+          "domain": "topfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://repfitness.com/collections/dumbbells",
+          "domain": "repfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Hex Dumbbells",
+          "url": "https://www.amazon.com/hex-dumbbells/s?k=hex+dumbbells",
+          "domain": "amazon.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Amazon Basics Rubber Hex Dumbbells - Are they worth it ...",
+          "url": "https://www.youtube.com/watch?v=0dAK6poqmQ8",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Rogue Dumbbells - Weight Training - Rubber Hex",
+          "url": "https://www.roguefitness.com/rogue-dumbbells?srsltid=AfmBOoqBbmVnAuxvT7wrMGafgeBTKGeoRmtOB96P07yGx0-4mYA0PSba",
+          "domain": "roguefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Rubber Hex Dumbbells - Pairs",
+          "url": "https://www.vulcanstrength.com/Hex-Rubber-Dumbbells-s/600.htm?srsltid=AfmBOorQnoeoHo5HLsmYgH1RkwgboKA-vfMea3jjJUfZW7wTKXimKl5r",
+          "domain": "vulcanstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Rubber HEX Dumbbells",
+          "url": "https://shop.lifefitness.com/products/rubber-hex-dumbbells",
+          "domain": "shop.lifefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Hexagon Dumbbell Sets for Home Gyms",
+          "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOorjpVIw02jos9VWelVz826dw7qP4fidkhbBGBVrSDdEe-7vm8AD",
+          "domain": "torquefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-001",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoraaFPZC-SLK4eG8UnqyXyqsqKV2eN0lFDZ6_YSgWaNds_ym7K1",
+          "domain": "ironcompany.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Are rubber hex dumbbells good?",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How long do rubber hex dumbbells last?",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best rubber hex dumbbells?",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Which is better, rubber or metal dumbbells?",
+          "sourceSeed": "rubber hex dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Rubber hex dumbbells set",
+        "Rubber hex dumbbells set of 2",
+        "Rubber hex dumbbells for sale",
+        "Rubber Hex Dumbbells 20lb",
+        "Rubber Hex Dumbbell Set 5-50",
+        "Rubber Hex Dumbbells walmart",
+        "Cap Rubber Hex dumbbells",
+        "Rubber Hex Dumbbells amazon"
+      ],
+      "serpFeatures": [
+        "popular_products",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoqMevP74hzKl5xSh4r03fhM9RtJjWtz_kNnSJpffLqGP2WtxiPh",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+          "url": "https://www.topfitness.com/collections/hex-dumbbells",
+          "domain": "topfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Rubber Hex Dumbbells (Pair)",
+          "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOoqjZfeJ_XnJmov_0X7H3y0d467bxZ3nZMPc7WxVq1Pc5UpX5Wfh",
+          "domain": "smai.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Rubber Hex Dumbbells - Eau Claire",
+          "url": "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+          "domain": "mydynamicfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Rubber Dumbbells (New) - Fitness Superstore",
+          "url": "https://www.fitnesssuperstore.com/collections/rubber-dumbbells?srsltid=AfmBOooMr3hk0m4icCrKSVc23wkUPtxk_E27FFUyKb0EPWvDosg6wKRl",
+          "domain": "fitnesssuperstore.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Rubber Hex Dumbbells Manufacturing Process, China ...",
+          "url": "https://www.youtube.com/watch?v=80U7XvplDso",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Hex Dumbbells",
+          "url": "https://americanbarbell.com/products/hex-rubber-dumbbells?srsltid=AfmBOoqJMRn-J21j5MVnO-mJ6ZM4qwmySE1Vj2cCKoUNKEGa25xC-8sJ",
+          "domain": "americanbarbell.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Rubber Hex Dumbbells - Pairs",
+          "url": "https://www.vulcanstrength.com/Hex-Rubber-Dumbbells-s/600.htm?srsltid=AfmBOoqg9AoKz6jUWgA-2YHrNZBIMPeVa3-fGf8gcW4j9sLz1moHl592",
+          "domain": "vulcanstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Hex Dumbbell Manufacturer",
+          "url": "https://www.yanrefitness.com/hex-dumbbells-manufacturer/",
+          "domain": "yanrefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-002",
+          "sourceSeed": "rubber hex dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Home Gym Rubber Hex Dumbbell Suppliers",
+          "url": "https://www.made-in-china.com/manufacturers/home-gym-rubber-hex-dumbbell.html",
+          "domain": "made-in-china.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Rubber hex dumbbell manufacturer usa",
+        "Used rubber hex dumbbell manufacturer",
+        "Best rubber hex dumbbell manufacturer",
+        "Rubber Hex Dumbbells",
+        "Rubber Coated Dumbbells Set",
+        "Rubber Hex Dumbbells Set",
+        "Rubber grip dumbbells",
+        "Cast Iron Dumbbells Set"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Rubber Coated Hex Dumbbells",
+          "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+          "domain": "titan.fitness"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoo90GpiT2YDWRHICp_cY8JJBSxKaOw_XB0jQUEjEOBAlkq_DZ7t",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "LONESTAR RUBBER HEX DUMBBELL (PAIRS)",
+          "url": "https://boltfitnesssupply.com/products/lonestar-rubber-hex-dumbbell-pair?srsltid=AfmBOorTcXX5FHr1oZLKtUsDIZxoRLvlCiznTHKsAuG23yPx1pwbi2Y2",
+          "domain": "boltfitnesssupply.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+          "url": "https://www.topfitness.com/collections/hex-dumbbells",
+          "domain": "topfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Rubber Hex Dumbbells - Eau Claire",
+          "url": "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+          "domain": "mydynamicfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Rubber Hex Dumbbells (Pair)",
+          "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOor4VHNXrs2rGlJueitluZAsVfwXBme6u6f5UnJHyoJZPWPQmjMX",
+          "domain": "smai.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Rubber Dumbbells (New) - Fitness Superstore",
+          "url": "https://www.fitnesssuperstore.com/collections/rubber-dumbbells?srsltid=AfmBOooZF3s0opK9r8SbVsnhYRX8lvMTzUX5mynN_1HUcg-aUiFR8Mp1",
+          "domain": "fitnesssuperstore.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Rubber Hex Dumbbell Sets",
+          "url": "https://www.torquefitness.com/products/rubber-hex-dumbbell-set-5-50-lbs?srsltid=AfmBOoqT34LSRDlWUv8W-BKmB8Tl8p87VZ4OL-WFkcsQNqDEZ1E5Ytvu",
+          "domain": "torquefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+          "url": "https://barbend.com/best-dumbbells/",
+          "domain": "barbend.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-003",
+          "sourceSeed": "rubber hex dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.sorinex.com/products/rubber-hex-dumbbells",
+          "domain": "sorinex.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Rubber hex dumbbell supplier usa",
+        "Used rubber hex dumbbell supplier",
+        "Best rubber hex dumbbell supplier",
+        "Rubber Hex Dumbbell Set 5-50",
+        "Rubber Hex Dumbbells Set",
+        "Rubber Coated Dumbbells Set",
+        "Rubber hex dumbbell set 55 100",
+        "CAP Rubber dumbbells"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Rubber Coated Hex Dumbbells",
+          "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+          "domain": "titan.fitness"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOopLodLE_NkXf_-WqLT4GQwpvMYjrLWA8a8s2FH-VzbxIiQEevl6",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Rubber Hex Dumbbells for Sale",
+          "url": "https://strengthwarehouseusa.com/collections/rubber-hex-dumbbells?srsltid=AfmBOoonestm01YJBQ1ddXIHF1q_LUkzDix9s-gE0lkmAvwKBzgXoOEr",
+          "domain": "strengthwarehouseusa.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Dumbbells",
+          "url": "https://freedomfitnessequipment.com/collections/dumbbells?srsltid=AfmBOoph5Ji7RbgKFEmASKX0N7Ikfq4Y-fTourf88n_cEVbtWzwzTkj6",
+          "domain": "freedomfitnessequipment.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+          "url": "https://www.topfitness.com/collections/hex-dumbbells",
+          "domain": "topfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Hexagon Dumbbell Sets for Home Gyms",
+          "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOoq7qDmJ3DZTA4CLAs_uz87ieSjgV51YPpmpIUaiFPta0Wqviwbd",
+          "domain": "torquefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Wholesale Dumbbells from China Manufacturer - MANTA",
+          "url": "https://www.alohamuscle.com/wholesale-dumbbells/",
+          "domain": "alohamuscle.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Pallets of NEW FITNESS 10lb PREMIUM RUBBER HEX ...",
+          "url": "https://www.ebay.com/itm/402823720226",
+          "domain": "ebay.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-004",
+          "sourceSeed": "rubber hex dumbbells wholesale",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "I Found the CHEAPEST Rubber Hex Dumbbells Online!",
+          "url": "https://www.youtube.com/shorts/36gNU2E10W4",
+          "domain": "youtube.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Rubber hex dumbbells wholesale usa",
+        "Used rubber hex dumbbells wholesale",
+        "Rubber Hex Dumbbells Set",
+        "Rubber Hex Dumbbell Set 5-50",
+        "Rubber Coated Dumbbells Set",
+        "Rubber hex dumbbells wholesale amazon",
+        "Best rubber hex dumbbells wholesale",
+        "Cap Rubber Hex dumbbells"
+      ],
+      "serpFeatures": [
+        "popular_products",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+          "url": "https://www.topfitness.com/collections/hex-dumbbells",
+          "domain": "topfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOopC_gcuKoC_C47Z_xiaiyF35nOKN8JNoRpeNBYuO-4G4LR1vJVc",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Rubber Coated Hex Dumbbells",
+          "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+          "domain": "titan.fitness"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Rubber Hex Dumbbells",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOopkyNvpzb9CgPIhuP44ObOblVjfdXJEjtUL7NN1Hr0IhiKE5Frp",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Commercial Dumbbells Archives - All Pro ...",
+          "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+          "domain": "fitnessthings.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://xmarkfitness.com/collections/dumbbells?srsltid=AfmBOoqtUua-pmuoUParnpXRa78Pe_VCKCSVJ-LlRPy089KFei8nfBaI",
+          "domain": "xmarkfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Body-Solid Rubber Hex Dumbbells",
+          "url": "https://www.johnsonfitness.com/Body-Solid-Rubber-Hex-Dumbbells-C200.aspx?srsltid=AfmBOoodmxNyXR_P8nkkXC8BsRdGOCf-BwtRlVyMXYIW8jWXpPKXj4W2",
+          "domain": "johnsonfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Hexagon Dumbbell Sets for Home Gyms",
+          "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOopCBNe4J1DbSVDjwNec-AOk37o3gDxBc2NwuFaK3f7qGbJ-Rgkm",
+          "domain": "torquefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Dumbbells Sets-Pairs | Commercial Gym or Home use",
+          "url": "https://www.vulcanstrength.com/Dumbbell-Sets-Pairs-s/911.htm?srsltid=AfmBOoqXliFeA9oCsiRwuHMBxRO3luGdizkimY2qJpIj6lUpXqYwRcmA",
+          "domain": "vulcanstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-005",
+          "sourceSeed": "commercial rubber hex dumbbells",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Rubber Hex Dumbbells (Pair)",
+          "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOopDn5Sh9XGHuaSogWxYoWrAnI-ZcxpyeklJP5x_HS361sXD74rg",
+          "domain": "smai.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Commercial rubber hex dumbbells set",
+        "Commercial rubber hex dumbbells for sale",
+        "Rubber Hex Dumbbells Set",
+        "Rubber Hex Dumbbell Set 5-50",
+        "Cap Rubber Hex dumbbells",
+        "Rubber Coated Dumbbells Set",
+        "Best commercial rubber hex dumbbells",
+        "CAP Rubber dumbbells"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "popular_products",
+        "video",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Chrome Dumbbells for Studios & Home Gyms",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/chrome-dumbbells?srsltid=AfmBOoqQ_0KBWPn14Aa23IuOt3HEtDaYEimebWpHph_0NGMdKlOT3_g8",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells",
+          "url": "https://ivankobarbell.com/collections/dumbbells-d?srsltid=AfmBOoql7oGFuptr3WX1fbIslpq7E0yG-gIk_T_BEkr66F06zglaN8vE",
+          "domain": "ivankobarbell.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Chrome dumbbell set for gyms",
+          "url": "https://www.technogym.com/en-INT/product/chrome-dumbbell_KAA0-CD.html",
+          "domain": "technogym.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Wholesale Chrome Dumbbell Suppliers",
+          "url": "https://www.made-in-china.com/manufacturers/wholesale-chrome-dumbbell.html",
+          "domain": "made-in-china.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Chrome / Steel Dumbbells",
+          "url": "https://dumbbellsdirect.com/collections/chrome-steel-dumbbells?srsltid=AfmBOopy1M8TzWwLVQNPayCAeOiDmcMEG2aPCOsGGL9yIZU3vGapvAQX",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Chrome Dumbbells Production",
+          "url": "https://www.youtube.com/watch?v=SrLAhP81yAo",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "China Chrome Dumbbell Factory and Manufacturers ...",
+          "url": "https://www.baopengfitness.com/chrome-dumbbell/",
+          "domain": "baopengfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Dumbells - Manufacturer of sports equipment HMS Fitness",
+          "url": "https://hms-fitness.com/offer/bars-and-weights/dumbells",
+          "domain": "hms-fitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-007",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "domain": "wavar.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Are chrome dumbbells good?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Is Ivanko Barbell still in business?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Chrome dumbbell manufacturer usa",
+        "Best chrome dumbbell manufacturer",
+        "Chrome Dumbbells Set",
+        "Chrome Dumbbell Set 50kg",
+        "Cast Iron Dumbbells Set",
+        "York Chrome Dumbbells",
+        "Cast Iron Dumbbells for sale",
+        "Ivanko dumbbells for sale"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "American Made Solid Steel Urethane Dumbbells | Iron Grip ...",
+          "url": "https://www.ironcompany.com/iron-grip-american-made-solid-steel-urethane-encased-dumbbells?srsltid=AfmBOoqwIiO67IhmTpCc7jkZKgiX5KjyQP3TCph2yOovtFqAHHkbzEdP",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoojdCRMD8SX6iQXDJC9hztYJPK8_yvUFPt7XC6TgXVC-dvOqyx0",
+          "domain": "ironbullstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOooWLRQGGdG-9eyuvqSlqnrGgJM8FONk4BzUxqMs5KDRMULZKtef",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Brand New Urethane Dumbbells, Dumbbell Sets",
+          "url": "https://www.fitnesssuperstore.com/collections/urethane-dumbbells?srsltid=AfmBOoqutXgIEb1Hp1geho7ST7CgN4ojkNQxRqJZSXbvTChv8yuMqxZO",
+          "domain": "fitnesssuperstore.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Rogue Urethane Dumbbells - Weight Training",
+          "url": "https://www.roguefitness.com/rogue-urethane-dumbbells-new?srsltid=AfmBOopQMKGGolp-xlWF4KH_AWBrOBbXEcGeVMMbPAbXkPdSMyUAPZco",
+          "domain": "roguefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Top 10 Urethane Dumbbells Review | 2025 | Best ...",
+          "url": "https://gearmashers.com/top-urethane-dumbbells-review/",
+          "domain": "gearmashers.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Elevate your gym with Commercial Urethane Dumbbells",
+          "url": "https://www.youtube.com/watch?v=XBQ__G3EWbY",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-010",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Made in the USA",
+          "url": "https://irongrip.com/made-in-the-usa/",
+          "domain": "irongrip.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Urethane dumbbell manufacturer reddit",
+        "Urethane dumbbell manufacturer usa",
+        "Used urethane dumbbell manufacturer",
+        "Urethane dumbbell manufacturer california",
+        "Urethane Dumbbells",
+        "Urethane Dumbbells Set",
+        "Urethane Dumbbell Set 5-50",
+        "Urethane Dumbbell Set 5-100"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "video",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOooHuNvjSR5H_JrnvKjl22XvwyJ6qypNJfknPhSsjtdhp6fIc-0u",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells",
+          "url": "https://shop.lifefitness.com/collections/dumbbells",
+          "domain": "shop.lifefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Dumbbells",
+          "url": "https://americanbarbell.com/collections/dumbbells?srsltid=AfmBOor_bjIwomtTdlGo59NEEi4dAIZhLQ2VXi1supYwcVgAVPY_n4_0",
+          "domain": "americanbarbell.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Dumbbells Sets-Pairs | Commercial Gym or Home use",
+          "url": "https://www.vulcanstrength.com/Dumbbell-Sets-Pairs-s/911.htm?srsltid=AfmBOopuRZ8_f7ZLKPNYYeAu0_L5oYV_ZF_Nhwp77YIOpEQZm7JMUGRQ",
+          "domain": "vulcanstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Commercial Dumbbells Archives - All Pro ...",
+          "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+          "domain": "fitnessthings.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://xmarkfitness.com/collections/dumbbells?srsltid=AfmBOoomrWOix0LnVopyrUou-yPChRqC2IUMCbk1fvAi4ZoeYYM0mImE",
+          "domain": "xmarkfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Dumbbell Sets",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOopZCU-LnWhHsQFNgh7N6Lf263ZTjZMOPtOBGGDqFP1lOI8rJEPS",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Dumbbell Sets & Packages",
+          "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOoofyXRpQZ3EfVavi-cHmzGvaeuxcWDHh5tjsghdIM5uTsRpPbtD",
+          "domain": "strengthwarehouseusa.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Commercial Dumbells & Sets",
+          "url": "https://www.corehandf.com/collections/dumbbells",
+          "domain": "corehandf.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-011",
+          "sourceSeed": "commercial dumbbells",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Custom Dumbbells – Commercial Grade",
+          "url": "https://shop.blackironstrength.com/collections/custom-dumbbells/commercial-grade",
+          "domain": "shop.blackironstrength.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Commercial dumbbells set",
+        "Dumbbells Set",
+        "Dumbbell Set with Rack 5-50",
+        "Best commercial dumbbells",
+        "Dumbbell set with Rack 5-100",
+        "Hammer Strength Dumbbells",
+        "American Barbell dumbbells",
+        "Urethane Dumbbells Set"
+      ],
+      "serpFeatures": [
+        "popular_products",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbell Sets",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOopwuiIABXNVimYIK6ZO_5a7BX3MJFkWraQ-DSpLUhOIMxbxqlLz",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqYHZykfrx3TzpYY7Bgixl_mHDYIIPF1jK4E1DiKjFWw_94k6ok",
+          "domain": "ironbullstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Commercial Dumbbells Archives - All Pro ...",
+          "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+          "domain": "fitnessthings.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOoqVOxz020ztVP5GFi0QCxKSdyhHg7_WuPYjhpk_F0wbuiBv-NEz",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Customize Your Gym Equipment",
+          "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoo7kJjer0K_CmEEqaUuGEyOpTuiX4doAo0LiiyCiXjKzoviiMlS",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "2025 Best Dumbbells Round Up",
+          "url": "https://www.youtube.com/watch?v=bNrGtV1AONQ",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Premium Gym Dumbbells Manufacturer",
+          "url": "https://www.oksporting.com/application/gym-dumbbells-manufacturer",
+          "domain": "oksporting.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-012",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Dumbbell Sets & Packages",
+          "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOooJ78YMkXLXynGSqV3-T6Itmmrkold5EDb7EzDKVg32y_gywrGW",
+          "domain": "strengthwarehouseusa.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Does York still make dumbbells?",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What company makes weights?",
+          "sourceSeed": "commercial dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Custom commercial dumbbell manufacturer",
+        "Custom dumbbells manufacturer",
+        "Cast Iron Dumbbells",
+        "Iron Grip dumbbells",
+        "Cast Iron Dumbbells Set",
+        "Metal Dumbbells Set",
+        "Metal dumbbells adjustable",
+        "Cast iron dumbbells adjustable"
+      ],
+      "serpFeatures": [
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbell Sets",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOooh76OE4cfITjGfR6rEk2chzaw9pAKisOlB7jix0rgg9tGIYOsD",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Commercial Dumbbells Archives - All Pro ...",
+          "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+          "domain": "fitnessthings.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOorTUIoyFYesaJcDIhazyz_qyN_60Nxgcb5OcROgYMoLiCyIJ183",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Dumbbells",
+          "url": "https://shop.lifefitness.com/collections/dumbbells",
+          "domain": "shop.lifefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Best Dumbbell Manufacturers",
+          "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+          "domain": "sourceready.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Top 7 Dumbbell Brands for Commercial Gyms & Home Gyms",
+          "url": "https://china-fitness.com/top-7-dumbbell-brands/",
+          "domain": "china-fitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Commercial Dumbells & Sets",
+          "url": "https://www.corehandf.com/collections/dumbbells",
+          "domain": "corehandf.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-013",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Dumbbell Sets & Packages",
+          "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOoqT3f4fvYt_ejkoFbzmpvt6Eei5d99x9lvd7gwxqa73nMahRT6F",
+          "domain": "strengthwarehouseusa.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Which company is best for dumbbells?",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What is the cheapest way to buy dumbbells?",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How much does a 50 lb dumbbell cost?",
+          "sourceSeed": "commercial dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Commercial dumbbell supplier usa",
+        "Best commercial dumbbell supplier",
+        "Cast Iron Dumbbells",
+        "Cast Iron Dumbbells Set",
+        "Metal Dumbbells Set",
+        "Metal dumbbells adjustable",
+        "Cast iron dumbbell set with rack",
+        "Iron Grip dumbbells"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "local_pack",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbell Sets",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOorNV7brO5CQpoCUlENLO3aXAIop5awHvNMBjfpe-lnPW2AcP1Dk",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells for Sale",
+          "url": "https://strengthwarehouseusa.com/collections/dumbbells?srsltid=AfmBOopI1u2YLu50tVegy2I8j3q45v6A5bboDfXCl49B_cIc1sEuJvqi",
+          "domain": "strengthwarehouseusa.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOopyQ4ShVr3jwm4lKksHKOXGE1NFjvewIa1Wki7QwYCEPf4-9Ydf",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqFeLl9TuUoCJqImSQxMiQf8sarcNFZekSNC3pI28Jcw0jbsbAl",
+          "domain": "ironbullstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Best Dumbbell Manufacturers",
+          "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+          "domain": "sourceready.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+          "url": "https://barbend.com/best-dumbbells/",
+          "domain": "barbend.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-014",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Dumbbell Factory | Dumbbell Manufacturer",
+          "url": "https://www.strenxfitness.com/dumbbell-factory/",
+          "domain": "strenxfitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What is the best dumbbell company?",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Does York still make dumbbells?",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What company makes weights?",
+          "sourceSeed": "dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Cast Iron Dumbbells",
+        "Professional dumbbell manufacturer",
+        "Custom dumbbells manufacturer",
+        "Cast Iron Dumbbells Set",
+        "Iron Grip dumbbells",
+        "Stainless Steel Dumbbells",
+        "Cast iron dumbbell set with rack",
+        "Metal dumbbells adjustable"
+      ],
+      "serpFeatures": [
+        "organic",
+        "video",
+        "people_also_ask",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "serpType": "Guide / Resource",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbell Sets",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOooV6rZHYOzzy0IIb3PJwHfDJSQqELtowPLKed0i1vqUZ5Dj2qT_",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells Direct - Shop online for all your fitness equipment ...",
+          "url": "https://dumbbellsdirect.com/?srsltid=AfmBOormj8ygfU4ihgP3Ms1jYLMvaOnJayzUiOs9i52jcaYzaCBh01Qy",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Best Dumbbell Manufacturers",
+          "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+          "domain": "sourceready.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Dumbbells",
+          "url": "https://www.performbetter.com/weight-equipment/dumbbells/?srsltid=AfmBOor06HRUuKVpdhVZxYh9znHfFduW6nYctA9tRyNWzdOKe7BKGoXx",
+          "domain": "performbetter.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Expert-Tested: The Best Dumbbells of 2026",
+          "url": "https://www.garagegymreviews.com/best-dumbbells",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "2025 Best Dumbbells Round Up",
+          "url": "https://www.youtube.com/watch?v=bNrGtV1AONQ",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Dumbbells - Exercise and Fitness",
+          "url": "https://playitagainsports.com/exercise-and-fitness/dumbbells/?srsltid=AfmBOoqCx8cQEkY-UORrvyrTwJyT68xCD_koAfwtEIec-FY-a-Zg2KK4",
+          "domain": "playitagainsports.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-015",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Dumbbells",
+          "url": "https://americanbarbell.com/collections/dumbbells?srsltid=AfmBOoqCblm82WnnOQArLn1Cb7Q1rvE3qjkUoe0Ev-ewpFuuvjAfMvS6",
+          "domain": "americanbarbell.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Which company is best for dumbbells?",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What is the cheapest way to buy dumbbells?",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How much does a 50 lb dumbbell cost?",
+          "sourceSeed": "dumbbell supplier",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Supplier",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Dumbbell supplier usa",
+        "Dumbbell supplier online",
+        "Dumbbell supplier nearby",
+        "Used dumbbell supplier",
+        "Dumbbells Set",
+        "Adjustable Dumbbells",
+        "Best dumbbell supplier",
+        "Dumbbell Handles"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "popular_products",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Dumbbells & Sets - Free Weights",
+          "url": "https://fitnessfactory.com/free-weights/dumbbells/?srsltid=AfmBOor5URRfhaw0uCYWWYORJEZR9eyYLskeEIKlgMbG9NmfMgabzY_Z",
+          "domain": "fitnessfactory.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "The Comprehensive Guide to Dumbbell Manufacturing",
+          "url": "https://www.leadmanfitness.com/news/the-comprehensive-guide-to-dumbbell-manufacturing.html",
+          "domain": "leadmanfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Rubber Coated Dumbbells Supplier, Round ...",
+          "url": "https://www.wavar.com/rubber-coated-dumbbell/",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Dumbbell Manufacturers & Suppliers ...",
+          "url": "https://www.made-in-china.com/manufacturers/dumbbell.html",
+          "domain": "made-in-china.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Factory Manufacture Wholesale Gym Coated Hex Rubber ...",
+          "url": "https://www.chinafitnessequipmentsupplier.com/products/Factory-Manufacture-Wholesale-Gym-Coated-Hex-Rubber-Dumbbell.html",
+          "domain": "chinafitnessequipmentsupplier.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-016",
+          "sourceSeed": "dumbbell factory",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "OEM/ODM Custom Dumbbells Wholesale Supplier",
+          "url": "https://www.oksporting.com/application/dumbbell-factory",
+          "domain": "oksporting.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Dumbbell Set with Rack 5-50",
+        "Dumbbell factory usa",
+        "Dumbbell set with Rack 5-100",
+        "50 pound Dumbbells Set of 2",
+        "30 lb Dumbbells Set of 2",
+        "Dumbbell Set with Rack 5-25",
+        "Dumbbell sets",
+        "Dumbbell Set Costco"
+      ],
+      "serpFeatures": [
+        "video",
+        "ai_overview",
+        "images",
+        "organic",
+        "perspectives",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "OEM Dumbbell",
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/OEM_Dumbbell.html",
+          "domain": "made-in-china.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+          "url": "https://www.wavar.com/product/custom-dumbbells.html",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "NÜOBELL Adjustable Dumbbells for Home Gym – Compact ...",
+          "url": "https://nuoathletics.com/?srsltid=AfmBOopE2mV3VyVT7CHSW9kV9tsPBd9qSu0Bk1inBiR3OJhOmeFsY9nl",
+          "domain": "nuoathletics.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Alibaba has just started selling Rep x Peppin Dumbbells",
+          "url": "https://www.reddit.com/r/GarageGym/comments/1tao4ee/alibaba_has_just_started_selling_rep_x_peppin/",
+          "domain": "reddit.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Wholesale Custom Dumbbells | Dumbbell OEM Manufacturer",
+          "url": "https://www.yogafitness.group/product-category/dumbbells/",
+          "domain": "yogafitness.group"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Dumbbells & Sets | Weight Lifting Equipment",
+          "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOopuNMcoeBzoptkRXobiG6GyUF36cM6PieAZRiLlQgxbYx8lCLzL",
+          "domain": "yorkbarbell.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Knockoff/Fake/Copy versus OEM Bowflex® SelectTech® 552 ...",
+          "url": "https://www.youtube.com/watch?v=a_QRIyi3ZcM",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Average Joe Innovations - Better than OEM™",
+          "url": "https://www.averagejoeinnovations.com/",
+          "domain": "averagejoeinnovations.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-017",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+          "url": "https://barbend.com/best-dumbbells/",
+          "domain": "barbend.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Which company is best for dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Is there a difference between cheap and expensive dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Oem dumbbells set",
+        "Oem dumbbells review",
+        "Oem dumbbells for sale",
+        "Adjustable Dumbbells",
+        "Dumbbells Set",
+        "NÜOBELL dumbbells",
+        "Dumbbells nearby",
+        "NÜO dumbbells"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "popular_products",
+        "people_also_ask",
+        "organic",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Customize Your Gym Equipment",
+          "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOooyA3dbb98cY2w8kEVrTGfVGjsYUS-WQSPVMcczetmRgWo7dXtO",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Custom Logo Dumbbells",
+          "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+          "domain": "ardentfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+          "url": "https://www.wavar.com/product/custom-dumbbells.html",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Custom Printed Promotional Fitness Equipment at ELIVATE",
+          "url": "https://www.elivatefitness.com/private-label-fitness",
+          "domain": "elivatefitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Custom dumbbells, Made for Your Brand Premium materials ...",
+          "url": "https://www.instagram.com/reel/DY41ONTFqaY/",
+          "domain": "instagram.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Urethane Solid Steel Dumbbells | IRON COMPANY",
+          "url": "https://www.ironcompany.com/iron-company-urethane-dumbbells?srsltid=AfmBOorQZKXabpzCOrOdomsKx3Zu9956H5nvXx5mO1HFjsqAYdF1weU1",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOopeirkseTjmyRom2f-BJay9xETUTqVpT-JpnbQyw40H6sE3sshv",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-018",
+          "sourceSeed": "private label dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Custom Logo Pro Style Urethane Dumbbells",
+          "url": "https://www.powerfitnesssuperstore.com/product-page/custom-logo-pro-style-urethane-dumbbells?srsltid=AfmBOorb4vwhUqhjSKOd3k3-cAAE14vZMMIGKSLKWPURgWndBRnLBJGD",
+          "domain": "powerfitnesssuperstore.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Private label dumbbells set",
+        "Private label dumbbells for sale",
+        "Custom dumbbells manufacturer",
+        "Best private label dumbbells",
+        "Private label dumbbells amazon",
+        "Custom dumbbells with logo",
+        "Adjustable Dumbbells",
+        "Custom weights plates"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Customize Your Gym Equipment",
+          "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoox6XKXMlDjWN3-1CsbIjdbeY3A3lkqdZL_Zl6uccwfpI_vPukT",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Custom Logos",
+          "url": "https://irongrip.com/custom-logos/",
+          "domain": "irongrip.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Custom Logo Dumbbells",
+          "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+          "domain": "ardentfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Custom Logo Weights",
+          "url": "https://americanbarbell.com/pages/custom-logo-weights?srsltid=AfmBOorc5uo2ceUdzcWwb-6BmkaLbTZZiIzcrHAx6odw49iQbhNfToUM",
+          "domain": "americanbarbell.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Custom Logo Equipment",
+          "url": "https://troyfitness.com/pages/custom-logo-equipment",
+          "domain": "troyfitness.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Intek Customized Weight Lifting Equipment",
+          "url": "https://www.intekstrength.com/customized-weight-lifting-equipment",
+          "domain": "intekstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOooa5vGUM9CzykLyzHXdANSEuKGQcAkd6ijMLrgDhu9xmJGkX5Ws",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Custom Logo Pro Style Urethane Dumbbells",
+          "url": "https://www.powerfitnesssuperstore.com/product-page/custom-logo-pro-style-urethane-dumbbells?srsltid=AfmBOoq6RhYS5A-Sb5FqzcP2O0OCeeFBzgQzjEV_FjyiT5U0USLKC6_f",
+          "domain": "powerfitnesssuperstore.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Custom Rubber Dumbbells",
+          "url": "https://straydogstrength.com/products/custom-rubber-dumbbells",
+          "domain": "straydogstrength.com"
+        },
+        {
+          "sourceSeedId": "dumbbells-019",
+          "sourceSeed": "custom logo dumbbells",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Custom Logo",
+          "url": "https://troyfitness.com/collections/custom-logo",
+          "domain": "troyfitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Custom dumbbells manufacturer",
+        "Custom weights plates",
+        "Custom logo weight plates",
+        "Custom Dumbbell Set",
+        "Adjustable Dumbbells",
+        "Build your own Dumbbell Set",
+        "Custom gym equipment",
+        "Custom kettlebell"
+      ],
+      "serpFeatures": [
+        "organic",
+        "popular_products",
+        "images",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "Bumper Plate Sets Under $500",
+          "url": "https://www.fringesport.com/collections/bumper-plate-sets-under-500?srsltid=AfmBOoqeFEw6BFBRiATLrAVCY_UHz10xR3RmstT2TnvTqvJUCkLt8EOL",
+          "domain": "fringesport.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "Bumper Weight Plates",
+          "url": "https://prxperformance.com/collections/rubber-bumper-plates?srsltid=AfmBOop06gSG9qeO0NbNlAU-IPP1vtzndC56Up6oj-Z9yCVtMgQ1RS45",
+          "domain": "prxperformance.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "Colored Bumper Plate Sets | USA Made",
+          "url": "https://homegrownlifting.com/products/colored-bumper-plate-sets?srsltid=AfmBOoqgp9QwypmKop0j-Ay_aRggh7cUIMYPuIwfTWOKx_RtRRpdREQl",
+          "domain": "homegrownlifting.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Bumper Plates - Weightlifting Plates",
+          "url": "https://www.roguefitness.com/weightlifting-bars-plates/bumpers/bumper-plates?srsltid=AfmBOopiq5X9uAigMY7kKulHemwUSSQY4B5rTe08Y7eTntKZsx5up7Zx",
+          "domain": "roguefitness.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "Expert-Tested: The Best Bumper Plates (2026)",
+          "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Bumper Plates",
+          "url": "https://titan.fitness/collections/bumper-plates",
+          "domain": "titan.fitness"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "What Weight Plates To Buy: Everything You NEED to Know",
+          "url": "https://www.youtube.com/watch?v=pLAn676rF0w",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "Bumper Plate - SALE",
+          "url": "https://americanbarbell.com/collections/bumper-plates-1?srsltid=AfmBOorYqRWdFMvODH4YvJm8UEgi4luPxqHAQnuCPgFrZKu3SM63K7HT",
+          "domain": "americanbarbell.com"
+        },
+        {
+          "sourceSeedId": "plates-001",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "position": 9,
+          "title": "Bumper Plates",
+          "url": "https://www.torquefitness.com/collections/bumper-plates?srsltid=AfmBOoqlRrMdNiGp-ugwlpi_XW09_AcLiolOjZyXZj5fpoy4RlLuc15M",
+          "domain": "torquefitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What is the point of bumper plates?",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What is a bumper plate?",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What are the best cheap bumper plates?",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What are the disadvantages of bumper plates?",
+          "sourceSeed": "bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "Buyer Intent",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Bumper Plates Set",
+        "Bumper plates 45lb",
+        "Car Bumper Plates",
+        "Bumper plates vs weight plates",
+        "Bumper plates vs iron plates",
+        "Rogue bumper plates",
+        "Bumper Plates amazon",
+        "CAP Bumper plates"
+      ],
+      "serpFeatures": [
+        "popular_products",
+        "organic",
+        "people_also_ask",
+        "short_videos",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "serpType": "Guide / Resource",
+      "top10": [
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "Bumper Plates | Rubber, Urethane & Competition Plates",
+          "url": "https://www.ironcompany.com/free-weights/weight-plates/rubber-bumper-plates?srsltid=AfmBOooVd3sOajykrkiGBqFDSHts0t-uK1zsMyp3nQ9vIkE91GCIdjNB",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "The Strength Co. Olympic Bumper Plates",
+          "url": "https://www.thestrength.co/products/olympic-bumper-plates?srsltid=AfmBOorsfwlS4s2dywhaVsb7hOD698_SkHRD0n-DkaScszRic0QcjzbB",
+          "domain": "thestrength.co"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "USA Made Rubber Bumper Plates (LB)",
+          "url": "https://valorfitness.com/products/bp-usa?srsltid=AfmBOorEpPLY2aP3uy7grfovO0Z86AtFQb2CIPYP6VMUmdfS3pJcsHNV",
+          "domain": "valorfitness.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Urethane (PU) Bumper Weight Plates Manufacturing Process ...",
+          "url": "https://www.youtube.com/watch?v=F8hONv2hCj0",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+          "url": "https://homegrownlifting.com/?srsltid=AfmBOorHTei__3BNFaXiHC27lNNo_lKEs_mnwYToMQvfnnKHOfgOZf0t",
+          "domain": "homegrownlifting.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Manufacturing, Molding, QC | How are Bumper Plates Made?",
+          "url": "https://www.fringesport.com/blogs/news/why-do-bumper-plates-bounce?srsltid=AfmBOorof_KuFa_N-_F_Qfe-xoigVS1yIPici5fu3rl3RVi8oLlblTLi",
+          "domain": "fringesport.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "Expert-Tested: The Best Bumper Plates (2026)",
+          "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "Top Bumper Plate Manufacturing Companies [List]",
+          "url": "https://matchory.com/top-bumper-plate-manufacturing-companies",
+          "domain": "matchory.com"
+        },
+        {
+          "sourceSeedId": "plates-002",
+          "sourceSeed": "bumper plate manufacturer",
+          "category": "Weight Plates",
+          "position": 9,
+          "title": "Premium Commercial Bumper Plates",
+          "url": "https://fitnessfactory.com/item/premium-commercial-bumper-plates/?srsltid=AfmBOorPOkqdvR-Rgut0EmeJXuOQsBcxvNueBSVEgQBSPoXyGkITOlvP",
+          "domain": "fitnessfactory.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Gym bumper plate manufacturer",
+        "Bumper plate manufacturer usa",
+        "Custom bumper plate manufacturer",
+        "Heavy duty bumper plate manufacturer",
+        "Best bumper plate manufacturer",
+        "Bumper plate manufacturer california",
+        "Bumper plates free shipping",
+        "Homegrown bumper plates review"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "Bumper Plates | Rubber, Urethane & Competition Plates",
+          "url": "https://www.ironcompany.com/free-weights/weight-plates/rubber-bumper-plates?srsltid=AfmBOopCb-pce9RHvTfM855d9hug6En9xprbJV2RSunkzbeqocoJk0bY",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "Bumper Plates - Weightlifting Equipment",
+          "url": "https://www.fringesport.com/collections/bumper-plates?srsltid=AfmBOoqka51r52JGlexfSNTkp2_l7qcIeGGa39rkYfjwtxHD6HRQ3E6E",
+          "domain": "fringesport.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "2026 Bumper Plates",
+          "url": "https://qdmodun.en.made-in-china.com/product-group/vqzAmcCrhuRy/Bumper-Plates-catalog-1.html",
+          "domain": "qdmodun.en.made-in-china.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Premium Commercial Bumper Plates",
+          "url": "https://fitnessfactory.com/item/premium-commercial-bumper-plates/?srsltid=AfmBOopnewlMGNb3BLPqeHi1CFXtjBGl9s2Sg6sZSTdsShDoRXlzCUpY",
+          "domain": "fitnessfactory.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "Bumper Plates – Competition & Training",
+          "url": "https://xmarkfitness.com/collections/bumper-plates?srsltid=AfmBOooVpEmmd2Qenp-pXC7ntZJcS50YE465RcUHv2F0s3Mac-6PyLnZ",
+          "domain": "xmarkfitness.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Bumper Plates Buying Guide",
+          "url": "https://www.vulcanstrength.com/Bumper-Plates-s/356.htm?srsltid=AfmBOoomftSpvj_4Xwy87T3e7-iC1FX6NIc2vTrBpxQgaZZEtVBfaptR",
+          "domain": "vulcanstrength.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "Top Bumper Plate Manufacturing Companies [List]",
+          "url": "https://matchory.com/top-bumper-plate-manufacturing-companies",
+          "domain": "matchory.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "The Best Bumper Plates on a Budget!",
+          "url": "https://www.youtube.com/watch?v=1v2X7upslAM",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 9,
+          "title": "Bumper Plates",
+          "url": "https://americanbarbell.com/collections/bumper-plates?srsltid=AfmBOorgH2iOgFkb7KC4SChUDGlem2sBIcCfhOyjlr82q4Bews0aCkkE",
+          "domain": "americanbarbell.com"
+        },
+        {
+          "sourceSeedId": "plates-003",
+          "sourceSeed": "bumper plate supplier",
+          "category": "Weight Plates",
+          "position": 10,
+          "title": "Bumper Weight Plates",
+          "url": "https://prxperformance.com/collections/rubber-bumper-plates?srsltid=AfmBOooxuRzbHepd7bgma1YUOf2FWIAYqXUOfP66fCRxgZkiHaLHO3kg",
+          "domain": "prxperformance.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Heavy duty bumper plate supplier",
+        "Best bumper plate supplier",
+        "Bumper Plates Set",
+        "Rogue bumper plates",
+        "Vulcan Bumper Plates",
+        "Everyday Essentials bumper plates",
+        "Bumper Plates amazon",
+        "Fringe Sport bumper plates"
+      ],
+      "serpFeatures": [
+        "organic",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "Bumper Plates - Weightlifting Equipment",
+          "url": "https://www.fringesport.com/collections/bumper-plates?srsltid=AfmBOorJHimW2jB8lAP0VrE3WNqz_k6QKAv-wF-PZvCX6DRRun1D89yK",
+          "domain": "fringesport.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "First Place Black Rubber Bumper Plates",
+          "url": "https://www.performbetter.com/First-Place-Black-Rubber-Bumper-Plates/?srsltid=AfmBOoqbATExIb8gNRfmM4vFAlZhNh8zxXfX6OQ4M015JFFdfHCIw4P-",
+          "domain": "performbetter.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "USA Made Rubber Bumper Plates (LB)",
+          "url": "https://valorfitness.com/products/bp-usa?srsltid=AfmBOop0N3_n6nDO-NxIvq5BRepUb7Bil1vtfkLXnpWgouJUzFoPBbFq",
+          "domain": "valorfitness.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Black Rubber Bumper Plates Lbs (Pair)",
+          "url": "https://lycanfitness.com/product/bumper-plates-black-lbs/",
+          "domain": "lycanfitness.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "Can-Am Defender Xtreme Front Bumper Plates",
+          "url": "https://can-am-shop.brp.com/off-road/us/en/can-am-defender-xtreme-front-bumper-plates-715005777.html",
+          "domain": "can-am-shop.brp.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Do bumper plates all really come from the same factory?",
+          "url": "https://www.reddit.com/r/weightlifting/comments/fr0h70/do_bumper_plates_all_really_come_from_the_same/",
+          "domain": "reddit.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "Different Types of Bumper Plates Buying Guide (from Chinese ...",
+          "url": "https://www.youtube.com/watch?v=nPQuuAVINQM",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeedId": "plates-004",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "Expert-Tested: The Best Bumper Plates (2026)",
+          "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+          "domain": "garagegymreviews.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Who makes the best bumper plates?",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What does OEM bumper mean?",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How much should you pay for bumper plates?",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Are bumper plates worth it?",
+          "sourceSeed": "OEM bumper plates",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Oem bumper plates review",
+        "Oem bumper plates replacement",
+        "Bumper Plates Set",
+        "Oem bumper plates near me",
+        "Oem bumper plates for sale",
+        "Rogue bumper plates",
+        "Dumbbell Bumper plates",
+        "CAP Bumper plates"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "popular_products",
+        "video",
+        "related_searches"
+      ]
+    }
+  ],
+  "serpRecords": [
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Rubber Coated Hex Dumbbells",
+      "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+      "domain": "titan.fitness"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+      "url": "https://www.topfitness.com/collections/hex-dumbbells",
+      "domain": "topfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://repfitness.com/collections/dumbbells",
+      "domain": "repfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Hex Dumbbells",
+      "url": "https://www.amazon.com/hex-dumbbells/s?k=hex+dumbbells",
+      "domain": "amazon.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Amazon Basics Rubber Hex Dumbbells - Are they worth it ...",
+      "url": "https://www.youtube.com/watch?v=0dAK6poqmQ8",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Rogue Dumbbells - Weight Training - Rubber Hex",
+      "url": "https://www.roguefitness.com/rogue-dumbbells?srsltid=AfmBOoqBbmVnAuxvT7wrMGafgeBTKGeoRmtOB96P07yGx0-4mYA0PSba",
+      "domain": "roguefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Rubber Hex Dumbbells - Pairs",
+      "url": "https://www.vulcanstrength.com/Hex-Rubber-Dumbbells-s/600.htm?srsltid=AfmBOorQnoeoHo5HLsmYgH1RkwgboKA-vfMea3jjJUfZW7wTKXimKl5r",
+      "domain": "vulcanstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Rubber HEX Dumbbells",
+      "url": "https://shop.lifefitness.com/products/rubber-hex-dumbbells",
+      "domain": "shop.lifefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Hexagon Dumbbell Sets for Home Gyms",
+      "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOorjpVIw02jos9VWelVz826dw7qP4fidkhbBGBVrSDdEe-7vm8AD",
+      "domain": "torquefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-001",
+      "sourceSeed": "rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoraaFPZC-SLK4eG8UnqyXyqsqKV2eN0lFDZ6_YSgWaNds_ym7K1",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoqMevP74hzKl5xSh4r03fhM9RtJjWtz_kNnSJpffLqGP2WtxiPh",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+      "url": "https://www.topfitness.com/collections/hex-dumbbells",
+      "domain": "topfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Rubber Hex Dumbbells (Pair)",
+      "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOoqjZfeJ_XnJmov_0X7H3y0d467bxZ3nZMPc7WxVq1Pc5UpX5Wfh",
+      "domain": "smai.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Rubber Hex Dumbbells - Eau Claire",
+      "url": "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+      "domain": "mydynamicfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Rubber Dumbbells (New) - Fitness Superstore",
+      "url": "https://www.fitnesssuperstore.com/collections/rubber-dumbbells?srsltid=AfmBOooMr3hk0m4icCrKSVc23wkUPtxk_E27FFUyKb0EPWvDosg6wKRl",
+      "domain": "fitnesssuperstore.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Rubber Hex Dumbbells Manufacturing Process, China ...",
+      "url": "https://www.youtube.com/watch?v=80U7XvplDso",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Hex Dumbbells",
+      "url": "https://americanbarbell.com/products/hex-rubber-dumbbells?srsltid=AfmBOoqJMRn-J21j5MVnO-mJ6ZM4qwmySE1Vj2cCKoUNKEGa25xC-8sJ",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Rubber Hex Dumbbells - Pairs",
+      "url": "https://www.vulcanstrength.com/Hex-Rubber-Dumbbells-s/600.htm?srsltid=AfmBOoqg9AoKz6jUWgA-2YHrNZBIMPeVa3-fGf8gcW4j9sLz1moHl592",
+      "domain": "vulcanstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Hex Dumbbell Manufacturer",
+      "url": "https://www.yanrefitness.com/hex-dumbbells-manufacturer/",
+      "domain": "yanrefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-002",
+      "sourceSeed": "rubber hex dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Home Gym Rubber Hex Dumbbell Suppliers",
+      "url": "https://www.made-in-china.com/manufacturers/home-gym-rubber-hex-dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Rubber Coated Hex Dumbbells",
+      "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+      "domain": "titan.fitness"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOoo90GpiT2YDWRHICp_cY8JJBSxKaOw_XB0jQUEjEOBAlkq_DZ7t",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "LONESTAR RUBBER HEX DUMBBELL (PAIRS)",
+      "url": "https://boltfitnesssupply.com/products/lonestar-rubber-hex-dumbbell-pair?srsltid=AfmBOorTcXX5FHr1oZLKtUsDIZxoRLvlCiznTHKsAuG23yPx1pwbi2Y2",
+      "domain": "boltfitnesssupply.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+      "url": "https://www.topfitness.com/collections/hex-dumbbells",
+      "domain": "topfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Rubber Hex Dumbbells - Eau Claire",
+      "url": "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+      "domain": "mydynamicfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Rubber Hex Dumbbells (Pair)",
+      "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOor4VHNXrs2rGlJueitluZAsVfwXBme6u6f5UnJHyoJZPWPQmjMX",
+      "domain": "smai.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Rubber Dumbbells (New) - Fitness Superstore",
+      "url": "https://www.fitnesssuperstore.com/collections/rubber-dumbbells?srsltid=AfmBOooZF3s0opK9r8SbVsnhYRX8lvMTzUX5mynN_1HUcg-aUiFR8Mp1",
+      "domain": "fitnesssuperstore.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Rubber Hex Dumbbell Sets",
+      "url": "https://www.torquefitness.com/products/rubber-hex-dumbbell-set-5-50-lbs?srsltid=AfmBOoqT34LSRDlWUv8W-BKmB8Tl8p87VZ4OL-WFkcsQNqDEZ1E5Ytvu",
+      "domain": "torquefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+      "url": "https://barbend.com/best-dumbbells/",
+      "domain": "barbend.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-003",
+      "sourceSeed": "rubber hex dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.sorinex.com/products/rubber-hex-dumbbells",
+      "domain": "sorinex.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Rubber Coated Hex Dumbbells",
+      "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+      "domain": "titan.fitness"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOopLodLE_NkXf_-WqLT4GQwpvMYjrLWA8a8s2FH-VzbxIiQEevl6",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Rubber Hex Dumbbells for Sale",
+      "url": "https://strengthwarehouseusa.com/collections/rubber-hex-dumbbells?srsltid=AfmBOoonestm01YJBQ1ddXIHF1q_LUkzDix9s-gE0lkmAvwKBzgXoOEr",
+      "domain": "strengthwarehouseusa.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Dumbbells",
+      "url": "https://freedomfitnessequipment.com/collections/dumbbells?srsltid=AfmBOoph5Ji7RbgKFEmASKX0N7Ikfq4Y-fTourf88n_cEVbtWzwzTkj6",
+      "domain": "freedomfitnessequipment.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+      "url": "https://www.topfitness.com/collections/hex-dumbbells",
+      "domain": "topfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Hexagon Dumbbell Sets for Home Gyms",
+      "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOoq7qDmJ3DZTA4CLAs_uz87ieSjgV51YPpmpIUaiFPta0Wqviwbd",
+      "domain": "torquefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+      "url": "https://www.wavar.com/wholesale-dumbbells/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Wholesale Dumbbells from China Manufacturer - MANTA",
+      "url": "https://www.alohamuscle.com/wholesale-dumbbells/",
+      "domain": "alohamuscle.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Pallets of NEW FITNESS 10lb PREMIUM RUBBER HEX ...",
+      "url": "https://www.ebay.com/itm/402823720226",
+      "domain": "ebay.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-004",
+      "sourceSeed": "rubber hex dumbbells wholesale",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "I Found the CHEAPEST Rubber Hex Dumbbells Online!",
+      "url": "https://www.youtube.com/shorts/36gNU2E10W4",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Hex Dumbbells | Commercial Grade Rubber Coated & ...",
+      "url": "https://www.topfitness.com/collections/hex-dumbbells",
+      "domain": "topfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOopC_gcuKoC_C47Z_xiaiyF35nOKN8JNoRpeNBYuO-4G4LR1vJVc",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Rubber Coated Hex Dumbbells",
+      "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+      "domain": "titan.fitness"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Rubber Hex Dumbbells",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/rubber-hex-dumbbells?srsltid=AfmBOopkyNvpzb9CgPIhuP44ObOblVjfdXJEjtUL7NN1Hr0IhiKE5Frp",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Commercial Dumbbells Archives - All Pro ...",
+      "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+      "domain": "fitnessthings.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://xmarkfitness.com/collections/dumbbells?srsltid=AfmBOoqtUua-pmuoUParnpXRa78Pe_VCKCSVJ-LlRPy089KFei8nfBaI",
+      "domain": "xmarkfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Body-Solid Rubber Hex Dumbbells",
+      "url": "https://www.johnsonfitness.com/Body-Solid-Rubber-Hex-Dumbbells-C200.aspx?srsltid=AfmBOoodmxNyXR_P8nkkXC8BsRdGOCf-BwtRlVyMXYIW8jWXpPKXj4W2",
+      "domain": "johnsonfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Hexagon Dumbbell Sets for Home Gyms",
+      "url": "https://www.torquefitness.com/collections/dumbbells?srsltid=AfmBOopCBNe4J1DbSVDjwNec-AOk37o3gDxBc2NwuFaK3f7qGbJ-Rgkm",
+      "domain": "torquefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Dumbbells Sets-Pairs | Commercial Gym or Home use",
+      "url": "https://www.vulcanstrength.com/Dumbbell-Sets-Pairs-s/911.htm?srsltid=AfmBOoqXliFeA9oCsiRwuHMBxRO3luGdizkimY2qJpIj6lUpXqYwRcmA",
+      "domain": "vulcanstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-005",
+      "sourceSeed": "commercial rubber hex dumbbells",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Rubber Hex Dumbbells (Pair)",
+      "url": "https://www.smai.com/products/rubber-hex-dumbbells-pair?srsltid=AfmBOopDn5Sh9XGHuaSogWxYoWrAnI-ZcxpyeklJP5x_HS361sXD74rg",
+      "domain": "smai.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Chrome Dumbbells for Studios & Home Gyms",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/chrome-dumbbells?srsltid=AfmBOoqQ_0KBWPn14Aa23IuOt3HEtDaYEimebWpHph_0NGMdKlOT3_g8",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells",
+      "url": "https://ivankobarbell.com/collections/dumbbells-d?srsltid=AfmBOoql7oGFuptr3WX1fbIslpq7E0yG-gIk_T_BEkr66F06zglaN8vE",
+      "domain": "ivankobarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Chrome dumbbell set for gyms",
+      "url": "https://www.technogym.com/en-INT/product/chrome-dumbbell_KAA0-CD.html",
+      "domain": "technogym.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Wholesale Chrome Dumbbell Suppliers",
+      "url": "https://www.made-in-china.com/manufacturers/wholesale-chrome-dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Chrome / Steel Dumbbells",
+      "url": "https://dumbbellsdirect.com/collections/chrome-steel-dumbbells?srsltid=AfmBOopy1M8TzWwLVQNPayCAeOiDmcMEG2aPCOsGGL9yIZU3vGapvAQX",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Chrome Dumbbells Production",
+      "url": "https://www.youtube.com/watch?v=SrLAhP81yAo",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "China Chrome Dumbbell Factory and Manufacturers ...",
+      "url": "https://www.baopengfitness.com/chrome-dumbbell/",
+      "domain": "baopengfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Dumbells - Manufacturer of sports equipment HMS Fitness",
+      "url": "https://hms-fitness.com/offer/bars-and-weights/dumbells",
+      "domain": "hms-fitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-007",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+      "url": "https://www.wavar.com/wholesale-dumbbells/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "American Made Solid Steel Urethane Dumbbells | Iron Grip ...",
+      "url": "https://www.ironcompany.com/iron-grip-american-made-solid-steel-urethane-encased-dumbbells?srsltid=AfmBOoqwIiO67IhmTpCc7jkZKgiX5KjyQP3TCph2yOovtFqAHHkbzEdP",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoojdCRMD8SX6iQXDJC9hztYJPK8_yvUFPt7XC6TgXVC-dvOqyx0",
+      "domain": "ironbullstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOooWLRQGGdG-9eyuvqSlqnrGgJM8FONk4BzUxqMs5KDRMULZKtef",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Brand New Urethane Dumbbells, Dumbbell Sets",
+      "url": "https://www.fitnesssuperstore.com/collections/urethane-dumbbells?srsltid=AfmBOoqutXgIEb1Hp1geho7ST7CgN4ojkNQxRqJZSXbvTChv8yuMqxZO",
+      "domain": "fitnesssuperstore.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Rogue Urethane Dumbbells - Weight Training",
+      "url": "https://www.roguefitness.com/rogue-urethane-dumbbells-new?srsltid=AfmBOopQMKGGolp-xlWF4KH_AWBrOBbXEcGeVMMbPAbXkPdSMyUAPZco",
+      "domain": "roguefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Top 10 Urethane Dumbbells Review | 2025 | Best ...",
+      "url": "https://gearmashers.com/top-urethane-dumbbells-review/",
+      "domain": "gearmashers.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Elevate your gym with Commercial Urethane Dumbbells",
+      "url": "https://www.youtube.com/watch?v=XBQ__G3EWbY",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-010",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Made in the USA",
+      "url": "https://irongrip.com/made-in-the-usa/",
+      "domain": "irongrip.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOooHuNvjSR5H_JrnvKjl22XvwyJ6qypNJfknPhSsjtdhp6fIc-0u",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells",
+      "url": "https://shop.lifefitness.com/collections/dumbbells",
+      "domain": "shop.lifefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Dumbbells",
+      "url": "https://americanbarbell.com/collections/dumbbells?srsltid=AfmBOor_bjIwomtTdlGo59NEEi4dAIZhLQ2VXi1supYwcVgAVPY_n4_0",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Dumbbells Sets-Pairs | Commercial Gym or Home use",
+      "url": "https://www.vulcanstrength.com/Dumbbell-Sets-Pairs-s/911.htm?srsltid=AfmBOopuRZ8_f7ZLKPNYYeAu0_L5oYV_ZF_Nhwp77YIOpEQZm7JMUGRQ",
+      "domain": "vulcanstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Commercial Dumbbells Archives - All Pro ...",
+      "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+      "domain": "fitnessthings.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://xmarkfitness.com/collections/dumbbells?srsltid=AfmBOoomrWOix0LnVopyrUou-yPChRqC2IUMCbk1fvAi4ZoeYYM0mImE",
+      "domain": "xmarkfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Dumbbell Sets",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOopZCU-LnWhHsQFNgh7N6Lf263ZTjZMOPtOBGGDqFP1lOI8rJEPS",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Dumbbell Sets & Packages",
+      "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOoofyXRpQZ3EfVavi-cHmzGvaeuxcWDHh5tjsghdIM5uTsRpPbtD",
+      "domain": "strengthwarehouseusa.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Commercial Dumbells & Sets",
+      "url": "https://www.corehandf.com/collections/dumbbells",
+      "domain": "corehandf.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-011",
+      "sourceSeed": "commercial dumbbells",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Custom Dumbbells – Commercial Grade",
+      "url": "https://shop.blackironstrength.com/collections/custom-dumbbells/commercial-grade",
+      "domain": "shop.blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbell Sets",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOopwuiIABXNVimYIK6ZO_5a7BX3MJFkWraQ-DSpLUhOIMxbxqlLz",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqYHZykfrx3TzpYY7Bgixl_mHDYIIPF1jK4E1DiKjFWw_94k6ok",
+      "domain": "ironbullstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Commercial Dumbbells Archives - All Pro ...",
+      "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+      "domain": "fitnessthings.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOoqVOxz020ztVP5GFi0QCxKSdyhHg7_WuPYjhpk_F0wbuiBv-NEz",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Customize Your Gym Equipment",
+      "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoo7kJjer0K_CmEEqaUuGEyOpTuiX4doAo0LiiyCiXjKzoviiMlS",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+      "url": "https://www.wavar.com/wholesale-dumbbells/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "2025 Best Dumbbells Round Up",
+      "url": "https://www.youtube.com/watch?v=bNrGtV1AONQ",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Premium Gym Dumbbells Manufacturer",
+      "url": "https://www.oksporting.com/application/gym-dumbbells-manufacturer",
+      "domain": "oksporting.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-012",
+      "sourceSeed": "commercial dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Dumbbell Sets & Packages",
+      "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOooJ78YMkXLXynGSqV3-T6Itmmrkold5EDb7EzDKVg32y_gywrGW",
+      "domain": "strengthwarehouseusa.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbell Sets",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOooh76OE4cfITjGfR6rEk2chzaw9pAKisOlB7jix0rgg9tGIYOsD",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Commercial Dumbbells Archives - All Pro ...",
+      "url": "https://fitnessthings.com/product-category/commercial/commercial-strength/commercial-iron-and-weights/commercial-dumbbells/",
+      "domain": "fitnessthings.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Dumbbells & Sets for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/dumbbells/?srsltid=AfmBOorTUIoyFYesaJcDIhazyz_qyN_60Nxgcb5OcROgYMoLiCyIJ183",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Dumbbells",
+      "url": "https://shop.lifefitness.com/collections/dumbbells",
+      "domain": "shop.lifefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Best Dumbbell Manufacturers",
+      "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+      "domain": "sourceready.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Top 7 Dumbbell Brands for Commercial Gyms & Home Gyms",
+      "url": "https://china-fitness.com/top-7-dumbbell-brands/",
+      "domain": "china-fitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Commercial Dumbells & Sets",
+      "url": "https://www.corehandf.com/collections/dumbbells",
+      "domain": "corehandf.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-013",
+      "sourceSeed": "commercial dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Dumbbell Sets & Packages",
+      "url": "https://strengthwarehouseusa.com/collections/dumbbell-packages?srsltid=AfmBOoqT3f4fvYt_ejkoFbzmpvt6Eei5d99x9lvd7gwxqa73nMahRT6F",
+      "domain": "strengthwarehouseusa.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbell Sets",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOorNV7brO5CQpoCUlENLO3aXAIop5awHvNMBjfpe-lnPW2AcP1Dk",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells for Sale",
+      "url": "https://strengthwarehouseusa.com/collections/dumbbells?srsltid=AfmBOopI1u2YLu50tVegy2I8j3q45v6A5bboDfXCl49B_cIc1sEuJvqi",
+      "domain": "strengthwarehouseusa.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOopyQ4ShVr3jwm4lKksHKOXGE1NFjvewIa1Wki7QwYCEPf4-9Ydf",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqFeLl9TuUoCJqImSQxMiQf8sarcNFZekSNC3pI28Jcw0jbsbAl",
+      "domain": "ironbullstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Best Dumbbell Manufacturers",
+      "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+      "domain": "sourceready.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+      "url": "https://www.wavar.com/wholesale-dumbbells/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+      "url": "https://barbend.com/best-dumbbells/",
+      "domain": "barbend.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-014",
+      "sourceSeed": "dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Dumbbell Factory | Dumbbell Manufacturer",
+      "url": "https://www.strenxfitness.com/dumbbell-factory/",
+      "domain": "strenxfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbell Sets",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells?srsltid=AfmBOooV6rZHYOzzy0IIb3PJwHfDJSQqELtowPLKed0i1vqUZ5Dj2qT_",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells Direct - Shop online for all your fitness equipment ...",
+      "url": "https://dumbbellsdirect.com/?srsltid=AfmBOormj8ygfU4ihgP3Ms1jYLMvaOnJayzUiOs9i52jcaYzaCBh01Qy",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+      "url": "https://www.wavar.com/wholesale-dumbbells/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Best Dumbbell Manufacturers",
+      "url": "https://www.sourceready.com/supplier/list/best-dumbbell-manufacturers",
+      "domain": "sourceready.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Dumbbells",
+      "url": "https://www.performbetter.com/weight-equipment/dumbbells/?srsltid=AfmBOor06HRUuKVpdhVZxYh9znHfFduW6nYctA9tRyNWzdOKe7BKGoXx",
+      "domain": "performbetter.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Expert-Tested: The Best Dumbbells of 2026",
+      "url": "https://www.garagegymreviews.com/best-dumbbells",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "2025 Best Dumbbells Round Up",
+      "url": "https://www.youtube.com/watch?v=bNrGtV1AONQ",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Dumbbells - Exercise and Fitness",
+      "url": "https://playitagainsports.com/exercise-and-fitness/dumbbells/?srsltid=AfmBOoqCx8cQEkY-UORrvyrTwJyT68xCD_koAfwtEIec-FY-a-Zg2KK4",
+      "domain": "playitagainsports.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-015",
+      "sourceSeed": "dumbbell supplier",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Dumbbells",
+      "url": "https://americanbarbell.com/collections/dumbbells?srsltid=AfmBOoqCblm82WnnOQArLn1Cb7Q1rvE3qjkUoe0Ev-ewpFuuvjAfMvS6",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Dumbbells & Sets - Free Weights",
+      "url": "https://fitnessfactory.com/free-weights/dumbbells/?srsltid=AfmBOor5URRfhaw0uCYWWYORJEZR9eyYLskeEIKlgMbG9NmfMgabzY_Z",
+      "domain": "fitnessfactory.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "The Comprehensive Guide to Dumbbell Manufacturing",
+      "url": "https://www.leadmanfitness.com/news/the-comprehensive-guide-to-dumbbell-manufacturing.html",
+      "domain": "leadmanfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Rubber Coated Dumbbells Supplier, Round ...",
+      "url": "https://www.wavar.com/rubber-coated-dumbbell/",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Dumbbell Manufacturers & Suppliers ...",
+      "url": "https://www.made-in-china.com/manufacturers/dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Factory Manufacture Wholesale Gym Coated Hex Rubber ...",
+      "url": "https://www.chinafitnessequipmentsupplier.com/products/Factory-Manufacture-Wholesale-Gym-Coated-Hex-Rubber-Dumbbell.html",
+      "domain": "chinafitnessequipmentsupplier.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-016",
+      "sourceSeed": "dumbbell factory",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "OEM/ODM Custom Dumbbells Wholesale Supplier",
+      "url": "https://www.oksporting.com/application/dumbbell-factory",
+      "domain": "oksporting.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "OEM Dumbbell",
+      "url": "https://www.made-in-china.com/products-search/hot-china-products/OEM_Dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+      "url": "https://www.wavar.com/product/custom-dumbbells.html",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "NÜOBELL Adjustable Dumbbells for Home Gym – Compact ...",
+      "url": "https://nuoathletics.com/?srsltid=AfmBOopE2mV3VyVT7CHSW9kV9tsPBd9qSu0Bk1inBiR3OJhOmeFsY9nl",
+      "domain": "nuoathletics.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Alibaba has just started selling Rep x Peppin Dumbbells",
+      "url": "https://www.reddit.com/r/GarageGym/comments/1tao4ee/alibaba_has_just_started_selling_rep_x_peppin/",
+      "domain": "reddit.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Wholesale Custom Dumbbells | Dumbbell OEM Manufacturer",
+      "url": "https://www.yogafitness.group/product-category/dumbbells/",
+      "domain": "yogafitness.group"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Dumbbells & Sets | Weight Lifting Equipment",
+      "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOopuNMcoeBzoptkRXobiG6GyUF36cM6PieAZRiLlQgxbYx8lCLzL",
+      "domain": "yorkbarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Knockoff/Fake/Copy versus OEM Bowflex® SelectTech® 552 ...",
+      "url": "https://www.youtube.com/watch?v=a_QRIyi3ZcM",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Average Joe Innovations - Better than OEM™",
+      "url": "https://www.averagejoeinnovations.com/",
+      "domain": "averagejoeinnovations.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-017",
+      "sourceSeed": "OEM dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "The 12 Best Dumbbells of 2026, Tested and Reviewed",
+      "url": "https://barbend.com/best-dumbbells/",
+      "domain": "barbend.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Customize Your Gym Equipment",
+      "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOooyA3dbb98cY2w8kEVrTGfVGjsYUS-WQSPVMcczetmRgWo7dXtO",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Custom Logo Dumbbells",
+      "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+      "domain": "ardentfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+      "url": "https://www.wavar.com/product/custom-dumbbells.html",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Custom Printed Promotional Fitness Equipment at ELIVATE",
+      "url": "https://www.elivatefitness.com/private-label-fitness",
+      "domain": "elivatefitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Custom dumbbells, Made for Your Brand Premium materials ...",
+      "url": "https://www.instagram.com/reel/DY41ONTFqaY/",
+      "domain": "instagram.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Urethane Solid Steel Dumbbells | IRON COMPANY",
+      "url": "https://www.ironcompany.com/iron-company-urethane-dumbbells?srsltid=AfmBOorQZKXabpzCOrOdomsKx3Zu9956H5nvXx5mO1HFjsqAYdF1weU1",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOopeirkseTjmyRom2f-BJay9xETUTqVpT-JpnbQyw40H6sE3sshv",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-018",
+      "sourceSeed": "private label dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Custom Logo Pro Style Urethane Dumbbells",
+      "url": "https://www.powerfitnesssuperstore.com/product-page/custom-logo-pro-style-urethane-dumbbells?srsltid=AfmBOorb4vwhUqhjSKOd3k3-cAAE14vZMMIGKSLKWPURgWndBRnLBJGD",
+      "domain": "powerfitnesssuperstore.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Customize Your Gym Equipment",
+      "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoox6XKXMlDjWN3-1CsbIjdbeY3A3lkqdZL_Zl6uccwfpI_vPukT",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Custom Logos",
+      "url": "https://irongrip.com/custom-logos/",
+      "domain": "irongrip.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Custom Logo Dumbbells",
+      "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+      "domain": "ardentfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Custom Logo Weights",
+      "url": "https://americanbarbell.com/pages/custom-logo-weights?srsltid=AfmBOorc5uo2ceUdzcWwb-6BmkaLbTZZiIzcrHAx6odw49iQbhNfToUM",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Custom Logo Equipment",
+      "url": "https://troyfitness.com/pages/custom-logo-equipment",
+      "domain": "troyfitness.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Intek Customized Weight Lifting Equipment",
+      "url": "https://www.intekstrength.com/customized-weight-lifting-equipment",
+      "domain": "intekstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOooa5vGUM9CzykLyzHXdANSEuKGQcAkd6ijMLrgDhu9xmJGkX5Ws",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Custom Logo Pro Style Urethane Dumbbells",
+      "url": "https://www.powerfitnesssuperstore.com/product-page/custom-logo-pro-style-urethane-dumbbells?srsltid=AfmBOoq6RhYS5A-Sb5FqzcP2O0OCeeFBzgQzjEV_FjyiT5U0USLKC6_f",
+      "domain": "powerfitnesssuperstore.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Custom Rubber Dumbbells",
+      "url": "https://straydogstrength.com/products/custom-rubber-dumbbells",
+      "domain": "straydogstrength.com"
+    },
+    {
+      "sourceSeedId": "dumbbells-019",
+      "sourceSeed": "custom logo dumbbells",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Custom Logo",
+      "url": "https://troyfitness.com/collections/custom-logo",
+      "domain": "troyfitness.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "Bumper Plate Sets Under $500",
+      "url": "https://www.fringesport.com/collections/bumper-plate-sets-under-500?srsltid=AfmBOoqeFEw6BFBRiATLrAVCY_UHz10xR3RmstT2TnvTqvJUCkLt8EOL",
+      "domain": "fringesport.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "Bumper Weight Plates",
+      "url": "https://prxperformance.com/collections/rubber-bumper-plates?srsltid=AfmBOop06gSG9qeO0NbNlAU-IPP1vtzndC56Up6oj-Z9yCVtMgQ1RS45",
+      "domain": "prxperformance.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "Colored Bumper Plate Sets | USA Made",
+      "url": "https://homegrownlifting.com/products/colored-bumper-plate-sets?srsltid=AfmBOoqgp9QwypmKop0j-Ay_aRggh7cUIMYPuIwfTWOKx_RtRRpdREQl",
+      "domain": "homegrownlifting.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Bumper Plates - Weightlifting Plates",
+      "url": "https://www.roguefitness.com/weightlifting-bars-plates/bumpers/bumper-plates?srsltid=AfmBOopiq5X9uAigMY7kKulHemwUSSQY4B5rTe08Y7eTntKZsx5up7Zx",
+      "domain": "roguefitness.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "Expert-Tested: The Best Bumper Plates (2026)",
+      "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Bumper Plates",
+      "url": "https://titan.fitness/collections/bumper-plates",
+      "domain": "titan.fitness"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "What Weight Plates To Buy: Everything You NEED to Know",
+      "url": "https://www.youtube.com/watch?v=pLAn676rF0w",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "Bumper Plate - SALE",
+      "url": "https://americanbarbell.com/collections/bumper-plates-1?srsltid=AfmBOorYqRWdFMvODH4YvJm8UEgi4luPxqHAQnuCPgFrZKu3SM63K7HT",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "plates-001",
+      "sourceSeed": "bumper plates",
+      "category": "Weight Plates",
+      "position": 9,
+      "title": "Bumper Plates",
+      "url": "https://www.torquefitness.com/collections/bumper-plates?srsltid=AfmBOoqlRrMdNiGp-ugwlpi_XW09_AcLiolOjZyXZj5fpoy4RlLuc15M",
+      "domain": "torquefitness.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "Bumper Plates | Rubber, Urethane & Competition Plates",
+      "url": "https://www.ironcompany.com/free-weights/weight-plates/rubber-bumper-plates?srsltid=AfmBOooVd3sOajykrkiGBqFDSHts0t-uK1zsMyp3nQ9vIkE91GCIdjNB",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "The Strength Co. Olympic Bumper Plates",
+      "url": "https://www.thestrength.co/products/olympic-bumper-plates?srsltid=AfmBOorsfwlS4s2dywhaVsb7hOD698_SkHRD0n-DkaScszRic0QcjzbB",
+      "domain": "thestrength.co"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "USA Made Rubber Bumper Plates (LB)",
+      "url": "https://valorfitness.com/products/bp-usa?srsltid=AfmBOorEpPLY2aP3uy7grfovO0Z86AtFQb2CIPYP6VMUmdfS3pJcsHNV",
+      "domain": "valorfitness.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Urethane (PU) Bumper Weight Plates Manufacturing Process ...",
+      "url": "https://www.youtube.com/watch?v=F8hONv2hCj0",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+      "url": "https://homegrownlifting.com/?srsltid=AfmBOorHTei__3BNFaXiHC27lNNo_lKEs_mnwYToMQvfnnKHOfgOZf0t",
+      "domain": "homegrownlifting.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Manufacturing, Molding, QC | How are Bumper Plates Made?",
+      "url": "https://www.fringesport.com/blogs/news/why-do-bumper-plates-bounce?srsltid=AfmBOorof_KuFa_N-_F_Qfe-xoigVS1yIPici5fu3rl3RVi8oLlblTLi",
+      "domain": "fringesport.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "Expert-Tested: The Best Bumper Plates (2026)",
+      "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "Top Bumper Plate Manufacturing Companies [List]",
+      "url": "https://matchory.com/top-bumper-plate-manufacturing-companies",
+      "domain": "matchory.com"
+    },
+    {
+      "sourceSeedId": "plates-002",
+      "sourceSeed": "bumper plate manufacturer",
+      "category": "Weight Plates",
+      "position": 9,
+      "title": "Premium Commercial Bumper Plates",
+      "url": "https://fitnessfactory.com/item/premium-commercial-bumper-plates/?srsltid=AfmBOorPOkqdvR-Rgut0EmeJXuOQsBcxvNueBSVEgQBSPoXyGkITOlvP",
+      "domain": "fitnessfactory.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "Bumper Plates | Rubber, Urethane & Competition Plates",
+      "url": "https://www.ironcompany.com/free-weights/weight-plates/rubber-bumper-plates?srsltid=AfmBOopCb-pce9RHvTfM855d9hug6En9xprbJV2RSunkzbeqocoJk0bY",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "Bumper Plates - Weightlifting Equipment",
+      "url": "https://www.fringesport.com/collections/bumper-plates?srsltid=AfmBOoqka51r52JGlexfSNTkp2_l7qcIeGGa39rkYfjwtxHD6HRQ3E6E",
+      "domain": "fringesport.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "2026 Bumper Plates",
+      "url": "https://qdmodun.en.made-in-china.com/product-group/vqzAmcCrhuRy/Bumper-Plates-catalog-1.html",
+      "domain": "qdmodun.en.made-in-china.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Premium Commercial Bumper Plates",
+      "url": "https://fitnessfactory.com/item/premium-commercial-bumper-plates/?srsltid=AfmBOopnewlMGNb3BLPqeHi1CFXtjBGl9s2Sg6sZSTdsShDoRXlzCUpY",
+      "domain": "fitnessfactory.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "Bumper Plates – Competition & Training",
+      "url": "https://xmarkfitness.com/collections/bumper-plates?srsltid=AfmBOooVpEmmd2Qenp-pXC7ntZJcS50YE465RcUHv2F0s3Mac-6PyLnZ",
+      "domain": "xmarkfitness.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Bumper Plates Buying Guide",
+      "url": "https://www.vulcanstrength.com/Bumper-Plates-s/356.htm?srsltid=AfmBOoomftSpvj_4Xwy87T3e7-iC1FX6NIc2vTrBpxQgaZZEtVBfaptR",
+      "domain": "vulcanstrength.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "Top Bumper Plate Manufacturing Companies [List]",
+      "url": "https://matchory.com/top-bumper-plate-manufacturing-companies",
+      "domain": "matchory.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "The Best Bumper Plates on a Budget!",
+      "url": "https://www.youtube.com/watch?v=1v2X7upslAM",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 9,
+      "title": "Bumper Plates",
+      "url": "https://americanbarbell.com/collections/bumper-plates?srsltid=AfmBOorgH2iOgFkb7KC4SChUDGlem2sBIcCfhOyjlr82q4Bews0aCkkE",
+      "domain": "americanbarbell.com"
+    },
+    {
+      "sourceSeedId": "plates-003",
+      "sourceSeed": "bumper plate supplier",
+      "category": "Weight Plates",
+      "position": 10,
+      "title": "Bumper Weight Plates",
+      "url": "https://prxperformance.com/collections/rubber-bumper-plates?srsltid=AfmBOooxuRzbHepd7bgma1YUOf2FWIAYqXUOfP66fCRxgZkiHaLHO3kg",
+      "domain": "prxperformance.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "Bumper Plates - Weightlifting Equipment",
+      "url": "https://www.fringesport.com/collections/bumper-plates?srsltid=AfmBOorJHimW2jB8lAP0VrE3WNqz_k6QKAv-wF-PZvCX6DRRun1D89yK",
+      "domain": "fringesport.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "First Place Black Rubber Bumper Plates",
+      "url": "https://www.performbetter.com/First-Place-Black-Rubber-Bumper-Plates/?srsltid=AfmBOoqbATExIb8gNRfmM4vFAlZhNh8zxXfX6OQ4M015JFFdfHCIw4P-",
+      "domain": "performbetter.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "USA Made Rubber Bumper Plates (LB)",
+      "url": "https://valorfitness.com/products/bp-usa?srsltid=AfmBOop0N3_n6nDO-NxIvq5BRepUb7Bil1vtfkLXnpWgouJUzFoPBbFq",
+      "domain": "valorfitness.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Black Rubber Bumper Plates Lbs (Pair)",
+      "url": "https://lycanfitness.com/product/bumper-plates-black-lbs/",
+      "domain": "lycanfitness.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "Can-Am Defender Xtreme Front Bumper Plates",
+      "url": "https://can-am-shop.brp.com/off-road/us/en/can-am-defender-xtreme-front-bumper-plates-715005777.html",
+      "domain": "can-am-shop.brp.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Do bumper plates all really come from the same factory?",
+      "url": "https://www.reddit.com/r/weightlifting/comments/fr0h70/do_bumper_plates_all_really_come_from_the_same/",
+      "domain": "reddit.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "Different Types of Bumper Plates Buying Guide (from Chinese ...",
+      "url": "https://www.youtube.com/watch?v=nPQuuAVINQM",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeedId": "plates-004",
+      "sourceSeed": "OEM bumper plates",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "Expert-Tested: The Best Bumper Plates (2026)",
+      "url": "https://www.garagegymreviews.com/best-bumper-plates-guide",
+      "domain": "garagegymreviews.com"
+    }
+  ],
+  "relatedSearches": [
+    "Rubber hex dumbbells set",
+    "Rubber hex dumbbells set of 2",
+    "Rubber hex dumbbells for sale",
+    "Rubber Hex Dumbbells 20lb",
+    "Rubber Hex Dumbbell Set 5-50",
+    "Rubber Hex Dumbbells walmart",
+    "Cap Rubber Hex dumbbells",
+    "Rubber Hex Dumbbells amazon",
+    "Rubber hex dumbbell manufacturer usa",
+    "Used rubber hex dumbbell manufacturer",
+    "Best rubber hex dumbbell manufacturer",
+    "Rubber Hex Dumbbells",
+    "Rubber Coated Dumbbells Set",
+    "Rubber Hex Dumbbells Set",
+    "Rubber grip dumbbells",
+    "Cast Iron Dumbbells Set",
+    "Rubber hex dumbbell supplier usa",
+    "Used rubber hex dumbbell supplier",
+    "Best rubber hex dumbbell supplier",
+    "Rubber Hex Dumbbell Set 5-50",
+    "Rubber Hex Dumbbells Set",
+    "Rubber Coated Dumbbells Set",
+    "Rubber hex dumbbell set 55 100",
+    "CAP Rubber dumbbells",
+    "Rubber hex dumbbells wholesale usa",
+    "Used rubber hex dumbbells wholesale",
+    "Rubber Hex Dumbbells Set",
+    "Rubber Hex Dumbbell Set 5-50",
+    "Rubber Coated Dumbbells Set",
+    "Rubber hex dumbbells wholesale amazon",
+    "Best rubber hex dumbbells wholesale",
+    "Cap Rubber Hex dumbbells",
+    "Commercial rubber hex dumbbells set",
+    "Commercial rubber hex dumbbells for sale",
+    "Rubber Hex Dumbbells Set",
+    "Rubber Hex Dumbbell Set 5-50",
+    "Cap Rubber Hex dumbbells",
+    "Rubber Coated Dumbbells Set",
+    "Best commercial rubber hex dumbbells",
+    "CAP Rubber dumbbells",
+    "Chrome dumbbell manufacturer usa",
+    "Best chrome dumbbell manufacturer",
+    "Chrome Dumbbells Set",
+    "Chrome Dumbbell Set 50kg",
+    "Cast Iron Dumbbells Set",
+    "York Chrome Dumbbells",
+    "Cast Iron Dumbbells for sale",
+    "Ivanko dumbbells for sale",
+    "Urethane dumbbell manufacturer reddit",
+    "Urethane dumbbell manufacturer usa",
+    "Used urethane dumbbell manufacturer",
+    "Urethane dumbbell manufacturer california",
+    "Urethane Dumbbells",
+    "Urethane Dumbbells Set",
+    "Urethane Dumbbell Set 5-50",
+    "Urethane Dumbbell Set 5-100",
+    "Commercial dumbbells set",
+    "Dumbbells Set",
+    "Dumbbell Set with Rack 5-50",
+    "Best commercial dumbbells",
+    "Dumbbell set with Rack 5-100",
+    "Hammer Strength Dumbbells",
+    "American Barbell dumbbells",
+    "Urethane Dumbbells Set",
+    "Custom commercial dumbbell manufacturer",
+    "Custom dumbbells manufacturer",
+    "Cast Iron Dumbbells",
+    "Iron Grip dumbbells",
+    "Cast Iron Dumbbells Set",
+    "Metal Dumbbells Set",
+    "Metal dumbbells adjustable",
+    "Cast iron dumbbells adjustable",
+    "Commercial dumbbell supplier usa",
+    "Best commercial dumbbell supplier",
+    "Cast Iron Dumbbells",
+    "Cast Iron Dumbbells Set",
+    "Metal Dumbbells Set",
+    "Metal dumbbells adjustable",
+    "Cast iron dumbbell set with rack",
+    "Iron Grip dumbbells",
+    "Cast Iron Dumbbells",
+    "Professional dumbbell manufacturer",
+    "Custom dumbbells manufacturer",
+    "Cast Iron Dumbbells Set",
+    "Iron Grip dumbbells",
+    "Stainless Steel Dumbbells",
+    "Cast iron dumbbell set with rack",
+    "Metal dumbbells adjustable",
+    "Dumbbell supplier usa",
+    "Dumbbell supplier online",
+    "Dumbbell supplier nearby",
+    "Used dumbbell supplier",
+    "Dumbbells Set",
+    "Adjustable Dumbbells",
+    "Best dumbbell supplier",
+    "Dumbbell Handles",
+    "Dumbbell Set with Rack 5-50",
+    "Dumbbell factory usa",
+    "Dumbbell set with Rack 5-100",
+    "50 pound Dumbbells Set of 2",
+    "30 lb Dumbbells Set of 2",
+    "Dumbbell Set with Rack 5-25",
+    "Dumbbell sets",
+    "Dumbbell Set Costco",
+    "Oem dumbbells set",
+    "Oem dumbbells review",
+    "Oem dumbbells for sale",
+    "Adjustable Dumbbells",
+    "Dumbbells Set",
+    "NÜOBELL dumbbells",
+    "Dumbbells nearby",
+    "NÜO dumbbells",
+    "Private label dumbbells set",
+    "Private label dumbbells for sale",
+    "Custom dumbbells manufacturer",
+    "Best private label dumbbells",
+    "Private label dumbbells amazon",
+    "Custom dumbbells with logo",
+    "Adjustable Dumbbells",
+    "Custom weights plates",
+    "Custom dumbbells manufacturer",
+    "Custom weights plates",
+    "Custom logo weight plates",
+    "Custom Dumbbell Set",
+    "Adjustable Dumbbells",
+    "Build your own Dumbbell Set",
+    "Custom gym equipment",
+    "Custom kettlebell",
+    "Bumper Plates Set",
+    "Bumper plates 45lb",
+    "Car Bumper Plates",
+    "Bumper plates vs weight plates",
+    "Bumper plates vs iron plates",
+    "Rogue bumper plates",
+    "Bumper Plates amazon",
+    "CAP Bumper plates",
+    "Gym bumper plate manufacturer",
+    "Bumper plate manufacturer usa",
+    "Custom bumper plate manufacturer",
+    "Heavy duty bumper plate manufacturer",
+    "Best bumper plate manufacturer",
+    "Bumper plate manufacturer california",
+    "Bumper plates free shipping",
+    "Homegrown bumper plates review",
+    "Heavy duty bumper plate supplier",
+    "Best bumper plate supplier",
+    "Bumper Plates Set",
+    "Rogue bumper plates",
+    "Vulcan Bumper Plates",
+    "Everyday Essentials bumper plates",
+    "Bumper Plates amazon",
+    "Fringe Sport bumper plates",
+    "Oem bumper plates review",
+    "Oem bumper plates replacement",
+    "Bumper Plates Set",
+    "Oem bumper plates near me",
+    "Oem bumper plates for sale",
+    "Rogue bumper plates",
+    "Dumbbell Bumper plates",
+    "CAP Bumper plates"
+  ]
+}
