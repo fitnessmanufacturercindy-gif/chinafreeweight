@@ -7,6 +7,33 @@ import { siteUrl } from "../../site";
 
 type PageProps = { params: Promise<{ slug: string }> };
 const contentDir = path.join(process.cwd(), "content", "manufacturer");
+const removeSectionHeadings = [
+  "Image Plan",
+  "Missing Evidence",
+  "Internal Notes",
+  "Content Strategy",
+  "Generation Notes",
+  "Content Score",
+  "SEO Goal",
+  "AI Citation Goal",
+  "Search Intent",
+  "Buyer Intent",
+  "Source Opportunity",
+  "Draft Review"
+];
+const hiddenHeadingLabels = new Set(["Hero", "Expert Insight"]);
+const customerVisibleForbidden = [
+  "Describe",
+  "Explain",
+  "Answer this",
+  "Missing Evidence",
+  "Image Plan",
+  "Internal Notes",
+  "Draft Review",
+  "Content Excellence Score",
+  "Status: Missing",
+  "Generation Notes"
+];
 
 function readLanding(slug: string) {
   const filePath = path.join(contentDir, `${slug}.md`);
@@ -30,12 +57,19 @@ function slugs() {
 }
 
 function stripBackendSections(body: string) {
-  const imagePlanMatch = body.match(/^##\s+Image Plan\s*$/im);
-  if (!imagePlanMatch || imagePlanMatch.index === undefined) return body.trim();
-  const before = body.slice(0, imagePlanMatch.index);
-  const after = body.slice(imagePlanMatch.index);
-  const relatedPagesMatch = after.match(/^##\s+Related Pages\s*$/im);
-  return `${before}${relatedPagesMatch?.index === undefined ? "" : after.slice(relatedPagesMatch.index)}`.trim();
+  const lines = body.split("\n");
+  const visible: string[] = [];
+  let skipping = false;
+  for (const line of lines) {
+    const heading = line.trim().match(/^##\s+(.+)$/)?.[1]?.trim();
+    if (heading && removeSectionHeadings.includes(heading)) {
+      skipping = true;
+      continue;
+    }
+    if (heading) skipping = false;
+    if (!skipping) visible.push(line);
+  }
+  return visible.join("\n").trim();
 }
 
 function splitRelatedPages(body: string) {
@@ -48,6 +82,39 @@ function splitRelatedPages(body: string) {
     body: body.replace(/^##\s+Related Pages\s*$[\s\S]*$/im, "").trim(),
     links
   };
+}
+
+function customerVisibleText(body: string) {
+  return splitRelatedPages(stripBackendSections(body)).body
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && !hiddenHeadingLabels.has(line.replace(/^##\s+/, "")))
+    .join("\n");
+}
+
+function assertCustomerVisibleContent(body: string, slug: string) {
+  const visible = customerVisibleText(body);
+  const forbidden = customerVisibleForbidden.filter((term) => new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(visible));
+  if (forbidden.length) {
+    throw new Error(`Customer Visible Content Check failed for ${slug}: ${forbidden.join(", ")}`);
+  }
+  const hasDefinition = /rubber hex dumbbells are/i.test(visible);
+  const hasProfessionalExplanation = /manufacturing|quality control|production process/i.test(visible);
+  const hasBuyerQuestions = /buyers should|importers should|supplier should/i.test(visible);
+  const hasFaq = /^##\s+FAQ\s*$/im.test(visible);
+  const hasTable = /\|\s*Factor\s*\|\s*Why It Matters\s*\|\s*What Buyers Should Check\s*\|/i.test(visible);
+  const hasInternalLinks = splitRelatedPages(stripBackendSections(body)).links.length > 0;
+  const missing = [
+    !hasDefinition ? "definition paragraph" : "",
+    !hasProfessionalExplanation ? "professional explanation" : "",
+    !hasBuyerQuestions ? "buyer questions" : "",
+    !hasFaq ? "FAQ" : "",
+    !hasTable ? "buyer table" : "",
+    !hasInternalLinks ? "internal links" : ""
+  ].filter(Boolean);
+  if (missing.length) {
+    throw new Error(`SEO/GEO/AI content check failed for ${slug}: missing ${missing.join(", ")}`);
+  }
 }
 
 function parseTable(lines: string[], start: number) {
@@ -96,6 +163,7 @@ function renderMarkdown(body: string) {
     const line = lines[index];
     const text = line.trim();
     if (!text) continue;
+    if (text.startsWith("## ") && hiddenHeadingLabels.has(text.slice(3))) continue;
     if (text.startsWith("# ")) elements.push(<h1 key={index}>{text.slice(2)}</h1>);
     else if (text.startsWith("## ")) elements.push(<h2 key={index}>{text.slice(3)}</h2>);
     else if (text.startsWith("### ")) elements.push(<h3 key={index}>{text.slice(4)}</h3>);
@@ -134,6 +202,7 @@ export default async function LandingPage({ params }: PageProps) {
   const { slug } = await params;
   const page = readLanding(slug);
   if (!page) notFound();
+  assertCustomerVisibleContent(page.body, slug);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
