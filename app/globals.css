@@ -1269,32 +1269,8 @@ textarea {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0;
+  opacity: 1;
   transform: scale(1.025);
-}
-
-.hero-bg-video-one {
-  animation: hero-video-fade 18s linear infinite;
-}
-
-.hero-bg-video-two {
-  animation: hero-video-fade 18s linear infinite 9s;
-}
-
-@keyframes hero-video-fade {
-  0%,
-  46% {
-    opacity: 1;
-  }
-
-  52%,
-  94% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .brandline,
