@@ -856,6 +856,82 @@ a {
   background: #f8f8f5;
 }
 
+.article-content .article-table-wrap {
+  width: 100%;
+  margin: 28px 0;
+  overflow-x: auto;
+  border: 1px solid rgba(241, 199, 107, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.article-content table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+
+.article-content th,
+.article-content td {
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.58;
+}
+
+.article-content th {
+  color: #15100a;
+  background: linear-gradient(135deg, var(--gold-bright), #c79741);
+  font-weight: 900;
+}
+
+.article-content td {
+  color: #e5dccd;
+}
+
+.article-content tr:last-child td {
+  border-bottom: 0;
+}
+
+.article-content th:last-child,
+.article-content td:last-child {
+  border-right: 0;
+}
+
+.article-related-links {
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid rgba(241, 199, 107, 0.22);
+}
+
+.article-related-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 0;
+  margin: 18px 0 0;
+  list-style: none;
+}
+
+.article-related-links a {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+  border: 1px solid rgba(241, 199, 107, 0.28);
+  border-radius: 6px;
+  color: var(--gold-bright);
+  background: rgba(255, 255, 255, 0.045);
+  font-weight: 800;
+}
+
+.article-related-links a:hover {
+  color: #111;
+  background: linear-gradient(135deg, var(--gold-bright), #c79741);
+}
+
 button,
 input,
 select,
