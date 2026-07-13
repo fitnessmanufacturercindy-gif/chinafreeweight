@@ -1,0 +1,78 @@
+{
+    "testName":  "PowerBaseFit Full Publishing Workflow Test V1.0",
+    "generatedAt":  "2026-07-13T01:22:13.4573974Z",
+    "draftPath":  "seo-engine/drafts/rubber-hex-dumbbell-manufacturer.md",
+    "finalUrl":  "https://www.chinafreeweight.com/manufacturer/rubber-hex-dumbbell-manufacturer",
+    "prUrl":  "https://github.com/fitnessmanufacturercindy-gif/chinafreeweight/pull/3",
+    "prNumber":  3,
+    "branchName":  "codex/seo-rubber-hex-dumbbell-manufacturer-2026-07-13-mrija5qv",
+    "previewUrl":  "https://chinafreeweight-git-codex-seo-rubber-hex-du-6d9ee9-powerbasefit.vercel.app",
+    "previewPageUrl":  "https://chinafreeweight-git-codex-seo-rubber-hex-du-6d9ee9-powerbasefit.vercel.app/manufacturer/rubber-hex-dumbbell-manufacturer",
+    "modifiedFiles":  [
+                          "content/manufacturer/rubber-hex-dumbbell-manufacturer.md",
+                          "app/manufacturer/[slug]/page.tsx",
+                          "app/sitemap.ts"
+                      ],
+    "draftChecks":  {
+                        "path":  "seo-engine/drafts/rubber-hex-dumbbell-manufacturer.md",
+                        "beforeStatus":  "draft_generated",
+                        "afterStatus":  "approved_for_commit",
+                        "title":  "Rubber Hex Dumbbell Manufacturer | PowerBaseFit",
+                        "h1":  "Rubber Hex Dumbbell Manufacturer",
+                        "metaDescription":  "PowerBaseFit manufactures and supplies rubber hex dumbbells for importers, distributors, gyms, and OEM brands with QC, packaging, and export support.",
+                        "url":  "https://www.chinafreeweight.com/manufacturer/rubber-hex-dumbbell-manufacturer",
+                        "schemaRecommendation":  "WebPage, BreadcrumbList, FAQPage",
+                        "hasFaq":  true,
+                        "hasCta":  true,
+                        "hasInternalLinksSection":  true,
+                        "hasImagePlanMissingStatus":  true
+                    },
+    "approval":  {
+                     "beforeStatus":  "draft_generated",
+                     "afterStatus":  "approved_for_commit",
+                     "logWritten":  true
+                 },
+    "publishingDecision":  {
+                               "decision":  "Create New Page",
+                               "targetType":  "Manufacturer Landing",
+                               "action":  "Create New Page",
+                               "risk":  "Medium",
+                               "confidence":  86
+                           },
+    "githubPr":  {
+                     "created":  true,
+                     "draft":  true,
+                     "base":  "main",
+                     "merge":  false,
+                     "productionPublish":  false
+                 },
+    "vercel":  {
+                   "build":  "PASS",
+                   "previewCreated":  true,
+                   "protectedByVercelAuthentication":  true,
+                   "automaticHtmlCheck":  "BLOCKED_BY_VERCEL_AUTH"
+               },
+    "htmlConversionChecks":  {
+                                 "h1":  "PASS_CODE_CHECK",
+                                 "h2":  "PASS_CODE_CHECK",
+                                 "h3":  "PASS_CODE_CHECK",
+                                 "metaTitle":  "PASS_CODE_CHECK",
+                                 "metaDescription":  "PASS_CODE_CHECK",
+                                 "canonical":  "PASS_CODE_CHECK",
+                                 "schema":  "PASS_CODE_CHECK",
+                                 "faq":  "PASS_CONTENT_CHECK",
+                                 "cta":  "PASS_CONTENT_CHECK",
+                                 "internalLinks":  "PARTIAL_REVIEW_NEEDED: related paths are present in Markdown, route renderer does not convert them into anchor links automatically.",
+                                 "table":  "FAIL_CODE_CHECK: route renderer does not render Markdown tables as HTML tables.",
+                                 "imageMissingHandling":  "FAIL_CODE_CHECK: Image Plan / Status Missing remains in published Markdown body and would render as customer-visible text.",
+                                 "specialCharacters":  "PASS_CONTENT_CHECK"
+                             },
+    "blockingIssues":  [
+                           "Preview automatic page inspection is blocked by Vercel Authentication; manual browser inspection is required.",
+                           "Markdown table is not converted to an HTML table by the generated route renderer.",
+                           "Image Plan and Missing image status are still included in the website Markdown body; customer page should not show backend image planning notes.",
+                           "Related Pages are plain path text in the generated Markdown; verify whether they render as usable internal links before release."
+                       ],
+    "canEnterProductionPublish":  false,
+    "recommendation":  "Do not merge PR #3 yet. Keep it as Draft and fix Markdown-to-HTML conversion and backend-only Image Plan stripping before formal release."
+}
