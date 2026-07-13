@@ -1,6 +1,6 @@
 ---
 content_id: "content-generation-v1-rubber-hex-dumbbell-manufacturer"
-approval_status: "draft_generated"
+approval_status: "approved_for_commit"
 generation_status: "Draft Review"
 source_opportunity: "rubber hex dumbbell manufacturer"
 source_brief: "Content Brief Engine V1.0 / rubber hex dumbbell manufacturer"
@@ -19,6 +19,8 @@ target_url: "https://www.chinafreeweight.com/manufacturer/rubber-hex-dumbbell-ma
 schema_recommendation: "WebPage, BreadcrumbList, FAQPage"
 action: "Create New Page"
 page_type: "Manufacturer Page"
+updated_at: "2026-07-13T01:18:18.045Z"
+updated_by: "codex@workflow-test"
 ---
 
 # Rubber Hex Dumbbell Manufacturer
