@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-13T08:02:46.734Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-13T08:02:46.734Z",
+    "actor": "fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0,
+      "returnedKeywordCount": 0,
+      "serpCount": 0,
+      "peopleAlsoAskCount": 0,
+      "relatedSearchesCount": 0,
+      "competitorDomainCount": 0,
+      "apiSuccess": false,
+      "failedCalls": [
+        {
+          "seed": "weight plate manufacturer",
+          "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+          "httpStatus": 402,
+          "dataForSeoStatusCode": 20000,
+          "dataForSeoStatusMessage": "Ok.",
+          "cost": 0,
+          "ok": false
+        },
+        {
+          "seed": "weight plate manufacturer",
+          "endpoint": "/v3/serp/google/organic/live/advanced",
+          "httpStatus": 402,
+          "dataForSeoStatusCode": 20000,
+          "dataForSeoStatusMessage": "Ok.",
+          "cost": 0,
+          "ok": false
+        }
+      ]
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 1,
+      "blockedByQuality": 0
+    }
+  },
+  "apiCalls": [
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 402,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0,
+      "ok": false
+    },
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 402,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0,
+      "ok": false
+    }
+  ]
+}
