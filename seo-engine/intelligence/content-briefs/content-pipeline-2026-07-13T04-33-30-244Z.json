@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-07-13T04:33:30.241Z",
+  "source": "Opportunity Engine V1.1",
+  "metrics": {
+    "totalBriefs": 1,
+    "updateBriefs": 0,
+    "createBriefs": 1,
+    "skippedDoNotCreate": 0,
+    "skippedNeedMoreData": 0
+  },
+  "briefs": [
+    {
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/weight-plate-manufacturer",
+      "action": "Create New Page",
+      "sourceAction": "Create New Page",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "targetCustomer": "Importer / Distributor",
+      "primaryKeyword": "weight plate manufacturer",
+      "secondaryKeywords": [
+        "weight plate manufacturer supplier",
+        "weight plate manufacturer manufacturer",
+        "weight plate manufacturer wholesale"
+      ],
+      "questionsToAnswer": [
+        "What makes a reliable weight plate manufacturer supplier?",
+        "Which materials and tolerances matter for weight plate manufacturer?",
+        "How should buyers compare packaging, warranty, and QC for weight plate manufacturer?",
+        "What factory evidence should be shown for weight plate manufacturer?"
+      ],
+      "competitorEvidence": [
+        "DataForSEO SERP Type: Guide / Resource",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Guide / Resource"
+      ],
+      "requiredSections": [
+        "New page purpose and search intent",
+        "Buyer problem and purchase scenario",
+        "Product / service specifications",
+        "Factory capability and production process",
+        "Quality control and inspection proof",
+        "OEM / private label options",
+        "Packaging, MOQ, and shipping considerations",
+        "FAQ",
+        "Internal links and conversion CTA"
+      ],
+      "requiredFAQ": [
+        "What makes a reliable weight plate manufacturer supplier?",
+        "Which materials and tolerances matter for weight plate manufacturer?",
+        "How should buyers compare packaging, warranty, and QC for weight plate manufacturer?",
+        "What factory evidence should be shown for weight plate manufacturer?",
+        "Can PowerBaseFit customize weight plate manufacturer?",
+        "What information is needed to request a quote for weight plate manufacturer?"
+      ],
+      "requiredImages": [
+        "weight plate manufacturer product detail image",
+        "Factory production or inspection image",
+        "Packaging / palletizing image",
+        "Customization or logo example",
+        "Commercial gym usage image"
+      ],
+      "requiredFactoryEvidence": [
+        "Factory production capability",
+        "Material and finish specification",
+        "QC checklist or inspection process",
+        "Packaging proof",
+        "OEM / private label proof",
+        "Export or project experience"
+      ],
+      "internalLinks": [
+        "/products/bumper-plates",
+        "/contact",
+        "/factory",
+        "/manufacturer/free-weight-manufacturer"
+      ],
+      "schemaRecommendation": [
+        "WebPage",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "seoGoal": "Improve relevance for weight plate manufacturer without changing protected SEO assets. DataForSEO search volume: unknown.",
+      "geoGoal": "Make manufacturer, factory, OEM, and supplier expertise easy for buyers and geo-targeted search systems to understand.",
+      "aiCitationGoal": "Provide concise, factual manufacturer evidence, specifications, FAQ, and internal links that AI search systems can cite.",
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow."
+    }
+  ]
+}
