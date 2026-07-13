@@ -84,6 +84,10 @@ function splitRelatedPages(body: string) {
   };
 }
 
+function absoluteUrl(pathname: string) {
+  return new URL(pathname, siteUrl).toString();
+}
+
 function customerVisibleText(body: string) {
   return splitRelatedPages(stripBackendSections(body)).body
     .split("\n")
@@ -198,6 +202,38 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+function faqItems(body: string) {
+  const items: Array<{ question: string; answer: string }> = [];
+  let inFaq = false;
+  let currentQuestion = "";
+  let currentAnswer: string[] = [];
+  const flush = () => {
+    const answer = currentAnswer.join(" ").replace(/\s+/g, " ").trim();
+    if (currentQuestion && answer) items.push({ question: currentQuestion, answer });
+    currentQuestion = "";
+    currentAnswer = [];
+  };
+  for (const line of stripBackendSections(body).split("\n")) {
+    const text = line.trim();
+    const h2 = text.match(/^##\s+(.+)$/)?.[1]?.trim();
+    if (h2) {
+      if (inFaq) flush();
+      inFaq = h2 === "FAQ";
+      continue;
+    }
+    if (!inFaq || !text) continue;
+    const h3 = text.match(/^###\s+(.+)$/)?.[1]?.trim();
+    if (h3) {
+      flush();
+      currentQuestion = h3;
+      continue;
+    }
+    if (currentQuestion) currentAnswer.push(text);
+  }
+  if (inFaq) flush();
+  return items;
+}
+
 export default async function LandingPage({ params }: PageProps) {
   const { slug } = await params;
   const page = readLanding(slug);
@@ -210,9 +246,33 @@ export default async function LandingPage({ params }: PageProps) {
     provider: { "@type": "Organization", name: "PowerBaseFit", url: siteUrl },
     areaServed: "Global"
   };
+  const pageUrl = absoluteUrl(`/manufacturer/${slug}`);
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "Manufacturer", item: absoluteUrl("/manufacturer") },
+      { "@type": "ListItem", position: 3, name: page.data.title || "Rubber Hex Dumbbell Manufacturer", item: pageUrl }
+    ]
+  };
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqItems(page.body).map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
   return (
     <main className="article-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <article className="article-shell">
         <a className="back-link" href="/factory">Back to factory</a>
         <div className="article-kicker">{page.data.primary_keyword || "manufacturer"}</div>
