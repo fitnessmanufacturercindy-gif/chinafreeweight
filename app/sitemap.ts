@@ -40,10 +40,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
+  const seoLandingRoutes = ["/manufacturer/rubber-hex-dumbbell-manufacturer"];
 
   return [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),
     ...productRoutes.map((path) => entry(path, 0.72, "monthly")),
-    ...resourceRoutes.map((path) => entry(path, 0.68, "monthly"))
+    ...resourceRoutes.map((path) => entry(path, 0.68, "monthly")),
+    ...seoLandingRoutes.map((path) => entry(path, 0.74, "monthly"))
   ];
 }
