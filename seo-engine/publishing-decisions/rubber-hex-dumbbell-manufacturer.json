@@ -1,0 +1,44 @@
+{
+  "id": "content-generation-v1-rubber-hex-dumbbell-manufacturer",
+  "draftPath": "seo-engine/drafts/rubber-hex-dumbbell-manufacturer.md",
+  "publishingDecision": "Create New Page",
+  "proposedAction": "Create New Page",
+  "recommendedTargetType": "Manufacturer Landing",
+  "recommendedNewUrl": {
+    "directory": "app/manufacturer/[slug]/page.tsx",
+    "slug": "rubber-hex-dumbbell-manufacturer",
+    "finalUrl": "/manufacturer/rubber-hex-dumbbell-manufacturer",
+    "needsNewRoute": true
+  },
+  "decisionReason": [
+    "Manual approval selected Manufacturer Page for the requested final URL.",
+    "Create New Page is appropriate because the existing product page should not be rewritten for manufacturer-intent traffic.",
+    "Content is complete, metadata exists, FAQ/CTA/Internal Links are present, and image gaps are non-blocking backend notes.",
+    "New page can use manufacturer route and sitemap entry without modifying main."
+  ],
+  "riskIfPublishedWrong": [
+    "Medium cannibalization risk with the existing hex dumbbell product page if internal links and page intent are unclear.",
+    "Route and sitemap changes must be reviewed in Preview before any merge.",
+    "Image assets are currently missing; this should not block the workflow but final visual quality should be reviewed manually."
+  ],
+  "requiredSiteChange": [
+    "Create content/manufacturer markdown file",
+    "Add manufacturer dynamic route if absent",
+    "Add target URL to sitemap"
+  ],
+  "scores": {
+    "googleIntentMatch": 86,
+    "serpConfidence": 80,
+    "buyerIntentMatch": 92,
+    "businessValue": 92,
+    "existingPageMatch": 35,
+    "cannibalizationRisk": 45,
+    "duplicateContentRisk": 20,
+    "routeAvailability": 70,
+    "overallPublishingConfidence": 86
+  },
+  "manualReviewRequired": false,
+  "status": "accepted",
+  "updatedAt": "2026-07-13T01:18:24.519Z",
+  "adminNote": "Full Publishing Workflow Test V1.0 manual decision. Do not merge or publish during this test."
+}
