@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { siteUrl } from "../../site";
 
@@ -10,7 +11,7 @@ const contentDir = path.join(process.cwd(), "content", "manufacturer");
 function readLanding(slug: string) {
   const filePath = path.join(contentDir, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, "utf8");
+  const raw = fs.readFileSync(filePath, "utf8").replace(/\r\n/g, "\n");
   const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   const data: Record<string, string> = {};
   if (match) {
@@ -28,16 +29,92 @@ function slugs() {
   return fs.readdirSync(contentDir).filter((file) => file.endsWith(".md")).map((file) => ({ slug: file.replace(/\.md$/, "") }));
 }
 
+function stripBackendSections(body: string) {
+  const imagePlanMatch = body.match(/^##\s+Image Plan\s*$/im);
+  if (!imagePlanMatch || imagePlanMatch.index === undefined) return body.trim();
+  const before = body.slice(0, imagePlanMatch.index);
+  const after = body.slice(imagePlanMatch.index);
+  const relatedPagesMatch = after.match(/^##\s+Related Pages\s*$/im);
+  return `${before}${relatedPagesMatch?.index === undefined ? "" : after.slice(relatedPagesMatch.index)}`.trim();
+}
+
+function splitRelatedPages(body: string) {
+  const match = body.match(/^##\s+Related Pages\s*$\n([\s\S]*?)$/im);
+  const links = match?.[1]
+    ?.split(/\r?\n/)
+    .map((line) => line.trim().replace(/^-\s+/, ""))
+    .filter((line) => line.startsWith("/")) || [];
+  return {
+    body: body.replace(/^##\s+Related Pages\s*$[\s\S]*$/im, "").trim(),
+    links
+  };
+}
+
+function parseTable(lines: string[], start: number) {
+  const rows: string[][] = [];
+  let index = start;
+  while (index < lines.length && lines[index].trim().startsWith("|")) {
+    const cells = lines[index].trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim());
+    rows.push(cells);
+    index += 1;
+  }
+  const separator = rows[1]?.every((cell) => /^:?-{3,}:?$/.test(cell));
+  if (rows.length < 2 || !separator) return null;
+  return {
+    headers: rows[0],
+    bodyRows: rows.slice(2),
+    nextIndex: index
+  };
+}
+
 function renderMarkdown(body: string) {
-  return body.split("\n").map((line, index) => {
+  const { body: contentBody, links } = splitRelatedPages(stripBackendSections(body));
+  const lines = contentBody.split("\n");
+  const elements: ReactNode[] = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const table = parseTable(lines, index);
+    if (table) {
+      elements.push(
+        <div className="article-table-wrap" key={`table-${index}`}>
+          <table>
+            <thead>
+              <tr>{table.headers.map((header) => <th key={header}>{header}</th>)}</tr>
+            </thead>
+            <tbody>
+              {table.bodyRows.map((row, rowIndex) => (
+                <tr key={`${index}-${rowIndex}`}>
+                  {row.map((cell, cellIndex) => <td key={`${index}-${rowIndex}-${cellIndex}`}>{cell}</td>)}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      index = table.nextIndex - 1;
+      continue;
+    }
+    const line = lines[index];
     const text = line.trim();
-    if (!text) return null;
-    if (text.startsWith("# ")) return <h1 key={index}>{text.slice(2)}</h1>;
-    if (text.startsWith("## ")) return <h2 key={index}>{text.slice(3)}</h2>;
-    if (text.startsWith("### ")) return <h3 key={index}>{text.slice(4)}</h3>;
-    if (text.startsWith("- ")) return <li key={index}>{text.slice(2)}</li>;
-    return <p key={index}>{text}</p>;
-  });
+    if (!text) continue;
+    if (text.startsWith("# ")) elements.push(<h1 key={index}>{text.slice(2)}</h1>);
+    else if (text.startsWith("## ")) elements.push(<h2 key={index}>{text.slice(3)}</h2>);
+    else if (text.startsWith("### ")) elements.push(<h3 key={index}>{text.slice(4)}</h3>);
+    else if (text.startsWith("- ")) elements.push(<li key={index}>{text.slice(2)}</li>);
+    else elements.push(<p key={index}>{text}</p>);
+  }
+  if (links.length) {
+    elements.push(
+      <section className="article-related-links" key="related-pages">
+        <h2>Related Pages</h2>
+        <ul>
+          {links.map((link) => (
+            <li key={link}><a href={link}>{link}</a></li>
+          ))}
+        </ul>
+      </section>
+    );
+  }
+  return elements;
 }
 
 export function generateStaticParams() { return slugs(); }
