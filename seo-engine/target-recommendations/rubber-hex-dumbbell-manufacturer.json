@@ -1,0 +1,136 @@
+{
+  "id": "content-generation-v1-rubber-hex-dumbbell-manufacturer",
+  "draftPath": "seo-engine/drafts/rubber-hex-dumbbell-manufacturer.md",
+  "searchIntent": "Buyer Intent",
+  "buyerIntent": [
+    "Manufacturer",
+    "Supplier",
+    "OEM",
+    "Distributor",
+    "Factory",
+    "Importer"
+  ],
+  "commercialValue": "High",
+  "serpPattern": {
+    "query": "rubber hex dumbbells manufacturer",
+    "source": "Manual Google SERP sample",
+    "top10": [
+      {
+        "position": 1,
+        "title": "Hex Dumbbell Manufacturer - YR Fitness",
+        "url": "https://www.yanrefitness.com/hex-dumbbells-manufacturer/",
+        "pageType": "Manufacturer",
+        "reason": "Manufacturer page targeting hex dumbbell factory/sourcing intent."
+      },
+      {
+        "position": 2,
+        "title": "Hex Dumbbells | Commercial Grade Rubber Coated & Cast Iron",
+        "url": "https://www.topfitness.com/collections/hex-dumbbells",
+        "pageType": "Category",
+        "reason": "Collection/category page for rubber hex dumbbells."
+      },
+      {
+        "position": 3,
+        "title": "Rubber Hex Dumbbells - Dynamic Fitness & Strength",
+        "url": "https://www.mydynamicfitness.com/rubber-hex-dumbbells",
+        "pageType": "Product",
+        "reason": "Product page for rubber hex dumbbells."
+      },
+      {
+        "position": 4,
+        "title": "Rubber Coated Hex Dumbbells - Titan Fitness",
+        "url": "https://titan.fitness/collections/rubber-hex-dumbbells",
+        "pageType": "Category",
+        "reason": "Commercial product collection page."
+      },
+      {
+        "position": 5,
+        "title": "Rubber Hex Dumbbells Manufacturing Process, China Manufacturer",
+        "url": "https://www.youtube.com/watch?v=80U7XvplDso",
+        "pageType": "Manufacturer",
+        "reason": "Manufacturing process result from a China free weight manufacturer."
+      },
+      {
+        "position": 6,
+        "title": "Rubber Hex Dumbbell Supplier / Manufacturer Result",
+        "url": "Google SERP sample",
+        "pageType": "Manufacturer",
+        "reason": "Supplier/manufacturer result pattern."
+      },
+      {
+        "position": 7,
+        "title": "Rubber Hex Dumbbell Product Result",
+        "url": "Google SERP sample",
+        "pageType": "Product",
+        "reason": "Product-focused result."
+      },
+      {
+        "position": 8,
+        "title": "Commercial Hex Dumbbell Collection",
+        "url": "Google SERP sample",
+        "pageType": "Category",
+        "reason": "Category result pattern."
+      },
+      {
+        "position": 9,
+        "title": "How to choose commercial dumbbells",
+        "url": "Google SERP sample",
+        "pageType": "Buying Guide",
+        "reason": "Guide result pattern."
+      },
+      {
+        "position": 10,
+        "title": "Factory / Supplier Landing Result",
+        "url": "Google SERP sample",
+        "pageType": "Manufacturer",
+        "reason": "Factory landing page pattern."
+      }
+    ],
+    "distribution": {
+      "Product": 2,
+      "Category": 3,
+      "Buying Guide": 1,
+      "Manufacturer": 4,
+      "Comparison": 0,
+      "Resource": 0,
+      "Project": 0,
+      "FAQ": 0,
+      "Landing Page": 0
+    },
+    "dominantType": "Manufacturer",
+    "dominantShare": 40,
+    "notes": "SERP is mixed, but B2B manufacturer/supplier intent is the strongest single cluster. Do not force this Draft into Product only because a matching product page exists.",
+    "lastCheckedAt": "2026-07-13T01:18:14.654Z"
+  },
+  "contentType": "Manufacturer Landing Page",
+  "recommendedDirectory": "app/manufacturer/[slug]/page.tsx",
+  "recommendedUrl": "/manufacturer/rubber-hex-dumbbell-manufacturer",
+  "recommendedSlug": "rubber-hex-dumbbell-manufacturer",
+  "publishAction": "create",
+  "targetExistingPage": "",
+  "rationale": [
+    "Manual workflow decision: Draft metadata target_url explicitly points to the manufacturer URL requested for this test.",
+    "SERP evidence is mixed but Manufacturer is the strongest single pattern for B2B supplier intent.",
+    "Existing product page should remain protected; this test creates a differentiated manufacturer landing page instead of rewriting product content.",
+    "The page supports importer, distributor, OEM, factory, and supplier search intent."
+  ],
+  "relatedExistingPages": [
+    "/products/dumbbells/hex-dumbbell-kg",
+    "/products/dumbbells",
+    "/factory",
+    "/contact"
+  ],
+  "recommendedInternalLinks": [
+    "/factory",
+    "/products/dumbbells/hex-dumbbell-kg",
+    "/contact"
+  ],
+  "keywordConflictRisk": "Medium: related to existing hex dumbbell product page, but target intent is manufacturer/supplier sourcing rather than product specification.",
+  "duplicatePageRisk": "Low: no existing /manufacturer/rubber-hex-dumbbell-manufacturer page found in the current website structure.",
+  "seoImpact": "Create a manufacturer-intent landing page while preserving product page intent and linking back to factory, product, and contact pages.",
+  "confidence": 86,
+  "manualReviewRequired": false,
+  "validationIssues": [],
+  "status": "accepted",
+  "updatedAt": "2026-07-13T01:18:22.732Z"
+}
