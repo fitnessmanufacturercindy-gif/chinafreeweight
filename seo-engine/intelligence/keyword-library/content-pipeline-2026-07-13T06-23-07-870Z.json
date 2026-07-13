@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-07-13T06:23:07.870Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-13T06:23:07.870Z",
+    "actor": "fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0.01412,
+      "returnedKeywordCount": 1,
+      "serpCount": 9,
+      "peopleAlsoAskCount": 0,
+      "relatedSearchesCount": 8,
+      "competitorDomainCount": 9,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 0,
+      "blockedByQuality": 1
+    }
+  },
+  "keywords": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "priority": "High",
+      "keyword": "weight plate manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    }
+  ],
+  "exactInputs": [
+    {
+      "keyword": "weight plate manufacturer",
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Guide / Resource",
+      "priority": "High",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "DataForSEO SERP Type: Guide / Resource"
+      ]
+    }
+  ]
+}
