@@ -4,11 +4,11 @@ approval_status: "draft_generated"
 generation_status: "Draft Review"
 source_opportunity: "rubber hex dumbbell manufacturer"
 source_brief: "Content Brief Engine V1.0 / rubber hex dumbbell manufacturer"
-generated_at: "2026-07-13T00:43:05.968Z"
+generated_at: "2026-07-13T01:06:00.202Z"
 final_draft_quality_score: "100"
 evidence_gap_count: "4"
 evidence_gaps: "Real product detail image required before publication.; Real factory or QC image required before publication.; Real packaging or loading image required before publication.; Real packaging or OEM customization image required before publication."
-image_plan_status: "planned_waiting_real_assets"
+image_plan_status: "planned_non_blocking_missing_assets"
 image_plan_count: "4"
 title: "Rubber Hex Dumbbell Manufacturer | PowerBaseFit"
 seo_title: "Rubber Hex Dumbbell Manufacturer | PowerBaseFit"
@@ -137,21 +137,25 @@ Send PowerBaseFit your target weight range, estimated quantity, logo requirement
 ## Image Plan
 
 ### Image 1: Show product details buyers need to inspect
+- Status: Missing
 - Scene Description: Close-up of rubber hex dumbbells surface, handle, shape, and finish details.
 - ALT: rubber hex dumbbells product detail for buyer inspection
 - Caption: Rubber Hex Dumbbells details help buyers compare finish, grip, and build quality.
 
 ### Image 2: Support manufacturing and QC credibility
+- Status: Missing
 - Scene Description: Factory production or quality inspection scene showing real manufacturing process.
 - ALT: rubber hex dumbbells manufacturing and quality inspection process
 - Caption: Factory and QC evidence should support any manufacturing claims in the final page.
 
 ### Image 3: Show export packaging and delivery readiness
+- Status: Missing
 - Scene Description: Packaging, carton, pallet, or loading scene prepared for wholesale or export orders.
 - ALT: rubber hex dumbbells export packaging and shipping preparation
 - Caption: Packaging evidence helps importers and distributors understand shipment readiness.
 
 ### Image 4: Show packaging or OEM customization details
+- Status: Missing
 - Scene Description: Verified packaging, carton label, logo application, or OEM presentation detail for a buyer order.
 - ALT: rubber hex dumbbells packaging and OEM customization detail
 - Caption: Packaging and OEM details help buyers confirm market presentation before bulk ordering.
