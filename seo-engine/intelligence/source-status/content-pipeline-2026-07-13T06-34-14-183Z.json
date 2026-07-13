@@ -1,0 +1,74 @@
+{
+  "generatedAt": "2026-07-13T06:34:14.183Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-13T06:34:14.183Z",
+    "actor": "fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0.01212,
+      "returnedKeywordCount": 1,
+      "serpCount": 0,
+      "peopleAlsoAskCount": 0,
+      "relatedSearchesCount": 0,
+      "competitorDomainCount": 0,
+      "apiSuccess": false,
+      "failedCalls": [
+        {
+          "seed": "weight plate manufacturer",
+          "endpoint": "/v3/serp/google/organic/live/advanced",
+          "httpStatus": 402,
+          "dataForSeoStatusCode": 20000,
+          "dataForSeoStatusMessage": "Ok.",
+          "cost": 0,
+          "ok": false
+        }
+      ]
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 0,
+      "blockedByQuality": 1
+    }
+  },
+  "draftQuality": [
+    {
+      "path": "seo-engine/drafts/weight-plate-manufacturer.md",
+      "keyword": "weight plate manufacturer",
+      "score": 90,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": false,
+        "status": "Needs Improvement",
+        "score": 90,
+        "productMismatch": true,
+        "reason": "Draft 包含 dumbbell 语言，但目标关键词属于 weight plate，已阻止进入 Draft Review。"
+      }
+    }
+  ]
+}
