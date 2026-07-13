@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start --hostname 127.0.0.1",
     "typecheck": "tsc --noEmit",
+    "seo:pt:check": "node scripts/check-pt-seo.mjs",
     "seo:daily": "node seo-engine/scripts/run-seo-engine.mjs --mode daily",
     "seo:weekly": "node seo-engine/scripts/run-seo-engine.mjs --mode weekly",
     "seo:monthly": "node seo-engine/scripts/run-seo-engine.mjs --mode monthly",

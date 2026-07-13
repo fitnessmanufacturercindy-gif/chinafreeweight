@@ -28,6 +28,91 @@ body {
   font-size: 17px;
 }
 
+.pt-page .pt-hero-image {
+  min-height: 560px;
+  overflow: hidden;
+  border: 1px solid rgba(241, 199, 107, 0.24);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.pt-page .pt-hero-image img {
+  width: 100%;
+  height: 560px;
+  display: block;
+  object-fit: cover;
+}
+
+.pt-page .pt-content-section {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.pt-page .pt-section-alt {
+  width: 100%;
+  max-width: none;
+  padding-left: max(32px, calc((100vw - 1680px) / 2));
+  padding-right: max(32px, calc((100vw - 1680px) / 2));
+  background: rgba(255, 255, 255, 0.035);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.pt-page .pt-prose {
+  max-width: 1180px;
+  color: #d4cbbb;
+  font-size: 19px;
+  line-height: 1.78;
+}
+
+.pt-page .pt-prose p {
+  margin: 0 0 22px;
+}
+
+.pt-page .pt-prose .detail-list-grid {
+  margin-top: 28px;
+}
+
+.pt-hub-hero {
+  min-height: 72vh;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.pt-hub-hero h1 {
+  max-width: 960px;
+  margin: 0;
+  font-size: clamp(48px, 5vw, 84px);
+  line-height: 1;
+}
+
+.pt-hub-hero > .section-heading-wide > p {
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.pt-blog-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.pt-blog-links a {
+  padding: 14px 18px;
+  border: 1px solid rgba(241, 199, 107, 0.38);
+  border-radius: 7px;
+  color: var(--gold-bright);
+  font-weight: 800;
+}
+
+@media (max-width: 780px) {
+  .pt-page .pt-hero-image,
+  .pt-page .pt-hero-image img { min-height: 340px; height: 340px; }
+  .pt-page .pt-section-alt { padding-left: 22px; padding-right: 22px; }
+  .pt-page .pt-prose { font-size: 17px; }
+}
+
 body > .global-topbar,
 body > .global-footer {
   background:
@@ -1865,6 +1950,10 @@ textarea {
 }
 
 @media (max-width: 900px) {
+  .topbar-cta {
+    display: none;
+  }
+
   .whatsapp-button {
     right: 18px;
     bottom: 18px;
@@ -1973,11 +2062,14 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .hero {
+  .hero-video-layer {
     --hero-poster: image-set(
       url("/assets/hero-poster-mobile.avif") type("image/avif"),
       url("/assets/hero-poster-mobile.webp") type("image/webp")
     );
+  }
+
+  .hero {
     padding-top: 28px;
     min-height: 720px;
     align-items: flex-start;

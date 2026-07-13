@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   description:
     "PBF is a weight plates manufacturer and gym weight plates supplier for commercial gyms, distributors, and OEM brands. Browse bumper plates, rubber plates, PU plates, TPU plates, and custom weight plate programs from China.",
   alternates: {
-    canonical: "/products/weight-plates"
+    canonical: "/products/weight-plates",
+    languages: { en: "/products/weight-plates", pt: "/pt/products/weight-plates/", "x-default": "/products/weight-plates" }
   }
 };
 

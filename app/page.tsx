@@ -16,7 +16,8 @@ import { siteName } from "./site";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "/"
+    canonical: "/",
+    languages: { en: "/", pt: "/pt/", "x-default": "/" }
   },
   openGraph: {
     type: "website",

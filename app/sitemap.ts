@@ -18,6 +18,17 @@ const staticRoutes = [
   { path: "/contact", priority: 0.86 }
 ];
 
+const portugueseRoutes = [
+  { path: "/pt/", priority: 0.92 },
+  { path: "/pt/products/", priority: 0.84 },
+  { path: "/pt/products/dumbbells/", priority: 0.9 },
+  { path: "/pt/products/weight-plates/", priority: 0.9 },
+  { path: "/pt/products/bumper-plates/", priority: 0.9 },
+  { path: "/pt/oem-private-label/", priority: 0.88 },
+  { path: "/pt/factory/", priority: 0.88 },
+  { path: "/pt/blog/", priority: 0.76 }
+];
+
 function entry(
   path: string,
   priority = 0.7,
@@ -43,6 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),
+    ...portugueseRoutes.map((route) => entry(route.path, route.priority, "weekly")),
     ...productRoutes.map((path) => entry(path, 0.72, "monthly")),
     ...resourceRoutes.map((path) => entry(path, 0.68, "monthly"))
   ];
