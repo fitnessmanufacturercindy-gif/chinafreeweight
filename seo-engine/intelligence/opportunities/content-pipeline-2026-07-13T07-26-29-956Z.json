@@ -1,0 +1,69 @@
+{
+  "version": "1.1",
+  "generatedAt": "2026-07-13T07:26:29.951Z",
+  "status": "success",
+  "inputSummary": {
+    "growthIntelligence": "Keyword Opportunities / SERP Evidence / Questions / Competitors loaded from seo-data.",
+    "websiteIntelligence": "Waiting External Validation: current branch does not include full Website Intelligence asset metrics.",
+    "gsc": "Waiting External Validation: GSC impressions/clicks/ranking/CTR are not included in the current opportunity input file.",
+    "ga4": "Waiting External Validation: GA4 traffic and landing-page metrics are not included in the current opportunity input file.",
+    "dataForSEO": "Loaded from Seed Library + DataForSEO Phase 2 successful run."
+  },
+  "metrics": {
+    "total": 1,
+    "protectExisting": 0,
+    "updateExisting": 0,
+    "createNew": 1,
+    "doNotCreate": 0,
+    "needMoreData": 0
+  },
+  "opportunities": [
+    {
+      "keyword": "weight plate manufacturer",
+      "source": "Growth Intelligence + DataForSEO",
+      "sourceSeed": "weight plate manufacturer",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "businessValue": 80,
+      "targetCustomer": "Importer / Distributor",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow.",
+      "existingAssetValue": {
+        "indexedStatus": "Waiting External Validation",
+        "gscImpressions": "Waiting External Validation",
+        "gscClicks": "Waiting External Validation",
+        "currentRankingPosition": "Waiting External Validation",
+        "ctr": "Waiting External Validation",
+        "ga4Traffic": "Waiting External Validation",
+        "lastUpdated": "Waiting External Validation",
+        "contentCompleteness": "Waiting External Validation",
+        "faqStatus": "Waiting External Validation",
+        "schemaStatus": "Waiting External Validation",
+        "internalLinks": "Waiting External Validation",
+        "aiCitationStatus": "Waiting External Validation",
+        "value": "Waiting External Validation",
+        "rationale": "No confirmed existing page asset is available in the current Opportunity Engine input."
+      },
+      "recommendedAction": "Create New Page",
+      "recommendedUrl": "https://www.chinafreeweight.com/manufacturer/weight-plate-manufacturer",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "updateModules": [],
+      "whySeoAssetIsSafe": "Allowed only when no confirmed existing asset match exists and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "DataForSEO SERP Type: Waiting SERP validation",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Waiting SERP validation",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "risk": "Cannibalization Risk: Medium. Manual URL and page-type review is required before any publishing workflow.",
+      "cannibalizationRisk": "Medium",
+      "priority": "High",
+      "confidence": "Waiting External Validation",
+      "group": "Manufacturer Opportunities"
+    }
+  ]
+}
