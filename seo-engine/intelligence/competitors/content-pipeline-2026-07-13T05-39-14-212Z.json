@@ -1,0 +1,116 @@
+{
+  "generatedAt": "2026-07-13T05:39:14.212Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-13T05:39:14.212Z",
+    "actor": "fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0.01412,
+      "returnedKeywordCount": 1,
+      "serpCount": 10,
+      "peopleAlsoAskCount": 0,
+      "relatedSearchesCount": 8,
+      "competitorDomainCount": 10,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 0,
+      "blockedByQuality": 1
+    }
+  },
+  "competitors": [
+    {
+      "domain": "ironcompany.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "ivankobarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "garagegymreviews.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "hms-fitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "gtechfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "youtube.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "en.wikipedia.org",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "yanrefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "thestrength.co",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "barbend.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    }
+  ]
+}
