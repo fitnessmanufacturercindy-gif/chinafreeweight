@@ -1,0 +1,1099 @@
+{
+  "generatedAt": "2026-07-14T22:29:52.806Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-14T22:29:52.806Z",
+    "actor": "batch_context_rerun:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer",
+      "chrome dumbbell manufacturer",
+      "urethane dumbbell manufacturer",
+      "OEM dumbbells",
+      "private label dumbbells"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 10,
+      "totalCost": 0.07012,
+      "returnedKeywordCount": 5,
+      "serpCount": 45,
+      "peopleAlsoAskCount": 16,
+      "relatedSearchesCount": 40,
+      "competitorDomainCount": 31,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 5,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 5,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 5,
+      "updateBriefs": 0,
+      "createBriefs": 5,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 5,
+      "savedToDraftReview": 4,
+      "blockedByQuality": 1
+    }
+  },
+  "serp": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "serpType": "Guide / Resource",
+      "top10": [
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "USA Made Weight Plates | American Made Olympic Plates",
+          "url": "https://www.ironcompany.com/usa-made-gym-equipment/american-made-weightlifting-barbell-plates?srsltid=AfmBOory8XN4krTY2WaUOW1bY1JBZjr3AcQ6yNAupFyuXSUg6gtK0IoJ",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "Plates",
+          "url": "https://ivankobarbell.com/collections/plates?srsltid=AfmBOop84AzprHfdGNvSZilnH9xx6Ah3NdDgMczg4-pg_bFplrJokdqN",
+          "domain": "ivankobarbell.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+          "url": "https://homegrownlifting.com/?srsltid=AfmBOorXLWKD4MAK54jkhjqczCwCWPPVJzbDublJ4TgnAMa-QKZmbdbm",
+          "domain": "homegrownlifting.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Best Weight Plates for 2026: Iron, Rubber, and Steel",
+          "url": "https://www.garagegymreviews.com/best-weight-plates",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "Barbell plates - Weights",
+          "url": "https://hms-fitness.com/offer/bars-and-weights/weights/weight-plates",
+          "domain": "hms-fitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Weight Plates for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/weight-plates/?srsltid=AfmBOoreOR9MuzGDqCRZlB5NTWSVNsXoUbymhm97hCkzeLVFMybDlxQa",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "Weight plate",
+          "url": "https://en.wikipedia.org/wiki/Weight_plate",
+          "domain": "en.wikipedia.org"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "30 Best Weight Plate Suppliers Around The World",
+          "url": "https://www.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+          "domain": "yanrefitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 9,
+          "title": "\"Built to Lift: How Gym Weight Plates Are Made\"",
+          "url": "https://www.youtube.com/watch?v=ewfzIJjTFV8",
+          "domain": "youtube.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What company makes the best weight plates?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How do I make my own weight plates?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What company makes weights?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Weight plate manufacturer usa",
+        "Gym weight plate manufacturer",
+        "Best weight plate manufacturer",
+        "Iron weight plates set",
+        "Steel Weight Plates Set",
+        "Plastic Weight Plates Set",
+        "Stainless Steel Weight Plates",
+        "1 inch Weight Plates Set"
+      ],
+      "serpFeatures": [
+        "organic",
+        "people_also_ask",
+        "video",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "Chrome Dumbbells for Studios & Home Gyms",
+          "url": "https://www.ironcompany.com/free-weights/dumbbells/chrome-dumbbells?srsltid=AfmBOorVxQkhcFbEcCdorNC7xzWuyxtSEv8Ij-qi2lst-aF0HzmqzVmx",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Chrome dumbbell set for gyms",
+          "url": "https://www.technogym.com/en-INT/product/chrome-dumbbell_KAA0-CD.html",
+          "domain": "technogym.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Chrome / Steel Dumbbells",
+          "url": "https://dumbbellsdirect.com/collections/chrome-steel-dumbbells?srsltid=AfmBOoo6k8Eyf3UVWtCDRq-FDuuhJZwKrfqT6yiL25yG9Fs9pAeWl7g2",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Wholesale Chrome Dumbbell Suppliers",
+          "url": "https://www.made-in-china.com/manufacturers/wholesale-chrome-dumbbell.html",
+          "domain": "made-in-china.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Commercial chrome dumbbells featuring a durable fixed ...",
+          "url": "https://www.instagram.com/p/DZ5NpuEj5i9/",
+          "domain": "instagram.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "METIS Commercial Chrome Dumbbells [5.5lbs-66lbs]",
+          "url": "https://www.networldsports.com/metis-chrome-gym-dumbbells.html?srsltid=AfmBOorYjZI5s-hfUWmAAg-Nzp7bQVvbt13UnpprhQ3NcsqvvFXuImyB",
+          "domain": "networldsports.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Chrome Dumbbells Production",
+          "url": "https://www.youtube.com/watch?v=SrLAhP81yAo",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "China Chrome Dumbbell Factory and Manufacturers ...",
+          "url": "https://www.baopengfitness.com/chrome-dumbbell/",
+          "domain": "baopengfitness.com"
+        },
+        {
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Dumbells - Manufacturer of sports equipment HMS Fitness",
+          "url": "https://hms-fitness.com/offer/bars-and-weights/dumbells",
+          "domain": "hms-fitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Are chrome dumbbells good?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Is Ivanko Barbell still in business?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "chrome dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Chrome dumbbell manufacturer usa",
+        "Best chrome dumbbell manufacturer",
+        "Chrome Dumbbells Set",
+        "Chrome Dumbbell Set 50kg",
+        "York Chrome Dumbbells",
+        "Cast Iron Dumbbells Set",
+        "Cast Iron Dumbbells for sale",
+        "Chrome Dumbbell Set with Rack"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "serpType": "Product / Category",
+      "top10": [
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 1,
+          "title": "American Made Solid Steel Urethane Dumbbells | Iron Grip ...",
+          "url": "https://www.ironcompany.com/iron-grip-american-made-solid-steel-urethane-encased-dumbbells?srsltid=AfmBOoovYx41EIRkvVeRtDybTGMHW8rlDGnH3ksq-U0qqvflzItIznG1",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 2,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqQ8FKfdjxHW25GH-5ZkOLsPMl3useasUbx6egcJ4qO5qu_wvkG",
+          "domain": "ironbullstrength.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 3,
+          "title": "Brand New Urethane Dumbbells, Dumbbell Sets",
+          "url": "https://www.fitnesssuperstore.com/collections/urethane-dumbbells?srsltid=AfmBOorbkSGUJ909PWZnzJcK0vyPdYGN-OrNpmXjVMYl0PNCLkh2Igg1",
+          "domain": "fitnesssuperstore.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 4,
+          "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOop59FjQlVy-n1ARhAxALJ-tfO97szgr74_EA3p22oe9RDnDrXJZ",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 5,
+          "title": "Expert-Tested: The Best Dumbbells of 2026",
+          "url": "https://www.garagegymreviews.com/best-dumbbells",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 6,
+          "title": "Rogue Urethane Dumbbells - Weight Training",
+          "url": "https://www.roguefitness.com/rogue-urethane-dumbbells-new?srsltid=AfmBOopddoqFAri5Ze9C2w85NP9scwFh6822m_8tUG_15r3zirzQhbbV",
+          "domain": "roguefitness.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 7,
+          "title": "Elevate your gym with Commercial Urethane Dumbbells",
+          "url": "https://www.youtube.com/watch?v=XBQ__G3EWbY",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 8,
+          "title": "Top 10 Urethane Dumbbells Review | 2025 | Best ...",
+          "url": "https://gearmashers.com/top-urethane-dumbbells-review/",
+          "domain": "gearmashers.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 9,
+          "title": "Made in the USA",
+          "url": "https://irongrip.com/made-in-the-usa/",
+          "domain": "irongrip.com"
+        },
+        {
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "position": 10,
+          "title": "Urethane Dumbbells (KG) | REP Fitness | Weightlifting",
+          "url": "https://repfitness.com/products/urethane-dumbbells-kg",
+          "domain": "repfitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Why are urethane dumbbells so expensive?",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Which is the best company for dumbbells?",
+          "sourceSeed": "urethane dumbbell manufacturer",
+          "category": "Dumbbells",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Urethane dumbbell manufacturer reddit",
+        "Urethane dumbbell manufacturer usa",
+        "Used urethane dumbbell manufacturer",
+        "Urethane dumbbell manufacturer california",
+        "Urethane Dumbbells",
+        "Urethane Dumbbells Set",
+        "Urethane Dumbbell Set 5-50",
+        "Urethane Dumbbell Set 5-100"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 1,
+          "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+          "url": "https://www.wavar.com/product/custom-dumbbells.html",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 2,
+          "title": "OEM Dumbbell",
+          "url": "https://www.made-in-china.com/products-search/hot-china-products/OEM_Dumbbell.html",
+          "domain": "made-in-china.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 3,
+          "title": "NÜOBELL Adjustable Dumbbells for Home Gym – Compact ...",
+          "url": "https://nuoathletics.com/?srsltid=AfmBOoqBX_zHoUNpWYX1HR5qDhFjuV910Peip1FF3ohnNXaEQiZcfYcs",
+          "domain": "nuoathletics.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 4,
+          "title": "Alibaba has just started selling Rep x Peppin Dumbbells",
+          "url": "https://www.reddit.com/r/GarageGym/comments/1tao4ee/alibaba_has_just_started_selling_rep_x_peppin/",
+          "domain": "reddit.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 5,
+          "title": "Dumbbells & Sets | Weight Lifting Equipment",
+          "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOorl_-tXXCLkdDRV6qb9OunLoQ01JmqhB9NL9Qis7PxfeIuWSiCc",
+          "domain": "yorkbarbell.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 6,
+          "title": "Wholesale Custom Dumbbells | Dumbbell OEM Manufacturer",
+          "url": "https://www.yogafitness.group/product-category/dumbbells/",
+          "domain": "yogafitness.group"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 7,
+          "title": "Knockoff/Fake/Copy versus OEM Bowflex® SelectTech® 552 ...",
+          "url": "https://www.youtube.com/watch?v=a_QRIyi3ZcM",
+          "domain": "youtube.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 8,
+          "title": "Dumbbells & Dumbbell Sets",
+          "url": "https://repfitness.com/collections/dumbbells",
+          "domain": "repfitness.com"
+        },
+        {
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "position": 9,
+          "title": "Average Joe Innovations - Better than OEM™",
+          "url": "https://www.averagejoeinnovations.com/",
+          "domain": "averagejoeinnovations.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "Who makes the best quality dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Which company is best for dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What dumbbells are made in the USA?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Is there a difference between cheap and expensive dumbbells?",
+          "sourceSeed": "OEM dumbbells",
+          "category": "OEM",
+          "searchIntent": "Commercial Investigation",
+          "buyerIntent": "OEM",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Oem dumbbells set",
+        "Oem dumbbells review",
+        "Oem dumbbells for sale",
+        "Dumbbells Set",
+        "Adjustable Dumbbells",
+        "NÜOBELL dumbbells",
+        "Dumbbells nearby",
+        "NÜO dumbbells"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "popular_products",
+        "related_searches"
+      ]
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "serpType": "Manufacturer / Supplier",
+      "top10": [
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 1,
+          "title": "Customize Your Gym Equipment",
+          "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoq0D1lRfYfY00vmQO8lv8vQlhRfuhIPwOEr5vT2TXmS7TGQe0pd",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 2,
+          "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+          "url": "https://blackironstrength.com/",
+          "domain": "blackironstrength.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 3,
+          "title": "Custom Logo Dumbbells",
+          "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+          "domain": "ardentfitness.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 4,
+          "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+          "url": "https://www.wavar.com/product/custom-dumbbells.html",
+          "domain": "wavar.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 5,
+          "title": "Private Label Workout Gear | Promotional Fitness | ELIVATE",
+          "url": "https://www.elivatefitness.com/private-label-fitness",
+          "domain": "elivatefitness.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 6,
+          "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+          "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOoozo1d4OlIqYTPvpeuUNyhk8RcxYRpVBpVR3vZgou9PnrikfJ7O",
+          "domain": "dumbbellsdirect.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 7,
+          "title": "Urethane Solid Steel Dumbbells | IRON COMPANY",
+          "url": "https://www.ironcompany.com/iron-company-urethane-dumbbells?srsltid=AfmBOopmTF_OOqwRlPQKu4-B4xG9OaHP9OVQQvllIfJqwBQ5jPquL_kZ",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeed": "private label dumbbells",
+          "category": "OEM",
+          "position": 8,
+          "title": "Custom Dumbbells Manufacturer: Tailoring Fitness ...",
+          "url": "https://www.leadmanfitness.com/news/custom-dumbbells-manufacturer--tailoring-fitness-equipment-for-you.html",
+          "domain": "leadmanfitness.com"
+        }
+      ],
+      "peopleAlsoAsk": [],
+      "relatedSearches": [
+        "Private label dumbbells set",
+        "Private label dumbbells for sale",
+        "Best private label dumbbells",
+        "Private label dumbbells amazon",
+        "Custom dumbbells with logo",
+        "Adjustable Dumbbells",
+        "Personalized dumbbell",
+        "Custom weights plates"
+      ],
+      "serpFeatures": [
+        "organic",
+        "ai_overview",
+        "video",
+        "popular_products",
+        "related_searches"
+      ]
+    }
+  ],
+  "serpRecords": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "USA Made Weight Plates | American Made Olympic Plates",
+      "url": "https://www.ironcompany.com/usa-made-gym-equipment/american-made-weightlifting-barbell-plates?srsltid=AfmBOory8XN4krTY2WaUOW1bY1JBZjr3AcQ6yNAupFyuXSUg6gtK0IoJ",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "Plates",
+      "url": "https://ivankobarbell.com/collections/plates?srsltid=AfmBOop84AzprHfdGNvSZilnH9xx6Ah3NdDgMczg4-pg_bFplrJokdqN",
+      "domain": "ivankobarbell.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+      "url": "https://homegrownlifting.com/?srsltid=AfmBOorXLWKD4MAK54jkhjqczCwCWPPVJzbDublJ4TgnAMa-QKZmbdbm",
+      "domain": "homegrownlifting.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Best Weight Plates for 2026: Iron, Rubber, and Steel",
+      "url": "https://www.garagegymreviews.com/best-weight-plates",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "Barbell plates - Weights",
+      "url": "https://hms-fitness.com/offer/bars-and-weights/weights/weight-plates",
+      "domain": "hms-fitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Weight Plates for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/weight-plates/?srsltid=AfmBOoreOR9MuzGDqCRZlB5NTWSVNsXoUbymhm97hCkzeLVFMybDlxQa",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "Weight plate",
+      "url": "https://en.wikipedia.org/wiki/Weight_plate",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "30 Best Weight Plate Suppliers Around The World",
+      "url": "https://www.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+      "domain": "yanrefitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 9,
+      "title": "\"Built to Lift: How Gym Weight Plates Are Made\"",
+      "url": "https://www.youtube.com/watch?v=ewfzIJjTFV8",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "Chrome Dumbbells for Studios & Home Gyms",
+      "url": "https://www.ironcompany.com/free-weights/dumbbells/chrome-dumbbells?srsltid=AfmBOorVxQkhcFbEcCdorNC7xzWuyxtSEv8Ij-qi2lst-aF0HzmqzVmx",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Chrome dumbbell set for gyms",
+      "url": "https://www.technogym.com/en-INT/product/chrome-dumbbell_KAA0-CD.html",
+      "domain": "technogym.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Chrome / Steel Dumbbells",
+      "url": "https://dumbbellsdirect.com/collections/chrome-steel-dumbbells?srsltid=AfmBOoo6k8Eyf3UVWtCDRq-FDuuhJZwKrfqT6yiL25yG9Fs9pAeWl7g2",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Wholesale Chrome Dumbbell Suppliers",
+      "url": "https://www.made-in-china.com/manufacturers/wholesale-chrome-dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Commercial chrome dumbbells featuring a durable fixed ...",
+      "url": "https://www.instagram.com/p/DZ5NpuEj5i9/",
+      "domain": "instagram.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "METIS Commercial Chrome Dumbbells [5.5lbs-66lbs]",
+      "url": "https://www.networldsports.com/metis-chrome-gym-dumbbells.html?srsltid=AfmBOorYjZI5s-hfUWmAAg-Nzp7bQVvbt13UnpprhQ3NcsqvvFXuImyB",
+      "domain": "networldsports.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Chrome Dumbbells Production",
+      "url": "https://www.youtube.com/watch?v=SrLAhP81yAo",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "China Chrome Dumbbell Factory and Manufacturers ...",
+      "url": "https://www.baopengfitness.com/chrome-dumbbell/",
+      "domain": "baopengfitness.com"
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Dumbells - Manufacturer of sports equipment HMS Fitness",
+      "url": "https://hms-fitness.com/offer/bars-and-weights/dumbells",
+      "domain": "hms-fitness.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 1,
+      "title": "American Made Solid Steel Urethane Dumbbells | Iron Grip ...",
+      "url": "https://www.ironcompany.com/iron-grip-american-made-solid-steel-urethane-encased-dumbbells?srsltid=AfmBOoovYx41EIRkvVeRtDybTGMHW8rlDGnH3ksq-U0qqvflzItIznG1",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 2,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://ironbullstrength.com/collections/dumbbells?srsltid=AfmBOoqQ8FKfdjxHW25GH-5ZkOLsPMl3useasUbx6egcJ4qO5qu_wvkG",
+      "domain": "ironbullstrength.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 3,
+      "title": "Brand New Urethane Dumbbells, Dumbbell Sets",
+      "url": "https://www.fitnesssuperstore.com/collections/urethane-dumbbells?srsltid=AfmBOorbkSGUJ909PWZnzJcK0vyPdYGN-OrNpmXjVMYl0PNCLkh2Igg1",
+      "domain": "fitnesssuperstore.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 4,
+      "title": "Who Makes Dumbbells: Materials, Manufacturing & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/who-makes-dumbbells?srsltid=AfmBOop59FjQlVy-n1ARhAxALJ-tfO97szgr74_EA3p22oe9RDnDrXJZ",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 5,
+      "title": "Expert-Tested: The Best Dumbbells of 2026",
+      "url": "https://www.garagegymreviews.com/best-dumbbells",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 6,
+      "title": "Rogue Urethane Dumbbells - Weight Training",
+      "url": "https://www.roguefitness.com/rogue-urethane-dumbbells-new?srsltid=AfmBOopddoqFAri5Ze9C2w85NP9scwFh6822m_8tUG_15r3zirzQhbbV",
+      "domain": "roguefitness.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 7,
+      "title": "Elevate your gym with Commercial Urethane Dumbbells",
+      "url": "https://www.youtube.com/watch?v=XBQ__G3EWbY",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 8,
+      "title": "Top 10 Urethane Dumbbells Review | 2025 | Best ...",
+      "url": "https://gearmashers.com/top-urethane-dumbbells-review/",
+      "domain": "gearmashers.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 9,
+      "title": "Made in the USA",
+      "url": "https://irongrip.com/made-in-the-usa/",
+      "domain": "irongrip.com"
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "position": 10,
+      "title": "Urethane Dumbbells (KG) | REP Fitness | Weightlifting",
+      "url": "https://repfitness.com/products/urethane-dumbbells-kg",
+      "domain": "repfitness.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 1,
+      "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+      "url": "https://www.wavar.com/product/custom-dumbbells.html",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 2,
+      "title": "OEM Dumbbell",
+      "url": "https://www.made-in-china.com/products-search/hot-china-products/OEM_Dumbbell.html",
+      "domain": "made-in-china.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 3,
+      "title": "NÜOBELL Adjustable Dumbbells for Home Gym – Compact ...",
+      "url": "https://nuoathletics.com/?srsltid=AfmBOoqBX_zHoUNpWYX1HR5qDhFjuV910Peip1FF3ohnNXaEQiZcfYcs",
+      "domain": "nuoathletics.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 4,
+      "title": "Alibaba has just started selling Rep x Peppin Dumbbells",
+      "url": "https://www.reddit.com/r/GarageGym/comments/1tao4ee/alibaba_has_just_started_selling_rep_x_peppin/",
+      "domain": "reddit.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 5,
+      "title": "Dumbbells & Sets | Weight Lifting Equipment",
+      "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOorl_-tXXCLkdDRV6qb9OunLoQ01JmqhB9NL9Qis7PxfeIuWSiCc",
+      "domain": "yorkbarbell.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 6,
+      "title": "Wholesale Custom Dumbbells | Dumbbell OEM Manufacturer",
+      "url": "https://www.yogafitness.group/product-category/dumbbells/",
+      "domain": "yogafitness.group"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 7,
+      "title": "Knockoff/Fake/Copy versus OEM Bowflex® SelectTech® 552 ...",
+      "url": "https://www.youtube.com/watch?v=a_QRIyi3ZcM",
+      "domain": "youtube.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 8,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://repfitness.com/collections/dumbbells",
+      "domain": "repfitness.com"
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "position": 9,
+      "title": "Average Joe Innovations - Better than OEM™",
+      "url": "https://www.averagejoeinnovations.com/",
+      "domain": "averagejoeinnovations.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 1,
+      "title": "Customize Your Gym Equipment",
+      "url": "https://dumbbellsdirect.com/collections/customize?srsltid=AfmBOoq0D1lRfYfY00vmQO8lv8vQlhRfuhIPwOEr5vT2TXmS7TGQe0pd",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 2,
+      "title": "Strength Equipment | Custom Dumbbells | Black Iron Strength®",
+      "url": "https://blackironstrength.com/",
+      "domain": "blackironstrength.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 3,
+      "title": "Custom Logo Dumbbells",
+      "url": "https://ardentfitness.com/shop-all/custom-logo-products/custom-logo-dumbbells/",
+      "domain": "ardentfitness.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 4,
+      "title": "Custom Dumbbells, OEM Dumbbells Manufacturer",
+      "url": "https://www.wavar.com/product/custom-dumbbells.html",
+      "domain": "wavar.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 5,
+      "title": "Private Label Workout Gear | Promotional Fitness | ELIVATE",
+      "url": "https://www.elivatefitness.com/private-label-fitness",
+      "domain": "elivatefitness.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 6,
+      "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+      "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOoozo1d4OlIqYTPvpeuUNyhk8RcxYRpVBpVR3vZgou9PnrikfJ7O",
+      "domain": "dumbbellsdirect.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 7,
+      "title": "Urethane Solid Steel Dumbbells | IRON COMPANY",
+      "url": "https://www.ironcompany.com/iron-company-urethane-dumbbells?srsltid=AfmBOopmTF_OOqwRlPQKu4-B4xG9OaHP9OVQQvllIfJqwBQ5jPquL_kZ",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "position": 8,
+      "title": "Custom Dumbbells Manufacturer: Tailoring Fitness ...",
+      "url": "https://www.leadmanfitness.com/news/custom-dumbbells-manufacturer--tailoring-fitness-equipment-for-you.html",
+      "domain": "leadmanfitness.com"
+    }
+  ],
+  "relatedSearches": [
+    "Weight plate manufacturer usa",
+    "Gym weight plate manufacturer",
+    "Best weight plate manufacturer",
+    "Iron weight plates set",
+    "Steel Weight Plates Set",
+    "Plastic Weight Plates Set",
+    "Stainless Steel Weight Plates",
+    "1 inch Weight Plates Set",
+    "Chrome dumbbell manufacturer usa",
+    "Best chrome dumbbell manufacturer",
+    "Chrome Dumbbells Set",
+    "Chrome Dumbbell Set 50kg",
+    "York Chrome Dumbbells",
+    "Cast Iron Dumbbells Set",
+    "Cast Iron Dumbbells for sale",
+    "Chrome Dumbbell Set with Rack",
+    "Urethane dumbbell manufacturer reddit",
+    "Urethane dumbbell manufacturer usa",
+    "Used urethane dumbbell manufacturer",
+    "Urethane dumbbell manufacturer california",
+    "Urethane Dumbbells",
+    "Urethane Dumbbells Set",
+    "Urethane Dumbbell Set 5-50",
+    "Urethane Dumbbell Set 5-100",
+    "Oem dumbbells set",
+    "Oem dumbbells review",
+    "Oem dumbbells for sale",
+    "Dumbbells Set",
+    "Adjustable Dumbbells",
+    "NÜOBELL dumbbells",
+    "Dumbbells nearby",
+    "NÜO dumbbells",
+    "Private label dumbbells set",
+    "Private label dumbbells for sale",
+    "Best private label dumbbells",
+    "Private label dumbbells amazon",
+    "Custom dumbbells with logo",
+    "Adjustable Dumbbells",
+    "Personalized dumbbell",
+    "Custom weights plates"
+  ]
+}
