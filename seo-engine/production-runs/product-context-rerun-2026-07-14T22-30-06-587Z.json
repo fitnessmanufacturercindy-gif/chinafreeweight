@@ -1,0 +1,428 @@
+{
+  "warning": "Temporary batch context rerun endpoint. It stops at Draft Review and does not publish, merge, create a formal website PR, or modify the production website.",
+  "test_phase": "PowerBaseFit Content Generation Product Context Isolation V2.0 Rerun",
+  "generatedAt": "2026-07-14T22:30:06.587Z",
+  "seedCount": 5,
+  "seeds": [
+    "weight plate manufacturer",
+    "chrome dumbbell manufacturer",
+    "urethane dumbbell manufacturer",
+    "OEM dumbbells",
+    "private label dumbbells"
+  ],
+  "dataMode": "External Data Mode",
+  "externalDataModeAvailable": true,
+  "dataForSEO": {
+    "requestCount": 10,
+    "totalCost": 0.07012,
+    "returnedKeywordCount": 5,
+    "serpCount": 45,
+    "peopleAlsoAskCount": 16,
+    "relatedSearchesCount": 40,
+    "competitorDomainCount": 31,
+    "apiSuccess": true,
+    "failedCalls": []
+  },
+  "opportunityMetrics": {
+    "total": 5,
+    "protectExisting": 0,
+    "updateExisting": 0,
+    "createNew": 5,
+    "doNotCreate": 0,
+    "needMoreData": 0
+  },
+  "briefMetrics": {
+    "totalBriefs": 5,
+    "updateBriefs": 0,
+    "createBriefs": 5,
+    "skippedDoNotCreate": 0,
+    "skippedNeedMoreData": 0
+  },
+  "draftMetrics": {
+    "attempted": 5,
+    "savedToDraftReview": 4,
+    "blockedByQuality": 1
+  },
+  "opportunities": [
+    {
+      "keyword": "weight plate manufacturer",
+      "action": "Create New Page",
+      "businessReason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Guide / Resource",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Guide / Resource",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "confidence": "Waiting External Validation",
+      "recommendedUrl": "https://www.chinafreeweight.com/manufacturer/weight-plate-manufacturer",
+      "cannibalizationRisk": "Medium",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow."
+    },
+    {
+      "keyword": "chrome dumbbell manufacturer",
+      "action": "Create New Page",
+      "businessReason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "confidence": "Waiting External Validation",
+      "recommendedUrl": "https://www.chinafreeweight.com/manufacturer/chrome-dumbbell-manufacturer",
+      "cannibalizationRisk": "Medium",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow."
+    },
+    {
+      "keyword": "urethane dumbbell manufacturer",
+      "action": "Create New Page",
+      "businessReason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Product / Category",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Product / Category",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "confidence": "Waiting External Validation",
+      "recommendedUrl": "https://www.chinafreeweight.com/manufacturer/urethane-dumbbell-manufacturer",
+      "cannibalizationRisk": "Medium",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow."
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "action": "Create New Page",
+      "businessReason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "confidence": "Waiting External Validation",
+      "recommendedUrl": "https://www.chinafreeweight.com/oem/oem-dumbbells",
+      "cannibalizationRisk": "Medium",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow."
+    },
+    {
+      "keyword": "private label dumbbells",
+      "action": "Create New Page",
+      "businessReason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high.",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "DataForSEO Search Volume: unknown",
+        "DataForSEO CPC: unknown",
+        "DataForSEO SERP Type: Manufacturer / Supplier",
+        "Website Intelligence: Waiting External Validation",
+        "GSC: Waiting External Validation",
+        "GA4: Waiting External Validation",
+        "AI Citation Status: Waiting External Validation"
+      ],
+      "confidence": "Waiting External Validation",
+      "recommendedUrl": "https://www.chinafreeweight.com/oem/private-label-dumbbells",
+      "cannibalizationRisk": "Medium",
+      "currentWebsiteMatch": "No direct existing page confirmed in current dataset; manual review required before publishing workflow."
+    }
+  ],
+  "briefs": [
+    {
+      "keyword": "weight plate manufacturer",
+      "action": "Create New Page",
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/weight-plate-manufacturer",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high."
+    },
+    {
+      "keyword": "chrome dumbbell manufacturer",
+      "action": "Create New Page",
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/chrome-dumbbell-manufacturer",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high."
+    },
+    {
+      "keyword": "urethane dumbbell manufacturer",
+      "action": "Create New Page",
+      "targetUrl": "https://www.chinafreeweight.com/manufacturer/urethane-dumbbell-manufacturer",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high."
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "action": "Create New Page",
+      "targetUrl": "https://www.chinafreeweight.com/oem/oem-dumbbells",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high."
+    },
+    {
+      "keyword": "private label dumbbells",
+      "action": "Create New Page",
+      "targetUrl": "https://www.chinafreeweight.com/oem/private-label-dumbbells",
+      "reason": "DataForSEO shows real keyword and SERP evidence, no matching existing page is confirmed, and cannibalization risk is not high."
+    }
+  ],
+  "drafts": [
+    {
+      "keyword": "weight plate manufacturer",
+      "path": "seo-engine/drafts/weight-plate-manufacturer.md",
+      "saved": false,
+      "status": "Needs Improvement",
+      "pageType": "Manufacturer Page",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "qualityReason": "Draft 包含 dumbbell 语言，但目标关键词属于 weight plate，已阻止进入 Draft Review。"
+    },
+    {
+      "keyword": "chrome dumbbell manufacturer",
+      "path": "seo-engine/drafts/chrome-dumbbell-manufacturer.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "qualityReason": "Content Excellence Score 和 Draft Review gate 已通过。"
+    },
+    {
+      "keyword": "urethane dumbbell manufacturer",
+      "path": "seo-engine/drafts/urethane-dumbbell-manufacturer.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "qualityReason": "Content Excellence Score 和 Draft Review gate 已通过。"
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "path": "seo-engine/drafts/oem-dumbbells.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "score": 90,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "qualityReason": "Content Excellence Score 和 Draft Review gate 已通过。"
+    },
+    {
+      "keyword": "private label dumbbells",
+      "path": "seo-engine/drafts/private-label-dumbbells.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "score": 90,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "qualityReason": "Content Excellence Score 和 Draft Review gate 已通过。"
+    }
+  ],
+  "draftValidation": [
+    {
+      "keyword": "weight plate manufacturer",
+      "path": "seo-engine/drafts/weight-plate-manufacturer.md",
+      "saved": false,
+      "status": "Needs Improvement",
+      "pageType": "Manufacturer Page",
+      "qualityScore": 100,
+      "productSubtype": "",
+      "productTypeCheck": "",
+      "generatedSections": [],
+      "forbiddenTermsScan": [],
+      "containsInternalBriefLanguage": false,
+      "containsRubberHexTemplateLanguage": false,
+      "passed": false
+    },
+    {
+      "keyword": "chrome dumbbell manufacturer",
+      "path": "seo-engine/drafts/chrome-dumbbell-manufacturer.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "qualityScore": 100,
+      "productSubtype": "Chrome Dumbbell",
+      "productTypeCheck": "passed",
+      "generatedSections": [
+        "Hero",
+        "Chrome Dumbbell Overview",
+        "Industry Experience",
+        "Manufacturing Capability",
+        "Product Technical Depth",
+        "Expert Insight",
+        "Buyer Evaluation Table",
+        "Production Process",
+        "Quality Control",
+        "How to Choose a Chrome Dumbbell Supplier",
+        "Supplier Selection Guidance",
+        "Manufacturer Trust",
+        "OEM / Private Label",
+        "Packaging and Export Preparation",
+        "Buyer Checklist",
+        "FAQ",
+        "CTA"
+      ],
+      "forbiddenTermsScan": [],
+      "containsInternalBriefLanguage": false,
+      "containsRubberHexTemplateLanguage": false,
+      "passed": true
+    },
+    {
+      "keyword": "urethane dumbbell manufacturer",
+      "path": "seo-engine/drafts/urethane-dumbbell-manufacturer.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "qualityScore": 100,
+      "productSubtype": "Urethane Dumbbell",
+      "productTypeCheck": "passed",
+      "generatedSections": [
+        "Hero",
+        "Urethane Dumbbell Overview",
+        "Industry Experience",
+        "Manufacturing Capability",
+        "Product Technical Depth",
+        "Expert Insight",
+        "Buyer Evaluation Table",
+        "Production Process",
+        "Quality Control",
+        "How to Choose a Urethane Dumbbell Supplier",
+        "Supplier Selection Guidance",
+        "Manufacturer Trust",
+        "OEM / Private Label",
+        "Packaging and Export Preparation",
+        "Buyer Checklist",
+        "FAQ",
+        "CTA"
+      ],
+      "forbiddenTermsScan": [],
+      "containsInternalBriefLanguage": false,
+      "containsRubberHexTemplateLanguage": false,
+      "passed": true
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "path": "seo-engine/drafts/oem-dumbbells.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "qualityScore": 90,
+      "productSubtype": "Private Label Dumbbells",
+      "productTypeCheck": "passed",
+      "generatedSections": [
+        "Hero",
+        "Private Label Dumbbells Overview",
+        "Industry Experience",
+        "Manufacturing Capability",
+        "Product Technical Depth",
+        "Expert Insight",
+        "Buyer Evaluation Table",
+        "Production Process",
+        "Quality Control",
+        "How to Choose an OEM Dumbbell Supplier",
+        "Supplier Selection Guidance",
+        "Manufacturer Trust",
+        "OEM / Private Label",
+        "Packaging and Export Preparation",
+        "Buyer Checklist",
+        "FAQ",
+        "CTA"
+      ],
+      "forbiddenTermsScan": [],
+      "containsInternalBriefLanguage": false,
+      "containsRubberHexTemplateLanguage": false,
+      "passed": true
+    },
+    {
+      "keyword": "private label dumbbells",
+      "path": "seo-engine/drafts/private-label-dumbbells.md",
+      "saved": true,
+      "status": "Draft Review",
+      "pageType": "Manufacturer Page",
+      "qualityScore": 90,
+      "productSubtype": "Private Label Dumbbells",
+      "productTypeCheck": "passed",
+      "generatedSections": [
+        "Hero",
+        "Private Label Dumbbells Overview",
+        "Industry Experience",
+        "Manufacturing Capability",
+        "Product Technical Depth",
+        "Expert Insight",
+        "Buyer Evaluation Table",
+        "Production Process",
+        "Quality Control",
+        "How to Choose an OEM Dumbbell Supplier",
+        "Supplier Selection Guidance",
+        "Manufacturer Trust",
+        "OEM / Private Label",
+        "Packaging and Export Preparation",
+        "Buyer Checklist",
+        "FAQ",
+        "CTA"
+      ],
+      "forbiddenTermsScan": [],
+      "containsInternalBriefLanguage": false,
+      "containsRubberHexTemplateLanguage": false,
+      "passed": true
+    }
+  ],
+  "allDraftsPassedContentScan": false,
+  "writtenFiles": [
+    "seo-engine/intelligence/dataforseo/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/keyword-library/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/serp/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/questions/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/competitors/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/opportunities/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/content-briefs/content-pipeline-2026-07-14T22-29-52-806Z.json",
+    "seo-engine/intelligence/source-status/content-pipeline-2026-07-14T22-29-52-806Z.json"
+  ],
+  "savedDraftPaths": [
+    "seo-engine/drafts/chrome-dumbbell-manufacturer.md",
+    "seo-engine/drafts/urethane-dumbbell-manufacturer.md",
+    "seo-engine/drafts/oem-dumbbells.md",
+    "seo-engine/drafts/private-label-dumbbells.md"
+  ]
+}
