@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-07-14T14:42:15.282Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-14T14:42:15.282Z",
+    "actor": "production_batch_test:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer",
+      "chrome dumbbell manufacturer",
+      "urethane dumbbell manufacturer",
+      "OEM dumbbells",
+      "private label dumbbells"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 10,
+      "totalCost": 0.07012,
+      "returnedKeywordCount": 5,
+      "serpCount": 44,
+      "peopleAlsoAskCount": 12,
+      "relatedSearchesCount": 40,
+      "competitorDomainCount": 30,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 5,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 5,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 5,
+      "updateBriefs": 0,
+      "createBriefs": 5,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 5,
+      "savedToDraftReview": 5,
+      "blockedByQuality": 0
+    }
+  },
+  "draftQuality": [
+    {
+      "path": "seo-engine/drafts/weight-plate-manufacturer.md",
+      "keyword": "weight plate manufacturer",
+      "score": 90,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": true,
+        "status": "Draft Review",
+        "score": 90,
+        "productMismatch": false,
+        "reason": "Content Excellence Score 和 Draft Review gate 已通过。"
+      }
+    },
+    {
+      "path": "seo-engine/drafts/chrome-dumbbell-manufacturer.md",
+      "keyword": "chrome dumbbell manufacturer",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": true,
+        "status": "Draft Review",
+        "score": 100,
+        "productMismatch": false,
+        "reason": "Content Excellence Score 和 Draft Review gate 已通过。"
+      }
+    },
+    {
+      "path": "seo-engine/drafts/urethane-dumbbell-manufacturer.md",
+      "keyword": "urethane dumbbell manufacturer",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": true,
+        "status": "Draft Review",
+        "score": 100,
+        "productMismatch": false,
+        "reason": "Content Excellence Score 和 Draft Review gate 已通过。"
+      }
+    },
+    {
+      "path": "seo-engine/drafts/oem-dumbbells.md",
+      "keyword": "OEM dumbbells",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": true,
+        "status": "Draft Review",
+        "score": 100,
+        "productMismatch": false,
+        "reason": "Content Excellence Score 和 Draft Review gate 已通过。"
+      }
+    },
+    {
+      "path": "seo-engine/drafts/private-label-dumbbells.md",
+      "keyword": "private label dumbbells",
+      "score": 100,
+      "missingEvidence": [
+        "Real product detail image required before publication.",
+        "Real factory or QC image required before publication.",
+        "Real packaging or loading image required before publication.",
+        "Real packaging or OEM customization image required before publication."
+      ],
+      "quality": {
+        "passed": true,
+        "status": "Draft Review",
+        "score": 100,
+        "productMismatch": false,
+        "reason": "Content Excellence Score 和 Draft Review gate 已通过。"
+      }
+    }
+  ]
+}
