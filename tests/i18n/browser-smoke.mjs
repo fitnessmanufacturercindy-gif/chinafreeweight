@@ -3,8 +3,18 @@ import { chromium } from "playwright-core";
 
 const baseUrl = process.env.TEST_BASE_URL || "http://127.0.0.1:3100";
 const executablePath = process.env.CHROME_PATH || "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const bypassSecret = process.env.VERCEL_BYPASS_SECRET;
+const shareSecret = process.env.VERCEL_SHARE_SECRET;
+function testUrl(path) {
+  const url = new URL(path, `${baseUrl}/`);
+  if (shareSecret) url.searchParams.set("_vercel_share", shareSecret);
+  return url.toString();
+}
 const browser = await chromium.launch({ executablePath, headless: true });
-const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+const context = await browser.newContext({
+  viewport: { width: 1440, height: 900 },
+  extraHTTPHeaders: bypassSecret ? { "x-vercel-protection-bypass": bypassSecret } : undefined
+});
 const page = await context.newPage();
 const consoleErrors = [];
 const failedResponses = [];
@@ -13,7 +23,64 @@ page.on("console", (message) => { if (message.type() === "error") consoleErrors.
 page.on("response", (response) => { if (response.status() >= 400) failedResponses.push(`${response.status()} ${response.url()}`); });
 page.on("pageerror", (error) => pageErrors.push(error.message));
 
-await page.goto(`${baseUrl}/pt/produtos/halteres/halter-sextavado-borracha`, { waitUntil: "networkidle" });
+const portugueseRoutes = [
+  "/pt",
+  "/pt/produtos/halteres",
+  "/pt/produtos/anilhas",
+  "/pt/produtos/halteres/halter-sextavado-borracha",
+  "/pt/produtos/halteres/halter-cromado",
+  "/pt/produtos/anilhas/anilha-bumper-borracha",
+  "/pt/fabrica",
+  "/pt/contato",
+  "/pt/blog",
+  "/pt/blog/como-avaliar-fabrica-equipamentos-academia-china",
+  "/pt/blog/como-escolher-halteres-academia-profissional",
+  "/pt/blog/anilhas-de-peso-vs-anilhas-bumper",
+  "/pt/projetos"
+];
+
+for (const route of portugueseRoutes) {
+  const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
+  assert.equal(response?.status(), 200, route);
+  assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR", route);
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute("href"), `https://www.chinafreeweight.com${route}`, route);
+  assert.equal(await page.locator('link[hreflang="en"]').count(), 1, route);
+  assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
+  assert.equal(await page.locator('link[hreflang="x-default"]').count(), 1, route);
+  assert.ok((await page.locator("main").innerText()).length > 500, route);
+  assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
+}
+
+const englishRoutes = ["/", "/products/dumbbells", "/products/dumbbells/hex-dumbbell-kg", "/resources", "/projects", "/factory", "/contact"];
+for (const route of englishRoutes) {
+  const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
+  assert.equal(response?.status(), 200, route);
+  assert.equal(await page.locator("html").getAttribute("lang"), "en", route);
+  assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
+}
+
+const sourceResponse = await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "domcontentloaded" });
+assert.ok(sourceResponse);
+const sourceHtml = await sourceResponse.text();
+assert.equal(sourceResponse.status(), 200);
+assert.match(sourceHtml, /<html lang="pt-BR" dir="ltr">/);
+assert.match(sourceHtml, /Halter sextavado de borracha profissional/);
+
+const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
+assert.ok(sitemapResponse);
+const sitemapXml = await sitemapResponse.text();
+assert.equal(sitemapResponse.status(), 200);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 125);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 13);
+assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 13);
+assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:es|de|fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
+
+const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
+assert.ok(robotsResponse);
+assert.equal(robotsResponse.status(), 200);
+assert.match(await robotsResponse.text(), /Allow: \/[\r\n]/);
+
+await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
 assert.equal(await page.locator("html").getAttribute("dir"), "ltr");
 assert.match(await page.locator("h1").innerText(), /Halter sextavado de borracha/);
@@ -30,13 +97,13 @@ await page.locator('.route-language-switcher a[lang="en"]').click();
 await page.waitForURL("**/products/dumbbells/hex-dumbbell-kg");
 assert.equal(await page.locator("html").getAttribute("lang"), "en");
 
-await page.goto(`${baseUrl}/products/dumbbells`, { waitUntil: "networkidle" });
+await page.goto(testUrl("/products/dumbbells"), { waitUntil: "networkidle" });
 await page.locator('.route-language-switcher a[lang="pt-BR"]').click();
 await page.waitForURL("**/pt/produtos/halteres");
 assert.match(await page.locator("h1").innerText(), /Halteres profissionais/);
 
 await page.setViewportSize({ width: 390, height: 844 });
-await page.goto(`${baseUrl}/pt/contato`, { waitUntil: "networkidle" });
+await page.goto(testUrl("/pt/contato"), { waitUntil: "networkidle" });
 assert.ok(await page.locator(".mobile-nav-menu summary").isVisible());
 assert.ok(await page.locator(".route-language-switcher").isVisible());
 assert.equal(await page.locator("form.quote-form").getAttribute("action"), "https://formsubmit.co/kloe@powerbasefit.com");
@@ -44,8 +111,10 @@ assert.equal(await page.locator("form.quote-form").getAttribute("method"), "POST
 assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
 assert.deepEqual({ failedResponses, pageErrors }, { failedResponses: [], pageErrors: [] });
 
-const response = await page.goto(`${baseUrl}/pt/oem-private-label`, { waitUntil: "domcontentloaded" });
-assert.equal(response?.status(), 404);
+for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es", "/de"]) {
+  const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
+  assert.equal(response?.status(), 404, route);
+}
 
 await browser.close();
 console.log("Browser smoke test passed: desktop/mobile locale switcher, SEO DOM, schema, form, WhatsApp and 404.");

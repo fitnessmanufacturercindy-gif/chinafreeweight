@@ -297,3 +297,15 @@ Use Vercel deployment inspection to confirm build readiness and open the Preview
 - **Failure:** Browser smoke testing found `.topbar nav { display: none }` also hid the language selector at widths below 900px.
 - **Impact:** Desktop switching worked, but mobile users could not see English/Português.
 - **Prevention:** Give utility navigation inside the top bar an explicit responsive override and keep a mobile viewport assertion in the browser smoke test.
+
+## 2026-07-14 — Vercel Preview blocked anonymous public verification
+
+- **Failure:** The Preview URL served Vercel's access-protection page (`html lang=en-US`) to an anonymous browser; an anonymous HTTP request returned no site response.
+- **Impact:** The deployment exists, but it cannot yet satisfy the required public Preview gate.
+- **Prevention:** Verify deployment protection/share-link settings before treating a Vercel Preview as publicly testable; never infer site success from a protected Preview URL.
+
+## 2026-07-14 — Playwright API request timed out while browser navigation remained healthy
+
+- **Failure:** `APIRequestContext` timed out against the protected Preview after browser navigation had successfully visited every page using the shareable-link cookie.
+- **Impact:** The source/XML subcheck stopped despite the browser channel remaining available.
+- **Prevention:** For protected Preview verification, read the raw `Response` from the same browser navigation channel that established the shareable-link cookie instead of switching network stacks.
