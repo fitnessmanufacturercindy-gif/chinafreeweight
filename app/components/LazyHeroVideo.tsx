@@ -56,30 +56,17 @@ export default function LazyHeroVideo() {
   return (
     <div className="hero-video-layer" aria-hidden="true">
       {canPlayVideo ? (
-        <>
-          <video
-            className="hero-bg-video hero-bg-video-one"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/assets/hero-poster.webp"
-          >
-            <source src="/assets/banner.mp4" type="video/mp4" />
-          </video>
-          <video
-            className="hero-bg-video hero-bg-video-two"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/assets/hero-poster.webp"
-          >
-            <source src="/assets/hero-loop-2.mp4" type="video/mp4" />
-          </video>
-        </>
+        <video
+          className="hero-bg-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="none"
+          poster="/assets/hero-poster.avif"
+        >
+          <source src="/assets/hero-loop-2.mp4" type="video/mp4" />
+        </video>
       ) : null}
     </div>
   );

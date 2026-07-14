@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getImageProps } from "next/image";
 import {
   ArrowRight,
   Boxes,
@@ -16,7 +17,8 @@ import { siteName } from "./site";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: "/"
+    canonical: "/",
+    languages: { en: "/", pt: "/pt/", "x-default": "/" }
   },
   openGraph: {
     type: "website",
@@ -156,10 +158,46 @@ const faqs = [
   }
 ];
 
+function HeroPoster() {
+  const common = {
+    alt: "",
+    sizes: "100vw",
+    loading: "eager" as const,
+    fetchPriority: "high" as const,
+    decoding: "async" as const
+  };
+  const {
+    props: { srcSet: desktopSrcSet, ...desktopProps }
+  } = getImageProps({
+    ...common,
+    src: "/assets/hero-poster.avif",
+    width: 1600,
+    height: 900,
+    quality: 78
+  });
+  const {
+    props: { srcSet: mobileSrcSet }
+  } = getImageProps({
+    ...common,
+    src: "/assets/hero-poster-mobile.avif",
+    width: 780,
+    height: 844,
+    quality: 72
+  });
+
+  return (
+    <picture className="hero-poster-layer" aria-hidden="true">
+      <source media="(max-width: 700px)" srcSet={mobileSrcSet || "/assets/hero-poster-mobile.avif"} />
+      <img {...desktopProps} srcSet={desktopSrcSet} className="hero-poster-image" />
+    </picture>
+  );
+}
+
 export default function Home() {
   return (
     <main className="site-shell">
       <section className="hero">
+        <HeroPoster />
         <LazyHeroVideo />
         <div className="hero-copy">
           <div className="brandline">PowerBaseFit</div>
@@ -218,7 +256,7 @@ export default function Home() {
           {products.map((product) => (
             <article className="product-card" key={product.name}>
               <a href={product.href} aria-label={`View ${product.name}`}>
-                <img src={product.image} alt={product.name} loading="lazy" decoding="async" />
+                <img src={product.image} alt={product.name} loading="lazy" decoding="async" fetchPriority="low" />
               </a>
               <div>
                 <h3>{product.name}</h3>
@@ -259,7 +297,7 @@ export default function Home() {
         </div>
         <div className="factory-showcase">
           <div className="factory-image">
-            <img src="/assets/factory.avif" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" />
+            <img src="/assets/factory.avif" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" fetchPriority="low" />
           </div>
           <div className="capability-list">
             {strengths.map((item) => {
@@ -297,9 +335,9 @@ export default function Home() {
           </div>
         </div>
         <div className="resource-gallery">
-          <img src="/assets/dumbbell-production.avif" alt="Finished dumbbell production area" loading="lazy" decoding="async" />
-          <img src="/assets/resource-plate-finishing.avif" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" />
-          <img src="/assets/resource-cnc-machining.avif" alt="Precision machining for free weight parts" loading="lazy" decoding="async" />
+          <img src="/assets/dumbbell-production.avif" alt="Finished dumbbell production area" loading="lazy" decoding="async" fetchPriority="low" />
+          <img src="/assets/resource-plate-finishing.avif" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" fetchPriority="low" />
+          <img src="/assets/resource-cnc-machining.avif" alt="Precision machining for free weight parts" loading="lazy" decoding="async" fetchPriority="low" />
         </div>
       </section>
 
@@ -319,7 +357,7 @@ export default function Home() {
         <div className="project-grid">
           {projects.map((project) => (
             <article className="project-card" key={project.title}>
-              <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
+              <img src={project.image} alt={project.title} loading="lazy" decoding="async" fetchPriority="low" />
               <div>
                 <h3>{project.title}</h3>
                 <p>{project.copy}</p>

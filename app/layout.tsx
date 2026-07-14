@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import AnalyticsEvents from "./components/AnalyticsEvents";
+import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -71,8 +71,8 @@ export default function RootLayout({
         <SiteFooter />
         <WhatsAppButton />
         <AnalyticsEvents />
+        <GoogleAnalyticsLoader measurementId={gaMeasurementId} />
       </body>
-      {gaMeasurementId ? <GoogleAnalytics gaId={gaMeasurementId} /> : null}
     </html>
   );
 }

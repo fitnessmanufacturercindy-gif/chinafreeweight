@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   description:
     "Dumbbell manufacturer, weight plates supplier, OEM gym equipment factory in China. Custom gym equipment for global distributors and fitness brands.",
   alternates: {
-    canonical: "/factory"
+    canonical: "/factory",
+    languages: { en: "/factory", pt: "/pt/factory/", "x-default": "/factory" }
   }
 };
 

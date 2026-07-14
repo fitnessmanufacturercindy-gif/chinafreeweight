@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   description:
     "Commercial dumbbells from PBF free weight manufacturer. CPU, TPU, PU, hex, neoprene, stainless steel, and adjustable dumbbells for gym projects, distributors, and OEM brands.",
   alternates: {
-    canonical: "/products/dumbbells"
+    canonical: "/products/dumbbells",
+    languages: { en: "/products/dumbbells", pt: "/pt/products/dumbbells/", "x-default": "/products/dumbbells" }
   }
 };
 

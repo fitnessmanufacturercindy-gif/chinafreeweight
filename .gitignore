@@ -6,8 +6,10 @@ dist/
 tmp/
 output/
 outputs/
+reports/quality-gate/
 __pycache__/
 *.py[cod]
+tsconfig.tsbuildinfo
 
 .env*
 !.env.example
