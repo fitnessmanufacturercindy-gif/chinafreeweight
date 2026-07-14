@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
-import { sourcingFacts } from "../../../site";
+import { siteUrl, sourcingFacts } from "../../../site";
 import { getGymAccessoryProduct, gymAccessoryProducts } from "../productData";
 
 type PageProps = {
@@ -47,9 +47,37 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
   const relatedProducts = gymAccessoryProducts
     .filter((item) => item.slug !== product.slug)
     .slice(0, 3);
+  const pageUrl = `${siteUrl}/products/gym-accessories/${product.slug}`;
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.copy,
+    image: `${siteUrl}${product.image}`,
+    url: pageUrl,
+    brand: { "@type": "Brand", name: "PowerBaseFit" },
+    manufacturer: { "@type": "Organization", name: "PowerBaseFit", url: siteUrl },
+    category: "Gym Accessories",
+    additionalProperty: [
+      { "@type": "PropertyValue", name: "Product type", value: product.type },
+      { "@type": "PropertyValue", name: "Range", value: product.range },
+      { "@type": "PropertyValue", name: "Material", value: product.material }
+    ]
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Gym Accessories", item: `${siteUrl}/products/gym-accessories` },
+      { "@type": "ListItem", position: 3, name: product.name, item: pageUrl }
+    ]
+  };
 
   return (
     <main className="product-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
           <img src="/assets/logo-readable.png" alt="PowerBaseFit" />

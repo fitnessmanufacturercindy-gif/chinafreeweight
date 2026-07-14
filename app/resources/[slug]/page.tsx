@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { siteName, siteUrl } from "../../site";
 import type { ResourceImage } from "../blogData";
 import { getAllPosts, getPostBySlug } from "../blogData";
 
@@ -138,9 +139,37 @@ export default async function ResourceArticlePage({ params }: PageProps) {
   }
 
   const relatedPosts = getAllPosts().filter((item) => item.slug !== slug);
+  const pageUrl = `${siteUrl}/resources/${post.slug}`;
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Resources", item: `${siteUrl}/resources` },
+      { "@type": "ListItem", position: 3, name: post.title, item: pageUrl }
+    ]
+  };
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.metaDescription,
+    mainEntityOfPage: pageUrl,
+    image: `${siteUrl}${post.coverImage}`,
+    author: { "@type": "Organization", name: siteName, url: siteUrl },
+    publisher: {
+      "@type": "Organization",
+      name: siteName,
+      logo: { "@type": "ImageObject", url: `${siteUrl}/assets/logo-readable.png` }
+    },
+    about: post.primaryKeyword,
+    inLanguage: "en"
+  };
 
   return (
     <main className="article-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <header className="article-header">
         <a className="article-brand" href="/">
           <img src="/assets/logo-readable.png" alt="PowerBaseFit" />

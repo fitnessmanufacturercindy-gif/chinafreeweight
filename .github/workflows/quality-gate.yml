@@ -72,3 +72,20 @@ jobs:
         with:
           name: website-quality-gate-report
           path: reports/quality-gate/
+
+      - name: Notify search engines after main deployment checks
+        if: github.ref == 'refs/heads/main'
+        env:
+          SEO_SUBMIT_SITE_URL: https://www.chinafreeweight.com
+          INDEXNOW_KEY: e0ad369810e295747f3e88ba667e37f8
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          YANDEX_WEBMASTER_TOKEN: ${{ secrets.YANDEX_WEBMASTER_TOKEN }}
+        run: npm run seo:submit
+
+      - name: Upload search submission reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-submission-report
+          path: reports/search-submissions/

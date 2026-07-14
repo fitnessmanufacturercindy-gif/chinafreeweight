@@ -10,6 +10,19 @@ const DATE_ID = new Date().toISOString().replace(/[:.]/g, "-");
 const REPORT_JSON = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.json`);
 const REPORT_MD = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.md`);
 const LIGHTHOUSE_RUNS = Math.max(1, Number(process.env.QUALITY_GATE_LIGHTHOUSE_RUNS || 3));
+const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "e0ad369810e295747f3e88ba667e37f8";
+const requiredMachineEndpoints = [
+  "/sitemap.xml",
+  "/sitemap-index.xml",
+  "/sitemaps/products.xml",
+  "/sitemaps/blogs.xml",
+  "/sitemaps/images.xml",
+  "/sitemaps/videos.xml",
+  "/sitemaps/languages.xml",
+  "/robots.txt",
+  "/llms.txt",
+  `/${INDEXNOW_KEY}.txt`
+];
 
 const thresholds = {
   performance: Number(process.env.QUALITY_GATE_MIN_PERFORMANCE || 90),
@@ -270,23 +283,79 @@ function medianRun(formFactor) {
 }
 
 async function discoverUrls(issues) {
-  const sitemapUrl = `${BASE_URL}/sitemap.xml`;
-  const sitemap = await fetchText(sitemapUrl).catch((error) => ({
+  const sitemapUrls = [`${BASE_URL}/sitemap.xml`];
+  const urls = [];
+
+  for (const sitemapUrl of sitemapUrls) {
+    const sitemap = await fetchText(sitemapUrl).catch((error) => ({
+      ok: false,
+      status: 0,
+      text: "",
+      error
+    }));
+    if (!sitemap.ok) {
+      issues.push(fail("sitemap", `${sitemapUrl} is not reachable: ${sitemap.status || sitemap.error?.message || "request failed"}`));
+      continue;
+    }
+    urls.push(
+      ...parseSitemapUrls(sitemap.text)
+        .map((url) => toUrl(url))
+        .filter(isSameOrigin)
+        .map((url) => toLocalUrlString(url))
+    );
+  }
+
+  const sitemapIndex = await fetchText(`${BASE_URL}/sitemap-index.xml`).catch((error) => ({
     ok: false,
     status: 0,
     text: "",
     error
   }));
-  if (!sitemap.ok) {
-    issues.push(fail("sitemap", `sitemap.xml is not reachable: ${sitemap.status || sitemap.error?.message || "request failed"}`));
-    return [`${BASE_URL}/`];
+  if (sitemapIndex.ok) {
+    const childSitemaps = parseSitemapUrls(sitemapIndex.text)
+      .map((url) => toUrl(url))
+      .filter(isSameOrigin)
+      .map((url) => toLocalUrlString(url));
+    for (const childSitemap of unique(childSitemaps)) {
+      const child = await fetchText(childSitemap).catch((error) => ({ ok: false, status: 0, text: "", error }));
+      if (!child.ok) {
+        issues.push(fail("sitemap", `${childSitemap} is not reachable: ${child.status || child.error?.message || "request failed"}`));
+        continue;
+      }
+      urls.push(
+        ...parseSitemapUrls(child.text)
+          .map((url) => toUrl(url))
+          .filter(isSameOrigin)
+          .map((url) => toLocalUrlString(url))
+      );
+    }
   }
-  const urls = parseSitemapUrls(sitemap.text)
-    .map((url) => toUrl(url))
-    .filter(isSameOrigin)
-    .map((url) => toLocalUrlString(url));
+
   if (!urls.length) issues.push(fail("sitemap", "sitemap.xml contains no same-origin URLs"));
   return unique([`${BASE_URL}/`, ...urls]);
+}
+
+async function checkMachineEndpoints(issues) {
+  const endpoints = [];
+  for (const path of requiredMachineEndpoints) {
+    const url = `${BASE_URL}${path}`;
+    const response = await fetchText(url).catch((error) => ({ ok: false, status: 0, text: "", error }));
+    endpoints.push({ path, status: response.status, ok: response.ok });
+    if (!response.ok) {
+      issues.push(fail("technical-seo", `${path} is not reachable: ${response.status || response.error?.message || "request failed"}`));
+      continue;
+    }
+    if (path.endsWith(".xml") && !/<loc>/.test(response.text)) {
+      issues.push(fail("sitemap", `${path} has no <loc> entries`));
+    }
+    if (path === "/llms.txt" && !/PowerBaseFit/i.test(response.text)) {
+      issues.push(fail("ai-search", "llms.txt is reachable but missing brand context"));
+    }
+    if (path.endsWith(`${INDEXNOW_KEY}.txt`) && response.text.trim() !== INDEXNOW_KEY) {
+      issues.push(fail("indexnow", "IndexNow key file content does not match INDEXNOW_KEY"));
+    }
+  }
+  return endpoints;
 }
 
 async function checkRobots(issues) {
@@ -500,6 +569,7 @@ async function main() {
   const lighthouse = [medianRun("mobile"), medianRun("desktop")];
   checkLighthouseThresholds(lighthouse, issues);
 
+  const machineEndpoints = await checkMachineEndpoints(issues);
   await checkRobots(issues);
   const urls = await discoverUrls(issues);
   const { pages, linkTargets, imageTargets } = await checkPages(urls, issues);
@@ -512,6 +582,7 @@ async function main() {
     baseUrl: BASE_URL,
     thresholds,
     urlsChecked: urls.length,
+    machineEndpoints,
     lighthouse,
     pages,
     images,

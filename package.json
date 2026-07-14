@@ -8,6 +8,7 @@
     "start": "next start --hostname 127.0.0.1",
     "typecheck": "tsc --noEmit",
     "quality:gate": "node scripts/quality-gate.mjs",
+    "seo:submit": "node scripts/submit-search-engines.mjs",
     "seo:pt:check": "node scripts/check-pt-seo.mjs",
     "seo:daily": "node seo-engine/scripts/run-seo-engine.mjs --mode daily",
     "seo:weekly": "node seo-engine/scripts/run-seo-engine.mjs --mode weekly",

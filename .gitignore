@@ -7,6 +7,7 @@ tmp/
 output/
 outputs/
 reports/quality-gate/
+reports/search-submissions/
 __pycache__/
 *.py[cod]
 tsconfig.tsbuildinfo

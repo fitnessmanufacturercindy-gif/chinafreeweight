@@ -55,3 +55,46 @@ export const organizationJsonLd = {
     }
   }))
 };
+
+export const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: siteName,
+  alternateName: "PowerBaseFit Free Weight Equipment Manufacturer",
+  url: siteUrl,
+  publisher: {
+    "@type": "Organization",
+    name: company.legalName,
+    url: siteUrl
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${siteUrl}/resources?query={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  },
+  inLanguage: "en"
+};
+
+export const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "SportingGoodsStore"],
+  name: company.legalName,
+  alternateName: company.brandName,
+  url: siteUrl,
+  image: `${siteUrl}/assets/factory.avif`,
+  logo: `${siteUrl}/assets/logo-readable.png`,
+  email: company.email,
+  telephone: company.phone,
+  foundingDate: company.founded,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Zhengyang Road, Ningjin County",
+    addressLocality: "Dezhou",
+    addressRegion: "Shandong",
+    addressCountry: "CN"
+  },
+  areaServed: company.exportMarkets,
+  priceRange: "$$",
+  description:
+    "PowerBaseFit manufactures OEM dumbbells, weight plates, barbells, racks, benches, and gym accessories for importers, distributors, dealers, and commercial gym projects."
+};

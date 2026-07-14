@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import AnalyticsEvents from "./components/AnalyticsEvents";
 import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import WhatsAppButton from "./components/WhatsAppButton";
-import { organizationJsonLd, siteName, siteUrl } from "./site";
+import { localBusinessJsonLd, organizationJsonLd, siteName, siteUrl, websiteJsonLd } from "./site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: siteName,
+  category: "B2B fitness equipment manufacturing",
   title: "PowerBaseFit | Free Weight Equipment Manufacturer",
   description:
     "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
@@ -20,18 +21,59 @@ export const metadata: Metadata = {
     "OEM gym equipment China",
     "home gym functional trainer"
   ],
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/",
+      "pt-BR": "/pt/",
+      "x-default": "/"
+    }
+  },
   openGraph: {
     type: "website",
     siteName,
     url: siteUrl,
     title: "PowerBaseFit | Free Weight Equipment Manufacturer",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms."
+      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+    images: [
+      {
+        url: "/assets/hero-poster.avif",
+        width: 1600,
+        height: 900,
+        alt: "PowerBaseFit commercial free weight equipment manufacturing"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PowerBaseFit | Free Weight Equipment Manufacturer",
+    description:
+      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+    images: ["/assets/hero-poster.avif"]
   },
   robots: {
     index: true,
-    follow: true
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
+  },
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png"
   }
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#080808",
+  colorScheme: "dark light"
 };
 
 export default function RootLayout({
@@ -65,6 +107,14 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
         />
         <SiteHeader />
         {children}
