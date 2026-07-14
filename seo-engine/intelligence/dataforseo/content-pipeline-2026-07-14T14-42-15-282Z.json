@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-07-14T14:42:15.282Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-14T14:42:15.282Z",
+    "actor": "production_batch_test:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer",
+      "chrome dumbbell manufacturer",
+      "urethane dumbbell manufacturer",
+      "OEM dumbbells",
+      "private label dumbbells"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 10,
+      "totalCost": 0.07012,
+      "returnedKeywordCount": 5,
+      "serpCount": 44,
+      "peopleAlsoAskCount": 12,
+      "relatedSearchesCount": 40,
+      "competitorDomainCount": 30,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 5,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 5,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 5,
+      "updateBriefs": 0,
+      "createBriefs": 5,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 5,
+      "savedToDraftReview": 5,
+      "blockedByQuality": 0
+    }
+  },
+  "apiCalls": [
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "chrome dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "chrome dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "urethane dumbbell manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "urethane dumbbell manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "OEM dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    },
+    {
+      "seed": "private label dumbbells",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.012,
+      "ok": true
+    },
+    {
+      "seed": "private label dumbbells",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    }
+  ]
+}
