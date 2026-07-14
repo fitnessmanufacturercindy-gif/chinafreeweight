@@ -1,0 +1,74 @@
+name: Website Quality Gate
+
+on:
+  push:
+    branches:
+      - main
+      - "codex/**"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build production site
+        env:
+          NEXT_PUBLIC_SITE_URL: https://www.chinafreeweight.com
+        run: npm run build
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Start production preview
+        run: npm run start -- --port 3000 > /tmp/quality-gate-next.log 2>&1 &
+
+      - name: Wait for site
+        run: |
+          for i in {1..60}; do
+            if curl -fsS http://127.0.0.1:3000 >/dev/null; then
+              exit 0
+            fi
+            sleep 2
+          done
+          cat /tmp/quality-gate-next.log
+          exit 1
+
+      - name: Run website quality gate
+        env:
+          QUALITY_GATE_BASE_URL: http://127.0.0.1:3000
+          QUALITY_GATE_PUBLIC_URL: https://www.chinafreeweight.com
+          QUALITY_GATE_LIGHTHOUSE_RUNS: "3"
+          QUALITY_GATE_MIN_PERFORMANCE: "90"
+          QUALITY_GATE_MIN_SEO: "100"
+          QUALITY_GATE_MAX_LCP_MS: "2500"
+          QUALITY_GATE_MAX_CLS: "0.1"
+          QUALITY_GATE_MAX_TBT_MS: "300"
+        run: npm run quality:gate
+
+      - name: Upload quality reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-quality-gate-report
+          path: reports/quality-gate/

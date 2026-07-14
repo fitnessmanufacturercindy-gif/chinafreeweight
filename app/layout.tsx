@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import AnalyticsEvents from "./components/AnalyticsEvents";
+import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import WhatsAppButton from "./components/WhatsAppButton";
@@ -71,23 +71,8 @@ export default function RootLayout({
         <SiteFooter />
         <WhatsAppButton />
         <AnalyticsEvents />
+        <GoogleAnalyticsLoader measurementId={gaMeasurementId} />
       </body>
-      {gaMeasurementId ? (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}
-            strategy="lazyOnload"
-          />
-          <Script id="ga4-init" strategy="lazyOnload">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${gaMeasurementId}');
-            `}
-          </Script>
-        </>
-      ) : null}
     </html>
   );
 }

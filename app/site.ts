@@ -1,6 +1,6 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://www.powerbasefitequipment.com";
+  "https://www.chinafreeweight.com";
 
 export const siteName = "PowerBaseFit";
 
