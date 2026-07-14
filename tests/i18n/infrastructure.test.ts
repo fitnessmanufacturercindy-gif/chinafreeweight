@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import test from "node:test";
 import sitemap from "../../app/sitemap";
 import { siteUrl as configuredSiteUrl } from "../../app/site";
@@ -79,9 +81,9 @@ test("pilot routing: Portuguese is public while other configured locales remain 
   assert.deepEqual(decideLocaleRequest("/es/products/dumbbells"), { action: "not_found", reason: "locale_not_public" });
 });
 
-test("production manifest: only the reviewed Brazilian Portuguese pilot is published", () => {
-  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 13);
-  assert.equal(contentRepository.listPublished().length, 26);
+test("production manifest: only reviewed Brazilian Portuguese growth content is published", () => {
+  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 28);
+  assert.equal(contentRepository.listPublished().length, 44);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR"].includes(version.locale)), false);
 });
 
@@ -115,6 +117,80 @@ test("schema language: localized schema uses the current locale text and URL", (
   assert.equal(product?.inLanguage, "pt-BR");
   assert.equal(product?.url, `${siteUrl}/pt/products/dumbbells/rubber-hex-dumbbells`);
   assert.equal(product?.name, "pt-BR fixture heading");
+});
+
+test("growth content: products and blogs meet useful Portuguese depth targets", () => {
+  function words(content: ReturnType<typeof contentRepository.listPublished>[number]) {
+    const { version } = content;
+    const dataText = version.body.flatMap((block) => {
+      const values = [block.data?.term, block.data?.columns, block.data?.rows, block.data?.items].flat(3);
+      return values.filter((value): value is string => typeof value === "string");
+    });
+    return [version.h1, version.description, ...version.body.flatMap((block) => [block.heading ?? "", block.content ?? ""]), ...dataText, ...version.faq.flatMap((item) => [item.question, item.answer])]
+      .join(" ")
+      .split(/\s+/)
+      .filter(Boolean).length;
+  }
+
+  const portuguese = contentRepository.listPublished({ locale: "pt-BR" });
+  const productWords = portuguese.filter(({ entity }) => entity.type === "product").map(words);
+  const blogWords = portuguese.filter(({ entity }) => entity.type === "blog").map(words);
+  assert.equal(productWords.length, 6);
+  assert.ok(productWords.every((count) => count >= 700 && count <= 1200), JSON.stringify(productWords));
+  assert.equal(blogWords.length, 13);
+  assert.ok(blogWords.every((count) => count >= 1200 && count <= 2000), JSON.stringify(blogWords));
+});
+
+test("growth content: AI answer blocks, tables, authors, links and images are complete", () => {
+  const portuguese = contentRepository.listPublished({ locale: "pt-BR" });
+  const deepPages = portuguese.filter(({ entity }) => entity.type === "product" || entity.type === "blog");
+
+  for (const content of deepPages) {
+    const types = new Set(content.version.body.map((block) => block.type));
+    const components = new Set(content.version.body.map((block) => block.data?.component));
+    assert.ok(components.has("quick-answer"), `${content.version.publicPath}: quick answer`);
+    assert.ok(components.has("definition"), `${content.version.publicPath}: definition`);
+    assert.ok(types.has("specifications"), `${content.version.publicPath}: table`);
+    assert.ok(content.version.author, `${content.version.publicPath}: author`);
+    assert.ok(content.version.reviewedBy, `${content.version.publicPath}: reviewer`);
+    assert.ok(content.version.faq.length >= 4, `${content.version.publicPath}: FAQ`);
+  }
+
+  for (const { version } of portuguese) {
+    for (const link of version.internalLinks) {
+      assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "pt-BR"), `${version.publicPath}: ${link.targetContentId}`);
+    }
+    for (const item of version.images) {
+      assert.ok(existsSync(join(process.cwd(), "public", item.src.replace(/^\//, ""))), `${version.publicPath}: ${item.src}`);
+      assert.ok(item.alt.trim().length > 20, `${version.publicPath}: image alt`);
+    }
+  }
+});
+
+test("growth schema: product facts and editorial review are machine readable", () => {
+  const productContent = contentRepository.getPublishedVersion("rubber-round-dumbbell", "pt-BR");
+  assert.ok(productContent);
+  const productGraph = buildLocalizedSchemaGraph(productContent, siteUrl);
+  const product = productGraph.find((node) => node["@type"] === "Product");
+  assert.equal(product?.manufacturer && typeof product.manufacturer === "object" && "name" in product.manufacturer ? product.manufacturer.name : undefined, "Powerbase Fitness Equipment Co.,Ltd");
+  assert.ok(Array.isArray(product?.additionalProperty));
+
+  const blogContent = contentRepository.getPublishedVersion("import-guide", "pt-BR");
+  assert.ok(blogContent);
+  const blogGraph = buildLocalizedSchemaGraph(blogContent, siteUrl);
+  const article = blogGraph.find((node) => node["@type"] === "BlogPosting");
+  assert.equal(article?.author && typeof article.author === "object" && "@type" in article.author ? article.author["@type"] : undefined, "Organization");
+  assert.ok(article?.reviewedBy);
+  assert.ok(article?.publisher);
+  assert.ok(article?.image);
+});
+
+test("Portuguese-only growth pages do not invent an English alternate", () => {
+  const content = contentRepository.getPublishedVersion("products-hub", "pt-BR");
+  assert.ok(content);
+  const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
+  assert.deepEqual(metadata.alternates?.languages, { "pt-BR": `${siteUrl}/pt/produtos` });
+  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["pt-BR"]);
 });
 
 test("sitemap: non-public and review-required localizations never enter output", () => {
@@ -170,13 +246,13 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("English URL regression: sitemap retains 112 English routes and adds only 13 Portuguese routes", () => {
+test("English URL regression: sitemap retains 112 English routes and adds 28 Portuguese routes", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url));
   assert.equal(englishUrls.length, 112);
-  assert.equal(portugueseUrls.length, 13);
-  assert.equal(new Set(urls).size, 125);
+  assert.equal(portugueseUrls.length, 28);
+  assert.equal(new Set(urls).size, 140);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));

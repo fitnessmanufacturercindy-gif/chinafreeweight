@@ -51,7 +51,11 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
     url,
     name: version.title,
     description: version.description,
-    inLanguage
+    inLanguage,
+    datePublished: version.publishedAt,
+    dateModified: version.updatedAt,
+    author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url } : undefined,
+    reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined
   });
 
   if (entity.type === "product") {
@@ -63,6 +67,14 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       description: version.description,
       sku: version.schemaData.sku,
       brand: version.schemaData.brand ? { "@type": "Brand", name: version.schemaData.brand } : undefined,
+      manufacturer: version.schemaData.manufacturer ? { "@type": "Organization", name: version.schemaData.manufacturer } : undefined,
+      material: version.schemaData.material,
+      category: version.schemaData.category,
+      additionalProperty: version.schemaData.specifications?.map((specification) => ({
+        "@type": "PropertyValue",
+        name: specification.name,
+        value: specification.value
+      })),
       image: version.images.map((image) => absoluteUrl(siteUrl, image.src)),
       inLanguage,
       offers: version.schemaData.price
@@ -87,7 +99,11 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       datePublished: version.publishedAt,
       dateModified: version.updatedAt,
       inLanguage,
-      author: version.author ? { "@type": "Person", name: version.author.name, url: version.author.url } : undefined
+      mainEntityOfPage: { "@id": `${url}#webpage` },
+      image: version.images[0] ? absoluteUrl(siteUrl, version.images[0].src) : undefined,
+      author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url } : undefined,
+      reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined,
+      publisher: { "@type": "Organization", "@id": `${siteUrl.replace(/\/$/, "")}#organization`, name: "PowerBaseFit" }
     });
   }
 
@@ -101,7 +117,8 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       datePublished: version.publishedAt,
       dateModified: version.updatedAt,
       inLanguage,
-      author: version.author ? { "@type": "Person", name: version.author.name, url: version.author.url } : undefined
+      author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url } : undefined,
+      reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined
     });
   }
 

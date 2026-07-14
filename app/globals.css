@@ -2251,11 +2251,23 @@ textarea {
 .localized-hero-actions nav { display: flex; gap: 12px; }
 .localized-hero-actions nav a { color: #222; font-weight: 700; }
 .localized-hero-actions nav a[aria-current="page"] { text-decoration: underline; }
+.localized-editorial-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 22px; color: #686d74; font-size: 14px; line-height: 1.5; }
 .localized-feature-image { width: 100%; max-height: 620px; object-fit: cover; border-radius: 18px; margin: 18px 0 46px; }
 .localized-content { max-width: 880px; }
 .localized-content section { margin: 0 0 42px; }
 .localized-content h2 { font-size: clamp(28px, 4vw, 40px); margin-bottom: 14px; }
 .localized-content p { color: #474b52; font-size: 18px; line-height: 1.8; }
+.localized-quick-answer, .localized-definition { border-left: 4px solid #d14124; background: #fff; padding: 20px 24px; border-radius: 0 12px 12px 0; }
+.localized-definition-term { margin: 0 0 8px; color: #d14124 !important; font-weight: 800; }
+.localized-table-wrap { overflow-x: auto; border: 1px solid #d9dcdf; border-radius: 14px; background: #fff; }
+.localized-table-wrap table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.localized-table-wrap caption { padding: 14px 18px; color: #62666d; text-align: left; }
+.localized-table-wrap th, .localized-table-wrap td { padding: 14px 16px; border-bottom: 1px solid #e3e5e7; text-align: left; vertical-align: top; line-height: 1.55; }
+.localized-table-wrap th { background: #202328; color: #fff; font-size: 15px; }
+.localized-table-wrap tr:last-child td { border-bottom: 0; }
+.localized-checklist { display: grid; gap: 12px; padding: 0; list-style: none; }
+.localized-checklist li { position: relative; padding: 15px 18px 15px 46px; border: 1px solid #d9dcdf; border-radius: 12px; background: #fff; color: #3f444b; font-size: 17px; line-height: 1.55; }
+.localized-checklist li::before { content: "✓"; position: absolute; left: 18px; color: #d14124; font-weight: 900; }
 .localized-related > div { display: flex; flex-wrap: wrap; gap: 12px; }
 .localized-related a { border: 1px solid #d7d9dc; border-radius: 999px; padding: 10px 16px; color: #202328; background: white; }
 .localized-faq details { border-top: 1px solid #d9dcdf; padding: 18px 0; }

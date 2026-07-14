@@ -60,6 +60,8 @@ export type LocalizedInternalLink = {
 export type LocalizedAuthor = {
   id: string;
   name: string;
+  kind?: "Person" | "Organization";
+  role?: string;
   url?: string;
   image?: string;
 };
@@ -67,6 +69,10 @@ export type LocalizedAuthor = {
 export type SchemaData = {
   sku?: string;
   brand?: string;
+  manufacturer?: string;
+  material?: string;
+  category?: string;
+  specifications?: Array<{ name: string; value: string }>;
   price?: string;
   priceCurrency?: string;
   availability?: string;
@@ -89,6 +95,7 @@ export type LocalizedContentVersion = {
   body: ContentBlock[];
   faq: LocalizedFaq[];
   author?: LocalizedAuthor;
+  reviewedBy?: LocalizedAuthor;
   schemaData: SchemaData;
   images: LocalizedImage[];
   internalLinks: LocalizedInternalLink[];

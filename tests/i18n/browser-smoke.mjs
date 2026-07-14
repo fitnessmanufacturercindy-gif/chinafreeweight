@@ -36,17 +36,47 @@ const portugueseRoutes = [
   "/pt/blog/como-avaliar-fabrica-equipamentos-academia-china",
   "/pt/blog/como-escolher-halteres-academia-profissional",
   "/pt/blog/anilhas-de-peso-vs-anilhas-bumper",
-  "/pt/projetos"
+  "/pt/projetos",
+  "/pt/produtos",
+  "/pt/oem-marca-propria",
+  "/pt/produtos/halteres/halter-redondo-borracha",
+  "/pt/produtos/halteres/halter-pu",
+  "/pt/produtos/anilhas/anilha-olimpica-emborrachada",
+  "/pt/blog/como-importar-equipamentos-academia-china",
+  "/pt/blog/custo-importacao-equipamentos-academia",
+  "/pt/blog/moq-equipamentos-fitness",
+  "/pt/blog/oem-vs-odm-equipamentos-fitness",
+  "/pt/blog/como-criar-marca-propria-equipamentos-academia",
+  "/pt/blog/halter-sextavado-ou-redondo",
+  "/pt/blog/halter-borracha-pu-tpu",
+  "/pt/blog/anilha-olimpica-vs-padrao",
+  "/pt/blog/lista-equipamentos-academia-profissional",
+  "/pt/blog/planejamento-area-pesos-livres"
 ];
+
+const portugueseOnlyRoutes = new Set([
+  "/pt/produtos",
+  "/pt/oem-marca-propria",
+  "/pt/blog/como-importar-equipamentos-academia-china",
+  "/pt/blog/custo-importacao-equipamentos-academia",
+  "/pt/blog/moq-equipamentos-fitness",
+  "/pt/blog/oem-vs-odm-equipamentos-fitness",
+  "/pt/blog/como-criar-marca-propria-equipamentos-academia",
+  "/pt/blog/halter-sextavado-ou-redondo",
+  "/pt/blog/halter-borracha-pu-tpu",
+  "/pt/blog/anilha-olimpica-vs-padrao",
+  "/pt/blog/lista-equipamentos-academia-profissional",
+  "/pt/blog/planejamento-area-pesos-livres"
+]);
 
 for (const route of portugueseRoutes) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 200, route);
   assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR", route);
   assert.equal(await page.locator('link[rel="canonical"]').getAttribute("href"), `https://www.chinafreeweight.com${route}`, route);
-  assert.equal(await page.locator('link[hreflang="en"]').count(), 1, route);
+  assert.equal(await page.locator('link[hreflang="en"]').count(), portugueseOnlyRoutes.has(route) ? 0 : 1, route);
   assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
-  assert.equal(await page.locator('link[hreflang="x-default"]').count(), 1, route);
+  assert.equal(await page.locator('link[hreflang="x-default"]').count(), portugueseOnlyRoutes.has(route) ? 0 : 1, route);
   assert.ok((await page.locator("main").innerText()).length > 500, route);
   assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
 }
@@ -70,9 +100,9 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 125);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 13);
-assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 13);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 140);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 28);
+assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 28);
 assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:es|de|fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });

@@ -2,31 +2,21 @@ import type {
   ContentBlock,
   ContentEntity,
   ContentManifest,
-  ContentType,
   LocalizedContentVersion,
   LocalizedFaq,
   LocalizedImage,
   LocalizedInternalLink
 } from "../../lib/content/types";
+import { existingBlogEnhancements } from "./pt-br-existing-blogs";
+import { existingPageEnhancements } from "./pt-br-existing-growth";
+import { ptBrCommercialPages } from "./pt-br-commercial-pages";
+import { contentSupplements } from "./pt-br-content-supplements";
+import { ptBrGrowthBlogsA } from "./pt-br-growth-blogs-a";
+import { ptBrGrowthBlogsB } from "./pt-br-growth-blogs-b";
+import type { PilotPage } from "./pt-br-types";
 
 const updatedAt = "2026-07-14T08:00:00.000Z";
 const publishedAt = "2026-07-14T08:00:00.000Z";
-
-type PilotPage = {
-  id: string;
-  type: ContentType;
-  enPath: string;
-  ptPath: string;
-  enTitle: string;
-  title: string;
-  description: string;
-  h1: string;
-  sections: Array<[string, string]>;
-  faq: Array<[string, string]>;
-  image?: [string, string];
-  links: Array<[string, string]>;
-  sku?: string;
-};
 
 function faq(items: Array<[string, string]>): LocalizedFaq[] {
   return items.map(([question, answer], index) => ({ id: `faq-${index + 1}`, question, answer }));
@@ -43,6 +33,25 @@ function body(items: Array<[string, string]>, contact: boolean): ContentBlock[] 
   return blocks;
 }
 
+function localizedBody(page: PilotPage): ContentBlock[] {
+  const blocks = page.blocks ? [...page.blocks] : body(page.sections ?? [], false);
+  if (page.type === "contact") blocks.push({ id: "inquiry-form", type: "custom", heading: "Conte seu projeto", data: { component: "inquiry-form" } });
+  return blocks;
+}
+
+function portugueseBreadcrumbs(page: PilotPage) {
+  const breadcrumbs = [{ name: "Início", path: "/pt" }];
+  if (page.ptPath === "/pt") return breadcrumbs;
+  if (page.type === "blog") breadcrumbs.push({ name: "Blog", path: "/pt/blog" });
+  if (page.ptPath.startsWith("/pt/produtos")) {
+    breadcrumbs.push({ name: "Produtos", path: "/pt/produtos" });
+    if (page.ptPath.startsWith("/pt/produtos/halteres/") || page.ptPath === "/pt/produtos/halteres") breadcrumbs.push({ name: "Halteres", path: "/pt/produtos/halteres" });
+    if (page.ptPath.startsWith("/pt/produtos/anilhas/") || page.ptPath === "/pt/produtos/anilhas") breadcrumbs.push({ name: "Anilhas", path: "/pt/produtos/anilhas" });
+  }
+  if (breadcrumbs.at(-1)?.path !== page.ptPath) breadcrumbs.push({ name: page.h1, path: page.ptPath });
+  return breadcrumbs;
+}
+
 function image(item?: [string, string]): LocalizedImage[] {
   return item ? [{ id: "principal", src: item[0], alt: item[1] }] : [];
 }
@@ -53,7 +62,7 @@ function links(items: Array<[string, string]>): LocalizedInternalLink[] {
 
 function publishedVersion(page: PilotPage, locale: "en" | "pt-BR"): LocalizedContentVersion {
   const portuguese = locale === "pt-BR";
-  const publicPath = portuguese ? page.ptPath : page.enPath;
+  const publicPath = portuguese ? page.ptPath : page.enPath!;
   return {
     locale,
     translationStatus: portuguese ? "localized" : "published",
@@ -61,21 +70,23 @@ function publishedVersion(page: PilotPage, locale: "en" | "pt-BR"): LocalizedCon
     publishStatus: "published",
     slug: publicPath.split("/").filter(Boolean).at(-1) ?? "home",
     publicPath,
-    title: portuguese ? page.title : page.enTitle,
-    description: portuguese ? page.description : page.enTitle,
-    h1: portuguese ? page.h1 : page.enTitle,
-    body: portuguese ? body(page.sections, page.type === "contact") : [],
+    title: portuguese ? page.title : page.enTitle!,
+    description: portuguese ? page.description : page.enTitle!,
+    h1: portuguese ? page.h1 : page.enTitle!,
+    body: portuguese ? localizedBody(page) : [],
     faq: portuguese ? faq(page.faq) : [],
-    author: page.type === "blog" ? { id: "powerbasefit-editorial", name: "Equipe PowerBaseFit" } : undefined,
+    author: portuguese ? page.author : undefined,
+    reviewedBy: portuguese ? page.reviewedBy : undefined,
     schemaData: {
       sku: page.sku,
       brand: page.type === "product" ? "PowerBaseFit" : undefined,
+      manufacturer: page.type === "product" ? "Powerbase Fitness Equipment Co.,Ltd" : undefined,
+      material: page.material,
+      category: page.category,
+      specifications: page.specifications,
       breadcrumbs: portuguese
-        ? [
-            { name: "Início", path: "/pt" },
-            ...(page.ptPath === "/pt" ? [] : [{ name: page.h1, path: page.ptPath }])
-          ]
-        : [{ name: "Home", path: "/" }, ...(page.enPath === "/" ? [] : [{ name: page.enTitle, path: page.enPath }])]
+        ? portugueseBreadcrumbs(page)
+        : [{ name: "Home", path: "/" }, ...(page.enPath === "/" ? [] : [{ name: page.enTitle!, path: page.enPath! }])]
     },
     images: portuguese ? image(page.image) : [],
     internalLinks: portuguese ? links(page.links) : [],
@@ -206,11 +217,28 @@ const pages: PilotPage[] = [
   }
 ];
 
-const entities: ContentEntity[] = pages.map((page) => ({
+const enhancedExistingPages = pages.map((page) => ({
+  ...page,
+  ...existingPageEnhancements[page.id],
+  ...existingBlogEnhancements[page.id]
+}));
+
+const allPages: PilotPage[] = [
+  ...enhancedExistingPages,
+  ...ptBrCommercialPages,
+  ...ptBrGrowthBlogsA,
+  ...ptBrGrowthBlogsB
+].map((page) => contentSupplements[page.id]
+  ? { ...page, blocks: [...(page.blocks ?? body(page.sections ?? [], false)), ...contentSupplements[page.id]] }
+  : page);
+
+const entities: ContentEntity[] = allPages.map((page) => ({
   id: page.id,
   type: page.type,
-  defaultLocale: "en",
-  versions: { en: publishedVersion(page, "en"), "pt-BR": publishedVersion(page, "pt-BR") }
+  defaultLocale: page.enPath ? "en" : "pt-BR",
+  versions: page.enPath
+    ? { en: publishedVersion(page, "en"), "pt-BR": publishedVersion(page, "pt-BR") }
+    : { "pt-BR": publishedVersion(page, "pt-BR") }
 }));
 
 export const ptBrPilotManifest: ContentManifest = { schemaVersion: 1, entities };
