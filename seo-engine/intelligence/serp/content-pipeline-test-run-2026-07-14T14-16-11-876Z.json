@@ -1,0 +1,279 @@
+{
+  "generatedAt": "2026-07-14T14:16:11.876Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "test_run": true,
+    "generatedAt": "2026-07-14T14:16:11.876Z",
+    "actor": "test_run:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0.01412,
+      "returnedKeywordCount": 1,
+      "serpCount": 9,
+      "peopleAlsoAskCount": 4,
+      "relatedSearchesCount": 8,
+      "competitorDomainCount": 9,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 1,
+      "blockedByQuality": 0
+    }
+  },
+  "serp": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "serpType": "Guide / Resource",
+      "top10": [
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 1,
+          "title": "USA Made Weight Plates | American Made Olympic Plates",
+          "url": "https://www.ironcompany.com/usa-made-gym-equipment/american-made-weightlifting-barbell-plates?srsltid=AfmBOorTvwfNlMfmJu9p1UblWbk9O1K9MC_hzN_xgJNY470K883mI_To",
+          "domain": "ironcompany.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 2,
+          "title": "Plates",
+          "url": "https://ivankobarbell.com/collections/plates?srsltid=AfmBOop_od1HVQ5kkaVf-8ENxLgj_b_wjhJZMbda09ugkgis4U_aQ1ea",
+          "domain": "ivankobarbell.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 3,
+          "title": "Barbell plates - Weights",
+          "url": "https://hms-fitness.com/offer/bars-and-weights/weights/weight-plates",
+          "domain": "hms-fitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 4,
+          "title": "Best Weight Plates for 2026: Iron, Rubber, and Steel",
+          "url": "https://www.garagegymreviews.com/best-weight-plates",
+          "domain": "garagegymreviews.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 5,
+          "title": "Weight Plates for Home, Schools & Commercial Gyms",
+          "url": "https://www.gtechfitness.com/weight-plates/?srsltid=AfmBOop97Zi3IlEXa4R7j084uz9Glr0IT6FtBBB2LN0V-zd6dv4lXU9_",
+          "domain": "gtechfitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 6,
+          "title": "Weight plate",
+          "url": "https://en.wikipedia.org/wiki/Weight_plate",
+          "domain": "en.wikipedia.org"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 7,
+          "title": "30 Best Weight Plate Suppliers Around The World",
+          "url": "https://www.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+          "domain": "yanrefitness.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 8,
+          "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+          "url": "https://homegrownlifting.com/?srsltid=AfmBOoqYwBW8RsYVLE-u4TX2ZY_JIDj1imdpZpZijSRAa2vPbp9QnDBZ",
+          "domain": "homegrownlifting.com"
+        },
+        {
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "position": 9,
+          "title": "The 10 Best Weight Plates of 2026 (Expert Reviewed)",
+          "url": "https://barbend.com/best-weight-plates/",
+          "domain": "barbend.com"
+        }
+      ],
+      "peopleAlsoAsk": [
+        {
+          "question": "What company makes the best weight plates?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "How do I make my own weight plates?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "What company makes weights?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        },
+        {
+          "question": "Why are weight plates so expensive now?",
+          "sourceSeed": "weight plate manufacturer",
+          "category": "Weight Plates",
+          "searchIntent": "Transactional",
+          "buyerIntent": "Manufacturer",
+          "source": "DataForSEO SERP",
+          "status": "New"
+        }
+      ],
+      "relatedSearches": [
+        "Weight plate manufacturer usa",
+        "Gym weight plate manufacturer",
+        "Best weight plate manufacturer",
+        "Iron weight plates set",
+        "Steel Weight Plates Set",
+        "Plastic Weight Plates Set",
+        "Stainless Steel Weight Plates",
+        "1 inch Weight Plates Set"
+      ],
+      "serpFeatures": [
+        "ai_overview",
+        "organic",
+        "people_also_ask",
+        "popular_products",
+        "video",
+        "related_searches"
+      ]
+    }
+  ],
+  "serpRecords": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 1,
+      "title": "USA Made Weight Plates | American Made Olympic Plates",
+      "url": "https://www.ironcompany.com/usa-made-gym-equipment/american-made-weightlifting-barbell-plates?srsltid=AfmBOorTvwfNlMfmJu9p1UblWbk9O1K9MC_hzN_xgJNY470K883mI_To",
+      "domain": "ironcompany.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 2,
+      "title": "Plates",
+      "url": "https://ivankobarbell.com/collections/plates?srsltid=AfmBOop_od1HVQ5kkaVf-8ENxLgj_b_wjhJZMbda09ugkgis4U_aQ1ea",
+      "domain": "ivankobarbell.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 3,
+      "title": "Barbell plates - Weights",
+      "url": "https://hms-fitness.com/offer/bars-and-weights/weights/weight-plates",
+      "domain": "hms-fitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 4,
+      "title": "Best Weight Plates for 2026: Iron, Rubber, and Steel",
+      "url": "https://www.garagegymreviews.com/best-weight-plates",
+      "domain": "garagegymreviews.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 5,
+      "title": "Weight Plates for Home, Schools & Commercial Gyms",
+      "url": "https://www.gtechfitness.com/weight-plates/?srsltid=AfmBOop97Zi3IlEXa4R7j084uz9Glr0IT6FtBBB2LN0V-zd6dv4lXU9_",
+      "domain": "gtechfitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 6,
+      "title": "Weight plate",
+      "url": "https://en.wikipedia.org/wiki/Weight_plate",
+      "domain": "en.wikipedia.org"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 7,
+      "title": "30 Best Weight Plate Suppliers Around The World",
+      "url": "https://www.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+      "domain": "yanrefitness.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 8,
+      "title": "HomeGrown Lifting offers Bumper Plates, Barbells, Dumbbells ...",
+      "url": "https://homegrownlifting.com/?srsltid=AfmBOoqYwBW8RsYVLE-u4TX2ZY_JIDj1imdpZpZijSRAa2vPbp9QnDBZ",
+      "domain": "homegrownlifting.com"
+    },
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "position": 9,
+      "title": "The 10 Best Weight Plates of 2026 (Expert Reviewed)",
+      "url": "https://barbend.com/best-weight-plates/",
+      "domain": "barbend.com"
+    }
+  ],
+  "relatedSearches": [
+    "Weight plate manufacturer usa",
+    "Gym weight plate manufacturer",
+    "Best weight plate manufacturer",
+    "Iron weight plates set",
+    "Steel Weight Plates Set",
+    "Plastic Weight Plates Set",
+    "Stainless Steel Weight Plates",
+    "1 inch Weight Plates Set"
+  ]
+}
