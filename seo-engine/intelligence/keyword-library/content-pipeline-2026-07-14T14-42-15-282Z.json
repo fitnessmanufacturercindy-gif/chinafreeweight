@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2026-07-14T14:42:15.282Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-14T14:42:15.282Z",
+    "actor": "production_batch_test:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer",
+      "chrome dumbbell manufacturer",
+      "urethane dumbbell manufacturer",
+      "OEM dumbbells",
+      "private label dumbbells"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 10,
+      "totalCost": 0.07012,
+      "returnedKeywordCount": 5,
+      "serpCount": 44,
+      "peopleAlsoAskCount": 12,
+      "relatedSearchesCount": 40,
+      "competitorDomainCount": 30,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 5,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 5,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 5,
+      "updateBriefs": 0,
+      "createBriefs": 5,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 5,
+      "savedToDraftReview": 5,
+      "blockedByQuality": 0
+    }
+  },
+  "keywords": [
+    {
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "priority": "High",
+      "keyword": "weight plate manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "priority": "High",
+      "keyword": "chrome dumbbell manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "priority": "High",
+      "keyword": "urethane dumbbell manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "OEM",
+      "priority": "High",
+      "keyword": "OEM dumbbells",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Private Label",
+      "priority": "High",
+      "keyword": "private label dumbbells",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null
+    }
+  ],
+  "exactInputs": [
+    {
+      "keyword": "weight plate manufacturer",
+      "sourceSeed": "weight plate manufacturer",
+      "category": "Weight Plates",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Guide / Resource",
+      "priority": "High",
+      "dataSourceMode": "External Data Mode",
+      "dataForSEOStatus": "Available",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Guide / Resource"
+      ]
+    },
+    {
+      "keyword": "chrome dumbbell manufacturer",
+      "sourceSeed": "chrome dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Product / Category",
+      "priority": "High",
+      "dataSourceMode": "External Data Mode",
+      "dataForSEOStatus": "Available",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Product / Category"
+      ]
+    },
+    {
+      "keyword": "urethane dumbbell manufacturer",
+      "sourceSeed": "urethane dumbbell manufacturer",
+      "category": "Dumbbells",
+      "searchIntent": "Transactional",
+      "buyerIntent": "Manufacturer",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Product / Category",
+      "priority": "High",
+      "dataSourceMode": "External Data Mode",
+      "dataForSEOStatus": "Available",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Product / Category"
+      ]
+    },
+    {
+      "keyword": "OEM dumbbells",
+      "sourceSeed": "OEM dumbbells",
+      "category": "OEM",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "OEM",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Manufacturer / Supplier",
+      "priority": "High",
+      "dataSourceMode": "External Data Mode",
+      "dataForSEOStatus": "Available",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ]
+    },
+    {
+      "keyword": "private label dumbbells",
+      "sourceSeed": "private label dumbbells",
+      "category": "OEM",
+      "searchIntent": "Commercial Investigation",
+      "buyerIntent": "Private Label",
+      "searchVolume": null,
+      "cpc": null,
+      "competition": null,
+      "serpType": "Manufacturer / Supplier",
+      "priority": "High",
+      "dataSourceMode": "External Data Mode",
+      "dataForSEOStatus": "Available",
+      "evidence": [
+        "Content Pipeline Runner V1.0",
+        "Data Source Mode: External Data Mode",
+        "DataForSEO SERP Type: Manufacturer / Supplier"
+      ]
+    }
+  ]
+}
