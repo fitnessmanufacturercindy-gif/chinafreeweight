@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-07-14T22:44:27.364Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "generatedAt": "2026-07-14T22:44:27.364Z",
+    "actor": "batch_context_rerun:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer",
+      "chrome dumbbell manufacturer",
+      "urethane dumbbell manufacturer",
+      "OEM dumbbells",
+      "private label dumbbells"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 10,
+      "totalCost": 0.07012,
+      "returnedKeywordCount": 5,
+      "serpCount": 47,
+      "peopleAlsoAskCount": 12,
+      "relatedSearchesCount": 40,
+      "competitorDomainCount": 36,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 5,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 5,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 5,
+      "updateBriefs": 0,
+      "createBriefs": 5,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 5,
+      "savedToDraftReview": 5,
+      "blockedByQuality": 0
+    }
+  },
+  "competitors": [
+    {
+      "domain": "ironcompany.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer",
+        "chrome dumbbell manufacturer",
+        "urethane dumbbell manufacturer",
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "ivankobarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "homegrownlifting.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "garagegymreviews.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer",
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "hms-fitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "gtechfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "en.wikipedia.org",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "yanrefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "barbend.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "weight plate manufacturer"
+      ]
+    },
+    {
+      "domain": "made-in-china.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer",
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "kensui.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "baopengfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "amazon.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "youtube.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer",
+        "urethane dumbbell manufacturer",
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "tradeindia.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "alohamuscle.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "jordanfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "dumbbellmanufacturers.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "chrome dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "ironbullstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "fitnesssuperstore.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "dumbbellsdirect.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer",
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "roguefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "gearmashers.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "irongrip.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "urethane dumbbell manufacturer"
+      ]
+    },
+    {
+      "domain": "wavar.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells",
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "nuoathletics.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "reddit.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "yorkbarbell.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "yogafitness.group",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "repfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "fitnessfactory.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "OEM dumbbells"
+      ]
+    },
+    {
+      "domain": "blackironstrength.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "ardentfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "elivatefitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "leadmanfitness.com",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    },
+    {
+      "domain": "weightitout.us",
+      "source": "DataForSEO SERP Top10",
+      "seeds": [
+        "private label dumbbells"
+      ]
+    }
+  ]
+}
