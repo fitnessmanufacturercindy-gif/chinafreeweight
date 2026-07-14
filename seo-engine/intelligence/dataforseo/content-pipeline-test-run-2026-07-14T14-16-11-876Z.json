@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-07-14T14:16:11.876Z",
+  "summary": {
+    "phase": "PowerBaseFit Content Pipeline Runner V1.0",
+    "test_run": true,
+    "generatedAt": "2026-07-14T14:16:11.876Z",
+    "actor": "test_run:fitnessmanufacturercindy@gmail.com",
+    "country": "United States",
+    "language": "English",
+    "seedKeywords": [
+      "weight plate manufacturer"
+    ],
+    "dataSource": {
+      "mode": "External Data Mode",
+      "dataForSEO": "Available",
+      "evidence": "DataForSEO",
+      "fallbackReason": "",
+      "internalSources": [
+        "Seed Library",
+        "Website Intelligence",
+        "GSC",
+        "GA4",
+        "Existing Asset Data"
+      ]
+    },
+    "dataForSEO": {
+      "requestCount": 2,
+      "totalCost": 0.01412,
+      "returnedKeywordCount": 1,
+      "serpCount": 9,
+      "peopleAlsoAskCount": 4,
+      "relatedSearchesCount": 8,
+      "competitorDomainCount": 9,
+      "apiSuccess": true,
+      "failedCalls": []
+    },
+    "opportunity": {
+      "total": 1,
+      "protectExisting": 0,
+      "updateExisting": 0,
+      "createNew": 1,
+      "doNotCreate": 0,
+      "needMoreData": 0
+    },
+    "brief": {
+      "totalBriefs": 1,
+      "updateBriefs": 0,
+      "createBriefs": 1,
+      "skippedDoNotCreate": 0,
+      "skippedNeedMoreData": 0
+    },
+    "draft": {
+      "attempted": 1,
+      "savedToDraftReview": 1,
+      "blockedByQuality": 0
+    }
+  },
+  "apiCalls": [
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.01212,
+      "ok": true
+    },
+    {
+      "seed": "weight plate manufacturer",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "cost": 0.002,
+      "ok": true
+    }
+  ]
+}
