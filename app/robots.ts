@@ -55,7 +55,6 @@ export default function robots(): MetadataRoute.Robots {
       `${siteUrl}/sitemaps/images.xml`,
       `${siteUrl}/sitemaps/videos.xml`,
       `${siteUrl}/sitemaps/languages.xml`
-    ],
-    host: siteUrl
+    ]
   };
 }
