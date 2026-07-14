@@ -13,13 +13,15 @@ export default [
   {
     files: [
       "app/page.tsx",
+      "app/(en)/**",
       "app/contact/**",
       "app/factory/**",
       "app/manufacturer/**",
       "app/products/**",
       "app/projects/**",
       "app/resources/**",
-      "app/components/*.tsx"
+      "app/components/*.tsx",
+      "app/components/i18n/*.tsx"
     ],
     rules: {
       "@next/next/no-html-link-for-pages": "off",

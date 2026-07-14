@@ -1,4 +1,4 @@
-import manifestJson from "../../content/i18n/manifest.json";
+import { ptBrPilotManifest } from "../../content/i18n/pt-br-pilot";
 import type { InternalLocale } from "../../i18n/locale-registry";
 import { normalizePath } from "../i18n/paths";
 import {
@@ -60,4 +60,4 @@ export function createContentRepository(manifest: ContentManifest): ContentRepos
   };
 }
 
-export const contentRepository = createContentRepository(manifestJson as ContentManifest);
+export const contentRepository = createContentRepository(ptBrPilotManifest);

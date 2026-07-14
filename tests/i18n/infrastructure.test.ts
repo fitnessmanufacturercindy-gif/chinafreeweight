@@ -71,15 +71,18 @@ test("locale routing: English stays unprefixed and /en redirects", () => {
   assert.equal(buildPublicPath("pt-BR", "/products/dumbbells"), "/pt/products/dumbbells");
 });
 
-test("unpublished locale routing: configured but non-public locale returns 404 policy", () => {
+test("pilot routing: Portuguese is public while other configured locales remain unavailable", () => {
   assert.deepEqual(decideLocaleRequest("/pt/products/dumbbells"), {
-    action: "not_found",
-    reason: "locale_not_public"
+    action: "pass",
+    internalLocale: "pt-BR"
   });
+  assert.deepEqual(decideLocaleRequest("/es/products/dumbbells"), { action: "not_found", reason: "locale_not_public" });
 });
 
-test("production manifest: no localized content or non-English route is published in phase two", () => {
-  assert.deepEqual(contentRepository.listPublished(), []);
+test("production manifest: only the reviewed Brazilian Portuguese pilot is published", () => {
+  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 13);
+  assert.equal(contentRepository.listPublished().length, 26);
+  assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR"].includes(version.locale)), false);
 });
 
 test("canonical and metadata: localized content is self-canonical", () => {
@@ -98,6 +101,7 @@ test("hreflang: only public, published and existing locale routes are emitted", 
   const metadata = buildLocalizedMetadata(content, repository, siteUrl, "PowerBaseFit");
   assert.deepEqual(metadata.alternates?.languages, {
     en: `${siteUrl}/products/dumbbells/rubber-hex-dumbbells`,
+    "pt-BR": `${siteUrl}/pt/products/dumbbells/rubber-hex-dumbbells`,
     "x-default": `${siteUrl}/products/dumbbells/rubber-hex-dumbbells`
   });
 });
@@ -117,9 +121,10 @@ test("sitemap: non-public and review-required localizations never enter output",
   for (const ptStatus of ["published", "review_required"] as const) {
     const repository = createContentRepository(fixtureManifest(ptStatus));
     const entries = buildPublishedSitemap(repository, siteUrl);
-    assert.deepEqual(entries.map((entry) => entry.url), [
-      `${siteUrl}/products/dumbbells/rubber-hex-dumbbells`
-    ]);
+    assert.deepEqual(entries.map((entry) => entry.url), ptStatus === "published" ? [
+      `${siteUrl}/products/dumbbells/rubber-hex-dumbbells`,
+      `${siteUrl}/pt/products/dumbbells/rubber-hex-dumbbells`
+    ] : [`${siteUrl}/products/dumbbells/rubber-hex-dumbbells`]);
   }
 });
 
@@ -134,7 +139,7 @@ test("language switch mapping: stable content ID resolves the matching localized
     ),
     "/pt/products/dumbbells/rubber-hex-dumbbells"
   );
-  assert.deepEqual(getLanguageSwitchOptions("product:rubber-hex-dumbbells", "en", repository).map((option) => option.locale), ["en"]);
+  assert.deepEqual(getLanguageSwitchOptions("product:rubber-hex-dumbbells", "en", repository).map((option) => option.locale), ["en", "pt-BR"]);
 });
 
 test("locale validation: catches /en URLs, missing slugs and duplicate localized URLs", () => {
@@ -165,14 +170,18 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("English URL regression: current sitemap retains the baseline English route set", () => {
+test("English URL regression: sitemap retains 112 English routes and adds only 13 Portuguese routes", () => {
   const urls = sitemap().map((entry) => entry.url);
-  assert.equal(urls.length, 112);
+  const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
+  const englishUrls = urls.filter((url) => !portugueseUrls.includes(url));
+  assert.equal(englishUrls.length, 112);
+  assert.equal(portugueseUrls.length, 13);
+  assert.equal(new Set(urls).size, 125);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/factory`));
   assert.ok(urls.includes(`${configuredSiteUrl}/contact`));
   assert.equal(urls.some((url) => new URL(url).pathname.startsWith("/en/")), false);
-  assert.equal(urls.some((url) => /^\/(pt|es|de|fr|it|nl|ru|ar|ja|ko)(\/|$)/.test(new URL(url).pathname)), false);
+  assert.equal(urls.some((url) => /^\/(es|de|fr|it|nl|ru|ar|ja|ko)(\/|$)/.test(new URL(url).pathname)), false);
 });

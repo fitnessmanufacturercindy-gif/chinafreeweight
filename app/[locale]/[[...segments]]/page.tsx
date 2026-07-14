@@ -11,6 +11,13 @@ type LocalizedPageProps = {
   params: Promise<{ locale: string; segments?: string[] }>;
 };
 
+export function generateStaticParams() {
+  return contentRepository.listPublished({ locale: "pt-BR" }).map(({ version }) => ({
+    locale: "pt",
+    segments: version.publicPath.split("/").filter(Boolean).slice(1)
+  }));
+}
+
 function pathFromParams(locale: string, segments: string[] | undefined): string {
   return `/${[locale, ...(segments ?? [])].join("/")}`;
 }

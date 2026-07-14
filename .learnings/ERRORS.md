@@ -267,3 +267,33 @@ Use Vercel deployment inspection to confirm build readiness and open the Preview
 - Reproducible: yes
 - Related files: none
 - Tags: vercel, preview, network, timeout
+
+## 2026-07-14 — apply_patch context mismatch after route moves
+
+- **Failure:** A multi-file patch could not match `app/(en)/layout.tsx` after earlier route moves and mixed line-ending/encoding changes.
+- **Impact:** The patch was atomic and made no changes.
+- **Prevention:** For already-moved files with unstable context, replace the complete file with `apply_patch` instead of relying on a large contextual hunk.
+
+## 2026-07-14 — stale Next.js generated route types after route-group migration
+
+- **Failure:** `npm run typecheck` read `.next/types` generated before English pages were moved into `app/(en)` and reported missing old route modules.
+- **Impact:** The check could not yet evaluate the current route graph reliably.
+- **Prevention:** Regenerate Next.js route types with a fresh build after structural App Router moves, then rerun the standalone typecheck.
+
+## 2026-07-14 — PowerShell regex quoting split an rg pattern
+
+- **Failure:** A double-quoted alternation pattern was split by PowerShell and treated as invalid filenames.
+- **Impact:** Only the diagnostic search failed; no files changed.
+- **Prevention:** Use `Select-String` with literal PowerShell quoting or separate `rg` patterns when paths/patterns contain quotes and pipes.
+
+## 2026-07-14 — local production server port already occupied
+
+- **Failure:** `next start` could not bind to `127.0.0.1:3000` (`EADDRINUSE`).
+- **Impact:** No user process was stopped and no site state changed.
+- **Prevention:** Start isolated verification servers on an explicitly selected alternate port, such as 3100.
+
+## 2026-07-14 — mobile language switcher hidden by inherited navigation rule
+
+- **Failure:** Browser smoke testing found `.topbar nav { display: none }` also hid the language selector at widths below 900px.
+- **Impact:** Desktop switching worked, but mobile users could not see English/Português.
+- **Prevention:** Give utility navigation inside the top bar an explicit responsive override and keep a mobile viewport assertion in the browser smoke test.

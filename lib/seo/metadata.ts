@@ -55,7 +55,8 @@ export function buildLocalizedMetadata(
       title: version.title,
       description: version.description,
       url: canonical,
-      locale: definition.internalLocale.replace("-", "_")
+      locale: definition.internalLocale.replace("-", "_"),
+      images: version.images[0] ? [{ url: absoluteUrl(siteUrl, version.images[0].src), alt: version.images[0].alt }] : undefined
     },
     twitter: {
       card: version.images.length ? "summary_large_image" : "summary",

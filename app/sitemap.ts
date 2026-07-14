@@ -51,5 +51,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...seoLandingRoutes.map((path) => entry(path, 0.74, "monthly"))
   ];
 
-  return [...englishSitemap, ...buildPublishedSitemap(contentRepository, siteUrl)];
+  const localizedSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" });
+  return [...englishSitemap, ...localizedSitemap];
 }
