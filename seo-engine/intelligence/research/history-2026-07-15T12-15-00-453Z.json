@@ -1,0 +1,21 @@
+{
+  "seedKeyword": "dumbbell",
+  "date": "2026-07-15T12:15:00.453Z",
+  "apisUsed": [
+    "Keywords Data API - Related Keywords",
+    "Keywords Data API - Keyword Suggestions",
+    "SERP API - Google Organic Advanced",
+    "Content Analysis API - Search",
+    "OnPage API - Instant Pages",
+    "OnPage API - Content Parsing",
+    "OnPage API - Instant Pages",
+    "OnPage API - Content Parsing",
+    "OnPage API - Instant Pages",
+    "OnPage API - Content Parsing",
+    "Backlinks API - Bulk Pages Summary",
+    "Domain Analytics API - Whois Overview"
+  ],
+  "totalCost": 0.428936,
+  "resultCount": 80,
+  "reportPath": "seo-engine/intelligence/research/dataforseo-research-2026-07-15T12-15-00-453Z.json"
+}
