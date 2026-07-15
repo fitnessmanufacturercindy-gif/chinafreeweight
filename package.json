@@ -4,7 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
+    "prebuild": "node scripts/validate-customer-visible-content.mjs --source",
     "build": "next build",
+    "postbuild": "node scripts/validate-customer-visible-content.mjs --html",
+    "validate:customer-visible": "node scripts/validate-customer-visible-content.mjs --source --html",
     "start": "next start --hostname 127.0.0.1"
   },
   "browserslist": [
