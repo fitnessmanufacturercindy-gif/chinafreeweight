@@ -16,6 +16,7 @@ export type SeoRoute = {
 
 export const staticSeoRoutes: SeoRoute[] = [
   { path: "/", type: "static", title: "PowerBaseFit", image: "/assets/hero-poster.avif" },
+  { path: "/products", type: "static", title: "Free Weight Equipment Products", image: "/assets/hero-poster.avif" },
   { path: "/products/dumbbells", type: "static", title: "Commercial Dumbbells", image: "/assets/hex-dumbbells.avif" },
   { path: "/products/weight-plates", type: "static", title: "Commercial Weight Plates", image: "/assets/weight-plate.avif" },
   { path: "/products/racks-benches", type: "static", title: "Racks and Benches", image: "/assets/racks-benches.avif" },

@@ -10,6 +10,7 @@ import { buildPublishedSitemap } from "../lib/seo/sitemap";
 
 const staticRoutes = [
   { path: "", priority: 1 },
+  { path: "/products", priority: 0.92 },
   { path: "/products/dumbbells", priority: 0.9 },
   { path: "/products/weight-plates", priority: 0.9 },
   { path: "/products/racks-benches", priority: 0.86 },
