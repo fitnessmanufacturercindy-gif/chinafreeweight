@@ -19,13 +19,40 @@ const removeSectionHeadings = [
   "Search Intent",
   "Buyer Intent",
   "Source Opportunity",
-  "Draft Review"
+  "Draft Review",
+  "Publishing Decision",
+  "Product Context",
+  "Quality Score",
+  "Internal Image Notes",
+  "Image Asset Metadata"
 ];
 const hiddenHeadingLabels = new Set(["Hero", "Expert Insight"]);
 const customerVisibleForbidden = [
+  "title:",
+  "meta_description:",
+  "slug:",
+  "primary_keyword:",
+  "secondary_keyword:",
+  "search_intent:",
+  "buyer_intent:",
+  "publishing_decision:",
+  "product_context:",
+  "quality_score:",
+  "internal_notes:",
+  "draft:",
+  "Draft Review:",
+  "Image Plan:",
+  "Missing Evidence:",
+  "Status: Missing:",
+  "Content Strategy:",
+  "Generation Notes:",
   "Describe",
   "Explain",
   "Answer this",
+  "synthetic_visual",
+  "ai_generated_visual",
+  "Image Asset Metadata",
+  "Internal image notes",
   "Missing Evidence",
   "Image Plan",
   "Internal Notes",
@@ -38,7 +65,7 @@ const customerVisibleForbidden = [
 function readLanding(slug: string) {
   const filePath = path.join(contentDir, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, "utf8").replace(/\r\n/g, "\n");
+  const raw = fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
   const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   const data: Record<string, string> = {};
   if (match) {

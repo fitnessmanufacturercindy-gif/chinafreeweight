@@ -110,6 +110,7 @@ const fallbackVisuals = {
 };
 
 function readFrontmatter(source: string) {
+  source = source.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
   const match = source.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
 
   if (!match) {
