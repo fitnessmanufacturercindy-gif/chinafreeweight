@@ -1,7 +1,7 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
-import AnalyticsEvents from "./AnalyticsEvents";
+import DelayedAnalyticsEvents from "./DelayedAnalyticsEvents";
+import GoogleAnalyticsLoader from "./GoogleAnalyticsLoader";
 import WhatsAppButton from "./WhatsAppButton";
-import { organizationJsonLd } from "../site";
+import { localBusinessJsonLd, organizationJsonLd, websiteJsonLd } from "../site";
 import "../globals.css";
 
 type RootDocumentProps = {
@@ -39,13 +39,15 @@ export default function RootDocument({
       </head>
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }} />
         {header}
         {children}
         {footer}
         <WhatsAppButton label={whatsAppLabel} message={whatsAppMessage} />
-        <AnalyticsEvents />
+        <DelayedAnalyticsEvents />
+        <GoogleAnalyticsLoader measurementId={gaMeasurementId} />
       </body>
-      {gaMeasurementId ? <GoogleAnalytics gaId={gaMeasurementId} /> : null}
     </html>
   );
 }

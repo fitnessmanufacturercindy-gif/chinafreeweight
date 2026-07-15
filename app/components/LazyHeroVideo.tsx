@@ -1,86 +1,24 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
-type IdleWindow = Window &
-  typeof globalThis & {
-    requestIdleCallback?: (callback: () => void) => number;
-    cancelIdleCallback?: (handle: number) => void;
-  };
+import DeferredHeroVideo from "./DeferredHeroVideo";
 
 export default function LazyHeroVideo() {
-  const [canPlayVideo, setCanPlayVideo] = useState(false);
-
-  useEffect(() => {
-    const win = window as IdleWindow;
-    const isDesktop = win.matchMedia("(min-width: 900px)").matches;
-    const allowsMotion = !win.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    if (!isDesktop || !allowsMotion) {
-      return;
-    }
-
-    let idleId: number | undefined;
-    let requested = false;
-    const interactionEvents = ["pointermove", "pointerdown", "keydown", "scroll"] as const;
-    const removeInteractionListeners = () => {
-      interactionEvents.forEach((eventName) => {
-        window.removeEventListener(eventName, showVideo);
-      });
-    };
-    const showVideo = () => {
-      if (requested) {
-        return;
-      }
-      requested = true;
-      removeInteractionListeners();
-      if (win.requestIdleCallback) {
-        idleId = win.requestIdleCallback(() => setCanPlayVideo(true));
-      } else {
-        setCanPlayVideo(true);
-      }
-    };
-
-    interactionEvents.forEach((eventName) => {
-      window.addEventListener(eventName, showVideo, { once: true, passive: true });
-    });
-
-    return () => {
-      removeInteractionListeners();
-      if (idleId !== undefined) {
-        win.cancelIdleCallback?.(idleId);
-      }
-    };
-  }, []);
-
   return (
     <div className="hero-video-layer" aria-hidden="true">
-      {canPlayVideo ? (
-        <>
-          <video
-            className="hero-bg-video hero-bg-video-one"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/assets/hero-poster.webp"
-          >
-            <source src="/assets/banner.mp4" type="video/mp4" />
-          </video>
-          <video
-            className="hero-bg-video hero-bg-video-two"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster="/assets/hero-poster.webp"
-          >
-            <source src="/assets/hero-loop-2.mp4" type="video/mp4" />
-          </video>
-        </>
-      ) : null}
+      <picture className="hero-poster-picture">
+        <source media="(max-width: 700px)" srcSet="/assets/hero-poster-mobile.avif" type="image/avif" />
+        <source media="(max-width: 700px)" srcSet="/assets/hero-poster-mobile.webp" type="image/webp" />
+        <source srcSet="/assets/hero-poster.avif" type="image/avif" />
+        <img
+          className="hero-poster-image"
+          src="/assets/hero-poster.webp"
+          alt=""
+          width={1920}
+          height={1080}
+          fetchPriority="high"
+          loading="eager"
+          decoding="sync"
+        />
+      </picture>
+      <DeferredHeroVideo />
     </div>
   );
 }

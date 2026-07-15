@@ -5,7 +5,7 @@ export default function SiteHeader() {
   return (
     <header className="topbar global-topbar">
       <a className="brand" href="/">
-        <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+        <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
       </a>
       <nav className="main-nav" aria-label="Primary navigation">
         <MegaMenu />

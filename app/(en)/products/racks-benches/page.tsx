@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { ArrowRight, CheckCircle2, Factory, Globe2, Home, PackageCheck, ShieldCheck, Wrench } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
 import { racksBenchesProducts } from "../../../products/racks-benches/productData";
@@ -40,7 +40,7 @@ export default function RacksBenchesPage() {
     <main className="product-page racks-benches-page">
       <header className="products-header">
         <a className="products-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label="Racks and benches navigation">
           <MegaMenu />

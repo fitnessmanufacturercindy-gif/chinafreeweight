@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import {
   ArrowRight,
   Boxes,
@@ -401,11 +401,11 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        <img className="footer-logo" src="/assets/logo-readable.png" alt="PowerBaseFit" />
+        <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
           <span>Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China</span>
-          <span>Since 2008 · 8,000 m2 factory · Europe and USA export markets</span>
+          <span>Since 2008 路 8,000 m2 factory 路 Europe and USA export markets</span>
         </div>
         <div className="footer-links">
           <a href="#products">Products</a>

@@ -6,7 +6,7 @@ export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale
 
   return (
     <header className="topbar global-topbar">
-      <a className="brand" href="/pt"><img src="/assets/logo-readable.png" alt="PowerBaseFit" /></a>
+      <a className="brand" href="/pt"><img src="/assets/logo-readable.webp" alt="PowerBaseFit" /></a>
       <nav className="main-nav" aria-label="Navegação principal">
         <a href="/pt/produtos/halteres">Halteres</a>
         <a href="/pt/produtos/anilhas">Anilhas</a>
