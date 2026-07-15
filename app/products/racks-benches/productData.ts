@@ -35,7 +35,7 @@ function product(
     name,
     type,
     range,
-    image: `${basePath}/${slug}.jpg`,
+    image: `${basePath}/${slug}.webp`,
     copy,
     material:
       "Heavy-duty steel frame, precision-drilled uprights, reinforced welding points, durable powder coating, chrome sleeves or guide rods where required, and commercial-grade hardware.",

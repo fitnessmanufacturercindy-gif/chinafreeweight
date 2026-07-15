@@ -44,32 +44,32 @@ const trustStats = [
 
 const heroSlides = [
   {
-    image: "/assets/factory.png",
+    image: "/assets/factory.webp",
     label: "Factory Base",
     alt: "PowerBaseFit factory exterior in China"
   },
   {
-    image: "/assets/factory-process/dumbbell-cutting.jpg",
+    image: "/assets/factory-process/dumbbell-cutting.webp",
     label: "Workshop Production",
     alt: "Free weight workshop production and machining"
   },
   {
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.webp",
     label: "Container Shipping",
     alt: "Container shipping for gym equipment export orders"
   }
 ];
 
 const exhibitionSlides = [
-  "/assets/exhibitions/pbf-exhibition-01.png",
-  "/assets/exhibitions/pbf-exhibition-02.png",
-  "/assets/exhibitions/pbf-exhibition-03.png",
-  "/assets/exhibitions/pbf-exhibition-04.png",
-  "/assets/exhibitions/pbf-exhibition-05.png",
-  "/assets/exhibitions/pbf-exhibition-06.png",
-  "/assets/exhibitions/pbf-exhibition-07.png",
-  "/assets/exhibitions/pbf-exhibition-08.png",
-  "/assets/exhibitions/pbf-exhibition-team.png"
+  "/assets/exhibitions/pbf-exhibition-01.webp",
+  "/assets/exhibitions/pbf-exhibition-02.webp",
+  "/assets/exhibitions/pbf-exhibition-03.webp",
+  "/assets/exhibitions/pbf-exhibition-04.webp",
+  "/assets/exhibitions/pbf-exhibition-05.webp",
+  "/assets/exhibitions/pbf-exhibition-06.webp",
+  "/assets/exhibitions/pbf-exhibition-07.webp",
+  "/assets/exhibitions/pbf-exhibition-08.webp",
+  "/assets/exhibitions/pbf-exhibition-team.webp"
 ];
 
 const markets = [
@@ -132,32 +132,32 @@ const faqs = [
 const workshopImages = [
   {
     title: "Raw Material Area",
-    image: "/assets/factory-process/dumbbell-material.jpg",
+    image: "/assets/factory-process/dumbbell-material.webp",
     copy: "Real factory footage frame showing dumbbell material preparation before machining and production."
   },
   {
     title: "Precision Cutting Line",
-    image: "/assets/factory-process/dumbbell-cutting.jpg",
+    image: "/assets/factory-process/dumbbell-cutting.webp",
     copy: "Workshop process image from dumbbell cutting and precision manufacturing equipment."
   },
   {
     title: "Surface Treatment",
-    image: "/assets/factory-process/plate-surface-treatment.jpg",
+    image: "/assets/factory-process/plate-surface-treatment.webp",
     copy: "Weight plate surface treatment and finishing workflow before quality inspection."
   },
   {
     title: "Detail Polishing",
-    image: "/assets/factory-process/detail-polishing-video.jpg",
+    image: "/assets/factory-process/detail-polishing-video.webp",
     copy: "Close-up detail polishing for weight plates, edges, and product finish consistency."
   },
   {
     title: "Export Packaging",
-    image: "/assets/factory-cases/packaging-area-pbf.png",
+    image: "/assets/factory-cases/packaging-area-pbf.webp",
     copy: "Protected packing, cartons, pallets, and export preparation for free weight orders."
   },
   {
     title: "Container Shipping",
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.webp",
     copy: "Container loading and shipment preparation for global gym equipment buyers."
   }
 ];
@@ -173,6 +173,9 @@ export default function FactoryPage() {
               className={`hero-slide hero-slide-${index + 1}`}
               src={slide.image}
               alt={slide.alt}
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "auto"}
+              decoding="async"
             />
           ))}
         </div>
@@ -240,7 +243,7 @@ export default function FactoryPage() {
           <div className="exhibition-track">
             {[...exhibitionSlides, ...exhibitionSlides].map((image, index) => (
               <figure key={`${image}-${index}`}>
-                <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" />
+                <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" loading="lazy" decoding="async" />
               </figure>
             ))}
           </div>
@@ -288,7 +291,7 @@ export default function FactoryPage() {
         </div>
         <div className="oem-image">
           <div className="image-shell">
-            <img src="/assets/factory-cases/pbf-squat-rack-chrome-plates.png" alt="Commercial gym squat racks with PBF chrome electroplated weight plates" />
+            <img src="/assets/factory-cases/pbf-squat-rack-chrome-plates.webp" alt="Commercial gym squat racks with PBF chrome electroplated weight plates" loading="lazy" decoding="async" />
           </div>
         </div>
       </section>
@@ -306,7 +309,7 @@ export default function FactoryPage() {
           {workshopImages.map((item) => (
             <article key={item.title}>
               <div className="image-shell">
-                <img src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
               </div>
               <div>
                 <h3>{item.title}</h3>
@@ -954,18 +957,43 @@ export default function FactoryPage() {
 
           .factory-hero {
             min-height: auto;
-            padding: 96px 22px 82px;
+            padding: 42px 18px 40px;
+          }
+
+          .hero-slide {
+            animation: none;
+            opacity: 1;
+            transform: none;
+          }
+
+          .hero-slide:not(:first-child) {
+            display: none;
+          }
+
+          .hero-mask {
+            background:
+              linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.74) 62%, rgba(0, 0, 0, 0.52) 100%),
+              linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.08) 45%, #070707 100%);
+          }
+
+          .factory-hero-copy {
+            padding: 0;
           }
 
           .factory-hero h1 {
-            font-size: 47px;
+            margin-top: 12px;
+            margin-bottom: 18px;
+            font-size: clamp(28px, 7.9vw, 32px);
+            line-height: 1.08;
+            overflow-wrap: anywhere;
           }
 
           .factory-hero p,
           .section-heading p,
           .oem-copy p,
           .factory-cta p {
-            font-size: 18px;
+            font-size: 15px;
+            line-height: 1.5;
           }
 
           .oem-image,
@@ -976,6 +1004,7 @@ export default function FactoryPage() {
 
           .hero-slide-labels {
             grid-template-columns: 1fr;
+            margin-top: 22px;
           }
 
           .trust-grid,

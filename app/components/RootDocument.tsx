@@ -30,6 +30,7 @@ export default function RootDocument({
   return (
     <html lang={lang} dir={direction}>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         {preloadEnglishHero ? (
           <>
             <link rel="preload" as="image" href="/assets/hero-poster.avif" type="image/avif" media="(min-width: 701px)" fetchPriority="high" />

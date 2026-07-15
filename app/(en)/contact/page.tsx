@@ -74,7 +74,7 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="hero-card">
-          <img src="/assets/project-dumbbell-zone.png" alt="Commercial gym free weight area" />
+          <img src="/assets/project-dumbbell-zone.webp" alt="Commercial gym free weight area" loading="eager" decoding="async" />
           <div>
             <strong>12h response</strong>
             <span>For importers, distributors, gym projects and OEM brands</span>
@@ -176,6 +176,7 @@ export default function ContactPage() {
           <iframe
             title="Manufacturing & Export Base on OpenStreetMap"
             src="https://www.openstreetmap.org/export/embed.html?bbox=116.775%2C37.618%2C116.825%2C37.655&layer=mapnik&marker=37.631564%2C116.790819"
+            loading="lazy"
           />
           <a
             href="https://www.openstreetmap.org/?mlat=37.631564&mlon=116.790819#map=15/37.631564/116.790819"
@@ -398,7 +399,7 @@ export default function ContactPage() {
           border: 1px solid rgba(241, 199, 107, 0.22);
           background:
             linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025)),
-            url("/assets/resource-cnc-machining.png") center / cover;
+            url("/assets/resource-cnc-machining.webp") center / cover;
           overflow: hidden;
         }
 

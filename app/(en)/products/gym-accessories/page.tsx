@@ -66,9 +66,9 @@ export default function GymAccessoriesPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Gym accessories product preview">
-          <img src="/assets/products/gym-accessories/cast-iron-kettlebell.jpg" alt="Cast iron kettlebell from gym accessories manufacturer" />
-          <img src="/assets/products/gym-accessories/bosu-ball.jpg" alt="Bosu ball balance trainer for fitness accessories supply" />
-          <img src="/assets/products/gym-accessories/tpe-yoga-mat.jpg" alt="TPE yoga mat for gym accessory programs" />
+          <img src="/assets/products/gym-accessories/cast-iron-kettlebell.webp" alt="Cast iron kettlebell from gym accessories manufacturer" loading="eager" fetchPriority="high" decoding="async" />
+          <img src="/assets/products/gym-accessories/bosu-ball.webp" alt="Bosu ball balance trainer for fitness accessories supply" loading="lazy" decoding="async" />
+          <img src="/assets/products/gym-accessories/tpe-yoga-mat.webp" alt="TPE yoga mat for gym accessory programs" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -161,7 +161,7 @@ export default function GymAccessoriesPage() {
           {gymAccessoryProducts.map((product) => (
             <article className="dumbbell-card" key={product.slug}>
               <a href={`/products/gym-accessories/${product.slug}`} aria-label={`View details for ${product.name}`}>
-                <img src={product.image} alt={`${product.name} from PBF gym accessories manufacturer`} />
+                <img src={product.image} alt={`${product.name} from PBF gym accessories manufacturer`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{product.type}</span>

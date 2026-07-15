@@ -168,8 +168,8 @@ export default function WeightPlateManufacturerPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Weight plate manufacturer product preview">
-          <img src="/assets/products/weight-plates/catalog/rubber-weight-plate.jpg" alt="Rubber coated weight plate detail for B2B sourcing" />
-          <img src="/assets/products/weight-plates/catalog/spray-weight-plate.jpg" alt="Weight plate surface finish and weight marking" />
+          <img src="/assets/products/weight-plates/catalog/rubber-weight-plate.webp" alt="Rubber coated weight plate detail for B2B sourcing" />
+          <img src="/assets/products/weight-plates/catalog/spray-weight-plate.webp" alt="Weight plate surface finish and weight marking" />
           <img src="/assets/weight-plate.avif" alt="Olympic weight plates for commercial gym supply" />
         </div>
       </section>

@@ -81,9 +81,9 @@ export default function DumbbellsPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Dumbbell product preview">
-          <img src="/assets/products/dumbbells/catalog-v2/cpu-dumbbell-full-range.jpg" alt="CPU dumbbell full range" />
-          <img src="/assets/products/dumbbells/catalog-v2/cpu-hexagonal-dumbbell-kg.jpg" alt="CPU hexagonal dumbbell" />
-          <img src="/assets/products/dumbbells/catalog-v2/tpu-dumbbell-kg.jpg" alt="TPU dumbbell" />
+          <img src="/assets/products/dumbbells/catalog-v2/cpu-dumbbell-full-range.webp" alt="CPU dumbbell full range" loading="eager" fetchPriority="high" decoding="async" />
+          <img src="/assets/products/dumbbells/catalog-v2/cpu-hexagonal-dumbbell-kg.webp" alt="CPU hexagonal dumbbell" loading="lazy" decoding="async" />
+          <img src="/assets/products/dumbbells/catalog-v2/tpu-dumbbell-kg.webp" alt="TPU dumbbell" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -121,7 +121,7 @@ export default function DumbbellsPage() {
           {dumbbellProducts.map((product) => (
             <article className="dumbbell-card" key={product.slug}>
               <a href={`/products/dumbbells/${product.slug}`} aria-label={`View details for ${product.name}`}>
-                <img src={product.image} alt={`${product.name} - ${product.range}`} />
+                <img src={product.image} alt={`${product.name} - ${product.range}`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{product.type}</span>

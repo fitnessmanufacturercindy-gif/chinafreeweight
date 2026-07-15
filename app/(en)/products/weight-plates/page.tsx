@@ -65,9 +65,9 @@ export default function WeightPlatesPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Weight plate product preview">
-          <img src="/assets/products/weight-plates/catalog/cpu-bumper-plate.jpg" alt="CPU bumper weight plates for gym projects" />
-          <img src="/assets/products/weight-plates/catalog/tpu-olympic-plate.jpg" alt="TPU Olympic weight plates" />
-          <img src="/assets/products/weight-plates/catalog/rubber-bumper-plate.jpg" alt="Rubber bumper plates for commercial gyms" />
+          <img src="/assets/products/weight-plates/catalog/cpu-bumper-plate.webp" alt="CPU bumper weight plates for gym projects" loading="eager" fetchPriority="high" decoding="async" />
+          <img src="/assets/products/weight-plates/catalog/tpu-olympic-plate.webp" alt="TPU Olympic weight plates" loading="lazy" decoding="async" />
+          <img src="/assets/products/weight-plates/catalog/rubber-bumper-plate.webp" alt="Rubber bumper plates for commercial gyms" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -161,7 +161,7 @@ export default function WeightPlatesPage() {
           {weightPlateProducts.map((product) => (
             <article className="dumbbell-card" key={product.slug}>
               <a href={`/products/weight-plates/${product.slug}`} aria-label={`View details for ${product.name}`}>
-                <img src={product.image} alt={`${product.name} from PBF weight plates manufacturer`} />
+                <img src={product.image} alt={`${product.name} from PBF weight plates manufacturer`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{product.type}</span>

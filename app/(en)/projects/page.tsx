@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Premium Round Dumbbell Zone",
     category: "Commercial Gyms",
-    image: "/assets/projects/round-dumbbell-gym-zone.jpg",
+    image: "/assets/projects/round-dumbbell-gym-zone.webp",
     copy: "Round dumbbell sets arranged on white racks for a clean, premium free weight area.",
     scope: "Round dumbbells, racks, premium display",
     cta: "Request similar setup"
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Commercial Dumbbell Rack Zone",
     category: "Dumbbell Zones",
-    image: "/assets/projects/commercial-dumbbell-rack-zone.jpg",
+    image: "/assets/projects/commercial-dumbbell-rack-zone.webp",
     copy: "Long dumbbell rack layout for high-traffic gyms, fitness clubs, and strength training zones.",
     scope: "Hex dumbbells, racks, gym layout",
     cta: "Plan my dumbbell area"
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Black Hex Dumbbell Project",
     category: "Commercial Gyms",
-    image: "/assets/project-dumbbell-zone.png",
+    image: "/assets/project-dumbbell-zone.webp",
     copy: "High-density black dumbbell zone for commercial gym users and daily strength training.",
     scope: "Hex dumbbells, racks, KG/LB sets",
     cta: "Get gym quote"
@@ -57,7 +57,7 @@ const projects = [
   {
     title: "Weight Plate & Barbell Area",
     category: "Weight Plate Areas",
-    image: "/assets/project-plate-zone.png",
+    image: "/assets/project-plate-zone.webp",
     copy: "Plate-loaded strength area with Olympic bars, storage, platforms, and bumper plate options.",
     scope: "Weight plates, bars, storage",
     cta: "Request plate program"
@@ -65,7 +65,7 @@ const projects = [
   {
     title: "Home Gym Free Weight Room",
     category: "Full Gym Solution",
-    image: "/assets/racks-benches.png",
+    image: "/assets/racks-benches.webp",
     copy: "Compact full gym solution combining racks, benches, dumbbells, and storage for premium spaces.",
     scope: "Rack, bench, chrome dumbbells",
     cta: "Ask for layout"
@@ -73,7 +73,7 @@ const projects = [
   {
     title: "Dealer Product Display",
     category: "Distributor Display",
-    image: "/assets/case-showroom.png",
+    image: "/assets/case-showroom.webp",
     copy: "Free weight product display for distributors, showrooms, and local retail fitness equipment stores.",
     scope: "Dumbbells, plates, display",
     cta: "Request display plan"
@@ -81,7 +81,7 @@ const projects = [
   {
     title: "Premium Product Showroom",
     category: "Distributor Display",
-    image: "/assets/case-gym.png",
+    image: "/assets/case-gym.webp",
     copy: "Chrome dumbbells and weight plates presented for buyers building high-end product lines.",
     scope: "Chrome dumbbells, plates",
     cta: "View product options"
@@ -89,7 +89,7 @@ const projects = [
   {
     title: "Gym Accessories Add-on Program",
     category: "OEM Brand",
-    image: "/assets/gym-accessories.png",
+    image: "/assets/gym-accessories.webp",
     copy: "Handles, bars, collars, kettlebells, ropes, and attachments for container add-on sales.",
     scope: "Accessories, kettlebells, handles",
     cta: "Send accessory list"
@@ -97,7 +97,7 @@ const projects = [
   {
     title: "Private Label Dumbbell Program",
     category: "OEM Brand",
-    image: "/assets/hex-dumbbells.png",
+    image: "/assets/hex-dumbbells.webp",
     copy: "Logo, weight markings, packaging, and product range planning for private label dumbbell buyers.",
     scope: "Custom logo, color, packaging",
     cta: "Start OEM project"
@@ -105,7 +105,7 @@ const projects = [
   {
     title: "Weight Plate Product Program",
     category: "Weight Plate Areas",
-    image: "/assets/weight-plate.jpg",
+    image: "/assets/weight-plate.webp",
     copy: "Rubber plates, bumper plates, and mixed plate sets for gyms, dealers, and wholesale orders.",
     scope: "Weight plates, bumper plates",
     cta: "Ask plate catalog"
@@ -113,7 +113,7 @@ const projects = [
   {
     title: "OEM Packaging Project",
     category: "Packing & Shipping",
-    image: "/assets/factory-cases/packaging-area-pbf.png",
+    image: "/assets/factory-cases/packaging-area-pbf.webp",
     copy: "Carton, pallet, logo packaging, and shipment inspection support for export fitness products.",
     scope: "Packaging, pallet, inspection",
     cta: "Request packaging plan"
@@ -121,7 +121,7 @@ const projects = [
   {
     title: "Mixed Container Export Order",
     category: "Packing & Shipping",
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.webp",
     copy: "Mixed container planning for dumbbells, plates, racks, benches, accessories, and export delivery.",
     scope: "Mixed container, shipping",
     cta: "Plan my container"
@@ -261,7 +261,7 @@ export default function ProjectsPage() {
 
         <div className="featured-project">
           <a className="featured-image" href="/contact" aria-label="Request a similar commercial free weight project">
-            <img src="/assets/projects/commercial-dumbbell-rack-zone.jpg" alt="Commercial dumbbell rack zone project" />
+            <img src="/assets/projects/commercial-dumbbell-rack-zone.webp" alt="Commercial dumbbell rack zone project" />
           </a>
           <div className="featured-copy">
             <span>Featured project</span>
@@ -480,7 +480,7 @@ export default function ProjectsPage() {
           border: 1px solid rgba(241, 199, 107, 0.22);
           background:
             linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.7) 38%, rgba(0, 0, 0, 0.18) 100%),
-            url("/assets/factory-cases/pbf-squat-rack-chrome-plates.png") center / cover;
+            url("/assets/factory-cases/pbf-squat-rack-chrome-plates.webp") center / cover;
           box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
         }
 
