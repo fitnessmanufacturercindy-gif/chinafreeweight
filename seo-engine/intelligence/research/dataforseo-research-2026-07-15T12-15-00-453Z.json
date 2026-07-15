@@ -1,0 +1,1435 @@
+{
+  "version": "dataforseo-research-engine-v1",
+  "seedKeyword": "dumbbell",
+  "country": "United States",
+  "language": "English",
+  "generatedAt": "2026-07-15T12:15:00.453Z",
+  "status": "success",
+  "apiUsage": [
+    {
+      "apiName": "Keywords Data API - Related Keywords",
+      "endpoint": "/v3/dataforseo_labs/google/related_keywords/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.02592,
+      "responseTimeMs": 461,
+      "errorReason": ""
+    },
+    {
+      "apiName": "Keywords Data API - Keyword Suggestions",
+      "endpoint": "/v3/dataforseo_labs/google/keyword_suggestions/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.036,
+      "responseTimeMs": 930,
+      "errorReason": ""
+    },
+    {
+      "apiName": "SERP API - Google Organic Advanced",
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.008,
+      "responseTimeMs": 3220,
+      "errorReason": ""
+    },
+    {
+      "apiName": "Content Analysis API - Search",
+      "endpoint": "/v3/content_analysis/search/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.04944,
+      "responseTimeMs": 9124,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Instant Pages",
+      "endpoint": "/v3/on_page/instant_pages",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 1019,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Content Parsing",
+      "endpoint": "/v3/on_page/content_parsing/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 893,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Instant Pages",
+      "endpoint": "/v3/on_page/instant_pages",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 341,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Content Parsing",
+      "endpoint": "/v3/on_page/content_parsing/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 246,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Instant Pages",
+      "endpoint": "/v3/on_page/instant_pages",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 2658,
+      "errorReason": ""
+    },
+    {
+      "apiName": "OnPage API - Content Parsing",
+      "endpoint": "/v3/on_page/content_parsing/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.0003,
+      "responseTimeMs": 2167,
+      "errorReason": ""
+    },
+    {
+      "apiName": "Backlinks API - Bulk Pages Summary",
+      "endpoint": "/v3/backlinks/bulk_pages_summary/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.048576,
+      "responseTimeMs": 7497,
+      "errorReason": ""
+    },
+    {
+      "apiName": "Domain Analytics API - Whois Overview",
+      "endpoint": "/v3/domain_analytics/whois/overview/live",
+      "status": "success",
+      "httpStatus": 200,
+      "dataForSeoStatusCode": 20000,
+      "dataForSeoStatusMessage": "Ok.",
+      "requestCount": 1,
+      "cost": 0.2592,
+      "responseTimeMs": 926,
+      "errorReason": ""
+    }
+  ],
+  "totalCost": 0.428936,
+  "totals": {
+    "keywordsCount": 57,
+    "longTailCount": 43,
+    "questionsCount": 4,
+    "serpResults": 10,
+    "competitors": 8,
+    "contentGap": 1
+  },
+  "keywords": [
+    {
+      "keyword": "dumbbell",
+      "searchVolume": 201000,
+      "cpc": 1.11,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "hammer curls dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell dumbell",
+      "searchVolume": 201000,
+      "cpc": 1.11,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell dumbbells",
+      "searchVolume": 201000,
+      "cpc": 1.11,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer curl dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.32,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell dumbbell",
+      "searchVolume": 201000,
+      "cpc": 1.06,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press for shoulders",
+      "searchVolume": 201000,
+      "cpc": 0.55,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder press with dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.55,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer dumbbell curls",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer dumbbell curl",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder presses",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell bench press",
+      "searchVolume": 165000,
+      "cpc": 0.81,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder presses dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell presses",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell overhead press shoulders",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell chest press incline",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press for shoulder",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline bench press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press shoulders",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline bench dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder to shoulder press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.81,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder overhead press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline bench press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulders press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder to overhead press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press shoulder",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press incline",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline chest press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline bench presses",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell chest press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "rows dumbbell",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "row with dumbbell",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "row dumbbell",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell rows",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell row",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bench dumbbell press",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "lateral dumbbell raises",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell and bench press",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell lat raises",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell bench presses",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bench press and dumbbell",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bicep dumbbell curl",
+      "searchVolume": 110000,
+      "cpc": 0.34,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "adjustable dumbbell",
+      "searchVolume": 110000,
+      "cpc": 1.96,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell lateral raise",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell set",
+      "searchVolume": 60500,
+      "cpc": 1.44,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbell workout",
+      "searchVolume": 27100,
+      "cpc": 0.23,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbell for sale",
+      "searchVolume": 9900,
+      "cpc": 1.47,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbells adjustable",
+      "searchVolume": 2400,
+      "cpc": 1.61,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbell set with rack 5-50",
+      "searchVolume": 1900,
+      "cpc": 1.92,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbells academy",
+      "searchVolume": 1300,
+      "cpc": 0.48,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbells pair",
+      "searchVolume": 480,
+      "cpc": 0.75,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    }
+  ],
+  "longTailKeywords": [
+    {
+      "keyword": "hammer curls dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer curl dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.32,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press for shoulders",
+      "searchVolume": 201000,
+      "cpc": 0.55,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder press with dumbbell",
+      "searchVolume": 201000,
+      "cpc": 0.55,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer dumbbell curls",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "hammer dumbbell curl",
+      "searchVolume": 201000,
+      "cpc": 0.17,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder presses",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell bench press",
+      "searchVolume": 165000,
+      "cpc": 0.81,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder presses dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell presses",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell overhead press shoulders",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell chest press incline",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press for shoulder",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline bench press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press shoulders",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline bench dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder to shoulder press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.81,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder overhead press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline bench press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulders press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell shoulder to overhead press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder press dumbbell",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press shoulder",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell press incline",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "shoulder dumbbell press",
+      "searchVolume": 165000,
+      "cpc": 0.7,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline chest press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell incline bench presses",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "incline dumbbell chest press",
+      "searchVolume": 165000,
+      "cpc": 0.77,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "row with dumbbell",
+      "searchVolume": 135000,
+      "cpc": 0.3,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bench dumbbell press",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "lateral dumbbell raises",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell and bench press",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell lat raises",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell bench presses",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bench press and dumbbell",
+      "searchVolume": 110000,
+      "cpc": 0.76,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "bicep dumbbell curl",
+      "searchVolume": 110000,
+      "cpc": 0.34,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell lateral raise",
+      "searchVolume": 110000,
+      "cpc": 0.2,
+      "competition": "暂不可用",
+      "source": "DataForSEO Keyword Suggestions"
+    },
+    {
+      "keyword": "dumbbell for sale",
+      "searchVolume": 9900,
+      "cpc": 1.47,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    },
+    {
+      "keyword": "dumbbell set with rack 5-50",
+      "searchVolume": 1900,
+      "cpc": 1.92,
+      "competition": "暂不可用",
+      "source": "DataForSEO Related Keywords"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Is it dumbell or dumbbell?",
+      "relatedKeyword": "dumbbell",
+      "source": "DataForSEO People Also Ask"
+    },
+    {
+      "question": "Do dumbbells help with bone density?",
+      "relatedKeyword": "dumbbell",
+      "source": "DataForSEO People Also Ask"
+    },
+    {
+      "question": "Why is it called a dumbbell?",
+      "relatedKeyword": "dumbbell",
+      "source": "DataForSEO People Also Ask"
+    },
+    {
+      "question": "Can I build muscle with only dumbbells?",
+      "relatedKeyword": "dumbbell",
+      "source": "DataForSEO People Also Ask"
+    }
+  ],
+  "serpResults": [
+    {
+      "position": 1,
+      "title": "Home Dumbbell Set",
+      "url": "https://betterbodyequipped.com/collections/dumbbells",
+      "domain": "betterbodyequipped.com",
+      "type": "organic"
+    },
+    {
+      "position": 2,
+      "title": "Dumbbell",
+      "url": "https://en.wikipedia.org/wiki/Dumbbell",
+      "domain": "en.wikipedia.org",
+      "type": "organic"
+    },
+    {
+      "position": 3,
+      "title": "Dumbbells & Sets | Weight Lifting Equipment",
+      "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOorHszcVbqduOzSq7d1_cGutkOpPjEeBpjYweLn7ZQWRxdwfWLLe",
+      "domain": "yorkbarbell.com",
+      "type": "organic"
+    },
+    {
+      "position": 4,
+      "title": "Dumbbell Sets",
+      "url": "https://thefitnessstore.com/collections/dumbbells?srsltid=AfmBOoqwfAShqCFXR-km-FFFhaUL94f1spjbAzEZpJnssprF0YpnA1n3",
+      "domain": "thefitnessstore.com",
+      "type": "organic"
+    },
+    {
+      "position": 5,
+      "title": "10 Dumbbell Exercises in 10 Minutes | SilverSneakers",
+      "url": "https://www.youtube.com/watch?v=cEy5odm-q7Y&vl=en",
+      "domain": "youtube.com",
+      "type": "organic"
+    },
+    {
+      "position": 6,
+      "title": "Dumbbells Direct - Shop online for all your fitness equipment ...",
+      "url": "https://dumbbellsdirect.com/?srsltid=AfmBOorzfjbysi04ciH1kOHXXCfLvktjCpgpogOfAjh0-v8rgBbSq3Bl",
+      "domain": "dumbbellsdirect.com",
+      "type": "organic"
+    },
+    {
+      "position": 7,
+      "title": "Dumbbells",
+      "url": "https://www.amazon.com/dumbbells/s?k=dumbbells",
+      "domain": "amazon.com",
+      "type": "organic"
+    },
+    {
+      "position": 8,
+      "title": "Workout at Home for Beginners (DUMBBELLS ONLY)",
+      "url": "https://www.youtube.com/watch?v=H9vwqwN69rU",
+      "domain": "youtube.com",
+      "type": "organic"
+    },
+    {
+      "position": 9,
+      "title": "Dumbbells, Weight Sets & Lifting Accessories",
+      "url": "https://www.costco.com/dumbbells-weight-sets-lifting-accessories.html",
+      "domain": "costco.com",
+      "type": "organic"
+    },
+    {
+      "position": 10,
+      "title": "Dumbbells & Dumbbell Sets",
+      "url": "https://titan.fitness/collections/dumbbells",
+      "domain": "titan.fitness",
+      "type": "organic"
+    }
+  ],
+  "serpFeatures": [
+    "popular_products",
+    "organic",
+    "people_also_ask",
+    "product_considerations",
+    "perspectives",
+    "images",
+    "related_searches"
+  ],
+  "competitors": [
+    {
+      "domain": "betterbodyequipped.com",
+      "rankingUrls": [
+        "https://betterbodyequipped.com/collections/dumbbells"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "en.wikipedia.org",
+      "rankingUrls": [
+        "https://en.wikipedia.org/wiki/Dumbbell"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "yorkbarbell.com",
+      "rankingUrls": [
+        "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOorHszcVbqduOzSq7d1_cGutkOpPjEeBpjYweLn7ZQWRxdwfWLLe"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "thefitnessstore.com",
+      "rankingUrls": [
+        "https://thefitnessstore.com/collections/dumbbells?srsltid=AfmBOoqwfAShqCFXR-km-FFFhaUL94f1spjbAzEZpJnssprF0YpnA1n3"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "youtube.com",
+      "rankingUrls": [
+        "https://www.youtube.com/watch?v=cEy5odm-q7Y&vl=en",
+        "https://www.youtube.com/watch?v=H9vwqwN69rU"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "dumbbellsdirect.com",
+      "rankingUrls": [
+        "https://dumbbellsdirect.com/?srsltid=AfmBOorzfjbysi04ciH1kOHXXCfLvktjCpgpogOfAjh0-v8rgBbSq3Bl"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "amazon.com",
+      "rankingUrls": [
+        "https://www.amazon.com/dumbbells/s?k=dumbbells"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    },
+    {
+      "domain": "costco.com",
+      "rankingUrls": [
+        "https://www.costco.com/dumbbells-weight-sets-lifting-accessories.html"
+      ],
+      "backlinkCount": null,
+      "referringDomains": null,
+      "domainAnalyticsStatus": "Domain Analytics API returned data"
+    }
+  ],
+  "contentGaps": [
+    {
+      "topic": "dumbbell",
+      "importantTerms": [
+        "dumbbell"
+      ],
+      "structureSignals": [
+        "content_analysis_search",
+        "URL: https://educandoweb.it/blog/walmart-dumbbell.html",
+        "URL: https://modov.co.uk/dumbbell-sets/",
+        "URL: https://blackbeltwiki.com/dumbbell-row",
+        "URL: https://thangs.com/designer/Dofacopik/3d-model/Heros%20Dumbbell-1339506",
+        "URL: https://jennblahblog.blogspot.com/2022/02/25-pound-dumbbell-workout.html",
+        "URL: https://nordicsport.uk/products/adjustable-dumbbell-dumbbell-set",
+        "URL: https://nordicsport.fi/en/products/adjustable-dumbbell-dumbbell-set",
+        "URL: https://nordicsport.com/products/adjustable-dumbbell-dumbbell-set",
+        "URL: https://nordicsport.com/es/products/adjustable-dumbbell-dumbbell-set",
+        "URL: https://nordicsport.com/fr/products/adjustable-dumbbell-dumbbell-set",
+        "URL: https://dutch.concretepump-spareparts.com/sale-54488251-dumbbell-gear-one-piece-type-dumbbell-type-idler-gear-set-dumbbell-type-idler-gear-assembly-dumbbell.html",
+        "URL: https://nordicsport.com/fi/products/adjustable-dumbbell-dumbbell-set"
+      ],
+      "source": "DataForSEO Content Analysis API"
+    }
+  ],
+  "seoStructureAnalysis": [
+    {
+      "url": "https://betterbodyequipped.com/collections/dumbbells",
+      "title": "Buy Dumbbells | Home Dumbbell Set\n\n        – Better Body Equipment Corp.",
+      "metaDescription": "Shop dumbbells for your home gym, no matter what the size. Upgrade your workout with premium gym equipment. Fast and free shipping is included.",
+      "h1": [
+        "Dumbbells",
+        "Currency",
+        "Sort",
+        "Professional-grade dumbbells that are built to last"
+      ],
+      "h2": [],
+      "contentLength": 549502,
+      "pageElements": [
+        "content_parsing_element"
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dumbbell",
+      "title": "Dumbbell - Wikipedia",
+      "metaDescription": "",
+      "h1": [
+        "Dumbbell",
+        "Contents",
+        "History",
+        "Etymology",
+        "Types",
+        "See also",
+        "References",
+        "External links"
+      ],
+      "h2": [],
+      "contentLength": 118742,
+      "pageElements": [
+        "content_parsing_element"
+      ]
+    },
+    {
+      "url": "https://yorkbarbell.com/product-category/dumbbells/?srsltid=AfmBOorHszcVbqduOzSq7d1_cGutkOpPjEeBpjYweLn7ZQWRxdwfWLLe",
+      "title": "Dumbbells & Sets | Weight Lifting Equipment | York Barbell",
+      "metaDescription": "Man has an extensive history with dumbbells.  In ancient Greece, athletes trained with ‘halteres’, which were the predecessors of modern dumbbells as we know them today.  These were used for both lifting and as a device to assist in maintaining equilibrium during the long jump which was a popular event of the Olympic Games of old. Nowadays, you don’t have to be in Greece to enjoy a set of quality dumbbells-or the Olympic games for that matter.  York Barbell has been finely crafting various styles of dumbbells and dumbbell sets for strength training in different weight ranges for almost a century. The York Barbell Club weightlifting team produced four decades of world and Olympic champions that trained with York, including Bill Good, Joe Miller, Tony Terlazzo, John Terpak, Stan Stanczyk, and Tommy Kono. York Barbell offers dumbbells in all shapes and sizes, including multiple Fitbell styles for lighter workouts such as Yoga and Pilates to heavy duty commercial grade dumbbells that can train as hard as you do. With attractive styles and finishes and only the finest of quality materials, you simply can’t go wrong with a set of York dumbbells. Through the years, York has flexed its muscle-getting a reputation for innovation with such design elements as the shortened handle in the Pro Style dumbbell, which results in less hand travel and more control.  It is not only the design of the dumbbells, it is the quality and attention to detail put into each that has produced some of the best innovations within the industry. Whether you are a professional or amateur lifter, York Barbell has a dumbbell that will spark the spirit of your inner Olympian, and keep those fires of Mount Olympus burning for years to come. For more information about our Dumbbells and Dumbbell Sets, or other York Barbell Gym Equipment, please contact us today!",
+      "h1": [
+        "Dumbbells & Sets",
+        "Dumbbells  (11)",
+        "Dumbbell Handles/Sets  (8)",
+        "Fitbells  (6)",
+        "Rubber Hex Dumbbell",
+        "Pro Style Dumbbell",
+        "Legacy Solid Round Dumbbell",
+        "Pro Style Dumbbell Set"
+      ],
+      "h2": [],
+      "contentLength": 326467,
+      "pageElements": [
+        "content_parsing_element"
+      ]
+    }
+  ],
+  "keywordGaps": [
+    {
+      "keyword": "dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Covered"
+    },
+    {
+      "keyword": "hammer curls dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell dumbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell dumbbells",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Covered"
+    },
+    {
+      "keyword": "hammer curl dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Covered"
+    },
+    {
+      "keyword": "dumbbell press for shoulders",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "shoulder press with dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "hammer dumbbell curls",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "hammer dumbbell curl",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell shoulder presses",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "incline dumbbell bench press",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/incline-flat-decline-bench",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "incline press dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "shoulder presses dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell shoulder press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "incline dumbbell presses",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell overhead press shoulders",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell chest press incline",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell press for shoulder",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell incline bench press",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/incline-flat-decline-bench",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell press shoulders",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "incline bench dumbbell press",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/incline-flat-decline-bench",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell shoulder to shoulder press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "incline dumbbell press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell shoulder overhead press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "incline bench press dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/incline-flat-decline-bench",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell incline press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "shoulders press dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell shoulder to overhead press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "shoulder press dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell press shoulder",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell press incline",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "shoulder dumbbell press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell incline chest press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell incline bench presses",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/incline-flat-decline-bench",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "incline dumbbell chest press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "rows dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "row with dumbbell",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "row dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell rows",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell row",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "bench dumbbell press",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "lateral dumbbell raises",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell and bench press",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells/twelve-sided-steel-dumbbell",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell lat raises",
+      "currentUrl": "https://www.chinafreeweight.com/factory",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell bench presses",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "bench press and dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells/twelve-sided-steel-dumbbell",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "bicep dumbbell curl",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "adjustable dumbbell",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells/adjustable-dumbbell-kg",
+      "coverage": "Covered"
+    },
+    {
+      "keyword": "dumbbell lateral raise",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbell set",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell workout",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbell for sale",
+      "currentUrl": "",
+      "coverage": "Missing"
+    },
+    {
+      "keyword": "dumbbells adjustable",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells/adjustable-dumbbell-kg",
+      "coverage": "Covered"
+    },
+    {
+      "keyword": "dumbbell set with rack 5-50",
+      "currentUrl": "https://www.chinafreeweight.com/products/racks-benches/olympic-bench-plate-storage",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbells academy",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    },
+    {
+      "keyword": "dumbbells pair",
+      "currentUrl": "https://www.chinafreeweight.com/products/dumbbells",
+      "coverage": "Partial"
+    }
+  ],
+  "historyItem": {
+    "seedKeyword": "dumbbell",
+    "date": "2026-07-15T12:15:00.453Z",
+    "apisUsed": [
+      "Keywords Data API - Related Keywords",
+      "Keywords Data API - Keyword Suggestions",
+      "SERP API - Google Organic Advanced",
+      "Content Analysis API - Search",
+      "OnPage API - Instant Pages",
+      "OnPage API - Content Parsing",
+      "OnPage API - Instant Pages",
+      "OnPage API - Content Parsing",
+      "OnPage API - Instant Pages",
+      "OnPage API - Content Parsing",
+      "Backlinks API - Bulk Pages Summary",
+      "Domain Analytics API - Whois Overview"
+    ],
+    "totalCost": 0.428936,
+    "resultCount": 80,
+    "reportPath": "seo-engine/intelligence/research/dataforseo-research-2026-07-15T12-15-00-453Z.json"
+  }
+}
