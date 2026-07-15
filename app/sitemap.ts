@@ -40,7 +40,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
-  const seoLandingRoutes = ["/manufacturer/rubber-hex-dumbbell-manufacturer", "/manufacturer/weight-plate-manufacturer"];
+  const seoLandingRoutes = [
+    "/manufacturer/rubber-hex-dumbbell-manufacturer",
+    "/manufacturer/weight-plate-manufacturer",
+    "/manufacturer/chrome-dumbbell-manufacturer",
+    "/manufacturer/urethane-dumbbell-manufacturer",
+    "/oem/oem-dumbbells",
+    "/oem/private-label-dumbbells"
+  ];
 
   return [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),

@@ -1,4 +1,4 @@
-import fs from "fs";
+﻿import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import { siteUrl } from "../../site";
 
 type PageProps = { params: Promise<{ slug: string }> };
-const contentDir = path.join(process.cwd(), "content", "manufacturer");
+const contentDir = path.join(process.cwd(), "content", "oem");
 const removeSectionHeadings = [
   "Image Plan",
   "Missing Evidence",
@@ -209,9 +209,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const page = readLanding(slug);
   if (!page) return {};
   return {
-    title: page.data.title || "Manufacturer Landing Page",
+    title: page.data.title || "OEM Landing Page",
     description: page.data.meta_description || "PowerBaseFit sourcing page for global free weight buyers.",
-    alternates: { canonical: `/manufacturer/${slug}` }
+    alternates: { canonical: `/oem/${slug}` }
   };
 }
 
@@ -255,18 +255,18 @@ export default async function LandingPage({ params }: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: page.data.title || "Manufacturer Landing Page",
+    name: page.data.title || "OEM Landing Page",
     provider: { "@type": "Organization", name: "PowerBaseFit", url: siteUrl },
     areaServed: "Global"
   };
-  const pageUrl = absoluteUrl(`/manufacturer/${slug}`);
+  const pageUrl = absoluteUrl(`/oem/${slug}`);
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "Manufacturer", item: absoluteUrl("/manufacturer") },
-      { "@type": "ListItem", position: 3, name: page.data.title || "Rubber Hex Dumbbell Manufacturer", item: pageUrl }
+      { "@type": "ListItem", position: 2, name: "OEM", item: absoluteUrl("/oem") },
+      { "@type": "ListItem", position: 3, name: page.data.title || "OEM Landing Page", item: pageUrl }
     ]
   };
   const faqJsonLd = {
@@ -288,10 +288,11 @@ export default async function LandingPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <article className="article-shell">
         <a className="back-link" href="/factory">Back to factory</a>
-        <div className="article-kicker">{page.data.primary_keyword || "manufacturer"}</div>
+        <div className="article-kicker">{page.data.primary_keyword || "oem"}</div>
         <div className="article-content">{renderMarkdown(page.body)}</div>
-        <a className="article-inline-cta" href="/contact">Request factory quotation</a>
+        <a className="article-inline-cta" href="/contact">Request OEM quotation</a>
       </article>
     </main>
   );
 }
+

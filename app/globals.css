@@ -865,6 +865,27 @@ a {
   background: rgba(255, 255, 255, 0.035);
 }
 
+.article-content .article-image {
+  margin: 28px 0 10px;
+}
+
+.article-content .article-image img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid rgba(241, 199, 107, 0.18);
+  background: #f8f8f5;
+}
+
+.article-content figcaption {
+  margin: 0 0 26px;
+  color: #b9ad9b;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 .article-content table {
   width: 100%;
   min-width: 720px;
