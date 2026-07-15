@@ -1,12 +1,9 @@
 ﻿import type { Metadata } from "next";
 import {
   ArrowRight,
-  Boxes,
   Building2,
-  CheckCircle2,
   Dumbbell,
   Globe2,
-  PackageCheck,
   ShieldCheck
 } from "lucide-react";
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
@@ -193,6 +190,19 @@ export default function ProjectsPage() {
       </header>
 
       <section className="projects-hero">
+        <picture className="projects-hero-media">
+          <source media="(max-width: 900px)" srcSet="/assets/projects/project-hero-mobile.avif" type="image/avif" />
+          <source srcSet="/assets/projects/project-hero-desktop.avif" type="image/avif" />
+          <img
+            src="/assets/projects/project-hero-desktop.avif"
+            alt=""
+            width="1536"
+            height="1024"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
         <div className="projects-hero-copy">
           <span>Project references</span>
           <h1>Free Weight Gym Projects Built for Global Buyers</h1>
@@ -261,7 +271,12 @@ export default function ProjectsPage() {
 
         <div className="featured-project">
           <a className="featured-image" href="/contact" aria-label="Request a similar commercial free weight project">
-            <img src="/assets/projects/commercial-dumbbell-rack-zone.webp" alt="Commercial dumbbell rack zone project" />
+            <img
+              src="/assets/projects/commercial-dumbbell-rack-zone.webp"
+              alt="Commercial dumbbell rack zone project"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
           <div className="featured-copy">
             <span>Featured project</span>
@@ -300,7 +315,7 @@ export default function ProjectsPage() {
           {projects.map((project) => (
             <article className="case-card" key={project.title}>
               <a href="/contact" aria-label={`Request quote for ${project.title}`}>
-                <img src={project.image} alt={project.title} />
+                <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{project.category}</span>
@@ -371,7 +386,7 @@ export default function ProjectsPage() {
       </section>
 
       <footer className="projects-footer">
-        <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
+        <img src="/assets/logo-readable.webp" alt="PowerBaseFit" loading="lazy" decoding="async" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
           <span>Ningjin City, Shandong Province, China</span>
@@ -478,10 +493,30 @@ export default function ProjectsPage() {
           overflow: hidden;
           border-radius: 10px;
           border: 1px solid rgba(241, 199, 107, 0.22);
-          background:
-            linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.7) 38%, rgba(0, 0, 0, 0.18) 100%),
-            url("/assets/factory-cases/pbf-squat-rack-chrome-plates.webp") center / cover;
+          background: #111;
           box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
+        }
+
+        .projects-hero-media {
+          position: absolute;
+          inset: 0;
+          z-index: 0;
+          display: block;
+        }
+
+        .projects-hero-media img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          object-fit: cover;
+        }
+
+        .projects-hero-media::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.7) 38%, rgba(0, 0, 0, 0.18) 100%);
+          pointer-events: none;
         }
 
         .projects-hero::after {
