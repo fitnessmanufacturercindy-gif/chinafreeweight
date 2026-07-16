@@ -126,6 +126,7 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
     graph.push({
       "@type": "BreadcrumbList",
       "@id": `${url}#breadcrumb`,
+      inLanguage,
       itemListElement: version.schemaData.breadcrumbs.map((item, index) => ({
         "@type": "ListItem",
         position: index + 1,

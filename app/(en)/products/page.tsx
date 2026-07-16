@@ -117,6 +117,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    inLanguage: "en",
     itemListElement: [
       {
         "@type": "ListItem",
@@ -135,6 +136,7 @@ const jsonLd = [
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: "en",
     mainEntity: faqs.map((item) => ({
       "@type": "Question",
       name: item.question,

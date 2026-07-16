@@ -1,4 +1,6 @@
+import type { MetadataRoute } from "next";
 import { contentRepository } from "../lib/content/repository";
+import { getEnglishAlternates } from "../lib/seo/english-alternates";
 import { buildPublishedMediaSitemap, buildPublishedSitemap } from "../lib/seo/sitemap";
 import { dumbbellProducts } from "./products/dumbbells/productData";
 import { gymAccessoryProducts } from "./products/gym-accessories/productData";
@@ -73,7 +75,25 @@ export function imageSeoEntries() {
 }
 
 export function localizedSitemapEntries() {
+  const englishRoutes = [...staticSeoRoutes, ...productSeoRoutes(), ...blogSeoRoutes()];
+  const seen = new Set<string>();
+  const englishEntries: MetadataRoute.Sitemap = englishRoutes.flatMap((route) => {
+    if (seen.has(route.path)) return [];
+    seen.add(route.path);
+    const alternates = getEnglishAlternates(route.path).languages;
+    return [{
+      url: absoluteUrl(route.path),
+      lastModified: new Date(),
+      changeFrequency: route.type === "blog" ? "monthly" as const : "weekly" as const,
+      alternates: {
+        languages: Object.fromEntries(
+          Object.entries(alternates).map(([locale, path]) => [locale, absoluteUrl(path)])
+        )
+      }
+    }];
+  });
   return [
+    ...englishEntries,
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" })
   ];

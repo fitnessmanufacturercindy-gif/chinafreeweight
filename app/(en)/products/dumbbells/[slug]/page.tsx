@@ -41,6 +41,7 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
+    inLanguage: "en",
     name: product.name,
     image: product.image,
     description: `${product.copy} Weight range: ${product.range}.`,

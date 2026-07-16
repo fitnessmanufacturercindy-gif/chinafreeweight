@@ -14,6 +14,7 @@ import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
 import { buildPublishedSitemap } from "../../lib/seo/sitemap";
 import { validateContentManifest } from "../../lib/validation/locale";
+import { localizedSitemapEntries } from "../../app/seo-data";
 
 const siteUrl = "https://www.chinafreeweight.com";
 const timestamp = "2026-07-14T00:00:00.000Z";
@@ -85,7 +86,8 @@ test("published locale routing: Portuguese and Spanish are public while other lo
 test("production manifest: only reviewed English, Portuguese and Spanish content is published", () => {
   assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 28);
   assert.equal(contentRepository.listPublished({ locale: "es" }).length, 23);
-  assert.equal(contentRepository.listPublished().length, 67);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 17);
+  assert.equal(contentRepository.listPublished().length, 68);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es"].includes(version.locale)), false);
 });
 
@@ -116,7 +118,9 @@ test("schema language: localized schema uses the current locale text and URL", (
   assert.ok(content);
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
   const product = graph.find((node) => node["@type"] === "Product");
+  const breadcrumb = graph.find((node) => node["@type"] === "BreadcrumbList");
   assert.equal(product?.inLanguage, "pt-BR");
+  assert.equal(breadcrumb?.inLanguage, "pt-BR");
   assert.equal(product?.url, `${siteUrl}/pt/products/dumbbells/rubber-hex-dumbbells`);
   assert.equal(product?.name, "pt-BR fixture heading");
 });
@@ -227,20 +231,24 @@ test("Spanish metadata and schema use Spanish text and language", () => {
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
   const product = graph.find((node) => node["@type"] === "Product");
   const faq = graph.find((node) => node["@type"] === "FAQPage");
+  const breadcrumb = graph.find((node) => node["@type"] === "BreadcrumbList");
   assert.equal(product?.inLanguage, "es");
   assert.match(String(product?.name), /Mancuerna hexagonal/);
   assert.equal(faq?.inLanguage, "es");
+  assert.equal(breadcrumb?.inLanguage, "es");
 });
 
-test("Portuguese and Spanish growth pages without English do not invent an English alternate", () => {
+test("products hub has a complete English, Portuguese and Spanish hreflang cluster", () => {
   const content = contentRepository.getPublishedVersion("products-hub", "pt-BR");
   assert.ok(content);
   const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
   assert.deepEqual(metadata.alternates?.languages, {
+    en: `${siteUrl}/products`,
     "pt-BR": `${siteUrl}/pt/produtos`,
-    es: `${siteUrl}/es/productos`
+    es: `${siteUrl}/es/productos`,
+    "x-default": `${siteUrl}/products`
   });
-  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["pt-BR", "es"]);
+  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es"]);
 });
 
 test("sitemap: non-public and review-required localizations never enter output", () => {
@@ -322,4 +330,57 @@ test("multilingual sitemap retains 118 English routes and adds 28 Portuguese and
   assert.ok(urls.includes(`${configuredSiteUrl}/es/productos/mancuernas`));
   assert.ok(urls.includes(`${configuredSiteUrl}/es/blog/importar-equipos-gimnasio-desde-china`));
   assert.equal(urls.some((url) => /^\/(de|fr|it|nl|ru|ar|ja|ko)(\/|$)/.test(new URL(url).pathname)), false);
+});
+
+test("language sitemap contains all 169 public URLs with the complete products hub cluster", () => {
+  const entries = localizedSitemapEntries();
+  const english = entries.filter((entry) => !/^\/(?:pt|es)(?:\/|$)/.test(new URL(entry.url).pathname));
+  const portuguese = entries.filter((entry) => /^\/pt(?:\/|$)/.test(new URL(entry.url).pathname));
+  const spanish = entries.filter((entry) => /^\/es(?:\/|$)/.test(new URL(entry.url).pathname));
+  assert.equal(english.length, 118);
+  assert.equal(portuguese.length, 28);
+  assert.equal(spanish.length, 23);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 169);
+  for (const path of ["/products", "/pt/produtos", "/es/productos"]) {
+    const entry = entries.find((item) => new URL(item.url).pathname === path);
+    assert.deepEqual(entry?.alternates?.languages, {
+      en: `${siteUrl}/products`,
+      "pt-BR": `${siteUrl}/pt/produtos`,
+      es: `${siteUrl}/es/productos`,
+      "x-default": `${siteUrl}/products`
+    });
+  }
+});
+
+test("Spanish blog content is differentiated by search intent", () => {
+  const blogs = contentRepository.listPublished({ locale: "es" }).filter(({ entity }) => entity.type === "blog");
+  const normalize = (text: string) => text.toLowerCase().replace(/[^a-záéíóúüñ0-9 ]/g, " ");
+  const grams = (text: string) => {
+    const words = normalize(text).split(/\s+/).filter(Boolean);
+    return new Set(words.slice(0, -4).map((_, index) => words.slice(index, index + 5).join(" ")));
+  };
+  const articleText = blogs.map(({ entity, version }) => ({
+    id: entity.id,
+    grams: grams([
+      version.h1,
+      version.description,
+      ...version.body.flatMap((block) => [
+        block.heading ?? "",
+        block.content ?? "",
+        ...[block.data?.term, block.data?.columns, block.data?.rows, block.data?.items]
+          .flat(3)
+          .filter((value): value is string => typeof value === "string")
+      ]),
+      ...version.faq.flatMap((item) => [item.question, item.answer])
+    ].join(" "))
+  }));
+  for (let left = 0; left < articleText.length; left += 1) {
+    for (let right = left + 1; right < articleText.length; right += 1) {
+      const a = articleText[left].grams;
+      const b = articleText[right].grams;
+      const intersection = [...a].filter((value) => b.has(value)).length;
+      const jaccard = intersection / (a.size + b.size - intersection);
+      assert.ok(jaccard < 0.3, `${articleText[left].id} / ${articleText[right].id}: ${jaccard}`);
+    }
+  }
 });

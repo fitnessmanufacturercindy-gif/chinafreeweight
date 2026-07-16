@@ -250,6 +250,7 @@ export default async function LandingPage({ params }: PageProps) {
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    inLanguage: "en",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") },
       { "@type": "ListItem", position: 2, name: "Manufacturer", item: absoluteUrl("/manufacturer") },
@@ -259,6 +260,7 @@ export default async function LandingPage({ params }: PageProps) {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: "en",
     mainEntity: faqItems(page.body).map((item) => ({
       "@type": "Question",
       name: item.question,

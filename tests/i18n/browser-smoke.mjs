@@ -23,6 +23,24 @@ page.on("console", (message) => { if (message.type() === "error") consoleErrors.
 page.on("response", (response) => { if (response.status() >= 400) failedResponses.push(`${response.status()} ${response.url()}`); });
 page.on("pageerror", (error) => pageErrors.push(error.message));
 
+async function schemaNodes() {
+  const documents = (await page.locator('script[type="application/ld+json"]').allTextContents()).map((value) => JSON.parse(value));
+  return documents.flatMap((document) => {
+    if (Array.isArray(document)) return document.flatMap((item) => item?.["@graph"] ?? [item]);
+    return document?.["@graph"] ?? [document];
+  });
+}
+
+function assertSchemaLanguage(nodes, expectedLanguage, route) {
+  const languageTypes = new Set(["WebSite", "Organization", "LocalBusiness", "SportingGoodsStore", "Product", "FAQPage", "BreadcrumbList", "Article", "BlogPosting"]);
+  for (const node of nodes) {
+    const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+    if (types.some((type) => languageTypes.has(type))) {
+      assert.equal(node.inLanguage, expectedLanguage, `${route}: ${types.join("/")}`);
+    }
+  }
+}
+
 const portugueseRoutes = [
   "/pt",
   "/pt/produtos/halteres",
@@ -55,7 +73,6 @@ const portugueseRoutes = [
 ];
 
 const portugueseOnlyRoutes = new Set([
-  "/pt/produtos",
   "/pt/oem-marca-propria",
   "/pt/blog/como-importar-equipamentos-academia-china",
   "/pt/blog/custo-importacao-equipamentos-academia",
@@ -123,6 +140,7 @@ const spanishRoutes = [
 
 const spanishRoutesWithEnglish = new Set([
   "/es",
+  "/es/productos",
   "/es/productos/mancuernas",
   "/es/productos/discos-de-peso",
   "/es/productos/mancuernas/mancuerna-hexagonal-goma",
@@ -147,6 +165,7 @@ for (const route of portugueseRoutes) {
   assert.equal(await page.locator('link[hreflang="x-default"]').count(), portugueseOnlyRoutes.has(route) ? 0 : 1, route);
   assert.ok((await page.locator("main").innerText()).length > 500, route);
   assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
+  assertSchemaLanguage(await schemaNodes(), "pt-BR", route);
 }
 
 for (const route of spanishRoutes) {
@@ -161,15 +180,17 @@ for (const route of spanishRoutes) {
   assert.equal(await page.locator('link[hreflang="x-default"]').count(), spanishRoutesWithEnglish.has(route) ? 1 : 0, route);
   assert.ok((await page.locator("main").innerText()).length > 500, route);
   assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
+  assertSchemaLanguage(await schemaNodes(), "es", route);
 }
 
-const englishRoutes = ["/", "/products/dumbbells", "/products/dumbbells/hex-dumbbell-kg", "/resources", "/projects", "/factory", "/contact"];
+const englishRoutes = ["/", "/products", "/products/dumbbells", "/products/dumbbells/hex-dumbbell-kg", "/resources", "/projects", "/factory", "/contact"];
 for (const route of englishRoutes) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 200, route);
   assert.equal(await page.locator("html").getAttribute("lang"), "en", route);
   assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
   assert.equal(await page.locator('link[hreflang="es"]').count(), 1, route);
+  assertSchemaLanguage(await schemaNodes(), "en", route);
 }
 
 const sourceResponse = await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "domcontentloaded" });
@@ -208,8 +229,13 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 51);
-assert.equal((languageSitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 23);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 169);
+const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
+const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
+assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length, 118);
+assert.equal(languageSitemapPortuguese.length, 28);
+assert.equal(languageSitemapSpanish.length, 23);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
@@ -232,6 +258,17 @@ await page.goto(testUrl("/products/dumbbells"), { waitUntil: "networkidle" });
 await page.locator('.route-language-switcher a[lang="es"]').click();
 await page.waitForURL("**/es/productos/mancuernas");
 assert.match(await page.locator("h1").innerText(), /Mancuernas profesionales/);
+
+await page.goto(testUrl("/products"), { waitUntil: "networkidle" });
+assert.equal(await page.locator('.route-language-switcher a[lang="en"]').count(), 1);
+assert.equal(await page.locator('.route-language-switcher a[lang="pt-BR"]').count(), 1);
+assert.equal(await page.locator('.route-language-switcher a[lang="es"]').count(), 1);
+await page.locator('.route-language-switcher a[lang="pt-BR"]').click();
+await page.waitForURL("**/pt/produtos");
+await page.locator('.route-language-switcher a[lang="es"]').click();
+await page.waitForURL("**/es/productos");
+await page.locator('.route-language-switcher a[lang="en"]').click();
+await page.waitForURL("**/products");
 
 await page.goto(testUrl("/pt/produtos/halteres"), { waitUntil: "networkidle" });
 await page.locator('.route-language-switcher a[lang="es"]').click();

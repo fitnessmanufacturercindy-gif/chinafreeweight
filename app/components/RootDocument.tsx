@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "es";
+  schemaLocale?: "pt-BR" | "es";
 };
 
 export default function RootDocument({
@@ -28,25 +28,38 @@ export default function RootDocument({
   schemaLocale
 }: RootDocumentProps) {
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-  const schemas = schemaLocale === "es"
+  const localizedSchema = schemaLocale === "pt-BR"
+    ? {
+        products: ["Halteres", "Anilhas", "Barras", "Racks", "Bancos", "Acessórios para academia"],
+        websiteName: "PowerBaseFit fabricante de equipamentos para academia",
+        businessDescription: "A PowerBaseFit fabrica halteres, anilhas, barras, racks, bancos e acessórios para importadores, distribuidores, marcas próprias e projetos de academias."
+      }
+    : schemaLocale === "es"
+      ? {
+          products: ["Mancuernas", "Discos de peso", "Barras", "Racks", "Bancos", "Accesorios de gimnasio"],
+          websiteName: "PowerBaseFit fabricante de equipos de gimnasio",
+          businessDescription: "PowerBaseFit fabrica mancuernas, discos de peso, barras, racks, bancos y accesorios para importadores, distribuidores, marcas propias y proyectos de gimnasios."
+        }
+      : undefined;
+  const schemas = localizedSchema && schemaLocale
     ? [
         {
           ...organizationJsonLd,
-          inLanguage: "es",
-          makesOffer: ["Mancuernas", "Discos de peso", "Barras", "Racks", "Bancos", "Accesorios de gimnasio"].map((name) => ({
+          inLanguage: schemaLocale,
+          makesOffer: localizedSchema.products.map((name) => ({
             "@type": "Offer",
-            itemOffered: { "@type": "Product", name }
+            itemOffered: { "@type": "Product", name, inLanguage: schemaLocale }
           }))
         },
         {
           ...websiteJsonLd,
-          alternateName: "PowerBaseFit fabricante de equipos de gimnasio",
-          inLanguage: "es"
+          alternateName: localizedSchema.websiteName,
+          inLanguage: schemaLocale
         },
         {
           ...localBusinessJsonLd,
-          inLanguage: "es",
-          description: "PowerBaseFit fabrica mancuernas, discos de peso, barras, racks, bancos y accesorios para importadores, distribuidores, marcas propias y proyectos de gimnasios."
+          inLanguage: schemaLocale,
+          description: localizedSchema.businessDescription
         }
       ]
     : [organizationJsonLd, websiteJsonLd, localBusinessJsonLd];

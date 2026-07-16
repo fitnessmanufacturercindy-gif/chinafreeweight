@@ -103,6 +103,7 @@ const faqs = [
 const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  inLanguage: "en",
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
     { "@type": "ListItem", position: 2, name: "Manufacturer", item: `${siteUrl}/manufacturer` },
@@ -113,6 +114,7 @@ const breadcrumbJsonLd = {
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
+  inLanguage: "en",
   mainEntity: faqs.map((faq) => ({
     "@type": "Question",
     name: faq.question,

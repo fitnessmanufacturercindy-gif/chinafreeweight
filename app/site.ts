@@ -32,6 +32,7 @@ export const sourcingFacts = {
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  inLanguage: "en",
   name: company.legalName,
   alternateName: company.brandName,
   url: siteUrl,
@@ -51,7 +52,8 @@ export const organizationJsonLd = {
     "@type": "Offer",
     itemOffered: {
       "@type": "Product",
-      name
+      name,
+      inLanguage: "en"
     }
   }))
 };
@@ -80,6 +82,7 @@ export const websiteJsonLd = {
 export const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "SportingGoodsStore"],
+  inLanguage: "en",
   "@id": `${siteUrl}#local-business`,
   name: company.legalName,
   alternateName: company.brandName,

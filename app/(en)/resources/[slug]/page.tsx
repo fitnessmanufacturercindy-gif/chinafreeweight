@@ -292,6 +292,7 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "@id": `${url}#faq`,
+      inLanguage: "en",
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,
@@ -302,6 +303,7 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "@id": `${url}#breadcrumb`,
+      inLanguage: "en",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
         { "@type": "ListItem", position: 2, name: "Resources", item: `${siteUrl}/resources` },

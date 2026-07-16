@@ -4,7 +4,7 @@ import { ptBrEditorialAuthor, ptBrTechnicalReviewer } from "./pt-br-existing-gro
 
 export const ptBrCommercialPages: PilotPage[] = [
   {
-    id: "products-hub", type: "product_category", ptPath: "/pt/produtos",
+    id: "products-hub", type: "product_category", enPath: "/products", ptPath: "/pt/produtos", enTitle: "Free Weight Equipment Products",
     title: "Equipamentos para academia no atacado | PowerBaseFit",
     description: "Equipamentos profissionais para academias, distribuidores e importadores: halteres, anilhas, racks, bancos, acessórios, OEM e marca própria direto da fábrica.",
     h1: "Equipamentos profissionais para academias e distribuidores",

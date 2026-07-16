@@ -33,7 +33,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       whatsAppMessage={spanish
         ? "Hola, me interesan los equipos de PowerBaseFit. Quisiera recibir información para una cotización B2B."
         : "Olá, tenho interesse nos equipamentos da PowerBaseFit. Gostaria de receber mais informações para uma cotação B2B."}
-      schemaLocale={spanish ? "es" : undefined}
+      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : undefined}
     >
       <NextIntlClientProvider locale={definition.internalLocale} messages={{}}>
         {children}
