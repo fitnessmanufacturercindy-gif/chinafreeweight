@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import AnalyticsEvents from "./components/AnalyticsEvents";
+import DelayedAnalyticsEvents from "./components/DelayedAnalyticsEvents";
+import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import WhatsAppButton from "./components/WhatsAppButton";
-import { organizationJsonLd, siteName, siteUrl } from "./site";
+import { localBusinessJsonLd, organizationJsonLd, siteName, siteUrl, websiteJsonLd } from "./site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -26,12 +26,48 @@ export const metadata: Metadata = {
     url: siteUrl,
     title: "PowerBaseFit | Free Weight Equipment Manufacturer",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms."
+      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+    images: [
+      {
+        url: "/assets/hero-poster.avif",
+        width: 1375,
+        height: 701,
+        alt: "PowerBaseFit free weight equipment manufacturing"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PowerBaseFit | Free Weight Equipment Manufacturer",
+    description:
+      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+    images: ["/assets/hero-poster.avif"]
+  },
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/",
+      "x-default": "/"
+    }
   },
   robots: {
     index: true,
-    follow: true
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1
+    }
   }
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#111111",
+  colorScheme: "light"
 };
 
 export default function RootLayout({
@@ -66,13 +102,21 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+        />
         <SiteHeader />
         {children}
         <SiteFooter />
         <WhatsAppButton />
-        <AnalyticsEvents />
+        <DelayedAnalyticsEvents />
+        <GoogleAnalyticsLoader measurementId={gaMeasurementId} />
       </body>
-      {gaMeasurementId ? <GoogleAnalytics gaId={gaMeasurementId} /> : null}
     </html>
   );
 }

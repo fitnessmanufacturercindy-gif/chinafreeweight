@@ -2,6 +2,7 @@ node_modules/
 .next/
 test-results/
 playwright-report/
+reports/
 out/
 dist/
 .vercel/
@@ -18,6 +19,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+tsconfig.tsbuildinfo
 
 .DS_Store
 Thumbs.db

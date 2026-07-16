@@ -3,7 +3,7 @@ import { company } from "../site";
 export default function SiteFooter() {
   return (
     <footer className="footer global-footer">
-      <img className="footer-logo" src="/assets/logo-readable.png" alt="PowerBaseFit" />
+      <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
       <div>
         <strong>{company.legalName}</strong>
         <span>{company.address}</span>

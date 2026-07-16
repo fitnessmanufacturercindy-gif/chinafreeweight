@@ -78,7 +78,7 @@ export default function GymAccessoriesPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label="Gym accessories navigation">
           <MegaMenu />

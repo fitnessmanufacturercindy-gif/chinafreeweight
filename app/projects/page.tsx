@@ -180,7 +180,7 @@ export default function ProjectsPage() {
     <main className="projects-page">
       <header className="projects-header">
         <a className="projects-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label="Projects navigation">
           <a href="/">Home</a>
@@ -372,7 +372,7 @@ export default function ProjectsPage() {
       </section>
 
       <footer className="projects-footer">
-        <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+        <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
           <span>Ningjin City, Shandong Province, China</span>

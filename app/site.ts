@@ -35,7 +35,7 @@ export const organizationJsonLd = {
   name: company.legalName,
   alternateName: company.brandName,
   url: siteUrl,
-  logo: `${siteUrl}/assets/logo-readable.png`,
+  logo: `${siteUrl}/assets/logo-readable.webp`,
   foundingDate: company.founded,
   email: company.email,
   telephone: company.phone,
@@ -54,4 +54,50 @@ export const organizationJsonLd = {
       name
     }
   }))
+};
+
+export const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${siteUrl}#website`,
+  name: siteName,
+  alternateName: "PowerBaseFit Free Weight Equipment Manufacturer",
+  url: siteUrl,
+  inLanguage: "en",
+  publisher: {
+    "@type": "Organization",
+    "@id": `${siteUrl}#organization`,
+    name: company.legalName,
+    url: siteUrl
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: `${siteUrl}/resources?query={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  }
+};
+
+export const localBusinessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "SportingGoodsStore"],
+  "@id": `${siteUrl}#local-business`,
+  name: company.legalName,
+  alternateName: company.brandName,
+  url: siteUrl,
+  image: `${siteUrl}/assets/factory.avif`,
+  logo: `${siteUrl}/assets/logo-readable.webp`,
+  email: company.email,
+  telephone: company.phone,
+  foundingDate: company.founded,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Zhengyang Road, Ningjin County",
+    addressLocality: "Dezhou",
+    addressRegion: "Shandong",
+    addressCountry: "CN"
+  },
+  areaServed: company.exportMarkets,
+  priceRange: "$$",
+  description:
+    "PowerBaseFit manufactures OEM dumbbells, weight plates, barbells, racks, benches, and gym accessories for importers, distributors, dealers, and commercial gym projects."
 };

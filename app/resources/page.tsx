@@ -18,7 +18,7 @@ export default function ResourcesPage() {
     <main className="resources-page">
       <header className="resources-header">
         <a className="resources-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label="Resources navigation">
           <a href="/">Home</a>

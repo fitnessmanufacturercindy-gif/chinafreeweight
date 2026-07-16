@@ -402,7 +402,7 @@ export default function Home() {
       </section>
 
       <footer className="footer">
-        <img className="footer-logo" src="/assets/logo-readable.png" alt="PowerBaseFit" />
+        <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
           <span>Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China</span>

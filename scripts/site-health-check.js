@@ -564,6 +564,19 @@ ${issues.length === 0 ? "- No blocking issues found. Keep the daily workflow ena
 `;
 }
 
+async function closeBrowserSafely(browser) {
+  const closeResult = await Promise.race([
+    browser.close().then(() => "closed").catch(() => "failed"),
+    new Promise((resolve) => setTimeout(() => resolve("timeout"), 5000))
+  ]);
+
+  if (closeResult === "timeout") {
+    if (typeof browser.process === "function") {
+      browser.process()?.kill?.("SIGKILL");
+    }
+  }
+}
+
 async function runSiteHealthCheck(options = {}) {
   fs.mkdirSync(REPORT_DIR, { recursive: true });
   const { urls, sitemapIssues } = await discoverUrls();
@@ -588,7 +601,8 @@ async function runSiteHealthCheck(options = {}) {
 
   const mobileIssues = await checkMobile(browser, urls);
   const contactIssues = urls.some((url) => new URL(url).pathname === "/contact") ? await checkContactForm(context) : [];
-  await browser.close();
+  await context.close().catch(() => {});
+  await closeBrowserSafely(browser);
 
   const robotsIssues = await checkRobots();
   const multilingualCoverageIssues = checkMultilingualCoverage(urls);

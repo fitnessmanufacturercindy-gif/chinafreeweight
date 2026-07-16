@@ -73,7 +73,7 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label="Weight plate detail navigation">
           <MegaMenu />

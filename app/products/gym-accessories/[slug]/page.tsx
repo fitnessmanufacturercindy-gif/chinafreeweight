@@ -158,7 +158,7 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label={`${product.name} navigation`}>
           <MegaMenu />

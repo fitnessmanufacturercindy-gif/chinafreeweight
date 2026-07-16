@@ -82,7 +82,7 @@ export default async function RacksBenchesProductPage({ params }: PageProps) {
     <main className="product-page racks-benches-page">
       <header className="products-header">
         <a className="products-brand" href="/">
-          <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
+          <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         </a>
         <nav aria-label={`${product.name} navigation`}>
           <MegaMenu />
