@@ -33,11 +33,11 @@ const postVisuals: Record<
   }
 > = {
   "evaluate-oem-gym-equipment-factory-china": {
-    coverImage: "/assets/factory.png",
+    coverImage: "/assets/factory.avif",
     coverAlt: "PowerBaseFit factory exterior in Dezhou China",
     articleImages: [
       {
-        src: "/assets/factory.png",
+        src: "/assets/factory.avif",
         alt: "PowerBaseFit manufacturing base exterior for OEM gym equipment buyers",
         caption: "Factory exterior and manufacturing base for overseas free weight buyers."
       },
@@ -47,18 +47,18 @@ const postVisuals: Record<
         caption: "Precision manufacturing equipment helps buyers evaluate factory process control."
       },
       {
-        src: "/assets/factory-cases/packaging-area-pbf.png",
+        src: "/assets/factory-cases/packaging-area-pbf.avif",
         alt: "PowerBaseFit free weight packaging area before export shipment",
         caption: "Packaging and shipment preparation are important checks before container loading."
       }
     ]
   },
   "how-to-choose-commercial-dumbbells": {
-    coverImage: "/assets/project-dumbbell-zone.png",
+    coverImage: "/assets/project-dumbbell-zone.avif",
     coverAlt: "Commercial gym dumbbell area with rows of free weights",
     articleImages: [
       {
-        src: "/assets/hex-dumbbells.png",
+        src: "/assets/hex-dumbbells.avif",
         alt: "Hex dumbbells for commercial gyms and wholesale free weight programs",
         caption: "Hex dumbbells are common for commercial gyms, dealers, and starter free weight lines."
       },
@@ -68,18 +68,18 @@ const postVisuals: Record<
         caption: "Chrome dumbbells are often selected for premium showrooms and high-end gym areas."
       },
       {
-        src: "/assets/dumbbell-production.jpg",
+        src: "/assets/dumbbell-production.webp",
         alt: "Finished dumbbells arranged in factory production area",
         caption: "Production consistency, finish quality, and packaging planning should be checked before shipment."
       }
     ]
   },
   "weight-plates-vs-bumper-plates-b2b-guide": {
-    coverImage: "/assets/project-plate-zone.png",
+    coverImage: "/assets/project-plate-zone.avif",
     coverAlt: "Commercial weight plate and barbell training area",
     articleImages: [
       {
-        src: "/assets/weight-plate.jpg",
+        src: "/assets/weight-plate.avif",
         alt: "Black weight plates with color weight markings for gym projects",
         caption: "Standard weight plates are often used for strength zones, dealers, and mixed equipment orders."
       },
@@ -89,7 +89,7 @@ const postVisuals: Record<
         caption: "Surface treatment and finish inspection affect long-term appearance and durability."
       },
       {
-        src: "/assets/factory-cases/container-shipping-pbf.png",
+        src: "/assets/factory-cases/container-shipping-pbf.avif",
         alt: "Container loading and export shipment for free weight equipment",
         caption: "For plate orders, packaging and container planning protect the product during export shipping."
       }
@@ -98,11 +98,11 @@ const postVisuals: Record<
 };
 
 const fallbackVisuals = {
-  coverImage: "/assets/case-gym.png",
+  coverImage: "/assets/case-gym.avif",
   coverAlt: "PowerBaseFit free weight product display",
   articleImages: [
     {
-      src: "/assets/case-gym.png",
+      src: "/assets/case-gym.avif",
       alt: "PowerBaseFit free weight project display",
       caption: "Project reference image for free weight sourcing decisions."
     }

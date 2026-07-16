@@ -175,7 +175,7 @@ export const weightPlateProducts: WeightPlateProduct[] = [
     name: "Cast Iron Weight Plate",
     range: "KG/LB cast iron plate sets",
     type: "Cast iron plate",
-    image: "/assets/products/weight-plates/cast-iron/cast-iron-weight-plate-main.jpg",
+    image: "/assets/products/weight-plates/cast-iron/cast-iron-weight-plate-main.avif",
     copy: "A classic cast iron weight plate with raised weight markings and grip openings for commercial gyms, home gyms, and wholesale strength equipment programs.",
     material: "Cast iron plate body with textured black surface, raised KG/LB markings, grip openings, and a standard center hole for barbell loading.",
     process: "Manufacturing includes iron casting, edge cleaning, surface treatment, marking inspection, center hole checking, and protective export packing.",

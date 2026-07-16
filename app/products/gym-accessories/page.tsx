@@ -111,8 +111,8 @@ export default function GymAccessoriesPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Gym accessories product preview">
-          <img src="/assets/products/gym-accessories/handles/rubber-coated-gym-handle-sets.webp" alt="Rubber coated gym handle sets for cable machine attachments" loading="eager" fetchPriority="high" decoding="async" />
-          <img src="/assets/products/gym-accessories/handles/cable-machine-attachments.webp" alt="Cable machine attachments and gym handles for commercial gyms" loading="lazy" decoding="async" />
+          <img src="/assets/products/gym-accessories/handles/rubber-coated-gym-handle-sets-large.webp" alt="Rubber coated gym handle sets for cable machine attachments" width={1100} height={839} loading="lazy" decoding="async" />
+          <img src="/assets/products/gym-accessories/handles/cable-machine-attachments-large.webp" alt="Cable machine attachments and gym handles for commercial gyms" width={1100} height={956} loading="lazy" decoding="async" />
           <img src="/assets/products/gym-accessories/handles/aluminum-gym-handles.webp" alt="Aluminum gym handles for fitness accessories supply" loading="lazy" decoding="async" />
         </div>
       </section>
@@ -207,7 +207,7 @@ export default function GymAccessoriesPage() {
           {gymAccessoryProducts.map((product) => (
             <article className="dumbbell-card" key={product.slug}>
               <a href={`/products/gym-accessories/${product.slug}`} aria-label={`View details for ${product.name}`}>
-                <img src={product.image} alt={`${product.name} from PBF gym accessories manufacturer`} />
+                <img src={product.image} alt={`${product.name} from PBF gym accessories manufacturer`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{product.type}</span>

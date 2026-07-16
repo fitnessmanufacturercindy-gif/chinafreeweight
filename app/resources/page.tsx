@@ -60,7 +60,7 @@ export default function ResourcesPage() {
         {posts.map((post, index) => (
           <article className="post-card" key={post.slug}>
             <a className="post-image-link" href={`/resources/${post.slug}`} aria-label={post.title}>
-              <img src={post.coverImage} alt={post.coverAlt} />
+              <img src={post.coverImage} alt={post.coverAlt} loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : "auto"} decoding="async" />
               <div className="post-number">0{index + 1}</div>
             </a>
             <div className="post-body">

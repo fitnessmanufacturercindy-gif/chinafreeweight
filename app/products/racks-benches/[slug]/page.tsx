@@ -119,7 +119,7 @@ export default async function RacksBenchesProductPage({ params }: PageProps) {
           </div>
         </div>
         <div className="product-detail-media">
-          <img src={product.image} alt={`${product.name} home gym functional trainer and multi-functional rack manufacturer`} />
+          <img src={product.image} alt={`${product.name} home gym functional trainer and multi-functional rack manufacturer`} width={1000} height={760} loading="eager" fetchPriority="high" decoding="async" />
         </div>
       </section>
 
@@ -130,7 +130,7 @@ export default async function RacksBenchesProductPage({ params }: PageProps) {
           <p>{product.range}</p>
         </div>
         <div className="product-showcase-frame">
-          <img src={product.image} alt={`${product.name} product image for home gym and commercial project buyers`} />
+          <img src={product.image} alt={`${product.name} product image for home gym and commercial project buyers`} loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -281,7 +281,7 @@ export default async function RacksBenchesProductPage({ params }: PageProps) {
           {relatedProducts.map((item) => (
             <article className="dumbbell-card" key={item.slug}>
               <a href={`/products/racks-benches/${item.slug}`}>
-                <img src={item.image} alt={`${item.name} home gym rack and bench product`} />
+                <img src={item.image} alt={`${item.name} home gym rack and bench product`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{item.type}</span>

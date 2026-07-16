@@ -89,7 +89,7 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
 
       <section className="product-detail-hero">
         <div className="product-detail-media">
-          <img src={product.image} alt={`${product.name} for commercial gym plates`} />
+          <img src={product.image} alt={`${product.name} for commercial gym plates`} width={900} height={700} loading="eager" fetchPriority="high" decoding="async" />
         </div>
         <div className="product-detail-copy">
           <a className="breadcrumb-link" href="/products/weight-plates">
@@ -288,7 +288,7 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
           {related.map((item) => (
             <article className="dumbbell-card" key={item.slug}>
               <a href={`/products/weight-plates/${item.slug}`}>
-                <img src={item.image} alt={`${item.name} from PBF`} />
+                <img src={item.image} alt={`${item.name} from PBF`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{item.type}</span>

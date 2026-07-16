@@ -45,7 +45,7 @@ const trustStats = [
 
 const heroSlides = [
   {
-    image: "/assets/factory.png",
+    image: "/assets/factory.avif",
     label: "Factory Base",
     alt: "PowerBaseFit factory exterior in China"
   },
@@ -55,22 +55,22 @@ const heroSlides = [
     alt: "Free weight workshop production and machining"
   },
   {
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.avif",
     label: "Container Shipping",
     alt: "Container shipping for gym equipment export orders"
   }
 ];
 
 const exhibitionSlides = [
-  "/assets/exhibitions/pbf-exhibition-01.png",
-  "/assets/exhibitions/pbf-exhibition-02.png",
-  "/assets/exhibitions/pbf-exhibition-03.png",
-  "/assets/exhibitions/pbf-exhibition-04.png",
-  "/assets/exhibitions/pbf-exhibition-05.png",
-  "/assets/exhibitions/pbf-exhibition-06.png",
-  "/assets/exhibitions/pbf-exhibition-07.png",
-  "/assets/exhibitions/pbf-exhibition-08.png",
-  "/assets/exhibitions/pbf-exhibition-team.png"
+  "/assets/exhibitions/pbf-exhibition-01.avif",
+  "/assets/exhibitions/pbf-exhibition-02.avif",
+  "/assets/exhibitions/pbf-exhibition-03.avif",
+  "/assets/exhibitions/pbf-exhibition-04.avif",
+  "/assets/exhibitions/pbf-exhibition-05.avif",
+  "/assets/exhibitions/pbf-exhibition-06.avif",
+  "/assets/exhibitions/pbf-exhibition-07.avif",
+  "/assets/exhibitions/pbf-exhibition-08.avif",
+  "/assets/exhibitions/pbf-exhibition-team.avif"
 ];
 
 const markets = [
@@ -153,12 +153,12 @@ const workshopImages = [
   },
   {
     title: "Export Packaging",
-    image: "/assets/factory-cases/packaging-area-pbf.png",
+    image: "/assets/factory-cases/packaging-area-pbf.avif",
     copy: "Protected packing, cartons, pallets, and export preparation for free weight orders."
   },
   {
     title: "Container Shipping",
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.avif",
     copy: "Container loading and shipment preparation for global gym equipment buyers."
   }
 ];
@@ -174,6 +174,9 @@ export default function FactoryPage() {
               className={`hero-slide hero-slide-${index + 1}`}
               src={slide.image}
               alt={slide.alt}
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "auto"}
+              decoding="async"
             />
           ))}
         </div>
@@ -241,7 +244,7 @@ export default function FactoryPage() {
           <div className="exhibition-track">
             {[...exhibitionSlides, ...exhibitionSlides].map((image, index) => (
               <figure key={`${image}-${index}`}>
-                <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" />
+                <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" loading="lazy" decoding="async" />
               </figure>
             ))}
           </div>
@@ -289,7 +292,7 @@ export default function FactoryPage() {
         </div>
         <div className="oem-image">
           <div className="image-shell">
-            <img src="/assets/factory-cases/pbf-squat-rack-chrome-plates.png" alt="Commercial gym squat racks with PBF chrome electroplated weight plates" />
+            <img src="/assets/factory-cases/pbf-squat-rack-chrome-plates.avif" alt="Commercial gym squat racks with PBF chrome electroplated weight plates" loading="lazy" decoding="async" />
           </div>
         </div>
       </section>
@@ -307,7 +310,7 @@ export default function FactoryPage() {
           {workshopImages.map((item) => (
             <article key={item.title}>
               <div className="image-shell">
-                <img src={item.image} alt={item.title} />
+                <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
               </div>
               <div>
                 <h3>{item.title}</h3>

@@ -142,6 +142,12 @@ function renderMarkdown(body: string) {
   const { body: contentBody, links } = splitRelatedPages(stripBackendSections(body));
   const lines = contentBody.split("\n");
   const elements: ReactNode[] = [];
+  let listItems: ReactNode[] = [];
+  const flushList = (key: string) => {
+    if (!listItems.length) return;
+    elements.push(<ul key={key}>{listItems}</ul>);
+    listItems = [];
+  };
   for (let index = 0; index < lines.length; index += 1) {
     const table = parseTable(lines, index);
     if (table) {
@@ -167,6 +173,7 @@ function renderMarkdown(body: string) {
     const line = lines[index];
     const text = line.trim();
     if (!text) continue;
+    if (!text.startsWith("- ")) flushList(`list-${index}`);
     if (text.startsWith("## ") && hiddenHeadingLabels.has(text.slice(3))) continue;
     const image = text.match(/^!\[(.*?)\]\((.*?)\)$/);
     if (image) {
@@ -184,9 +191,10 @@ function renderMarkdown(body: string) {
     if (text.startsWith("# ")) elements.push(<h1 key={index}>{text.slice(2)}</h1>);
     else if (text.startsWith("## ")) elements.push(<h2 key={index}>{text.slice(3)}</h2>);
     else if (text.startsWith("### ")) elements.push(<h3 key={index}>{text.slice(4)}</h3>);
-    else if (text.startsWith("- ")) elements.push(<li key={index}>{text.slice(2)}</li>);
+    else if (text.startsWith("- ")) listItems.push(<li key={index}>{text.slice(2)}</li>);
     else elements.push(<p key={index}>{text}</p>);
   }
+  flushList("list-final");
   if (links.length) {
     elements.push(
       <section className="article-related-links" key="related-pages">

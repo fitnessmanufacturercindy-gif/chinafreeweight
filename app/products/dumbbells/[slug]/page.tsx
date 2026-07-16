@@ -89,7 +89,7 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
 
       <section className="product-detail-hero">
         <div className="product-detail-media">
-          <img src={product.image} alt={`${product.name} for commercial gym equipment buyers`} />
+          <img src={product.image} alt={`${product.name} for commercial gym equipment buyers`} width={900} height={700} loading="eager" fetchPriority="high" decoding="async" />
         </div>
         <div className="product-detail-copy">
           <a className="breadcrumb-link" href="/products/dumbbells">
@@ -137,7 +137,7 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
           </div>
           <div className="detail-photo-grid">
             {product.gallery.map((image, index) => (
-              <img src={image} alt={`${product.name} product detail ${index + 1}`} key={image} />
+              <img src={image} alt={`${product.name} product detail ${index + 1}`} key={image} loading="lazy" decoding="async" />
             ))}
           </div>
         </section>
@@ -285,7 +285,7 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
           {related.map((item) => (
             <article className="dumbbell-card" key={item.slug}>
               <a href={`/products/dumbbells/${item.slug}`}>
-                <img src={item.image} alt={`${item.name} - ${item.range}`} />
+                <img src={item.image} alt={`${item.name} - ${item.range}`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{item.type}</span>

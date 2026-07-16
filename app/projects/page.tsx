@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Premium Round Dumbbell Zone",
     category: "Commercial Gyms",
-    image: "/assets/projects/round-dumbbell-gym-zone.jpg",
+    image: "/assets/projects/round-dumbbell-gym-zone.avif",
     copy: "Round dumbbell sets arranged on white racks for a clean, premium free weight area.",
     scope: "Round dumbbells, racks, premium display",
     cta: "Request similar setup"
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Commercial Dumbbell Rack Zone",
     category: "Dumbbell Zones",
-    image: "/assets/projects/commercial-dumbbell-rack-zone.jpg",
+    image: "/assets/projects/commercial-dumbbell-rack-zone.avif",
     copy: "Long dumbbell rack layout for high-traffic gyms, fitness clubs, and strength training zones.",
     scope: "Hex dumbbells, racks, gym layout",
     cta: "Plan my dumbbell area"
@@ -50,7 +50,7 @@ const projects = [
   {
     title: "Black Hex Dumbbell Project",
     category: "Commercial Gyms",
-    image: "/assets/project-dumbbell-zone.png",
+    image: "/assets/project-dumbbell-zone.avif",
     copy: "High-density black dumbbell zone for commercial gym users and daily strength training.",
     scope: "Hex dumbbells, racks, KG/LB sets",
     cta: "Get gym quote"
@@ -58,7 +58,7 @@ const projects = [
   {
     title: "Weight Plate & Barbell Area",
     category: "Weight Plate Areas",
-    image: "/assets/project-plate-zone.png",
+    image: "/assets/project-plate-zone.avif",
     copy: "Plate-loaded strength area with Olympic bars, storage, platforms, and bumper plate options.",
     scope: "Weight plates, bars, storage",
     cta: "Request plate program"
@@ -66,7 +66,7 @@ const projects = [
   {
     title: "Home Gym Free Weight Room",
     category: "Full Gym Solution",
-    image: "/assets/racks-benches.png",
+    image: "/assets/racks-benches.avif",
     copy: "Compact full gym solution combining racks, benches, dumbbells, and storage for premium spaces.",
     scope: "Rack, bench, chrome dumbbells",
     cta: "Ask for layout"
@@ -74,7 +74,7 @@ const projects = [
   {
     title: "Dealer Product Display",
     category: "Distributor Display",
-    image: "/assets/case-showroom.png",
+    image: "/assets/case-showroom.avif",
     copy: "Free weight product display for distributors, showrooms, and local retail fitness equipment stores.",
     scope: "Dumbbells, plates, display",
     cta: "Request display plan"
@@ -82,7 +82,7 @@ const projects = [
   {
     title: "Premium Product Showroom",
     category: "Distributor Display",
-    image: "/assets/case-gym.png",
+    image: "/assets/case-gym.avif",
     copy: "Chrome dumbbells and weight plates presented for buyers building high-end product lines.",
     scope: "Chrome dumbbells, plates",
     cta: "View product options"
@@ -90,7 +90,7 @@ const projects = [
   {
     title: "Gym Accessories Add-on Program",
     category: "OEM Brand",
-    image: "/assets/gym-accessories.png",
+    image: "/assets/gym-accessories.avif",
     copy: "Handles, bars, collars, kettlebells, ropes, and attachments for container add-on sales.",
     scope: "Accessories, kettlebells, handles",
     cta: "Send accessory list"
@@ -98,7 +98,7 @@ const projects = [
   {
     title: "Private Label Dumbbell Program",
     category: "OEM Brand",
-    image: "/assets/hex-dumbbells.png",
+    image: "/assets/hex-dumbbells.avif",
     copy: "Logo, weight markings, packaging, and product range planning for private label dumbbell buyers.",
     scope: "Custom logo, color, packaging",
     cta: "Start OEM project"
@@ -106,7 +106,7 @@ const projects = [
   {
     title: "Weight Plate Product Program",
     category: "Weight Plate Areas",
-    image: "/assets/weight-plate.jpg",
+    image: "/assets/weight-plate.avif",
     copy: "Rubber plates, bumper plates, and mixed plate sets for gyms, dealers, and wholesale orders.",
     scope: "Weight plates, bumper plates",
     cta: "Ask plate catalog"
@@ -114,7 +114,7 @@ const projects = [
   {
     title: "OEM Packaging Project",
     category: "Packing & Shipping",
-    image: "/assets/factory-cases/packaging-area-pbf.png",
+    image: "/assets/factory-cases/packaging-area-pbf.avif",
     copy: "Carton, pallet, logo packaging, and shipment inspection support for export fitness products.",
     scope: "Packaging, pallet, inspection",
     cta: "Request packaging plan"
@@ -122,7 +122,7 @@ const projects = [
   {
     title: "Mixed Container Export Order",
     category: "Packing & Shipping",
-    image: "/assets/factory-cases/container-shipping-pbf.png",
+    image: "/assets/factory-cases/container-shipping-pbf.avif",
     copy: "Mixed container planning for dumbbells, plates, racks, benches, accessories, and export delivery.",
     scope: "Mixed container, shipping",
     cta: "Plan my container"
@@ -194,6 +194,18 @@ export default function ProjectsPage() {
       </header>
 
       <section className="projects-hero">
+        <picture className="projects-hero-bg" aria-hidden="true">
+          <source media="(max-width: 640px)" srcSet="/assets/factory-cases/pbf-squat-rack-chrome-plates-mobile.avif" />
+          <img
+            src="/assets/factory-cases/pbf-squat-rack-chrome-plates.avif"
+            alt=""
+            width={1400}
+            height={900}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+          />
+        </picture>
         <div className="projects-hero-copy">
           <span>Project references</span>
           <h1>Free Weight Gym Projects Built for Global Buyers</h1>
@@ -262,7 +274,7 @@ export default function ProjectsPage() {
 
         <div className="featured-project">
           <a className="featured-image" href="/contact" aria-label="Request a similar commercial free weight project">
-            <img src="/assets/projects/commercial-dumbbell-rack-zone.jpg" alt="Commercial dumbbell rack zone project" />
+            <img src="/assets/projects/commercial-dumbbell-rack-zone.avif" alt="Commercial dumbbell rack zone project" width={1200} height={800} loading="lazy" decoding="async" />
           </a>
           <div className="featured-copy">
             <span>Featured project</span>
@@ -301,7 +313,7 @@ export default function ProjectsPage() {
           {projects.map((project) => (
             <article className="case-card" key={project.title}>
               <a href="/contact" aria-label={`Request quote for ${project.title}`}>
-                <img src={project.image} alt={project.title} />
+                <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{project.category}</span>
@@ -479,16 +491,37 @@ export default function ProjectsPage() {
           overflow: hidden;
           border-radius: 10px;
           border: 1px solid rgba(241, 199, 107, 0.22);
-          background:
-            linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.7) 38%, rgba(0, 0, 0, 0.18) 100%),
-            url("/assets/factory-cases/pbf-squat-rack-chrome-plates.png") center / cover;
+          background: #080808;
           box-shadow: 0 34px 90px rgba(0, 0, 0, 0.42);
+        }
+
+        .projects-hero-bg {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+        }
+
+        .projects-hero-bg img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .projects-hero::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+          background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.7) 38%, rgba(0, 0, 0, 0.18) 100%);
+          pointer-events: none;
         }
 
         .projects-hero::after {
           content: "";
           position: absolute;
           inset: 0;
+          z-index: 1;
           background:
             radial-gradient(circle at 16% 26%, rgba(241, 199, 107, 0.2), transparent 24%),
             linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.74));
@@ -497,7 +530,7 @@ export default function ProjectsPage() {
 
         .projects-hero-copy {
           position: relative;
-          z-index: 1;
+          z-index: 2;
           max-width: 920px;
           padding: 76px clamp(28px, 5vw, 86px);
         }

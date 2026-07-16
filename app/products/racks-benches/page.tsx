@@ -73,9 +73,9 @@ export default function RacksBenchesPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Racks and benches product preview">
-          <img src="/assets/products/racks-benches/private-home-gym-rack-system.jpg" alt="Private home gym rack system with rack bench dumbbells and storage" />
-          <img src="/assets/products/racks-benches/home-gym-functional-trainer.jpg" alt="Home gym functional trainer customized for a private fitness room" />
-          <img src="/assets/products/racks-benches/adjustable-weight-bench.jpg" alt="Adjustable weight bench for racks and benches supply" />
+          <img src="/assets/products/racks-benches/private-home-gym-rack-system.avif" alt="Private home gym rack system with rack bench dumbbells and storage" width={1000} height={760} loading="lazy" decoding="async" />
+          <img src="/assets/products/racks-benches/home-gym-functional-trainer.jpg" alt="Home gym functional trainer customized for a private fitness room" width={1000} height={760} loading="lazy" decoding="async" />
+          <img src="/assets/products/racks-benches/adjustable-weight-bench.jpg" alt="Adjustable weight bench for racks and benches supply" width={1000} height={760} loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -190,7 +190,7 @@ export default function RacksBenchesPage() {
           {racksBenchesProducts.map((product) => (
             <article className="dumbbell-card" key={product.slug}>
               <a href={`/products/racks-benches/${product.slug}`} aria-label={`View details for ${product.name}`}>
-                <img src={product.image} alt={`${product.name} home gym functional trainer from PBF`} />
+                <img src={product.image} alt={`${product.name} home gym functional trainer from PBF`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{product.type}</span>

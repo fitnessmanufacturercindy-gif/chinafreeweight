@@ -28,14 +28,15 @@ function product(
     "Logo plate or brand panel",
     "Attachment package selection",
     "Export packing support"
-  ]
+  ],
+  imageOverride?: string
 ): RacksBenchesProduct {
   return {
     slug,
     name,
     type,
     range,
-    image: `${basePath}/${slug}.jpg`,
+    image: imageOverride || `${basePath}/${slug}.jpg`,
     copy,
     material:
       "Heavy-duty steel frame, precision-drilled uprights, reinforced welding points, durable powder coating, chrome sleeves or guide rods where required, and commercial-grade hardware.",
@@ -58,7 +59,8 @@ export const racksBenchesProducts: RacksBenchesProduct[] = [
     "A complete private home gym solution for premium residential fitness spaces, combining rack training, cable work, bench use, dumbbell storage, and custom visual identity.",
     ["Complete private room layout", "Rack, cable, bench, and free weight planning", "High-end home gym presentation"],
     ["Luxury home gym", "Private training room", "Premium villa fitness space"],
-    ["Room-based layout planning", "Logo and brand panel", "Frame and pad color customization", "Matched dumbbells, plates, bars, and accessories"]
+    ["Room-based layout planning", "Logo and brand panel", "Frame and pad color customization", "Matched dumbbells, plates, bars, and accessories"],
+    `${basePath}/private-home-gym-rack-system.avif`
   ),
   product(
     "power-rack-functional-trainer",

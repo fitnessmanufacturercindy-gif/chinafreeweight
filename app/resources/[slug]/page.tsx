@@ -45,7 +45,7 @@ function inlineFormat(text: string) {
 function renderArticleImage(image: ResourceImage, key: string) {
   return (
     <figure className="article-image" key={key}>
-      <img src={image.src} alt={image.alt} />
+      <img src={image.src} alt={image.alt} loading="lazy" decoding="async" />
       <figcaption>{image.caption}</figcaption>
     </figure>
   );
@@ -158,7 +158,7 @@ export default async function ResourceArticlePage({ params }: PageProps) {
         </a>
         <div className="article-kicker">{post.primaryKeyword}</div>
         <a className="article-hero-image" href="/contact" aria-label="Send requirements for this product topic">
-          <img src={post.coverImage} alt={post.coverAlt} />
+          <img src={post.coverImage} alt={post.coverAlt} width={1200} height={620} loading="eager" fetchPriority="high" decoding="async" />
           <span>Click to discuss this sourcing topic</span>
         </a>
         <div className="article-product-link">

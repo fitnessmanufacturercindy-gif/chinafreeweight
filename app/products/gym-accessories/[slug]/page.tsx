@@ -68,6 +68,11 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
       answer: sourcingFacts.leadTime
     }
   ];
+  const productImageSize = product.image.includes("rubber-coated-gym-handle-sets-large")
+    ? { width: 1100, height: 839 }
+    : product.image.includes("cable-machine-attachments-large")
+      ? { width: 1100, height: 956 }
+      : { width: 698, height: 520 };
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -195,7 +200,15 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
           </div>
         </div>
         <div className="detail-hero-image">
-          <img src={product.image} alt={`${product.name} for gym accessories supplier and OEM fitness equipment supply`} />
+          <img
+            src={product.image}
+            alt={`${product.name} for gym accessories supplier and OEM fitness equipment supply`}
+            width={productImageSize.width}
+            height={productImageSize.height}
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+          />
         </div>
       </section>
 
@@ -341,7 +354,7 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
           {relatedProducts.map((item) => (
             <article className="dumbbell-card" key={item.slug}>
               <a href={`/products/gym-accessories/${item.slug}`}>
-                <img src={item.image} alt={`${item.name} gym accessory product`} />
+                <img src={item.image} alt={`${item.name} gym accessory product`} loading="lazy" decoding="async" />
               </a>
               <div>
                 <span>{item.type}</span>

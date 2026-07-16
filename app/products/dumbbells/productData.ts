@@ -55,9 +55,9 @@ export const dumbbellProducts: DumbbellProduct[] = [
     name: "Chrome Dumbbell",
     range: "Custom KG/LB weight options",
     type: "Chrome finish",
-    image: "/assets/products/dumbbells/chrome/chrome-dumbbell-main.jpg",
+    image: "/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif",
     gallery: [
-      "/assets/products/dumbbells/chrome/chrome-dumbbell-main.jpg",
+      "/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif",
       "/assets/products/dumbbells/chrome/chrome-dumbbell-silver.jpg",
       "/assets/products/dumbbells/chrome/chrome-dumbbell-black-handle.jpg",
       "/assets/products/dumbbells/chrome/chrome-dumbbell-custom-logo.jpg",
@@ -74,9 +74,9 @@ export const dumbbellProducts: DumbbellProduct[] = [
     name: "Classic Rubber Round Dumbbell",
     range: "2.5-100 kg, 2.5 kg increments / LB available",
     type: "Rubber coated round head",
-    image: "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.jpg",
+    image: "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.avif",
     gallery: [
-      "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.jpg",
+      "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.avif",
       "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-detail.jpg"
     ],
     copy: "A classic rubber coated round dumbbell for commercial gym projects, available in KG and LB systems with a 2.5-100 kg range and 2.5 kg increments.",
