@@ -7,7 +7,21 @@ export const metadata: Metadata = {
   title: "Resources | Free Weight Buying Guides for Importers & Gym Buyers",
   description:
     "Practical buying guides for commercial dumbbells, weight plates, bumper plates, and OEM gym equipment sourcing from China.",
-  alternates: getEnglishAlternates("/resources")
+  alternates: getEnglishAlternates("/resources"),
+  openGraph: {
+    type: "website",
+    title: "PowerBaseFit Free Weight Knowledge Center",
+    description:
+      "Training science, manufacturing knowledge, and practical free weight buying guides for professional equipment buyers.",
+    url: "/resources",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "PowerBaseFit Free Weight Knowledge Center" }]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PowerBaseFit Free Weight Knowledge Center",
+    description: "Training science, manufacturing knowledge, and practical free weight buying guides.",
+    images: ["/og.png"]
+  }
 };
 
 export default function ResourcesPage() {
@@ -28,12 +42,12 @@ export default function ResourcesPage() {
 
       <section className="resources-hero">
         <div>
-          <span>Buying Resources</span>
-          <h1>Free weight buying guides for importers, dealers, and gym project buyers</h1>
+          <span>Free Weight Knowledge Center</span>
+          <h1>Training science, manufacturing knowledge, and practical buyer guides</h1>
           <p>
-            Practical sourcing articles for commercial dumbbells, weight plates,
-            bumper plates, and OEM gym equipment orders. Built for buyers who
-            need clearer product decisions before requesting a factory quotation.
+            Authoritative resources on dumbbells, bumper plates, free weight
+            production, equipment quality, and commercial sourcing—written from
+            the perspective of a professional fitness equipment manufacturer.
           </p>
         </div>
         <div className="hero-proof">
@@ -44,13 +58,13 @@ export default function ResourcesPage() {
           </article>
           <article>
             <SearchCheck size={26} />
-            <strong>Decision Guides</strong>
-            <p>Comparison content for real sourcing questions and buyer intent.</p>
+            <strong>Evidence-Led Answers</strong>
+            <p>Clear training and equipment answers designed for people and AI search.</p>
           </article>
           <article>
             <BookOpen size={26} />
-            <strong>Quote Ready</strong>
-            <p>Each article helps buyers prepare a clearer RFQ.</p>
+            <strong>Buyer Ready</strong>
+            <p>Technical details and checklists that support a clearer RFQ.</p>
           </article>
         </div>
       </section>

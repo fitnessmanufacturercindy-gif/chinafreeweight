@@ -246,16 +246,21 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("English URL regression: sitemap retains 112 English routes and adds 28 Portuguese routes", () => {
+test("English URL regression: sitemap retains 118 English routes and adds 28 Portuguese routes", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url));
-  assert.equal(englishUrls.length, 112);
+  assert.equal(englishUrls.length, 118);
   assert.equal(portugueseUrls.length, 28);
-  assert.equal(new Set(urls).size, 140);
+  assert.equal(new Set(urls).size, 146);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/do-dumbbells-help-with-bone-density`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/why-is-it-called-a-dumbbell`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/can-i-build-muscle-with-only-dumbbells`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-bumper-plates-made`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-dumbbells-weighed`));
   assert.ok(urls.includes(`${configuredSiteUrl}/factory`));
   assert.ok(urls.includes(`${configuredSiteUrl}/contact`));
   assert.equal(urls.some((url) => new URL(url).pathname.startsWith("/en/")), false);

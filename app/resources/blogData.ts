@@ -7,6 +7,7 @@ export type ResourcePost = {
   seoTitle: string;
   metaDescription: string;
   primaryKeyword: string;
+  secondaryKeywords: string[];
   searchIntent: string;
   content: string;
   excerpt: string;
@@ -14,6 +15,8 @@ export type ResourcePost = {
   coverImage: string;
   coverAlt: string;
   articleImages: ResourceImage[];
+  publishedAt: string;
+  updatedAt: string;
 };
 
 export type ResourceImage = {
@@ -32,6 +35,61 @@ const postVisuals: Record<
     articleImages: ResourceImage[];
   }
 > = {
+  "do-dumbbells-help-with-bone-density": {
+    coverImage: "/assets/resources/bone-density-dumbbells-hero.webp",
+    coverAlt: "Adult performing controlled dumbbell resistance training in a premium commercial gym",
+    articleImages: [
+      {
+        src: "/assets/resources/bone-density-dumbbells-guide.webp",
+        alt: "Educational view of safe dumbbell exercises that load the hips spine and arms",
+        caption: "A balanced dumbbell program combines lower-body, upper-body, and loaded-carry patterns while progressing gradually."
+      }
+    ]
+  },
+  "why-is-it-called-a-dumbbell": {
+    coverImage: "/assets/resources/dumbbell-name-history-hero.webp",
+    coverAlt: "Modern dumbbells arranged beside a subtle historic bell-ringing training setting",
+    articleImages: [
+      {
+        src: "/assets/resources/dumbbell-name-history-guide.webp",
+        alt: "Visual timeline from a silent bell training apparatus to a modern fixed dumbbell",
+        caption: "The name moved from a silent bell-ringing exercise machine to the compact hand weight used today."
+      }
+    ]
+  },
+  "can-i-build-muscle-with-only-dumbbells": {
+    coverImage: "/assets/resources/dumbbell-muscle-building-hero.webp",
+    coverAlt: "Athlete training the full body with dumbbells in a commercial strength area",
+    articleImages: [
+      {
+        src: "/assets/resources/dumbbell-muscle-building-guide.webp",
+        alt: "Dumbbell-only muscle building movements for push pull squat hinge and carry patterns",
+        caption: "Dumbbells can cover every major movement pattern when load, range of motion, and weekly volume are progressed."
+      }
+    ]
+  },
+  "how-are-bumper-plates-made": {
+    coverImage: "/assets/resources/bumper-plate-manufacturing-hero.webp",
+    coverAlt: "Bumper plates and molding equipment inside a modern free weight factory",
+    articleImages: [
+      {
+        src: "/assets/resources/bumper-plate-manufacturing-guide.webp",
+        alt: "Bumper plate production stages from rubber preparation through molding and quality inspection",
+        caption: "Material control, molding conditions, insert fit, weight verification, and finishing all affect a bumper plate's consistency."
+      }
+    ]
+  },
+  "how-are-dumbbells-weighed": {
+    coverImage: "/assets/resources/dumbbell-weight-qc-hero.webp",
+    coverAlt: "Technician checking a finished dumbbell on a calibrated industrial scale",
+    articleImages: [
+      {
+        src: "/assets/resources/dumbbell-weight-qc-guide.webp",
+        alt: "Dumbbell quality control station with reference weights digital scale and inspection record",
+        caption: "Reliable weight control starts with a verified scale and continues through sampling, recording, and corrective action."
+      }
+    ]
+  },
   "evaluate-oem-gym-equipment-factory-china": {
     coverImage: "/assets/factory.webp",
     coverAlt: "PowerBaseFit factory exterior in Dezhou China",
@@ -133,6 +191,13 @@ function readFrontmatter(source: string) {
   return { data, content: match[2].trim() };
 }
 
+function parseKeywordList(value?: string) {
+  return (value || "")
+    .split(",")
+    .map((keyword) => keyword.trim())
+    .filter(Boolean);
+}
+
 function getExcerpt(content: string) {
   const paragraph =
     content
@@ -179,15 +244,23 @@ export function getAllPosts(): ResourcePost[] {
         seoTitle: data.seo_title || getTitle(publicContent),
         metaDescription: data.meta_description || getExcerpt(publicContent),
         primaryKeyword: data.primary_keyword || "free weight equipment",
+        secondaryKeywords: parseKeywordList(data.secondary_keywords),
         searchIntent: data.search_intent || "B2B buyer education",
         content: publicContent,
         excerpt: getExcerpt(publicContent),
         readingTime: getReadingTime(publicContent),
+        publishedAt: data.published_at || "2026-07-16",
+        updatedAt: data.updated_at || data.published_at || "2026-07-16",
         ...(postVisuals[slug] || fallbackVisuals)
       };
     })
     .sort((a, b) => {
       const priority = [
+        "do-dumbbells-help-with-bone-density",
+        "why-is-it-called-a-dumbbell",
+        "can-i-build-muscle-with-only-dumbbells",
+        "how-are-bumper-plates-made",
+        "how-are-dumbbells-weighed",
         "evaluate-oem-gym-equipment-factory-china",
         "how-to-choose-commercial-dumbbells",
         "weight-plates-vs-bumper-plates-b2b-guide"
