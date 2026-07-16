@@ -73,18 +73,20 @@ test("locale routing: English stays unprefixed and /en redirects", () => {
   assert.equal(buildPublicPath("pt-BR", "/products/dumbbells"), "/pt/products/dumbbells");
 });
 
-test("pilot routing: Portuguese is public while other configured locales remain unavailable", () => {
+test("published locale routing: Portuguese and Spanish are public while other locales remain unavailable", () => {
   assert.deepEqual(decideLocaleRequest("/pt/products/dumbbells"), {
     action: "pass",
     internalLocale: "pt-BR"
   });
-  assert.deepEqual(decideLocaleRequest("/es/products/dumbbells"), { action: "not_found", reason: "locale_not_public" });
+  assert.deepEqual(decideLocaleRequest("/es/productos/mancuernas"), { action: "pass", internalLocale: "es" });
+  assert.deepEqual(decideLocaleRequest("/de/products/dumbbells"), { action: "not_found", reason: "locale_not_public" });
 });
 
-test("production manifest: only reviewed Brazilian Portuguese growth content is published", () => {
+test("production manifest: only reviewed English, Portuguese and Spanish content is published", () => {
   assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 28);
-  assert.equal(contentRepository.listPublished().length, 44);
-  assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR"].includes(version.locale)), false);
+  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 23);
+  assert.equal(contentRepository.listPublished().length, 67);
+  assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es"].includes(version.locale)), false);
 });
 
 test("canonical and metadata: localized content is self-canonical", () => {
@@ -141,9 +143,35 @@ test("growth content: products and blogs meet useful Portuguese depth targets", 
   assert.ok(blogWords.every((count) => count >= 1200 && count <= 2000), JSON.stringify(blogWords));
 });
 
+test("Spanish expansion: products and blogs meet localized depth targets", () => {
+  function words(content: ReturnType<typeof contentRepository.listPublished>[number]) {
+    const dataText = content.version.body.flatMap((block) =>
+      [block.data?.term, block.data?.columns, block.data?.rows, block.data?.items].flat(3)
+        .filter((value): value is string => typeof value === "string")
+    );
+    return [
+      content.version.h1,
+      content.version.description,
+      ...content.version.body.flatMap((block) => [block.heading ?? "", block.content ?? ""]),
+      ...dataText,
+      ...content.version.faq.flatMap((item) => [item.question, item.answer])
+    ].join(" ").split(/\s+/).filter(Boolean).length;
+  }
+  const spanish = contentRepository.listPublished({ locale: "es" });
+  const products = spanish.filter(({ entity }) => entity.type === "product").map(words);
+  const blogs = spanish.filter(({ entity }) => entity.type === "blog").map(words);
+  assert.equal(products.length, 4);
+  assert.ok(products.every((count) => count >= 700 && count <= 1200), JSON.stringify(products));
+  assert.equal(blogs.length, 10);
+  assert.ok(blogs.every((count) => count >= 1200 && count <= 2000), JSON.stringify(blogs));
+});
+
 test("growth content: AI answer blocks, tables, authors, links and images are complete", () => {
-  const portuguese = contentRepository.listPublished({ locale: "pt-BR" });
-  const deepPages = portuguese.filter(({ entity }) => entity.type === "product" || entity.type === "blog");
+  const localized = [
+    ...contentRepository.listPublished({ locale: "pt-BR" }),
+    ...contentRepository.listPublished({ locale: "es" })
+  ];
+  const deepPages = localized.filter(({ entity }) => entity.type === "product" || entity.type === "blog");
 
   for (const content of deepPages) {
     const types = new Set(content.version.body.map((block) => block.type));
@@ -156,9 +184,9 @@ test("growth content: AI answer blocks, tables, authors, links and images are co
     assert.ok(content.version.faq.length >= 4, `${content.version.publicPath}: FAQ`);
   }
 
-  for (const { version } of portuguese) {
+  for (const { version } of localized) {
     for (const link of version.internalLinks) {
-      assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "pt-BR"), `${version.publicPath}: ${link.targetContentId}`);
+      assert.ok(contentRepository.getPublishedVersion(link.targetContentId, version.locale), `${version.publicPath}: ${link.targetContentId}`);
     }
     for (const item of version.images) {
       assert.ok(existsSync(join(process.cwd(), "public", item.src.replace(/^\//, ""))), `${version.publicPath}: ${item.src}`);
@@ -185,12 +213,34 @@ test("growth schema: product facts and editorial review are machine readable", (
   assert.ok(article?.image);
 });
 
-test("Portuguese-only growth pages do not invent an English alternate", () => {
+test("Spanish metadata and schema use Spanish text and language", () => {
+  const content = contentRepository.getPublishedVersion("rubber-hex-dumbbell", "es");
+  assert.ok(content);
+  const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
+  assert.equal(metadata.alternates?.canonical, `${siteUrl}/es/productos/mancuernas/mancuerna-hexagonal-goma`);
+  assert.deepEqual(metadata.alternates?.languages, {
+    en: `${siteUrl}/products/dumbbells/hex-dumbbell-kg`,
+    "pt-BR": `${siteUrl}/pt/produtos/halteres/halter-sextavado-borracha`,
+    es: `${siteUrl}/es/productos/mancuernas/mancuerna-hexagonal-goma`,
+    "x-default": `${siteUrl}/products/dumbbells/hex-dumbbell-kg`
+  });
+  const graph = buildLocalizedSchemaGraph(content, siteUrl);
+  const product = graph.find((node) => node["@type"] === "Product");
+  const faq = graph.find((node) => node["@type"] === "FAQPage");
+  assert.equal(product?.inLanguage, "es");
+  assert.match(String(product?.name), /Mancuerna hexagonal/);
+  assert.equal(faq?.inLanguage, "es");
+});
+
+test("Portuguese and Spanish growth pages without English do not invent an English alternate", () => {
   const content = contentRepository.getPublishedVersion("products-hub", "pt-BR");
   assert.ok(content);
   const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
-  assert.deepEqual(metadata.alternates?.languages, { "pt-BR": `${siteUrl}/pt/produtos` });
-  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["pt-BR"]);
+  assert.deepEqual(metadata.alternates?.languages, {
+    "pt-BR": `${siteUrl}/pt/produtos`,
+    es: `${siteUrl}/es/productos`
+  });
+  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["pt-BR", "es"]);
 });
 
 test("sitemap: non-public and review-required localizations never enter output", () => {
@@ -216,6 +266,8 @@ test("language switch mapping: stable content ID resolves the matching localized
     "/pt/products/dumbbells/rubber-hex-dumbbells"
   );
   assert.deepEqual(getLanguageSwitchOptions("product:rubber-hex-dumbbells", "en", repository).map((option) => option.locale), ["en", "pt-BR"]);
+  assert.deepEqual(getLanguageSwitchOptions("dumbbells-category", "en", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es"]);
+  assert.equal(resolveLanguageSwitchTarget("dumbbells-category", "es", contentRepository), "/es/productos/mancuernas");
 });
 
 test("locale validation: catches /en URLs, missing slugs and duplicate localized URLs", () => {
@@ -246,13 +298,15 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("English URL regression: sitemap retains 118 English routes and adds 28 Portuguese routes", () => {
+test("multilingual sitemap retains 118 English routes and adds 28 Portuguese and 23 Spanish routes", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
-  const englishUrls = urls.filter((url) => !portugueseUrls.includes(url));
+  const spanishUrls = urls.filter((url) => new URL(url).pathname === "/es" || new URL(url).pathname.startsWith("/es/"));
+  const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url));
   assert.equal(englishUrls.length, 118);
   assert.equal(portugueseUrls.length, 28);
-  assert.equal(new Set(urls).size, 146);
+  assert.equal(spanishUrls.length, 23);
+  assert.equal(new Set(urls).size, 169);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -264,5 +318,8 @@ test("English URL regression: sitemap retains 118 English routes and adds 28 Por
   assert.ok(urls.includes(`${configuredSiteUrl}/factory`));
   assert.ok(urls.includes(`${configuredSiteUrl}/contact`));
   assert.equal(urls.some((url) => new URL(url).pathname.startsWith("/en/")), false);
-  assert.equal(urls.some((url) => /^\/(es|de|fr|it|nl|ru|ar|ja|ko)(\/|$)/.test(new URL(url).pathname)), false);
+  assert.ok(urls.includes(`${configuredSiteUrl}/es`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/es/productos/mancuernas`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/es/blog/importar-equipos-gimnasio-desde-china`));
+  assert.equal(urls.some((url) => /^\/(de|fr|it|nl|ru|ar|ja|ko)(\/|$)/.test(new URL(url).pathname)), false);
 });

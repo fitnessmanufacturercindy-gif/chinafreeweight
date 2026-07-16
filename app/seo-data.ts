@@ -48,7 +48,8 @@ export function blogSeoRoutes(): SeoRoute[] {
 
 export function localizedSeoRoutes(): SeoRoute[] {
   return contentRepository
-    .listPublished({ locale: "pt-BR" })
+    .listPublished()
+    .filter(({ version }) => version.locale !== "en")
     .map(({ version }) => ({ path: version.publicPath, type: "language" as const, title: version.title, image: version.images[0]?.src }));
 }
 
@@ -72,5 +73,8 @@ export function imageSeoEntries() {
 }
 
 export function localizedSitemapEntries() {
-  return buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" });
+  return [
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" })
+  ];
 }

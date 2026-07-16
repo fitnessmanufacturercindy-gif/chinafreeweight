@@ -1,0 +1,59 @@
+const copy = {
+  "pt-BR": {
+    subject: "Nova solicitação em português — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/pt/contato?inquiry=sent#consulta",
+    source: "ChinaFreeWeight página em português",
+    name: "Nome", namePlaceholder: "Seu nome completo",
+    email: "E-mail corporativo", phone: "WhatsApp / telefone", phonePlaceholder: "+55 11 99999 9999",
+    company: "Empresa", companyPlaceholder: "Nome da empresa ou academia",
+    country: "País / região", countryPlaceholder: "Brasil",
+    demand: "Produtos de interesse", demandPlaceholder: "Halteres, anilhas, OEM, projeto de academia...",
+    category: "Categoria", select: "Selecione",
+    categories: ["Halteres", "Anilhas", "Bumper Plates", "OEM / marca própria", "Solução para academia"],
+    quantity: "Quantidade estimada", quantityPlaceholder: "Ex.: 200 pares / 1 contêiner",
+    project: "Tipo de projeto", projects: ["Distribuição / importação", "Marca própria", "Nova academia", "Varejo"],
+    message: "Mensagem", messagePlaceholder: "Informe pesos, quantidades, logo, embalagem, destino e prazo desejado.",
+    submit: "Solicitar cotação"
+  },
+  es: {
+    subject: "Nueva solicitud en español — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/es/contacto?inquiry=sent#consulta",
+    source: "ChinaFreeWeight página en español",
+    name: "Nombre", namePlaceholder: "Nombre y apellidos",
+    email: "Correo corporativo", phone: "WhatsApp / teléfono", phonePlaceholder: "+34 / +52 / código de país",
+    company: "Empresa", companyPlaceholder: "Empresa, distribuidor o gimnasio",
+    country: "País / región", countryPlaceholder: "España, México, Colombia...",
+    demand: "Productos de interés", demandPlaceholder: "Mancuernas, discos, OEM, proyecto de gimnasio...",
+    category: "Categoría", select: "Seleccionar",
+    categories: ["Mancuernas", "Discos de peso", "Discos bumper", "OEM / marca propia", "Solución para gimnasio"],
+    quantity: "Cantidad estimada", quantityPlaceholder: "Ej.: 200 pares / 1 contenedor",
+    project: "Tipo de proyecto", projects: ["Distribución / importación", "Marca propia", "Nuevo gimnasio", "Venta minorista"],
+    message: "Mensaje", messagePlaceholder: "Indique pesos, cantidades, logotipo, embalaje, destino y plazo.",
+    submit: "Solicitar cotización"
+  }
+} as const;
+
+export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" }) {
+  const text = copy[locale];
+  return (
+    <form className="quote-form" action="https://formsubmit.co/kloe@powerbasefit.com" method="POST">
+      <input type="hidden" name="_subject" value={text.subject} />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value={text.next} />
+      <input type="hidden" name="source" value={text.source} />
+      <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
+      <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
+      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder="nombre@empresa.com" required /></label>
+      <label>{text.phone} <span className="required-mark">*</span><input name="phone" type="tel" placeholder={text.phonePlaceholder} required /></label>
+      <label>{text.company}<input name="company" type="text" placeholder={text.companyPlaceholder} /></label>
+      <label>{text.country}<input name="country" type="text" placeholder={text.countryPlaceholder} /></label>
+      <label>{text.demand}<input name="productDemand" type="text" placeholder={text.demandPlaceholder} /></label>
+      <label>{text.category}<select name="productCategory" defaultValue=""><option value="">{text.select}</option>{text.categories.map((item) => <option key={item}>{item}</option>)}</select></label>
+      <label>{text.quantity}<input name="quantity" type="text" placeholder={text.quantityPlaceholder} /></label>
+      <label>{text.project}<select name="projectType" defaultValue=""><option value="">{text.select}</option>{text.projects.map((item) => <option key={item}>{item}</option>)}</select></label>
+      <label className="full">{text.message}<textarea name="message" placeholder={text.messagePlaceholder} /></label>
+      <button type="submit">{text.submit}</button>
+    </form>
+  );
+}

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LocalizedPageTemplate from "../../components/i18n/LocalizedPageTemplate";
-import { getLocaleByRouteLocale } from "../../../i18n/locale-registry";
+import { getLocaleByInternalLocale, getLocaleByRouteLocale } from "../../../i18n/locale-registry";
 import { contentRepository } from "../../../lib/content/repository";
 import { buildLocalizedMetadata } from "../../../lib/seo/metadata";
 import { asJsonLdDocument, buildLocalizedSchemaGraph } from "../../../lib/seo/schema";
@@ -12,10 +12,15 @@ type LocalizedPageProps = {
 };
 
 export function generateStaticParams() {
-  return contentRepository.listPublished({ locale: "pt-BR" }).map(({ version }) => ({
-    locale: "pt",
-    segments: version.publicPath.split("/").filter(Boolean).slice(1)
-  }));
+  return contentRepository.listPublished().flatMap(({ version }) => {
+    if (version.locale === "en") return [];
+    const definition = getLocaleByInternalLocale(version.locale);
+    if (!definition?.public) return [];
+    return [{
+      locale: definition.routeLocale,
+      segments: version.publicPath.split("/").filter(Boolean).slice(1)
+    }];
+  });
 }
 
 function pathFromParams(locale: string, segments: string[] | undefined): string {

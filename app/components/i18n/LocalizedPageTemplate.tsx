@@ -1,7 +1,26 @@
 import { contentRepository } from "../../../lib/content/repository";
 import type { PublishedContent } from "../../../lib/content/types";
 import LanguageSwitcher from "./LanguageSwitcher";
-import PortugueseInquiryForm from "./PortugueseInquiryForm";
+import LocalizedInquiryForm from "./LocalizedInquiryForm";
+
+const pageCopy = {
+  "pt-BR": {
+    breadcrumb: "Navegação estrutural", eyebrow: "PowerBaseFit · Fabricante B2B",
+    quote: "Solicitar cotação", by: "Por", reviewed: "Revisado por", updated: "Atualizado em",
+    related: "Continue sua pesquisa", faq: "Perguntas frequentes",
+    finalTitle: "Pronto para avaliar seu projeto?",
+    finalText: "Envie sua lista de produtos, quantidades, personalização e destino para receber uma cotação B2B.",
+    finalLink: "Falar com a PowerBaseFit", contactPath: "/pt/contato"
+  },
+  es: {
+    breadcrumb: "Ruta de navegación", eyebrow: "PowerBaseFit · Fabricante B2B",
+    quote: "Solicitar cotización", by: "Por", reviewed: "Revisado por", updated: "Actualizado el",
+    related: "Continúe su investigación", faq: "Preguntas frecuentes",
+    finalTitle: "¿Listo para evaluar su proyecto?",
+    finalText: "Envíe la lista de productos, cantidades, personalización y destino para recibir una cotización B2B.",
+    finalLink: "Hablar con PowerBaseFit", contactPath: "/es/contacto"
+  }
+} as const;
 
 function paragraphs(content: string) {
   return content.split("\n\n").map((paragraph) => <p key={paragraph}>{paragraph}</p>);
@@ -20,27 +39,29 @@ function tableRows(value: unknown): string[][] {
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
+  const locale = version.locale === "es" ? "es" : "pt-BR";
+  const text = pageCopy[locale];
 
   return (
     <main className="localized-page">
       <article>
         {breadcrumbs.length > 1 ? (
-          <nav className="localized-breadcrumbs" aria-label="Navegação estrutural">
+          <nav className="localized-breadcrumbs" aria-label={text.breadcrumb}>
             {breadcrumbs.map((item, index) => <span key={item.path}>{index ? " / " : ""}<a href={item.path}>{item.name}</a></span>)}
           </nav>
         ) : null}
         <header className="localized-hero">
-          <p className="eyebrow">PowerBaseFit · Fabricante B2B</p>
+          <p className="eyebrow">{text.eyebrow}</p>
           <h1>{version.h1}</h1>
           <p>{version.description}</p>
           <div className="localized-hero-actions">
-            <a className="primary-cta" href="/pt/contato">Solicitar cotação</a>
+            <a className="primary-cta" href={text.contactPath}>{text.quote}</a>
             <LanguageSwitcher contentId={entity.id} currentLocale={version.locale} />
           </div>
           <div className="localized-editorial-meta">
-            {version.author ? <span>Por {version.author.name}{version.author.role ? ` · ${version.author.role}` : ""}</span> : null}
-            {version.reviewedBy ? <span>Revisado por {version.reviewedBy.name}{version.reviewedBy.role ? ` · ${version.reviewedBy.role}` : ""}</span> : null}
-            <time dateTime={version.updatedAt}>Atualizado em {new Intl.DateTimeFormat("pt-BR", { dateStyle: "long", timeZone: "UTC" }).format(new Date(version.updatedAt))}</time>
+            {version.author ? <span>{text.by} {version.author.name}{version.author.role ? ` · ${version.author.role}` : ""}</span> : null}
+            {version.reviewedBy ? <span>{text.reviewed} {version.reviewedBy.name}{version.reviewedBy.role ? ` · ${version.reviewedBy.role}` : ""}</span> : null}
+            <time dateTime={version.updatedAt}>{text.updated} {new Intl.DateTimeFormat(locale, { dateStyle: "long", timeZone: "UTC" }).format(new Date(version.updatedAt))}</time>
           </div>
         </header>
 
@@ -62,13 +83,13 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
                 </div>
               ) : null}
               {block.type === "features" && stringArray(block.data?.items).length ? <ul className="localized-checklist">{stringArray(block.data?.items).map((item) => <li key={item}>{item}</li>)}</ul> : null}
-              {block.data?.component === "inquiry-form" ? <PortugueseInquiryForm /> : null}
+              {block.data?.component === "inquiry-form" ? <LocalizedInquiryForm locale={locale} /> : null}
             </section>
           ))}
 
           {version.internalLinks.length ? (
             <section className="localized-related" aria-labelledby={`${entity.id}-related`}>
-              <h2 id={`${entity.id}-related`}>Continue sua pesquisa</h2>
+              <h2 id={`${entity.id}-related`}>{text.related}</h2>
               <div>
                 {version.internalLinks.flatMap((link) => {
                   const target = contentRepository.getPublishedVersion(link.targetContentId, version.locale);
@@ -80,15 +101,15 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
 
           {version.faq.length ? (
             <section className="localized-faq" aria-labelledby={`${entity.id}-faq`}>
-              <h2 id={`${entity.id}-faq`}>Perguntas frequentes</h2>
+              <h2 id={`${entity.id}-faq`}>{text.faq}</h2>
               {version.faq.map((item) => <details key={item.id}><summary>{item.question}</summary><p>{item.answer}</p></details>)}
             </section>
           ) : null}
 
           <section className="localized-final-cta">
-            <h2>Pronto para avaliar seu projeto?</h2>
-            <p>Envie sua lista de produtos, quantidades, personalização e destino para receber uma cotação B2B.</p>
-            <a className="primary-cta" href="/pt/contato">Falar com a PowerBaseFit</a>
+            <h2>{text.finalTitle}</h2>
+            <p>{text.finalText}</p>
+            <a className="primary-cta" href={text.contactPath}>{text.finalLink}</a>
           </section>
         </div>
       </article>
