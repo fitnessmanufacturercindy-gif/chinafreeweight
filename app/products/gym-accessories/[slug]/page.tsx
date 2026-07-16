@@ -47,9 +47,115 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
   const relatedProducts = gymAccessoryProducts
     .filter((item) => item.slug !== product.slug)
     .slice(0, 3);
+  const siteUrl = "https://www.chinafreeweight.com";
+  const productUrl = `${siteUrl}/products/gym-accessories/${product.slug}`;
+  const faqs = [
+    {
+      question: "What is the MOQ for gym accessories?",
+      answer: sourcingFacts.moq
+    },
+    {
+      question: "Can accessories be customized?",
+      answer:
+        "Yes. Custom color, logo, label, carton design, and product bundle planning can be reviewed according to the accessory type and order quantity."
+    },
+    {
+      question: "How are accessories packed?",
+      answer: sourcingFacts.packaging
+    },
+    {
+      question: "What is the lead time?",
+      answer: sourcingFacts.leadTime
+    }
+  ];
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    image: `${siteUrl}${product.image}`,
+    description: product.copy,
+    brand: {
+      "@type": "Brand",
+      name: "PowerBaseFit"
+    },
+    manufacturer: {
+      "@type": "Organization",
+      name: "PowerBaseFit",
+      url: siteUrl
+    },
+    category: "Gym Accessories",
+    url: productUrl,
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Product type",
+        value: product.type
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Range",
+        value: product.range
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Material",
+        value: product.material
+      },
+      {
+        "@type": "PropertyValue",
+        name: "OEM options",
+        value: product.oemOptions.join(", ")
+      }
+    ]
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteUrl
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: `${siteUrl}/products`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Gym Accessories",
+        item: `${siteUrl}/products/gym-accessories`
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: product.name,
+        item: productUrl
+      }
+    ]
+  };
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
+  };
 
   return (
     <main className="product-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
           <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
@@ -211,26 +317,12 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
           </p>
         </div>
         <div className="faq-list">
-          <article>
-            <h3>What is the MOQ for gym accessories?</h3>
-            <p>{sourcingFacts.moq}</p>
-          </article>
-          <article>
-            <h3>Can accessories be customized?</h3>
-            <p>
-              Yes. Custom color, logo, label, carton design, and product bundle
-              planning can be reviewed according to the accessory type and
-              order quantity.
-            </p>
-          </article>
-          <article>
-            <h3>How are accessories packed?</h3>
-            <p>{sourcingFacts.packaging}</p>
-          </article>
-          <article>
-            <h3>What is the lead time?</h3>
-            <p>{sourcingFacts.leadTime}</p>
-          </article>
+          {faqs.map((faq) => (
+            <article key={faq.question}>
+              <h3>{faq.question}</h3>
+              <p>{faq.answer}</p>
+            </article>
+          ))}
         </div>
       </section>
 

@@ -6,15 +6,15 @@ import { gymAccessoryProducts } from "./productData";
 export const metadata: Metadata = {
   title: "Gym Accessories Manufacturer | Fitness Accessories Supplier China",
   description:
-    "PBF supplies gym accessories including kettlebells, cable handles, yoga mats, balance trainers, aerobic steps, and OEM fitness accessories for global distributors and gym projects.",
+    "PBF supplies gym accessories including gym handles, cable attachments, kettlebells, yoga mats, balance trainers, aerobic steps, and OEM fitness accessories for global distributors and gym projects.",
   alternates: {
     canonical: "/products/gym-accessories"
   }
 };
 
 const categories = [
+  "Gym handles and cable attachments for lat pulldown, row, curl, pressdown, and functional trainer stations",
   "Kettlebells for functional training, studio classes, and retail programs",
-  "Cable attachments for commercial strength machines and gym accessory replacement",
   "Yoga and mobility accessories for home fitness, wellness, and studio channels",
   "Balance and step platforms for group training and add-on equipment sales"
 ];
@@ -29,8 +29,53 @@ const capabilities = [
 ];
 
 export default function GymAccessoriesPage() {
+  const siteUrl = "https://www.chinafreeweight.com";
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Gym Accessories Manufacturer",
+    url: `${siteUrl}/products/gym-accessories`,
+    description:
+      "PowerBaseFit supplies gym accessories, gym handles, cable attachments, kettlebells, yoga mats, balance trainers, and OEM fitness accessories for global B2B buyers.",
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: gymAccessoryProducts.map((product, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: product.name,
+        url: `${siteUrl}/products/gym-accessories/${product.slug}`
+      }))
+    }
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteUrl
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: `${siteUrl}/products`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Gym Accessories",
+        item: `${siteUrl}/products/gym-accessories`
+      }
+    ]
+  };
+
   return (
     <main className="product-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <header className="products-header">
         <a className="products-brand" href="/">
           <img src="/assets/logo-readable.png" alt="PowerBaseFit" />
@@ -52,8 +97,8 @@ export default function GymAccessoriesPage() {
           <span>Gym Accessories Hub</span>
           <h1>Gym Accessories Manufacturer for Global Fitness Projects</h1>
           <p>
-            PBF supplies kettlebells, cable attachments, yoga mats, balance
-            trainers, step platforms, and OEM fitness accessories for
+            PBF supplies gym handles, cable attachments, kettlebells, yoga
+            mats, balance trainers, step platforms, and OEM fitness accessories for
             commercial gyms, distributors, and private label brands.
           </p>
           <div className="hero-actions">
@@ -66,9 +111,9 @@ export default function GymAccessoriesPage() {
           </div>
         </div>
         <div className="dumbbell-hero-gallery" aria-label="Gym accessories product preview">
-          <img src="/assets/products/gym-accessories/cast-iron-kettlebell.jpg" alt="Cast iron kettlebell from gym accessories manufacturer" />
-          <img src="/assets/products/gym-accessories/bosu-ball.jpg" alt="Bosu ball balance trainer for fitness accessories supply" />
-          <img src="/assets/products/gym-accessories/tpe-yoga-mat.jpg" alt="TPE yoga mat for gym accessory programs" />
+          <img src="/assets/products/gym-accessories/handles/rubber-coated-gym-handle-sets.webp" alt="Rubber coated gym handle sets for cable machine attachments" loading="eager" fetchPriority="high" decoding="async" />
+          <img src="/assets/products/gym-accessories/handles/cable-machine-attachments.webp" alt="Cable machine attachments and gym handles for commercial gyms" loading="lazy" decoding="async" />
+          <img src="/assets/products/gym-accessories/handles/aluminum-gym-handles.webp" alt="Aluminum gym handles for fitness accessories supply" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -95,10 +140,10 @@ export default function GymAccessoriesPage() {
           <span>What are Gym Accessories</span>
           <h2>Fitness accessories that complete a commercial gym product line</h2>
           <p>
-            Gym accessories include kettlebells, cable machine attachments,
-            yoga mats, balance tools, step platforms, and small training
-            equipment that help distributors increase order value beyond main
-            free weight products.
+            Gym accessories include cable machine attachments, gym handles,
+            kettlebells, yoga mats, balance tools, step platforms, and small
+            training equipment that help distributors increase order value
+            beyond main free weight products.
           </p>
           <p>
             For B2B buyers, a reliable fitness accessories supplier should
@@ -125,10 +170,11 @@ export default function GymAccessoriesPage() {
           <span>OEM & Add-on Sales</span>
           <h2>Build accessory bundles for distributors and gym projects</h2>
           <p>
-            Buyers can combine kettlebells, cable handles, mats, balance
-            trainers, and step platforms with dumbbells, plates, racks, and
-            benches. PBF supports gym accessories supplier programs for mixed
-            containers, private label packaging, and commercial gym projects.
+            Buyers can combine gym handles, cable attachments, kettlebells,
+            mats, balance trainers, and step platforms with dumbbells, plates,
+            racks, and benches. PBF supports gym accessories supplier programs
+            for mixed containers, private label packaging, and commercial gym
+            projects.
           </p>
           <a className="primary-button" href="/contact">
             Send Accessories List <ArrowRight size={18} />
