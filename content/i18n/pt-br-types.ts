@@ -24,4 +24,6 @@ export type PilotPage = {
   specifications?: Array<{ name: string; value: string }>;
   author?: LocalizedAuthor;
   reviewedBy?: LocalizedAuthor;
+  updatedAt?: string;
+  publishedAt?: string;
 };

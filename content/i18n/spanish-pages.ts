@@ -149,7 +149,7 @@ export const spanishPages: SpanishPage[] = [
       checklist("cotizacion", "Datos para solicitar una cotización", ["Empresa y país", "Categorías y modelos", "Cantidad por referencia", "kg o lb", "Logo, color y embalaje", "Muestra y QC", "Puerto o ciudad de destino"])
     ],
     faq: [["¿Qué categorías fabrica PowerBaseFit?", "Mancuernas, discos, racks, bancos y accesorios, con especificación confirmada por modelo."], ["¿Se pueden combinar productos?", "Sí, sujeto a MOQ, protección y planificación de carga."], ["¿La venta es minorista?", "El enfoque principal es el suministro B2B."], ["¿Hay marca propia?", "Sí, según viabilidad del producto, método y cantidad."], ["¿Cómo comparar dos ofertas?", "Use la misma especificación, condición comercial, embalaje y alcance de control."]],
-    links: [["dumbbells-category", "Mancuernas profesionales"], ["weight-plates-category", "Discos de peso"], ["oem-private-label", "Programa de marca propia"], ["professional-gym-list-guide", "Lista para un gimnasio profesional"], ["contact", "Pedir cotización"]],
+    links: [["dumbbells-category", "Mancuernas profesionales"], ["weight-plates-category", "Discos de peso"], ["racks-benches-category", "Racks y bancos"], ["gym-accessories-category", "Accesorios de gimnasio"], ["oem-private-label", "Programa de marca propia"], ["rubber-hex-dumbbell-manufacturer", "Fabricante de mancuernas hexagonales"], ["professional-gym-list-guide", "Lista para un gimnasio profesional"], ["contact", "Pedir cotización"]],
     author: editorial, reviewedBy: reviewer
   },
   {
@@ -174,7 +174,7 @@ export const spanishPages: SpanishPage[] = [
       checklist("compra", "Checklist para comprar mancuernas", ["Uso y público", "Forma y material", "Pesos e incrementos", "Pares por peso", "Empuñadura y unión", "Rack y suelo", "OEM, muestra, QC y embalaje"])
     ],
     faq: [["¿Qué mancuerna es mejor para un gimnasio?", "Depende del uso, rango, almacenamiento, mantenimiento y presupuesto."], ["¿Hexagonal o redonda?", "La hexagonal reduce rodamiento; la redonda favorece líneas continuas en racks adecuados."], ["¿Goma o PU?", "Compare productos reales por formulación, construcción, presentación y coste."], ["¿Se puede imprimir mi marca?", "Sí, según el modelo, método, cantidad y muestra."], ["¿Cuántos pares necesito?", "Calcúlelo por usuarios, rango, ejercicios, espacio y repetición de pesos populares."]],
-    links: [["rubber-hex-dumbbell", "Mancuerna hexagonal de goma"], ["chrome-dumbbell", "Mancuerna cromada"], ["hex-vs-round-guide", "Hexagonal frente a redonda"], ["materials-guide", "Goma frente a PU y TPU"], ["oem-private-label", "Mancuernas de marca propia"], ["contact", "Solicitar cotización"]],
+    links: [["rubber-hex-dumbbell", "Mancuerna hexagonal de goma"], ["chrome-dumbbell", "Mancuerna cromada"], ["dumbbells-guide", "Guía para elegir mancuernas"], ["hex-vs-round-guide", "Hexagonal frente a redonda"], ["materials-guide", "Goma frente a PU y TPU"], ["oem-private-label", "Mancuernas de marca propia"], ["contact", "Solicitar cotización"]],
     author: editorial, reviewedBy: reviewer
   },
   {
@@ -197,7 +197,7 @@ export const spanishPages: SpanishPage[] = [
       checklist("rfq", "Información para cotizar discos", ["Barra o máquina", "Tipo de entrenamiento", "Pesos y cantidades", "Diámetro y espesor", "Material y superficie", "Logo y kg/lb", "Embalaje, destino e inspección"])
     ],
     faq: [["¿Un disco olímpico es siempre bumper?", "No. Olímpico indica compatibilidad; bumper indica construcción y uso."], ["¿Qué disco conviene para musculación?", "Depende de la barra, la máquina, el espacio y si existen caídas planificadas."], ["¿Puedo poner mi logotipo?", "Sí, cuando el modelo y la cantidad permiten el método solicitado."], ["¿Cómo se embalan?", "En cajas y palés definidos por peso y composición."], ["¿Qué debo revisar al recibirlos?", "Pesos, centro, superficie, marcado, cantidad y daños de transporte."]],
-    links: [["rubber-bumper-plate", "Disco bumper de goma"], ["rubber-olympic-plate", "Disco olímpico recubierto"], ["oem-private-label", "Discos de marca propia"], ["contact", "Solicitar cotización"]],
+    links: [["rubber-bumper-plate", "Disco bumper de goma"], ["rubber-olympic-plate", "Disco olímpico recubierto"], ["plates-guide", "Comparar discos y bumper"], ["oem-private-label", "Discos de marca propia"], ["contact", "Solicitar cotización"]],
     author: editorial, reviewedBy: reviewer
   },
   productPage({

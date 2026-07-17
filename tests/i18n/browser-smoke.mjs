@@ -77,6 +77,9 @@ const portugueseRoutes = [
   "/pt/blog/anilha-olimpica-vs-padrao",
   "/pt/blog/lista-equipamentos-academia-profissional",
   "/pt/blog/planejamento-area-pesos-livres"
+  ,"/pt/produtos/racks-e-bancos"
+  ,"/pt/produtos/acessorios-de-academia"
+  ,"/pt/fabricante/halteres-sextavados-de-borracha"
 ];
 
 const portugueseOnlyRoutes = new Set([
@@ -114,9 +117,14 @@ const portugueseRoutesWithSpanish = new Set([
   "/pt/blog/como-criar-marca-propria-equipamentos-academia",
   "/pt/blog/halter-sextavado-ou-redondo",
   "/pt/blog/halter-borracha-pu-tpu",
+  "/pt/blog/como-escolher-halteres-academia-profissional",
+  "/pt/blog/anilhas-de-peso-vs-anilhas-bumper",
   "/pt/blog/lista-equipamentos-academia-profissional",
   "/pt/blog/planejamento-area-pesos-livres",
-  "/pt/projetos"
+  "/pt/projetos",
+  "/pt/produtos/racks-e-bancos",
+  "/pt/produtos/acessorios-de-academia",
+  "/pt/fabricante/halteres-sextavados-de-borracha"
 ]);
 
 const spanishRoutes = [
@@ -142,7 +150,12 @@ const spanishRoutes = [
   "/es/blog/mancuernas-goma-vs-pu-vs-tpu",
   "/es/blog/lista-equipos-gimnasio-profesional",
   "/es/blog/planificar-zona-peso-libre",
-  "/es/proyectos"
+  "/es/proyectos",
+  "/es/productos/racks-y-bancos",
+  "/es/productos/accesorios-de-gimnasio",
+  "/es/fabricante/mancuernas-hexagonales-de-goma",
+  "/es/blog/como-elegir-mancuernas-para-gimnasio-profesional",
+  "/es/blog/discos-de-peso-vs-discos-bumper"
 ];
 
 const spanishRoutesWithEnglish = new Set([
@@ -158,7 +171,12 @@ const spanishRoutesWithEnglish = new Set([
   "/es/contacto",
   "/es/blog",
   "/es/blog/como-elegir-fabricante-equipos-fitness",
-  "/es/proyectos"
+  "/es/proyectos",
+  "/es/productos/racks-y-bancos",
+  "/es/productos/accesorios-de-gimnasio",
+  "/es/fabricante/mancuernas-hexagonales-de-goma",
+  "/es/blog/como-elegir-mancuernas-para-gimnasio-profesional",
+  "/es/blog/discos-de-peso-vs-discos-bumper"
 ]);
 
 for (const route of portugueseRoutes) {
@@ -220,11 +238,11 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 176);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 28);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 23);
-assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 51);
-assert.equal((sitemapXml.match(/hreflang="es"/g) ?? []).length, 46);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 184);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 31);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 28);
+assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 59);
+assert.equal((sitemapXml.match(/hreflang="es"/g) ?? []).length, 56);
 assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:de|fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
@@ -236,13 +254,13 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 176);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 184);
 const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
 assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length, 125);
-assert.equal(languageSitemapPortuguese.length, 28);
-assert.equal(languageSitemapSpanish.length, 23);
+assert.equal(languageSitemapPortuguese.length, 31);
+assert.equal(languageSitemapSpanish.length, 28);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");

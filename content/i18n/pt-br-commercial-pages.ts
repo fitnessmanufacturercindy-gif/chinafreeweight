@@ -32,7 +32,7 @@ export const ptBrCommercialPages: PilotPage[] = [
       ["Como funciona a personalização?", "A equipe revisa logo, cor, marcação, embalagem e quantidade; depois confirma método, amostra, MOQ e prazo."],
       ["O catálogo informa o preço final no Brasil?", "Não. A cotação depende do pedido e da condição comercial; frete, tributos e despesas locais devem ser calculados para a operação real."]
     ],
-    links: [["dumbbells-category", "Halteres profissionais"], ["weight-plates-category", "Anilhas e bumper plates"], ["oem-private-label", "OEM e marca própria"], ["factory", "Fábrica e QC"], ["professional-gym-list-guide", "Lista para academia profissional"], ["contact", "Solicitar cotação"]],
+    links: [["dumbbells-category", "Halteres profissionais"], ["weight-plates-category", "Anilhas e bumper plates"], ["racks-benches-category", "Racks e bancos"], ["gym-accessories-category", "Acessórios de academia"], ["oem-private-label", "OEM e marca própria"], ["rubber-hex-dumbbell-manufacturer", "Fabricante de halteres sextavados"], ["factory", "Fábrica e QC"], ["professional-gym-list-guide", "Lista para academia profissional"], ["contact", "Solicitar cotação"]],
     author: ptBrEditorialAuthor, reviewedBy: ptBrTechnicalReviewer
   },
   {

@@ -13,6 +13,7 @@ import { ptBrCommercialPages } from "./pt-br-commercial-pages";
 import { contentSupplements } from "./pt-br-content-supplements";
 import { ptBrGrowthBlogsA } from "./pt-br-growth-blogs-a";
 import { ptBrGrowthBlogsB } from "./pt-br-growth-blogs-b";
+import { seoExpansionPortuguesePages } from "./seo-expansion-pt";
 import type { PilotPage } from "./pt-br-types";
 
 const updatedAt = "2026-07-14T08:00:00.000Z";
@@ -92,8 +93,8 @@ function publishedVersion(page: PilotPage, locale: "en" | "pt-BR"): LocalizedCon
     internalLinks: portuguese ? links(page.links) : [],
     canonicalData: { mode: "self" },
     hreflangData: { include: true },
-    updatedAt,
-    publishedAt,
+    updatedAt: page.updatedAt ?? updatedAt,
+    publishedAt: page.publishedAt ?? publishedAt,
     version: 1
   };
 }
@@ -227,7 +228,8 @@ const allPages: PilotPage[] = [
   ...enhancedExistingPages,
   ...ptBrCommercialPages,
   ...ptBrGrowthBlogsA,
-  ...ptBrGrowthBlogsB
+  ...ptBrGrowthBlogsB,
+  ...seoExpansionPortuguesePages
 ].map((page) => contentSupplements[page.id]
   ? { ...page, blocks: [...(page.blocks ?? body(page.sections ?? [], false)), ...contentSupplements[page.id]] }
   : page);

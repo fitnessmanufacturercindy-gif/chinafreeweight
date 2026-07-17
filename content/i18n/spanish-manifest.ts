@@ -8,6 +8,7 @@ import type {
 import { spanishBlogsA } from "./spanish-blogs-a";
 import { spanishBlogsB } from "./spanish-blogs-b";
 import { spanishPages } from "./spanish-pages";
+import { seoExpansionSpanishPages } from "./seo-expansion-es";
 import type { SpanishPage } from "./es-types";
 
 const updatedAt = "2026-07-16T08:00:00.000Z";
@@ -78,13 +79,13 @@ function publishedVersion(page: SpanishPage): LocalizedContentVersion {
     internalLinks: links(page.links),
     canonicalData: { mode: "self" },
     hreflangData: { include: true },
-    updatedAt,
-    publishedAt,
+    updatedAt: page.updatedAt ?? updatedAt,
+    publishedAt: page.publishedAt ?? publishedAt,
     version: 1
   };
 }
 
-const allPages = [...spanishPages, ...spanishBlogsA, ...spanishBlogsB];
+const allPages = [...spanishPages, ...spanishBlogsA, ...spanishBlogsB, ...seoExpansionSpanishPages];
 
 export const spanishPublishedVersions = allPages.map((page) => ({
   id: page.id,
