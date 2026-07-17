@@ -6,7 +6,9 @@
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
     "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/i18n/infrastructure.test.ts",
     "site:health": "node scripts/site-health-check.js",
     "site:fix-safe": "node scripts/site-auto-fix.js",
     "test:site-health": "playwright test tests/site-health.spec.js --project=chromium",
@@ -23,6 +25,7 @@
     "@next/third-parties": "^16.2.10",
     "lucide-react": "^0.468.0",
     "next": "^15.5.7",
+    "next-intl": "^4.13.2",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
@@ -31,8 +34,11 @@
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.20",
     "lighthouse": "^13.4.0",
     "playwright-core": "^1.61.1",
+    "tsx": "^4.23.1",
     "typescript": "^5.7.2"
   }
 }

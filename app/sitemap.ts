@@ -5,9 +5,12 @@ import { gymAccessoryProducts } from "./products/gym-accessories/productData";
 import { racksBenchesProducts } from "./products/racks-benches/productData";
 import { weightPlateProducts } from "./products/weight-plates/productData";
 import { siteUrl } from "./site";
+import { contentRepository } from "../lib/content/repository";
+import { buildPublishedSitemap } from "../lib/seo/sitemap";
 
 const staticRoutes = [
   { path: "", priority: 1 },
+  { path: "/products", priority: 0.92 },
   { path: "/products/dumbbells", priority: 0.9 },
   { path: "/products/weight-plates", priority: 0.9 },
   { path: "/products/racks-benches", priority: 0.86 },
@@ -44,10 +47,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/manufacturer/rubber-hex-dumbbell-manufacturer"
   ];
 
-  return [
+  const englishSitemap = [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),
     ...productRoutes.map((path) => entry(path, 0.72, "monthly")),
     ...resourceRoutes.map((path) => entry(path, 0.68, "monthly")),
     ...seoLandingRoutes.map((path) => entry(path, 0.74, "monthly"))
   ];
+
+  const portugueseSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" });
+  const spanishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" });
+  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap];
 }

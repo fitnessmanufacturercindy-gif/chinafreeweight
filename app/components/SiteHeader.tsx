@@ -1,4 +1,5 @@
 import MegaMenu from "./MegaMenu";
+import PublishedLanguageSwitcher from "./i18n/PublishedLanguageSwitcher";
 
 export default function SiteHeader() {
   return (
@@ -24,8 +25,10 @@ export default function SiteHeader() {
           <a href="/resources">Resources</a>
           <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
+          <PublishedLanguageSwitcher variant="mobile" />
         </div>
       </details>
+      <PublishedLanguageSwitcher variant="desktop" />
       <a className="topbar-cta" href="/contact">
         Get a Quote
       </a>

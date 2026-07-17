@@ -9,6 +9,10 @@ dist/
 tmp/
 output/
 outputs/
+reports/
+test-results/
+playwright-report/
+tsconfig.tsbuildinfo
 __pycache__/
 *.py[cod]
 

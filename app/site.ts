@@ -1,4 +1,4 @@
-export const siteUrl =
+﻿export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
   "https://www.chinafreeweight.com";
 
@@ -8,7 +8,7 @@ export const company = {
   brandName: siteName,
   legalName: "Powerbase Fitness Equipment Co.,Ltd",
   address: "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China",
-  localAddress: "山东省德州市宁津县正阳路",
+  localAddress: "灞变笢鐪佸痉宸炲競瀹佹触鍘挎闃宠矾",
   founded: "2008",
   factorySize: "8,000 m2",
   email: "kloe@powerbasefit.com",
@@ -32,6 +32,7 @@ export const sourcingFacts = {
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  inLanguage: "en",
   name: company.legalName,
   alternateName: company.brandName,
   url: siteUrl,
@@ -51,7 +52,8 @@ export const organizationJsonLd = {
     "@type": "Offer",
     itemOffered: {
       "@type": "Product",
-      name
+      name,
+      inLanguage: "en"
     }
   }))
 };
@@ -80,6 +82,7 @@ export const websiteJsonLd = {
 export const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": ["LocalBusiness", "SportingGoodsStore"],
+  inLanguage: "en",
   "@id": `${siteUrl}#local-business`,
   name: company.legalName,
   alternateName: company.brandName,

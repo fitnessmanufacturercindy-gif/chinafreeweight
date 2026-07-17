@@ -25,7 +25,8 @@ ${siteName} is a B2B free weight equipment manufacturer operated by ${company.le
 - Use product category pages for product range and buyer intent.
 - Use product detail pages for specifications, applications, OEM options, and quotation context.
 - Use factory, project, and resource pages for E-E-A-T, manufacturing capability, and sourcing guidance.
-- Current public language is English; add localized URLs only after each language route has independent content, self-canonical metadata, and hreflang validation.
+- Use Portuguese URLs under /pt for Brazil/Portugal localized buyer context.
+- Use Spanish URLs under /es for localized buyer context.
 
 ## Important URLs
 ${importantRoutes}

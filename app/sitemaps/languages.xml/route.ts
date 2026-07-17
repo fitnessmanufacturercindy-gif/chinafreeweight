@@ -1,6 +1,6 @@
-import { languageSitemapEntries } from "../../seo-data";
+import { localizedSitemapEntries } from "../../seo-data";
 import { metadataRouteUrlsetXml, xmlResponse } from "../sitemap-utils";
 
 export function GET() {
-  return xmlResponse(metadataRouteUrlsetXml(languageSitemapEntries()));
+  return xmlResponse(metadataRouteUrlsetXml(localizedSitemapEntries()));
 }
