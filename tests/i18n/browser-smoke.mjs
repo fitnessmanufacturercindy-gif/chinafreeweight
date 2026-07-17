@@ -80,6 +80,14 @@ const portugueseRoutes = [
   ,"/pt/produtos/racks-e-bancos"
   ,"/pt/produtos/acessorios-de-academia"
   ,"/pt/fabricante/halteres-sextavados-de-borracha"
+  ,"/pt/produtos/halteres/halter-ferro-fundido"
+  ,"/pt/produtos/halteres/halter-cpu"
+  ,"/pt/produtos/halteres/halter-tpu"
+  ,"/pt/produtos/anilhas/anilha-bumper-cpu"
+  ,"/pt/produtos/anilhas/anilha-ferro-fundido"
+  ,"/pt/produtos/anilhas/anilha-cpu-com-pegada"
+  ,"/pt/blog/como-sao-fabricadas-anilhas-bumper"
+  ,"/pt/blog/como-verificar-peso-de-halteres-na-fabrica"
 ];
 
 const portugueseOnlyRoutes = new Set([
@@ -103,6 +111,8 @@ const portugueseRoutesWithSpanish = new Set([
   "/pt/produtos/anilhas",
   "/pt/produtos/halteres/halter-sextavado-borracha",
   "/pt/produtos/halteres/halter-cromado",
+  "/pt/produtos/halteres/halter-redondo-borracha",
+  "/pt/produtos/halteres/halter-pu",
   "/pt/produtos/anilhas/anilha-bumper-borracha",
   "/pt/produtos/anilhas/anilha-olimpica-emborrachada",
   "/pt/fabrica",
@@ -124,7 +134,15 @@ const portugueseRoutesWithSpanish = new Set([
   "/pt/projetos",
   "/pt/produtos/racks-e-bancos",
   "/pt/produtos/acessorios-de-academia",
-  "/pt/fabricante/halteres-sextavados-de-borracha"
+  "/pt/fabricante/halteres-sextavados-de-borracha",
+  "/pt/produtos/halteres/halter-ferro-fundido",
+  "/pt/produtos/halteres/halter-cpu",
+  "/pt/produtos/halteres/halter-tpu",
+  "/pt/produtos/anilhas/anilha-bumper-cpu",
+  "/pt/produtos/anilhas/anilha-ferro-fundido",
+  "/pt/produtos/anilhas/anilha-cpu-com-pegada",
+  "/pt/blog/como-sao-fabricadas-anilhas-bumper",
+  "/pt/blog/como-verificar-peso-de-halteres-na-fabrica"
 ]);
 
 const spanishRoutes = [
@@ -155,7 +173,17 @@ const spanishRoutes = [
   "/es/productos/accesorios-de-gimnasio",
   "/es/fabricante/mancuernas-hexagonales-de-goma",
   "/es/blog/como-elegir-mancuernas-para-gimnasio-profesional",
-  "/es/blog/discos-de-peso-vs-discos-bumper"
+  "/es/blog/discos-de-peso-vs-discos-bumper",
+  "/es/productos/mancuernas/mancuerna-redonda-de-goma",
+  "/es/productos/mancuernas/mancuerna-pu",
+  "/es/productos/mancuernas/mancuerna-hierro-fundido",
+  "/es/productos/mancuernas/mancuerna-cpu",
+  "/es/productos/mancuernas/mancuerna-tpu",
+  "/es/productos/discos/disco-bumper-cpu",
+  "/es/productos/discos/disco-hierro-fundido",
+  "/es/productos/discos/disco-cpu-con-agarres",
+  "/es/blog/como-se-fabrican-discos-bumper",
+  "/es/blog/como-verificar-peso-mancuernas-fabrica"
 ];
 
 const spanishRoutesWithEnglish = new Set([
@@ -176,7 +204,17 @@ const spanishRoutesWithEnglish = new Set([
   "/es/productos/accesorios-de-gimnasio",
   "/es/fabricante/mancuernas-hexagonales-de-goma",
   "/es/blog/como-elegir-mancuernas-para-gimnasio-profesional",
-  "/es/blog/discos-de-peso-vs-discos-bumper"
+  "/es/blog/discos-de-peso-vs-discos-bumper",
+  "/es/productos/mancuernas/mancuerna-redonda-de-goma",
+  "/es/productos/mancuernas/mancuerna-pu",
+  "/es/productos/mancuernas/mancuerna-hierro-fundido",
+  "/es/productos/mancuernas/mancuerna-cpu",
+  "/es/productos/mancuernas/mancuerna-tpu",
+  "/es/productos/discos/disco-bumper-cpu",
+  "/es/productos/discos/disco-hierro-fundido",
+  "/es/productos/discos/disco-cpu-con-agarres",
+  "/es/blog/como-se-fabrican-discos-bumper",
+  "/es/blog/como-verificar-peso-mancuernas-fabrica"
 ]);
 
 for (const route of portugueseRoutes) {
@@ -238,11 +276,11 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 184);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 31);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 28);
-assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 59);
-assert.equal((sitemapXml.match(/hreflang="es"/g) ?? []).length, 56);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 202);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 39);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 38);
+assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 77);
+assert.equal((sitemapXml.match(/hreflang="es"/g) ?? []).length, 76);
 assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:de|fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
@@ -254,13 +292,13 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 184);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 202);
 const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
 assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length, 125);
-assert.equal(languageSitemapPortuguese.length, 31);
-assert.equal(languageSitemapSpanish.length, 28);
+assert.equal(languageSitemapPortuguese.length, 39);
+assert.equal(languageSitemapSpanish.length, 38);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
@@ -299,6 +337,22 @@ await page.goto(testUrl("/pt/produtos/halteres"), { waitUntil: "networkidle" });
 await switchDesktop("es");
 await page.waitForURL("**/es/productos/mancuernas");
 assert.equal(await page.locator("html").getAttribute("lang"), "es");
+
+await page.goto(testUrl("/products/dumbbells/cast-iron-dumbbell"), { waitUntil: "networkidle" });
+await switchDesktop("pt-BR");
+await page.waitForURL("**/pt/produtos/halteres/halter-ferro-fundido");
+await switchDesktop("es");
+await page.waitForURL("**/es/productos/mancuernas/mancuerna-hierro-fundido");
+await switchDesktop("en");
+await page.waitForURL("**/products/dumbbells/cast-iron-dumbbell");
+
+await page.goto(testUrl("/resources/how-are-bumper-plates-made"), { waitUntil: "networkidle" });
+await switchDesktop("pt-BR");
+await page.waitForURL("**/pt/blog/como-sao-fabricadas-anilhas-bumper");
+await switchDesktop("es");
+await page.waitForURL("**/es/blog/como-se-fabrican-discos-bumper");
+await switchDesktop("en");
+await page.waitForURL("**/resources/how-are-bumper-plates-made");
 
 await page.setViewportSize({ width: 390, height: 844 });
 await page.goto(testUrl("/pt/contato"), { waitUntil: "networkidle" });

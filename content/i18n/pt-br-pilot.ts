@@ -13,6 +13,7 @@ import { ptBrCommercialPages } from "./pt-br-commercial-pages";
 import { contentSupplements } from "./pt-br-content-supplements";
 import { ptBrGrowthBlogsA } from "./pt-br-growth-blogs-a";
 import { ptBrGrowthBlogsB } from "./pt-br-growth-blogs-b";
+import { productLocalizationBatch1Portuguese } from "./product-localization-batch-1-pt";
 import { seoExpansionPortuguesePages } from "./seo-expansion-pt";
 import type { PilotPage } from "./pt-br-types";
 
@@ -229,7 +230,8 @@ const allPages: PilotPage[] = [
   ...ptBrCommercialPages,
   ...ptBrGrowthBlogsA,
   ...ptBrGrowthBlogsB,
-  ...seoExpansionPortuguesePages
+  ...seoExpansionPortuguesePages,
+  ...productLocalizationBatch1Portuguese
 ].map((page) => contentSupplements[page.id]
   ? { ...page, blocks: [...(page.blocks ?? body(page.sections ?? [], false)), ...contentSupplements[page.id]] }
   : page);

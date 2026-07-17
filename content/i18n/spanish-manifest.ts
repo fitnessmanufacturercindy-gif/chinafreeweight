@@ -8,6 +8,7 @@ import type {
 import { spanishBlogsA } from "./spanish-blogs-a";
 import { spanishBlogsB } from "./spanish-blogs-b";
 import { spanishPages } from "./spanish-pages";
+import { productLocalizationBatch1Spanish } from "./product-localization-batch-1-es";
 import { seoExpansionSpanishPages } from "./seo-expansion-es";
 import type { SpanishPage } from "./es-types";
 
@@ -85,7 +86,7 @@ function publishedVersion(page: SpanishPage): LocalizedContentVersion {
   };
 }
 
-const allPages = [...spanishPages, ...spanishBlogsA, ...spanishBlogsB, ...seoExpansionSpanishPages];
+const allPages = [...spanishPages, ...spanishBlogsA, ...spanishBlogsB, ...seoExpansionSpanishPages, ...productLocalizationBatch1Spanish];
 
 export const spanishPublishedVersions = allPages.map((page) => ({
   id: page.id,
