@@ -44,7 +44,7 @@ export type LocaleDefinition = {
 
 const definitions: readonly LocaleDefinition[] = [
   { routeLocale: "en", internalLocale: "en", hreflang: "en", englishName: "English", nativeName: "English", direction: "ltr", prefix: "", enabled: true, public: true, default: true, fallbackLocale: null },
-  { routeLocale: "pt", internalLocale: "pt-BR", hreflang: "pt-BR", englishName: "Portuguese (Brazil)", nativeName: "Português (Brasil)", direction: "ltr", prefix: "/pt", enabled: true, public: true, default: false, fallbackLocale: "en" },
+  { routeLocale: "pt", internalLocale: "pt-BR", hreflang: "pt", englishName: "Portuguese (Brazil)", nativeName: "Português (Brasil)", direction: "ltr", prefix: "/pt", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "es", internalLocale: "es", hreflang: "es", englishName: "Spanish", nativeName: "Español", direction: "ltr", prefix: "/es", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "de", internalLocale: "de", hreflang: "de", englishName: "German", nativeName: "Deutsch", direction: "ltr", prefix: "/de", enabled: true, public: false, default: false, fallbackLocale: "en" },
   { routeLocale: "fr", internalLocale: "fr", hreflang: "fr", englishName: "French", nativeName: "Français", direction: "ltr", prefix: "/fr", enabled: true, public: false, default: false, fallbackLocale: "en" },
@@ -81,3 +81,4 @@ export function getLocaleByInternalLocale(locale: string): LocaleDefinition | un
 export function getPublishedLocaleDefinitions(): LocaleDefinition[] {
   return definitions.filter((definition) => definition.enabled && definition.public);
 }
+

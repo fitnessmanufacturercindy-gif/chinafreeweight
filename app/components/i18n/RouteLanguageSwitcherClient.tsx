@@ -10,7 +10,7 @@ type SwitcherVariant = "desktop" | "mobile";
 
 const localeOptions = [
   { locale: "en" as const, hreflang: "en", label: "English" },
-  { locale: "pt-BR" as const, hreflang: "pt-BR", label: "Portugu\u00eas" },
+  { locale: "pt-BR" as const, hreflang: "pt", label: "Portugu\u00eas" },
   { locale: "es" as const, hreflang: "es", label: "Espa\u00f1ol" }
 ];
 

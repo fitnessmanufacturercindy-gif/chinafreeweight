@@ -251,5 +251,64 @@ export const spanishBlogsB: SpanishPage[] = [
       ["¿Cómo preparo la cotización?", "Envíe plano, lista, cantidades, dimensiones, OEM, destino y calendario."]
     ],
     links: [["professional-gym-list-guide", "Lista de equipos"], ["dumbbells-category", "Mancuernas"], ["weight-plates-category", "Discos"], ["projects", "Referencias"], ["contact", "Enviar proyecto"]]
+  }),
+  spanishBlog({
+    id: "olympic-vs-standard-guide",
+    esPath: "/es/blog/disco-olimpico-vs-estandar",
+    title: "Disco olímpico vs estándar: guía para compradores B2B",
+    description: "Compare discos olímpicos y estándar por diámetro, barra, uso, seguridad, almacenamiento, OEM, embalaje y compra profesional para gimnasios.",
+    h1: "Disco olímpico o estándar: cómo elegir para un gimnasio",
+    keyword: "disco olímpico vs estándar",
+    definitionTerm: "Disco olímpico",
+    definitionText: "Es un disco diseñado para barras con manga olímpica, normalmente asociado a un orificio central mayor que el de los discos estándar. La compatibilidad debe confirmarse con la barra real, el uso previsto y la ficha del producto.",
+    quickAnswer: "Elija discos olímpicos cuando el gimnasio trabaja con barras olímpicas, racks comerciales y cargas habituales de peso libre. Los discos estándar pueden funcionar en entornos ligeros o equipos específicos, pero no deben mezclarse sin verificar diámetro, orificio, espesor, capacidad, almacenamiento y seguridad.",
+    image: ["/assets/weight-plate.webp", "Discos olímpicos y estándar para compra profesional"],
+    comparisonTitle: "Comparación rápida para compra B2B",
+    comparisonColumns: ["Criterio", "Disco olímpico", "Disco estándar"],
+    comparisonRows: [
+      ["Compatibilidad", "Barras olímpicas y equipos comerciales", "Barras o equipos de diámetro menor"],
+      ["Uso habitual", "Gimnasios, fuerza, racks y plataformas", "Home gym ligero o equipos concretos"],
+      ["Carga", "Mejor para rangos comerciales amplios", "Limitado por barra y aplicación"],
+      ["Almacenamiento", "Requiere soportes compatibles", "Debe coincidir con barra y rack"],
+      ["OEM", "Logo, color y kg/lb según modelo", "Opciones sujetas a volumen y molde"],
+      ["Riesgo", "No todos son bumper", "No mezclar con barras olímpicas sin adaptador"]
+    ],
+    sections: [
+      { id: "compatibilidad", heading: "1. Empiece por la barra y el equipo", paragraphs: [
+        "La diferencia más importante es la compatibilidad. Un disco olímpico debe ajustarse a barras olímpicas y estaciones comerciales diseñadas para ese estándar. Un disco estándar puede tener otro diámetro interior y no debe asumirse compatible con racks, soportes o máquinas de carga olímpica.",
+        "Antes de pedir precio, confirme tipo de barra, diámetro de manga, longitud disponible, estaciones donde se usará y sistema de almacenamiento. Una foto del disco no basta para validar el conjunto."
+      ]},
+      { id: "aplicacion", heading: "2. Relacione el disco con el uso real", paragraphs: [
+        "En gimnasios comerciales, los discos olímpicos suelen ser más prácticos porque la mayoría de barras, racks y máquinas plate-loaded se diseñan para ese estándar. Esto no significa que todo disco olímpico sea bumper ni que pueda caer al suelo sin plataforma.",
+        "Los discos estándar pueden ser útiles en equipos ligeros, espacios residenciales o líneas específicas. Para un comprador B2B, la pregunta clave es si el mercado objetivo usa barras estándar u olímpicas."
+      ]},
+      { id: "especificacion", heading: "3. Revise medidas, espesor y marcado", paragraphs: [
+        "Solicite diámetro interior, diámetro exterior, espesor por peso, tolerancia y material. El espesor afecta cuánta carga cabe en la barra; el diámetro exterior influye en almacenamiento y manipulación.",
+        "La marca de kg o lb debe ser legible y coherente con el mercado. Si se agrega logo, valide contraste, posición y durabilidad en muestras de varios pesos."
+      ]},
+      { id: "compra", heading: "4. Planifique OEM, embalaje y reposición", paragraphs: [
+        "Para marca propia, confirme método de logo, color, molde, MOQ y muestra. El mismo diseño puede comportarse distinto en discos pequeños y grandes.",
+        "Los discos concentran peso, por lo que embalaje, cajas, pallets y descarga forman parte de la compra. Mantenga códigos y fichas para reposición futura; mezclar lotes sin control puede crear diferencias de apariencia o ajuste."
+      ]},
+      { id: "control-calidad", heading: "5. Valide muestras antes de cerrar el lote", paragraphs: [
+        "En una compra B2B no conviene aprobar el pedido solo por una foto del molde. Pida una muestra real o un informe de preproducción con peso medido, diámetro interior, espesor, acabado, color, olor de la goma si aplica y calidad del marcado. La tolerancia de peso debe revisarse por varios discos, no solo por una unidad.",
+        "También revise cómo entra el disco en la barra que usará su cliente. Debe deslizarse sin atascarse, pero sin una holgura excesiva que genere ruido o sensación de baja calidad. Para cadenas de gimnasios, distribuidores y proyectos de marca privada, esta prueba evita reclamaciones después de recibir el contenedor."
+      ]},
+      { id: "cotizacion", heading: "6. Prepare una cotización comparable", paragraphs: [
+        "Para comparar proveedores, use la misma lista de pesos, cantidades, acabado, embalaje, Incoterm, puerto de destino y requisitos de logo. Si un proveedor cotiza discos olímpicos recubiertos y otro discos estándar pintados, el precio no representa la misma especificación.",
+        "Incluya si el mercado venderá en kg, lb o ambas unidades. También indique si los discos se entregarán en pares, juegos completos, cajas individuales o pallets mixtos. Con esa información, la fábrica puede calcular mejor molde, embalaje, peso bruto, volumen y tiempo de producción.",
+        "Para distribuidores, añada una regla de reposición: mantenga la misma serie, color, tolerancia y marcado durante varios pedidos. Si el primer lote se vende bien, el segundo debe integrarse visualmente con el inventario anterior. Esta consistencia facilita garantías, reemplazos parciales y ventas por ampliación de gimnasio. Guarde fotos, pesos medidos y códigos de caja como referencia para futuras órdenes comerciales."
+      ]}
+    ],
+    checklistTitle: "Checklist antes de cotizar",
+    checklistItems: ["Tipo de barra", "Diámetro interior", "Diámetro exterior", "Espesor por peso", "Material", "Uso previsto", "Sistema de almacenamiento", "Kg o lb", "Logo y color", "Embalaje y pallets"],
+    faq: [
+      ["¿Un disco olímpico es igual a un bumper?", "No. Olímpico describe compatibilidad con la barra; bumper describe construcción y uso con contacto controlado en plataforma."],
+      ["¿Puedo mezclar discos estándar y olímpicos?", "No es recomendable sin validar barra, adaptadores, seguridad y almacenamiento. En compras comerciales conviene mantener un estándar claro."],
+      ["¿Qué estándar conviene para un gimnasio comercial?", "Normalmente olímpico, porque es el más usado en barras, racks y equipos plate-loaded comerciales."],
+      ["¿Los discos pueden llevar mi marca?", "Sí, según modelo, cantidad y método de personalización. Debe aprobarse una muestra."],
+      ["¿Qué dato evita errores de compra?", "El diámetro interior y la barra compatible. Sin esa confirmación, la cotización puede referirse a otro estándar."]
+    ],
+    links: [["weight-plates-category", "Ver discos profesionales"], ["plates-guide", "Comparar discos y bumper"], ["rubber-olympic-plate", "Disco olímpico recubierto"], ["oem-private-label", "Marca propia"], ["contact", "Solicitar cotización"]]
   })
 ];

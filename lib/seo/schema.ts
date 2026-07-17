@@ -37,7 +37,7 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
   const { entity, version } = content;
   const definition = getLocaleByInternalLocale(version.locale);
   if (!definition) throw new Error(`Unsupported locale: ${version.locale}`);
-  const inLanguage = definition.internalLocale;
+  const inLanguage = definition.hreflang;
   const url = absoluteUrl(siteUrl, version.publicPath);
   const graph: JsonLd[] = [];
 

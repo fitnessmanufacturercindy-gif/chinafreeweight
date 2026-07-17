@@ -223,6 +223,24 @@ const sections: Record<string, IntentSection[]> = {
       "Prepare una tabla con mancuernas por peso, racks, bancos, barras, anillas, soportes, dimensiones y ubicación. Añada logo, colores, embalaje, destino, acceso de descarga y calendario. Pida peso neto, bruto y número de bultos para organizar la llegada. Las estructuras y productos densos necesitan planes de manipulación diferentes.",
       "PowerBaseFit puede revisar productos de su catálogo y opciones OEM para una lista B2B, pero no sustituye al diseñador responsable. Utilice referencias de proyectos para conversar sobre mezcla y presentación, no para afirmar resultados de clientes. La propuesta final debe corresponder al plano, cantidades y especificaciones aprobadas."
     ]]
+  ],
+  "olympic-vs-standard-guide": [
+    ["compatibilidad-barra", "Compatibilidad entre barra, disco y estación", [
+      "La compra debe empezar por la barra real. Confirme diámetro de manga, longitud disponible, cierre, carga prevista y estaciones donde se usará el disco. Un disco anunciado como olímpico no debe comprarse solo por el nombre; el ajuste, el espesor y la manipulación importan en la operación diaria.",
+      "Para distribuidores, documente si el mercado objetivo usa barras olímpicas o estándar. Vender ambos sin una separación clara puede generar devoluciones, adaptadores improvisados o clientes que mezclan piezas incompatibles."
+    ]],
+    ["uso-profesional", "Uso profesional frente a uso ligero", [
+      "En gimnasios comerciales, el estándar olímpico suele integrarse mejor con racks, bancos, plataformas y máquinas plate-loaded. Aun así, olímpico no significa bumper: si el programa incluye levantamientos con contacto con el suelo, debe evaluarse construcción, plataforma y reglas de uso.",
+      "El estándar puede funcionar en entornos ligeros o equipos específicos, pero debe permanecer dentro de su sistema. Si el comprador planea crecer hacia fuerza comercial, conviene evitar un inventario inicial que no se pueda reutilizar con barras y máquinas posteriores."
+    ]],
+    ["especificacion-oem", "Especificación, OEM y embalaje", [
+      "La ficha debe separar diámetro interior, diámetro exterior, espesor, material, tolerancia, marcado kg/lb y método de logo. En discos pequeños, el espacio de marca puede ser limitado; en discos grandes, peso y protección de embalaje condicionan el transporte.",
+      "Para marca propia, apruebe muestras de varios pesos y mantenga códigos estables. Los discos son productos densos: caja, pallet, peso bruto y secuencia de descarga afectan daños, coste y experiencia del comprador."
+    ]],
+    ["decision-compra", "Decisión de compra y reposición", [
+      "La decisión debe cubrir el primer pedido y la reposición. Si un gimnasio o distribuidor elige olímpico, debe mantener coherencia en barras, discos, soportes y comunicación comercial. Si conserva una línea estándar, debe explicar claramente para qué equipo se usa.",
+      "Antes de confirmar, compare coste total, disponibilidad futura, almacenamiento y demanda. Un precio bajo no compensa un estándar que el cliente no puede usar correctamente o que bloquea ampliaciones posteriores."
+    ]]
   ]
 };
 

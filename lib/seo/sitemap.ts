@@ -40,6 +40,9 @@ export function buildPublishedSitemap(
     const english = repository.getPublishedVersion(entity.id, "en");
     if (english) {
       alternatePairs.push(["x-default", new URL(english.version.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString()]);
+    } else {
+      const fallback = repository.getPublishedVersion(entity.id, entity.defaultLocale);
+      alternatePairs.push(["x-default", new URL(fallback?.version.publicPath ?? version.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString()]);
     }
     const alternates = Object.fromEntries(
       alternatePairs

@@ -25,6 +25,9 @@ export function buildAlternates(
   const english = repository.getPublishedVersion(content.entity.id, defaultLocale.internalLocale);
   if (english) {
     languages["x-default"] = absoluteUrl(siteUrl, english.version.publicPath);
+  } else {
+    const fallback = repository.getPublishedVersion(content.entity.id, content.entity.defaultLocale);
+    languages["x-default"] = absoluteUrl(siteUrl, fallback?.version.publicPath ?? content.version.publicPath);
   }
 
   return { canonical, languages };
@@ -65,7 +68,7 @@ export function buildLocalizedMetadata(
       images: version.images[0]?.src ? [version.images[0].src] : undefined
     },
     other: {
-      "content-language": definition.internalLocale
+      "content-language": definition.hreflang
     }
   };
 }

@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt-BR" | "es";
+  schemaLocale?: "pt" | "pt-BR" | "es";
 };
 
 export default function RootDocument({
@@ -28,7 +28,8 @@ export default function RootDocument({
   schemaLocale
 }: RootDocumentProps) {
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-  const localizedSchema = schemaLocale === "pt-BR"
+  const schemaLanguage = schemaLocale === "pt-BR" ? "pt" : schemaLocale;
+  const localizedSchema = schemaLocale === "pt" || schemaLocale === "pt-BR"
     ? {
         products: ["Halteres", "Anilhas", "Barras", "Racks", "Bancos", "Acessórios para academia"],
         websiteName: "PowerBaseFit fabricante de equipamentos para academia",
@@ -41,24 +42,24 @@ export default function RootDocument({
           businessDescription: "PowerBaseFit fabrica mancuernas, discos de peso, barras, racks, bancos y accesorios para importadores, distribuidores, marcas propias y proyectos de gimnasios."
         }
       : undefined;
-  const schemas = localizedSchema && schemaLocale
+  const schemas = localizedSchema && schemaLanguage
     ? [
         {
           ...organizationJsonLd,
-          inLanguage: schemaLocale,
+          inLanguage: schemaLanguage,
           makesOffer: localizedSchema.products.map((name) => ({
             "@type": "Offer",
-            itemOffered: { "@type": "Product", name, inLanguage: schemaLocale }
+            itemOffered: { "@type": "Product", name, inLanguage: schemaLanguage }
           }))
         },
         {
           ...websiteJsonLd,
           alternateName: localizedSchema.websiteName,
-          inLanguage: schemaLocale
+          inLanguage: schemaLanguage
         },
         {
           ...localBusinessJsonLd,
-          inLanguage: schemaLocale,
+          inLanguage: schemaLanguage,
           description: localizedSchema.businessDescription
         }
       ]
