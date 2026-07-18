@@ -1,5 +1,6 @@
 import { contentRepository } from "../../../lib/content/repository";
 import type { PublishedContent } from "../../../lib/content/types";
+import { Fragment, type ReactNode } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
 
@@ -36,6 +37,87 @@ function tableRows(value: unknown): string[][] {
     : [];
 }
 
+function inlineFormat(text: string): ReactNode {
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
+  return parts.map((part, index) => {
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (link) return <a key={`${index}-${link[2]}`} href={link[2]}>{link[1]}</a>;
+    if (part.startsWith("**") && part.endsWith("**")) return <strong key={index}>{part.slice(2, -2)}</strong>;
+    return part;
+  });
+}
+
+function parseTableRow(line: string) {
+  return line.replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim());
+}
+
+function renderLocalizedMarkdown(markdown: string): ReactNode[] {
+  const lines = markdown.split("\n");
+  const output: ReactNode[] = [];
+  let index = 0;
+  while (index < lines.length) {
+    const line = lines[index].trim();
+    if (!line) { index += 1; continue; }
+    if (line.startsWith("### ")) {
+      output.push(<h3 key={`h3-${index}`}>{inlineFormat(line.slice(4))}</h3>);
+      index += 1;
+      continue;
+    }
+    if (line.startsWith("| ") && /^\|?\s*:?-+/.test(lines[index + 1]?.trim() ?? "")) {
+      const headers = parseTableRow(line);
+      index += 2;
+      const rows: string[][] = [];
+      while (index < lines.length && lines[index].trim().startsWith("|")) {
+        rows.push(parseTableRow(lines[index].trim()));
+        index += 1;
+      }
+      output.push(
+        <div className="localized-table-wrap" key={`table-${index}`}>
+          <table><thead><tr>{headers.map((header) => <th scope="col" key={header}>{inlineFormat(header)}</th>)}</tr></thead>
+            <tbody>{rows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}>{inlineFormat(cell)}</td>)}</tr>)}</tbody>
+          </table>
+        </div>
+      );
+      continue;
+    }
+    if (line.startsWith("- ")) {
+      const items: string[] = [];
+      while (index < lines.length && lines[index].trim().startsWith("- ")) {
+        items.push(lines[index].trim().slice(2));
+        index += 1;
+      }
+      output.push(<ul className="localized-checklist" key={`ul-${index}`}>{items.map((item) => <li key={item}>{inlineFormat(item)}</li>)}</ul>);
+      continue;
+    }
+    if (/^\d+\. /.test(line)) {
+      const items: string[] = [];
+      while (index < lines.length && /^\d+\. /.test(lines[index].trim())) {
+        items.push(lines[index].trim().replace(/^\d+\. /, ""));
+        index += 1;
+      }
+      output.push(<ol key={`ol-${index}`}>{items.map((item) => <li key={item}>{inlineFormat(item)}</li>)}</ol>);
+      continue;
+    }
+    const paragraph = [line];
+    index += 1;
+    while (index < lines.length && lines[index].trim() && !/^(### |\| |- |\d+\. )/.test(lines[index].trim())) {
+      paragraph.push(lines[index].trim());
+      index += 1;
+    }
+    output.push(<p key={`p-${index}`}>{inlineFormat(paragraph.join(" "))}</p>);
+  }
+  return output;
+}
+
+function articleImage(image: PublishedContent["version"]["images"][number], className: string) {
+  return (
+    <figure className={className}>
+      <img src={image.src} alt={image.alt} loading="lazy" />
+      {image.caption ? <figcaption>{image.caption}</figcaption> : null}
+    </figure>
+  );
+}
+
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
@@ -65,14 +147,16 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
           </div>
         </header>
 
-        {version.images[0] ? <img className="localized-feature-image" src={version.images[0].src} alt={version.images[0].alt} /> : null}
+        {version.images[0] ? articleImage(version.images[0], "localized-feature-image") : null}
 
         <div className="localized-content">
-          {version.body.map((block) => (
-            <section key={block.id} data-content-block={block.type} id={block.id}>
+          {version.body.map((block, blockIndex) => (
+            <Fragment key={block.id}>
+            <section data-content-block={block.type} id={block.id}>
               {block.heading ? <h2>{block.heading}</h2> : null}
               {block.data?.component === "definition" && typeof block.data.term === "string" ? <p className="localized-definition-term">{block.data.term}</p> : null}
               {block.content ? <div className={block.data?.component === "quick-answer" ? "localized-quick-answer" : block.data?.component === "definition" ? "localized-definition" : undefined}>{paragraphs(block.content)}</div> : null}
+              {typeof block.data?.markdown === "string" ? <div className={block.data?.component === "quick-answer" ? "localized-quick-answer" : block.data?.component === "definition" ? "localized-definition" : undefined}>{renderLocalizedMarkdown(block.data.markdown)}</div> : null}
               {block.type === "specifications" && stringArray(block.data?.columns).length && tableRows(block.data?.rows).length ? (
                 <div className="localized-table-wrap">
                   <table>
@@ -85,6 +169,9 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
               {block.type === "features" && stringArray(block.data?.items).length ? <ul className="localized-checklist">{stringArray(block.data?.items).map((item) => <li key={item}>{item}</li>)}</ul> : null}
               {block.data?.component === "inquiry-form" ? <LocalizedInquiryForm locale={locale} /> : null}
             </section>
+            {blockIndex === 3 && version.images[1] ? articleImage(version.images[1], "localized-inline-image") : null}
+            {blockIndex === 7 && version.images[2] ? articleImage(version.images[2], "localized-inline-image") : null}
+            </Fragment>
           ))}
 
           {version.internalLinks.length ? (

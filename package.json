@@ -9,6 +9,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/i18n/infrastructure.test.ts",
+    "audit:multilingual-blogs": "tsx scripts/audit-multilingual-blog-expansion.ts",
+    "audit:rendered-blogs": "tsx scripts/audit-rendered-multilingual-pages.ts",
     "site:health": "node scripts/site-health-check.js",
     "site:fix-safe": "node scripts/site-auto-fix.js",
     "test:site-health": "playwright test tests/site-health.spec.js --project=chromium",

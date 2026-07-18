@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { getMultilingualBlogDocuments } from "../../lib/content/multilingual-blog-files";
 
 export type ResourcePost = {
   slug: string;
@@ -225,11 +226,7 @@ function getReadingTime(content: string) {
 }
 
 export function getAllPosts(): ResourcePost[] {
-  if (!fs.existsSync(postsDirectory)) {
-    return [];
-  }
-
-  return fs
+  const legacyPosts = fs.existsSync(postsDirectory) ? fs
     .readdirSync(postsDirectory)
     .filter((file) => file.endsWith(".md"))
     .map((file) => {
@@ -253,8 +250,33 @@ export function getAllPosts(): ResourcePost[] {
         updatedAt: data.updated_at || data.published_at || "2026-07-16",
         ...(postVisuals[slug] || fallbackVisuals)
       };
-    })
-    .sort((a, b) => {
+    }) : [];
+
+  const expansionPosts = getMultilingualBlogDocuments()
+    .filter((document) => document.locale === "en")
+    .map((document): ResourcePost => ({
+      slug: document.publicPath.split("/").filter(Boolean).at(-1) ?? document.entityId,
+      title: document.h1,
+      seoTitle: document.title,
+      metaDescription: document.description,
+      primaryKeyword: document.primaryKeyword,
+      secondaryKeywords: document.secondaryKeywords,
+      searchIntent: document.searchIntent,
+      content: document.content,
+      excerpt: getExcerpt(document.content),
+      readingTime: getReadingTime(document.content),
+      coverImage: document.images[0].src,
+      coverAlt: document.images[0].alt,
+      articleImages: document.images.slice(1).map((image) => ({
+        src: image.src,
+        alt: image.alt,
+        caption: image.caption
+      })),
+      publishedAt: document.publishedAt,
+      updatedAt: document.updatedAt
+    }));
+
+  return [...legacyPosts, ...expansionPosts].sort((a, b) => {
       const priority = [
         "do-dumbbells-help-with-bone-density",
         "why-is-it-called-a-dumbbell",
@@ -265,7 +287,12 @@ export function getAllPosts(): ResourcePost[] {
         "how-to-choose-commercial-dumbbells",
         "weight-plates-vs-bumper-plates-b2b-guide"
       ];
-      return priority.indexOf(a.slug) - priority.indexOf(b.slug);
+      const aIndex = priority.indexOf(a.slug);
+      const bIndex = priority.indexOf(b.slug);
+      if (aIndex === -1 && bIndex === -1) return b.publishedAt.localeCompare(a.publishedAt) || a.title.localeCompare(b.title);
+      if (aIndex === -1) return 1;
+      if (bIndex === -1) return -1;
+      return aIndex - bIndex;
     });
 }
 

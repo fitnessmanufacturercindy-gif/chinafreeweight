@@ -100,7 +100,7 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       dateModified: version.updatedAt,
       inLanguage,
       mainEntityOfPage: { "@id": `${url}#webpage` },
-      image: version.images[0] ? absoluteUrl(siteUrl, version.images[0].src) : undefined,
+      image: version.images.length ? version.images.map((image) => absoluteUrl(siteUrl, image.src)) : undefined,
       author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url } : undefined,
       reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined,
       publisher: { "@type": "Organization", "@id": `${siteUrl.replace(/\/$/, "")}#organization`, name: "PowerBaseFit" }

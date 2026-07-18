@@ -2262,7 +2262,14 @@ textarea {
 .localized-hero-actions nav a { color: #222; font-weight: 700; }
 .localized-hero-actions nav a[aria-current="page"] { text-decoration: underline; }
 .localized-editorial-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 22px; color: #686d74; font-size: 14px; line-height: 1.5; }
-.localized-feature-image { width: 100%; max-height: 620px; object-fit: cover; border-radius: 18px; margin: 18px 0 46px; }
+.localized-feature-image { margin: 18px 0 46px; }
+.localized-feature-image img,
+.localized-inline-image img { display: block; width: 100%; object-fit: cover; border-radius: 18px; }
+.localized-feature-image img { max-height: 620px; }
+.localized-inline-image { margin: 34px 0; }
+.localized-inline-image img { max-height: 520px; }
+.localized-feature-image figcaption,
+.localized-inline-image figcaption { margin-top: 10px; color: #626870; font-size: 14px; line-height: 1.55; }
 .localized-content { max-width: 880px; }
 .localized-content section { margin: 0 0 42px; }
 .localized-content h2 { font-size: clamp(28px, 4vw, 40px); margin-bottom: 14px; }

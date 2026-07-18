@@ -1,6 +1,7 @@
 import type { ContentManifest } from "../../lib/content/types";
 import { ptBrPilotManifest } from "./pt-br-pilot";
 import { spanishPublishedVersions } from "./spanish-manifest";
+import { getMultilingualBlogEntities } from "../../lib/content/multilingual-blog-files";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -15,4 +16,13 @@ if (spanishById.size) {
   throw new Error(`Spanish content references unknown entities: ${[...spanishById.keys()].join(", ")}`);
 }
 
-export const multilingualManifest: ContentManifest = { schemaVersion: 1, entities };
+const expansionEntities = getMultilingualBlogEntities();
+const existingIds = new Set(entities.map((entity) => entity.id));
+for (const entity of expansionEntities) {
+  if (existingIds.has(entity.id)) throw new Error(`Multilingual blog expansion duplicates entity: ${entity.id}`);
+}
+
+export const multilingualManifest: ContentManifest = {
+  schemaVersion: 1,
+  entities: [...entities, ...expansionEntities]
+};

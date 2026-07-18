@@ -271,7 +271,7 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
   return [
     {
       "@context": "https://schema.org",
-      "@type": "Article",
+      "@type": "BlogPosting",
       "@id": `${url}#article`,
       mainEntityOfPage: { "@type": "WebPage", "@id": url },
       headline: post.title,

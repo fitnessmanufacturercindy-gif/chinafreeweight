@@ -8,7 +8,7 @@ export function getEnglishAlternates(path: string) {
     canonical: path,
     languages: {
       en: path,
-      ...(portuguese ? { pt: portuguese.version.publicPath } : {}),
+      ...(portuguese ? { "pt-BR": portuguese.version.publicPath } : {}),
       ...(spanish ? { es: spanish.version.publicPath } : {}),
       "x-default": path
     }
