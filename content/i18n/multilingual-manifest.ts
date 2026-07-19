@@ -2,6 +2,7 @@ import type { ContentManifest } from "../../lib/content/types";
 import { ptBrPilotManifest } from "./pt-br-pilot";
 import { spanishPublishedVersions } from "./spanish-manifest";
 import { getMultilingualBlogEntities } from "../../lib/content/multilingual-blog-files";
+import { withGermanLocalization } from "./german-manifest";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -22,7 +23,9 @@ for (const entity of expansionEntities) {
   if (existingIds.has(entity.id)) throw new Error(`Multilingual blog expansion duplicates entity: ${entity.id}`);
 }
 
-export const multilingualManifest: ContentManifest = {
+const baseManifest: ContentManifest = {
   schemaVersion: 1,
   entities: [...entities, ...expansionEntities]
 };
+
+export const multilingualManifest: ContentManifest = withGermanLocalization(baseManifest);

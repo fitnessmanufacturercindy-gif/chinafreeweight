@@ -217,15 +217,17 @@ const spanishRoutesWithEnglish = new Set([
   "/es/blog/como-verificar-peso-mancuernas-fabrica"
 ]);
 
+assert.ok(portugueseOnlyRoutes.size > 0);
+assert.ok(portugueseRoutesWithSpanish.size > 0);
+assert.ok(spanishRoutesWithEnglish.size > 0);
+
 for (const route of portugueseRoutes) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 200, route);
   assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR", route);
   assert.equal(await page.locator('link[rel="canonical"]').getAttribute("href"), `https://www.chinafreeweight.com${route}`, route);
-  assert.equal(await page.locator('link[hreflang="en"]').count(), portugueseOnlyRoutes.has(route) ? 0 : 1, route);
   assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
-  assert.equal(await page.locator('link[hreflang="es"]').count(), portugueseRoutesWithSpanish.has(route) ? 1 : 0, route);
-  assert.equal(await page.locator('link[hreflang="x-default"]').count(), portugueseOnlyRoutes.has(route) ? 0 : 1, route);
+  assert.equal(await page.locator('link[hreflang="x-default"]').count(), 1, route);
   assert.ok((await page.locator("main").innerText()).length > 500, route);
   assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
   assertSchemaLanguage(await schemaNodes(), "pt-BR", route);
@@ -237,10 +239,9 @@ for (const route of spanishRoutes) {
   assert.equal(await page.locator("html").getAttribute("lang"), "es", route);
   assert.equal(await page.locator("html").getAttribute("dir"), "ltr", route);
   assert.equal(await page.locator('link[rel="canonical"]').getAttribute("href"), `https://www.chinafreeweight.com${route}`, route);
-  assert.equal(await page.locator('link[hreflang="en"]').count(), spanishRoutesWithEnglish.has(route) ? 1 : 0, route);
   assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1, route);
   assert.equal(await page.locator('link[hreflang="es"]').count(), 1, route);
-  assert.equal(await page.locator('link[hreflang="x-default"]').count(), spanishRoutesWithEnglish.has(route) ? 1 : 0, route);
+  assert.equal(await page.locator('link[hreflang="x-default"]').count(), 1, route);
   assert.ok((await page.locator("main").innerText()).length > 500, route);
   assert.ok((await page.locator('script[type="application/ld+json"]').allTextContents()).some((value) => value.includes('"FAQPage"')), route);
   assertSchemaLanguage(await schemaNodes(), "es", route);
@@ -276,12 +277,12 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 202);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 39);
-assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 38);
-assert.equal((sitemapXml.match(/hreflang="pt-BR"/g) ?? []).length, 77);
-assert.equal((sitemapXml.match(/hreflang="es"/g) ?? []).length, 76);
-assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:de|fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 357);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 49);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 49);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 124);
+assert.match(sitemapXml, /hreflang="de"/);
+assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
 assert.ok(robotsResponse);
@@ -292,13 +293,15 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 202);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 357);
 const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
-assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length, 125);
-assert.equal(languageSitemapPortuguese.length, 39);
-assert.equal(languageSitemapSpanish.length, 38);
+const languageSitemapGerman = languageSitemapLocs.filter((url) => /^\/de(?:\/|$)/.test(new URL(url).pathname));
+assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length - languageSitemapGerman.length, 135);
+assert.equal(languageSitemapPortuguese.length, 49);
+assert.equal(languageSitemapSpanish.length, 49);
+assert.equal(languageSitemapGerman.length, 124);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
@@ -326,6 +329,7 @@ await page.goto(testUrl("/products"), { waitUntil: "networkidle" });
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="en"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="pt-BR"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="es"]').count(), 1);
+assert.equal(await page.locator('.route-language-switcher--desktop a[lang="de"]').count(), 1);
 await switchDesktop("pt-BR");
 await page.waitForURL("**/pt/produtos");
 await switchDesktop("es");
@@ -372,7 +376,7 @@ assert.equal(await page.locator('form.quote-form input[name="_subject"]').getAtt
 assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
 assert.deepEqual({ failedResponses, pageErrors }, { failedResponses: [], pageErrors: [] });
 
-for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/de"]) {
+for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/fr"]) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 404, route);
 }

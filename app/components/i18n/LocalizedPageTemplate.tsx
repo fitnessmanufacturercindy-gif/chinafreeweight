@@ -20,6 +20,14 @@ const pageCopy = {
     finalTitle: "¿Listo para evaluar su proyecto?",
     finalText: "Envíe la lista de productos, cantidades, personalización y destino para recibir una cotización B2B.",
     finalLink: "Hablar con PowerBaseFit", contactPath: "/es/contacto"
+  },
+  de: {
+    breadcrumb: "Brotkrümelnavigation", eyebrow: "PowerBaseFit · B2B-Hersteller",
+    quote: "Angebot anfordern", by: "Autor", reviewed: "Fachlich geprüft von", updated: "Aktualisiert am",
+    related: "Passende Informationen", faq: "Häufig gestellte Fragen",
+    finalTitle: "Möchten Sie Ihr Beschaffungsprojekt prüfen lassen?",
+    finalText: "Senden Sie uns Produktliste, Mengen, gewünschte Individualisierung und Zielort. Sie erhalten eine projektbezogene B2B-Rückmeldung.",
+    finalLink: "PowerBaseFit kontaktieren", contactPath: "/de/kontakt"
   }
 } as const;
 
@@ -121,7 +129,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (

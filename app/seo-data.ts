@@ -94,6 +94,7 @@ export function localizedSitemapEntries() {
   return [
     ...englishEntries,
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" }),
-    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" })
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "de" })
   ];
 }

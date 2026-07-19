@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de";
 };
 
 export default function RootDocument({
@@ -28,7 +28,7 @@ export default function RootDocument({
   schemaLocale
 }: RootDocumentProps) {
   const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-  const schemaLanguage = schemaLocale === "pt-BR" ? "pt" : schemaLocale;
+  const schemaLanguage = schemaLocale;
   const localizedSchema = schemaLocale === "pt" || schemaLocale === "pt-BR"
     ? {
         products: ["Halteres", "Anilhas", "Barras", "Racks", "Bancos", "Acessórios para academia"],
@@ -41,7 +41,13 @@ export default function RootDocument({
           websiteName: "PowerBaseFit fabricante de equipos de gimnasio",
           businessDescription: "PowerBaseFit fabrica mancuernas, discos de peso, barras, racks, bancos y accesorios para importadores, distribuidores, marcas propias y proyectos de gimnasios."
         }
-      : undefined;
+      : schemaLocale === "de"
+        ? {
+            products: ["Kurzhanteln", "Gewichtsscheiben", "Bumper Plates", "Racks", "Hantelb\u00e4nke", "Fitnesszubeh\u00f6r"],
+            websiteName: "PowerBaseFit Hersteller f\u00fcr Fitnessstudio-Ausstattung",
+            businessDescription: "PowerBaseFit fertigt Kurzhanteln, Gewichtsscheiben, Bumper Plates, Racks, B\u00e4nke und Zubeh\u00f6r f\u00fcr Importeure, Fachh\u00e4ndler, Eigenmarken und Fitnessstudio-Projekte."
+          }
+        : undefined;
   const schemas = localizedSchema && schemaLanguage
     ? [
         {

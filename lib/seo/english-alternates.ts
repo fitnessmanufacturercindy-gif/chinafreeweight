@@ -1,15 +1,21 @@
 import { contentRepository } from "../content/repository";
+import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
 
 export function getEnglishAlternates(path: string) {
   const content = contentRepository.resolvePublishedPath("en", path);
-  const portuguese = content && contentRepository.getPublishedVersion(content.entity.id, "pt-BR");
-  const spanish = content && contentRepository.getPublishedVersion(content.entity.id, "es");
+  const publishedLanguages = content
+    ? Object.fromEntries(contentRepository.getPublishedVersions(content.entity.id).flatMap(({ version }) => {
+        const locale = getLocaleByInternalLocale(version.locale);
+        return locale?.public && version.hreflangData.include
+          ? [[locale.hreflang, version.publicPath]]
+          : [];
+      }))
+    : {};
   return {
     canonical: path,
     languages: {
+      ...publishedLanguages,
       en: path,
-      ...(portuguese ? { "pt-BR": portuguese.version.publicPath } : {}),
-      ...(spanish ? { es: spanish.version.publicPath } : {}),
       "x-default": path
     }
   };

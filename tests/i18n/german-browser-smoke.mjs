@@ -1,0 +1,116 @@
+import assert from "node:assert/strict";
+import { chromium } from "playwright-core";
+
+const baseUrl = process.env.TEST_BASE_URL || "http://127.0.0.1:3100";
+const executablePath = process.env.CHROME_PATH || "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
+const bypassSecret = process.env.VERCEL_BYPASS_SECRET;
+const shareSecret = process.env.VERCEL_SHARE_SECRET;
+
+function testUrl(path) {
+  const url = new URL(path, `${baseUrl}/`);
+  if (shareSecret) url.searchParams.set("_vercel_share", shareSecret);
+  return url.toString();
+}
+
+const browser = await chromium.launch({ executablePath, headless: true });
+const context = await browser.newContext({
+  viewport: { width: 1440, height: 900 },
+  extraHTTPHeaders: bypassSecret ? { "x-vercel-protection-bypass": bypassSecret } : undefined
+});
+const page = await context.newPage();
+
+async function schemaNodes() {
+  const documents = (await page.locator('script[type="application/ld+json"]').allTextContents()).map((value) => JSON.parse(value));
+  return documents.flatMap((document) => document?.["@graph"] ?? [document]).flat();
+}
+
+async function switchDesktop(locale) {
+  const switcher = page.locator(".route-language-switcher--desktop");
+  assert.ok(await switcher.locator("summary").isVisible());
+  if (!(await switcher.getAttribute("open"))) await switcher.locator("summary").click();
+  await switcher.locator(`a[lang="${locale}"]`).click();
+}
+
+const languageSitemap = await page.goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded" });
+assert.equal(languageSitemap?.status(), 200);
+const languageXml = await languageSitemap.text();
+const sitemapUrls = [...languageXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+const germanPaths = sitemapUrls.map((url) => new URL(url).pathname).filter((path) => path === "/de" || path.startsWith("/de/"));
+assert.equal(sitemapUrls.length, 357);
+assert.equal(germanPaths.length, 124);
+assert.equal(new Set(germanPaths).size, 124);
+
+for (const path of germanPaths) {
+  const response = await page.goto(testUrl(path), { waitUntil: "domcontentloaded" });
+  assert.equal(response?.status(), 200, path);
+  assert.equal(new URL(response.url()).pathname, path, `${path}: redirect`);
+  assert.equal(await page.locator("html").getAttribute("lang"), "de", `${path}: lang`);
+  assert.equal(await page.locator("html").getAttribute("dir"), "ltr", `${path}: dir`);
+  assert.ok((await page.title()).trim().length > 20, `${path}: title`);
+  assert.ok(((await page.locator('meta[name="description"]').getAttribute("content")) || "").length > 80, `${path}: description`);
+  assert.ok((await page.locator("h1").innerText()).trim().length > 10, `${path}: H1`);
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute("href"), `https://www.chinafreeweight.com${path}`, `${path}: canonical`);
+  assert.equal(await page.locator('link[hreflang="de"]').getAttribute("href"), `https://www.chinafreeweight.com${path}`, `${path}: de hreflang`);
+  assert.equal(await page.locator('meta[name="robots"][content*="noindex"]').count(), 0, `${path}: noindex`);
+  assert.ok((await page.locator("main").innerText()).length > 700, `${path}: server HTML`);
+
+  const schemas = await schemaNodes();
+  assert.ok(schemas.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "de"), `${path}: FAQ schema`);
+  assert.ok(schemas.some((node) => node?.["@type"] === "BreadcrumbList" && node.inLanguage === "de"), `${path}: breadcrumb schema`);
+  for (const node of schemas) {
+    const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];
+    if (types.some((type) => ["WebSite", "Organization", "LocalBusiness", "Product", "FAQPage", "BreadcrumbList", "BlogPosting"].includes(type))) {
+      assert.equal(node.inLanguage, "de", `${path}: ${types.join("/")} language`);
+    }
+  }
+
+  for (const image of await page.locator("main img").all()) {
+    assert.ok((await image.getAttribute("alt"))?.trim(), `${path}: image alt`);
+    const source = await image.getAttribute("src");
+    if (source?.startsWith("/bilder/")) {
+      const imageResponse = await context.request.get(testUrl(source));
+      assert.equal(imageResponse.status(), 200, `${path}: ${source}`);
+      assert.match(imageResponse.headers()["content-type"] || "", /^image\//, `${path}: ${source} type`);
+    }
+  }
+}
+
+const mainSitemap = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
+assert.equal(mainSitemap?.status(), 200);
+const mainXml = await mainSitemap.text();
+assert.equal((mainXml.match(/<loc>/g) ?? []).length, 357);
+assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 124);
+
+const productSitemap = await page.goto(testUrl("/sitemaps/products.xml"), { waitUntil: "domcontentloaded" });
+assert.equal(productSitemap?.status(), 200);
+const productXml = await productSitemap.text();
+assert.equal((productXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de\/produkte\/(?:kurzhanteln|gewichtsscheiben|racks-hantelbaenke|fitnesszubehoer)\//g) ?? []).length, 97);
+
+const robots = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
+assert.equal(robots?.status(), 200);
+assert.match(await robots.text(), /Allow: \/[\r\n]/);
+
+await page.goto(testUrl("/products/dumbbells/hex-dumbbell-kg"), { waitUntil: "networkidle" });
+await switchDesktop("de");
+await page.waitForURL("**/de/produkte/kurzhanteln/gummi-hex-kurzhantel");
+await switchDesktop("pt-BR");
+await page.waitForURL("**/pt/produtos/halteres/halter-sextavado-borracha");
+await switchDesktop("es");
+await page.waitForURL("**/es/productos/mancuernas/mancuerna-hexagonal-goma");
+await switchDesktop("en");
+await page.waitForURL("**/products/dumbbells/hex-dumbbell-kg");
+
+await page.setViewportSize({ width: 390, height: 844 });
+await page.goto(testUrl("/de/kontakt"), { waitUntil: "networkidle" });
+await page.locator(".mobile-nav-menu summary").click();
+assert.ok(await page.locator(".route-language-switcher--mobile").isVisible());
+assert.equal(await page.locator("form.quote-form").getAttribute("action"), "https://formsubmit.co/kloe@powerbasefit.com");
+assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
+
+for (const path of ["/de/produkte/nicht-veroeffentlicht", "/de/blog/nicht-veroeffentlicht", "/fr"]) {
+  const response = await page.goto(testUrl(path), { waitUntil: "domcontentloaded" });
+  assert.equal(response?.status(), 404, path);
+}
+
+await browser.close();
+console.log("German browser smoke passed: 124 pages, SEO DOM, schema, sitemaps, switcher, form and 404.");
