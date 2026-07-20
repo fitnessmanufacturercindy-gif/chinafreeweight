@@ -4,6 +4,7 @@ import { spanishPublishedVersions } from "./spanish-manifest";
 import { getMultilingualBlogEntities } from "../../lib/content/multilingual-blog-files";
 import { withGermanLocalization } from "./german-manifest";
 import { withFrenchLocalization } from "./french-manifest";
+import { withVietnameseLocalization } from "./vietnamese-manifest";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -29,4 +30,4 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withFrenchLocalization(withGermanLocalization(baseManifest));
+export const multilingualManifest: ContentManifest = withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest)));

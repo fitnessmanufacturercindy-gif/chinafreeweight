@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi";
 };
 
 export default function RootDocument({
@@ -53,7 +53,13 @@ export default function RootDocument({
               websiteName: "PowerBaseFit fabricant d’équipements de musculation professionnels",
               businessDescription: "PowerBaseFit fabrique des haltères, disques, bumper plates, racks, bancs et accessoires pour importateurs, distributeurs, marques privées et projets de salles de sport."
             }
-        : undefined;
+          : schemaLocale === "vi"
+            ? {
+                products: ["Tạ tay", "Bánh tạ", "Đĩa tạ bumper", "Khung tập", "Ghế tập", "Phụ kiện phòng gym"],
+                websiteName: "PowerBaseFit nhà sản xuất thiết bị phòng gym chuyên nghiệp",
+                businessDescription: "PowerBaseFit sản xuất tạ tay, bánh tạ, khung tập, ghế tập và phụ kiện cho nhà nhập khẩu, nhà phân phối, thương hiệu riêng và dự án phòng gym."
+              }
+          : undefined;
   const schemas = localizedSchema && schemaLanguage
     ? [
         {

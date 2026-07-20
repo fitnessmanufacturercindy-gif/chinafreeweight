@@ -62,10 +62,26 @@ const copy = {
     project: "Type de projet", projects: ["Importation / distribution", "Marque privée", "Nouvelle salle", "Réseau de revendeurs"],
     message: "Description du projet", messagePlaceholder: "Précisez les poids, quantités, logo, emballage, destination et calendrier souhaité.",
     submit: "Demander un devis B2B"
+  },
+  vi: {
+    subject: "Yêu cầu B2B mới bằng tiếng Việt — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/vi/lien-he?inquiry=sent#yeu-cau",
+    source: "ChinaFreeWeight trang tiếng Việt",
+    name: "Họ và tên", namePlaceholder: "Tên người liên hệ",
+    email: "Email doanh nghiệp", phone: "Điện thoại / WhatsApp", phonePlaceholder: "+84 hoặc mã quốc gia",
+    company: "Doanh nghiệp", companyPlaceholder: "Nhà nhập khẩu, nhà phân phối, thương hiệu hoặc phòng gym",
+    country: "Quốc gia / khu vực", countryPlaceholder: "Việt Nam",
+    demand: "Sản phẩm quan tâm", demandPlaceholder: "Tạ tay, bánh tạ, OEM, dự án phòng gym...",
+    category: "Danh mục", select: "Chọn danh mục",
+    categories: ["Tạ tay", "Bánh tạ", "Bumper plate", "OEM / thương hiệu riêng", "Thiết bị phòng gym"],
+    quantity: "Số lượng dự kiến", quantityPlaceholder: "Ví dụ: 200 cặp / 1 container",
+    project: "Loại dự án", projects: ["Nhập khẩu / phân phối", "Thương hiệu riêng", "Phòng gym mới", "Chuỗi bán lẻ"],
+    message: "Mô tả yêu cầu", messagePlaceholder: "Vui lòng ghi trọng lượng, số lượng, logo, bao bì, địa điểm giao và thời gian mong muốn.",
+    submit: "Yêu cầu báo giá B2B"
   }
 } as const;
 
-export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" }) {
+export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" }) {
   const text = copy[locale];
   return (
     <form className="quote-form" action="https://formsubmit.co/kloe@powerbasefit.com" method="POST">
@@ -76,7 +92,7 @@ export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es
       <input type="hidden" name="source" value={text.source} />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
-      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : "nombre@empresa.com"} required /></label>
+      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : "nombre@empresa.com"} required /></label>
       <label>{text.phone} <span className="required-mark">*</span><input name="phone" type="tel" placeholder={text.phonePlaceholder} required /></label>
       <label>{text.company}<input name="company" type="text" placeholder={text.companyPlaceholder} /></label>
       <label>{text.country}<input name="country" type="text" placeholder={text.countryPlaceholder} /></label>

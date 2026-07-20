@@ -24,6 +24,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const spanish = definition.internalLocale === "es";
   const german = definition.internalLocale === "de";
   const french = definition.internalLocale === "fr";
+  const vietnamese = definition.internalLocale === "vi";
 
   return (
     <RootDocument
@@ -31,15 +32,17 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       direction={definition.direction}
       header={<LocalizedSiteHeader locale={definition.internalLocale} />}
       footer={<LocalizedSiteFooter locale={definition.internalLocale} />}
-      whatsAppLabel={french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
-      whatsAppMessage={french
+      whatsAppLabel={vietnamese ? "Liên hệ PowerBaseFit qua WhatsApp" : french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
+      whatsAppMessage={vietnamese
+        ? "Xin chào, tôi cần thông tin và báo giá B2B cho thiết bị phòng gym PowerBaseFit."
+        : french
         ? "Bonjour, je souhaite obtenir des informations et un devis B2B pour des équipements de musculation PowerBaseFit."
         : german
         ? "Guten Tag, ich interessiere mich für Fitnessstudio-Ausstattung von PowerBaseFit und möchte ein B2B-Angebot anfragen."
         : spanish
           ? "Hola, me interesan los equipos de PowerBaseFit. Quisiera recibir información para una cotización B2B."
           : "Olá, tenho interesse nos equipamentos da PowerBaseFit. Gostaria de receber mais informações para uma cotação B2B."}
-      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : undefined}
+      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : vietnamese ? "vi" : undefined}
     >
       <NextIntlClientProvider locale={definition.internalLocale} messages={{}}>
         {children}

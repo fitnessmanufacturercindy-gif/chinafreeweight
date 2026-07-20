@@ -17,11 +17,15 @@ const navigation = {
   fr: {
     prefix: "/fr", aria: "Navigation principale", quote: "Demander un devis", contact: "/contact",
     links: [["/produits/halteres", "Haltères"], ["/produits/disques-musculation", "Disques"], ["/usine", "Usine"], ["/blog", "Guides"], ["/projets", "Projets"], ["/contact", "Contact"]]
+  },
+  vi: {
+    prefix: "/vi", aria: "Điều hướng chính", quote: "Yêu cầu báo giá", contact: "/lien-he",
+    links: [["/san-pham/ta-tay", "Tạ tay"], ["/san-pham/banh-ta", "Bánh tạ"], ["/nha-may", "Nhà máy"], ["/blog", "Hướng dẫn"], ["/du-an", "Dự án"], ["/lien-he", "Liên hệ"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi") return null;
   const copy = navigation[locale];
 
   return (
