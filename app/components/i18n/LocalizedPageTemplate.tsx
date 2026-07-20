@@ -44,6 +44,14 @@ const pageCopy = {
     finalTitle: "Bạn cần đánh giá dự án mua hàng?",
     finalText: "Gửi danh sách sản phẩm, số lượng, tùy chỉnh và địa điểm nhận để nhận phản hồi B2B phù hợp.",
     finalLink: "Liên hệ PowerBaseFit", contactPath: "/vi/lien-he"
+  },
+  sv: {
+    breadcrumb: "Brödsmulenavigering", eyebrow: "PowerBaseFit · B2B-tillverkare",
+    quote: "Begär offert", by: "Författare", reviewed: "Faktagranskad av", updated: "Uppdaterad",
+    related: "Relaterad information", faq: "Vanliga frågor",
+    finalTitle: "Vill du utvärdera ditt inköpsprojekt?",
+    finalText: "Skicka produktlista, kvantiteter, önskad anpassning och destination för en projektspecifik B2B-offert.",
+    finalLink: "Kontakta PowerBaseFit", contactPath: "/sv/kontakt"
   }
 } as const;
 
@@ -145,7 +153,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (

@@ -21,11 +21,15 @@ const navigation = {
   vi: {
     prefix: "/vi", aria: "Điều hướng chính", quote: "Yêu cầu báo giá", contact: "/lien-he",
     links: [["/san-pham/ta-tay", "Tạ tay"], ["/san-pham/banh-ta", "Bánh tạ"], ["/nha-may", "Nhà máy"], ["/blog", "Hướng dẫn"], ["/du-an", "Dự án"], ["/lien-he", "Liên hệ"]]
+  },
+  sv: {
+    prefix: "/sv", aria: "Huvudnavigation", quote: "Begär offert", contact: "/kontakt",
+    links: [["/produkter/hantlar", "Hantlar"], ["/produkter/viktskivor", "Viktskivor"], ["/fabrik", "Fabrik"], ["/blogg", "Guider"], ["/projekt", "Projekt"], ["/kontakt", "Kontakt"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv") return null;
   const copy = navigation[locale];
 
   return (

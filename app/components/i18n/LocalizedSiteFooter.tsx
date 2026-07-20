@@ -6,11 +6,12 @@ const footerCopy = {
   es: { prefix: "/es", since: "Desde", factory: "fábrica de", email: "Correo", links: [["/productos", "Productos"], ["/fabrica", "Fábrica"], ["/blog", "Contenido"], ["/proyectos", "Proyectos"], ["/contacto", "Contacto"]] },
   de: { prefix: "/de", since: "Seit", factory: "Fertigung auf", email: "E-Mail", links: [["/produkte", "Produkte"], ["/fabrik", "Fabrik"], ["/blog", "Ratgeber"], ["/projekte", "Projekte"], ["/kontakt", "Kontakt"]] },
   fr: { prefix: "/fr", since: "Depuis", factory: "usine de", email: "E-mail", links: [["/produits", "Produits"], ["/usine", "Usine"], ["/blog", "Guides"], ["/projets", "Projets"], ["/contact", "Contact"]] },
-  vi: { prefix: "/vi", since: "Thành lập", factory: "nhà máy", email: "Email", links: [["/san-pham", "Sản phẩm"], ["/nha-may", "Nhà máy"], ["/blog", "Hướng dẫn"], ["/du-an", "Dự án"], ["/lien-he", "Liên hệ"]] }
+  vi: { prefix: "/vi", since: "Thành lập", factory: "nhà máy", email: "Email", links: [["/san-pham", "Sản phẩm"], ["/nha-may", "Nhà máy"], ["/blog", "Hướng dẫn"], ["/du-an", "Dự án"], ["/lien-he", "Liên hệ"]] },
+  sv: { prefix: "/sv", since: "Sedan", factory: "fabrik på", email: "E-post", links: [["/produkter", "Produkter"], ["/fabrik", "Fabrik"], ["/blogg", "Guider"], ["/projekt", "Projekt"], ["/kontakt", "Kontakt"]] }
 } as const;
 
 export default function LocalizedSiteFooter({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv") return null;
   const copy = footerCopy[locale];
 
   return (

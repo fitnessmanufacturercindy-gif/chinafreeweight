@@ -25,6 +25,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const german = definition.internalLocale === "de";
   const french = definition.internalLocale === "fr";
   const vietnamese = definition.internalLocale === "vi";
+  const swedish = definition.internalLocale === "sv";
 
   return (
     <RootDocument
@@ -32,8 +33,10 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       direction={definition.direction}
       header={<LocalizedSiteHeader locale={definition.internalLocale} />}
       footer={<LocalizedSiteFooter locale={definition.internalLocale} />}
-      whatsAppLabel={vietnamese ? "Liên hệ PowerBaseFit qua WhatsApp" : french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
-      whatsAppMessage={vietnamese
+      whatsAppLabel={swedish ? "Kontakta PowerBaseFit via WhatsApp" : vietnamese ? "Liên hệ PowerBaseFit qua WhatsApp" : french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
+      whatsAppMessage={swedish
+        ? "Hej, jag vill ha information och en B2B-offert på gymutrustning från PowerBaseFit."
+        : vietnamese
         ? "Xin chào, tôi cần thông tin và báo giá B2B cho thiết bị phòng gym PowerBaseFit."
         : french
         ? "Bonjour, je souhaite obtenir des informations et un devis B2B pour des équipements de musculation PowerBaseFit."
@@ -42,7 +45,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         : spanish
           ? "Hola, me interesan los equipos de PowerBaseFit. Quisiera recibir información para una cotización B2B."
           : "Olá, tenho interesse nos equipamentos da PowerBaseFit. Gostaria de receber mais informações para uma cotação B2B."}
-      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : vietnamese ? "vi" : undefined}
+      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : vietnamese ? "vi" : swedish ? "sv" : undefined}
     >
       <NextIntlClientProvider locale={definition.internalLocale} messages={{}}>
         {children}
