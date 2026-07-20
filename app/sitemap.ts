@@ -57,5 +57,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const portugueseSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" });
   const spanishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" });
   const germanSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "de" });
-  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap];
+  const frenchSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "fr" });
+  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap];
 }

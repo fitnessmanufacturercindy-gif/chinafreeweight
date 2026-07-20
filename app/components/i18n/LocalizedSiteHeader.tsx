@@ -13,11 +13,15 @@ const navigation = {
   de: {
     prefix: "/de", aria: "Hauptnavigation", quote: "Angebot anfordern", contact: "/kontakt",
     links: [["/produkte/kurzhanteln", "Kurzhanteln"], ["/produkte/gewichtsscheiben", "Gewichtsscheiben"], ["/fabrik", "Fabrik"], ["/blog", "Ratgeber"], ["/projekte", "Projekte"], ["/kontakt", "Kontakt"]]
+  },
+  fr: {
+    prefix: "/fr", aria: "Navigation principale", quote: "Demander un devis", contact: "/contact",
+    links: [["/produits/halteres", "Haltères"], ["/produits/disques-musculation", "Disques"], ["/usine", "Usine"], ["/blog", "Guides"], ["/projets", "Projets"], ["/contact", "Contact"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr") return null;
   const copy = navigation[locale];
 
   return (

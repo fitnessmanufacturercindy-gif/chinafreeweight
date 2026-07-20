@@ -4,11 +4,12 @@ import { company } from "../../site";
 const footerCopy = {
   "pt-BR": { prefix: "/pt", since: "Desde", factory: "fábrica de", email: "E-mail", links: [["/produtos/halteres", "Produtos"], ["/fabrica", "Fábrica"], ["/blog", "Conteúdo"], ["/projetos", "Projetos"], ["/contato", "Contato"]] },
   es: { prefix: "/es", since: "Desde", factory: "fábrica de", email: "Correo", links: [["/productos", "Productos"], ["/fabrica", "Fábrica"], ["/blog", "Contenido"], ["/proyectos", "Proyectos"], ["/contacto", "Contacto"]] },
-  de: { prefix: "/de", since: "Seit", factory: "Fertigung auf", email: "E-Mail", links: [["/produkte", "Produkte"], ["/fabrik", "Fabrik"], ["/blog", "Ratgeber"], ["/projekte", "Projekte"], ["/kontakt", "Kontakt"]] }
+  de: { prefix: "/de", since: "Seit", factory: "Fertigung auf", email: "E-Mail", links: [["/produkte", "Produkte"], ["/fabrik", "Fabrik"], ["/blog", "Ratgeber"], ["/projekte", "Projekte"], ["/kontakt", "Kontakt"]] },
+  fr: { prefix: "/fr", since: "Depuis", factory: "usine de", email: "E-mail", links: [["/produits", "Produits"], ["/usine", "Usine"], ["/blog", "Guides"], ["/projets", "Projets"], ["/contact", "Contact"]] }
 } as const;
 
 export default function LocalizedSiteFooter({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr") return null;
   const copy = footerCopy[locale];
 
   return (

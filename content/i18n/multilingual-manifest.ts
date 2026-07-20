@@ -3,6 +3,7 @@ import { ptBrPilotManifest } from "./pt-br-pilot";
 import { spanishPublishedVersions } from "./spanish-manifest";
 import { getMultilingualBlogEntities } from "../../lib/content/multilingual-blog-files";
 import { withGermanLocalization } from "./german-manifest";
+import { withFrenchLocalization } from "./french-manifest";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -28,4 +29,4 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withGermanLocalization(baseManifest);
+export const multilingualManifest: ContentManifest = withFrenchLocalization(withGermanLocalization(baseManifest));

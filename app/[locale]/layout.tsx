@@ -23,6 +23,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   setRequestLocale(locale);
   const spanish = definition.internalLocale === "es";
   const german = definition.internalLocale === "de";
+  const french = definition.internalLocale === "fr";
 
   return (
     <RootDocument
@@ -30,13 +31,15 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       direction={definition.direction}
       header={<LocalizedSiteHeader locale={definition.internalLocale} />}
       footer={<LocalizedSiteFooter locale={definition.internalLocale} />}
-      whatsAppLabel={german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
-      whatsAppMessage={german
+      whatsAppLabel={french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
+      whatsAppMessage={french
+        ? "Bonjour, je souhaite obtenir des informations et un devis B2B pour des équipements de musculation PowerBaseFit."
+        : german
         ? "Guten Tag, ich interessiere mich für Fitnessstudio-Ausstattung von PowerBaseFit und möchte ein B2B-Angebot anfragen."
         : spanish
           ? "Hola, me interesan los equipos de PowerBaseFit. Quisiera recibir información para una cotización B2B."
           : "Olá, tenho interesse nos equipamentos da PowerBaseFit. Gostaria de receber mais informações para uma cotação B2B."}
-      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : undefined}
+      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : undefined}
     >
       <NextIntlClientProvider locale={definition.internalLocale} messages={{}}>
         {children}

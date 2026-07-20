@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 
 export type PublishedRouteGroup = {
-  routes: Partial<Record<"en" | "pt-BR" | "es" | "de", string>>;
+  routes: Partial<Record<"en" | "pt-BR" | "es" | "de" | "fr", string>>;
 };
 
 type SwitcherVariant = "desktop" | "mobile";
@@ -12,7 +12,8 @@ const localeOptions = [
   { locale: "en" as const, hreflang: "en", label: "English" },
   { locale: "pt-BR" as const, hreflang: "pt", label: "Portugu\u00eas" },
   { locale: "es" as const, hreflang: "es", label: "Espa\u00f1ol" },
-  { locale: "de" as const, hreflang: "de", label: "Deutsch" }
+  { locale: "de" as const, hreflang: "de", label: "Deutsch" },
+  { locale: "fr" as const, hreflang: "fr", label: "Français" }
 ];
 
 function normalize(path: string) {
@@ -24,6 +25,7 @@ function localeFromPath(pathname: string) {
   if (pathname === "/pt" || pathname.startsWith("/pt/")) return "pt-BR" as const;
   if (pathname === "/es" || pathname.startsWith("/es/")) return "es" as const;
   if (pathname === "/de" || pathname.startsWith("/de/")) return "de" as const;
+  if (pathname === "/fr" || pathname.startsWith("/fr/")) return "fr" as const;
   return "en" as const;
 }
 
@@ -48,6 +50,8 @@ export default function RouteLanguageSwitcherClient({
         ? "Selector de idioma"
         : currentLocale === "de"
           ? "Sprachauswahl"
+          : currentLocale === "fr"
+            ? "Sélecteur de langue"
           : "Language selector";
 
   const options = (

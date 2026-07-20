@@ -277,12 +277,14 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 357);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 481);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 49);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 49);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 124);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/fr(?:<|\/)/g) ?? []).length, 124);
 assert.match(sitemapXml, /hreflang="de"/);
-assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:fr|it|nl|ru|ar|ja|ko)(?:<|\/)/);
+assert.match(sitemapXml, /hreflang="fr"/);
+assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:it|nl|ru|ar|ja|ko)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
 assert.ok(robotsResponse);
@@ -293,15 +295,17 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 357);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 481);
 const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapGerman = languageSitemapLocs.filter((url) => /^\/de(?:\/|$)/.test(new URL(url).pathname));
-assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length - languageSitemapGerman.length, 135);
+const languageSitemapFrench = languageSitemapLocs.filter((url) => /^\/fr(?:\/|$)/.test(new URL(url).pathname));
+assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length - languageSitemapGerman.length - languageSitemapFrench.length, 135);
 assert.equal(languageSitemapPortuguese.length, 49);
 assert.equal(languageSitemapSpanish.length, 49);
 assert.equal(languageSitemapGerman.length, 124);
+assert.equal(languageSitemapFrench.length, 124);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
@@ -330,6 +334,7 @@ assert.equal(await page.locator('.route-language-switcher--desktop a[lang="en"]'
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="pt-BR"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="es"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="de"]').count(), 1);
+assert.equal(await page.locator('.route-language-switcher--desktop a[lang="fr"]').count(), 1);
 await switchDesktop("pt-BR");
 await page.waitForURL("**/pt/produtos");
 await switchDesktop("es");
@@ -376,7 +381,7 @@ assert.equal(await page.locator('form.quote-form input[name="_subject"]').getAtt
 assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
 assert.deepEqual({ failedResponses, pageErrors }, { failedResponses: [], pageErrors: [] });
 
-for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/fr"]) {
+for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/fr/produits/non-publie"]) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 404, route);
 }

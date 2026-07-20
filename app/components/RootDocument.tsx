@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es" | "de";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr";
 };
 
 export default function RootDocument({
@@ -47,6 +47,12 @@ export default function RootDocument({
             websiteName: "PowerBaseFit Hersteller f\u00fcr Fitnessstudio-Ausstattung",
             businessDescription: "PowerBaseFit fertigt Kurzhanteln, Gewichtsscheiben, Bumper Plates, Racks, B\u00e4nke und Zubeh\u00f6r f\u00fcr Importeure, Fachh\u00e4ndler, Eigenmarken und Fitnessstudio-Projekte."
           }
+        : schemaLocale === "fr"
+          ? {
+              products: ["Haltères", "Disques de musculation", "Bumper plates", "Racks", "Bancs", "Accessoires de fitness"],
+              websiteName: "PowerBaseFit fabricant d’équipements de musculation professionnels",
+              businessDescription: "PowerBaseFit fabrique des haltères, disques, bumper plates, racks, bancs et accessoires pour importateurs, distributeurs, marques privées et projets de salles de sport."
+            }
         : undefined;
   const schemas = localizedSchema && schemaLanguage
     ? [
