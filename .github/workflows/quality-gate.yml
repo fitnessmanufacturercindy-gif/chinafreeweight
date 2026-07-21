@@ -11,6 +11,11 @@ on:
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
+    inputs:
+      preview_url:
+        description: "Public Vercel Preview URL to verify"
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -50,6 +55,13 @@ jobs:
 
       - name: Unit tests
         run: npm test
+
+      - name: Verify public multilingual Preview HTML
+        if: github.event_name == 'workflow_dispatch' && inputs.preview_url != ''
+        env:
+          BASE_URL: ${{ inputs.preview_url }}
+        run: node tests/i18n/commercial-completion-browser-smoke.mjs
+
       - name: Start production preview
         run: npm run start -- --port 3000 > /tmp/quality-gate-next.log 2>&1 &
 
