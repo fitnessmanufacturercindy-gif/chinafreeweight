@@ -2446,23 +2446,25 @@ textarea {
   :is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form button { grid-column: auto; }
 }
 
-html[lang="ko"] .localized-hero-actions nav {
+:is(html[lang="pt-BR"], html[lang="es"], html[lang="ko"]) .localized-hero-actions nav {
   width: 100%;
   flex-wrap: wrap;
 }
 
 @media (max-width: 700px) {
-  html[lang="ko"] .localized-table-wrap table {
+  :is(html[lang="pt-BR"], html[lang="es"], html[lang="ko"]) .localized-table-wrap table {
     min-width: 100%;
     table-layout: fixed;
   }
 
-  html[lang="ko"] .localized-table-wrap th,
-  html[lang="ko"] .localized-table-wrap td {
+  :is(html[lang="pt-BR"], html[lang="es"], html[lang="ko"]) .localized-table-wrap th,
+  :is(html[lang="pt-BR"], html[lang="es"], html[lang="ko"]) .localized-table-wrap td {
     padding: 10px 8px;
     overflow-wrap: anywhere;
-    word-break: keep-all;
   }
+
+  html[lang="ko"] .localized-table-wrap th,
+  html[lang="ko"] .localized-table-wrap td { word-break: keep-all; }
 }
 
 @media (max-width: 900px) {
