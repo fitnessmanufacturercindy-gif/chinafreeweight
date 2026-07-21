@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it";
 };
 
 export default function RootDocument({
@@ -64,6 +64,12 @@ export default function RootDocument({
                   products: ["Hantlar", "Viktskivor", "Bumpervikter", "Rack", "Träningsbänkar", "Gymtillbehör"],
                   websiteName: "PowerBaseFit tillverkare av professionell gymutrustning",
                   businessDescription: "PowerBaseFit tillverkar hantlar, viktskivor, bumpervikter, rack, bänkar och tillbehör för importörer, distributörer, egna varumärken och kommersiella gymprojekt."
+                }
+            : schemaLocale === "it"
+              ? {
+                  products: ["Manubri", "Dischi pesi", "Dischi bumper", "Rack", "Panche", "Accessori palestra"],
+                  websiteName: "PowerBaseFit produttore di attrezzature fitness professionali",
+                  businessDescription: "PowerBaseFit produce manubri, dischi pesi, bumper, rack, panche e accessori per importatori, distributori, marchi privati e progetti palestra."
                 }
           : undefined;
   const schemas = localizedSchema && schemaLanguage

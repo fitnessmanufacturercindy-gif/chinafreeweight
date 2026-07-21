@@ -25,11 +25,15 @@ const navigation = {
   sv: {
     prefix: "/sv", aria: "Huvudnavigation", quote: "Begär offert", contact: "/kontakt",
     links: [["/produkter/hantlar", "Hantlar"], ["/produkter/viktskivor", "Viktskivor"], ["/fabrik", "Fabrik"], ["/blogg", "Guider"], ["/projekt", "Projekt"], ["/kontakt", "Kontakt"]]
+  },
+  it: {
+    prefix: "/it", aria: "Navigazione principale", quote: "Richiedi preventivo", contact: "/contatti",
+    links: [["/prodotti/manubri", "Manubri"], ["/prodotti/dischi-pesi", "Dischi"], ["/fabbrica", "Fabbrica"], ["/blog", "Guide"], ["/progetti", "Progetti"], ["/contatti", "Contatti"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it") return null;
   const copy = navigation[locale];
 
   return (

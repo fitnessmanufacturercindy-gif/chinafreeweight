@@ -52,6 +52,14 @@ const pageCopy = {
     finalTitle: "Vill du utvärdera ditt inköpsprojekt?",
     finalText: "Skicka produktlista, kvantiteter, önskad anpassning och destination för en projektspecifik B2B-offert.",
     finalLink: "Kontakta PowerBaseFit", contactPath: "/sv/kontakt"
+  },
+  it: {
+    breadcrumb: "Percorso di navigazione", eyebrow: "PowerBaseFit · Produttore B2B",
+    quote: "Richiedi preventivo", by: "A cura di", reviewed: "Revisione tecnica", updated: "Aggiornato il",
+    related: "Approfondimenti correlati", faq: "Domande frequenti",
+    finalTitle: "Vuoi valutare il tuo progetto di acquisto?",
+    finalText: "Invia prodotti, quantità, personalizzazione e destinazione per ricevere una risposta B2B riferita al progetto.",
+    finalLink: "Contatta PowerBaseFit", contactPath: "/it/contatti"
   }
 } as const;
 
@@ -153,7 +161,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (
