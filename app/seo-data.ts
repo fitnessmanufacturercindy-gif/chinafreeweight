@@ -99,6 +99,7 @@ export function localizedSitemapEntries() {
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "fr" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "vi" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" }),
-    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" })
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" })
   ];
 }

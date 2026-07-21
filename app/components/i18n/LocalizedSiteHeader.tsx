@@ -29,11 +29,15 @@ const navigation = {
   it: {
     prefix: "/it", aria: "Navigazione principale", quote: "Richiedi preventivo", contact: "/contatti",
     links: [["/prodotti/manubri", "Manubri"], ["/prodotti/dischi-pesi", "Dischi"], ["/fabbrica", "Fabbrica"], ["/blog", "Guide"], ["/progetti", "Progetti"], ["/contatti", "Contatti"]]
+  },
+  ko: {
+    prefix: "/ko", aria: "주요 탐색", quote: "견적 요청", contact: "/contact",
+    links: [["/products/dumbbells", "덤벨"], ["/products/weight-plates", "원판"], ["/products/racks-benches", "랙·벤치"], ["/factory", "공장"], ["/blog", "구매 가이드"], ["/contact", "문의"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko") return null;
   const copy = navigation[locale];
 
   return (

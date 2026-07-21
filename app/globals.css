@@ -2391,7 +2391,7 @@ textarea {
 
 @media (max-width: 700px) { .localized-page article { padding: 24px 18px 52px; } .localized-hero > p:not(.eyebrow), .localized-content p { font-size: 17px; } .localized-final-cta { padding: 26px 20px; } }
 
-html[lang="sv"] .localized-content .quote-form {
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
@@ -2401,7 +2401,7 @@ html[lang="sv"] .localized-content .quote-form {
   background: #fff;
 }
 
-html[lang="sv"] .localized-content .quote-form label {
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form label {
   display: grid;
   gap: 8px;
   color: #25282d;
@@ -2409,14 +2409,14 @@ html[lang="sv"] .localized-content .quote-form label {
   font-weight: 750;
 }
 
-html[lang="sv"] .localized-content .quote-form label.full,
-html[lang="sv"] .localized-content .quote-form button {
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form label.full,
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form button {
   grid-column: 1 / -1;
 }
 
-html[lang="sv"] .localized-content .quote-form input,
-html[lang="sv"] .localized-content .quote-form select,
-html[lang="sv"] .localized-content .quote-form textarea {
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form input,
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form select,
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form textarea {
   width: 100%;
   min-height: 48px;
   padding: 12px 14px;
@@ -2427,9 +2427,9 @@ html[lang="sv"] .localized-content .quote-form textarea {
   font: inherit;
 }
 
-html[lang="sv"] .localized-content .quote-form textarea { min-height: 132px; resize: vertical; }
-html[lang="sv"] .localized-content .quote-form .spam-field { position: absolute; left: -10000px; }
-html[lang="sv"] .localized-content .quote-form button {
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form textarea { min-height: 132px; resize: vertical; }
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form .spam-field { position: absolute; left: -10000px; }
+:is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form button {
   min-height: 50px;
   border: 0;
   border-radius: 8px;
@@ -2441,9 +2441,28 @@ html[lang="sv"] .localized-content .quote-form button {
 }
 
 @media (max-width: 700px) {
-  html[lang="sv"] .localized-content .quote-form { grid-template-columns: 1fr; padding: 20px 16px; }
-  html[lang="sv"] .localized-content .quote-form label.full,
-  html[lang="sv"] .localized-content .quote-form button { grid-column: auto; }
+  :is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form { grid-template-columns: 1fr; padding: 20px 16px; }
+  :is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form label.full,
+  :is(html[lang="sv"], html[lang="ko"]) .localized-content .quote-form button { grid-column: auto; }
+}
+
+html[lang="ko"] .localized-hero-actions nav {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  html[lang="ko"] .localized-table-wrap table {
+    min-width: 100%;
+    table-layout: fixed;
+  }
+
+  html[lang="ko"] .localized-table-wrap th,
+  html[lang="ko"] .localized-table-wrap td {
+    padding: 10px 8px;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+  }
 }
 
 @media (max-width: 900px) {

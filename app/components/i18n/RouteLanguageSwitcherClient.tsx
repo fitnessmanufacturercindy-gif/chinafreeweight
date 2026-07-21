@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 
 export type PublishedRouteGroup = {
-  routes: Partial<Record<"en" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it", string>>;
+  routes: Partial<Record<"en" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko", string>>;
 };
 
 type SwitcherVariant = "desktop" | "mobile";
@@ -16,7 +16,8 @@ const localeOptions = [
   { locale: "fr" as const, hreflang: "fr", label: "Français" },
   { locale: "vi" as const, hreflang: "vi", label: "Tiếng Việt" },
   { locale: "sv" as const, hreflang: "sv", label: "Svenska" },
-  { locale: "it" as const, hreflang: "it", label: "Italiano" }
+  { locale: "it" as const, hreflang: "it", label: "Italiano" },
+  { locale: "ko" as const, hreflang: "ko", label: "한국어" }
 ];
 
 function normalize(path: string) {
@@ -32,6 +33,7 @@ function localeFromPath(pathname: string) {
   if (pathname === "/vi" || pathname.startsWith("/vi/")) return "vi" as const;
   if (pathname === "/sv" || pathname.startsWith("/sv/")) return "sv" as const;
   if (pathname === "/it" || pathname.startsWith("/it/")) return "it" as const;
+  if (pathname === "/ko" || pathname.startsWith("/ko/")) return "ko" as const;
   return "en" as const;
 }
 
@@ -64,6 +66,8 @@ export default function RouteLanguageSwitcherClient({
             ? "Språkväljare"
           : currentLocale === "it"
             ? "Selettore lingua"
+          : currentLocale === "ko"
+            ? "언어 선택"
           : "Language selector";
 
   const options = (

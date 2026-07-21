@@ -7,6 +7,7 @@ import { withFrenchLocalization } from "./french-manifest";
 import { withVietnameseLocalization } from "./vietnamese-manifest";
 import { withSwedishLocalization } from "./swedish-manifest";
 import { withItalianLocalization } from "./italian-manifest";
+import { withKoreanLocalization } from "./korean-manifest";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -32,4 +33,4 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest)))));
+export const multilingualManifest: ContentManifest = withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))));
