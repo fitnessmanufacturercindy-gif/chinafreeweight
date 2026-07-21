@@ -60,6 +60,14 @@ const pageCopy = {
     finalTitle: "Vuoi valutare il tuo progetto di acquisto?",
     finalText: "Invia prodotti, quantità, personalizzazione e destinazione per ricevere una risposta B2B riferita al progetto.",
     finalLink: "Contatta PowerBaseFit", contactPath: "/it/contatti"
+  },
+  ko: {
+    breadcrumb: "현재 위치", eyebrow: "PowerBaseFit · B2B 제조사",
+    quote: "견적 요청", by: "작성", reviewed: "기술 검토", updated: "업데이트",
+    related: "관련 정보", faq: "자주 묻는 질문",
+    finalTitle: "구매 프로젝트를 검토하시겠습니까?",
+    finalText: "제품, 수량, 맞춤 제작, 한국 도착지와 일정을 보내 주시면 프로젝트 기준으로 B2B 견적을 검토합니다.",
+    finalLink: "PowerBaseFit에 문의", contactPath: "/ko/contact"
   }
 } as const;
 
@@ -161,7 +169,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (
