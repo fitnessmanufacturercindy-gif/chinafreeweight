@@ -56,6 +56,14 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      - name: Verify DataForSEO connection
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
+        env:
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          DATAFORSEO_BASE_URL: ${{ secrets.DATAFORSEO_BASE_URL }}
+        run: npm run dataforseo:test
+
       - name: Verify public multilingual Preview HTML
         if: github.event_name == 'workflow_dispatch' && inputs.preview_url != ''
         env:

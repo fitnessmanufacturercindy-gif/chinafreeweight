@@ -15,7 +15,8 @@
     "site:fix-safe": "node scripts/site-auto-fix.js",
     "test:site-health": "playwright test tests/site-health.spec.js --project=chromium",
     "quality:gate": "node scripts/quality-gate.mjs",
-    "seo:submit": "node scripts/submit-search-engines.mjs"
+    "seo:submit": "node scripts/submit-search-engines.mjs",
+    "dataforseo:test": "node scripts/test-dataforseo-connection.mjs"
   },
   "browserslist": [
     "Chrome >= 111",
