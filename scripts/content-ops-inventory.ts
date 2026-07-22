@@ -40,8 +40,8 @@ async function main() {
     publicPath: version.publicPath,
     internalLinkTargets: version.internalLinks.map((link) => link.targetContentId),
   }));
-  await writeFile(path.join(researchDir, "production-sitemap.json"), `${JSON.stringify({ capturedAt: new Date().toISOString(), indexUrl, sitemaps, urlCount: productionUrls.length, urls: productionUrls }, null, 2)}\n`);
-  await writeFile(path.join(researchDir, "repository-inventory.json"), `${JSON.stringify({ capturedAt: new Date().toISOString(), versionCount: repository.length, entries: repository }, null, 2)}\n`);
+  await writeFile(path.join(researchDir, "production-sitemap.json"), `${JSON.stringify({ capturedAt: new Date().toISOString(), indexUrl, sitemaps, urlCount: productionUrls.length, urls: productionUrls })}\n`);
+  await writeFile(path.join(researchDir, "repository-inventory.json"), `${JSON.stringify({ capturedAt: new Date().toISOString(), versionCount: repository.length, entries: repository })}\n`);
   console.log(JSON.stringify({ productionUrlCount: productionUrls.length, repositoryVersionCount: repository.length, failedSitemaps: sitemaps.filter((item) => !item.ok).map((item) => item.url) }, null, 2));
 }
 
