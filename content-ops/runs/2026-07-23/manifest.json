@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-23",
+  "siteUrl": "https://www.chinafreeweight.com",
+  "timeZone": "Asia/Shanghai",
+  "publicLocales": [
+    "en",
+    "pt-BR",
+    "es",
+    "de",
+    "fr",
+    "vi",
+    "sv",
+    "it",
+    "ko",
+    "id"
+  ],
+  "candidateUrlLimit": 100,
+  "mode": "research-only",
+  "openDailyPullRequest": "https://github.com/fitnessmanufacturercindy-gif/chinafreeweight/pull/9",
+  "apiSpendUsd": {
+    "daily": 1.944,
+    "monthly": 1.944
+  },
+  "createdAt": "2026-07-22T23:01:25.221Z"
+}

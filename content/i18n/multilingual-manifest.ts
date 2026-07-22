@@ -12,6 +12,7 @@ import { withCommercialCompletionA } from "./commercial-completion-a";
 import { withCommercialCompletionBC } from "./commercial-completion-bc";
 import { withCommercialCompletionC } from "./commercial-completion-c";
 import { withIndonesianLocalization } from "./indonesian-manifest";
+import { getAutomatedContentEntities } from "../../lib/content/automated-content";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -37,4 +38,22 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withIndonesianLocalization(withCommercialCompletionC(withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))))))));
+const localizedManifest = withIndonesianLocalization(withCommercialCompletionC(withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))))))));
+const automatedEntities = getAutomatedContentEntities();
+const localizedIds = new Set(localizedManifest.entities.map((entity) => entity.id));
+const localizedPaths = new Set(localizedManifest.entities.flatMap((entity) => Object.values(entity.versions).filter(Boolean).map((version) => `${version!.locale}:${version!.publicPath}`)));
+
+for (const entity of automatedEntities) {
+  if (localizedIds.has(entity.id)) throw new Error(`Automated content duplicates entity: ${entity.id}`);
+  for (const version of Object.values(entity.versions).filter(Boolean)) {
+    const key = `${version!.locale}:${version!.publicPath}`;
+    if (localizedPaths.has(key)) throw new Error(`Automated content duplicates public path: ${key}`);
+    localizedPaths.add(key);
+  }
+  localizedIds.add(entity.id);
+}
+
+export const multilingualManifest: ContentManifest = {
+  schemaVersion: 1,
+  entities: [...localizedManifest.entities, ...automatedEntities],
+};

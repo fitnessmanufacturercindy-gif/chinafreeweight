@@ -54,7 +54,9 @@ jobs:
         run: npm run typecheck
 
       - name: Unit tests
-        run: npm test
+        run: |
+          npm test
+          npm run content:test
 
       - name: Verify DataForSEO connection
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.ref == 'refs/heads/main'
