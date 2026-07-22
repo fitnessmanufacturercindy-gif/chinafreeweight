@@ -10,6 +10,7 @@ import { withItalianLocalization } from "./italian-manifest";
 import { withKoreanLocalization } from "./korean-manifest";
 import { withCommercialCompletionA } from "./commercial-completion-a";
 import { withCommercialCompletionBC } from "./commercial-completion-bc";
+import { withCommercialCompletionC } from "./commercial-completion-c";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -35,4 +36,4 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))))));
+export const multilingualManifest: ContentManifest = withCommercialCompletionC(withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest)))))))));
