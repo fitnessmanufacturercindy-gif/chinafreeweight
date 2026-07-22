@@ -27,7 +27,8 @@ function schemaNodes(documents) {
 }
 
 try {
-  const sitemapResponse = await context.request.get(testUrl("/sitemap.xml"));
+  const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
+  assert.ok(sitemapResponse);
   assert.equal(sitemapResponse.status(), 200);
   const sitemapXml = await sitemapResponse.text();
   const paths = [...sitemapXml.matchAll(/<loc>https:\/\/www\.chinafreeweight\.com(\/id(?:\/[^<]*)?)<\/loc>/g)].map((match) => match[1]);
@@ -66,12 +67,14 @@ try {
   assert.equal(await page.locator('.route-language-switcher--desktop a[lang="es"]').getAttribute("href"), "/es/productos");
   assert.equal(await page.locator('.route-language-switcher--desktop a[lang="id"]').getAttribute("href"), "/id/produk");
 
-  const languageResponse = await context.request.get(testUrl("/sitemaps/languages.xml"));
+  const languageResponse = await page.goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
+  assert.ok(languageResponse);
   assert.equal(languageResponse.status(), 200);
   const languageXml = await languageResponse.text();
   assert.equal((languageXml.match(/<loc>/g) ?? []).length, 1237);
   assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 122);
-  const robotsResponse = await context.request.get(testUrl("/robots.txt"));
+  const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded", timeout: 30000 });
+  assert.ok(robotsResponse);
   assert.equal(robotsResponse.status(), 200);
   assert.doesNotMatch(await robotsResponse.text(), /Disallow:\s*\/id/i);
   const missing = await page.goto(testUrl("/id/produk/tidak-diterbitkan"), { waitUntil: "domcontentloaded" });
