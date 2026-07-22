@@ -101,5 +101,6 @@ export function localizedSitemapEntries() {
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" })
+    ,...buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" })
   ];
 }

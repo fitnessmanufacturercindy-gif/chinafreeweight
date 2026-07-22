@@ -9,11 +9,12 @@ const footerCopy = {
   vi: { prefix: "/vi", since: "Thành lập", factory: "nhà máy", email: "Email", links: [["/san-pham", "Sản phẩm"], ["/nha-may", "Nhà máy"], ["/blog", "Hướng dẫn"], ["/du-an", "Dự án"], ["/lien-he", "Liên hệ"]] },
   sv: { prefix: "/sv", since: "Sedan", factory: "fabrik på", email: "E-post", links: [["/produkter", "Produkter"], ["/fabrik", "Fabrik"], ["/blogg", "Guider"], ["/projekt", "Projekt"], ["/kontakt", "Kontakt"]] },
   it: { prefix: "/it", since: "Dal", factory: "stabilimento di", email: "E-mail", links: [["/prodotti", "Prodotti"], ["/fabbrica", "Fabbrica"], ["/blog", "Guide"], ["/progetti", "Progetti"], ["/contatti", "Contatti"]] },
-  ko: { prefix: "/ko", since: "설립", factory: "규모의 생산 시설", email: "이메일", links: [["/products", "제품"], ["/factory", "공장"], ["/oem-private-label", "OEM"], ["/blog", "구매 가이드"], ["/contact", "문의"]] }
+  ko: { prefix: "/ko", since: "설립", factory: "규모의 생산 시설", email: "이메일", links: [["/products", "제품"], ["/factory", "공장"], ["/oem-private-label", "OEM"], ["/blog", "구매 가이드"], ["/contact", "문의"]] },
+  id: { prefix: "/id", since: "Sejak", factory: "fasilitas produksi", email: "Email", links: [["/produk", "Produk"], ["/pabrik", "Pabrik"], ["/oem-merek-sendiri", "OEM"], ["/blog", "Panduan"], ["/kontak", "Kontak"]] }
 } as const;
 
 export default function LocalizedSiteFooter({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko" && locale !== "id") return null;
   const copy = footerCopy[locale];
 
   return (

@@ -277,7 +277,7 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 1115);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 1237);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 122);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 122);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 124);
@@ -286,6 +286,7 @@ assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/vi(?:<
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/sv(?:<|\/)/g) ?? []).length, 124);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/it(?:<|\/)/g) ?? []).length, 124);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/ko(?:<|\/)/g) ?? []).length, 116);
+assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 122);
 assert.match(sitemapXml, /hreflang="de"/);
 assert.match(sitemapXml, /hreflang="fr"/);
 assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:nl|ru|ar|ja)(?:<|\/)/);
@@ -299,7 +300,7 @@ const languageSitemapResponse = await page.goto(testUrl("/sitemaps/languages.xml
 assert.ok(languageSitemapResponse);
 const languageSitemapXml = await languageSitemapResponse.text();
 assert.equal(languageSitemapResponse.status(), 200);
-assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 1115);
+assert.equal((languageSitemapXml.match(/<loc>/g) ?? []).length, 1237);
 const languageSitemapLocs = [...languageSitemapXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const languageSitemapPortuguese = languageSitemapLocs.filter((url) => /^\/pt(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapSpanish = languageSitemapLocs.filter((url) => /^\/es(?:\/|$)/.test(new URL(url).pathname));
@@ -309,7 +310,8 @@ const languageSitemapVietnamese = languageSitemapLocs.filter((url) => /^\/vi(?:\
 const languageSitemapSwedish = languageSitemapLocs.filter((url) => /^\/sv(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapItalian = languageSitemapLocs.filter((url) => /^\/it(?:\/|$)/.test(new URL(url).pathname));
 const languageSitemapKorean = languageSitemapLocs.filter((url) => /^\/ko(?:\/|$)/.test(new URL(url).pathname));
-assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length - languageSitemapGerman.length - languageSitemapFrench.length - languageSitemapVietnamese.length - languageSitemapSwedish.length - languageSitemapItalian.length - languageSitemapKorean.length, 135);
+const languageSitemapIndonesian = languageSitemapLocs.filter((url) => /^\/id(?:\/|$)/.test(new URL(url).pathname));
+assert.equal(languageSitemapLocs.length - languageSitemapPortuguese.length - languageSitemapSpanish.length - languageSitemapGerman.length - languageSitemapFrench.length - languageSitemapVietnamese.length - languageSitemapSwedish.length - languageSitemapItalian.length - languageSitemapKorean.length - languageSitemapIndonesian.length, 135);
 assert.equal(languageSitemapPortuguese.length, 122);
 assert.equal(languageSitemapSpanish.length, 122);
 assert.equal(languageSitemapGerman.length, 124);
@@ -318,6 +320,7 @@ assert.equal(languageSitemapVietnamese.length, 124);
 assert.equal(languageSitemapSwedish.length, 124);
 assert.equal(languageSitemapItalian.length, 124);
 assert.equal(languageSitemapKorean.length, 116);
+assert.equal(languageSitemapIndonesian.length, 122);
 
 await page.goto(testUrl("/pt/produtos/halteres/halter-sextavado-borracha"), { waitUntil: "networkidle" });
 assert.equal(await page.locator("html").getAttribute("lang"), "pt-BR");
@@ -351,6 +354,7 @@ assert.equal(await page.locator('.route-language-switcher--desktop a[lang="vi"]'
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="sv"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="it"]').count(), 1);
 assert.equal(await page.locator('.route-language-switcher--desktop a[lang="ko"]').count(), 1);
+assert.equal(await page.locator('.route-language-switcher--desktop a[lang="id"]').count(), 1);
 await switchDesktop("pt-BR");
 await page.waitForURL("**/pt/produtos");
 await switchDesktop("es");
@@ -397,7 +401,7 @@ assert.equal(await page.locator('form.quote-form input[name="_subject"]').getAtt
 assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
 assert.deepEqual({ failedResponses, pageErrors }, { failedResponses: [], pageErrors: [] });
 
-for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/fr/produits/non-publie", "/vi/san-pham/khong-xuat-ban", "/sv/produkter/inte-publicerad", "/it/prodotti/non-pubblicato", "/ko/products/unpublished"]) {
+for (const route of ["/pt/products", "/pt/oem-private-label", "/pt/case/nao-publicado", "/es-es", "/es/productos/no-publicado", "/fr/produits/non-publie", "/vi/san-pham/khong-xuat-ban", "/sv/produkter/inte-publicerad", "/it/prodotti/non-pubblicato", "/ko/products/unpublished", "/id/produk/tidak-diterbitkan"]) {
   const response = await page.goto(testUrl(route), { waitUntil: "domcontentloaded" });
   assert.equal(response?.status(), 404, route);
 }

@@ -33,11 +33,15 @@ const navigation = {
   ko: {
     prefix: "/ko", aria: "주요 탐색", quote: "견적 요청", contact: "/contact",
     links: [["/products/dumbbells", "덤벨"], ["/products/weight-plates", "원판"], ["/products/racks-benches", "랙·벤치"], ["/factory", "공장"], ["/blog", "구매 가이드"], ["/contact", "문의"]]
+  },
+  id: {
+    prefix: "/id", aria: "Navigasi utama", quote: "Minta penawaran", contact: "/kontak",
+    links: [["/produk/dumbbell", "Dumbbell"], ["/produk/piring-beban", "Piring beban"], ["/produk/rak-bangku", "Rack & bench"], ["/pabrik", "Pabrik"], ["/blog", "Panduan"], ["/kontak", "Kontak"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko" && locale !== "id") return null;
   const copy = navigation[locale];
 
   return (

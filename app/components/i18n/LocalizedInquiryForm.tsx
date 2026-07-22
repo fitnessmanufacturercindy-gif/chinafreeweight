@@ -126,10 +126,26 @@ const copy = {
     project: "프로젝트 유형", projects: ["수입 / 유통", "자체 브랜드", "신규 헬스장", "프로젝트 공급"],
     message: "프로젝트 설명", messagePlaceholder: "제품, 중량, 수량, 로고, 포장, 도착지와 희망 일정을 알려 주세요.",
     submit: "B2B 견적 요청"
+  },
+  id: {
+    subject: "Permintaan B2B baru dalam Bahasa Indonesia — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/id/kontak?inquiry=sent#permintaan",
+    source: "ChinaFreeWeight situs Bahasa Indonesia",
+    name: "Nama", namePlaceholder: "Nama kontak",
+    email: "Email perusahaan", phone: "Telepon / WhatsApp", phonePlaceholder: "+62 atau kode negara",
+    company: "Perusahaan", companyPlaceholder: "Importir, distributor, brand, atau gym",
+    country: "Negara / wilayah", countryPlaceholder: "Indonesia",
+    demand: "Produk yang dicari", demandPlaceholder: "Dumbbell, piring beban, OEM, proyek gym...",
+    category: "Kategori", select: "Pilih kategori",
+    categories: ["Dumbbell", "Piring beban", "Bumper plate", "OEM / merek sendiri", "Peralatan gym lengkap"],
+    quantity: "Perkiraan jumlah", quantityPlaceholder: "Contoh: 200 pasang / 1 kontainer",
+    project: "Jenis proyek", projects: ["Impor / distribusi", "Merek sendiri", "Gym baru", "Pasokan proyek"],
+    message: "Deskripsi kebutuhan", messagePlaceholder: "Tuliskan produk, berat, jumlah, logo, kemasan, tujuan, dan jadwal.",
+    submit: "Minta penawaran B2B"
   }
 } as const;
 
-export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" }) {
+export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" }) {
   const text = copy[locale];
   return (
     <form className="quote-form" action="https://formsubmit.co/kloe@powerbasefit.com" method="POST">
@@ -140,7 +156,7 @@ export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es
       <input type="hidden" name="source" value={text.source} />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
-      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>
+      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>
       <label>{text.phone} <span className="required-mark">*</span><input name="phone" type="tel" placeholder={text.phonePlaceholder} required /></label>
       <label>{text.company}<input name="company" type="text" placeholder={text.companyPlaceholder} /></label>
       <label>{text.country}<input name="country" type="text" placeholder={text.countryPlaceholder} /></label>

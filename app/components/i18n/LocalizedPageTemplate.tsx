@@ -68,6 +68,14 @@ const pageCopy = {
     finalTitle: "구매 프로젝트를 검토하시겠습니까?",
     finalText: "제품, 수량, 맞춤 제작, 한국 도착지와 일정을 보내 주시면 프로젝트 기준으로 B2B 견적을 검토합니다.",
     finalLink: "PowerBaseFit에 문의", contactPath: "/ko/contact"
+  },
+  id: {
+    breadcrumb: "Jejak navigasi", eyebrow: "PowerBaseFit · Produsen B2B",
+    quote: "Minta penawaran", by: "Ditulis oleh", reviewed: "Ditinjau oleh", updated: "Diperbarui",
+    related: "Informasi terkait", faq: "Pertanyaan yang sering diajukan",
+    finalTitle: "Siap mengevaluasi proyek pengadaan Anda?",
+    finalText: "Kirim daftar produk, jumlah, kustomisasi, tujuan, dan jadwal untuk menerima tanggapan B2B berdasarkan proyek.",
+    finalLink: "Hubungi PowerBaseFit", contactPath: "/id/kontak"
   }
 } as const;
 
@@ -169,7 +177,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "id" ? "id" : version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (

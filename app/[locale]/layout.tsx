@@ -28,6 +28,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const swedish = definition.internalLocale === "sv";
   const italian = definition.internalLocale === "it";
   const korean = definition.internalLocale === "ko";
+  const indonesian = definition.internalLocale === "id";
 
   return (
     <RootDocument
@@ -35,8 +36,10 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       direction={definition.direction}
       header={<LocalizedSiteHeader locale={definition.internalLocale} />}
       footer={<LocalizedSiteFooter locale={definition.internalLocale} />}
-      whatsAppLabel={korean ? "WhatsApp으로 PowerBaseFit에 문의" : italian ? "Contatta PowerBaseFit su WhatsApp" : swedish ? "Kontakta PowerBaseFit via WhatsApp" : vietnamese ? "Liên hệ PowerBaseFit qua WhatsApp" : french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
-      whatsAppMessage={korean
+      whatsAppLabel={indonesian ? "Hubungi PowerBaseFit melalui WhatsApp" : korean ? "WhatsApp으로 PowerBaseFit에 문의" : italian ? "Contatta PowerBaseFit su WhatsApp" : swedish ? "Kontakta PowerBaseFit via WhatsApp" : vietnamese ? "Liên hệ PowerBaseFit qua WhatsApp" : french ? "Contacter PowerBaseFit sur WhatsApp" : german ? "PowerBaseFit per WhatsApp kontaktieren" : spanish ? "Hable con PowerBaseFit por WhatsApp" : "Fale com a PowerBaseFit pelo WhatsApp"}
+      whatsAppMessage={indonesian
+        ? "Halo, saya ingin meminta informasi produk dan penawaran B2B peralatan gym PowerBaseFit untuk pasar Indonesia."
+        : korean
         ? "안녕하세요. PowerBaseFit 상업용 피트니스 장비의 B2B 제품 정보와 견적을 요청합니다."
         : italian
         ? "Buongiorno, desidero informazioni e un preventivo B2B per attrezzature fitness PowerBaseFit."
@@ -51,7 +54,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
         : spanish
           ? "Hola, me interesan los equipos de PowerBaseFit. Quisiera recibir información para una cotización B2B."
           : "Olá, tenho interesse nos equipamentos da PowerBaseFit. Gostaria de receber mais informações para uma cotação B2B."}
-      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : vietnamese ? "vi" : swedish ? "sv" : italian ? "it" : korean ? "ko" : undefined}
+      schemaLocale={definition.internalLocale === "pt-BR" ? "pt-BR" : spanish ? "es" : german ? "de" : french ? "fr" : vietnamese ? "vi" : swedish ? "sv" : italian ? "it" : korean ? "ko" : indonesian ? "id" : undefined}
     >
       <NextIntlClientProvider locale={definition.internalLocale} messages={{}}>
         {children}

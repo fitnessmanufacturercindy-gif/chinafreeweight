@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id";
 };
 
 export default function RootDocument({
@@ -76,6 +76,12 @@ export default function RootDocument({
                   products: ["상업용 덤벨", "웨이트 원판", "범퍼 플레이트", "파워랙", "벤치", "헬스장 액세서리"],
                   websiteName: "PowerBaseFit 상업용 헬스기구 제조업체",
                   businessDescription: "PowerBaseFit는 한국 수입업체, 유통사, 자체 브랜드와 헬스장 프로젝트를 위해 덤벨, 원판, 범퍼 플레이트, 랙, 벤치와 액세서리를 제조·공급합니다."
+                }
+            : schemaLocale === "id"
+              ? {
+                  products: ["Dumbbell komersial", "Piring beban", "Bumper plate", "Power rack", "Bench", "Aksesori gym"],
+                  websiteName: "PowerBaseFit produsen peralatan gym profesional",
+                  businessDescription: "PowerBaseFit memproduksi dumbbell, piring beban, bumper plate, rack, bench, dan aksesori untuk importir, distributor, merek sendiri, serta proyek gym komersial."
                 }
           : undefined;
   const schemas = localizedSchema && schemaLanguage

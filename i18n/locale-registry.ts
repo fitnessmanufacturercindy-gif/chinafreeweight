@@ -11,7 +11,8 @@ export const routeLocales = [
   "ru",
   "ar",
   "ja",
-  "ko"
+  "ko",
+  "id"
 ] as const;
 
 export type RouteLocale = (typeof routeLocales)[number];
@@ -28,7 +29,8 @@ export type InternalLocale =
   | "ru"
   | "ar"
   | "ja"
-  | "ko";
+  | "ko"
+  | "id";
 
 export type LocaleDirection = "ltr" | "rtl";
 
@@ -59,7 +61,8 @@ const definitions: readonly LocaleDefinition[] = [
   { routeLocale: "ru", internalLocale: "ru", hreflang: "ru", englishName: "Russian", nativeName: "Русский", direction: "ltr", prefix: "/ru", enabled: true, public: false, default: false, fallbackLocale: "en" },
   { routeLocale: "ar", internalLocale: "ar", hreflang: "ar", englishName: "Arabic", nativeName: "العربية", direction: "rtl", prefix: "/ar", enabled: true, public: false, default: false, fallbackLocale: "en" },
   { routeLocale: "ja", internalLocale: "ja", hreflang: "ja", englishName: "Japanese", nativeName: "日本語", direction: "ltr", prefix: "/ja", enabled: true, public: false, default: false, fallbackLocale: "en" },
-  { routeLocale: "ko", internalLocale: "ko", hreflang: "ko", englishName: "Korean", nativeName: "한국어", direction: "ltr", prefix: "/ko", enabled: true, public: true, default: false, fallbackLocale: "en" }
+  { routeLocale: "ko", internalLocale: "ko", hreflang: "ko", englishName: "Korean", nativeName: "한국어", direction: "ltr", prefix: "/ko", enabled: true, public: true, default: false, fallbackLocale: "en" },
+  { routeLocale: "id", internalLocale: "id", hreflang: "id", englishName: "Indonesian", nativeName: "Bahasa Indonesia", direction: "ltr", prefix: "/id", enabled: true, public: true, default: false, fallbackLocale: "en" }
 ] as const;
 
 const byRouteLocale = new Map(definitions.map((definition) => [definition.routeLocale, definition]));
