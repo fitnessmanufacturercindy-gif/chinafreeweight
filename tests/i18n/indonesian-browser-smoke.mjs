@@ -67,6 +67,12 @@ try {
   assert.equal(await page.locator('.route-language-switcher--desktop a[lang="es"]').getAttribute("href"), "/es/productos");
   assert.equal(await page.locator('.route-language-switcher--desktop a[lang="id"]').getAttribute("href"), "/id/produk");
 
+  await page.goto(testUrl("/id/kontak"), { waitUntil: "networkidle" });
+  assert.equal(await page.locator("form.quote-form").getAttribute("action"), "https://formsubmit.co/kloe@powerbasefit.com");
+  assert.equal(await page.locator("form.quote-form").getAttribute("method"), "POST");
+  assert.equal(await page.locator('form.quote-form input[name="_subject"]').getAttribute("value"), "Permintaan B2B baru dalam Bahasa Indonesia — ChinaFreeWeight");
+  assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
+
   const languageResponse = await page.goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(languageResponse);
   assert.equal(languageResponse.status(), 200);

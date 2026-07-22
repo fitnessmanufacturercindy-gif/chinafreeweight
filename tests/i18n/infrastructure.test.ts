@@ -645,6 +645,8 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
   for (const id of indonesianExcludedContentIds) {
     assert.equal(contentRepository.getPublishedVersion(id, "id"), undefined, `${id}: intentionally excluded`);
   }
+  const contact = contentRepository.getPublishedVersion("contact", "id");
+  assert.ok(contact?.version.body.some((block) => block.data?.component === "inquiry-form"), "Indonesian contact inquiry form");
 
   const grams = (version: LocalizedContentVersion) => {
     const bodyText = version.body.map((block) => block.content ?? "").join(" ");
