@@ -24,6 +24,13 @@ test("daily and monthly budget limits stop paid calls", async () => {
   await assert.rejects(() => store.assertBudget(0.01), DataForSeoBudgetError);
 });
 
+test("budget dates use Beijing time across the UTC day boundary", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "cfw-dataforseo-"));
+  const store = new DataForSeoResearchStore(root, () => new Date("2026-07-22T23:30:00Z"));
+  const ledger = await store.record(0.25);
+  assert.equal(ledger.days["2026-07-23"], 0.25);
+});
+
 test("client parses keyword responses and surfaces auth, rate, balance, and timeout failures", async () => {
   const originalFetch = globalThis.fetch; const originalLogin = process.env.DATAFORSEO_LOGIN; const originalPassword = process.env.DATAFORSEO_PASSWORD;
   process.env.DATAFORSEO_LOGIN = "test"; process.env.DATAFORSEO_PASSWORD = "test";

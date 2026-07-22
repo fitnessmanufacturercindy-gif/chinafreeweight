@@ -1,0 +1,12 @@
+[
+  { "locale": "en", "languageCode": "en", "locationCode": 2840, "seeds": ["dumbbells"] },
+  { "locale": "pt-BR", "languageCode": "pt", "locationCode": 2076, "seeds": ["halteres"] },
+  { "locale": "es", "languageCode": "es", "locationCode": 2724, "seeds": ["mancuernas"] },
+  { "locale": "de", "languageCode": "de", "locationCode": 2276, "seeds": ["hanteln"] },
+  { "locale": "fr", "languageCode": "fr", "locationCode": 2250, "seeds": ["haltères"] },
+  { "locale": "vi", "languageCode": "vi", "locationCode": 2704, "seeds": ["tạ tay"] },
+  { "locale": "sv", "languageCode": "sv", "locationCode": 2752, "seeds": ["hantlar"] },
+  { "locale": "it", "languageCode": "it", "locationCode": 2380, "seeds": ["manubri"] },
+  { "locale": "ko", "languageCode": "ko", "locationCode": 2410, "seeds": ["덤벨"] },
+  { "locale": "id", "languageCode": "id", "locationCode": 2360, "seeds": ["dumbbell"] }
+]

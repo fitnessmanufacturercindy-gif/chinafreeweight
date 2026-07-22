@@ -1,0 +1,12 @@
+[
+  {
+    "source": "gsc",
+    "imported": false,
+    "reason": "export path not configured"
+  },
+  {
+    "source": "ga4",
+    "imported": false,
+    "reason": "export path not configured"
+  }
+]

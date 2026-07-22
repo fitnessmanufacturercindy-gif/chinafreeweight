@@ -7,6 +7,7 @@ The workflow reads public locales from `i18n/locale-registry.ts`. It never hardc
 ## Commands
 
 - `npm run content:init` creates the Beijing-date run directory. Set `OPEN_DAILY_CONTENT_PR` when a previous daily PR is still unresolved; the manifest switches to research-only mode.
+- `npm run content:inventory` snapshots the production sitemap and the current repository content index for gap and duplicate checks.
 - `npm run content:analytics` snapshots configured GSC and GA4 exports into the run evidence directory.
 - `npm run content:research` executes budgeted, cached DataForSEO research requests prepared for the run.
 - `npm run content:qa` validates every run document and writes `qa-report.json`.

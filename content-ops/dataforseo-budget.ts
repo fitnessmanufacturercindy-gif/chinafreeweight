@@ -9,8 +9,10 @@ type CacheEntry<T> = { createdAt: string; expiresAt: string; value: T };
 
 export class DataForSeoBudgetError extends Error {}
 
-function monthOf(date: Date) { return date.toISOString().slice(0, 7); }
-function dayOf(date: Date) { return date.toISOString().slice(0, 10); }
+function dayOf(date: Date) {
+  return new Intl.DateTimeFormat("en-CA", { timeZone: contentAutomationConfig.timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+}
+function monthOf(date: Date) { return dayOf(date).slice(0, 7); }
 
 export class DataForSeoResearchStore {
   constructor(private readonly root = path.join(process.cwd(), "content-ops"), private readonly now = () => new Date()) {}

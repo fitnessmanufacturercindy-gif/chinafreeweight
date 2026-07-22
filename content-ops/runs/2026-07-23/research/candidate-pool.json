@@ -1,0 +1,139 @@
+[
+  {
+    "id": "adjustable-vs-fixed-commercial-facilities",
+    "type": "blog",
+    "workingAngle": "Fixed versus adjustable dumbbells for shared facilities: throughput, inspection, downtime and storage",
+    "targetBuyer": ["commercial gym owner", "hotel gym buyer", "equipment distributor"],
+    "intent": "commercial comparison before specifying a facility order",
+    "weightedScore": 69.5,
+    "scores": { "purchaseIntent": 95, "siteGap": 90, "gscOpportunity": 0, "productFit": 95, "evidenceAssets": 90, "competitionOpportunity": 0 },
+    "dataPoints": [
+      { "locale": "en", "keyword": "adjustable dumbbells", "searchVolume": 110000, "cpc": 1.96, "competition": 1, "intent": "transactional" },
+      { "locale": "pt-BR", "keyword": "halteres ajustáveis", "searchVolume": 4400, "cpc": 0.17, "competition": 1, "intent": "transactional" },
+      { "locale": "es", "keyword": "mancuernas ajustables", "searchVolume": 9900, "cpc": 0.46, "competition": 1, "intent": "transactional" },
+      { "locale": "de", "keyword": "verstellbare hanteln", "searchVolume": 9900, "cpc": 1.16, "competition": 1, "intent": "transactional" },
+      { "locale": "fr", "keyword": "haltères réglables", "searchVolume": 2400, "cpc": 0.83, "competition": 1, "intent": "transactional" },
+      { "locale": "sv", "keyword": "justerbara hantlar", "searchVolume": 4400, "cpc": 1.51, "competition": 1, "intent": "informational" },
+      { "locale": "it", "keyword": "manubri regolabili", "searchVolume": 8100, "cpc": 0.69, "competition": 1, "intent": "transactional" }
+    ],
+    "sourceUrls": ["https://www.tomsguide.com/wellness/fitness/best-adjustable-dumbbells", "https://www.gtechfitness.com/commercial-dumbbell-buying-guide/"],
+    "status": "research-candidate"
+  },
+  {
+    "id": "commercial-dumbbell-increment-planning",
+    "type": "blog",
+    "workingAngle": "How to choose KG/LB increments and upper-weight limits without creating unusable gaps",
+    "targetBuyer": ["new gym owner", "school strength-room buyer", "distributor"],
+    "intent": "specification planning",
+    "weightedScore": 65.25,
+    "scores": { "purchaseIntent": 85, "siteGap": 85, "gscOpportunity": 0, "productFit": 95, "evidenceAssets": 85, "competitionOpportunity": 10 },
+    "dataPoints": [
+      { "locale": "de", "keyword": "hanteln 5kg", "searchVolume": 1600, "cpc": 0.4, "competition": 1, "intent": "transactional" },
+      { "locale": "vi", "keyword": "tạ tay 5kg", "searchVolume": 320, "cpc": 0.07, "competition": 1, "intent": "informational" },
+      { "locale": "sv", "keyword": "hantlar 5 kg", "searchVolume": 720, "cpc": 0.54, "competition": 1, "intent": "transactional" },
+      { "locale": "ko", "keyword": "덤벨 5kg", "searchVolume": 720, "cpc": 0.24, "competition": 0.99, "intent": "transactional" },
+      { "locale": "id", "keyword": "dumbbell set", "searchVolume": 1900, "cpc": 0.04, "competition": 1, "intent": "transactional" }
+    ],
+    "sourceUrls": ["https://www.reddit.com/r/GarageGym/comments/1t7mn7l/garage_refresh_final_form/"],
+    "status": "research-candidate"
+  },
+  {
+    "id": "rubber-vs-urethane-dumbbell-lifecycle-cost",
+    "type": "blog",
+    "workingAngle": "Rubber versus urethane dumbbell lifecycle cost for high-traffic facilities",
+    "targetBuyer": ["commercial gym owner", "equipment wholesaler"],
+    "intent": "material and replacement-cost comparison",
+    "weightedScore": 65.75,
+    "scores": { "purchaseIntent": 90, "siteGap": 70, "gscOpportunity": 0, "productFit": 100, "evidenceAssets": 95, "competitionOpportunity": 35 },
+    "dataPoints": [{ "locale": "en", "keyword": "dumbbells", "searchVolume": 201000, "cpc": 1.11, "competition": 1, "intent": "transactional" }],
+    "sourceUrls": ["https://www.gtechfitness.com/commercial-dumbbell-buying-guide/", "https://www.reddit.com/r/GarageGym/comments/1p6rgsh/forever_fixed_dumbbells/"],
+    "status": "research-candidate"
+  },
+  {
+    "id": "dumbbell-head-length-rack-capacity",
+    "type": "blog",
+    "workingAngle": "Why nominal rack capacity fails: head length, handle width and tray-clearance planning",
+    "targetBuyer": ["gym planner", "hotel gym owner", "distributor"],
+    "intent": "avoid rack and layout mismatch before ordering",
+    "weightedScore": 70.15,
+    "scores": { "purchaseIntent": 88, "siteGap": 95, "gscOpportunity": 0, "productFit": 95, "evidenceAssets": 80, "competitionOpportunity": 50 },
+    "dataPoints": [{ "locale": "it", "keyword": "manubri da palestra", "searchVolume": 6600, "cpc": 0.87, "competition": 1, "intent": "informational" }],
+    "sourceUrls": ["https://www.reddit.com/r/GarageGym/comments/1tyydx4/home_gym_in_a_nut_shell/"],
+    "status": "research-candidate"
+  },
+  {
+    "id": "bumper-plate-diameter-tolerance-buyer-spec",
+    "type": "blog",
+    "workingAngle": "Bumper plate diameter, mass tolerance, collar fit and thickness: a buyer specification framework",
+    "targetBuyer": ["bumper plate wholesaler", "strength gym owner", "OEM brand"],
+    "intent": "technical specification and inspection",
+    "weightedScore": 72.35,
+    "scores": { "purchaseIntent": 92, "siteGap": 88, "gscOpportunity": 0, "productFit": 100, "evidenceAssets": 100, "competitionOpportunity": 55 },
+    "dataPoints": [],
+    "sourceUrls": ["https://iwf.sport/wp-content/uploads/downloads/2025/05/IWF-TCRR-2025-as-of-01-June-2025.pdf"],
+    "status": "needs-keyword-validation"
+  },
+  {
+    "id": "adjustable-dumbbell-mechanism-maintenance-risk",
+    "type": "blog",
+    "workingAngle": "Adjustable dumbbell mechanisms in shared facilities: inspection, cleaning, jams and replacement parts",
+    "targetBuyer": ["hotel gym buyer", "studio owner", "equipment dealer"],
+    "intent": "risk evaluation before purchase",
+    "weightedScore": 63.9,
+    "scores": { "purchaseIntent": 78, "siteGap": 90, "gscOpportunity": 0, "productFit": 80, "evidenceAssets": 90, "competitionOpportunity": 20 },
+    "dataPoints": [{ "locale": "en", "keyword": "adjustable dumbbells", "searchVolume": 110000, "cpc": 1.96, "competition": 1, "intent": "transactional" }],
+    "sourceUrls": ["https://www.tomsguide.com/wellness/fitness/best-adjustable-dumbbells"],
+    "status": "research-candidate"
+  },
+  {
+    "id": "compact-hotel-dumbbell-zone-configuration",
+    "type": "case",
+    "workingAngle": "Configuration example for a compact hotel dumbbell zone with fixed footprint and broad guest use",
+    "targetBuyer": ["hotel owner", "hospitality procurement manager"],
+    "intent": "facility configuration and quotation preparation",
+    "weightedScore": 68.5,
+    "scores": { "purchaseIntent": 90, "siteGap": 92, "gscOpportunity": 0, "productFit": 95, "evidenceAssets": 70, "competitionOpportunity": 40 },
+    "dataPoints": [{ "locale": "it", "keyword": "manubri per palestra", "searchVolume": 6600, "cpc": 0.87, "competition": 1, "intent": "informational" }],
+    "sourceUrls": ["https://www.lek.com/sites/default/files/insights/pdf-attachments/state-of-fitness-2025.pdf"],
+    "status": "needs-owned-layout-assets"
+  },
+  {
+    "id": "school-weight-room-durable-free-weight-configuration",
+    "type": "case",
+    "workingAngle": "Configuration example for a supervised school weight room prioritizing durability, increments and storage",
+    "targetBuyer": ["school facility buyer", "education equipment distributor"],
+    "intent": "facility configuration and risk planning",
+    "weightedScore": 67.9,
+    "scores": { "purchaseIntent": 88, "siteGap": 94, "gscOpportunity": 0, "productFit": 90, "evidenceAssets": 65, "competitionOpportunity": 50 },
+    "dataPoints": [{ "locale": "de", "keyword": "hanteln set", "searchVolume": 6600, "cpc": 0.83, "competition": 1, "intent": "transactional" }],
+    "sourceUrls": ["https://www.gtechfitness.com/commercial-dumbbell-buying-guide/"],
+    "status": "needs-owned-layout-assets"
+  },
+  {
+    "id": "distributor-mixed-kg-lb-container-procurement-plan",
+    "type": "case",
+    "workingAngle": "Procurement example for a distributor mixing KG and LB dumbbells, plates, racks and replacement stock",
+    "targetBuyer": ["fitness equipment distributor", "free-weight wholesaler"],
+    "intent": "mixed-container assortment and replenishment planning",
+    "weightedScore": 72.15,
+    "scores": { "purchaseIntent": 98, "siteGap": 90, "gscOpportunity": 0, "productFit": 100, "evidenceAssets": 80, "competitionOpportunity": 45 },
+    "dataPoints": [
+      { "locale": "pt-BR", "keyword": "halteres academia", "searchVolume": 5400, "cpc": 0.16, "competition": 1, "intent": "informational" },
+      { "locale": "id", "keyword": "dumbbell sets", "searchVolume": 1900, "cpc": 0.04, "competition": 1, "intent": "transactional" }
+    ],
+    "sourceUrls": ["https://www.lek.com/sites/default/files/insights/pdf-attachments/state-of-fitness-2025.pdf"],
+    "status": "needs-owned-packaging-assets"
+  },
+  {
+    "id": "high-traffic-urethane-dumbbell-zone-configuration",
+    "type": "case",
+    "workingAngle": "Application example for a high-traffic urethane dumbbell zone with rack, flooring and replacement planning",
+    "targetBuyer": ["commercial gym owner", "gym chain procurement manager"],
+    "intent": "premium facility configuration",
+    "weightedScore": 67.5,
+    "scores": { "purchaseIntent": 95, "siteGap": 75, "gscOpportunity": 0, "productFit": 100, "evidenceAssets": 90, "competitionOpportunity": 25 },
+    "dataPoints": [{ "locale": "fr", "keyword": "haltères", "searchVolume": 18100, "cpc": 0.41, "competition": 1, "intent": "informational" }],
+    "sourceUrls": ["https://www.gtechfitness.com/commercial-dumbbell-buying-guide/", "https://www.reddit.com/r/GarageGym/comments/1p6rgsh/forever_fixed_dumbbells/"],
+    "status": "needs-owned-project-assets"
+  }
+]

@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "url": "https://iwf.sport/wp-content/uploads/downloads/2025/05/IWF-TCRR-2025-as-of-01-June-2025.pdf",
+    "title": "IWF Technical and Competition Rules & Regulations 2025",
+    "publisher": "International Weightlifting Federation",
+    "publishedAt": "2025-06-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Competition-disc diameter and tolerance requirements for a future buyer specification topic.",
+    "confidence": "primary"
+  },
+  {
+    "url": "https://www.lek.com/sites/default/files/insights/pdf-attachments/state-of-fitness-2025.pdf",
+    "title": "State of the Fitness Market: 2025 Edition",
+    "publisher": "L.E.K. Consulting",
+    "publishedAt": "2025-04-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Operators are allocating more space and investment to strength and free-weight areas.",
+    "confidence": "high"
+  },
+  {
+    "url": "https://www.gtechfitness.com/commercial-dumbbell-buying-guide/",
+    "title": "Commercial Dumbbell Buying Guide",
+    "publisher": "Gtech Fitness",
+    "publishedAt": "2026-07-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Facility buyers compare fixed formats, material, durability, floor protection, maintenance and storage.",
+    "confidence": "medium"
+  },
+  {
+    "url": "https://www.reddit.com/r/GarageGym/comments/1p6rgsh/forever_fixed_dumbbells/",
+    "title": "Forever Fixed Dumbbells",
+    "publisher": "Reddit r/GarageGym",
+    "publishedAt": "2025-12-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Buyers explicitly compare urethane and pro-style iron for longevity, balance and head size.",
+    "confidence": "medium"
+  },
+  {
+    "url": "https://www.reddit.com/r/GarageGym/comments/1t7mn7l/garage_refresh_final_form/",
+    "title": "Garage Refresh: Final Form",
+    "publisher": "Reddit r/GarageGym",
+    "publishedAt": "2026-05-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Users discuss 5 lb versus 10 lb increments and filling gaps with micro plates.",
+    "confidence": "medium"
+  },
+  {
+    "url": "https://www.reddit.com/r/GarageGym/comments/1tyydx4/home_gym_in_a_nut_shell/",
+    "title": "Home Gym in a Nut Shell",
+    "publisher": "Reddit r/GarageGym",
+    "publishedAt": "2026-06-01",
+    "accessedAt": "2026-07-23",
+    "supports": "Head length and dumbbell geometry can cause rack-fit problems, creating a practical planning topic.",
+    "confidence": "medium"
+  },
+  {
+    "url": "https://www.tomsguide.com/wellness/fitness/best-adjustable-dumbbells",
+    "title": "Best Adjustable Dumbbells",
+    "publisher": "Tom's Guide",
+    "publishedAt": "2026-06-09",
+    "accessedAt": "2026-07-23",
+    "supports": "Adjustment mechanisms introduce cleaning, lubrication, jamming and safety inspection considerations.",
+    "confidence": "medium"
+  }
+]

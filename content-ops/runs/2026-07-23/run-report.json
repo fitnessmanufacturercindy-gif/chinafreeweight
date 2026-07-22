@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-23",
+  "mode": "research-only",
+  "reason": "Draft PR #9 remains open and unresolved.",
+  "existingPullRequest": "https://github.com/fitnessmanufacturercindy-gif/chinafreeweight/pull/9",
+  "productionInventory": {
+    "urlCount": 1238,
+    "repositoryVersionCount": 1225,
+    "failedSitemaps": 0
+  },
+  "analytics": {
+    "gsc": { "imported": false, "reason": "GSC_EXPORT_PATH is not configured locally." },
+    "ga4": { "imported": false, "reason": "GA4_EXPORT_PATH is not configured locally." }
+  },
+  "dataForSeo": {
+    "connection": "passed",
+    "operations": 40,
+    "errors": 0,
+    "paidSpendUsd": 1.944,
+    "dailyLimitUsd": 2,
+    "monthlyLimitUsd": 30,
+    "keywordCacheDays": 30,
+    "serpCacheDays": 7,
+    "liveSerpCalls": 0,
+    "note": "No live SERP calls were made because the run is research-only and no topic is eligible for publication while PR #9 is unresolved."
+  },
+  "candidatePool": {
+    "count": 10,
+    "blog": 6,
+    "case": 4,
+    "pagesGenerated": 0,
+    "newPullRequests": 0
+  },
+  "result": "Research pool updated; generation intentionally blocked by the unresolved-PR gate."
+}

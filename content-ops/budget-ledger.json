@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
-  "month": "",
-  "monthlyUsd": 0,
-  "days": {}
+  "month": "2026-07",
+  "monthlyUsd": 1.944,
+  "days": {
+    "2026-07-23": 1.944
+  }
 }

@@ -18,6 +18,7 @@
     "seo:submit": "node scripts/submit-search-engines.mjs",
     "dataforseo:test": "node scripts/test-dataforseo-connection.mjs",
     "content:init": "tsx scripts/content-ops-init.ts",
+    "content:inventory": "tsx scripts/content-ops-inventory.ts",
     "content:analytics": "tsx scripts/content-ops-import-analytics.ts",
     "content:research": "tsx scripts/content-ops-research.ts",
     "content:qa": "tsx scripts/content-ops-qa.ts",
