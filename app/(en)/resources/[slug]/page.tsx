@@ -15,6 +15,10 @@ import type { ResourceImage, ResourcePost } from "../../../resources/blogData";
 import { getAllPosts, getPostBySlug } from "../../../resources/blogData";
 import { getEnglishAlternates } from "../../../../lib/seo/english-alternates";
 import { siteName, siteUrl } from "../../../site";
+import LocalizedPageTemplate from "../../../components/i18n/LocalizedPageTemplate";
+import { contentRepository } from "../../../../lib/content/repository";
+import { buildLocalizedMetadata } from "../../../../lib/seo/metadata";
+import { asJsonLdDocument, buildLocalizedSchemaGraph } from "../../../../lib/seo/schema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -23,14 +27,19 @@ type PageProps = {
 type Faq = { question: string; answer: string };
 
 export function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
+  const slugs = new Set(getAllPosts().map((post) => post.slug));
+  for (const { version } of contentRepository.listPublished({ locale: "en", type: "blog" })) slugs.add(version.slug);
+  return [...slugs].map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
-  if (!post) return {};
+  if (!post) {
+    const content = contentRepository.resolvePublishedPath("en", `/resources/${slug}`);
+    return content?.entity.type === "blog" ? buildLocalizedMetadata(content, contentRepository, siteUrl, siteName) : {};
+  }
 
   return {
     title: post.seoTitle,
@@ -316,7 +325,12 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
 export default async function ResourceArticlePage({ params }: PageProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) notFound();
+  if (!post) {
+    const content = contentRepository.resolvePublishedPath("en", `/resources/${slug}`);
+    if (!content || content.entity.type !== "blog") notFound();
+    const jsonLd = asJsonLdDocument(buildLocalizedSchemaGraph(content, siteUrl));
+    return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} /><LocalizedPageTemplate content={content} /></>;
+  }
 
   const faqs = getFaqs(post.content);
   const relatedPosts = getAllPosts().filter((item) => item.slug !== slug).slice(0, 4);

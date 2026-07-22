@@ -5,6 +5,14 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
 
 const pageCopy = {
+  en: {
+    breadcrumb: "Breadcrumb", eyebrow: "PowerBaseFit · B2B Manufacturer",
+    quote: "Request a quote", by: "By", reviewed: "Reviewed by", updated: "Updated",
+    related: "Continue your research", faq: "Frequently asked questions",
+    finalTitle: "Ready to evaluate your purchasing project?",
+    finalText: "Send your product list, quantities, customization requirements, and destination for a project-based B2B quotation.",
+    finalLink: "Contact PowerBaseFit", contactPath: "/contact"
+  },
   "pt-BR": {
     breadcrumb: "Navegação estrutural", eyebrow: "PowerBaseFit · Fabricante B2B",
     quote: "Solicitar cotação", by: "Por", reviewed: "Revisado por", updated: "Atualizado em",
@@ -177,7 +185,7 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "id" ? "id" : version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "en" ? "en" : version.locale === "id" ? "id" : version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
 
   return (
@@ -223,7 +231,7 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
                 </div>
               ) : null}
               {block.type === "features" && stringArray(block.data?.items).length ? <ul className="localized-checklist">{stringArray(block.data?.items).map((item) => <li key={item}>{item}</li>)}</ul> : null}
-              {block.data?.component === "inquiry-form" ? <LocalizedInquiryForm locale={locale} /> : null}
+              {block.data?.component === "inquiry-form" && locale !== "en" ? <LocalizedInquiryForm locale={locale} /> : null}
             </section>
             {blockIndex === 3 && version.images[1] ? articleImage(version.images[1], "localized-inline-image") : null}
             {blockIndex === 7 && version.images[2] ? articleImage(version.images[2], "localized-inline-image") : null}

@@ -6,6 +6,7 @@ export function GET() {
       "/sitemap.xml",
       "/sitemaps/products.xml",
       "/sitemaps/blogs.xml",
+      "/sitemaps/cases.xml",
       "/sitemaps/images.xml",
       "/sitemaps/videos.xml",
       "/sitemaps/languages.xml"

@@ -7,6 +7,7 @@ import {
   ShieldCheck
 } from "lucide-react";
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { contentRepository } from "../../../lib/content/repository";
 
 export const metadata: Metadata = {
   title: "Gym Equipment Projects | Free Weight Project References",
@@ -172,6 +173,7 @@ const faqs = [
 ];
 
 export default function ProjectsPage() {
+  const automatedCases = contentRepository.listPublished({ locale: "en", type: "case" });
   return (
     <main className="projects-page">
       <header className="projects-header">
@@ -319,6 +321,19 @@ export default function ProjectsPage() {
                 <a href="/contact">
                   {project.cta} <ArrowRight size={16} />
                 </a>
+              </div>
+            </article>
+          ))}
+          {automatedCases.map(({ entity, version }) => (
+            <article className="case-card" key={entity.id}>
+              <a href={version.publicPath} aria-label={version.h1}>
+                {version.images[0] ? <img src={version.images[0].src} alt={version.images[0].alt} loading="lazy" decoding="async" /> : null}
+              </a>
+              <div>
+                <span>{typeof version.schemaData.extra?.solutionMode === "string" ? version.schemaData.extra.solutionMode : "Planning solution"}</span>
+                <h3><a href={version.publicPath}>{version.h1}</a></h3>
+                <p>{version.description}</p>
+                <a className="case-link" href={version.publicPath}>View planning details <ArrowRight size={16} /></a>
               </div>
             </article>
           ))}

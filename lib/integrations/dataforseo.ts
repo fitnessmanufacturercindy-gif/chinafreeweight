@@ -8,7 +8,7 @@ type DataForSeoTask<TResult> = {
   result?: TResult;
 };
 
-type DataForSeoEnvelope<TResult> = {
+export type DataForSeoEnvelope<TResult> = {
   status_code: number;
   status_message: string;
   cost?: number;
@@ -28,6 +28,21 @@ export type DataForSeoKeywordOverviewRequest = {
   keywords: string[];
   locationCode: number;
   languageCode: string;
+};
+
+export type DataForSeoSiteKeywordsRequest = {
+  target: string;
+  locationCode: number;
+  languageCode: string;
+  limit?: number;
+};
+
+export type DataForSeoSerpRequest = {
+  keyword: string;
+  locationCode: number;
+  languageCode: string;
+  device?: "desktop" | "mobile";
+  depth?: number;
 };
 
 export class DataForSeoError extends Error {
@@ -144,6 +159,53 @@ export const dataForSeoClient = {
             language_code: input.languageCode,
           },
         ],
+      },
+    );
+  },
+
+  keywordsForSite(input: DataForSeoSiteKeywordsRequest) {
+    return request<Array<Record<string, unknown>>>(
+      "/dataforseo_labs/google/keywords_for_site/live",
+      {
+        method: "POST",
+        body: [{
+          target: input.target,
+          location_code: input.locationCode,
+          language_code: input.languageCode,
+          limit: input.limit || 100,
+        }],
+      },
+    );
+  },
+
+  relatedKeywords(input: DataForSeoKeywordRequest) {
+    return request<Array<Record<string, unknown>>>(
+      "/dataforseo_labs/google/related_keywords/live",
+      {
+        method: "POST",
+        body: [{
+          keyword: input.keyword,
+          location_code: input.locationCode,
+          language_code: input.languageCode,
+          limit: input.limit || 100,
+          include_seed_keyword: true,
+        }],
+      },
+    );
+  },
+
+  serp(input: DataForSeoSerpRequest) {
+    return request<Array<Record<string, unknown>>>(
+      "/serp/google/organic/live/advanced",
+      {
+        method: "POST",
+        body: [{
+          keyword: input.keyword,
+          location_code: input.locationCode,
+          language_code: input.languageCode,
+          device: input.device || "desktop",
+          depth: input.depth || 20,
+        }],
       },
     );
   },

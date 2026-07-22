@@ -16,7 +16,13 @@
     "test:site-health": "playwright test tests/site-health.spec.js --project=chromium",
     "quality:gate": "node scripts/quality-gate.mjs",
     "seo:submit": "node scripts/submit-search-engines.mjs",
-    "dataforseo:test": "node scripts/test-dataforseo-connection.mjs"
+    "dataforseo:test": "node scripts/test-dataforseo-connection.mjs",
+    "content:init": "tsx scripts/content-ops-init.ts",
+    "content:analytics": "tsx scripts/content-ops-import-analytics.ts",
+    "content:research": "tsx scripts/content-ops-research.ts",
+    "content:qa": "tsx scripts/content-ops-qa.ts",
+    "content:stage": "tsx scripts/content-ops-stage.ts",
+    "content:test": "tsx --test tests/content-ops/*.test.ts"
   },
   "browserslist": [
     "Chrome >= 111",
