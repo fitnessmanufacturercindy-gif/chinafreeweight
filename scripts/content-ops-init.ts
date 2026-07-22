@@ -1,13 +1,24 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { contentAutomationConfig, getAutomationLocales, getDailyCandidateUrlLimit } from "../content-ops/config";
+import { qualifiesAsPendingContentReview } from "../content-ops/review-pr";
 import type { DailyRunManifest } from "../content-ops/types";
 
 async function main() {
   const date = process.env.CONTENT_RUN_DATE || new Intl.DateTimeFormat("en-CA", { timeZone: contentAutomationConfig.timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
   const root = path.join(process.cwd(), "content-ops");
   const runDir = path.join(root, "runs", date);
-  const openDailyPullRequest = process.env.OPEN_DAILY_CONTENT_PR?.trim() || undefined;
+  const pendingReviewInput = {
+    pullRequest: process.env.OPEN_DAILY_CONTENT_PR?.trim() || undefined,
+    branch: process.env.OPEN_DAILY_CONTENT_BRANCH?.trim() || undefined,
+    generatedDocumentCount: Number(process.env.OPEN_DAILY_CONTENT_DOCUMENT_COUNT || 0),
+  };
+  const openDailyPullRequest = qualifiesAsPendingContentReview(pendingReviewInput)
+    ? pendingReviewInput.pullRequest
+    : undefined;
+  if (pendingReviewInput.pullRequest && !openDailyPullRequest) {
+    console.warn("Ignored OPEN_DAILY_CONTENT_PR because it is not a dated content-review PR with generated documents.");
+  }
   let ledger = { monthlyUsd: 0, days: {} as Record<string, number> };
   try { ledger = JSON.parse(await readFile(path.join(root, "budget-ledger.json"), "utf8")); } catch {}
   const manifest: DailyRunManifest = {
