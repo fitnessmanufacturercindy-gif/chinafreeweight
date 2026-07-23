@@ -1,3 +1,5 @@
+import LeadAttributionFields from "../LeadAttributionFields";
+
 const copy = {
   "pt-BR": {
     subject: "Nova solicitação em português — ChinaFreeWeight",
@@ -186,6 +188,7 @@ export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_next" value={text.next} />
       <input type="hidden" name="source" value={text.source} />
+      <LeadAttributionFields language={locale} />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
       <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "nl" ? "naam@bedrijf.nl" : locale === "pl" ? "imie@firma.pl" : locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>

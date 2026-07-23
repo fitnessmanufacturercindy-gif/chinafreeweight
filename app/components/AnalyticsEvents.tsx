@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 declare global {
   interface Window {
+    dataLayer?: unknown[];
     gtag?: (
       command: "event",
       eventName: string,
@@ -13,12 +14,18 @@ declare global {
 }
 
 function trackEvent(eventName: string, parameters: Record<string, string | number | boolean> = {}) {
-  if (typeof window === "undefined" || typeof window.gtag !== "function") {
-    return;
-  }
+  if (typeof window === "undefined") return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag =
+    window.gtag ||
+    function gtag(...args: unknown[]) {
+      window.dataLayer?.push(args);
+    };
 
   window.gtag("event", eventName, {
     page_path: window.location.pathname,
+    page_language: document.documentElement.lang || "en",
     ...parameters
   });
 }
@@ -107,14 +114,18 @@ export default function AnalyticsEvents() {
     function onSubmit(event: SubmitEvent) {
       const form = event.target;
 
-      if (!(form instanceof HTMLFormElement)) {
+      if (!(form instanceof HTMLFormElement) || event.defaultPrevented) {
         return;
       }
 
-      trackEvent("contact_form_submit", {
+      const parameters = {
         event_category: "lead",
-        event_label: form.getAttribute("aria-label") || form.getAttribute("id") || "Contact Form"
-      });
+        event_label: form.getAttribute("aria-label") || form.getAttribute("id") || "Contact Form",
+        transport_type: "beacon"
+      };
+
+      trackEvent("generate_lead", parameters);
+      trackEvent("contact_form_submit", parameters);
     }
 
     document.addEventListener("click", onClick);
