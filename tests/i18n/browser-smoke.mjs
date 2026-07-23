@@ -289,7 +289,7 @@ assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/ko(?:<
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 122);
 assert.match(sitemapXml, /hreflang="de"/);
 assert.match(sitemapXml, /hreflang="fr"/);
-assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:nl|ru|ar|ja)(?:<|\/)/);
+assert.doesNotMatch(sitemapXml, /https:\/\/www\.chinafreeweight\.com\/(?:ru|ar|ja)(?:<|\/)/);
 
 const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
 assert.ok(robotsResponse);

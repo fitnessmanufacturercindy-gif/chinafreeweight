@@ -100,7 +100,9 @@ export function localizedSitemapEntries() {
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "vi" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" }),
-    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" })
-    ,...buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" })
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "pl" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "nl" })
   ];
 }

@@ -77,7 +77,7 @@ test("locale routing: English stays unprefixed and /en redirects", () => {
   assert.equal(buildPublicPath("pt-BR", "/products/dumbbells"), "/pt/products/dumbbells");
 });
 
-test("published locale routing: Portuguese, Spanish, German, French, Vietnamese, Swedish, Italian, Korean and Indonesian are public", () => {
+test("published locale routing: all twelve launch languages are public", () => {
   assert.deepEqual(decideLocaleRequest("/pt/products/dumbbells"), {
     action: "pass",
     internalLocale: "pt-BR"
@@ -90,9 +90,11 @@ test("published locale routing: Portuguese, Spanish, German, French, Vietnamese,
   assert.deepEqual(decideLocaleRequest("/it/prodotti"), { action: "pass", internalLocale: "it" });
   assert.deepEqual(decideLocaleRequest("/ko/products"), { action: "pass", internalLocale: "ko" });
   assert.deepEqual(decideLocaleRequest("/id/produk"), { action: "pass", internalLocale: "id" });
+  assert.deepEqual(decideLocaleRequest("/pl/produkty"), { action: "pass", internalLocale: "pl" });
+  assert.deepEqual(decideLocaleRequest("/nl/producten"), { action: "pass", internalLocale: "nl" });
 });
 
-test("production manifest: only reviewed content in the ten public languages is published", () => {
+test("production manifest: only reviewed content in the twelve public languages is published", () => {
   assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 122);
   assert.equal(contentRepository.listPublished({ locale: "es" }).length, 122);
   assert.equal(contentRepository.listPublished({ locale: "de" }).length, 124);
@@ -103,8 +105,10 @@ test("production manifest: only reviewed content in the ten public languages is 
   assert.equal(contentRepository.listPublished({ locale: "it" }).length, 124);
   assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 116);
   assert.equal(contentRepository.listPublished({ locale: "id" }).length, 122);
-  assert.equal(contentRepository.listPublished().length, 1225);
-  assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id"].includes(version.locale)), false);
+  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 122);
+  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 122);
+  assert.equal(contentRepository.listPublished().length, 1469);
+  assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
 test("canonical and metadata: localized content is self-canonical", () => {
@@ -287,6 +291,8 @@ test("product localization batch 1: eighteen pages meet content, image, schema a
     const expectedLanguages = ["de", "en", "es", "fr", "it", "pt-BR", "sv", "vi", "x-default"];
     if (contentRepository.getPublishedVersion(entity.id, "ko")) expectedLanguages.push("ko");
     if (contentRepository.getPublishedVersion(entity.id, "id")) expectedLanguages.push("id");
+    if (contentRepository.getPublishedVersion(entity.id, "pl")) expectedLanguages.push("pl");
+    if (contentRepository.getPublishedVersion(entity.id, "nl")) expectedLanguages.push("nl");
     assert.deepEqual(Object.keys(metadata.alternates?.languages ?? {}).sort(), expectedLanguages.sort(), `${version.publicPath}: hreflang`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
     const primaryType = entity.type === "blog" ? "BlogPosting" : "Product";
@@ -379,8 +385,10 @@ test("Spanish metadata and schema use Spanish text and language", () => {
     vi: `${siteUrl}/vi/san-pham/ta-tay/ta-tay-luc-giac-boc-cao-su`,
     sv: `${siteUrl}/sv/produkter/hantlar/hexagonal-hantel`,
     it: `${siteUrl}/it/prodotti/manubri/manubrio-esagonale-in-gomma`,
+    nl: `${siteUrl}/nl/producten/halters/rubberen-hex-halter`,
     ko: `${siteUrl}/ko/products/dumbbells/rubber-hex-dumbbell`,
     id: `${siteUrl}/id/produk/dumbbell/dumbbell-hex-karet`,
+    pl: `${siteUrl}/pl/produkty/hantle/hantla-szesciokatna-gumowana`,
     "x-default": `${siteUrl}/products/dumbbells/hex-dumbbell-kg`
   });
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
@@ -393,7 +401,7 @@ test("Spanish metadata and schema use Spanish text and language", () => {
   assert.equal(breadcrumb?.inLanguage, "es");
 });
 
-test("products hub has a complete ten-language hreflang cluster", () => {
+test("products hub has a complete twelve-language hreflang cluster", () => {
   const content = contentRepository.getPublishedVersion("products-hub", "pt-BR");
   assert.ok(content);
   const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
@@ -406,11 +414,13 @@ test("products hub has a complete ten-language hreflang cluster", () => {
     vi: `${siteUrl}/vi/san-pham`,
     sv: `${siteUrl}/sv/produkter`,
     it: `${siteUrl}/it/prodotti`,
+    nl: `${siteUrl}/nl/producten`,
     ko: `${siteUrl}/ko/products`,
     id: `${siteUrl}/id/produk`,
+    pl: `${siteUrl}/pl/produkty`,
     "x-default": `${siteUrl}/products`
   });
-  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id"]);
+  assert.deepEqual(getLanguageSwitchOptions("products-hub", "pt-BR", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id", "pl", "nl"]);
 });
 
 test("sitemap: non-public and review-required localizations never enter output", () => {
@@ -436,7 +446,7 @@ test("language switch mapping: stable content ID resolves the matching localized
     "/pt/products/dumbbells/rubber-hex-dumbbells"
   );
   assert.deepEqual(getLanguageSwitchOptions("product:rubber-hex-dumbbells", "en", repository).map((option) => option.locale), ["en", "pt-BR"]);
-  assert.deepEqual(getLanguageSwitchOptions("dumbbells-category", "en", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id"]);
+  assert.deepEqual(getLanguageSwitchOptions("dumbbells-category", "en", contentRepository).map((option) => option.locale), ["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id", "pl", "nl"]);
   assert.equal(resolveLanguageSwitchTarget("dumbbells-category", "es", contentRepository), "/es/productos/mancuernas");
 });
 
@@ -468,7 +478,7 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("multilingual sitemap retains 135 English routes and adds all nine localized route sets", () => {
+test("multilingual sitemap retains 135 English routes and adds all eleven localized route sets", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
   const spanishUrls = urls.filter((url) => new URL(url).pathname === "/es" || new URL(url).pathname.startsWith("/es/"));
@@ -479,7 +489,9 @@ test("multilingual sitemap retains 135 English routes and adds all nine localize
   const italianUrls = urls.filter((url) => new URL(url).pathname === "/it" || new URL(url).pathname.startsWith("/it/"));
   const koreanUrls = urls.filter((url) => new URL(url).pathname === "/ko" || new URL(url).pathname.startsWith("/ko/"));
   const indonesianUrls = urls.filter((url) => new URL(url).pathname === "/id" || new URL(url).pathname.startsWith("/id/"));
-  const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url));
+  const polishUrls = urls.filter((url) => new URL(url).pathname === "/pl" || new URL(url).pathname.startsWith("/pl/"));
+  const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
+  const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
   assert.equal(englishUrls.length, 135);
   assert.equal(portugueseUrls.length, 122);
   assert.equal(spanishUrls.length, 122);
@@ -490,7 +502,9 @@ test("multilingual sitemap retains 135 English routes and adds all nine localize
   assert.equal(italianUrls.length, 124);
   assert.equal(koreanUrls.length, 116);
   assert.equal(indonesianUrls.length, 122);
-  assert.equal(new Set(urls).size, 1237);
+  assert.equal(polishUrls.length, 122);
+  assert.equal(dutchUrls.length, 122);
+  assert.equal(new Set(urls).size, 1481);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -525,12 +539,18 @@ test("multilingual sitemap retains 135 English routes and adds all nine localize
   assert.ok(urls.includes(`${configuredSiteUrl}/ko/blog/choose-chinese-fitness-equipment-manufacturer`));
   assert.ok(urls.includes(`${configuredSiteUrl}/id`));
   assert.ok(urls.includes(`${configuredSiteUrl}/id/produk`));
-  assert.equal(urls.some((url) => /^\/(nl|ru|ar|ja)(\/|$)/.test(new URL(url).pathname)), false);
+  assert.ok(urls.includes(`${configuredSiteUrl}/pl`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/pl/produkty`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/pl/blog/jak-importowac-sprzet-fitness-z-chin-do-polski`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/nl`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/nl/producten`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/nl/blog/fitnessapparatuur-uit-china-importeren-naar-nederland`));
+  assert.equal(urls.some((url) => /^\/(ru|ar|ja)(\/|$)/.test(new URL(url).pathname)), false);
 });
 
-test("language sitemap contains all 1237 public URLs with the complete products hub cluster", () => {
+test("language sitemap contains all 1481 public URLs with the complete products hub cluster", () => {
   const entries = localizedSitemapEntries();
-  const english = entries.filter((entry) => !/^\/(?:pt|es|de|fr|vi|sv|it|ko|id)(?:\/|$)/.test(new URL(entry.url).pathname));
+  const english = entries.filter((entry) => !/^\/(?:pt|es|de|fr|vi|sv|it|ko|id|pl|nl)(?:\/|$)/.test(new URL(entry.url).pathname));
   const portuguese = entries.filter((entry) => /^\/pt(?:\/|$)/.test(new URL(entry.url).pathname));
   const spanish = entries.filter((entry) => /^\/es(?:\/|$)/.test(new URL(entry.url).pathname));
   const german = entries.filter((entry) => /^\/de(?:\/|$)/.test(new URL(entry.url).pathname));
@@ -540,6 +560,8 @@ test("language sitemap contains all 1237 public URLs with the complete products 
   const italian = entries.filter((entry) => /^\/it(?:\/|$)/.test(new URL(entry.url).pathname));
   const korean = entries.filter((entry) => /^\/ko(?:\/|$)/.test(new URL(entry.url).pathname));
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
+  const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
+  const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
   assert.equal(english.length, 135);
   assert.equal(portuguese.length, 122);
   assert.equal(spanish.length, 122);
@@ -550,8 +572,10 @@ test("language sitemap contains all 1237 public URLs with the complete products 
   assert.equal(italian.length, 124);
   assert.equal(korean.length, 116);
   assert.equal(indonesian.length, 122);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1237);
-  for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk"]) {
+  assert.equal(polish.length, 122);
+  assert.equal(dutch.length, 122);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1481);
+  for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
       en: `${siteUrl}/products`,
@@ -564,6 +588,8 @@ test("language sitemap contains all 1237 public URLs with the complete products 
       it: `${siteUrl}/it/prodotti`,
       ko: `${siteUrl}/ko/products`,
       id: `${siteUrl}/id/produk`,
+      pl: `${siteUrl}/pl/produkty`,
+      nl: `${siteUrl}/nl/producten`,
       "x-default": `${siteUrl}/products`
     });
   }
@@ -588,6 +614,10 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
   assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 122);
   assert.equal(new Set(pages.map(({ version }) => version.title)).size, 122);
   assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 122);
+  const editorialSignatures = pages.map(({ version }) => version.body.slice(0, 6).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 180)}`).join("||"));
+  assert.equal(new Set(editorialSignatures).size, 122, "every Indonesian page must have a distinct below-hero editorial lead");
+  const headingSignatures = pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"));
+  assert.equal(new Set(headingSignatures).size, 122, "every Indonesian page must have a distinct visible section sequence");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -616,6 +646,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     }
     assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AIO|AI Search|keyword optimization|ranking optimization)\b/i, `${version.publicPath}: no internal terminology`);
+    assert.doesNotMatch(visibleText(version), /\uFFFD|鈥|脿|Ã/, `${version.publicPath}: no mojibake`);
 
     const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
     assert.equal(metadata.alternates?.canonical, `${siteUrl}${version.publicPath}`, `${version.publicPath}: self canonical`);
@@ -666,6 +697,160 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     }
     assert.ok(maximum < 0.65, `${type}: maximum same-language five-gram Jaccard similarity ${maximum.toFixed(3)}`);
   }
+});
+
+test("Polish launch meets 122-page coverage, content, English-asset and SEO gates", () => {
+  const pages = contentRepository.listPublished({ locale: "pl" });
+  const counts = new Map<string, number>();
+  for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
+  assert.deepEqual(Object.fromEntries([...counts].sort()), {
+    blog: 25,
+    blog_index: 1,
+    contact: 1,
+    factory: 1,
+    home: 1,
+    landing: 1,
+    oem: 1,
+    product: 85,
+    product_category: 5,
+    projects: 1
+  });
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 122, "distinct Polish section signatures");
+
+  const visibleText = (version: LocalizedContentVersion) => [
+    version.title,
+    version.description,
+    version.h1,
+    ...version.body.flatMap((block) => [block.heading ?? "", block.content ?? "", JSON.stringify(block.data ?? {})]),
+    ...version.faq.flatMap((item) => [item.question, item.answer])
+  ].join(" ");
+  const wordCount = (version: LocalizedContentVersion) => visibleText(version).split(/\s+/).filter(Boolean).length;
+
+  for (const content of pages) {
+    const { entity, version } = content;
+    assert.equal(version.locale, "pl");
+    assert.equal(version.translationStatus, "localized");
+    assert.equal(version.reviewStatus, "approved");
+    assert.equal(version.publishStatus, "published");
+    assert.match(version.publicPath, /^\/pl(?:\/|$)/);
+    assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
+    assert.ok(version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: two or three real images`);
+    const english = contentRepository.getPublishedVersion(entity.id, "en");
+    if (english?.version.images[0]) assert.equal(version.images[0]?.src, english.version.images[0].src, `${version.publicPath}: English primary asset`);
+    for (const image of version.images) {
+      assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
+      assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
+      assert.ok(image.alt.length >= 20, `${version.publicPath}: Polish image alt`);
+    }
+    assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
+    assert.doesNotMatch(visibleText(version), /\uFFFD|閳|臋|艂|偶|膮|贸|藕/, `${version.publicPath}: no mojibake`);
+    assert.doesNotMatch(visibleText(version), /\b(?:untuk|dan|pabrik|panduan|permintaan|merek sendiri|pengadaan)\b/i, `${version.publicPath}: no Indonesian UI/content leakage`);
+
+    const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
+    assert.equal(metadata.alternates?.canonical, `${siteUrl}${version.publicPath}`, `${version.publicPath}: self canonical`);
+    assert.equal(metadata.alternates?.languages?.pl, `${siteUrl}${version.publicPath}`, `${version.publicPath}: Polish hreflang`);
+    const graph = buildLocalizedSchemaGraph(content, siteUrl);
+    assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "pl"), `${version.publicPath}: breadcrumb schema`);
+    assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "pl"), `${version.publicPath}: FAQ schema`);
+    if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "pl"), `${version.publicPath}: product schema`);
+    if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "pl"), `${version.publicPath}: article schema`);
+
+    if (entity.type === "product" || entity.type === "blog") {
+      const words = wordCount(version);
+      assert.ok(words >= (entity.type === "product" ? 1100 : 1400), `${version.publicPath}: minimum content length ${words}`);
+      assert.ok(words <= (entity.type === "product" ? 1400 : 1700), `${version.publicPath}: maximum content length ${words}`);
+      assert.ok(version.body.filter((block) => block.type === "specifications").length >= 2, `${version.publicPath}: technical/comparison tables`);
+      assert.ok(version.body.some((block) => block.type === "features"), `${version.publicPath}: buyer checklist`);
+      const components = new Set(version.body.map((block) => block.data?.component));
+      assert.ok(components.has("quick-answer") && components.has("definition"), `${version.publicPath}: answer-first structure`);
+    }
+  }
+
+  for (const id of indonesianExcludedContentIds) {
+    assert.equal(contentRepository.getPublishedVersion(id, "pl"), undefined, `${id}: same intentional scope exclusion as Indonesian`);
+  }
+  const contact = contentRepository.getPublishedVersion("contact", "pl");
+  assert.ok(contact?.version.body.some((block) => block.data?.component === "inquiry-form"), "Polish contact inquiry form");
+});
+
+test("Dutch launch meets 122-page coverage, localized content, source assets and SEO gates", () => {
+  const pages = contentRepository.listPublished({ locale: "nl" });
+  const counts = new Map<string, number>();
+  for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
+  assert.deepEqual(Object.fromEntries([...counts].sort()), {
+    blog: 25,
+    blog_index: 1,
+    contact: 1,
+    factory: 1,
+    home: 1,
+    landing: 1,
+    oem: 1,
+    product: 85,
+    product_category: 5,
+    projects: 1
+  });
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 122);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 122, "distinct Dutch section signatures");
+
+  const visibleText = (version: LocalizedContentVersion) => [
+    version.title,
+    version.description,
+    version.h1,
+    ...version.body.flatMap((block) => [block.heading ?? "", block.content ?? "", JSON.stringify(block.data ?? {})]),
+    ...version.faq.flatMap((item) => [item.question, item.answer])
+  ].join(" ");
+  const wordCount = (version: LocalizedContentVersion) => visibleText(version).split(/\s+/).filter(Boolean).length;
+
+  for (const content of pages) {
+    const { entity, version } = content;
+    assert.equal(version.locale, "nl");
+    assert.equal(version.translationStatus, "localized");
+    assert.equal(version.reviewStatus, "approved");
+    assert.equal(version.publishStatus, "published");
+    assert.match(version.publicPath, /^\/nl(?:\/|$)/);
+    assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
+    assert.ok(version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: two or three real images`);
+    const english = contentRepository.getPublishedVersion(entity.id, "en");
+    if (english?.version.images[0]) assert.equal(version.images[0]?.src, english.version.images[0].src, `${version.publicPath}: English primary asset`);
+    for (const image of version.images) {
+      assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
+      assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
+      assert.ok(image.alt.length >= 20, `${version.publicPath}: Dutch image alt`);
+    }
+    assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
+    assert.doesNotMatch(visibleText(version), /\uFFFD/, `${version.publicPath}: no replacement characters`);
+    assert.doesNotMatch(visibleText(version), /\b(?:penawaran|produk|pabrik|panduan|permintaan|pengadaan|zapytanie|wycena|producent sprzętu)\b/i, `${version.publicPath}: no Indonesian or Polish leakage`);
+
+    const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
+    assert.equal(metadata.alternates?.canonical, `${siteUrl}${version.publicPath}`, `${version.publicPath}: self canonical`);
+    assert.equal(metadata.alternates?.languages?.nl, `${siteUrl}${version.publicPath}`, `${version.publicPath}: Dutch hreflang`);
+    const graph = buildLocalizedSchemaGraph(content, siteUrl);
+    assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "nl"), `${version.publicPath}: breadcrumb schema`);
+    assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "nl"), `${version.publicPath}: FAQ schema`);
+    if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "nl"), `${version.publicPath}: product schema`);
+    if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "nl"), `${version.publicPath}: article schema`);
+
+    if (entity.type === "product" || entity.type === "blog") {
+      const words = wordCount(version);
+      assert.ok(words >= (entity.type === "product" ? 1000 : 1250), `${version.publicPath}: minimum content length ${words}`);
+      assert.ok(words <= (entity.type === "product" ? 1200 : 1500), `${version.publicPath}: maximum content length ${words}`);
+      assert.ok(version.body.filter((block) => block.type === "specifications").length >= 2, `${version.publicPath}: technical/comparison tables`);
+      assert.ok(version.body.some((block) => block.type === "features"), `${version.publicPath}: buyer checklist`);
+      const components = new Set(version.body.map((block) => block.data?.component));
+      assert.ok(components.has("quick-answer") && components.has("definition"), `${version.publicPath}: answer-first structure`);
+    }
+  }
+
+  for (const id of indonesianExcludedContentIds) {
+    assert.equal(contentRepository.getPublishedVersion(id, "nl"), undefined, `${id}: same intentional scope exclusion as Indonesian`);
+  }
+  const contact = contentRepository.getPublishedVersion("contact", "nl");
+  assert.ok(contact?.version.body.some((block) => block.data?.component === "inquiry-form"), "Dutch contact inquiry form");
 });
 
 test("Spanish blog content is differentiated by search intent", () => {

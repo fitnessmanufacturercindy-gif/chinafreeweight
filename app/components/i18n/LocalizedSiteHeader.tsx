@@ -37,11 +37,19 @@ const navigation = {
   id: {
     prefix: "/id", aria: "Navigasi utama", quote: "Minta penawaran", contact: "/kontak",
     links: [["/produk/dumbbell", "Dumbbell"], ["/produk/piring-beban", "Piring beban"], ["/produk/rak-bangku", "Rack & bench"], ["/pabrik", "Pabrik"], ["/blog", "Panduan"], ["/kontak", "Kontak"]]
+  },
+  pl: {
+    prefix: "/pl", aria: "Główna nawigacja", quote: "Poproś o wycenę", contact: "/kontakt",
+    links: [["/produkty/hantle", "Hantle"], ["/produkty/obciazenia", "Obciążenia"], ["/produkty/stojaki-lawki", "Stojaki i ławki"], ["/fabryka", "Fabryka"], ["/blog", "Poradniki"], ["/kontakt", "Kontakt"]]
+  },
+  nl: {
+    prefix: "/nl", aria: "Hoofdnavigatie", quote: "Offerte aanvragen", contact: "/contact",
+    links: [["/producten/halters", "Halters"], ["/producten/halterschijven", "Halterschijven"], ["/producten/racks-banken", "Racks & banken"], ["/fabriek", "Fabriek"], ["/blog", "Inkoopgidsen"], ["/contact", "Contact"]]
   }
 } as const;
 
 export default function LocalizedSiteHeader({ locale }: { locale: InternalLocale }) {
-  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko" && locale !== "id") return null;
+  if (locale !== "pt-BR" && locale !== "es" && locale !== "de" && locale !== "fr" && locale !== "vi" && locale !== "sv" && locale !== "it" && locale !== "ko" && locale !== "id" && locale !== "pl" && locale !== "nl") return null;
   const copy = navigation[locale];
 
   return (

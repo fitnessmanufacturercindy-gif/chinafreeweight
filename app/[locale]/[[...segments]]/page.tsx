@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import LocalizedPageTemplate from "../../components/i18n/LocalizedPageTemplate";
+import IndonesianMirrorPage from "../../components/i18n/IndonesianMirrorPage";
 import { getLocaleByInternalLocale, getLocaleByRouteLocale } from "../../../i18n/locale-registry";
 import { contentRepository } from "../../../lib/content/repository";
 import { buildLocalizedMetadata } from "../../../lib/seo/metadata";
@@ -49,7 +50,7 @@ export default async function LocalizedPage({ params }: LocalizedPageProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <LocalizedPageTemplate content={content} />
+      {content.version.locale === "pl" || content.version.locale === "nl" ? <IndonesianMirrorPage content={content} /> : <LocalizedPageTemplate content={content} />}
     </>
   );
 }

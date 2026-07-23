@@ -142,10 +142,42 @@ const copy = {
     project: "Jenis proyek", projects: ["Impor / distribusi", "Merek sendiri", "Gym baru", "Pasokan proyek"],
     message: "Deskripsi kebutuhan", messagePlaceholder: "Tuliskan produk, berat, jumlah, logo, kemasan, tujuan, dan jadwal.",
     submit: "Minta penawaran B2B"
+  },
+  pl: {
+    subject: "Nowe zapytanie B2B w języku polskim — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/pl/kontakt?inquiry=sent#zapytanie",
+    source: "Polska wersja ChinaFreeWeight",
+    name: "Imię i nazwisko", namePlaceholder: "Osoba kontaktowa",
+    email: "E-mail firmowy", phone: "Telefon / WhatsApp", phonePlaceholder: "+48 lub numer międzynarodowy",
+    company: "Firma", companyPlaceholder: "Importer, dystrybutor, marka lub siłownia",
+    country: "Kraj / region", countryPlaceholder: "Polska",
+    demand: "Poszukiwane produkty", demandPlaceholder: "Hantle, obciążenia, OEM, wyposażenie siłowni...",
+    category: "Kategoria", select: "Wybierz kategorię",
+    categories: ["Hantle", "Obciążenia", "Talerze bumper", "OEM / marka własna", "Kompletne wyposażenie siłowni"],
+    quantity: "Szacowana ilość", quantityPlaceholder: "Np. 200 par / 1 kontener",
+    project: "Rodzaj projektu", projects: ["Import / dystrybucja", "Marka własna", "Nowa siłownia", "Dostawa projektowa"],
+    message: "Opis zapotrzebowania", messagePlaceholder: "Podaj produkty, warianty wagowe, ilości, logo, opakowanie, miejsce dostawy i termin.",
+    submit: "Poproś o wycenę B2B"
+  },
+  nl: {
+    subject: "Nieuwe Nederlandstalige B2B-aanvraag — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/nl/contact?inquiry=sent#aanvraag",
+    source: "Nederlandse versie van ChinaFreeWeight",
+    name: "Naam", namePlaceholder: "Naam van de contactpersoon",
+    email: "Zakelijk e-mailadres", phone: "Telefoon / WhatsApp", phonePlaceholder: "+31, +32 of internationale landcode",
+    company: "Bedrijf", companyPlaceholder: "Importeur, distributeur, merk of sportschool",
+    country: "Land / regio", countryPlaceholder: "Nederland of België",
+    demand: "Gezochte producten", demandPlaceholder: "Halters, halterschijven, OEM, fitnessproject...",
+    category: "Productcategorie", select: "Selecteer een categorie",
+    categories: ["Halters", "Halterschijven", "Bumper plates", "OEM / private label", "Complete fitnessinrichting"],
+    quantity: "Geschatte hoeveelheid", quantityPlaceholder: "Bijv. 200 paar / 1 container",
+    project: "Projecttype", projects: ["Import / distributie", "Private label", "Nieuwe sportschool", "Projectlevering"],
+    message: "Omschrijving van de aanvraag", messagePlaceholder: "Vermeld producten, gewichten, aantallen, logo, verpakking, bestemming en planning.",
+    submit: "B2B-offerte aanvragen"
   }
 } as const;
 
-export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" }) {
+export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" | "pl" | "nl" }) {
   const text = copy[locale];
   return (
     <form className="quote-form" action="https://formsubmit.co/kloe@powerbasefit.com" method="POST">
@@ -156,7 +188,7 @@ export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es
       <input type="hidden" name="source" value={text.source} />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
-      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>
+      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "nl" ? "naam@bedrijf.nl" : locale === "pl" ? "imie@firma.pl" : locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>
       <label>{text.phone} <span className="required-mark">*</span><input name="phone" type="tel" placeholder={text.phonePlaceholder} required /></label>
       <label>{text.company}<input name="company" type="text" placeholder={text.companyPlaceholder} /></label>
       <label>{text.country}<input name="country" type="text" placeholder={text.countryPlaceholder} /></label>

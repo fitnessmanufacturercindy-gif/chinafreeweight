@@ -63,5 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const italianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" });
   const koreanSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" });
   const indonesianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" });
-  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap, ...vietnameseSitemap, ...swedishSitemap, ...italianSitemap, ...koreanSitemap, ...indonesianSitemap];
+  const polishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pl" });
+  const dutchSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "nl" });
+  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap, ...vietnameseSitemap, ...swedishSitemap, ...italianSitemap, ...koreanSitemap, ...indonesianSitemap, ...polishSitemap, ...dutchSitemap];
 }

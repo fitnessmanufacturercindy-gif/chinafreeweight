@@ -1014,6 +1014,20 @@ textarea {
 
 .main-nav a {
   opacity: 0.82;
+  white-space: nowrap;
+}
+
+.topbar-cta {
+  white-space: nowrap;
+}
+
+html[lang="nl"] .topbar {
+  gap: 18px;
+}
+
+html[lang="nl"] .main-nav {
+  gap: 24px;
+  font-size: 17px;
 }
 
 .main-nav a:hover,

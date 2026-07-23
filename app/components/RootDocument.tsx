@@ -13,7 +13,7 @@ type RootDocumentProps = {
   preloadEnglishHero?: boolean;
   whatsAppLabel?: string;
   whatsAppMessage?: string;
-  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id";
+  schemaLocale?: "pt" | "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" | "pl" | "nl";
 };
 
 export default function RootDocument({
@@ -82,6 +82,18 @@ export default function RootDocument({
                   products: ["Dumbbell komersial", "Piring beban", "Bumper plate", "Power rack", "Bench", "Aksesori gym"],
                   websiteName: "PowerBaseFit produsen peralatan gym profesional",
                   businessDescription: "PowerBaseFit memproduksi dumbbell, piring beban, bumper plate, rack, bench, dan aksesori untuk importir, distributor, merek sendiri, serta proyek gym komersial."
+                }
+            : schemaLocale === "pl"
+              ? {
+                  products: ["Hantle komercyjne", "Obciążenia olimpijskie", "Talerze bumper", "Stojaki treningowe", "Ławki", "Akcesoria fitness"],
+                  websiteName: "PowerBaseFit producent profesjonalnego sprzętu fitness",
+                  businessDescription: "PowerBaseFit produkuje hantle, obciążenia, talerze bumper, stojaki, ławki i akcesoria dla importerów, dystrybutorów, marek własnych oraz projektów siłowni komercyjnych."
+                }
+            : schemaLocale === "nl"
+              ? {
+                  products: ["Commerciële halters", "Halterschijven", "Bumper plates", "Trainingsrekken", "Fitnessbanken", "Fitnessaccessoires"],
+                  websiteName: "PowerBaseFit fabrikant van professionele fitnessapparatuur",
+                  businessDescription: "PowerBaseFit produceert halters, halterschijven, bumper plates, racks, banken en accessoires voor importeurs, distributeurs, private labels en commerciële fitnessprojecten."
                 }
           : undefined;
   const schemas = localizedSchema && schemaLanguage
