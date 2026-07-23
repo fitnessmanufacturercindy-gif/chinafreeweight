@@ -66,7 +66,108 @@ function slugify(value:string){return value.normalize("NFD").replace(/[\u0300-\u
 function sourceSlug(entity:ContentEntity){return entity.versions.en?.publicPath?.split("/").filter(Boolean).pop() ?? entity.id;}
 function family(entity:ContentEntity){const path=entity.versions.en?.publicPath??"";return path.includes("/dumbbells/")?"dumbbell":path.includes("/weight-plates/")?"piring-beban":path.includes("/racks-benches/")?"rak-bangku":"aksesori-gym";}
 function productName(entity:ContentEntity){const name=productNames[sourceSlug(entity)];if(!name)throw new Error(`Indonesian product name missing: ${entity.id}`);return name;}
-function base(version:Omit<LocalizedContentVersion,"locale"|"translationStatus"|"reviewStatus"|"publishStatus"|"canonicalData"|"hreflangData"|"updatedAt"|"publishedAt"|"version">):LocalizedContentVersion{return{...version,locale:"id",translationStatus:"localized",reviewStatus:"approved",publishStatus:"published",canonicalData:{mode:"self"},hreflangData:{include:true},updatedAt:publishedAt,publishedAt,version:1};}
+
+const indonesianTerminology: Array<[RegExp,string]> = [
+  [/\bprivate[- ]label\b/gi,"merek sendiri"],
+  [/\brepeat order\b/gi,"pemesanan ulang"],
+  [/\blanded cost\b/gi,"biaya total sampai tujuan"],
+  [/\bminimum order quantity\b/gi,"jumlah pesanan minimum"],
+  [/\brequest for quotation\b/gi,"permintaan penawaran harga"],
+  [/\bfinal inspection\b/gi,"inspeksi akhir"],
+  [/\bincoming inspection\b/gi,"inspeksi bahan masuk"],
+  [/\bcontrol plan\b/gi,"rencana pengendalian mutu"],
+  [/\bchange control\b/gi,"pengendalian perubahan"],
+  [/\bgolden sample\b/gi,"sampel acuan"],
+  [/\bpacking instruction\b/gi,"petunjuk pengemasan"],
+  [/\bpacking list\b/gi,"daftar kemasan"],
+  [/\bpackaging\b/gi,"pengemasan"],
+  [/\broute card\b/gi,"kartu proses"],
+  [/\bheat treatment\b/gi,"perlakuan panas"],
+  [/\bcommercial grade\b/gi,"kelas komersial"],
+  [/\bheavy-duty\b/gi,"berdaya tahan tinggi"],
+  [/\bfirst article\b/gi,"unit produksi pertama"],
+  [/\bbid comparison\b/gi,"perbandingan penawaran"],
+  [/\bclarification log\b/gi,"catatan klarifikasi"],
+  [/\bsell-through\b/gi,"tingkat penjualan"],
+  [/\bnamed place\b/gi,"lokasi serah yang disebutkan"],
+  [/\bsub-supplier\b/gi,"pemasok tingkat kedua"],
+  [/\bspare parts?\b/gi,"suku cadang"],
+  [/\blead time\b/gi,"waktu produksi"],
+  [/\bquotation\b/gi,"penawaran harga"],
+  [/\bsupplier\b/gi,"pemasok"],
+  [/\bbuyers?\b/gi,"pembeli"],
+  [/\bbrands?\b/gi,"merek"],
+  [/\bartwork\b/gi,"desain grafis"],
+  [/\bdrawing\b/gi,"gambar teknik"],
+  [/\bfinishing\b/gi,"penyelesaian permukaan"],
+  [/\bmarking\b/gi,"penandaan"],
+  [/\binterface\b/gi,"sambungan"],
+  [/\balignment\b/gi,"keselarasan"],
+  [/\bincrements?\b/gi,"kenaikan beban"],
+  [/\blineup\b/gi,"rangkaian produk"],
+  [/\bprinting\b/gi,"pencetakan"],
+  [/\bhardware\b/gi,"komponen pemasangan"],
+  [/\bsealing\b/gi,"penyegelan"],
+  [/\bforecast\b/gi,"perkiraan permintaan"],
+  [/\breview\b/gi,"peninjauan"],
+  [/\bscope\b/gi,"cakupan"],
+  [/\bjoint\b/gi,"sambungan"],
+  [/\bguard\b/gi,"pelindung"],
+  [/\bpulley\b/gi,"katrol"],
+  [/\banchor\b/gi,"jangkar"],
+  [/\bguide\b/gi,"rel pemandu"],
+  [/\badjustment\b/gi,"pengaturan"],
+  [/\bclearance\b/gi,"jarak bebas"],
+  [/\bmaintenance\b/gi,"perawatan"],
+  [/\bcommissioning\b/gi,"uji fungsi awal"],
+  [/\benvelope\b/gi,"ruang gerak"],
+  [/\bfootprint\b/gi,"luas tapak"],
+  [/\bhandling\b/gi,"penanganan"],
+  [/\bchannel\b/gi,"saluran penjualan"],
+  [/\bworkbook\b/gi,"buku kerja"],
+  [/\bsheet\b/gi,"lembar"],
+  [/\bidentifier\b/gi,"pengenal"],
+  [/\binput\b/gi,"masukan"],
+  [/\boutput\b/gi,"keluaran"],
+  [/\bsensitivity analysis\b/gi,"analisis sensitivitas"],
+  [/\brework\b/gi,"pengerjaan ulang"],
+  [/\bsorting\b/gi,"pemilahan"],
+  [/\bcustoms clearance\b/gi,"pengurusan kepabeanan"],
+  [/\bfreight forwarder\b/gi,"perusahaan pengurusan angkutan"],
+  [/\bcustoms broker\b/gi,"perantara kepabeanan"],
+  [/\bfreight\b/gi,"biaya angkutan"],
+  [/\bsampling\b/gi,"pengambilan sampel"],
+  [/\btooling\b/gi,"perkakas produksi"],
+  [/\bmould\b/gi,"cetakan"],
+  [/\bcompound\b/gi,"campuran bahan"],
+  [/\binsert\b/gi,"sisipan"],
+  [/\bplain carton\b/gi,"karton polos"],
+  [/\bretail\b/gi,"eceran"],
+  [/\bmarketplace\b/gi,"lokapasar"],
+  [/\bdisplay\b/gi,"tampilan"],
+  [/\bpicking\b/gi,"pengambilan barang"],
+  [/\border\b/gi,"pesanan"]
+];
+
+function naturalIndonesian(text:string){
+  return indonesianTerminology.reduce((result,[pattern,replacement])=>result.replace(pattern,(match)=>/^[A-Z]/.test(match)?`${replacement[0].toUpperCase()}${replacement.slice(1)}`:replacement),text)
+    .replace(/\s{2,}/g," ")
+    .trim();
+}
+
+const nonEditorialKeys=new Set(["id","src","path","url","component","targetContentId","publicPath","slug","locale","kind"]);
+function naturalizeValue<T>(value:T,key=""):T{
+  if(typeof value==="string")return(nonEditorialKeys.has(key)?value:naturalIndonesian(value)) as T;
+  if(Array.isArray(value))return value.map((item)=>naturalizeValue(item,key)) as T;
+  if(value&&typeof value==="object")return Object.fromEntries(Object.entries(value).map(([childKey,childValue])=>[childKey,naturalizeValue(childValue,childKey)])) as T;
+  return value;
+}
+
+type IndonesianDraft=Omit<LocalizedContentVersion,"locale"|"translationStatus"|"reviewStatus"|"publishStatus"|"canonicalData"|"hreflangData"|"updatedAt"|"publishedAt"|"version">;
+function base(version:IndonesianDraft):LocalizedContentVersion{
+  const localized=naturalizeValue(version);
+  return{...localized,locale:"id",translationStatus:"localized",reviewStatus:"approved",publishStatus:"published",canonicalData:{mode:"self"},hreflangData:{include:true},updatedAt:publishedAt,publishedAt,version:1};
+}
 
 const variants=[
   "Gunakan kode artikel dan revisi yang sama pada quotation, sampel, laporan QC, label karton, packing list, dan repeat order agar perubahan tidak tersembunyi di antara dokumen.",
@@ -144,13 +245,13 @@ const sectionVariants: Record<string,string[]> = {
 
 const sectionHeadings:Record<string,string>={produksi:"Rencana produksi khusus",qc:"Rencana QC khusus",kemasan:"Kemasan dan logistik khusus",oem:"Strategi OEM atau ODM",pembelian:"Keputusan buyer",pengalaman:"Data setelah pengiriman",penawaran:"Struktur permintaan penawaran"};
 function distinctBlocks(key:string,subject:string,prefix="produk"){
-  return Object.entries(sectionVariants).map(([section,choices],index)=>idText(`${prefix}-${section}`,sectionHeadings[section],`${subject}: ${choices[hash(`${key}-${section}-${index}`)%choices.length]}`,`Dalam keputusan ${subject.toLowerCase()}, buyer menghubungkan hasil ${sectionHeadings[section].toLowerCase()} khusus ${subject.toLowerCase()} dengan varian, penggunaan, risiko, dan rencana repeat order yang disetujui.`));
+  return Object.entries(sectionVariants).map(([section,choices],index)=>idText(`${prefix}-${section}`,`${sectionHeadings[section]} untuk ${subject}`,`${subject}: ${choices[hash(`${key}-${section}-${index}`)%choices.length]}`,`Dalam keputusan ${subject.toLowerCase()}, pembeli menghubungkan bukti pada bagian ini dengan varian, penggunaan, risiko, dan rencana pemesanan ulang yang disetujui.`));
 }
 function extraDistinctBlocks(key:string,subject:string,prefix="tambahan",count=3){
   const topics=["pembelian","produksi","qc","kemasan","oem","pengalaman","penawaran"];
   return topics.slice(0,count).map((section,index)=>{
     const choices=sectionVariants[section];
-    return idText(`${prefix}-${section}-${index+1}`,`${sectionHeadings[section]} — ${subject}`,choices[hash(`${[...key].reverse().join("")}-${section}-${index}-extra`)%choices.length],`Catatan ${sectionHeadings[section].toLowerCase()} untuk ${subject.toLowerCase()} diperiksa kembali terhadap SKU, target pelanggan, kondisi Indonesia, dan bukti yang tersedia sebelum keputusan dibuat.`);
+    return idText(`${prefix}-${section}-${index+1}`,`${sectionHeadings[section]} lanjutan untuk ${subject}`,choices[hash(`${[...key].reverse().join("")}-${section}-${index}-extra`)%choices.length],`Catatan ${sectionHeadings[section].toLowerCase()} untuk ${subject.toLowerCase()} diperiksa kembali terhadap SKU, target pelanggan, kondisi Indonesia, dan bukti yang tersedia sebelum keputusan dibuat.`);
   });
 }
 
@@ -195,6 +296,18 @@ function productSpecificAngle(slug:string,name:string){
   return [`${name} ditempatkan dalam assortment berdasarkan fungsi, target pelanggan, unit penjualan, display, penyimpanan, dan kecepatan repeat order. Buyer menetapkan alasan komersial setiap varian sebelum menambahkannya ke RFQ.`,"Periksa interface, finishing, identifikasi, aksesori, karton, dan cara pelanggan menggunakan produk. Varian yang serupa harus memiliki pembeda yang dapat dijelaskan, diukur, serta dipertahankan antarbatch."];
 }
 
+function productEditorialLead(source:string,name:string,category:string){
+  const [useCase,operationalRisk]=productSpecificAngle(source,name);
+  return [
+    idAnswer(`ringkasan-${source}`,`Ringkasan evaluasi ${name}`,`${useCase} Keputusan pembelian harus mengikat konfigurasi ${name} pada kode SKU, penggunaan, sampel yang disetujui, kriteria QC, dan rencana pemesanan ulang.`),
+    idDefinition(`definisi-${source}`,`Definisi pesanan ${name}`,`${name} adalah satu konfigurasi ${category.toLowerCase()} yang harus dikenali melalui kode, material, geometri, fungsi, finishing, marking, isi kemasan, dan revisi. Nama dagang saja tidak cukup untuk menyamakan dua penawaran atau dua batch.`),
+    idText(`konstruksi-${source}`,`Konstruksi yang perlu diperiksa pada ${name}`,materialText(source,name),`Untuk halaman ${name}, data material harus dibaca bersama drawing, metode sambungan, finishing, titik kontak, dan perubahan geometri antarvarian. Inilah dasar pembeda teknis ${name} di dalam kategori ${category.toLowerCase()}.`),
+    idText(`fungsi-${source}`,`Fungsi dan batas penggunaan ${name}`,geometryText(source,name),operationalRisk),
+    idTable(`keputusan-${source}`,`Matriks keputusan khusus ${name}`,["Keputusan","Data khusus halaman","Bukti sebelum order"],[["Konfigurasi",`${name}, varian, dan penggunaan target`,"Kode SKU serta drawing"],["Konstruksi","Material, geometri, interface, finishing","Sampel teridentifikasi"],["Operasional","Ruang, penyimpanan, pembersihan, servis","Uji pada kondisi target"],["Batch","Toleransi, marking, kemasan, jumlah","Rencana QC dan packing list"],["Repeat order","Revisi, referensi warna, komponen","Arsip persetujuan"]],`Tabel ini berlaku untuk ${name}; model lain perlu matriksnya sendiri.`),
+    idChecklist(`checklist-${source}`,`Checklist persetujuan ${name}`,[`Kunci kode dan nama ${name}`,"Nyatakan penggunaan serta pengguna target","Konfirmasi material setiap komponen kritis","Ukur geometri dan interface yang berfungsi","Setujui finishing, marking, dan logo","Uji penyimpanan atau pemasangan yang relevan","Tentukan sampling dan batas penerimaan","Verifikasi karton, pallet, dan identitas SKU","Catat deviasi yang diterima","Simpan revisi untuk repeat order"])
+  ];
+}
+
 function specialProductBlocks(source:string,name:string){
   if(source==="tpu-dumbbell-kg")return[
     idAnswer("jawaban-cepat-khusus","Jawaban cepat",`${name} cocok untuk buyer yang menempatkan konsistensi permukaan, warna, kebersihan, dan identitas seri sebagai bagian penting dari nilai produk. Keputusan tidak cukup berdasarkan label TPU: minta konstruksi per komponen, sampel beberapa berat, referensi warna, metode marking, hasil pembersihan, serta batas cacat visual yang dapat diterapkan pada batch.`),
@@ -206,10 +319,10 @@ function specialProductBlocks(source:string,name:string){
     idChecklist("checklist-tpu","Checklist buyer untuk dumbbell TPU",["Tentukan area produk yang memakai TPU","Pilih titik berat untuk sampel seri","Setujui tekstur, kilap, warna, dan mould line","Ukur ruang grip dan kecocokan rack","Verifikasi marking pada berat ringan dan berat","Catat prosedur pembersihan yang diuji","Pisahkan MOQ warna, logo, dan setiap SKU","Periksa perlindungan kepala di dalam karton","Simpan referensi warna serta revisi artwork","Bandingkan repeat order dengan sampel terkontrol"])
   ];
   if(source==="cpu-compact-dumbbell")return[
-    idAnswer("jawaban-cepat-khusus","Jawaban cepat",`${name} ditujukan untuk lineup yang membutuhkan jejak penyimpanan ringkas tanpa mengorbankan ruang tangan, pembacaan berat, dan identitas SKU. Buyer harus menguji geometri kepala CPU, panjang handle, jarak antarunit di rack, stabilitas saat diletakkan, serta kemasan per berat sebelum menilai kepadatan set.`),
+    idAnswer("jawaban-cepat-khusus","Jawaban cepat",`${name} ditujukan untuk rangkaian yang perlu penyimpanan ringkas tanpa mengorbankan ruang tangan, keterbacaan berat, dan identitas SKU. Pembeli perlu menguji geometri kepala CPU, panjang pegangan, jarak antarunit di rak, dan stabilitas sebelum menilai kepadatan set.`),
     idDefinition("definisi-khusus",`Apa itu ${name}?`,`${name} adalah dumbbell berlapis CPU dengan proporsi kepala yang dirancang ringkas pada konfigurasi tertentu. Kata kompak harus dibuktikan melalui drawing, dimensi per berat, panjang keseluruhan, area grip, dan jumlah unit yang dapat ditempatkan pada rack; bukan sekadar kesan dari foto katalog.`),
     idText("geometri-kompak","Geometri, grip, dan rack",`Ukur diameter atau envelope kepala, panjang kepala, lebar grip, panjang keseluruhan, serta clearance jari. Lakukan pemeriksaan pada berat ringan, tengah, dan berat karena perubahan inti dapat mengubah proporsi. Letakkan pasangan bersebelahan untuk melihat apakah tangan dapat mengambil unit tanpa menyentuh kepala lain.`,`Cocokkan seri dengan saddle atau tray rack yang benar. Catat orientasi dumbbell, jarak pusat, tinggi pengambilan, kapasitas setiap tingkat, dan risiko rolling. Klaim hemat ruang hanya dapat dibuat setelah lineup aktual dipetakan pada rack serta area sirkulasi fasilitas.`),
-    idText("qc-cpu-kompak","QC khusus konstruksi CPU kompak",`Periksa pengisian di sekitar inti, simetri kepala, garis mould, sudut, tepi, posisi handle, centering, marking berat, dan kestabilan pada permukaan datar. Batas visual perlu dibedakan dari cacat yang memengaruhi fungsi, agar keputusan penerimaan tidak berubah antarinspektur.`,`Timbang dan ukur setiap titik seri sesuai rencana sampling yang disetujui. Jika tooling atau inti berbeda menurut berat, laporan harus mengidentifikasi cavity, model, dan revisi. Data tersebut membantu mencari penyebab bila satu SKU menyimpang sementara SKU lain tetap sesuai.`),
+    idText("qc-cpu-kompak","QC khusus konstruksi CPU kompak",`Periksa pengisian di sekitar inti, simetri kepala, garis cetakan, sudut, tepi, posisi pegangan, pemusatan, penandaan berat, dan kestabilan. Bedakan batas tampilan dari cacat fungsi agar keputusan penerimaan tetap konsisten.`,`Timbang dan ukur setiap titik seri sesuai rencana pengambilan sampel. Jika alat cetak atau inti berbeda menurut berat, catat rongga cetak, model, dan revisinya agar penyebab penyimpangan SKU mudah ditelusuri.`),
     idText("assortment-kompak","Menyusun assortment kompak",`Distributor dapat memilih rentang penuh, titik berat utama, atau paket menurut segmen pelanggan. Hitung jumlah pasangan, ruang rack, unit pengganti, bobot pengiriman, dan kecepatan rotasi per SKU. Jangan menambah semua increment bila pasar, ruang, atau modal kerja tidak mendukung.`,`Brief merek sendiri mencantumkan posisi logo pada kepala yang lebih kecil, keterbacaan angka, kontras warna, dan foto listing. Sampel kemasan perlu memastikan kepala tidak saling menekan, handle terlindungi, label mudah dipindai, dan karton dapat ditangani sesuai beratnya.`),
     idTable("perbandingan-kompak","Perbandingan konfigurasi kompak",["Area","Pertanyaan","Bukti"],[["Dimensi","Seberapa ringkas per berat?","Drawing lineup"],["Grip","Apakah tangan memiliki clearance?","Uji pengguna"],["Rack","Berapa pasangan per tingkat?","Layout aktual"],["Marking","Apakah angka tetap terbaca?","Sampel beberapa berat"],["Kemasan","Apakah kepala terlindungi?","Drop/handling plan"]]),
     idChecklist("checklist-cpu-kompak","Checklist buyer untuk dumbbell CPU kompak",["Minta dimensi per titik berat","Ukur clearance tangan dan lebar grip","Uji kecocokan pada rack yang dipilih","Periksa stabilitas ketika unit diletakkan","Setujui marking yang tetap terbaca","Identifikasi tooling atau inti per kelompok berat","Hitung kapasitas set dan kebutuhan pengganti","Validasi karton menurut pusat massa","Pisahkan MOQ per berat, logo, dan warna","Arsipkan drawing lineup untuk repeat order"])
@@ -242,9 +355,10 @@ function productVersion(entity:ContentEntity):LocalizedContentVersion{
     idText("permintaan-penawaran","Cara meminta penawaran",`Kirim nama ${name}, jumlah per SKU, kebutuhan logo atau warna, kemasan, tujuan Indonesia, Incoterm, serta jadwal. PowerBaseFit akan menilai kelayakan, MOQ, harga, sampel, lead time, dan rencana QC berdasarkan konfigurasi tersebut.`,`Bandingkan penawaran dengan scope yang sama. Harga yang lebih rendah dapat belum memasukkan artwork, tooling, karton, pallet, aksesori, spare part, inspeksi, atau transportasi. Semua asumsi harus terlihat sebelum supplier dipilih.`)
   ];
   const replaced=new Set(["posisi-pasar","produksi","kontrol-kualitas","kemasan","oem-odm","pengadaan-b2b","pengalaman-pabrik","permintaan-penawaran"]);
-  let localizedBody=body.filter((block)=>!replaced.has(block.id));
+  const genericLead=new Set(["jawaban-cepat","definisi","tabel-spesifikasi","material","geometri","aplikasi-spesifik","pembeda-sku","checklist"]);
+  let localizedBody=[...productEditorialLead(source,name,category),...body.filter((block)=>!replaced.has(block.id)&&!genericLead.has(block.id))];
   const special=specialProductBlocks(source,name);
-  if(special.length){const replaceSpecial=new Set(["jawaban-cepat","definisi","pembeda-sku","perbandingan","catatan-khusus","verifikasi-khusus"]);localizedBody=[...special,...localizedBody.filter((block)=>!replaceSpecial.has(block.id))];}
+  if(special.length){const replaceSpecial=new Set(["perbandingan","catatan-khusus","verifikasi-khusus"]);localizedBody=[...special,...localizedBody.filter((block)=>!replaceSpecial.has(block.id))];}
   localizedBody.splice(7,0,...distinctBlocks(source,name),...extraDistinctBlocks(source,name,"pendalaman",1));
   return base({slug,publicPath:path,title:`${name} | Produsen OEM PowerBaseFit`,description:`${name} untuk gym dan distributor: material, spesifikasi, produksi, QC, kemasan ekspor, OEM, ODM, logo, dan penawaran B2B.`,h1:`${name} untuk gym profesional dan pengadaan B2B`,body:localizedBody,faq:[{id:"faq-1",question:`Berapa MOQ untuk ${name.toLowerCase()}?`,answer:"MOQ bergantung pada model, varian, bahan, logo, dan kemasan; nilainya dikonfirmasi setelah brief proyek."},{id:"faq-2",question:"Apakah perlu menyetujui sampel?",answer:"Ya bila material, fungsi, finishing, logo, atau karton memengaruhi hasil. Catat revisi dan kriteria persetujuannya."},{id:"faq-3",question:"Bagaimana kualitas batch diperiksa?",answer:"Melalui incoming inspection, pemeriksaan selama proses, dan final inspection terhadap identitas, ukuran, fungsi, permukaan, marking, serta kemasan berdasarkan rencana yang disepakati."},{id:"faq-4",question:"Apakah produk dapat memakai merek sendiri?",answer:"Dapat untuk konfigurasi dan volume yang sesuai. Metode, artwork, posisi, ketahanan, MOQ, dan sampel dikonfirmasi sebelum produksi."},{id:"faq-5",question:"Data apa yang diperlukan untuk harga?",answer:"Kirim jumlah per varian, penggunaan, kustomisasi, kemasan, tujuan, Incoterm, dan jadwal agar penawaran dapat dihitung serta dibandingkan."}],author:indonesianEditorialAuthor,reviewedBy:indonesianTechnicalReviewer,schemaData:{sku:entity.versions.en?.schemaData.sku??`PBF-${source.toUpperCase()}`,brand:"PowerBaseFit",manufacturer:"PowerBaseFit",material:materialText(source,name).split(".")[0],category,specifications:[{name:"Produk",value:name},{name:"Varian",value:"Sesuai SKU dan penawaran yang disetujui"},{name:"Berat dan ukuran",value:"Dikonfirmasi per konfigurasi pada drawing dan packing list"},{name:"Tujuan",value:"Gym, distributor, importir, dan merek fitness"}],breadcrumbs:[{name:"Beranda",path:"/id"},{name:"Produk",path:"/id/produk"},{name:category,path:`/id/produk/${group}`},{name,path}],extra:{primaryKeyword:`${name.toLowerCase()} profesional`,searchIntent:"evaluasi produk, supplier, dan permintaan penawaran B2B"}},images,internalLinks:[{targetContentId:group==="dumbbell"?"dumbbells-category":group==="piring-beban"?"weight-plates-category":group==="rak-bangku"?"racks-benches-category":"gym-accessories-category",label:"Lihat kategori produk"},{targetContentId:"factory",label:"Pelajari produksi dan kontrol kualitas"},{targetContentId:"oem-private-label",label:"Tinjau OEM dan merek sendiri"},{targetContentId:"contact",label:"Minta penawaran B2B"}]});
 }
@@ -253,7 +367,12 @@ function coreVersion(entity:ContentEntity,profile:CoreProfile):LocalizedContentV
   const first=entity.versions.en?.images[0]?.src??"/assets/hero-poster.avif";
   const images=[first,"/assets/dumbbell-production.webp","/assets/factory-cases/packaging-area-pbf.webp"].map((src,index)=>({id:`gambar-${index+1}`,src:indonesianImagePath(src,slugify(profile.keyword),index),alt:index===0?`${profile.h1} PowerBaseFit`:index===1?`Proses produksi nyata peralatan gym PowerBaseFit`:`Area kemasan ekspor nyata di pabrik PowerBaseFit`,caption:index===0?"Aset nyata PowerBaseFit yang berkaitan dengan halaman ini.":index===1?"Proses produksi harus mengikuti spesifikasi dan revisi produk yang disetujui.":"Kemasan dan packing list diperiksa sebelum barang dikirim."}));
   const body=[idAnswer("jawaban","Jawaban cepat",`${profile.h1}. Halaman ini membantu buyer Indonesia untuk ${profile.role} dengan data yang dapat dimasukkan ke RFQ, sampel, QC, kemasan, dan keputusan pengadaan.`),idDefinition("definisi",profile.keyword,`${profile.keyword} dalam konteks PowerBaseFit berarti layanan manufaktur dan pasokan B2B yang menghubungkan produk nyata, spesifikasi, kontrol mutu, kustomisasi, serta dokumen pesanan; bukan klaim umum tanpa model atau bukti.`),idText("fokus","Fokus halaman",profile.focus,`Buyer perlu memisahkan fakta produk, nilai yang masih harus dikonfirmasi, dan tanggung jawab di Indonesia. PowerBaseFit menyediakan informasi produksi dan ekspor; importir serta profesional setempat menentukan klasifikasi, perizinan, instalasi, pajak, dan kewajiban yang berlaku.`),idTable("alur","Alur keputusan B2B",["Tahap","Data utama","Hasil"],[["Kebutuhan","Pengguna, pasar, produk, jumlah","Brief"],["Spesifikasi","Bahan, ukuran, fungsi, tampilan","RFQ"],["Validasi","Sampel, artwork, metode uji","Versi disetujui"],["Produksi","Revisi, proses, pemeriksaan","Batch teridentifikasi"],["Pengiriman","Karton, pallet, Incoterm, tujuan","Packing list dan dokumen"]]),idText("supplier","Menilai produsen dan penawaran",`Penawaran harus menyebut SKU, jumlah per varian, bahan, konfigurasi, logo, kemasan, MOQ, sampel, lead time, QC, Incoterm, dan named place. Sel yang kosong dianggap pertanyaan terbuka, bukan otomatis termasuk.`,`Buyer dapat meminta bukti yang berkaitan dengan produk nyata: drawing, sampel, catatan ukuran, foto proses, laporan inspeksi, identifikasi karton, atau packing list. Bukti generik tidak menggantikan data untuk SKU yang dibeli.`),idText("pasar-indonesia","Konteks pembelian Indonesia","Pasar Indonesia memakai istilah alat fitness, peralatan gym komersial, distributor, importir, supplier, pabrik, grosir, dan minta penawaran. Istilah Inggris seperti dumbbell, bumper plate, power rack, OEM, ODM, MOQ, dan private label tetap digunakan ketika sudah lazim dalam perdagangan.","Kondisi pelabuhan, perizinan, HS code, bea, pajak, standar, label, instalasi, dan pengiriman domestik dapat berbeda menurut barang dan transaksi. Verifikasi aktual dilakukan oleh importir, customs broker, freight forwarder, atau pihak berwenang yang kompeten."),idText("kualitas","Kualitas dan bukti","Kualitas didefinisikan melalui spesifikasi, metode pemeriksaan, batas penerimaan, sampling, dan tindakan bila hasil tidak sesuai. Pernyataan seperti heavy-duty, commercial grade, atau premium perlu diterjemahkan menjadi bahan, geometri, fungsi, pengujian, dan dokumentasi.","Sampel tidak otomatis mewakili batch bila revisi, material, tooling, atau proses berubah. Identifikasi versi dan change control menjaga hubungan antara persetujuan awal, produksi, inspeksi akhir, dan repeat order."),idText("oem","OEM, ODM, dan merek sendiri","Logo, warna, marking, label, dan karton dapat dinilai sebagai kustomisasi identitas. Perubahan struktur, fungsi, mould, atau tooling memerlukan jalur pengembangan, sampel, pengujian, biaya, dan waktu yang berbeda.","MOQ dihitung menurut produk dan proses. Buyer sebaiknya mengirim daftar SKU serta volume yang realistis sehingga supplier dapat memisahkan pilihan standar, private label, dan pengembangan ODM."),idChecklist("checklist","Checklist sebelum menghubungi supplier",["Tentukan tipe buyer dan pasar penjualan","Susun produk serta jumlah per SKU","Jelaskan penggunaan dan tingkat pemakaian","Pisahkan persyaratan wajib dan opsi","Tentukan kebutuhan logo, warna, dan kemasan","Kirim tujuan dan Incoterm yang diinginkan","Minta data berat, volume, karton, dan pallet","Rencanakan sampel serta inspeksi","Verifikasi tanggung jawab impor di Indonesia","Simpan revisi untuk repeat order"]),uniqueNotes(entity.id,profile.keyword),idText("tindakan","Langkah berikutnya",`Siapkan brief yang menyebut ${profile.keyword}, produk, jumlah, target pelanggan, kustomisasi, tujuan, dan jadwal. PowerBaseFit akan menandai data yang memengaruhi kelayakan, MOQ, sampel, harga, QC, serta pengiriman.`,`Jika informasi kritis belum tersedia, langkah yang benar dapat berupa klarifikasi teknis atau sampel, bukan harga prematur. Urutan tersebut mengurangi revisi, biaya tersembunyi, dan perbandingan penawaran yang tidak setara.`)];
-  if(entity.id==="contact")body.push({id:"formulir-permintaan",type:"custom",heading:"Kirim detail proyek B2B",content:"Isi data perusahaan, produk, jumlah, kustomisasi, tujuan, dan jadwal yang sudah diketahui. Pertanyaan yang belum terjawab dapat ditulis pada kolom pesan.",data:{component:"inquiry-form"}});
+  body.unshift(
+    idAnswer(`orientasi-${entity.id}`,`Tujuan halaman ${profile.keyword}`,profile.focus),
+    idText(`keputusan-${entity.id}`,`Keputusan utama: ${profile.keyword}`,`Halaman ini dibuat khusus untuk membantu buyer ${profile.role}. Data yang dikumpulkan harus berakhir pada keputusan yang dapat ditindaklanjuti, bukan sekadar pengenalan umum.`,`Untuk ${profile.keyword}, tulis kebutuhan, bukti yang tersedia, pertanyaan terbuka, penanggung jawab, dan langkah berikutnya. Struktur tersebut disesuaikan dengan fungsi halaman ini dan tidak dipakai sebagai pengganti halaman produk atau panduan teknis.`)
+  );
+  for(const block of body){if(block.heading&&!block.heading.includes(profile.keyword))block.heading=`${block.heading} — ${profile.keyword}`;}
+  if(entity.id==="contact")body.push({id:"formulir-permintaan",type:"custom",heading:`Kirim detail proyek ${profile.keyword}`,content:"Isi data perusahaan, produk, jumlah, kustomisasi, tujuan, dan jadwal yang sudah diketahui. Pertanyaan yang belum terjawab dapat ditulis pada kolom pesan.",data:{component:"inquiry-form"}});
   const faq=[{id:"faq-1",question:`Apa langkah pertama untuk ${profile.keyword}?`,answer:"Tetapkan kebutuhan bisnis, pengguna, produk, jumlah, tujuan, dan keputusan yang perlu dibuat sebelum meminta harga."},{id:"faq-2",question:"Apakah PowerBaseFit melayani OEM dan private label?",answer:"Ya untuk produk, proses, dan volume yang sesuai. Kelayakan, MOQ, artwork, sampel, QC, serta kemasan dikonfirmasi per proyek."},{id:"faq-3",question:"Bagaimana cara membandingkan supplier?",answer:"Kirim RFQ yang sama dan bandingkan scope yang sama: spesifikasi, jumlah, sampel, kustomisasi, QC, kemasan, Incoterm, dan pengecualian."},{id:"faq-4",question:"Siapa yang memeriksa aturan impor Indonesia?",answer:"Importir dan profesional terkait memverifikasi klasifikasi, dokumen, perizinan, bea, pajak, serta kewajiban yang berlaku untuk transaksi aktual."},{id:"faq-5",question:"Data apa yang harus dikirim untuk penawaran?",answer:"Produk, jumlah per varian, penggunaan, logo, warna, kemasan, tujuan, Incoterm, jadwal, dan persyaratan wajib."}];
   return base({slug:profile.path.split("/").filter(Boolean).pop()||"id",publicPath:profile.path,title:profile.title,description:profile.description,h1:profile.h1,body,faq,author:indonesianEditorialAuthor,reviewedBy:indonesianTechnicalReviewer,schemaData:{brand:"PowerBaseFit",manufacturer:"PowerBaseFit",category:"Peralatan gym profesional",specifications:[{name:"Topik",value:profile.keyword},{name:"Tujuan",value:profile.role}],breadcrumbs:[{name:"Beranda",path:"/id"},{name:profile.h1,path:profile.path}],extra:{primaryKeyword:profile.keyword,searchIntent:profile.role}},images,internalLinks:entity.id==="contact"?[]:[{targetContentId:"products-hub",label:"Jelajahi produk"},{targetContentId:"factory",label:"Lihat proses pabrik"},{targetContentId:"oem-private-label",label:"Pelajari OEM dan merek sendiri"},{targetContentId:"contact",label:"Minta penawaran"}]});
 }
@@ -286,7 +405,8 @@ function guideVersion(entity:ContentEntity,profile:GuideProfile):LocalizedConten
   body.splice(17,0,...extraDistinctBlocks(entity.id,profile.keyword,"analisis-lanjutan",3));
   body.splice(6,0,idText("pendalaman-intent",`Pendalaman ${profile.keyword}`,profile.angle,`Dalam topik ${profile.keyword}, buyer perlu menulis keputusan yang diharapkan, data minimum, pihak yang memverifikasi, dan bukti penerimaan. Gunakan ${profile.keyword} sebagai masalah operasional yang memiliki input, metode, output, dan tindakan, bukan sekadar frasa pencarian.`,`Buat contoh dengan SKU, jumlah, tujuan, dan batas waktu yang realistis. Tunjukkan bagaimana perubahan pada material, konfigurasi, MOQ, inspeksi, kemasan, atau freight memengaruhi ${profile.intent}. Dengan demikian pembaca dapat mengadaptasi panduan tanpa menganggap satu jawaban berlaku untuk semua transaksi.`));
   body.splice(8,0,idText("keputusan-topik",`Keputusan khusus untuk ${profile.keyword}`,`${profile.keyword} perlu berakhir pada keputusan yang dapat diaudit. Tulis pilihan yang diterima, alternatif yang ditolak, asumsi, bukti, biaya, risiko, dan pihak yang menyetujui. Bila data ${profile.keyword} berubah, buyer dapat melihat bagian mana dari quotation, sampel, QC, atau landed cost yang harus diperbarui.`,`Gunakan istilah ${profile.keyword} secara konsisten pada brief, tabel perbandingan, komunikasi supplier, dan ringkasan internal. Konsistensi ini membantu importir, distributor, pemilik gym, serta brand membahas masalah yang sama tanpa menyamakan perkiraan, klaim pemasaran, dan data terverifikasi.`));
-  const special=specialGuideBlocks(entity.id);const replaceSpecial=new Set(["jawaban-cepat","definisi","matriks","metode","perbandingan","checklist","catatan-khusus","verifikasi-topik"]);const localizedBody=special.length?[...special,...body.filter((block)=>!replaceSpecial.has(block.id))]:body;
+  body.unshift(idAnswer(`fokus-${entity.id}`,`Fokus panduan: ${profile.keyword}`,`${profile.angle} Panduan ini hanya membahas keputusan ${profile.intent}; halaman produk, pabrik, dan penawaran memiliki fungsi yang berbeda.`));
+  const special=specialGuideBlocks(entity.id);const replaceSpecial=new Set(["jawaban-cepat","definisi","matriks","metode","perbandingan","checklist","catatan-khusus","verifikasi-topik"]);const localizedBody=(special.length?[...special,...body.filter((block)=>!replaceSpecial.has(block.id))]:body).map((block)=>block.heading&&!block.heading.includes(profile.keyword)?{...block,heading:`${block.heading} — ${profile.keyword}`}:block);
   return base({slug:profile.slug,publicPath:path,title:`${profile.title} | PowerBaseFit`,description:`Panduan Indonesia tentang ${profile.keyword}: metode, perbandingan, tabel, checklist, QC, pengadaan, dan pertanyaan untuk supplier.`,h1:profile.h1,body:localizedBody,faq:[{id:"faq-1",question:`Apa langkah pertama untuk ${profile.keyword}?`,answer:"Tentukan tujuan, pengguna, volume, dan keputusan yang perlu dibuat; setelah itu bandingkan produk, supplier, dan harga."},{id:"faq-2",question:"Apakah sampel selalu diperlukan?",answer:"Sampel disarankan bila bahan, ukuran, fungsi, finishing, logo, atau kemasan memengaruhi hasil. Tujuan sampel harus ditulis."},{id:"faq-3",question:"Bagaimana membandingkan dua supplier?",answer:"Gunakan RFQ dan scope yang sama: produk, jumlah, kustomisasi, QC, kemasan, Incoterm, serta biaya yang dikecualikan."},{id:"faq-4",question:"Apakah final inspection menggantikan kontrol proses?",answer:"Tidak. Kontrol proses mencegah dan menemukan deviasi lebih awal; final inspection menilai batch yang sudah selesai."},{id:"faq-5",question:"Siapa yang memverifikasi persyaratan impor?",answer:"Importir dan profesional terkait memeriksa kewajiban yang berlaku di Indonesia menggunakan sumber resmi terbaru untuk transaksi aktual."}],author:indonesianEditorialAuthor,reviewedBy:indonesianTechnicalReviewer,schemaData:{brand:"PowerBaseFit",manufacturer:"PowerBaseFit",category:"Panduan pengadaan B2B",specifications:[{name:"Topik",value:profile.keyword},{name:"Intent",value:profile.intent}],breadcrumbs:[{name:"Beranda",path:"/id"},{name:"Panduan",path:"/id/blog"},{name:profile.h1,path}],extra:{primaryKeyword:profile.keyword,searchIntent:profile.intent}},images,internalLinks:[{targetContentId:"products-hub",label:"Jelajahi semua produk"},{targetContentId:"factory",label:"Pelajari produksi dan kualitas"},{targetContentId:"oem-private-label",label:"Tinjau OEM dan merek sendiri"},{targetContentId:"contact",label:"Kirim permintaan B2B"}]});
 }
 

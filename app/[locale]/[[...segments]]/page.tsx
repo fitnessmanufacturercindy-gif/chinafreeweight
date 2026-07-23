@@ -50,7 +50,7 @@ export default async function LocalizedPage({ params }: LocalizedPageProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      {content.version.locale === "pl" || content.version.locale === "nl" ? <IndonesianMirrorPage content={content} /> : <LocalizedPageTemplate content={content} />}
+      {content.version.locale === "id" || content.version.locale === "pl" || content.version.locale === "nl" ? <IndonesianMirrorPage content={content} /> : <LocalizedPageTemplate content={content} />}
     </>
   );
 }
