@@ -17,6 +17,11 @@
     "quality:gate": "node scripts/quality-gate.mjs",
     "seo:submit": "node scripts/submit-search-engines.mjs",
     "dataforseo:test": "node scripts/test-dataforseo-connection.mjs"
+    ,"content:acquire": "node scripts/daily-content-ops.mjs acquire"
+    ,"content:release": "node scripts/daily-content-ops.mjs release"
+    ,"content:init": "node scripts/daily-content-ops.mjs init"
+    ,"content:qa": "node scripts/daily-content-ops.mjs qa"
+    ,"content:record": "node scripts/daily-content-ops.mjs record"
   },
   "browserslist": [
     "Chrome >= 111",
