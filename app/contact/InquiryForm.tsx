@@ -2,6 +2,7 @@
 
 import { Send } from "lucide-react";
 import { FormEvent, useEffect, useState } from "react";
+import LeadAttributionFields from "../components/LeadAttributionFields";
 
 type FormValues = {
   name: string;
@@ -120,6 +121,7 @@ export default function InquiryForm() {
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_next" value="https://www.chinafreeweight.com/contact?inquiry=sent#inquiry" />
       <input type="hidden" name="source" value="ChinaFreeWeight contact page" />
+      <LeadAttributionFields language="en" />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>
         Name <span className="required-mark">*</span>

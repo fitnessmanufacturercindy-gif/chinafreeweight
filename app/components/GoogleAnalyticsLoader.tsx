@@ -19,7 +19,6 @@ export default function GoogleAnalyticsLoader({ measurementId }: Props) {
     if (!measurementId) return;
     const win = window as IdleWindow;
     let idleId: number | undefined;
-    let timeoutId: number | undefined;
 
     const loadAnalytics = () => {
       if (document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${measurementId}"]`)) return;
@@ -39,10 +38,8 @@ export default function GoogleAnalyticsLoader({ measurementId }: Props) {
     };
 
     const scheduleAnalytics = () => {
-      timeoutId = window.setTimeout(() => {
-        if (win.requestIdleCallback) idleId = win.requestIdleCallback(loadAnalytics, { timeout: 2000 });
-        else loadAnalytics();
-      }, 5000);
+      if (win.requestIdleCallback) idleId = win.requestIdleCallback(loadAnalytics, { timeout: 1000 });
+      else loadAnalytics();
     };
 
     if (document.readyState === "complete") {
@@ -54,7 +51,6 @@ export default function GoogleAnalyticsLoader({ measurementId }: Props) {
     return () => {
       window.removeEventListener("load", scheduleAnalytics);
       if (idleId !== undefined) win.cancelIdleCallback?.(idleId);
-      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
     };
   }, [measurementId]);
 
