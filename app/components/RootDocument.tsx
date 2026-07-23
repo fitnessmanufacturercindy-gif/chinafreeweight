@@ -1,5 +1,4 @@
 import DelayedAnalyticsEvents from "./DelayedAnalyticsEvents";
-import GoogleAnalyticsLoader from "./GoogleAnalyticsLoader";
 import WhatsAppButton from "./WhatsAppButton";
 import { localBusinessJsonLd, organizationJsonLd, websiteJsonLd } from "../site";
 import "../globals.css";
@@ -123,6 +122,22 @@ export default function RootDocument({
     <html lang={lang} dir={direction}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        {gaMeasurementId ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  window.gtag = window.gtag || gtag;
+                  gtag('js', new Date());
+                  gtag('config', ${JSON.stringify(gaMeasurementId)});
+                `
+              }}
+            />
+          </>
+        ) : null}
         {preloadEnglishHero ? (
           <>
             <link rel="preload" as="image" href="/assets/hero-poster.avif" type="image/avif" media="(min-width: 701px)" fetchPriority="high" />
@@ -139,7 +154,6 @@ export default function RootDocument({
         {footer}
         <WhatsAppButton label={whatsAppLabel} message={whatsAppMessage} />
         <DelayedAnalyticsEvents />
-        <GoogleAnalyticsLoader measurementId={gaMeasurementId} />
       </body>
     </html>
   );
