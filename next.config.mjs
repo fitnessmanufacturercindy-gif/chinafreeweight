@@ -9,6 +9,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/manufacturer/rubber-hex-dumbbell-manufacturer",
+        destination: "/manufacturer/rubber-hex-dumbbells-manufacturer",
+        permanent: true
+      },
+      {
         source: "/:path*",
         has: [
           {

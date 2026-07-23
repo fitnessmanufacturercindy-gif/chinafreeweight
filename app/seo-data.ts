@@ -27,7 +27,7 @@ export const staticSeoRoutes: SeoRoute[] = [
   { path: "/projects", type: "static", title: "Projects", image: "/assets/case-showroom.avif" },
   { path: "/resources", type: "static", title: "Resources", image: "/assets/resource-cnc-machining.avif" },
   { path: "/contact", type: "static", title: "Contact" },
-  { path: "/manufacturer/rubber-hex-dumbbell-manufacturer", type: "landing", title: "Rubber Hex Dumbbell Manufacturer", image: "/assets/hex-dumbbells.avif" }
+  { path: "/manufacturer/rubber-hex-dumbbells-manufacturer", type: "landing", title: "Rubber Hex Dumbbells Manufacturer China", image: "/assets/hex-dumbbells.avif" }
 ];
 
 export function absoluteUrl(path: string) {

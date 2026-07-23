@@ -44,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
   const seoLandingRoutes = [
-    "/manufacturer/rubber-hex-dumbbell-manufacturer"
+    "/manufacturer/rubber-hex-dumbbells-manufacturer"
   ];
 
   const englishSitemap = [

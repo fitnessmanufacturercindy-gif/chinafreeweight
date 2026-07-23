@@ -91,7 +91,7 @@ export const seoExpansionPortuguesePages: PilotPage[] = [
   {
     id: "rubber-hex-dumbbell-manufacturer",
     type: "landing",
-    enPath: "/manufacturer/rubber-hex-dumbbell-manufacturer",
+    enPath: "/manufacturer/rubber-hex-dumbbells-manufacturer",
     ptPath: "/pt/fabricante/halteres-sextavados-de-borracha",
     enTitle: "Rubber Hex Dumbbell Manufacturer",
     title: "Fabricante de halteres sextavados de borracha OEM | PowerBaseFit",
