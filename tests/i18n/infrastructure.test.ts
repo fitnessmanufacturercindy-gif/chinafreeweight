@@ -647,6 +647,11 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AIO|AI Search|keyword optimization|ranking optimization)\b/i, `${version.publicPath}: no internal terminology`);
     assert.doesNotMatch(visibleText(version), /\uFFFD|鈥|脿|Ã/, `${version.publicPath}: no mojibake`);
+    assert.doesNotMatch(
+      visibleText(version),
+      /\b(?:buyer|supplier|private[- ]label|repeat order|landed cost|quotation|drawing|finishing|marking|interface|alignment|packing list|packing instruction|commercial grade|heavy-duty|lead time|final inspection|incoming inspection|control plan|change control|golden sample|route card|heat treatment|artwork|forecast|packaging)\b/i,
+      `${version.publicPath}: no avoidable English procurement prose`
+    );
 
     const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
     assert.equal(metadata.alternates?.canonical, `${siteUrl}${version.publicPath}`, `${version.publicPath}: self canonical`);

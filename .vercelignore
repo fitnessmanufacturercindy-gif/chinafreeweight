@@ -1,4 +1,6 @@
 .learnings/
+.artifacts/
+.codex_work/
 reports/
 seo-engine/
 tsconfig.tsbuildinfo

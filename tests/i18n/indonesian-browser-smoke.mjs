@@ -55,9 +55,16 @@ try {
     assert.ok(nodes.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "id"), `${path}: FAQ schema`);
     if (/^\/id\/produk\/[^/]+\/[^/]+$/.test(path)) assert.ok(nodes.some((node) => node?.["@type"] === "Product" && node.inLanguage === "id"), `${path}: Product schema`);
     if (/^\/id\/blog\/[^/]+$/.test(path)) assert.ok(nodes.some((node) => node?.["@type"] === "BlogPosting" && node.inLanguage === "id"), `${path}: BlogPosting schema`);
-    const images = page.locator('main img[src^="/gambar-id/"]');
-    assert.ok(await images.count() >= 2, `${path}: localized real images`);
-    for (let index = 0; index < await images.count(); index += 1) assert.ok(((await images.nth(index).getAttribute("alt")) ?? "").length >= 20, `${path}: image alt`);
+    const mirror = page.locator("main[data-page-family]");
+    assert.equal(await mirror.count(), 1, `${path}: English-mirrored page family`);
+    assert.equal(await page.locator("main.localized-page").count(), 0, `${path}: legacy generic localized template removed`);
+    const images = mirror.locator("img");
+    assert.ok(await images.count() >= 1, `${path}: page-family imagery`);
+    for (let index = 0; index < await images.count(); index += 1) assert.ok(((await images.nth(index).getAttribute("alt")) ?? "").trim().length >= 4, `${path}: image alt`);
+    if (/^\/id\/produk\/[^/]+\/[^/]+$/.test(path)) {
+      assert.equal(await mirror.getAttribute("data-page-family"), "product-detail", `${path}: product layout`);
+      assert.ok(await mirror.locator('img[src^="/assets/products/"]').count() >= 1, `${path}: English product asset`);
+    }
     assert.equal(await page.locator('.route-language-switcher--desktop a[lang="id"]').count(), 1, `${path}: Indonesian switch option`);
   }
 
@@ -68,16 +75,20 @@ try {
   assert.equal(await page.locator('.route-language-switcher--desktop a[lang="id"]').getAttribute("href"), "/id/produk");
 
   await page.goto(testUrl("/id/kontak"), { waitUntil: "networkidle" });
+  assert.equal(await page.locator('main[data-page-family="contact"] img[src="/assets/project-dumbbell-zone.avif"]').count(), 1);
   assert.equal(await page.locator("form.quote-form").getAttribute("action"), "https://formsubmit.co/kloe@powerbasefit.com");
   assert.equal(await page.locator("form.quote-form").getAttribute("method"), "POST");
   assert.equal(await page.locator('form.quote-form input[name="_subject"]').getAttribute("value"), "Permintaan B2B baru dalam Bahasa Indonesia — ChinaFreeWeight");
   assert.match(await page.locator(".whatsapp-button").getAttribute("href"), /^https:\/\/wa\.me\/8618963018533/);
 
+  await page.goto(testUrl("/id"), { waitUntil: "domcontentloaded" });
+  assert.equal(await page.locator('main[data-page-family="home"] img[src="/assets/hero-poster.avif"]').count(), 1);
+
   const languageResponse = await page.goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(languageResponse);
   assert.equal(languageResponse.status(), 200);
   const languageXml = await languageResponse.text();
-  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 1237);
+  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 1481);
   assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 122);
   const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(robotsResponse);
