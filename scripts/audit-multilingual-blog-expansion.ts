@@ -14,6 +14,7 @@ const check = (condition: unknown, message: string) => {
 };
 
 const expectedLocales = ["en", "pt-BR", "es"] as const;
+const expectedHreflangSignature = ["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id", "pl", "nl", "x-default"].sort().join(",");
 const localePath = {
   en: /^\/resources\/[a-z0-9-]+$/,
   "pt-BR": /^\/pt\/blog\/[a-z0-9-]+$/,
@@ -78,7 +79,7 @@ for (const document of documents) {
   const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
   check(metadata.alternates?.canonical === `${siteUrl}${document.publicPath}`, `${label}: canonical mismatch`);
   const languages = metadata.alternates?.languages ?? {};
-  check(Object.keys(languages).sort().join(",") === ["en", "es", "pt-BR", "x-default"].sort().join(","), `${label}: incomplete hreflang cluster`);
+  check(Object.keys(languages).sort().join(",") === expectedHreflangSignature, `${label}: incomplete hreflang cluster`);
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
   const language = document.locale;
   check(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === language), `${label}: BlogPosting schema/language missing`);

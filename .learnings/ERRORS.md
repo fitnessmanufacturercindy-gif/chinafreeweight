@@ -309,3 +309,98 @@ Use Vercel deployment inspection to confirm build readiness and open the Preview
 - **Failure:** `APIRequestContext` timed out against the protected Preview after browser navigation had successfully visited every page using the shareable-link cookie.
 - **Impact:** The source/XML subcheck stopped despite the browser channel remaining available.
 - **Prevention:** For protected Preview verification, read the raw `Response` from the same browser navigation channel that established the shareable-link cookie instead of switching network stacks.
+
+## [ERR-20260724-001] powershell-inline-boolean-parser
+
+**Logged**: 2026-07-24T09:00:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+A PowerShell interpolation tried to combine a Git command, `$LASTEXITCODE`, and an inline conditional inside one expression and failed before execution.
+
+### Error
+
+```text
+Missing closing ')' in expression.
+```
+
+### Context
+
+- Task attempted: Validate a branch and path before creating the daily automation worktree.
+- Command/tool/API: PowerShell invoked through the shell tool.
+- Inputs: Inline `$(...)` interpolation containing a semicolon and `if` expression.
+- Environment: Windows PowerShell in Codex desktop.
+
+### Suspected Cause
+
+The nested command expression was syntactically ambiguous to Windows PowerShell.
+
+### Suggested Fix
+
+Run branch and path checks as separate statements and use their exit codes directly before calling `git worktree add`.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: none
+- Tags: powershell, git, worktree
+## [ERR-20260724-002] partial-node-modules-after-timeout
+
+**Logged**: 2026-07-24T09:08:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: environment
+
+### Summary
+An interrupted `npm ci` left a `node_modules` directory that existed but did not contain the project binaries, so checking only directory existence incorrectly skipped dependency installation.
+
+### Error
+`eslint`, `tsc`, `tsx`, and `next` were not recognized when the QA command chain ran.
+
+### Resolution
+Run `npm ci` to completion whenever `node_modules/.bin/next` is absent; do not use the parent directory alone as the readiness check.
+
+### Prevention
+Use `Test-Path node_modules/.bin/next.cmd` (or the platform equivalent) before skipping installation in a fresh worktree.
+
+---
+## [ERR-20260724-003] ci-daily-health-full-crawl-timeout
+
+**Logged**: 2026-07-24T10:08:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: CI
+
+### Summary
+The Website Quality Gate ran the daily Playwright health check against all 1,482 sitemap URLs in serial and both push and pull-request jobs hit the 40-minute workflow limit.
+
+### Error
+Both `quality-gate` runs completed build, lint, typecheck, unit tests, and the website quality gate, then timed out during `Run daily site health assertions`.
+
+### Resolution
+Added a policy-aware scope selector and `SITE_HEALTH_PATHS` support. Daily runs now check critical locale entrances, new URLs, and routes affected by changed files; Sunday includes seven days of changed routes; the first day of each month leaves the scope empty to request a full crawl.
+
+### Prevention
+Keep expensive browser health checks incremental outside the monthly full-site run, while retaining sitemap membership checks and protected-page regression controls.
+
+---
+## [ERR-20260724-004] health-contact-cta-false-positives
+
+**Logged**: 2026-07-24T10:27:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: QA
+
+### Summary
+The incremental health run reported product and RFQ content links as broken communication CTAs because the detector treated any anchor containing `quote` or `rfq` as a mail/phone/contact link.
+
+### Resolution
+Restricted the communication-target assertion to mail, email, phone, tel, and WhatsApp signals. The same 16-URL run then produced 0 Critical, 0 High, 16 successful pages, and a passing Playwright assertion.
+
+### Prevention
+Keep content-intent links separate from direct communication protocol checks; validate HTTP content links through the existing link-status crawler.
+
+---

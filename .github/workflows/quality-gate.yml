@@ -29,6 +29,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Select policy health scope
+        id: health-scope
+        run: node scripts/select-health-check-scope.mjs
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -101,6 +107,7 @@ jobs:
         env:
           SITE_HEALTH_BASE_URL: http://127.0.0.1:3000
           SITE_HEALTH_PUBLIC_URL: https://www.chinafreeweight.com
+          SITE_HEALTH_PATHS: ${{ steps.health-scope.outputs.paths }}
         run: |
           npm run site:health
           npm run test:site-health

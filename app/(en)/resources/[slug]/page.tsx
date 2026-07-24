@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: post.seoTitle,
     description: post.metaDescription,
     keywords: [post.primaryKeyword, ...post.secondaryKeywords],
-    authors: [{ name: "PowerBaseFit Technical Team", url: "/factory" }],
+    authors: [{ name: post.authorName, url: post.authorUrl }],
     alternates: getEnglishAlternates(`/resources/${post.slug}`),
     openGraph: {
       type: "article",
@@ -279,7 +279,11 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
       image: [`${siteUrl}${post.coverImage}`, ...post.articleImages.map((image) => `${siteUrl}${image.src}`)],
       datePublished: post.publishedAt,
       dateModified: post.updatedAt,
-      author: { "@type": "Organization", name: "PowerBaseFit Technical Team", url: `${siteUrl}/factory` },
+      author: {
+        "@type": "Organization",
+        name: post.authorName,
+        url: new URL(post.authorUrl, siteUrl).toString()
+      },
       publisher: {
         "@type": "Organization",
         name: siteName,
@@ -331,10 +335,11 @@ export default async function ResourceArticlePage({ params }: PageProps) {
       <section className="article-hero">
         <div className="article-hero-copy">
           <a className="back-link" href="/resources"><ArrowLeft size={17} /> Resource library</a>
-          <span className="article-eyebrow">PowerBaseFit Technical Guide</span>
+          <span className="article-eyebrow">{post.guideLabel}</span>
           <h1>{post.title}</h1>
           <div className="article-meta">
             <span><Factory size={17} /> Manufacturer perspective</span>
+            {post.authorName !== "PowerBaseFit Technical Team" ? <span>By {post.authorName}</span> : null}
             <span><BookOpen size={17} /> {post.readingTime}</span>
             <span>Updated {post.updatedAt}</span>
           </div>
