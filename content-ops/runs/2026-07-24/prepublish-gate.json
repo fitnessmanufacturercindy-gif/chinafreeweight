@@ -57,9 +57,23 @@
     }
   },
   "publication": {
-    "status": "awaiting-pr-and-production-verification",
-    "productionUrl": null,
-    "deployedAt": null,
-    "protectedRegressionCount": null
+    "status": "production-verified",
+    "productionUrl": "https://www.chinafreeweight.com/resources/cable-attachment-sku-compatibility-register",
+    "deployedAt": "2026-07-24T03:29:18.000Z",
+    "protectedRegressionCount": 0,
+    "protectedUrlCount": 1481,
+    "sitemapUrlCount": 1482,
+    "productionChecks": {
+      "status": 200,
+      "indexable": true,
+      "canonical": "https://www.chinafreeweight.com/resources/cable-attachment-sku-compatibility-register",
+      "schema": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "contextualInternalLinkTargets": 3,
+      "contextualInternalLinkTargetsReturning200": 3
+    }
   }
 }
