@@ -45,7 +45,16 @@
     "gitDiffCheck": "passed",
     "healthScopeSelector": "daily-incremental-16-urls",
     "initialCiHealthResult": "timed-out-after-40-minutes-on-1482-url-legacy-full-crawl",
-    "ciHealthRemediation": "policy-scope-selector-added-awaiting-rerun"
+    "ciHealthRemediation": "policy-scope-selector-and-contact-link-detector-corrected",
+    "localIncrementalHealth": {
+      "urlCount": 16,
+      "okPages": 16,
+      "critical": 0,
+      "high": 0,
+      "medium": 7,
+      "blockingTest": "passed",
+      "reviewedMediumFindings": "Existing decorative empty-alt images, protected contact/resources schema gaps, and protected legacy resource metadata; reported only and not modified."
+    }
   },
   "publication": {
     "status": "awaiting-pr-and-production-verification",

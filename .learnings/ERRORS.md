@@ -387,3 +387,20 @@ Added a policy-aware scope selector and `SITE_HEALTH_PATHS` support. Daily runs 
 Keep expensive browser health checks incremental outside the monthly full-site run, while retaining sitemap membership checks and protected-page regression controls.
 
 ---
+## [ERR-20260724-004] health-contact-cta-false-positives
+
+**Logged**: 2026-07-24T10:27:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: QA
+
+### Summary
+The incremental health run reported product and RFQ content links as broken communication CTAs because the detector treated any anchor containing `quote` or `rfq` as a mail/phone/contact link.
+
+### Resolution
+Restricted the communication-target assertion to mail, email, phone, tel, and WhatsApp signals. The same 16-URL run then produced 0 Critical, 0 High, 16 successful pages, and a passing Playwright assertion.
+
+### Prevention
+Keep content-intent links separate from direct communication protocol checks; validate HTTP content links through the existing link-status crawler.
+
+---

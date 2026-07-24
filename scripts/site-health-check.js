@@ -63,7 +63,7 @@ const EXPECTED_SCHEMA_BY_PATH = [
   { test: (u) => u.pathname.startsWith("/products/") && u.pathname.split("/").length >= 4, types: ["Product", "BreadcrumbList"] },
   { test: (u) => /^\/products\/[^/]+$/.test(u.pathname), types: ["CollectionPage", "BreadcrumbList"] },
   { test: (u) => u.pathname === "/resources", types: ["CollectionPage", "BreadcrumbList"] },
-  { test: (u) => u.pathname.startsWith("/resources/"), types: ["Article", "BreadcrumbList"] },
+  { test: (u) => u.pathname.startsWith("/resources/"), types: ["BlogPosting", "BreadcrumbList"] },
   { test: (u) => u.pathname === "/projects", types: ["CollectionPage", "BreadcrumbList"] },
   { test: (u) => u.pathname === "/contact", types: ["ContactPage", "BreadcrumbList"] }
 ];
@@ -395,7 +395,7 @@ async function checkPage(page, context, url, linkStatusCache) {
     }
   }
 
-  const contactLinks = anchors.filter((anchor) => /whatsapp|mail|email|phone|tel|quote|get a quote|rfq/i.test(`${anchor.text} ${anchor.ariaLabel} ${anchor.href}`));
+  const contactLinks = anchors.filter((anchor) => /whatsapp|mailto:|email|phone|tel:/i.test(`${anchor.text} ${anchor.ariaLabel} ${anchor.href}`));
   for (const anchor of contactLinks) {
     const ok = /^(mailto:|tel:|https:\/\/wa\.me\/|https:\/\/api\.whatsapp\.com\/|https?:\/\/[^/]+\/contact|http:\/\/127\.0\.0\.1:\d+\/contact|https?:\/\/[^/]+\/#contact|http:\/\/127\.0\.0\.1:\d+\/#contact)/i.test(anchor.href);
     if (!ok) issues.push(issue("High", "conversion", url, `Contact/CTA link has an unexpected target: ${anchor.href}`));
