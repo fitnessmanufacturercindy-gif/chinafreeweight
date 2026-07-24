@@ -309,3 +309,61 @@ Use Vercel deployment inspection to confirm build readiness and open the Preview
 - **Failure:** `APIRequestContext` timed out against the protected Preview after browser navigation had successfully visited every page using the shareable-link cookie.
 - **Impact:** The source/XML subcheck stopped despite the browser channel remaining available.
 - **Prevention:** For protected Preview verification, read the raw `Response` from the same browser navigation channel that established the shareable-link cookie instead of switching network stacks.
+
+## [ERR-20260724-001] powershell-inline-boolean-parser
+
+**Logged**: 2026-07-24T09:00:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+A PowerShell interpolation tried to combine a Git command, `$LASTEXITCODE`, and an inline conditional inside one expression and failed before execution.
+
+### Error
+
+```text
+Missing closing ')' in expression.
+```
+
+### Context
+
+- Task attempted: Validate a branch and path before creating the daily automation worktree.
+- Command/tool/API: PowerShell invoked through the shell tool.
+- Inputs: Inline `$(...)` interpolation containing a semicolon and `if` expression.
+- Environment: Windows PowerShell in Codex desktop.
+
+### Suspected Cause
+
+The nested command expression was syntactically ambiguous to Windows PowerShell.
+
+### Suggested Fix
+
+Run branch and path checks as separate statements and use their exit codes directly before calling `git worktree add`.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: none
+- Tags: powershell, git, worktree
+## [ERR-20260724-002] partial-node-modules-after-timeout
+
+**Logged**: 2026-07-24T09:08:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: environment
+
+### Summary
+An interrupted `npm ci` left a `node_modules` directory that existed but did not contain the project binaries, so checking only directory existence incorrectly skipped dependency installation.
+
+### Error
+`eslint`, `tsc`, `tsx`, and `next` were not recognized when the QA command chain ran.
+
+### Resolution
+Run `npm ci` to completion whenever `node_modules/.bin/next` is absent; do not use the parent directory alone as the readiness check.
+
+### Prevention
+Use `Test-Path node_modules/.bin/next.cmd` (or the platform equivalent) before skipping installation in a fresh worktree.
+
+---

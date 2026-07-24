@@ -18,6 +18,9 @@ export type ResourcePost = {
   articleImages: ResourceImage[];
   publishedAt: string;
   updatedAt: string;
+  authorName: string;
+  authorUrl: string;
+  guideLabel: string;
 };
 
 export type ResourceImage = {
@@ -153,6 +156,17 @@ const postVisuals: Record<
         caption: "For plate orders, packaging and container planning protect the product during export shipping."
       }
     ]
+  },
+  "cable-attachment-sku-compatibility-register": {
+    coverImage: "/assets/products/gym-accessories/handles/cable-machine-attachments-large.webp",
+    coverAlt: "Assortment of cable machine attachments prepared for distributor range planning",
+    articleImages: [
+      {
+        src: "/assets/products/gym-accessories/handles/lat-pulldown-handles.webp",
+        alt: "Lat pulldown handles showing different grip and connection geometries",
+        caption: "A familiar product name does not establish interchangeability; distributors need a revision-controlled record of the actual interface and approved use."
+      }
+    ]
   }
 };
 
@@ -248,6 +262,9 @@ export function getAllPosts(): ResourcePost[] {
         readingTime: getReadingTime(publicContent),
         publishedAt: data.published_at || "2026-07-16",
         updatedAt: data.updated_at || data.published_at || "2026-07-16",
+        authorName: data.author || "PowerBaseFit Technical Team",
+        authorUrl: data.author_url || "/factory",
+        guideLabel: data.guide_label || "PowerBaseFit Technical Guide",
         ...(postVisuals[slug] || fallbackVisuals)
       };
     }) : [];
@@ -273,7 +290,10 @@ export function getAllPosts(): ResourcePost[] {
         caption: image.caption
       })),
       publishedAt: document.publishedAt,
-      updatedAt: document.updatedAt
+      updatedAt: document.updatedAt,
+      authorName: "PowerBaseFit Technical Team",
+      authorUrl: "/factory",
+      guideLabel: "PowerBaseFit Technical Guide"
     }));
 
   return [...legacyPosts, ...expansionPosts].sort((a, b) => {

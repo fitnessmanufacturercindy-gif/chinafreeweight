@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-07-24",
+  "mode": "daily-incremental",
+  "weeklyAppend": false,
+  "monthlyAppend": false,
+  "protectedBaseline": {
+    "capturedAt": "2026-07-24T00:39:33.562Z",
+    "urlCount": 1481,
+    "failedUrls": 0,
+    "fields": [
+      "status",
+      "indexability",
+      "canonical",
+      "hreflang",
+      "title",
+      "h1",
+      "schema",
+      "sitemap"
+    ]
+  },
+  "newContent": {
+    "locale": "en",
+    "path": "/resources/cable-attachment-sku-compatibility-register",
+    "qualityScore": 100,
+    "localBuildStatus": "passed",
+    "renderChecks": {
+      "singleH1": true,
+      "canonical": true,
+      "blogPostingSchema": true,
+      "faqSchema": true,
+      "author": "ChinaFreeWeight Technical Editorial Team",
+      "imageResolved": true,
+      "forbiddenVisitorText": false
+    }
+  },
+  "checks": {
+    "contentQa": "passed",
+    "lint": "passed-with-84-pre-existing-warnings-and-zero-errors",
+    "typecheck": "passed",
+    "tests": "33-passed",
+    "multilingualAudit": "passed",
+    "productionBuild": "passed",
+    "gitDiffCheck": "passed"
+  },
+  "publication": {
+    "status": "awaiting-pr-and-production-verification",
+    "productionUrl": null,
+    "deployedAt": null,
+    "protectedRegressionCount": null
+  }
+}

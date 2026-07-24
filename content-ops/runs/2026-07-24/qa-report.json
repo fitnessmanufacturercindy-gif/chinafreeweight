@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-07-24",
+  "checkedAt": "2026-07-24T01:19:33.053Z",
+  "targetCount": 60,
+  "submittedCount": 1,
+  "publishableCount": 1,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "chinafreeweight-2026-07-24-en-01",
+      "locale": "en",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    }
+  ]
+}

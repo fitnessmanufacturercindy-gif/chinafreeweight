@@ -1,0 +1,2245 @@
+{
+  "schemaVersion": 2,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-07-24",
+  "status": "research-complete-quality-limited-selection",
+  "languageCreationMode": "local-market-original",
+  "translationSourceId": null,
+  "paidResearch": {
+    "used": false,
+    "costUsd": 0,
+    "reason": "Friday daily run; paid cache refresh is scheduled only for Sunday when credentials and budget permit."
+  },
+  "inventory": {
+    "currentSiteProtectedUrlCount": 1481,
+    "powerbasefitUrlCount": 5002,
+    "homegymfactoryUrlCount": 300,
+    "sharedLedgerTopicCount": 60,
+    "finding": "ChinaFreeWeight already exposes a heavily repeated multilingual set around materials, RFQ, landed cost, sample approval, inspection, packaging and batch consistency. New candidates avoid those core intents."
+  },
+  "locales": {
+    "en": {
+      "query": "wholesale dumbbells weight plates supplier OEM buyer distributor -site:chinafreeweight.com",
+      "marketSignal": "Supplier pages dominate, but they rarely explain how distributors keep cable-handle SKUs compatible with installed machines and replacement orders.",
+      "topResults": [
+        {
+          "url": "https://www.dumbbellmanufacturers.com/about-us/",
+          "coverage": "Factory identity, product range and private-label positioning."
+        },
+        {
+          "url": "https://www.dumbbellmanufacturers.com/weight-plate/",
+          "coverage": "Plate types, hole fit, branding and packing inputs."
+        },
+        {
+          "url": "https://www.dumbbellmanufacturers.com/",
+          "coverage": "Buyer segmentation and bulk-order scope."
+        },
+        {
+          "url": "https://gymweightsupply.com/oem-odm",
+          "coverage": "OEM program, mixed orders and customization menu."
+        },
+        {
+          "url": "https://www.circle-strength.com/",
+          "coverage": "Free-weight manufacturing and distributor positioning."
+        },
+        {
+          "url": "https://gymweightsupply.com/en/products/dumbbell-handles",
+          "coverage": "Large SKU catalogue with buyer-use labels."
+        },
+        {
+          "url": "https://www.oksporting.com/",
+          "coverage": "Broad OEM supplier claims and product catalogue."
+        },
+        {
+          "url": "https://athomfit.com/",
+          "coverage": "Home-fitness OEM and adjustable dumbbell offer."
+        },
+        {
+          "url": "https://www.wavar.com/wholesale-dumbbells/",
+          "coverage": "Wholesale dumbbell range and customization."
+        },
+        {
+          "url": "https://shandongbyfit.com/products/free-weights/",
+          "coverage": "Free-weight range and factory proof claims."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "en-candidate-01",
+          "title": "Cable attachment SKU compatibility register for distributors",
+          "targetKeyword": "cable attachment sku compatibility register for distributors",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "selected",
+          "reason": "Highest evidence quality, strong product-scope fit and no title/core-intent collision."
+        },
+        {
+          "id": "en-candidate-02",
+          "title": "How to specify rotating joints in cable handles without copying a catalogue",
+          "targetKeyword": "how to specify rotating joints in cable handles without copying a catalogue",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-03",
+          "title": "Receiving inspection for mixed cartons of free-weight accessories",
+          "targetKeyword": "receiving inspection for mixed cartons of free-weight accessories",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-04",
+          "title": "Pair-matching rules when replacing one damaged commercial dumbbell",
+          "targetKeyword": "pair-matching rules when replacing one damaged commercial dumbbell",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-05",
+          "title": "Barbell sleeve fit evidence for a mixed weight-plate portfolio",
+          "targetKeyword": "barbell sleeve fit evidence for a mixed weight-plate portfolio",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-06",
+          "title": "A change-control file for Olympic bar knurl and marking revisions",
+          "targetKeyword": "a change-control file for olympic bar knurl and marking revisions",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-07",
+          "title": "Distributor stock policy for collars, handles and wear accessories",
+          "targetKeyword": "distributor stock policy for collars, handles and wear accessories",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-08",
+          "title": "How to separate cosmetic and functional defects in urethane dumbbells",
+          "targetKeyword": "how to separate cosmetic and functional defects in urethane dumbbells",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-09",
+          "title": "Carton weight limits for dealer parcel channels versus pallet freight",
+          "targetKeyword": "carton weight limits for dealer parcel channels versus pallet freight",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-10",
+          "title": "A product-data handoff from free-weight factory to e-commerce dealer",
+          "targetKeyword": "a product-data handoff from free-weight factory to e-commerce dealer",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-11",
+          "title": "How to approve laser markings on bars and cable handles",
+          "targetKeyword": "how to approve laser markings on bars and cable handles",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-12",
+          "title": "Service evidence for adjustable dumbbells sold through retail chains",
+          "targetKeyword": "service evidence for adjustable dumbbells sold through retail chains",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-13",
+          "title": "Rack-fit verification before ordering a complete dumbbell run",
+          "targetKeyword": "rack-fit verification before ordering a complete dumbbell run",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-14",
+          "title": "A claims boundary for competition-style plates sold as training products",
+          "targetKeyword": "a claims boundary for competition-style plates sold as training products",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "en-candidate-15",
+          "title": "How to compare supplier answers on steel grade without inventing equivalence",
+          "targetKeyword": "how to compare supplier answers on steel grade without inventing equivalence",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [
+        "Cable attachment SKU compatibility register for distributors"
+      ],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Supplier pages dominate, but they rarely explain how distributors keep cable-handle SKUs compatible with installed machines and replacement orders."
+      }
+    },
+    "pt-BR": {
+      "query": "fornecedor atacado halteres anilhas OEM fabricante importador -site:chinafreeweight.com",
+      "marketSignal": "Brazilian wholesale pages foreground price per kilogram, CNPJ eligibility, national freight and order minimums; they do not show how an importer protects a commercially useful weight mix.",
+      "topResults": [
+        {
+          "url": "https://www.anilhasehalteres.com.br/contato.html",
+          "coverage": "CNPJ workflow, order minimum, payment and delivery conditions."
+        },
+        {
+          "url": "https://www.anilhasehalteres.com.br/",
+          "coverage": "Wholesale categories and national distribution."
+        },
+        {
+          "url": "https://movequipamentos.com.br/fabrica-de-anilhas-e-halteres-para-academia.php",
+          "coverage": "Factory-direct range and a lower wholesale threshold."
+        },
+        {
+          "url": "https://anilhasfitness.com.br/",
+          "coverage": "Direct-manufacturer pricing and national delivery."
+        },
+        {
+          "url": "https://seo.anilhasecia.com.br/distribuidor-de-halter-emborrachado",
+          "coverage": "Distributor product description and warranty language."
+        },
+        {
+          "url": "https://muscularfit.com.br/",
+          "coverage": "Price-per-kilogram catalogue, logistics and B2B FAQ."
+        },
+        {
+          "url": "https://www.oksporting.com/pt/",
+          "coverage": "Imported OEM/ODM catalogue in Portuguese."
+        },
+        {
+          "url": "https://www.fitwork.com.br/",
+          "coverage": "Brazilian manufacturer category coverage."
+        },
+        {
+          "url": "https://www.xysfitness.com/pt/",
+          "coverage": "Chinese OEM supplier page localized for Portuguese buyers."
+        },
+        {
+          "url": "https://www.forsety.com.br/",
+          "coverage": "Local supplier positioning for gyms and CrossFit boxes."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "pt-BR-candidate-01",
+          "title": "Como montar um mix atacadista de halteres quando o pedido mínimo é em kg",
+          "targetKeyword": "como montar um mix atacadista de halteres quando o pedido mínimo é em kg",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-02",
+          "title": "Frete por kg ou por volume para pesos livres no Brasil",
+          "targetKeyword": "frete por kg ou por volume para pesos livres no brasil",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-03",
+          "title": "Como registrar CNPJ, IE e destinatário em uma cotação de importação",
+          "targetKeyword": "como registrar cnpj, ie e destinatário em uma cotação de importação",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-04",
+          "title": "Separar preço por kg de margem por SKU em anilhas",
+          "targetKeyword": "separar preço por kg de margem por sku em anilhas",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-05",
+          "title": "Planejar reposição regional sem duplicar todo o conjunto de halteres",
+          "targetKeyword": "planejar reposição regional sem duplicar todo o conjunto de halteres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-06",
+          "title": "Conferência de romaneio para carga paletizada de pesos livres",
+          "targetKeyword": "conferência de romaneio para carga paletizada de pesos livres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-07",
+          "title": "Quando usar pallet em vez de encomenda fracionada para halteres",
+          "targetKeyword": "quando usar pallet em vez de encomenda fracionada para halteres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-08",
+          "title": "Como definir grade de pesos para academia de condomínio",
+          "targetKeyword": "como definir grade de pesos para academia de condomínio",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-09",
+          "title": "Controle de código EAN em linha própria de anilhas e barras",
+          "targetKeyword": "controle de código ean em linha própria de anilhas e barras",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-10",
+          "title": "Recebimento de carga pesada sem perder evidência de avaria",
+          "targetKeyword": "recebimento de carga pesada sem perder evidência de avaria",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-11",
+          "title": "Compatibilidade entre barra olímpica e anilha vendida no varejo",
+          "targetKeyword": "compatibilidade entre barra olímpica e anilha vendida no varejo",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-12",
+          "title": "Formar kit de puxadores para revenda sem criar estoque morto",
+          "targetKeyword": "formar kit de puxadores para revenda sem criar estoque morto",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-13",
+          "title": "Critérios para substituir uma anilha avariada dentro de um par",
+          "targetKeyword": "critérios para substituir uma anilha avariada dentro de um par",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-14",
+          "title": "Como comparar prazo de produção com prazo até o centro de distribuição",
+          "targetKeyword": "como comparar prazo de produção com prazo até o centro de distribuição",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pt-BR-candidate-15",
+          "title": "Plano de amostras para marca própria vendida em marketplace",
+          "targetKeyword": "plano de amostras para marca própria vendida em marketplace",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Brazilian wholesale pages foreground price per kilogram, CNPJ eligibility, national freight and order minimums; they do not show how an importer protects a commercially useful weight mix."
+      }
+    },
+    "es": {
+      "query": "fabricante proveedor mayorista mancuernas discos pesas OEM importador -site:chinafreeweight.com",
+      "marketSignal": "Spanish results emphasize OEM breadth and customization, while importers still lack decision support for bar specifications, accessory compatibility and evidence that survives supplier comparison.",
+      "topResults": [
+        {
+          "url": "https://www.oksporting.com/es/",
+          "coverage": "OEM supplier catalogue and product categories."
+        },
+        {
+          "url": "https://www.oksporting.com/es/application/dumbbells-supplier-for-fitness-centers",
+          "coverage": "Commercial dumbbell positioning."
+        },
+        {
+          "url": "https://www.oksporting.com/es/application/dumbbell-factory",
+          "coverage": "Factory and customization narrative."
+        },
+        {
+          "url": "https://es.wavar.com/product/custom-dumbbells.html",
+          "coverage": "Custom dumbbell options and buyer segments."
+        },
+        {
+          "url": "https://alexandave.com/es/",
+          "coverage": "Contract manufacturing and build-to-print model."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/es/topics/508.html",
+          "coverage": "Dumbbell categories and OEM claims."
+        },
+        {
+          "url": "https://www.lehegym.com/es/products",
+          "coverage": "Broad product catalogue."
+        },
+        {
+          "url": "https://www.bsasfitness.com/",
+          "coverage": "Imported wholesale equipment with lot availability."
+        },
+        {
+          "url": "https://www.oksporting.com/es/application/commercial-gym-equipment",
+          "coverage": "Bulk gym equipment and customization."
+        },
+        {
+          "url": "https://www.xysfitness.com/es/Dumbbells-pl49773497.html",
+          "coverage": "Dumbbell factory range and private label."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "es-candidate-01",
+          "title": "Cómo especificar un lote de barras olímpicas sin comprar solo por capacidad máxima",
+          "targetKeyword": "cómo especificar un lote de barras olímpicas sin comprar solo por capacidad máxima",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-02",
+          "title": "Registro de compatibilidad entre discos, barras y cierres para un distribuidor",
+          "targetKeyword": "registro de compatibilidad entre discos, barras y cierres para un distribuidor",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-03",
+          "title": "Cómo documentar rectitud y giro de una barra en la recepción",
+          "targetKeyword": "cómo documentar rectitud y giro de una barra en la recepción",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-04",
+          "title": "Surtido de agarres de polea según parque instalado",
+          "targetKeyword": "surtido de agarres de polea según parque instalado",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-05",
+          "title": "Diferenciar defecto estético y defecto funcional en una mancuerna",
+          "targetKeyword": "diferenciar defecto estético y defecto funcional en una mancuerna",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-06",
+          "title": "Reposición de una sola mancuerna sin romper la coherencia del par",
+          "targetKeyword": "reposición de una sola mancuerna sin romper la coherencia del par",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-07",
+          "title": "Etiquetado por SKU para lotes mixtos de pesos libres",
+          "targetKeyword": "etiquetado por sku para lotes mixtos de pesos libres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-08",
+          "title": "Cómo aprobar moleteado y marcas de agarre en una barra OEM",
+          "targetKeyword": "cómo aprobar moleteado y marcas de agarre en una barra oem",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-09",
+          "title": "Plan de recambios para mancuernas ajustables de venta online",
+          "targetKeyword": "plan de recambios para mancuernas ajustables de venta online",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-10",
+          "title": "Criterios de embalaje para mensajería y para carga paletizada",
+          "targetKeyword": "criterios de embalaje para mensajería y para carga paletizada",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-11",
+          "title": "Cómo reconciliar packing list, bultos y pesos nominales",
+          "targetKeyword": "cómo reconciliar packing list, bultos y pesos nominales",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-12",
+          "title": "Catálogo técnico mínimo para un distribuidor de accesorios",
+          "targetKeyword": "catálogo técnico mínimo para un distribuidor de accesorios",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-13",
+          "title": "Qué evidencia pedir para un cambio de inserto en discos",
+          "targetKeyword": "qué evidencia pedir para un cambio de inserto en discos",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-14",
+          "title": "Cómo cerrar una desviación de color antes del embarque",
+          "targetKeyword": "cómo cerrar una desviación de color antes del embarque",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "es-candidate-15",
+          "title": "Matriz de riesgo para ampliar una gama de pesos libres",
+          "targetKeyword": "matriz de riesgo para ampliar una gama de pesos libres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Spanish results emphasize OEM breadth and customization, while importers still lack decision support for bar specifications, accessory compatibility and evidence that survives supplier comparison."
+      }
+    },
+    "de": {
+      "query": "Hanteln Hantelscheiben Großhandel Hersteller OEM Einkauf Importeur -site:chinafreeweight.com",
+      "marketSignal": "German results distinguish 25/30/50 mm systems and B2B supplier lists, but compatibility and revision control are usually reduced to a single diameter field.",
+      "topResults": [
+        {
+          "url": "https://www.lieferanten.de/produkt-Hantelscheiben.html",
+          "coverage": "Supplier directory and commercial buying language."
+        },
+        {
+          "url": "https://www.lieferanten.de/produkt-Hanteln.html",
+          "coverage": "Supplier categories and B2B inquiry path."
+        },
+        {
+          "url": "https://www.lieferanten.de/produkt-Hantels%C3%A4tze.html",
+          "coverage": "Hantel-set supplier inventory."
+        },
+        {
+          "url": "https://www.lieferanten.de/produkt-Fausthanteln.html",
+          "coverage": "Specialized dumbbell supplier list."
+        },
+        {
+          "url": "https://www.lieferanten.de/produkt-Hantelsets.html",
+          "coverage": "Set and wholesale coverage."
+        },
+        {
+          "url": "https://www.lieferanten.de/produkt-Hantel-Stellringe.html",
+          "coverage": "Collar supplier category."
+        },
+        {
+          "url": "https://www.oksporting.com/de/application/dumbbell-manufacturers",
+          "coverage": "Localized OEM manufacturer page."
+        },
+        {
+          "url": "https://www.okpro.com/de/black-rubber-bumper-plate-ok2006-1",
+          "coverage": "Product-level bumper plate page."
+        },
+        {
+          "url": "https://www.oksporting.com/de/products",
+          "coverage": "Wholesale free-weight catalogue."
+        },
+        {
+          "url": "https://www.oksporting.com/de/application/bulk-dumbbells-wholesale",
+          "coverage": "Bulk dumbbell and branding coverage."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "de-candidate-01",
+          "title": "30-mm- und 50-mm-Sortimente ohne Kompatibilitätslücken planen",
+          "targetKeyword": "30-mm- und 50-mm-sortimente ohne kompatibilitätslücken planen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-02",
+          "title": "Prüfakte für Hantelverschlüsse im Händlerprogramm",
+          "targetKeyword": "prüfakte für hantelverschlüsse im händlerprogramm",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-03",
+          "title": "Einzelersatz einer beschädigten Kurzhantel dokumentieren",
+          "targetKeyword": "einzelersatz einer beschädigten kurzhantel dokumentieren",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-04",
+          "title": "Langhantel-Markierungen als revisionspflichtige Spezifikation",
+          "targetKeyword": "langhantel-markierungen als revisionspflichtige spezifikation",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-05",
+          "title": "Karton- und Palettenwege für schwere Fitnessartikel trennen",
+          "targetKeyword": "karton- und palettenwege für schwere fitnessartikel trennen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-06",
+          "title": "SKU-Datenblatt für Kabelgriffe und Karabiner",
+          "targetKeyword": "sku-datenblatt für kabelgriffe und karabiner",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-07",
+          "title": "Rückverfolgbare Wareneingangsprüfung für gemischte Hantelscheiben",
+          "targetKeyword": "rückverfolgbare wareneingangsprüfung für gemischte hantelscheiben",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-08",
+          "title": "Oberflächenfehler nach Funktion und Sichtbarkeit klassifizieren",
+          "targetKeyword": "oberflächenfehler nach funktion und sichtbarkeit klassifizieren",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-09",
+          "title": "Ersatzteilstrategie für verstellbare Kurzhanteln",
+          "targetKeyword": "ersatzteilstrategie für verstellbare kurzhanteln",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-10",
+          "title": "Loch- und Hülsenpassung mit Grenzmustern freigeben",
+          "targetKeyword": "loch- und hülsenpassung mit grenzmustern freigeben",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-11",
+          "title": "Händlerbestand für seltene Gewichtsstufen steuern",
+          "targetKeyword": "händlerbestand für seltene gewichtsstufen steuern",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-12",
+          "title": "Produktänderungen bei Griffdurchmesser und Rändelung verwalten",
+          "targetKeyword": "produktänderungen bei griffdurchmesser und rändelung verwalten",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-13",
+          "title": "Barcodes und Packeinheiten vor der Serienfreigabe prüfen",
+          "targetKeyword": "barcodes und packeinheiten vor der serienfreigabe prüfen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-14",
+          "title": "Nachweise für Geräusch- und Bodenschutzclaims begrenzen",
+          "targetKeyword": "nachweise für geräusch- und bodenschutzclaims begrenzen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "de-candidate-15",
+          "title": "Angebote für Stangen und Scheiben auf Systemebene vergleichen",
+          "targetKeyword": "angebote für stangen und scheiben auf systemebene vergleichen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "German results distinguish 25/30/50 mm systems and B2B supplier lists, but compatibility and revision control are usually reduced to a single diameter field."
+      }
+    },
+    "fr": {
+      "query": "fabricant grossiste haltères disques musculation OEM achat importateur -site:chinafreeweight.com",
+      "marketSignal": "French supplier pages are broad and claim flexible OEM programs; they seldom give distributors an operational method for SKU identity, spare units and change notification.",
+      "topResults": [
+        {
+          "url": "https://alexandave.com/fr/",
+          "coverage": "Contract manufacturing and traceability narrative."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/",
+          "coverage": "Localized OEM supplier catalogue."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/application/bulk-fitness-equipment",
+          "coverage": "Bulk commercial equipment."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/application/fitness-equipment-wholesale",
+          "coverage": "Wholesale and customization."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/application/commercial-gym-equipment",
+          "coverage": "Commercial use positioning."
+        },
+        {
+          "url": "https://wderfitness.com/",
+          "coverage": "Factory and procurement proof points."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/application/fitness-equipment-supplier-for-gyms",
+          "coverage": "Gym buyer focus."
+        },
+        {
+          "url": "https://fr.xmasterfit.com/",
+          "coverage": "Premium free-weight specialization."
+        },
+        {
+          "url": "https://www.oksporting.com/fr/application/barbell-plates",
+          "coverage": "Plate product claims and customization."
+        },
+        {
+          "url": "https://fr.wavar.com/product/custom-dumbbells.html",
+          "coverage": "Buyer segmentation for custom dumbbells."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "fr-candidate-01",
+          "title": "Créer un registre SKU pour les poignées de poulie",
+          "targetKeyword": "créer un registre sku pour les poignées de poulie",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-02",
+          "title": "Remplacer un seul haltère sans déséquilibrer une paire",
+          "targetKeyword": "remplacer un seul haltère sans déséquilibrer une paire",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-03",
+          "title": "Contrôler les versions de marquage sur une barre olympique",
+          "targetKeyword": "contrôler les versions de marquage sur une barre olympique",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-04",
+          "title": "Réceptionner des colis lourds avec une preuve exploitable",
+          "targetKeyword": "réceptionner des colis lourds avec une preuve exploitable",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-05",
+          "title": "Distinguer défaut cosmétique et défaut d’usage",
+          "targetKeyword": "distinguer défaut cosmétique et défaut d’usage",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-06",
+          "title": "Constituer un stock de colliers et accessoires d’usure",
+          "targetKeyword": "constituer un stock de colliers et accessoires d’usure",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-07",
+          "title": "Vérifier la compatibilité disque-barre avant référencement",
+          "targetKeyword": "vérifier la compatibilité disque-barre avant référencement",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-08",
+          "title": "Approuver une gamme de poids pour un réseau de clubs",
+          "targetKeyword": "approuver une gamme de poids pour un réseau de clubs",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-09",
+          "title": "Organiser les données produit destinées aux revendeurs",
+          "targetKeyword": "organiser les données produit destinées aux revendeurs",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-10",
+          "title": "Comparer les offres de barres sans se limiter à la charge annoncée",
+          "targetKeyword": "comparer les offres de barres sans se limiter à la charge annoncée",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-11",
+          "title": "Tracer une substitution de matière de revêtement",
+          "targetKeyword": "tracer une substitution de matière de revêtement",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-12",
+          "title": "Décider entre colis, palette et conteneur pour des poids libres",
+          "targetKeyword": "décider entre colis, palette et conteneur pour des poids libres",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-13",
+          "title": "Gérer les codes-barres d’une gamme sous marque propre",
+          "targetKeyword": "gérer les codes-barres d’une gamme sous marque propre",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-14",
+          "title": "Définir la preuve attendue après retouche de finition",
+          "targetKeyword": "définir la preuve attendue après retouche de finition",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "fr-candidate-15",
+          "title": "Préparer le service après-vente d’un haltère réglable",
+          "targetKeyword": "préparer le service après-vente d’un haltère réglable",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "French supplier pages are broad and claim flexible OEM programs; they seldom give distributors an operational method for SKU identity, spare units and change notification."
+      }
+    },
+    "vi": {
+      "query": "nhà cung cấp tạ tay bánh tạ thiết bị phòng gym giá sỉ nhập khẩu OEM -site:chinafreeweight.com",
+      "marketSignal": "Vietnamese results are retail and setup-led, repeatedly highlighting hole diameter, delivery and imported status; B2B acceptance records and SKU identity are thin.",
+      "topResults": [
+        {
+          "url": "https://duonghoangfn.vn/ta-banh-technogym-du-size",
+          "coverage": "Imported plate listing with diameter and weight range."
+        },
+        {
+          "url": "https://duonghoangfn.vn/ta-dia-ziva",
+          "coverage": "Plate variants, ordering notes and paperwork claims."
+        },
+        {
+          "url": "https://www.thethaothientruong.vn/ta-tay-ta-don/gia-de-ta.html",
+          "coverage": "Rack and nationwide delivery."
+        },
+        {
+          "url": "https://www.thietbiphonggym.vn/",
+          "coverage": "Local gym equipment catalogue."
+        },
+        {
+          "url": "https://phuongsport.com.vn/products/banh-ta-dia-ziva-cao-cap-boc-cao-su",
+          "coverage": "Product dimensions and use positioning."
+        },
+        {
+          "url": "https://duonghoangfn.vn/",
+          "coverage": "Imported gym product catalogue."
+        },
+        {
+          "url": "https://tamchinhsport.vn/",
+          "coverage": "Local supplier and product inventory."
+        },
+        {
+          "url": "https://baoansport.vn/ta-tay-ta-don/gia-de-ta/",
+          "coverage": "Rack selection and gym use."
+        },
+        {
+          "url": "https://wikisport.vn/bo-mon-gym/cac-loai-gia-de-ta.html",
+          "coverage": "Rack formats and supplier discussion."
+        },
+        {
+          "url": "https://ptfitnessvn.wixsite.com/ptfitness",
+          "coverage": "Gym setup and imported equipment services."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "vi-candidate-01",
+          "title": "Hồ sơ nghiệm thu bánh tạ theo từng mã hàng",
+          "targetKeyword": "hồ sơ nghiệm thu bánh tạ theo từng mã hàng",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-02",
+          "title": "Kiểm tra tương thích lỗ bánh tạ và ống tay đòn",
+          "targetKeyword": "kiểm tra tương thích lỗ bánh tạ và ống tay đòn",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-03",
+          "title": "Lập sơ đồ giá tạ trước khi chốt bộ tạ tay",
+          "targetKeyword": "lập sơ đồ giá tạ trước khi chốt bộ tạ tay",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-04",
+          "title": "Quản lý mã kiện cho lô tạ nặng giao nhiều địa điểm",
+          "targetKeyword": "quản lý mã kiện cho lô tạ nặng giao nhiều địa điểm",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-05",
+          "title": "Phân biệt lỗi bề mặt và lỗi sử dụng khi nhận hàng",
+          "targetKeyword": "phân biệt lỗi bề mặt và lỗi sử dụng khi nhận hàng",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-06",
+          "title": "Thay một quả tạ tay mà vẫn giữ đúng cặp",
+          "targetKeyword": "thay một quả tạ tay mà vẫn giữ đúng cặp",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-07",
+          "title": "Danh mục phụ tùng cho tạ tay điều chỉnh",
+          "targetKeyword": "danh mục phụ tùng cho tạ tay điều chỉnh",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-08",
+          "title": "Kiểm soát phiên bản logo và nhãn tiếng Việt",
+          "targetKeyword": "kiểm soát phiên bản logo và nhãn tiếng việt",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-09",
+          "title": "Chọn giao hàng rời hay pallet cho thiết bị nặng",
+          "targetKeyword": "chọn giao hàng rời hay pallet cho thiết bị nặng",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-10",
+          "title": "Đối chiếu phiếu đóng gói với số kg danh nghĩa",
+          "targetKeyword": "đối chiếu phiếu đóng gói với số kg danh nghĩa",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-11",
+          "title": "Xây bộ tay cầm cáp theo máy đang lắp đặt",
+          "targetKeyword": "xây bộ tay cầm cáp theo máy đang lắp đặt",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-12",
+          "title": "Ghi nhận sai lệch màu trước khi xuất xưởng",
+          "targetKeyword": "ghi nhận sai lệch màu trước khi xuất xưởng",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-13",
+          "title": "Chuẩn bị dữ liệu sản phẩm cho nhà phân phối",
+          "targetKeyword": "chuẩn bị dữ liệu sản phẩm cho nhà phân phối",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-14",
+          "title": "Kiểm tra thẳng và độ quay của đòn tạ khi nhận",
+          "targetKeyword": "kiểm tra thẳng và độ quay của đòn tạ khi nhận",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "vi-candidate-15",
+          "title": "Lập kế hoạch bổ sung bánh tạ theo mức sử dụng",
+          "targetKeyword": "lập kế hoạch bổ sung bánh tạ theo mức sử dụng",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Vietnamese results are retail and setup-led, repeatedly highlighting hole diameter, delivery and imported status; B2B acceptance records and SKU identity are thin."
+      }
+    },
+    "sv": {
+      "query": "hantlar viktskivor grossist leverantör tillverkare OEM gym inköp -site:chinafreeweight.com",
+      "marketSignal": "Swedish results combine local warehouse supply with translated factory pages; storage, sorting and replacement operations are visible buyer problems but receive little procurement guidance.",
+      "topResults": [
+        {
+          "url": "https://www.leadmanfitness.com/sv/topics/gym-equipment-dumbbells.html",
+          "coverage": "Localized manufacturer and OEM page."
+        },
+        {
+          "url": "https://www.xysfitness.com/sv/",
+          "coverage": "Commercial supplier catalogue."
+        },
+        {
+          "url": "https://se.wavar.com/products/",
+          "coverage": "Wholesale partnership and product breadth."
+        },
+        {
+          "url": "https://www.nordicfighter.com/",
+          "coverage": "Local stock, gym delivery and category navigation."
+        },
+        {
+          "url": "https://www.keepufitness.com/sv/product/dumbbell-hand-weights-manufacturer/",
+          "coverage": "Low-weight dumbbell OEM offer."
+        },
+        {
+          "url": "https://www.landersports.com/",
+          "coverage": "Factory-direct supplier positioning."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/sv/topics/317.html",
+          "coverage": "Wholesale gym products."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/sv/topics/purchase-gym-equipment.html",
+          "coverage": "General purchase guidance."
+        },
+        {
+          "url": "https://gympartner.nu/gympartners-kompletta-gym-stockholm/",
+          "coverage": "Local complete-gym and wholesale offer."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/sv/topics/manufacturer-of-dumbbells.html",
+          "coverage": "Dumbbell manufacturer page."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "sv-candidate-01",
+          "title": "Planera viktskiveställ efter verklig skivtjocklek",
+          "targetKeyword": "planera viktskiveställ efter verklig skivtjocklek",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-02",
+          "title": "Ersätta en skadad hantel utan att bryta ett par",
+          "targetKeyword": "ersätta en skadad hantel utan att bryta ett par",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-03",
+          "title": "SKU-register för kabelhandtag i en återförsäljares lager",
+          "targetKeyword": "sku-register för kabelhandtag i en återförsäljares lager",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-04",
+          "title": "Mottagningsbevis för tunga kollin och pallar",
+          "targetKeyword": "mottagningsbevis för tunga kollin och pallar",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-05",
+          "title": "Skilja kosmetiskt fel från funktionsfel på hantlar",
+          "targetKeyword": "skilja kosmetiskt fel från funktionsfel på hantlar",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-06",
+          "title": "Kompatibilitetskontroll för stång, skiva och lås",
+          "targetKeyword": "kompatibilitetskontroll för stång, skiva och lås",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-07",
+          "title": "Versionsstyra greppmarkeringar på skivstänger",
+          "targetKeyword": "versionsstyra greppmarkeringar på skivstänger",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-08",
+          "title": "Lagerpolicy för ovanliga viktsteg",
+          "targetKeyword": "lagerpolicy för ovanliga viktsteg",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-09",
+          "title": "Produktdata från fabrik till svensk webbutik",
+          "targetKeyword": "produktdata från fabrik till svensk webbutik",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-10",
+          "title": "Serviceplan för justerbara hantlar",
+          "targetKeyword": "serviceplan för justerbara hantlar",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-11",
+          "title": "Godkänna streckkod och förpackningsenhet före produktion",
+          "targetKeyword": "godkänna streckkod och förpackningsenhet före produktion",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-12",
+          "title": "Jämföra pallfrakt och styckegods för fria vikter",
+          "targetKeyword": "jämföra pallfrakt och styckegods för fria vikter",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-13",
+          "title": "Kontrollera en blandad leverans till flera gym",
+          "targetKeyword": "kontrollera en blandad leverans till flera gym",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-14",
+          "title": "Dokumentera materialbyte i gummibeläggning",
+          "targetKeyword": "dokumentera materialbyte i gummibeläggning",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "sv-candidate-15",
+          "title": "Bygga tillbehörssortiment utan dött lager",
+          "targetKeyword": "bygga tillbehörssortiment utan dött lager",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Swedish results combine local warehouse supply with translated factory pages; storage, sorting and replacement operations are visible buyer problems but receive little procurement guidance."
+      }
+    },
+    "it": {
+      "query": "produttore ingrosso manubri dischi pesi OEM acquisto importatore",
+      "marketSignal": "Italian results focus on OEM branding and broad product ranges; evidence for assortment continuity and accessory service remains weak.",
+      "topResults": [
+        {
+          "url": "https://www.oksporting.com/it/",
+          "coverage": "Localized OEM supplier homepage."
+        },
+        {
+          "url": "https://www.oksporting.com/it/application/dumbbells",
+          "coverage": "Commercial dumbbell range."
+        },
+        {
+          "url": "https://www.oksporting.com/it/application/bulk-fitness-equipment",
+          "coverage": "Bulk product and branding program."
+        },
+        {
+          "url": "https://www.gavosrl.it/italiano",
+          "coverage": "Italian B2B wholesaler model."
+        },
+        {
+          "url": "https://it.wavar.com/wholesale-dumbbells/",
+          "coverage": "Wholesale dumbbell supply."
+        },
+        {
+          "url": "https://it.wavar.com/barbell-bar/",
+          "coverage": "Barbell customization."
+        },
+        {
+          "url": "https://it.xmasterfit.com/",
+          "coverage": "Premium free-weight specialist."
+        },
+        {
+          "url": "https://www.okpro.com/it/blog/oem-dumbbell-production-for-international-fitness-brands",
+          "coverage": "OEM process article."
+        },
+        {
+          "url": "https://wderfitness.com/",
+          "coverage": "B2B factory and project supply."
+        },
+        {
+          "url": "https://gymweightsupply.com/oem-odm",
+          "coverage": "Private-label free-weight program."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "it-candidate-01",
+          "title": "Registro di compatibilità per maniglie da cavo",
+          "targetKeyword": "registro di compatibilità per maniglie da cavo",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-02",
+          "title": "Sostituire un solo manubrio mantenendo la coppia",
+          "targetKeyword": "sostituire un solo manubrio mantenendo la coppia",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-03",
+          "title": "Controllare la revisione della zigrinatura di un bilanciere",
+          "targetKeyword": "controllare la revisione della zigrinatura di un bilanciere",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-04",
+          "title": "Ricezione documentata di colli pesanti",
+          "targetKeyword": "ricezione documentata di colli pesanti",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-05",
+          "title": "Classificare difetti estetici e funzionali dei manubri",
+          "targetKeyword": "classificare difetti estetici e funzionali dei manubri",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-06",
+          "title": "Scorta ricambi per manubri regolabili",
+          "targetKeyword": "scorta ricambi per manubri regolabili",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-07",
+          "title": "Verificare l’accoppiamento tra disco e manicotto",
+          "targetKeyword": "verificare l’accoppiamento tra disco e manicotto",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-08",
+          "title": "Gestire codici a barre per una linea private label",
+          "targetKeyword": "gestire codici a barre per una linea private label",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-09",
+          "title": "Confrontare spedizione a collo e su pallet",
+          "targetKeyword": "confrontare spedizione a collo e su pallet",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-10",
+          "title": "Preparare dati prodotto per la rete rivenditori",
+          "targetKeyword": "preparare dati prodotto per la rete rivenditori",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-11",
+          "title": "Approvare un cambio di materiale nel rivestimento",
+          "targetKeyword": "approvare un cambio di materiale nel rivestimento",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-12",
+          "title": "Comporre un assortimento di accessori senza sovrastock",
+          "targetKeyword": "comporre un assortimento di accessori senza sovrastock",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-13",
+          "title": "Controllare rettilineità e rotazione alla ricezione",
+          "targetKeyword": "controllare rettilineità e rotazione alla ricezione",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-14",
+          "title": "Pianificare pesi duplicati in una catena di palestre",
+          "targetKeyword": "pianificare pesi duplicati in una catena di palestre",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "it-candidate-15",
+          "title": "Definire prove per una riparazione di finitura",
+          "targetKeyword": "definire prove per una riparazione di finitura",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Italian results focus on OEM branding and broad product ranges; evidence for assortment continuity and accessory service remains weak."
+      }
+    },
+    "nl": {
+      "query": "halters gewichtsschijven sportschool leverancier groothandel",
+      "marketSignal": "Dutch and Belgian wholesalers describe professional ranges and direct availability; replacement matching, lifecycle records and evidence boundaries are underdeveloped.",
+      "topResults": [
+        {
+          "url": "https://www.lifemaxx.com/nl/halters-groothandel/",
+          "coverage": "Professional bar and weight wholesale."
+        },
+        {
+          "url": "https://www.fitribution.com/nl/service/about/",
+          "coverage": "Benelux professional fitness accessory wholesaler."
+        },
+        {
+          "url": "https://www.oksporting.com/nl/application/rubber-dumbbells-set",
+          "coverage": "Localized rubber dumbbell set."
+        },
+        {
+          "url": "https://www.oksporting.com/nl/application/bulk-fitness-equipment",
+          "coverage": "Bulk commercial equipment."
+        },
+        {
+          "url": "https://www.oksporting.com/nl/application/gym-barbell-plates",
+          "coverage": "Plate product and customization."
+        },
+        {
+          "url": "https://nl.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+          "coverage": "Supplier comparison list."
+        },
+        {
+          "url": "https://www.carefitness.nl/pro-schijven",
+          "coverage": "Professional plate catalogue."
+        },
+        {
+          "url": "https://innovexfitness.nl/products/throwdown-urethaan-olympic-plates",
+          "coverage": "Commercial urethane plate listing."
+        },
+        {
+          "url": "https://sqmize.nl/collections/professionele-gewichtsschijven-voor-commercieel-gebruik",
+          "coverage": "Commercial plate collection."
+        },
+        {
+          "url": "https://powerimport.nl/product-categorie/halters-gewichten/",
+          "coverage": "Local bars and weights category."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "nl-candidate-01",
+          "title": "Eén beschadigde dumbbell vervangen zonder het paar te breken",
+          "targetKeyword": "eén beschadigde dumbbell vervangen zonder het paar te breken",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-02",
+          "title": "SKU-register voor kabelgrepen en karabiners",
+          "targetKeyword": "sku-register voor kabelgrepen en karabiners",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-03",
+          "title": "Ontvangstcontrole voor zware colli en pallets",
+          "targetKeyword": "ontvangstcontrole voor zware colli en pallets",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-04",
+          "title": "Compatibiliteit van halterschijf, stang en sluiting vastleggen",
+          "targetKeyword": "compatibiliteit van halterschijf, stang en sluiting vastleggen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-05",
+          "title": "Cosmetische en functionele fouten apart accepteren",
+          "targetKeyword": "cosmetische en functionele fouten apart accepteren",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-06",
+          "title": "Versiebeheer voor knurling en markeringen op halterstangen",
+          "targetKeyword": "versiebeheer voor knurling en markeringen op halterstangen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-07",
+          "title": "Onderdelenplan voor verstelbare dumbbells",
+          "targetKeyword": "onderdelenplan voor verstelbare dumbbells",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-08",
+          "title": "Barcode en verpakkingseenheid vóór productie controleren",
+          "targetKeyword": "barcode en verpakkingseenheid vóór productie controleren",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-09",
+          "title": "Voorraadbeleid voor zelden verkochte gewichtsstappen",
+          "targetKeyword": "voorraadbeleid voor zelden verkochte gewichtsstappen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-10",
+          "title": "Productgegevens voor een Benelux-dealernetwerk",
+          "targetKeyword": "productgegevens voor een benelux-dealernetwerk",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-11",
+          "title": "Palletvracht vergelijken met pakketdistributie",
+          "targetKeyword": "palletvracht vergelijken met pakketdistributie",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-12",
+          "title": "Materiaalsubstitutie in coating beheersen",
+          "targetKeyword": "materiaalsubstitutie in coating beheersen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-13",
+          "title": "Een accessoireassortiment zonder dode voorraad opbouwen",
+          "targetKeyword": "een accessoireassortiment zonder dode voorraad opbouwen",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-14",
+          "title": "Rekcompatibiliteit controleren vóór setbestelling",
+          "targetKeyword": "rekcompatibiliteit controleren vóór setbestelling",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "nl-candidate-15",
+          "title": "Bewijsgrenzen voor claims over professioneel gebruik",
+          "targetKeyword": "bewijsgrenzen voor claims over professioneel gebruik",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Dutch and Belgian wholesalers describe professional ranges and direct availability; replacement matching, lifecycle records and evidence boundaries are underdeveloped."
+      }
+    },
+    "ko": {
+      "query": "덤벨 원판 헬스장 납품 도매 제조 OEM 수입업체 -site:chinafreeweight.com",
+      "marketSignal": "The organic result set was materially off-topic, dominated by unrelated Korean OEM industries. Publishing would require better Korean product-market evidence.",
+      "topResults": [
+        {
+          "url": "https://dongbangbnh.com/eng/index.php",
+          "coverage": "Unrelated cosmetics OEM result."
+        },
+        {
+          "url": "https://dongbangplastic.com/about.php",
+          "coverage": "Unrelated packaging OEM result."
+        },
+        {
+          "url": "https://oemkorea.com/",
+          "coverage": "General Korean OEM sourcing platform."
+        },
+        {
+          "url": "https://www.damakorea.co.kr/",
+          "coverage": "Unrelated cosmetics packaging supplier."
+        },
+        {
+          "url": "https://www.dongbangplastic.com/",
+          "coverage": "Unrelated plastic packaging result."
+        },
+        {
+          "url": "https://www.davidcosmetic.com/oem",
+          "coverage": "Unrelated cosmetics OEM workflow."
+        },
+        {
+          "url": "https://thedameul.co.kr/",
+          "coverage": "Unrelated cosmetics OEM partner."
+        },
+        {
+          "url": "https://www.heiblab.com/",
+          "coverage": "Unrelated small-batch cosmetics OEM."
+        },
+        {
+          "url": "https://douen.co.kr/",
+          "coverage": "Unrelated beauty packaging supplier."
+        },
+        {
+          "url": "https://www.dillerbottle.com/ko/",
+          "coverage": "Unrelated bottle wholesaler."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "ko-candidate-01",
+          "title": "덤벨 납품용 SKU 호환성 기록표",
+          "targetKeyword": "덤벨 납품용 sku 호환성 기록표",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-02",
+          "title": "원판과 바 슬리브 호환성 검수",
+          "targetKeyword": "원판과 바 슬리브 호환성 검수",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-03",
+          "title": "손상된 덤벨 한 개 교체 시 페어 관리",
+          "targetKeyword": "손상된 덤벨 한 개 교체 시 페어 관리",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-04",
+          "title": "케이블 손잡이 재고 코드 관리",
+          "targetKeyword": "케이블 손잡이 재고 코드 관리",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-05",
+          "title": "무거운 포장 단위의 입고 증빙",
+          "targetKeyword": "무거운 포장 단위의 입고 증빙",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-06",
+          "title": "바벨 널링과 마킹 변경 관리",
+          "targetKeyword": "바벨 널링과 마킹 변경 관리",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-07",
+          "title": "조절식 덤벨 부품 서비스 계획",
+          "targetKeyword": "조절식 덤벨 부품 서비스 계획",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-08",
+          "title": "외관 불량과 기능 불량 구분",
+          "targetKeyword": "외관 불량과 기능 불량 구분",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-09",
+          "title": "랙 규격과 덤벨 세트 적합성",
+          "targetKeyword": "랙 규격과 덤벨 세트 적합성",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-10",
+          "title": "판매용 바코드와 포장 단위 승인",
+          "targetKeyword": "판매용 바코드와 포장 단위 승인",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-11",
+          "title": "희소 중량 재고 운영 기준",
+          "targetKeyword": "희소 중량 재고 운영 기준",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-12",
+          "title": "팔레트 운송과 개별 배송 비교",
+          "targetKeyword": "팔레트 운송과 개별 배송 비교",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-13",
+          "title": "코팅 원재료 변경 승인",
+          "targetKeyword": "코팅 원재료 변경 승인",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-14",
+          "title": "딜러용 제품 데이터 패키지",
+          "targetKeyword": "딜러용 제품 데이터 패키지",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        },
+        {
+          "id": "ko-candidate-15",
+          "title": "케이블 액세서리 구성 최적화",
+          "targetKeyword": "케이블 액세서리 구성 최적화",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld because the local organic result set was off-topic."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "The organic result set was materially off-topic, dominated by unrelated Korean OEM industries. Publishing would require better Korean product-market evidence."
+      }
+    },
+    "id": {
+      "query": "produsen distributor grosir dumbbell plate beban alat gym OEM impor -site:chinafreeweight.com",
+      "marketSignal": "Indonesian results mix imported wholesale goods with consumer questions about adjustable dumbbells, loose collars, freight and durability; after-sales boundaries are a real gap.",
+      "topResults": [
+        {
+          "url": "https://www.dumbbellmanufacturers.com/",
+          "coverage": "Factory-direct wholesale positioning."
+        },
+        {
+          "url": "https://grosir.speedsindo.com/product/speeds-dumbell-barbel-set-20kg-tiang-angkat-beban-besi-dumbbell-stainless-barbell-gym-20-kg-014-10/",
+          "coverage": "Local adjustable set listing."
+        },
+        {
+          "url": "https://www.oksporting.com/",
+          "coverage": "OEM supplier range."
+        },
+        {
+          "url": "https://www.dumbbellmanufacturers.com/weight-plate/",
+          "coverage": "Wholesale plate specification."
+        },
+        {
+          "url": "https://www.dumbbellmanufacturers.com/bumper-plate/",
+          "coverage": "Bumper plate options and FAQ."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/id/dumbbells",
+          "coverage": "Indonesian dumbbell manufacturer page."
+        },
+        {
+          "url": "https://gymweightsupply.com/oem-odm",
+          "coverage": "OEM free-weight program."
+        },
+        {
+          "url": "https://www.landersports.com/",
+          "coverage": "Factory-direct free weights."
+        },
+        {
+          "url": "https://id.made-in-china.com/co_ok-sporting/",
+          "coverage": "Indonesian marketplace supplier listing."
+        },
+        {
+          "url": "https://gymweightsupply.com/products/dumbbell-handles",
+          "coverage": "Wholesale product range and QC."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "id-candidate-01",
+          "title": "Batas garansi dan suku cadang dumbbell adjustable",
+          "targetKeyword": "batas garansi dan suku cadang dumbbell adjustable",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-02",
+          "title": "Mengelola collar yang mudah longgar pada set bongkar pasang",
+          "targetKeyword": "mengelola collar yang mudah longgar pada set bongkar pasang",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-03",
+          "title": "Mencatat kompatibilitas plate dan bar untuk distributor",
+          "targetKeyword": "mencatat kompatibilitas plate dan bar untuk distributor",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-04",
+          "title": "Bukti penerimaan barang berat antar pulau",
+          "targetKeyword": "bukti penerimaan barang berat antar pulau",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-05",
+          "title": "Mengganti satu dumbbell tanpa merusak pasangan",
+          "targetKeyword": "mengganti satu dumbbell tanpa merusak pasangan",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-06",
+          "title": "Kode SKU untuk cable handle dan karabiner",
+          "targetKeyword": "kode sku untuk cable handle dan karabiner",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-07",
+          "title": "Memisahkan cacat kosmetik dan cacat fungsi",
+          "targetKeyword": "memisahkan cacat kosmetik dan cacat fungsi",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-08",
+          "title": "Persetujuan barcode dan kemasan marketplace",
+          "targetKeyword": "persetujuan barcode dan kemasan marketplace",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-09",
+          "title": "Membandingkan kiriman satuan dan palet",
+          "targetKeyword": "membandingkan kiriman satuan dan palet",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-10",
+          "title": "Stok ukuran beban yang jarang terjual",
+          "targetKeyword": "stok ukuran beban yang jarang terjual",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-11",
+          "title": "Kontrol perubahan knurl dan marking barbell",
+          "targetKeyword": "kontrol perubahan knurl dan marking barbell",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-12",
+          "title": "Data produk untuk jaringan reseller Indonesia",
+          "targetKeyword": "data produk untuk jaringan reseller indonesia",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-13",
+          "title": "Persetujuan substitusi bahan coating",
+          "targetKeyword": "persetujuan substitusi bahan coating",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-14",
+          "title": "Kesesuaian rak dengan set dumbbell penuh",
+          "targetKeyword": "kesesuaian rak dengan set dumbbell penuh",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "id-candidate-15",
+          "title": "Rencana aksesori tanpa stok mati",
+          "targetKeyword": "rencana aksesori tanpa stok mati",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Indonesian results mix imported wholesale goods with consumer questions about adjustable dumbbells, loose collars, freight and durability; after-sales boundaries are a real gap."
+      }
+    },
+    "pl": {
+      "query": "producent hurtownia hantle obciążenia siłownia OEM zakup importer -site:chinafreeweight.com",
+      "marketSignal": "Polish results show domestic casting, B2B import and multiple bar diameters. Buyers need compatibility and parcel/pallet controls more than another generic material comparison.",
+      "topResults": [
+        {
+          "url": "https://alexandave.com/pl/",
+          "coverage": "OEM contract manufacturing."
+        },
+        {
+          "url": "https://rising-sports.eu/",
+          "coverage": "European OEM brand and factory model."
+        },
+        {
+          "url": "https://finnerpolska.com/",
+          "coverage": "Polish importer and distributor."
+        },
+        {
+          "url": "https://zesttrade.pl/",
+          "coverage": "B2B import and wholesale service."
+        },
+        {
+          "url": "https://www.leadmanfitness.com/pl/topics/dumbbell-supplier.html",
+          "coverage": "Localized dumbbell supplier page."
+        },
+        {
+          "url": "https://specialfitness.pl/content/18-hurtownia-sprzet-do-silowni",
+          "coverage": "Polish wholesale gym equipment."
+        },
+        {
+          "url": "https://gymweightsupply.com/oem-odm",
+          "coverage": "OEM free-weight program."
+        },
+        {
+          "url": "https://kawmet.pl/produkt/180/hantle-zeliwne-hexagonalne-br-2x2-5-kg",
+          "coverage": "Domestic cast-iron dumbbell product."
+        },
+        {
+          "url": "https://kawmet.pl/produkt/137/hantle-zeliwne-regulowane-br-2x20kg-40kg",
+          "coverage": "Adjustable product with diameter variants."
+        },
+        {
+          "url": "https://www.xysfitness.com/pl/",
+          "coverage": "Localized Chinese manufacturer page."
+        }
+      ],
+      "candidates": [
+        {
+          "id": "pl-candidate-01",
+          "title": "Macierz zgodności gryfu, obciążenia i zacisku",
+          "targetKeyword": "macierz zgodności gryfu, obciążenia i zacisku",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-02",
+          "title": "Pakowanie hantli do przesyłki kurierskiej i na paletę",
+          "targetKeyword": "pakowanie hantli do przesyłki kurierskiej i na paletę",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-03",
+          "title": "Wymiana jednej uszkodzonej hantli w parze",
+          "targetKeyword": "wymiana jednej uszkodzonej hantli w parze",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-04",
+          "title": "Rejestr SKU uchwytów do wyciągu",
+          "targetKeyword": "rejestr sku uchwytów do wyciągu",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-05",
+          "title": "Kontrola średnic 28, 30 i 50 mm w ofercie",
+          "targetKeyword": "kontrola średnic 28, 30 i 50 mm w ofercie",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-06",
+          "title": "Oddzielna akceptacja wad wizualnych i funkcjonalnych",
+          "targetKeyword": "oddzielna akceptacja wad wizualnych i funkcjonalnych",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-07",
+          "title": "Wersjonowanie radełkowania i oznaczeń gryfu",
+          "targetKeyword": "wersjonowanie radełkowania i oznaczeń gryfu",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-08",
+          "title": "Plan części do hantli regulowanych",
+          "targetKeyword": "plan części do hantli regulowanych",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-09",
+          "title": "Kody EAN i jednostki opakowaniowe marki własnej",
+          "targetKeyword": "kody ean i jednostki opakowaniowe marki własnej",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-10",
+          "title": "Zapas rzadkich stopni ciężaru",
+          "targetKeyword": "zapas rzadkich stopni ciężaru",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-11",
+          "title": "Dane produktowe dla sieci dealerskiej",
+          "targetKeyword": "dane produktowe dla sieci dealerskiej",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-12",
+          "title": "Kontrola zmiany materiału powłoki",
+          "targetKeyword": "kontrola zmiany materiału powłoki",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-13",
+          "title": "Dopasowanie stojaka do pełnego zestawu hantli",
+          "targetKeyword": "dopasowanie stojaka do pełnego zestawu hantli",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-14",
+          "title": "Odbiór ciężkich przesyłek z dokumentacją szkody",
+          "targetKeyword": "odbiór ciężkich przesyłek z dokumentacją szkody",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        },
+        {
+          "id": "pl-candidate-15",
+          "title": "Dobór akcesoriów bez zamrażania kapitału",
+          "targetKeyword": "dobór akcesoriów bez zamrażania kapitału",
+          "buyerProblem": "A specific procurement, compatibility, receiving, service or inventory decision not resolved by the existing replicated topic set.",
+          "status": "withheld",
+          "reason": "Withheld to protect quality in the first guarded run; research retained for a future independently reviewed article."
+        }
+      ],
+      "selected": [],
+      "serpAnalysis": {
+        "evidence": "Top results were inspected for visible product details, buyer segments, order conditions, logistics, customization and proof claims.",
+        "depth": "Most ranking pages are catalogues or supplier landing pages; operational procurement methods are usually shallow.",
+        "structure": "Category grids, specification bullets, trust claims, FAQ blocks and quotation buttons dominate.",
+        "gap": "Polish results show domestic casting, B2B import and multiple bar diameters. Buyers need compatibility and parcel/pallet controls more than another generic material comparison."
+      }
+    }
+  },
+  "selectionDecision": {
+    "selectedCount": 1,
+    "selectedLocales": [
+      "en"
+    ],
+    "rationale": "Publish one English pilot through the existing native resources model. Withhold all other candidates rather than combine unrelated local topics into false hreflang clusters or introduce a new locale content loader during the first protected run."
+  },
+  "sources": [
+    "https://www.dumbbellmanufacturers.com/about-us/",
+    "https://www.dumbbellmanufacturers.com/weight-plate/",
+    "https://www.dumbbellmanufacturers.com/",
+    "https://gymweightsupply.com/oem-odm",
+    "https://www.circle-strength.com/",
+    "https://gymweightsupply.com/en/products/dumbbell-handles",
+    "https://www.oksporting.com/",
+    "https://athomfit.com/",
+    "https://www.wavar.com/wholesale-dumbbells/",
+    "https://shandongbyfit.com/products/free-weights/",
+    "https://www.anilhasehalteres.com.br/contato.html",
+    "https://www.anilhasehalteres.com.br/",
+    "https://movequipamentos.com.br/fabrica-de-anilhas-e-halteres-para-academia.php",
+    "https://anilhasfitness.com.br/",
+    "https://seo.anilhasecia.com.br/distribuidor-de-halter-emborrachado",
+    "https://muscularfit.com.br/",
+    "https://www.oksporting.com/pt/",
+    "https://www.fitwork.com.br/",
+    "https://www.xysfitness.com/pt/",
+    "https://www.forsety.com.br/",
+    "https://www.oksporting.com/es/",
+    "https://www.oksporting.com/es/application/dumbbells-supplier-for-fitness-centers",
+    "https://www.oksporting.com/es/application/dumbbell-factory",
+    "https://es.wavar.com/product/custom-dumbbells.html",
+    "https://alexandave.com/es/",
+    "https://www.leadmanfitness.com/es/topics/508.html",
+    "https://www.lehegym.com/es/products",
+    "https://www.bsasfitness.com/",
+    "https://www.oksporting.com/es/application/commercial-gym-equipment",
+    "https://www.xysfitness.com/es/Dumbbells-pl49773497.html",
+    "https://www.lieferanten.de/produkt-Hantelscheiben.html",
+    "https://www.lieferanten.de/produkt-Hanteln.html",
+    "https://www.lieferanten.de/produkt-Hantels%C3%A4tze.html",
+    "https://www.lieferanten.de/produkt-Fausthanteln.html",
+    "https://www.lieferanten.de/produkt-Hantelsets.html",
+    "https://www.lieferanten.de/produkt-Hantel-Stellringe.html",
+    "https://www.oksporting.com/de/application/dumbbell-manufacturers",
+    "https://www.okpro.com/de/black-rubber-bumper-plate-ok2006-1",
+    "https://www.oksporting.com/de/products",
+    "https://www.oksporting.com/de/application/bulk-dumbbells-wholesale",
+    "https://alexandave.com/fr/",
+    "https://www.oksporting.com/fr/",
+    "https://www.oksporting.com/fr/application/bulk-fitness-equipment",
+    "https://www.oksporting.com/fr/application/fitness-equipment-wholesale",
+    "https://www.oksporting.com/fr/application/commercial-gym-equipment",
+    "https://wderfitness.com/",
+    "https://www.oksporting.com/fr/application/fitness-equipment-supplier-for-gyms",
+    "https://fr.xmasterfit.com/",
+    "https://www.oksporting.com/fr/application/barbell-plates",
+    "https://fr.wavar.com/product/custom-dumbbells.html",
+    "https://duonghoangfn.vn/ta-banh-technogym-du-size",
+    "https://duonghoangfn.vn/ta-dia-ziva",
+    "https://www.thethaothientruong.vn/ta-tay-ta-don/gia-de-ta.html",
+    "https://www.thietbiphonggym.vn/",
+    "https://phuongsport.com.vn/products/banh-ta-dia-ziva-cao-cap-boc-cao-su",
+    "https://duonghoangfn.vn/",
+    "https://tamchinhsport.vn/",
+    "https://baoansport.vn/ta-tay-ta-don/gia-de-ta/",
+    "https://wikisport.vn/bo-mon-gym/cac-loai-gia-de-ta.html",
+    "https://ptfitnessvn.wixsite.com/ptfitness",
+    "https://www.leadmanfitness.com/sv/topics/gym-equipment-dumbbells.html",
+    "https://www.xysfitness.com/sv/",
+    "https://se.wavar.com/products/",
+    "https://www.nordicfighter.com/",
+    "https://www.keepufitness.com/sv/product/dumbbell-hand-weights-manufacturer/",
+    "https://www.landersports.com/",
+    "https://www.leadmanfitness.com/sv/topics/317.html",
+    "https://www.leadmanfitness.com/sv/topics/purchase-gym-equipment.html",
+    "https://gympartner.nu/gympartners-kompletta-gym-stockholm/",
+    "https://www.leadmanfitness.com/sv/topics/manufacturer-of-dumbbells.html",
+    "https://www.oksporting.com/it/",
+    "https://www.oksporting.com/it/application/dumbbells",
+    "https://www.oksporting.com/it/application/bulk-fitness-equipment",
+    "https://www.gavosrl.it/italiano",
+    "https://it.wavar.com/wholesale-dumbbells/",
+    "https://it.wavar.com/barbell-bar/",
+    "https://it.xmasterfit.com/",
+    "https://www.okpro.com/it/blog/oem-dumbbell-production-for-international-fitness-brands",
+    "https://www.lifemaxx.com/nl/halters-groothandel/",
+    "https://www.fitribution.com/nl/service/about/",
+    "https://www.oksporting.com/nl/application/rubber-dumbbells-set",
+    "https://www.oksporting.com/nl/application/bulk-fitness-equipment",
+    "https://www.oksporting.com/nl/application/gym-barbell-plates",
+    "https://nl.yanrefitness.com/weight-plate-suppliers-around-the-world/",
+    "https://www.carefitness.nl/pro-schijven",
+    "https://innovexfitness.nl/products/throwdown-urethaan-olympic-plates",
+    "https://sqmize.nl/collections/professionele-gewichtsschijven-voor-commercieel-gebruik",
+    "https://powerimport.nl/product-categorie/halters-gewichten/",
+    "https://dongbangbnh.com/eng/index.php",
+    "https://dongbangplastic.com/about.php",
+    "https://oemkorea.com/",
+    "https://www.damakorea.co.kr/",
+    "https://www.dongbangplastic.com/",
+    "https://www.davidcosmetic.com/oem",
+    "https://thedameul.co.kr/",
+    "https://www.heiblab.com/",
+    "https://douen.co.kr/",
+    "https://www.dillerbottle.com/ko/",
+    "https://grosir.speedsindo.com/product/speeds-dumbell-barbel-set-20kg-tiang-angkat-beban-besi-dumbbell-stainless-barbell-gym-20-kg-014-10/",
+    "https://www.dumbbellmanufacturers.com/bumper-plate/",
+    "https://www.leadmanfitness.com/id/dumbbells",
+    "https://id.made-in-china.com/co_ok-sporting/",
+    "https://gymweightsupply.com/products/dumbbell-handles",
+    "https://alexandave.com/pl/",
+    "https://rising-sports.eu/",
+    "https://finnerpolska.com/",
+    "https://zesttrade.pl/",
+    "https://www.leadmanfitness.com/pl/topics/dumbbell-supplier.html",
+    "https://specialfitness.pl/content/18-hurtownia-sprzet-do-silowni",
+    "https://kawmet.pl/produkt/180/hantle-zeliwne-hexagonalne-br-2x2-5-kg",
+    "https://kawmet.pl/produkt/137/hantle-zeliwne-regulowane-br-2x20kg-40kg",
+    "https://www.xysfitness.com/pl/"
+  ]
+}

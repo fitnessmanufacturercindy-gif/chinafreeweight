@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-07-24",
+  "startedAt": "2026-07-24T00:37:41.443Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 60,
+  "candidatePoolTarget": 180,
+  "slots": [
+    {
+      "id": "2026-07-24-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-07-24-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    }
+  ]
+}

@@ -478,7 +478,7 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("multilingual sitemap retains 135 English routes and adds all eleven localized route sets", () => {
+test("multilingual sitemap retains 136 English routes and adds all eleven localized route sets", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
   const spanishUrls = urls.filter((url) => new URL(url).pathname === "/es" || new URL(url).pathname.startsWith("/es/"));
@@ -492,7 +492,7 @@ test("multilingual sitemap retains 135 English routes and adds all eleven locali
   const polishUrls = urls.filter((url) => new URL(url).pathname === "/pl" || new URL(url).pathname.startsWith("/pl/"));
   const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
-  assert.equal(englishUrls.length, 135);
+  assert.equal(englishUrls.length, 136);
   assert.equal(portugueseUrls.length, 122);
   assert.equal(spanishUrls.length, 122);
   assert.equal(germanUrls.length, 124);
@@ -504,7 +504,7 @@ test("multilingual sitemap retains 135 English routes and adds all eleven locali
   assert.equal(indonesianUrls.length, 122);
   assert.equal(polishUrls.length, 122);
   assert.equal(dutchUrls.length, 122);
-  assert.equal(new Set(urls).size, 1481);
+  assert.equal(new Set(urls).size, 1482);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -513,6 +513,7 @@ test("multilingual sitemap retains 135 English routes and adds all eleven locali
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/can-i-build-muscle-with-only-dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-bumper-plates-made`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-dumbbells-weighed`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/resources/cable-attachment-sku-compatibility-register`));
   assert.ok(urls.includes(`${configuredSiteUrl}/factory`));
   assert.ok(urls.includes(`${configuredSiteUrl}/contact`));
   assert.equal(urls.some((url) => new URL(url).pathname.startsWith("/en/")), false);
@@ -548,7 +549,7 @@ test("multilingual sitemap retains 135 English routes and adds all eleven locali
   assert.equal(urls.some((url) => /^\/(ru|ar|ja)(\/|$)/.test(new URL(url).pathname)), false);
 });
 
-test("language sitemap contains all 1481 public URLs with the complete products hub cluster", () => {
+test("language sitemap contains all 1482 public URLs with the complete products hub cluster", () => {
   const entries = localizedSitemapEntries();
   const english = entries.filter((entry) => !/^\/(?:pt|es|de|fr|vi|sv|it|ko|id|pl|nl)(?:\/|$)/.test(new URL(entry.url).pathname));
   const portuguese = entries.filter((entry) => /^\/pt(?:\/|$)/.test(new URL(entry.url).pathname));
@@ -562,7 +563,7 @@ test("language sitemap contains all 1481 public URLs with the complete products 
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 135);
+  assert.equal(english.length, 136);
   assert.equal(portuguese.length, 122);
   assert.equal(spanish.length, 122);
   assert.equal(german.length, 124);
@@ -574,7 +575,7 @@ test("language sitemap contains all 1481 public URLs with the complete products 
   assert.equal(indonesian.length, 122);
   assert.equal(polish.length, 122);
   assert.equal(dutch.length, 122);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1481);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1482);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
