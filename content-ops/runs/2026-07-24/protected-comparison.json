@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-07-24T03:33:14.674Z",
+  "baselineCapturedAt": "2026-07-24T00:39:33.562Z",
+  "afterCapturedAt": "2026-07-24T03:31:00.042Z",
+  "protectedUrlCount": 1481,
+  "afterUrlCount": 1482,
+  "protectedRegressionCount": 0,
+  "regressions": [],
+  "newUrl": {
+    "url": "https://www.chinafreeweight.com/resources/cable-attachment-sku-compatibility-register",
+    "inSitemap": true,
+    "status": 200,
+    "indexable": true,
+    "canonical": "https://www.chinafreeweight.com/resources/cable-attachment-sku-compatibility-register",
+    "title": "Cable Attachment Compatibility Register | Distributor Guide",
+    "h1": "Cable Attachment SKU Compatibility Register for Distributors",
+    "schemaTypes": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "FAQPage",
+      "ImageObject",
+      "ListItem",
+      "LocalBusiness",
+      "Offer",
+      "Organization",
+      "PostalAddress",
+      "Product",
+      "SearchAction",
+      "SportingGoodsStore",
+      "WebPage",
+      "WebSite"
+    ]
+  },
+  "passed": true
+}

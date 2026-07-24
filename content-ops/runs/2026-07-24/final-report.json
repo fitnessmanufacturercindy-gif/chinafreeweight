@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-07-24",
+  "completedAt": "2026-07-24T03:36:29.673Z",
+  "publication": {
+    "publishedCount": 1,
+    "withheldCount": 179,
+    "productionUrl": "https://www.chinafreeweight.com/resources/cable-attachment-sku-compatibility-register",
+    "qualityScore": 100,
+    "author": "ChinaFreeWeight Technical Editorial Team",
+    "languageCreationMode": "local-market-original",
+    "translationSourceId": null,
+    "paidResearchCostUsd": 0
+  },
+  "languages": {
+    "en": {
+      "researchedCandidates": 15,
+      "selected": 1,
+      "published": 1,
+      "withheld": 14
+    },
+    "pt-BR": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "es": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "de": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "fr": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "vi": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "sv": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "it": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "nl": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "ko": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "id": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    },
+    "pl": {
+      "researchedCandidates": 15,
+      "selected": 0,
+      "published": 0,
+      "withheld": 15
+    }
+  },
+  "withholdingRationale": "Candidates were retained rather than promoted without enough independently reviewed local-market evidence and a native, non-translated article architecture capable of clearing every hard gate. Korean natural results were especially noisy and off-topic.",
+  "health": {
+    "mode": "daily-incremental",
+    "checkedUrls": 16,
+    "okUrls": 16,
+    "critical": 0,
+    "high": 0,
+    "medium": 7,
+    "protectedUrlCount": 1481,
+    "protectedRegressionCount": 0,
+    "sitemapUrlCount": 1482,
+    "mediumFindingDisposition": "Reported only because they affect protected historical pages: decorative empty-alt images, schema gaps on contact/resources entrances, and legacy resource metadata."
+  },
+  "pullRequests": [
+    "https://github.com/fitnessmanufacturercindy-gif/chinafreeweight/pull/14",
+    "https://github.com/fitnessmanufacturercindy-gif/chinafreeweight/pull/15"
+  ]
+}

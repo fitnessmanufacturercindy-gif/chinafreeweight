@@ -109,6 +109,8 @@ const document = {
   author: "ChinaFreeWeight Technical Editorial Team",
   slug,
   proposedPublicPath: publicPath,
+  publishedPath: publicPath,
+  publishedAt: "2026-07-24T03:29:18.000Z",
   title,
   metaDescription: "A distributor-focused method for controlling cable attachment identity, interface evidence, approved pairings, exclusions, revisions, and replacement orders.",
   h1: title,
@@ -212,7 +214,7 @@ const runDirectory = resolve("content-ops", "runs", runDate);
 await mkdir(resolve(runDirectory, "drafts"), { recursive: true });
 await writeFile(
   resolve(runDirectory, "drafts", "index.json"),
-  `${JSON.stringify({ schemaVersion: 1, siteId: "chinafreeweight", runDate, status: "qa-pending", documents: [document] }, null, 2)}\n`,
+  `${JSON.stringify({ schemaVersion: 1, siteId: "chinafreeweight", runDate, status: "published", documents: [document] }, null, 2)}\n`,
   "utf8"
 );
 await writeFile(resolve("content", "resources", `${slug}.md`), `${frontmatter}\n\n${body}\n`, "utf8");

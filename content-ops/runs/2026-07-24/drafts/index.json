@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "siteId": "chinafreeweight",
   "runDate": "2026-07-24",
-  "status": "qa-pending",
+  "status": "published",
   "documents": [
     {
       "id": "chinafreeweight-2026-07-24-en-01",
@@ -12,6 +12,8 @@
       "author": "ChinaFreeWeight Technical Editorial Team",
       "slug": "cable-attachment-sku-compatibility-register",
       "proposedPublicPath": "/resources/cable-attachment-sku-compatibility-register",
+      "publishedPath": "/resources/cable-attachment-sku-compatibility-register",
+      "publishedAt": "2026-07-24T03:29:18.000Z",
       "title": "Cable Attachment SKU Compatibility Register for Distributors",
       "metaDescription": "A distributor-focused method for controlling cable attachment identity, interface evidence, approved pairings, exclusions, revisions, and replacement orders.",
       "h1": "Cable Attachment SKU Compatibility Register for Distributors",
