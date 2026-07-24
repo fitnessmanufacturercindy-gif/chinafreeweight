@@ -367,3 +367,23 @@ Run `npm ci` to completion whenever `node_modules/.bin/next` is absent; do not u
 Use `Test-Path node_modules/.bin/next.cmd` (or the platform equivalent) before skipping installation in a fresh worktree.
 
 ---
+## [ERR-20260724-003] ci-daily-health-full-crawl-timeout
+
+**Logged**: 2026-07-24T10:08:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: CI
+
+### Summary
+The Website Quality Gate ran the daily Playwright health check against all 1,482 sitemap URLs in serial and both push and pull-request jobs hit the 40-minute workflow limit.
+
+### Error
+Both `quality-gate` runs completed build, lint, typecheck, unit tests, and the website quality gate, then timed out during `Run daily site health assertions`.
+
+### Resolution
+Added a policy-aware scope selector and `SITE_HEALTH_PATHS` support. Daily runs now check critical locale entrances, new URLs, and routes affected by changed files; Sunday includes seven days of changed routes; the first day of each month leaves the scope empty to request a full crawl.
+
+### Prevention
+Keep expensive browser health checks incremental outside the monthly full-site run, while retaining sitemap membership checks and protected-page regression controls.
+
+---

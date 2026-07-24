@@ -42,7 +42,10 @@
     "tests": "33-passed",
     "multilingualAudit": "passed",
     "productionBuild": "passed",
-    "gitDiffCheck": "passed"
+    "gitDiffCheck": "passed",
+    "healthScopeSelector": "daily-incremental-16-urls",
+    "initialCiHealthResult": "timed-out-after-40-minutes-on-1482-url-legacy-full-crawl",
+    "ciHealthRemediation": "policy-scope-selector-added-awaiting-rerun"
   },
   "publication": {
     "status": "awaiting-pr-and-production-verification",

@@ -14,6 +14,15 @@ const PAGE_IDLE_TIMEOUT_MS = Number(process.env.SITE_HEALTH_PAGE_IDLE_TIMEOUT_MS
 const MOBILE_IDLE_TIMEOUT_MS = Number(process.env.SITE_HEALTH_MOBILE_IDLE_TIMEOUT_MS || 1500);
 const SCROLL_DELAY_MS = Number(process.env.SITE_HEALTH_SCROLL_DELAY_MS || 60);
 const POST_SCROLL_WAIT_MS = Number(process.env.SITE_HEALTH_POST_SCROLL_WAIT_MS || 300);
+const REQUESTED_PATHS = uniqueRequestedPaths(process.env.SITE_HEALTH_PATHS || "");
+
+function uniqueRequestedPaths(value) {
+  return [...new Set(value
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean)
+    .map((item) => item.startsWith("/") ? item : `/${item}`))];
+}
 
 const LANGUAGE_RULES = {
   es: { name: "Spanish", maxEnglishRatio: 0.18 },
@@ -145,6 +154,17 @@ async function discoverUrls() {
     }
   } catch (error) {
     sitemapIssues.push(issue("High", "sitemap", `${BASE_URL}/sitemap.xml`, `sitemap.xml could not be fetched: ${error.message}`));
+  }
+
+  if (REQUESTED_PATHS.length) {
+    const sitemapUrls = new Set(discovered);
+    const selected = REQUESTED_PATHS.map((route) => normalizeInternalUrl(route));
+    for (const url of selected) {
+      if (!sitemapUrls.has(url)) {
+        sitemapIssues.push(issue("High", "sitemap", url, "Incremental health target is missing from sitemap.xml"));
+      }
+    }
+    return { urls: unique(selected).sort(), sitemapIssues };
   }
 
   if (discovered.size === 0) {
