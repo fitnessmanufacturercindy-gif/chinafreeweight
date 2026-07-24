@@ -17,7 +17,7 @@ A distributor should approve a cable attachment SKU only when its commercial ide
 
 ## One catalogue name can hide several purchasing decisions
 
-Terms such as lat bar, row handle, stirrup handle, and triceps rope describe a use pattern, not a controlled interface. Two attachments sold under the same name may differ at the connecting eye, swivel, grip position, overall envelope, surface finish, or marking. Those differences can affect whether the attachment reaches the connector, rotates without interference, feels consistent beside the installed range, and can be identified when a customer orders one replacement.
+Terms such as [lat bar and pulldown handle](/products/gym-accessories/lat-pulldown-handles), row handle, stirrup handle, and triceps rope describe a use pattern, not a controlled interface. Two attachments sold under the same name may differ at the connecting eye, swivel, grip position, overall envelope, surface finish, or marking. Those differences can affect whether the attachment reaches the connector, rotates without interference, feels consistent beside the installed range, and can be identified when a customer orders one replacement.
 
 For a distributor, the compatibility record is therefore not a universal fit claim. It is a boundary around what has actually been checked. The useful question is not “Does this fit cable machines?” but “Which supplier revision was evaluated with which named machine or connector condition, what evidence was retained, and which combinations remain unapproved?”
 
@@ -25,7 +25,7 @@ For a distributor, the compatibility record is therefore not a universal fit cla
 
 Keep the distributor SKU stable as the commercial record, then link it to the supplier model code and revision that were actually purchased. If a GTIN is assigned, apply it according to the organization’s identification rules; the GS1 GTIN Management Standard explains when trade-item changes may require a new identifier. A GTIN identifies a trade item, but it does not replace a drawing revision, approved sample reference, or a compatibility decision.
 
-The physical record should describe the interface without assuming that one dimension proves fit. Record the connector type and the geometry that governs engagement, then add the attachment envelope, rotation or articulation features, grip layout, and any contact point that could foul the machine. Units, measurement method, source document, and revision belong beside each value. Marketing names can remain searchable aliases, but they should not be the acceptance key.
+The physical record should describe the interface without assuming that one dimension proves fit. Record the connector type and the geometry that governs engagement, then add the [cable attachment](/products/gym-accessories/cable-machine-attachments) envelope, rotation or articulation features, grip layout, and any contact point that could foul the machine. Units, measurement method, source document, and revision belong beside each value. Marketing names can remain searchable aliases, but they should not be the acceptance key.
 
 
 | Register field | Evidence to retain | Decision it supports |
@@ -39,7 +39,7 @@ The physical record should describe the interface without assuming that one dime
 
 ## Build an evidence ladder instead of a yes-or-no column
 
-Use evidence levels so that an unverified lead cannot silently become an approved replacement. A catalogue match may justify requesting data. A supplier document can support comparison when its model and revision are identifiable. A retained sample measurement can confirm the sample in hand. A controlled fit and movement check on the named equipment can support a specific pairing. Each level answers a different question, so the register should show the highest completed level and link to the record behind it.
+Use evidence levels so that an unverified lead cannot silently become an approved replacement. A catalogue match may justify requesting data. A supplier document can support comparison when its model and revision are identifiable. A retained sample measurement can confirm the sample in hand; the [OEM sample approval process](/resources/oem-free-weight-sample-approval-process) should preserve its identity and decision boundary. A controlled fit and movement check on the named equipment can support a specific pairing. Each level answers a different question, so the register should show the highest completed level and link to the record behind it.
 
 A fit check should start with identification and condition, continue through connection and clearance, and end with a documented decision by the responsible party. The exact check must follow the intended equipment and competent safety process; this article does not prescribe a universal load test or declare any attachment interchangeable. ISO 20957-1 provides general safety requirements and test methods for stationary training equipment, but citing the standard is not evidence that a particular accessory-machine combination conforms or is safe.
 
