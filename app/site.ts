@@ -23,10 +23,20 @@ export const sourcingFacts = {
     "MOQ depends on the product style, customization requirements, and order plan. PBF confirms the practical MOQ after reviewing the buyer's product list and market needs.",
   packaging:
     "Multi-functional racks and home gym functional trainers are usually packed in wooden crates. Dumbbells, weight plates, and gym accessories are usually packed in cartons, or customized according to buyer requirements.",
+  freeWeightPackaging:
+    "Dumbbells and weight plates are usually protected in cartons, with pallet or other export packing planned according to unit weight, finish protection, handling limits, buyer requirements, and the confirmed shipment method.",
   leadTime:
     "Lead time depends on order quantity and customization details. Standard orders can usually be shipped around 10 days after deposit when materials and production schedule are confirmed.",
   quality:
-    "Quality checks can include material review, surface finish inspection, weight confirmation, assembly check, packing inspection, and shipment preparation."
+    "Quality checks can include material review, surface finish inspection, weight confirmation, assembly check, packing inspection, and shipment preparation.",
+  tolerance:
+    "Target weight and dimensional tolerances are confirmed by model and weight before sample approval and purchase order. The agreed inspection method, sample size, and acceptance record become part of the order specification.",
+  containerPlanning:
+    "Container quantities are calculated after the product mix, unit weights, carton or pallet method, destination, and container type are confirmed. The quotation can include a model-level packing list, net and gross weight, volume, and loading plan instead of an unverified generic quantity.",
+  warranty:
+    "Warranty scope is confirmed in the quotation or sales contract for the selected model and destination market. Coverage, evidence requirements, exclusions, and the agreed remedy are documented before production rather than assumed from a site-wide promise.",
+  samples:
+    "Sample availability, sample cost, logo setup, packing, and sample lead time are confirmed after the product specification and destination are reviewed. An approved sample or signed specification can be used as the production reference."
 };
 
 export const organizationJsonLd = {

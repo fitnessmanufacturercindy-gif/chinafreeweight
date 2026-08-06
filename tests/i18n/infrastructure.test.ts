@@ -3,8 +3,11 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import test from "node:test";
 import sitemap from "../../app/sitemap";
-import { siteUrl as configuredSiteUrl } from "../../app/site";
+import { siteUrl as configuredSiteUrl, sourcingFacts } from "../../app/site";
 import { getLanguageSwitchOptions, resolveLanguageSwitchTarget } from "../../app/components/i18n/LanguageSwitcher";
+import { coreProductConversionSelection } from "../../app/products/coreProductConversion";
+import { dumbbellProducts } from "../../app/products/dumbbells/productData";
+import { weightPlateProducts } from "../../app/products/weight-plates/productData";
 import { contentRepository, createContentRepository } from "../../lib/content/repository";
 import type { ContentEntity, ContentManifest, LocalizedContentVersion, PublicationStatus } from "../../lib/content/types";
 import { buildPublicPath } from "../../lib/i18n/paths";
@@ -21,6 +24,32 @@ import { indonesianExcludedContentIds } from "../../content/i18n/indonesian-mani
 
 const siteUrl = "https://www.chinafreeweight.com";
 const timestamp = "2026-07-14T00:00:00.000Z";
+
+test("core product conversion template covers 20 verified free-weight SKUs", () => {
+  assert.equal(coreProductConversionSelection.length, 20);
+  assert.equal(new Set(coreProductConversionSelection.map(({ category, slug }) => `${category}:${slug}`)).size, 20);
+  assert.equal(coreProductConversionSelection.filter(({ category }) => category === "Dumbbells").length, 10);
+  assert.equal(coreProductConversionSelection.filter(({ category }) => category === "Weight Plates").length, 10);
+
+  const dumbbellSlugs = new Set(dumbbellProducts.map(({ slug }) => slug));
+  const weightPlateSlugs = new Set(weightPlateProducts.map(({ slug }) => slug));
+
+  for (const selection of coreProductConversionSelection) {
+    if (selection.category === "Dumbbells") assert.ok(dumbbellSlugs.has(selection.slug), selection.slug);
+    else assert.ok(weightPlateSlugs.has(selection.slug), selection.slug);
+  }
+
+  for (const fact of [
+    sourcingFacts.quality,
+    sourcingFacts.tolerance,
+    sourcingFacts.freeWeightPackaging,
+    sourcingFacts.containerPlanning,
+    sourcingFacts.warranty,
+    sourcingFacts.samples
+  ]) {
+    assert.ok(fact.length > 80);
+  }
+});
 
 function localizedVersion(
   locale: "en" | "pt-BR",

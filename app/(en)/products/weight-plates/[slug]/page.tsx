@@ -2,7 +2,9 @@
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
+import ProductConversionTemplate from "../../../../components/ProductConversionTemplate";
 import { sourcingFacts } from "../../../../site";
+import { isCoreConversionProduct } from "../../../../products/coreProductConversion";
 import { getWeightPlateProduct, weightPlateProducts } from "../../../../products/weight-plates/productData";
 import { getEnglishAlternates } from "../../../../../lib/seo/english-alternates";
 
@@ -241,6 +243,21 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
           ))}
         </div>
       </section>
+
+      {isCoreConversionProduct("Weight Plates", product.slug) ? (
+        <ProductConversionTemplate
+          productName={product.name}
+          productCategory="Weight Plates"
+          specifications={[
+            { label: "Weight range", value: product.range },
+            { label: "Plate type", value: product.type },
+            { label: "Material / construction", value: product.material },
+            { label: "Buyer applications", value: product.applications.join("; ") }
+          ]}
+          manufacturingSummary={product.process}
+          customizationOptions={product.oemOptions}
+        />
+      ) : null}
 
       <section className="products-section detail-faq">
         <div className="section-heading-wide">
