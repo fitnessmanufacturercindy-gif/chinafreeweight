@@ -14,6 +14,7 @@ import { withCommercialCompletionC } from "./commercial-completion-c";
 import { withIndonesianLocalization } from "./indonesian-manifest";
 import { withPolishLocalization } from "./polish-manifest";
 import { withDutchLocalization } from "./dutch-manifest";
+import { compactChromeDumbbellCase } from "./compact-chrome-dumbbell-case";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -39,4 +40,9 @@ const baseManifest: ContentManifest = {
   entities: [...entities, ...expansionEntities]
 };
 
-export const multilingualManifest: ContentManifest = withDutchLocalization(withPolishLocalization(withIndonesianLocalization(withCommercialCompletionC(withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))))))))));
+const localizedManifest = withDutchLocalization(withPolishLocalization(withIndonesianLocalization(withCommercialCompletionC(withCommercialCompletionBC(withCommercialCompletionA(withKoreanLocalization(withItalianLocalization(withSwedishLocalization(withVietnameseLocalization(withFrenchLocalization(withGermanLocalization(baseManifest))))))))))));
+
+export const multilingualManifest: ContentManifest = {
+  ...localizedManifest,
+  entities: [...localizedManifest.entities, compactChromeDumbbellCase]
+};

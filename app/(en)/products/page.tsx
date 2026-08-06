@@ -240,8 +240,8 @@ export default function ProductsPage() {
             <h2>Browse PowerBaseFit product lines</h2>
           </div>
           <p>
-            Each category page includes product options, application scenarios,
-            OEM notes, and links to individual SEO product pages.
+            Each category includes product options, application scenarios, OEM
+            details, and direct access to individual product specifications.
           </p>
         </div>
 

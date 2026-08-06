@@ -156,17 +156,6 @@ const postVisuals: Record<
         caption: "For plate orders, packaging and container planning protect the product during export shipping."
       }
     ]
-  },
-  "cable-attachment-sku-compatibility-register": {
-    coverImage: "/assets/products/gym-accessories/handles/cable-machine-attachments-large.webp",
-    coverAlt: "Assortment of cable machine attachments prepared for distributor range planning",
-    articleImages: [
-      {
-        src: "/assets/products/gym-accessories/handles/lat-pulldown-handles.webp",
-        alt: "Lat pulldown handles showing different grip and connection geometries",
-        caption: "A familiar product name does not establish interchangeability; distributors need a revision-controlled record of the actual interface and approved use."
-      }
-    ]
   }
 };
 

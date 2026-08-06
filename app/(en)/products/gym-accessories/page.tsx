@@ -193,13 +193,12 @@ export default function GymAccessoriesPage() {
       <section className="products-section" id="gym-accessory-products">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Related Products</span>
             <h2>All Gym Accessories products</h2>
           </div>
           <p>
-            Each accessory product has its own SEO page with material,
-            applications, OEM options, global supply details, and inquiry CTA
-            for distributors, gym projects, and private label buyers.
+            Explore material, applications, OEM options, and global supply
+            details for distributors, gym projects, and private label buyers.
           </p>
         </div>
 

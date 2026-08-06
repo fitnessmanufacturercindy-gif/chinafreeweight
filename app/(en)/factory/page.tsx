@@ -27,7 +27,7 @@ const trustStats = [
   },
   {
     label: "Factory Overview",
-    value: "8,000 m2",
+    value: "15,000 m²",
     copy: "A practical production base with workshop teams, production line coordination, packaging support, and export communication."
   },
   {

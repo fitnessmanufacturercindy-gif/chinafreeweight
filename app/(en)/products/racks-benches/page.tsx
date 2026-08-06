@@ -176,13 +176,13 @@ export default function RacksBenchesPage() {
       <section className="products-section" id="racks-benches-products">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Related Products</span>
             <h2>All Multi-functional Racks & Benches products</h2>
           </div>
           <p>
-            Each product page includes product overview, material, production
-            process, customization options, application scenarios, global
-            shipping, and inquiry paths for SEO, GEO, and buyer conversion.
+            Each product page includes an overview, material, production process,
+            customization options, application scenarios, global shipping, and
+            a direct quotation path.
           </p>
         </div>
 

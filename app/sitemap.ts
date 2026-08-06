@@ -17,6 +17,7 @@ const staticRoutes = [
   { path: "/products/gym-accessories", priority: 0.78 },
   { path: "/factory", priority: 0.88 },
   { path: "/projects", priority: 0.82 },
+  { path: "/projects/compact-chrome-dumbbell-set", priority: 0.8 },
   { path: "/resources", priority: 0.78 },
   { path: "/contact", priority: 0.86 }
 ];
@@ -61,9 +62,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const vietnameseSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "vi" });
   const swedishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" });
   const italianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" });
+  const arabicSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "ar" });
   const koreanSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" });
   const indonesianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" });
   const polishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pl" });
   const dutchSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "nl" });
-  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap, ...vietnameseSitemap, ...swedishSitemap, ...italianSitemap, ...koreanSitemap, ...indonesianSitemap, ...polishSitemap, ...dutchSitemap];
+  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap, ...vietnameseSitemap, ...swedishSitemap, ...italianSitemap, ...arabicSitemap, ...koreanSitemap, ...indonesianSitemap, ...polishSitemap, ...dutchSitemap];
 }
