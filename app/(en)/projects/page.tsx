@@ -383,7 +383,7 @@ export default function ProjectsPage() {
         <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
-          <span>Ningjin City, Shandong Province, China</span>
+          <span>Ningjin County, Dezhou, Shandong Province, China</span>
         </div>
         <div>
           <a href="/">Home</a>

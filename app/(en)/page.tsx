@@ -178,7 +178,7 @@ export default function Home() {
           </div>
           <div className="hero-proof" aria-label="Company proof points">
             <span>Since 2008</span>
-            <span>8000 m2 factory</span>
+            <span>15,000 m² factory</span>
             <span>OEM/ODM source manufacturer</span>
           </div>
         </div>
@@ -404,8 +404,8 @@ export default function Home() {
         <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
-          <span>Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China</span>
-          <span>Since 2008 路 8,000 m2 factory 路 Europe and USA export markets</span>
+          <span>Ningjin County, Dezhou, Shandong Province, China</span>
+          <span>Since 2008 路 15,000 m² factory 路 Europe and USA export markets</span>
         </div>
         <div className="footer-links">
           <a href="#products">Products</a>
