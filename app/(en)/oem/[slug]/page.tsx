@@ -117,7 +117,7 @@ function assertCustomerVisibleContent(body: string, slug: string) {
     !hasInternalLinks ? "internal links" : ""
   ].filter(Boolean);
   if (missing.length) {
-    throw new Error(`SEO/GEO/AI content check failed for ${slug}: missing ${missing.join(", ")}`);
+    throw new Error(`Content completeness check failed for ${slug}: missing ${missing.join(", ")}`);
   }
 }
 

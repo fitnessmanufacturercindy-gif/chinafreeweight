@@ -59,7 +59,7 @@ export default function ResourcesPage() {
           <article>
             <SearchCheck size={26} />
             <strong>Evidence-Led Answers</strong>
-            <p>Clear training and equipment answers designed for people and AI search.</p>
+            <p>Clear training and equipment answers for gym buyers, distributors, and equipment users.</p>
           </article>
           <article>
             <BookOpen size={26} />

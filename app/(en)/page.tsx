@@ -178,7 +178,7 @@ export default function Home() {
           </div>
           <div className="hero-proof" aria-label="Company proof points">
             <span>Since 2008</span>
-            <span>8000 m2 factory</span>
+            <span>15,000 m² factory</span>
             <span>OEM/ODM source manufacturer</span>
           </div>
         </div>
@@ -282,9 +282,8 @@ export default function Home() {
           <span>Buying Resources</span>
           <h2>Free weight buying guides for importers and gym buyers</h2>
           <p>
-            Build organic traffic with practical content buyers and AI search
-            engines can cite: material comparisons, OEM guides, gym set planning,
-            weight accuracy, packaging and landed-cost questions.
+            Compare materials, OEM options, gym set planning, weight accuracy,
+            packaging, and landed-cost questions before preparing your order.
           </p>
           <div className="spec-list">
             {specs.map((spec) => (
@@ -304,15 +303,15 @@ export default function Home() {
 
       <section className="section case-section" id="cases">
         <div className="case-copy">
-          <span>Project Reference</span>
-          <h2>Free weight project references that help buyers imagine the result</h2>
+          <span>Application Scenarios</span>
+          <h2>Free weight project examples for layout and product planning</h2>
           <p>
-            Strong project visuals help overseas buyers understand product
-            quality, layout possibilities and private label presentation before
-            they request a quote.
+            These examples illustrate possible layouts and product combinations
+            for planning purposes. They are not customer testimonials or claims
+            about named completed projects.
           </p>
           <a className="case-more-link" href="/projects">
-            View all project cases <ArrowRight size={18} />
+            View application scenarios <ArrowRight size={18} />
           </a>
         </div>
         <div className="project-grid">
@@ -333,8 +332,8 @@ export default function Home() {
           <span>FAQ</span>
           <h2>Questions buyers ask before placing a free weight order</h2>
           <p>
-            These answers help procurement visitors, search engines and AI
-            answer systems understand your factory capabilities.
+            Review customization, order planning, packaging, and delivery details
+            before sending your product requirements.
           </p>
         </div>
         <div className="faq-grid">
@@ -400,20 +399,6 @@ export default function Home() {
         </form>
       </section>
 
-      <footer className="footer">
-        <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
-        <div>
-          <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
-          <span>Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China</span>
-          <span>Since 2008 路 8,000 m2 factory 路 Europe and USA export markets</span>
-        </div>
-        <div className="footer-links">
-          <a href="#products">Products</a>
-          <a href="/factory">Factory</a>
-          <a href="/resources">Resources</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </footer>
     </main>
   );
 }

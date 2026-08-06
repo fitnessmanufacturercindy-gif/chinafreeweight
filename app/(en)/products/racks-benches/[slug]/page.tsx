@@ -273,8 +273,8 @@ export default async function RacksBenchesProductPage({ params }: PageProps) {
             <h2>Continue exploring home gym equipment</h2>
           </div>
           <p>
-            Internal links help buyers compare related products and help search
-            engines understand the Multi-functional Racks & Benches category.
+            Explore related solutions to compare rack, bench, cable, and storage
+            options for your gym equipment plan.
           </p>
         </div>
         <div className="dumbbell-grid compact-related-grid">

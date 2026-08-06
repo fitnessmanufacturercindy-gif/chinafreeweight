@@ -377,7 +377,7 @@ export default function WeightPlateManufacturerPage() {
       <section className="products-section detail-list-section">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Related Resources</span>
             <h2>Continue reviewing PowerBaseFit weight plate sourcing pages</h2>
           </div>
           <p>

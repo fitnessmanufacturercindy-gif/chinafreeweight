@@ -135,19 +135,19 @@ function ContactMirror({ version }: { version: Version }) {
   const whatsapp = "https://wa.me/8618963018533?text=" + encodeURIComponent(tr(locale, "Halo, saya ingin meminta penawaran peralatan gym untuk pasar Indonesia.", "Dzień dobry, proszę o ofertę na sprzęt fitness dla rynku polskiego.", "Goedendag, ik ontvang graag een offerte voor fitnessapparatuur voor de Nederlandse markt."));
   const factoryFacts = locale === "nl" ? [
     ["Bedrijfsprofiel", "PowerBaseFit ondersteunt internationale inkopers bij offertes, productselectie en de technische communicatie van OEM-projecten."],
-    ["Productielocatie", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
+    ["Productielocatie", "Ningjin County, Dezhou, Shandong Province, China."],
     ["Hoofdproducten", "Vrije gewichten: halters, halterschijven, bumper plates, racks, banken en fitnessaccessoires."],
     ["OEM-mogelijkheden", "Logo, kleur, greepafwerking, productdetails, verpakking en private-labelprogramma's voor B2B-inkopers."],
     ["Exportmarkten", "Ondersteuning voor importeurs, distributeurs, sportschoolprojecten en fitnessmerken op internationale markten."]
   ] : polish ? [
     ["Profil firmy", "PowerBaseFit wspiera zagranicznych buyerów sprzętu fitness w przygotowaniu oferty, wyborze produktów i komunikacji projektów OEM."],
-    ["Baza produkcyjna", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
+    ["Baza produkcyjna", "Ningjin County, Dezhou, Shandong Province, China."],
     ["Główne produkty", "Wolne ciężary: hantle, obciążenia, talerze bumper, stojaki, ławki i akcesoria fitness."],
     ["Możliwości OEM", "Logo, kolor, wykończenie uchwytu, szczegóły produktu, opakowanie i program marki własnej dla buyerów B2B."],
     ["Rynki eksportowe", "Obsługa importerów, dystrybutorów, projektów siłowni i marek na rynkach międzynarodowych."]
   ] : [
     ["Profil perusahaan", "PowerBaseFit membantu pembeli peralatan gym luar negeri dalam penyusunan penawaran, pemilihan produk, dan komunikasi proyek OEM."],
-    ["Basis manufaktur", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
+    ["Basis manufaktur", "Ningjin County, Dezhou, Shandong Province, China."],
     ["Produk utama", "Beban bebas: dumbbell, piring beban, bumper plate, rak, bangku, dan aksesori gym."],
     ["Kemampuan OEM", "Logo, warna, penyelesaian pegangan, detail produk, kemasan, dan program merek sendiri untuk pembeli B2B."],
     ["Pasar ekspor", "Melayani importir, distributor, proyek gym, dan merek di berbagai pasar internasional."]
@@ -191,7 +191,7 @@ function ContactMirror({ version }: { version: Version }) {
         <LocalizedInquiryForm locale={locale} />
       </section>
       <section className={styles.infoSection}><div className={styles.sectionHeading}><span>{tr(locale, "Informasi pabrik", "Informacje o fabryce", "Fabrieksinformatie")}</span><h2>{tr(locale, "Basis manufaktur dan ekspor", "Baza produkcyjna i eksportowa", "Productie- en exportbasis")}</h2><p>{tr(locale, "Produsen beban bebas untuk pembeli B2B yang memerlukan komunikasi jelas, produksi stabil, dan dukungan produk siap ekspor.", "Producent wolnych ciężarów dla buyerów B2B wymagających jasnej komunikacji, stabilnej produkcji i wsparcia eksportowego.", "Fabrikant van vrije gewichten voor B2B-inkopers die heldere communicatie, stabiele productie en exportondersteuning nodig hebben.")}</p></div><div className={styles.editorialGrid}>{factoryFacts.map(([heading, copy]) => <article className={styles.editorialBlock} key={heading}><h3>{heading}</h3><p>{copy}</p></article>)}</div></section>
-      <section className={styles.mapSection}><div><span>{tr(locale, "Lokasi basis produksi", "Lokalizacja produkcji", "Productielocatie")}</span><h2>Dezhou, Shandong, China</h2><p>North Head of Sunguan Road, Ningjin County, Dezhou City, Shandong Province, China.</p></div><iframe title={tr(locale, "Lokasi PowerBaseFit di OpenStreetMap", "Lokalizacja PowerBaseFit w OpenStreetMap", "Locatie van PowerBaseFit op OpenStreetMap")} src="https://www.openstreetmap.org/export/embed.html?bbox=116.775%2C37.618%2C116.825%2C37.655&layer=mapnik&marker=37.631564%2C116.790819" loading="lazy" /></section>
+      <section className={styles.mapSection}><div><span>{tr(locale, "Lokasi basis produksi", "Lokalizacja produkcji", "Productielocatie")}</span><h2>Dezhou, Shandong, China</h2><p>Ningjin County, Dezhou, Shandong Province, China.</p></div><iframe title={tr(locale, "Lokasi PowerBaseFit di OpenStreetMap", "Lokalizacja PowerBaseFit w OpenStreetMap", "Locatie van PowerBaseFit op OpenStreetMap")} src="https://www.openstreetmap.org/export/embed.html?bbox=116.775%2C37.618%2C116.825%2C37.655&layer=mapnik&marker=37.631564%2C116.790819" loading="lazy" /></section>
       <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, "Pertanyaan sebelum meminta penawaran", "Najczęstsze pytania przed wysłaniem zapytania", "Veelgestelde vragen vóór een offerteaanvraag")}</h2></div><div className={styles.faqGrid}>{contactFaq.map(([question, answer]) => <article key={question}><h3>{question}</h3><p>{answer}</p></article>)}</div></section>
       <FinalCta locale={locale} href={`#${sectionId}`} />
     </main>

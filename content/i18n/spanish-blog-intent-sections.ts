@@ -23,7 +23,7 @@ const sections: Record<string, IntentSection[]> = {
     ]],
     ["rfq-importacion", "RFQ específica para una importación", [
       "La solicitud final debe incluir empresa, mercado, lista por SKU, kg o lb, cantidades, personalización, destino, condición comercial solicitada, fecha objetivo y requisitos de muestra o inspección. Añada preguntas concretas sobre disponibilidad de materiales, proceso, embalaje y plazo. Una RFQ de importación no debe limitarse a pedir catálogo y mejor precio.",
-      "Cuando PowerBaseFit recibe una lista estructurada puede revisar los modelos vinculados con halteres, anillas y equipamiento relacionado, además de opciones OEM y preparación de exportación. La respuesta comercial aplicable debe confirmar los datos del pedido real. Los hechos corporativos publicados —operación desde 2008 en Ningjin y una fábrica aproximada de 8.000 m²— no sustituyen la verificación del producto, lote y condiciones acordadas."
+      "Cuando PowerBaseFit recibe una lista estructurada puede revisar los modelos vinculados con halteres, anillas y equipamiento relacionado, además de opciones OEM y preparación de exportación. La respuesta comercial aplicable debe confirmar los datos del pedido real. Los hechos corporativos publicados —operación desde 2008 en Ningjin y una fábrica aproximada de 15.000 m²— no sustituyen la verificación del producto, lote y condiciones acordadas."
     ]]
   ],
   "import-cost-guide": [
@@ -111,7 +111,7 @@ const sections: Record<string, IntentSection[]> = {
     ]],
     ["briefing-marca", "Briefing de marca propia para la fábrica", [
       "Envíe perfil de mercado, productos base, cantidades, rango, identidad visual, embalaje, destino y fecha objetivo. Separe requisitos obligatorios de preferencias. Solicite que la propuesta identifique método de logo, muestra, MOQ, herramienta, QC y plazo. Así la marca puede decidir qué personalizaciones aportan valor y cuáles añaden coste sin mejorar la oferta.",
-      "PowerBaseFit revisa programas de marca propia vinculados con sus modelos reales de halteres, anillas y equipamiento relacionado. La viabilidad se confirma por producto y cantidad. Los datos de la fábrica publicados —ubicación en Ningjin, operación desde 2008 y área aproximada de 8.000 m²— aportan contexto corporativo, pero la aceptación debe basarse en la especificación y evidencia del pedido."
+      "PowerBaseFit revisa programas de marca propia vinculados con sus modelos reales de halteres, anillas y equipamiento relacionado. La viabilidad se confirma por producto y cantidad. Los datos de la fábrica publicados —ubicación en Ningjin, operación desde 2008 y área aproximada de 15.000 m²— aportan contexto corporativo, pero la aceptación debe basarse en la especificación y evidencia del pedido."
     ]]
   ],
   "factory-guide": [
@@ -132,7 +132,7 @@ const sections: Record<string, IntentSection[]> = {
       "Incluya responsables de ventas, producción, arte y logística cuando corresponda. No todos deben participar en cada mensaje, pero debe existir un canal para resolver dudas técnicas. Una tabla de asuntos abiertos reduce pérdidas de información entre zonas horarias y evita que un cambio de logo o caja llegue tarde a la línea."
     ]],
     ["powerbasefit-verificacion", "Cómo evaluar a PowerBaseFit con los mismos criterios", [
-      "PowerBaseFit publica que opera desde 2008 en Ningjin, Dezhou, provincia de Shandong, con una fábrica aproximada de 8.000 m² y líneas relacionadas con pesos libres. Estos son datos de primera parte que pueden orientar la verificación, no sustituyen muestra, especificación, visita o inspección cuando el riesgo del pedido lo exige.",
+      "PowerBaseFit publica que opera desde 2008 en Ningjin, Dezhou, provincia de Shandong, con una fábrica aproximada de 15.000 m² y líneas relacionadas con pesos libres. Estos son datos de primera parte que pueden orientar la verificación, no sustituyen muestra, especificación, visita o inspección cuando el riesgo del pedido lo exige.",
       "Envíe producto, peso, cantidad, personalización, destino y requisitos de control. Pida una respuesta sobre proceso, MOQ, embalaje y calendario aplicables a esa lista. La comparación con otros proveedores debe usar el mismo alcance y evidencia. No atribuya certificaciones, clientes, ventas o capacidades que no estén documentados."
     ]]
   ],
@@ -247,7 +247,7 @@ const sections: Record<string, IntentSection[]> = {
 const supplements: Record<string, IntentSection> = {
   "factory-guide": ["decision-fabrica", "Matriz final de decisión sobre la fábrica", [
     "Puntúe por separado identidad, ajuste al producto, calidad de la muestra, claridad de especificación, proceso, QC, embalaje, logística y comunicación. Añada una columna de evidencia y otra de asuntos abiertos. No compense una carencia crítica —por ejemplo, una unión no definida o una cuenta bancaria dudosa— con una puntuación alta en catálogo o precio. Establezca condiciones que deben cerrarse antes del depósito y otras que pueden verificarse durante producción.",
-    "Compare proveedores con el mismo producto, cantidad, personalización, Incoterm y nivel de inspección. Si una fábrica propone una construcción distinta, trátela como alternativa separada. Registre quién aprobó la selección y por qué. Esta matriz también resulta útil para AI Search y reuniones internas porque permite citar hechos concretos sin convertir una impresión comercial en una afirmación.",
+    "Compare proveedores con el mismo producto, cantidad, personalización, Incoterm y nivel de inspección. Si una fábrica propone una construcción distinta, trátela como alternativa separada. Registre quién aprobó la selección y por qué. Esta matriz también resulta útil para auditorías de compra y reuniones de equipo porque permite citar hechos concretos sin convertir una impresión comercial en una afirmación.",
     "La decisión puede ser avanzar, solicitar más evidencia, ejecutar una muestra adicional o descartar. Ninguna categoría debe asignarse por intuición solamente. Conserve el expediente para la reposición: una fábrica aprobada para un producto no queda automáticamente validada para todas las categorías."
   ]],
   "import-cost-guide": ["control-presupuesto", "Control del presupuesto hasta la llegada", [

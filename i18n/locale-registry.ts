@@ -61,7 +61,7 @@ const definitions: readonly LocaleDefinition[] = [
   { routeLocale: "it", internalLocale: "it", hreflang: "it", englishName: "Italian", nativeName: "Italiano", direction: "ltr", prefix: "/it", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "nl", internalLocale: "nl", hreflang: "nl", englishName: "Dutch", nativeName: "Nederlands", direction: "ltr", prefix: "/nl", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "ru", internalLocale: "ru", hreflang: "ru", englishName: "Russian", nativeName: "Русский", direction: "ltr", prefix: "/ru", enabled: true, public: false, default: false, fallbackLocale: "en" },
-  { routeLocale: "ar", internalLocale: "ar", hreflang: "ar", englishName: "Arabic", nativeName: "العربية", direction: "rtl", prefix: "/ar", enabled: true, public: false, default: false, fallbackLocale: "en" },
+  { routeLocale: "ar", internalLocale: "ar", hreflang: "ar", englishName: "Arabic", nativeName: "العربية", direction: "rtl", prefix: "/ar", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "ja", internalLocale: "ja", hreflang: "ja", englishName: "Japanese", nativeName: "日本語", direction: "ltr", prefix: "/ja", enabled: true, public: false, default: false, fallbackLocale: "en" },
   { routeLocale: "ko", internalLocale: "ko", hreflang: "ko", englishName: "Korean", nativeName: "한국어", direction: "ltr", prefix: "/ko", enabled: true, public: true, default: false, fallbackLocale: "en" },
   { routeLocale: "id", internalLocale: "id", hreflang: "id", englishName: "Indonesian", nativeName: "Bahasa Indonesia", direction: "ltr", prefix: "/id", enabled: true, public: true, default: false, fallbackLocale: "en" },

@@ -9,14 +9,14 @@ import {
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
-  title: "Gym Equipment Projects | Free Weight Project References",
+  title: "Free Weight Application Scenarios | Gym Project Examples",
   description:
-    "Free weight gym project references for commercial gyms, distributors, OEM brands, and full gym solutions. Explore dumbbells, weight plates, racks, benches, packaging, and mixed container projects.",
+    "Free weight application scenarios and project examples for commercial gyms, distributors, and OEM brands. Compare possible dumbbell, plate, rack, bench, packaging, and mixed-container configurations.",
   alternates: getEnglishAlternates("/projects")
 };
 
 const projectTypes = [
-  "All Projects",
+  "All Scenarios",
   "Commercial Gyms",
   "Dumbbell Zones",
   "Weight Plate Areas",
@@ -44,7 +44,7 @@ const projects = [
     cta: "Plan my dumbbell area"
   },
   {
-    title: "Black Hex Dumbbell Project",
+    title: "Black Hex Dumbbell Application Example",
     category: "Commercial Gyms",
     image: "/assets/project-dumbbell-zone.avif",
     copy: "High-density black dumbbell zone for commercial gym users and daily strength training.",
@@ -108,7 +108,7 @@ const projects = [
     cta: "Ask plate catalog"
   },
   {
-    title: "OEM Packaging Project",
+    title: "OEM Packaging Example",
     category: "Packing & Shipping",
     image: "/assets/factory-cases/packaging-area-pbf.avif",
     copy: "Carton, pallet, logo packaging, and shipment inspection support for export fitness products.",
@@ -116,7 +116,7 @@ const projects = [
     cta: "Request packaging plan"
   },
   {
-    title: "Mixed Container Export Order",
+    title: "Mixed Container Planning Example",
     category: "Packing & Shipping",
     image: "/assets/factory-cases/container-shipping-pbf.avif",
     copy: "Mixed container planning for dumbbells, plates, racks, benches, accessories, and export delivery.",
@@ -203,19 +203,19 @@ export default function ProjectsPage() {
           />
         </picture>
         <div className="projects-hero-copy">
-          <span>Project references</span>
-          <h1>Free Weight Gym Projects Built for Global Buyers</h1>
+          <span>Application Scenarios</span>
+          <h1>Free Weight Project Examples for Global Buyers</h1>
           <p>
-            Explore commercial gym dumbbell zones, weight plate areas, private
-            label displays, full gym solutions, and mixed container export
-            projects for distributors, gym owners, and OEM fitness brands.
+            Explore possible commercial gym dumbbell zones, weight plate areas,
+            private label displays, full gym solutions, and mixed-container
+            configurations for distributors, gym owners, and OEM fitness brands.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="/contact">
               Start a Project Quote <ArrowRight size={19} />
             </a>
             <a className="secondary-button" href="#project-gallery">
-              View Project Cases
+              View Application Scenarios
             </a>
           </div>
           <div className="hero-tags">
@@ -226,11 +226,11 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      <section className="project-stats" aria-label="Project page value points">
+      <section className="project-stats" aria-label="Application scenario value points">
         <article>
           <Building2 size={24} />
-          <strong>Scenario-based cases</strong>
-          <span>Help buyers find a similar gym, dealer, or OEM project quickly.</span>
+          <strong>Application scenarios</strong>
+          <span>Compare possible gym, dealer, and OEM supply configurations.</span>
         </article>
         <article>
           <Dumbbell size={24} />
@@ -252,34 +252,33 @@ export default function ProjectsPage() {
       <section className="projects-section" id="project-gallery">
         <div className="section-heading-wide">
           <div>
-            <span>Project gallery</span>
-            <h2>More case entrances for every buyer scenario</h2>
+            <span>Project Examples</span>
+            <h2>Application examples for common buyer requirements</h2>
           </div>
           <p>
-            This gallery is designed to grow over time. New customer photos can
-            be added as additional project cards while keeping the same
-            conversion path.
+            These examples illustrate possible layouts, product combinations,
+            packaging options, and supply plans. They are not customer
+            testimonials or claims about named completed projects.
           </p>
         </div>
 
-        <div className="project-type-list" aria-label="Project filters preview">
+        <div className="project-type-list" aria-label="Application scenario categories">
           {projectTypes.map((type) => (
             <span key={type}>{type}</span>
           ))}
         </div>
 
         <div className="featured-project">
-          <a className="featured-image" href="/contact" aria-label="Request a similar commercial free weight project">
-            <img src="/assets/projects/commercial-dumbbell-rack-zone.avif" alt="Commercial dumbbell rack zone project" width={1200} height={800} loading="lazy" decoding="async" />
+          <a className="featured-image" href="/contact" aria-label="Request a similar commercial free weight setup">
+            <img src="/assets/projects/commercial-dumbbell-rack-zone.avif" alt="Commercial dumbbell rack application example" width={1200} height={800} loading="lazy" decoding="async" />
           </a>
           <div className="featured-copy">
-            <span>Featured project</span>
+            <span>Project Example</span>
             <h2>Commercial Free Weight Zone for Gym Opening</h2>
             <p>
-              A high-traffic strength area built around dumbbell sets, racks,
-              benches, and accessories. This type of visual case helps buyers
-              describe their desired gym layout and product scope before
-              requesting a quote.
+              A possible high-traffic strength-area configuration using dumbbell
+              sets, racks, benches, and accessories. Use this example to describe
+              your preferred layout and product scope before requesting a quote.
             </p>
             <div className="featured-specs">
               <div>
@@ -305,7 +304,7 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        <div className="case-grid" aria-label="Project case cards">
+        <div className="case-grid" aria-label="Application example cards">
           {projects.map((project) => (
             <article className="case-card" key={project.title}>
               <a href="/contact" aria-label={`Request quote for ${project.title}`}>
@@ -383,7 +382,7 @@ export default function ProjectsPage() {
         <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
         <div>
           <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
-          <span>Ningjin City, Shandong Province, China</span>
+          <span>Ningjin County, Dezhou, Shandong Province, China</span>
         </div>
         <div>
           <a href="/">Home</a>

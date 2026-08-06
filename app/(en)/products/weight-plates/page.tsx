@@ -147,13 +147,13 @@ export default function WeightPlatesPage() {
       <section className="products-section" id="weight-plate-products">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Related Products</span>
             <h2>All Weight Plates products</h2>
           </div>
           <p>
-            Each product style has its own SEO page. Review material,
-            construction, manufacturing process, OEM options, application
-            scenarios, and global shipping support before sending your inquiry.
+            Compare material, construction, manufacturing process, OEM options,
+            application scenarios, and global shipping support before sending
+            your inquiry.
           </p>
         </div>
 

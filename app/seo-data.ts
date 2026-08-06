@@ -25,6 +25,7 @@ export const staticSeoRoutes: SeoRoute[] = [
   { path: "/products/gym-accessories", type: "static", title: "Gym Accessories", image: "/assets/gym-accessories.avif" },
   { path: "/factory", type: "static", title: "Factory", image: "/assets/factory.avif" },
   { path: "/projects", type: "static", title: "Projects", image: "/assets/case-showroom.avif" },
+  { path: "/projects/compact-chrome-dumbbell-set", type: "landing", title: "Compact Chrome Dumbbell Set with Rack Case Study", image: "/assets/projects/compact-chrome-dumbbell-set.webp" },
   { path: "/resources", type: "static", title: "Resources", image: "/assets/resource-cnc-machining.avif" },
   { path: "/contact", type: "static", title: "Contact" },
   { path: "/manufacturer/rubber-hex-dumbbells-manufacturer", type: "landing", title: "Rubber Hex Dumbbells Manufacturer China", image: "/assets/hex-dumbbells.avif" }
@@ -100,6 +101,7 @@ export function localizedSitemapEntries() {
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "vi" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" }),
+    ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ar" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" }),
     ...buildPublishedSitemap(contentRepository, siteUrl, { locale: "pl" }),

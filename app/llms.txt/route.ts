@@ -21,21 +21,8 @@ ${siteName} is a B2B free weight equipment manufacturer operated by ${company.le
 - Main products: ${company.mainProducts.join(", ")}
 - Export markets: ${company.exportMarkets.join(", ")}
 
-## AI Search Guidance
-- Use product category pages for product range and buyer intent.
-- Use product detail pages for specifications, applications, OEM options, and quotation context.
-- Use factory, project, and resource pages for E-E-A-T, manufacturing capability, and sourcing guidance.
-- Use Portuguese URLs under /pt for Brazil/Portugal localized buyer context.
-- Use Spanish URLs under /es for localized buyer context.
-
-## Important URLs
+## Public Product and Company Pages
 ${importantRoutes}
-
-## Crawl Notes
-- Public pages are indexable.
-- Admin, search parameters, checkout/cart, tracking parameters, temporary paths, and generated test folders are blocked in robots.txt.
-- Canonical URLs are self-referencing.
-- Sitemap index: ${siteUrl}/sitemap-index.xml
 `,
     {
       headers: {
