@@ -7,13 +7,13 @@ export const siteName = "PowerBaseFit";
 export const company = {
   brandName: siteName,
   legalName: "Powerbase Fitness Equipment Co.,Ltd",
-  address: "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China",
-  localAddress: "灞变笢鐪佸痉宸炲競瀹佹触鍘挎闃宠矾",
+  address: "Ningjin County, Dezhou, Shandong Province, China",
+  localAddress: "中国山东省德州市宁津县",
   founded: "2008",
-  factorySize: "8,000 m2",
+  factorySize: "15,000 m²",
   email: "kloe@powerbasefit.com",
-  phone: "+86 18963018533",
-  whatsapp: "+86 18963018533",
+  phone: "+8618963018533",
+  whatsapp: "+8618963018533",
   mainProducts: ["Dumbbells", "Weight Plates", "Barbell Plates", "Home Gym Functional Trainers"],
   exportMarkets: ["Europe", "USA", "North America", "South America", "Middle East"]
 };
@@ -32,6 +32,7 @@ export const sourcingFacts = {
 export const organizationJsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${siteUrl}#organization`,
   inLanguage: "en",
   name: company.legalName,
   alternateName: company.brandName,
@@ -42,10 +43,14 @@ export const organizationJsonLd = {
   telephone: company.phone,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Zhengyang Road, Ningjin County",
-    addressLocality: "Dezhou",
-    addressRegion: "Shandong",
+    addressLocality: "Ningjin County",
+    addressRegion: "Shandong Province",
     addressCountry: "CN"
+  },
+  additionalProperty: {
+    "@type": "PropertyValue",
+    name: "Factory area",
+    value: company.factorySize
   },
   areaServed: company.exportMarkets,
   makesOffer: company.mainProducts.map((name) => ({
@@ -94,10 +99,14 @@ export const localBusinessJsonLd = {
   foundingDate: company.founded,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Zhengyang Road, Ningjin County",
-    addressLocality: "Dezhou",
-    addressRegion: "Shandong",
+    addressLocality: "Ningjin County",
+    addressRegion: "Shandong Province",
     addressCountry: "CN"
+  },
+  additionalProperty: {
+    "@type": "PropertyValue",
+    name: "Factory area",
+    value: company.factorySize
   },
   areaServed: company.exportMarkets,
   priceRange: "$$",
