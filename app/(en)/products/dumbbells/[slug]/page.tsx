@@ -2,7 +2,9 @@
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, Factory, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
+import ProductConversionTemplate from "../../../../components/ProductConversionTemplate";
 import { sourcingFacts } from "../../../../site";
+import { isCoreConversionProduct } from "../../../../products/coreProductConversion";
 import { dumbbellProducts, getDumbbellProduct } from "../../../../products/dumbbells/productData";
 import { getEnglishAlternates } from "../../../../../lib/seo/english-alternates";
 
@@ -220,6 +222,23 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
           ))}
         </div>
       </section>
+
+      {isCoreConversionProduct("Dumbbells", product.slug) ? (
+        <ProductConversionTemplate
+          productName={product.name}
+          productCategory="Dumbbells"
+          specifications={[
+            { label: "Weight range", value: product.range },
+            { label: "Construction / type", value: product.type },
+            { label: "Buyer applications", value: product.applications.join("; ") }
+          ]}
+          manufacturingSummary={`${product.copy} ${product.buyerNotes}`}
+          customizationOptions={[
+            ...product.details,
+            "Logo, markings, color details, and export packing are confirmed for the selected model and order quantity."
+          ]}
+        />
+      ) : null}
 
       <section className="products-section detail-faq">
         <div className="section-heading-wide">
