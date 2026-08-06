@@ -53,6 +53,16 @@ function eventRange() {
   return ["HEAD^", "HEAD"];
 }
 
+function currentGonePaths() {
+  try {
+    const source = readFileSync("middleware.ts", "utf8");
+    const definition = source.match(/const gonePaths = new Set\(\[([\s\S]*?)\]\);/u)?.[1] ?? "";
+    return new Set([...definition.matchAll(/["']([^"']+)["']/gu)].map((match) => match[1]));
+  } catch {
+    return new Set();
+  }
+}
+
 function routeForFile(file) {
   const normalized = file.replaceAll("\\", "/");
   const resource = normalized.match(/^content\/resources\/([^/]+)\.md$/u);
@@ -77,11 +87,14 @@ let changedFiles = [];
 
 if (!monthlyFull) {
   changedFiles = weeklyAppend
-    ? gitLines(["log", "--since=7.days", "--name-only", "--pretty=format:"])
-    : gitLines(["diff", "--name-only", ...eventRange()]);
+    ? gitLines(["log", "--since=7.days", "--diff-filter=ACMRTUXB", "--name-only", "--pretty=format:"])
+    : gitLines(["diff", "--diff-filter=ACMRTUXB", "--name-only", ...eventRange()]);
 }
 
-const affectedPaths = changedFiles.map(routeForFile).filter(Boolean);
+const gonePaths = currentGonePaths();
+const affectedPaths = changedFiles
+  .map(routeForFile)
+  .filter((path) => path && !gonePaths.has(path));
 const paths = monthlyFull ? "" : [...new Set([...criticalPaths, ...affectedPaths])].join(",");
 const mode = monthlyFull ? "monthly-full" : weeklyAppend ? "weekly-seven-day-incremental" : "daily-incremental";
 const output = {
