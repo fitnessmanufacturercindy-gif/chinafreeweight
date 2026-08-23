@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { svAnswer, svChecklist, svDefinition, swedishEditorialAuthor, swedishImagePath, swedishTechnicalReviewer, svTable, svText } from "./sv-content-helpers";
@@ -45,7 +44,6 @@ const categoryId: Record<CategoryKey,string>={dumbbells:"dumbbells-category",pla
 const sources: Array<[CategoryKey,ProductSource]> = [
   ...dumbbellProducts.filter((item)=>!excludedDumbbells.has(item.slug)).map((item)=>["dumbbells",item] as [CategoryKey,ProductSource]),
   ...weightPlateProducts.map((item)=>["plates",item] as [CategoryKey,ProductSource]),
-  ...racksBenchesProducts.map((item)=>["racks",item] as [CategoryKey,ProductSource]),
   ...gymAccessoryProducts.map((item)=>["accessories",item] as [CategoryKey,ProductSource])
 ];
 

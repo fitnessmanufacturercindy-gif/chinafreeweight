@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName,
     title: "PowerBaseFit | Free Weight Equipment Manufacturer",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms."
+      "OEM dumbbells, weight plates, barbells and gym accessories for global fitness equipment importers and commercial gyms."
   }
 };
 
@@ -39,12 +39,6 @@ const products = [
     copy: "Bumper plates, rubber plates and cast iron plates for wholesale and commercial gym projects.",
     image: "/assets/weight-plate.avif",
     href: "/products/weight-plates"
-  },
-  {
-    name: "Multi-functional Racks & Benches",
-    copy: "Power racks, storage racks and adjustable benches for complete free weight training areas.",
-    image: "/assets/racks-benches.avif",
-    href: "/products/racks-benches"
   },
   {
     name: "Gym Accessories",
@@ -109,11 +103,6 @@ const projects = [
     title: "Weight Plate & Barbell Area",
     copy: "Organized plate storage, Olympic bars and lifting platforms for strength facilities.",
     image: "/assets/project-plate-zone.avif"
-  },
-  {
-    title: "Premium Home Gym Project",
-    copy: "Multi-functional rack, bench and chrome dumbbells for a high-end private training room.",
-    image: "/assets/racks-benches.avif"
   },
   {
     title: "Dealer Product Display",
@@ -386,7 +375,7 @@ export default function Home() {
               <option>Rubber Dumbbells</option>
               <option>Chrome Dumbbells</option>
               <option>Weight Plates</option>
-              <option>Barbells / Benches / Racks</option>
+              <option>Barbells / Accessories</option>
             </select>
           </label>
           <label className="full">

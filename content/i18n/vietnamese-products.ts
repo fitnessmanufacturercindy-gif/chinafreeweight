@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { viAnswer, viChecklist, viDefinition, vietnameseEditorialAuthor, vietnameseImagePath, vietnameseTechnicalReviewer, viTable, viText } from "./vi-content-helpers";
@@ -133,7 +132,7 @@ function makeProfiles(source: ProductSource[], category: CategoryKey, entries: E
 
 export const vietnameseProductProfiles: VietnameseProductProfile[] = [
   ...makeProfiles(dumbbellProducts, "dumbbells", dumbbells), ...makeProfiles(weightPlateProducts, "plates", plates),
-  ...makeProfiles(racksBenchesProducts, "racks", racks), ...makeProfiles(gymAccessoryProducts, "accessories", accessories)
+  ...makeProfiles(gymAccessoryProducts, "accessories", accessories)
 ];
 
 function rangeText(profile: VietnameseProductProfile) {

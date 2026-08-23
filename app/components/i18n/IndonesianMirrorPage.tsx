@@ -12,7 +12,6 @@ import type { ContentBlock, PublishedContent } from "../../../lib/content/types"
 import { contentRepository } from "../../../lib/content/repository";
 import { getDumbbellProduct } from "../../products/dumbbells/productData";
 import { getWeightPlateProduct } from "../../products/weight-plates/productData";
-import { getRacksBenchesProduct } from "../../products/racks-benches/productData";
 import { getGymAccessoryProduct } from "../../products/gym-accessories/productData";
 import { getPostBySlug } from "../../resources/blogData";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
@@ -40,8 +39,8 @@ type ProductData = {
 };
 
 const coreImages: Record<string, string[]> = {
-  home: ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/racks-benches.avif", "/assets/gym-accessories.avif"],
-  "products-hub": ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/racks-benches.avif", "/assets/gym-accessories.avif"],
+  home: ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/gym-accessories.avif"],
+  "products-hub": ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/gym-accessories.avif"],
   factory: ["/assets/factory.avif", "/assets/factory-process/dumbbell-cutting.webp", "/assets/factory-cases/container-shipping-pbf.avif"],
   projects: ["/assets/projects/round-dumbbell-gym-zone.avif", "/assets/projects/commercial-dumbbell-rack-zone.avif", "/assets/project-plate-zone.avif", "/assets/case-showroom.avif"],
   "oem-private-label": ["/assets/dumbbell-production.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif"],
@@ -51,7 +50,6 @@ const coreImages: Record<string, string[]> = {
 const categoryImages: Record<string, string> = {
   "dumbbells-category": "/assets/hex-dumbbells.avif",
   "weight-plates-category": "/assets/weight-plate.avif",
-  "racks-benches-category": "/assets/racks-benches.avif",
   "gym-accessories-category": "/assets/gym-accessories.avif"
 };
 
@@ -68,7 +66,6 @@ function productData(content: PublishedContent): ProductData | undefined {
   const slug = sourceSlug(content);
   if (path.includes("/products/dumbbells/")) return getDumbbellProduct(slug);
   if (path.includes("/products/weight-plates/")) return getWeightPlateProduct(slug);
-  if (path.includes("/products/racks-benches/")) return getRacksBenchesProduct(slug);
   if (path.includes("/products/gym-accessories/")) return getGymAccessoryProduct(slug);
   return undefined;
 }
@@ -293,7 +290,7 @@ function ResourceIndexMirror({ version }: { version: Version }) {
 
 function HomeMirror({ version }: { version: Version }) {
   const locale = mirrorLocale(version);
-  const categories = contentRepository.listPublished({ locale }).filter(({ entity }) => ["dumbbells-category", "weight-plates-category", "racks-benches-category", "gym-accessories-category"].includes(entity.id));
+  const categories = contentRepository.listPublished({ locale }).filter(({ entity }) => ["dumbbells-category", "weight-plates-category", "gym-accessories-category"].includes(entity.id));
   return (
     <main className={`${styles.page} ${styles.homePage}`} data-page-family="home"><section className={styles.homeHero}><img src="/assets/hero-poster.avif" alt={tr(locale, "Peralatan gym PowerBaseFit", "Profesjonalny sprzęt fitness PowerBaseFit", "Professionele fitnessapparatuur van PowerBaseFit")} /><div><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.heroActions}><a href={tr(locale, "/id/produk", "/pl/produkty", "/nl/producten")}>{tr(locale, "Jelajahi produk", "Zobacz produkty", "Bekijk producten")} <ArrowRight size={20} /></a><a className={styles.secondary} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Minta penawaran", "Poproś o wycenę", "Offerte aanvragen")}</a></div></div></section><section className={styles.catalogSection}><div className={styles.sectionHeading}><span>{tr(locale, "Kategori produk", "Kategorie produktów", "Productcategorieën")}</span><h2>{tr(locale, "Beban bebas dan peralatan gym untuk pembeli profesional", "Wolne ciężary i wyposażenie siłowni dla profesjonalnych buyerów", "Vrije gewichten en fitnessapparatuur voor professionele inkopers")}</h2></div><div className={styles.categoryGrid}>{categories.map((item) => <a key={item.entity.id} href={item.version.publicPath}><img src={categoryImages[item.entity.id]} alt={item.version.h1} /><div><h3>{item.version.h1}</h3><p>{item.version.description}</p></div></a>)}</div></section><section className={styles.factoryFeature}><img src="/assets/factory.avif" alt={tr(locale, "Pabrik PowerBaseFit", "Fabryka PowerBaseFit", "PowerBaseFit-fabriek")} /><div><span>{tr(locale, "Manufaktur dan ekspor", "Produkcja i eksport", "Productie en export")}</span><h2>{tr(locale, "Spesifikasi, sampel, produksi, QC, dan pengiriman dalam satu alur.", "Specyfikacja, próbka, produkcja, QC i dostawa w jednym procesie.", "Specificatie, monster, productie, QC en levering in één proces.")}</h2><p>{textBlock(version.body[4], version.description)}</p><a href={tr(locale, "/id/pabrik", "/pl/fabryka", "/nl/fabriek")}>{tr(locale, "Lihat proses pabrik", "Zobacz proces produkcyjny", "Bekijk het productieproces")} <ArrowRight size={18} /></a></div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={10} /></section><FinalCta locale={locale} /></main>
   );

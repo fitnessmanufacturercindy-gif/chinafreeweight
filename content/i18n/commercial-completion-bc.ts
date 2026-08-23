@@ -1,7 +1,6 @@
 import type { ContentEntity, ContentManifest, LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import { ptBrEditorialAuthor, ptBrTechnicalReviewer } from "./pt-br-existing-growth";
 import { checklist as ptChecklist, definition as ptDefinition, quick as ptQuick, rich as ptRich, table as ptTable } from "./pt-br-content-helpers";
@@ -10,7 +9,7 @@ import { koAnswer, koChecklist, koDefinition, koreanEditorialAuthor, koreanTechn
 
 const releaseDate = "2026-07-22T02:00:00.000Z";
 
-type Family = "dumbbells" | "plates" | "racks" | "accessories";
+type Family = "dumbbells" | "plates" | "accessories";
 type Grade = "B" | "C";
 type ProductSource = { slug: string; name: string; range: string; type: string; image: string; gallery?: string[] };
 type Selection = { grade: Grade; family: Family; slug: string; pt: string; es: string; ko: string };
@@ -49,27 +48,6 @@ const selections: Selection[] = [
   { grade:"C",family:"plates",slug:"pu-plate-set",pt:"Conjunto de anilhas em PU",es:"Juego de discos de PU",ko:"PU 플레이트 세트" },
   { grade:"C",family:"plates",slug:"four-grip-cpu-plate",pt:"Anilha em CPU com quatro pegadas",es:"Disco de CPU con cuatro agarres",ko:"CPU 4그립 플레이트" },
 
-  { grade:"B",family:"racks",slug:"compact-cable-power-rack",pt:"Power rack compacto com cabos",es:"Jaula de potencia compacta con poleas",ko:"컴팩트 케이블 파워랙" },
-  { grade:"B",family:"racks",slug:"dual-pulley-smith-rack",pt:"Smith rack com polias duplas",es:"Rack Smith con doble polea",ko:"듀얼 풀리 스미스 랙" },
-  { grade:"B",family:"racks",slug:"storage-functional-trainer",pt:"Treinador funcional com armazenamento",es:"Entrenador funcional con almacenamiento",ko:"수납형 펑셔널 트레이너" },
-  { grade:"B",family:"racks",slug:"cable-crossover-functional-trainer",pt:"Treinador funcional crossover",es:"Entrenador funcional de cruce de poleas",ko:"케이블 크로스오버 펑셔널 트레이너" },
-  { grade:"B",family:"racks",slug:"adjustable-weight-bench",pt:"Banco de musculação ajustável",es:"Banco de musculación ajustable",ko:"조절식 웨이트 벤치" },
-  { grade:"B",family:"racks",slug:"smith-squat-frame",pt:"Estrutura Smith para agachamento",es:"Estructura Smith para sentadillas",ko:"스미스 스쿼트 프레임" },
-  { grade:"B",family:"racks",slug:"half-frame-squat-rack",pt:"Half rack para agachamento",es:"Half rack para sentadillas",ko:"하프 프레임 스쿼트 랙" },
-  { grade:"B",family:"racks",slug:"cable-crossover-machine",pt:"Máquina crossover de cabos",es:"Máquina de cruce de poleas",ko:"케이블 크로스오버 머신" },
-  { grade:"B",family:"racks",slug:"full-frame-squat-rack",pt:"Power rack fechado para agachamento",es:"Jaula completa para sentadillas",ko:"풀 프레임 스쿼트 랙" },
-  { grade:"B",family:"racks",slug:"smith-cable-crossover-machine",pt:"Smith Machine com crossover de cabos",es:"Máquina Smith con cruce de poleas",ko:"스미스 케이블 크로스오버 머신" },
-  { grade:"C",family:"racks",slug:"private-home-gym-rack-system",pt:"Sistema de rack para academia particular",es:"Sistema de rack para gimnasio privado",ko:"프라이빗 홈짐 랙 시스템" },
-  { grade:"C",family:"racks",slug:"home-gym-functional-trainer",pt:"Treinador funcional para home gym",es:"Entrenador funcional para gimnasio doméstico",ko:"홈짐 펑셔널 트레이너" },
-  { grade:"C",family:"racks",slug:"custom-home-gym-rack",pt:"Rack personalizado para home gym",es:"Rack personalizado para gimnasio doméstico",ko:"맞춤형 홈짐 랙" },
-  { grade:"C",family:"racks",slug:"cable-cross-functional-trainer",pt:"Treinador funcional cable cross",es:"Entrenador funcional cable cross",ko:"케이블 크로스 펑셔널 트레이너" },
-  { grade:"C",family:"racks",slug:"six-column-functional-trainer",pt:"Treinador funcional de seis colunas",es:"Entrenador funcional de seis columnas",ko:"6컬럼 펑셔널 트레이너" },
-  { grade:"C",family:"racks",slug:"eight-column-training-rack",pt:"Rack de treinamento de oito colunas",es:"Rack de entrenamiento de ocho columnas",ko:"8컬럼 트레이닝 랙" },
-  { grade:"C",family:"racks",slug:"wall-mounted-functional-trainer",pt:"Treinador funcional fixado na parede",es:"Entrenador funcional de pared",ko:"벽면형 펑셔널 트레이너" },
-  { grade:"C",family:"racks",slug:"floor-plate-cable-crossover",pt:"Crossover de cabos com bases de piso",es:"Cruce de poleas con bases de suelo",ko:"플로어 플레이트 케이블 크로스오버" },
-  { grade:"C",family:"racks",slug:"three-in-one-smith-functional-trainer",pt:"Treinador funcional Smith três em um",es:"Entrenador funcional Smith tres en uno",ko:"3-in-1 스미스 펑셔널 트레이너" },
-  { grade:"C",family:"racks",slug:"smith-dual-pulley-trainer",pt:"Treinador Smith com polias duplas",es:"Entrenador Smith con doble polea",ko:"스미스 듀얼 풀리 트레이너" },
-
   { grade:"B",family:"accessories",slug:"vinyl-kettlebell",pt:"Kettlebell revestido em vinil",es:"Kettlebell revestido de vinilo",ko:"비닐 코팅 케틀벨" },
   { grade:"B",family:"accessories",slug:"competition-kettlebell",pt:"Kettlebell de competição",es:"Kettlebell de competición",ko:"컴피티션 케틀벨" },
   { grade:"B",family:"accessories",slug:"rubber-coated-gym-handle-sets",pt:"Conjunto de puxadores emborrachados",es:"Juego de agarres recubiertos de caucho",ko:"고무 코팅 케이블 핸들 세트" },
@@ -80,7 +58,7 @@ const selections: Selection[] = [
 ];
 
 const sourceCatalog = new Map<string, { family: Family; source: ProductSource }>();
-for (const [family, products] of [["dumbbells",dumbbellProducts],["plates",weightPlateProducts],["racks",racksBenchesProducts],["accessories",gymAccessoryProducts]] as const) {
+for (const [family, products] of [["dumbbells",dumbbellProducts],["plates",weightPlateProducts],["accessories",gymAccessoryProducts]] as const) {
   for (const source of products) sourceCatalog.set(source.slug, { family, source });
 }
 

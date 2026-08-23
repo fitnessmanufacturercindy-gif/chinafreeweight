@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { ContentEntity, LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { frAnswer, frChecklist, frDefinition, frenchEditorialAuthor, frenchImagePath, frenchTechnicalReviewer, frTable, frText } from "./fr-content-helpers";
@@ -131,7 +130,7 @@ function profiles(source: ProductSource[], category: CategoryKey, map: Record<st
 
 export const frenchProductProfiles = [
   ...profiles(dumbbellProducts, "dumbbells", dumbbellMap), ...profiles(weightPlateProducts, "plates", plateMap),
-  ...profiles(racksBenchesProducts, "racks", rackMap), ...profiles(gymAccessoryProducts, "accessories", accessoryMap)
+  ...profiles(gymAccessoryProducts, "accessories", accessoryMap)
 ];
 
 function rangeText(profile: FrenchProductProfile) {

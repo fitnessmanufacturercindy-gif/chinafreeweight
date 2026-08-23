@@ -2,7 +2,6 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "./resources/blogData";
 import { dumbbellProducts } from "./products/dumbbells/productData";
 import { gymAccessoryProducts } from "./products/gym-accessories/productData";
-import { racksBenchesProducts } from "./products/racks-benches/productData";
 import { weightPlateProducts } from "./products/weight-plates/productData";
 import { siteUrl } from "./site";
 import { contentRepository } from "../lib/content/repository";
@@ -13,7 +12,6 @@ const staticRoutes = [
   { path: "/products", priority: 0.92 },
   { path: "/products/dumbbells", priority: 0.9 },
   { path: "/products/weight-plates", priority: 0.9 },
-  { path: "/products/racks-benches", priority: 0.86 },
   { path: "/products/gym-accessories", priority: 0.78 },
   { path: "/factory", priority: 0.88 },
   { path: "/projects", priority: 0.82 },
@@ -39,7 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const productRoutes = [
     ...dumbbellProducts.map((product) => `/products/dumbbells/${product.slug}`),
     ...weightPlateProducts.map((product) => `/products/weight-plates/${product.slug}`),
-    ...racksBenchesProducts.map((product) => `/products/racks-benches/${product.slug}`),
     ...gymAccessoryProducts.map((product) => `/products/gym-accessories/${product.slug}`)
   ];
 

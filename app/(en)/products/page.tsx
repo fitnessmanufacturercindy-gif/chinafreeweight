@@ -7,7 +7,7 @@ import { company, siteName, siteUrl } from "../../site";
 export const metadata: Metadata = {
   title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",
   description:
-    "Browse PowerBaseFit free weight products including dumbbells, weight plates, multi-functional racks, benches, and gym accessories for global B2B gym equipment buyers.",
+    "Browse PowerBaseFit free weight products including dumbbells, weight plates, barbells, cable handles, and gym accessories for global B2B gym equipment buyers.",
   alternates: getEnglishAlternates("/products"),
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",
     description:
-      "Browse dumbbells, weight plates, racks, benches, and accessories from PowerBaseFit.",
+      "Browse dumbbells, weight plates, barbells, handles, and accessories from PowerBaseFit.",
     images: ["/assets/hero-poster.avif"]
   }
 };
@@ -51,14 +51,6 @@ const categories = [
     icon: ShieldCheck
   },
   {
-    name: "Multi-functional Racks & Benches",
-    href: "/products/racks-benches",
-    description:
-      "Home gym functional trainers, Smith rack systems, cable training frames, adjustable benches, and private space gym solutions.",
-    keywords: "home gym functional trainer, multi functional rack, gym bench supplier",
-    icon: Factory
-  },
-  {
     name: "Gym Accessories",
     href: "/products/gym-accessories",
     description:
@@ -72,7 +64,7 @@ const faqs = [
   {
     question: "Can PowerBaseFit supply mixed product categories in one order?",
     answer:
-      "Yes. Buyers can combine dumbbells, weight plates, racks, benches, and gym accessories in one sourcing plan. The final loading method depends on quantity, product size, packaging, and destination market."
+      "Yes. Buyers can combine dumbbells, weight plates, barbells, cable handles, collars, and gym accessories in one sourcing plan. The final loading method depends on quantity, product size, packaging, and destination market."
   },
   {
     question: "Do you support OEM logo and private label products?",
@@ -100,7 +92,7 @@ const jsonLd = [
     url: `${siteUrl}/products`,
     inLanguage: "en",
     description:
-      "Free weight equipment product categories for B2B buyers, including dumbbells, weight plates, racks, benches, and gym accessories.",
+      "Free weight equipment product categories for B2B buyers, including dumbbells, weight plates, barbells, cable handles, and gym accessories.",
     publisher: {
       "@type": "Organization",
       name: company.legalName,

@@ -4,7 +4,6 @@ import { getEnglishAlternates } from "../lib/seo/english-alternates";
 import { buildPublishedMediaSitemap, buildPublishedSitemap } from "../lib/seo/sitemap";
 import { dumbbellProducts } from "./products/dumbbells/productData";
 import { gymAccessoryProducts } from "./products/gym-accessories/productData";
-import { racksBenchesProducts } from "./products/racks-benches/productData";
 import { weightPlateProducts } from "./products/weight-plates/productData";
 import { getAllPosts } from "./resources/blogData";
 import { siteUrl } from "./site";
@@ -21,7 +20,6 @@ export const staticSeoRoutes: SeoRoute[] = [
   { path: "/products", type: "static", title: "Free Weight Equipment Products", image: "/assets/hero-poster.avif" },
   { path: "/products/dumbbells", type: "static", title: "Commercial Dumbbells", image: "/assets/hex-dumbbells.avif" },
   { path: "/products/weight-plates", type: "static", title: "Commercial Weight Plates", image: "/assets/weight-plate.avif" },
-  { path: "/products/racks-benches", type: "static", title: "Racks and Benches", image: "/assets/racks-benches.avif" },
   { path: "/products/gym-accessories", type: "static", title: "Gym Accessories", image: "/assets/gym-accessories.avif" },
   { path: "/factory", type: "static", title: "Factory", image: "/assets/factory.avif" },
   { path: "/projects", type: "static", title: "Projects", image: "/assets/case-showroom.avif" },
@@ -39,7 +37,6 @@ export function productSeoRoutes(): SeoRoute[] {
   return [
     ...dumbbellProducts.map((product) => ({ path: `/products/dumbbells/${product.slug}`, type: "product" as const, title: product.name, image: product.image })),
     ...weightPlateProducts.map((product) => ({ path: `/products/weight-plates/${product.slug}`, type: "product" as const, title: product.name, image: product.image })),
-    ...racksBenchesProducts.map((product) => ({ path: `/products/racks-benches/${product.slug}`, type: "product" as const, title: product.name, image: product.image })),
     ...gymAccessoryProducts.map((product) => ({ path: `/products/gym-accessories/${product.slug}`, type: "product" as const, title: product.name, image: product.image }))
   ];
 }

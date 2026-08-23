@@ -19,7 +19,6 @@ export default function SiteHeader() {
         <div>
           <a href="/products/dumbbells">Dumbbells</a>
           <a href="/products/weight-plates">Weight Plates</a>
-          <a href="/products/racks-benches">Racks & Benches</a>
           <a href="/products/gym-accessories">Gym Accessories</a>
           <a href="/factory">Factory</a>
           <a href="/resources">Resources</a>

@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { ContentEntity, ContentType, LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { answerBlock, checklistBlock, definitionBlock, germanEditorialAuthor, germanImagePath, germanTechnicalReviewer, specTable, textBlock } from "./de-content-helpers";
@@ -158,7 +157,6 @@ function profiles(source: ProductSource[], category: CategoryKey, map: Record<st
 export const germanProductProfiles: GermanProductProfile[] = [
   ...profiles(dumbbellProducts, "dumbbells", dumbbellMap),
   ...profiles(weightPlateProducts, "plates", plateMap),
-  ...profiles(racksBenchesProducts, "racks", rackMap),
   ...profiles(gymAccessoryProducts, "accessories", accessoryMap)
 ];
 

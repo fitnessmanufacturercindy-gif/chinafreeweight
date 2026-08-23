@@ -12,11 +12,6 @@ const categories = [
     href: "/products/weight-plates"
   },
   {
-    title: "Multi-functional Racks & Benches",
-    copy: "Home gym functional trainers, custom racks, cable systems and benches.",
-    href: "/products/racks-benches"
-  },
-  {
     title: "Gym Accessories",
     copy: "Training accessories and add-on tools for dealers and commercial facilities.",
     href: "/products/gym-accessories"
@@ -34,7 +29,7 @@ export default function MegaMenu() {
           <span>PowerBaseFit Product System</span>
           <h3>Build your free weight line from one source factory</h3>
           <p>
-            Explore the four core categories buyers need for wholesale,
+            Explore the three core categories buyers need for wholesale,
             private label and commercial gym projects.
           </p>
           <a href="/contact">

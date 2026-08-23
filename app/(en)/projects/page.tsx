@@ -60,11 +60,11 @@ const projects = [
     cta: "Request plate program"
   },
   {
-    title: "Home Gym Free Weight Room",
+    title: "Home Gym Free Weight Supply",
     category: "Full Gym Solution",
-    image: "/assets/racks-benches.avif",
-    copy: "Compact full gym solution combining racks, benches, dumbbells, and storage for premium spaces.",
-    scope: "Rack, bench, chrome dumbbells",
+    image: "/assets/case-showroom.avif",
+    copy: "Compact free weight supply combining chrome dumbbells, weight plates, bars, and storage planning for premium spaces.",
+    scope: "Chrome dumbbells, weight plates, storage",
     cta: "Ask for layout"
   },
   {
@@ -119,7 +119,7 @@ const projects = [
     title: "Mixed Container Planning Example",
     category: "Packing & Shipping",
     image: "/assets/factory-cases/container-shipping-pbf.avif",
-    copy: "Mixed container planning for dumbbells, plates, racks, benches, accessories, and export delivery.",
+    copy: "Mixed container planning for dumbbells, plates, accessories, packaging, and export delivery.",
     scope: "Mixed container, shipping",
     cta: "Plan my container"
   }
