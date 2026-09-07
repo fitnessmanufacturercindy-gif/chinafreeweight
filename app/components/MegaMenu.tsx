@@ -3,18 +3,21 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const categories = [
   {
     title: "Dumbbells",
-    copy: "Rubber, chrome and hex dumbbells for commercial gyms and private label lines.",
-    href: "/products/dumbbells"
+    copy: "Rubber, chrome, steel and hex dumbbells for wholesale and private label programs.",
+    href: "/products/dumbbells",
+    image: "/assets/hex-dumbbells.avif"
   },
   {
-    title: "Weight plates",
-    copy: "Precision plates, bumper plates and wholesale plate sets for gym projects.",
-    href: "/products/weight-plates"
+    title: "Weight Plates",
+    copy: "Bumper, rubber, cast iron and precision plates for commercial training spaces.",
+    href: "/products/weight-plates",
+    image: "/assets/weight-plate.avif"
   },
   {
     title: "Gym Accessories",
-    copy: "Training accessories and add-on tools for dealers and commercial facilities.",
-    href: "/products/gym-accessories"
+    copy: "Kettlebells, mats and training accessories for complete gym equipment orders.",
+    href: "/products/gym-accessories",
+    image: "/assets/gym-accessories.avif"
   }
 ];
 
@@ -26,24 +29,28 @@ export default function MegaMenu() {
       </summary>
       <div className="mega-menu" id="products-mega-menu" aria-label="Products mega menu">
         <div className="mega-feature">
-          <span>PowerBaseFit Product System</span>
-          <h3>Build your free weight line from one source factory</h3>
+          <span>Product Catalog</span>
+          <h3>Source your complete free weight range</h3>
           <p>
-            Explore the three core categories buyers need for wholesale,
-            private label and commercial gym projects.
+            Compare core categories for distribution, private label and commercial gym projects.
           </p>
-          <a href="/contact">
-            Send RFQ <ArrowRight size={16} />
+          <a href="/products">
+            View all products <ArrowRight size={16} />
           </a>
         </div>
         <div className="mega-category-grid">
           {categories.map((category) => (
             <a href={category.href} className="mega-category" key={category.title}>
-              <strong>{category.title}</strong>
-              <span>{category.copy}</span>
-              <em>
-                View category <ArrowRight size={14} />
-              </em>
+              <span className="mega-category-media" aria-hidden="true">
+                <img src={category.image} alt="" loading="lazy" decoding="async" />
+              </span>
+              <span className="mega-category-content">
+                <strong>{category.title}</strong>
+                <span className="mega-category-copy">{category.copy}</span>
+                <em>
+                  Explore range <ArrowRight size={15} />
+                </em>
+              </span>
             </a>
           ))}
         </div>

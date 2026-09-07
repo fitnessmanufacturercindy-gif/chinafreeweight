@@ -9,6 +9,7 @@ export default function SiteHeader() {
       </a>
       <nav className="main-nav" aria-label="Primary navigation">
         <MegaMenu />
+        <a href="/oem">OEM & Private Label</a>
         <a href="/factory">Factory</a>
         <a href="/resources">Resources</a>
         <a href="/projects">Projects</a>
@@ -20,6 +21,7 @@ export default function SiteHeader() {
           <a href="/products/dumbbells">Dumbbells</a>
           <a href="/products/weight-plates">Weight Plates</a>
           <a href="/products/gym-accessories">Gym Accessories</a>
+          <a href="/oem">OEM & Private Label</a>
           <a href="/factory">Factory</a>
           <a href="/resources">Resources</a>
           <a href="/projects">Projects</a>
