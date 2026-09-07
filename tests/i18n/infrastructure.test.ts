@@ -155,6 +155,7 @@ test("fitness chain customization case: every public locale has complete content
       assert.ok(graph.some((node) => node["@type"] === type), `${version.publicPath}: ${type}`);
     }
     assert.equal(graph.some((node) => ["Review", "AggregateRating", "Rating", "CaseStudy"].includes(String(node["@type"]))), false);
+    if (version.locale === "ar") assert.equal(version.schemaData.breadcrumbs?.[0]?.path, "/", "Arabic breadcrumb uses the published default home");
   }
 
   const options = getLanguageSwitchOptions(contentId, "en");

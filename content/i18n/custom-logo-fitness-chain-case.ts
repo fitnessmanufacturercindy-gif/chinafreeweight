@@ -504,7 +504,7 @@ function makeLinks(copy: CaseCopy): LocalizedInternalLink[] {
 }
 
 function makeVersion(copy: CaseCopy): LocalizedContentVersion {
-  const prefix = copy.locale === "en" ? "" : `/${copy.path.split("/").filter(Boolean)[0]}`;
+  const prefix = copy.locale === "en" || copy.locale === "ar" ? "" : `/${copy.path.split("/").filter(Boolean)[0]}`;
   const projectPath = copy.locale === "en" || copy.locale === "ar"
     ? "/projects"
     : copy.path.split("/").slice(0, 3).join("/");
