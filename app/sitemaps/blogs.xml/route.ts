@@ -10,7 +10,8 @@ export function GET() {
       path: version.publicPath,
       type: "blog" as const,
       title: version.title,
-      image: version.images[0]?.src
+      image: version.images[0]?.src,
+      lastModified: version.updatedAt
     }));
   return xmlResponse(routeUrlsetXml([...blogSeoRoutes(), ...localizedBlogs]));
 }

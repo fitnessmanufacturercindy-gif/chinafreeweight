@@ -13,6 +13,7 @@ export type SeoRoute = {
   type: "static" | "product" | "blog" | "language" | "landing";
   title?: string;
   image?: string;
+  lastModified?: string | Date;
 };
 
 export const staticSeoRoutes: SeoRoute[] = [
@@ -23,7 +24,13 @@ export const staticSeoRoutes: SeoRoute[] = [
   { path: "/products/gym-accessories", type: "static", title: "Gym Accessories", image: "/assets/gym-accessories.avif" },
   { path: "/factory", type: "static", title: "Factory", image: "/assets/factory.avif" },
   { path: "/projects", type: "static", title: "Projects", image: "/assets/case-showroom.avif" },
-  { path: "/projects/compact-chrome-dumbbell-set", type: "landing", title: "Compact Chrome Dumbbell Set with Rack Case Study", image: "/assets/projects/compact-chrome-dumbbell-set.webp" },
+  {
+    path: "/projects/compact-chrome-dumbbell-set",
+    type: "landing",
+    title: "Compact Chrome Dumbbell Set with Rack Case Study",
+    image: "/assets/projects/compact-chrome-dumbbell-set.webp",
+    lastModified: "2026-07-27T05:30:00.000Z"
+  },
   { path: "/resources", type: "static", title: "Resources", image: "/assets/resource-cnc-machining.avif" },
   { path: "/contact", type: "static", title: "Contact" },
   { path: "/manufacturer/rubber-hex-dumbbells-manufacturer", type: "landing", title: "Rubber Hex Dumbbells Manufacturer China", image: "/assets/hex-dumbbells.avif" }
@@ -42,14 +49,26 @@ export function productSeoRoutes(): SeoRoute[] {
 }
 
 export function blogSeoRoutes(): SeoRoute[] {
-  return getAllPosts().map((post) => ({ path: `/resources/${post.slug}`, type: "blog" as const, title: post.title, image: post.coverImage }));
+  return getAllPosts().map((post) => ({
+    path: `/resources/${post.slug}`,
+    type: "blog" as const,
+    title: post.title,
+    image: post.coverImage,
+    lastModified: post.updatedAt
+  }));
 }
 
 export function localizedSeoRoutes(): SeoRoute[] {
   return contentRepository
     .listPublished()
     .filter(({ version }) => version.locale !== "en")
-    .map(({ version }) => ({ path: version.publicPath, type: "language" as const, title: version.title, image: version.images[0]?.src }));
+    .map(({ version }) => ({
+      path: version.publicPath,
+      type: "language" as const,
+      title: version.title,
+      image: version.images[0]?.src,
+      lastModified: version.updatedAt
+    }));
 }
 
 export function allSeoRoutes(): SeoRoute[] {
@@ -80,7 +99,7 @@ export function localizedSitemapEntries() {
     const alternates = getEnglishAlternates(route.path).languages;
     return [{
       url: absoluteUrl(route.path),
-      lastModified: new Date(),
+      ...(route.lastModified ? { lastModified: new Date(route.lastModified) } : {}),
       changeFrequency: route.type === "blog" ? "monthly" as const : "weekly" as const,
       alternates: {
         languages: Object.fromEntries(

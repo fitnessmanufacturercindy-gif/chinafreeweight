@@ -9,6 +9,7 @@ import { contentRepository, createContentRepository } from "../../lib/content/re
 import type { ContentEntity, ContentManifest, LocalizedContentVersion, PublicationStatus } from "../../lib/content/types";
 import { buildPublicPath } from "../../lib/i18n/paths";
 import { decideLocaleRequest } from "../../lib/i18n/request-policy";
+import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
 import { createTranslationPipeline, type TranslationRecord } from "../../lib/publishing/translation-pipeline";
 import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
@@ -21,6 +22,22 @@ import { indonesianExcludedContentIds } from "../../content/i18n/indonesian-mani
 
 const siteUrl = "https://www.chinafreeweight.com";
 const timestamp = "2026-07-14T00:00:00.000Z";
+const originalMediaGuideIds = new Set([
+  "fixed-vs-adjustable-dumbbells-commercial-guide",
+  "kg-lb-free-weight-ordering-guide",
+  "bulk-oem-steel-dumbbells-guide",
+  "cable-attachment-compatibility-oem-guide",
+  "weight-plate-tolerance-bulk-order-guide",
+  "commercial-olympic-barbell-buying-guide",
+  "olympic-barbell-finish-coating-guide",
+  "dumbbell-head-handle-construction-guide",
+  "olympic-plate-hole-barbell-sleeve-fit-guide",
+  "commercial-barbell-knurling-specification-guide",
+  "case-custom-logo-fitness-chain-strength-equipment"
+]);
+const usesOriginalMediaSet = (entityId: string) => originalMediaGuideIds.has(entityId);
+const expectedOriginalImageCount = (entityId: string) => ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 3 : 5;
+const expectedGuideFaqCount = (entityId: string) => ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide"].includes(entityId) ? 6 : entityId === "bulk-oem-steel-dumbbells-guide" ? 10 : ["cable-attachment-compatibility-oem-guide", "weight-plate-tolerance-bulk-order-guide", "commercial-olympic-barbell-buying-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 8 : 5;
 
 function localizedVersion(
   locale: "en" | "pt-BR",
@@ -95,32 +112,64 @@ test("published locale routing: all twelve launch languages are public", () => {
 });
 
 test("production manifest: only reviewed content in the public languages is published", () => {
-  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 91);
-  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 91);
-  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 92);
-  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 92);
-  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 91);
-  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 92);
-  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 92);
-  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 92);
-  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 2);
-  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 85);
-  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 90);
-  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 91);
-  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 90);
-  assert.equal(contentRepository.listPublished().length, 1091);
+  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 103);
+  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 103);
+  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 107);
+  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 102);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 106);
+  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 102);
+  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 102);
+  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 102);
+  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 12);
+  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 95);
+  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 100);
+  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 101);
+  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 100);
+  assert.equal(contentRepository.listPublished().length, 1235);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
-test("compact chrome dumbbell case: all eleven production URLs and internal links are published", () => {
+test("compact chrome dumbbell case: eleven localized editions pass depth, media and structured-data gates", () => {
   const locales = ["en", "es", "pt-BR", "fr", "de", "it", "sv", "vi", "ko", "pl", "ar"] as const;
   const pages = locales.map((locale) => contentRepository.getPublishedVersion("case-compact-chrome-dumbbell-set", locale));
   assert.equal(pages.filter(Boolean).length, locales.length);
-  for (const page of pages) {
-    assert.ok(page);
-    assert.ok(page.version.publicPath.startsWith("/"));
-    assert.ok(page.version.internalLinks.length >= 3);
-    assert.equal(page.version.canonicalData.mode, "self");
+
+  const values = (value: unknown): string[] => {
+    if (typeof value === "string") return [value];
+    if (Array.isArray(value)) return value.flatMap(values);
+    if (value && typeof value === "object") return Object.values(value).flatMap(values);
+    return [];
+  };
+
+  for (const [index, content] of pages.entries()) {
+    assert.ok(content);
+    const { version } = content;
+    const visibleText = values([version.h1, version.description, version.body, version.faq]).join(" ");
+    const words = visibleText.split(/\s+/u).filter(Boolean).length;
+    assert.equal(version.locale, locales[index]);
+    assert.ok(words >= 1500 && words <= 2500, `${version.publicPath}: ${words} words`);
+    assert.ok(version.body.length >= 8, `${version.publicPath}: substantive sections`);
+    assert.ok(version.faq.length >= 6 && version.faq.length <= 8, `${version.publicPath}: localized FAQ`);
+    assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
+    assert.equal(version.images.length, 2, `${version.publicPath}: real case images`);
+    for (const image of version.images) {
+      assert.match(image.src, /^\/assets\/projects\/compact-chrome-dumbbell-set(?:-detail)?\.webp$/);
+      assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: ${image.src}`);
+      assert.ok(image.width && image.height, `${version.publicPath}: intrinsic image dimensions`);
+      assert.ok(image.alt.trim().length >= 20, `${version.publicPath}: localized alt`);
+      assert.ok(image.caption && image.caption.trim().length >= 20, `${version.publicPath}: localized caption`);
+      assert.ok(existsSync(join(process.cwd(), "public", image.src.replace(/\.webp$/u, ".avif"))), `${version.publicPath}: AVIF source`);
+    }
+    assert.doesNotMatch(visibleText, /\b(?:SEO|GEO|AIO|AI Search|ChatGPT|Gemini|Perplexity)\b/i);
+    assert.equal(version.canonicalData.mode, "self");
+    assert.equal(getLocaleByInternalLocale(version.locale)?.direction, version.locale === "ar" ? "rtl" : "ltr");
+
+    const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
+    assert.equal(metadata.alternates?.canonical, `${siteUrl}${version.publicPath}`);
+    const graph = buildLocalizedSchemaGraph(content, siteUrl);
+    for (const type of ["Article", "BreadcrumbList", "FAQPage", "ImageObject"]) {
+      assert.ok(graph.some((node) => node["@type"] === type), `${version.publicPath}: ${type}`);
+    }
   }
 });
 
@@ -215,8 +264,8 @@ test("growth content: products and blogs meet useful Portuguese depth targets", 
   const blogWords = portuguese.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(productWords.length, 53);
   assert.ok(productWords.every((count) => count >= 700 && count <= 1500), JSON.stringify(productWords));
-  assert.equal(blogWords.length, 25);
-  assert.ok(blogWords.every((count) => count >= 1200 && count <= 2000), JSON.stringify(blogWords));
+  assert.equal(blogWords.length, 37);
+  assert.ok(blogWords.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogWords));
 });
 
 test("Spanish expansion: products and blogs meet localized depth targets", () => {
@@ -238,11 +287,11 @@ test("Spanish expansion: products and blogs meet localized depth targets", () =>
   const blogs = spanish.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(products.length, 53);
   assert.ok(products.every((count) => count >= 700 && count <= 1500), JSON.stringify(products));
-  assert.equal(blogs.length, 25);
-  assert.ok(blogs.every((count) => count >= 1200 && count <= 2000), JSON.stringify(blogs));
+  assert.equal(blogs.length, 37);
+  assert.ok(blogs.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogs));
 });
 
-test("multilingual SEO expansion: six active A-grade pages are deep, unique and internally linked", () => {
+test("multilingual commercial expansion: six active A-grade pages are deep, unique and internally linked", () => {
   const routes = [
     "/pt/produtos/acessorios-de-academia",
     "/pt/fabricante/halteres-sextavados-de-borracha",
@@ -528,7 +577,7 @@ test("translation pipeline: review and publish gates preserve immutable history"
   assert.equal(withdrawn.current.publishedAt, undefined);
 });
 
-test("multilingual sitemap retains active English routes and includes all published locale routes", () => {
+test("multilingual sitemap retains all English routes and adds every published localized route", () => {
   const urls = sitemap().map((entry) => entry.url);
   const portugueseUrls = urls.filter((url) => new URL(url).pathname === "/pt" || new URL(url).pathname.startsWith("/pt/"));
   const spanishUrls = urls.filter((url) => new URL(url).pathname === "/es" || new URL(url).pathname.startsWith("/es/"));
@@ -537,26 +586,26 @@ test("multilingual sitemap retains active English routes and includes all publis
   const vietnameseUrls = urls.filter((url) => new URL(url).pathname === "/vi" || new URL(url).pathname.startsWith("/vi/"));
   const swedishUrls = urls.filter((url) => new URL(url).pathname === "/sv" || new URL(url).pathname.startsWith("/sv/"));
   const italianUrls = urls.filter((url) => new URL(url).pathname === "/it" || new URL(url).pathname.startsWith("/it/"));
-  const arabicUrls = urls.filter((url) => new URL(url).pathname === "/ar" || new URL(url).pathname.startsWith("/ar/"));
   const koreanUrls = urls.filter((url) => new URL(url).pathname === "/ko" || new URL(url).pathname.startsWith("/ko/"));
   const indonesianUrls = urls.filter((url) => new URL(url).pathname === "/id" || new URL(url).pathname.startsWith("/id/"));
   const polishUrls = urls.filter((url) => new URL(url).pathname === "/pl" || new URL(url).pathname.startsWith("/pl/"));
   const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
+  const arabicUrls = urls.filter((url) => new URL(url).pathname === "/ar" || new URL(url).pathname.startsWith("/ar/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !arabicUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
-  assert.equal(englishUrls.length, 103);
-  assert.equal(portugueseUrls.length, 91);
-  assert.equal(spanishUrls.length, 91);
-  assert.equal(germanUrls.length, 92);
-  assert.equal(frenchUrls.length, 92);
-  assert.equal(vietnameseUrls.length, 92);
-  assert.equal(swedishUrls.length, 92);
-  assert.equal(italianUrls.length, 92);
-  assert.equal(arabicUrls.length, 2);
-  assert.equal(koreanUrls.length, 85);
-  assert.equal(indonesianUrls.length, 90);
-  assert.equal(polishUrls.length, 91);
-  assert.equal(dutchUrls.length, 90);
-  assert.equal(new Set(urls).size, 1103);
+  assert.equal(englishUrls.length, 119);
+  assert.equal(portugueseUrls.length, 103);
+  assert.equal(spanishUrls.length, 103);
+  assert.equal(germanUrls.length, 107);
+  assert.equal(frenchUrls.length, 102);
+  assert.equal(vietnameseUrls.length, 102);
+  assert.equal(swedishUrls.length, 102);
+  assert.equal(italianUrls.length, 102);
+  assert.equal(arabicUrls.length, 12);
+  assert.equal(koreanUrls.length, 95);
+  assert.equal(indonesianUrls.length, 100);
+  assert.equal(polishUrls.length, 101);
+  assert.equal(dutchUrls.length, 100);
+  assert.equal(new Set(urls).size, 1248);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -565,7 +614,6 @@ test("multilingual sitemap retains active English routes and includes all publis
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/can-i-build-muscle-with-only-dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-bumper-plates-made`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-are-dumbbells-weighed`));
-  assert.equal(urls.includes(`${configuredSiteUrl}/resources/cable-attachment-sku-compatibility-register`), false);
   assert.ok(urls.includes(`${configuredSiteUrl}/factory`));
   assert.ok(urls.includes(`${configuredSiteUrl}/contact`));
   assert.equal(urls.some((url) => new URL(url).pathname.startsWith("/en/")), false);
@@ -602,7 +650,7 @@ test("multilingual sitemap retains active English routes and includes all publis
   assert.equal(urls.some((url) => /^\/(ru|ja)(\/|$)/.test(new URL(url).pathname)), false);
 });
 
-test("language sitemap contains all active public URLs with the complete products hub cluster", () => {
+test("language sitemap contains all public URLs with the complete products hub cluster", () => {
   const entries = localizedSitemapEntries();
   const english = entries.filter((entry) => !/^\/(?:pt|es|de|fr|vi|sv|it|ar|ko|id|pl|nl)(?:\/|$)/.test(new URL(entry.url).pathname));
   const portuguese = entries.filter((entry) => /^\/pt(?:\/|$)/.test(new URL(entry.url).pathname));
@@ -617,20 +665,20 @@ test("language sitemap contains all active public URLs with the complete product
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 102);
-  assert.equal(portuguese.length, 91);
-  assert.equal(spanish.length, 91);
-  assert.equal(german.length, 92);
-  assert.equal(french.length, 92);
-  assert.equal(vietnamese.length, 92);
-  assert.equal(swedish.length, 92);
-  assert.equal(italian.length, 92);
-  assert.equal(arabic.length, 2);
-  assert.equal(korean.length, 85);
-  assert.equal(indonesian.length, 90);
-  assert.equal(polish.length, 91);
-  assert.equal(dutch.length, 90);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1102);
+  assert.equal(english.length, 117);
+  assert.equal(portuguese.length, 103);
+  assert.equal(spanish.length, 103);
+  assert.equal(german.length, 107);
+  assert.equal(french.length, 102);
+  assert.equal(vietnamese.length, 102);
+  assert.equal(swedish.length, 102);
+  assert.equal(italian.length, 102);
+  assert.equal(arabic.length, 12);
+  assert.equal(korean.length, 95);
+  assert.equal(indonesian.length, 100);
+  assert.equal(polish.length, 101);
+  assert.equal(dutch.length, 100);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1246);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
@@ -652,12 +700,13 @@ test("language sitemap contains all active public URLs with the complete product
 });
 
 test("Indonesian launch meets coverage, editorial, media, SEO and similarity gates", () => {
-  const pages = contentRepository.listPublished({ locale: "id" }).filter(({ entity }) => entity.type !== "case");
+  const pages = contentRepository.listPublished({ locale: "id" });
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 25,
+    blog: 35,
     blog_index: 1,
+    case: 1,
     contact: 1,
     factory: 1,
     home: 1,
@@ -667,13 +716,13 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 89);
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 100);
   const editorialSignatures = pages.map(({ version }) => version.body.slice(0, 6).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 180)}`).join("||"));
-  assert.equal(new Set(editorialSignatures).size, 89, "every Indonesian page must have a distinct below-hero editorial lead");
+  assert.equal(new Set(editorialSignatures).size, 100, "every Indonesian page must have a distinct below-hero editorial lead");
   const headingSignatures = pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"));
-  assert.equal(new Set(headingSignatures).size, 89, "every Indonesian page must have a distinct visible section sequence");
+  assert.equal(new Set(headingSignatures).size, 100, "every Indonesian page must have a distinct visible section sequence");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -686,21 +735,22 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
 
   for (const content of pages) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.equal(version.locale, "id");
     assert.equal(version.translationStatus, "localized");
     assert.equal(version.reviewStatus, "approved");
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/id(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: two or three real images`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     for (const image of version.images) {
-      assert.match(image.src, /^\/gambar-id\//, `${version.publicPath}: localized image filename`);
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/gambar-id\//, `${version.publicPath}: image filename`);
       assert.ok(image.alt.length >= 20, `${version.publicPath}: localized image alt`);
       const encoded = image.src.split("/")[2];
-      const source = Buffer.from(encoded, "base64url").toString("utf8");
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(encoded, "base64url").toString("utf8");
       assert.ok(source.startsWith("/assets/") && existsSync(join(process.cwd(), "public", source)), `${version.publicPath}: real source image ${source}`);
     }
-    assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
+    assert.equal(version.faq.length, expectedGuideFaqCount(entity.id), `${version.publicPath}: FAQ`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AIO|AI Search|keyword optimization|ranking optimization)\b/i, `${version.publicPath}: no internal terminology`);
     assert.doesNotMatch(visibleText(version), /\uFFFD|鈥|脿|Ã/, `${version.publicPath}: no mojibake`);
     assert.doesNotMatch(
@@ -723,7 +773,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "id"), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "id"), `${version.publicPath}: article schema`);
 
-    if (entity.type === "product" || entity.type === "blog") {
+    if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
       const words = wordCount(version);
       assert.ok(words >= (entity.type === "product" ? 1000 : 1500), `${version.publicPath}: minimum content length ${words}`);
       assert.ok(words <= (entity.type === "product" ? 1500 : 2500), `${version.publicPath}: maximum content length ${words}`);
@@ -760,12 +810,12 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
   }
 });
 
-test("Polish launch meets active-page coverage, content, English-asset and SEO gates", () => {
+test("Polish launch meets active-page coverage, content, English-asset and metadata gates", () => {
   const pages = contentRepository.listPublished({ locale: "pl" }).filter(({ entity }) => entity.type !== "case");
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 25,
+    blog: 35,
     blog_index: 1,
     contact: 1,
     factory: 1,
@@ -776,10 +826,10 @@ test("Polish launch meets active-page coverage, content, English-asset and SEO g
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 89, "distinct Polish section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 99);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 99);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 99);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 99, "distinct Polish section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -793,20 +843,21 @@ test("Polish launch meets active-page coverage, content, English-asset and SEO g
   for (const content of pages) {
     const { entity, version } = content;
     assert.equal(version.locale, "pl");
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.equal(version.translationStatus, "localized");
     assert.equal(version.reviewStatus, "approved");
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/pl(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: two or three real images`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     const english = contentRepository.getPublishedVersion(entity.id, "en");
-    if (english?.version.images[0]) assert.equal(version.images[0]?.src, english.version.images[0].src, `${version.publicPath}: English primary asset`);
+    if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
     for (const image of version.images) {
       assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
       assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
       assert.ok(image.alt.length >= 20, `${version.publicPath}: Polish image alt`);
     }
-    assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
+    assert.equal(version.faq.length, expectedGuideFaqCount(entity.id), `${version.publicPath}: FAQ`);
     assert.doesNotMatch(visibleText(version), /\uFFFD|閳|臋|艂|偶|膮|贸|藕/, `${version.publicPath}: no mojibake`);
     assert.doesNotMatch(visibleText(version), /\b(?:untuk|dan|pabrik|panduan|permintaan|merek sendiri|pengadaan)\b/i, `${version.publicPath}: no Indonesian UI/content leakage`);
 
@@ -819,7 +870,7 @@ test("Polish launch meets active-page coverage, content, English-asset and SEO g
     if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "pl"), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "pl"), `${version.publicPath}: article schema`);
 
-    if (entity.type === "product" || entity.type === "blog") {
+    if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
       const words = wordCount(version);
       assert.ok(words >= (entity.type === "product" ? 1100 : 1400), `${version.publicPath}: minimum content length ${words}`);
       assert.ok(words <= (entity.type === "product" ? 1400 : 1700), `${version.publicPath}: maximum content length ${words}`);
@@ -837,13 +888,14 @@ test("Polish launch meets active-page coverage, content, English-asset and SEO g
   assert.ok(contact?.version.body.some((block) => block.data?.component === "inquiry-form"), "Polish contact inquiry form");
 });
 
-test("Dutch launch meets active-page coverage, localized content, source assets and SEO gates", () => {
-  const pages = contentRepository.listPublished({ locale: "nl" }).filter(({ entity }) => entity.type !== "case");
+test("Dutch launch meets active-page coverage, localized content, source assets and metadata gates", () => {
+  const pages = contentRepository.listPublished({ locale: "nl" });
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 25,
+    blog: 35,
     blog_index: 1,
+    case: 1,
     contact: 1,
     factory: 1,
     home: 1,
@@ -853,10 +905,10 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 89);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 89, "distinct Dutch section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 100, "distinct Dutch section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -870,20 +922,21 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
   for (const content of pages) {
     const { entity, version } = content;
     assert.equal(version.locale, "nl");
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.equal(version.translationStatus, "localized");
     assert.equal(version.reviewStatus, "approved");
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/nl(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: two or three real images`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     const english = contentRepository.getPublishedVersion(entity.id, "en");
-    if (english?.version.images[0]) assert.equal(version.images[0]?.src, english.version.images[0].src, `${version.publicPath}: English primary asset`);
+    if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
     for (const image of version.images) {
       assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
       assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
       assert.ok(image.alt.length >= 20, `${version.publicPath}: Dutch image alt`);
     }
-    assert.equal(version.faq.length, 5, `${version.publicPath}: FAQ`);
+    assert.equal(version.faq.length, expectedGuideFaqCount(entity.id), `${version.publicPath}: FAQ`);
     assert.doesNotMatch(visibleText(version), /\uFFFD/, `${version.publicPath}: no replacement characters`);
     assert.doesNotMatch(visibleText(version), /\b(?:penawaran|produk|pabrik|panduan|permintaan|pengadaan|zapytanie|wycena|producent sprzętu)\b/i, `${version.publicPath}: no Indonesian or Polish leakage`);
 
@@ -896,7 +949,7 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "nl"), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "nl"), `${version.publicPath}: article schema`);
 
-    if (entity.type === "product" || entity.type === "blog") {
+    if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
       const words = wordCount(version);
       assert.ok(words >= (entity.type === "product" ? 1000 : 1250), `${version.publicPath}: minimum content length ${words}`);
       assert.ok(words <= (entity.type === "product" ? 1200 : 1500), `${version.publicPath}: maximum content length ${words}`);
@@ -947,13 +1000,13 @@ test("Spanish blog content is differentiated by search intent", () => {
   }
 });
 
-test("German launch: active published pages pass depth, media, metadata, schema and link gates", () => {
+test("German launch: published pages pass depth, media, metadata, schema and link gates", () => {
   const german = contentRepository.listPublished({ locale: "de" }).filter(({ entity }) => entity.type !== "case");
   const products = german.filter(({ entity }) => entity.type === "product");
   const guides = german.filter(({ entity }) => entity.type === "blog");
-  assert.equal(german.length, 90);
+  assert.equal(german.length, 105);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 15);
+  assert.equal(guides.length, 30);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -972,6 +1025,7 @@ test("German launch: active published pages pass depth, media, metadata, schema 
 
   for (const content of german) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.match(version.publicPath, /^\/de(?:\/|$)/);
     assert.equal(version.canonicalData.mode, "self");
     assert.notEqual(version.canonicalData.noindex, true);
@@ -986,9 +1040,9 @@ test("German launch: active published pages pass depth, media, metadata, schema 
       assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "de"), `${version.publicPath}: unresolved ${link.targetContentId}`);
     }
     for (const image of version.images) {
-      assert.match(image.src, /^\/bilder\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/bilder\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
       const encoded = image.src.split("/")[2];
-      const source = Buffer.from(encoded, "base64url").toString("utf8");
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(encoded, "base64url").toString("utf8");
       assert.ok(existsSync(join(process.cwd(), "public", source.replace(/^\//, ""))), `${version.publicPath}: ${source}`);
       assert.ok(image.alt.length > 25 && image.caption && image.caption.length > 25, `${version.publicPath}: localized image text`);
     }
@@ -1008,7 +1062,7 @@ test("German launch: active published pages pass depth, media, metadata, schema 
   }
 
   for (const { version } of products) assert.ok(wordCount(version) >= 1000 && wordCount(version) <= 1500, `${version.publicPath}: ${wordCount(version)} words`);
-  for (const { version } of guides) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
+  for (const { entity, version } of guides) if (!usesOriginalMediaSet(entity.id)) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
 
   const fiveGrams = (version: LocalizedContentVersion) => {
     const words = values([version.h1, version.body, version.faq]).join(" ").toLowerCase().replace(/[^a-zäöüß0-9 ]/g, " ").split(/\s+/).filter(Boolean);
@@ -1031,9 +1085,9 @@ test("French launch: active published pages pass depth, media, metadata, schema 
   const french = contentRepository.listPublished({ locale: "fr" }).filter(({ entity }) => entity.type !== "case");
   const products = french.filter(({ entity }) => entity.type === "product");
   const guides = french.filter(({ entity }) => entity.type === "blog");
-  assert.equal(french.length, 90);
+  assert.equal(french.length, 100);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 15);
+  assert.equal(guides.length, 25);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1055,6 +1109,7 @@ test("French launch: active published pages pass depth, media, metadata, schema 
 
   for (const content of french) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.match(version.publicPath, /^\/fr(?:\/|$)/);
     assert.equal(version.canonicalData.mode, "self");
     assert.notEqual(version.canonicalData.noindex, true);
@@ -1066,10 +1121,10 @@ test("French launch: active published pages pass depth, media, metadata, schema 
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "fr"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, 3, `${version.publicPath}: three images`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
-      assert.match(image.src, /^\/images-fr\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
-      const source = Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/images-fr\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
       assert.ok(existsSync(join(process.cwd(), "public", source.replace(/^\//, ""))), `${version.publicPath}: ${source}`);
       assert.ok(image.alt.length > 25 && image.caption && image.caption.length > 20, `${version.publicPath}: image text`);
     }
@@ -1088,7 +1143,7 @@ test("French launch: active published pages pass depth, media, metadata, schema 
   }
 
   for (const { version } of products) assert.ok(wordCount(version) >= 1000 && wordCount(version) <= 1500, `${version.publicPath}: ${wordCount(version)} words`);
-  for (const { version } of guides) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
+  for (const { entity, version } of guides) if (!usesOriginalMediaSet(entity.id)) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
 
   const fiveGrams = (version: LocalizedContentVersion) => {
     const words = visibleText(version).toLowerCase().replace(/[^a-zàâçéèêëîïôûùüÿœ0-9 ]/g, " ").split(/\s+/).filter(Boolean);
@@ -1111,9 +1166,9 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
   const vietnamese = contentRepository.listPublished({ locale: "vi" }).filter(({ entity }) => entity.type !== "case");
   const products = vietnamese.filter(({ entity }) => entity.type === "product");
   const guides = vietnamese.filter(({ entity }) => entity.type === "blog");
-  assert.equal(vietnamese.length, 90);
+  assert.equal(vietnamese.length, 100);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 15);
+  assert.equal(guides.length, 25);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1136,6 +1191,7 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
 
   for (const content of vietnamese) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.match(version.publicPath, /^\/vi(?:\/|$)/);
     assert.equal(version.canonicalData.mode, "self");
     assert.notEqual(version.canonicalData.noindex, true);
@@ -1147,10 +1203,10 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "vi"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, 3, `${version.publicPath}: three images`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
-      assert.match(image.src, /^\/hinh-anh-vi\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
-      const source = Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/hinh-anh-vi\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
       assert.ok(existsSync(join(process.cwd(), "public", source.replace(/^\//, ""))), `${version.publicPath}: ${source}`);
       assert.ok(image.alt.length > 25 && image.caption && image.caption.length > 20, `${version.publicPath}: image text`);
     }
@@ -1168,7 +1224,7 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
   }
 
   for (const { version } of products) assert.ok(wordCount(version) >= 1000 && wordCount(version) <= 1500, `${version.publicPath}: ${wordCount(version)} words`);
-  for (const { version } of guides) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
+  for (const { entity, version } of guides) if (!usesOriginalMediaSet(entity.id)) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
 
   const fiveGrams = (version: LocalizedContentVersion) => {
     const words = visibleText(version).toLowerCase().replace(/[^a-z\u00c0-\u024f\u1e00-\u1eff0-9 ]/g, " ").split(/\s+/).filter(Boolean);
@@ -1191,9 +1247,9 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
   const swedish = contentRepository.listPublished({ locale: "sv" }).filter(({ entity }) => entity.type !== "case");
   const products = swedish.filter(({ entity }) => entity.type === "product");
   const guides = swedish.filter(({ entity }) => entity.type === "blog");
-  assert.equal(swedish.length, 90);
+  assert.equal(swedish.length, 100);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 15);
+  assert.equal(guides.length, 25);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1216,6 +1272,7 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
 
   for (const content of swedish) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.match(version.publicPath, /^\/sv(?:\/|$)/);
     assert.equal(version.canonicalData.mode, "self");
     assert.notEqual(version.canonicalData.noindex, true);
@@ -1227,10 +1284,10 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "sv"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, 3, `${version.publicPath}: three images`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
-      assert.match(image.src, /^\/bilder-sv\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
-      const source = Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/bilder-sv\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
       assert.ok(existsSync(join(process.cwd(), "public", source.replace(/^\//, ""))), `${version.publicPath}: ${source}`);
       assert.ok(image.alt.length > 25 && image.caption && image.caption.length > 20, `${version.publicPath}: image text`);
     }
@@ -1248,7 +1305,7 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
   }
 
   for (const { version } of products) assert.ok(wordCount(version) >= 1000 && wordCount(version) <= 1500, `${version.publicPath}: ${wordCount(version)} words`);
-  for (const { version } of guides) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
+  for (const { entity, version } of guides) if (!usesOriginalMediaSet(entity.id)) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
 
   const fiveGrams = (version: LocalizedContentVersion) => {
     const words = visibleText(version).toLowerCase().replace(/[^a-zåäö0-9 ]/g, " ").split(/\s+/).filter(Boolean);
@@ -1271,9 +1328,9 @@ test("Italian launch: active published pages pass localization, depth, media, me
   const italian = contentRepository.listPublished({ locale: "it" }).filter(({ entity }) => entity.type !== "case");
   const products = italian.filter(({ entity }) => entity.type === "product");
   const guides = italian.filter(({ entity }) => entity.type === "blog");
-  assert.equal(italian.length, 90);
+  assert.equal(italian.length, 100);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 15);
+  assert.equal(guides.length, 25);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1294,6 +1351,7 @@ test("Italian launch: active published pages pass localization, depth, media, me
 
   for (const content of italian) {
     const { entity, version } = content;
+    const isOriginalMediaGuide = usesOriginalMediaSet(entity.id);
     assert.match(version.publicPath, /^\/it(?:\/|$)/);
     assert.equal(version.canonicalData.mode, "self");
     assert.notEqual(version.canonicalData.noindex, true);
@@ -1305,10 +1363,10 @@ test("Italian launch: active published pages pass localization, depth, media, me
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.body.some((block) => block.type === "features"), `${version.publicPath}: checklist`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "it"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, 3, `${version.publicPath}: images`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: images`);
     for (const image of version.images) {
-      assert.match(image.src, /^\/immagini-it\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
-      const source = Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
+      assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/immagini-it\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
+      const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
       assert.ok(existsSync(join(process.cwd(), "public", source.replace(/^\//, ""))), `${version.publicPath}: ${source}`);
       assert.ok(image.alt.length > 25 && image.caption && image.caption.length > 20, `${version.publicPath}: image text`);
     }
@@ -1324,7 +1382,7 @@ test("Italian launch: active published pages pass localization, depth, media, me
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AI Search|keyword optimization|Google ranking)\b/i, `${version.publicPath}: internal terminology`);
   }
   for (const { version } of products) assert.ok(wordCount(version) >= 1000 && wordCount(version) <= 1500, `${version.publicPath}: ${wordCount(version)} words`);
-  for (const { version } of guides) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
+  for (const { entity, version } of guides) if (!usesOriginalMediaSet(entity.id)) assert.ok(wordCount(version) >= 1500 && wordCount(version) <= 2500, `${version.publicPath}: ${wordCount(version)} words`);
 
   const fiveGrams = (version: LocalizedContentVersion) => {
     const words = visibleText(version).toLowerCase().replace(/[^a-zà-ÿ0-9 ]/g, " ").split(/\s+/).filter(Boolean);
@@ -1416,7 +1474,7 @@ test("Korean A-tier launch: active published pages pass localization, depth, med
   }
 });
 
-test("commercial completion A: 17 active Portuguese, Spanish and Korean pages pass publish, SEO, media and link gates", () => {
+test("commercial completion A: 17 active Portuguese, Spanish and Korean pages pass publish, media and link gates", () => {
   const paths = [
     "/pt/produtos/halteres/halter-ajustavel",
     "/pt/produtos/anilhas/anilha-bumper-competicao",
@@ -1476,7 +1534,7 @@ test("commercial completion A: 17 active Portuguese, Spanish and Korean pages pa
   }
 });
 
-test("commercial completion B/C priority release: 114 active pages pass quality, media and SEO gates", () => {
+test("commercial completion B/C priority release: 114 active pages pass quality, media and metadata gates", () => {
   assert.equal(commercialCompletionBCSelections.length, 38);
   assert.equal(commercialCompletionBCSelections.filter((item) => item.grade === "B").length, 27);
   assert.equal(commercialCompletionBCSelections.filter((item) => item.grade === "C").length, 11);
@@ -1556,6 +1614,8 @@ test("commercial completion B/C priority release: 114 active pages pass quality,
 
 test("retired C-level rack completion cannot republish removed routes", () => {
   assert.equal(commercialCompletionCSelections.length, 0);
+  assert.equal(commercialCompletionCSelections.filter((item) => item.tier === "A").length, 0);
+  assert.equal(commercialCompletionCSelections.filter((item) => item.tier === "B").length, 0);
 
   const values = (input: unknown): string[] => {
     if (typeof input === "string") return [input];

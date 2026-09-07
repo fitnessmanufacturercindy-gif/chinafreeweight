@@ -16,6 +16,17 @@ import { withPolishLocalization } from "./polish-manifest";
 import { withDutchLocalization } from "./dutch-manifest";
 import { compactChromeDumbbellCase } from "./compact-chrome-dumbbell-case";
 import { withCustomLogoFitnessChainCase } from "./custom-logo-fitness-chain-case";
+import { withCommercialGrowthBlogs } from "./commercial-growth-blogs";
+import { withSteelDumbbellOemBlog } from "./steel-dumbbell-oem-blog";
+import { withCableAttachmentCompatibilityGuide } from "./cable-attachment-compatibility-guide";
+import { withWeightPlateToleranceGuide } from "./weight-plate-tolerance-guide";
+import { withCommercialOlympicBarbellGuide } from "./commercial-olympic-barbell-guide";
+import { withDumbbellHeadRetentionGuide } from "./dumbbell-head-retention-guide";
+import { withKgLbFreeWeightGuide } from "./kg-lb-free-weight-units-guide";
+import { withFixedVsAdjustableDumbbellsGuide } from "./fixed-vs-adjustable-dumbbells-guide";
+import { withBarbellFinishGuide } from "./barbell-finish-guide";
+import { withPlateBarFitGuide } from "./plate-bar-fit-guide";
+import { withBarbellKnurlingGuide } from "./barbell-knurling-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -113,11 +124,23 @@ const localizedManifest = withDutchLocalization(
   )
 );
 
-const manifestWithCustomLogoFitnessChainCase = withCustomLogoFitnessChainCase({
-  ...localizedManifest,
-  entities: [...localizedManifest.entities, compactChromeDumbbellCase]
-});
+const growthManifest = withCommercialGrowthBlogs(localizedManifest);
+const compactCaseManifest: ContentManifest = {
+  ...growthManifest,
+  entities: [...growthManifest.entities, compactChromeDumbbellCase]
+};
+const customCaseManifest = withCustomLogoFitnessChainCase(compactCaseManifest);
+const steelDumbbellManifest = withSteelDumbbellOemBlog(customCaseManifest);
+const cableAttachmentManifest = withCableAttachmentCompatibilityGuide(steelDumbbellManifest);
+const weightPlateToleranceManifest = withWeightPlateToleranceGuide(cableAttachmentManifest);
+const commercialOlympicBarbellManifest = withCommercialOlympicBarbellGuide(weightPlateToleranceManifest);
+const dumbbellHeadRetentionManifest = withDumbbellHeadRetentionGuide(commercialOlympicBarbellManifest);
+const kgLbFreeWeightManifest = withKgLbFreeWeightGuide(dumbbellHeadRetentionManifest);
+const fixedVsAdjustableDumbbellsManifest = withFixedVsAdjustableDumbbellsGuide(kgLbFreeWeightManifest);
+const barbellFinishManifest = withBarbellFinishGuide(fixedVsAdjustableDumbbellsManifest);
+const plateBarFitManifest = withPlateBarFitGuide(barbellFinishManifest);
+const barbellKnurlingManifest = withBarbellKnurlingGuide(plateBarFitManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  manifestWithCustomLogoFitnessChainCase
+  barbellKnurlingManifest
 );

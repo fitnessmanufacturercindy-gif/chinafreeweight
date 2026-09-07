@@ -13,6 +13,7 @@ const staticRoutes = [
   { path: "/products/dumbbells", priority: 0.9 },
   { path: "/products/weight-plates", priority: 0.9 },
   { path: "/products/gym-accessories", priority: 0.78 },
+  { path: "/oem", priority: 0.9 },
   { path: "/factory", priority: 0.88 },
   { path: "/projects", priority: 0.82 },
   { path: "/projects/compact-chrome-dumbbell-set", priority: 0.8 },
@@ -24,11 +25,12 @@ const staticRoutes = [
 function entry(
   path: string,
   priority = 0.7,
-  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly"
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly",
+  lastModified?: string | Date
 ): MetadataRoute.Sitemap[number] {
   return {
     url: `${siteUrl}${path}`,
-    lastModified: new Date(),
+    ...(lastModified ? { lastModified: new Date(lastModified) } : {}),
     changeFrequency,
     priority
   };
@@ -41,7 +43,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...gymAccessoryProducts.map((product) => `/products/gym-accessories/${product.slug}`)
   ];
 
-  const resourceRoutes = getAllPosts().map((post) => `/resources/${post.slug}`);
+  const resourceRoutes = getAllPosts().map((post) => ({
+    path: `/resources/${post.slug}`,
+    updatedAt: post.updatedAt
+  }));
   const seoLandingRoutes = [
     "/manufacturer/rubber-hex-dumbbells-manufacturer"
   ];
@@ -49,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const englishSitemap = [
     ...staticRoutes.map((route) => entry(route.path, route.priority, "weekly")),
     ...productRoutes.map((path) => entry(path, 0.72, "monthly")),
-    ...resourceRoutes.map((path) => entry(path, 0.68, "monthly")),
+    ...resourceRoutes.map(({ path, updatedAt }) => entry(path, 0.68, "monthly", updatedAt)),
     ...seoLandingRoutes.map((path) => entry(path, 0.74, "monthly"))
   ];
 

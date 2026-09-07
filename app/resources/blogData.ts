@@ -1,6 +1,17 @@
+import { kgLbFreeWeightEnglishPost } from "../../content/i18n/kg-lb-free-weight-units-guide";
+import { fixedVsAdjustableEnglishPost } from "../../content/i18n/fixed-vs-adjustable-dumbbells-guide";
+import { barbellFinishEnglishPost } from "../../content/i18n/barbell-finish-guide";
+import { plateBarFitEnglishPost } from "../../content/i18n/plate-bar-fit-guide";
+import { barbellKnurlingEnglishPost } from "../../content/i18n/barbell-knurling-guide";
 import fs from "fs";
 import path from "path";
 import { getMultilingualBlogDocuments } from "../../lib/content/multilingual-blog-files";
+import { commercialGrowthEnglishPosts } from "../../content/i18n/commercial-growth-blogs";
+import { steelDumbbellEnglishPost } from "../../content/i18n/steel-dumbbell-oem-blog";
+import { cableAttachmentEnglishPost } from "../../content/i18n/cable-attachment-compatibility-guide";
+import { weightPlateToleranceEnglishPost } from "../../content/i18n/weight-plate-tolerance-guide";
+import { commercialOlympicBarbellEnglishPost } from "../../content/i18n/commercial-olympic-barbell-guide";
+import { dumbbellHeadRetentionEnglishPost } from "../../content/i18n/dumbbell-head-retention-guide";
 
 export type ResourcePost = {
   slug: string;
@@ -15,18 +26,19 @@ export type ResourcePost = {
   readingTime: string;
   coverImage: string;
   coverAlt: string;
+  coverWidth?: number;
+  coverHeight?: number;
   articleImages: ResourceImage[];
   publishedAt: string;
   updatedAt: string;
-  authorName: string;
-  authorUrl: string;
-  guideLabel: string;
 };
 
 export type ResourceImage = {
   src: string;
   alt: string;
   caption: string;
+  width?: number;
+  height?: number;
 };
 
 const postsDirectory = path.join(process.cwd(), "content", "resources");
@@ -130,7 +142,7 @@ const postVisuals: Record<
         caption: "Chrome dumbbells are often selected for premium showrooms and high-end gym areas."
       },
       {
-        src: "/assets/dumbbell-production.webp",
+        src: "/assets/dumbbell-production.avif",
         alt: "Finished dumbbells arranged in factory production area",
         caption: "Production consistency, finish quality, and packaging planning should be checked before shipment."
       }
@@ -172,7 +184,7 @@ const fallbackVisuals = {
 };
 
 function readFrontmatter(source: string) {
-  const match = source.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const match = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
 
   if (!match) {
     return { data: {} as Record<string, string>, content: source };
@@ -251,9 +263,6 @@ export function getAllPosts(): ResourcePost[] {
         readingTime: getReadingTime(publicContent),
         publishedAt: data.published_at || "2026-07-16",
         updatedAt: data.updated_at || data.published_at || "2026-07-16",
-        authorName: data.author || "PowerBaseFit Technical Team",
-        authorUrl: data.author_url || "/factory",
-        guideLabel: data.guide_label || "PowerBaseFit Technical Guide",
         ...(postVisuals[slug] || fallbackVisuals)
       };
     }) : [];
@@ -279,13 +288,292 @@ export function getAllPosts(): ResourcePost[] {
         caption: image.caption
       })),
       publishedAt: document.publishedAt,
-      updatedAt: document.updatedAt,
-      authorName: "PowerBaseFit Technical Team",
-      authorUrl: "/factory",
-      guideLabel: "PowerBaseFit Technical Guide"
+      updatedAt: document.updatedAt
     }));
 
-  return [...legacyPosts, ...expansionPosts].sort((a, b) => {
+  const commercialGrowthPosts = commercialGrowthEnglishPosts.map((document): ResourcePost => ({
+    slug: document.publicPath.split("/").filter(Boolean).at(-1) ?? document.entityId,
+    title: document.h1,
+    seoTitle: document.title,
+    metaDescription: document.description,
+    primaryKeyword: document.primaryKeyword,
+    secondaryKeywords: document.secondaryKeywords,
+    searchIntent: document.searchIntent,
+    content: document.content,
+    excerpt: getExcerpt(document.content),
+    readingTime: getReadingTime(document.content),
+    coverImage: document.images[0].src,
+    coverAlt: document.images[0].alt,
+    articleImages: document.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt
+    })),
+    publishedAt: document.publishedAt,
+    updatedAt: document.updatedAt
+  }));
+
+  const steelDumbbellPost: ResourcePost = {
+    slug: steelDumbbellEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? steelDumbbellEnglishPost.entityId,
+    title: steelDumbbellEnglishPost.h1,
+    seoTitle: steelDumbbellEnglishPost.title,
+    metaDescription: steelDumbbellEnglishPost.description,
+    primaryKeyword: steelDumbbellEnglishPost.primaryKeyword,
+    secondaryKeywords: steelDumbbellEnglishPost.secondaryKeywords,
+    searchIntent: steelDumbbellEnglishPost.searchIntent,
+    content: steelDumbbellEnglishPost.content,
+    excerpt: getExcerpt(steelDumbbellEnglishPost.content),
+    readingTime: getReadingTime(steelDumbbellEnglishPost.content),
+    coverImage: steelDumbbellEnglishPost.images[0].src,
+    coverAlt: steelDumbbellEnglishPost.images[0].alt,
+    coverWidth: steelDumbbellEnglishPost.images[0].width,
+    coverHeight: steelDumbbellEnglishPost.images[0].height,
+    articleImages: steelDumbbellEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: steelDumbbellEnglishPost.publishedAt,
+    updatedAt: steelDumbbellEnglishPost.updatedAt
+  };
+
+  const cableAttachmentPost: ResourcePost = {
+    slug: cableAttachmentEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? cableAttachmentEnglishPost.entityId,
+    title: cableAttachmentEnglishPost.h1,
+    seoTitle: cableAttachmentEnglishPost.title,
+    metaDescription: cableAttachmentEnglishPost.description,
+    primaryKeyword: cableAttachmentEnglishPost.primaryKeyword,
+    secondaryKeywords: cableAttachmentEnglishPost.secondaryKeywords,
+    searchIntent: cableAttachmentEnglishPost.searchIntent,
+    content: cableAttachmentEnglishPost.content,
+    excerpt: getExcerpt(cableAttachmentEnglishPost.content),
+    readingTime: getReadingTime(cableAttachmentEnglishPost.content),
+    coverImage: cableAttachmentEnglishPost.images[0].src,
+    coverAlt: cableAttachmentEnglishPost.images[0].alt,
+    coverWidth: cableAttachmentEnglishPost.images[0].width,
+    coverHeight: cableAttachmentEnglishPost.images[0].height,
+    articleImages: cableAttachmentEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: cableAttachmentEnglishPost.publishedAt,
+    updatedAt: cableAttachmentEnglishPost.updatedAt
+  };
+
+  const weightPlateTolerancePost: ResourcePost = {
+    slug: weightPlateToleranceEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? weightPlateToleranceEnglishPost.entityId,
+    title: weightPlateToleranceEnglishPost.h1,
+    seoTitle: weightPlateToleranceEnglishPost.title,
+    metaDescription: weightPlateToleranceEnglishPost.description,
+    primaryKeyword: weightPlateToleranceEnglishPost.primaryKeyword,
+    secondaryKeywords: weightPlateToleranceEnglishPost.secondaryKeywords,
+    searchIntent: weightPlateToleranceEnglishPost.searchIntent,
+    content: weightPlateToleranceEnglishPost.content,
+    excerpt: getExcerpt(weightPlateToleranceEnglishPost.content),
+    readingTime: getReadingTime(weightPlateToleranceEnglishPost.content),
+    coverImage: weightPlateToleranceEnglishPost.images[0].src,
+    coverAlt: weightPlateToleranceEnglishPost.images[0].alt,
+    coverWidth: weightPlateToleranceEnglishPost.images[0].width,
+    coverHeight: weightPlateToleranceEnglishPost.images[0].height,
+    articleImages: weightPlateToleranceEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: weightPlateToleranceEnglishPost.publishedAt,
+    updatedAt: weightPlateToleranceEnglishPost.updatedAt
+  };
+
+  const commercialOlympicBarbellPost: ResourcePost = {
+    slug: commercialOlympicBarbellEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? commercialOlympicBarbellEnglishPost.entityId,
+    title: commercialOlympicBarbellEnglishPost.h1,
+    seoTitle: commercialOlympicBarbellEnglishPost.title,
+    metaDescription: commercialOlympicBarbellEnglishPost.description,
+    primaryKeyword: commercialOlympicBarbellEnglishPost.primaryKeyword,
+    secondaryKeywords: commercialOlympicBarbellEnglishPost.secondaryKeywords,
+    searchIntent: commercialOlympicBarbellEnglishPost.searchIntent,
+    content: commercialOlympicBarbellEnglishPost.content,
+    excerpt: getExcerpt(commercialOlympicBarbellEnglishPost.content),
+    readingTime: getReadingTime(commercialOlympicBarbellEnglishPost.content),
+    coverImage: commercialOlympicBarbellEnglishPost.images[0].src,
+    coverAlt: commercialOlympicBarbellEnglishPost.images[0].alt,
+    coverWidth: commercialOlympicBarbellEnglishPost.images[0].width,
+    coverHeight: commercialOlympicBarbellEnglishPost.images[0].height,
+    articleImages: commercialOlympicBarbellEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: commercialOlympicBarbellEnglishPost.publishedAt,
+    updatedAt: commercialOlympicBarbellEnglishPost.updatedAt
+  };
+
+  const dumbbellHeadRetentionPost: ResourcePost = {
+    slug: dumbbellHeadRetentionEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? dumbbellHeadRetentionEnglishPost.entityId,
+    title: dumbbellHeadRetentionEnglishPost.h1,
+    seoTitle: dumbbellHeadRetentionEnglishPost.title,
+    metaDescription: dumbbellHeadRetentionEnglishPost.description,
+    primaryKeyword: dumbbellHeadRetentionEnglishPost.primaryKeyword,
+    secondaryKeywords: dumbbellHeadRetentionEnglishPost.secondaryKeywords,
+    searchIntent: dumbbellHeadRetentionEnglishPost.searchIntent,
+    content: dumbbellHeadRetentionEnglishPost.content,
+    excerpt: getExcerpt(dumbbellHeadRetentionEnglishPost.content),
+    readingTime: getReadingTime(dumbbellHeadRetentionEnglishPost.content),
+    coverImage: dumbbellHeadRetentionEnglishPost.images[0].src,
+    coverAlt: dumbbellHeadRetentionEnglishPost.images[0].alt,
+    coverWidth: dumbbellHeadRetentionEnglishPost.images[0].width,
+    coverHeight: dumbbellHeadRetentionEnglishPost.images[0].height,
+    articleImages: dumbbellHeadRetentionEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: dumbbellHeadRetentionEnglishPost.publishedAt,
+    updatedAt: dumbbellHeadRetentionEnglishPost.updatedAt
+  };
+
+  const kgLbFreeWeightPost: ResourcePost = {
+    slug: kgLbFreeWeightEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? kgLbFreeWeightEnglishPost.entityId,
+    title: kgLbFreeWeightEnglishPost.h1,
+    seoTitle: kgLbFreeWeightEnglishPost.title,
+    metaDescription: kgLbFreeWeightEnglishPost.description,
+    primaryKeyword: kgLbFreeWeightEnglishPost.primaryKeyword,
+    secondaryKeywords: kgLbFreeWeightEnglishPost.secondaryKeywords,
+    searchIntent: kgLbFreeWeightEnglishPost.searchIntent,
+    content: kgLbFreeWeightEnglishPost.content,
+    excerpt: getExcerpt(kgLbFreeWeightEnglishPost.content),
+    readingTime: getReadingTime(kgLbFreeWeightEnglishPost.content),
+    coverImage: kgLbFreeWeightEnglishPost.images[0].src,
+    coverAlt: kgLbFreeWeightEnglishPost.images[0].alt,
+    coverWidth: kgLbFreeWeightEnglishPost.images[0].width,
+    coverHeight: kgLbFreeWeightEnglishPost.images[0].height,
+    articleImages: kgLbFreeWeightEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: kgLbFreeWeightEnglishPost.publishedAt,
+    updatedAt: kgLbFreeWeightEnglishPost.updatedAt
+  };
+
+  const fixedVsAdjustablePost: ResourcePost = {
+    slug: fixedVsAdjustableEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? fixedVsAdjustableEnglishPost.entityId,
+    title: fixedVsAdjustableEnglishPost.h1,
+    seoTitle: fixedVsAdjustableEnglishPost.title,
+    metaDescription: fixedVsAdjustableEnglishPost.description,
+    primaryKeyword: fixedVsAdjustableEnglishPost.primaryKeyword,
+    secondaryKeywords: fixedVsAdjustableEnglishPost.secondaryKeywords,
+    searchIntent: fixedVsAdjustableEnglishPost.searchIntent,
+    content: fixedVsAdjustableEnglishPost.content,
+    excerpt: getExcerpt(fixedVsAdjustableEnglishPost.content),
+    readingTime: getReadingTime(fixedVsAdjustableEnglishPost.content),
+    coverImage: fixedVsAdjustableEnglishPost.images[0].src,
+    coverAlt: fixedVsAdjustableEnglishPost.images[0].alt,
+    coverWidth: fixedVsAdjustableEnglishPost.images[0].width,
+    coverHeight: fixedVsAdjustableEnglishPost.images[0].height,
+    articleImages: fixedVsAdjustableEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: fixedVsAdjustableEnglishPost.publishedAt,
+    updatedAt: fixedVsAdjustableEnglishPost.updatedAt
+  };
+
+  const barbellFinishPost: ResourcePost = {
+    slug: barbellFinishEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? barbellFinishEnglishPost.entityId,
+    title: barbellFinishEnglishPost.h1,
+    seoTitle: barbellFinishEnglishPost.title,
+    metaDescription: barbellFinishEnglishPost.description,
+    primaryKeyword: barbellFinishEnglishPost.primaryKeyword,
+    secondaryKeywords: barbellFinishEnglishPost.secondaryKeywords,
+    searchIntent: barbellFinishEnglishPost.searchIntent,
+    content: barbellFinishEnglishPost.content,
+    excerpt: getExcerpt(barbellFinishEnglishPost.content),
+    readingTime: getReadingTime(barbellFinishEnglishPost.content),
+    coverImage: barbellFinishEnglishPost.images[0].src,
+    coverAlt: barbellFinishEnglishPost.images[0].alt,
+    coverWidth: barbellFinishEnglishPost.images[0].width,
+    coverHeight: barbellFinishEnglishPost.images[0].height,
+    articleImages: barbellFinishEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: barbellFinishEnglishPost.publishedAt,
+    updatedAt: barbellFinishEnglishPost.updatedAt
+  };
+
+  const plateBarFitPost: ResourcePost = {
+    slug: plateBarFitEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? plateBarFitEnglishPost.entityId,
+    title: plateBarFitEnglishPost.h1,
+    seoTitle: plateBarFitEnglishPost.title,
+    metaDescription: plateBarFitEnglishPost.description,
+    primaryKeyword: plateBarFitEnglishPost.primaryKeyword,
+    secondaryKeywords: plateBarFitEnglishPost.secondaryKeywords,
+    searchIntent: plateBarFitEnglishPost.searchIntent,
+    content: plateBarFitEnglishPost.content,
+    excerpt: getExcerpt(plateBarFitEnglishPost.content),
+    readingTime: getReadingTime(plateBarFitEnglishPost.content),
+    coverImage: plateBarFitEnglishPost.images[0].src,
+    coverAlt: plateBarFitEnglishPost.images[0].alt,
+    coverWidth: plateBarFitEnglishPost.images[0].width,
+    coverHeight: plateBarFitEnglishPost.images[0].height,
+    articleImages: plateBarFitEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: plateBarFitEnglishPost.publishedAt,
+    updatedAt: plateBarFitEnglishPost.updatedAt
+  };
+
+  const barbellKnurlingPost: ResourcePost = {
+    slug: barbellKnurlingEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? barbellKnurlingEnglishPost.entityId,
+    title: barbellKnurlingEnglishPost.h1,
+    seoTitle: barbellKnurlingEnglishPost.title,
+    metaDescription: barbellKnurlingEnglishPost.description,
+    primaryKeyword: barbellKnurlingEnglishPost.primaryKeyword,
+    secondaryKeywords: barbellKnurlingEnglishPost.secondaryKeywords,
+    searchIntent: barbellKnurlingEnglishPost.searchIntent,
+    content: barbellKnurlingEnglishPost.content,
+    excerpt: getExcerpt(barbellKnurlingEnglishPost.content),
+    readingTime: getReadingTime(barbellKnurlingEnglishPost.content),
+    coverImage: barbellKnurlingEnglishPost.images[0].src,
+    coverAlt: barbellKnurlingEnglishPost.images[0].alt,
+    coverWidth: barbellKnurlingEnglishPost.images[0].width,
+    coverHeight: barbellKnurlingEnglishPost.images[0].height,
+    articleImages: barbellKnurlingEnglishPost.images.slice(1).map((image) => ({
+      src: image.src,
+      alt: image.alt,
+      caption: image.caption ?? image.alt,
+      width: image.width,
+      height: image.height
+    })),
+    publishedAt: barbellKnurlingEnglishPost.publishedAt,
+    updatedAt: barbellKnurlingEnglishPost.updatedAt
+  };
+
+  return [...legacyPosts, ...expansionPosts, ...commercialGrowthPosts, steelDumbbellPost, cableAttachmentPost, weightPlateTolerancePost, commercialOlympicBarbellPost, dumbbellHeadRetentionPost, kgLbFreeWeightPost, fixedVsAdjustablePost, barbellFinishPost, plateBarFitPost, barbellKnurlingPost].sort((a, b) => {
       const priority = [
         "do-dumbbells-help-with-bone-density",
         "why-is-it-called-a-dumbbell",

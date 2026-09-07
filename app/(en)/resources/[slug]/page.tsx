@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { notFound } from "next/navigation";
 import {
   ArrowLeft,
@@ -36,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: post.seoTitle,
     description: post.metaDescription,
     keywords: [post.primaryKeyword, ...post.secondaryKeywords],
-    authors: [{ name: post.authorName, url: post.authorUrl }],
+    authors: [{ name: "PowerBaseFit Technical Team", url: "/factory" }],
     alternates: getEnglishAlternates(`/resources/${post.slug}`),
     openGraph: {
       type: "article",
@@ -115,10 +117,28 @@ function parseTableRow(line: string) {
     .map((cell) => cell.trim());
 }
 
+function avifSibling(src: string) {
+  if (!src.startsWith("/assets/") || !src.endsWith(".webp")) return undefined;
+  const candidate = src.replace(/\.webp$/u, ".avif");
+  return existsSync(join(process.cwd(), "public", candidate.replace(/^\//u, ""))) ? candidate : undefined;
+}
+
 function renderArticleImage(image: ResourceImage, key: string) {
+  const avifSource = avifSibling(image.src);
   return (
     <figure className="article-image" key={key}>
-      <img src={image.src} alt={image.alt} loading="lazy" />
+      <picture>
+        {avifSource ? <source srcSet={avifSource} type="image/avif" sizes="(max-width: 900px) 100vw, 900px" /> : null}
+        <img
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          loading="lazy"
+          decoding="async"
+          sizes="(max-width: 900px) 100vw, 900px"
+        />
+      </picture>
       <figcaption>{image.caption}</figcaption>
     </figure>
   );
@@ -268,6 +288,10 @@ function renderMarkdown(content: string, images: ResourceImage[]) {
 
 function articleSchemas(post: ResourcePost, faqs: Faq[]) {
   const url = `${siteUrl}/resources/${post.slug}`;
+  const images = [
+    { src: post.coverImage, alt: post.coverAlt },
+    ...post.articleImages
+  ];
   return [
     {
       "@context": "https://schema.org",
@@ -279,11 +303,7 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
       image: [`${siteUrl}${post.coverImage}`, ...post.articleImages.map((image) => `${siteUrl}${image.src}`)],
       datePublished: post.publishedAt,
       dateModified: post.updatedAt,
-      author: {
-        "@type": "Organization",
-        name: post.authorName,
-        url: new URL(post.authorUrl, siteUrl).toString()
-      },
+      author: { "@type": "Organization", name: "PowerBaseFit Technical Team", url: `${siteUrl}/factory` },
       publisher: {
         "@type": "Organization",
         name: siteName,
@@ -313,7 +333,15 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
         { "@type": "ListItem", position: 2, name: "Resources", item: `${siteUrl}/resources` },
         { "@type": "ListItem", position: 3, name: post.title, item: url }
       ]
-    }
+    },
+    ...images.map((image, index) => ({
+      "@context": "https://schema.org",
+      "@type": "ImageObject",
+      "@id": `${url}#image-${index + 1}`,
+      contentUrl: `${siteUrl}${image.src}`,
+      caption: "caption" in image ? image.caption : image.alt,
+      inLanguage: "en"
+    }))
   ];
 }
 
@@ -325,6 +353,7 @@ export default async function ResourceArticlePage({ params }: PageProps) {
   const faqs = getFaqs(post.content);
   const relatedPosts = getAllPosts().filter((item) => item.slug !== slug).slice(0, 4);
   const schemas = articleSchemas(post, faqs);
+  const coverAvif = avifSibling(post.coverImage);
 
   return (
     <main className="article-page">
@@ -335,17 +364,19 @@ export default async function ResourceArticlePage({ params }: PageProps) {
       <section className="article-hero">
         <div className="article-hero-copy">
           <a className="back-link" href="/resources"><ArrowLeft size={17} /> Resource library</a>
-          <span className="article-eyebrow">{post.guideLabel}</span>
+          <span className="article-eyebrow">PowerBaseFit Technical Guide</span>
           <h1>{post.title}</h1>
           <div className="article-meta">
             <span><Factory size={17} /> Manufacturer perspective</span>
-            {post.authorName !== "PowerBaseFit Technical Team" ? <span>By {post.authorName}</span> : null}
             <span><BookOpen size={17} /> {post.readingTime}</span>
             <span>Updated {post.updatedAt}</span>
           </div>
         </div>
         <figure className="article-hero-media">
-          <img src={post.coverImage} alt={post.coverAlt} fetchPriority="high" />
+          <picture>
+            {coverAvif ? <source srcSet={coverAvif} type="image/avif" sizes="(max-width: 900px) 100vw, 52vw" /> : null}
+            <img src={post.coverImage} alt={post.coverAlt} width={post.coverWidth} height={post.coverHeight} fetchPriority="high" decoding="async" sizes="(max-width: 900px) 100vw, 52vw" />
+          </picture>
         </figure>
       </section>
 

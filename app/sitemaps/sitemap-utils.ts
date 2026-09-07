@@ -16,11 +16,10 @@ export function escapeXml(value: string) {
 }
 
 export function routeUrlsetXml(routes: SeoRoute[]) {
-  const today = new Date().toISOString();
   const urls = routes
     .map((route) => `  <url>
     <loc>${escapeXml(absoluteUrl(route.path))}</loc>
-    <lastmod>${today}</lastmod>
+${route.lastModified ? `    <lastmod>${escapeXml(new Date(route.lastModified).toISOString())}</lastmod>\n` : ""}
     <changefreq>${route.type === "blog" ? "monthly" : "weekly"}</changefreq>
   </url>`)
     .join("\n");
@@ -37,9 +36,12 @@ export function metadataRouteUrlsetXml(entries: MetadataRoute.Sitemap) {
       const alternates = Object.entries(entry.alternates?.languages ?? {})
         .map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${escapeXml(lang)}" href="${escapeXml(String(href))}" />`)
         .join("\n");
+      const lastModified = entry.lastModified
+        ? `    <lastmod>${escapeXml(new Date(entry.lastModified).toISOString())}</lastmod>\n`
+        : "";
       return `  <url>
     <loc>${escapeXml(entry.url)}</loc>
-${alternates ? `${alternates}\n` : ""}    <lastmod>${escapeXml(new Date(entry.lastModified || new Date()).toISOString())}</lastmod>
+${alternates ? `${alternates}\n` : ""}${lastModified}
   </url>`;
     })
     .join("\n");
@@ -51,11 +53,9 @@ ${urls}
 }
 
 export function sitemapIndexXml(paths: string[]) {
-  const today = new Date().toISOString();
   const sitemaps = paths
     .map((path) => `  <sitemap>
     <loc>${escapeXml(new URL(path, `${siteUrl.replace(/\/$/, "")}/`).toString())}</loc>
-    <lastmod>${today}</lastmod>
   </sitemap>`)
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
