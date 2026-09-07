@@ -12,7 +12,7 @@ target_buyer: Marca fitness, distribuidor, importador, rede de academias
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || Halteres OEM preparados para aprovação de amostra || A unidade física deve estar ligada a ficha e arte com versão controlada.
+  - /assets/dumbbell-production.avif || Halteres OEM preparados para aprovação de amostra || A unidade física deve estar ligada a ficha e arte com versão controlada.
   - /assets/resources/dumbbell-weight-qc-guide.webp || Amostra de halter conferida por peso e dimensões || O registro inclui leituras, fotos, comentários e desvios autorizados.
   - /assets/factory-cases/packaging-area-pbf.avif || Embalagem de marca própria revisada com a amostra do produto || Logo, etiqueta, caixa, código e proteção precisam de aprovação coordenada.
 internal_links:

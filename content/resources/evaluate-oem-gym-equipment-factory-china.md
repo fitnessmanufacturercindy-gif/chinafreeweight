@@ -277,3 +277,69 @@ For free weight products, these details matter because the products are heavy, u
 Looking for a free weight manufacturer for dumbbells, weight plates, bumper plates, or OEM gym equipment? Send your product list, logo needs, quantity, and destination country to PowerBaseFit. We will help prepare a clear factory quotation.
 
 CTA Button: Send Your OEM Requirements
+
+## Image Planning and AI Image Prompts
+
+### Image 1
+
+- Image Use: Hero image
+- Insert Position: Under introduction
+- Caption: Factory evaluation starts with product specialization and production capability.
+- ALT Text: OEM gym equipment factory in China for free weight manufacturing
+- AI Image Prompt: Photorealistic China gym equipment factory exterior and workshop entrance, PowerBaseFit sign, free weight products visible through showroom window, professional B2B factory photography, no watermark.
+
+### Image 2
+
+- Image Use: OEM customization image
+- Insert Position: After section 3
+- Caption: OEM support includes logo, finish, packaging, and product line planning.
+- ALT Text: OEM custom logo gym equipment and private label free weights
+- AI Image Prompt: Realistic factory showroom table with custom logo dumbbells, chrome weight plates, packaging samples, catalog sheets, subtle PBF branding, no fake extra text.
+
+### Image 3
+
+- Image Use: Sample confirmation image
+- Insert Position: After section 4
+- Caption: Sample confirmation helps align finish, logo, handle feel, and packaging before production.
+- ALT Text: Free weight sample confirmation before OEM production
+- AI Image Prompt: Photorealistic buyer and factory representative reviewing dumbbell and weight plate samples at trade table, checking product finish and logo details, no distorted hands.
+
+### Image 4
+
+- Image Use: Shipment inspection image
+- Insert Position: After section 6
+- Caption: Shipment inspection confirms packaging, carton marks, and loading condition before export.
+- ALT Text: Gym equipment shipment inspection and container loading
+- AI Image Prompt: Realistic export loading dock with boxed dumbbells and weight plates on pallets, open shipping container, staff checking carton labels, PBF logo on cartons, no watermark.
+
+### Image 5
+
+- Image Use: Communication and RFQ image
+- Insert Position: After section 9
+- Caption: A clear RFQ helps the factory quote accurately and avoid production misunderstandings.
+- ALT Text: Gym equipment buyer RFQ product list and factory quotation preparation
+- AI Image Prompt: Realistic office desk scene with product list, laptop showing gym equipment quotation table, dumbbell sample, catalog, professional sourcing meeting, no readable fake text.
+
+## CTA and Inquiry Popup Plan
+
+### CTA 1
+
+- Position: After section 9
+- CTA Type: Inline factory evaluation CTA
+- CTA Text: Ask for Factory Evaluation Support
+- Destination: Contact page
+
+### CTA 2
+
+- Position: End of article
+- CTA Type: Full-width OEM inquiry banner
+- CTA Text: Send Your OEM Requirements
+- Destination: Contact page
+
+### Popup
+
+- Trigger Recommendation: Exit intent or stay 45 seconds
+- Popup Title: Need Help Evaluating a Free Weight Factory?
+- Popup Copy: Send your product list, logo needs, and target market. We will help confirm suitable product options and factory quotation details.
+- Fields: Name, Email, Phone required; Company, Country, Product List optional
+- Submit Button: Request Factory Support

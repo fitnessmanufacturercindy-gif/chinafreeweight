@@ -15,7 +15,7 @@ Rubber hex dumbbells are fixed-weight dumbbells with six-sided rubber-coated hea
 
 ## Hero
 
-PowerBaseFit is a free weight manufacturer serving importers, distributors, gym equipment brands, commercial gym buyers, and OEM partners that need reliable rubber hex dumbbells supply. This page is for buyers who want to compare manufacturing capability, product details, quality control, packaging, and customization options before starting a sourcing conversation.
+PowerBaseFit supplies rubber hex dumbbells for importers, distributors, gym equipment brands, commercial gym buyers, and OEM partners. Compare manufacturing capability, product details, quality control, packaging, and customization options before starting a sourcing conversation.
 
 ## Rubber Hex Dumbbells Overview
 
@@ -66,7 +66,7 @@ A strong supplier selection process should look beyond unit price. Buyers should
 
 ## Manufacturer Trust
 
-PowerBaseFit's trust value should come from clear manufacturing communication, practical free weight product knowledge, OEM discussion ability, quality control awareness, packaging planning, and export preparation support. This page does not rely on unsupported customer names, certification claims, production capacity numbers, or ranking statements. Buyers can use the inquiry process to request the specific documents, photos, and order details needed for their own approval workflow.
+Evaluate PowerBaseFit through clear manufacturing communication, practical free weight product knowledge, OEM review, quality control requirements, packaging planning, and export preparation. Buyers can request the specific documents, photos, and order details needed for their own approval workflow.
 
 ## OEM / Private Label
 

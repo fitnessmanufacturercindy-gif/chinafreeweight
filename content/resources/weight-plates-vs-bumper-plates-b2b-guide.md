@@ -282,3 +282,61 @@ For B2B buyers, the right sourcing decision should include product application, 
 If you are sourcing weight plates or bumper plates for a gym project, distribution business, or private label brand, send your product list to PowerBaseFit. We can help prepare a factory quotation and product recommendation.
 
 CTA Button: Get a Weight Plate Quote
+
+## Image Planning and AI Image Prompts
+
+### Image 1
+
+- Image Use: Hero image
+- Insert Position: Under introduction
+- Caption: Weight plates and bumper plates serve different commercial gym applications.
+- ALT Text: Weight plates and bumper plates for commercial gym sourcing
+- AI Image Prompt: Photorealistic commercial gym plate storage area with rubber-coated weight plates, bumper plates, Olympic bars, and platform area, premium black and gold lighting, no watermark, subtle PBF branding.
+
+### Image 2
+
+- Image Use: Application comparison
+- Insert Position: After section 3
+- Caption: Standard plates are common for machines, while bumper plates are used on lifting platforms.
+- ALT Text: Weight plates for machines and bumper plates for lifting platforms
+- AI Image Prompt: Split realistic gym scene showing plate-loaded machine area with grip plates on one side and Olympic lifting platform with bumper plates on the other side, natural commercial gym photography.
+
+### Image 3
+
+- Image Use: Factory testing
+- Insert Position: After section 8
+- Caption: Quality control should confirm weight accuracy, surface finish, and center hole fit.
+- ALT Text: Weight plate factory quality control inspection
+- AI Image Prompt: Realistic factory inspection table with worker measuring weight plate center hole and checking rubber coating, checklist, caliper, subtle PBF logo, no distorted hands.
+
+### Image 4
+
+- Image Use: Shipment and packaging
+- Insert Position: After section 9
+- Caption: Proper packaging reduces damage risk during container shipment.
+- ALT Text: Weight plate export packaging and container shipment preparation
+- AI Image Prompt: Realistic export packaging scene with weight plates packed in cartons and pallets near container loading dock, PBF carton labels, industrial factory background.
+
+## CTA and Inquiry Popup Plan
+
+### CTA 1
+
+- Position: After decision framework
+- CTA Type: Inline comparison CTA
+- CTA Text: Ask for Plate Options
+- Destination: Contact page
+
+### CTA 2
+
+- Position: End of article
+- CTA Type: Full-width banner
+- CTA Text: Get a Weight Plate Quote
+- Destination: Contact page
+
+### Popup
+
+- Trigger Recommendation: Scroll to 50% or exit intent
+- Popup Title: Need Help Choosing Plates?
+- Popup Copy: Share your gym type, target market, and weight range. We will suggest suitable weight plates or bumper plates.
+- Fields: Name, Email, Phone required; Country, Product Type, Quantity optional
+- Submit Button: Send My Plate Requirements

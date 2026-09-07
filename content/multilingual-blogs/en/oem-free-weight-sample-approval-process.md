@@ -12,7 +12,7 @@ target_buyer: Fitness brand, distributor, importer, gym chain
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || OEM dumbbells prepared for sample approval before production || The buyer should connect the physical sample to a revision-controlled specification and artwork file.
+  - /assets/dumbbell-production.avif || OEM dumbbells prepared for sample approval before production || The buyer should connect the physical sample to a revision-controlled specification and artwork file.
   - /assets/resources/dumbbell-weight-qc-guide.webp || Sample dumbbell checked for weight and dimensional conformity || Approval records should contain measured results, photographs, comments, and authorized deviations.
   - /assets/factory-cases/packaging-area-pbf.avif || Private-label free weight packaging reviewed with the product sample || Product, logo, label, carton, barcode, and shipping protection need coordinated approval.
 internal_links:

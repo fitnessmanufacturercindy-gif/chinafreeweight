@@ -12,7 +12,7 @@ target_buyer: Gym chain, distributor, importer, fitness brand
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || Dumbbell production controlled for repeat-order consistency || Process records and approved specifications help later batches reproduce functional and visual characteristics.
+  - /assets/dumbbell-production.avif || Dumbbell production controlled for repeat-order consistency || Process records and approved specifications help later batches reproduce functional and visual characteristics.
   - /assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.webp || Commercial rubber dumbbell used in a replacement planning program || Replacements must match weight, dimensions, handle, finish, logo, and color expectations.
   - /assets/products/weight-plates/full-rubber/full-rubber-barbell-plate-main.webp || Rubber weight plate range reviewed for consistency between orders || Plate profile, center fit, markings, color, hardness, and packaging should be controlled by model and batch.
 internal_links:

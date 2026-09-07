@@ -12,7 +12,7 @@ target_buyer: Rede de academias, distribuidor, importador e marca fitness
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || Produção de halteres controlada para pedidos de reposição || Registros e especificações ajudam lotes futuros a repetir características funcionais e visuais.
+  - /assets/dumbbell-production.avif || Produção de halteres controlada para pedidos de reposição || Registros e especificações ajudam lotes futuros a repetir características funcionais e visuais.
   - /assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.webp || Halter comercial avaliado para programa de reposição || Reposição deve atender peso, medidas, pegador, acabamento, logotipo e cor acordados.
   - /assets/products/weight-plates/full-rubber/full-rubber-barbell-plate-main.webp || Linha de anilhas revisada para consistência entre lotes || Perfil, furo, marcações, cor, dureza e embalagem precisam de controle por modelo.
 internal_links:

@@ -133,7 +133,7 @@ For examples, compare a [classic rubber round dumbbell](/products/dumbbells/clas
 
 ### What should a distributor call dumbbells in a catalogue?
 
-Use a precise, market-readable product name rather than relying on factory shorthand. A strong listing might be “Commercial Rubber Hex Dumbbell, KG,” followed by material, handle, weight range, logo, and packaging details. Keep terminology consistent across cartons, product labels, ecommerce pages, and customs documents. Clear naming reduces ordering mistakes and helps customers compare products accurately.
+Use a precise, market-readable product name rather than relying on factory shorthand. A strong listing might be “Commercial Rubber Hex Dumbbell, KG,” followed by material, handle, weight range, logo, and packaging details. Keep terminology consistent across cartons, product labels, ecommerce listings, and customs documents. Clear naming reduces ordering mistakes and helps customers identify the product.
 
 ## How to Choose a Reliable Dumbbell Manufacturer
 
@@ -162,7 +162,7 @@ PowerBaseFit can discuss logo application, product colors, KG or LB markings, pa
 
 ### Is dumbbell one word or two words?
 
-Modern English normally writes “dumbbell” as one word. Historical sources often used “dumb bell” or “dumb-bell.” All three forms can appear in old texts, but manufacturers, gyms, and retailers now overwhelmingly use the closed compound “dumbbell.” For product catalogues, use one word unless quoting a historical source.
+Modern English normally writes “dumbbell” as one word. Historical sources often used “dumb bell” or “dumb-bell.” All three forms can appear in old texts, but manufacturers, gyms, and retailers now overwhelmingly use the closed compound “dumbbell.” Use one word in product catalogues unless quoting a historical source.
 
 ### Why do dumbbells have two weights on the ends?
 

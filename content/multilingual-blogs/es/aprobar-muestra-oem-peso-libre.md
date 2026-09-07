@@ -12,7 +12,7 @@ target_buyer: Marca fitness, distribuidor, importador, cadena de gimnasios
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || Mancuernas OEM preparadas para aprobar una muestra de marca propia || La unidad física se vincula con una ficha y un archivo de arte identificados.
+  - /assets/dumbbell-production.avif || Mancuernas OEM preparadas para aprobar una muestra de marca propia || La unidad física se vincula con una ficha y un archivo de arte identificados.
   - /assets/resources/dumbbell-weight-qc-guide.webp || Muestra de mancuerna revisada con balanza y registro || La aprobación recoge medidas, fotografías, comentarios y desviaciones autorizadas.
   - /assets/factory-cases/packaging-area-pbf.avif || Embalaje privado revisado junto con la muestra del producto || Producto, logo, etiqueta, caja, código y protección deben formar un sistema aprobado.
 internal_links:
