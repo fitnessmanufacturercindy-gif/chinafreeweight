@@ -10,7 +10,7 @@ export const ptBrGrowthBlogsB: PilotPage[] = [
     title: "Halter sextavado ou redondo: qual escolher?",
     description: "Compare halter sextavado e redondo para academia: estabilidade, rack, faixa de peso, material, manutenção, custo, OEM e critérios de compra B2B.",
     h1: "Halter sextavado ou redondo para academia profissional?",
-    image: ["/assets/hex-dumbbells.png", "Comparação entre halter sextavado e halter redondo"],
+    image: ["/assets/hex-dumbbells.avif", "Comparação entre halter sextavado e halter redondo"],
     blocks: [
       quick("resposta-rapida", "Escolha halter sextavado quando estabilidade no piso e exercícios funcionais forem prioritários. Escolha redondo quando deseja uma linha contínua em rack, faixa ampla e visual tradicional de área de pesos livres. Material, construção, empunhadura, rack, usuários e reposição importam mais do que o formato isolado."),
       definition("definicao", "Halter sextavado e halter redondo", "Sextavado descreve uma cabeça com seis lados e pontos de apoio que reduzem rolamento. Redondo descreve cabeça circular, normalmente armazenada em rack com berços ou posições próprias. Ambos podem usar borracha, PU ou outras construções."),
@@ -90,7 +90,7 @@ export const ptBrGrowthBlogsB: PilotPage[] = [
     title: "Anilha olímpica vs. padrão: diferenças",
     description: "Entenda anilha olímpica e padrão: furação, barra, carga, espessura, bumper plates, armazenamento, compatibilidade e compra para academia profissional.",
     h1: "Qual a diferença entre anilha olímpica e anilha padrão?",
-    image: ["/assets/weight-plate.jpg", "Anilhas olímpicas para barras de academia"],
+    image: ["/assets/weight-plate.avif", "Anilhas olímpicas para barras de academia"],
     blocks: [
       quick("resposta-rapida", "A diferença principal é a compatibilidade com a barra: anilhas olímpicas usam centro para mangas olímpicas; anilhas padrão usam furação menor conforme o sistema. Não misture sem confirmar medidas. Bumper plate é uma construção normalmente olímpica, mas nem toda anilha olímpica é bumper."),
       definition("definicao", "Padrão de anilha", "É o conjunto de dimensões que determina encaixe entre anilha e barra. Os nomes comerciais ajudam, mas a compra deve usar medidas e tolerâncias do produto real. Uma pequena incompatibilidade pode impedir carregamento ou criar folga inadequada."),
@@ -129,7 +129,7 @@ export const ptBrGrowthBlogsB: PilotPage[] = [
     title: "Lista de equipamentos para academia profissional",
     description: "Guia para montar a lista de equipamentos de uma academia profissional: zonas, halteres, anilhas, racks, bancos, quantidades, layout, orçamento e cotação B2B.",
     h1: "Quais equipamentos uma academia profissional precisa?",
-    image: ["/assets/case-gym.png", "Área profissional de equipamentos de musculação"],
+    image: ["/assets/case-gym.avif", "Área profissional de equipamentos de musculação"],
     blocks: [
       quick("resposta-rapida", "Uma academia profissional precisa de equipamentos alinhados ao público, área, capacidade e proposta: cardio quando previsto, máquinas, pesos livres, bancos, racks, acessórios, armazenamento e piso. Para a área de força, dimensione halteres, anilhas, barras e estações por usuários e exercícios; não copie uma lista universal."),
       definition("definicao", "Lista de equipamentos de academia", "É um inventário planejado por zona, função e quantidade. Deve relacionar cada item ao espaço, ao fluxo de usuários, à manutenção, ao orçamento e à instalação. Uma lista comercial também inclui modelo, especificação, unidade, personalização e destino."),
@@ -168,7 +168,7 @@ export const ptBrGrowthBlogsB: PilotPage[] = [
     title: "Como planejar uma área de pesos livres",
     description: "Planeje uma área de pesos livres com halteres, anilhas, racks, bancos, piso, circulação, capacidade, armazenamento, manutenção e compra B2B.",
     h1: "Planejamento de uma área de pesos livres para academia",
-    image: ["/assets/project-dumbbell-zone.png", "Planejamento de área de pesos livres com halteres"],
+    image: ["/assets/project-dumbbell-zone.avif", "Planejamento de área de pesos livres com halteres"],
     blocks: [
       quick("resposta-rapida", "Uma área de pesos livres deve relacionar usuários, exercícios, halteres, anilhas, barras, bancos, racks, piso, circulação e armazenamento. Defina zonas e capacidade antes de comprar. Medidas, estrutura, segurança e acessibilidade precisam ser validadas por profissionais locais; o fornecedor apoia especificação comercial dos equipamentos."),
       definition("definicao", "Área de pesos livres", "É o espaço dedicado a exercícios com halteres, barras, anilhas, kettlebells e bancos, sem trajetória totalmente guiada por uma máquina. Ela exige organização, supervisão, piso adequado, distância entre usuários e armazenamento próximo."),

@@ -112,7 +112,7 @@ export const spanishPages: SpanishPage[] = [
         ["Nuevo gimnasio", "Selección comercial por zonas", "Área, usuarios, rango de pesos y destino"],
         ["Importación", "Embalaje y preparación de carga", "Puerto, condición comercial y calendario"]
       ]),
-      rich("fabricacion", "Fabricación de peso libre para el mercado internacional", "PowerBaseFit informa que opera desde 2008 y dispone de una fábrica de aproximadamente 15.000 m² en Dezhou, provincia de Shandong, China. La empresa trabaja con productos de peso libre y equipamiento relacionado para compradores internacionales. Estos datos describen la operación propia; no se utilizan para inventar certificaciones, clientes o volúmenes de venta.", "Cada proyecto se revisa por producto. Material, rango, dimensiones, tolerancias, logotipo, embalaje y plazo se confirman en la documentación aplicable al pedido. Para modelos estándar, la expedición puede situarse alrededor de diez días después del depósito cuando materiales y programación están confirmados; una personalización más compleja requiere una evaluación específica."),
+      rich("fabricacion", "Fabricación de peso libre para el mercado internacional", "PowerBaseFit informa que opera desde 2008 y dispone de una fábrica de aproximadamente 8.000 m² en Dezhou, provincia de Shandong, China. La empresa trabaja con productos de peso libre y equipamiento relacionado para compradores internacionales. Estos datos describen la operación propia; no se utilizan para inventar certificaciones, clientes o volúmenes de venta.", "Cada proyecto se revisa por producto. Material, rango, dimensiones, tolerancias, logotipo, embalaje y plazo se confirman en la documentación aplicable al pedido. Para modelos estándar, la expedición puede situarse alrededor de diez días después del depósito cuando materiales y programación están confirmados; una personalización más compleja requiere una evaluación específica."),
       rich("mercados", "España y América Latina", "La versión española utiliza un registro comercial internacional comprensible en España, México, Colombia, Chile, Argentina y otros mercados. Emplea “mancuernas” y “discos de peso” como términos técnicos principales, además de referencias naturales a pesas y equipos fitness cuando ayudan a la comprensión regional.", "Las condiciones de importación, impuestos y requisitos locales cambian por país y operación. PowerBaseFit aporta información de producto, fábrica, embalaje y exportación; el comprador debe validar clasificación, cumplimiento y costes con profesionales responsables en su mercado."),
       rich("oem", "OEM y marca propia", "Los programas OEM pueden evaluar logotipo, color, marcado en kg o lb y embalaje. El MOQ depende del producto, el proceso y la combinación del pedido. La fábrica distingue entre una personalización visual sobre un modelo existente y un desarrollo que requiere herramienta, molde o cambios técnicos.", "Una solicitud clara incluye modelo, peso, cantidad, uso, mercado, identidad visual y destino. Con esos datos se puede definir muestra, criterios de calidad y preparación logística sin promesas genéricas."),
       checklist("inicio-compra", "Información para iniciar una compra B2B", ["Empresa y mercado", "Categorías y modelos", "Pesos y cantidades", "Uso profesional o distribución", "OEM y embalaje", "Destino y condición comercial", "Plazo, muestra e inspección"])
@@ -157,7 +157,7 @@ export const spanishPages: SpanishPage[] = [
     title: "Mancuernas profesionales al por mayor y OEM | PowerBaseFit",
     description: "Proveedor y fabricante de mancuernas profesionales de goma, cromadas y otras opciones con marca propia, kg/lb, QC y embalaje de exportación.",
     h1: "Mancuernas profesionales para gimnasios y distribución",
-    image: ["/assets/project-dumbbell-zone.png", "Zona de mancuernas profesionales para gimnasio comercial"],
+    image: ["/assets/project-dumbbell-zone.avif", "Zona de mancuernas profesionales para gimnasio comercial"],
     blocks: [
       quick("respuesta-rapida", "Una línea profesional de mancuernas debe combinar forma, material, rango de pesos, pares repetidos, rack y reposición. PowerBaseFit suministra modelos para gimnasios, hoteles, estudios, distribuidores y marcas propias, con configuración en kg o lb según el proyecto."),
       definition("definicion", "Mancuerna profesional", "Es una pesa manual diseñada y especificada para uso repetido en instalaciones o canales comerciales. Su idoneidad depende de construcción, unión, superficie, empuñadura, tolerancia, almacenamiento y mantenimiento, no solo de la etiqueta “comercial”."),
@@ -182,7 +182,7 @@ export const spanishPages: SpanishPage[] = [
     title: "Discos de peso y discos bumper al por mayor | PowerBaseFit",
     description: "Fabricante de discos de peso olímpicos y bumper para gimnasios y distribuidores, con OEM, kg/lb, logotipo, QC y embalaje de exportación.",
     h1: "Discos de peso para gimnasios, distribuidores y marcas",
-    image: ["/assets/project-plate-zone.png", "Discos de peso y barras en una zona profesional de musculación"],
+    image: ["/assets/project-plate-zone.avif", "Discos de peso y barras en una zona profesional de musculación"],
     blocks: [
       quick("respuesta-rapida", "La elección de discos comienza por la barra, la máquina y el tipo de entrenamiento. Los discos olímpicos, recubiertos y bumper no son sinónimos. El comprador debe confirmar diámetro interior, espesor, material, tolerancia, uso previsto, almacenamiento y embalaje."),
       definition("definicion", "Disco de peso", "Es una carga desmontable utilizada con barras o equipos compatibles. “Olímpico” describe principalmente la compatibilidad con la manga; “bumper” describe una construcción pensada para levantamientos con contacto planificado con una plataforma o suelo apropiado."),
@@ -227,7 +227,7 @@ export const spanishPages: SpanishPage[] = [
     description: "Mancuerna cromada para gimnasios, hoteles y distribuidores, con opciones OEM, logotipo, kg/lb, QC y embalaje de exportación B2B.",
     h1: "Mancuerna cromada para proyectos comerciales",
     sku: "CHROME-DB",
-    image: ["/assets/chrome-dumbbell.jpg", "Mancuerna cromada profesional con empuñadura texturizada"],
+    image: ["/assets/chrome-dumbbell.webp", "Mancuerna cromada profesional con empuñadura texturizada"],
     productName: "Mancuerna cromada",
     definition: "Es una mancuerna con superficie metálica cromada o de apariencia cromada según la construcción del modelo. Se elige por su formato compacto y presentación, pero requiere control del ambiente, limpieza y almacenamiento para conservar el acabado.",
     application: "Es habitual en hoteles, clubes, estudios, showrooms y zonas donde la presentación visual tiene un peso importante. También puede formar parte de un catálogo de distribución con gamas compactas.",
@@ -247,7 +247,7 @@ export const spanishPages: SpanishPage[] = [
     description: "Disco bumper de goma para entrenamiento profesional y distribución, con logotipo, colores, kg/lb, control de calidad y embalaje OEM.",
     h1: "Disco bumper de goma para uso profesional",
     sku: "RBP",
-    image: ["/assets/weight-plate.jpg", "Disco bumper de goma para entrenamiento profesional"],
+    image: ["/assets/weight-plate.avif", "Disco bumper de goma para entrenamiento profesional"],
     productName: "Disco bumper de goma",
     definition: "Es un disco de diámetro exterior uniforme construido principalmente con goma y un centro metálico para barras olímpicas. Está destinado a levantamientos con contacto planificado con una plataforma o suelo apropiado; no elimina la necesidad de controlar técnica, altura y superficie.",
     application: "Se utiliza en zonas de fuerza, levantamiento y entrenamiento funcional. Distribuidores y gimnasios deben relacionar dureza, espesor y pesos con el programa real y la carga máxima que debe entrar en la manga.",
@@ -285,9 +285,9 @@ export const spanishPages: SpanishPage[] = [
     title: "Fábrica de equipos de gimnasio y peso libre | PowerBaseFit",
     description: "Conozca la fábrica PowerBaseFit en Dezhou: proceso de mancuernas y discos, control de calidad, OEM, embalaje y exportación B2B.",
     h1: "Fábrica de equipos de gimnasio para suministro B2B",
-    image: ["/assets/factory.png", "Fábrica PowerBaseFit de equipos de gimnasio en Dezhou China"],
+    image: ["/assets/factory.avif", "Fábrica PowerBaseFit de equipos de gimnasio en Dezhou China"],
     blocks: [
-      quick("respuesta-rapida", "PowerBaseFit informa que opera desde 2008 y cuenta con una fábrica de aproximadamente 15.000 m² en Dezhou, Shandong, China. La operación atiende productos de peso libre y equipamiento relacionado para compradores B2B, con revisión de especificaciones, producción, QC, embalaje y preparación de exportación."),
+      quick("respuesta-rapida", "PowerBaseFit informa que opera desde 2008 y cuenta con una fábrica de aproximadamente 8.000 m² en Dezhou, Shandong, China. La operación atiende productos de peso libre y equipamiento relacionado para compradores B2B, con revisión de especificaciones, producción, QC, embalaje y preparación de exportación."),
       definition("definicion", "Fábrica OEM de equipos fitness", "Es una operación que produce equipos conforme a modelos, especificaciones y personalización aprobados para otra empresa. Su evaluación debe centrarse en capacidades relacionadas con el producto real, control de versión, muestra, inspección y comunicación."),
       table("flujo", "Flujo general de fabricación", ["Etapa", "Actividad", "Control"], [
         ["Revisión", "Modelo, materiales, cantidad y OEM", "Orden y archivos aprobados"],
@@ -303,7 +303,7 @@ export const spanishPages: SpanishPage[] = [
       rich("oem", "Proceso OEM", "El flujo comienza con producto base, pesos, cantidad, logotipo, color, kg/lb y embalaje. Después se revisan viabilidad, muestra, aprobación, producción, QC y exportación. El MOQ y el plazo dependen de lo que cambie.", "La fábrica no presenta toda personalización como automáticamente posible. Separar opciones visuales de cambios técnicos reduce retrabajo y permite una decisión comercial más clara."),
       checklist("auditoria", "Qué solicitar al evaluar la fábrica", ["Modelo y proceso real", "Fotos o vídeo actuales", "Muestra y ficha", "Criterios de QC", "Archivos OEM", "Plan de embalaje", "Calendario y responsables"])
     ],
-    faq: [["¿Dónde está la fábrica?", "En Ningjin, Dezhou, provincia de Shandong, China."], ["¿Desde cuándo opera PowerBaseFit?", "La empresa informa operación desde 2008."], ["¿Cuál es el tamaño de la fábrica?", "PowerBaseFit informa aproximadamente 15.000 m²."], ["¿Puedo pedir una muestra?", "Debe solicitarse según producto y personalización."], ["¿Se acepta inspección antes del embarque?", "Los requisitos se acuerdan en la cotización y el plan del pedido."]],
+    faq: [["¿Dónde está la fábrica?", "En Ningjin, Dezhou, provincia de Shandong, China."], ["¿Desde cuándo opera PowerBaseFit?", "La empresa informa operación desde 2008."], ["¿Cuál es el tamaño de la fábrica?", "PowerBaseFit informa aproximadamente 8.000 m²."], ["¿Puedo pedir una muestra?", "Debe solicitarse según producto y personalización."], ["¿Se acepta inspección antes del embarque?", "Los requisitos se acuerdan en la cotización y el plan del pedido."]],
     links: [["products-hub", "Ver productos"], ["oem-private-label", "Proceso OEM"], ["factory-guide", "Cómo elegir un fabricante"], ["contact", "Hablar con la fábrica"]],
     author: editorial, reviewedBy: reviewer
   },
@@ -334,7 +334,7 @@ export const spanishPages: SpanishPage[] = [
     title: "Equipos de gimnasio OEM y marca propia | PowerBaseFit",
     description: "Fabricación OEM de mancuernas, discos y equipos fitness con logo, color, kg/lb, embalaje, muestra, QC y exportación para marcas B2B.",
     h1: "Fabricación OEM de equipos fitness y marca propia",
-    image: ["/assets/factory.png", "Fabricación OEM de equipos de gimnasio PowerBaseFit"],
+    image: ["/assets/factory.avif", "Fabricación OEM de equipos de gimnasio PowerBaseFit"],
     blocks: [
       quick("respuesta-rapida", "PowerBaseFit desarrolla programas OEM para distribuidores, importadores y marcas de equipos fitness. Según el producto, pueden evaluarse logotipo, colores, marcado en kg o lb y embalaje. El proceso pasa por producto base, viabilidad, archivos, muestra, aprobación, producción, QC y exportación."),
       definition("definicion", "OEM y marca propia", "OEM describe la fabricación de un producto para la marca del comprador dentro de una especificación aprobada. Marca propia describe la estrategia comercial. ODM puede implicar mayor participación del proveedor en el desarrollo, pero el alcance debe definirse para cada proyecto."),
@@ -385,9 +385,9 @@ export const spanishPages: SpanishPage[] = [
     title: "Referencias reales de zonas de musculación | PowerBaseFit",
     description: "Referencias visuales reales ya publicadas con mancuernas, discos, barras y racks para apoyar la especificación de proyectos B2B sin inventar casos.",
     h1: "Referencias de configuración para proyectos de gimnasio",
-    image: ["/assets/case-gym.png", "Referencia de gimnasio con equipos de musculación PowerBaseFit"],
+    image: ["/assets/case-gym.avif", "Referencia de gimnasio con equipos de musculación PowerBaseFit"],
     blocks: [
-      quick("respuesta-rapida", "Esta página presenta únicamente referencias visuales ya publicadas por PowerBaseFit. Sirven para discutir combinación de productos, almacenamiento, circulación e identidad visual; no se presentan como testimonios, resultados financieros, proyectos arquitectónicos certificados ni clientes identificados."),
+      quick("respuesta-rapida", "Compare referencias visuales reales de PowerBaseFit para definir combinación de productos, almacenamiento, circulación e identidad visual. Confirme por separado medidas, instalación y requisitos locales antes del pedido."),
       definition("definicion", "Referencia de proyecto", "Es un ejemplo visual utilizado para orientar preguntas de compra. No sustituye planos, cálculo estructural, accesibilidad, seguridad, instalación o validación de profesionales responsables en el país del proyecto."),
       table("referencias", "Referencias disponibles", ["Referencia", "Qué muestra", "Qué debe definir el comprador"], [
         ["Zona de mancuernas redondas", "Línea continua en rack", "Pares, rango, rack y circulación"],

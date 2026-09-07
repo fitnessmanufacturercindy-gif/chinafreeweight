@@ -10,7 +10,7 @@ export const ptBrGrowthBlogsA: PilotPage[] = [
     title: "Como importar equipamentos de academia da China",
     description: "Guia B2B para importar equipamentos de academia da China: fornecedor, especificação, amostra, MOQ, QC, frete, documentos, custos e planejamento no Brasil.",
     h1: "Como importar equipamentos de academia da China para o Brasil",
-    image: ["/assets/factory.png", "Equipamentos de academia preparados para importação da China"],
+    image: ["/assets/factory.avif", "Equipamentos de academia preparados para importação da China"],
     blocks: [
       quick("resposta-rapida", "Importar equipamentos de academia da China exige definir a demanda, validar fornecedor e produto, fechar especificação e condição comercial, aprovar amostra quando necessário, acompanhar produção e QC, planejar embalagem e frete e cumprir as exigências aduaneiras brasileiras. Custos, tributos e licenças devem ser confirmados por profissionais da operação real."),
       definition("definicao", "Importação B2B de equipamentos de academia", "É uma operação comercial internacional em que uma empresa brasileira compra equipamentos de um fornecedor estrangeiro e coordena produção, pagamento, transporte, seguro quando aplicável, documentação, desembaraço, tributos e entrega. Não é equivalente a comprar uma unidade em uma loja internacional."),
@@ -54,7 +54,7 @@ export const ptBrGrowthBlogsA: PilotPage[] = [
     title: "Custo de importação de equipamentos de academia",
     description: "Aprenda a estruturar o custo total de importar equipamentos de academia: produto, OEM, inspeção, embalagem, frete, tributos, porto, entrega e contingência.",
     h1: "Como calcular o custo total da importação de equipamentos",
-    image: ["/assets/project-plate-zone.png", "Halteres e anilhas considerados no custo de importação"],
+    image: ["/assets/project-plate-zone.avif", "Halteres e anilhas considerados no custo de importação"],
     blocks: [
       quick("resposta-rapida", "O custo de importação não é apenas preço de fábrica mais frete. Some produto, personalização, amostra, QC, embalagem, transporte na origem, frete internacional, seguro quando aplicável, despesas portuárias, tributos, despachante, armazenagem, entrega e contingência. Classificação, alíquotas e regras devem ser validadas para a operação real."),
       definition("definicao", "Custo posto ou landed cost", "É o custo acumulado para disponibilizar o produto no local definido pelo comprador, incluindo aquisição e despesas necessárias até esse ponto. O limite precisa ser escrito: porto, armazém, centro de distribuição ou academia. Sem esse limite, duas planilhas podem parecer diferentes mesmo contendo custos corretos."),
@@ -182,7 +182,7 @@ export const ptBrGrowthBlogsA: PilotPage[] = [
     title: "Como criar uma marca própria de equipamentos fitness",
     description: "Guia para lançar equipamentos de academia com marca própria: posicionamento, linha inicial, fornecedor, logo, embalagem, amostra, MOQ, QC, importação e reposição.",
     h1: "Como criar uma marca própria de equipamentos de academia",
-    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-custom-logo.jpg", "Halter personalizado para marca própria de equipamentos fitness"],
+    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-custom-logo.webp", "Halter personalizado para marca própria de equipamentos fitness"],
     blocks: [
       quick("resposta-rapida", "Para criar uma marca própria de equipamentos fitness, defina comprador e posicionamento, escolha uma linha inicial coerente, valide produto e fornecedor, desenvolva identidade aplicável aos equipamentos, aprove amostra e embalagem, controle produção e QC, planeje importação, estoque e reposição. Começar com poucos SKUs bem definidos reduz risco."),
       definition("definicao", "Marca própria de equipamentos fitness", "É uma linha de produtos fabricada por um fornecedor e comercializada sob a identidade do comprador. A marca é responsável por posicionamento, especificação comercial, comunicação, conformidade no mercado, experiência do cliente e continuidade, mesmo quando não opera a fábrica."),

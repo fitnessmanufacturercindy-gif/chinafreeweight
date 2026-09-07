@@ -320,9 +320,7 @@ export function englishPathForGermanProduct(profile: GermanProductProfile) {
     ? `/products/dumbbells/${profile.source.slug}`
     : profile.category === "plates"
       ? `/products/weight-plates/${profile.source.slug}`
-      : profile.category === "racks"
-        ? `/products/racks-benches/${profile.source.slug}`
-        : `/products/gym-accessories/${profile.source.slug}`;
+      : `/products/gym-accessories/${profile.source.slug}`;
 }
 
 export function shadowEnglishVersion(profile: GermanProductProfile): LocalizedContentVersion {

@@ -266,6 +266,8 @@ const profiles: ProductProfile[] = [
   }
 ];
 
+const activeProfiles = profiles.filter((profile) => profile.family !== "racks");
+
 const familyRoots = {
   pt: {
     dumbbells: ["/pt/produtos/halteres", "dumbbells-category", "Halteres profissionais"],
@@ -428,7 +430,6 @@ function spanishVersion(entity: ContentEntity, profile: ProductProfile): Localiz
 }
 
 export function withCommercialCompletionA(manifest: ContentManifest): ContentManifest {
-  const activeProfiles = profiles.filter((profile) => !profile.id.startsWith("product:racks:"));
   const byId = new Map(activeProfiles.map((profile) => [profile.id, profile]));
   const found = new Set<string>();
   const entities = manifest.entities.map((entity) => {
@@ -450,4 +451,4 @@ export function withCommercialCompletionA(manifest: ContentManifest): ContentMan
   return { ...manifest, entities };
 }
 
-export const commercialCompletionAProfiles = profiles.filter((profile) => !profile.id.startsWith("product:racks:"));
+export const commercialCompletionAProfiles = activeProfiles;

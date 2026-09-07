@@ -83,7 +83,7 @@ function imagesFor(entity: ContentEntity, label: string): LocalizedImage[] {
   const sources = [...new Set([
     ...(entity.versions.en?.images.map((image) => image.src) ?? []),
     ...(entity.versions.id?.images.map((image) => image.src).filter((src) => src.startsWith("/assets/")) ?? []),
-    "/assets/dumbbell-production.webp",
+    "/assets/dumbbell-production.avif",
     "/assets/factory-cases/packaging-area-pbf.webp"
   ])].slice(0, 3);
   return sources.map((src, index) => ({ id: `zdjecie-${index + 1}`, src, alt: index === 0 ? `${label} — rzeczywisty produkt lub realizacja PowerBaseFit` : index === 1 ? `Proces produkcji związany z tematem: ${label}` : `Pakowanie eksportowe i kontrola zamówienia: ${label}`, caption: "Rzeczywisty materiał PowerBaseFit użyty do wyjaśnienia decyzji zakupowej." }));

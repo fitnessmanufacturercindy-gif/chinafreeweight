@@ -18,7 +18,7 @@ export const seoExpansionSpanishPages: SpanishPage[] = [
     title: "Racks y bancos de gimnasio al por mayor y OEM | PowerBaseFit",
     description: "Racks, jaulas, máquinas Smith y bancos profesionales de fábrica, con OEM, marca propia, control de calidad y embalaje para importadores.",
     h1: "Racks y bancos profesionales para gimnasios y distribuidores",
-    image: ["/assets/racks-benches.webp", "Rack y banco profesional para gimnasio comercial"],
+    image: ["/assets/racks-benches.avif", "Rack y banco profesional para gimnasio comercial"],
     blocks: [
       quick("respuesta-rapida", "PowerBaseFit suministra racks, jaulas, estaciones funcionales, máquinas Smith y bancos para compradores B2B. La selección debe relacionar uso, espacio, carga prevista, ajustes, montaje, embalaje y soporte local. La oferta confirma las dimensiones, capacidades y componentes del modelo real; no se deben deducir especificaciones únicamente de una fotografía."),
       definition("definicion", "Racks y bancos de gimnasio", "Son estructuras y estaciones que soportan barras, organizan cargas o colocan al usuario para ejercicios de fuerza. En una compra profesional, estabilidad, geometría, ajustes, capacidad, acabado, montaje y compatibilidad forman parte de la especificación y de la inspección."),

@@ -79,14 +79,6 @@ const pageCopy = {
     finalText: "제품, 수량, 맞춤 제작, 한국 도착지와 일정을 보내 주시면 프로젝트 기준으로 B2B 견적을 검토합니다.",
     finalLink: "PowerBaseFit에 문의", contactPath: "/ko/contact"
   },
-  id: {
-    breadcrumb: "Jejak navigasi", eyebrow: "PowerBaseFit · Produsen B2B",
-    quote: "Minta penawaran", by: "Ditulis oleh", reviewed: "Ditinjau oleh", updated: "Diperbarui",
-    related: "Informasi terkait", faq: "Pertanyaan yang sering diajukan",
-    finalTitle: "Siap mengevaluasi proyek pengadaan Anda?",
-    finalText: "Kirim daftar produk, jumlah, kustomisasi, tujuan, dan jadwal untuk menerima tanggapan B2B berdasarkan proyek.",
-    finalLink: "Hubungi PowerBaseFit", contactPath: "/id/kontak"
-  },
   pl: {
     breadcrumb: "Okruszki nawigacyjne", eyebrow: "PowerBaseFit · Producent B2B",
     quote: "Poproś o wycenę", by: "Autor", reviewed: "Weryfikacja", updated: "Aktualizacja",
@@ -102,6 +94,14 @@ const pageCopy = {
     finalTitle: "هل تريد تقييم خطة المعدات؟",
     finalText: "أرسل قائمة المنتجات والكميات والتخصيص والوجهة لمناقشة المشروع.",
     finalLink: "تواصل مع PowerBaseFit", contactPath: "/contact"
+  },
+  id: {
+    breadcrumb: "Jejak navigasi", eyebrow: "PowerBaseFit · Produsen B2B",
+    quote: "Minta penawaran", by: "Ditulis oleh", reviewed: "Ditinjau oleh", updated: "Diperbarui",
+    related: "Informasi terkait", faq: "Pertanyaan yang sering diajukan",
+    finalTitle: "Siap mengevaluasi proyek pengadaan Anda?",
+    finalText: "Kirim daftar produk, jumlah, kustomisasi, tujuan, dan jadwal untuk menerima tanggapan B2B berdasarkan proyek.",
+    finalLink: "Hubungi PowerBaseFit", contactPath: "/id/kontak"
   }
 } as const;
 
@@ -234,7 +234,7 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
   const ctaText = typeof extra.ctaText === "string" ? extra.ctaText : text.finalText;
   const ctaLabel = typeof extra.ctaLabel === "string" ? extra.ctaLabel : text.finalLink;
   const formLocale = locale === "en" || locale === "ar" ? "es" : locale;
-  const inlineImagePositions = entity.type === "case" ? [2, 5, 8, 11] : [3, 7];
+  const inlineImagePositions = entity.type === "case" ? [2, 5, 8, 11] : [3, 7, 11, 12];
 
   return (
     <main className="localized-page">

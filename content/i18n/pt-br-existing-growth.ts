@@ -18,7 +18,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
         ["OEM e marca própria", "Distribuidores, importadores e marcas fitness", "Logo, cores, kg/lb, embalagem, amostra e MOQ"]
       ]),
       rich("oem", "OEM, ODM e marca própria", "A personalização possível depende da construção de cada produto. Em muitos modelos, podem ser avaliados logotipo, placa ou marcação de peso, cor, acabamento e embalagem. Mudanças simples de identidade visual são diferentes de alterações que exigem molde, ferramenta ou desenvolvimento estrutural. Essa distinção precisa aparecer antes do orçamento para que custo, MOQ e prazo sejam realistas.", "O fluxo recomendado é confirmar o produto base, revisar arquivos, produzir ou aprovar uma amostra quando necessário e registrar a especificação final. A produção deve seguir essa referência. O comprador também precisa definir como a marca será apresentada no ponto de venda: unidade avulsa, par, conjunto ou linha completa. A embalagem deve proteger o acabamento e manter as informações comerciais legíveis."),
-      rich("fabrica-exportacao", "Fábrica e preparação para exportação", "A base de fabricação da PowerBaseFit fica em Dezhou, província de Shandong, China. A empresa informa operação desde 2008 e área fabril de aproximadamente 15.000 m². Esses dados descrevem a instalação; não substituem a avaliação do comprador, a aprovação de amostras ou uma inspeção independente quando o risco do pedido justificar.", "Pesos livres concentram muita massa em pouco volume. Por isso, embalagem, limite por caixa, resistência do pallet e distribuição da carga precisam ser planejados junto com o mix. O prazo varia conforme produto, quantidade, materiais e personalização. Pedidos padrão podem ser expedidos em torno de dez dias após o depósito apenas quando materiais e agenda estão confirmados; projetos personalizados exigem validação específica."),
+      rich("fabrica-exportacao", "Fábrica e preparação para exportação", "A base de fabricação da PowerBaseFit fica em Dezhou, província de Shandong, China. A empresa informa operação desde 2008 e área fabril de aproximadamente 8.000 m². Esses dados descrevem a instalação; não substituem a avaliação do comprador, a aprovação de amostras ou uma inspeção independente quando o risco do pedido justificar.", "Pesos livres concentram muita massa em pouco volume. Por isso, embalagem, limite por caixa, resistência do pallet e distribuição da carga precisam ser planejados junto com o mix. O prazo varia conforme produto, quantidade, materiais e personalização. Pedidos padrão podem ser expedidos em torno de dez dias após o depósito apenas quando materiais e agenda estão confirmados; projetos personalizados exigem validação específica."),
       checklist("dados-cotacao", "Informações para uma cotação útil", ["Empresa, mercado de destino e canal de venda", "Lista de produtos e quantidades por modelo ou peso", "Sistema em kg ou lb e requisitos de marcação", "Logotipo, cores e expectativa de embalagem", "Porto ou cidade de destino para planejamento logístico", "Necessidade de amostra, inspeção ou documentação adicional"])
     ],
     faq: [
@@ -117,7 +117,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
     reviewedBy: reviewer
   },
   "chrome-dumbbell": {
-    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-main.jpg", "Halter cromado profissional para academia e marca própria"],
+    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif", "Halter cromado profissional para academia e marca própria"],
     material: "Estrutura metálica com acabamento cromado",
     category: "Halter profissional premium",
     specifications: [{ name: "Sistema", value: "Opções personalizadas em kg ou lb" }, { name: "Acabamento", value: "Cromado, com opções visuais conforme o projeto" }, { name: "Aplicação", value: "Academias premium, hotéis, estúdios e distribuição" }],
@@ -188,9 +188,9 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
   factory: {
     title: "Fábrica de equipamentos de academia | PowerBaseFit",
     blocks: [
-      quick("resposta-rapida", "A PowerBaseFit informa operação desde 2008 e área fabril de aproximadamente 15.000 m² em Dezhou, Shandong, China. A fábrica atende pesos livres e equipamentos relacionados para compradores B2B, com revisão de especificação, OEM, produção, controle de qualidade, embalagem e preparação para exportação."),
+      quick("resposta-rapida", "A PowerBaseFit informa operação desde 2008 e área fabril de aproximadamente 8.000 m² em Dezhou, Shandong, China. A fábrica atende pesos livres e equipamentos relacionados para compradores B2B, com revisão de especificação, OEM, produção, controle de qualidade, embalagem e preparação para exportação."),
       definition("definicao", "Fábrica OEM de equipamentos de academia", "É uma operação que produz conforme uma especificação comercial e pode adaptar elementos de marca, acabamento ou embalagem. OEM não elimina a responsabilidade do comprador de validar produto, amostra, tolerâncias, inspeção, documentação e requisitos do mercado de destino."),
-      rich("base", "Base de fabricação", "A localização em Dezhou integra a operação de produção e preparação de pedidos internacionais. A área informada de 15.000 m² e o início em 2008 são dados institucionais da PowerBaseFit. Compradores podem solicitar imagens atuais, documentação do produto e inspeção conforme o risco e o valor do projeto.", "O portfólio inclui halteres, anilhas, racks, bancos e acessórios. Cada família usa processos diferentes: peças metálicas exigem corte, formação, solda, usinagem ou acabamento; produtos revestidos dependem de preparação de material, moldagem e cura; conjuntos montados exigem verificação de componentes e funcionamento."),
+      rich("base", "Base de fabricação", "A localização em Dezhou integra a operação de produção e preparação de pedidos internacionais. A área informada de 8.000 m² e o início em 2008 são dados institucionais da PowerBaseFit. Compradores podem solicitar imagens atuais, documentação do produto e inspeção conforme o risco e o valor do projeto.", "O portfólio inclui halteres, anilhas, racks, bancos e acessórios. Cada família usa processos diferentes: peças metálicas exigem corte, formação, solda, usinagem ou acabamento; produtos revestidos dependem de preparação de material, moldagem e cura; conjuntos montados exigem verificação de componentes e funcionamento."),
       table("fluxo", "Fluxo de um pedido B2B", ["Etapa", "Atividade", "Saída esperada"], [
         ["1. Requisitos", "Revisão de modelos, quantidade, destino e uso", "Lista comercial sem ambiguidades"],
         ["2. Especificação", "Materiais, dimensões, pesos, logo e embalagem", "Ficha ou proposta confirmada"],
@@ -210,7 +210,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
     ],
     faq: [
       ["Onde fica a fábrica da PowerBaseFit?", "Em Dezhou, província de Shandong, China."],
-      ["A PowerBaseFit fabrica desde quando?", "A empresa informa operação desde 2008 e área fabril de aproximadamente 15.000 m²."],
+      ["A PowerBaseFit fabrica desde quando?", "A empresa informa operação desde 2008 e área fabril de aproximadamente 8.000 m²."],
       ["Quais controles de qualidade podem ser realizados?", "Conforme o produto: material, peso, dimensões, superfície, união, montagem, logo, quantidade e embalagem."],
       ["É possível fazer inspeção independente?", "O comprador pode avaliar esse recurso conforme risco, valor e condição contratada. O escopo deve ser combinado antes da produção."],
       ["Como funciona um pedido OEM?", "A fábrica revisa produto base, personalização, arquivo, amostra, MOQ, produção, QC e embalagem antes da liberação do lote."]
@@ -254,7 +254,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
         ["OEM", "Como criar uma linha de marca própria?", "Reunir logo, embalagem e quantidades"],
         ["Importação", "Como planejar custo, prazo e responsabilidade?", "Consultar profissionais e montar o custo total"]
       ]),
-      checklist("usar", "Como usar os guias", ["Comece pela pergunta do seu projeto", "Registre requisitos e dúvidas em uma planilha", "Separe fato confirmado de hipótese", "Valide números com fornecedores e profissionais responsáveis", "Use os links internos para chegar ao produto correspondente", "Envie uma lista completa ao solicitar cotação"]),
+      checklist("usar", "Como usar os guias", ["Comece pela pergunta do seu projeto", "Registre requisitos e dúvidas em uma planilha", "Separe fato confirmado de hipótese", "Valide números com fornecedores e profissionais responsáveis", "Compare os guias e produtos relacionados", "Envie uma lista completa ao solicitar cotação"]),
       rich("atualizacao", "Revisão e atualização", "Os artigos exibem autor, revisão e data de atualização. Informações de fábrica são revisadas pela equipe de produção e exportação. Quando o tema envolve importação no Brasil, o texto evita fixar alíquotas ou regras sem fonte, porque custos e procedimentos variam conforme produto, operação e data.")
     ],
     faq: [
@@ -270,7 +270,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
   projects: {
     title: "Projetos de áreas de musculação | PowerBaseFit",
     blocks: [
-      quick("resposta-rapida", "Esta página reúne referências visuais reais já publicadas pela PowerBaseFit para discutir combinação de halteres, anilhas, barras, racks e circulação. As imagens não são apresentadas como depoimentos de clientes, resultados financeiros ou projetos arquitetônicos certificados."),
+      quick("resposta-rapida", "Compare referências visuais reais da PowerBaseFit para discutir combinação de halteres, anilhas, barras, racks e circulação. Use as imagens para definir produtos e layout preliminar; confirme dimensões, instalação e requisitos locais separadamente."),
       definition("definicao", "Referência de projeto", "É um exemplo visual de configuração de equipamentos usado para orientar perguntas de compra. Não substitui planta, cálculo estrutural, projeto de segurança, acessibilidade ou validação de profissionais responsáveis no local."),
       rich("metodo", "Como interpretar as referências", "Uma imagem mostra organização e aparência, mas não informa sozinha dimensões, capacidade, fluxo de usuários ou especificação completa. O comprador deve usar a referência para identificar preferências: formato dos halteres, comprimento do rack, proximidade das anilhas, espaço entre estações e identidade visual.", "Antes de pedir orçamento, converta a referência em requisitos. Informe área disponível, número estimado de usuários, faixa de pesos, tipo de treino e produtos prioritários. Fotos do espaço e planta ajudam, desde que medidas e responsabilidades técnicas sejam confirmadas localmente."),
       table("referencias", "Referências existentes", ["Referência", "O que ela demonstra", "Perguntas para o projeto"], [

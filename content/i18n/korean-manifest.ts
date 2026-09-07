@@ -255,7 +255,7 @@ function imagesFor(entity: ContentEntity, slug: string, label: string, type: "pr
   const support = entity.id === "projects"
     ? ["/assets/projects/project-hero-desktop.avif", "/assets/projects/commercial-dumbbell-rack-zone.avif", "/assets/projects/round-dumbbell-gym-zone.avif"]
     : type === "product"
-    ? [source, entity.id.includes("plate") ? "/assets/factory-process/plate-surface-treatment.webp" : "/assets/dumbbell-production.webp", "/assets/factory-cases/packaging-area-pbf.webp"]
+    ? [source, entity.id.includes("plate") ? "/assets/factory-process/plate-surface-treatment.webp" : "/assets/dumbbell-production.avif", "/assets/factory-cases/packaging-area-pbf.webp"]
     : [source, "/assets/factory-process/dumbbell-material.webp", "/assets/factory-cases/container-shipping-pbf.webp"];
   return support.map((src, index) => ({
     id: `ko-image-${index + 1}`,

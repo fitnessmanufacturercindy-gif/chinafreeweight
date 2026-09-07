@@ -24,7 +24,7 @@ export type GermanGuideProfile = {
 };
 
 const commonImages: LocalizedImage[] = [
-  { id: "fertigung", src: "/assets/dumbbell-production.webp", alt: "Reale Fertigung von Kurzhanteln und freien Gewichten bei PowerBaseFit", caption: "Realer Fertigungsprozess als Grundlage technischer Einkaufsentscheidungen." },
+  { id: "fertigung", src: "/assets/dumbbell-production.avif", alt: "Reale Fertigung von Kurzhanteln und freien Gewichten bei PowerBaseFit", caption: "Realer Fertigungsprozess als Grundlage technischer Einkaufsentscheidungen." },
   { id: "bearbeitung", src: "/assets/resource-cnc-machining.webp", alt: "CNC-Bearbeitung von Metallbauteilen für Fitnessgeräte", caption: "Reale Bearbeitung von Komponenten für Fitnessgeräte." },
   { id: "oberflaeche", src: "/assets/resource-plate-finishing.webp", alt: "Oberflächenkontrolle bei Gewichtsscheiben und Fitnessgeräten", caption: "Reale Oberflächen- und Finishprüfung im Produktionsumfeld." }
 ];

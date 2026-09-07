@@ -22,7 +22,7 @@ export const vietnameseGuideProfiles: VietnameseGuideProfile[] = [
 ];
 
 function guideImages(profile: VietnameseGuideProfile): LocalizedImage[] {
-  const sources=[profile.id.includes("dumbbell")?"/assets/hex-dumbbells.webp":profile.id.includes("plate")||profile.id.includes("bumper")?"/assets/weight-plate.webp":"/assets/factory.webp","/assets/dumbbell-production.webp","/assets/resource-plate-finishing.webp"];
+  const sources=[profile.id.includes("dumbbell")?"/assets/hex-dumbbells.webp":profile.id.includes("plate")||profile.id.includes("bumper")?"/assets/weight-plate.webp":"/assets/factory.webp","/assets/dumbbell-production.avif","/assets/resource-plate-finishing.webp"];
   const slug=profile.viPath.split("/").pop()!;
   return sources.map((src,index)=>({id:`hinh-${index+1}`,src:vietnameseImagePath(src,slug,index),alt:index===0?`${profile.h1} – hình ảnh thực tế`:index===1?`Quy trình sản xuất thực tế liên quan đến ${profile.keyword}`:`Kiểm tra chất lượng thực tế cho ${profile.keyword}`,caption:index===0?"Hình ảnh sản phẩm hoặc nhà máy thực tế của PowerBaseFit.":index===1?"Công đoạn sản xuất thực tế.":"Hoạt động kiểm tra bề mặt thực tế."}));
 }

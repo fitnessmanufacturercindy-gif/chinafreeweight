@@ -8,6 +8,8 @@ import {
   PackageCheck,
   ShieldCheck
 } from "lucide-react";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import type { ContentBlock, PublishedContent } from "../../../lib/content/types";
 import { contentRepository } from "../../../lib/content/repository";
 import { getDumbbellProduct } from "../../products/dumbbells/productData";
@@ -15,6 +17,12 @@ import { getWeightPlateProduct } from "../../products/weight-plates/productData"
 import { getGymAccessoryProduct } from "../../products/gym-accessories/productData";
 import { getPostBySlug } from "../../resources/blogData";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
+
+function avifSibling(src: string) {
+  if (!src.startsWith("/assets/") || !src.endsWith(".webp")) return undefined;
+  const candidate = src.replace(/\.webp$/u, ".avif");
+  return existsSync(join(process.cwd(), "public", candidate.replace(/^\//u, ""))) ? candidate : undefined;
+}
 import styles from "./IndonesianMirrorPage.module.css";
 
 type Version = PublishedContent["version"];
@@ -74,6 +82,25 @@ function paragraphs(content?: string) {
   return (content ?? "").split("\n\n").filter(Boolean).map((item) => <p key={item}>{item}</p>);
 }
 
+function markdownContent(content: string) {
+  return content.split(/\n\n+/u).filter(Boolean).map((group, index) => {
+    if (group.startsWith("### ")) return <h3 key={`${group}-${index}`}>{group.slice(4)}</h3>;
+    const lines = group.split("\n").filter(Boolean);
+    if (lines.every((line) => line.startsWith("- "))) {
+      return (
+        <ul key={`${group}-${index}`}>
+          {lines.map((line) => {
+            const value = line.slice(2);
+            const link = value.match(/^\[([^\]]+)\]\((\/[^)]+)\)$/u);
+            return <li key={line}>{link ? <a href={link[2]}>{link[1]}</a> : value}</li>;
+          })}
+        </ul>
+      );
+    }
+    return <p key={`${group}-${index}`}>{group}</p>;
+  });
+}
+
 function textBlock(block: ContentBlock | undefined, fallback: string) {
   return block?.content || fallback;
 }
@@ -99,6 +126,7 @@ function EditorialBlock({ block }: { block: ContentBlock }) {
       {block.heading ? <h2>{block.heading}</h2> : null}
       {block.data?.component === "definition" && typeof block.data.term === "string" ? <strong className={styles.term}>{block.data.term}</strong> : null}
       {paragraphs(block.content)}
+      {typeof block.data?.markdown === "string" ? markdownContent(block.data.markdown) : null}
       {columns.length && rows.length ? (
         <div className={styles.tableWrap}>
           <table><thead><tr>{columns.map((column) => <th key={column}>{column}</th>)}</tr></thead>
@@ -132,19 +160,19 @@ function ContactMirror({ version }: { version: Version }) {
   const whatsapp = "https://wa.me/8618963018533?text=" + encodeURIComponent(tr(locale, "Halo, saya ingin meminta penawaran peralatan gym untuk pasar Indonesia.", "Dzień dobry, proszę o ofertę na sprzęt fitness dla rynku polskiego.", "Goedendag, ik ontvang graag een offerte voor fitnessapparatuur voor de Nederlandse markt."));
   const factoryFacts = locale === "nl" ? [
     ["Bedrijfsprofiel", "PowerBaseFit ondersteunt internationale inkopers bij offertes, productselectie en de technische communicatie van OEM-projecten."],
-    ["Productielocatie", "Ningjin County, Dezhou, Shandong Province, China."],
+    ["Productielocatie", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
     ["Hoofdproducten", "Vrije gewichten: halters, halterschijven, bumper plates, racks, banken en fitnessaccessoires."],
     ["OEM-mogelijkheden", "Logo, kleur, greepafwerking, productdetails, verpakking en private-labelprogramma's voor B2B-inkopers."],
     ["Exportmarkten", "Ondersteuning voor importeurs, distributeurs, sportschoolprojecten en fitnessmerken op internationale markten."]
   ] : polish ? [
     ["Profil firmy", "PowerBaseFit wspiera zagranicznych buyerów sprzętu fitness w przygotowaniu oferty, wyborze produktów i komunikacji projektów OEM."],
-    ["Baza produkcyjna", "Ningjin County, Dezhou, Shandong Province, China."],
+    ["Baza produkcyjna", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
     ["Główne produkty", "Wolne ciężary: hantle, obciążenia, talerze bumper, stojaki, ławki i akcesoria fitness."],
     ["Możliwości OEM", "Logo, kolor, wykończenie uchwytu, szczegóły produktu, opakowanie i program marki własnej dla buyerów B2B."],
     ["Rynki eksportowe", "Obsługa importerów, dystrybutorów, projektów siłowni i marek na rynkach międzynarodowych."]
   ] : [
     ["Profil perusahaan", "PowerBaseFit membantu pembeli peralatan gym luar negeri dalam penyusunan penawaran, pemilihan produk, dan komunikasi proyek OEM."],
-    ["Basis manufaktur", "Ningjin County, Dezhou, Shandong Province, China."],
+    ["Basis manufaktur", "Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China."],
     ["Produk utama", "Beban bebas: dumbbell, piring beban, bumper plate, rak, bangku, dan aksesori gym."],
     ["Kemampuan OEM", "Logo, warna, penyelesaian pegangan, detail produk, kemasan, dan program merek sendiri untuk pembeli B2B."],
     ["Pasar ekspor", "Melayani importir, distributor, proyek gym, dan merek di berbagai pasar internasional."]
@@ -188,7 +216,7 @@ function ContactMirror({ version }: { version: Version }) {
         <LocalizedInquiryForm locale={locale} />
       </section>
       <section className={styles.infoSection}><div className={styles.sectionHeading}><span>{tr(locale, "Informasi pabrik", "Informacje o fabryce", "Fabrieksinformatie")}</span><h2>{tr(locale, "Basis manufaktur dan ekspor", "Baza produkcyjna i eksportowa", "Productie- en exportbasis")}</h2><p>{tr(locale, "Produsen beban bebas untuk pembeli B2B yang memerlukan komunikasi jelas, produksi stabil, dan dukungan produk siap ekspor.", "Producent wolnych ciężarów dla buyerów B2B wymagających jasnej komunikacji, stabilnej produkcji i wsparcia eksportowego.", "Fabrikant van vrije gewichten voor B2B-inkopers die heldere communicatie, stabiele productie en exportondersteuning nodig hebben.")}</p></div><div className={styles.editorialGrid}>{factoryFacts.map(([heading, copy]) => <article className={styles.editorialBlock} key={heading}><h3>{heading}</h3><p>{copy}</p></article>)}</div></section>
-      <section className={styles.mapSection}><div><span>{tr(locale, "Lokasi basis produksi", "Lokalizacja produkcji", "Productielocatie")}</span><h2>Dezhou, Shandong, China</h2><p>Ningjin County, Dezhou, Shandong Province, China.</p></div><iframe title={tr(locale, "Lokasi PowerBaseFit di OpenStreetMap", "Lokalizacja PowerBaseFit w OpenStreetMap", "Locatie van PowerBaseFit op OpenStreetMap")} src="https://www.openstreetmap.org/export/embed.html?bbox=116.775%2C37.618%2C116.825%2C37.655&layer=mapnik&marker=37.631564%2C116.790819" loading="lazy" /></section>
+      <section className={styles.mapSection}><div><span>{tr(locale, "Lokasi basis produksi", "Lokalizacja produkcji", "Productielocatie")}</span><h2>Dezhou, Shandong, China</h2><p>North Head of Sunguan Road, Ningjin County, Dezhou City, Shandong Province, China.</p></div><iframe title={tr(locale, "Lokasi PowerBaseFit di OpenStreetMap", "Lokalizacja PowerBaseFit w OpenStreetMap", "Locatie van PowerBaseFit op OpenStreetMap")} src="https://www.openstreetmap.org/export/embed.html?bbox=116.775%2C37.618%2C116.825%2C37.655&layer=mapnik&marker=37.631564%2C116.790819" loading="lazy" /></section>
       <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, "Pertanyaan sebelum meminta penawaran", "Najczęstsze pytania przed wysłaniem zapytania", "Veelgestelde vragen vóór een offerteaanvraag")}</h2></div><div className={styles.faqGrid}>{contactFaq.map(([question, answer]) => <article key={question}><h3>{question}</h3><p>{answer}</p></article>)}</div></section>
       <FinalCta locale={locale} href={`#${sectionId}`} />
     </main>
@@ -229,11 +257,12 @@ function ArticleMirror({ content }: { content: PublishedContent }) {
   const { version } = content;
   const locale = mirrorLocale(version);
   const source = content.entity.versions.en?.publicPath?.startsWith("/resources/") ? getPostBySlug(sourceSlug(content)) : undefined;
-  const hero = source?.coverImage ?? version.images[0]?.src;
+  const hero = version.schemaData.extra?.useLocalizedHero ? version.images[0]?.src : source?.coverImage ?? version.images[0]?.src;
+  const inlineImagePositions = [3, 7, 11, 12];
   return (
     <main className={`${styles.page} ${styles.articlePage}`} data-page-family="article">
-      <section className={styles.articleHero}><div><a href={tr(locale, "/id/blog", "/pl/blog", "/nl/blog")}>← {tr(locale, "Semua panduan", "Wszystkie poradniki", "Alle inkoopgidsen")}</a><span>{tr(locale, "Panduan teknis untuk pembeli Indonesia", "Poradnik techniczny dla polskich buyerów", "Technische gids voor Nederlandse B2B-inkopers")}</span><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.articleMeta}>{tr(locale, "Ditulis oleh", "Autor", "Auteur")} {version.author?.name} · {tr(locale, "Ditinjau oleh", "Weryfikacja", "Technische controle")} {version.reviewedBy?.name}</div></div>{hero ? <img src={hero} alt={version.images[0]?.alt ?? version.h1} /> : null}</section>
-      <div className={styles.articleLayout}><aside><strong>{tr(locale, "Dalam panduan ini", "W tym poradniku", "In deze gids")}</strong>{version.body.slice(0, 12).map((block) => block.heading ? <a key={block.id} href={`#${block.id}`}>{block.heading}</a> : null)}</aside><article className={styles.articleBody}>{version.body.map((block, index) => <div id={block.id} key={block.id}><EditorialBlock block={block} />{index === 5 && version.images[1] ? <img src={version.images[1].src} alt={version.images[1].alt} /> : null}{index === 12 && version.images[2] ? <img src={version.images[2].src} alt={version.images[2].alt} /> : null}</div>)}</article></div>
+      <section className={styles.articleHero}><div><a href={tr(locale, "/id/blog", "/pl/blog", "/nl/blog")}>← {tr(locale, "Semua panduan", "Wszystkie poradniki", "Alle inkoopgidsen")}</a><span>{tr(locale, "Panduan teknis untuk pembeli Indonesia", "Poradnik techniczny dla polskich buyerów", "Technische gids voor Nederlandse B2B-inkopers")}</span><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.articleMeta}>{tr(locale, "Ditulis oleh", "Autor", "Auteur")} {version.author?.name} · {tr(locale, "Ditinjau oleh", "Weryfikacja", "Technische controle")} {version.reviewedBy?.name}</div></div>{hero ? <picture>{avifSibling(hero) ? <source srcSet={avifSibling(hero)} type="image/avif" sizes="(max-width: 900px) 100vw, 52vw" /> : null}<img src={hero} alt={version.images[0]?.alt ?? version.h1} width={version.images[0]?.width} height={version.images[0]?.height} fetchPriority="high" decoding="async" sizes="(max-width: 900px) 100vw, 52vw" /></picture> : null}</section>
+      <div className={styles.articleLayout}><aside><strong>{tr(locale, "Dalam panduan ini", "W tym poradniku", "In deze gids")}</strong>{version.body.slice(0, 12).map((block) => block.heading ? <a key={block.id} href={`#${block.id}`}>{block.heading}</a> : null)}</aside><article className={styles.articleBody}>{version.body.map((block, index) => { const image = version.images[inlineImagePositions.indexOf(index) + 1]; return <div id={block.id} key={block.id}><EditorialBlock block={block} />{inlineImagePositions.includes(index) && image ? <figure><picture>{avifSibling(image.src) ? <source srcSet={avifSibling(image.src)} type="image/avif" /> : null}<img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /></picture>{image.caption ? <figcaption>{image.caption}</figcaption> : null}</figure> : null}</div>; })}</article></div>
       <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, `Pertanyaan terkait ${version.h1}`, `Pytania dotyczące: ${version.h1}`, `Vragen over ${version.h1}`)}</h2></div><div className={styles.faqGrid}>{version.faq.map((item) => <article key={item.id}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section>
       <FinalCta locale={locale} />
     </main>
@@ -304,7 +333,7 @@ function CoreMirror({ content }: { content: PublishedContent }) {
   const heroImage = version.images[0];
   const detailImages = version.images.slice(1);
   return (
-    <main className={`${styles.page} ${styles.corePage}`} data-page-family="core"><section className={styles.coreHero}><div><span>PowerBaseFit · {tr(locale, "Pasokan B2B", "Dostawy B2B", "B2B-levering")}</span><h1>{version.h1}</h1><p>{version.description}</p><a className={styles.primaryButton} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Diskusikan proyek", "Omów projekt", "Bespreek uw project")} <ArrowRight size={20} /></a></div>{usesLocalizedCaseImages && heroImage ? <figure className={styles.caseImage}><picture><source srcSet={heroImage.src.replace(/\.webp$/u, ".avif")} type="image/avif" /><img src={heroImage.src} alt={heroImage.alt} width={heroImage.width} height={heroImage.height} fetchPriority="high" /></picture>{heroImage.caption ? <figcaption>{heroImage.caption}</figcaption> : null}</figure> : images[0] ? <img src={images[0]} alt={version.h1} /> : null}</section><section className={styles.capabilityStrip}><div><Factory />{tr(locale, "Produksi terkontrol", "Kontrolowana produkcja", "Gecontroleerde productie")}</div><div><ShieldCheck />{tr(locale, "Spesifikasi dan QC", "Specyfikacja i QC", "Specificatie en QC")}</div><div><Globe2 />{tr(locale, "Ekspor ke pasar global", "Eksport na rynki międzynarodowe", "Export naar internationale markten")}</div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={5} /></section>{usesLocalizedCaseImages && detailImages.length ? <section className={styles.mediaBand}>{detailImages.map((image) => <figure className={styles.caseImage} key={image.id}><picture><source srcSet={image.src.replace(/\.webp$/u, ".avif")} type="image/avif" /><img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /></picture>{image.caption ? <figcaption>{image.caption}</figcaption> : null}</figure>)}</section> : images.length > 1 ? <section className={styles.mediaBand}>{images.slice(1).map((image, index) => <img key={image} src={image} alt={`${version.h1} ${index + 2}`} />)}</section> : null}<section className={styles.infoSection}><EditorialGrid version={version} start={5} /></section>{usesLocalizedCaseImages && version.faq.length ? <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, `Pertanyaan terkait ${version.h1}`, `Pytania dotyczące: ${version.h1}`, `Vragen over ${version.h1}`)}</h2></div><div className={styles.faqGrid}>{version.faq.map((item) => <article key={item.id}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section> : null}<FinalCta locale={locale} /></main>
+    <main className={`${styles.page} ${styles.corePage}`} data-page-family="core"><section className={styles.coreHero}><div><span>PowerBaseFit · {tr(locale, "Pasokan B2B", "Dostawy B2B", "B2B-levering")}</span><h1>{version.h1}</h1><p>{version.description}</p><a className={styles.primaryButton} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Diskusikan proyek", "Omów projekt", "Bespreek uw project")} <ArrowRight size={20} /></a></div>{usesLocalizedCaseImages && heroImage ? <figure className={styles.caseImage}><picture>{avifSibling(heroImage.src) ? <source srcSet={avifSibling(heroImage.src)} type="image/avif" /> : null}<img src={heroImage.src} alt={heroImage.alt} width={heroImage.width} height={heroImage.height} /></picture>{heroImage.caption ? <figcaption>{heroImage.caption}</figcaption> : null}</figure> : images[0] ? <img src={images[0]} alt={version.h1} /> : null}</section><section className={styles.capabilityStrip}><div><Factory />{tr(locale, "Produksi terkontrol", "Kontrolowana produkcja", "Gecontroleerde productie")}</div><div><ShieldCheck />{tr(locale, "Spesifikasi dan QC", "Specyfikacja i QC", "Specificatie en QC")}</div><div><Globe2 />{tr(locale, "Ekspor ke pasar global", "Eksport na rynki międzynarodowe", "Export naar internationale markten")}</div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={5} /></section>{usesLocalizedCaseImages && detailImages.length > 0 ? <section className={styles.mediaBand}>{detailImages.map((image) => <figure className={styles.caseImage} key={image.id}><picture>{avifSibling(image.src) ? <source srcSet={avifSibling(image.src)} type="image/avif" /> : null}<img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /></picture>{image.caption ? <figcaption>{image.caption}</figcaption> : null}</figure>)}</section> : images.length > 1 ? <section className={styles.mediaBand}>{images.slice(1).map((image, index) => <img key={image} src={image} alt={`${version.h1} ${index + 2}`} />)}</section> : null}<section className={styles.infoSection}><EditorialGrid version={version} start={5} /></section>{usesLocalizedCaseImages && version.faq.length > 0 ? <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, `Pertanyaan terkait ${version.h1}`, `Pytania dotyczące: ${version.h1}`, `Vragen over ${version.h1}`)}</h2></div><div className={styles.faqGrid}>{version.faq.map((item) => <article key={item.id}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section> : null}<FinalCta locale={locale} /></main>
   );
 }
 

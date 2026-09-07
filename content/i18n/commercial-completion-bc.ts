@@ -10,9 +10,11 @@ import { koAnswer, koChecklist, koDefinition, koreanEditorialAuthor, koreanTechn
 const releaseDate = "2026-07-22T02:00:00.000Z";
 
 type Family = "dumbbells" | "plates" | "accessories";
+type RetiredFamily = "racks";
 type Grade = "B" | "C";
 type ProductSource = { slug: string; name: string; range: string; type: string; image: string; gallery?: string[] };
-type Selection = { grade: Grade; family: Family; slug: string; pt: string; es: string; ko: string };
+type Selection = { grade: Grade; family: Family | RetiredFamily; slug: string; pt: string; es: string; ko: string };
+type ActiveSelection = Selection & { family: Family };
 
 const selections: Selection[] = [
   { grade:"B",family:"dumbbells",slug:"twelve-sided-steel-dumbbell",pt:"Halter dodecagonal de aço",es:"Mancuerna dodecagonal de acero",ko:"12각 스틸 덤벨" },
@@ -48,6 +50,27 @@ const selections: Selection[] = [
   { grade:"C",family:"plates",slug:"pu-plate-set",pt:"Conjunto de anilhas em PU",es:"Juego de discos de PU",ko:"PU 플레이트 세트" },
   { grade:"C",family:"plates",slug:"four-grip-cpu-plate",pt:"Anilha em CPU com quatro pegadas",es:"Disco de CPU con cuatro agarres",ko:"CPU 4그립 플레이트" },
 
+  { grade:"B",family:"racks",slug:"compact-cable-power-rack",pt:"Power rack compacto com cabos",es:"Jaula de potencia compacta con poleas",ko:"컴팩트 케이블 파워랙" },
+  { grade:"B",family:"racks",slug:"dual-pulley-smith-rack",pt:"Smith rack com polias duplas",es:"Rack Smith con doble polea",ko:"듀얼 풀리 스미스 랙" },
+  { grade:"B",family:"racks",slug:"storage-functional-trainer",pt:"Treinador funcional com armazenamento",es:"Entrenador funcional con almacenamiento",ko:"수납형 펑셔널 트레이너" },
+  { grade:"B",family:"racks",slug:"cable-crossover-functional-trainer",pt:"Treinador funcional crossover",es:"Entrenador funcional de cruce de poleas",ko:"케이블 크로스오버 펑셔널 트레이너" },
+  { grade:"B",family:"racks",slug:"adjustable-weight-bench",pt:"Banco de musculação ajustável",es:"Banco de musculación ajustable",ko:"조절식 웨이트 벤치" },
+  { grade:"B",family:"racks",slug:"smith-squat-frame",pt:"Estrutura Smith para agachamento",es:"Estructura Smith para sentadillas",ko:"스미스 스쿼트 프레임" },
+  { grade:"B",family:"racks",slug:"half-frame-squat-rack",pt:"Half rack para agachamento",es:"Half rack para sentadillas",ko:"하프 프레임 스쿼트 랙" },
+  { grade:"B",family:"racks",slug:"cable-crossover-machine",pt:"Máquina crossover de cabos",es:"Máquina de cruce de poleas",ko:"케이블 크로스오버 머신" },
+  { grade:"B",family:"racks",slug:"full-frame-squat-rack",pt:"Power rack fechado para agachamento",es:"Jaula completa para sentadillas",ko:"풀 프레임 스쿼트 랙" },
+  { grade:"B",family:"racks",slug:"smith-cable-crossover-machine",pt:"Smith Machine com crossover de cabos",es:"Máquina Smith con cruce de poleas",ko:"스미스 케이블 크로스오버 머신" },
+  { grade:"C",family:"racks",slug:"private-home-gym-rack-system",pt:"Sistema de rack para academia particular",es:"Sistema de rack para gimnasio privado",ko:"프라이빗 홈짐 랙 시스템" },
+  { grade:"C",family:"racks",slug:"home-gym-functional-trainer",pt:"Treinador funcional para home gym",es:"Entrenador funcional para gimnasio doméstico",ko:"홈짐 펑셔널 트레이너" },
+  { grade:"C",family:"racks",slug:"custom-home-gym-rack",pt:"Rack personalizado para home gym",es:"Rack personalizado para gimnasio doméstico",ko:"맞춤형 홈짐 랙" },
+  { grade:"C",family:"racks",slug:"cable-cross-functional-trainer",pt:"Treinador funcional cable cross",es:"Entrenador funcional cable cross",ko:"케이블 크로스 펑셔널 트레이너" },
+  { grade:"C",family:"racks",slug:"six-column-functional-trainer",pt:"Treinador funcional de seis colunas",es:"Entrenador funcional de seis columnas",ko:"6컬럼 펑셔널 트레이너" },
+  { grade:"C",family:"racks",slug:"eight-column-training-rack",pt:"Rack de treinamento de oito colunas",es:"Rack de entrenamiento de ocho columnas",ko:"8컬럼 트레이닝 랙" },
+  { grade:"C",family:"racks",slug:"wall-mounted-functional-trainer",pt:"Treinador funcional fixado na parede",es:"Entrenador funcional de pared",ko:"벽면형 펑셔널 트레이너" },
+  { grade:"C",family:"racks",slug:"floor-plate-cable-crossover",pt:"Crossover de cabos com bases de piso",es:"Cruce de poleas con bases de suelo",ko:"플로어 플레이트 케이블 크로스오버" },
+  { grade:"C",family:"racks",slug:"three-in-one-smith-functional-trainer",pt:"Treinador funcional Smith três em um",es:"Entrenador funcional Smith tres en uno",ko:"3-in-1 스미스 펑셔널 트레이너" },
+  { grade:"C",family:"racks",slug:"smith-dual-pulley-trainer",pt:"Treinador Smith com polias duplas",es:"Entrenador Smith con doble polea",ko:"스미스 듀얼 풀리 트레이너" },
+
   { grade:"B",family:"accessories",slug:"vinyl-kettlebell",pt:"Kettlebell revestido em vinil",es:"Kettlebell revestido de vinilo",ko:"비닐 코팅 케틀벨" },
   { grade:"B",family:"accessories",slug:"competition-kettlebell",pt:"Kettlebell de competição",es:"Kettlebell de competición",ko:"컴피티션 케틀벨" },
   { grade:"B",family:"accessories",slug:"rubber-coated-gym-handle-sets",pt:"Conjunto de puxadores emborrachados",es:"Juego de agarres recubiertos de caucho",ko:"고무 코팅 케이블 핸들 세트" },
@@ -57,18 +80,20 @@ const selections: Selection[] = [
   { grade:"B",family:"accessories",slug:"cable-machine-attachments",pt:"Acessórios para máquinas de cabos",es:"Accesorios para máquinas de poleas",ko:"케이블 머신 어태치먼트" }
 ];
 
+const activeSelections = selections.filter((selection): selection is ActiveSelection => selection.family !== "racks");
+
 const sourceCatalog = new Map<string, { family: Family; source: ProductSource }>();
 for (const [family, products] of [["dumbbells",dumbbellProducts],["plates",weightPlateProducts],["accessories",gymAccessoryProducts]] as const) {
   for (const source of products) sourceCatalog.set(source.slug, { family, source });
 }
 
 const roots = {
-  "pt-BR": { dumbbells:["/pt/produtos/halteres","dumbbells-category","Halteres"],plates:["/pt/produtos/anilhas","weight-plates-category","Anilhas"],racks:["/pt/produtos/racks-e-bancos","racks-benches-category","Racks e bancos"],accessories:["/pt/produtos/acessorios-de-academia","gym-accessories-category","Acessórios"] },
-  es: { dumbbells:["/es/productos/mancuernas","dumbbells-category","Mancuernas"],plates:["/es/productos/discos-de-peso","weight-plates-category","Discos de peso"],racks:["/es/productos/racks-y-bancos","racks-benches-category","Racks y bancos"],accessories:["/es/productos/accesorios-de-gimnasio","gym-accessories-category","Accesorios"] },
-  ko: { dumbbells:["/ko/products/dumbbells","dumbbells-category","덤벨"],plates:["/ko/products/weight-plates","weight-plates-category","웨이트 플레이트"],racks:["/ko/products/racks-benches","racks-benches-category","랙과 벤치"],accessories:["/ko/products/gym-accessories","gym-accessories-category","헬스장 액세서리"] }
+  "pt-BR": { dumbbells:["/pt/produtos/halteres","dumbbells-category","Halteres"],plates:["/pt/produtos/anilhas","weight-plates-category","Anilhas"],accessories:["/pt/produtos/acessorios-de-academia","gym-accessories-category","Acessórios"] },
+  es: { dumbbells:["/es/productos/mancuernas","dumbbells-category","Mancuernas"],plates:["/es/productos/discos-de-peso","weight-plates-category","Discos de peso"],accessories:["/es/productos/accesorios-de-gimnasio","gym-accessories-category","Accesorios"] },
+  ko: { dumbbells:["/ko/products/dumbbells","dumbbells-category","덤벨"],plates:["/ko/products/weight-plates","weight-plates-category","웨이트 플레이트"],accessories:["/ko/products/gym-accessories","gym-accessories-category","헬스장 액세서리"] }
 } as const;
 
-function publicSlug(locale: "pt-BR"|"es"|"ko", selection: Selection) {
+function publicSlug(locale: "pt-BR"|"es"|"ko", selection: ActiveSelection) {
   if (locale === "ko") return selection.slug;
   const text = locale === "pt-BR" ? selection.pt : selection.es;
   return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
@@ -111,7 +136,7 @@ function profileFocus(family: Family, locale: "pt-BR"|"es"|"ko") {
 
 function imageSet(source: ProductSource, name: string, locale: "pt-BR"|"es"|"ko", family: Family): LocalizedImage[] {
   const gallery = [source.image,...(source.gallery ?? [])].filter((item,index,array)=>array.indexOf(item)===index);
-  const process = family === "dumbbells" ? "/assets/dumbbell-production.webp" : family === "plates" ? "/assets/factory-process/plate-surface-treatment.webp" : "/assets/factory-cases/packaging-area-pbf.webp";
+  const process = family === "dumbbells" ? "/assets/dumbbell-production.avif" : family === "plates" ? "/assets/factory-process/plate-surface-treatment.webp" : "/assets/factory-cases/packaging-area-pbf.webp";
   const captions = locale === "pt-BR" ? [`Vista real do produto ${name}`,`Detalhes reais de ${name}`,`Produção, inspeção e embalagem relacionadas a ${name}`] : locale === "es" ? [`Vista real del producto ${name}`,`Detalles reales de ${name}`,`Producción, inspección y embalaje relacionados con ${name}`] : [`${name} 실제 제품 이미지`,`${name} 실제 제품 세부`,`${name} 생산·검사·포장 정보`];
   return [gallery[0],gallery[1] ?? process,process].filter((item,index,array)=>array.indexOf(item)===index).slice(0,3).map((src,index)=>({id:`image-${index+1}`,src,alt:captions[index] ?? captions.at(-1)!,caption:captions[index] ?? captions.at(-1)!}));
 }
@@ -120,7 +145,7 @@ function base(locale: "pt-BR"|"es"|"ko", slug: string, publicPath: string, title
   return { locale,translationStatus:"localized",reviewStatus:"approved",publishStatus:"published",slug,publicPath,title,description,h1,body,faq,author:locale==="pt-BR"?ptBrEditorialAuthor:locale==="es"?spanishEditorialAuthor:koreanEditorialAuthor,reviewedBy:locale==="pt-BR"?ptBrTechnicalReviewer:locale==="es"?spanishTechnicalReviewer:koreanTechnicalReviewer,schemaData,images,internalLinks,canonicalData:{mode:"self"},hreflangData:{include:true},updatedAt:releaseDate,publishedAt:releaseDate,version:1 };
 }
 
-function portugueseVersion(entity: ContentEntity, selection: Selection, source: ProductSource): LocalizedContentVersion {
+function portugueseVersion(entity: ContentEntity, selection: ActiveSelection, source: ProductSource): LocalizedContentVersion {
   const name=selection.pt, slug=publicSlug("pt-BR",selection), root=roots["pt-BR"][selection.family], path=`${root[0]}/${slug}`, range=localRange(source.range,"pt-BR"), material=localMaterial(source.type,"pt-BR"), focus=profileFocus(selection.family,"pt-BR");
   const keyword=selection.family==="accessories"?`${name.toLowerCase()} no atacado`:`fabricante de ${name.toLowerCase()}`;
   const body=[
@@ -145,7 +170,7 @@ function portugueseVersion(entity: ContentEntity, selection: Selection, source: 
   return base("pt-BR",slug,path,`${name}: fabricante e fornecimento B2B | PowerBaseFit`,`${keyword} com materiais, especificações, fabricação, QC, embalagem de exportação, OEM, marca própria e cotação para compradores B2B.`,`${name} para academias, distribuidores e marca própria`,body,faq,{sku:entity.versions.en?.schemaData.sku??`PBF-${selection.slug.toUpperCase()}`,brand:"PowerBaseFit",manufacturer:"PowerBaseFit",material,category:root[2],specifications:[{name:"Produto",value:name},{name:"Faixa",value:range}],breadcrumbs:[{name:"Início",path:"/pt"},{name:"Produtos",path:"/pt/produtos"},{name:root[2],path:root[0]},{name,path}],extra:{primaryKeyword:keyword,searchIntent:"avaliação de fornecedor e cotação B2B"}},imageSet(source,name,"pt-BR",selection.family),[{targetContentId:root[1],label:`Ver ${root[2].toLowerCase()}`},{targetContentId:"factory",label:"Fabricação e controle de qualidade"},{targetContentId:"oem-private-label",label:"OEM e marca própria"},{targetContentId:"contact",label:"Solicitar cotação"}]);
 }
 
-function spanishVersion(entity: ContentEntity, selection: Selection, source: ProductSource): LocalizedContentVersion {
+function spanishVersion(entity: ContentEntity, selection: ActiveSelection, source: ProductSource): LocalizedContentVersion {
   const name=selection.es, slug=publicSlug("es",selection), root=roots.es[selection.family], path=`${root[0]}/${slug}`, range=localRange(source.range,"es"), material=localMaterial(source.type,"es"), focus=profileFocus(selection.family,"es");
   const keyword=selection.family==="accessories"?`${name.toLowerCase()} al por mayor`:`fabricante de ${name.toLowerCase()}`;
   const body=[
@@ -170,7 +195,7 @@ function spanishVersion(entity: ContentEntity, selection: Selection, source: Pro
   return base("es",slug,path,`${name}: fabricante y suministro B2B | PowerBaseFit`,`${keyword} con materiales, especificaciones, fabricación, QC, embalaje de exportación, OEM, marca privada y oferta para compradores profesionales.`,`${name} para gimnasios, distribuidores y marca privada`,body,faq,{sku:entity.versions.en?.schemaData.sku??`PBF-${selection.slug.toUpperCase()}`,brand:"PowerBaseFit",manufacturer:"PowerBaseFit",material,category:root[2],specifications:[{name:"Producto",value:name},{name:"Rango",value:range}],breadcrumbs:[{name:"Inicio",path:"/es"},{name:"Productos",path:"/es/productos"},{name:root[2],path:root[0]},{name,path}],extra:{primaryKeyword:keyword,searchIntent:"evaluación de proveedor y solicitud de oferta B2B"}},imageSet(source,name,"es",selection.family),[{targetContentId:root[1],label:`Ver ${root[2].toLowerCase()}`},{targetContentId:"factory",label:"Fabricación y control de calidad"},{targetContentId:"oem-private-label",label:"OEM y marca privada"},{targetContentId:"contact",label:"Solicitar cotización"}]);
 }
 
-function koreanVersion(entity: ContentEntity, selection: Selection, source: ProductSource): LocalizedContentVersion {
+function koreanVersion(entity: ContentEntity, selection: ActiveSelection, source: ProductSource): LocalizedContentVersion {
   const name=selection.ko, slug=selection.slug, root=roots.ko[selection.family], path=`${root[0]}/${slug}`, range=localRange(source.range,"ko"), material=localMaterial(source.type,"ko"), focus=profileFocus(selection.family,"ko"), keyword=`${name} 제조업체`;
   const body=[
     koAnswer("quick","빠른 답변",`${name}은 ${focus}을 구체적으로 비교해야 하는 B2B 제품입니다. 견적 요청에는 모델, ${range}, 수량, 사용 환경, 커스텀 범위, 도착지, 합격 기준을 포함해야 하며 확인되지 않은 수치나 성능은 해당 모델 검토 전 확정하지 않습니다.`),
@@ -195,7 +220,7 @@ function koreanVersion(entity: ContentEntity, selection: Selection, source: Prod
 }
 
 export function withCommercialCompletionBC(manifest: ContentManifest): ContentManifest {
-  const byId = new Map(selections.map((selection)=>[`product:${selection.family}:${selection.slug}`,selection]));
+  const byId = new Map(activeSelections.map((selection)=>[`product:${selection.family}:${selection.slug}`,selection]));
   const found = new Set<string>();
   const entities = manifest.entities.map((entity)=>{
     const selection=byId.get(entity.id); if(!selection) return entity;
@@ -205,9 +230,9 @@ export function withCommercialCompletionBC(manifest: ContentManifest): ContentMa
     if(entity.versions["pt-BR"]||entity.versions.es||entity.versions.ko) throw new Error(`Batch 2 duplicates localized page: ${entity.id}`);
     return {...entity,versions:{...entity.versions,"pt-BR":portugueseVersion(entity,selection,record.source),es:spanishVersion(entity,selection,record.source),ko:koreanVersion(entity,selection,record.source)}};
   });
-  const missing=selections.filter((selection)=>!found.has(`product:${selection.family}:${selection.slug}`));
+  const missing=activeSelections.filter((selection)=>!found.has(`product:${selection.family}:${selection.slug}`));
   if(missing.length) throw new Error(`Batch 2 references unknown entities: ${missing.map((item)=>item.slug).join(", ")}`);
   return {...manifest,entities};
 }
 
-export const commercialCompletionBCSelections = selections;
+export const commercialCompletionBCSelections = activeSelections;
