@@ -1,0 +1,1895 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/dumbbell-head-handle-construction-guide",
+    "title": "Dumbbell Head-to-Handle Construction: Bulk Buyer Guide",
+    "description": "Compare welded, press-fit and mechanically secured dumbbell joints. Specify model evidence, sample tests, bulk acceptance and OEM change control before ordering.",
+    "h1": "How to Specify and Inspect Dumbbell Head-to-Handle Construction",
+    "keyword": "dumbbell head-to-handle construction",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Fixed dumbbell factory buying guide",
+    "sections": [
+      {
+        "heading": "Quick Answer for Wholesale Buyers",
+        "text": "Buy a documented connection system, not a process name. Ask how the metal head is retained on the handle, which parts and assembly steps provide that retention, and what evidence covers the exact weight and model you plan to order. Rubber or urethane on the outside does not establish the strength of the joint underneath.\n\nBefore placing a bulk order, agree the drawing revision, representative samples, test procedure, acceptance criteria and response to a loose head. PowerBaseFit is a free-weight factory; our team can review these requirements with distributors, importers, gym buyers and private-label brands before confirming a model-specific quotation."
+      },
+      {
+        "heading": "Which connection are you evaluating?",
+        "text": "This guide concerns fixed dumbbells with heads intended to remain securely attached during normal use. Some specialist dumbbells have deliberately rotating components; their documented design must be assessed separately. A fixed head that unexpectedly turns, rocks or moves along the handle should be removed from use for supplier assessment.\n\nDistinguish movement of a decorative cap or outer covering from movement of the metal head. Neither observation establishes the cause on its own. Photos show the external condition; the supplier needs the model identity, service history and, where appropriate, physical examination to determine what happened."
+      },
+      {
+        "heading": "Three construction descriptions to clarify",
+        "text": "### Welded joints\nAsk which components are welded and whether the process is friction welding or another method. A covered joint may be invisible after moulding. A photograph of a neat external shoulder cannot verify weld integrity.\n\n### Interference or press-fit assemblies\nThe fit depends on the specified mating dimensions and assembly method. Press fitting can also be combined with welding or mechanical retention. Ask for the complete design; the force rating of a press is not a finished-dumbbell performance result.\n\n### Mechanically secured assemblies\nRequest the retention and locking arrangement, inspection method and service instructions. A mechanically secured design is not automatically inferior, and it is not automatically user-serviceable. Avoid a purchasing specification that accepts or rejects every design based solely on whether it has a bolt."
+      },
+      {
+        "heading": "Separate three kinds of inspection evidence",
+        "text": "### Visual and dimensional checks\nCheck alignment, exposed damage, handle geometry and the accessible head-to-handle transitions. These checks can reveal visible nonconformities but cannot prove hidden joint integrity.\n\n### Joint retention testing\nAsk a competent supplier or laboratory to define the fixture, loading direction, procedure, measurements and pass/fail criteria for the intended design. Axial separation and rotation are different behaviours; one test result does not answer every question. Do not invent a universal pull force or torque limit.\n\n### Repeated-use or impact validation\nIf impact evidence is offered, identify the weight, surface, orientation, repetitions and examination after testing. A short video without these conditions is not comparable evidence. Tested specimens must be controlled and must not be returned to sale as untouched stock."
+      },
+      {
+        "heading": "Sample the construction changes within the range",
+        "text": "One attractive light sample cannot validate an entire commercial dumbbell set. Ask whether head geometry, handle diameter, materials or joint construction change across the weight range. Select representative samples at those changes and agree how production lots will be sampled.\n\nKeep routine batch acceptance separate from design validation. A report for a different weight, previous revision or different supplier component requires a documented explanation of applicability. Match sample identifiers, dated photographs and report references to the approved purchase specification."
+      },
+      {
+        "heading": "OEM and custom branding need revision control",
+        "text": "For OEM, ODM, Custom Logo and Private Label programmes, record which changes are cosmetic and which alter geometry, materials or assembly. A new end design, different head dimensions or changed handle can require another technical review. Approving artwork alone does not approve the structural assembly.\n\nFor Bulk Supply, compare quotations using the same model scope, weight mix, evidence package and packaging requirements. Ask the factory to quote samples, tooling, inspection and packing separately where applicable. MOQ and timing must be confirmed for the chosen configuration; no single value applies to every order."
+      },
+      {
+        "heading": "Receiving, transport protection and fault records",
+        "text": "Packaging should support the heavy heads and restrain movement without relying on the grip as the main support. The illustrated arrangement is a layout example; protection must be validated for the actual weight, carton and transport route. Record crushed cartons and product condition before discarding the packaging.\n\nIf unexpected head movement is found, segregate the affected units, identify the lot and notify the supplier. Preserve photos and purchase records. Do not improvise adhesive repairs, rewelding or tightening procedures. Agree who assesses the fault, whether related units require inspection, and how an approved replacement or remedy will be documented."
+      },
+      {
+        "heading": "What to include in the factory enquiry",
+        "text": "Send the intended commercial use, fixed-dumbbell style, weight range, units per weight, handle and head preferences, existing model reference, logo files and destination. Add a request for the construction description, applicable evidence, sampling proposal, acceptance criteria and after-sales handling. This gives the factory a concrete basis for review.\n\nTechnical references illustrating different documented constructions: [REP hex dumbbells](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko IUDB](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) and [Iron Grip dumbbells](https://irongrip.com/dumbbells-barbells/). Their model specifications do not establish the construction or performance of a PowerBaseFit product."
+      }
+    ],
+    "table": {
+      "heading": "Evidence to request before approving production",
+      "columns": [
+        "Buyer question",
+        "Useful evidence",
+        "What it does not prove"
+      ],
+      "rows": [
+        [
+          "What retains the head?",
+          "Model drawing and assembly description",
+          "A generic catalogue photo is insufficient"
+        ],
+        [
+          "Does it cover this weight?",
+          "Sample identity and configuration",
+          "A different size is not automatically equivalent"
+        ],
+        [
+          "How was retention checked?",
+          "Method, fixtures, results and acceptance rule",
+          "A process name is not a test result"
+        ],
+        [
+          "What changed after approval?",
+          "Revision and change record",
+          "Matching colour does not confirm matching construction"
+        ],
+        [
+          "How is a fault handled?",
+          "Lot identification and remedy procedure",
+          "A warranty slogan does not define the process"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Bulk inspection handover checklist",
+      "items": [
+        "Confirm model, weight marking, drawing revision and lot identity.",
+        "Check visible alignment, surface damage and accessible junctions against the approved sample.",
+        "Investigate unexpected rotation, rocking, gaps or noise using the agreed procedure.",
+        "Review applicable test records and sampling coverage before release.",
+        "Record rejected units and prevent their return to sale without an approved disposition."
+      ]
+    },
+    "faqHeading": "Frequently Asked Questions",
+    "faq": [
+      [
+        "Are welded dumbbells always better?",
+        "No. The complete design, materials, controlled assembly and applicable evidence matter. Different joint systems can be appropriate when properly specified and verified."
+      ],
+      [
+        "Can I judge the joint through its rubber covering?",
+        "You can assess the visible condition. You cannot establish hidden metal retention from the covering or a product photograph alone."
+      ],
+      [
+        "Does a drop video prove a whole order is acceptable?",
+        "No. Check the specimen, conditions and findings, then use the agreed batch acceptance plan. Design evidence and lot inspection serve different purposes."
+      ],
+      [
+        "Can a gym repair a loose fixed head?",
+        "Remove it from use and contact the supplier. Only follow an authorised, model-specific assessment and remedy; do not improvise a repair."
+      ],
+      [
+        "Should every weight use the same sample?",
+        "Ask where the construction changes. The sampling plan should cover relevant configurations rather than assume the smallest sample represents the range."
+      ],
+      [
+        "Does a logo change require new testing?",
+        "Not always. Review whether materials, geometry or assembly changed. Structural changes need an appropriate review before the revised product is released."
+      ]
+    ],
+    "linkHeading": "Products and related purchasing guidance",
+    "linkLabels": [
+      "Rubber hex dumbbells",
+      "Commercial dumbbell range",
+      "Pre-shipment inspection guide",
+      "OEM sample approval",
+      "Our factory",
+      "Request a construction review"
+    ],
+    "imageCopy": [
+      [
+        "Two unbranded rubber hex dumbbells with straight steel handles",
+        "Illustrative product arrangement for comparing head and handle geometry."
+      ],
+      [
+        "Close view of a steel handle shoulder entering a rubber hex head",
+        "The external junction can be inspected visually; hidden retention requires separate evidence."
+      ],
+      [
+        "A rubber hex dumbbell supported by its heads inside a fitted carton insert",
+        "Illustrative packing arrangement; validate protection for the chosen weight and route."
+      ]
+    ],
+    "cta": [
+      "Discuss your dumbbell construction specification",
+      "Send your weight range, intended use and branding requirements. Our factory team can review the model, sample plan and evidence needed for your order.",
+      "Request a factory review"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/fixacao-cabeca-cabo-halteres-atacado",
+    "title": "Fixação de Cabeça e Cabo de Halteres no Atacado",
+    "description": "Saiba o que exigir na união entre cabeça e cabo de halteres: construção, amostras, ensaios, recebimento e controle de alterações para compras no atacado.",
+    "h1": "Como avaliar a fixação da cabeça ao cabo de halteres para academia",
+    "keyword": "fixação de cabeça e cabo de halteres",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Orientação da fábrica para compras de halteres",
+    "sections": [
+      {
+        "heading": "O que o importador deve pedir primeiro",
+        "text": "Antes de fechar um lote de halteres, peça a descrição da união entre o cabo metálico e cada cabeça. Saber apenas que o produto é sextavado, emborrachado ou soldado não permite avaliar essa fixação. A borracha protege a superfície, mas não comprova a resistência do conjunto interno.\n\nPara academias, distribuidores e marcas próprias, a compra precisa relacionar modelo, pesos, revisão do desenho, amostras e critérios de aceitação. A PowerBaseFit é uma fábrica de pesos livres e pode analisar esses requisitos antes de confirmar a configuração e a cotação do pedido."
+      },
+      {
+        "heading": "Folga no revestimento não é o mesmo que folga estrutural",
+        "text": "O foco aqui é o halter fixo, cuja cabeça deve permanecer presa conforme o projeto. Existem equipamentos com componentes giratórios previstos em desenho; não se deve aplicar a mesma interpretação a todos. Se uma cabeça que deveria ser fixa gira, balança ou desliza de maneira inesperada, retire a unidade de uso e solicite avaliação.\n\nRegistre se o movimento parece estar na capa, no acabamento ou no núcleo metálico. Essa observação ajuda a comunicação, mas não substitui o diagnóstico. Guarde identificação do modelo, lote, fotos e histórico de uso, sem desmontar a peça por iniciativa própria."
+      },
+      {
+        "heading": "Entenda a construção oferecida pelo fornecedor",
+        "text": "### União soldada\nPergunte quais peças são unidas e qual processo é utilizado, inclusive se há soldagem por fricção. Depois da aplicação do revestimento, a região pode ficar escondida. A aparência do encontro entre borracha e metal não revela a qualidade da solda.\n\n### Montagem por interferência\nO encaixe depende das dimensões das peças e do processo de montagem. Pode trabalhar em conjunto com solda ou retenção mecânica. A capacidade nominal da prensa não é um resultado de ensaio do halter pronto.\n\n### Fixação mecânica\nPeça a descrição do travamento, da verificação e das condições de assistência. Ter um elemento de fixação não torna o produto automaticamente inferior, nem autoriza reaperto pela academia."
+      },
+      {
+        "heading": "Peça evidências que possam ser comparadas",
+        "text": "### Inspeção visual e dimensional\nConfira alinhamento, transições acessíveis, cabo e danos aparentes. Esses controles identificam problemas visíveis; não demonstram sozinhos a integridade da união interna.\n\n### Retenção da cabeça\nCombine com fornecedor ou laboratório competente o dispositivo, a direção da carga, o procedimento e o critério de aprovação. Resistência ao deslocamento axial e ao giro são avaliações diferentes. Não escolha um limite de força ou torque sem base técnica para o modelo.\n\n### Uso repetido e impacto\nQuando houver demonstração de impacto, peça identificação do peso, superfície, orientação, repetições e inspeção posterior. Um vídeo curto não representa todos os pesos do lote. Amostras submetidas a ensaio precisam de controle próprio e não devem voltar ao estoque como mercadoria intacta."
+      },
+      {
+        "heading": "Aprovação de amostras por família de construção",
+        "text": "Em uma linha comercial, o cabo ou a geometria da cabeça podem mudar entre pesos. Pergunte onde ocorrem essas mudanças e selecione amostras representativas. A menor unidade não deve ser tratada automaticamente como aprovação da linha inteira.\n\nSepare validação do projeto e inspeção de produção. Um relatório de outra revisão exige justificativa de aplicação. Relacione a amostra aprovada, as fotos e os registros ao pedido de compra; isso facilita a conferência tanto na origem quanto no recebimento pelo importador.\n\nQuando um documento não informa a revisão ou o peso avaliado, peça o complemento antes de considerá-lo aceito. Registre quem emitiu o relatório, qual amostra recebeu, o que foi efetivamente observado e quais pontos ficaram fora do escopo. Não confunda uma ficha comercial de características com um registro de ensaio. Se a fábrica propuser aproveitar um resultado existente, solicite a justificativa da equivalência entre as configurações e a indicação de eventuais diferenças. Essa análise deve ocorrer antes da liberação do lote, com responsabilidades definidas entre comprador, fabricante e responsável pela inspeção. Mantenha a decisão junto dos documentos do pedido para futuras reposições."
+      },
+      {
+        "heading": "Organize o recebimento para distribuição entre academias",
+        "text": "Quando o importador atende várias unidades, o lote pode ser dividido logo após o desembaraço e a entrada no depósito. Planeje a identificação antes dessa separação: cada remessa interna deve continuar ligada ao código de origem, ao peso e à versão aprovada. Etiquetas de localização do estoque não substituem a identificação do produto. Preserve a relação entre caixa, lote e destino para localizar unidades semelhantes se surgir uma ocorrência.\n\nEsclareça também se a cotação e a contagem se referem a peças ou a pares. Uma diferença de unidade comercial pode passar despercebida em uma planilha com muitos pesos. Na conferência, registre separadamente falta de quantidade, divergência de marcação, dano de transporte e movimento no conjunto. Esses registros exigem ações distintas e não devem ser reunidos em uma única descrição de “produto ruim”.\n\nSe uma academia relata folga, peça fotos e identificação antes de providenciar a troca. Combine a preservação da peça para avaliação e a inspeção das unidades relacionadas quando indicada. A solução comercial para o cliente não deve apagar os dados que permitem corrigir a especificação do próximo pedido."
+      },
+      {
+        "heading": "Marca própria, OEM e alterações no produto",
+        "text": "Em projetos OEM, ODM, Custom Logo e Private Label, aprove arte e construção como itens distintos. Trocar o formato da cabeça, o cabo ou materiais pode exigir nova análise, mesmo que a mudança tenha começado como personalização visual. Mantenha a revisão aprovada nas instruções do pedido.\n\nPara fornecimento em volume, ou Bulk Supply, compare o mesmo mix de pesos, embalagem e documentação. Solicite discriminação de amostras, ferramental e inspeção quando aplicável. Quantidade mínima e prazo dependem da configuração confirmada; uma cotação anterior não garante as mesmas condições para outro modelo."
+      },
+      {
+        "heading": "Recebimento do lote e tratamento de desvios",
+        "text": "O berço da embalagem deve apoiar as cabeças e limitar deslocamentos, sem concentrar o suporte na área de pegada. A imagem mostra uma disposição ilustrativa; a proteção precisa ser validada com o peso e a rota de transporte reais. Fotografe caixas danificadas antes de descartá-las.\n\nAo encontrar movimento inesperado, separe as unidades afetadas e preserve sua identificação. Combine com a fábrica a avaliação, a extensão da inspeção do lote e a solução aprovada. Cola, solda local e reapertos improvisados podem alterar a peça e dificultar a análise."
+      },
+      {
+        "heading": "Informações para uma consulta técnica à fábrica",
+        "text": "Envie aplicação em academia, estilo do halter, faixa de pesos, unidades por peso, medidas desejadas, destino e personalização. Inclua perguntas sobre construção, evidências disponíveis, amostragem, critérios de aceitação e atendimento após a entrega. Informe também como o produto será distribuído, para alinhar embalagem e rastreabilidade.\n\nExemplos públicos de especificações de construção: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) e [Iron Grip](https://irongrip.com/dumbbells-barbells/). Os dados desses modelos não comprovam características de um produto PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Documentos que tornam a compra verificável",
+      "columns": [
+        "Questão",
+        "O que solicitar",
+        "Limite da informação"
+      ],
+      "rows": [
+        [
+          "Como a cabeça fica presa?",
+          "Desenho e descrição de montagem",
+          "Foto externa não basta"
+        ],
+        [
+          "Qual peso foi avaliado?",
+          "Identificação completa da amostra",
+          "Outro peso pode ter construção diferente"
+        ],
+        [
+          "Como foi ensaiado?",
+          "Procedimento, resultado e aceitação",
+          "Nome do processo não é resultado"
+        ],
+        [
+          "Houve alteração?",
+          "Histórico de revisão",
+          "Cor igual não garante conjunto igual"
+        ],
+        [
+          "Como tratar uma falha?",
+          "Rastreabilidade e solução acordada",
+          "Frase de garantia não define atendimento"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist para liberar o recebimento",
+      "items": [
+        "Conferir modelo, peso, lote e revisão aprovada.",
+        "Comparar alinhamento e encontros acessíveis com a amostra de referência.",
+        "Investigar folga, giro, ruído ou abertura inesperados pelo procedimento acordado.",
+        "Verificar cobertura dos registros e da amostragem do lote.",
+        "Identificar e segregar unidades reprovadas até decisão documentada."
+      ]
+    },
+    "faqHeading": "Perguntas frequentes",
+    "faq": [
+      [
+        "Halter soldado é sempre melhor?",
+        "Não basta escolher pelo nome do processo. Projeto completo, materiais, montagem e evidências aplicáveis devem ser avaliados juntos."
+      ],
+      [
+        "A borracha permite verificar a fixação interna?",
+        "Permite observar a condição externa. Não demonstra como o núcleo metálico está preso ao cabo."
+      ],
+      [
+        "Um vídeo de queda aprova o pedido?",
+        "Não. É necessário conhecer as condições e a amostra, além de aplicar o plano de aceitação do lote."
+      ],
+      [
+        "A academia pode consertar uma cabeça solta?",
+        "Retire o halter de uso e procure o fornecedor. Siga apenas uma avaliação e solução autorizadas para o modelo."
+      ],
+      [
+        "É preciso amostrar todos os pesos da mesma forma?",
+        "O plano deve considerar diferenças de construção e risco, sem presumir que uma peça leve representa toda a linha."
+      ],
+      [
+        "Mudar o logo exige novo ensaio?",
+        "Depende do que foi alterado. Mudanças em materiais, geometria ou montagem precisam de revisão técnica adequada."
+      ]
+    ],
+    "linkHeading": "Produtos e apoio à compra",
+    "linkLabels": [
+      "Halter sextavado emborrachado",
+      "Linha de halteres",
+      "Inspeção antes do embarque",
+      "Aprovação de amostras OEM",
+      "Conheça a fábrica",
+      "Solicite análise da construção"
+    ],
+    "imageCopy": [
+      [
+        "Dois halteres sextavados sem marca com cabos metálicos retos",
+        "Composição ilustrativa para observar proporções de cabeças e cabos."
+      ],
+      [
+        "Encontro entre o ombro metálico do cabo e a cabeça emborrachada",
+        "A inspeção externa não substitui evidência da retenção interna."
+      ],
+      [
+        "Halter apoiado pelas cabeças em um berço dentro da caixa",
+        "Exemplo de disposição da embalagem, sujeito à validação do peso e transporte."
+      ]
+    ],
+    "cta": [
+      "Revise a construção do seu pedido de halteres",
+      "Envie o mix de pesos, a aplicação e a personalização. Nossa fábrica pode discutir amostras, documentação e aceitação para a configuração escolhida.",
+      "Consultar a fábrica"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/union-cabeza-mango-mancuernas-mayoristas",
+    "title": "Unión Cabeza-Mango de Mancuernas: Guía Mayorista",
+    "description": "Qué pedir al fabricante para evaluar la unión de cabeza y mango: diseño, pruebas, muestras, recepción y cambios OEM en pedidos mayoristas de mancuernas.",
+    "h1": "Cómo evaluar la unión entre cabeza y mango de mancuernas al por mayor",
+    "keyword": "unión cabeza mango mancuernas",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Criterios de fábrica para comprar mancuernas",
+    "sections": [
+      {
+        "heading": "Una especificación útil empieza por la unión",
+        "text": "Para comparar ofertas de mancuernas fijas, pida que cada fabricante explique cómo queda retenida la cabeza metálica sobre el mango. El caucho exterior y la forma hexagonal no describen esa unión. Tampoco basta la palabra «soldada» para conocer el comportamiento del conjunto terminado.\n\nLa orden de compra debe vincular modelo, pesos, revisión, muestras, procedimiento de comprobación y aceptación. PowerBaseFit es una fábrica de pesos libres: revisamos estos requisitos con importadores, distribuidores, marcas y responsables de gimnasios antes de confirmar la propuesta para una configuración concreta."
+      },
+      {
+        "heading": "Delimite el producto y el movimiento observado",
+        "text": "Estas pautas se refieren a mancuernas fijas. Algunos diseños especiales incorporan elementos giratorios previstos por el fabricante y requieren su propia documentación. Cuando una cabeza destinada a permanecer fija gira, se balancea o se desplaza inesperadamente, retire la unidad del uso y solicite evaluación.\n\nAnote si se mueve una tapa, el revestimiento o la masa metálica. La descripción ayuda a investigar, pero no identifica por sí sola la causa. Conserve referencia, lote, fotografías y antecedentes de uso; evite desmontar la pieza antes de recibir instrucciones."
+      },
+      {
+        "heading": "No confunda el nombre del proceso con la calidad",
+        "text": "### Construcción soldada\nPregunte qué componentes se sueldan y con qué proceso. La soldadura por fricción es una posibilidad, no una descripción completa de cualquier mancuerna. Tras el recubrimiento, la unión puede quedar oculta.\n\n### Ajuste por interferencia\nLa retención depende de dimensiones y montaje definidos. Puede combinarse con soldadura o fijación mecánica. La capacidad de una prensa no constituye una prueba de resistencia del producto acabado.\n\n### Retención mecánica\nSolicite detalles de bloqueo, control y servicio. Un sistema mecánico no es automáticamente peor; tampoco implica que el gimnasio deba apretarlo o repararlo. Evalúe el conjunto documentado, no un único elemento visible."
+      },
+      {
+        "heading": "Diferencie comprobación externa y ensayo de la unión",
+        "text": "### Aspecto y dimensiones\nCompruebe alineación, mango, daños y transiciones accesibles. Son controles necesarios, pero no demuestran la integridad de una unión metálica cubierta.\n\n### Retención axial y frente al giro\nPida al proveedor o a un laboratorio competente que defina montaje de ensayo, dirección de carga, método, medidas y criterio de aceptación. El desplazamiento axial y el giro no son el mismo fenómeno. No adopte un límite universal de fuerza o par sin fundamento para ese diseño.\n\n### Uso repetido o impacto\nSi recibe un vídeo, solicite peso ensayado, superficie, orientación, repeticiones y examen posterior. Sin condiciones identificables no puede comparar resultados. Las piezas ensayadas deben mantenerse controladas y no venderse como unidades nuevas sin uso."
+      },
+      {
+        "heading": "Muestras que representen el surtido mayorista",
+        "text": "Un surtido de gimnasio puede incorporar cambios de mango, cabeza o montaje según el peso. Identifique esos puntos con el fabricante y acuerde muestras representativas. Una unidad ligera bien acabada no valida automáticamente las referencias pesadas.\n\nSepare la validación del diseño de la inspección del lote. Los informes de otra revisión o configuración necesitan una justificación documentada. Conserve las muestras de referencia y relacione cada registro con la especificación aprobada, para que comprador e inspector utilicen el mismo criterio.\n\nSi un documento omite el peso o la revisión evaluada, solicite la aclaración antes de aceptarlo como evidencia. Registre quién emitió el informe, qué muestra recibió, qué observó y qué quedó fuera del alcance. Una ficha comercial de características no equivale a un registro de ensayo. Cuando el fabricante proponga reutilizar un resultado, pida la justificación de equivalencia entre configuraciones y la descripción de las diferencias. Defina quién revisa esa información y quién autoriza la aceptación. Conserve la decisión con el pedido para que una reposición posterior no se base únicamente en la fotografía o el nombre comercial del producto."
+      },
+      {
+        "heading": "Mantenga la trazabilidad al repartir el surtido",
+        "text": "Un mayorista puede recibir el pedido completo y distribuirlo después entre distintos gimnasios. Defina cómo conservará la relación entre caja de origen, lote, referencia y destinatario durante ese reparto. Una etiqueta de almacén sirve para localizar existencias, pero no sustituye la identificación de la configuración aprobada. Si aparece una incidencia, estos registros permiten localizar las unidades relacionadas sin confundirlas con otra reposición.\n\nAclare si cada línea de la oferta indica unidades o parejas. Revise también el sistema de marcado de masa solicitado, especialmente cuando el catálogo de origen contiene variantes con otras unidades. Un error de cantidad o marcaje no es el mismo problema que una holgura estructural. Registre por separado faltas, daños del transporte, diferencias de referencia y movimiento inesperado.\n\nPara tramitar una sustitución, conserve fotografías e identificación de la pieza retirada. Acuerde si debe mantenerse disponible para examen y qué información necesita el proveedor. Resolver la entrega comercial al gimnasio y documentar la investigación son tareas complementarias; ambas ayudan a definir correctamente el siguiente suministro."
+      },
+      {
+        "heading": "OEM, marca privada y costes comparables",
+        "text": "En proyectos OEM, ODM, Custom Logo y Private Label, la aprobación gráfica debe distinguirse de la aprobación estructural. Un extremo personalizado, nuevas dimensiones o un mango distinto pueden cambiar la construcción. Registre quién autoriza cada revisión antes de producir.\n\nPara suministro en volumen, Bulk Supply, iguale el alcance de las ofertas: pesos, cantidades, muestras, controles y embalaje. Solicite partidas separadas cuando corresponda. La cantidad mínima y el plazo se confirman según la configuración; no deben extrapolarse desde otra referencia."
+      },
+      {
+        "heading": "Recepción y gestión de unidades con movimiento",
+        "text": "El embalaje debe sostener las cabezas y limitar el desplazamiento, evitando que la carga principal recaiga sobre la zona de agarre. La disposición ilustrada requiere validación con el peso, la caja y el transporte elegidos. Documente golpes en el embalaje y estado del producto al recibirlo.\n\nSi aparece movimiento inesperado, separe las unidades afectadas e identifique el lote. Acuerde evaluación, alcance de inspección adicional y solución con el proveedor. No improvise adhesivos, soldaduras o reaprietes: alteran el conjunto y pueden ocultar el origen del problema."
+      },
+      {
+        "heading": "Prepare una consulta que el fabricante pueda responder",
+        "text": "Indique uso profesional, formato fijo, rango de pesos, unidades por referencia, geometría deseada, destino y archivos de marca. Añada la solicitud de descripción de montaje, pruebas aplicables, plan de muestras, aceptación y procedimiento de incidencias. Así la oferta incorpora requisitos verificables.\n\nReferencias públicas de diseños documentados: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) e [Iron Grip](https://irongrip.com/dumbbells-barbells/). Sus especificaciones corresponden a sus modelos y no acreditan productos PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Qué documento responde a cada pregunta",
+      "columns": [
+        "Pregunta del comprador",
+        "Evidencia útil",
+        "Límite"
+      ],
+      "rows": [
+        [
+          "¿Cómo se retiene la cabeza?",
+          "Plano y descripción de montaje",
+          "Una fotografía no muestra el interior"
+        ],
+        [
+          "¿Qué referencia se comprobó?",
+          "Identificación de muestra y peso",
+          "Otro tamaño puede ser distinto"
+        ],
+        [
+          "¿Cómo se evaluó?",
+          "Método, resultados y aceptación",
+          "El proceso no equivale al resultado"
+        ],
+        [
+          "¿Cambió la construcción?",
+          "Registro de revisiones",
+          "El color no identifica la revisión"
+        ],
+        [
+          "¿Cómo se resuelve una incidencia?",
+          "Lote y procedimiento acordado",
+          "Un eslogan de garantía no basta"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Lista para la aceptación del lote",
+      "items": [
+        "Verificar modelo, peso, lote y revisión de compra.",
+        "Comparar alineación y zonas accesibles con la muestra aprobada.",
+        "Investigar giros, holguras, ruidos o separaciones inesperados.",
+        "Revisar correspondencia de informes y cobertura de muestreo.",
+        "Segregar unidades rechazadas hasta documentar su destino."
+      ]
+    },
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      [
+        "¿Una mancuerna soldada siempre es superior?",
+        "No. Valore diseño, materiales, montaje controlado y evidencias del modelo completo."
+      ],
+      [
+        "¿El revestimiento demuestra la resistencia interna?",
+        "No. Su aspecto permite evaluar la superficie, pero no la retención del núcleo sobre el mango."
+      ],
+      [
+        "¿Basta un vídeo de caída?",
+        "No. Debe identificar condiciones y muestra; además hace falta el plan de aceptación del pedido."
+      ],
+      [
+        "¿Se puede reparar una cabeza suelta en el gimnasio?",
+        "Retire la pieza del uso y solicite una solución autorizada para ese modelo. No improvise reparaciones."
+      ],
+      [
+        "¿Sirve una muestra para todo el rango?",
+        "Solo si existe una justificación adecuada. El plan debe considerar las configuraciones que cambian."
+      ],
+      [
+        "¿Cambiar el logotipo obliga a repetir pruebas?",
+        "Depende de si cambia la geometría, el material o el montaje. Revise técnicamente cualquier modificación estructural."
+      ]
+    ],
+    "linkHeading": "Productos y documentos de compra",
+    "linkLabels": [
+      "Mancuernas hexagonales de caucho",
+      "Catálogo de mancuernas",
+      "Inspección previa al embarque",
+      "Aprobación de muestras OEM",
+      "Nuestra fábrica",
+      "Consultar la construcción"
+    ],
+    "imageCopy": [
+      [
+        "Dos mancuernas hexagonales sin marca con mangos rectos de acero",
+        "Disposición ilustrativa para comparar geometría de cabezas y mangos."
+      ],
+      [
+        "Detalle del encuentro entre mango metálico y cabeza recubierta",
+        "El exterior no demuestra la integridad de la retención oculta."
+      ],
+      [
+        "Mancuerna apoyada por las cabezas en un inserto de cartón",
+        "Ejemplo de embalaje que debe validarse para el peso y la ruta reales."
+      ]
+    ],
+    "cta": [
+      "Revise la unión antes de cerrar su pedido",
+      "Envíe pesos, aplicación y personalización. Nuestro equipo de fábrica puede revisar la configuración, las muestras y la documentación requerida.",
+      "Solicitar revisión de fábrica"
+    ]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/kurzhantel-kopf-griff-verbindung-pruefen",
+    "title": "Kurzhantel-Verbindung prüfen: Leitfaden für Einkäufer",
+    "description": "Kopf-Griff-Verbindungen von Kurzhanteln beurteilen: Bauart, Prüfnachweise, Referenzmuster, Wareneingang und OEM-Änderungen für Studio- und Großhandelsbestellungen.",
+    "h1": "Kopf-Griff-Verbindungen von Kurzhanteln für den Studioeinkauf prüfen",
+    "keyword": "Kurzhantel Kopf Griff Verbindung prüfen",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "Einkaufswissen aus der Hantelfabrik",
+    "sections": [
+      {
+        "heading": "Die Verbindung als Beschaffungsmerkmal festlegen",
+        "text": "Bei einer Kompakthantel muss der Einkauf wissen, wie der Metallkopf am Griff gehalten wird. Gummierung, Kopfform und die Angabe „geschweißt“ reichen dafür nicht aus. Entscheidend sind die vollständige Konstruktion und Nachweise, die zur bestellten Ausführung passen.\n\nVereinbaren Sie Zeichnungsstand, Gewichtsstufen, Referenzmuster, Prüfverfahren und Annahmekriterien vor der Serienfreigabe. PowerBaseFit fertigt Freihanteln und kann diese Anforderungen mit Studiobetreibern, Importeuren und Handelsmarken für eine konkrete Angebotskonfiguration abstimmen."
+      },
+      {
+        "heading": "Feststehende Köpfe und andere Bauarten unterscheiden",
+        "text": "Der Leitfaden behandelt Hanteln, deren Köpfe konstruktiv fest mit dem Griff verbunden bleiben sollen. Bewusst drehende Bauteile spezieller Modelle benötigen eine eigene Bewertung. Unerwartetes Drehen, Kippen oder axiales Wandern eines feststehenden Kopfes ist ein Anlass, die Hantel aus dem Betrieb zu nehmen und den Lieferanten einzuschalten.\n\nHalten Sie fest, ob eine Kappe, die Ummantelung oder der Metallkörper bewegt erscheint. Das beschreibt den Befund, beweist aber noch keine Ursache. Modell, Charge, Fotos und Nutzungshistorie erleichtern die Untersuchung."
+      },
+      {
+        "heading": "Welche Bauart nennt das Angebot?",
+        "text": "### Schweißverbindung\nFragen Sie nach den verbundenen Bauteilen und dem konkreten Verfahren. Reibschweißen ist eine mögliche Ausführung. Eine später ummantelte Verbindung lässt sich anhand einer Produktaufnahme nicht auf innere Fehler beurteilen.\n\n### Press- oder Übermaßpassung\nMaße, Passung und Montageablauf wirken zusammen. Eine Presspassung kann zusätzlich geschweißt oder mechanisch gesichert sein. Die Nennkraft der Presse ersetzt keinen Nachweis am fertigen Produkt.\n\n### Mechanische Sicherung\nLassen Sie Sicherungsprinzip, Kontrolle und Servicevorgaben erklären. Mechanische Befestigung ist nicht grundsätzlich minderwertig und auch keine Aufforderung zum Nachziehen im Studio."
+      },
+      {
+        "heading": "Prüfberichte nach ihrer Aussagekraft lesen",
+        "text": "### Sicht- und Maßprüfung\nAusrichtung, Griffgeometrie und zugängliche Übergänge sind kontrollierbar. Verdeckte Verbindungsfehler lassen sich dadurch nicht ausschließen.\n\n### Haltefunktion der Verbindung\nHersteller oder fachkundiges Prüflabor sollten Aufnahme, Belastungsrichtung, Ablauf, Messgrößen und Bewertung definieren. Ausziehen und Verdrehen sind unterschiedliche Beanspruchungen. Ein pauschaler Kraft- oder Drehmomentwert ohne Bezug zur Konstruktion ist keine belastbare Einkaufsanforderung.\n\n### Wiederholte Beanspruchung und Stoß\nPrüfgewicht, Untergrund, Ausrichtung, Wiederholungen und anschließende Untersuchung müssen dokumentiert sein. Ein kurzes Video ohne diese Angaben erlaubt keinen Vergleich. Geprüfte Prüfkörper sind gesondert zu führen und dürfen nicht als unbenutzte Ware zurücklaufen."
+      },
+      {
+        "heading": "Gewichtsreihe und Seriencharge getrennt betrachten",
+        "text": "Kopfabmessungen, Griffdurchmesser oder Befestigung können innerhalb einer Hantelreihe wechseln. Lassen Sie solche Übergänge benennen und legen Sie repräsentative Muster dafür fest. Das kleinste Muster deckt die gesamte Reihe nicht automatisch ab.\n\nEine Konstruktionsprüfung und eine Chargenabnahme beantworten verschiedene Fragen. Prüfnachweise älterer Revisionen oder anderer Gewichtsstufen benötigen eine nachvollziehbare Übertragungsbegründung. Zeichnung, Musterkennzeichnung und Prüfbericht müssen zusammenpassen."
+      },
+      {
+        "heading": "OEM-Freigabe und Handelsmarke kontrollieren",
+        "text": "Bei OEM, ODM, Custom Logo und Private Label sollten Grafikfreigabe und technische Freigabe getrennt dokumentiert werden. Ein neuer Kopfabschluss, anderes Material oder geänderter Griff kann die Baugruppe beeinflussen. Prüfen Sie solche Änderungen vor der Freigabe der neuen Revision.\n\nFür Großmengen, Bulk Supply, müssen Angebote denselben Umfang enthalten: Gewichtsmix, Muster, Prüfungen und Verpackung. Werkzeug-, Muster- und Prüfkosten sollten bei Bedarf einzeln ausgewiesen werden. Mindestmenge und Lieferzeit werden für die gewählte Ausführung bestätigt."
+      },
+      {
+        "heading": "Wareneingang und Abweichungen dokumentieren",
+        "text": "Die Verpackung soll die schweren Köpfe abstützen und Bewegungen begrenzen. Der Griffbereich sollte nicht die Hauptlast tragen. Die Abbildung zeigt ein Verpackungsbeispiel; die Eignung ist mit realem Gewicht, Karton und Transportweg zu prüfen. Beschädigte Kartons vor dem Entsorgen fotografieren.\n\nBei unerwartetem Spiel betroffene Ware sperren, Charge erfassen und mit dem Lieferanten das weitere Vorgehen abstimmen. Keine improvisierten Klebe-, Schweiß- oder Nachziehversuche. Vereinbaren Sie Untersuchung, mögliche Ausweitung der Kontrolle und eine dokumentierte Abhilfe."
+      },
+      {
+        "heading": "Technische Anfrage für ein vergleichbares Angebot",
+        "text": "Nennen Sie Studioeinsatz, Hantelbauart, Gewichtsstufen, Stückzahlen, gewünschte Geometrie, Kennzeichnung und Bestimmungsort. Fordern Sie Konstruktionsbeschreibung, anwendbare Nachweise, Stichprobenplan, Annahmekriterien und Reklamationsablauf an.\n\nÖffentliche Konstruktionsangaben finden sich beispielsweise bei [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) und [Iron Grip](https://irongrip.com/dumbbells-barbells/). Diese Angaben gelten für deren Modelle und belegen keine PowerBaseFit-Produkteigenschaft."
+      }
+    ],
+    "table": {
+      "heading": "Nachweismatrix für die Bestellung",
+      "columns": [
+        "Einkaufsfrage",
+        "Geeignete Unterlage",
+        "Grenze"
+      ],
+      "rows": [
+        [
+          "Was hält den Kopf?",
+          "Zeichnung und Montagebeschreibung",
+          "Außenfoto zeigt nicht die gesamte Verbindung"
+        ],
+        [
+          "Welche Ausführung wurde geprüft?",
+          "Muster- und Gewichtskennzeichnung",
+          "Andere Größe kann anders aufgebaut sein"
+        ],
+        [
+          "Wie wurde geprüft?",
+          "Verfahren, Ergebnis und Bewertung",
+          "Verfahrensname ist kein Ergebnis"
+        ],
+        [
+          "Was wurde geändert?",
+          "Revisionshistorie",
+          "Gleiche Farbe bedeutet nicht gleiche Bauart"
+        ],
+        [
+          "Wie läuft die Reklamation?",
+          "Chargenzuordnung und Abhilfeprozess",
+          "Werbeaussage ersetzt keine Vereinbarung"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Kontrollen für die Chargenfreigabe",
+      "items": [
+        "Modell, Gewicht, Charge und Zeichnungsstand abgleichen.",
+        "Ausrichtung und sichtbare Übergänge mit dem Referenzmuster vergleichen.",
+        "Unerwartetes Spiel, Drehen, Geräusche oder Spalte nach vereinbartem Verfahren untersuchen.",
+        "Anwendbarkeit der Nachweise und Stichprobenumfang kontrollieren.",
+        "Gesperrte Ware bis zur dokumentierten Entscheidung getrennt halten."
+      ]
+    },
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      [
+        "Sind geschweißte Kurzhanteln grundsätzlich besser?",
+        "Nein. Konstruktion, Werkstoffe, beherrschte Montage und passende Nachweise müssen gemeinsam bewertet werden."
+      ],
+      [
+        "Kann die Gummierung die Verbindung bestätigen?",
+        "Sie zeigt den äußeren Zustand. Die innere Haltefunktion lässt sich daraus nicht ableiten."
+      ],
+      [
+        "Reicht ein Falltestvideo für die Abnahme?",
+        "Nein. Prüfling und Bedingungen müssen bekannt sein; zusätzlich gilt der vereinbarte Chargenprüfplan."
+      ],
+      [
+        "Darf das Studio einen lockeren Kopf reparieren?",
+        "Hantel außer Betrieb nehmen und eine modellspezifisch autorisierte Lösung vom Lieferanten einholen."
+      ],
+      [
+        "Genügt ein Muster für alle Gewichte?",
+        "Nur mit geeigneter Begründung. Konstruktive Unterschiede müssen im Musterplan berücksichtigt werden."
+      ],
+      [
+        "Muss nach einem Logowechsel erneut geprüft werden?",
+        "Nicht zwangsläufig. Änderungen an Geometrie, Material oder Montage erfordern jedoch eine angemessene technische Bewertung."
+      ]
+    ],
+    "linkHeading": "Produkte und Beschaffungsunterlagen",
+    "linkLabels": [
+      "Gummierte Hex-Kurzhantel",
+      "Kurzhantelsortiment",
+      "Inspektion vor dem Versand",
+      "OEM-Musterfreigabe",
+      "Unsere Fertigung",
+      "Konstruktion anfragen"
+    ],
+    "imageCopy": [
+      [
+        "Zwei unmarkierte Hex-Kurzhanteln mit geraden Metallgriffen",
+        "Illustrative Produktanordnung zur Betrachtung von Kopf- und Griffgeometrie."
+      ],
+      [
+        "Nahaufnahme des Übergangs zwischen Griffschulter und Gummikopf",
+        "Die sichtbare Verbindung ersetzt keinen Nachweis der inneren Befestigung."
+      ],
+      [
+        "An den Köpfen abgestützte Kurzhantel im Kartoneinsatz",
+        "Verpackungsbeispiel, dessen Eignung für Gewicht und Transport zu prüfen ist."
+      ]
+    ],
+    "cta": [
+      "Ihre Kopf-Griff-Verbindung technisch abstimmen",
+      "Senden Sie Gewichtsmix, Einsatz und Markenanforderungen. Unser Werk kann die Ausführung, Muster und erforderlichen Nachweise mit Ihnen prüfen.",
+      "Technische Anfrage senden"
+    ]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/assemblage-tete-poignee-halteres-achat-gros",
+    "title": "Assemblage des haltères : tête et poignée, achat en gros",
+    "description": "Évaluez la liaison tête-poignée des haltères : construction, preuves d’essai, échantillons, réception et modifications OEM avant une commande professionnelle.",
+    "h1": "Comment vérifier la liaison tête-poignée des haltères avant un achat en gros",
+    "keyword": "liaison tête poignée haltères",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "Conseils d’achat du fabricant d’haltères",
+    "sections": [
+      {
+        "heading": "Inscrire la liaison dans le cahier des charges",
+        "text": "Pour acheter des haltères fixes destinés à une salle ou à un réseau de distribution, demandez comment chaque tête métallique est retenue sur la poignée. Le revêtement en caoutchouc, la forme hexagonale ou le mot « soudé » ne constituent pas une description suffisante de l’assemblage.\n\nLe dossier d’achat doit relier référence, masses, version du dessin, échantillons et critères de réception. PowerBaseFit est une usine de poids libres ; nous pouvons examiner ces exigences avec les importateurs, distributeurs et marques privées avant de confirmer une proposition adaptée au modèle."
+      },
+      {
+        "heading": "Identifier ce qui bouge avant de conclure",
+        "text": "Il s’agit ici d’haltères dont les têtes sont conçues pour rester fixes. Certains modèles spécialisés comportent une rotation prévue et doivent être évalués selon leur documentation. Une tête fixe qui tourne, bascule ou coulisse de façon inattendue impose de retirer l’unité de l’utilisation et de demander un examen au fournisseur.\n\nDistinguez le mouvement d’un capuchon, de l’enveloppe ou du corps métallique. Cette observation oriente le dossier sans démontrer la cause. Conservez référence, lot, photographies et historique d’utilisation."
+      },
+      {
+        "heading": "Trois descriptions d’assemblage à préciser",
+        "text": "### Liaison soudée\nQuelles pièces sont soudées et par quel procédé ? Le soudage par friction est une possibilité. Une fois le revêtement appliqué, la zone peut être masquée ; son intégrité ne se déduit pas d’une belle photo extérieure.\n\n### Emmanchement avec serrage\nLes dimensions des pièces et les conditions de montage sont déterminantes. Ce montage peut être associé à une soudure ou à une retenue mécanique. La capacité de la presse n’est pas un résultat d’essai sur l’haltère terminé.\n\n### Retenue mécanique\nDemandez le principe de verrouillage, les contrôles et les consignes de service. Une fixation mécanique n’est pas nécessairement moins bonne et ne signifie pas que l’exploitant puisse la resserrer lui-même."
+      },
+      {
+        "heading": "Lire les preuves selon ce qu’elles mesurent",
+        "text": "### Examen extérieur\nContrôlez alignement, géométrie de la poignée, dommages et transitions accessibles. Cela ne suffit pas à confirmer une liaison métallique cachée.\n\n### Tenue de l’assemblage\nLe fournisseur ou un laboratoire compétent doit définir le montage, la direction de sollicitation, les mesures et l’acceptation. L’arrachement axial et la rotation évaluent des comportements différents. N’adoptez pas une force ou un couple universels sans justification technique.\n\n### Sollicitations répétées et chocs\nIdentifiez masse testée, support, orientation, répétitions et examen après essai. Une vidéo sans protocole ne rend pas les résultats comparables. Les éprouvettes doivent être suivies séparément et ne pas revenir en stock comme produits intacts."
+      },
+      {
+        "heading": "Représenter les changements de construction dans les échantillons",
+        "text": "Dans une gamme professionnelle, les dimensions des têtes, le diamètre de poignée ou le montage peuvent évoluer avec la masse. Faites préciser ces transitions et prévoyez des échantillons représentatifs. La plus petite référence ne valide pas automatiquement les plus lourdes.\n\nLa validation de conception reste distincte de l’acceptation du lot. Un rapport portant sur une ancienne version exige une justification d’applicabilité. Références, photos datées et documents doivent correspondre au modèle approuvé."
+      },
+      {
+        "heading": "Personnalisation et maîtrise des révisions",
+        "text": "Pour OEM, ODM, Custom Logo et Private Label, séparez la validation graphique de la validation technique. Un nouveau dessin d’extrémité, une tête redimensionnée ou une autre poignée peut modifier l’assemblage. Examinez les changements de matière ou de géométrie avant la mise en production.\n\nPour l’approvisionnement en volume, Bulk Supply, comparez des offres portant sur le même assortiment, les mêmes contrôles et le même emballage. Demandez le détail des échantillons, outillages et inspections lorsque nécessaire. Minimum de commande et délai se confirment pour la configuration retenue."
+      },
+      {
+        "heading": "Réception du lot et traitement des anomalies",
+        "text": "Le calage doit soutenir les têtes lourdes et limiter leurs mouvements, sans faire de la poignée le support principal. L’illustration propose une disposition ; son efficacité doit être validée avec la masse, le carton et le parcours logistique réels. Photographiez les emballages endommagés avant élimination.\n\nSi un jeu inattendu apparaît, isolez les unités concernées et préservez l’identification du lot. Définissez avec le fournisseur l’examen, les contrôles complémentaires et la solution autorisée. Évitez collage, soudage ou serrage improvisés qui modifient le produit et compliquent l’analyse."
+      },
+      {
+        "heading": "Transmettre une demande exploitable au fabricant",
+        "text": "Précisez utilisation professionnelle, type d’haltère fixe, gamme de masses, quantités par référence, géométrie souhaitée, destination et éléments de marque. Ajoutez les attentes de construction, preuves, échantillonnage, réception et gestion des réclamations.\n\nExemples publics de documentation : [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) et [Iron Grip](https://irongrip.com/dumbbells-barbells/). Leurs données concernent leurs références et ne prouvent pas les caractéristiques d’un produit PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Documents à demander pour une réception objective",
+      "columns": [
+        "Question",
+        "Document utile",
+        "Limite"
+      ],
+      "rows": [
+        [
+          "Comment la tête est-elle retenue ?",
+          "Dessin et description de montage",
+          "La photo extérieure ne suffit pas"
+        ],
+        [
+          "Quel modèle a été évalué ?",
+          "Identité et masse de l’échantillon",
+          "Une autre taille peut différer"
+        ],
+        [
+          "Selon quelle méthode ?",
+          "Protocole, résultat et acceptation",
+          "Le procédé ne vaut pas résultat"
+        ],
+        [
+          "Qu’a-t-on modifié ?",
+          "Historique des révisions",
+          "La couleur ne garantit pas la construction"
+        ],
+        [
+          "Comment gérer un défaut ?",
+          "Traçabilité et procédure convenue",
+          "Une promesse générale ne définit pas le traitement"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Points de contrôle à la réception",
+      "items": [
+        "Rapprocher référence, masse, lot et version approuvée.",
+        "Comparer alignement et transitions accessibles à l’échantillon témoin.",
+        "Examiner jeu, rotation, bruit ou ouverture inhabituels selon la procédure convenue.",
+        "Vérifier l’applicabilité des rapports et la couverture du lot.",
+        "Maintenir les unités refusées à l’écart jusqu’à décision documentée."
+      ]
+    },
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      [
+        "Un haltère soudé est-il toujours préférable ?",
+        "Non. Évaluez ensemble conception, matières, montage maîtrisé et preuves applicables au modèle."
+      ],
+      [
+        "Peut-on vérifier la liaison à travers le caoutchouc ?",
+        "On observe l’état extérieur, pas la tenue de la liaison métallique cachée."
+      ],
+      [
+        "Une vidéo de chute suffit-elle ?",
+        "Non. Il faut connaître l’échantillon et les conditions, puis appliquer le plan de réception du lot."
+      ],
+      [
+        "La salle peut-elle réparer une tête desserrée ?",
+        "Retirez l’haltère du service et sollicitez une solution autorisée pour la référence concernée."
+      ],
+      [
+        "Un seul échantillon représente-t-il toute la gamme ?",
+        "Pas automatiquement. Le plan doit tenir compte des différences de construction."
+      ],
+      [
+        "Un changement de logo demande-t-il de nouveaux essais ?",
+        "Cela dépend des modifications. Matière, géométrie ou montage modifiés nécessitent un examen technique approprié."
+      ]
+    ],
+    "linkHeading": "Produits et guides pour préparer la commande",
+    "linkLabels": [
+      "Haltères hexagonaux en caoutchouc",
+      "Gamme d’haltères",
+      "Inspection avant expédition",
+      "Validation des échantillons OEM",
+      "Notre usine",
+      "Demander un examen de construction"
+    ],
+    "imageCopy": [
+      [
+        "Deux haltères hexagonaux sans marque à poignées métalliques droites",
+        "Disposition illustrative pour observer les proportions des têtes et poignées."
+      ],
+      [
+        "Détail de la transition entre poignée métallique et tête en caoutchouc",
+        "L’aspect extérieur ne démontre pas l’intégrité de la retenue interne."
+      ],
+      [
+        "Haltère soutenu par ses têtes dans un calage de carton",
+        "Exemple d’emballage à valider pour la masse et le transport retenus."
+      ]
+    ],
+    "cta": [
+      "Faites examiner votre spécification d’assemblage",
+      "Envoyez masses, application et personnalisation. Notre usine peut étudier la configuration, les échantillons et les preuves utiles à votre commande.",
+      "Consulter l’usine"
+    ]
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/blog/kiem-tra-lien-ket-dau-tay-cam-ta-don",
+    "title": "Kiểm tra liên kết đầu và tay cầm tạ đơn khi nhập sỉ",
+    "description": "Cách đánh giá mối nối đầu tạ và tay cầm: cấu tạo, hồ sơ thử nghiệm, mẫu đại diện, nghiệm thu lô hàng và thay đổi OEM cho nhà nhập khẩu, phòng gym.",
+    "h1": "Nhập sỉ tạ đơn: kiểm tra liên kết giữa đầu tạ và tay cầm thế nào?",
+    "keyword": "kiểm tra liên kết đầu tạ tay cầm",
+    "home": "Trang chủ",
+    "library": "Blog",
+    "eyebrow": "Hướng dẫn mua tạ đơn từ nhà máy",
+    "sections": [
+      {
+        "heading": "Yêu cầu mô tả cấu tạo trước khi so giá",
+        "text": "Với tạ đơn cố định, cần biết đầu kim loại được giữ trên tay cầm bằng cơ cấu nào. Lớp cao su bên ngoài, hình lục giác hay chữ “hàn” trong báo giá chưa giải thích đầy đủ mối nối. Độ chắc của liên kết phải được đánh giá theo đúng mẫu mã và cấu hình đặt mua.\n\nNhà nhập khẩu, đơn vị phân phối và phòng gym nên thống nhất bản vẽ, dải khối lượng, mẫu duyệt, phương pháp kiểm tra và tiêu chí nghiệm thu. PowerBaseFit là nhà máy sản xuất tạ; chúng tôi có thể trao đổi các yêu cầu này trước khi xác nhận phương án và báo giá."
+      },
+      {
+        "heading": "Phân biệt chuyển động bất thường với thiết kế có chủ đích",
+        "text": "Hướng dẫn áp dụng cho tạ có đầu được thiết kế gắn cố định. Một số sản phẩm chuyên dụng có bộ phận xoay theo thiết kế, cần đối chiếu tài liệu riêng. Nếu đầu tạ vốn cố định bỗng xoay, lắc hoặc trượt dọc tay cầm, hãy ngừng sử dụng và yêu cầu nhà cung cấp đánh giá.\n\nGhi rõ phần đang chuyển động là nắp trang trí, lớp bọc hay khối kim loại. Quan sát này hỗ trợ trao đổi nhưng chưa xác định được nguyên nhân. Giữ mã hàng, số lô, ảnh và thông tin sử dụng; không tự tháo để kiểm tra bên trong."
+      },
+      {
+        "heading": "Làm rõ ba cách mô tả liên kết",
+        "text": "### Liên kết hàn\nHỏi chính xác các chi tiết được hàn và phương pháp sử dụng. Hàn ma sát là một khả năng, không phải tên gọi thay cho toàn bộ thiết kế. Sau khi bọc cao su, vùng nối có thể bị che khuất; ảnh bên ngoài không chứng minh chất lượng mối hàn.\n\n### Lắp ép có độ dôi\nKích thước lắp ghép và quy trình lắp quyết định cách các chi tiết làm việc cùng nhau. Có thể kết hợp ép với hàn hoặc giữ cơ khí. Lực danh định của máy ép không phải kết quả thử độ bền của tạ hoàn chỉnh.\n\n### Giữ bằng cơ cấu cơ khí\nYêu cầu mô tả cơ cấu khóa, cách kiểm tra và hướng dẫn bảo dưỡng. Kết cấu cơ khí không mặc nhiên kém hơn, cũng không đồng nghĩa phòng gym được phép tự siết lại."
+      },
+      {
+        "heading": "Tách kiểm tra bên ngoài khỏi thử nghiệm liên kết",
+        "text": "### Ngoại quan và kích thước\nKiểm tra độ thẳng, tay cầm, hư hỏng và các vùng tiếp giáp nhìn thấy được. Các bước này không đủ xác nhận toàn bộ liên kết kim loại nằm dưới lớp bọc.\n\n### Khả năng giữ đầu tạ\nNhà cung cấp hoặc đơn vị thử nghiệm có năng lực cần xác định đồ gá, hướng tải, trình tự, đại lượng đo và tiêu chí đạt. Khả năng chống tuột dọc trục khác với chống xoay. Không áp dụng một mức lực kéo hay mô-men chung khi chưa có cơ sở cho thiết kế cụ thể.\n\n### Tải lặp và va đập\nNếu có video thử, cần biết khối lượng mẫu, bề mặt, hướng tác động, số lần và tình trạng sau thử. Clip ngắn thiếu điều kiện không cho phép so sánh. Mẫu đã thử phải được quản lý riêng, không đưa lại vào hàng bán như sản phẩm chưa sử dụng."
+      },
+      {
+        "heading": "Chọn mẫu theo thay đổi trong cả dải tạ",
+        "text": "Đường kính tay cầm, hình học đầu tạ hoặc cách lắp có thể khác giữa các mức khối lượng. Hỏi nhà máy vị trí thay đổi và chọn mẫu đại diện tương ứng. Một quả nhẹ có ngoại quan đẹp không tự động đại diện cho toàn bộ bộ tạ thương mại.\n\nPhân biệt xác nhận thiết kế với nghiệm thu lô sản xuất. Báo cáo của phiên bản cũ hoặc khối lượng khác cần có giải thích về phạm vi áp dụng. Mã mẫu, ảnh và số báo cáo phải khớp với yêu cầu đã duyệt trong đơn hàng."
+      },
+      {
+        "heading": "OEM và nhãn riêng cần kiểm soát phiên bản",
+        "text": "Với OEM, ODM, Custom Logo và Private Label, duyệt hình ảnh thương hiệu và duyệt cấu tạo là hai việc khác nhau. Thay đầu tạ, vật liệu hoặc tay cầm có thể ảnh hưởng liên kết, dù yêu cầu ban đầu chỉ là đổi hình thức. Cần đánh giá thay đổi trước khi chốt phiên bản sản xuất.\n\nKhi mua số lượng lớn, Bulk Supply, hãy so cùng dải tạ, số lượng, hồ sơ và quy cách đóng gói. Có thể yêu cầu tách chi phí mẫu, khuôn và kiểm tra nếu phù hợp. MOQ và tiến độ phải được xác nhận theo cấu hình, không suy từ một báo giá khác."
+      },
+      {
+        "heading": "Nghiệm thu hàng về và xử lý đầu tạ bị lỏng",
+        "text": "Bao bì cần đỡ phần đầu nặng và hạn chế dịch chuyển, tránh để vùng tay nắm chịu vai trò đỡ chính. Hình minh họa chỉ thể hiện cách bố trí; hiệu quả bảo vệ cần kiểm chứng với khối lượng, thùng và tuyến vận chuyển thực tế. Chụp lại thùng bị móp trước khi bỏ bao bì.\n\nKhi thấy chuyển động bất thường, cách ly sản phẩm liên quan, giữ thông tin lô và báo nhà cung cấp. Thống nhất cách đánh giá, phạm vi kiểm tra bổ sung và biện pháp được chấp thuận. Không tự dán keo, hàn hoặc siết, vì có thể làm thay đổi hiện trạng cần phân tích."
+      },
+      {
+        "heading": "Thông tin nên gửi trong yêu cầu báo giá",
+        "text": "Nêu mục đích dùng tại phòng gym, kiểu tạ cố định, các mức khối lượng, số lượng từng mức, yêu cầu tay cầm, logo và nơi nhận. Đề nghị mô tả liên kết, bằng chứng áp dụng, phương án lấy mẫu, nghiệm thu và xử lý khiếu nại. Nhà máy sẽ có căn cứ rõ hơn để trao đổi cấu hình.\n\nTham khảo cách công bố cấu tạo của [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) và [Iron Grip](https://irongrip.com/dumbbells-barbells/). Tài liệu đó dành cho sản phẩm của họ, không xác nhận đặc tính sản phẩm PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Hồ sơ cần đối chiếu trước khi duyệt lô",
+      "columns": [
+        "Câu hỏi",
+        "Bằng chứng hữu ích",
+        "Giới hạn"
+      ],
+      "rows": [
+        [
+          "Đầu tạ được giữ thế nào?",
+          "Bản vẽ và mô tả lắp ráp",
+          "Ảnh ngoài không cho thấy toàn bộ liên kết"
+        ],
+        [
+          "Đã kiểm tra mẫu nào?",
+          "Mã mẫu, cấu hình và khối lượng",
+          "Mức tạ khác có thể khác cấu tạo"
+        ],
+        [
+          "Thử theo cách nào?",
+          "Phương pháp, kết quả và tiêu chí",
+          "Tên công nghệ không phải kết quả"
+        ],
+        [
+          "Có thay đổi sau duyệt?",
+          "Lịch sử phiên bản",
+          "Cùng màu chưa chắc cùng cấu tạo"
+        ],
+        [
+          "Xử lý sai lỗi ra sao?",
+          "Truy xuất lô và quy trình giải quyết",
+          "Cam kết chung chưa đủ để thực hiện"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Danh sách kiểm tra khi nhận lô hàng",
+      "items": [
+        "Đối chiếu mã hàng, khối lượng, lô và phiên bản đã duyệt.",
+        "So độ thẳng và vùng tiếp giáp nhìn thấy với mẫu chuẩn.",
+        "Đánh giá khe hở, tiếng động, xoay hoặc lắc bất thường theo quy trình.",
+        "Kiểm tra phạm vi áp dụng của báo cáo và phương án lấy mẫu.",
+        "Cách ly hàng không đạt cho đến khi có quyết định được ghi nhận."
+      ]
+    },
+    "faqHeading": "Câu hỏi thường gặp",
+    "faq": [
+      [
+        "Tạ hàn có luôn tốt hơn không?",
+        "Không. Cần xem cả thiết kế, vật liệu, kiểm soát lắp ráp và bằng chứng của đúng cấu hình."
+      ],
+      [
+        "Nhìn lớp cao su có đánh giá được mối nối không?",
+        "Chỉ đánh giá được tình trạng ngoài. Liên kết kim loại bên trong cần bằng chứng riêng."
+      ],
+      [
+        "Video thả rơi có đủ để nhận cả lô không?",
+        "Không. Cần điều kiện thử, mã mẫu và kế hoạch nghiệm thu lô đã thống nhất."
+      ],
+      [
+        "Phòng gym có nên tự sửa đầu tạ lỏng không?",
+        "Ngừng sử dụng và liên hệ nhà cung cấp để nhận phương án được cho phép cho đúng mẫu."
+      ],
+      [
+        "Một mẫu nhẹ có đại diện toàn bộ dải không?",
+        "Không mặc nhiên. Phương án mẫu cần bao phủ các khác biệt cấu tạo."
+      ],
+      [
+        "Đổi logo có phải thử lại không?",
+        "Tùy thay đổi. Khi vật liệu, hình học hoặc cách lắp thay đổi, cần đánh giá kỹ thuật phù hợp."
+      ]
+    ],
+    "linkHeading": "Sản phẩm và tài liệu hỗ trợ mua hàng",
+    "linkLabels": [
+      "Tạ đơn lục giác bọc cao su",
+      "Danh mục tạ đơn",
+      "Kiểm tra trước khi xuất hàng",
+      "Duyệt mẫu OEM",
+      "Nhà máy của chúng tôi",
+      "Yêu cầu đánh giá cấu tạo"
+    ],
+    "imageCopy": [
+      [
+        "Hai quả tạ lục giác không nhãn với tay cầm thép thẳng",
+        "Bố trí minh họa để quan sát tỷ lệ đầu tạ và tay cầm."
+      ],
+      [
+        "Cận cảnh vai tay cầm kim loại tiếp giáp đầu tạ bọc cao su",
+        "Ngoại quan không thay thế bằng chứng về liên kết bị che khuất."
+      ],
+      [
+        "Tạ được đỡ ở hai đầu trong khay định hình bên trong thùng",
+        "Ví dụ bố trí bao bì cần kiểm chứng theo khối lượng và tuyến vận chuyển."
+      ]
+    ],
+    "cta": [
+      "Trao đổi cấu tạo trước khi chốt đơn tạ",
+      "Gửi dải khối lượng, mục đích sử dụng và yêu cầu nhãn riêng. Nhà máy có thể xem xét mẫu, hồ sơ và tiêu chí nghiệm thu cùng bạn.",
+      "Liên hệ nhà máy"
+    ]
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/hantelhuvud-handtag-infastning-inkop",
+    "title": "Hantelns infästning: kontroll vid inköp till gym",
+    "description": "Bedöm hur hantelhuvudet sitter fast i handtaget. Underlag om konstruktion, provning, stickprov, leveranskontroll och ändringar vid OEM och större beställningar.",
+    "h1": "Så granskar du hantelhuvudets infästning inför ett större gyminköp",
+    "keyword": "hantelhuvud infästning handtag",
+    "home": "Hem",
+    "library": "Blogg",
+    "eyebrow": "Fabrikens inköpsguide för fasta hantlar",
+    "sections": [
+      {
+        "heading": "Gör infästningen till en del av beställningen",
+        "text": "En offert på gummerade hantlar beskriver ofta vikt, färg och grepp. Be också om en beskrivning av hur metallhuvudet hålls kvar på handtaget. Varken gummiskiktet eller ordet svetsad visar ensamt hur den färdiga konstruktionen fungerar.\n\nFör gymkedjor, importörer och återförsäljare bör ritningsversion, viktsteg, referensprov och godkännandekriterier följa samma beställning. PowerBaseFit är en fabrik för fria vikter och kan diskutera underlaget innan en viss modell och offert bekräftas."
+      },
+      {
+        "heading": "Vilken rörelse är avsedd?",
+        "text": "Här avses fasta hantlar där huvudena ska sitta fast enligt konstruktionen. Specialmodeller med avsiktligt roterande delar behöver bedömas med sina egna instruktioner. Om ett fast huvud börjar vrida sig, vicka eller glida längs handtaget ska hanteln tas ur bruk för leverantörens bedömning.\n\nAnteckna om det verkar vara en kåpa, beläggningen eller själva metallhuvudet som rör sig. Det är en observation, inte en färdig felanalys. Spara modelluppgift, parti, bilder och användningshistorik."
+      },
+      {
+        "heading": "Frågor bakom de vanliga konstruktionsorden",
+        "text": "### Svetsat utförande\nVilka delar svetsas, och med vilken metod? Friktionssvetsning är ett möjligt utförande. När förbandet täcks av gummi kan en yttre produktbild inte visa svetsens inre skick.\n\n### Presspassning\nPassningsmått och montering behöver beskrivas tillsammans. Förbandet kan dessutom ha svetsning eller mekanisk säkring. Pressens nominella kraft är ingen uppmätt hållfasthet hos den färdiga hanteln.\n\n### Mekanisk låsning\nBegär information om låsning, kontroll och service. Mekanisk infästning är inte automatiskt sämre. Den innebär inte heller att gympersonalen får efterdra delar utan modellens instruktioner."
+      },
+      {
+        "heading": "Tre kontrollnivåer med olika syften",
+        "text": "### Utseende och mått\nGranska linjering, grepp och synliga övergångar. Det kan avslöja skador men bekräftar inte ett dolt metallförband.\n\n### Huvudets kvarhållning\nLåt en kompetent leverantör eller provningsorganisation beskriva fixtur, belastningsriktning, mätning och gränser. Utdragning och vridning är olika förlopp. Använd inte ett generellt kraft- eller momentkrav utan grund i den aktuella konstruktionen.\n\n### Upprepad belastning och slag\nBe om provvikt, underlag, riktning, upprepningar och kontroll efteråt. En kort film utan villkor ger ingen jämförbar provning. Belastade provföremål ska hållas under kontroll och inte säljas som oanvända exemplar."
+      },
+      {
+        "heading": "Låt provurvalet följa viktseriens variationer",
+        "text": "Huvudstorlek, handtagsdiameter och montering kan ändras längs serien. Be fabriken visa var det sker och välj representativa prov. En liten hantel med fin finish täcker inte självklart de tyngre vikterna.\n\nHåll isär konstruktionsvalidering och partiets leveransgodkännande. Ett äldre provningsresultat behöver en dokumenterad motivering om det ska gälla en ny version. Märkning, provbilder och rapportnummer bör gå att följa tillbaka till beställningen."
+      },
+      {
+        "heading": "Eget varumärke och ändringar före serieproduktion",
+        "text": "Vid OEM, ODM, Custom Logo och Private Label behöver godkänd grafik skiljas från godkänd konstruktion. Ny huvudform, annat material eller ändrat handtag kan påverka förbandet. Bedöm ändringen innan den nya versionen släpps till produktion.\n\nVid volymleveranser, Bulk Supply, jämför samma viktfördelning, kontrollomfattning och emballage. Be om separata poster för prov, verktyg och inspektion när det är relevant. Minsta order och leveranstid fastställs för den valda lösningen."
+      },
+      {
+        "heading": "Varumottagning och hantering av avvikande hantlar",
+        "text": "Emballaget bör bära upp de tunga huvudena och hindra förskjutning. Greppet ska inte vara den huvudsakliga stödpunkten. Bilden visar ett packningsupplägg som måste valideras med rätt vikt, kartong och transportväg. Dokumentera skadat emballage innan det kastas.\n\nSpärra berörda enheter om oväntat glapp upptäcks. Spara partibeteckning och kom överens med leverantören om utredning, ytterligare kontroll och åtgärd. Undvik improviserad limning, svetsning eller åtdragning som förändrar felet."
+      },
+      {
+        "heading": "Underlag som gör fabriksdialogen konkret",
+        "text": "Skicka avsedd gymanvändning, fast hanteltyp, viktsteg, antal per vikt, önskat grepp, märkning och destination. Begär konstruktionsbeskrivning, tillämpliga rapporter, provurval, acceptansregler och reklamationshantering.\n\nExempel på offentlig konstruktionsinformation: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) och [Iron Grip](https://irongrip.com/dumbbells-barbells/). Deras modelluppgifter bekräftar inga egenskaper hos PowerBaseFits produkter."
+      }
+    ],
+    "table": {
+      "heading": "Koppla varje inköpsfråga till rätt underlag",
+      "columns": [
+        "Fråga",
+        "Underlag",
+        "Begränsning"
+      ],
+      "rows": [
+        [
+          "Vad håller huvudet?",
+          "Ritning och monteringsbeskrivning",
+          "Ytterbilden visar inte hela förbandet"
+        ],
+        [
+          "Vilken vikt har provats?",
+          "Identifierat prov och utförande",
+          "En annan storlek kan skilja sig"
+        ],
+        [
+          "Hur utfördes kontrollen?",
+          "Metod, resultat och acceptans",
+          "Processnamnet är inget provresultat"
+        ],
+        [
+          "Vad har ändrats?",
+          "Versionshistorik",
+          "Samma färg betyder inte samma konstruktion"
+        ],
+        [
+          "Hur löses ett fel?",
+          "Partispårning och överenskommen åtgärd",
+          "Allmän garanti ersätter inte rutinen"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Kontrollista för partiets frisläppning",
+      "items": [
+        "Stäm av modell, vikt, parti och godkänd version.",
+        "Jämför linjering och åtkomliga övergångar med referensprovet.",
+        "Utred oväntat glapp, vridning, ljud eller öppningar enligt metoden.",
+        "Kontrollera rapporternas tillämplighet och stickprovets täckning.",
+        "Håll underkända enheter avskilda tills beslutet dokumenterats."
+      ]
+    },
+    "faqHeading": "Vanliga frågor",
+    "faq": [
+      [
+        "Är svetsade hantlar alltid bättre?",
+        "Nej. Bedöm hela konstruktionen, material, kontrollerad montering och relevanta underlag."
+      ],
+      [
+        "Kan gummit visa om infästningen håller?",
+        "Det visar det yttre skicket, inte hållfastheten hos det dolda metallförbandet."
+      ],
+      [
+        "Räcker en film där hanteln släpps?",
+        "Nej. Prov och villkor måste framgå, och partiet behöver sin överenskomna acceptanskontroll."
+      ],
+      [
+        "Får gymmet laga ett löst huvud?",
+        "Ta hanteln ur bruk och begär en modellspecifik, godkänd lösning från leverantören."
+      ],
+      [
+        "Täcker ett prov hela serien?",
+        "Inte automatiskt. Urvalet behöver beakta skillnader i konstruktion."
+      ],
+      [
+        "Kräver en ny logotyp nya prov?",
+        "Det beror på ändringen. Ändrade material, mått eller monteringssätt behöver teknisk bedömning."
+      ]
+    ],
+    "linkHeading": "Produkter och stöd för inköpet",
+    "linkLabels": [
+      "Gummerade hexhantlar",
+      "Hantelsortiment",
+      "Kontroll före leverans",
+      "Godkännande av OEM-prov",
+      "Vår fabrik",
+      "Fråga om konstruktionen"
+    ],
+    "imageCopy": [
+      [
+        "Två omärkta hexhantlar med raka stålhandtag",
+        "Illustrativ produktbild för jämförelse av huvudens och handtagens form."
+      ],
+      [
+        "Närbild av övergången mellan metallhandtag och gummerat huvud",
+        "Yttre skick ersätter inte underlag om den dolda infästningen."
+      ],
+      [
+        "Hantel med stöd under huvudena i en formad kartonginsats",
+        "Exempel på packning som behöver valideras för vikt och transport."
+      ]
+    ],
+    "cta": [
+      "Stäm av infästningen före beställning",
+      "Skicka viktsteg, användning och varumärkeskrav. Fabriken kan diskutera utförande, prov och dokumentation för ert inköp.",
+      "Kontakta fabriken"
+    ]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/fissaggio-testa-impugnatura-manubri-ingrosso",
+    "title": "Fissaggio testa-impugnatura dei manubri all’ingrosso",
+    "description": "Valuta l’assemblaggio dei manubri fissi: costruzione, prove, campioni, accettazione del lotto e modifiche OEM prima di acquistare per palestre o distribuzione.",
+    "h1": "Come verificare il fissaggio tra testa e impugnatura dei manubri",
+    "keyword": "fissaggio testa impugnatura manubri",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Guida della fabbrica per l’acquisto di manubri",
+    "sections": [
+      {
+        "heading": "Acquistare una costruzione documentata",
+        "text": "Per una fornitura professionale, chiedi come la testa metallica viene trattenuta sull’impugnatura. La forma esagonale e il rivestimento in gomma non spiegano il collegamento interno. Anche la dicitura «saldato» lascia aperte domande su componenti, processo e controlli.\n\nCollega ordine, modello, pesi, revisione del disegno, campioni e criteri di accettazione. PowerBaseFit è una fabbrica di pesi liberi: possiamo esaminare questi elementi con distributori, importatori, marchi privati e responsabili di palestra prima di confermare la configurazione."
+      },
+      {
+        "heading": "Riconoscere il movimento da segnalare",
+        "text": "La guida riguarda manubri con teste progettate per restare fisse. Alcuni modelli speciali prevedono componenti rotanti e richiedono la propria documentazione. Se una testa fissa gira, oscilla o scorre in modo inatteso, ritira l’unità dall’uso e chiedi una valutazione al fornitore.\n\nAnnota se sembra muoversi una copertura, il rivestimento o la massa metallica. È un’indicazione utile, non una diagnosi. Conserva codice, lotto, fotografie e storia di utilizzo senza smontare il prodotto di tua iniziativa."
+      },
+      {
+        "heading": "Leggere correttamente la descrizione del giunto",
+        "text": "### Saldatura\nDomanda quali componenti siano saldati e con quale metodo. La saldatura per attrito è una possibilità. Il rivestimento può nascondere la zona di unione, quindi una fotografia esterna non ne dimostra l’integrità.\n\n### Accoppiamento per interferenza\nDimensioni e modalità di montaggio determinano la funzione del collegamento. Possono essere presenti anche saldatura o ritenzione meccanica. La forza nominale della pressa non è un risultato di prova del manubrio finito.\n\n### Fissaggio meccanico\nChiedi sistema di bloccaggio, controlli e istruzioni di assistenza. Una soluzione meccanica non è necessariamente inferiore e non autorizza il personale della palestra a serrare componenti."
+      },
+      {
+        "heading": "Valutare prove diverse senza confonderle",
+        "text": "### Esame visivo e dimensionale\nControlla allineamento, impugnatura, danni e transizioni accessibili. Questi riscontri non certificano il collegamento metallico nascosto.\n\n### Ritenzione della testa\nUn fornitore o laboratorio competente dovrebbe definire attrezzatura, direzione del carico, sequenza, misure e limiti. Sfilamento assiale e rotazione sono comportamenti diversi. Evita valori universali di forza o coppia privi di motivazione per il progetto.\n\n### Sollecitazioni ripetute e urti\nRichiedi peso del campione, superficie, orientamento, ripetizioni ed esame successivo. Un filmato breve senza condizioni non permette confronti. I campioni provati devono restare identificati e non essere reimmessi come merce nuova intatta."
+      },
+      {
+        "heading": "Campioni rappresentativi della gamma",
+        "text": "Lungo la serie possono cambiare dimensioni della testa, diametro dell’impugnatura o montaggio. Individua questi passaggi con la fabbrica e scegli campioni rappresentativi. Il manubrio più leggero non approva automaticamente tutte le altre referenze.\n\nLa validazione del progetto è distinta dall’accettazione del lotto. Un rapporto di una revisione precedente richiede una motivazione documentata per il suo utilizzo. Mantieni coerenti identificazione del campione, fotografie e specifica ordinata."
+      },
+      {
+        "heading": "Personalizzazione, revisioni e offerta economica",
+        "text": "Per OEM, ODM, Custom Logo e Private Label, separa approvazione grafica e approvazione costruttiva. Un nuovo profilo della testa, materiale diverso o impugnatura modificata può influire sul giunto. Le variazioni strutturali vanno riesaminate prima della produzione.\n\nNelle forniture in volume, Bulk Supply, confronta lo stesso assortimento di pesi, controlli e imballaggio. Se opportuno, chiedi voci separate per campioni, attrezzature e ispezioni. Quantità minima e tempi vengono confermati per la configurazione scelta."
+      },
+      {
+        "heading": "Ricevimento e gestione delle non conformità",
+        "text": "L’imballaggio deve sostenere le teste pesanti e limitarne gli spostamenti, senza usare la presa come supporto principale. La disposizione illustrata va validata con peso, scatola e trasporto reali. Fotografa eventuali danni del collo prima di eliminarlo.\n\nIn caso di movimento inatteso, isola le unità coinvolte e conserva il riferimento del lotto. Concorda valutazione, eventuali controlli estesi e rimedio autorizzato. Incollaggi, saldature o serraggi improvvisati alterano il prodotto e possono compromettere l’analisi."
+      },
+      {
+        "heading": "Preparare una richiesta tecnica completa",
+        "text": "Invia destinazione d’uso professionale, tipo di manubrio fisso, pesi, quantità per referenza, geometria desiderata, marchio e luogo di consegna. Aggiungi richieste su costruzione, prove applicabili, campionamento, accettazione e reclami.\n\nEsempi pubblici di specifiche costruttive: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) e [Iron Grip](https://irongrip.com/dumbbells-barbells/). I dati riguardano i loro modelli e non attestano caratteristiche dei prodotti PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Documenti per un acquisto verificabile",
+      "columns": [
+        "Domanda",
+        "Riscontro utile",
+        "Limite"
+      ],
+      "rows": [
+        [
+          "Cosa trattiene la testa?",
+          "Disegno e descrizione del montaggio",
+          "La foto esterna non basta"
+        ],
+        [
+          "Quale variante è stata provata?",
+          "Identità e peso del campione",
+          "Un’altra misura può differire"
+        ],
+        [
+          "Come è stata verificata?",
+          "Metodo, risultato e accettazione",
+          "Il processo non è il risultato"
+        ],
+        [
+          "Cosa è cambiato?",
+          "Registro delle revisioni",
+          "Il colore non identifica la costruzione"
+        ],
+        [
+          "Come si risolve un difetto?",
+          "Lotto e procedura concordata",
+          "Una promessa generale non definisce il rimedio"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Controlli per accettare il lotto",
+      "items": [
+        "Verificare codice, peso, lotto e revisione approvata.",
+        "Confrontare allineamento e transizioni visibili con il campione.",
+        "Esaminare giochi, rotazioni, rumori o aperture inattesi secondo procedura.",
+        "Controllare applicabilità dei rapporti e copertura del campionamento.",
+        "Tenere separate le unità respinte fino alla decisione documentata."
+      ]
+    },
+    "faqHeading": "Domande frequenti",
+    "faq": [
+      [
+        "I manubri saldati sono sempre migliori?",
+        "No. Vanno valutati insieme progetto, materiali, montaggio controllato e prove applicabili."
+      ],
+      [
+        "La gomma dimostra la tenuta interna?",
+        "Mostra la condizione esterna, non l’integrità della ritenzione metallica nascosta."
+      ],
+      [
+        "Un video di caduta basta per accettare l’ordine?",
+        "No. Servono campione e condizioni identificati, oltre al piano di accettazione del lotto."
+      ],
+      [
+        "La palestra può riparare una testa allentata?",
+        "Ritira il manubrio dall’uso e chiedi una soluzione autorizzata per quel modello."
+      ],
+      [
+        "Un campione copre tutta la gamma?",
+        "Non automaticamente. Il piano deve considerare le differenze costruttive."
+      ],
+      [
+        "Un nuovo logo richiede nuove prove?",
+        "Dipende dalle modifiche. Cambiamenti di geometria, materiale o montaggio richiedono un riesame tecnico adeguato."
+      ]
+    ],
+    "linkHeading": "Prodotti e supporto all’acquisto",
+    "linkLabels": [
+      "Manubri esagonali in gomma",
+      "Gamma di manubri",
+      "Ispezione prima della spedizione",
+      "Approvazione dei campioni OEM",
+      "La nostra fabbrica",
+      "Richiedi verifica della costruzione"
+    ],
+    "imageCopy": [
+      [
+        "Due manubri esagonali senza marchio con impugnature dritte in acciaio",
+        "Composizione illustrativa delle proporzioni di teste e impugnature."
+      ],
+      [
+        "Dettaglio dell’incontro tra spalla metallica e testa in gomma",
+        "L’aspetto esterno non sostituisce le prove sul collegamento nascosto."
+      ],
+      [
+        "Manubrio sostenuto dalle teste in un inserto sagomato nella scatola",
+        "Esempio di imballaggio da validare per peso e percorso logistico."
+      ]
+    ],
+    "cta": [
+      "Esamina il fissaggio prima di ordinare",
+      "Invia gamma di pesi, utilizzo e personalizzazione. La fabbrica può discutere configurazione, campioni e documentazione per il tuo acquisto.",
+      "Contatta la fabbrica"
+    ]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/bevestiging-dumbbellkop-handgreep-inkoop",
+    "title": "Dumbbellkop en handgreep: bevestiging beoordelen",
+    "description": "Vraag de juiste gegevens over dumbbellverbindingen: constructie, beproeving, monsters, partijacceptatie en OEM-wijzigingen voor sportscholen en groothandels.",
+    "h1": "De bevestiging van dumbbellkop en handgreep beoordelen bij inkoop",
+    "keyword": "bevestiging dumbbellkop handgreep",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Inkoopadvies vanuit de dumbbellfabriek",
+    "sections": [
+      {
+        "heading": "Leg de verbinding vast in de offerteaanvraag",
+        "text": "Bij een grote bestelling zijn gewicht en coating slechts een deel van de specificatie. Vraag hoe de metalen kop op de handgreep wordt vastgehouden. Zeshoekige vorm, rubber en de omschrijving gelast verklaren het volledige ontwerp niet.\n\nKoppel uitvoering, gewichtsstappen, tekeningversie, monsters en acceptatievoorwaarden aan de bestelling. PowerBaseFit is een fabriek voor vrije gewichten en kan deze eisen met importeurs, distributeurs, sportscholen en eigen merken bespreken voordat een uitvoering wordt bevestigd."
+      },
+      {
+        "heading": "Onbedoelde beweging goed beschrijven",
+        "text": "Het gaat hier om vaste dumbbells waarvan de koppen volgens ontwerp vast horen te zitten. Speciale producten met bewust draaiende delen vragen om beoordeling aan de hand van hun eigen documentatie. Een vaste kop die onverwacht draait, kantelt of langs de greep schuift, moet uit gebruik worden genomen voor beoordeling door de leverancier.\n\nNoteer of een afdekkap, coating of metalen kop lijkt te bewegen. Dat is nuttige informatie, maar nog geen vastgestelde oorzaak. Bewaar model, partijgegevens, foto's en gebruikshistorie."
+      },
+      {
+        "heading": "Wat betekenen de drie constructieomschrijvingen?",
+        "text": "### Gelaste verbinding\nVraag welke onderdelen worden gelast en met welk proces. Wrijvingslassen is een mogelijke methode. Onder een coating kan de verbinding verborgen zijn; een nette buitenkant bewijst de laskwaliteit niet.\n\n### Perspassing\nDe maatvoering van beide delen en de montage bepalen samen de passing. Een perspassing kan bovendien worden gelast of mechanisch geborgd. De nominale perskracht is geen meetresultaat voor de complete dumbbell.\n\n### Mechanische borging\nLaat borging, controle en servicevoorschriften toelichten. Mechanisch bevestigd is niet automatisch slechter en betekent evenmin dat sportschoolmedewerkers onderdelen zelf mogen natrekken."
+      },
+      {
+        "heading": "Bepaal wat ieder onderzoek werkelijk aantoont",
+        "text": "### Visuele en maatcontrole\nBekijk uitlijning, greepgeometrie en zichtbare overgangen. Daarmee sluit u verborgen gebreken in de metalen verbinding niet uit.\n\n### Vasthouden van de kop\nEen deskundige leverancier of testorganisatie moet opspanning, belastingsrichting, procedure, metingen en grenzen vastleggen. Axiale verplaatsing en verdraaiing zijn verschillende verschijnselen. Gebruik geen algemene kracht- of momentgrens zonder onderbouwing voor het ontwerp.\n\n### Herhaalde belasting en impact\nVraag naar gewicht, ondergrond, oriëntatie, herhalingen en inspectie na afloop. Een korte video zonder omstandigheden levert geen vergelijkbaar bewijs. Beproefde exemplaren moeten herkenbaar blijven en mogen niet als onaangeroerde nieuwe voorraad terugkomen."
+      },
+      {
+        "heading": "Laat monsters de varianten binnen de serie afdekken",
+        "text": "Kopafmetingen, greepdiameter of montage kunnen per gewichtsgroep veranderen. Vraag waar die overgangen liggen en kies daarvoor representatieve monsters. Een lichte dumbbell met goed uiterlijk dekt niet vanzelf de zwaardere uitvoeringen.\n\nOntwerpvalidatie en partijacceptatie zijn afzonderlijke stappen. Voor gebruik van een rapport over een oudere versie of andere maat is een gedocumenteerde uitleg nodig. Zorg dat monster, foto's en rapportverwijzing passen bij de goedgekeurde bestelgegevens."
+      },
+      {
+        "heading": "Eigen merk en wijzigingen beheersbaar houden",
+        "text": "Bij OEM, ODM, Custom Logo en Private Label is goedkeuring van het beeldmerk iets anders dan technische goedkeuring. Een nieuwe kopvorm, andere greep of materiaalwijziging kan de verbinding beïnvloeden. Beoordeel dit voordat de gewijzigde uitvoering in productie gaat.\n\nVergelijk bij volumeleveringen, Bulk Supply, hetzelfde gewichtenpakket, dezelfde controles en verpakking. Vraag waar nodig aparte posten voor monsters, gereedschappen en inspectie. Minimumafname en levertijd worden voor de gekozen configuratie vastgesteld."
+      },
+      {
+        "heading": "Ontvangstcontrole en afwijkende voorraad",
+        "text": "De verpakking moet de zware koppen ondersteunen en verschuiven beperken. De greep hoort niet het belangrijkste steunpunt te zijn. De afbeelding toont een indeling die met werkelijk gewicht, doos en transporttraject moet worden gevalideerd. Leg beschadigde dozen vast voordat u ze afvoert.\n\nBlokkeer betrokken eenheden bij onverwachte speling en bewaar de partijcode. Spreek met de leverancier onderzoek, aanvullende controle en een goedgekeurde oplossing af. Ga niet zelf lijmen, lassen of vastdraaien; dat verandert het product en kan de oorzaakanalyse bemoeilijken."
+      },
+      {
+        "heading": "Een aanvraag waarop de fabriek kan reageren",
+        "text": "Vermeld professioneel gebruik, vaste dumbbellstijl, gewichten, aantallen per gewicht, gewenste geometrie, merkbestanden en bestemming. Vraag om constructiebeschrijving, toepasselijke bewijzen, monsterplan, acceptatiecriteria en afhandeling van gebreken.\n\nOpenbare voorbeelden van constructiedocumentatie: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) en [Iron Grip](https://irongrip.com/dumbbells-barbells/). Hun gegevens gelden voor hun modellen en tonen geen PowerBaseFit-producteigenschappen aan."
+      }
+    ],
+    "table": {
+      "heading": "Van inkoopvraag naar controleerbaar document",
+      "columns": [
+        "Vraag",
+        "Bruikbaar document",
+        "Beperking"
+      ],
+      "rows": [
+        [
+          "Wat houdt de kop vast?",
+          "Tekening en montagebeschrijving",
+          "Een buitenfoto is onvoldoende"
+        ],
+        [
+          "Welke uitvoering is onderzocht?",
+          "Monsteridentiteit en gewicht",
+          "Een andere maat kan afwijken"
+        ],
+        [
+          "Hoe is gemeten?",
+          "Methode, resultaat en acceptatie",
+          "Procesnaam is geen meetresultaat"
+        ],
+        [
+          "Wat is gewijzigd?",
+          "Versiehistorie",
+          "Dezelfde kleur betekent niet hetzelfde ontwerp"
+        ],
+        [
+          "Hoe wordt een gebrek opgelost?",
+          "Partijregistratie en afgesproken procedure",
+          "Algemene garantie vervangt geen afspraken"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist voor het vrijgeven van een partij",
+      "items": [
+        "Vergelijk model, gewicht, partij en goedgekeurde tekeningversie.",
+        "Controleer uitlijning en zichtbare aansluitingen tegen het referentiemonster.",
+        "Onderzoek onverwachte speling, draaiing, geluiden of openingen volgens afspraak.",
+        "Beoordeel toepasselijkheid van rapporten en dekking van de steekproef.",
+        "Houd afgekeurde eenheden apart tot een besluit is vastgelegd."
+      ]
+    },
+    "faqHeading": "Veelgestelde vragen",
+    "faq": [
+      [
+        "Zijn gelaste dumbbells altijd beter?",
+        "Nee. Beoordeel compleet ontwerp, materialen, beheerste montage en passende onderzoeksgegevens."
+      ],
+      [
+        "Laat de rubberlaag zien of de kop vastzit?",
+        "U ziet de buitenkant, niet de integriteit van de verborgen metalen bevestiging."
+      ],
+      [
+        "Is een valvideo voldoende?",
+        "Nee. Monster en omstandigheden moeten bekend zijn, naast het afgesproken acceptatieplan voor de partij."
+      ],
+      [
+        "Mag de sportschool een losse kop repareren?",
+        "Neem de dumbbell uit gebruik en vraag de leverancier om een voor dat model goedgekeurde oplossing."
+      ],
+      [
+        "Is één monster genoeg voor de hele serie?",
+        "Niet vanzelf. Het monsterplan moet rekening houden met constructieverschillen."
+      ],
+      [
+        "Moet een nieuw logo opnieuw worden getest?",
+        "Dat hangt af van de wijziging. Andere materialen, geometrie of montage vragen een passende technische beoordeling."
+      ]
+    ],
+    "linkHeading": "Producten en inkoopondersteuning",
+    "linkLabels": [
+      "Rubberen hex-dumbbells",
+      "Dumbbellassortiment",
+      "Inspectie vóór verzending",
+      "OEM-monsters goedkeuren",
+      "Onze fabriek",
+      "Constructie laten beoordelen"
+    ],
+    "imageCopy": [
+      [
+        "Twee ongemerkte hex-dumbbells met rechte stalen handgrepen",
+        "Illustratieve productopstelling om koppen en handgrepen te vergelijken."
+      ],
+      [
+        "Detail van de overgang tussen metalen greepschouder en rubberen kop",
+        "De buitenkant vervangt geen bewijs voor de verborgen bevestiging."
+      ],
+      [
+        "Dumbbell met ondersteuning onder beide koppen in een doosinsert",
+        "Verpakkingsvoorbeeld dat voor gewicht en transport moet worden gevalideerd."
+      ]
+    ],
+    "cta": [
+      "Bespreek de verbinding vóór uw bestelling",
+      "Stuur gewichten, toepassing en merkvereisten. Onze fabriek kan uitvoering, monsters en benodigde documenten met u doornemen.",
+      "Vraag een fabrieksbeoordeling"
+    ]
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/blog/rabt-ras-dumbbell-bilmaqbad-liljumla",
+    "title": "تثبيت رأس الدمبل بالمقبض: دليل الشراء بالجملة",
+    "description": "كيف تراجع اتصال رأس الدمبل بالمقبض قبل طلب الجملة؟ تعرف على مستندات التصميم واختبارات التثبيت والعينات وفحص الشحنة وتعديلات العلامة الخاصة.",
+    "h1": "كيف تفحص تثبيت رأس الدمبل بالمقبض قبل الشراء بالجملة؟",
+    "keyword": "تثبيت رأس الدمبل بالمقبض",
+    "home": "الرئيسية",
+    "library": "المقالات",
+    "eyebrow": "دليل المصنع لشراء الدمبل الثابت",
+    "sections": [
+      {
+        "heading": "ابدأ بمواصفة واضحة للاتصال",
+        "text": "عند تجهيز صالة أو استيراد مجموعة دمبل، اطلب وصف الطريقة التي تثبت بها الكتلة المعدنية في المقبض. الشكل السداسي والغلاف المطاطي لا يشرحان هذا الاتصال. كذلك لا تكفي كلمة «ملحوم» للحكم على جودة المجموعة المكتملة أو ملاءمتها للطلب.\n\nاربط رقم الموديل والأوزان وإصدار الرسم والعينات ومعايير القبول بأمر الشراء نفسه. PowerBaseFit مصنع للأوزان الحرة، ويمكن لفريقنا مراجعة هذه المتطلبات مع المستوردين والموزعين وأصحاب العلامات الخاصة قبل تأكيد التكوين وعرض السعر."
+      },
+      {
+        "heading": "حدد ما إذا كانت الحركة مقصودة في التصميم",
+        "text": "يتناول الدليل الدمبل الذي يفترض أن تبقى رؤوسه ثابتة وفق التصميم. بعض المنتجات المتخصصة تتضمن أجزاء دوارة وتحتاج إلى مراجعة مستنداتها الخاصة. إذا دار رأس ثابت أو تمايل أو تحرك على امتداد المقبض بصورة غير متوقعة، أخرج الوحدة من الاستخدام واطلب تقييم المورد.\n\nسجل هل تبدو الحركة في غطاء تجميلي أم في الكسوة أم في الجسم المعدني. هذه الملاحظة تساعد التحقيق لكنها لا تحدد السبب وحدها. احتفظ برقم الموديل والدفعة والصور وسجل الاستخدام، وتجنب التفكيك دون تعليمات."
+      },
+      {
+        "heading": "أسئلة عن طرق التثبيت الشائعة",
+        "text": "### الاتصال الملحوم\nاسأل عن الأجزاء التي يتم لحامها وعن العملية المستخدمة. اللحام بالاحتكاك أحد الاحتمالات، وليس وصفا كاملا لكل دمبل. قد تخفي الكسوة منطقة الاتصال، فلا تثبت الصورة الخارجية سلامة اللحام الداخلي.\n\n### التجميع بالتداخل والكبس\nتعمل أبعاد الأجزاء وطريقة التجميع معا. وقد يجمع التصميم بين الكبس واللحام أو التثبيت الميكانيكي. القدرة الاسمية للمكبس ليست نتيجة اختبار للدمبل النهائي.\n\n### التثبيت الميكانيكي\nاطلب وصف القفل وطريقة الفحص وتعليمات الخدمة. التثبيت الميكانيكي ليس أقل جودة بالضرورة، ولا يعني السماح للعاملين في الصالة بإعادة الشد من تلقاء أنفسهم."
+      },
+      {
+        "heading": "ميز بين أنواع الأدلة المطلوبة",
+        "text": "### الفحص الظاهري والأبعاد\nراجع الاستقامة وشكل المقبض والضرر والوصلات المتاحة للرؤية. هذه الفحوص مفيدة لكنها لا تؤكد سلامة الاتصال المعدني المخفي.\n\n### قدرة الاتصال على تثبيت الرأس\nينبغي أن يحدد المورد أو مختبر مؤهل أداة التثبيت واتجاه الحمل والإجراء والقياسات ومعيار القبول. مقاومة الانسحاب المحوري تختلف عن مقاومة الدوران. لا تعتمد قوة سحب أو عزم دوران موحدا دون أساس مناسب للموديل.\n\n### التحميل المتكرر والصدمات\nعند عرض فيديو اختبار، اطلب وزن العينة والسطح والاتجاه والتكرار والفحص اللاحق. المقطع المختصر دون شروط واضحة لا يسمح بالمقارنة. يجب ضبط العينات المختبرة وعدم إعادتها إلى المخزون بوصفها وحدات جديدة لم تستخدم."
+      },
+      {
+        "heading": "اختر عينات تمثل اختلافات مجموعة الأوزان",
+        "text": "قد يتغير قطر المقبض أو حجم الرأس أو أسلوب التجميع بين الأوزان. اطلب تحديد هذه الانتقالات واختر عينات تمثلها. عينة خفيفة جيدة المظهر لا تعتمد تلقائيا جميع الوحدات الثقيلة في المجموعة.\n\nالتحقق من التصميم يختلف عن قبول دفعة الإنتاج. إذا قدم تقرير لإصدار قديم أو وزن مختلف، اطلب توضيحا موثقا لنطاق انطباقه. يجب أن تتطابق هوية العينة والصور ومراجع التقارير مع المواصفة المعتمدة."
+      },
+      {
+        "heading": "العلامة الخاصة لا تلغي المراجعة الفنية",
+        "text": "في برامج OEM وODM وCustom Logo وPrivate Label، افصل اعتماد الرسومات التجارية عن اعتماد البناء الداخلي. تغيير شكل الرأس أو مادته أو المقبض قد يؤثر في الاتصال حتى لو بدأ الطلب كتعديل للمظهر. راجع التغييرات قبل إصدار تعليمات الإنتاج.\n\nفي التوريد بالكميات، Bulk Supply، قارن عروض السعر لنفس توزيع الأوزان والفحص والتغليف. اطلب فصل بنود العينات والقوالب والتفتيش حيث يلزم. الحد الأدنى والمدة يؤكدان للتكوين المختار ولا يستنتجان من عرض لموديل آخر."
+      },
+      {
+        "heading": "استلام الشحنة والتعامل مع الوحدات المتأثرة",
+        "text": "ينبغي أن يدعم التغليف الرؤوس الثقيلة ويحد من الحركة، دون تحميل منطقة القبضة دور الدعم الرئيسي. الصورة مثال لترتيب التغليف؛ يجب التحقق من فعاليته مع الوزن والصندوق ومسار الشحن الفعلي. وثق تلف الصناديق قبل التخلص منها.\n\nعند ظهور حركة غير متوقعة، اعزل الوحدات المعنية واحفظ رقم الدفعة. اتفق مع المورد على التقييم ونطاق الفحص الإضافي والحل المعتمد. لا تستخدم إصلاحات ارتجالية باللاصق أو اللحام أو إعادة الشد، فقد تغير الحالة وتعرقل معرفة السبب."
+      },
+      {
+        "heading": "ما الذي ترسله إلى المصنع لبدء المراجعة؟",
+        "text": "حدد استخدام الصالة ونوع الدمبل الثابت والأوزان وعدد الوحدات لكل وزن والمقاسات المطلوبة والشعار ووجهة التسليم. أضف طلب وصف الاتصال والأدلة المنطبقة وخطة العينات والقبول وإجراءات التعامل مع العيوب. بذلك يصبح النقاش حول تكوين محدد قابل للمراجعة.\n\nأمثلة منشورة لوثائق البناء لدى [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs) و[Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) و[Iron Grip](https://irongrip.com/dumbbells-barbells/). تخص بياناتهم موديلاتهم ولا تثبت خصائص أي منتج من PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "اربط سؤال المشتري بالمستند المناسب",
+      "columns": [
+        "السؤال",
+        "الدليل المفيد",
+        "حدود الدليل"
+      ],
+      "rows": [
+        [
+          "كيف يثبت الرأس؟",
+          "رسم ووصف للتجميع",
+          "الصورة الخارجية لا تكفي"
+        ],
+        [
+          "أي وزن تم فحصه؟",
+          "هوية العينة والتكوين",
+          "قد يختلف الحجم الآخر"
+        ],
+        [
+          "كيف تم الاختبار؟",
+          "الإجراء والنتيجة ومعيار القبول",
+          "اسم العملية ليس نتيجة"
+        ],
+        [
+          "ماذا تغير بعد الاعتماد؟",
+          "سجل الإصدارات",
+          "تشابه اللون لا يثبت تشابه البناء"
+        ],
+        [
+          "كيف يعالج العيب؟",
+          "تتبع الدفعة وإجراء متفق عليه",
+          "الضمان العام لا يحدد خطوات الحل"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "قائمة فحص لقبول الدفعة",
+      "items": [
+        "طابق الموديل والوزن والدفعة وإصدار الرسم المعتمد.",
+        "قارن الاستقامة والوصلات الظاهرة بالعينة المرجعية.",
+        "افحص الدوران أو التمايل أو الصوت أو الفجوات غير المتوقعة وفق الإجراء.",
+        "راجع انطباق التقارير وتغطية خطة أخذ العينات.",
+        "أبق الوحدات المرفوضة معزولة حتى توثيق القرار بشأنها."
+      ]
+    },
+    "faqHeading": "أسئلة شائعة",
+    "faq": [
+      [
+        "هل الدمبل الملحوم أفضل دائما؟",
+        "لا. يجب تقييم التصميم والمواد وضبط التجميع والأدلة الخاصة بالموديل معا."
+      ],
+      [
+        "هل يظهر الغلاف المطاطي قوة التثبيت؟",
+        "يظهر الحالة الخارجية فقط ولا يثبت سلامة الاتصال المعدني المخفي."
+      ],
+      [
+        "هل يكفي فيديو إسقاط لقبول الطلب؟",
+        "لا. يلزم تحديد العينة وشروط الاختبار وتطبيق خطة قبول الدفعة المتفق عليها."
+      ],
+      [
+        "هل تستطيع الصالة إصلاح رأس مفكوك؟",
+        "أخرج الدمبل من الاستخدام واطلب حلا معتمدا من المورد للموديل نفسه."
+      ],
+      [
+        "هل تكفي عينة واحدة لكل الأوزان؟",
+        "ليس تلقائيا. يجب أن تراعي الخطة الاختلافات في البناء بين التكوينات."
+      ],
+      [
+        "هل تغيير الشعار يستلزم إعادة الاختبار؟",
+        "يعتمد على التعديل. تغيير المواد أو الهندسة أو التجميع يحتاج إلى مراجعة فنية مناسبة."
+      ]
+    ],
+    "linkHeading": "منتجات وأدلة تساعد في إعداد الطلب",
+    "linkLabels": [
+      "دمبل سداسي مغطى بالمطاط",
+      "مجموعة الدمبل التجارية",
+      "الفحص قبل الشحن",
+      "اعتماد عينات OEM",
+      "مصنعنا",
+      "طلب مراجعة البناء"
+    ],
+    "imageCopy": [
+      [
+        "قطعتان من الدمبل السداسي دون علامة بمقابض فولاذية مستقيمة",
+        "ترتيب توضيحي لمقارنة هندسة الرؤوس والمقابض."
+      ],
+      [
+        "تفصيل التقاء كتف المقبض المعدني بالرأس المطاطي",
+        "المظهر الخارجي لا يغني عن دليل التثبيت الداخلي."
+      ],
+      [
+        "دمبل مدعوم من الرأسين داخل حاضنة في صندوق",
+        "مثال تغليف يحتاج إلى تحقق وفقا للوزن ومسار النقل."
+      ]
+    ],
+    "cta": [
+      "راجع مواصفة الاتصال قبل تثبيت الطلب",
+      "أرسل الأوزان والاستخدام ومتطلبات العلامة. يمكن لفريق المصنع مناقشة التكوين والعينات والمستندات اللازمة لطلبك.",
+      "تواصل مع المصنع"
+    ]
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/blog/dumbbell-head-handle-joint-inspection",
+    "title": "덤벨 헤드와 손잡이 결합 구조: 도매 구매 검수 가이드",
+    "description": "상업용 고정 덤벨 발주 전 확인할 헤드 결합 방식, 모델별 시험 자료, 대표 샘플, 입고 검사와 OEM 변경 관리를 정리했습니다.",
+    "h1": "덤벨 헤드와 손잡이의 결합 구조, 대량 구매 전에 어떻게 검수할까?",
+    "keyword": "덤벨 헤드 손잡이 결합 구조",
+    "home": "홈",
+    "library": "블로그",
+    "eyebrow": "덤벨 공장의 구매 검토 가이드",
+    "sections": [
+      {
+        "heading": "견적 비교에 결합 구조를 포함하세요",
+        "text": "헬스장이나 유통용 고정 덤벨을 구매할 때는 무게와 외장 소재뿐 아니라 금속 헤드가 손잡이에 고정되는 방식도 확인해야 합니다. 육각 형태, 고무 코팅, ‘용접’이라는 단어만으로 완제품의 결합 품질을 판단할 수는 없습니다.\n\n모델, 중량 구성, 도면 개정, 승인 샘플, 검사 방법과 합격 기준을 발주서에 연결하세요. PowerBaseFit은 프리웨이트 제조 공장이며 수입사, 유통사, 자체 브랜드와 헬스장 구매 담당자의 요구를 검토한 뒤 해당 구성의 견적을 협의할 수 있습니다."
+      },
+      {
+        "heading": "설계된 회전과 예상 밖의 유격을 구분하세요",
+        "text": "이 안내는 헤드가 고정되도록 설계된 덤벨을 대상으로 합니다. 일부 특수 제품의 회전 부품은 별도 설계 문서에 따라 평가해야 합니다. 고정 헤드가 예상치 못하게 돌거나 흔들리거나 손잡이 방향으로 밀리면 사용에서 제외하고 공급사에 평가를 요청하세요.\n\n장식 캡, 코팅층, 금속 헤드 중 어디에서 움직임이 보이는지 기록하세요. 이는 관찰 내용이지 원인 확정은 아닙니다. 모델과 로트, 사진, 사용 이력을 보존하고 임의로 분해하지 않는 것이 조사에 도움이 됩니다."
+      },
+      {
+        "heading": "견적서의 공법 명칭을 구체적인 질문으로 바꾸세요",
+        "text": "### 용접 결합\n어떤 부품을 어떤 공정으로 연결하는지 확인하세요. 마찰 용접은 가능한 방법 중 하나입니다. 코팅 후 가려지는 접합부는 외부 사진만으로 내부 건전성을 확인할 수 없습니다.\n\n### 억지 끼워맞춤과 압입\n맞물리는 부품의 치수와 조립 공정을 함께 봐야 합니다. 압입에 용접이나 기계적 고정이 추가될 수도 있습니다. 프레스의 정격 힘은 완성 덤벨의 시험 결과와 다릅니다.\n\n### 기계적 고정\n잠금 구조, 점검 방법과 서비스 지침을 요청하세요. 기계적 고정이 무조건 열등한 것은 아니며, 헬스장 직원이 임의로 다시 조여도 된다는 뜻도 아닙니다."
+      },
+      {
+        "heading": "시험 자료가 답하는 질문을 나누세요",
+        "text": "### 외관과 치수 검사\n정렬, 그립 형상, 노출된 손상과 연결 전환부를 확인합니다. 이런 검사는 필요하지만 숨겨진 금속 결합의 상태를 모두 증명하지는 못합니다.\n\n### 헤드 유지 성능 확인\n역량 있는 공급사나 시험 기관이 고정 지그, 하중 방향, 절차, 측정값과 판정 기준을 정해야 합니다. 축 방향 이탈과 회전은 서로 다른 현상입니다. 모델 근거 없이 보편적인 인장력이나 토크 수치를 제시하지 마세요.\n\n### 반복 하중과 충격\n시험 중량, 바닥 조건, 방향, 반복 횟수와 시험 후 상태를 확인하세요. 조건 없는 짧은 영상으로 제품을 비교할 수 없습니다. 시험에 사용한 제품은 별도로 관리하고 미사용 신품 재고로 되돌리지 않아야 합니다."
+      },
+      {
+        "heading": "중량대별 구조 변화를 샘플 계획에 반영하세요",
+        "text": "중량이 달라지면 헤드 치수, 손잡이 지름 또는 조립 구조가 달라질 수 있습니다. 공장에 변경 지점을 묻고 이를 대표하는 샘플을 선정하세요. 가벼운 샘플 한 개의 마감이 좋다고 전체 중량대가 승인되는 것은 아닙니다.\n\n설계 검증과 생산 로트 검수는 구분해야 합니다. 이전 개정이나 다른 중량의 보고서는 적용 가능성에 대한 설명이 필요합니다. 샘플 번호, 날짜가 있는 사진과 보고서가 승인된 발주 사양에 대응하는지 확인하세요."
+      },
+      {
+        "heading": "자체 브랜드와 OEM 변경을 관리하세요",
+        "text": "OEM, ODM, Custom Logo, Private Label 발주에서는 로고 시안 승인과 구조 승인을 구분해 기록하세요. 헤드 끝단, 소재 또는 손잡이가 바뀌면 결합 구조에 영향을 줄 수 있습니다. 외형 변경으로 시작한 요청이라도 생산 개정 전에 기술 검토가 필요할 수 있습니다.\n\n대량 공급인 Bulk Supply 견적은 같은 중량 구성, 검사 범위와 포장 조건으로 비교하세요. 필요하면 샘플, 금형, 검사 비용을 구분해 요청할 수 있습니다. MOQ와 일정은 선택한 구성에 따라 확인하며 다른 모델의 조건을 그대로 적용하지 않습니다."
+      },
+      {
+        "heading": "입고 검사와 이상 제품 처리를 연결하세요",
+        "text": "포장은 무거운 헤드를 받치고 이동을 제한해야 하며 그립을 주된 지지점으로 삼지 않도록 설계해야 합니다. 사진은 배치 예시입니다. 실제 중량, 상자와 운송 경로에 맞는 보호 성능은 별도로 검증해야 합니다. 손상된 포장은 폐기 전에 기록하세요.\n\n예상 밖의 유격을 발견하면 관련 제품을 격리하고 로트 정보를 유지하세요. 공급사와 원인 평가, 추가 검사 범위, 승인된 조치를 협의하세요. 임의 접착, 재용접이나 조임은 상태를 바꾸고 원인 확인을 어렵게 할 수 있습니다."
+      },
+      {
+        "heading": "공장에 보낼 구매 검토 자료",
+        "text": "상업용 사용 환경, 고정 덤벨 형태, 중량 범위, 중량별 수량, 희망 치수, 브랜드 파일과 목적지를 알려주세요. 결합 구조 설명, 적용 가능한 시험 자료, 샘플링, 합격 기준과 하자 처리 절차도 요청하세요.\n\n공개된 구조 문서의 예로 [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells), [Iron Grip](https://irongrip.com/dumbbells-barbells/) 자료를 참고할 수 있습니다. 해당 자료는 각 회사 모델에 관한 것이며 PowerBaseFit 제품의 성능을 입증하지 않습니다."
+      }
+    ],
+    "table": {
+      "heading": "발주 전에 확인할 자료와 한계",
+      "columns": [
+        "구매 질문",
+        "유용한 자료",
+        "자료의 한계"
+      ],
+      "rows": [
+        [
+          "헤드는 어떻게 고정되나요?",
+          "도면과 조립 설명",
+          "외관 사진만으로는 부족"
+        ],
+        [
+          "어떤 구성을 시험했나요?",
+          "샘플 식별과 중량",
+          "다른 크기는 구조가 다를 수 있음"
+        ],
+        [
+          "어떻게 판정했나요?",
+          "방법, 결과와 합격 기준",
+          "공법 명칭은 시험 결과가 아님"
+        ],
+        [
+          "승인 뒤 무엇이 바뀌었나요?",
+          "개정 이력",
+          "같은 색상이 같은 구조를 뜻하지 않음"
+        ],
+        [
+          "문제 발생 시 어떻게 처리하나요?",
+          "로트 추적과 합의된 절차",
+          "일반 보증 문구만으로는 불충분"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "로트 승인 전 검수 목록",
+      "items": [
+        "모델, 중량 표시, 로트와 승인 도면 개정을 대조합니다.",
+        "정렬과 보이는 연결부를 기준 샘플과 비교합니다.",
+        "비정상 회전, 흔들림, 틈이나 소음을 합의된 절차로 확인합니다.",
+        "보고서 적용 범위와 샘플링의 대표성을 검토합니다.",
+        "불합격 제품은 처리 결정이 기록될 때까지 분리합니다."
+      ]
+    },
+    "faqHeading": "자주 묻는 질문",
+    "faq": [
+      [
+        "용접 덤벨이 항상 더 좋은가요?",
+        "아닙니다. 전체 설계, 소재, 조립 관리와 해당 모델의 근거를 함께 평가해야 합니다."
+      ],
+      [
+        "고무 표면으로 내부 결합을 판단할 수 있나요?",
+        "외부 상태는 볼 수 있지만 숨겨진 금속 결합의 유지 성능은 별도 근거가 필요합니다."
+      ],
+      [
+        "낙하 영상으로 전체 발주를 승인해도 되나요?",
+        "아닙니다. 시료와 시험 조건을 확인하고 별도의 로트 승인 계획을 적용해야 합니다."
+      ],
+      [
+        "헬스장에서 느슨한 헤드를 수리해도 되나요?",
+        "사용을 중지하고 공급사에 해당 모델에 승인된 평가와 조치를 요청하세요."
+      ],
+      [
+        "샘플 하나로 전 중량을 검증할 수 있나요?",
+        "자동으로 적용할 수는 없습니다. 구조가 달라지는 구성을 샘플 계획에 반영해야 합니다."
+      ],
+      [
+        "로고 변경 시 시험을 다시 해야 하나요?",
+        "변경 범위에 따라 다릅니다. 소재, 형상 또는 조립이 바뀌면 적절한 기술 검토가 필요합니다."
+      ]
+    ],
+    "linkHeading": "제품과 발주 참고 자료",
+    "linkLabels": [
+      "고무 육각 덤벨",
+      "상업용 덤벨 제품군",
+      "선적 전 검사 안내",
+      "OEM 샘플 승인",
+      "제조 공장 소개",
+      "결합 구조 검토 문의"
+    ],
+    "imageCopy": [
+      [
+        "직선형 강철 손잡이가 있는 무표기 고무 육각 덤벨 두 개",
+        "헤드와 손잡이의 비례를 비교하기 위한 제품 배치 예시입니다."
+      ],
+      [
+        "금속 손잡이 어깨와 고무 헤드가 만나는 부분의 확대 모습",
+        "외부 모습은 가려진 내부 고정에 대한 근거를 대신하지 않습니다."
+      ],
+      [
+        "상자 안 성형 받침이 양쪽 헤드를 지지하는 덤벨",
+        "실제 중량과 운송 조건에 맞게 검증해야 하는 포장 예시입니다."
+      ]
+    ],
+    "cta": [
+      "대량 발주 전에 결합 사양을 검토하세요",
+      "중량 구성, 사용 목적과 브랜드 요구를 보내주세요. 공장 담당자가 모델, 샘플과 필요한 자료를 함께 검토할 수 있습니다.",
+      "공장에 검토 요청"
+    ]
+  },
+  {
+    "locale": "id",
+    "path": "/id/blog/sambungan-kepala-gagang-dumbbell-grosir",
+    "title": "Sambungan Kepala dan Gagang Dumbbell untuk Grosir",
+    "description": "Panduan menilai sambungan dumbbell sebelum membeli grosir: konstruksi, bukti pengujian, sampel, penerimaan barang dan perubahan OEM untuk gym serta distributor.",
+    "h1": "Cara memeriksa sambungan kepala dan gagang dumbbell sebelum membeli grosir",
+    "keyword": "sambungan kepala gagang dumbbell",
+    "home": "Beranda",
+    "library": "Blog",
+    "eyebrow": "Panduan pembelian dumbbell dari pabrik",
+    "sections": [
+      {
+        "heading": "Masukkan konstruksi sambungan dalam permintaan harga",
+        "text": "Saat membeli dumbbell tetap untuk gym atau distribusi, tanyakan bagaimana kepala logam ditahan pada gagang. Bentuk hex, lapisan karet, dan kata «dilas» belum menjelaskan keseluruhan sambungan. Kualitasnya perlu ditinjau berdasarkan model serta konfigurasi yang benar-benar akan dipesan.\n\nHubungkan kode model, pilihan berat, revisi gambar, sampel dan kriteria penerimaan dengan pesanan. PowerBaseFit adalah pabrik beban bebas; tim kami dapat membahas kebutuhan importir, distributor dan pemilik merek sebelum mengonfirmasi konfigurasi serta penawaran."
+      },
+      {
+        "heading": "Bedakan gerakan yang dirancang dan kelonggaran",
+        "text": "Panduan ini membahas dumbbell dengan kepala yang dirancang tetap terpasang. Model khusus dengan komponen berputar memerlukan penilaian berdasarkan dokumennya sendiri. Bila kepala tetap berputar, bergoyang atau bergeser sepanjang gagang secara tidak semestinya, hentikan penggunaan dan minta penilaian pemasok.\n\nCatat apakah bagian yang tampak bergerak adalah penutup, lapisan luar atau kepala logam. Pengamatan tersebut membantu investigasi tetapi belum membuktikan penyebab. Simpan identitas model, lot, foto dan riwayat penggunaan; jangan membongkar tanpa arahan."
+      },
+      {
+        "heading": "Perjelas istilah konstruksi dalam katalog",
+        "text": "### Sambungan las\nTanyakan bagian yang dilas dan metode yang dipakai. Pengelasan gesek merupakan salah satu kemungkinan. Lapisan luar dapat menutupi sambungan, sehingga foto produk tidak membuktikan kondisi las di dalamnya.\n\n### Suaian paksa atau pemasangan tekan\nDimensi pasangan dan prosedur perakitan bekerja sebagai satu sistem. Sambungan tekan dapat digabungkan dengan las atau penguncian mekanis. Kapasitas nominal mesin pres bukan hasil uji dumbbell jadi.\n\n### Pengikat mekanis\nMinta penjelasan penguncian, pemeriksaan dan petunjuk servis. Pengikat mekanis tidak otomatis lebih buruk, dan tidak berarti staf gym boleh mengencangkannya sendiri."
+      },
+      {
+        "heading": "Pahami batas setiap bukti pemeriksaan",
+        "text": "### Pemeriksaan visual dan dimensi\nPeriksa kelurusan, geometri gagang, kerusakan dan pertemuan yang terlihat. Hasilnya tidak cukup untuk menyatakan sambungan logam tersembunyi bebas masalah.\n\n### Kemampuan menahan kepala\nPemasok atau laboratorium yang kompeten perlu menentukan jig, arah beban, prosedur, pengukuran dan batas penerimaan. Pergeseran aksial berbeda dari putaran. Jangan menetapkan angka gaya tarik atau torsi universal tanpa dasar untuk desain tersebut.\n\n### Beban berulang dan benturan\nMinta identitas berat, permukaan, orientasi, pengulangan dan pemeriksaan setelah pengujian. Video singkat tanpa kondisi tidak memungkinkan perbandingan. Benda uji harus dikendalikan terpisah dan tidak dikembalikan sebagai stok baru yang belum digunakan."
+      },
+      {
+        "heading": "Pilih sampel sesuai variasi dalam rentang berat",
+        "text": "Diameter gagang, ukuran kepala atau susunan sambungan dapat berubah pada kelompok berat tertentu. Tanyakan titik perubahannya dan pilih sampel yang mewakili konfigurasi tersebut. Satu dumbbell ringan dengan tampilan baik tidak otomatis mewakili seluruh seri.\n\nPisahkan validasi desain dari penerimaan lot produksi. Laporan revisi lama atau berat lain membutuhkan penjelasan tertulis tentang penerapannya. Cocokkan kode sampel, foto dan referensi laporan dengan spesifikasi yang telah disetujui."
+      },
+      {
+        "heading": "Kendalikan perubahan OEM dan merek sendiri",
+        "text": "Untuk OEM dan ODM, termasuk logo khusus serta merek sendiri, persetujuan gambar merek perlu dibedakan dari persetujuan konstruksi. Perubahan bentuk kepala, bahan atau gagang dapat memengaruhi sambungan. Tinjau perubahan tersebut sebelum revisi baru masuk produksi.\n\nPada pasokan volume besar, Bulk Supply, bandingkan penawaran dengan komposisi berat, lingkup pemeriksaan dan kemasan yang sama. Bila relevan, minta rincian sampel, perkakas dan inspeksi. MOQ serta jadwal dikonfirmasi untuk konfigurasi terpilih, bukan disalin dari model lain."
+      },
+      {
+        "heading": "Penerimaan barang dan penanganan unit bermasalah",
+        "text": "Kemasan perlu menopang kepala yang berat dan membatasi pergeseran tanpa menjadikan area genggaman sebagai penopang utama. Gambar menunjukkan contoh tata letak; perlindungannya harus divalidasi untuk berat, karton dan rute pengiriman sebenarnya. Foto kerusakan karton sebelum membuang kemasan.\n\nJika muncul gerakan tidak semestinya, pisahkan unit terkait dan pertahankan identitas lot. Sepakati evaluasi, cakupan pemeriksaan lanjutan dan solusi yang disetujui bersama pemasok. Hindari pengeleman, pengelasan atau pengencangan improvisasi yang dapat mengubah kondisi barang."
+      },
+      {
+        "heading": "Data untuk pembahasan teknis dengan pabrik",
+        "text": "Kirim penggunaan komersial, jenis dumbbell tetap, rentang berat, jumlah per berat, geometri yang diinginkan, logo dan tujuan pengiriman. Sertakan permintaan uraian sambungan, bukti yang berlaku, rencana sampel, penerimaan dan penanganan keluhan.\n\nContoh dokumentasi konstruksi publik tersedia dari [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) dan [Iron Grip](https://irongrip.com/dumbbells-barbells/). Data tersebut berlaku untuk model mereka dan tidak membuktikan karakteristik produk PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Dokumen yang diperlukan sebelum menyetujui lot",
+      "columns": [
+        "Pertanyaan",
+        "Bukti yang berguna",
+        "Batas informasi"
+      ],
+      "rows": [
+        [
+          "Apa yang menahan kepala?",
+          "Gambar dan uraian perakitan",
+          "Foto luar tidak cukup"
+        ],
+        [
+          "Konfigurasi mana yang diuji?",
+          "Identitas sampel dan berat",
+          "Ukuran lain dapat berbeda"
+        ],
+        [
+          "Bagaimana pemeriksaannya?",
+          "Metode, hasil dan kriteria",
+          "Nama proses bukan hasil uji"
+        ],
+        [
+          "Apa yang berubah?",
+          "Riwayat revisi",
+          "Warna sama belum tentu konstruksi sama"
+        ],
+        [
+          "Bagaimana menangani cacat?",
+          "Pelacakan lot dan prosedur",
+          "Janji garansi umum belum menjelaskan tindakan"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Daftar pemeriksaan penerimaan lot",
+      "items": [
+        "Cocokkan model, tanda berat, lot dan revisi yang disetujui.",
+        "Bandingkan kelurusan serta sambungan terlihat dengan sampel acuan.",
+        "Selidiki kelonggaran, putaran, bunyi atau celah tidak semestinya sesuai prosedur.",
+        "Periksa penerapan laporan dan cakupan pengambilan sampel.",
+        "Pisahkan unit ditolak sampai keputusan penanganannya tercatat."
+      ]
+    },
+    "faqHeading": "Pertanyaan umum",
+    "faq": [
+      [
+        "Apakah dumbbell las selalu lebih baik?",
+        "Tidak. Nilai desain lengkap, bahan, kendali perakitan dan bukti yang sesuai dengan model."
+      ],
+      [
+        "Apakah karet menunjukkan kekuatan sambungan?",
+        "Karet memperlihatkan kondisi luar, bukan integritas pengikat logam yang tersembunyi."
+      ],
+      [
+        "Apakah video jatuh cukup untuk menerima pesanan?",
+        "Tidak. Identitas sampel dan kondisi perlu diketahui, lalu terapkan rencana penerimaan lot."
+      ],
+      [
+        "Bolehkah gym memperbaiki kepala longgar?",
+        "Hentikan penggunaan dan minta solusi yang diotorisasi pemasok untuk model tersebut."
+      ],
+      [
+        "Apakah satu sampel mencakup seluruh berat?",
+        "Tidak otomatis. Rencana sampel harus mempertimbangkan perbedaan konstruksi."
+      ],
+      [
+        "Apakah perubahan logo perlu pengujian ulang?",
+        "Tergantung perubahannya. Bahan, geometri atau perakitan yang berubah memerlukan peninjauan teknis yang sesuai."
+      ]
+    ],
+    "linkHeading": "Produk dan panduan untuk menyiapkan pesanan",
+    "linkLabels": [
+      "Dumbbell hex berlapis karet",
+      "Pilihan dumbbell komersial",
+      "Inspeksi sebelum pengiriman",
+      "Persetujuan sampel OEM",
+      "Pabrik kami",
+      "Minta tinjauan konstruksi"
+    ],
+    "imageCopy": [
+      [
+        "Dua dumbbell hex tanpa merek dengan gagang baja lurus",
+        "Susunan produk ilustratif untuk membandingkan geometri kepala dan gagang."
+      ],
+      [
+        "Detail pertemuan bahu gagang logam dan kepala berlapis karet",
+        "Kondisi luar tidak menggantikan bukti tentang sambungan tersembunyi."
+      ],
+      [
+        "Dumbbell ditopang pada kedua kepala dalam sisipan karton",
+        "Contoh kemasan yang perlu divalidasi sesuai berat dan jalur pengiriman."
+      ]
+    ],
+    "cta": [
+      "Bahas sambungan sebelum memesan grosir",
+      "Kirim pilihan berat, penggunaan dan kebutuhan merek. Tim pabrik dapat meninjau konfigurasi, sampel dan dokumen untuk pesanan Anda.",
+      "Hubungi pabrik"
+    ]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/polaczenie-glowicy-uchwytu-hantli-zakup-hurtowy",
+    "title": "Połączenie głowicy i uchwytu hantli: zakup hurtowy",
+    "description": "Jak ocenić mocowanie głowicy hantli: konstrukcja, dokumenty z badań, próbki, odbiór partii i zmiany OEM przed zamówieniem dla siłowni lub dystrybutora.",
+    "h1": "Jak sprawdzić połączenie głowicy i uchwytu hantli przed zakupem hurtowym",
+    "keyword": "połączenie głowicy uchwytu hantli",
+    "home": "Strona główna",
+    "library": "Blog",
+    "eyebrow": "Poradnik zakupowy fabryki hantli",
+    "sections": [
+      {
+        "heading": "Wpisz sposób mocowania do zapytania ofertowego",
+        "text": "Przy zamówieniu hantli stałych dla siłowni lub dystrybucji trzeba wiedzieć, jak metalowa głowica jest utrzymywana na uchwycie. Sześciokątny kształt, gumowa powłoka i określenie „spawane” nie opisują całego połączenia. Oceniaj konkretną konstrukcję oraz dowody dotyczące zamawianej wersji.\n\nPołącz model, zakres mas, rewizję rysunku, próbki i kryteria odbioru z zamówieniem. PowerBaseFit jest fabryką wolnych ciężarów; możemy omówić wymagania importerów, dystrybutorów i marek własnych przed potwierdzeniem konfiguracji oraz oferty."
+      },
+      {
+        "heading": "Odróżnij przewidziany ruch od nieprawidłowego luzu",
+        "text": "Poradnik dotyczy hantli, których głowice mają pozostawać nieruchome zgodnie z projektem. Modele specjalne z elementami obrotowymi wymagają oceny według własnej dokumentacji. Jeśli stała głowica niespodziewanie obraca się, kołysze lub przesuwa wzdłuż uchwytu, wycofaj sztukę z użytkowania i zgłoś ją dostawcy.\n\nZapisz, czy porusza się zaślepka, powłoka czy metalowy korpus. To obserwacja, a nie rozpoznanie przyczyny. Zachowaj model, numer partii, zdjęcia i historię użytkowania; nie rozbieraj wyrobu bez instrukcji."
+      },
+      {
+        "heading": "Dopytaj o trzy opisy konstrukcji",
+        "text": "### Połączenie spawane\nKtóre części są łączone i jaką metodą? Zgrzewanie tarciowe jest jedną z możliwości. Po nałożeniu powłoki strefa połączenia może być niewidoczna, więc fotografia zewnętrzna nie potwierdza jej integralności.\n\n### Połączenie wciskowe\nWymiary współpracujących elementów i sposób montażu należy rozpatrywać razem. Wcisk może być uzupełniony spawaniem lub zabezpieczeniem mechanicznym. Nominalna siła prasy nie jest wynikiem badania gotowej hantli.\n\n### Mocowanie mechaniczne\nPoproś o opis zabezpieczenia, kontroli i zasad serwisu. Takie rozwiązanie nie jest automatycznie gorsze i nie upoważnia obsługi siłowni do samodzielnego dokręcania."
+      },
+      {
+        "heading": "Czytaj wyniki w granicach zastosowanej metody",
+        "text": "### Oględziny i pomiary\nSprawdź osiowość, geometrię uchwytu, uszkodzenia i dostępne przejścia między częściami. Nie dowodzi to pełnej sprawności ukrytego połączenia metalowego.\n\n### Utrzymanie głowicy\nKompetentny dostawca lub laboratorium powinien określić uchwyt badawczy, kierunek obciążenia, procedurę, pomiary i kryteria. Wysuwanie osiowe i obrót to różne zachowania. Nie przyjmuj uniwersalnej siły ani momentu bez uzasadnienia dla danego projektu.\n\n### Obciążenia powtarzalne i udary\nWymagaj informacji o masie próbki, podłożu, orientacji, powtórzeniach i badaniu po zakończeniu. Krótki film bez warunków nie pozwala porównywać wyników. Badane egzemplarze muszą pozostać oznaczone i nie wracać do sprzedaży jako nienaruszony nowy towar."
+      },
+      {
+        "heading": "Dobierz próbki do zmian w całej serii",
+        "text": "Wraz z masą mogą zmieniać się wymiary głowic, średnica uchwytu lub sposób montażu. Ustal te przejścia z fabryką i wybierz reprezentatywne próbki. Dobrze wyglądająca lekka hantla nie zatwierdza automatycznie cięższych wariantów.\n\nWalidacja projektu różni się od odbioru partii. Raport dla starszej rewizji lub innej masy wymaga udokumentowanego uzasadnienia zastosowania. Identyfikacja próbki, fotografie i numer raportu powinny odpowiadać zatwierdzonej specyfikacji."
+      },
+      {
+        "heading": "Kontroluj zmiany marki własnej i OEM",
+        "text": "W projektach OEM, ODM, Custom Logo i Private Label oddziel akceptację grafiki od akceptacji konstrukcji. Inny kształt końca, materiał głowicy lub uchwyt może wpływać na połączenie. Oceń zmianę przed zwolnieniem nowej rewizji do produkcji.\n\nPrzy dostawach hurtowych, Bulk Supply, porównuj jednakowy zestaw mas, zakres kontroli i opakowanie. W razie potrzeby poproś o osobne pozycje dotyczące próbek, oprzyrządowania i inspekcji. Minimum zamówienia oraz termin potwierdza się dla wybranej konfiguracji."
+      },
+      {
+        "heading": "Odbiór dostawy i postępowanie z wadliwą sztuką",
+        "text": "Opakowanie powinno podpierać ciężkie głowice i ograniczać przesuwanie, zamiast opierać główny ciężar na części chwytnej. Ilustracja pokazuje przykładowy układ; skuteczność zabezpieczenia trzeba sprawdzić dla rzeczywistej masy, kartonu i trasy. Fotografuj uszkodzone opakowania przed ich wyrzuceniem.\n\nPrzy niespodziewanym luzie odizoluj objęte nim jednostki i zachowaj identyfikację partii. Uzgodnij z dostawcą ocenę, zakres dodatkowych kontroli i zatwierdzone rozwiązanie. Improwizowane klejenie, spawanie lub dokręcanie zmienia produkt i może utrudnić analizę przyczyny."
+      },
+      {
+        "heading": "Co przekazać fabryce do oceny zamówienia",
+        "text": "Podaj zastosowanie komercyjne, typ hantli stałych, masy, ilości każdej pozycji, oczekiwaną geometrię, pliki marki i miejsce dostawy. Dołącz pytania o konstrukcję, właściwe dowody, plan próbek, kryteria odbioru i obsługę reklamacji.\n\nPrzykłady publicznej dokumentacji konstrukcyjnej: [REP](https://repfitness.com/products/rubber-hex-dumbbell-pairs), [Ivanko](https://ivankobarbell.com/pages/urethane-iudb-urethane-dumbbells) oraz [Iron Grip](https://irongrip.com/dumbbells-barbells/). Dane opisują ich modele i nie potwierdzają właściwości produktów PowerBaseFit."
+      }
+    ],
+    "table": {
+      "heading": "Dokumenty potrzebne do świadomego odbioru",
+      "columns": [
+        "Pytanie",
+        "Przydatny dowód",
+        "Ograniczenie"
+      ],
+      "rows": [
+        [
+          "Co utrzymuje głowicę?",
+          "Rysunek i opis montażu",
+          "Zdjęcie zewnętrzne nie wystarcza"
+        ],
+        [
+          "Którą wersję badano?",
+          "Identyfikacja i masa próbki",
+          "Inny rozmiar może się różnić"
+        ],
+        [
+          "Jak ją sprawdzono?",
+          "Metoda, wynik i kryterium",
+          "Nazwa procesu nie jest wynikiem"
+        ],
+        [
+          "Co zmieniono?",
+          "Historia rewizji",
+          "Ten sam kolor nie oznacza tej samej budowy"
+        ],
+        [
+          "Jak rozwiązać problem?",
+          "Śledzenie partii i procedura",
+          "Ogólna gwarancja nie opisuje działań"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Lista kontroli przed zwolnieniem partii",
+      "items": [
+        "Porównaj model, oznaczenie masy, partię i zatwierdzoną rewizję.",
+        "Zestaw osiowość i widoczne przejścia z próbką wzorcową.",
+        "Sprawdź nieoczekiwany obrót, luz, odgłos lub szczelinę według uzgodnionej metody.",
+        "Oceń zastosowanie raportów i reprezentatywność próbkowania.",
+        "Trzymaj odrzucone sztuki oddzielnie do czasu udokumentowania decyzji."
+      ]
+    },
+    "faqHeading": "Najczęstsze pytania",
+    "faq": [
+      [
+        "Czy spawane hantle zawsze są lepsze?",
+        "Nie. Trzeba łącznie ocenić projekt, materiały, kontrolowany montaż i właściwe dowody."
+      ],
+      [
+        "Czy gumowa powłoka pokazuje wytrzymałość połączenia?",
+        "Pokazuje stan zewnętrzny, a nie integralność ukrytego mocowania metalowego."
+      ],
+      [
+        "Czy film z upadku wystarczy do odbioru?",
+        "Nie. Potrzebne są dane próbki i warunki oraz uzgodniony plan akceptacji partii."
+      ],
+      [
+        "Czy siłownia może naprawić luźną głowicę?",
+        "Wycofaj hantlę z użycia i poproś dostawcę o autoryzowane rozwiązanie dla tego modelu."
+      ],
+      [
+        "Czy jedna próbka obejmuje całą serię?",
+        "Nie automatycznie. Plan musi uwzględniać różnice konstrukcyjne."
+      ],
+      [
+        "Czy zmiana logo wymaga kolejnego badania?",
+        "Zależy od zakresu zmiany. Nowy materiał, geometria lub montaż wymagają odpowiedniej oceny technicznej."
+      ]
+    ],
+    "linkHeading": "Produkty i wsparcie zakupu",
+    "linkLabels": [
+      "Gumowane hantle sześciokątne",
+      "Asortyment hantli",
+      "Inspekcja przed wysyłką",
+      "Akceptacja próbek OEM",
+      "Nasza fabryka",
+      "Zapytaj o konstrukcję"
+    ],
+    "imageCopy": [
+      [
+        "Dwie nieoznakowane hantle sześciokątne z prostymi stalowymi uchwytami",
+        "Ilustracyjny układ do porównania geometrii głowic i uchwytów."
+      ],
+      [
+        "Zbliżenie przejścia między metalowym uchwytem a gumowaną głowicą",
+        "Wygląd zewnętrzny nie zastępuje dowodów dotyczących ukrytego mocowania."
+      ],
+      [
+        "Hantla podparta pod głowicami we wkładzie kartonowego pudełka",
+        "Przykład opakowania wymagający sprawdzenia dla masy i trasy przewozu."
+      ]
+    ],
+    "cta": [
+      "Sprawdź specyfikację połączenia przed zamówieniem",
+      "Prześlij zakres mas, zastosowanie i wymagania marki. Nasza fabryka może omówić konfigurację, próbki i dokumentację do zakupu.",
+      "Skontaktuj się z fabryką"
+    ]
+  }
+]

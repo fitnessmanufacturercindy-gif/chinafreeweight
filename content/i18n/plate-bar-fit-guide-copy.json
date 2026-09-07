@@ -1,0 +1,225 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/olympic-plate-hole-barbell-sleeve-fit-guide",
+    "title": "50 mm vs 2 Inch Olympic Plate Holes: Bar Fit Guide",
+    "description": "Specify Olympic plate bores and barbell sleeves by real dimensions, clearance, roundness, insert alignment, sample fit and bulk inspection—not labels alone.",
+    "h1": "How to Specify Olympic Plate Hole and Barbell Sleeve Fit",
+    "keyword": "Olympic weight plate hole size and barbell sleeve fit",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Plate-to-bar interface procurement guide",
+    "sections": [
+      {
+        "heading": "The quick answer: treat the plate and bar as one measured interface",
+        "text": "An Olympic label does not by itself guarantee that every plate will load smoothly on every bar. The buyer must compare the largest finished sleeve diameter with the smallest finished plate bore, then account for roundness, straightness, coating, burrs, insert alignment and the way both parts are measured. A functional fit check on agreed reference parts should support, not replace, the dimensional record.\n\nThis matters in commercial gyms because a fit that is too tight slows plate changes and may seize after contamination or minor damage. Excessive looseness allows visible rocking and noise, while a collar only controls movement along the sleeve. PowerBaseFit can review the interface as one factory specification for OEM, ODM, custom-logo, private-label and bulk-supply projects."
+      },
+      {
+        "heading": "50 mm and 2 inch are category names, not the same exact dimension",
+        "text": "Two inches equals 50.8 mm, not 50.0 mm. In product listings, however, both expressions are often used loosely for the Olympic-class interface. Published competition and manufacturer specifications also use different finished openings for different products. That is why converting a marketing label into a factory tolerance without checking the actual standard, bar and plate is unsafe.\n\nFirst separate Olympic-class equipment from smaller standard or domestic systems. Then write the actual finished dimensions and tolerances for the selected plate family and bar model. If a project must meet a federation rule or an approved-equipment list, cite the exact current document and discipline; do not blend weightlifting, powerlifting and general commercial specifications into one number."
+      },
+      {
+        "heading": "Build a two-sided interface specification",
+        "text": "A usable purchase specification identifies the bar model, sleeve outside diameter after finishing, dimensional tolerance, roundness, straightness and the areas included in measurement. It also identifies the plate SKU, finished bore or insert inside diameter, its tolerance, roundness, taper or chamfer, insertion depth and permitted edge condition. Units and instrument resolution belong beside every value.\n\nThe clearance calculation must use limits, not only nominal values: minimum plate opening against maximum sleeve size is the tightest condition; maximum opening against minimum sleeve size is the loosest. The drawing should also state whether ribs, grooves, coatings or end transitions are excluded. Ask the supplier to show that the complete limit combination remains loadable and commercially acceptable."
+      },
+      {
+        "heading": "Measure diameter, roundness and fit at more than one point",
+        "text": "One caliper reading can miss an oval bore, tapered insert or sleeve high spot. Agree where readings are taken, how many angular directions and depths are checked, and whether a bore gauge, micrometer, go/no-go gauge or another verified tool is appropriate. Record the instrument identification, unit, resolution and result rather than photographing an unreadable display.\n\nFunctional testing should use clean, undamaged reference sleeves that represent the accepted limit or approved production bar. Load the plate squarely without impact, confirm travel across the intended loading length and remove it by hand. Do not sand, hammer or force a sample to create a pass. Those actions hide whether the plate, sleeve or both are outside the agreed condition."
+      },
+      {
+        "heading": "Control the insert, machining and finish that create the bore",
+        "text": "Cast-iron plates, coated grip plates and bumper plates can reach the interface through different constructions. The final bore may be cast, machined, formed by a steel insert or affected by an applied coating. The buyer should therefore specify the finished result and the relevant construction details instead of assuming that every material is controlled in the same step.\n\nInspect insert concentricity, seating, tilt, exposed edges, burrs, coating build and damage. For plates intended to be dropped, the insert-to-body construction also deserves model-specific review; a bore size alone says nothing about retention. Custom logos, colors and markings must not disturb the insert, cover inspection surfaces or change the approved bore process."
+      },
+      {
+        "heading": "Approve a representative family, not one convenient plate and bar",
+        "text": "A single well-matched pair can conceal variation. The sample plan should cover the lightest and heaviest relevant plates, different molds or insert sizes when they exist, both ends of the bar and every bar family the buyer expects to use. A gym that mixes existing bars with a new plate order should provide measured reference information or representative hardware before approval.\n\nFor bulk inspection, draw samples across production lots, cartons and SKUs. Record individual dimensional results and the corresponding functional-fit result, because an average cannot rescue an out-of-limit part. If a later reorder uses a new insert supplier, machining setup, coating system or sleeve finish, require change control and a new comparison against the retained reference."
+      },
+      {
+        "heading": "Protect the approved fit through finishing, packing and gym use",
+        "text": "Plating or coating can alter a sleeve diameter, while overspray, flash, corrosion, dents or debris can reduce usable clearance. Measurements should therefore describe the finished product. Before packing, check bore edges and sleeve surfaces, remove loose contamination and use separators that prevent heavy parts from striking the interface during transport.\n\nAt receiving, photograph carton condition, identify the sampled SKUs and test them on clean reference bars before distributing the order. Quarantine plates that bind or sleeves with raised damage. In service, keep loading surfaces clean and inspect wear, but do not treat routine maintenance as permission to re-machine a mismatched product. Collars remain necessary for intended use even when the radial fit is close."
+      },
+      {
+        "heading": "Send the factory a complete RFQ and acceptance record",
+        "text": "State the destination market, plate types, weight range, quantities by SKU, bar models, finished sleeve limits, finished bore limits, measurement method, functional references, sampling plan, packaging and receiving checks. Add the required weight unit, custom-logo method, color, carton artwork and private-label identification. Separate mandatory interface criteria from preferences such as how snug the plate should feel.\n\nFor ODM work, flag any new insert, hub or sleeve geometry early because tooling and validation may change. For OEM and wholesale programs, approve one revision-controlled drawing and sample record before bulk production. PowerBaseFit will confirm feasible specifications, sample needs, order conditions and inspection points from the actual product combination rather than promise universal compatibility from the word “Olympic.”"
+      }
+    ],
+    "table": {
+      "heading": "Plate-and-bar fit control matrix",
+      "columns": ["Interface item", "What to define", "Why buyers check it"],
+      "rows": [
+        ["Bar sleeve", "Finished outside diameter, tolerance, roundness, straightness and measured zone", "Sets the largest and smallest mating surface"],
+        ["Plate bore or insert", "Finished inside diameter, tolerance, roundness, depth, chamfer and edge condition", "Controls loading, removal and rocking"],
+        ["Limit clearance", "Minimum bore minus maximum sleeve; maximum bore minus minimum sleeve", "Tests tightest and loosest permitted combinations"],
+        ["Construction and finish", "Insert seating, machining stage, coating or plating and protected surfaces", "Prevents the process from changing the approved interface"],
+        ["Functional reference", "Identified clean sleeve or gauge and an agreed loading/removal method", "Connects measured limits with practical handling"],
+        ["Sampling and change control", "SKUs, lots, bar ends, record format and reapproval triggers", "Protects the full order and later reorders"]
+      ]
+    },
+    "checklist": {
+      "heading": "Production-sample and inspection checklist",
+      "items": [
+        "Identify every plate SKU and bar model included in the compatibility claim",
+        "Record finished sleeve and bore limits in one unit system",
+        "Define measurement positions, directions, depth and verified tools",
+        "Check roundness, taper, burrs, coating build and insert alignment",
+        "Test tightest and loosest expected limit combinations",
+        "Approve loading and hand-removal on identified clean references",
+        "Sample across lots, cartons, plate sizes and both bar ends",
+        "Retain the drawing, sample record, artwork revision and change triggers"
+      ]
+    },
+    "faqHeading": "Frequently Asked Questions About Plate and Sleeve Fit",
+    "faq": [
+      ["Are 50 mm and 2 inch weight plate holes exactly the same?", "No. Two inches is 50.8 mm. Both labels are often used for the same product class, so buyers must request the actual finished dimensions and tolerances."],
+      ["Will every Olympic plate fit every Olympic barbell?", "Not automatically. The result depends on the finished sleeve and bore limits, roundness, straightness, finish, damage and cleanliness."],
+      ["How much clearance should an Olympic plate have?", "There is no single clearance for every commercial or competition product. Define the applicable rule or product need, then verify the tightest and loosest limit combinations."],
+      ["Why does a plate become stuck on a bar sleeve?", "Possible causes include an oversized or out-of-round sleeve, undersized or tapered bore, burrs, coating build, debris, corrosion, damage or a tilted insert. Isolate the cause before corrective action."],
+      ["Why does a plate rock or rattle on the bar?", "The bore may be large, the sleeve may be small or worn, or the insert may be misaligned. Measure both parts and check the plate face and collar use."],
+      ["Can a barbell collar correct a loose plate bore?", "A collar limits movement along the sleeve when used correctly. It does not restore radial fit, insert alignment or a missing dimensional requirement."],
+      ["How should a buyer inspect a bulk order?", "Use an agreed sampling plan across SKUs and lots, record bore and sleeve measurements, inspect edges and inserts, and perform controlled fit checks on identified references."],
+      ["Can PowerBaseFit supply custom-logo plates and matching bars?", "PowerBaseFit can review OEM, ODM, custom-logo, private-label and bulk-supply combinations. Feasibility, samples, order terms and acceptance criteria are confirmed from the chosen models."]
+    ],
+    "linkHeading": "Continue the specification process",
+    "linkLabels": ["Choose the complete Olympic bar specification", "Review wholesale weight plate options", "Specify plate mass tolerance", "Compare barbell surface finishes", "Plan KG or LB markings and quantities", "Review factory and quality-control support", "Plan OEM and private-label details", "Send your product list for review"],
+    "imageCopy": [
+      ["Unbranded Olympic weight plate bore beside a finished barbell sleeve on an inspection bench", "Plate and bar compatibility begins with two measured finished interfaces."],
+      ["Caliper beside an Olympic bar sleeve and steel plate insert prepared for dimensional inspection", "Diameter readings need agreed positions, tools, units and limit criteria."],
+      ["Plain Olympic plate and sleeve aligned for a controlled functional fit check", "A reference fit check complements dimensional inspection across the production range."]
+    ],
+    "cta": ["Confirm plate and bar compatibility before production", "Send your plate range, bar models, target dimensions, branding, packaging and destination. We will review a practical sample and inspection plan.", "Request a factory review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/furo-anilha-olimpica-encaixe-barra-50-mm",
+    "title": "Furo da Anilha Olímpica: 50 mm, 2 Polegadas e Encaixe",
+    "description": "Defina o encaixe entre anilha olímpica e manga da barra por medidas acabadas, folga, circularidade, inserto, amostra e inspeção do lote.",
+    "h1": "Como Especificar o Furo da Anilha Olímpica e o Encaixe na Barra",
+    "keyword": "furo da anilha olímpica 50 mm e encaixe na barra",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "Guia de compra para interface entre anilha e barra",
+    "sections": [
+      {
+        "heading": "Resposta direta: compre a anilha e a manga como uma única interface",
+        "text": "A palavra “olímpica” não garante sozinha que qualquer anilha deslize bem em qualquer barra. O comprador deve comparar o maior diâmetro externo da manga já acabada com o menor diâmetro interno do furo ou inserto. Circularidade, retilineidade, camada de acabamento, rebarbas, alinhamento do inserto e método de medição também alteram o resultado.\n\nUm encaixe apertado demais atrasa trocas e pode travar com sujeira ou pequeno dano. Folga excessiva gera balanço e ruído; a presilha controla o deslocamento longitudinal, mas não corrige a folga radial. A PowerBaseFit revisa esse conjunto em projetos OEM, ODM, com logo personalizado, marca própria e fornecimento em volume."
+      },
+      {
+        "heading": "50 mm e 2 polegadas descrevem a categoria, mas não o mesmo valor exato",
+        "text": "Duas polegadas correspondem a 50,8 mm, não a 50,0 mm. No varejo brasileiro, os dois nomes costumam identificar a família olímpica, enquanto equipamentos residenciais também aparecem com furos menores. Para uma compra profissional, a etiqueta comercial deve ser substituída por limites dimensionais do produto acabado.\n\nSe o projeto exigir regra de levantamento olímpico, powerlifting ou lista de equipamento aprovado, informe o documento e a edição aplicáveis. As modalidades não usam necessariamente o mesmo intervalo. Para academias e distribuidores, defina o desempenho desejado e os modelos reais; não transforme uma conversão de unidade em tolerância de fabricação."
+      },
+      {
+        "heading": "Escreva os dois lados da especificação",
+        "text": "Na barra, registre modelo, diâmetro externo da manga após banho ou revestimento, tolerância, circularidade, retilineidade e trecho medido. Na anilha, registre SKU, diâmetro interno acabado, tolerância, profundidade, chanfro, condição das bordas e, quando houver, construção do inserto metálico. Unidade e resolução do instrumento precisam acompanhar cada resultado.\n\nA pior condição apertada é calculada com o menor furo permitido e a maior manga permitida. A condição mais solta usa o maior furo e a menor manga. Ranhuras, transições e áreas sem acabamento devem estar identificadas no desenho para que fornecedor, inspetor e comprador meçam o mesmo elemento."
+      },
+      {
+        "heading": "Meça em vários ângulos e profundidades",
+        "text": "Uma única leitura pode esconder furo oval, inserto inclinado, conicidade ou ponto alto na manga. Combine posições, direções, profundidade e ferramenta adequada. Paquímetro pode servir em certas verificações, enquanto produção repetitiva pode pedir medidor interno, micrômetro ou calibre passa/não passa verificado.\n\nO teste funcional usa referências limpas, identificadas e sem dano. A anilha entra alinhada, percorre o comprimento acordado e sai com a mão, sem impacto. Lixar, bater ou forçar a peça para obter aprovação elimina a evidência de qual componente está fora da condição combinada."
+      },
+      {
+        "heading": "Controle inserto, usinagem e acabamento final",
+        "text": "Anilhas de ferro, emborrachadas, de PU e bumper chegam ao furo por processos diferentes. A abertura pode ser fundida, usinada, formada por inserto de aço ou receber material de revestimento. Por isso, o pedido deve controlar o resultado final e indicar o processo relevante, não presumir que todas as famílias se comportam igual.\n\nVerifique concentricidade, assentamento, inclinação, bordas expostas, rebarba, excesso de revestimento e dano. Em modelos destinados a quedas, a retenção entre inserto e corpo merece análise própria; o diâmetro do furo não comprova essa união. Logo, cor e marcação não devem cobrir superfícies de inspeção nem mudar o processo aprovado."
+      },
+      {
+        "heading": "Aprove uma família representativa, não apenas um par conveniente",
+        "text": "Um par que encaixa bem pode ocultar variação. Inclua anilhas leves e pesadas, moldes ou insertos diferentes, as duas pontas da barra e todas as famílias de barras que serão usadas. A academia que pretende misturar barras existentes com novas anilhas deve enviar medidas confiáveis ou peças representativas antes da aprovação.\n\nNa inspeção do lote, distribua amostras entre SKUs, lotes e caixas. Registre cada medida e seu teste funcional; a média não torna aceitável uma peça fora do limite. Mudança de fornecedor do inserto, regulagem de usinagem, revestimento ou acabamento da manga deve acionar comparação com a referência retida."
+      },
+      {
+        "heading": "Preserve o encaixe no acabamento, transporte e recebimento",
+        "text": "Banho ou revestimento pode aumentar a manga. Excesso de tinta, rebarba, oxidação, amassado e resíduo podem reduzir a folga. Meça sempre a peça acabada. Antes de embalar, limpe resíduos soltos, revise bordas e separe componentes pesados para evitar golpes no furo ou na manga durante o transporte.\n\nNo recebimento, fotografe as caixas, identifique amostras e teste em barras de referência limpas antes de distribuir o lote. Isole anilhas que travam e mangas com relevo causado por dano. Limpeza preventiva continua importante em uso, mas manutenção não deve virar retrabalho informal de uma incompatibilidade de origem."
+      },
+      {
+        "heading": "Envie à fábrica uma RFQ com critérios de aceitação",
+        "text": "Informe mercado de destino, tipos de anilha, faixa de pesos, quantidade por SKU, modelos de barra, limites acabados da manga e do furo, método de medição, referências funcionais, amostragem, embalagem e checagem no recebimento. Inclua KG ou LB, logo, cores, arte da caixa e identificação de marca própria.\n\nEm ODM, destaque cedo qualquer novo cubo, inserto ou geometria de manga. Em OEM e atacado, aprove desenho e ficha de amostra com controle de revisão antes da produção. A PowerBaseFit confirma viabilidade, necessidade de amostra, condições do pedido e inspeção a partir da combinação real, sem prometer compatibilidade universal apenas pelo nome olímpico."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de controle do encaixe",
+      "columns": ["Item", "O que definir", "Por que verificar"],
+      "rows": [
+        ["Manga da barra", "Diâmetro externo acabado, tolerância, circularidade, retilineidade e área medida", "Define as superfícies extremas de contato"],
+        ["Furo ou inserto", "Diâmetro interno acabado, tolerância, profundidade, chanfro e borda", "Controla carga, retirada e balanço"],
+        ["Folga nos limites", "Menor furo contra maior manga; maior furo contra menor manga", "Valida condições mais apertada e mais solta"],
+        ["Processo", "Assentamento do inserto, usinagem, banho, revestimento e máscaras", "Evita alteração da interface aprovada"],
+        ["Referência funcional", "Manga ou calibre identificado e método de colocar e retirar", "Liga dimensão ao manuseio real"],
+        ["Amostragem", "SKUs, lotes, pontas da barra, registros e gatilhos de nova aprovação", "Protege lote e reposição"]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist de amostra e inspeção",
+      "items": ["Identificar cada SKU de anilha e modelo de barra", "Registrar limites acabados em uma única unidade", "Definir posições, ângulos, profundidade e instrumentos", "Checar circularidade, conicidade, rebarba, revestimento e inserto", "Testar as combinações extremas de limites", "Aprovar carga e retirada manual em referências identificadas", "Amostrar lotes, caixas, pesos e as duas pontas da barra", "Reter desenho, amostra, arte e gatilhos de mudança"]
+    },
+    "faqHeading": "Perguntas Frequentes sobre Furo e Manga",
+    "faq": [
+      ["50 mm e 2 polegadas são exatamente iguais?", "Não. Duas polegadas são 50,8 mm. Como ambos os nomes aparecem na mesma categoria, peça dimensões e tolerâncias reais."],
+      ["Toda anilha olímpica serve em toda barra olímpica?", "Não automaticamente. Limites acabados, circularidade, acabamento, dano e limpeza influenciam o encaixe."],
+      ["Qual folga a anilha deve ter?", "Não existe uma folga única para todos os produtos. Defina a regra ou necessidade do projeto e valide as combinações extremas."],
+      ["Por que a anilha trava na barra?", "Manga grande ou oval, furo pequeno ou cônico, rebarba, revestimento, resíduo, corrosão, dano ou inserto inclinado são causas possíveis."],
+      ["Por que a anilha balança ou faz ruído?", "O furo pode estar grande, a manga pequena ou gasta, ou o inserto desalinhado. Meça os dois componentes."],
+      ["A presilha corrige um furo folgado?", "Ela limita o movimento ao longo da manga, mas não corrige folga radial ou inserto desalinhado."],
+      ["Como inspecionar um lote?", "Amostre SKUs e lotes, registre furo e manga, revise bordas e insertos e faça testes controlados em referências identificadas."],
+      ["A PowerBaseFit fornece anilhas e barras personalizadas?", "Podemos avaliar OEM, ODM, logo personalizado, marca própria e fornecimento em volume. Modelos, amostras e critérios são confirmados no projeto."]
+    ],
+    "linkHeading": "Continue a especificação",
+    "linkLabels": ["Escolher a especificação completa da barra olímpica", "Ver opções de anilhas para atacado", "Definir tolerância de peso", "Comparar acabamentos de barras", "Planejar marcações KG ou LB", "Conhecer fábrica e controle de qualidade", "Planejar OEM e marca própria", "Enviar a lista para análise"],
+    "imageCopy": [["Furo de anilha olímpica sem marca ao lado da manga acabada de uma barra", "A compatibilidade começa em duas superfícies acabadas e medidas."], ["Paquímetro próximo à manga e ao inserto metálico preparados para inspeção", "Posição, instrumento, unidade e limite precisam estar acordados."], ["Anilha e manga alinhadas para teste funcional controlado", "O teste de referência complementa as medições do lote."]],
+    "cta": ["Confirme o encaixe antes da produção", "Envie faixa de anilhas, barras, medidas, marca, embalagem e destino. Revisaremos amostra e inspeção adequadas.", "Solicitar análise da fábrica"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/agujero-disco-olimpico-ajuste-barra-50-mm",
+    "title": "Agujero del Disco Olímpico: 50 mm, 2 Pulgadas y Ajuste",
+    "description": "Especifique el ajuste entre disco olímpico y manguito de barra mediante medidas finales, holgura, redondez, inserto, muestra e inspección.",
+    "h1": "Cómo Especificar el Agujero del Disco Olímpico y su Ajuste en la Barra",
+    "keyword": "agujero disco olímpico 50 mm y ajuste en barra",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "Guía de compra para la interfaz entre disco y barra",
+    "sections": [
+      {"heading": "Respuesta rápida: disco y manguito forman una sola interfaz", "text": "La denominación olímpica no garantiza que cualquier disco cargue bien en cualquier barra. Hay que comparar el mayor diámetro exterior del manguito terminado con el menor diámetro interior del agujero o casquillo. También cuentan la redondez, rectitud, recubrimiento, rebabas, alineación del inserto y método de medición.\n\nUn ajuste demasiado cerrado retrasa los cambios y puede atascarse con suciedad o daño leve. Una holgura excesiva provoca balanceo y ruido; el collar limita el movimiento longitudinal, pero no repara el ajuste radial. PowerBaseFit revisa ambos componentes como una especificación de fábrica para OEM, ODM, logotipo personalizado, marca privada y suministro a granel."},
+      {"heading": "50 mm y 2 pulgadas no son la misma medida exacta", "text": "Dos pulgadas equivalen a 50,8 mm, no a 50,0 mm. Sin embargo, ambos términos se usan de forma amplia para la familia olímpica. Las publicaciones de competición y los fabricantes también muestran aberturas terminadas diferentes según producto y disciplina. Por eso, una etiqueta comercial no puede convertirse directamente en tolerancia de producción.\n\nSepare primero el sistema olímpico de los formatos domésticos más pequeños. Después indique dimensiones y límites finales para las referencias elegidas. Si la compra exige una norma federativa o una lista de material homologado, cite el documento, edición y deporte aplicables; no mezcle halterofilia, powerlifting y equipamiento comercial."},
+      {"heading": "Defina ambos lados del ajuste", "text": "Para la barra, anote modelo, diámetro exterior del manguito después del acabado, tolerancia, redondez, rectitud y zona medida. Para el disco, identifique SKU, diámetro interior final, tolerancia, profundidad, chaflán, estado del borde y construcción del inserto. Unidad y resolución del instrumento acompañan cada dato.\n\nLa combinación más cerrada compara el agujero mínimo con el manguito máximo; la más suelta compara el agujero máximo con el manguito mínimo. El plano debe aclarar si ranuras, nervios, transiciones o zonas enmascaradas quedan fuera de la medición. El proveedor debe demostrar que todo el intervalo permitido mantiene una carga y retirada aceptables."},
+      {"heading": "Mida en varios ángulos y profundidades", "text": "Una sola lectura de calibre puede ocultar ovalidad, conicidad, inclinación del inserto o un punto alto del manguito. Acuerde posiciones, direcciones, profundidades y herramienta verificada. Un medidor interior, micrómetro o calibre pasa/no pasa puede ser más adecuado para control repetitivo, según el intervalo solicitado.\n\nLa prueba funcional se realiza con referencias limpias, identificadas y sin daños. Cargue el disco recto, compruebe su recorrido por la longitud acordada y retírelo a mano. Lijar, golpear o forzar una muestra para que pase elimina la evidencia necesaria para localizar el componente fuera de condición."},
+      {"heading": "Controle inserto, mecanizado y acabado", "text": "Un disco de hierro, engomado, de PU o bumper puede formar su agujero mediante fundición, mecanizado, casquillo de acero o recubrimiento. La especificación debe controlar el resultado terminado y el proceso relevante, sin asumir que todas las construcciones se comportan igual.\n\nInspeccione concentricidad, asiento, inclinación, bordes expuestos, rebabas, acumulación de recubrimiento y golpes. En discos destinados a caída, la unión del inserto con el cuerpo requiere una revisión propia; el diámetro por sí solo no demuestra retención. El logotipo, color y marcaje no deben tapar superficies de control ni modificar el proceso aprobado."},
+      {"heading": "Apruebe una familia representativa", "text": "Una pareja cómoda puede esconder variación. Incluya los discos ligeros y pesados relevantes, moldes o insertos distintos, los dos extremos de la barra y cada familia de barras prevista. Si el gimnasio mezclará barras existentes con discos nuevos, facilite medidas fiables o piezas representativas antes de aprobar.\n\nEn la inspección del lote, distribuya muestras entre SKUs, lotes y cajas. Guarde cada medida junto a su prueba funcional; un promedio no corrige una unidad fuera de límite. Cambiar proveedor del inserto, ajuste de mecanizado, recubrimiento o acabado del manguito debe activar una nueva comparación con la referencia retenida."},
+      {"heading": "Proteja el ajuste durante acabado, transporte y recepción", "text": "Un baño o recubrimiento puede aumentar el diámetro del manguito. Pintura sobrante, corrosión, abolladuras y residuos reducen la holgura útil. Mida el producto terminado. Antes de embalar, revise bordes, retire partículas y separe piezas pesadas para evitar impactos sobre el agujero y el manguito.\n\nAl recibir, fotografíe el estado de las cajas, identifique las muestras y pruébelas en barras limpias antes de repartir el pedido. Aísle discos que se bloquean y manguitos con daño elevado. La limpieza de uso conserva el ajuste, pero no debe convertirse en mecanizado informal de una incompatibilidad de origen."},
+      {"heading": "Envíe una solicitud de oferta con aceptación medible", "text": "Indique mercado, tipos de disco, pesos, cantidad por SKU, modelos de barra, límites acabados de agujero y manguito, método de medición, referencias funcionales, muestreo, embalaje y control de recepción. Añada KG o LB, logotipo, color, arte de caja e identificación de marca privada.\n\nPara ODM, señale pronto cualquier inserto, buje o geometría nueva. Para OEM y venta mayorista, apruebe un plano y ficha de muestra con revisión antes del lote. PowerBaseFit confirma viabilidad, muestra, condiciones e inspección según la combinación real, sin prometer universalidad por una sola palabra."}
+    ],
+    "table": {"heading": "Matriz de control del ajuste", "columns": ["Elemento", "Qué definir", "Motivo de control"], "rows": [["Manguito", "Diámetro exterior final, tolerancia, redondez, rectitud y zona", "Fija las superficies extremas"], ["Agujero o inserto", "Diámetro interior final, tolerancia, profundidad, chaflán y borde", "Controla carga, retirada y balanceo"], ["Holgura límite", "Agujero mínimo menos manguito máximo; agujero máximo menos manguito mínimo", "Valida combinaciones cerrada y suelta"], ["Proceso", "Asiento del inserto, mecanizado, baño, recubrimiento y máscaras", "Protege la interfaz aprobada"], ["Referencia funcional", "Manguito o calibre identificado y método de carga", "Relaciona medidas con manejo real"], ["Muestreo", "SKUs, lotes, extremos, registro y cambios", "Protege pedido y reposición"]]},
+    "checklist": {"heading": "Lista de muestra e inspección", "items": ["Identificar cada SKU de disco y modelo de barra", "Registrar límites finales en una sola unidad", "Definir posiciones, ángulos, profundidad e instrumentos", "Revisar redondez, conicidad, rebabas, recubrimiento e inserto", "Probar las combinaciones extremas", "Aprobar carga y retirada manual en referencias", "Muestrear lotes, cajas, pesos y ambos extremos", "Retener plano, muestra, arte y activadores de cambio"]},
+    "faqHeading": "Preguntas Frecuentes sobre Agujero y Manguito",
+    "faq": [["¿Son exactamente iguales 50 mm y 2 pulgadas?", "No. Dos pulgadas son 50,8 mm. Solicite siempre dimensiones y tolerancias terminadas."], ["¿Todos los discos olímpicos sirven en todas las barras olímpicas?", "No de forma automática. Límites, redondez, acabado, daños y limpieza influyen."], ["¿Qué holgura debe tener el disco?", "No existe una cifra única para todo producto. Defina norma o uso y verifique los extremos permitidos."], ["¿Por qué se atasca un disco?", "Puede deberse a manguito grande u ovalado, agujero pequeño o cónico, rebaba, recubrimiento, suciedad, corrosión, daño o inserto inclinado."], ["¿Por qué el disco se mueve o suena?", "El agujero puede ser grande, el manguito pequeño o gastado, o el inserto estar desalineado. Mida ambos."], ["¿Un collar corrige un agujero holgado?", "Limita el movimiento longitudinal, pero no corrige la holgura radial ni la alineación."], ["¿Cómo se inspecciona un pedido a granel?", "Muestree SKUs y lotes, registre agujero y manguito, revise bordes e insertos y pruebe referencias identificadas."], ["¿PowerBaseFit suministra discos y barras personalizados?", "Podemos revisar OEM, ODM, logotipo, marca privada y volumen. Modelos, muestras y aceptación se confirman para cada proyecto."]],
+    "linkHeading": "Continúe la especificación",
+    "linkLabels": ["Elegir la barra olímpica completa", "Ver discos para venta mayorista", "Definir tolerancia de peso", "Comparar acabados de barra", "Planificar marcajes KG o LB", "Revisar fábrica y control de calidad", "Planificar OEM y marca privada", "Enviar la lista de productos"],
+    "imageCopy": [["Agujero de disco olímpico sin marca junto al manguito terminado de una barra", "La compatibilidad comienza con dos superficies terminadas y medidas."], ["Calibre junto a un manguito y un inserto preparados para inspección", "Posición, instrumento, unidad y límites deben quedar acordados."], ["Disco y manguito alineados para una prueba funcional controlada", "La referencia funcional complementa las mediciones del lote."]],
+    "cta": ["Confirme el ajuste antes de producir", "Envíe discos, barras, dimensiones, marca, embalaje y destino. Revisaremos una muestra e inspección prácticas.", "Solicitar revisión de fábrica"]
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/blog/fathat-qurs-olimbi-tawafuq-qadib-50-mm",
+    "title": "فتحة القرص الأولمبي 50 مم و2 بوصة: دليل توافق القضيب",
+    "description": "دليل للمشتري لتحديد توافق فتحة قرص الأوزان مع جلبة القضيب عبر الأبعاد النهائية والخلوص والاستدارة والمحاذاة وفحص الدفعة.",
+    "h1": "كيفية تحديد فتحة القرص الأولمبي وملاءمتها لجلبة القضيب",
+    "keyword": "فتحة القرص الأولمبي 50 مم وتوافق جلبة القضيب",
+    "home": "الرئيسية",
+    "library": "أدلة الشراء",
+    "eyebrow": "دليل شراء لواجهة القرص والقضيب",
+    "sections": [
+      {"heading": "الإجابة المباشرة: تعامل مع القرص والجلبة كواجهة واحدة", "text": "لا تضمن كلمة «أولمبي» وحدها أن كل قرص ينزلق بسلاسة على كل قضيب. يجب مقارنة أكبر قطر خارجي نهائي لجلبة التحميل مع أصغر قطر داخلي نهائي للفتحة أو الحلقة المعدنية. كما تؤثر الاستدارة والاستقامة وسماكة الطلاء والنتوءات ومحاذاة الحلقة وطريقة القياس.\n\nإذا كان التوافق شديد الضيق تتباطأ عملية تغيير الأوزان وقد يعلق القرص بسبب الأوساخ أو الضرر البسيط. وإذا زاد الخلوص يهتز القرص ويصدر صوتاً؛ أما قفل القضيب فيحد الحركة الطولية ولا يصلح الخلوص الشعاعي. تراجع PowerBaseFit الواجهتين معاً في مشروعات OEM وODM والشعار المخصص والعلامة الخاصة والتوريد بالجملة."},
+      {"heading": "50 مم و2 بوصة اسمان للفئة وليسا قياساً واحداً", "text": "تساوي بوصتان 50.8 مم، وليس 50.0 مم. ومع ذلك يُستخدم الاسمان تجارياً لوصف فئة المعدات الأولمبية، بينما توجد أنظمة منزلية بفتحات أصغر. كذلك تختلف فتحات المنتجات المنشورة باختلاف نوع القرص والرياضة. لذلك لا يجوز تحويل الاسم التسويقي مباشرة إلى سماحية تصنيع.\n\nافصل أولاً بين الفئة الأولمبية والأنظمة الأصغر، ثم اكتب الأبعاد النهائية وحدودها لكل موديل. وإذا كان المشروع ملزماً بقواعد اتحاد أو قائمة معدات معتمدة، فاذكر الوثيقة والإصدار والرياضة بدقة؛ لا تخلط متطلبات رفع الأثقال والقوة البدنية والاستخدام التجاري العام."},
+      {"heading": "اكتب مواصفات جانبي التوافق", "text": "بالنسبة إلى القضيب، حدد الموديل والقطر الخارجي النهائي للجلبة بعد المعالجة وسماحيته واستدارته واستقامته ومنطقة القياس. وبالنسبة إلى القرص، حدد الرمز والقطر الداخلي النهائي وسماحيته وعمقه والشطف وحالة الحافة وتركيب الحلقة المعدنية. يجب تسجيل الوحدة ودقة الأداة مع كل نتيجة.\n\nتقارن حالة الضيق القصوى أصغر فتحة مسموحة بأكبر جلبة مسموحة، وتقارن حالة الاتساع القصوى أكبر فتحة بأصغر جلبة. يجب أن يوضح الرسم ما إذا كانت الأخاديد أو الانتقالات أو مناطق الحجب خارج القياس حتى يقيس المصنع والمفتش الشيء نفسه."},
+      {"heading": "قس في أكثر من اتجاه وعمق", "text": "قد تخفي قراءة واحدة فتحة بيضاوية أو مخروطية أو حلقة مائلة أو نقطة مرتفعة في الجلبة. اتفق على مواضع القياس واتجاهاته وأعماقه والأداة المتحققة المناسبة. قد يكفي القدمة في فحص معين، بينما قد يحتاج الضبط المتكرر إلى مقياس داخلي أو ميكرومتر أو قالب مرور وعدم مرور.\n\nيُجرى اختبار الاستخدام على جلب مرجعية نظيفة ومعروفة وغير متضررة. أدخل القرص باستقامة، وتحقق من حركته على الطول المتفق عليه ثم أخرجه باليد. لا تصنفر العينة ولا تضربها ولا تجبرها على المرور، لأن ذلك يخفي أي الجزأين خرج عن الشرط."},
+      {"heading": "اضبط الحلقة المعدنية والتشغيل والتشطيب", "text": "يمكن أن تتكون فتحة قرص الحديد أو المطاط أو البولي يوريثان أو القرص المخصص للإسقاط بطرق مختلفة: صب أو تشغيل أو حلقة فولاذية أو طبقة طلاء. لذلك ينبغي للمواصفة أن تضبط النتيجة النهائية والخطوة المؤثرة، لا أن تفترض مساراً واحداً لكل المواد.\n\nافحص تمركز الحلقة وجلوسها وميلها والحواف المكشوفة والنتوءات وتراكم الطلاء والضرر. وفي الأقراص المخصصة للإسقاط يحتاج ارتباط الحلقة بالجسم إلى مراجعة خاصة؛ قياس الفتحة وحده لا يثبت قوة التثبيت. يجب ألا يغطي الشعار أو اللون سطح الفحص أو يغير عملية الفتحة المعتمدة."},
+      {"heading": "اعتمد عائلة ممثلة لا زوجاً مناسباً فقط", "text": "قد يخفي توافق قرص واحد مع قضيب واحد اختلافات الإنتاج. شمل أخف الأقراص وأثقلها ذات الصلة، والقوالب أو الحلقات المختلفة، وطرفي القضيب وكل عائلات القضبان المستخدمة. إذا كانت الصالة ستجمع أقراصاً جديدة مع قضبان موجودة، فأرسل قياسات موثوقة أو قطعاً ممثلة قبل الاعتماد.\n\nوزع عينة فحص الدفعة على الرموز والدفعات والصناديق. سجل كل قياس مع نتيجة اختبار التوافق؛ المتوسط لا يجعل القطعة الخارجة عن الحد مقبولة. تغيير مورد الحلقة أو إعداد التشغيل أو نظام الطلاء أو تشطيب الجلبة يستلزم مقارنة جديدة بالمرجع المحتفظ به."},
+      {"heading": "احم التوافق أثناء التشطيب والشحن والاستلام", "text": "قد يزيد الطلاء قطر الجلبة، وقد تقلل الزيادة الموضعية أو الصدأ أو الانبعاج أو الأوساخ الخلوص المتاح. لذلك قس المنتج النهائي. قبل التعبئة افحص الحواف ونظف البقايا وافصل القطع الثقيلة حتى لا تضرب الفتحة أو الجلبة أثناء النقل.\n\nعند الاستلام صور حالة الصناديق وحدد العينات واختبرها على قضبان مرجعية نظيفة قبل توزيع الطلب. اعزل القرص الذي يعلق والجلبة التي تحمل ضرراً بارزاً. تحافظ الصيانة الدورية على الأسطح، لكنها ليست تصريحاً لإعادة تشغيل منتج غير متوافق. ويبقى استخدام الأقفال المناسبة ضرورياً."},
+      {"heading": "أرسل طلب سعر بمعايير قبول قابلة للقياس", "text": "اذكر سوق الوجهة وأنواع الأقراص والأوزان والكميات لكل رمز وموديلات القضبان وحدود الجلبة والفتحة النهائية وطريقة القياس والمراجع الوظيفية وخطة العينة والتعبئة وفحص الاستلام. أضف نظام KG أو LB والشعار واللون ورسوم الصندوق وهوية العلامة الخاصة.\n\nفي ODM، وضح مبكراً أي حلقة أو محور أو هندسة جلبة جديدة لأنها قد تغير الأدوات والتحقق. وفي OEM والتوريد بالجملة، اعتمد رسماً وسجل عينة مضبوط الإصدار قبل الإنتاج. تؤكد PowerBaseFit الإمكانات والعينة وشروط الطلب والفحص من التركيبة الفعلية، لا من وصف «أولمبي» وحده."}
+    ],
+    "table": {"heading": "مصفوفة ضبط توافق القرص والقضيب", "columns": ["العنصر", "ما يجب تحديده", "سبب الفحص"], "rows": [["جلبة القضيب", "القطر الخارجي النهائي والسماحية والاستدارة والاستقامة ومنطقة القياس", "يحدد سطحي التلامس الأقصى والأدنى"], ["الفتحة أو الحلقة", "القطر الداخلي النهائي والسماحية والعمق والشطف والحافة", "يضبط الإدخال والإخراج والاهتزاز"], ["الخلوص عند الحدود", "أصغر فتحة مع أكبر جلبة؛ أكبر فتحة مع أصغر جلبة", "يختبر الحالتين القصوى"], ["العملية", "جلوس الحلقة والتشغيل والطلاء ومناطق الحجب", "يحمي الواجهة المعتمدة"], ["المرجع الوظيفي", "جلبة أو قالب معروف وطريقة إدخال وإخراج", "يربط القياس بالاستخدام"], ["العينة والتغيير", "الرموز والدفعات والأطراف والسجلات ومسببات الإعادة", "يحمي الطلب وإعادة الشراء"]]},
+    "checklist": {"heading": "قائمة فحص العينة والإنتاج", "items": ["تحديد كل رمز قرص وموديل قضيب", "تسجيل حدود الفتحة والجلبة النهائية بوحدة واحدة", "تحديد المواضع والاتجاهات والعمق والأدوات", "فحص الاستدارة والميل والنتوء والطلاء ومحاذاة الحلقة", "اختبار تركيبات الحدود القصوى", "اعتماد الإدخال والإخراج اليدوي على مراجع معروفة", "توزيع العينة على الدفعات والصناديق والأوزان والطرفين", "الاحتفاظ بالرسم وسجل العينة وإصدار الرسوم ومسببات التغيير"]},
+    "faqHeading": "أسئلة شائعة عن فتحة القرص والجلبة",
+    "faq": [["هل 50 مم و2 بوصة متساويان تماماً؟", "لا. بوصتان تساويان 50.8 مم. اطلب الأبعاد النهائية والسماحيات بدلاً من الاعتماد على الاسم."], ["هل يركب كل قرص أولمبي على كل قضيب أولمبي؟", "ليس تلقائياً. تؤثر الحدود النهائية والاستدارة والتشطيب والضرر والنظافة."], ["ما الخلوص الصحيح للقرص؟", "لا يوجد رقم واحد لكل المنتجات. حدد القاعدة أو الاستخدام ثم اختبر أقصى حالتي ضيق واتساع."], ["لماذا يعلق القرص على الجلبة؟", "قد تكون الجلبة كبيرة أو غير مستديرة، أو الفتحة صغيرة أو مخروطية، أو توجد نتوءات أو طلاء زائد أو أوساخ أو صدأ أو ضرر أو حلقة مائلة."], ["لماذا يهتز القرص أو يصدر صوتاً؟", "قد تكون الفتحة كبيرة أو الجلبة صغيرة أو مهترئة أو الحلقة غير محاذية. قس الجزأين."], ["هل يصلح القفل فتحة واسعة؟", "القفل يحد الحركة الطولية، لكنه لا يصلح الخلوص الشعاعي أو محاذاة الحلقة."], ["كيف أفحص طلباً بالجملة؟", "استخدم عينة متفقاً عليها من الرموز والدفعات، وسجل قياسات الفتحة والجلبة، وافحص الحواف والحلقات واختبر مراجع معروفة."], ["هل توفر PowerBaseFit أقراصاً وقضباناً مخصصة؟", "يمكننا مراجعة OEM وODM والشعار والعلامة الخاصة والتوريد بالجملة. تؤكد الموديلات والعينات والقبول حسب المشروع."]],
+    "linkHeading": "تابع إعداد المواصفات",
+    "linkLabels": ["اختيار مواصفات القضيب الأولمبي", "مراجعة خيارات أقراص الأوزان", "تحديد سماحية وزن القرص", "مقارنة تشطيبات القضيب", "تخطيط علامات KG أو LB", "مراجعة المصنع وضبط الجودة", "تخطيط OEM والعلامة الخاصة", "إرسال قائمة المنتجات للمراجعة"],
+    "imageCopy": [["فتحة قرص أولمبي بلا علامة بجانب جلبة قضيب نهائية على طاولة فحص", "يبدأ التوافق بسطحين نهائيين مقاسين."], ["أداة قياس بجانب جلبة وحلقة معدنية معدتين للفحص", "يجب الاتفاق على الموضع والأداة والوحدة والحدود."], ["قرص وجلبة بمحاذاة واضحة لاختبار توافق مضبوط", "يكمل اختبار المرجع القياسات عبر الدفعة."]],
+    "cta": ["أكد التوافق قبل الإنتاج", "أرسل نطاق الأقراص والقضبان والأبعاد والعلامة والتعبئة والوجهة لنراجع خطة عينة وفحص عملية.", "اطلب مراجعة المصنع"]
+  }
+]

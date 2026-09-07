@@ -1,0 +1,1887 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/kg-vs-lb-dumbbells-weight-plates-ordering",
+    "title": "KG vs LB Dumbbells and Plates: A Buyer’s Ordering Guide",
+    "description": "Specify kilogram or pound dumbbells and weight plates correctly. Compare nominal weights, dual-unit markings, pairs, packing lists and private-label reorders.",
+    "h1": "Ordering Dumbbells and Weight Plates in KG or LB",
+    "keyword": "kg vs lb dumbbells and weight plates",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Factory purchasing guide",
+    "sections": [
+      {
+        "heading": "Choose the product unit before approving the weight range",
+        "text": "A kilogram range and a pound range are different product specifications. Choose the primary unit, the nominal weight of each item and the increments between sizes before approving artwork or a purchase order. A second unit on a badge is a converted reference; it does not turn an existing pound product into a separately specified kilogram product.\n\nFor distributors, importers and gym buyers, the practical question is whether the new equipment must continue an existing range or introduce a clearly separate one. Record that decision in the SKU, quotation and receiving instructions. The unmarked product images in this guide illustrate assortments and packing concepts; they do not show measured samples or completed customer orders."
+      },
+      {
+        "heading": "Keep nominal weight, converted weight and measured weight separate",
+        "text": "Nominal weight is the size the product is ordered and marked to represent. Converted weight expresses that same nominal value in another unit. Measured weight is the result obtained when an actual item is weighed. These three fields serve different purposes and should not overwrite one another in a spreadsheet.\n\nUse 1 lb = 0.45359237 kg for the avoirdupois pound. Convert pounds to kilograms by multiplication and kilograms to pounds by division. Keep the full calculation internally and round only the displayed reference. The numerical examples below are calculations, not measured product results or promised manufacturing tolerances."
+      },
+      {
+        "heading": "Why a 45 lb plate is not a 20 kg plate",
+        "text": "### Compare the nominal masses\n\nA nominal 45 lb plate converts to 20.41165665 kg, displayed here as approximately 20.412 kg. A nominal 20 kg plate converts to approximately 44.092 lb. The products may occupy similar positions in two ranges, but those labels are not equivalent. Do not approve “20 kg / 45 lb” as an exact dual-unit statement.\n\nThe increment also matters: a 5 lb step is approximately 2.268 kg, whereas a 2.5 kg step is 2.5 kg. A reordered range can look consistent while offering a different progression. Compare every size, including the smallest increments, before consolidating catalogues."
+      },
+      {
+        "heading": "Build the purchase specification around one primary unit",
+        "text": "### Make the SKU unambiguous\n\nGive kilogram and pound variants separate item references, even when their finish and handle design match. Each order line needs the primary nominal value, unit, product model and quantity basis. Put any rounded secondary display in a different field. A number such as “20” without its unit cannot identify the correct product.\n\nAsk the manufacturer whether the requested series already exists and what changes a different nominal mass would require. A new badge alone cannot answer that question. As a free-weight factory, we use the requested range and reference details to discuss a suitable OEM or ODM specification; availability, tooling and commercial terms must be confirmed for the actual model."
+      },
+      {
+        "heading": "Approve dual-unit artwork as a calculation and a legibility decision",
+        "text": "### State how the reference number is rounded\n\nSelect a primary unit that remains easy to see with the custom logo. If a second unit is shown, calculate it from the same nominal value and document the display precision and rounding convention. Do not use a nearby familiar size simply because it makes the label shorter. Local decimal separators also need review when artwork serves more than one market.\n\nReview product faces, end badges, carton labels and online listings together. “LB” or “lb” must not disappear when a distributor crops a photograph. A private label can change the appearance of an item, but the weight designation must continue to describe the approved specification. Destination-specific labeling requirements should be checked for the intended market."
+      },
+      {
+        "heading": "Separate single-item weight from pairs and shipping totals",
+        "text": "A dumbbell marked 20 kg normally identifies an individual dumbbell in a specified range; the order must still say whether the quoted quantity means individual pieces or pairs. In an illustrative line, one pair of nominal 20 kg dumbbells means two items, each nominally 20 kg. Their combined nominal product mass is 40 kg; it is not the packed shipping weight.\n\nFor plates, record the number of individual plates and any pairing requirement. On the packing list, keep product designation, piece count, net mass and gross mass in separate columns. Do not obtain a declared shipment mass merely by adding nominal labels: use the packing and weighing information required for that shipment."
+      },
+      {
+        "heading": "Keep a market variant from becoming an accidental substitute",
+        "text": "For a distributor serving customers with different weight conventions, maintain separate catalogue variants even when one purchasing team places the order. Link each sales description to the approved factory item code. If a customer changes from lb to kg during quotation, revise the size schedule as well as the label file. Record acceptance of the new progression before updating the stock record."
+      },
+      {
+        "heading": "Receive and reorder by model and unit, not by appearance",
+        "text": "Check the order reference against the product marking, carton and delivered assortment. If weighing is part of acceptance, record the instrument unit and compare the result with the agreed nominal specification and separate tolerance criteria. Converting a reading does not erase a mismatch between the product ordered and the product supplied.\n\nFor replenishment, send the original item code, primary unit, size list and approved artwork revision. Similar-looking handles or plates can belong to different series. Keep kg and lb stock distinct in warehouse locations and catalogue variants. If a buyer intentionally mixes series, show the units clearly and calculate loads consistently; matching a unit alone does not establish bar, bore or rack compatibility."
+      },
+      {
+        "heading": "Sources and the boundary of the comparison",
+        "text": "The conversion factor follows [NIST mass calibration guidance](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). [IVANKO’s product FAQ](https://ivankobarbell.com/pages/faqs) distinguishes true kilogram products from relabeled pound products for specified product lines. This is an example of a supplier-specific construction choice, not proof that every manufacturer uses the same tooling.\n\n[Eleiko’s plate catalogue](https://enterprise.eleiko.com/en/pc/weight-plates/136) also distinguishes kilogram and pound series. These references support checking the actual model. They do not establish our factory’s stock, tolerances, pricing or customization options. Confirm those details against the product and order being considered."
+      }
+    ],
+    "table": {
+      "heading": "Calculated unit comparisons for an order review",
+      "columns": [
+        "Nominal designation",
+        "Converted reference",
+        "Buying implication"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20.412 kg",
+          "A different nominal size from 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44.092 lb",
+          "Do not label as exactly 45 lb"
+        ],
+        [
+          "5 lb increment",
+          "≈ 2.268 kg",
+          "Different spacing from 2.5 kg"
+        ],
+        [
+          "One pair of 20 kg dumbbells",
+          "Two items, each 20 kg nominal",
+          "Separate piece count and packed mass"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Information to send with a unit-specific inquiry",
+      "items": [
+        "Destination market and the unit used by the existing range.",
+        "Product model, primary nominal weight and unit for every SKU.",
+        "Requested sizes and increments, with pieces or pairs explicitly stated.",
+        "Custom logo artwork and the exact secondary-unit rounding rule, if used.",
+        "Separate requirements for weighing, nominal tolerances and receiving records.",
+        "Carton identification, mixed-series separation and reorder references."
+      ]
+    },
+    "faqHeading": "Frequently Asked Questions",
+    "faq": [
+      [
+        "Are 20 kg and 45 lb plates the same weight?",
+        "No. Nominal 45 lb is approximately 20.412 kg; nominal 20 kg is approximately 44.092 lb. They can fill similar catalogue positions but are not equal nominal masses."
+      ],
+      [
+        "Can a factory change lb dumbbells into kg by changing the badge?",
+        "A badge can change a display, not the underlying mass. Confirm whether the requested kilogram series is a separate product specification and whether any production change is needed."
+      ],
+      [
+        "Can a dumbbell show both kg and lb?",
+        "Yes, if both markings describe the same nominal mass with an agreed conversion and rounding convention. Review legibility and applicable destination requirements before approving artwork."
+      ],
+      [
+        "Does the marked weight mean one dumbbell or a pair?",
+        "Confirm the product convention and put the basis in the order. Specify each item's nominal weight and state the quantity in pieces or pairs separately."
+      ],
+      [
+        "Can kg and lb equipment be used in the same gym?",
+        "It can be intentionally managed as separate, clearly identified ranges. Convert values consistently and check the physical compatibility of bars and plates independently."
+      ],
+      [
+        "What should a private-label reorder include?",
+        "Include the original model and SKU, primary unit, nominal sizes, piece or pair quantities and approved marking revision. Ask for written confirmation before accepting a substitute series."
+      ]
+    ],
+    "linkHeading": "Related products and purchasing guides",
+    "linkLabels": [
+      "Rubber hex dumbbells",
+      "Dumbbell product range",
+      "Weight-plate tolerance guide",
+      "Free-weight sample approval",
+      "Our factory",
+      "Discuss your specification"
+    ],
+    "imageCopy": [
+      [
+        "Two unmarked hex dumbbells of different sizes on a neutral studio surface",
+        "Illustrative assortment: appearance alone cannot identify a kilogram or pound specification."
+      ],
+      [
+        "Two unmarked black weight plates with metal centre inserts",
+        "Illustrative plates: a nominal unit and weight must be established in the product specification."
+      ],
+      [
+        "An unmarked hex dumbbell beside an open empty carton",
+        "Illustrative packing concept: product weight and carton shipping weight are separate fields."
+      ]
+    ],
+    "cta": [
+      "Specify your kilogram or pound range",
+      "Send the model, primary unit, nominal sizes, quantities and marking requirements to our factory. We can discuss OEM, ODM, custom logo and private-label bulk supply against a clearly defined product range.",
+      "Send your weight-range specification"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/halteres-anilhas-kg-lb-pedido-atacado",
+    "title": "Halteres e Anilhas em kg ou lb: Como Especificar a Compra",
+    "description": "Evite confundir quilos, libras e pares ao importar halteres e anilhas. Defina pesos nominais, marcação dupla, códigos de produto e reposição no atacado.",
+    "h1": "Como Comprar Halteres e Anilhas em Quilos ou Libras",
+    "keyword": "halteres e anilhas kg ou lb no atacado",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "Orientação de compra da fábrica",
+    "sections": [
+      {
+        "heading": "Comece pela unidade que a academia já utiliza",
+        "text": "Ao ampliar uma linha de pesos livres, consulte o cadastro dos produtos existentes. Uma sequência em quilos e outra em libras não se tornam equivalentes porque as peças têm acabamento parecido. O pedido precisa indicar a unidade principal, o peso nominal de cada peça e os intervalos desejados entre os tamanhos.\n\nPara o importador ou distribuidor brasileiro, a decisão deve aparecer tanto na cotação quanto na ficha entregue à equipe comercial. Se houver duas linhas, mantenha códigos distintos. As fotografias ilustrativas deste guia apresentam produtos sem marcação e um conceito de embalagem; não representam pesagens realizadas, pedidos de clientes ou evidências da produção."
+      },
+      {
+        "heading": "O que o número na peça realmente informa",
+        "text": "Peso nominal é a referência comercial aprovada para o produto. O valor convertido expressa essa mesma referência em outra unidade. Já o peso medido é o resultado da pesagem de uma peça real. Uma coluna da planilha não deve substituir a outra: o cálculo de conversão não comprova a exatidão de fabricação.\n\nPara a libra avoirdupois, 1 lb = 0,45359237 kg. Multiplique as libras por esse fator para obter quilos; divida os quilos pelo fator para obter libras. Preserve as casas decimais no cálculo e arredonde apenas a apresentação. Os exemplos deste texto são contas, sem compromisso de tolerância ou disponibilidade de produtos."
+      },
+      {
+        "heading": "Por que uma anilha de 45 lb não equivale a 20 kg",
+        "text": "### Compare antes de aprovar a lista\n\nUma anilha nominal de 45 lb corresponde a 20,41165665 kg, ou aproximadamente 20,412 kg. Uma peça nominal de 20 kg corresponde a cerca de 44,092 lb. Portanto, escrever «20 kg / 45 lb» como equivalência exata transmite uma especificação incorreta.\n\nO mesmo cuidado vale para a progressão dos halteres. Um incremento de 5 lb representa aproximadamente 2,268 kg, diferente de um incremento de 2,5 kg. Na reposição, confira toda a sequência em vez de comparar somente o primeiro e o último peso. Isso evita cadastrar como substitutas peças de linhas diferentes."
+      },
+      {
+        "heading": "Organize os códigos sem misturar unidade e quantidade",
+        "text": "### Um cadastro para cada especificação\n\nCada linha deve conter modelo, unidade principal, peso nominal individual e quantidade de peças ou pares. Caso exista valor secundário na marcação, coloque-o em campo próprio e identifique o arredondamento. Um cadastro escrito apenas como «haltere 20» não informa qual peça deve ser produzida ou separada.\n\nNossa fábrica de pesos livres pode discutir projetos OEM e ODM a partir dessa relação. A existência de uma série em libras não comprova que a versão em quilos utiliza o mesmo produto. Solicite confirmação sobre a especificação, eventual necessidade de ferramental e condições comerciais do modelo escolhido, antes de autorizar a personalização."
+      },
+      {
+        "heading": "Marcação dupla e logotipo precisam de revisão conjunta",
+        "text": "### Defina a precisão do valor de referência\n\nSe a peça mostrar kg e lb, ambos devem representar a mesma massa nominal. Escolha a unidade principal, calcule o valor secundário e registre como ele será arredondado. Não use um número comercialmente familiar no lugar da conversão correta. Revise também a vírgula decimal na arte destinada ao mercado brasileiro.\n\nNo projeto de marca própria, o logotipo personalizado não pode encobrir a unidade. Confira face da anilha, ponta do haltere, etiqueta da caixa e imagem do catálogo como um conjunto. Para vendas a destinos diferentes, verifique as exigências de rotulagem aplicáveis. Uma aprovação visual isolada não resolve uma divergência de especificação."
+      },
+      {
+        "heading": "O par de halteres não é o peso de cada haltere",
+        "text": "Em um exemplo de cadastro, um par de halteres nominais de 20 kg contém duas peças de 20 kg cada. A soma nominal dos produtos é 40 kg. Esse valor não é automaticamente o peso bruto da caixa, que também depende da embalagem e dos dados reais do embarque.\n\nNa proposta e no pedido, separe preço por peça ou por par, quantidade comercial e peso individual. Para anilhas, registre quantas unidades serão entregues e se devem formar pares. O packing list deve distinguir identificação do produto, contagem, peso líquido e peso bruto, usando as informações de embalagem e pesagem adequadas ao embarque."
+      },
+      {
+        "heading": "Confira a planilha em português antes de enviar o pedido",
+        "text": "Ao montar a planilha da importação, use colunas explícitas para «peso por haltere», «unidade de massa» e «quantidade em pares». Se o fornecedor responder com «pcs», confira a correspondência com peças antes de lançar o recebimento. Não altere apenas o cabeçalho de pares para peças: a contagem física precisa continuar igual. O nome comercial usado pelo revendedor deve apontar para o mesmo código aprovado."
+      },
+      {
+        "heading": "Recebimento e reposição exigem a mesma referência",
+        "text": "No recebimento, confronte pedido, marcação da peça e etiqueta da caixa. Quando houver pesagem acordada, anote a unidade usada pela balança e compare o resultado à especificação e à tolerância contratadas. Uma diferença entre quilos e libras não deve ser tratada como simples variação de fabricação.\n\nNa compra seguinte, envie o código original, a sequência de pesos, a unidade principal e a revisão da arte aprovada. Separe estoque em kg e lb no sistema e nas posições de armazenagem. Se o cliente quiser combinar linhas, identifique as unidades e calcule as cargas de forma consistente. A unidade de peso, sozinha, não confirma compatibilidade entre barra e furo da anilha."
+      },
+      {
+        "heading": "Referências para conferir a unidade do produto",
+        "text": "O fator de conversão segue a [referência de calibração de massa do NIST](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). A [página de perguntas da IVANKO](https://ivankobarbell.com/pages/faqs) diferencia, para determinadas linhas, produtos efetivamente especificados em quilos de produtos em libras com identificação alterada. Trata-se de uma prática declarada por esse fabricante, não de uma regra sobre todas as fábricas.\n\nO [catálogo de anilhas da Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) também apresenta séries em kg e lb. Essas fontes ajudam a formular a pergunta correta ao fornecedor, mas não comprovam nosso estoque, capacidade de personalização, preços ou tolerâncias. Esses pontos precisam ser confirmados para o pedido concreto."
+      }
+    ],
+    "table": {
+      "heading": "Comparações calculadas para revisar a compra",
+      "columns": [
+        "Referência nominal",
+        "Conversão aproximada",
+        "O que verificar"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "20,412 kg",
+          "Não é a mesma especificação que 20 kg"
+        ],
+        [
+          "20 kg",
+          "44,092 lb",
+          "Não declarar equivalência exata com 45 lb"
+        ],
+        [
+          "Incremento de 5 lb",
+          "2,268 kg",
+          "Progressão diferente de 2,5 kg"
+        ],
+        [
+          "Um par de 20 kg",
+          "Duas peças de 20 kg nominais",
+          "Separar quantidade e peso da embalagem"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dados necessários para consultar a fábrica",
+      "items": [
+        "Mercado de destino e unidade da linha atualmente vendida.",
+        "Modelo e código com peso nominal individual em kg ou lb.",
+        "Sequência completa de pesos e quantidades em peças ou pares.",
+        "Arte do logotipo e regra de arredondamento da marcação dupla.",
+        "Critério separado para pesagem e tolerância de fabricação.",
+        "Identificação das caixas e referências para futuras reposições."
+      ]
+    },
+    "faqHeading": "Perguntas frequentes",
+    "faq": [
+      [
+        "Uma anilha de 45 lb pode ser vendida como 20 kg?",
+        "Não como equivalência exata. O valor nominal de 45 lb corresponde a aproximadamente 20,412 kg. A identificação deve representar a especificação aprovada."
+      ],
+      [
+        "Trocar a etiqueta transforma um haltere em uma versão em quilos?",
+        "Não. A etiqueta muda a informação exibida, mas não altera a massa. Confirme se a versão em quilos exige outra especificação de produto."
+      ],
+      [
+        "É possível colocar kg e lb na mesma peça?",
+        "Sim, desde que os dois valores expressem a mesma massa nominal com conversão e arredondamento definidos. Confira legibilidade e requisitos do destino."
+      ],
+      [
+        "O peso informado corresponde à peça ou ao par?",
+        "Confirme a convenção do produto e escreva no pedido o peso de cada peça. A quantidade em pares deve aparecer em campo separado."
+      ],
+      [
+        "Posso comprar libras para completar uma linha em quilos?",
+        "Somente se essa diferença for uma escolha consciente. Os intervalos podem mudar; mantenha identificação e cadastro separados para evitar substituições indevidas."
+      ],
+      [
+        "O que enviar para uma reposição de marca própria?",
+        "Envie modelo, código, unidade principal, pesos nominais, quantidades e revisão da arte. Solicite confirmação antes de aceitar uma série substituta."
+      ]
+    ],
+    "linkHeading": "Produtos e guias relacionados",
+    "linkLabels": [
+      "Halteres hexagonais de borracha",
+      "Linha de halteres",
+      "Tolerância de peso das anilhas",
+      "Aprovação de amostras",
+      "Conheça a fábrica",
+      "Consultar especificações"
+    ],
+    "imageCopy": [
+      [
+        "Dois halteres hexagonais sem identificação em superfície de estúdio",
+        "Composição ilustrativa: a unidade de cada tamanho precisa constar no cadastro do produto."
+      ],
+      [
+        "Duas anilhas pretas sem marcação com inserto metálico central",
+        "Imagem ilustrativa de anilhas; a aparência não comprova o peso nominal ou a unidade."
+      ],
+      [
+        "Haltere hexagonal sem identificação ao lado de caixa aberta vazia",
+        "Conceito ilustrativo de embalagem: peso da peça e peso do volume são informações distintas."
+      ]
+    ],
+    "cta": [
+      "Defina sua linha em kg ou lb",
+      "Envie à nossa fábrica os modelos, pesos nominais, unidades e quantidades. Vamos discutir OEM, ODM, logotipo personalizado e fornecimento no atacado para sua marca própria conforme a especificação desejada.",
+      "Enviar especificação de pesos"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/mancuernas-discos-kg-lb-compra-mayorista",
+    "title": "Mancuernas y Discos en kg o lb: Guía para Mayoristas",
+    "description": "Aclara kilos, libras y pares en tus pedidos de mancuernas y discos. Define pesos nominales, doble marcaje y referencias de reposición para tu marca.",
+    "h1": "Cómo Pedir Mancuernas y Discos en Kilos o Libras",
+    "keyword": "mancuernas y discos kilos libras compra mayorista",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "Guía de compra de fábrica",
+    "sections": [
+      {
+        "heading": "La unidad debe quedar clara antes de comparar ofertas",
+        "text": "Un presupuesto de mancuernas o discos resulta ambiguo si indica un número sin kg o lb. La primera decisión es elegir la unidad principal de la gama, el peso nominal de cada pieza y los saltos entre tamaños. Un segundo número en la etiqueta sirve como conversión; no crea automáticamente una versión de producto distinta.\n\nPara distribuidores que abastecen varios destinos, conviene preguntar qué unidad utiliza el gimnasio o la gama existente, sin deducirlo únicamente del país. Mantén separadas las referencias en kilos y libras. Las imágenes sin marcaje de esta guía ilustran surtidos y embalaje; no documentan ensayos, pedidos de clientes ni pesos reales."
+      },
+      {
+        "heading": "Distingue el peso nominal de la conversión y la pesada",
+        "text": "El peso nominal identifica el tamaño comercial especificado. La conversión expresa ese mismo valor en otra unidad. La pesada mide una pieza concreta y necesita su propio registro. Convertir una cifra del catálogo no demuestra la precisión del producto recibido ni define una tolerancia aceptable.\n\nLa libra avoirdupois equivale exactamente a 0,45359237 kg. Multiplica las libras por ese factor para obtener kilos y divide los kilos por él para obtener libras. Conserva el cálculo completo y redondea solo la referencia mostrada. Los ejemplos siguientes son cálculos explicativos, no resultados de laboratorio ni compromisos de fabricación."
+      },
+      {
+        "heading": "El error de considerar 45 lb iguales a 20 kg",
+        "text": "### Compara toda la progresión\n\nUn disco nominal de 45 lb equivale a 20,41165665 kg, aproximadamente 20,412 kg. Un disco nominal de 20 kg equivale a unos 44,092 lb. Pueden ocupar una posición parecida en dos catálogos, pero no representan la misma masa nominal. No apruebes «20 kg / 45 lb» como igualdad exacta.\n\nTambién cambian los incrementos. Un salto de 5 lb equivale a unos 2,268 kg, diferente de 2,5 kg. Al ampliar un surtido, revisa los tamaños intermedios y las fracciones; comparar únicamente los extremos puede ocultar una progresión distinta."
+      },
+      {
+        "heading": "Crea referencias de compra que identifiquen la pieza",
+        "text": "### El código debe incluir la unidad de la serie\n\nAsigna referencias distintas a las variantes en kg y lb aunque compartan acabado o diseño de agarre. Cada línea de pedido debe incluir modelo, peso nominal individual, unidad principal y cantidad expresada en piezas o pares. Guarda el valor secundario del marcaje en otra columna y anota cómo se redondea.\n\nNuestra fábrica de pesos libres puede estudiar proyectos OEM y ODM a partir de esta lista. Solicita confirmación de la serie disponible y de los cambios que exige otra masa nominal. La posibilidad de personalizar un logotipo no demuestra que exista cualquier combinación de pesos; producto, utillaje y condiciones comerciales se confirman para el modelo concreto."
+      },
+      {
+        "heading": "Revisa el doble marcaje junto con la identidad de marca",
+        "text": "### Una segunda cifra debe representar la misma masa\n\nCuando aparezcan kilos y libras, define cuál es la unidad principal y calcula la otra desde el mismo peso nominal. Documenta la precisión y el criterio de redondeo. No reemplaces la conversión por un tamaño habitual de otra gama para ahorrar espacio en la etiqueta.\n\nEn una marca propia, revisa la visibilidad de la unidad después de colocar el logotipo personalizado. Comprueba los extremos de las mancuernas, las caras de los discos, las cajas y las fichas comerciales. Adapta el separador decimal al destino y verifica los requisitos de etiquetado aplicables. Una fotografía recortada debe seguir permitiendo distinguir kg de lb."
+      },
+      {
+        "heading": "Separa piezas, pares y peso del envío",
+        "text": "Como ejemplo de nomenclatura, un par de mancuernas nominales de 20 kg contiene dos piezas, cada una de 20 kg. Su masa nominal combinada es 40 kg. Esa suma no equivale necesariamente al peso bruto del bulto, que requiere considerar el embalaje y la información de pesada del envío.\n\nAclara si la oferta y el pedido cuentan unidades o pares. Para discos, detalla el número de piezas y cualquier requisito de emparejamiento. En la lista de empaque, separa denominación del producto, cantidad, peso neto y peso bruto. No deduzcas automáticamente una declaración de transporte sumando los números grabados en las piezas."
+      },
+      {
+        "heading": "Aclara el nombre comercial cuando el catálogo cruza mercados",
+        "text": "En la consulta, identifica el tipo de producto además de la unidad: una mancuerna fija, un disco o una barra no comparten necesariamente la misma forma de venderse. Si un distribuidor utiliza «pesas» como nombre general, añade el modelo y una descripción concreta. Una revisión de libras a kilos debe actualizar toda la lista de tamaños, no solamente el texto de la portada del catálogo."
+      },
+      {
+        "heading": "Comprueba la unidad al recibir y al reponer",
+        "text": "Coteja el código del pedido con el marcaje del producto, las etiquetas de caja y el surtido entregado. Si se acuerda una comprobación de peso, registra la unidad de la báscula y compara el resultado con la especificación nominal y la tolerancia pactada. Un error de unidad no es una desviación normal de fabricación.\n\nPara reponer existencias, envía código original, modelo, unidad principal, lista de tamaños y versión de marcaje aprobada. No sustituyas una serie por otra solo por su aspecto. Si el gimnasio combina ambas, identifica las unidades y calcula las cargas con un criterio constante. La unidad de masa no confirma por sí sola la compatibilidad entre disco y barra."
+      },
+      {
+        "heading": "Referencias para formular preguntas al fabricante",
+        "text": "La equivalencia utilizada procede de la [documentación de masa del NIST](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). Las [preguntas frecuentes de IVANKO](https://ivankobarbell.com/pages/faqs) distinguen, en determinadas líneas, productos definidos realmente en kilos de productos en libras con otra identificación. Es una explicación de ese fabricante, no una afirmación sobre todos los procesos de producción.\n\nEl [catálogo de discos de Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) diferencia series en kg y lb. Estas fuentes justifican verificar la referencia concreta; no acreditan nuestro inventario, tolerancias, precios o posibilidades de personalización. Confirma esos puntos con la fábrica antes de cerrar el pedido."
+      }
+    ],
+    "table": {
+      "heading": "Conversiones para revisar un pedido",
+      "columns": [
+        "Referencia nominal",
+        "Valor convertido",
+        "Consecuencia para la compra"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "No es el mismo tamaño nominal que 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "No marcar como exactamente 45 lb"
+        ],
+        [
+          "Salto de 5 lb",
+          "≈ 2,268 kg",
+          "Progresión distinta de 2,5 kg"
+        ],
+        [
+          "Un par de 20 kg",
+          "Dos piezas de 20 kg nominales",
+          "Separar cantidad y masa del bulto"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Datos para solicitar una propuesta de fábrica",
+      "items": [
+        "Destino y unidad utilizada en la gama existente.",
+        "Modelo, código, peso nominal individual y unidad principal.",
+        "Lista completa de tamaños con cantidades en piezas o pares.",
+        "Logotipo y criterio de redondeo de la segunda unidad.",
+        "Requisitos separados para pesada y tolerancia de fabricación.",
+        "Identificación de cajas, separación del surtido y referencia de reposición."
+      ]
+    },
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      [
+        "¿Un disco de 20 kg pesa lo mismo que uno de 45 lb?",
+        "No en su especificación nominal. 45 lb equivalen aproximadamente a 20,412 kg; 20 kg equivalen a unos 44,092 lb."
+      ],
+      [
+        "¿Basta con cambiar la etiqueta de lb a kg?",
+        "No. La etiqueta cambia la información, pero no la masa. Hay que confirmar la especificación del producto y cualquier cambio de fabricación necesario."
+      ],
+      [
+        "¿Se pueden indicar las dos unidades?",
+        "Sí, si representan la misma masa nominal con una conversión y un redondeo definidos. Revisa también legibilidad y requisitos del destino."
+      ],
+      [
+        "¿El peso de una mancuerna se refiere al par?",
+        "Confirma la convención del modelo. En el pedido, expresa el peso nominal de cada pieza y anota por separado la cantidad de piezas o pares."
+      ],
+      [
+        "¿Se pueden combinar discos en kilos y libras?",
+        "Puede hacerse de forma consciente, con unidades visibles y cálculos consistentes. La compatibilidad física con la barra se debe verificar por separado."
+      ],
+      [
+        "¿Qué datos necesita una reposición de marca propia?",
+        "Código y modelo originales, unidad principal, tamaños nominales, cantidades y revisión del marcaje aprobado. Confirma cualquier sustitución de serie por escrito."
+      ]
+    ],
+    "linkHeading": "Productos y lecturas relacionadas",
+    "linkLabels": [
+      "Mancuernas hexagonales de caucho",
+      "Gama de mancuernas",
+      "Tolerancia de peso de los discos",
+      "Aprobación de muestras",
+      "Nuestra fábrica",
+      "Consultar una especificación"
+    ],
+    "imageCopy": [
+      [
+        "Dos discos negros sin marcaje apoyados sobre una superficie de estudio",
+        "Ilustración de producto: la forma no identifica la unidad ni demuestra el peso nominal."
+      ],
+      [
+        "Discos negros sin identificación agrupados en varias pilas",
+        "Surtido ilustrativo: cada referencia debe conservar su unidad en el catálogo y el almacén."
+      ],
+      [
+        "Mancuerna hexagonal sin marcaje junto a una caja abierta vacía",
+        "Concepto ilustrativo de embalaje: la masa del producto y la del bulto se registran por separado."
+      ]
+    ],
+    "cta": [
+      "Solicita una gama con unidades bien definidas",
+      "Envía modelos, tamaños, kg o lb y cantidades a nuestra fábrica. Podemos estudiar OEM, ODM, logotipo personalizado y suministro mayorista para marca propia según la especificación del producto.",
+      "Enviar la lista de pesos"
+    ]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/kurzhanteln-hantelscheiben-kg-lb-bestellen",
+    "title": "Kurzhanteln und Hantelscheiben in kg oder lb bestellen",
+    "description": "Kilogramm und Pfund im Einkauf sauber trennen: Nenngewicht, Gewichtsstufen, Doppelkennzeichnung und Stückzahlen für Händler, Importeure und Studiobetreiber.",
+    "h1": "kg oder lb: Kurzhanteln und Hantelscheiben bestellen",
+    "keyword": "Kurzhanteln Hantelscheiben kg lb Bestellung",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "Einkaufswissen aus der Fabrik",
+    "sections": [
+      {
+        "heading": "Die Einheit gehört in den Artikelstamm",
+        "text": "Für eine Nachbestellung reicht die Angabe „Hantel 20“ nicht aus. Legen Sie zuerst fest, ob die Serie nach Kilogramm oder Pfund spezifiziert wird. Danach folgen Nenngewicht je Einzelstück, Gewichtsstufen und Bestellmenge. Eine ergänzende Umrechnung auf dem Produkt ist kein Beleg dafür, dass zwei unterschiedlich spezifizierte Serien austauschbar sind.\n\nHändler und Studiobetreiber sollten vorhandene Artikelnummern und Beschriftungen prüfen, bevor sie Angebote zusammenführen. Gleiche Oberflächen oder ähnliche Abmessungen können unterschiedliche Nennmassen verdecken. Die unbeschrifteten Produktbilder in diesem Ratgeber sind illustrative Zusammenstellungen; sie zeigen weder gewogene Prüfmuster noch dokumentierte Kundenaufträge."
+      },
+      {
+        "heading": "Drei Gewichtsangaben mit unterschiedlichen Aufgaben",
+        "text": "Das Nenngewicht bezeichnet die vereinbarte Produktgröße. Der umgerechnete Wert beschreibt dieselbe Nennmasse in einer anderen Einheit. Das gemessene Gewicht entsteht dagegen durch das Wiegen eines konkreten Gegenstands. Diese Angaben brauchen getrennte Felder, damit eine rechnerische Umrechnung nicht als Messergebnis erscheint.\n\nFür das Avoirdupois-Pfund gilt exakt: 1 lb = 0,45359237 kg. Pfund werden mit diesem Faktor multipliziert; Kilogramm werden durch ihn geteilt. Erst die Anzeige wird gerundet, nicht jeder Rechenschritt. Die nachfolgenden Zahlen sind Rechenbeispiele und enthalten keine Aussage über Fertigungstoleranzen oder tatsächliche Liefergewichte."
+      },
+      {
+        "heading": "Warum 20 kg und 45 lb verschiedene Artikel bleiben",
+        "text": "### Nicht nur die Endpunkte einer Serie vergleichen\n\n45 lb entsprechen nominal 20,41165665 kg, hier gerundet etwa 20,412 kg. 20 kg entsprechen ungefähr 44,092 lb. Deshalb ist „20 kg / 45 lb“ keine exakte Gleichsetzung. Dass zwei Scheiben in einer Produktreihe eine ähnliche Funktion erfüllen, ändert diese Umrechnung nicht.\n\nAuch die Abstufung unterscheidet sich: 5 lb ergeben etwa 2,268 kg und damit keinen Schritt von 2,5 kg. Prüfen Sie kleine Zwischengewichte ebenso wie die größten Größen. Sonst kann eine vermeintliche Ergänzung den bisherigen Verlauf des Kurzhantelsatzes verändern."
+      },
+      {
+        "heading": "Eine belastbare Bestellzeile formulieren",
+        "text": "### Modell, Nennwert und Einheit gemeinsam freigeben\n\nVergeben Sie für kg- und lb-Ausführungen getrennte Artikelnummern. Erfassen Sie je Position das Modell, die primäre Einheit, das Nenngewicht des Einzelstücks sowie die Menge in Stück oder Paar. Ein sekundärer Anzeigewert erhält ein eigenes Feld mit dokumentierter Rundung.\n\nAls Fabrik für freie Gewichte besprechen wir OEM- und ODM-Anforderungen anhand dieser Angaben. Lassen Sie bestätigen, ob die gewünschte Serie vorhanden ist und ob eine andere Nennmasse Änderungen am Produkt oder Werkzeug erfordert. Die Möglichkeit eines eigenen Logos beantwortet diese Fertigungsfrage nicht. Verfügbarkeit und kaufmännische Bedingungen werden für die konkrete Ausführung geklärt."
+      },
+      {
+        "heading": "Doppelkennzeichnung und Eigenmarke abstimmen",
+        "text": "### Die zweite Einheit muss dieselbe Nennmasse ausdrücken\n\nBestimmen Sie eine gut erkennbare Haupteinheit. Berechnen Sie den ergänzenden Wert daraus und dokumentieren Sie Anzeigegenauigkeit und Rundungsverfahren. Eine bekannte Größe aus einer anderen Serie darf nicht einfach an die Stelle der Umrechnung treten. Prüfen Sie bei deutscher Beschriftung auch das Dezimalkomma.\n\nBetrachten Sie Stirnflächen, Scheibenmarkierung, Kartonetikett und Händlerdatenblatt gemeinsam. Das kundenspezifische Logo darf die Einheit nicht unleserlich machen. Bei Private-Label-Projekten sollten auch beschnittene Produktfotos noch erkennen lassen, ob kg oder lb gemeint sind. Anforderungen an die Kennzeichnung sind für den jeweiligen Zielmarkt zu prüfen."
+      },
+      {
+        "heading": "Stück, Paar und Versandmasse auseinanderhalten",
+        "text": "Ein rein rechnerisches Bestellbeispiel: Ein Paar Kurzhanteln mit jeweils 20 kg Nenngewicht besteht aus zwei Einzelstücken. Die gemeinsame Nennmasse beträgt 40 kg. Daraus folgt nicht das Bruttogewicht des Versandkartons; dafür werden Verpackungs- und Wiegedaten des tatsächlichen Versandstücks benötigt.\n\nSchreiben Sie ausdrücklich, ob eine Preis- oder Mengenangabe pro Stück oder pro Paar gilt. Bei Scheiben sind Einzelstückzahl und gewünschte Paarbildung getrennt zu erfassen. Die Packliste sollte Produktbezeichnung, Stückzahl, Netto- und Bruttomasse in eigenen Feldern führen. Addierte Nennwerte ersetzen keine erforderliche Ermittlung der Versandmasse."
+      },
+      {
+        "heading": "Mengeneinheit und Gewichtseinheit im Warenwirtschaftssystem",
+        "text": "Führen Sie die Felder Gewichtseinheit und Mengeneinheit getrennt. „kg“ beschreibt die Masse, „Paar“ die Zählbasis einer Bestellposition. Wird eine Lieferantenbestätigung in Stück geführt, gleichen Sie die physische Anzahl mit der Bestellung ab, bevor der Datensatz übernommen wird. Ein interner Kurztext darf abgekürzt sein, solange Artikelnummer und vollständige Spezifikation die Zuordnung eindeutig erhalten."
+      },
+      {
+        "heading": "Wareneingang und Nachkauf auf dieselbe Referenz beziehen",
+        "text": "Vergleichen Sie Bestellcode, Produktmarkierung, Karton und gelieferten Größenmix. Wenn eine Wägung vereinbart wurde, erfassen Sie die Einheit der Waage und prüfen Sie gegen Nennspezifikation und separat vereinbarte Toleranz. Eine falsche Einheit lässt sich nicht als gewöhnliche Fertigungsabweichung behandeln.\n\nBei Nachbestellungen helfen Originalartikelnummer, Modell, primäre Einheit, Größenliste und freigegebene Kennzeichnungsversion. Trennen Sie kg- und lb-Bestände im Lager und im Produktkatalog. Eine bewusst gemischte Ausstattung braucht klare Einheiten und einheitliche Lastberechnungen. Unabhängig davon sind Bohrung, Stangenaufnahme und sonstige Schnittstellen zu prüfen; die Gewichtseinheit sagt darüber nichts aus."
+      },
+      {
+        "heading": "Quellen und Grenzen der Herstellerbeispiele",
+        "text": "Der Umrechnungsfaktor folgt der [NIST-Veröffentlichung zur Massenkalibrierung](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). Die [Produktfragen von IVANKO](https://ivankobarbell.com/pages/faqs) unterscheiden bei bestimmten Baureihen echte Kilogrammausführungen von umbeschrifteten Pfundprodukten. Diese Aussage beschreibt den betreffenden Hersteller und lässt sich nicht pauschal auf jedes Werkzeugkonzept übertragen.\n\nIm [Scheibenkatalog von Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) werden ebenfalls kg- und lb-Serien unterschieden. Die Beispiele begründen die Nachfrage nach einer exakten Modellreferenz. Sie belegen weder unseren Lagerbestand noch unsere Toleranzen, Preise oder verfügbaren Individualisierungen."
+      }
+    ],
+    "table": {
+      "heading": "Umrechnungen für die Angebotsprüfung",
+      "columns": [
+        "Nennangabe",
+        "Umrechnung",
+        "Folge für den Einkauf"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Anderes Nenngewicht als 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Nicht exakt als 45 lb kennzeichnen"
+        ],
+        [
+          "Schritt von 5 lb",
+          "≈ 2,268 kg",
+          "Keine Abstufung von 2,5 kg"
+        ],
+        [
+          "Ein Paar mit je 20 kg",
+          "Zwei Einzelstücke à 20 kg nominal",
+          "Stückzahl und Versandmasse trennen"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Unterlagen für die Fabrikanfrage",
+      "items": [
+        "Zielmarkt und primäre Einheit der vorhandenen Produktserie.",
+        "Artikelcode, Modell und Nenngewicht je Einzelstück.",
+        "Vollständige Gewichtsstufen mit Mengen in Stück oder Paar.",
+        "Logozeichnung und Rundungsregel für eine zweite Einheit.",
+        "Gesonderte Wiege- und Toleranzanforderungen für die Abnahme.",
+        "Kartonkennzeichnung und eindeutige Nachbestellreferenz."
+      ]
+    },
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      [
+        "Sind 20-kg- und 45-lb-Scheiben gleich schwer?",
+        "Ihre Nennmassen sind unterschiedlich: 45 lb entsprechen rund 20,412 kg und 20 kg rund 44,092 lb."
+      ],
+      [
+        "Genügt eine neue Plakette für die kg-Ausführung?",
+        "Eine Plakette ändert die Beschriftung, nicht die Masse. Klären Sie die tatsächliche Produktspezifikation und erforderliche Fertigungsänderungen."
+      ],
+      [
+        "Dürfen beide Einheiten auf einer Hantel stehen?",
+        "Beide Angaben müssen dieselbe Nennmasse mit festgelegter Umrechnung und Rundung beschreiben. Zusätzlich sind Lesbarkeit und Zielmarktanforderungen zu prüfen."
+      ],
+      [
+        "Bezieht sich das Gewicht auf eine Hantel oder ein Paar?",
+        "Bestätigen Sie die Modellkonvention. Schreiben Sie das Nenngewicht je Einzelstück und die Bestellmenge in Stück oder Paar getrennt auf."
+      ],
+      [
+        "Kann ein Studio beide Serien verwenden?",
+        "Eine bewusste Trennung und klare Kennzeichnung sind möglich. Rechnen Sie Lasten konsistent um und prüfen Sie die mechanische Kompatibilität unabhängig davon."
+      ],
+      [
+        "Welche Daten braucht eine Eigenmarken-Nachbestellung?",
+        "Originalcode, Modell, primäre Einheit, Nenngewichte, Mengenbasis und freigegebene Beschriftungsversion. Eine Ersatzserie sollte schriftlich bestätigt werden."
+      ]
+    ],
+    "linkHeading": "Passende Produkte und Einkaufsratgeber",
+    "linkLabels": [
+      "Gummierte Sechskant-Kurzhanteln",
+      "Kurzhantelprogramm",
+      "Gewichtstoleranzen bei Hantelscheiben",
+      "Freigabe von Produktmustern",
+      "Unsere Fabrik",
+      "Spezifikation anfragen"
+    ],
+    "imageCopy": [
+      [
+        "Zwei unbeschriftete Kurzhanteln mit runden Metallköpfen im Studio",
+        "Illustrative Produktanordnung: Form und Oberfläche bestimmen die Gewichtseinheit nicht."
+      ],
+      [
+        "Zwei schwarze Hantelscheiben ohne Beschriftung mit Metalleinsatz",
+        "Illustrative Scheiben: Nenngewicht und Einheit müssen in der Spezifikation stehen."
+      ],
+      [
+        "Unbeschriftete Sechskanthantel neben einem offenen leeren Karton",
+        "Illustratives Verpackungskonzept: Einzelgewicht und Versandmasse getrennt erfassen."
+      ]
+    ],
+    "cta": [
+      "Ihre Gewichtsserie eindeutig spezifizieren",
+      "Senden Sie Modell, Nenngewichte, kg oder lb sowie Stück- oder Paarmengen an unsere Fabrik. Wir besprechen OEM, ODM, individuelles Logo und Großmengen für Ihre Eigenmarke anhand der gewünschten Ausführung.",
+      "Gewichtsspezifikation senden"
+    ]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/halteres-disques-kg-lb-commande-gros",
+    "title": "Haltères et Disques en kg ou lb : Bien Définir la Commande",
+    "description": "Distinguez kilos, livres et paires pour vos achats professionnels. Vérifiez masse nominale, double marquage et références de réassort des haltères et disques.",
+    "h1": "Commander des Haltères et Disques en Kilogrammes ou Livres",
+    "keyword": "haltères disques kilogrammes livres commande professionnelle",
+    "home": "Accueil",
+    "library": "Guides",
+    "eyebrow": "Conseils d’achat de notre usine",
+    "sections": [
+      {
+        "heading": "Le réassort commence par la bonne unité",
+        "text": "Une nouvelle livraison doit prolonger la gamme réellement utilisée par votre salle ou votre réseau de distribution. Avant de comparer les devis, relevez l’unité des références existantes, les masses nominales et les écarts entre tailles. Une série en livres ne devient pas une série en kilogrammes grâce à une nouvelle pastille.\n\nPour un importateur, cette décision concerne le catalogue, le bon de commande et la réception. Créez des références distinctes si les deux séries coexistent. Les images de produits sans inscription présentées ici sont illustratives : elles ne constituent ni des pesées de contrôle, ni des preuves de fabrication, ni des réalisations attribuées à des clients."
+      },
+      {
+        "heading": "Masse nominale, valeur convertie et masse mesurée",
+        "text": "Dans une fiche produit, la masse nominale désigne la taille convenue. La valeur convertie exprime cette même masse dans une autre unité. La masse mesurée provient de la pesée d’un article concret. Gardez trois champs séparés afin de ne pas présenter une conversion de catalogue comme un résultat de contrôle.\n\nLa livre avoirdupois vaut exactement 0,45359237 kg. Pour passer de lb à kg, multipliez par ce facteur ; pour passer de kg à lb, divisez par ce facteur. Conservez le calcul complet et arrondissez uniquement l’affichage. Les chiffres ci-dessous illustrent cette conversion et ne définissent aucune tolérance de fabrication."
+      },
+      {
+        "heading": "Le rapprochement trompeur entre 20 kg et 45 lb",
+        "text": "### Comparer aussi les tailles intermédiaires\n\nUne masse nominale de 45 lb correspond à 20,41165665 kg, soit environ 20,412 kg. Une masse nominale de 20 kg correspond à environ 44,092 lb. Ces références peuvent occuper une place voisine dans deux gammes, mais « 20 kg / 45 lb » ne doit pas être présenté comme une équivalence exacte.\n\nLe pas de progression compte également. Un écart de 5 lb correspond à environ 2,268 kg et diffère donc de 2,5 kg. Vérifiez chaque taille d’un assortiment, y compris les petites valeurs, avant d’autoriser le remplacement d’une série par une autre."
+      },
+      {
+        "heading": "Rédiger une ligne de commande sans ambiguïté",
+        "text": "### Associer le modèle à sa masse nominale\n\nPour chaque référence, précisez modèle, unité principale, masse nominale d’un article et quantité en pièces ou en paires. Placez une éventuelle valeur secondaire dans un champ distinct avec sa règle d’arrondi. Un numéro seul, même accompagné d’une photographie, ne suffit pas à identifier la variante attendue.\n\nNotre usine de poids libres étudie les demandes OEM et ODM à partir de cette liste. Demandez si la gamme souhaitée existe et si une autre masse nominale implique une évolution du produit ou de l’outillage. L’ajout d’un logo personnalisé ne prouve pas la disponibilité de toutes les tailles. Les possibilités et conditions commerciales se confirment pour le modèle concerné."
+      },
+      {
+        "heading": "Valider le double marquage avec la marque propre",
+        "text": "### Une conversion lisible et documentée\n\nChoisissez l’unité principale qui doit rester immédiatement visible. Calculez la seconde indication à partir de la même masse nominale, puis fixez la précision et la méthode d’arrondi. Un chiffre courant dans une autre gamme ne peut pas remplacer ce calcul. Vérifiez la virgule décimale dans les fichiers destinés au marché francophone.\n\nExaminez ensemble les faces des disques, les extrémités des haltères, les cartons et les fiches du distributeur. Le logo de marque propre ne doit pas masquer kg ou lb. Pensez aussi aux photos recadrées du catalogue. Les exigences de marquage applicables doivent être vérifiées pour le pays de destination."
+      },
+      {
+        "heading": "Une paire ne change pas la masse indiquée par pièce",
+        "text": "Prenons un exemple de désignation, sans référence à une commande réelle : une paire d’haltères de 20 kg nominaux comprend deux pièces de 20 kg chacune. Leur masse nominale cumulée est de 40 kg. Ce total n’est pas automatiquement la masse brute du colis, qui dépend de l’emballage et des données de pesée du transport.\n\nDans le devis, distinguez prix par pièce ou par paire et quantité commandée. Pour les disques, indiquez le nombre d’unités et les besoins d’appariement. La liste de colisage doit séparer identification du produit, nombre de pièces, masse nette et masse brute. Une somme de valeurs gravées ne remplace pas les informations requises pour l’expédition."
+      },
+      {
+        "heading": "Préparer la fiche destinée au réseau de revendeurs",
+        "text": "Dans une fiche française, le mot « poids » peut servir de nom au produit ou désigner sa masse. Préférez des champs explicites : masse nominale par pièce, unité principale et quantité vendue. Si un revendeur transforme une offre par paire en fiche par haltère, vérifiez aussi le nombre d’articles inclus. Conservez une référence commune entre la fiche publique et le modèle accepté par l’acheteur."
+      },
+      {
+        "heading": "Réceptionner puis réassortir avec la même référence",
+        "text": "Rapprochez le code commandé du marquage de l’article, de l’étiquette du carton et des tailles livrées. Si une pesée fait partie de la réception, notez l’unité de la balance et comparez le résultat à la masse nominale et à la tolérance convenues séparément. Une erreur d’unité n’est pas une variation de fabrication acceptable par défaut.\n\nPour le réassort, transmettez le code d’origine, le modèle, la gamme de masses et la version du marquage approuvée. Séparez les stocks en kg et en lb dans le système et dans l’entrepôt. Une salle qui combine volontairement les deux doit identifier les unités et convertir les charges de façon cohérente. La compatibilité entre alésage et barre reste une question indépendante."
+      },
+      {
+        "heading": "Sources et portée des exemples de fabricants",
+        "text": "Le facteur utilisé provient de la [publication du NIST sur l’étalonnage des masses](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). La [foire aux questions d’IVANKO](https://ivankobarbell.com/pages/faqs) distingue, pour certaines familles, des produits réellement définis en kilogrammes et des produits en livres portant une autre identification. Ce choix industriel ne doit pas être généralisé à tous les fabricants.\n\nLe [catalogue de disques Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) présente aussi des séries en kg et en lb. Ces références invitent à contrôler le modèle précis. Elles ne démontrent ni notre stock, ni nos tolérances, ni nos prix ou options de personnalisation, à confirmer pour chaque demande."
+      }
+    ],
+    "table": {
+      "heading": "Conversions utiles pour relire le devis",
+      "columns": [
+        "Désignation nominale",
+        "Référence convertie",
+        "Point de vigilance"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Masse nominale différente de 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Ne pas annoncer exactement 45 lb"
+        ],
+        [
+          "Pas de 5 lb",
+          "≈ 2,268 kg",
+          "Progression différente de 2,5 kg"
+        ],
+        [
+          "Une paire de 20 kg",
+          "Deux pièces de 20 kg nominaux",
+          "Distinguer pièces et masse du colis"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Informations à transmettre à l’usine",
+      "items": [
+        "Destination et unité de la gamme déjà utilisée.",
+        "Modèle et référence avec masse nominale par pièce.",
+        "Liste des tailles et quantités en pièces ou paires.",
+        "Logo et règle d’arrondi du marquage secondaire.",
+        "Exigences de pesée et tolérance traitées séparément.",
+        "Identification des cartons et références du prochain réassort."
+      ]
+    },
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      [
+        "20 kg et 45 lb correspondent-ils au même disque ?",
+        "Non. La masse nominale de 45 lb équivaut à environ 20,412 kg, tandis que 20 kg équivalent à environ 44,092 lb."
+      ],
+      [
+        "Une nouvelle pastille suffit-elle pour passer de lb à kg ?",
+        "Elle change l’information affichée, pas la masse. Il faut confirmer la spécification réelle du produit et les éventuelles adaptations nécessaires."
+      ],
+      [
+        "Peut-on afficher kg et lb sur le même haltère ?",
+        "Oui, si les deux valeurs représentent la même masse nominale avec une conversion et un arrondi définis. Vérifiez aussi la lisibilité et les exigences du marché."
+      ],
+      [
+        "Le poids d’un haltère concerne-t-il la paire ?",
+        "Confirmez la convention du modèle. Indiquez séparément la masse nominale d’une pièce et la quantité achetée en pièces ou en paires."
+      ],
+      [
+        "Peut-on utiliser les deux gammes dans une salle ?",
+        "Une utilisation volontairement organisée est possible avec des unités visibles et des calculs cohérents. La compatibilité physique des équipements doit être contrôlée séparément."
+      ],
+      [
+        "Que faut-il conserver pour une commande de marque propre ?",
+        "La référence originale, le modèle, l’unité principale, les masses nominales, les quantités et la version approuvée du marquage. Faites confirmer toute substitution de gamme."
+      ]
+    ],
+    "linkHeading": "Produits et guides complémentaires",
+    "linkLabels": [
+      "Haltères hexagonaux en caoutchouc",
+      "Gamme d’haltères",
+      "Tolérances de masse des disques",
+      "Validation des échantillons",
+      "Notre usine",
+      "Définir votre commande"
+    ],
+    "imageCopy": [
+      [
+        "Disques noirs sans inscription répartis en plusieurs piles",
+        "Composition illustrative : chaque taille doit conserver sa référence et son unité."
+      ],
+      [
+        "Deux disques noirs sans marquage avec bagues centrales métalliques",
+        "Illustration de disques ; leur apparence ne prouve ni masse nominale ni unité."
+      ],
+      [
+        "Haltère hexagonal sans inscription à côté d’un carton ouvert vide",
+        "Concept illustratif de colisage : masse de l’article et masse du colis restent distinctes."
+      ]
+    ],
+    "cta": [
+      "Préparer votre gamme en kilogrammes ou livres",
+      "Transmettez à notre usine les modèles, masses nominales, unités et quantités. Nous pouvons étudier OEM, ODM, logo personnalisé et approvisionnement en gros pour votre marque propre selon la définition du produit.",
+      "Envoyer votre liste de masses"
+    ]
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/hantlar-viktskivor-kg-lb-inkop",
+    "title": "Hantlar och Viktskivor i kg eller lb: Guide för Inköpare",
+    "description": "Beställ rätt viktserie till gym och återförsäljning. Skilj kg från lb, nominell vikt från vägning och styck från par vid märkning och återbeställning.",
+    "h1": "Beställa Hantlar och Viktskivor i Kilogram eller Pund",
+    "keyword": "hantlar viktskivor kg lb inköp",
+    "home": "Start",
+    "library": "Guider",
+    "eyebrow": "Inköpsguide från fabriken",
+    "sections": [
+      {
+        "heading": "Utgå från gymmets befintliga viktserie",
+        "text": "När ett gym kompletterar sitt hantelställ behöver inköparen veta vilken enhet och vilka viktsteg som redan används. Liknande färg och grepp räcker inte för att identifiera rätt ersättningsprodukt. Bestäm primär enhet, nominell vikt per föremål och önskad storleksföljd innan prisförfrågan och märkning godkänns.\n\nEn serie i pund blir inte en separat kilogramserie genom en annan siffra på ändbrickan. Grossister som erbjuder båda behöver skilda artikelreferenser. Bilderna i guiden visar omärkta produkter och ett illustrativt förpackningskoncept. De dokumenterar inga vägningar, genomförda kundprojekt eller verifierade fabriksprov."
+      },
+      {
+        "heading": "Tre viktuppgifter som ska hållas isär",
+        "text": "Nominell vikt är den produktstorlek som beställningen avser. Ett omräknat värde uttrycker samma nominella massa i en annan enhet. Uppmätt vikt kommer från vägning av ett faktiskt föremål. Om fälten blandas samman kan en matematisk beräkning felaktigt presenteras som ett kontrollresultat.\n\nEtt avoirdupois-pund motsvarar exakt 0,45359237 kg. Multiplicera lb med faktorn för kg och dividera kg med faktorn för lb. Behåll precisionen under beräkningen och avrunda först visningen. Exemplen här är räkneexempel; de anger inte tillverkningstolerans, lagersaldo eller uppmätta produktvikter."
+      },
+      {
+        "heading": "20 kg och 45 lb är närliggande men olika storlekar",
+        "text": "### Granska även stegen mellan vikterna\n\n45 lb motsvarar nominellt 20,41165665 kg, här visat som ungefär 20,412 kg. 20 kg motsvarar ungefär 44,092 lb. Därför är märkningen ”20 kg / 45 lb” ingen exakt likhet. Två produkter kan ligga på en liknande plats i sortimentet utan att ha samma nominella massa.\n\nEtt steg på 5 lb är cirka 2,268 kg, inte 2,5 kg. Vid kompletteringsköp bör hela serien jämföras, inklusive små mellansteg. Annars kan ett till synes enhetligt hantelsortiment få en annan progression än den som beställaren avsåg."
+      },
+      {
+        "heading": "Låt artikelnumret styra beställningen",
+        "text": "### Ange enhet på varje orderrad\n\nRegistrera modell, primär enhet, nominell vikt per styck och antal stycken eller par. Varianter i kg och lb behöver egna artikelreferenser även om finishen är densamma. En eventuell sekundär viktangivelse ska ha ett separat fält med fastställd avrundning.\n\nSom fabrik för fria vikter diskuterar vi OEM och ODM utifrån den önskade serien. Be om besked om den aktuella modellen finns i rätt nominella storlekar och om en annan massa kräver produkt- eller verktygsändringar. Möjligheten att lägga till en egen logotyp bekräftar inte att alla viktvarianter kan levereras. Modell och affärsvillkor behöver fastställas tillsammans."
+      },
+      {
+        "heading": "Dubbel märkning för ett eget varumärke",
+        "text": "### Beräkna referensvärdet från samma nominella massa\n\nVälj vilken enhet som ska vara tydligast. Beräkna den andra uppgiften och dokumentera antalet decimaler och avrundningsregeln. Byt inte ut resultatet mot en bekant storlek från en annan serie bara för att få en enklare etikett. Kontrollera decimaltecken när samma underlag används på flera marknader.\n\nGranska logotyp, hanteländar, skivornas märkning, kartongetiketter och produktblad samtidigt. Kg eller lb måste fortfarande gå att läsa när en återförsäljare beskär produktbilden. För private label behöver märkningen fortsätta att beskriva den godkända specifikationen. Kontrollera tillämpliga märkningskrav för mottagarmarknaden."
+      },
+      {
+        "heading": "Styckvikt, par och kollivikt har olika funktion",
+        "text": "Ett exempel på en tydlig orderrad är ett par hantlar med nominellt 20 kg per hantel. Det betyder två föremål, vardera 20 kg nominellt. Den sammanlagda nominella produktmassan är 40 kg, men det är inte automatiskt kartongens bruttovikt.\n\nSkriv om pris och kvantitet gäller styck eller par. För viktskivor behövs antal individuella skivor och eventuell parindelning. Packlistan ska skilja produktbeteckning, antal, nettovikt och bruttovikt. Använd uppgifter om faktisk packning och vägning för leveransen; summerade märkningar ersätter inte nödvändiga transportuppgifter."
+      },
+      {
+        "heading": "Planera skyltningen när ett gym kompletterar sitt sortiment",
+        "text": "Om den nya leveransen ska stå bredvid en annan viktserie behöver även ställets skyltning uppdateras. Markera vilken enhet varje grupp använder och låt mottagningspersonalen kontrollera att produkterna hamnar på rätt plats. Använd samma artikelreferenser i inköpslistan och inventeringen. En tydlig placering hjälper personalen att upptäcka fel serie innan utrustningen tas in i den löpande driften."
+      },
+      {
+        "heading": "Mottagningskontroll och nästa beställning",
+        "text": "Stäm av orderkod mot märkning, kartong och levererad storleksfördelning. Om vägning ingår i mottagningskontrollen ska vågens enhet dokumenteras och resultatet jämföras med avtalad nominell vikt och separat tolerans. Ett byte mellan kg och lb är inte en vanlig tillverkningsavvikelse.\n\nVid återbeställning skickar du ursprungligt artikelnummer, modell, primär enhet, storlekslista och godkänd märkningsversion. Håll lagersaldon och lagerplatser för olika serier åtskilda. Om ett gym avsiktligt blandar kg och lb behövs tydliga enheter och konsekvent beräkning. Skivhål, stång och andra fysiska gränssnitt måste dessutom passa; viktens enhet avgör inte det."
+      },
+      {
+        "heading": "Källor som hjälper till att ställa rätt frågor",
+        "text": "Omräkningen bygger på [NIST:s publikation om masskalibrering](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). I [IVANKO:s produktfrågor](https://ivankobarbell.com/pages/faqs) skiljer tillverkaren för vissa serier mellan produkter specificerade i kilogram och pundprodukter med ändrad märkning. Beskrivningen gäller den tillverkaren och visar inte hur alla fabriker arbetar.\n\nÄven [Eleikos sortiment av viktskivor](https://enterprise.eleiko.com/en/pc/weight-plates/136) skiljer mellan kg- och lb-serier. Källorna stöder kontrollen av den exakta modellen. De bekräftar inte vår fabriks lager, toleranser, priser eller anpassningsmöjligheter; dessa uppgifter ska klargöras i den aktuella förfrågan."
+      }
+    ],
+    "table": {
+      "heading": "Beräknade jämförelser inför inköp",
+      "columns": [
+        "Nominell beteckning",
+        "Omräknat värde",
+        "Vad inköparen behöver se"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Annan nominell storlek än 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Inte exakt 45 lb"
+        ],
+        [
+          "Steg på 5 lb",
+          "≈ 2,268 kg",
+          "Annan progression än 2,5 kg"
+        ],
+        [
+          "Ett par på 20 kg",
+          "Två föremål med 20 kg nominellt vardera",
+          "Separera antal och kollivikt"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Underlag för en förfrågan till fabriken",
+      "items": [
+        "Mottagarmarknad och enheten i befintligt sortiment.",
+        "Modell, artikelnummer och nominell vikt per styck.",
+        "Alla viktsteg samt kvantitet i stycken eller par.",
+        "Egen logotyp och avrundningsregel för eventuell andra enhet.",
+        "Separata krav på vägning och godtagbar tolerans.",
+        "Kartongidentifiering och referenser för framtida återköp."
+      ]
+    },
+    "faqHeading": "Vanliga frågor",
+    "faq": [
+      [
+        "Är 20 kg samma som 45 lb?",
+        "Nej. 45 lb motsvarar cirka 20,412 kg och 20 kg cirka 44,092 lb. Det är olika nominella vikter."
+      ],
+      [
+        "Kan en ny ändbricka göra en pundhantel till en kilogramhantel?",
+        "Märkningen ändrar inte massan. Bekräfta den faktiska produktspecifikationen och om tillverkningen behöver ändras."
+      ],
+      [
+        "Kan både kg och lb stå på produkten?",
+        "Ja, om båda beskriver samma nominella massa med bestämd omräkning och avrundning. Kontrollera också läsbarhet och marknadens krav."
+      ],
+      [
+        "Gäller hantelvikten per styck eller par?",
+        "Bekräfta modellens beteckningssätt. Skriv den nominella vikten per föremål och antalet stycken eller par i separata fält."
+      ],
+      [
+        "Kan gymmet använda både kilogram och pund?",
+        "Det går att planera som två tydligt identifierade serier. Beräkna laster konsekvent och kontrollera fysisk kompatibilitet separat."
+      ],
+      [
+        "Vad behövs vid återbeställning för eget varumärke?",
+        "Ursprunglig modell och artikelkod, primär enhet, nominella storlekar, mängder och godkänd märkning. Bekräfta en eventuell ersättningsserie skriftligt."
+      ]
+    ],
+    "linkHeading": "Produkter och relaterade guider",
+    "linkLabels": [
+      "Gummibelagda hexhantlar",
+      "Hantelsortiment",
+      "Vikttoleranser för skivor",
+      "Godkännande av produktprov",
+      "Vår fabrik",
+      "Diskutera specifikationen"
+    ],
+    "imageCopy": [
+      [
+        "Två omärkta hantlar med runda svarta huvuden på en ljus yta",
+        "Illustrativ uppställning: liknande utseende fastställer inte produktens viktenhet."
+      ],
+      [
+        "Två svarta omärkta viktskivor med metallinsatser",
+        "Illustrativa skivor: nominell vikt och enhet ska identifieras i artikelunderlaget."
+      ],
+      [
+        "Omärkt hexhantel bredvid en öppen tom kartong",
+        "Illustrativt förpackningskoncept där produktvikt och kollivikt behöver separata uppgifter."
+      ]
+    ],
+    "cta": [
+      "Beskriv serien du vill köpa",
+      "Skicka modell, nominella vikter, kg eller lb och antal till vår fabrik. Vi kan diskutera OEM, ODM, egen logotyp och leveranser i större volymer för ditt varumärke utifrån produktspecifikationen.",
+      "Skicka din viktlista"
+    ]
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/blog/ta-don-dia-ta-kg-lb-dat-hang-si",
+    "title": "Đặt Tạ Đơn và Đĩa Tạ Theo kg Hay lb: Hướng Dẫn Mua Sỉ",
+    "description": "Phân biệt kilogram, pound, trọng lượng danh nghĩa và số đôi khi mua tạ. Chốt dải mức tạ, nhãn hai đơn vị và mã hàng để nhập kho, đặt bổ sung đúng loại.",
+    "h1": "Chọn Đơn Vị kg Hay lb Khi Đặt Tạ Đơn và Đĩa Tạ",
+    "keyword": "tạ đơn đĩa tạ kg lb đặt hàng sỉ",
+    "home": "Trang chủ",
+    "library": "Hướng dẫn",
+    "eyebrow": "Hướng dẫn mua hàng từ nhà máy",
+    "sections": [
+      {
+        "heading": "Kiểm tra đơn vị trước khi bổ sung dàn tạ",
+        "text": "Khi phòng tập mua thêm tạ, cần kiểm tra đơn vị đang ghi trên sản phẩm và trong danh mục quản lý. Dòng kilogram và dòng pound có thể giống màu hoặc kiểu tay cầm nhưng không phải cùng thông số. Chốt đơn vị chính, mức danh nghĩa của từng chiếc và bước tăng giữa các mức trước khi duyệt báo giá.\n\nNhà nhập khẩu nên yêu cầu mã riêng cho từng dòng kg và lb. Một con số quy đổi in thêm trên nhãn không tự tạo thành phiên bản kilogram mới. Hình ảnh trong bài là bố cục minh họa sản phẩm không có nhãn và ý tưởng đóng gói, không phải mẫu đã cân kiểm tra hay bằng chứng về đơn hàng khách hàng."
+      },
+      {
+        "heading": "Tách mức danh nghĩa, giá trị quy đổi và kết quả cân",
+        "text": "Mức danh nghĩa là cỡ trọng lượng được thống nhất khi đặt sản phẩm. Giá trị quy đổi thể hiện cùng mức đó bằng đơn vị khác. Kết quả cân là số đọc khi cân một vật thực tế. Ba thông tin này cần cột riêng trong bảng đặt hàng; phép quy đổi từ danh mục không chứng minh độ chính xác của chiếc tạ nhận được.\n\nMột pound avoirdupois bằng chính xác 0,45359237 kg. Nhân số lb với hệ số này để ra kg, hoặc chia số kg cho hệ số để ra lb. Giữ đủ độ chính xác khi tính và chỉ làm tròn phần hiển thị. Các ví dụ dưới đây là phép tính, không phải số liệu thử nghiệm hoặc dung sai nhà máy cam kết."
+      },
+      {
+        "heading": "Vì sao đĩa 45 lb không phải đĩa 20 kg",
+        "text": "### Đối chiếu từng nấc trong dải tạ\n\nMức danh nghĩa 45 lb tương đương 20,41165665 kg, khoảng 20,412 kg khi làm tròn. Mức 20 kg tương đương khoảng 44,092 lb. Vì vậy, không nên duyệt dòng chữ “20 kg / 45 lb” như một đẳng thức chính xác. Hai mức có thể nằm ở vị trí gần nhau trong danh mục nhưng vẫn khác thông số.\n\nBước tăng 5 lb tương đương khoảng 2,268 kg, khác bước tăng 2,5 kg. Hãy kiểm tra cả các mức nhỏ và trung gian khi ghép đơn bổ sung. Chỉ so mức đầu và mức cuối có thể bỏ sót thay đổi trong tiến trình tải của cả dàn tạ."
+      },
+      {
+        "heading": "Mã hàng cần gắn với thông số của từng chiếc",
+        "text": "### Ghi rõ kg hoặc lb trên từng dòng đặt hàng\n\nMỗi dòng cần model, đơn vị chính, mức danh nghĩa của một chiếc và số lượng tính theo chiếc hoặc đôi. Nếu có nhãn hai đơn vị, lưu giá trị phụ và quy tắc làm tròn ở trường riêng. Không dùng một mã chung chỉ vì lớp phủ hoặc hình dáng giống nhau.\n\nLà nhà máy sản xuất tạ, chúng tôi trao đổi yêu cầu OEM và ODM dựa trên dải sản phẩm được mô tả cụ thể. Cần xác nhận model có đúng các mức yêu cầu hay phải thay đổi sản phẩm hoặc khuôn. Khả năng thêm logo riêng không đồng nghĩa mọi phiên bản kg và lb đều sẵn có. Phương án sản xuất và điều kiện thương mại được xác nhận theo model thực tế."
+      },
+      {
+        "heading": "Duyệt nhãn hai đơn vị cùng với logo thương hiệu",
+        "text": "### Số phụ phải quy đổi từ cùng mức danh nghĩa\n\nChọn đơn vị chính dễ nhận biết, tính giá trị còn lại rồi thống nhất số chữ số hiển thị và cách làm tròn. Không thay giá trị tính được bằng một mức phổ biến của dòng khác chỉ để nhãn ngắn hơn. Kiểm tra dấu thập phân trong tệp thiết kế, bảng tính và danh mục bán hàng để chúng được hiểu thống nhất.\n\nVới thương hiệu riêng, cần xem đồng thời đầu tạ, mặt đĩa, nhãn thùng và ảnh bán hàng sau khi đặt logo tùy chỉnh. Đơn vị kg hoặc lb phải còn rõ khi ảnh bị cắt. Yêu cầu ghi nhãn của thị trường nhận hàng cần được kiểm tra riêng; duyệt hình thức không thay cho duyệt thông số sản phẩm."
+      },
+      {
+        "heading": "Số đôi không được lẫn với trọng lượng mỗi chiếc",
+        "text": "Ví dụ minh họa cách viết đơn: một đôi tạ đơn danh nghĩa 20 kg gồm hai chiếc, mỗi chiếc 20 kg. Tổng danh nghĩa của sản phẩm là 40 kg. Con số này không tự động là trọng lượng cả thùng vì còn cần dữ liệu bao bì và cân của kiện thực tế.\n\nBáo giá phải nói rõ đơn giá và số lượng tính theo chiếc hay đôi. Với đĩa tạ, ghi số đĩa riêng lẻ và yêu cầu ghép đôi nếu có. Packing list cần tách mô tả hàng, số chiếc, trọng lượng tịnh và trọng lượng cả bì. Không chỉ cộng các số in trên tạ để thay cho thông tin trọng lượng cần thiết khi vận chuyển."
+      },
+      {
+        "heading": "Kiểm tra cách ghi chiếc, đôi và bộ trong bảng trao đổi",
+        "text": "Khi trao đổi tệp tiếng Việt và tiếng Anh, thống nhất «chiếc» với «piece» và «đôi» với «pair» ngay trên bảng. Từ «bộ» hoặc «set» cần kèm danh sách thành phần, không dùng làm căn cứ duy nhất để đếm hàng. Nếu nhà cung cấp xác nhận theo chiếc trong khi phòng tập yêu cầu theo đôi, kiểm tra số vật thực tế trước khi chuyển dữ liệu cho bộ phận nhập kho."
+      },
+      {
+        "heading": "Nhập kho và đặt bổ sung theo cùng một tham chiếu",
+        "text": "Đối chiếu mã trên đơn với nhãn sản phẩm, thùng và danh sách mức tạ giao đến. Nếu có thỏa thuận cân kiểm tra, ghi đơn vị của cân rồi so kết quả với mức danh nghĩa và tiêu chí dung sai riêng đã thống nhất. Sai đơn vị không nên được xử lý như một dao động sản xuất thông thường.\n\nLần mua tiếp theo cần model, mã cũ, đơn vị chính, các mức và phiên bản nhãn đã duyệt. Tách tồn kho kg và lb trong hệ thống cũng như vị trí lưu kho. Nếu chủ phòng tập chủ động dùng cả hai, phải thể hiện đơn vị rõ và tính tải nhất quán. Khả năng lắp đĩa vào thanh đòn vẫn cần kiểm tra đường kính lỗ và kích thước liên quan, không suy ra từ đơn vị trọng lượng."
+      },
+      {
+        "heading": "Tài liệu tham khảo và phạm vi áp dụng",
+        "text": "Hệ số quy đổi dựa trên [tài liệu hiệu chuẩn khối lượng của NIST](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). Trong [phần giải đáp của IVANKO](https://ivankobarbell.com/pages/faqs), nhà sản xuất phân biệt một số dòng kilogram thực sự với sản phẩm pound thay đổi nhận diện. Đây là mô tả cho các dòng của hãng, không chứng minh mọi nhà máy dùng cùng phương án khuôn.\n\n[Danh mục đĩa tạ Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) cũng phân chia dòng kg và lb. Các nguồn này giúp xác định câu hỏi cần gửi nhà cung cấp, không xác nhận tồn kho, dung sai, giá hoặc lựa chọn tùy chỉnh của chúng tôi. Những thông tin đó cần được chốt cho sản phẩm và đơn hàng cụ thể."
+      }
+    ],
+    "table": {
+      "heading": "Bảng quy đổi để rà soát đơn hàng",
+      "columns": [
+        "Mức danh nghĩa",
+        "Giá trị quy đổi",
+        "Điểm cần lưu ý"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Khác mức danh nghĩa 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Không ghi chính xác bằng 45 lb"
+        ],
+        [
+          "Bước tăng 5 lb",
+          "≈ 2,268 kg",
+          "Khác bước tăng 2,5 kg"
+        ],
+        [
+          "Một đôi 20 kg",
+          "Hai chiếc, mỗi chiếc 20 kg danh nghĩa",
+          "Tách số lượng khỏi trọng lượng kiện"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Thông tin cần gửi khi hỏi nhà máy",
+      "items": [
+        "Thị trường nhận hàng và đơn vị của dòng đang sử dụng.",
+        "Model, mã hàng và mức danh nghĩa cho từng chiếc.",
+        "Danh sách đầy đủ các mức, số lượng theo chiếc hoặc đôi.",
+        "Logo tùy chỉnh và cách làm tròn đơn vị phụ nếu có.",
+        "Yêu cầu cân kiểm tra và dung sai được mô tả riêng.",
+        "Nhãn thùng và mã tham chiếu cho lần đặt bổ sung."
+      ]
+    },
+    "faqHeading": "Câu hỏi thường gặp",
+    "faq": [
+      [
+        "Đĩa 20 kg và 45 lb có cùng trọng lượng không?",
+        "Không cùng mức danh nghĩa. 45 lb tương đương khoảng 20,412 kg, còn 20 kg tương đương khoảng 44,092 lb."
+      ],
+      [
+        "Đổi nhãn có biến tạ pound thành tạ kilogram không?",
+        "Nhãn đổi thông tin hiển thị nhưng không đổi khối lượng. Cần xác nhận thông số sản phẩm và thay đổi sản xuất nếu cần."
+      ],
+      [
+        "Có thể in cả kg và lb trên tạ không?",
+        "Có thể nếu hai số thể hiện cùng mức danh nghĩa với cách quy đổi và làm tròn thống nhất. Đồng thời kiểm tra độ rõ và yêu cầu của thị trường."
+      ],
+      [
+        "Trọng lượng ghi trên tạ là một chiếc hay một đôi?",
+        "Hãy xác nhận quy ước của model. Đơn hàng cần ghi mức danh nghĩa từng chiếc và số lượng chiếc hoặc đôi ở các trường riêng."
+      ],
+      [
+        "Phòng tập có thể dùng cả hai dòng không?",
+        "Có thể lựa chọn có chủ đích, với nhận diện đơn vị rõ và tính tải nhất quán. Khả năng lắp ghép cơ khí phải kiểm tra độc lập."
+      ],
+      [
+        "Cần gửi gì để đặt bổ sung thương hiệu riêng?",
+        "Model và mã gốc, đơn vị chính, mức danh nghĩa, số lượng và phiên bản nhãn đã duyệt. Yêu cầu xác nhận trước khi thay bằng dòng khác."
+      ]
+    ],
+    "linkHeading": "Sản phẩm và hướng dẫn liên quan",
+    "linkLabels": [
+      "Tạ đơn lục giác bọc cao su",
+      "Danh mục tạ đơn",
+      "Dung sai trọng lượng đĩa tạ",
+      "Duyệt mẫu sản phẩm",
+      "Nhà máy của chúng tôi",
+      "Trao đổi thông số"
+    ],
+    "imageCopy": [
+      [
+        "Hai tạ đơn lục giác không có nhãn cạnh thùng carton mở",
+        "Bố cục minh họa: thông số tạ và dữ liệu đóng gói cần được ghi riêng."
+      ],
+      [
+        "Hai đĩa tạ đen không ghi số với vòng kim loại ở giữa",
+        "Hình minh họa đĩa tạ; hình dáng không xác nhận mức danh nghĩa hoặc đơn vị."
+      ],
+      [
+        "Một tạ đơn lục giác không có nhãn cạnh hộp mở rỗng",
+        "Ý tưởng đóng gói minh họa, không phải bằng chứng về kiện hàng đã giao."
+      ]
+    ],
+    "cta": [
+      "Gửi dải tạ theo đơn vị bạn cần",
+      "Hãy gửi model, mức danh nghĩa, kg hoặc lb và số lượng cho nhà máy. Chúng tôi có thể trao đổi OEM, ODM, logo tùy chỉnh và cung ứng số lượng lớn cho thương hiệu riêng theo thông số được xác định.",
+      "Gửi danh sách mức tạ"
+    ]
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/blog/dumbbell-weight-plate-kg-lb-ordering",
+    "title": "덤벨·중량 원판 kg와 lb 발주 기준 및 이중 표기 가이드",
+    "description": "덤벨과 원판을 수입하거나 추가 구매할 때 kg·lb, 명목 중량·실측 중량, 낱개·한 쌍을 구분하세요. 단위별 품번과 이중 표기, 포장 명세 및 자체 브랜드 재발주 기준을 안내합니다.",
+    "h1": "덤벨과 중량 원판을 kg 또는 lb로 발주하는 방법",
+    "keyword": "덤벨 원판 kg lb 발주 기준",
+    "home": "홈",
+    "library": "구매 가이드",
+    "eyebrow": "공장 구매 실무 안내",
+    "sections": [
+      {
+        "heading": "추가 발주 전에 기존 제품의 단위를 확인하세요",
+        "text": "헬스장이나 유통사의 기존 덤벨 구성을 보충하려면 먼저 제품 표기와 관리 품번을 확인해야 합니다. 색상과 손잡이 모양이 같아도 kg 제품군과 lb 제품군의 명목 중량은 다를 수 있습니다. 주 단위, 낱개당 명목 중량, 단계별 증가 폭을 먼저 결정한 뒤 견적과 인쇄 도안을 검토하세요.\n\n보조 단위를 추가로 표시하는 일과 별도의 중량 사양을 생산하는 일은 다릅니다. 수입사는 두 제품군을 취급할 때 품번을 분리하는 편이 명확합니다. 이 글의 무표기 제품 이미지는 구성과 포장 개념을 보여 주는 설명용 이미지이며, 실측 시험이나 실제 고객 납품을 입증하지 않습니다."
+      },
+      {
+        "heading": "명목 중량과 환산값은 실측 기록이 아닙니다",
+        "text": "명목 중량은 주문에서 정한 제품 크기입니다. 환산값은 그 명목 중량을 다른 단위로 표현한 수치입니다. 실측 중량은 실제 제품을 저울에 올려 얻은 결과입니다. 발주표와 검수 기록에서 세 항목을 나누면 단순 계산값을 검사 결과로 오인하는 일을 줄일 수 있습니다.\n\n상용 파운드인 avoirdupois pound의 환산 관계는 정확히 1 lb = 0.45359237 kg입니다. lb에서 kg로 바꿀 때는 이 값을 곱하고, kg에서 lb로 바꿀 때는 나눕니다. 계산 중에는 원래 정밀도를 유지하고 표시할 때만 반올림하세요. 아래 수치는 계산 예시이며 제조 공차나 측정 성적을 뜻하지 않습니다."
+      },
+      {
+        "heading": "20 kg와 45 lb를 같은 규격으로 취급하면 안 되는 이유",
+        "text": "### 중간 단계까지 비교하기\n\n명목 45 lb는 20.41165665 kg으로, 여기서는 약 20.412 kg으로 표시합니다. 명목 20 kg는 약 44.092 lb입니다. 따라서 ‘20 kg / 45 lb’를 정확한 등식처럼 승인할 수 없습니다. 서로 다른 제품군에서 비슷한 위치를 차지하더라도 명목 질량은 같지 않습니다.\n\n증가 폭도 확인해야 합니다. 5 lb 간격은 약 2.268 kg으로 2.5 kg 간격과 다릅니다. 덤벨 세트를 보충할 때 가장 가벼운 제품과 가장 무거운 제품만 비교하지 말고, 모든 중간 중량과 작은 증가 단계를 확인하세요."
+      },
+      {
+        "heading": "품번에 주 단위와 낱개 기준을 연결하세요",
+        "text": "### 발주 행마다 규격을 완성하기\n\n각 행에 모델, 주 단위, 낱개당 명목 중량, 주문 수량의 기준을 기재하세요. 같은 마감이라도 kg와 lb 사양에는 별도 품번이 필요합니다. 보조 표시값은 다른 열에 두고 반올림 방식까지 기록합니다. ‘덤벨 20’처럼 단위가 없는 명칭만으로는 생산하거나 출고할 제품을 특정할 수 없습니다.\n\n프리웨이트 공장인 당사는 이 목록을 바탕으로 OEM 및 ODM 요구를 검토합니다. 요청한 중량군이 있는지, 다른 명목 질량에 제품이나 금형 변경이 필요한지 확인해야 합니다. 맞춤 로고를 넣을 수 있다는 사실만으로 모든 kg·lb 규격의 공급 가능성이 확인되는 것은 아닙니다."
+      },
+      {
+        "heading": "자체 브랜드 이중 표기는 계산과 가독성을 함께 검토하세요",
+        "text": "### 보조 수치는 같은 명목 중량에서 계산하기\n\n사용자가 먼저 읽어야 할 주 단위를 정하고, 같은 명목 중량에서 보조 값을 계산하세요. 표시 자릿수와 반올림 규칙을 문서로 남겨야 합니다. 다른 제품군의 익숙한 숫자로 환산값을 바꾸면 제품 사양을 잘못 전달할 수 있습니다.\n\n맞춤 로고 배치 후 덤벨 끝면, 원판 표면, 상자 라벨, 온라인 상품 사진을 함께 확인하세요. 사진을 잘라도 kg 또는 lb가 보이는지 살펴보는 것이 좋습니다. 여러 시장에서 같은 도안을 사용한다면 소수점 표기와 목적지 표시 요건도 별도로 검토하세요. 외관 승인은 중량 사양 승인과 함께 이루어져야 합니다."
+      },
+      {
+        "heading": "낱개, 한 쌍, 포장 중량을 별도 항목으로 관리하세요",
+        "text": "단순한 발주 예시로 ‘낱개당 명목 20 kg 덤벨 한 쌍’은 20 kg 제품 두 개를 뜻합니다. 제품의 명목 중량 합계는 40 kg입니다. 그러나 이 합계가 상자의 총중량을 자동으로 결정하지는 않습니다. 실제 포장재와 해당 화물의 중량 정보가 필요합니다.\n\n견적의 가격과 수량이 낱개 기준인지 한 쌍 기준인지 명시하세요. 원판도 개별 수량과 쌍 구성 요구를 나누어 적습니다. 포장 명세서에는 제품 규격, 개수, 순중량, 총중량을 분리하세요. 제품에 표시된 명목 수치를 더하는 방식만으로 필요한 운송 중량 정보를 대신하지 마세요."
+      },
+      {
+        "heading": "국문 발주표와 공급사 확인서의 수량 표현 맞추기",
+        "text": "국문 자료에 ‘세트’라고 적었다면 구성품 목록을 함께 넣으세요. 공급사 문서의 pcs, pair, set을 각각 어떤 실물 수량으로 해석하는지 합의해야 합니다. 한 쌍으로 판매하는 상품을 낱개 출고 품번으로 관리할 때에는 명목 중량을 바꾸지 말고 수량 대응 관계를 확인하세요. 국내 판매 페이지와 공장 확인서가 같은 품번을 가리키도록 관리하는 것이 핵심입니다."
+      },
+      {
+        "heading": "입고 검사와 재발주에 같은 기준을 사용하세요",
+        "text": "발주 품번을 실제 제품 표기, 상자 라벨, 납품된 중량 구성과 대조하세요. 계량 검수가 합의되어 있다면 저울 단위를 기록하고, 측정 결과를 명목 사양 및 별도로 합의한 공차와 비교합니다. kg와 lb를 잘못 공급한 문제를 일반적인 제조 편차로 처리해서는 안 됩니다.\n\n재발주에는 원래 품번, 모델, 주 단위, 중량 목록, 승인한 표시 도안의 버전을 첨부하세요. 창고 위치와 재고 시스템에서도 kg·lb 제품군을 구분합니다. 두 제품군을 함께 쓰기로 했다면 단위를 분명하게 표시하고 일관되게 환산하세요. 바와 원판 구멍의 물리적 호환성은 중량 단위와 별개로 확인해야 합니다."
+      },
+      {
+        "heading": "확인한 자료와 제조사 사례의 범위",
+        "text": "환산 계수는 [NIST 질량 교정 자료](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf)를 따릅니다. [IVANKO 제품 FAQ](https://ivankobarbell.com/pages/faqs)는 일부 제품군에서 실제 kg 사양과 lb 제품의 표기 변경을 구분합니다. 해당 제조사의 설명이며 모든 공장의 금형 방식에 적용되는 증거는 아닙니다.\n\n[Eleiko 원판 카탈로그](https://enterprise.eleiko.com/en/pc/weight-plates/136)도 kg와 lb 제품군을 구분합니다. 이 자료는 정확한 모델을 확인해야 하는 이유를 보여 줍니다. 당사의 재고, 공차, 가격이나 맞춤 제작 범위를 증명하는 자료는 아니므로 실제 문의 제품에 대해 별도로 확인해야 합니다."
+      }
+    ],
+    "table": {
+      "heading": "발주 검토용 환산 예시",
+      "columns": [
+        "명목 규격",
+        "환산 참고값",
+        "구매 시 확인점"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "약 20.412 kg",
+          "20 kg와 다른 명목 규격"
+        ],
+        [
+          "20 kg",
+          "약 44.092 lb",
+          "정확히 45 lb로 표기하지 않기"
+        ],
+        [
+          "5 lb 증가",
+          "약 2.268 kg",
+          "2.5 kg 단계와 다른 간격"
+        ],
+        [
+          "20 kg 덤벨 한 쌍",
+          "각 20 kg 명목 제품 두 개",
+          "제품 개수와 포장 중량 구분"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "공장 문의에 포함할 항목",
+      "items": [
+        "납품 시장과 기존 제품군에서 사용하는 단위.",
+        "모델 및 품번별 낱개 명목 중량과 주 단위.",
+        "전체 중량 단계와 낱개 또는 쌍 기준 수량.",
+        "맞춤 로고 도안과 보조 단위 반올림 규칙.",
+        "계량 검사 방법과 공차 요구의 구분.",
+        "상자 식별 정보 및 향후 재발주 참조 번호."
+      ]
+    },
+    "faqHeading": "자주 묻는 질문",
+    "faq": [
+      [
+        "20 kg와 45 lb 원판은 같은 중량인가요?",
+        "명목 중량이 다릅니다. 45 lb는 약 20.412 kg이고, 20 kg는 약 44.092 lb입니다."
+      ],
+      [
+        "lb 덤벨의 배지만 바꾸면 kg 제품이 되나요?",
+        "배지는 표시를 바꾸지만 질량을 바꾸지 않습니다. 실제 제품 사양과 필요한 생산 변경을 확인해야 합니다."
+      ],
+      [
+        "kg와 lb를 함께 표시할 수 있나요?",
+        "동일한 명목 질량을 정해진 환산 및 반올림 방식으로 나타낸다면 가능합니다. 가독성과 목적지 요건도 검토하세요."
+      ],
+      [
+        "덤벨 표시는 낱개 기준인가요, 한 쌍 기준인가요?",
+        "모델의 표시 관행을 확인하세요. 주문서에서는 낱개당 명목 중량과 낱개 또는 쌍 기준 수량을 분리해 적습니다."
+      ],
+      [
+        "헬스장에서 두 단위를 함께 사용해도 되나요?",
+        "의도적으로 제품군을 구분하고 명확하게 표시할 수 있습니다. 일관되게 환산하고 물리적 호환성은 따로 확인하세요."
+      ],
+      [
+        "자체 브랜드 재주문에 필요한 자료는 무엇인가요?",
+        "원래 모델과 품번, 주 단위, 명목 중량 목록, 수량 및 승인 도안 버전입니다. 다른 제품군으로 대체하기 전에 확인을 받으세요."
+      ]
+    ],
+    "linkHeading": "관련 제품과 구매 자료",
+    "linkLabels": [
+      "고무 육각 덤벨",
+      "덤벨 제품군",
+      "중량 원판 공차 안내",
+      "제품 샘플 승인",
+      "공장 소개",
+      "사양 문의"
+    ],
+    "imageCopy": [
+      [
+        "표기가 없는 육각 덤벨 한 개와 열린 빈 상자",
+        "포장 개념을 설명하는 이미지로 제품의 실측 중량이나 납품 사실을 나타내지 않습니다."
+      ],
+      [
+        "중앙에 금속 삽입부가 있는 무표기 검은 원판 두 개",
+        "원판 설명용 이미지이며 명목 중량과 단위는 별도 사양으로 확인해야 합니다."
+      ],
+      [
+        "크기가 다른 무표기 육각 덤벨 두 개가 놓인 모습",
+        "제품 구성 예시이며 외관만으로 kg와 lb 사양을 구분할 수 없습니다."
+      ]
+    ],
+    "cta": [
+      "필요한 단위와 중량 구성을 알려 주세요",
+      "모델, 명목 중량, kg 또는 lb, 수량 기준을 공장으로 보내 주세요. 정해진 제품 사양을 바탕으로 OEM, ODM, 맞춤 로고와 자체 브랜드 대량 공급을 검토할 수 있습니다.",
+      "중량 사양 보내기"
+    ]
+  },
+  {
+    "locale": "id",
+    "path": "/id/blog/dumbbell-plate-kg-lb-pesanan-grosir",
+    "title": "Dumbbell dan Weight Plate kg atau lb: Panduan Pesanan Grosir",
+    "description": "Tetapkan kilogram atau pound sebelum memesan dumbbell dan plate. Bedakan bobot nominal, label dua satuan, jumlah pasang, data kemasan dan pesanan ulang.",
+    "h1": "Memesan Dumbbell dan Weight Plate dalam kg atau lb",
+    "keyword": "dumbbell weight plate kg lb pesanan grosir",
+    "home": "Beranda",
+    "library": "Panduan",
+    "eyebrow": "Panduan pembelian dari pabrik",
+    "sections": [
+      {
+        "heading": "Jangan menentukan satuan hanya dari tampilan produk",
+        "text": "Saat distributor atau pemilik gym melengkapi koleksi beban, periksa label dan kode produk yang sudah digunakan. Seri kilogram dan pound dapat memiliki warna atau pegangan yang mirip, tetapi spesifikasi nominalnya berbeda. Tetapkan satuan utama, bobot nominal tiap benda dan kenaikan antartingkat sebelum menyetujui penawaran.\n\nAngka konversi tambahan pada label tidak otomatis membuat produk pound menjadi varian kilogram tersendiri. Pisahkan referensi barang bila kedua seri dijual bersamaan. Gambar produk tanpa tulisan dalam panduan ini merupakan ilustrasi susunan dan konsep kemasan, bukan hasil penimbangan, bukti pesanan pelanggan atau dokumentasi pengujian pabrik."
+      },
+      {
+        "heading": "Pisahkan bobot nominal, konversi dan hasil timbang",
+        "text": "Bobot nominal adalah ukuran produk yang disepakati dalam pesanan. Nilai konversi menyatakan bobot nominal yang sama dengan satuan lain. Hasil timbang berasal dari pengukuran benda yang benar-benar diperiksa. Ketiganya memerlukan kolom terpisah agar hitungan katalog tidak dianggap sebagai bukti ketepatan produk.\n\nSatu pound avoirdupois sama dengan tepat 0,45359237 kg. Kalikan lb dengan faktor tersebut untuk memperoleh kg; bagi kg dengan faktor yang sama untuk memperoleh lb. Pertahankan ketelitian perhitungan dan bulatkan hanya angka tampilan. Contoh di bawah adalah perhitungan, bukan laporan pengujian atau janji toleransi produksi."
+      },
+      {
+        "heading": "Mengapa plate 45 lb bukan plate nominal 20 kg",
+        "text": "### Bandingkan seluruh tingkat beban\n\nNominal 45 lb setara dengan 20,41165665 kg, ditampilkan di sini sebagai sekitar 20,412 kg. Nominal 20 kg setara dengan sekitar 44,092 lb. Karena itu, tulisan “20 kg / 45 lb” tidak boleh disetujui sebagai kesetaraan tepat. Posisi yang mirip dalam dua katalog tidak membuat massa nominalnya sama.\n\nKenaikan 5 lb juga hanya sekitar 2,268 kg, berbeda dari kenaikan 2,5 kg. Saat membeli tambahan dumbbell, cocokkan tingkat kecil dan menengah, bukan hanya ukuran teringan dan terberat. Dengan demikian, seri pengganti tidak mengubah urutan beban tanpa diketahui pembeli."
+      },
+      {
+        "heading": "Buat setiap baris pesanan menunjuk barang yang jelas",
+        "text": "### Hubungkan kode barang dengan satuan utama\n\nCantumkan model, satuan utama, bobot nominal per buah dan jumlah dalam buah atau pasang. Gunakan kode berbeda untuk varian kg dan lb walaupun lapisan luarnya sama. Jika ada satuan kedua pada label, tempatkan nilai tersebut dalam kolom khusus beserta aturan pembulatannya.\n\nSebagai pabrik beban bebas, kami membahas kebutuhan OEM dan ODM berdasarkan daftar ini. Tanyakan apakah model tersedia dalam ukuran nominal yang diminta dan apakah perubahan massa membutuhkan perubahan produk atau cetakan. Kemampuan menambahkan logo khusus tidak berarti semua seri kg dan lb tersedia. Konfigurasi serta ketentuan komersial perlu dikonfirmasi untuk produk yang dipilih."
+      },
+      {
+        "heading": "Periksa label dua satuan bersama desain merek sendiri",
+        "text": "### Angka kedua harus berasal dari massa nominal yang sama\n\nPilih satuan utama yang mudah dibaca. Hitung nilai kedua, lalu dokumentasikan jumlah angka desimal dan cara pembulatannya. Jangan menggantinya dengan ukuran populer dari seri lain hanya untuk menyederhanakan desain. Perhatikan penggunaan koma atau titik desimal pada berkas yang dipakai lintas pasar.\n\nTinjau ujung dumbbell, muka plate, label karton dan halaman katalog setelah logo khusus ditempatkan. Tulisan kg atau lb harus tetap terlihat ketika foto dipotong oleh penjual. Dalam proyek merek sendiri, perubahan tampilan harus tetap mempertahankan identitas spesifikasi. Periksa ketentuan pelabelan yang berlaku di tujuan pengiriman secara terpisah."
+      },
+      {
+        "heading": "Jumlah pasang berbeda dari bobot tiap buah dan karton",
+        "text": "Sebagai contoh penulisan pesanan, satu pasang dumbbell nominal 20 kg terdiri dari dua buah, masing-masing 20 kg nominal. Jumlah massa nominal produk adalah 40 kg. Itu bukan otomatis bobot kotor karton karena data kemasan dan penimbangan kiriman masih diperlukan.\n\nNyatakan apakah harga serta jumlah dihitung per buah atau per pasang. Untuk plate, tuliskan jumlah keping dan kebutuhan pemasangan berpasangan bila ada. Daftar kemasan perlu memisahkan identitas barang, jumlah, bobot bersih dan bobot kotor. Jangan hanya menjumlahkan angka pada produk untuk menggantikan informasi massa yang dibutuhkan dalam pengiriman."
+      },
+      {
+        "heading": "Jelaskan isi set sebelum dipindahkan ke katalog penjual",
+        "text": "Istilah set tidak cukup untuk menentukan jumlah fisik. Jika penawaran memakai pcs sedangkan toko menjual per pasang, cocokkan jumlah benda dan isi paket secara tertulis. Untuk paket campuran, lampirkan daftar ukuran beserta jumlah tiap ukuran. Jangan mengubah nilai bobot nominal hanya karena dasar penjualan berubah dari buah menjadi pasangan; yang berubah adalah jumlah barang dalam penawaran."
+      },
+      {
+        "heading": "Gunakan referensi yang sama saat penerimaan dan pembelian ulang",
+        "text": "Cocokkan kode pesanan dengan label produk, karton dan susunan ukuran yang diterima. Jika penimbangan termasuk pemeriksaan yang disepakati, catat satuan timbangan lalu bandingkan hasil dengan spesifikasi nominal serta toleransi yang ditetapkan secara terpisah. Kesalahan kg dan lb tidak semestinya dianggap sebagai variasi produksi biasa.\n\nUntuk pemesanan ulang, kirim kode asli, model, satuan utama, daftar ukuran dan versi label yang disetujui. Pisahkan stok kg dan lb dalam sistem dan lokasi gudang. Bila gym sengaja menggunakan keduanya, identifikasi satuan dengan jelas dan hitung beban secara konsisten. Kecocokan lubang plate dengan bar tetap harus diperiksa sendiri, tidak dapat ditentukan dari satuan bobot."
+      },
+      {
+        "heading": "Rujukan untuk mengonfirmasi model kepada pemasok",
+        "text": "Faktor konversi mengikuti [publikasi kalibrasi massa NIST](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). Dalam [FAQ produk IVANKO](https://ivankobarbell.com/pages/faqs), produsen membedakan beberapa seri yang benar-benar dibuat menurut spesifikasi kilogram dari produk pound dengan penandaan berbeda. Penjelasan tersebut berlaku untuk lini yang disebutkan, bukan bukti bahwa semua pabrik menggunakan cetakan yang sama.\n\n[Katalog plate Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) juga membedakan seri kg dan lb. Rujukan ini mendukung pemeriksaan model yang tepat, tetapi tidak membuktikan stok, harga, toleransi atau opsi penyesuaian pabrik kami. Konfirmasikan hal-hal itu sesuai barang yang hendak dipesan."
+      }
+    ],
+    "table": {
+      "heading": "Perbandingan hasil hitung untuk meninjau pesanan",
+      "columns": [
+        "Penetapan nominal",
+        "Nilai konversi",
+        "Implikasi pembelian"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Bukan ukuran nominal 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Tidak sama persis dengan 45 lb"
+        ],
+        [
+          "Kenaikan 5 lb",
+          "≈ 2,268 kg",
+          "Berbeda dari tingkat 2,5 kg"
+        ],
+        [
+          "Satu pasang 20 kg",
+          "Dua buah, masing-masing 20 kg nominal",
+          "Pisahkan jumlah dan bobot karton"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Informasi untuk permintaan kepada pabrik",
+      "items": [
+        "Pasar tujuan dan satuan pada seri yang sudah digunakan.",
+        "Model, kode barang dan bobot nominal setiap buah.",
+        "Daftar seluruh tingkat beban dengan jumlah buah atau pasang.",
+        "Desain logo dan aturan pembulatan satuan kedua.",
+        "Persyaratan penimbangan dan toleransi yang dipisahkan.",
+        "Identitas karton dan kode referensi untuk pesanan berikutnya."
+      ]
+    },
+    "faqHeading": "Pertanyaan umum",
+    "faq": [
+      [
+        "Apakah plate 20 kg sama dengan 45 lb?",
+        "Tidak secara nominal. 45 lb setara sekitar 20,412 kg, sedangkan 20 kg setara sekitar 44,092 lb."
+      ],
+      [
+        "Apakah mengganti label cukup untuk mengubah lb menjadi kg?",
+        "Label mengubah informasi, bukan massa. Konfirmasikan spesifikasi produk dan perubahan produksi yang diperlukan."
+      ],
+      [
+        "Bisakah kg dan lb ditampilkan bersamaan?",
+        "Bisa jika keduanya mewakili massa nominal yang sama dengan konversi dan pembulatan yang ditetapkan. Periksa keterbacaan dan ketentuan pasar tujuan."
+      ],
+      [
+        "Bobot dumbbell berlaku untuk satu buah atau sepasang?",
+        "Konfirmasikan penamaan model. Di pesanan, pisahkan bobot nominal per buah dari jumlah barang dalam buah atau pasang."
+      ],
+      [
+        "Bolehkah gym mencampur seri kg dan lb?",
+        "Keduanya dapat dikelola secara sengaja dengan identifikasi jelas dan perhitungan konsisten. Kesesuaian fisik bar dan plate perlu diperiksa terpisah."
+      ],
+      [
+        "Apa yang dibutuhkan untuk mengulang pesanan merek sendiri?",
+        "Model dan kode asli, satuan utama, ukuran nominal, jumlah serta versi label yang disetujui. Minta konfirmasi sebelum menerima seri pengganti."
+      ]
+    ],
+    "linkHeading": "Produk dan panduan terkait",
+    "linkLabels": [
+      "Dumbbell hex berlapis karet",
+      "Pilihan dumbbell",
+      "Toleransi bobot plate",
+      "Persetujuan sampel produk",
+      "Pabrik kami",
+      "Diskusikan spesifikasi"
+    ],
+    "imageCopy": [
+      [
+        "Dua plate hitam dan satu dumbbell hex tanpa penandaan",
+        "Susunan ilustratif: satuan dan bobot nominal harus diidentifikasi melalui spesifikasi barang."
+      ],
+      [
+        "Dua weight plate hitam tanpa tulisan dengan sisipan logam tengah",
+        "Ilustrasi plate yang tidak menyatakan bobot terukur atau unit produk tertentu."
+      ],
+      [
+        "Dumbbell hex tanpa label di samping karton terbuka kosong",
+        "Konsep kemasan ilustratif untuk membedakan bobot produk dan bobot kiriman."
+      ]
+    ],
+    "cta": [
+      "Tentukan seri kilogram atau pound Anda",
+      "Kirim model, ukuran nominal, kg atau lb dan jumlah kepada pabrik kami. Kami dapat membahas OEM, ODM, logo khusus serta pasokan grosir untuk merek sendiri berdasarkan spesifikasi yang jelas.",
+      "Kirim daftar beban"
+    ]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/manubri-dischi-kg-lb-ordini-ingrosso",
+    "title": "Manubri e Dischi in kg o lb: Specifiche per Ordini all’Ingrosso",
+    "description": "Definisci chilogrammi, libbre e quantità per coppia negli acquisti di manubri e dischi. Controlla peso nominale, doppia marcatura e riferimenti di riordino.",
+    "h1": "Ordinare Manubri e Dischi in Chilogrammi o Libbre",
+    "keyword": "manubri dischi kg lb ordine ingrosso",
+    "home": "Home",
+    "library": "Guide",
+    "eyebrow": "Guida agli acquisti dalla fabbrica",
+    "sections": [
+      {
+        "heading": "La scheda articolo deve identificare la serie",
+        "text": "Una palestra che integra la propria dotazione ha bisogno di continuità nei pesi e negli intervalli. Prima del preventivo, rileva l’unità della serie esistente e il peso nominale di ogni pezzo. Un’impugnatura simile o lo stesso rivestimento non rendono intercambiabili una gamma in chilogrammi e una in libbre.\n\nIl distributore dovrebbe mantenere codici distinti anche quando presenta le due serie nella stessa famiglia commerciale. Una cifra convertita sulla targhetta non crea una nuova specifica di massa. Le immagini senza marcatura di questa guida sono composizioni illustrative, non prove di pesatura, collaudi o progetti realizzati per clienti."
+      },
+      {
+        "heading": "Tre valori diversi da registrare senza sovrapporli",
+        "text": "Il peso nominale è la taglia concordata del prodotto. Il valore convertito esprime la medesima massa nominale con un’altra unità. Il peso misurato deriva dalla pesatura di un oggetto concreto. Tenerli in colonne separate evita che una conversione del catalogo venga scambiata per il risultato di un controllo.\n\nUna libbra avoirdupois equivale esattamente a 0,45359237 kg. Moltiplica le lb per il fattore per ottenere kg e dividi i kg per lo stesso fattore per ottenere lb. Mantieni la precisione del calcolo e arrotonda soltanto la visualizzazione. Gli esempi seguenti non indicano tolleranze produttive o prestazioni verificate."
+      },
+      {
+        "heading": "Perché 20 kg non sono esattamente 45 lb",
+        "text": "### Verifica la progressione, non soltanto gli estremi\n\n45 lb nominali corrispondono a 20,41165665 kg, qui arrotondati a circa 20,412 kg. 20 kg nominali corrispondono a circa 44,092 lb. La scritta «20 kg / 45 lb» non deve quindi essere approvata come equivalenza esatta. La vicinanza delle taglie non annulla la differenza.\n\nAnche un incremento di 5 lb, pari a circa 2,268 kg, differisce da un incremento di 2,5 kg. Nel completamento di una rastrelliera, confronta tutti i livelli intermedi. Una serie visivamente uniforme potrebbe altrimenti modificare la progressione prevista dal responsabile della palestra."
+      },
+      {
+        "heading": "Preparare il listino per pezzo e per coppia",
+        "text": "### Unità di massa e unità di vendita in campi distinti\n\nUn listino può riportare il prezzo per coppia mentre il prodotto mostra il peso di un solo manubrio. Inserisci modello, unità principale, peso nominale del singolo pezzo e base della quantità in ogni riga. Mantieni l’eventuale conversione secondaria in un campo separato, con la regola di arrotondamento.\n\nCome fabbrica di pesi liberi, discutiamo progetti OEM e ODM partendo da queste informazioni. Chiedi conferma della serie disponibile e delle modifiche eventualmente necessarie per un’altra massa nominale. Un logo personalizzato non dimostra che ogni variante in kg o lb sia già realizzabile: prodotto, attrezzaggio e condizioni commerciali vanno confermati per il modello scelto."
+      },
+      {
+        "heading": "Approvare la doppia marcatura per il marchio proprio",
+        "text": "### Calcolare il secondo numero dalla stessa massa\n\nScegli un’unità principale leggibile, poi calcola la seconda indicazione e documenta precisione e arrotondamento. Non sostituire il risultato con una taglia diffusa in un’altra serie per semplificare la grafica. Controlla la virgola decimale nel listino italiano e l’interpretazione dello stesso dato nei file scambiati con la fabbrica.\n\nRivedi insieme estremità dei manubri, facce dei dischi, etichette dei cartoni e immagini di vendita. Il logo del marchio proprio deve lasciare visibili kg o lb anche nelle fotografie ritagliate. Verifica le prescrizioni di etichettatura del mercato di destinazione. La revisione grafica deve accompagnare la conferma della specifica, non sostituirla."
+      },
+      {
+        "heading": "Il peso della coppia non è il peso lordo del collo",
+        "text": "Un esempio di descrizione: una coppia di manubri da 20 kg nominali contiene due pezzi, ciascuno da 20 kg. La somma nominale dei prodotti è 40 kg. Non è automaticamente il peso lordo del cartone, perché servono i dati dell’imballaggio e della pesatura effettiva della spedizione.\n\nPer i dischi, indica il numero di pezzi e l’eventuale abbinamento in coppie. Nel packing list separa identificazione del prodotto, conteggio, peso netto e peso lordo. La somma dei numeri stampati sulle attrezzature non sostituisce i dati richiesti per il trasporto. Controlla inoltre che ordine e conferma usino la medesima base commerciale."
+      },
+      {
+        "heading": "Allineare il listino del rivenditore alla conferma d’ordine",
+        "text": "Se la conferma della fabbrica conta pezzi e il listino italiano vende coppie, verifica la corrispondenza del numero fisico di manubri. Il termine «set» richiede un elenco dei componenti. Mantieni il peso nominale del singolo oggetto invariato quando cambi la base commerciale. In questo modo magazzino, preventivo e scheda del marchio proprio fanno riferimento allo stesso prodotto."
+      },
+      {
+        "heading": "Ricezione e riordino senza sostituzioni implicite",
+        "text": "Confronta codice ordinato, marcatura del pezzo, etichetta del cartone e composizione consegnata. Se la pesatura è prevista dal controllo concordato, registra l’unità della bilancia e valuta il risultato rispetto al peso nominale e alla tolleranza stabilita separatamente. Un errore tra kg e lb non è una normale variazione produttiva.\n\nPer il riordino conserva modello, codice originale, unità principale, elenco delle taglie e revisione grafica approvata. Separa gli stock nel gestionale e nel magazzino. Una palestra può scegliere consapevolmente di gestire entrambe le serie, purché le unità siano chiare e i calcoli coerenti. La compatibilità tra foro del disco e bilanciere deve essere verificata indipendentemente."
+      },
+      {
+        "heading": "Fonti per verificare la specifica del produttore",
+        "text": "Il fattore di conversione deriva dalla [pubblicazione NIST sulla taratura delle masse](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). Le [domande frequenti IVANKO](https://ivankobarbell.com/pages/faqs) distinguono, per alcune famiglie, prodotti effettivamente definiti in chilogrammi da prodotti in libbre con identificazione modificata. Questa spiegazione riguarda quelle linee e non descrive necessariamente tutti i sistemi produttivi.\n\nAnche il [catalogo dischi Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) distingue serie kg e lb. Le fonti sostengono la necessità di controllare il modello, senza provare disponibilità, prezzi, tolleranze o personalizzazioni della nostra fabbrica. Questi aspetti richiedono conferma per la richiesta specifica."
+      }
+    ],
+    "table": {
+      "heading": "Conversioni per controllare il preventivo",
+      "columns": [
+        "Indicazione nominale",
+        "Valore convertito",
+        "Conseguenza per l’acquisto"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Taglia nominale diversa da 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Non indicare esattamente 45 lb"
+        ],
+        [
+          "Incremento di 5 lb",
+          "≈ 2,268 kg",
+          "Progressione diversa da 2,5 kg"
+        ],
+        [
+          "Una coppia da 20 kg",
+          "Due pezzi da 20 kg nominali ciascuno",
+          "Distinguere quantità e peso del collo"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dati da inviare alla fabbrica",
+      "items": [
+        "Destinazione e unità della serie da completare.",
+        "Modello, codice e peso nominale per singolo pezzo.",
+        "Tutte le taglie con quantità per pezzo o coppia.",
+        "Logo e regola di arrotondamento della seconda unità.",
+        "Requisiti separati di pesatura e tolleranza.",
+        "Identificazione del cartone e riferimenti di riordino."
+      ]
+    },
+    "faqHeading": "Domande frequenti",
+    "faq": [
+      [
+        "20 kg e 45 lb indicano lo stesso peso?",
+        "No. 45 lb equivalgono a circa 20,412 kg e 20 kg a circa 44,092 lb; sono masse nominali diverse."
+      ],
+      [
+        "Una targhetta nuova trasforma una serie lb in kg?",
+        "La targhetta cambia l’informazione, non la massa. Conferma la specifica reale e le eventuali modifiche produttive."
+      ],
+      [
+        "Si possono mostrare entrambe le unità?",
+        "Sì, se rappresentano la stessa massa nominale con conversione e arrotondamento definiti. Controlla leggibilità e requisiti del mercato."
+      ],
+      [
+        "Il peso del manubrio vale per una coppia?",
+        "Verifica la convenzione del modello. Nell’ordine separa il peso nominale del singolo pezzo dalla quantità in pezzi o coppie."
+      ],
+      [
+        "Si possono usare le due serie nella stessa palestra?",
+        "È possibile organizzarle consapevolmente con unità visibili e calcoli coerenti. La compatibilità meccanica va controllata a parte."
+      ],
+      [
+        "Cosa serve per riordinare una linea a marchio proprio?",
+        "Modello e codice originali, unità principale, taglie, quantità e versione della marcatura approvata. Conferma prima qualsiasi serie sostitutiva."
+      ]
+    ],
+    "linkHeading": "Prodotti e guide collegati",
+    "linkLabels": [
+      "Manubri esagonali in gomma",
+      "Gamma di manubri",
+      "Tolleranze dei dischi",
+      "Approvazione dei campioni",
+      "La nostra fabbrica",
+      "Definire una specifica"
+    ],
+    "imageCopy": [
+      [
+        "Due dischi neri senza marcatura appoggiati a un supporto neutro",
+        "Composizione illustrativa: l’aspetto non definisce l’unità o il peso nominale."
+      ],
+      [
+        "Due dischi neri senza scritte con inserti centrali metallici",
+        "Illustrazione di prodotto, senza indicazioni di pesatura o specifiche verificate."
+      ],
+      [
+        "Manubrio esagonale senza marcatura accanto a un cartone aperto vuoto",
+        "Concetto illustrativo di imballaggio: peso del prodotto e del collo sono dati separati."
+      ]
+    ],
+    "cta": [
+      "Definisci la tua serie in kg o lb",
+      "Invia modelli, pesi nominali, unità e quantità alla nostra fabbrica. Possiamo discutere OEM, ODM, logo personalizzato e fornitura all’ingrosso per marchio proprio sulla base della specifica richiesta.",
+      "Inviare l’elenco dei pesi"
+    ]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/dumbbells-halterschijven-kg-lb-inkoop",
+    "title": "Dumbbells en Halterschijven in kg of lb Inkopen",
+    "description": "Voorkom verwarring tussen kilogram, pond en paren. Leg nominale gewichten, dubbele markering, artikelnummers en nabestellingen vast voor jouw assortiment.",
+    "h1": "Dumbbells en Halterschijven Bestellen in kg of lb",
+    "keyword": "dumbbells halterschijven kg lb inkopen",
+    "home": "Home",
+    "library": "Inkoopgidsen",
+    "eyebrow": "Inkoopinformatie van de fabriek",
+    "sections": [
+      {
+        "heading": "Maak de eenheid onderdeel van het artikelnummer",
+        "text": "Voor een importeur met meerdere afzetmarkten is één productfoto onvoldoende om de juiste uitvoering vast te leggen. Bepaal de primaire eenheid, het nominale gewicht per voorwerp en de stappen tussen maten. Houd kilogram- en poundseries apart in het assortiment, ook als de kopvorm en afwerking overeenkomen.\n\nGebruik in internationale stukken de ondubbelzinnige aanduiding lb voor het avoirdupois-pound. Het [Nederlandse woord pond](https://www.woorden.org/woord/pond) kan ook als 500 gram worden begrepen en is daarom ongeschikt als enige identificatie van een lb-product. De ongemarkeerde beelden in deze gids zijn illustraties, geen gewogen monsters of gedocumenteerde klantleveringen."
+      },
+      {
+        "heading": "Nominaal gewicht is iets anders dan een meetwaarde",
+        "text": "Het nominale gewicht is de afgesproken productmaat. De omgerekende waarde beschrijft diezelfde nominale massa in een andere eenheid. Het gemeten gewicht volgt uit het wegen van een werkelijk voorwerp. Leg deze gegevens in aparte velden vast, zodat een rekensom uit een catalogus geen meetrapport lijkt.\n\nVoor het avoirdupois-pound geldt exact 1 lb = 0,45359237 kg. Vermenigvuldig lb met deze factor voor kg en deel kg door dezelfde factor voor lb. Bewaar de volledige rekenprecisie en rond alleen de getoonde waarde af. De voorbeelden hieronder zijn berekeningen en stellen geen productietoleranties of gemeten levergewichten vast."
+      },
+      {
+        "heading": "Waarom een schijf van 45 lb geen schijf van 20 kg is",
+        "text": "### Kijk naar iedere stap in de serie\n\nNominaal 45 lb is 20,41165665 kg, hier afgerond weergegeven als ongeveer 20,412 kg. Nominaal 20 kg is ongeveer 44,092 lb. De aanduiding ‘20 kg / 45 lb’ is dus geen exacte gelijkheid. Twee maten kunnen een vergelijkbare plek in verschillende series innemen zonder dezelfde nominale massa te hebben.\n\nEen stap van 5 lb is ongeveer 2,268 kg en wijkt af van 2,5 kg. Controleer bij aanvulling van een dumbbellrek ook kleine tussenmaten. Alleen de lichtste en zwaarste uitvoering vergelijken kan een afwijkende opbouw van het assortiment verbergen."
+      },
+      {
+        "heading": "Schrijf een orderregel die magazijn en fabriek hetzelfde lezen",
+        "text": "### Vermeld gewicht én telbasis\n\nGeef per artikel het model, de primaire eenheid, het nominale gewicht van één stuk en de hoeveelheid in stuks of paren op. Bewaar een secundaire displaywaarde apart, met de gekozen afrondingsregel. Een omschrijving als ‘dumbbell 20’ mist zowel de eenheid als een duidelijke referentie.\n\nAls fabriek voor vrije gewichten bespreken we OEM- en ODM-specificaties op basis van de gevraagde reeks. Laat bevestigen of het model in die nominale gewichten beschikbaar is en of een andere massa wijzigingen aan product of gereedschap vraagt. Een eigen logo kunnen aanbrengen betekent niet dat iedere kg- en lb-variant beschikbaar is. Bevestig uitvoering en voorwaarden per model."
+      },
+      {
+        "heading": "Een dubbele markering voor een eigen merk goedkeuren",
+        "text": "### Laat beide getallen dezelfde massa beschrijven\n\nKies een goed leesbare hoofdeenheid. Bereken de tweede waarde daaruit en leg het aantal decimalen en de afrondingswijze vast. Gebruik geen bekende maat uit een andere serie als vervanging voor de berekening. Controleer de decimale komma in Nederlandse productgegevens en de interpretatie daarvan in bestanden voor de leverancier.\n\nBekijk dumbbelluiteinden, schijfmarkering, doosetiketten en verkoopfoto’s gezamenlijk nadat het aangepaste logo is geplaatst. De eenheid moet ook bij een uitgesneden foto herkenbaar blijven. Voor private label hoort de markering bij de goedgekeurde productspecificatie. Controleer toepasselijke etiketteringsvereisten voor het land van bestemming."
+      },
+      {
+        "heading": "Een paar en een verzenddoos hebben verschillende gegevens",
+        "text": "Als rekenvoorbeeld bevat één paar dumbbells van nominaal 20 kg twee voorwerpen, elk nominaal 20 kg. De gezamenlijke nominale productmassa is 40 kg. Daarmee staat het brutogewicht van de doos nog niet vast: daarvoor zijn de verpakking en gegevens van de feitelijke zending nodig.\n\nMaak duidelijk of prijs en aantal per stuk of per paar gelden. Noteer bij halterschijven het aantal losse schijven en een eventuele eis tot paarvorming. Houd op de paklijst productidentificatie, stuks, nettomassa en brutomassa gescheiden. Het optellen van productmarkeringen vervangt niet de benodigde weeg- en verpakkingsgegevens voor vervoer."
+      },
+      {
+        "heading": "Controleer de eenheid ook bij een doorgestuurde offerte",
+        "text": "Wanneer een dealer een leveranciersofferte omzet naar een eigen prijslijst, kan de oorspronkelijke eenheid uit een kolomkop verdwijnen. Zet kg of lb daarom bij iedere nominale waarde en behoud de koppeling naar het fabrieksartikel. Beschrijf een set met een onderdelenlijst. Zo blijven de massa per voorwerp en de inhoud van het verkochte pakket herkenbaar na bewerking van het document."
+      },
+      {
+        "heading": "Controleer de levering en borg de nabestelling",
+        "text": "Vergelijk de bestelde code met de markering op het product, het doosetiket en de ontvangen maten. Als wegen onderdeel is van de afgesproken controle, noteer dan de eenheid van de weegschaal. Vergelijk de uitkomst met het nominale gewicht en de afzonderlijk afgesproken tolerantie. Een verwisselde eenheid is geen gebruikelijke productieafwijking.\n\nStuur bij nabestelling de oorspronkelijke code, het model, de primaire eenheid, matenlijst en goedgekeurde versie van de markering mee. Scheid kg- en lb-voorraad in het systeem en in de opslag. Een sportschool die beide bewust combineert heeft zichtbare eenheden en consistente berekeningen nodig. Controleer passing van schijfgat en stang los daarvan; de gewichtseenheid bewijst geen fysieke compatibiliteit."
+      },
+      {
+        "heading": "Bronnen en de grenzen van fabrikantvoorbeelden",
+        "text": "De omrekening volgt de [NIST-publicatie over massakalibratie](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). In de [productvragen van IVANKO](https://ivankobarbell.com/pages/faqs) maakt de fabrikant bij bepaalde series onderscheid tussen werkelijk in kilogram gespecificeerde producten en poundproducten met andere aanduidingen. Dat beschrijft die productlijnen en is geen algemene uitspraak over iedere fabriek.\n\nDe [schijvencatalogus van Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) onderscheidt eveneens kg- en lb-series. Deze voorbeelden ondersteunen het controleren van de exacte modelreferentie. Ze bevestigen geen voorraad, tolerantie, prijs of maatwerkoptie van onze fabriek; die punten moeten voor de concrete aanvraag worden vastgesteld."
+      }
+    ],
+    "table": {
+      "heading": "Berekende waarden bij de offertecontrole",
+      "columns": [
+        "Nominale aanduiding",
+        "Omgerekende referentie",
+        "Gevolg voor de inkoop"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Andere nominale maat dan 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Niet precies als 45 lb aanduiden"
+        ],
+        [
+          "Stap van 5 lb",
+          "≈ 2,268 kg",
+          "Andere opbouw dan stappen van 2,5 kg"
+        ],
+        [
+          "Eén paar van 20 kg",
+          "Twee stuks van elk nominaal 20 kg",
+          "Aantal en doosgewicht apart houden"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Gegevens voor een aanvraag bij de fabriek",
+      "items": [
+        "Bestemming en eenheid van de bestaande serie.",
+        "Model, artikelcode en nominaal gewicht per stuk.",
+        "Alle maten en aantallen, expliciet in stuks of paren.",
+        "Logo en afrondingsregel voor een eventuele tweede eenheid.",
+        "Aparte eisen voor wegen en toegestane tolerantie.",
+        "Doosidentificatie en referenties voor nabestellingen."
+      ]
+    },
+    "faqHeading": "Veelgestelde vragen",
+    "faq": [
+      [
+        "Is een schijf van 20 kg gelijk aan 45 lb?",
+        "Nee. 45 lb is ongeveer 20,412 kg; 20 kg is ongeveer 44,092 lb. Het gaat om verschillende nominale gewichten."
+      ],
+      [
+        "Maakt een nieuwe badge een kg-uitvoering van een lb-product?",
+        "Een badge verandert de informatie, niet de massa. Bevestig de werkelijke productspecificatie en eventuele productiewijziging."
+      ],
+      [
+        "Mogen kg en lb samen op het product staan?",
+        "Beide waarden moeten dezelfde nominale massa weergeven met afgesproken omrekening en afronding. Controleer leesbaarheid en eisen van de bestemming."
+      ],
+      [
+        "Betekent pond altijd lb in een Nederlandse bestelling?",
+        "Nee, het woord pond kan ook 500 gram betekenen. Gebruik voor deze internationale productserie expliciet lb en leg de eenheid schriftelijk vast."
+      ],
+      [
+        "Slaat het gewicht op één dumbbell of op een paar?",
+        "Controleer de conventie van het model. Noteer nominaal gewicht per voorwerp en de bestelhoeveelheid in stuks of paren afzonderlijk."
+      ],
+      [
+        "Wat is nodig voor een herhaalorder met eigen merk?",
+        "Oorspronkelijk model en artikelnummer, primaire eenheid, nominale maten, hoeveelheden en goedgekeurde markering. Bevestig een vervangende serie voordat die wordt geaccepteerd."
+      ]
+    ],
+    "linkHeading": "Producten en aanvullende inkoopinformatie",
+    "linkLabels": [
+      "Rubberen hex dumbbells",
+      "Dumbbellassortiment",
+      "Gewichtstoleranties van schijven",
+      "Productmonsters goedkeuren",
+      "Onze fabriek",
+      "Specificatie bespreken"
+    ],
+    "imageCopy": [
+      [
+        "Twee ongemarkeerde hex dumbbells van verschillende afmetingen",
+        "Illustratieve opstelling: het uiterlijk maakt de gewichtseenheid niet duidelijk."
+      ],
+      [
+        "Twee zwarte halterschijven zonder markering met metalen middenringen",
+        "Productillustratie zonder claim over nominaal gewicht of een meetresultaat."
+      ],
+      [
+        "Ongemarkeerde hex dumbbell naast een open lege kartonnen doos",
+        "Illustratief verpakkingsconcept met afzonderlijke product- en verzendgegevens."
+      ]
+    ],
+    "cta": [
+      "Leg je kg- of lb-assortiment vast",
+      "Stuur model, nominale gewichten, eenheden en aantallen naar onze fabriek. We kunnen OEM, ODM, een aangepast logo en bulklevering voor je eigen merk bespreken aan de hand van de gewenste specificatie.",
+      "Gewichtenlijst versturen"
+    ]
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/blog/dumbbell-aqras-kg-lb-talab-jumla",
+    "title": "طلب الدمبل وأقراص الأوزان بالكيلوغرام أو الرطل للموزعين",
+    "description": "حدد وحدة kg أو lb قبل شراء الدمبل والأقراص بالجملة. تعرّف على الفرق بين الوزن الاسمي والتحويل والقياس، وكيفية ضبط العلامات والكميات وإعادة الطلب.",
+    "h1": "كيف تحدد الكيلوغرام أو الرطل في طلب الدمبل والأقراص؟",
+    "keyword": "طلب دمبل أقراص أوزان كيلوغرام رطل بالجملة",
+    "home": "الرئيسية",
+    "library": "أدلة الشراء",
+    "eyebrow": "دليل شراء من المصنع",
+    "sections": [
+      {
+        "heading": "ابدأ بوحدة المجموعة الموجودة لدى المشتري",
+        "text": "عند استكمال تجهيز نادٍ أو إضافة أصناف إلى مخزون موزع، افحص الوحدة المطبوعة على المنتجات وأرقامها في السجل. قد تتشابه مجموعتان في اللون أو شكل المقبض، بينما تختلفان في الأوزان الاسمية. حدد الوحدة الأساسية والوزن الاسمي لكل قطعة والتدرج بين المقاسات قبل اعتماد العرض أو تصميم الشعار.\n\nوجود رقم محوّل على الملصق لا يجعل منتج الرطل نسخة مستقلة مصممة بالكيلوغرام. خصص رمز صنف واضحًا لكل مجموعة. صور المنتجات غير المعلّمة في هذا الدليل توضيحية لتنسيق المعدات وفكرة التعبئة؛ وهي لا تمثل نتائج وزن أو اختبارات مصنع أو مشروعات منفذة لعملاء."
+      },
+      {
+        "heading": "افصل الوزن الاسمي عن التحويل ونتيجة الميزان",
+        "text": "الوزن الاسمي هو المقاس المتفق عليه للمنتج. والقيمة المحوّلة تعبّر عن الكتلة الاسمية نفسها بوحدة أخرى. أما الوزن المقاس فهو نتيجة وزن قطعة فعلية. يجب تسجيل هذه المعلومات في حقول منفصلة حتى لا تتحول عملية حسابية من الكتالوج إلى ادعاء بوجود قياس موثق.\n\nالمقصود هنا بالرطل هو الرطل الدولي المستخدم للأوزان التجارية، avoirdupois، ويرمز إليه بـ lb. يساوي الرطل الواحد بدقة 0.45359237 kg. للتحويل من lb إلى kg اضرب بهذا العامل، وللتحويل العكسي اقسم عليه. احتفظ بدقة الحساب ثم قرّب قيمة العرض فقط. الأرقام التالية أمثلة حسابية وليست بيانات اختبار أو حدود سماح نعد بها."
+      },
+      {
+        "heading": "لماذا لا يعني 45 lb الوزن الاسمي نفسه لـ 20 kg؟",
+        "text": "### راجع التدرج بين المقاسات\n\nالقيمة الاسمية 45 lb تساوي 20.41165665 kg، أي نحو 20.412 kg بعد التقريب المستخدم هنا. والقيمة الاسمية 20 kg تساوي نحو 44.092 lb. لذلك لا يصح اعتماد «20 kg / 45 lb» باعتبارها مساواة دقيقة. قد يشغل المقاسان موضعين متقاربين في مجموعتين، لكنهما ليسا الكتلة الاسمية نفسها.\n\nكذلك فإن زيادة 5 lb تعادل نحو 2.268 kg، وتختلف عن زيادة 2.5 kg. عند استكمال صف الدمبل، راجع المقاسات الصغيرة والمتوسطة أيضًا. مقارنة أول مقاس وآخر مقاس فقط قد تخفي اختلافًا في تدرج المجموعة التي سيستلمها النادي."
+      },
+      {
+        "heading": "اكتب بند الطلب بحيث يفهمه المصنع والمستودع بالطريقة نفسها",
+        "text": "### اربط رمز الصنف بالوحدة والقطعة الواحدة\n\nينبغي أن يتضمن كل بند الموديل والوحدة الأساسية والوزن الاسمي للقطعة والكمية بوحدة القطع أو الأزواج. احتفظ بقيمة العرض الثانوية في حقل آخر مع طريقة التقريب. لا يكفي وصف «دمبل 20» لأنه لا يحدد الوحدة ولا أساس العدد.\n\nبصفتنا مصنعًا للأوزان الحرة، نناقش متطلبات OEM وODM انطلاقًا من هذه القائمة. اطلب تأكيد توفر الموديل بالمقاسات المطلوبة وما إذا كانت الكتلة الاسمية المختلفة تتطلب تعديل المنتج أو القالب. إمكانية إضافة شعار مخصص لا تعني توفر كل نسخة بالكيلوغرام والرطل. يجب تثبيت المواصفات والخيارات والشروط التجارية للموديل المعني."
+      },
+      {
+        "heading": "راجع العلامات الثنائية في التصميم العربي قبل الاعتماد",
+        "text": "### اجعل كل رقم ملازمًا لوحدته\n\nاختر وحدة أساسية واضحة واحسب القيمة الثانية من الوزن الاسمي نفسه. وثّق عدد المنازل العشرية وقاعدة التقريب، ولا تستبدل النتيجة بمقاس مألوف من مجموعة أخرى. في التصميم الذي يجمع العربية والرموز اللاتينية، افحص اتجاه القراءة للتأكد من بقاء kg أو lb بجانب الرقم الصحيح.\n\nراجع طرف الدمبل ووجه القرص وملصق الصندوق وصورة الكتالوج بعد وضع شعار العلامة الخاصة. لا ينبغي أن تختفي الوحدة عند قص الصورة أو تصغيرها. اختر أسلوبًا موحدًا للأرقام والفاصل العشري عبر مستندات الطلب. ومتطلبات وضع العلامات في سوق الوجهة يجب التحقق منها بصورة مستقلة عن اعتماد التصميم البصري."
+      },
+      {
+        "heading": "عدد الأزواج ووزن القطعة ووزن الشحنة حقول مختلفة",
+        "text": "في مثال توضيحي لصياغة الطلب، زوج من الدمبل بوزن اسمي 20 kg لكل قطعة يعني قطعتين، وزن كل منهما الاسمي 20 kg. المجموع الاسمي للمنتجين هو 40 kg. ولا يعني ذلك تلقائيًا أن الوزن الإجمالي للصندوق يساوي الرقم نفسه، إذ تلزم معلومات التعبئة والوزن الفعلي للشحنة.\n\nوضّح هل السعر والكمية للقطعة أم للزوج. وفي الأقراص، اكتب عدد القطع ومتطلبات جمعها في أزواج إن وجدت. ينبغي أن تفصل قائمة التعبئة بين تعريف المنتج والعدد والوزن الصافي والوزن الإجمالي. لا تستبدل بيانات النقل اللازمة بجمع الأرقام المطبوعة على المعدات."
+      },
+      {
+        "heading": "وضّح المقصود بالرطل وبالمجموعة في المستندات المتبادلة",
+        "text": "استخدم الرمز lb مع تعريف الوحدة في العرض بدل الاعتماد على كلمة رطل وحدها. وإذا كانت الكمية مكتوبة بصيغة «مجموعة»، أرفق قائمة مكوناتها وعدد كل مقاس. عند تحويل وصف المورد من قطع إلى أزواج في كتالوج الموزع، تحقق من عدد المنتجات الفعلي واترك الوزن الاسمي للقطعة ثابتًا. هكذا تتطابق نسخة الطلب العربية مع المرجع الذي يستخدمه المصنع."
+      },
+      {
+        "heading": "ثبّت المرجع عند الاستلام وإعادة الطلب",
+        "text": "قارن رمز الطلب بعلامة المنتج وملصق الصندوق وتوزيع المقاسات المستلمة. إذا اتُّفق على الوزن ضمن الفحص، سجّل وحدة الميزان وقارن النتيجة بالوزن الاسمي ومعيار السماح المحدد بصورة منفصلة. الخطأ في اختيار kg أو lb ليس اختلاف تصنيع عاديًا يمكن قبوله تلقائيًا.\n\nعند إعادة الطلب، أرسل رقم الصنف الأصلي والموديل والوحدة الأساسية وقائمة المقاسات وإصدار العلامة المعتمد. افصل مخزون الكيلوغرام والرطل في النظام ومواقع التخزين. وإذا اختار النادي استخدام المجموعتين عمدًا، فلتكن الوحدات واضحة والحسابات متسقة. توافق فتحة القرص مع البار مسألة أخرى تحتاج فحص الأبعاد ولا تحددها وحدة الوزن."
+      },
+      {
+        "heading": "المراجع وما الذي تثبته أمثلة المصنّعين",
+        "text": "يعتمد عامل التحويل على [مرجع NIST لمعايرة الكتلة](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). وتوضح [أسئلة المنتجات لدى IVANKO](https://ivankobarbell.com/pages/faqs) الفرق في بعض مجموعاتها بين منتجات محددة فعليًا بالكيلوغرام ومنتجات بالرطل تغيّر تعريفها. هذا وصف لخطوط معينة لدى ذلك المصنّع، وليس دليلًا على أن جميع المصانع تستخدم القوالب نفسها.\n\nويفصل [كتالوج أقراص Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) أيضًا بين مجموعات kg وlb. تدعم هذه المراجع ضرورة سؤال المورد عن الموديل الدقيق. لكنها لا تثبت مخزون مصنعنا أو أسعاره أو حدود السماح أو إمكانات التخصيص؛ وهي نقاط تحتاج تأكيدًا بحسب المنتج والطلب."
+      }
+    ],
+    "table": {
+      "heading": "مقارنات حسابية لمراجعة عرض الشراء",
+      "columns": [
+        "الوصف الاسمي",
+        "القيمة المحوّلة",
+        "ما يجب مراجعته"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "نحو 20.412 kg",
+          "مقاس اسمي مختلف عن 20 kg"
+        ],
+        [
+          "20 kg",
+          "نحو 44.092 lb",
+          "ليس مساويًا تمامًا لـ 45 lb"
+        ],
+        [
+          "زيادة 5 lb",
+          "نحو 2.268 kg",
+          "تدرج مختلف عن 2.5 kg"
+        ],
+        [
+          "زوج من 20 kg",
+          "قطعتان، كل منهما 20 kg اسميًا",
+          "فصل العدد عن وزن الصندوق"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "بيانات ترسلها مع استفسار المصنع",
+      "items": [
+        "سوق الوجهة ووحدة المجموعة المستخدمة حاليًا.",
+        "الموديل ورمز الصنف والوزن الاسمي لكل قطعة.",
+        "قائمة المقاسات كاملة مع العدد بالقطع أو الأزواج.",
+        "ملف الشعار وقاعدة تقريب الوحدة الثانوية إن وجدت.",
+        "متطلبات الوزن وحدود السماح في بنود مستقلة.",
+        "تعريف الصناديق ومراجع إعادة الطلب مستقبلًا."
+      ]
+    },
+    "faqHeading": "أسئلة شائعة",
+    "faq": [
+      [
+        "هل قرص 20 kg يساوي قرص 45 lb؟",
+        "ليسا الكتلة الاسمية نفسها. يساوي 45 lb نحو 20.412 kg، بينما يساوي 20 kg نحو 44.092 lb."
+      ],
+      [
+        "هل تغيير الشارة يحول الدمبل من الرطل إلى الكيلوغرام؟",
+        "الشارة تغيّر المعلومات المعروضة ولا تغيّر الكتلة. يجب تأكيد مواصفات المنتج وأي تعديل مطلوب في التصنيع."
+      ],
+      [
+        "هل يمكن طباعة kg وlb معًا؟",
+        "يمكن ذلك إذا عبّر الرقمان عن الكتلة الاسمية نفسها بتحويل وتقريب متفق عليهما. راجع الوضوح واتجاه النص ومتطلبات الوجهة."
+      ],
+      [
+        "هل الوزن المكتوب يخص قطعة أم زوجًا؟",
+        "تحقق من طريقة تعريف الموديل. اكتب الوزن الاسمي للقطعة الواحدة ثم عدد القطع أو الأزواج في حقل مستقل."
+      ],
+      [
+        "هل يمكن للنادي استخدام المجموعتين؟",
+        "يمكن تنظيم استخدامهما بقرار واضح مع تعريف الوحدات وإجراء الحسابات باتساق. يلزم التحقق من التوافق الميكانيكي على نحو مستقل."
+      ],
+      [
+        "ماذا تحتاج إعادة طلب العلامة الخاصة؟",
+        "الموديل ورمز الصنف الأصلي والوحدة الرئيسية والمقاسات الاسمية والكميات وإصدار العلامة المعتمد. اطلب تأكيدًا قبل قبول مجموعة بديلة."
+      ]
+    ],
+    "linkHeading": "منتجات وأدلة مرتبطة بالشراء",
+    "linkLabels": [
+      "دمبل سداسي مغطى بالمطاط",
+      "مجموعة الدمبل",
+      "دليل سماح وزن الأقراص",
+      "اعتماد عينات المنتجات",
+      "مصنعنا",
+      "مناقشة المواصفات"
+    ],
+    "imageCopy": [
+      [
+        "دمبلان معدنيان وقرصان أسودان بلا علامات في ترتيب استوديو",
+        "ترتيب توضيحي للمنتجات لا يثبت وزنًا مقاسًا أو وحدة محددة لكل قطعة."
+      ],
+      [
+        "قرصان أسودان غير معلّمين مع حلقتين معدنيتين في الوسط",
+        "صورة توضيحية للأقراص؛ يجب تحديد الوزن الاسمي والوحدة في مواصفات المنتج."
+      ],
+      [
+        "دمبل سداسي بلا علامة بجوار صندوق مفتوح فارغ",
+        "فكرة تعبئة توضيحية لفصل وزن المنتج عن الوزن الإجمالي للطرد."
+      ]
+    ],
+    "cta": [
+      "حدد مجموعة الأوزان التي تحتاجها",
+      "أرسل الموديلات والأوزان الاسمية ووحدة kg أو lb والكميات إلى مصنعنا. يمكننا مناقشة OEM وODM والشعار المخصص والتوريد بالجملة للعلامة الخاصة وفق مواصفات المنتج المحددة.",
+      "إرسال قائمة الأوزان"
+    ]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/hantle-obciazenia-kg-lb-zamowienia-hurtowe",
+    "title": "Hantle i Obciążenia w kg lub lb: Specyfikacja Zamówienia",
+    "description": "Zamawiaj hantle i talerze z jasno określoną jednostką. Porównaj masę nominalną, oznaczenie kg/lb, liczbę sztuk i par oraz dane do kolejnej dostawy.",
+    "h1": "Jak Zamawiać Hantle i Talerze w Kilogramach lub Funtach",
+    "keyword": "hantle obciążenia kg lb zamówienia hurtowe",
+    "home": "Strona główna",
+    "library": "Poradniki",
+    "eyebrow": "Poradnik zakupowy fabryki",
+    "sections": [
+      {
+        "heading": "Najpierw sprawdź jednostkę istniejącej kolekcji",
+        "text": "Przy uzupełnianiu wyposażenia klubu liczy się ciągłość całej serii, a nie tylko podobny wygląd hantli. Odczytaj jednostkę z produktu i porównaj ją z kartoteką magazynową. Ustal jednostkę główną, masę nominalną każdej sztuki oraz odstępy między rozmiarami przed zatwierdzeniem oferty.\n\nImporter sprzedający serie kilogramowe i funtowe powinien utrzymywać osobne indeksy. Dodatkowy przeliczony napis nie tworzy automatycznie nowej wersji produktu. Zdjęcia nieoznaczonych ciężarów w tym poradniku są ilustracjami asortymentu i pakowania, nie dokumentacją ważenia, testów fabrycznych ani realizacji dla klientów."
+      },
+      {
+        "heading": "Masa nominalna, przeliczenie i wynik ważenia",
+        "text": "Masa nominalna określa uzgodniony rozmiar produktu. Wartość przeliczona wyraża tę samą masę nominalną w innej jednostce. Wynik ważenia dotyczy konkretnego przedmiotu. Rozdzielenie tych danych zapobiega przedstawieniu obliczenia z katalogu jako potwierdzonego pomiaru.\n\nFunt avoirdupois odpowiada dokładnie 0,45359237 kg. Pomnóż lb przez ten współczynnik, aby otrzymać kg, lub podziel kg przez niego, aby uzyskać lb. Zachowaj pełną dokładność obliczenia i zaokrąglaj dopiero wartość pokazywaną odbiorcy. Poniższe liczby są przykładami rachunkowymi, a nie wynikami badań czy deklaracją tolerancji produkcji."
+      },
+      {
+        "heading": "Dlaczego talerz 45 lb nie jest talerzem 20 kg",
+        "text": "### Porównaj także małe przyrosty\n\nNominalne 45 lb to 20,41165665 kg, tutaj w zaokrągleniu około 20,412 kg. Nominalne 20 kg to około 44,092 lb. Nie zatwierdzaj zatem napisu „20 kg / 45 lb” jako dokładnej równości. Podobna pozycja w dwóch katalogach nie oznacza identycznej masy nominalnej.\n\nPrzyrost 5 lb odpowiada około 2,268 kg, więc różni się od stopnia 2,5 kg. Przy zamówieniu uzupełniającym przejrzyj wszystkie rozmiary, również pośrednie. Sprawdzenie jedynie początku i końca serii może ukryć zmianę stopniowania zestawu."
+      },
+      {
+        "heading": "Indeks towaru musi wskazywać konkretną specyfikację",
+        "text": "### Jednostka i podstawa ilości w każdej pozycji\n\nWpisz model, jednostkę główną, masę nominalną jednej sztuki oraz liczbę sztuk lub par. Dla wersji kg i lb stosuj odrębne indeksy, nawet jeśli wykończenie jest takie samo. Dodatkową wartość na oznaczeniu zapisz w osobnym polu wraz z zasadą zaokrąglania.\n\nJako fabryka wolnych ciężarów omawiamy wymagania OEM i ODM na podstawie takiej listy. Zapytaj, czy dany model występuje w potrzebnych rozmiarach i czy inna masa nominalna wymaga zmiany produktu lub formy. Możliwość dodania własnego logo nie potwierdza dostępności wszystkich wariantów. Rozwiązanie produkcyjne i warunki handlowe ustala się dla wybranej specyfikacji."
+      },
+      {
+        "heading": "Oznaczenie dwóch jednostek przy marce własnej",
+        "text": "### Druga liczba musi opisywać tę samą masę\n\nWybierz czytelną jednostkę główną, przelicz wartość dodatkową i określ precyzję jej wyświetlania. Zapisz sposób zaokrąglenia. Nie zastępuj wyniku popularnym rozmiarem z innej serii tylko po to, by uprościć projekt. Sprawdź przecinek dziesiętny w polskim katalogu oraz sposób odczytu danych w plikach dla dostawcy.\n\nPo dodaniu indywidualnego logo przejrzyj końce hantli, powierzchnie talerzy, etykiety kartonów i zdjęcia sklepu. Symbol kg lub lb powinien pozostać widoczny również po przycięciu fotografii. W projekcie private label wygląd nie może zmieniać znaczenia zatwierdzonej specyfikacji. Wymagania oznakowania należy sprawdzić dla rynku docelowego."
+      },
+      {
+        "heading": "Sztuka, para i masa przesyłki to różne dane",
+        "text": "Przykład zapisu zamówienia: para hantli o nominalnej masie 20 kg na sztukę zawiera dwa przedmioty, każdy nominalnie 20 kg. Łączna nominalna masa produktów wynosi 40 kg. Nie jest to automatycznie masa brutto kartonu, bo potrzebne są dane rzeczywistego opakowania i ważenia przesyłki.\n\nWyraźnie określ, czy cena i ilość dotyczą sztuki, czy pary. Dla talerzy zapisz liczbę pojedynczych elementów oraz wymaganie dobierania w pary, jeśli występuje. Lista pakowa powinna rozdzielać oznaczenie towaru, liczbę sztuk, masę netto i brutto. Suma nadrukowanych wartości nie zastępuje informacji potrzebnych do transportu."
+      },
+      {
+        "heading": "Uzgodnij skróty szt., para i zestaw w dokumentach",
+        "text": "Jeżeli sklep sprzedaje parę, a potwierdzenie dostawcy liczy sztuki, porównaj rzeczywistą liczbę przedmiotów przed wprowadzeniem danych do magazynu. Określenie „zestaw” powinno mieć listę elementów i rozmiarów. Zmiana jednostki sprzedaży nie zmienia nominalnej masy pojedynczego hantla. Zachowaj powiązanie polskiej nazwy handlowej z indeksem zatwierdzonym w zamówieniu."
+      },
+      {
+        "heading": "Przyjęcie do magazynu i kolejne dostawy",
+        "text": "Porównaj indeks zamówienia z oznaczeniem produktu, etykietą kartonu i dostarczonym układem rozmiarów. Jeśli uzgodniono ważenie kontrolne, zapisz jednostkę wagi i zestaw wynik z masą nominalną oraz osobno określoną tolerancją. Błędna jednostka kg lub lb nie jest zwykłą odchyłką produkcyjną.\n\nDo ponownego zamówienia dołącz pierwotny indeks, model, jednostkę główną, listę mas i zatwierdzoną wersję oznaczenia. Oddziel zapasy w systemie oraz lokalizacjach magazynowych. Gdy klub świadomie korzysta z obu serii, potrzebuje jasnych jednostek i spójnego przeliczania obciążenia. Dopasowanie otworu talerza do gryfu sprawdza się niezależnie od jednostki masy."
+      },
+      {
+        "heading": "Źródła i zakres przykładów producentów",
+        "text": "Współczynnik przeliczenia pochodzi z [publikacji NIST o wzorcowaniu masy](https://www.nist.gov/system/files/documents/calibrations/sp250-31.pdf). W [pytaniach produktowych IVANKO](https://ivankobarbell.com/pages/faqs) producent odróżnia dla niektórych linii rzeczywiste wersje kilogramowe od produktów funtowych z innym oznaczeniem. Jest to opis konkretnych produktów, nie dowód identycznego sposobu produkcji we wszystkich fabrykach.\n\n[Katalog talerzy Eleiko](https://enterprise.eleiko.com/en/pc/weight-plates/136) również rozróżnia serie kg i lb. Źródła uzasadniają potrzebę sprawdzenia modelu, ale nie potwierdzają naszych stanów magazynowych, cen, tolerancji ani możliwości personalizacji. Te informacje wymagają ustalenia dla planowanego zamówienia."
+      }
+    ],
+    "table": {
+      "heading": "Przeliczenia do kontroli oferty",
+      "columns": [
+        "Oznaczenie nominalne",
+        "Wartość po przeliczeniu",
+        "Znaczenie dla zakupu"
+      ],
+      "rows": [
+        [
+          "45 lb",
+          "≈ 20,412 kg",
+          "Inny rozmiar nominalny niż 20 kg"
+        ],
+        [
+          "20 kg",
+          "≈ 44,092 lb",
+          "Nie oznaczać jako dokładnie 45 lb"
+        ],
+        [
+          "Przyrost 5 lb",
+          "≈ 2,268 kg",
+          "Inne stopniowanie niż 2,5 kg"
+        ],
+        [
+          "Para po 20 kg",
+          "Dwie sztuki nominalnie po 20 kg",
+          "Oddzielić liczbę sztuk i masę kartonu"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dane do zapytania ofertowego",
+      "items": [
+        "Rynek docelowy i jednostka obecnego wyposażenia.",
+        "Model, indeks i masa nominalna jednej sztuki.",
+        "Komplet rozmiarów z liczbą sztuk lub par.",
+        "Projekt logo i sposób zaokrąglania drugiej jednostki.",
+        "Oddzielne wymagania dotyczące ważenia i tolerancji.",
+        "Oznaczenie kartonów i referencje kolejnego zamówienia."
+      ]
+    },
+    "faqHeading": "Częste pytania",
+    "faq": [
+      [
+        "Czy 20 kg to tyle samo co 45 lb?",
+        "Nie. 45 lb odpowiada około 20,412 kg, a 20 kg około 44,092 lb. To różne masy nominalne."
+      ],
+      [
+        "Czy nowa plakietka zmienia hantle lb w wersję kg?",
+        "Zmienia opis, a nie masę. Należy potwierdzić rzeczywistą specyfikację i potrzebne zmiany produkcyjne."
+      ],
+      [
+        "Czy można pokazać obie jednostki?",
+        "Tak, jeśli dotyczą tej samej masy nominalnej i uzgodnionego przeliczenia oraz zaokrąglenia. Sprawdź czytelność i wymagania rynku."
+      ],
+      [
+        "Czy ciężar hantla odnosi się do pary?",
+        "Potwierdź sposób opisu modelu. W zamówieniu oddziel nominalną masę sztuki od liczby zamawianych sztuk lub par."
+      ],
+      [
+        "Czy klub może używać obu serii?",
+        "Może świadomie je rozdzielić i jasno oznaczyć. Obciążenia trzeba przeliczać spójnie, a kompatybilność mechaniczną sprawdzić osobno."
+      ],
+      [
+        "Co przesłać przy ponownym zamówieniu marki własnej?",
+        "Oryginalny model i indeks, jednostkę główną, masy nominalne, ilości oraz zatwierdzoną wersję oznaczenia. Potwierdź ewentualną serię zastępczą przed jej przyjęciem."
+      ]
+    ],
+    "linkHeading": "Produkty i powiązane poradniki",
+    "linkLabels": [
+      "Gumowane hantle sześciokątne",
+      "Asortyment hantli",
+      "Tolerancje masy talerzy",
+      "Zatwierdzanie próbek",
+      "Nasza fabryka",
+      "Uzgodnij specyfikację"
+    ],
+    "imageCopy": [
+      [
+        "Dwie pary nieoznaczonych hantli z okrągłymi czarnymi głowicami",
+        "Ilustracja asortymentu: jednostka masy wymaga jednoznacznej specyfikacji produktu."
+      ],
+      [
+        "Dwa czarne talerze bez oznaczeń z metalowymi wkładkami środkowymi",
+        "Ilustracja produktu bez deklaracji wyniku ważenia lub konkretnej masy nominalnej."
+      ],
+      [
+        "Nieoznaczony hantel sześciokątny obok otwartego pustego kartonu",
+        "Ilustracyjny pomysł pakowania, w którym masa produktu i przesyłki są osobnymi danymi."
+      ]
+    ],
+    "cta": [
+      "Prześlij wymagania dla swojej serii",
+      "Wyślij do naszej fabryki modele, masy nominalne, kg lub lb i ilości. Możemy omówić OEM, ODM, własne logo oraz dostawy hurtowe dla marki własnej na podstawie ustalonej specyfikacji.",
+      "Wyślij listę obciążeń"
+    ]
+  }
+]
