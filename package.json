@@ -16,12 +16,24 @@
     "test:site-health": "playwright test tests/site-health.spec.js --project=chromium",
     "quality:gate": "node scripts/quality-gate.mjs",
     "seo:submit": "node scripts/submit-search-engines.mjs",
-    "dataforseo:test": "node scripts/test-dataforseo-connection.mjs"
-    ,"content:acquire": "node scripts/daily-content-ops.mjs acquire"
-    ,"content:release": "node scripts/daily-content-ops.mjs release"
-    ,"content:init": "node scripts/daily-content-ops.mjs init"
-    ,"content:qa": "node scripts/daily-content-ops.mjs qa"
-    ,"content:record": "node scripts/daily-content-ops.mjs record"
+    "dataforseo:test": "node scripts/test-dataforseo-connection.mjs",
+    "audit:commercial-growth": "tsx scripts/audit-commercial-growth-blogs.ts",
+    "audit:steel-dumbbell-blog": "tsx scripts/audit-steel-dumbbell-blog.ts",
+    "audit:cable-attachment-guide": "tsx scripts/audit-cable-attachment-guide.ts",
+    "audit:weight-plate-tolerance": "tsx scripts/audit-weight-plate-tolerance-guide.ts",
+    "audit:commercial-olympic-barbell": "tsx scripts/audit-commercial-olympic-barbell-guide.ts",
+    "audit:customer-visible-copy": "node scripts/audit-customer-visible-copy.mjs",
+    "audit:dumbbell-head-retention": "tsx scripts/audit-dumbbell-head-retention.ts",
+    "audit:kg-lb-units": "tsx scripts/audit-kg-lb-free-weight-units.ts",
+    "audit:fixed-vs-adjustable-dumbbells": "tsx scripts/audit-fixed-vs-adjustable-dumbbells.ts",
+    "audit:barbell-finishes": "tsx scripts/audit-barbell-finish-guide.ts",
+    "audit:plate-bar-fit": "tsx scripts/audit-plate-bar-fit-guide.ts",
+    "audit:barbell-knurling": "tsx scripts/audit-barbell-knurling-guide.ts",
+    "content:acquire": "node scripts/daily-content-ops.mjs acquire",
+    "content:release": "node scripts/daily-content-ops.mjs release",
+    "content:init": "node scripts/daily-content-ops.mjs init",
+    "content:qa": "node scripts/daily-content-ops.mjs qa",
+    "content:record": "node scripts/daily-content-ops.mjs record"
   },
   "browserslist": [
     "Chrome >= 111",
