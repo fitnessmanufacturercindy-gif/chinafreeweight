@@ -1,10 +1,20 @@
 import { contentRepository } from "../../../lib/content/repository";
 import type { PublishedContent } from "../../../lib/content/types";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { Fragment, type ReactNode } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
 
 const pageCopy = {
+  en: {
+    breadcrumb: "Breadcrumb", eyebrow: "PowerBaseFit · B2B Manufacturer",
+    quote: "Request a quote", by: "By", reviewed: "Reviewed by", updated: "Updated",
+    related: "Continue your research", faq: "Frequently asked questions",
+    finalTitle: "Ready to evaluate your equipment plan?",
+    finalText: "Send the product range, quantities, customization and destination for a project-specific discussion.",
+    finalLink: "Contact PowerBaseFit", contactPath: "/contact"
+  },
   "pt-BR": {
     breadcrumb: "Navegação estrutural", eyebrow: "PowerBaseFit · Fabricante B2B",
     quote: "Solicitar cotação", by: "Por", reviewed: "Revisado por", updated: "Atualizado em",
@@ -76,6 +86,22 @@ const pageCopy = {
     finalTitle: "Siap mengevaluasi proyek pengadaan Anda?",
     finalText: "Kirim daftar produk, jumlah, kustomisasi, tujuan, dan jadwal untuk menerima tanggapan B2B berdasarkan proyek.",
     finalLink: "Hubungi PowerBaseFit", contactPath: "/id/kontak"
+  },
+  pl: {
+    breadcrumb: "Okruszki nawigacyjne", eyebrow: "PowerBaseFit · Producent B2B",
+    quote: "Poproś o wycenę", by: "Autor", reviewed: "Weryfikacja", updated: "Aktualizacja",
+    related: "Powiązane informacje", faq: "Najczęstsze pytania",
+    finalTitle: "Chcesz zweryfikować plan zakupu?",
+    finalText: "Prześlij produkty, ilości, personalizację i miejsce dostawy, aby omówić projekt.",
+    finalLink: "Skontaktuj się z PowerBaseFit", contactPath: "/pl/kontakt"
+  },
+  ar: {
+    breadcrumb: "مسار التنقل", eyebrow: "PowerBaseFit · مُصنّع B2B",
+    quote: "اطلب عرض سعر", by: "إعداد", reviewed: "مراجعة", updated: "آخر تحديث",
+    related: "معلومات ذات صلة", faq: "الأسئلة الشائعة",
+    finalTitle: "هل تريد تقييم خطة المعدات؟",
+    finalText: "أرسل قائمة المنتجات والكميات والتخصيص والوجهة لمناقشة المشروع.",
+    finalLink: "تواصل مع PowerBaseFit", contactPath: "/contact"
   }
 } as const;
 
@@ -165,10 +191,32 @@ function renderLocalizedMarkdown(markdown: string): ReactNode[] {
   return output;
 }
 
-function articleImage(image: PublishedContent["version"]["images"][number], className: string) {
+function articleImage(
+  image: PublishedContent["version"]["images"][number],
+  className: string,
+  priority = false
+) {
+  const avifSource = image.src.startsWith("/assets/") && image.src.endsWith(".webp")
+    ? image.src.replace(/\.webp$/u, ".avif")
+    : undefined;
+  const hasAvifSource = avifSource
+    ? existsSync(join(process.cwd(), "public", avifSource.replace(/^\//u, "")))
+    : false;
   return (
     <figure className={className}>
-      <img src={image.src} alt={image.alt} loading="lazy" />
+      <picture>
+        {hasAvifSource && avifSource ? <source srcSet={avifSource} type="image/avif" sizes="(max-width: 900px) 100vw, 900px" /> : null}
+        <img
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
+          decoding="async"
+          sizes="(max-width: 900px) 100vw, 900px"
+        />
+      </picture>
       {image.caption ? <figcaption>{image.caption}</figcaption> : null}
     </figure>
   );
@@ -177,8 +225,16 @@ function articleImage(image: PublishedContent["version"]["images"][number], clas
 export default function LocalizedPageTemplate({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const breadcrumbs = version.schemaData.breadcrumbs ?? [];
-  const locale = version.locale === "id" ? "id" : version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
+  const locale = version.locale === "en" ? "en" : version.locale === "ar" ? "ar" : version.locale === "pl" ? "pl" : version.locale === "id" ? "id" : version.locale === "ko" ? "ko" : version.locale === "it" ? "it" : version.locale === "sv" ? "sv" : version.locale === "vi" ? "vi" : version.locale === "fr" ? "fr" : version.locale === "de" ? "de" : version.locale === "es" ? "es" : "pt-BR";
   const text = pageCopy[locale];
+  const extra = version.schemaData.extra ?? {};
+  const eyebrow = typeof extra.eyebrow === "string" ? extra.eyebrow : text.eyebrow;
+  const contactPath = typeof extra.contactPath === "string" ? extra.contactPath : text.contactPath;
+  const ctaTitle = typeof extra.ctaTitle === "string" ? extra.ctaTitle : text.finalTitle;
+  const ctaText = typeof extra.ctaText === "string" ? extra.ctaText : text.finalText;
+  const ctaLabel = typeof extra.ctaLabel === "string" ? extra.ctaLabel : text.finalLink;
+  const formLocale = locale === "en" || locale === "ar" ? "es" : locale;
+  const inlineImagePositions = entity.type === "case" ? [2, 5, 8, 11] : [3, 7];
 
   return (
     <main className="localized-page">
@@ -189,11 +245,11 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
           </nav>
         ) : null}
         <header className="localized-hero">
-          <p className="eyebrow">{text.eyebrow}</p>
+          <p className="eyebrow">{eyebrow}</p>
           <h1>{version.h1}</h1>
           <p>{version.description}</p>
           <div className="localized-hero-actions">
-            <a className="primary-cta" href={text.contactPath}>{text.quote}</a>
+            <a className="primary-cta" href={contactPath}>{text.quote}</a>
             <LanguageSwitcher contentId={entity.id} currentLocale={version.locale} />
           </div>
           <div className="localized-editorial-meta">
@@ -203,7 +259,7 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
           </div>
         </header>
 
-        {version.images[0] ? articleImage(version.images[0], "localized-feature-image") : null}
+        {version.images[0] ? articleImage(version.images[0], "localized-feature-image", true) : null}
 
         <div className="localized-content">
           {version.body.map((block, blockIndex) => (
@@ -223,10 +279,11 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
                 </div>
               ) : null}
               {block.type === "features" && stringArray(block.data?.items).length ? <ul className="localized-checklist">{stringArray(block.data?.items).map((item) => <li key={item}>{item}</li>)}</ul> : null}
-              {block.data?.component === "inquiry-form" ? <LocalizedInquiryForm locale={locale} /> : null}
+              {block.data?.component === "inquiry-form" ? <LocalizedInquiryForm locale={formLocale} /> : null}
             </section>
-            {blockIndex === 3 && version.images[1] ? articleImage(version.images[1], "localized-inline-image") : null}
-            {blockIndex === 7 && version.images[2] ? articleImage(version.images[2], "localized-inline-image") : null}
+            {inlineImagePositions.includes(blockIndex) && version.images[inlineImagePositions.indexOf(blockIndex) + 1]
+              ? articleImage(version.images[inlineImagePositions.indexOf(blockIndex) + 1], "localized-inline-image")
+              : null}
             </Fragment>
           ))}
 
@@ -250,9 +307,9 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
           ) : null}
 
           <section className="localized-final-cta">
-            <h2>{text.finalTitle}</h2>
-            <p>{text.finalText}</p>
-            <a className="primary-cta" href={text.contactPath}>{text.finalLink}</a>
+            <h2>{ctaTitle}</h2>
+            <p>{ctaText}</p>
+            <a className="primary-cta" href={contactPath}>{ctaLabel}</a>
           </section>
         </div>
       </article>

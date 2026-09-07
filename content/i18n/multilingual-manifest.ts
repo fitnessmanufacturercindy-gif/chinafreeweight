@@ -15,6 +15,7 @@ import { withIndonesianLocalization } from "./indonesian-manifest";
 import { withPolishLocalization } from "./polish-manifest";
 import { withDutchLocalization } from "./dutch-manifest";
 import { compactChromeDumbbellCase } from "./compact-chrome-dumbbell-case";
+import { withCustomLogoFitnessChainCase } from "./custom-logo-fitness-chain-case";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -112,7 +113,11 @@ const localizedManifest = withDutchLocalization(
   )
 );
 
-export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches({
+const manifestWithCustomLogoFitnessChainCase = withCustomLogoFitnessChainCase({
   ...localizedManifest,
   entities: [...localizedManifest.entities, compactChromeDumbbellCase]
 });
+
+export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
+  manifestWithCustomLogoFitnessChainCase
+);

@@ -28,6 +28,15 @@ const projectTypes = [
 
 const projects = [
   {
+    title: "Custom Logo Strength Equipment for a Fitness Chain",
+    category: "OEM Brand",
+    image: "/assets/projects/custom-logo-fitness-chain/custom-logo-dumbbells.webp",
+    copy: "A real customer case combining custom logo dumbbells, coordinated weight plates, and storage racks, shipped 15 days after final design approval.",
+    scope: "Custom dumbbells, weight plates, racks",
+    cta: "View the real case",
+    href: "/projects/custom-logo-dumbbells-weight-plates-fitness-chain"
+  },
+  {
     title: "Premium Round Dumbbell Zone",
     category: "Commercial Gyms",
     image: "/assets/projects/round-dumbbell-gym-zone.avif",
@@ -307,7 +316,7 @@ export default function ProjectsPage() {
         <div className="case-grid" aria-label="Application example cards">
           {projects.map((project) => (
             <article className="case-card" key={project.title}>
-              <a href="/contact" aria-label={`Request quote for ${project.title}`}>
+              <a href={project.href ?? "/contact"} aria-label={project.href ? `View ${project.title}` : `Request quote for ${project.title}`}>
                 <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
               </a>
               <div>
@@ -315,7 +324,7 @@ export default function ProjectsPage() {
                 <h3>{project.title}</h3>
                 <p>{project.copy}</p>
                 <small>{project.scope}</small>
-                <a href="/contact">
+                <a href={project.href ?? "/contact"}>
                   {project.cta} <ArrowRight size={16} />
                 </a>
               </div>

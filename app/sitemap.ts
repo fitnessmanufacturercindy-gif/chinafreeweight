@@ -16,6 +16,7 @@ const staticRoutes = [
   { path: "/factory", priority: 0.88 },
   { path: "/projects", priority: 0.82 },
   { path: "/projects/compact-chrome-dumbbell-set", priority: 0.8 },
+  { path: "/projects/custom-logo-dumbbells-weight-plates-fitness-chain", priority: 0.82 },
   { path: "/resources", priority: 0.78 },
   { path: "/contact", priority: 0.86 }
 ];
