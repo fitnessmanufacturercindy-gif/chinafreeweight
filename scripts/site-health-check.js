@@ -363,7 +363,11 @@ async function checkPage(page, context, url, linkStatusCache) {
       naturalHeight: img.naturalHeight
     }))
   );
-  const brokenImages = images.filter((img) => img.src && img.naturalWidth === 0);
+  // A lazy/optimized image can still be in flight when the snapshot is taken,
+  // especially on a fresh CI build where Next.js is generating the requested
+  // width for the first time. Failed images finish with `complete === true` and
+  // a zero natural width; an incomplete image is not evidence of a broken URL.
+  const brokenImages = images.filter((img) => img.src && img.complete && img.naturalWidth === 0);
   if (brokenImages.length > 0) {
     issues.push(issue(brokenImages.length >= 5 ? "Critical" : "High", "images", url, "Broken images detected", { images: brokenImages.slice(0, 20), autoFixable: true }));
   }
