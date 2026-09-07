@@ -1,0 +1,16 @@
+
+> powerbasefit-homepage@0.1.0 quality:gate
+> node scripts/quality-gate.mjs
+
+Runtime error encountered: EPERM, Permission denied: \\?\C:\Users\Kloe\AppData\Local\Temp\lighthouse.87313379 '\\?\C:\Users\Kloe\AppData\Local\Temp\lighthouse.87313379'
+Error: EPERM, Permission denied: \\?\C:\Users\Kloe\AppData\Local\Temp\lighthouse.87313379 '\\?\C:\Users\Kloe\AppData\Local\Temp\lighthouse.87313379'
+    at rmSync (node:fs:1222:18)
+    at Launcher.destroyTmp (file:///C:/Users/Kloe/Documents/chinafreeweight%E7%8B%AC%E7%AB%8B%E7%AB%99/node_modules/chrome-launcher/dist/chrome-launcher.js:367:9)
+    at Launcher.kill (file:///C:/Users/Kloe/Documents/chinafreeweight%E7%8B%AC%E7%AB%8B%E7%AB%99/node_modules/chrome-launcher/dist/chrome-launcher.js:349:14)
+    at Object.kill (file:///C:/Users/Kloe/Documents/chinafreeweight%E7%8B%AC%E7%AB%8B%E7%AB%99/node_modules/chrome-launcher/dist/chrome-launcher.js:39:18)
+    at runLighthouse (file:///C:/Users/Kloe/Documents/chinafreeweight%E7%8B%AC%E7%AB%8B%E7%AB%99/node_modules/lighthouse/cli/run.js:217:21)
+    at async file:///C:/Users/Kloe/Documents/chinafreeweight%E7%8B%AC%E7%AB%8B%E7%AB%99/node_modules/lighthouse/cli/index.js:10:1
+Lighthouse desktop exited after writing C:\Users\Kloe\Documents\chinafreeweight独立站\reports\quality-gate\2026-09-03T04-15-00-271Z-lighthouse-desktop-2.json. Continuing.
+Quality gate report written:
+- C:\Users\Kloe\Documents\chinafreeweight独立站\reports\quality-gate\2026-09-03T04-15-00-271Z-quality-gate.md
+- C:\Users\Kloe\Documents\chinafreeweight独立站\reports\quality-gate\2026-09-03T04-15-00-271Z-quality-gate.json

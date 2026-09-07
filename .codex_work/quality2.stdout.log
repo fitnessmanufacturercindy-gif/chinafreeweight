@@ -1,0 +1,7 @@
+
+> powerbasefit-homepage@0.1.0 quality:gate
+> node scripts/quality-gate.mjs
+
+Quality gate report written:
+- C:\Users\Kloe\Documents\chinafreeweight独立站\reports\quality-gate\2026-07-28T12-00-38-757Z-quality-gate.md
+- C:\Users\Kloe\Documents\chinafreeweight独立站\reports\quality-gate\2026-07-28T12-00-38-757Z-quality-gate.json

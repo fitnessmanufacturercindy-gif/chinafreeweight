@@ -10,7 +10,7 @@ export const spanishBlogsB: SpanishPage[] = [
     h1: "Cómo elegir un fabricante de equipos fitness",
     keyword: "fabricante de equipos fitness",
     definitionTerm: "Fabricante de equipos fitness",
-    definitionText: "Es una empresa que ejecuta procesos de producción o montaje relacionados con los productos cotizados y puede documentar especificación, control, embalaje y suministro. Debe evaluarse por evidencia vinculada al pedido real.",
+    definitionText: "Es una empresa que ejecuta procesos de producción o montaje relacionados con los productos cotizados y puede documentar especificación, control, embalaje y suministro. Debe evaluarse por evidencia vinculada al pedido real. Identifique la referencia y la revisión a las que corresponde cada documento.",
     quickAnswer: "Para elegir un fabricante de equipos fitness, verifique empresa, ubicación, procesos relacionados con el producto, muestra, capacidad, control de calidad, OEM, embalaje y experiencia de exportación. Compare respuestas y documentos, no solo precio, catálogo o fotografías promocionales.",
     image: ["/assets/factory-process/dumbbell-cutting.jpg", "Proceso real para evaluar un fabricante de equipos fitness"],
     comparisonTitle: "Evidencias para evaluar una fábrica",
@@ -62,7 +62,7 @@ export const spanishBlogsB: SpanishPage[] = [
     definitionTerm: "Forma de la cabeza de una mancuerna",
     definitionText: "Es la geometría exterior que influye en rodamiento, apoyo, almacenamiento, tamaño de la cabeza y presentación. No determina por sí sola material, resistencia o calidad de la unión.",
     quickAnswer: "Elija mancuerna hexagonal cuando priorice estabilidad en el suelo y ejercicios donde la pieza sirve de apoyo. Elija redonda cuando busca una gama continua en racks compatibles o un diseño concreto. Compare construcción, rango, empuñadura, rack y mantenimiento, no solo la forma.",
-    image: ["/assets/hex-dumbbells.png", "Mancuernas hexagonales para comparar con mancuernas redondas"],
+    image: ["/assets/hex-dumbbells.avif", "Mancuernas hexagonales para comparar con mancuernas redondas"],
     comparisonTitle: "Mancuerna hexagonal frente a redonda",
     comparisonColumns: ["Criterio", "Hexagonal", "Redonda"],
     comparisonRows: [
@@ -112,7 +112,7 @@ export const spanishBlogsB: SpanishPage[] = [
     definitionTerm: "Material de recubrimiento de una mancuerna",
     definitionText: "Es la capa exterior de la cabeza que influye en superficie, olor, color, contacto, mantenimiento y posicionamiento. La sigla del material no explica por sí sola formulación, dureza, espesor o construcción.",
     quickAnswer: "La goma suele ofrecer una opción comercial conocida; el PU se utiliza con frecuencia en gamas de presentación premium; el TPU es otra familia termoplástica con configuraciones propias. La mejor elección depende del producto real, formulación, uso, muestra, rack, mantenimiento, presupuesto y marca.",
-    image: ["/assets/project-dumbbell-zone.png", "Mancuernas profesionales para comparar goma PU y TPU"],
+    image: ["/assets/project-dumbbell-zone.avif", "Mancuernas profesionales para comparar goma PU y TPU"],
     comparisonTitle: "Comparación orientativa de materiales",
     comparisonColumns: ["Criterio", "Goma", "PU", "TPU"],
     comparisonRows: [
@@ -162,7 +162,7 @@ export const spanishBlogsB: SpanishPage[] = [
     definitionTerm: "Lista de equipos de gimnasio",
     definitionText: "Es una matriz que relaciona zonas, ejercicios, usuarios, cantidades, dimensiones, presupuesto y prioridades. Una lista profesional no es un inventario genérico; debe ajustarse al espacio y modelo de negocio.",
     quickAnswer: "Una lista de gimnasio profesional debe partir de público, superficie, capacidad y propuesta. Organice cardio, fuerza guiada, peso libre, funcional, movilidad y almacenamiento; después asigne productos, cantidades, circulación, presupuesto, instalación y reposición.",
-    image: ["/assets/case-gym.png", "Equipos para planificar un gimnasio profesional"],
+    image: ["/assets/case-gym.avif", "Equipos para planificar un gimnasio profesional"],
     comparisonTitle: "Zonas y decisiones principales",
     comparisonColumns: ["Zona", "Equipos posibles", "Decisión"],
     comparisonRows: [
@@ -212,7 +212,7 @@ export const spanishBlogsB: SpanishPage[] = [
     definitionTerm: "Zona de peso libre",
     definitionText: "Es el área destinada a mancuernas, barras, discos, bancos y racks, donde el usuario controla la trayectoria. Requiere coordinación de equipos, suelo, almacenamiento, circulación y supervisión.",
     quickAnswer: "Para planificar una zona de peso libre, defina usuarios y ejercicios; mida el espacio; seleccione mancuernas, discos, barras, bancos y racks; calcule cantidades y almacenamiento; valide suelo, circulación, seguridad, presupuesto, entrega y reposición.",
-    image: ["/assets/project-dumbbell-zone.png", "Zona profesional de peso libre con mancuernas y racks"],
+    image: ["/assets/project-dumbbell-zone.avif", "Zona profesional de peso libre con mancuernas y racks"],
     comparisonTitle: "Elementos de la zona de peso libre",
     comparisonColumns: ["Elemento", "Función", "Dato necesario"],
     comparisonRows: [

@@ -1,0 +1,918 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.7023 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09030334-2064-0139-0000-e66339a13437",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.5776 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "mancuernas personalizadas pedido mínimo pesos",
+        "location_code": 2724,
+        "language_code": "es",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "mancuernas personalizadas pedido mínimo pesos",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2724,
+          "language_code": "es",
+          "check_url": "https://www.google.com/search?q=mancuernas%20personalizadas%20pedido%20m%C3%ADnimo%20pesos&hl=es&gl=ES&ie=UTF-8&uule=w+CAIQIFISCYu8YTJ440IMEeyjaAeULOym",
+          "datetime": "2026-09-03 03:34:59 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites"
+          ],
+          "se_results_count": 86300,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "es.wavar.com",
+              "title": "Fabricante OEM/ODM de Mancuernas para Gimnasio",
+              "url": "https://es.wavar.com/product/custom-dumbbells.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://es.wavar.com › product › custom-dumbbells",
+              "website_name": "Wavar",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ofrecemos soluciones completas de mancuernas personalizadas, incluyendo: Mancuernas hexagonales de goma. Mancuernas de PU / uretano. Mancuernas ajustables.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ofrecemos soluciones completas de mancuernas personalizadas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuál es el peso ideal para las mancuernas?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuánto cuestan las mancuernas por peso?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué pesos de mancuernas comprar?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuánto cuestan las mancuernas de 1 kg?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "spanish.alibaba.com",
+              "title": "Venta Al Por Mayor De Mancuernas Personalizadas(999+)",
+              "url": "https://spanish.alibaba.com/g/wholesale-custom-dumbbell.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://spanish.alibaba.com › ... › Pesas libres",
+              "website_name": "Alibaba.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Venta Al Por Mayor De Mancuernas Personalizadas(999+) ; EUR 0.8479-1.26. Pedido mínimo: 100 kilogramos ; EUR 0.6489. Pedido mínimo: 1 kilogramo ; EUR 51.34-111.59.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Pedido mínimo: 100 kilogramos"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Os presentamos nuestras nuevas mancuernas ...",
+              "url": "https://www.instagram.com/reel/DGbVfaLtT66/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Más de 680 Me gusta  ·  hace 1 año",
+              "website_name": "Instagram · bodyprojectgym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Se trata de un modelo cromado, y totalmente personalizado a nuestro gusto y con nuestro logo. Comenzamos comprando las mancuernas a @ ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "personalizado",
+                "mancuernas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.corpomachine.com",
+              "title": "Mancuernas de uretano ATX personalizadas con tu logo",
+              "url": "https://www.corpomachine.com/atx-mancuernas-de-uretano-customer-logo-kits-completos-con-incrementos-de-2kg-c2x29786258?srsltid=AfmBOorBR8LxuqlqGDD66KReoIrsRTEw28kR1STYFkOHRQHzPnc6aHeH",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.corpomachine.com › atx-mancuernas-de-u...",
+              "website_name": "Corpomachine",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Modelo personalizable con el logo de su gimnasio. Se cobrará una tarifa fija de 80€ por pedido, independientemente de las cantidades seleccionadas.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 459,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "459,00 €"
+              },
+              "highlighted": [
+                "pedido"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.sportstech.de",
+              "title": "¿Por qué elegir mancuernas para principiantes en 2026?",
+              "url": "https://www.sportstech.de/es-es/blogs/guide/mancuernas-para-principiantes-que-pesos-deberias-elegir-para-empezar",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.sportstech.de › es-es › blogs › guide › man...",
+              "website_name": "Sportstech",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "21 abr 2026 — Para empezar, se recomienda usar mancuernas entre 1 kg y 5 kg para principiantes completos y de 5 kg a 15 kg para principiantes avanzados, según ...",
+              "pre_snippet": "04/21/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.etsy.com",
+              "title": "mancuerna con nombre personalizado, decoración de ...",
+              "url": "https://www.etsy.com/es/listing/1820805152/mancuerna-personalizada-mancuerna-con",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.etsy.com › ... › Fitness y ejercicio",
+              "website_name": "Etsy",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Para pedidos inferiores a 150 € que se envíen desde fuera de la UE, se aplicará una tarifa de 3 € para cada tipo de artículo comprado. Esta tarifa se puede ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Para pedidos inferiores a 150 €"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.milanuncios.com",
+              "title": "Mancuernero mancuernas",
+              "url": "https://www.milanuncios.com/anuncios/mancuernero-mancuernas.htm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.milanuncios.com › anuncios › mancuerner...",
+              "website_name": "Milanuncios",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Puedes personalizar tú lote por pesos y incluir un rack mancuernero( soporte de mancuernas). ... (pedido minimo de 400€) TLF Whatsapp/Telegram 639823587 Se envia ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "pesos",
+                "mancuernas",
+                "pedido minimo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "es.made-in-china.com",
+              "title": "Venta al por mayor de dropshipping de pesas ...",
+              "url": "https://es.made-in-china.com/co_alluniversefitness/product_Wholesale-Dropshipping-Body-Building-Custom-Adjustable-Weights-Dumbbell-Adjustable-Dumbbells_uonigigriy.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://es.made-in-china.com › ... › Pesa",
+              "website_name": "Made-in-China.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Opciones de peso ajustables: Disponible en versiones de 24 kg y 40 kg para adaptarse a las necesidades de entrenamiento tanto en casa como en el gimnasio.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 68,
+                "regular": null,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "68,00 US$"
+              },
+              "highlighted": [
+                "peso"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "GUÍA DE COMPRA DE MANCUERNAS REGULABLES!! CUAL ...",
+              "url": "https://www.youtube.com/watch?v=hVfKD5dSZ7Y",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Más de 3,8 mil visualizaciones  ·  hace 1 año",
+              "website_name": "YouTube · Pedro Marín",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Muy buenas a todos!!! En el video de hoy os hago una guía bastante completa de compra de mancuernas ajustables! Espero que os guste!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-11-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.atlantistelecom.com",
+              "title": "Compra al por mayor Pesas a precio distribuidor",
+              "url": "https://www.atlantistelecom.com/es/kit-pesas-612",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.atlantistelecom.com › kit-pesas-612",
+              "website_name": "Atlantis Internacional",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Pesas ; Mancuerna ajustable 11 kg KSIX, Acero Q235, 8 discos incluidos, Agarre ergonómico,... · BXMANC11 · 99,99 € PVP ; Mancuerna ajustable 25 kg KSIX, Acero Q235 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Pesas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas de tamaño completo con nombre personalizado, accesorio de levantamiento de pesas impreso en 3D para entrenador de fitness, decoración con",
+                  "url": null,
+                  "domain": null,
+                  "description": "Obtenercollarconnombre",
+                  "more_sellers": false,
+                  "seller": "Obtenercollarconnombre",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTnT6AMMjkpp0b15irrMwhVbGu81gkP_p9j-bKEE_IyRch7W8Q8b039gjh4AHwmonL7qUTkdgbb2iD2E9hoFt7-yFtMiyEzh9xd754Kh28n",
+                  "price": {
+                    "current": 28.98,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "28,98 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9402328715091042574",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Mancuernas de Uretano",
+                  "url": null,
+                  "domain": null,
+                  "description": "Corpomachine",
+                  "more_sellers": false,
+                  "seller": "Corpomachine",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQf4bob3vLBqTWf8sdxnLWaSA2ftfw3C7F24mFGGG6e240FiLEDXgC80-z2funf9GOLnhTl7zeuHsJ5jiv3fbL3gBbMYEZdfVf9Zlg_bN2YExC36Es56YTJ",
+                  "price": {
+                    "current": 1098,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "1098,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13930932360066075010",
+                    "data_docid": "16596378454293656420",
+                    "gid": "4828078592802815074"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna ajustable 2,5-24kg 15 niveles",
+                  "url": null,
+                  "domain": null,
+                  "description": "Ibernest",
+                  "more_sellers": false,
+                  "seller": "Ibernest",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR2Vaa_2vNt82UiaIjP1dbGdfDiLBe9OSJ3AxxhvoPibg39bi9bLXzR_dwC3oQ52ZvjUOOk1kenxpN8yehDFOX9YSthiUFNbORLhhaOLv8",
+                  "price": {
+                    "current": 74.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "74,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12310072692418215547",
+                    "data_docid": "7168643505005500359",
+                    "gid": "7353570135084748551"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "JUPPLIES Juego de Mancuernas Ajustables 2 en 1 | 10kg 20kg 35kg | Kit de Pesas con Barra Recta Ajustable y Antideslizante - Pesas y Mancuernas con",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQv7yrHhacSA68CmbcSvdMj4xR2JIGXK5OQSTPK7f7sA2I9fdr1c6QA9xu_5a1bFZI1CtC8tsEFrpZaJHgQiF2j_atkstmau9L26aEIHDVVXd5JJQNgRt22",
+                  "price": {
+                    "current": 35.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16958392156751245082",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Mobiclinic ExtenFit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Mobiclinic y más",
+                  "more_sellers": false,
+                  "seller": "Mobiclinic",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT1qor0fDTVc4gAeDf-VHB4_1upNQM89HxGK4P3RkxMrOveN9w_whLmBlkpVuPZaW4CjGhHPjZSKyECzMcb3nHNbhLKH4xUzOUu17dJkCzghmeHzzoxbQkKRw",
+                  "price": {
+                    "current": 35.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,95 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 42,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8470383293377267999",
+                    "data_docid": "1974238938865106206",
+                    "gid": "15527887207568239475"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Llavero con mancuernas personalizado con nombre, regalo de fitness personalizado, miniequipo de gimnasio",
+                  "url": null,
+                  "domain": null,
+                  "description": "Etsy",
+                  "more_sellers": false,
+                  "seller": "Etsy",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQoPpFspM5fdCAvwt6R1ZMfjyhqzCUQTd04ZrH611RqPkVHPMIGAcoYolCiEnCY5ny3tt7nHm6zkVnEybRTe-hZBhvGA3P3dJywiUojrHbpVTaHfYdI3Ug8",
+                  "price": {
+                    "current": 19.71,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "19,71 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11139485007825162857",
+                    "data_docid": "1389731251070081434",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Ajustables Amaya Sport + Soporte MKP",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com y más",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS2Y1UEum54gah1c0YHkFwpCsSR2pr3uDJMgM6VkKIpWBaM2BpEA3gN2u_6-4yfzHYwC8rzvxXmmtGyLI5mvrwUNB2zWUHtGJTt5_enJ09uotkS4bgtCoi69Q",
+                  "price": {
+                    "current": 297,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "297,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17391269582223808209",
+                    "data_docid": "12740878113935194434",
+                    "gid": "10452173089151619381"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales o'Live",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kenia Fitness",
+                  "more_sellers": false,
+                  "seller": "Kenia Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcScGU5bgRd-7yFvDchmaj0c3Zka7ZaPRP67PI4zeNTDRnLjhv_kA8JvljIsh9wuPrMhcZ_WHwQ-FPoxFsKQl0gsnoMSsQX8Q17WVGSfzimyc_rVvYfZR5M0",
+                  "price": {
+                    "current": 128.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "128,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1330348341375744975",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": "Sitios de productos",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Mancuernas",
+                  "url": "https://www.comparar.net/precios/mancuernas-68644.html",
+                  "domain": "www.comparar.net",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxe16oNgG16ZUPc-lMqaov4kPMMliTJ10&s=0",
+                  "source": "Comparar.net"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Mancuernas Regulables - Pesas",
+                  "url": "https://www.idealo.es/lista/122499914/mancuernas-regulables.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aWlK9N1xc2NbN-xin9MpM8337mRjPqI&s=0",
+                  "source": "idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Pesas Mancuernas - Pesas",
+                  "url": "https://www.idealo.es/lista/118819698/pesas-mancuernas.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLcVIFC2YmIBUqyS4HEjgWIldxhehs3KA&s=0",
+                  "source": "idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Mancuerna fitness (2026) al mejor precio",
+                  "url": "https://www.idealo.es/cat/18820F8156077/pesas.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcC0I6zzfphAJlNLp9W5NcLS0fJXma9cM&s=0",
+                  "source": "idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Pesas Ajustables - Pesas",
+                  "url": "https://www.idealo.es/lista/115432348/pesas-ajustables.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8bellBOt0VzEU47-Jj2cqVmCy47yjFz8&s=0",
+                  "source": "idealo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales O'live",
+                  "url": null,
+                  "domain": null,
+                  "description": "Traininn.com y más",
+                  "more_sellers": false,
+                  "seller": "Traininn.com",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRkdKrcPRz_ASm4VR3mO8aKvbVINOEg2SlRxyiGY2bP-SVaG_yRjS84G1JMwjzP4hgv9aqOuFJsbZLcvD9wXF3bvEQD1Z_epOwI-99fYW7j3Oe-c7Hz2u6Q",
+                  "price": {
+                    "current": 48.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "48,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 16,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "14223866502996396844",
+                    "data_docid": "12320427844918755389",
+                    "gid": "967861448992852836"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Ksix Mancuerna Ajustable",
+                  "url": null,
+                  "domain": null,
+                  "description": "KSIX y más",
+                  "more_sellers": false,
+                  "seller": "KSIX",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRXnMl75pccehwUSw5WiWHWHKizCrsyZqazkBmyfHahK5R6Gz_Qhqoe1os_aQag9INKy5IdOQSr9NIC0kTfd4k4BAANFU-2177KYR48IenDxvDOUq3wusl9ow",
+                  "price": {
+                    "current": 149,
+                    "regular": 169,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "149,00 € 169 € y más precios"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11615115706942025229",
+                    "data_docid": "9277182958420170177",
+                    "gid": "5846425649897277106"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Ajustable 32 kg. (par)(40% Dto. hasta fin de existencias). 32kg. 2uds. y soporte",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSG5Jfe-0OBL27XxfhKvPyqggm6RrtPs_gLbsvaO2EdymiXQVT_AoOXwdj9REmuh5SR1g4Mb9EyTJpU9r5mrH2vrZtuAoz7LlqKhRqC_BBSm-QdSalG3c1X",
+                  "price": {
+                    "current": 429.66,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "429,66 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11212453794310515291",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "RELAXTY Juego de Mancuernas Ajustables 2 en 1-10kg 20kg 40kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRA9H1r9rkp6rbglE5rFilxeEBgVC2CBB9zKYL2myJvk7_lrMiRQYxuk6l00SDG1JJ8hKB4wKl856ge85Vsikl_S-23dMc7oYo-pfkQ0iiIqCHWkSxWD8QZSA",
+                  "price": {
+                    "current": 28.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "28,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 2.9,
+                    "votes_count": 12,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13685426718682027051",
+                    "data_docid": "11872003531730165740",
+                    "gid": "5430087508090771786"
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

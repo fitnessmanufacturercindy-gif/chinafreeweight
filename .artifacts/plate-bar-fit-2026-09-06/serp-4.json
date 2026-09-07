@@ -1,0 +1,1141 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.2573 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-0c4071f4ef84",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.1796 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "furo anilha olímpica 50 mm 2 polegadas encaixe barra",
+        "location_code": 2076,
+        "language_code": "pt",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "furo anilha olímpica 50 mm 2 polegadas encaixe barra",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2076,
+          "language_code": "pt",
+          "check_url": "https://www.google.com/search?q=furo%20anilha%20ol%C3%ADmpica%2050%20mm%202%20polegadas%20encaixe%20barra&hl=pt&gl=BR&ie=UTF-8&uule=w+CAIQIFISCc8ozOvHWZwAEWM-KfIGFVop",
+          "datetime": "2026-09-06 03:37:21 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Mercado Livre",
+                "url": "https://www.google.com/search?q=mercado+livre+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYAio1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyEQgCEg1NZXJjYWRvIExpdnJlYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAB6BAgbEAI",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Conjunto",
+                "url": "https://www.google.com/search?q=conjunto+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYASo1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyGAgBEghDb25qdW50bzoKCN_hLRDg4S0wA2AB&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAF6BAgbEAQ",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Regulagem olímpica",
+                "url": "https://www.google.com/search?q=regulagem+ol%C3%ADmpica+furo+anilha+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYASo1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyIwgBEhNSZWd1bGFnZW0gb2zDrW1waWNhOgoIi-EtEIzhLTAAYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAJ6BAgbEAU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "mercadolivre.com.br",
+                "url": "https://www.google.com/search?q=mercadolivre.com.br+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYAio1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyFwgCEhNtZXJjYWRvbGl2cmUuY29tLmJyYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAN6BAgbEAY",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Grupo Emar",
+                "url": "https://www.google.com/search?q=grupo+emar+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYAio1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyDggCEgpHcnVwbyBFbWFyYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAR6BAgbEAg",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Rope Store",
+                "url": "https://www.google.com/search?q=rope+store+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYAio1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyDggCEgpSb3BlIFN0b3JlYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAV6BAgbEAo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Abaixo de R$ 250",
+                "url": "https://www.google.com/search?q=furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra+de+at%C3%A9+R$%C2%A0250&hl=pt&gl=BR&shoprs=CAESDRILEQAAAABlza1BGAEYBSo1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyKggFEhFBYmFpeG8gZGUgUiTCoDI1MBgCIg0SCxEAAAAAZc2tQRgBKgIYAWAB&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAZ6BAgbEAw",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "D1Fitness",
+                "url": "https://www.google.com/search?q=d1fitness+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYAio1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyDQgCEglEMUZpdG5lc3NgAQ&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAd6BAgbEA0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Regulagem padrão",
+                "url": "https://www.google.com/search?q=regulagem+padr%C3%A3o+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYASo1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyIQgBEhFSZWd1bGFnZW0gcGFkcsOjbzoKCIvhLRCN4S0wAGAB&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAh6BAgbEA8",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Dumbell",
+                "url": "https://www.google.com/search?q=dumbell+furo+anilha+ol%C3%ADmpica+50+mm+2+polegadas+encaixe+barra&hl=pt&gl=BR&shoprs=CAEYASo1ZnVybyBhbmlsaGEgb2zDrW1waWNhIDUwIG1tIDIgcG9sZWdhZGFzIGVuY2FpeGUgYmFycmEyFwgBEgdEdW1iZWxsOgoI6eEtEPrgLTACYAE&sa=X&ved=2ahUKEwimtfW_g9mWAxXvSFUIHaATL1UQip4GKAl6BAgbEBA",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "popular_products",
+            "people_also_ask"
+          ],
+          "se_results_count": 696,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "www.mercadolivre.com.br",
+              "title": "Anilha Injetada 4 Kg Com Furo Olímpico (2 Polegadas) Cor ...",
+              "url": "https://www.mercadolivre.com.br/anilha-injetada-4-kg-com-furo-olimpico-2-polegadas-cor-preto/p/MLB50325035",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mercadolivre.com.br › ... › Anilha Injetada",
+              "website_name": "Mercado Livre",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O diâmetro interno de 50.8 mm permite o encaixe em barras olímpicas padrão para treinos de levantamento de peso. A estrutura com 200 mm de diâmetro externo ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 183.43,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 183,43"
+              },
+              "highlighted": [
+                "mm",
+                "encaixe",
+                "barras"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Encosto de Anilha Olímpica com furo PVC",
+                  "url": null,
+                  "domain": null,
+                  "description": "Unimec Componentes Plásticos",
+                  "more_sellers": false,
+                  "seller": "Unimec Componentes Plásticos",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:0",
+                  "price": {
+                    "current": 7.15,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 7,15"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "8071766124122920726",
+                    "data_docid": "3777057736198995251",
+                    "gid": "2580115590503305452"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par Presilha Curva Para Barra Olímpica 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness e mais",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:1",
+                  "price": {
+                    "current": 9.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 9,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 7,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "328344457870406898",
+                    "data_docid": "17936806315050220288",
+                    "gid": "2430349818955769646"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ANILHA OLÍMPICA FERRO FURAÇÃO 50MM",
+                  "url": null,
+                  "domain": null,
+                  "description": "Crow Fitness e mais",
+                  "more_sellers": false,
+                  "seller": "Crow Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:2",
+                  "price": {
+                    "current": 18,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 18,00 agora"
+                  },
+                  "rating": {
+                    "rating_type": "CustomMax",
+                    "value": 3,
+                    "votes_count": 6,
+                    "rating_max": 6
+                  },
+                  "product_identifiers": {
+                    "product_id": "7898609050251625565",
+                    "data_docid": "2097111066869475839",
+                    "gid": "2857856299786826288"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Nagano Presilha Barra Olímpica Fitness Crossfit 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Agrotama",
+                  "more_sellers": false,
+                  "seller": "Agrotama",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:3",
+                  "price": {
+                    "current": 40.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 40,50 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15431791343088692921",
+                    "data_docid": "8004348795477031302",
+                    "gid": "11010339039776473556"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Injetada com Furo Olímpico 2\" Revestida com Grossa Camada de PVC - 03 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Grupo Emar",
+                  "more_sellers": false,
+                  "seller": "Grupo Emar",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:4",
+                  "price": {
+                    "current": 62.11,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 62,11 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4070418551858531687",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Rope Store Anilha Olímpica Sport Furo 51mm Preta",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rope Store e mais",
+                  "more_sellers": false,
+                  "seller": "Rope Store",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:5",
+                  "price": {
+                    "current": 242.91,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 242,91"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2242905249232578636",
+                    "data_docid": "4734465305025085594",
+                    "gid": "5093677210255100128"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Olímpica de Ferro - 2,50Kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Chroma Fitness",
+                  "more_sellers": false,
+                  "seller": "Chroma Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:6",
+                  "price": {
+                    "current": 42,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 42,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "17700125193517406915",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit Presilha Curva Para Barra Olímpica 50mm D1fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:7",
+                  "price": {
+                    "current": 100,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 100,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6103151572918154477",
+                    "data_docid": "8100839342866679253",
+                    "gid": "7574083713926590017"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Injetada com Furo Olímpico 2\" Revestida com Grossa Camada de PVC - 05 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Grupo Emar",
+                  "more_sellers": false,
+                  "seller": "Grupo Emar",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:8",
+                  "price": {
+                    "current": 103.52,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 103,52 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12720714063898459004",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Olimpica Injetada 05Kg Tipo 2",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas & Cia",
+                  "more_sellers": false,
+                  "seller": "Anilhas & Cia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:9",
+                  "price": {
+                    "current": 99.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 99,50 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15801575484269331019",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Olimpica Injetada Com Anel de Metal 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rrfit Equipamentos Academia e mais",
+                  "more_sellers": false,
+                  "seller": "Rrfit Equipamentos Academia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:10",
+                  "price": {
+                    "current": 315,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 315,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2580398552325585827",
+                    "data_docid": "7500804826910122446",
+                    "gid": "7821535736557152682"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Kit Pares Presilhas Lock Jaw Collar Para Barra Olímpica 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:11",
+                  "price": {
+                    "current": 109.8,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 109,80"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5037003409280872091",
+                    "data_docid": "11357324798376871031",
+                    "gid": "9369649083358380041"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Injetada com Furo Olímpico 2\" Revestida com Grossa Camada de PVC - 10 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Grupo Emar",
+                  "more_sellers": false,
+                  "seller": "Grupo Emar",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:12",
+                  "price": {
+                    "current": 207.06,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 207,06 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2685251764045221820",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha 1kg Sport Pintada Furo 31mm Peso de Academia P/barra",
+                  "url": null,
+                  "domain": null,
+                  "description": "MegaGym",
+                  "more_sellers": false,
+                  "seller": "MegaGym",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:13",
+                  "price": {
+                    "current": 54.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 54,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 24,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12742898670088852004",
+                    "data_docid": "17908141886763520404",
+                    "gid": "9442173922609980287"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Olimpica Injetada 20Kg Tipo 2",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas & Cia",
+                  "more_sellers": false,
+                  "seller": "Anilhas & Cia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:14",
+                  "price": {
+                    "current": 398,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 398,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16461058228020112896",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Injetada Vulcanizada Furo 50mm Olimpica",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rrfit Equipamentos Academia",
+                  "more_sellers": false,
+                  "seller": "Rrfit Equipamentos Academia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:15",
+                  "price": {
+                    "current": 100,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 100,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "8444232034896358061",
+                    "data_docid": "12343137978026811035",
+                    "gid": "456413899207387453"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "RAE Anilha Olimpica Fracionada de Ferro cross",
+                  "url": null,
+                  "domain": null,
+                  "description": "RAE Fitness",
+                  "more_sellers": false,
+                  "seller": "RAE Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8bKf70HfA-uuXzMxXAQPQA37QXHNeJ6MGZ5AsV2gwjSOLsBNGuvjZOKwBigazTJAJX-KWkYtN5GNy3qr3p1nJXbNKOEpxaH4TJNx7t3GAM_gF5L50vRP-_g",
+                  "price": {
+                    "current": 18.52,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 18,52 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12692809213273835878",
+                    "data_docid": "15010068509372254101",
+                    "gid": "4314436494902518085"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Injetada com Furo Olímpico 2\" Revestida com Grossa Camada de PVC - 15 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Grupo Emar",
+                  "more_sellers": false,
+                  "seller": "Grupo Emar",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:16",
+                  "price": {
+                    "current": 310.58,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 310,58 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "17914505156451172431",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Anilha Olímpica Bumper Cross Training de Borracha Hi Temp",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness e mais",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:17",
+                  "price": {
+                    "current": 131.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 131,50"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 33,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15300107490456724796",
+                    "data_docid": "13012222731531128577",
+                    "gid": "18163542939454930014"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit com 2 Anilhas Injetadas de 4 kg cada - Furo Olímpico 2\" Revestidas com Grossa Camada de PVC",
+                  "url": null,
+                  "domain": null,
+                  "description": "Grupo Emar",
+                  "more_sellers": false,
+                  "seller": "Grupo Emar",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-0c4071f4ef84:18",
+                  "price": {
+                    "current": 165.64,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 165,64 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3030024169306093726",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "domain": "www.mercadao.com.br",
+              "title": "Adaptador de Barra para Anilha Olímpica AX Esportes (Par)",
+              "url": "https://www.mercadao.com.br/produto/adaptador-de-barra-para-anilha-olimpica-ax-esportes-par-exclusividade.html?srsltid=AfmBOoqVbj4nZQoQZ2-E8IhZ85nYOyiR71a7sL04KoRSXr8jGG0YHeeT",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mercadao.com.br › produto › adaptador-de-...",
+              "website_name": "Mercadão Dos Esportes",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O adaptador de barra reduz o tamanho do furo para o usar a anilha olímpica em barra tradicional. Contém: 1 Par. Cor: Preto. Dimensões: Encaixe anilha ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 152.94,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 152,94"
+              },
+              "highlighted": [
+                "barra",
+                "furo",
+                "anilha olímpica",
+                "Encaixe anilha"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "ANILHA OLÍMPICA VULCANIZADA IMPORTADA  A ...",
+              "url": "https://www.instagram.com/reel/DVbGZfdETQx/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Mais de 20 marcações \"Gostei\"  ·  há 6 meses",
+              "website_name": "Instagram · anilhasecia",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Produzida com revestimento em borracha vulcanizada de alta resistência, oferece maior proteção ao equipamento e ao piso, além de reduzir ruídos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-06 03:37:21 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual o tamanho do furo da anilha olímpica?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Onde posso encontrar anilhas com furo olímpico?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual a diferença entre anilha olímpica e anilha normal?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quais são os tipos de barras para anilhas?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]",
+              "domain": "www.portalunimec.com.br",
+              "title": "Encosto de Anilha Olímpica com furo Ø50 mm PVC",
+              "url": "https://www.portalunimec.com.br/encosto-de-anilha-olimpica-com-furo-o50-mm?srsltid=AfmBOopjtrMmCyiDTRa31J0gzdM4TBAu6tEb5ZH6D3XIA-ed3Y3rY_h-",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.portalunimec.com.br › encosto-de-anilha-o...",
+              "website_name": "Unimec Componentes Plásticos",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Encosto de Anilha Olimpica com furo de Ø50 mm. Peça ideal para equipamentos de academia, desenvolvida com excelente acabamento e durabilidade.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 7.15,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 7,15"
+              },
+              "highlighted": [
+                "Encosto de Anilha Olimpica com furo de Ø50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+              "domain": "www.comprasnet.gov.br",
+              "title": "Compras.gov.br",
+              "url": "http://www.comprasnet.gov.br/ConsultaLicitacoes/download/download_editais_detalhe.asp?origem=3&coduasg=160433&modprp=5&numprp=000212021",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "http://www.comprasnet.gov.br › download › download...",
+              "website_name": "comprasnet.gov.br",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "5 de nov. de 2021 — Cor: Preto x Cinza Recomendado somente para barras olimpicas com diametro de 2´ polegadas ou 50 mm (PAR) Tratamento Diferenciado: Tipo I ...",
+              "pre_snippet": "11/05/2021 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "barras",
+                "2",
+                "polegadas",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-11-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]",
+              "domain": "shopee.com.br",
+              "title": "Anilha Sport 15 Kg Emborrachado P/ Barra Olímpica 50mm",
+              "url": "https://shopee.com.br/Anilha-Sport-15-Kg-Emborrachado-P-Barra-Ol%C3%ADmpica-50mm-i.328684523.20899545130",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://shopee.com.br › ... › Equipamentos de Treinamento",
+              "website_name": "Shopee Brasil",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "... Furo: 5cm de diâmetro para encaixe perfeito -Material: Borracha Injetada de alta qualidade -Dimensões: 450mm de diâmetro externo e 51mm de diâmetro interno ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 1563,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Furo: 5cm de diâmetro para encaixe perfeito"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]",
+              "domain": "www.rrfitequipamentos.com.br",
+              "title": "Anilha Injetada Vulcanizada furo 50MM OLIMPICA",
+              "url": "https://www.rrfitequipamentos.com.br/produtos/anilha-injetada-vulcanizada-furo-50mm-olimpica/?srsltid=AfmBOoowkYAuEncfNqHEHJjxS2GaIu5oyW2hZMY_MkhfcSqQhmBWp2pd",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.rrfitequipamentos.com.br › ... › Anilhas",
+              "website_name": "RRFIT Equipamentos Academia",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "R$60,00 ... ANILHA INJETADA/VULCANIZADA É A ANILHA MAIS RESISTENTE DO MERCADO. 6X MAIS BORRACHA QUE AS ANILHAS TRADICIONAIS DE PVC. FURAÇÃO INTERNA: 50mm.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 60,
+                "regular": null,
+                "max_value": 500,
+                "currency": "BRL",
+                "is_price_range": true,
+                "displayed_price": "R$ 60,00 a R$ 500,00"
+              },
+              "highlighted": [
+                "ANILHA INJETADA/VULCANIZADA É A ANILHA MAIS RESISTENTE DO MERCADO"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "O que olhar na barra olímpica: diâmetro da pega, giro das ...",
+              "url": "https://www.instagram.com/p/DWThTMSAaUF/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "há 5 meses",
+              "website_name": "Instagram · alter_minas",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mantenha suas anilhas 100% presas com o Par de Presilha de Mola Spring Collar para Barra Olímpica de 50mm (2 polegadas).",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "anilhas",
+                "Barra Olímpica",
+                "50mm (2 polegadas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Mantenha suas anilhas 100% presas com o Par de Presilha de ...",
+              "url": "https://www.instagram.com/reel/DcRnKIpDhh9/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "7 marcações \"Gostei\"  ·  há 2 semanas",
+              "website_name": "Instagram · lequipo",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Mantenha suas anilhas 100% presas com o Par de Presilha de Mola Spring Collar para Barra Olímpica de 50mm (2 polegadas ). Fabricada em aço ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "anilhas",
+                "Barra Olímpica",
+                "50mm (2 polegadas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

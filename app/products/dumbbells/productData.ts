@@ -58,10 +58,10 @@ export const dumbbellProducts: DumbbellProduct[] = [
     image: "/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif",
     gallery: [
       "/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif",
-      "/assets/products/dumbbells/chrome/chrome-dumbbell-silver.jpg",
-      "/assets/products/dumbbells/chrome/chrome-dumbbell-black-handle.jpg",
-      "/assets/products/dumbbells/chrome/chrome-dumbbell-custom-logo.jpg",
-      "/assets/products/dumbbells/chrome/chrome-dumbbell-gym-set.jpg"
+      "/assets/products/dumbbells/chrome/chrome-dumbbell-silver.webp",
+      "/assets/products/dumbbells/chrome/chrome-dumbbell-black-handle.webp",
+      "/assets/products/dumbbells/chrome/chrome-dumbbell-custom-logo.webp",
+      "/assets/products/dumbbells/chrome/chrome-dumbbell-gym-set.webp"
     ],
     copy: "A premium chrome dumbbell line with custom color, handle color, logo, and weight options for high-end gyms, distributors, and OEM brands.",
     seoKeyword: "chrome dumbbell manufacturer",
@@ -77,7 +77,7 @@ export const dumbbellProducts: DumbbellProduct[] = [
     image: "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.avif",
     gallery: [
       "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.avif",
-      "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-detail.jpg"
+      "/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-detail.webp"
     ],
     copy: "A classic rubber coated round dumbbell for commercial gym projects, available in KG and LB systems with a 2.5-100 kg range and 2.5 kg increments.",
     seoKeyword: "rubber round dumbbell manufacturer",
@@ -375,7 +375,7 @@ export const dumbbellProducts: DumbbellProduct[] = [
   },
   {
     slug: "cpu-hexagonal-dumbbell-wide",
-    name: "CPU Hexagonal Dumbbell",
+    name: "Wide-Head CPU Hexagonal Dumbbell",
     range: "1-10 kg, 2.5-50 kg or 5-110 lb",
     type: "CPU coating",
     image: "/assets/products/dumbbells/catalog-v2/cpu-hexagonal-dumbbell-wide.webp",

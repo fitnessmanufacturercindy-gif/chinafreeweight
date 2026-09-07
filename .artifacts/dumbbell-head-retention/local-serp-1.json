@@ -1,0 +1,1352 @@
+{
+  "version": "0.1.20260831",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7786 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09020337-2064-0139-0000-f05ca9c30816",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.6730 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "halteres emborrachados solda fricção",
+        "location_code": 2076,
+        "language_code": "pt",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "halteres emborrachados solda fricção",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2076,
+          "language_code": "pt",
+          "check_url": "https://www.google.com/search?q=halteres%20emborrachados%20solda%20fric%C3%A7%C3%A3o&hl=pt&gl=BR&ie=UTF-8&uule=w+CAIQIFISCc8ozOvHWZwAEWM-KfIGFVop",
+          "datetime": "2026-09-02 03:37:29 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Mercado Livre",
+                "url": "https://www.google.com/search?q=mercado+livre+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYAiomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yEQgCEg1NZXJjYWRvIExpdnJlWILkIGAB&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAB6BAgbEAI",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Abaixo de R$ 150",
+                "url": "https://www.google.com/search?q=halteres+emborrachados+solda+fric%C3%A7%C3%A3o+de+at%C3%A9+R$%C2%A0150&hl=pt&gl=BR&shoprs=CAESDRILEQAAAACj4aFBGAEYBSomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yKggFEhFBYmFpeG8gZGUgUiTCoDE1MBgCIg0SCxEAAAAAo-GhQRgBKgIYAViC5CBgAQ&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAF6BAgbEAQ",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Casas Bahia",
+                "url": "https://www.google.com/search?q=casas+bahia+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYAiomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yDwgCEgtDYXNhcyBCYWhpYViC5CBgAQ&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAJ6BAgbEAU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Decathlon",
+                "url": "https://www.google.com/search?q=decathlon+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYAiomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yDQgCEglEZWNhdGhsb25YguQgYAE&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAN6BAgbEAc",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Revestimento de borracha",
+                "url": "https://www.google.com/search?q=revestimento+de+borracha+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yKAgBEhhSZXZlc3RpbWVudG8gZGUgYm9ycmFjaGE6CgiO4S0Qj-EtMANYguQgYAE&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAR6BAgbEAk",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Ajustável",
+                "url": "https://www.google.com/search?q=ajust%C3%A1vel+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yGggBEgpBanVzdMOhdmVsOgoIkeEtEJLhLTADWILkIGAB&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAV6BAgbEAo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Conjunto",
+                "url": "https://www.google.com/search?q=conjunto+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yGAgBEghDb25qdW50bzoKCN_hLRDg4S0wA1iC5CBgAQ&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAZ6BAgbEAs",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "1 kg",
+                "url": "https://www.google.com/search?q=1+kg+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yEggBEgQxIGtnOggI09lwEAAwBliC5CBgAQ&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAd6BAgbEAw",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "4 kg",
+                "url": "https://www.google.com/search?q=4+kg+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yEggBEgQ0IGtnOggI09lwEAAwBliC5CBgAQ&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAh6BAgbEA0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "10 kg",
+                "url": "https://www.google.com/search?q=10+kg+halteres+emborrachados+solda+fric%C3%A7%C3%A3o&hl=pt&gl=BR&shoprs=CAEYASomaGFsdGVyZXMgZW1ib3JyYWNoYWRvcyBzb2xkYSBmcmljw6fDo28yEwgBEgUxMCBrZzoICNPZcBAAMAZYguQgYAE&sa=X&ved=2ahUKEwil8pyJ_M6WAxXtjYkEHREyLZgQip4GKAl6BAgbEA4",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 866,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "www.lojabrasilfit.com.br",
+              "title": "Halteres Emborrachados",
+              "url": "https://www.lojabrasilfit.com.br/halteres-emborrachados",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.lojabrasilfit.com.br › Barras e Pesos",
+              "website_name": "BRASIL FIT",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Compre halteres emborrachados com design ergonômico e alta durabilidade. Ideais para musculação, treino funcional e fortalecimento muscular.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 34,
+                "regular": null,
+                "max_value": 136,
+                "currency": "BRL",
+                "is_price_range": true,
+                "displayed_price": "R$ 34,00 a R$ 136,00"
+              },
+              "highlighted": [
+                "halteres emborrachados"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Emborrachados",
+                  "url": null,
+                  "domain": null,
+                  "description": "lojabrasilfit.com.br e mais",
+                  "more_sellers": false,
+                  "seller": "lojabrasilfit.com.br",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:0",
+                  "price": {
+                    "current": 102,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 102,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12604729492788892991",
+                    "data_docid": "5437791594194795042",
+                    "gid": "15438044207746129590"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par de Halteres Emborrachado para Musculação 6kg Preto",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon",
+                  "more_sellers": false,
+                  "seller": "Decathlon",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:1",
+                  "price": {
+                    "current": 219.03,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 219,03 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6321015870002659027",
+                    "data_docid": "4293914244842970116",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Emborrachados Par",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rei do Fitness",
+                  "more_sellers": false,
+                  "seller": "Rei do Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:2",
+                  "price": {
+                    "current": 39.8,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 39,80"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11618259161815879281",
+                    "data_docid": "839409689852621473",
+                    "gid": "10634360995961194225"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado Kikos",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kikos Fitness",
+                  "more_sellers": false,
+                  "seller": "Kikos Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:3",
+                  "price": {
+                    "current": 47.2,
+                    "regular": null,
+                    "max_value": 59,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 47,20 R$ 59"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 2,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9403314051187732813",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Ferro Fundido Emborrachado Crossfit Academia",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas de Ferro e mais",
+                  "more_sellers": false,
+                  "seller": "Anilhas de Ferro",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:4",
+                  "price": {
+                    "current": 96,
+                    "regular": null,
+                    "max_value": 185,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 96,00 Preço normal: R$ 185"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "18118593446822480168",
+                    "data_docid": "129007122092443183",
+                    "gid": "8420286671436596562"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "Magazine do jump",
+                  "more_sellers": false,
+                  "seller": "Magazine do jump",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:5",
+                  "price": {
+                    "current": 97.2,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 97,20 agora"
+                  },
+                  "rating": {
+                    "rating_type": "CustomMax",
+                    "value": 12,
+                    "votes_count": 9,
+                    "rating_max": 9
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13292446634353762949",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Kit Halteres Sextavado Pares 1 a 10kg Com Suporte Torre",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.com.br - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.com.br - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:6",
+                  "price": {
+                    "current": 3695.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 3.695,50 agora"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5211352031950904281",
+                    "data_docid": "18318336549221061401",
+                    "gid": "14874068420981183021"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "SS Esportes Par de Halteres Emborrachados",
+                  "url": null,
+                  "domain": null,
+                  "description": "SS Esportes - Artigos Esportivos",
+                  "more_sellers": false,
+                  "seller": "SS Esportes - Artigos Esportivos",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:7",
+                  "price": {
+                    "current": 119.12,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 119,12"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5762134358767263607",
+                    "data_docid": "2476371148669930512",
+                    "gid": "8097031600644312390"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Sextavado Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "MegaGym e mais",
+                  "more_sellers": false,
+                  "seller": "MegaGym",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:8",
+                  "price": {
+                    "current": 649.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 649,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 63,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2655189840427344512",
+                    "data_docid": "5692171459937753330",
+                    "gid": "2075973578333359833"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado Isp Unidade",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rede Santa Apolônia",
+                  "more_sellers": false,
+                  "seller": "Rede Santa Apolônia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:9",
+                  "price": {
+                    "current": 128.73,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 128,73"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5895513547762583947",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit Conjunto Alteres Emborrachado PAR cza",
+                  "url": null,
+                  "domain": null,
+                  "description": "tka esportes",
+                  "more_sellers": false,
+                  "seller": "tka esportes",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:10",
+                  "price": {
+                    "current": 169,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 169,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "8633282583413046806",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado 01Kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas & Cia",
+                  "more_sellers": false,
+                  "seller": "Anilhas & Cia",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:11",
+                  "price": {
+                    "current": 16.16,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 16,16 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12474833297968957668",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "2m Fitness Kit de Halteres Emborrachados Pares de 2,3,4 E 5 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "2mfitness.com.br",
+                  "more_sellers": false,
+                  "seller": "2mfitness.com.br",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:12",
+                  "price": {
+                    "current": 416.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 416,99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1513797650046936880",
+                    "data_docid": "16524146574915416463",
+                    "gid": "16415031933783930056"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado 10 Kg - Fernandes",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fisio Fernandes",
+                  "more_sellers": false,
+                  "seller": "Fisio Fernandes",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:13",
+                  "price": {
+                    "current": 179.91,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 179,91 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15456877356221159040",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado 6 Kg - Fernandes",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fisio Fernandes",
+                  "more_sellers": false,
+                  "seller": "Fisio Fernandes",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:14",
+                  "price": {
+                    "current": 121.41,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 121,41 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "17782384285683444492",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado 5 Kg - Fernandes",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fisio Fernandes",
+                  "more_sellers": false,
+                  "seller": "Fisio Fernandes",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:15",
+                  "price": {
+                    "current": 101.61,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 101,61 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5657057537312237501",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado 9Kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Casa do Atleta",
+                  "more_sellers": false,
+                  "seller": "Casa do Atleta",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:16",
+                  "price": {
+                    "current": 194.04,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 194,04 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11871524937418750217",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Dumbell Emborrachado Sextavado Cromado Rae",
+                  "url": null,
+                  "domain": null,
+                  "description": "RAE Fitness",
+                  "more_sellers": false,
+                  "seller": "RAE Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:17",
+                  "price": {
+                    "current": 822.87,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 822,87 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5491475079012489762",
+                    "data_docid": "11704868841944791203",
+                    "gid": "17634957407629129119"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter emborrachado 10kg - par | iniciativa fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Iniciativa Fitness e mais",
+                  "more_sellers": false,
+                  "seller": "Iniciativa Fitness",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:18",
+                  "price": {
+                    "current": 331.2,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 331,20 agora"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 402,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11052622328761169569",
+                    "data_docid": "2725560251260656552",
+                    "gid": "5956473370663532666"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Peso Academia Musculação Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "NG2 Medical e mais",
+                  "more_sellers": false,
+                  "seller": "NG2 Medical",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-f05ca9c30816:19",
+                  "price": {
+                    "current": 57.2,
+                    "regular": null,
+                    "max_value": 90,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 57,20 Preço normal: R$ 90"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14831224791316217480",
+                    "data_docid": "5277744590990699208",
+                    "gid": "9774099218099248622"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "domain": "shopee.com.br",
+              "title": "Kit Halteres Emborrachados Pretos Pares 2. 4. 6. 8 e 10Kg ...",
+              "url": "https://shopee.com.br/Kit-Halteres-Emborrachados-Pretos-Pares-2.-4.-6.-8-e-10Kg-Suporte-de-Ch%C3%A3o-Preto-i.1223413680.23493491761",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://shopee.com.br › ... › Equipamento Fitness",
+              "website_name": "Shopee Brasil",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "... solda mig, garantindo maior qualidade e durabilidade. Sua pintura é feita pela tinta Epóxi na cor preta e as pontas das hastes possuem um acabamento ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 36,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "solda"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.com.br - Seller e mais",
+                  "more_sellers": false,
+                  "seller": "Amazon.com.br - Seller",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSTY6jGEZtUDkGPVOd68HeqnuzTi-nC79ROE5xJPe4XYjMlOUfVlxFgq9iWrkhaCIpDyFaAzk9oe_rwcu65XfcLsq-GVY1nHtmpVhwOACwC0NcWesQqZrDoDg",
+                  "price": {
+                    "current": 44.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 44,99 agora"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 120,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "14147967035460472796",
+                    "data_docid": "14269135644263094260",
+                    "gid": "1809643029620056417"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Ferro Fundido Emborrachado Crossfit Academia 6,0kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas de Ferro e mais",
+                  "more_sellers": false,
+                  "seller": "Anilhas de Ferro",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJy_Vj4mX8vuj3KlCpwvbkrTfwkTrICE9jsA8Rdumi1tKpZ5HdYwB-iCeHMgii3u5sIsnZ_Loe_KTZ9AzgXa7PmFQoSuvpIuXDthZNTlcUc-q6F4ztAChA4w",
+                  "price": {
+                    "current": 72,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 72,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5527882999821878032",
+                    "data_docid": "15224459168114082331",
+                    "gid": "5423585185202138188"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter Emborrachado Fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Livelo e mais",
+                  "more_sellers": false,
+                  "seller": "Livelo",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSAO_zZanWEJViB7qHnhPrNfA5uT1VYMwDsodBkpsBZlIVOAB-LjE3FI_Mv_aNYbE2m505Y_mbKoValWAc1VVvTOoNns1Oujz6IVWniv1Qs",
+                  "price": {
+                    "current": 139.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 139,99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9869662882128221359",
+                    "data_docid": "10708051900072864303",
+                    "gid": "309472428245282833"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par de Halteres Emborrachado Exercício Em Casa Peso 3kg Rubber Fit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.com.br - Seller e mais",
+                  "more_sellers": false,
+                  "seller": "Amazon.com.br - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4jN8AaBI3wqLBRCmb23go3kbRmk0HnVIuD7j9MpVD7oGoi_i4_mZMwa43MvTnpwIO9JeLGjuQyyVkndPvuotH6cp2i_IuO4MIGWXGa-8WmdLs3N4UIJP6iA",
+                  "price": {
+                    "current": 94.05,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 94,05 agora"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 51,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3757655862302014800",
+                    "data_docid": "855267498444031568",
+                    "gid": "10641826272544646008"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halter 1kg Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "Physicus",
+                  "more_sellers": false,
+                  "seller": "Physicus",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJKlZLawae52VCX0Jprae_82BMarFkEKdolcwdAl0WPB2cbWwhPrZlrxvwUEV-jWbiZRgRiM_ONUn3AvxncZKKUPnHZqf8zzYZN-B3qOeICx3Q0peD3H5_Qw",
+                  "price": {
+                    "current": 17.78,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 17,78"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11601799310885628143",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MEGAGYM Halter Bola Emborrachado",
+                  "url": null,
+                  "domain": null,
+                  "description": "MegaGym e mais",
+                  "more_sellers": false,
+                  "seller": "MegaGym",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmSfAgv9-L-vBLIv66sRgGtrC5YqkriSTI48JWR_AcjjCZDbsO0Of13hopODq4nxEN_sZXulrjSIci9mPIBZfDsWH3LMiqh4Vu5I3wBXhjIE3EoxPl-aQm",
+                  "price": {
+                    "current": 298.91,
+                    "regular": null,
+                    "max_value": 315,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 298,91 Preço normal: R$ 315"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 72,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15319406454262384809",
+                    "data_docid": "13866133807492596811",
+                    "gid": "11333481482010397525"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit Conjunto Alteres Emborrachado PAR pto",
+                  "url": null,
+                  "domain": null,
+                  "description": "tka esportes",
+                  "more_sellers": false,
+                  "seller": "tka esportes",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ71V8dA2PWAmEQ8t_g4NG0OGrb0QI-g58NfzhmejD7xVzc6ETxS06JAx7dAtfZdIHwqobT1dkL5SVtIFfu6EjUI6kKrhQzlo6OeLvpW08K39xZGBvihGNTrg",
+                  "price": {
+                    "current": 190,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 190,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12368922626082194874",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Halteres Ferro Fundido Emborrachado Crossfit Academia 1,0kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Anilhas de Ferro e mais",
+                  "more_sellers": false,
+                  "seller": "Anilhas de Ferro",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTbpwbGhqilU8v67Zpgd4eELbrujhikEq1-g3nerrs-aGWJpLVNPm65TuoOx4qPklJCNz4uiPVtrDj33N3Xh0-CDECPgCf7rxURXLBKVAYyPZT-IlnBRXwt",
+                  "price": {
+                    "current": 12,
+                    "regular": null,
+                    "max_value": 44,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 12,00 Preço normal: R$ 44"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16032391078246174390",
+                    "data_docid": "5300269380539998075",
+                    "gid": "17063253468983329195"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Iniciativa Fitness Kit de haltere emborrachado de 1 a 10 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Iniciativa Fitness",
+                  "more_sellers": false,
+                  "seller": "Iniciativa Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSHoxXDuP1QK54L6433iBXyPGpcyLgdWn283q413bQCt4as7Nx-0SWPBtJQr5G244prw6fY9UzxgF6jyuXSxJuBaCG3CyIxi4ASlhltZ_P8mt5Y8EU5zgo6",
+                  "price": {
+                    "current": 2024,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 2.024,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5497871016056714451",
+                    "data_docid": "18210721432735166481",
+                    "gid": "2450396024386342602"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par de Halteres Emborrachado para Musculação 9kg Preto",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon",
+                  "more_sellers": false,
+                  "seller": "Decathlon",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScQPunyZ9rxUR8Vp4YV0e9IGPOLrua_xLm7vs5YQ94F0DaKmufKLg-Im1dDyW3kX6wQq33jnHIGo6mDKVyedR7OBY8ba2bsCV_QBYRReAE_hH8kQIE2tzWng",
+                  "price": {
+                    "current": 326.39,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 326,39 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12218312151973142710",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]",
+              "domain": "www.cirurgicasaopaulo.com.br",
+              "title": "HALTERES TIPO BOLA EMBORRACHADO 2 KG ALUX",
+              "url": "https://www.cirurgicasaopaulo.com.br/prod,productid,8861626,bem-estar-fisioterapia-halteres-tipo-bola-emborrachado-2-kg-alux?srsltid=AfmBOop0ygXm1c2kCpWgQojYL9r87b8r0OVtT3Gh7wOBsoN03EC-QF33",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cirurgicasaopaulo.com.br › prod,productid...",
+              "website_name": "Cirúrgica São Paulo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O Halter Emborrachado Alux é anatômico, ideal para fortalecimento muscular, fisioterapia e aumento de força. Com revestimento que evita atrito, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 82,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 82,00"
+              },
+              "highlighted": [
+                "Emborrachado"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]",
+              "domain": "www.mercadolivre.com.br",
+              "title": "Halteres Sextavados Emborrachados Kit 1 A 10kg Academia",
+              "url": "https://www.mercadolivre.com.br/halteres-sextavados-emborrachados-kit-1-a-10kg-academia/p/MLB45701307",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mercadolivre.com.br › ... › Halteres",
+              "website_name": "Mercado Livre",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O formato 'bananinha' é mais anatômico, permitindo que o grip fique mais fechado na área dos dedos das extremidades, proporcionando segurança e eficiência.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 14,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 2735.1,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 2.735,10"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Solda Por Fricção,Essa Passou no Teste(Friction Welding)",
+              "url": "https://www.youtube.com/watch?v=Wdqls6Fcsn0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Mais de 3 mil visualizações  ·  há 6 anos",
+              "website_name": "YouTube · Luciano Torneiro - Medida Certa Usinagem",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Não faça isso no seu torno Vídeo anterior: Missão impossível. Link:https://youtu.be/lL7ykJtdsaE Nossas redes sociais.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-10-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]",
+              "domain": "www.aluxprosports.com.br",
+              "title": "Halteres",
+              "url": "https://www.aluxprosports.com.br/reabilitacao-fisioterapia/halteres/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.aluxprosports.com.br › halteres",
+              "website_name": "Alux Pro Sports",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Com halteres emborrachados, fortaleça seus músculos, fisioterapia ou treinos de força. Diversos pesos, duráveis e com proteção para suas mãos.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "fortaleça seus músculos, fisioterapia ou treinos de força"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]",
+              "domain": "loja.starfitnessstore.com.br",
+              "title": "Par de Halteres Emborrachado - Star Fitness",
+              "url": "https://loja.starfitnessstore.com.br/product/kit-halter-revestido-1kg-2kg-e-3kg/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://loja.starfitnessstore.com.br › Musculação",
+              "website_name": "starfitnessstore.com.br",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Halteres com formato anatômico e revestimento que protege a pele das mãos do atrito e oferece maior aderência e conforto. Ideal para treinos com objetivo de ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Halteres"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]",
+              "domain": "www.magazineluiza.com.br",
+              "title": "Halteres Ferro Fundido Emborrachado",
+              "url": "https://www.magazineluiza.com.br/busca/halteres+ferro+fundido+emborrachado/?srsltid=AfmBOopNVQj0MFILSnj38HQp4kcAHnqdxWfD1Qa_33OE3lyNXM2Ia6eR",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.magazineluiza.com.br › busca › halteres+fer...",
+              "website_name": "Magazine Luiza",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Halter de Ferro Fundido Emborrachado 2,0kg para Academia Preto Anilhas Fitness. R$ 70,74. no Pix. (5% de desconto no pix). Adicionar à sacola ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Halter de Ferro Fundido Emborrachado 2,0kg"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]",
+              "domain": "www.equipamentoslinefitness.com.br",
+              "title": "Halteres Emborrachado 2Kg - PAR",
+              "url": "https://www.equipamentoslinefitness.com.br/p-par-de-halteres-2kg-cada-emborrachado-musculacao?srsltid=AfmBOor2tdqzSaBlp4vvD9vsa_bNG08lbQTYzc4ndbL9X-i9JC9Z-Twr",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.equipamentoslinefitness.com.br › p-par-de-...",
+              "website_name": "Equipamentos Line Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O Haltere Emborrachado 2kg proporciona maior conforto e é ideal para realização de exercícios de fortalecimento muscular para braços, ombros, cotovelos e punho.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 84.69,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 84,69"
+              },
+              "highlighted": [
+                "Emborrachado"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Halteres emborrachado 12kg",
+                "Kit Halteres Emborrachados 1 a 10kg",
+                "Halteres emborrachado 2 kg",
+                "Kit Halteres Emborrachados 5 A 10kg",
+                "Kit halteres emborrachados 1 a 5 kg",
+                "Kit de halteres emborrachados com suporte"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

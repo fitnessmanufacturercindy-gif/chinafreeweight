@@ -1,0 +1,12 @@
+
+> powerbasefit-homepage@0.1.0 audit:customer-visible-copy
+> node scripts/audit-customer-visible-copy.mjs
+
+{
+  "baseUrl": "http://127.0.0.1:3000",
+  "pagesChecked": 1170,
+  "pagesWithFindings": 0,
+  "findingCount": 0,
+  "requestErrors": [],
+  "findings": []
+}

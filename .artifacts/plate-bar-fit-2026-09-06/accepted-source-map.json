@@ -1,0 +1,171 @@
+[
+  {
+    "locale": "en",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-9c16c482-0bb2-4f1f-b2dd-d4c67a0f7392.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/en-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/en-plate-bar-fit.webp",
+      "bytes": 87822
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/en-plate-bar-fit.avif",
+      "bytes": 33690
+    }
+  },
+  {
+    "locale": "pt-br",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-906b0ca4-4b99-490e-a02b-019d060372b8.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/pt-br-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/pt-br-plate-bar-fit.webp",
+      "bytes": 71388
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/pt-br-plate-bar-fit.avif",
+      "bytes": 23545
+    }
+  },
+  {
+    "locale": "es",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-315417de-231a-48f8-900c-af4aa347583a.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/es-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/es-plate-bar-fit.webp",
+      "bytes": 72076
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/es-plate-bar-fit.avif",
+      "bytes": 23700
+    }
+  },
+  {
+    "locale": "de",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-133dcb82-36cc-47c5-a3f7-a1f6e09ce265.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/de-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/de-plate-bar-fit.webp",
+      "bytes": 149270
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/de-plate-bar-fit.avif",
+      "bytes": 77996
+    }
+  },
+  {
+    "locale": "fr",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-31111e8c-6e30-4ec1-85aa-c50427b23d4f.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/fr-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/fr-plate-bar-fit.webp",
+      "bytes": 64502
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/fr-plate-bar-fit.avif",
+      "bytes": 20213
+    }
+  },
+  {
+    "locale": "vi",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-10aed3b6-3ac0-4a38-9cc4-d28590576056.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/vi-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/vi-plate-bar-fit.webp",
+      "bytes": 91862
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/vi-plate-bar-fit.avif",
+      "bytes": 34407
+    }
+  },
+  {
+    "locale": "sv",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-22613835-6b50-46da-b1e5-f2b0647f5201.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/sv-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/sv-plate-bar-fit.webp",
+      "bytes": 43096
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/sv-plate-bar-fit.avif",
+      "bytes": 14757
+    }
+  },
+  {
+    "locale": "it",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-6bb7fdb1-483d-4f99-8d3e-c2c8200d2a9a.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/it-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/it-plate-bar-fit.webp",
+      "bytes": 63134
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/it-plate-bar-fit.avif",
+      "bytes": 20543
+    }
+  },
+  {
+    "locale": "nl",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-b683fffd-51e5-4a76-bd8d-36f3c115f4f4.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/nl-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/nl-plate-bar-fit.webp",
+      "bytes": 96090
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/nl-plate-bar-fit.avif",
+      "bytes": 39740
+    }
+  },
+  {
+    "locale": "ar",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-3413a12b-0b1d-464c-8612-3030e07a1195.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/ar-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/ar-plate-bar-fit.webp",
+      "bytes": 53218
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/ar-plate-bar-fit.avif",
+      "bytes": 14219
+    }
+  },
+  {
+    "locale": "ko",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-efbd933b-d848-4d03-bd29-99da5df1aa5e.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/ko-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/ko-plate-bar-fit.webp",
+      "bytes": 33192
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/ko-plate-bar-fit.avif",
+      "bytes": 13237
+    }
+  },
+  {
+    "locale": "id",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-ac43aa3d-3629-4324-be2d-c5df67a3f9c1.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/id-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/id-plate-bar-fit.webp",
+      "bytes": 72186
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/id-plate-bar-fit.avif",
+      "bytes": 25918
+    }
+  },
+  {
+    "locale": "pl",
+    "generatedSource": "C:/Users/Kloe/.codex/generated_images/01a074c4-84c7-7d00-a468-28aa802a2edc/exec-f8f89ba2-ffac-4111-b90a-eb3636b9b420.png",
+    "acceptedSource": ".artifacts/plate-bar-fit-2026-09-06/accepted-sources/pl-plate-bar-fit.png",
+    "webp": {
+      "path": "public/assets/resources/plate-bar-fit/pl-plate-bar-fit.webp",
+      "bytes": 84002
+    },
+    "avif": {
+      "path": "public/assets/resources/plate-bar-fit/pl-plate-bar-fit.avif",
+      "bytes": 33878
+    }
+  }
+]

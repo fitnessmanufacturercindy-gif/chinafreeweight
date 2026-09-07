@@ -16,7 +16,7 @@ export const seoExpansionPortuguesePages: PilotPage[] = [
     title: "Racks e bancos para academia no atacado e OEM | PowerBaseFit",
     description: "Racks, gaiolas, máquinas Smith e bancos profissionais direto do fabricante, com OEM, marca própria, QC e embalagem para importadores e academias.",
     h1: "Racks e bancos profissionais para academias e distribuidores",
-    image: ["/assets/racks-benches.webp", "Rack e banco profissional para academia comercial"],
+    image: ["/assets/racks-benches.avif", "Rack e banco profissional para academia comercial"],
     blocks: [
       quick("resposta-rapida", "A PowerBaseFit fornece racks, gaiolas, estações funcionais, máquinas Smith e bancos para compradores B2B. A seleção deve considerar uso, espaço, carga prevista, ajustes, montagem, embalagem e assistência local. Para cotar, o comprador envia modelos, quantidades, destino e requisitos de marca própria; dimensões, capacidade e configuração são confirmadas para cada referência."),
       definition("definicao", "Racks e bancos para academia", "São estruturas de suporte e estações de treino usadas para organizar barras, orientar movimentos e posicionar o usuário. Em uma compra profissional, não basta escolher pela aparência: estabilidade, geometria, pontos de ajuste, capacidade declarada, acabamento, montagem e compatibilidade com os demais equipamentos precisam constar na especificação aprovada."),

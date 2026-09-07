@@ -100,7 +100,7 @@ export default function RouteLanguageSwitcherClient({
                 {option.label}
               </a>
             ) : (
-              <span aria-disabled="true" title="This page is not yet available in this language">
+              <span aria-disabled="true" title="Available in another language">
                 {option.label}
               </span>
             )}

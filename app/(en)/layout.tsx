@@ -9,13 +9,12 @@ export const metadata: Metadata = {
   applicationName: siteName,
   title: "PowerBaseFit | Free Weight Equipment Manufacturer",
   description:
-    "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+    "OEM dumbbells, weight plates, barbells and gym accessories for global fitness equipment importers and commercial gyms.",
   keywords: [
     "free weight equipment manufacturer",
     "dumbbell manufacturer",
     "weight plates supplier",
-    "OEM gym equipment China",
-    "home gym functional trainer"
+    "OEM gym equipment China"
   ],
   openGraph: {
     type: "website",
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     title: "PowerBaseFit | Free Weight Equipment Manufacturer",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+      "OEM dumbbells, weight plates, barbells and gym accessories for global fitness equipment importers and commercial gyms.",
     images: [
       {
         url: "/assets/hero-poster.avif",
@@ -37,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PowerBaseFit | Free Weight Equipment Manufacturer",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms.",
+      "OEM dumbbells, weight plates, barbells and gym accessories for global fitness equipment importers and commercial gyms.",
     images: ["/assets/hero-poster.avif"]
   },
   robots: {
@@ -76,7 +75,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       direction="ltr"
       header={<SiteHeader />}
       footer={<SiteFooter />}
-      preloadEnglishHero
     >
       {children}
     </RootDocument>

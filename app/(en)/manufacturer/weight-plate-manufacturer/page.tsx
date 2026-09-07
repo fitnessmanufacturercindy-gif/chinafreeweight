@@ -321,10 +321,10 @@ export default function WeightPlateManufacturerPage() {
           <span>Manufacturer Trust</span>
           <h2>Trust should come from practical manufacturing communication</h2>
           <p>
-            PowerBaseFit's trust value comes from clear manufacturing communication, practical free weight product
-            knowledge, OEM discussion ability, quality control awareness, packaging planning, and export preparation
-            support. This page does not rely on unsupported customer names, certification claims, production
-            capacity numbers, or ranking statements.
+            Evaluate PowerBaseFit through product specifications, sample review,
+            manufacturing communication, inspection requirements, packaging
+            planning, and export order preparation. Request the documents, photos,
+            and order records required by your own approval process.
           </p>
         </article>
       </section>
@@ -377,7 +377,7 @@ export default function WeightPlateManufacturerPage() {
       <section className="products-section detail-list-section">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Related product resources</span>
             <h2>Continue reviewing PowerBaseFit weight plate sourcing pages</h2>
           </div>
           <p>

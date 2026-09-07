@@ -62,7 +62,7 @@ export const spanishBlogsA: SpanishPage[] = [
     definitionTerm: "Coste total puesto en destino",
     definitionText: "Es la suma de producto, personalización, embalaje, transporte, seguro cuando corresponde, despacho, tributos, tasas, almacenaje y entrega hasta el punto definido. Debe dividirse de forma coherente entre las referencias.",
     quickAnswer: "El costo de importar equipos de gimnasio no es solo el precio de fábrica. Debe sumar producto, muestra, herramientas, embalaje, transporte interior, flete, seguro, despacho, impuestos, tasas, almacenaje y entrega. Calcule escenarios con datos actuales y una reserva para variaciones.",
-    image: ["/assets/project-plate-zone.png", "Equipos de peso libre para calcular costos de importación"],
+    image: ["/assets/project-plate-zone.avif", "Equipos de peso libre para calcular costos de importación"],
     comparisonTitle: "Componentes del coste total",
     comparisonColumns: ["Componente", "Dato necesario", "Riesgo habitual"],
     comparisonRows: [
@@ -112,7 +112,7 @@ export const spanishBlogsA: SpanishPage[] = [
     definitionTerm: "MOQ (Minimum Order Quantity)",
     definitionText: "Es la cantidad mínima que un fabricante acepta producir o suministrar bajo una configuración determinada. Puede expresarse por modelo, peso, color, proceso, embalaje o valor total del pedido.",
     quickAnswer: "El MOQ de equipos fitness cambia según producto, material, herramienta, color, logotipo, embalaje y combinación del pedido. Para negociarlo, reduzca variantes, utilice modelos existentes, concentre cantidades y explique el plan de compra; no pida simplemente “el MOQ más bajo”.",
-    image: ["/assets/hex-dumbbells.png", "Mancuernas por pesos para explicar el MOQ de equipos fitness"],
+    image: ["/assets/hex-dumbbells.avif", "Mancuernas por pesos para explicar el MOQ de equipos fitness"],
     comparisonTitle: "Qué eleva o reduce el MOQ",
     comparisonColumns: ["Factor", "MOQ menor cuando", "MOQ mayor cuando"],
     comparisonRows: [
@@ -162,7 +162,7 @@ export const spanishBlogsA: SpanishPage[] = [
     definitionTerm: "OEM y ODM",
     definitionText: "OEM fabrica un producto para la marca del comprador dentro de una especificación acordada. ODM suele implicar que el proveedor aporta una solución o desarrollo más amplio. En la práctica, el contrato y los entregables importan más que la sigla.",
     quickAnswer: "Elija OEM cuando un producto existente con especificación y personalización cubre la necesidad. Considere ODM cuando necesita desarrollo más amplio y puede asumir tiempo, validación, herramientas y propiedad intelectual. Defina por escrito quién diseña, paga, aprueba y controla cada elemento.",
-    image: ["/assets/factory.png", "Fábrica OEM y ODM de equipos fitness PowerBaseFit"],
+    image: ["/assets/factory.avif", "Fábrica OEM y ODM de equipos fitness PowerBaseFit"],
     comparisonTitle: "Comparación OEM, ODM y producto estándar",
     comparisonColumns: ["Aspecto", "Estándar", "OEM", "ODM"],
     comparisonRows: [

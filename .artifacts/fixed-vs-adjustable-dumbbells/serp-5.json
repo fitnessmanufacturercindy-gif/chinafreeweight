@@ -1,0 +1,1252 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.3694 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09040340-2064-0139-0000-4d04becb492b",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.1720 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "mancuernas ajustables o fijas gimnasio comercial",
+        "location_code": 2724,
+        "language_code": "es",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "mancuernas ajustables o fijas gimnasio comercial",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2724,
+          "language_code": "es",
+          "check_url": "https://www.google.com/search?q=mancuernas%20ajustables%20o%20fijas%20gimnasio%20comercial&hl=es&gl=ES&ie=UTF-8&uule=w+CAIQIFISCYu8YTJ440IMEeyjaAeULOym",
+          "datetime": "2026-09-04 03:40:08 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "NordicTrack",
+                "url": "https://www.google.com/search?sca_esv=f1490dcc4a548441&hl=es&gl=ES&sxsrf=APpeQntucD33_XLNISsmUVRbqDpyFlLX-Q:1788493207420&q=nordictrack+mancuernas+ajustables+o+fijas+gimnasio+comercial&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r4wl5Ro7nV7upTFdVip_LEY0hZZMuMdji5NQECWVtLjoGEn9en7ZYQlzpF-8kjs6XQMbjjAueuYOZvsbWbwUVb7NwsR6N06Pv7o8VUY3IaVj_vTxNWRHdS-jL2R7Yd9q04RoFme-6XOeJdkNt8DXAeTA4BYigM9tBJ81qx3QV3_5ADP3Upe9_-xYv2EuEiqWOS-XMkNBxPUIvLSlpPFbr-uU-YpsLdY7ZMGKXnVcuXxa_yYoIcbMo90p1Wx18vASd_2NMJg&sa=X&ved=2ahUKEwjEr72ygNSWAxVhVKQEHUwZNXoQxKsJKAB6BAgVEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bowflex",
+                "url": "https://www.google.com/search?sca_esv=f1490dcc4a548441&hl=es&gl=ES&sxsrf=APpeQntucD33_XLNISsmUVRbqDpyFlLX-Q:1788493207420&q=bowflex+mancuernas+ajustables+o+fijas+gimnasio+comercial&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDGpVLV-J2lF5czJrL5x5MVnFQUk3GcGboaQr1rBsWDY_xvKNW7kP1DgeMjOm7Oh5L1mwyX1imDAKhamlp1wcSZvENiwJTP3esfHc9U0kVg1ly7FWxPheaV54hu__ObqdlwOkTD2st_MzRtB-nfDWXH42e4Pr1x27E8wgnIS6kXIAtSdjSvF9uPlhX86PqSREewuXFq3uIeCobaniS91GMuNcPQ4k_7UTJ71dx8Urs-VyVi9z&sa=X&ved=2ahUKEwjEr72ygNSWAxVhVKQEHUwZNXoQxKsJKAF6BAgaEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "ProForm",
+                "url": "https://www.google.com/search?sca_esv=f1490dcc4a548441&hl=es&gl=ES&sxsrf=APpeQntucD33_XLNISsmUVRbqDpyFlLX-Q:1788493207420&q=proform+mancuernas+ajustables+o+fijas+gimnasio+comercial&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDGpVLV-J2lF5czJrL5x5MVnFQUk3GcGboaQr1rBsWDY_xvKNW7kP1DgeMjOm7Oh5L1mwyX1imDAKhamlp1wcSfWU3i4_j5cZPxK4_EacQ4nbrUzHg5CdS8lJq_06DaUk5b2jbc5b907_QyUAGJWkgPT_fWosVreRFoSiWvv9yXBR1dKyry9woTYFC99v6jFzHeCkcMwiqvwWlu8IRaOpwp6wrkHzqo7aR5R7H0slYBhCgpJf&sa=X&ved=2ahUKEwjEr72ygNSWAxVhVKQEHUwZNXoQxKsJKAJ6BAgWEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Pesas",
+                "url": "https://www.google.com/search?sca_esv=f1490dcc4a548441&hl=es&gl=ES&sxsrf=APpeQntucD33_XLNISsmUVRbqDpyFlLX-Q:1788493207420&q=pesas+mancuernas+ajustables+o+fijas+gimnasio+comercial&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rgy-Kd9aRN2UeNU2lgrMAjLmP9NVuW_1z3MCDD3DGziUHnOkikAmSAFzVkeqH1qYDgrzXf8yTSoqAuER95EQWOcA6SCkd6zCRjKRVa6QlG-OaOXGfOTTvBiI9nM1dIZICft9pSLKHST7SJZG4DUA5zy_qEeR58gP5gHEDbnuoDOu2bKGJES0Hwc44s5brlfelZrJ9Gep-Zl0z6MBe8f_rGRxin28&sa=X&ved=2ahUKEwjEr72ygNSWAxVhVKQEHUwZNXoQxKsJKAN6BAgYEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Kit",
+                "url": "https://www.google.com/search?sca_esv=f1490dcc4a548441&hl=es&gl=ES&sxsrf=APpeQntucD33_XLNISsmUVRbqDpyFlLX-Q:1788493207420&q=kit+mancuernas+ajustables+o+fijas+gimnasio+comercial&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyMbRrzf9E9spSyuu7ZDxluuO2nYLPfipWTAosCYduDFKczmelnBzO74RuL6U3nIjTS6gVviqZAzveyAifLJWutDGFgZI34Bgx7kCwd7yLDvOJTPxwVc_dE1Hdpv1ariqQd7D99jqa8I9_UsY1afzMcXHH7no9q6kJ6KUyHsNr0-0YtUdq5ZGrXf879q1uBG4ybFTG4Inuax_E9IN8C5JTUod3UiuQRwAfEpPl2KeR06SWPy&sa=X&ved=2ahUKEwjEr72ygNSWAxVhVKQEHUwZNXoQxKsJKAR6BAgXEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "video",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites",
+            "related_searches"
+          ],
+          "se_results_count": 194,
+          "pages_count": 1,
+          "items_count": 16,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "homexgym.com",
+              "title": "Mancuernas Fijas vs. Mancuernas Ajustables para ...",
+              "url": "https://homexgym.com/blog/comparativa-mancuernas-fijas-vs-mancuernas-ajustables-para-entrenar-en-casa/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://homexgym.com › blog › comparativa-mancuern...",
+              "website_name": "HomexGym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "26 feb 2025 — Mancuernas Ajustables: ventajas y desventajas · Suponen un gran ahorro de espacio, con un solo par puedes reemplazar hasta 10 o más mancuernas ...",
+              "pre_snippet": "02/26/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Mancuernas Ajustables"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-02-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Fibra Fitness",
+                  "title": "Adjustable vs. Fixed Dumbbells: Which Is Right for You and ...",
+                  "timestamp": "2026-05-21 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=0LmZvlHg_ME"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Elección Informada",
+                  "title": "7 Mejores Mancuernas Ajustables para Gimnasio en Casa ...",
+                  "timestamp": "2026-03-17 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Tz91y-RWodg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Ofertas y Chollos Monstruosos",
+                  "title": "las 3 Mejores Mancuernas Ajustables para Gimnasio en Casa ...",
+                  "timestamp": "2026-06-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=lwTHt9r1HF4"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "fibrafitness.com",
+              "title": "Mancuernas ajustables vs fijas: cuál te conviene y cómo ...",
+              "url": "https://fibrafitness.com/blog/mancuernas-ajustables-vs-fijas-cual-te-conviene-y-como-elegir-el-peso-segun-tu-nivel?srsltid=AfmBOop8x8YC9COtV96qCjEeybEwa270VEMXi26URJxqgvrK_w-2N5PH",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fibrafitness.com › Blog",
+              "website_name": "Fibra Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Las fijas tienen sentido en gimnasios comerciales donde varios usuarios las usan al mismo tiempo. Preguntas frecuentes. ¿Las mancuernas ajustables son seguras?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Las fijas tienen sentido en gimnasios comerciales"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.gymcompany.es",
+              "title": "Mancuernas Ajustables de 2 a 40 kg | Gym Company",
+              "url": "https://www.gymcompany.es/peso-libre/mancuernas/mancuernas-ajustables?srsltid=AfmBOoqUhHnJ_dtPLQsNcnrNkck-DPQmuTrYbrflr0K0kGZyQlVwgRxj",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.gymcompany.es › Peso Libre › Mancuernas",
+              "website_name": "gymcompany.es",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Las mancuernas ajustables cubren la totalidad del entrenamiento con peso libre : press de pecho plano e inclinado (con banco de musculación), curl de bíceps, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Las mancuernas ajustables cubren la totalidad del entrenamiento con peso libre"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué tan buenas son las mancuernas ajustables?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué mancuernas ajustables me recomiendas?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué tipo de mancuerna es mejor?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué tipos de mancuernas hay para el gimnasio?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "johnsonfitness.tienda",
+              "title": "Comprar mancuernas ajustables y de peso fijo",
+              "url": "https://johnsonfitness.tienda/maquinas-equipos-fuerza-gimnasios/mancuernas.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://johnsonfitness.tienda › mancuernas",
+              "website_name": "johnsonfitness.tienda",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Compra mancuernas de calidad en Johnson Fitness. Descubre nuestras mancuernas ajustables y de peso fijo para entrenar en casa o gimnasio. ¡Envío rápido!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas ajustables y de peso fijo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.donatif.com",
+              "title": "Mancuernas de peso ajustable: comparación con las fijas",
+              "url": "https://www.donatif.com/es/blog/informacion-general/mancuernas-ajustables-frente-a-fijas-elige-la-solucion-ideal-para-tu-gimnasio-en-casa",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.donatif.com › ... › Información general",
+              "website_name": "Donatif",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "1 ago 2026 — Descubre las ventajas y las diferencias entre las mancuernas de peso ajustable y las fijas para elegir la mejor opción para tu hogar.",
+              "pre_snippet": "08/01/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas",
+                "fijas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "eu.nuoathletics.com",
+              "title": "Adjustable vs Fixed Dumbbells | NÜOBELL Swedish Innovation",
+              "url": "https://eu.nuoathletics.com/es-es/blogs/news/adjustable-dumbbells-vs-fixed",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://eu.nuoathletics.com › Artículos",
+              "website_name": "nuoathletics.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Las mancuernas ajustables son equipos de levantamiento de pesas que permiten ajustar el peso de la mancuerna agregando o quitando placas de peso al mango. Son ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas ajustables"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.menshealth.com",
+              "title": "Las 12 mejores mancuernas de 2026 para entrenar en casa",
+              "url": "https://www.menshealth.com/es/fitness/a29786265/mancuernas-ajustables-gimnasio-casa-entrenamiento/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.menshealth.com › fitness › mancuernas-aju...",
+              "website_name": "Men's Health",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "17 ago 2026 — Las 12 mejores mancuernas de 2026 para entrenar en casa ; 1- Mancuernas ajustables FITFIU. fitfiu Pesa ajustable PA-115 ; 2- Mancuerna ajustable ...",
+              "pre_snippet": "08/17/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Mancuernas ajustables FITFIU"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.fitnesstech.es",
+              "title": "Mancuernas y pesas para musculación",
+              "url": "https://www.fitnesstech.es/collections/pesas",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitnesstech.es › collections › pesas",
+              "website_name": "Fitness Tech",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mancuernas fijas vs. ajustables. Las mancuernas fijas proporcionan rapidez y estabilidad en cada repetición, mientras que las ajustables permiten variar el ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Las mancuernas fijas proporcionan rapidez y estabilidad en cada repetición"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.amazon.es",
+              "title": "Amazon.es: Mancuernas+ajustables",
+              "url": "https://www.amazon.es/mancuernas-ajustables/s?k=mancuernas%2Bajustables",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.es › mancuernas-ajustables › k=man...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "JUPPLIES Mancuerna Ajustable Hasta 24 kg – Pesas Regulables 15 Niveles 2–24 kg con Ajuste Rápido, Bloqueo de Seguridad y Base Antideslizante, Ideal para ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "JUPPLIES Mancuerna Ajustable Hasta 24 kg"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Set de Mancuernas Hexagonales 1-10 kg + Rack Vertical th10",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES y más",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQhEQ3OeANjt6fCfgxgv1A-R3WL_9BQ3JkcxURcbBiUA01A5ABkMcl08hZ9sUYEsQp7RnaJakCCoPD92xl15fCxjUIoPAcJGZfqIFbF90-8gnpbJmIjtxXfGA",
+                  "price": {
+                    "current": 695,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "695,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15363969098414506298",
+                    "data_docid": "10977414395144230707",
+                    "gid": "135887201447747153"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "DH FitLife Mancuernas ajustables de 3 a 25 kg para entrenamiento de fuerza, juego de pesas con base que ahorran espacio para gimnasio en casa, pesas",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTl8ZCzAUvSfekz6BaSQ9O_QjfD5aL6TgrerIEKX1nxvNkudBu4nhAmz70NGIQdp2rJaDHojmZeklbqebfwNCnL-jWA2-6r_vytbQYJ8Zf-6EgpBK_zXwYD",
+                  "price": {
+                    "current": 174,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "174,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "112840633863606939",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas ajustables Beufit de",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sprinter y más",
+                  "more_sellers": false,
+                  "seller": "Sprinter",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSXeNeaOCMv8OqtNWYx3DXSIjamAKqcVBemo_U_J40yuOQXCFDJ8eASTPHkR1rvCUYcJQglVRFhWo5ZvKDpbSNF_9p2oww_DOGmsYDAw87TSAVYtms-5qKP-Q",
+                  "price": {
+                    "current": 299,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "299,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1596517065847188715",
+                    "data_docid": "1584419769147006032",
+                    "gid": "16390546925197866653"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "SONGMICS Juego de Mancuernas",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España y más",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrNAfUPxIfw6hg2nR9O8JaIF-89yIGER0O9VnrMOMYR41-tqd_LO7QffjYvWb8GOje9GuvJIjmzjHVC9mzGbB5_0VE6M6VNyx3EQCgtl9EiRqPnn3ZU3Pp",
+                  "price": {
+                    "current": 128.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "128,95 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 67,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3970588729768158001",
+                    "data_docid": "6418306175406396310",
+                    "gid": "7843145920340728936"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "2 Mancuernas Ajustables Power 5-40 kg Con Base de Almacenamiento Ozio Fitness MKP",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSkQoGhNV768oKV2KhqLII62DvRWov3Oi3-XEKvAdpYU4rS3xuVwB9LjG5ZOE8Y3ENY_XARakPoatzhfJla64N9JSxS3t-Oo0--WQjtMYStehFY4A5L9-mo",
+                  "price": {
+                    "current": 452.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "452,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 1,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16453094633567416665",
+                    "data_docid": "12584205232539199368",
+                    "gid": "6280640835358701043"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Afw Mancuernas Ajustables Pro",
+                  "url": null,
+                  "domain": null,
+                  "description": "AllFreeWeight y más",
+                  "more_sellers": false,
+                  "seller": "AllFreeWeight",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtVantWQjEmlvdgKok46sP6G_mqf6q_PZrgWQJzvKBsspKPTmBdMjd60SqLXhw_d4yu_LWJ-ZInSNP02Svwqd-nYK6o-1Qmo8yA-6YbLR2JVmlOQvlFh2dfQ",
+                  "price": {
+                    "current": 289,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "289,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 1,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4815682995033344174",
+                    "data_docid": "13309199108028320407",
+                    "gid": "7504083261063546268"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Horizon Fitness Ajustables 2 a 20kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aerobic & Fitness y más",
+                  "more_sellers": false,
+                  "seller": "Aerobic & Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRiUz6R_Alt83nj5eRMW8xk3iZycBdl4u1lpr5po2CxXHaOyOZBIgOFAeP4LnzNPilUD9SJqCcv7yHhvgraYg8wy3gyDGdD4kzn2MI7gJ4nwrKukXxlffBm",
+                  "price": {
+                    "current": 664.39,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "664,39 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12684717626833150237",
+                    "data_docid": "2995104584197148452",
+                    "gid": "8902650190347494637"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Ajustables Matrix Fitness Juego de 2 a 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES y más",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQaGCOf9bXfQz84GEpP-byU2hKZ6E9BkLs5Mp7vxkt8uF2MhelbnFzi_akkZC69TJSdKCwNJ1QgGCTwz2czyV-XzxRa2ZVTMld0Zi-F0S7RvVlBApB9I_e",
+                  "price": {
+                    "current": 700,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "700,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13515739365583176091",
+                    "data_docid": "15840238177022202347",
+                    "gid": "11225190727051044218"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]",
+              "title": "Sitios de productos",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Pesas Ajustables - Pesas",
+                  "url": "https://www.idealo.es/lista/115432348/pesas-ajustables.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aWlK9N1xc2NbN-xin9MpM8337mRjPqI&s=0",
+                  "source": "idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Mancuernas Regulables - Pesas",
+                  "url": "https://www.idealo.es/lista/122499914/mancuernas-regulables.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aWlK9N1xc2NbN-xin9MpM8337mRjPqI&s=0",
+                  "source": "idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Mancuernas Ajustables - Pesas",
+                  "url": "https://www.idealo.es/lista/122948752/mancuernas-ajustables.html",
+                  "domain": "www.idealo.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_aWlK9N1xc2NbN-xin9MpM8337mRjPqI&s=0",
+                  "source": "idealo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "JUPPLIES Juego de Mancuernas Ajustables 2 en 1 | 10kg 20kg 35kg | Kit de Pesas con Barra Recta Ajustable y Antideslizante - Pesas y Mancuernas con",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ0sIuMXscFCtHpNzBZ770tvFfy6EVn7uVp-VzaTH2CkNL9xqcP_o3GjlGQVZuugJLIXAVC6pjoZvlGMpSkIe0J9TcBiwTqZ0STj895TCM49teVNJn9auu7",
+                  "price": {
+                    "current": 35.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16958392156751245082",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Ajustables Tunturi 25kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES y más",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTqV6mq3XAxyRFoLdQ50z-Cp9hEsqdOvMcT8Vm6jxCxcsJvOoLW2LK1sBgm3VC8beo7l8dkc1OmvreX9S5jMvfIyOP-43O9YsgsH7MI11z0wsGUGlilvcjKTQ",
+                  "price": {
+                    "current": 245,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "245,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.4,
+                    "votes_count": 19,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2769724169067115950",
+                    "data_docid": "6848493863580684794",
+                    "gid": "9838929184551797110"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Ajustables Matrix Fitness Juego de 2 a 32 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES y más",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrWcS6I1AAgNvXWgZsKQiHeRcjIou2T8X6Ar8Gf3e7eVnCslBZ664m64Kk6wgY1OrXR8TWp8WdpLdHhTyzAukz6EDpVQbITwZwLFIhhEol-xXZ3jevJI8f",
+                  "price": {
+                    "current": 900,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "900,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2528733648271718870",
+                    "data_docid": "16452030554177294065",
+                    "gid": "2458432073713754677"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "tv20 Set Mancuernas de Goma 2-20 kg + Rack",
+                  "url": null,
+                  "domain": null,
+                  "description": "El Corte Inglés y más",
+                  "more_sellers": false,
+                  "seller": "El Corte Inglés",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ9i_He85H5Ah_mhUgJn3uGFyQtB8cVO58n-MANqoT-gO1R6BvwihNbrM2PNp-QVlG98WhyDE4DV-tIZ0XYGLbQuwn6tH2671z6aZuz6URgEhpd0Yf8zyjc",
+                  "price": {
+                    "current": 1295,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "1295,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "950496000928198816",
+                    "data_docid": "589609309172948248",
+                    "gid": "7840747641262377371"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas ajustables, pesas, equipación gimnasio, gym, pesas ajustables",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness House Innovation",
+                  "more_sellers": false,
+                  "seller": "Fitness House Innovation",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSbWly9L2o8jvmmJ3qhyS1rHGJpSZjMplLy-9iXubBAr2rMN2WnQFg9Gn54GdbDa0lGLwrd65QIruGLtRZsPm_b4sbcgFeQJtHbnTKAaSfoEt3DwgEpFdCH",
+                  "price": {
+                    "current": 199,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "199,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17760188627459703080",
+                    "data_docid": "12480201903657601699",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Unycos Maletín de Pesas con barra de conexión y discos Iron Transformer Unycos",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSmHRd21c8ygOkdqbsTq0w1h07uhzaLq5yPqZ9dW8GbXXbK9fmVZaA1b4KIJ3XLXn1dXdmHBdARCJfbum0fT9H2bjkFtS86iy_AY0Ctelnp9QKd66n5C7KN",
+                  "price": {
+                    "current": 63.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "63,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12619023445666597745",
+                    "data_docid": "669306845108932724",
+                    "gid": "6217209096147065414"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit 40 kg de Mancuernas 2 En 1 Ajustables Multifit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTEqVODCtQnwBzs32_O4dYgHoUc8j1qHoUT2pPYP2rIR4v1S9lACIEHhsebsBRBTbamIr0ApDWeje4vW4t-Q7Z4W-I2EPQ9JDI1XXKb7xc",
+                  "price": {
+                    "current": 79.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "79,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13067703807183632291",
+                    "data_docid": "14416133135540031250",
+                    "gid": "5697025449806177555"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Ajustable 24kg. (par) (50% Dto. hasta fin de existencias). 24kg. 2uds.",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQlDfTIZXwSdDfYDCbvVqoWkf4nqpY1fPKXOPgameiiP3JF0L7PQwPpKG5QOvcylmvLmFm1eVjHJhhJbfhWguYuhT0EWtW3Kvn2mB5NjWeWozd3pqS9XQ9d",
+                  "price": {
+                    "current": 180,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "180,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4430993444271206438",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[28]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas ajustables de 23,5 kg / 32,5 kg / 41,5 kg – Negro o Cromo",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSCtt-ImrG47QCtF_53aXND1hKe-anHFHCAr61yjy5vDOUf8K_P2PTSn75blRFWsIaPHmaVfJAAyRpcc-2E385TPnicp4TjzTmm-NBz3-5YWG78oyM_WfEY",
+                  "price": {
+                    "current": 599,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "599,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15867767072210092992",
+                    "data_docid": "392981453343481170",
+                    "gid": "11154055098635701760"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Fitness Tech Mancuerna Ajustable de 5kg a 40kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnesstech.es",
+                  "more_sellers": false,
+                  "seller": "fitnesstech.es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTRRMBq4sdAaya6R2hXk-XW9rdIe4cKa_WvaDcLXIEzhVVIT8Iz9O4cjlTQ2lbTrLjxt1Kpmi9qrcuH3q4zP7AJWBgyU3HvSM0RG5TAaJSNwPSs5LGseMitZw",
+                  "price": {
+                    "current": 209.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "209,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "7867621513114400906",
+                    "data_docid": "18444673619653964406",
+                    "gid": "18024917683121475728"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Mobiclinic ExtenFit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQI-39NBSGFINTI8tybCl24CI_Omyxx0AksRLdibXeLebSYOMfc6ykYVDL3xxZ9e0uVnqAKd4B6guQQYb3oshGuWoB_tx_awvfOTm4-QgU63QLktT1v4VTxMQ",
+                  "price": {
+                    "current": 35.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,95 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 42,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8470383293377267999",
+                    "data_docid": "1974238938865106206",
+                    "gid": "15527887207568239475"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas NordicTrack 25kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES y más",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLy31i3pGDgneQbs9E22BwuUg7TgyAcalwQC-_1fNvmZgpaZjW634QdykOa6Tym395xvLEqP_1JCHvYqY4Fo1oBZV0OALHr_ga_GuA3rBo",
+                  "price": {
+                    "current": 399,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "399,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 27,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1860744662023854239",
+                    "data_docid": "6737135119914297346",
+                    "gid": "247102602816676069"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Fitness Tech Set Mancuernas Hexagonales 2,5kg a 22,5kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnesstech.es",
+                  "more_sellers": false,
+                  "seller": "fitnesstech.es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR4RbbRRvy4aDDXSVKVdyCUK9ozgKkWEhw5JJljzfNP1oR60YHtAYf3MqXT_pr_ybgGJegaKDC9jZ7iAMazj9W7XxBaxVBWn-MqcYgYK6FkBvjHIpIW35Pm",
+                  "price": {
+                    "current": 949,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "949,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16542866032999449682",
+                    "data_docid": "1404718099125316881",
+                    "gid": "462221677667082169"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "DH FitLife Mancuernas Ajustables 12kg/25kg – Pesas Regulables de 2,5–12kg / 4–25kg con 10 Niveles, Juego de Mancuernas con Discos de Peso, Pesas",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRJCPNzqAgAedAKxygheyj0l5eiTcsQh_3VTvdkCufpvfz-9K_HDargJ3jtghfHOsQUgkkkMJytV8Vl4xMqMtYF5uogZgreYK8h1uRC2qiVm998K06t1tNL",
+                  "price": {
+                    "current": 179.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "179,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4203947373369204374",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Pesas Ajustables 25 kg Clover Fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España y más",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTyfPQtv2GGOyI_eUU3wMcl3wLyTDGBreAvJrzQY4tf94bhssQ8HHrRlsoGbCKl8jA4_xqjk7hEuSLOD1gsRMTiuazjPfl8qzMCg4sSk7g",
+                  "price": {
+                    "current": 299,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "299,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12624486808889087901",
+                    "data_docid": "10008506094517985265",
+                    "gid": "17595432151781883120"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Ajustable de 2kg A 20kg Fitness Tech",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ2XwkPmODmhgFVKJDHdZu_oLMzWdwT4MuDSMtxZd0kOm6etZS68UrHhla_tQhm147xKwkmyceyXGbwmfvetKbO3O-AJl9MuQe9RKciqRP-xOE7seWCPbvzdw",
+                  "price": {
+                    "current": 209.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "209,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1292006398373552310",
+                    "data_docid": "4863025124733593251",
+                    "gid": "13449385945786153143"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 16,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Mancuernas ajustables decathlon",
+                "Mancuernas ajustables 40 kg decathlon",
+                "Mancuernas ajustables 40 kg baratas",
+                "Mancuernas Decathlon",
+                "Mancuernas ajustables PowerBlock",
+                "Set de Mancuernas Ajustables"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -11,11 +11,11 @@ export default function LazyHeroVideo() {
           className="hero-poster-image"
           src="/assets/hero-poster.webp"
           alt=""
-          width={720}
-          height={960}
+          width={400}
+          height={533}
           fetchPriority="high"
           loading="eager"
-          decoding="sync"
+          decoding="async"
         />
       </picture>
       <DeferredHeroVideo />

@@ -1,0 +1,46 @@
+
+> powerbasefit-homepage@0.1.0 test
+> tsx --test tests/i18n/infrastructure.test.ts
+
+✔ locale routing: English stays unprefixed and /en redirects (2.3311ms)
+✔ published locale routing: all twelve launch languages are public (0.3594ms)
+✔ production manifest: only reviewed content in the public languages is published (1.1805ms)
+✔ compact chrome dumbbell case: eleven localized editions pass depth, media and structured-data gates (10.0516ms)
+✔ canonical and metadata: localized content is self-canonical (0.4016ms)
+✔ hreflang: only public, published and existing locale routes are emitted (0.2116ms)
+✔ schema language: localized schema uses the current locale text and URL (0.3127ms)
+✔ growth content: products and blogs meet useful Portuguese depth targets (12.8181ms)
+✔ Spanish expansion: products and blogs meet localized depth targets (13.3747ms)
+✔ multilingual commercial expansion: six active A-grade pages are deep, unique and internally linked (3.6841ms)
+✔ product localization batch 1: eighteen pages meet content, image, schema and publishing gates (36.4936ms)
+✔ growth content: AI answer blocks, tables, authors, links and images are complete (32.2642ms)
+✔ growth schema: product facts and editorial review are machine readable (0.3065ms)
+✔ Spanish metadata and schema use Spanish text and language (0.3798ms)
+✔ products hub has a complete twelve-language hreflang cluster (0.3701ms)
+✔ sitemap: non-public and review-required localizations never enter output (0.5855ms)
+✔ language switch mapping: stable content ID resolves the matching localized slug (0.2537ms)
+✔ locale validation: catches /en URLs, missing slugs and duplicate localized URLs (0.5761ms)
+✔ translation pipeline: review and publish gates preserve immutable history (0.3649ms)
+✔ multilingual sitemap retains all English routes and adds every published localized route (75.9928ms)
+✔ language sitemap contains all public URLs with the complete products hub cluster (58.2429ms)
+✔ Indonesian launch meets coverage, editorial, media, SEO and similarity gates (1643.0195ms)
+✔ Polish launch meets active-page coverage, content, English-asset and metadata gates (49.7993ms)
+✔ Dutch launch meets active-page coverage, localized content, source assets and metadata gates (47.711ms)
+✔ Spanish blog content is differentiated by search intent (33.1658ms)
+✔ German launch: published pages pass depth, media, metadata, schema and link gates (3931.1588ms)
+✔ French launch: active published pages pass depth, media, metadata, schema and link gates (3382.6292ms)
+✔ Vietnamese launch: active published pages pass depth, media, metadata, schema and link gates (4312.7149ms)
+✔ Swedish launch: active published pages pass depth, media, metadata, schema, links and differentiation gates (5741.8098ms)
+✔ Italian launch: active published pages pass localization, depth, media, metadata, schema and link gates (4281.4511ms)
+✔ Korean A-tier launch: active published pages pass localization, depth, media, metadata, schema and differentiation gates (448.009ms)
+✔ commercial completion A: 17 active Portuguese, Spanish and Korean pages pass publish, media and link gates (6.9517ms)
+✔ commercial completion B/C priority release: 114 active pages pass quality, media and metadata gates (105.3031ms)
+✔ retired C-level rack completion cannot republish removed routes (45.1104ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 25309.8186

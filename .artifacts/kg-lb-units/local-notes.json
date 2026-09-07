@@ -1,0 +1,67 @@
+[
+  [
+    "en",
+    "Keep a market variant from becoming an accidental substitute",
+    "For a distributor serving customers with different weight conventions, maintain separate catalogue variants even when one purchasing team places the order. Link each sales description to the approved factory item code. If a customer changes from lb to kg during quotation, revise the size schedule as well as the label file. Record acceptance of the new progression before updating the stock record."
+  ],
+  [
+    "pt-BR",
+    "Confira a planilha em português antes de enviar o pedido",
+    "Ao montar a planilha da importação, use colunas explícitas para «peso por haltere», «unidade de massa» e «quantidade em pares». Se o fornecedor responder com «pcs», confira a correspondência com peças antes de lançar o recebimento. Não altere apenas o cabeçalho de pares para peças: a contagem física precisa continuar igual. O nome comercial usado pelo revendedor deve apontar para o mesmo código aprovado."
+  ],
+  [
+    "es",
+    "Aclara el nombre comercial cuando el catálogo cruza mercados",
+    "En la consulta, identifica el tipo de producto además de la unidad: una mancuerna fija, un disco o una barra no comparten necesariamente la misma forma de venderse. Si un distribuidor utiliza «pesas» como nombre general, añade el modelo y una descripción concreta. Una revisión de libras a kilos debe actualizar toda la lista de tamaños, no solamente el texto de la portada del catálogo."
+  ],
+  [
+    "de",
+    "Mengeneinheit und Gewichtseinheit im Warenwirtschaftssystem",
+    "Führen Sie die Felder Gewichtseinheit und Mengeneinheit getrennt. „kg“ beschreibt die Masse, „Paar“ die Zählbasis einer Bestellposition. Wird eine Lieferantenbestätigung in Stück geführt, gleichen Sie die physische Anzahl mit der Bestellung ab, bevor der Datensatz übernommen wird. Ein interner Kurztext darf abgekürzt sein, solange Artikelnummer und vollständige Spezifikation die Zuordnung eindeutig erhalten."
+  ],
+  [
+    "fr",
+    "Préparer la fiche destinée au réseau de revendeurs",
+    "Dans une fiche française, le mot « poids » peut servir de nom au produit ou désigner sa masse. Préférez des champs explicites : masse nominale par pièce, unité principale et quantité vendue. Si un revendeur transforme une offre par paire en fiche par haltère, vérifiez aussi le nombre d’articles inclus. Conservez une référence commune entre la fiche publique et le modèle accepté par l’acheteur."
+  ],
+  [
+    "sv",
+    "Planera skyltningen när ett gym kompletterar sitt sortiment",
+    "Om den nya leveransen ska stå bredvid en annan viktserie behöver även ställets skyltning uppdateras. Markera vilken enhet varje grupp använder och låt mottagningspersonalen kontrollera att produkterna hamnar på rätt plats. Använd samma artikelreferenser i inköpslistan och inventeringen. En tydlig placering hjälper personalen att upptäcka fel serie innan utrustningen tas in i den löpande driften."
+  ],
+  [
+    "vi",
+    "Kiểm tra cách ghi chiếc, đôi và bộ trong bảng trao đổi",
+    "Khi trao đổi tệp tiếng Việt và tiếng Anh, thống nhất «chiếc» với «piece» và «đôi» với «pair» ngay trên bảng. Từ «bộ» hoặc «set» cần kèm danh sách thành phần, không dùng làm căn cứ duy nhất để đếm hàng. Nếu nhà cung cấp xác nhận theo chiếc trong khi phòng tập yêu cầu theo đôi, kiểm tra số vật thực tế trước khi chuyển dữ liệu cho bộ phận nhập kho."
+  ],
+  [
+    "ko",
+    "국문 발주표와 공급사 확인서의 수량 표현 맞추기",
+    "국문 자료에 ‘세트’라고 적었다면 구성품 목록을 함께 넣으세요. 공급사 문서의 pcs, pair, set을 각각 어떤 실물 수량으로 해석하는지 합의해야 합니다. 한 쌍으로 판매하는 상품을 낱개 출고 품번으로 관리할 때에는 명목 중량을 바꾸지 말고 수량 대응 관계를 확인하세요. 국내 판매 페이지와 공장 확인서가 같은 품번을 가리키도록 관리하는 것이 핵심입니다."
+  ],
+  [
+    "id",
+    "Jelaskan isi set sebelum dipindahkan ke katalog penjual",
+    "Istilah set tidak cukup untuk menentukan jumlah fisik. Jika penawaran memakai pcs sedangkan toko menjual per pasang, cocokkan jumlah benda dan isi paket secara tertulis. Untuk paket campuran, lampirkan daftar ukuran beserta jumlah tiap ukuran. Jangan mengubah nilai bobot nominal hanya karena dasar penjualan berubah dari buah menjadi pasangan; yang berubah adalah jumlah barang dalam penawaran."
+  ],
+  [
+    "it",
+    "Allineare il listino del rivenditore alla conferma d’ordine",
+    "Se la conferma della fabbrica conta pezzi e il listino italiano vende coppie, verifica la corrispondenza del numero fisico di manubri. Il termine «set» richiede un elenco dei componenti. Mantieni il peso nominale del singolo oggetto invariato quando cambi la base commerciale. In questo modo magazzino, preventivo e scheda del marchio proprio fanno riferimento allo stesso prodotto."
+  ],
+  [
+    "nl",
+    "Controleer de eenheid ook bij een doorgestuurde offerte",
+    "Wanneer een dealer een leveranciersofferte omzet naar een eigen prijslijst, kan de oorspronkelijke eenheid uit een kolomkop verdwijnen. Zet kg of lb daarom bij iedere nominale waarde en behoud de koppeling naar het fabrieksartikel. Beschrijf een set met een onderdelenlijst. Zo blijven de massa per voorwerp en de inhoud van het verkochte pakket herkenbaar na bewerking van het document."
+  ],
+  [
+    "ar",
+    "وضّح المقصود بالرطل وبالمجموعة في المستندات المتبادلة",
+    "استخدم الرمز lb مع تعريف الوحدة في العرض بدل الاعتماد على كلمة رطل وحدها. وإذا كانت الكمية مكتوبة بصيغة «مجموعة»، أرفق قائمة مكوناتها وعدد كل مقاس. عند تحويل وصف المورد من قطع إلى أزواج في كتالوج الموزع، تحقق من عدد المنتجات الفعلي واترك الوزن الاسمي للقطعة ثابتًا. هكذا تتطابق نسخة الطلب العربية مع المرجع الذي يستخدمه المصنع."
+  ],
+  [
+    "pl",
+    "Uzgodnij skróty szt., para i zestaw w dokumentach",
+    "Jeżeli sklep sprzedaje parę, a potwierdzenie dostawcy liczy sztuki, porównaj rzeczywistą liczbę przedmiotów przed wprowadzeniem danych do magazynu. Określenie „zestaw” powinno mieć listę elementów i rozmiarów. Zmiana jednostki sprzedaży nie zmienia nominalnej masy pojedynczego hantla. Zachowaj powiązanie polskiej nazwy handlowej z indeksem zatwierdzonym w zamówieniu."
+  ]
+]

@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { viAnswer, viChecklist, viDefinition, vietnameseEditorialAuthor, vietnameseImagePath, vietnameseTechnicalReviewer, viTable, viText } from "./vi-content-helpers";
@@ -133,7 +132,7 @@ function makeProfiles(source: ProductSource[], category: CategoryKey, entries: E
 
 export const vietnameseProductProfiles: VietnameseProductProfile[] = [
   ...makeProfiles(dumbbellProducts, "dumbbells", dumbbells), ...makeProfiles(weightPlateProducts, "plates", plates),
-  ...makeProfiles(racksBenchesProducts, "racks", racks), ...makeProfiles(gymAccessoryProducts, "accessories", accessories)
+  ...makeProfiles(gymAccessoryProducts, "accessories", accessories)
 ];
 
 function rangeText(profile: VietnameseProductProfile) {
@@ -279,7 +278,7 @@ function processText(profile: VietnameseProductProfile) {
 }
 
 function productImages(profile: VietnameseProductProfile): LocalizedImage[] {
-  const sources = [profile.source.gallery?.[0] || profile.source.image, "/assets/dumbbell-production.webp", "/assets/resource-plate-finishing.webp"];
+  const sources = [profile.source.gallery?.[0] || profile.source.image, "/assets/dumbbell-production.avif", "/assets/resource-plate-finishing.webp"];
   return sources.map((source, index) => ({ id: `hinh-${index + 1}`, src: vietnameseImagePath(source, profile.viSlug, index), alt: index === 0 ? `${profile.name} cho phòng gym chuyên nghiệp` : index === 1 ? `Quy trình sản xuất thực tế của ${profile.name.toLowerCase()}` : `Kiểm tra bề mặt thực tế cho ${profile.name.toLowerCase()}`, caption: index === 0 ? `Hình ảnh sản phẩm ${profile.name.toLowerCase()} hiện có; cấu hình cuối cùng theo báo giá.` : index === 1 ? "Công đoạn sản xuất thực tế tại PowerBaseFit." : "Kiểm tra thực tế về bề mặt và độ hoàn thiện." }));
 }
 
@@ -324,7 +323,7 @@ export function vietnameseVersionForProfile(profile: VietnameseProductProfile): 
 }
 
 export function englishPathForVietnameseProduct(profile: VietnameseProductProfile) {
-  const section = profile.category === "dumbbells" ? "dumbbells" : profile.category === "plates" ? "weight-plates" : profile.category === "racks" ? "racks-benches" : "gym-accessories";
+  const section = profile.category === "dumbbells" ? "dumbbells" : profile.category === "plates" ? "weight-plates" : "gym-accessories";
   return `/products/${section}/${profile.source.slug}`;
 }
 

@@ -266,6 +266,8 @@ const profiles: ProductProfile[] = [
   }
 ];
 
+const activeProfiles = profiles.filter((profile) => profile.family !== "racks");
+
 const familyRoots = {
   pt: {
     dumbbells: ["/pt/produtos/halteres", "dumbbells-category", "Halteres profissionais"],
@@ -428,7 +430,7 @@ function spanishVersion(entity: ContentEntity, profile: ProductProfile): Localiz
 }
 
 export function withCommercialCompletionA(manifest: ContentManifest): ContentManifest {
-  const byId = new Map(profiles.map((profile) => [profile.id, profile]));
+  const byId = new Map(activeProfiles.map((profile) => [profile.id, profile]));
   const found = new Set<string>();
   const entities = manifest.entities.map((entity) => {
     const profile = byId.get(entity.id);
@@ -444,9 +446,9 @@ export function withCommercialCompletionA(manifest: ContentManifest): ContentMan
       }
     };
   });
-  const missing = profiles.filter((profile) => !found.has(profile.id));
+  const missing = activeProfiles.filter((profile) => !found.has(profile.id));
   if (missing.length) throw new Error(`Commercial completion references unknown entities: ${missing.map((item) => item.id).join(", ")}`);
   return { ...manifest, entities };
 }
 
-export const commercialCompletionAProfiles = profiles;
+export const commercialCompletionAProfiles = activeProfiles;

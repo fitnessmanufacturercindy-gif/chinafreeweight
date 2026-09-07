@@ -1,0 +1,162 @@
+ M .learnings/ERRORS.md
+ M .vercelignore
+ M app/(en)/factory/page.tsx
+ M app/(en)/layout.tsx
+ M app/(en)/manufacturer/weight-plate-manufacturer/page.tsx
+ M app/(en)/page.tsx
+ M app/(en)/products/dumbbells/page.tsx
+ M app/(en)/products/gym-accessories/[slug]/page.tsx
+ M app/(en)/products/gym-accessories/page.tsx
+ M app/(en)/products/page.tsx
+ D app/(en)/products/racks-benches/[slug]/page.tsx
+ D app/(en)/products/racks-benches/page.tsx
+ M app/(en)/products/weight-plates/[slug]/page.tsx
+ M app/(en)/products/weight-plates/page.tsx
+ M app/(en)/projects/page.tsx
+ M app/(en)/resources/[slug]/page.tsx
+ M app/(en)/resources/page.tsx
+ M app/components/DeferredHeroVideo.tsx
+ M app/components/LazyHeroVideo.tsx
+ M app/components/MegaMenu.tsx
+ M app/components/RootDocument.tsx
+ M app/components/SiteHeader.tsx
+ M app/components/i18n/IndonesianMirrorPage.module.css
+ M app/components/i18n/IndonesianMirrorPage.tsx
+ M app/components/i18n/LocalizedPageTemplate.tsx
+ M app/components/i18n/LocalizedSiteHeader.tsx
+ M app/components/i18n/RouteLanguageSwitcherClient.tsx
+ M app/globals.css
+ M app/products/dumbbells/productData.ts
+ D app/products/racks-benches/productData.ts
+ M app/resources/blogData.ts
+ M app/robots.ts
+ M app/seo-data.ts
+ M app/site.ts
+ M app/sitemap.ts
+ M app/sitemaps/blogs.xml/route.ts
+ M app/sitemaps/products.xml/route.ts
+ M app/sitemaps/sitemap-utils.ts
+ M build_b2b_freeweight_keyword_workbook.mjs
+ M content/i18n/commercial-completion-a.ts
+ M content/i18n/commercial-completion-bc.ts
+ M content/i18n/commercial-completion-c.ts
+ M content/i18n/dutch-manifest.ts
+ M content/i18n/french-core-pages.ts
+ M content/i18n/french-guides.ts
+ M content/i18n/french-products.ts
+ M content/i18n/german-core-pages.ts
+ M content/i18n/german-guides.ts
+ M content/i18n/german-products.ts
+ M content/i18n/indonesian-manifest.ts
+ M content/i18n/italian-manifest.ts
+ M content/i18n/korean-manifest.ts
+ M content/i18n/multilingual-manifest.ts
+ M content/i18n/polish-manifest.ts
+ M content/i18n/product-localization-batch-1-es.ts
+ M content/i18n/pt-br-commercial-pages.ts
+ M content/i18n/pt-br-existing-growth.ts
+ M content/i18n/pt-br-growth-blogs-a.ts
+ M content/i18n/pt-br-growth-blogs-b.ts
+ M content/i18n/pt-br-pilot.ts
+ M content/i18n/seo-expansion-es.ts
+ M content/i18n/seo-expansion-pt.ts
+ M content/i18n/spanish-blog-intent-sections.ts
+ M content/i18n/spanish-blogs-a.ts
+ M content/i18n/spanish-blogs-b.ts
+ M content/i18n/spanish-pages.ts
+ M content/i18n/swedish-core-pages.ts
+ M content/i18n/swedish-guides.ts
+ M content/i18n/swedish-products.ts
+ M content/i18n/vietnamese-core-pages.ts
+ M content/i18n/vietnamese-guides.ts
+ M content/i18n/vietnamese-products.ts
+ M content/manufacturer/rubber-hex-dumbbells-manufacturer.md
+ M content/multilingual-blogs/en/free-weight-reorder-batch-consistency.md
+ M content/multilingual-blogs/en/oem-free-weight-sample-approval-process.md
+ M content/multilingual-blogs/es/aprobar-muestra-oem-peso-libre.md
+ M content/multilingual-blogs/es/consistencia-lotes-peso-libre.md
+ M content/multilingual-blogs/pt-BR/aprovar-amostra-oem-pesos-livres.md
+ M content/multilingual-blogs/pt-BR/reposicao-pesos-livres-padrao-lotes.md
+ M content/resources/why-is-it-called-a-dumbbell.md
+ M eslint.config.mjs
+ M i18n/locale-registry.ts
+ M lib/seo/schema.ts
+ M next.config.mjs
+ M package.json
+ M public/assets/case-showroom.avif
+ M public/assets/hero-poster-mobile.avif
+ M public/assets/hero-poster-mobile.webp
+ M public/assets/homepage-concept.webp
+ M public/assets/products/racks-benches/compact-cable-power-rack.webp
+ M public/assets/projects/commercial-dumbbell-rack-zone.avif
+ M scripts/audit-multilingual-blog-expansion.ts
+ M scripts/quality-gate.mjs
+ M scripts/site-health-check.js
+ M scripts/submit-search-engines.mjs
+ M tests/i18n/commercial-completion-c-browser-smoke.ts
+ M tests/i18n/infrastructure.test.ts
+?? .artifacts/
+?? .codex_work/
+?? app/(en)/oem/OemInquiryForm.tsx
+?? app/(en)/oem/OemPage.module.css
+?? app/(en)/oem/page.tsx
+?? app/(en)/projects/compact-chrome-dumbbell-set/
+?? app/components/DeferredGoogleAnalytics.tsx
+?? app/components/FreeSampleCTA.tsx
+?? content/i18n/cable-attachment-compatibility-guide.ts
+?? content/i18n/commercial-growth-blogs.ts
+?? content/i18n/commercial-olympic-barbell-guide.ts
+?? content/i18n/compact-chrome-dumbbell-case-expansions.ts
+?? content/i18n/compact-chrome-dumbbell-case.ts
+?? content/i18n/dumbbell-head-retention-copy.json
+?? content/i18n/dumbbell-head-retention-guide.ts
+?? content/i18n/steel-dumbbell-oem-blog.ts
+?? content/i18n/weight-plate-tolerance-guide.ts
+?? docs/research/cable-attachment-buyer-research-2026-08-29.md
+?? docs/research/commercial-olympic-barbell-buyer-research-2026-09-01.md
+?? docs/research/compact-chrome-dumbbell-case-research-2026-07-27.md
+?? docs/research/dumbbell-head-retention-buyer-research-2026-09-02.md
+?? docs/research/weight-plate-tolerance-buyer-research-2026-08-31.md
+?? homepage-exhibition-buyer-module-desktop.png
+?? homepage-exhibition-buyer-module-mobile.png
+?? homepage-exhibition-buyer-module.png
+?? homepage-local-preview-desktop.png
+?? homepage-local-preview-mobile.png
+?? homepage-preview-1440x2400.png
+?? homepage-product-menu-preview.png
+?? oem-local-preview-desktop.png
+?? oem-local-preview-mobile.png
+?? public/assets/oem/
+?? public/assets/projects/compact-chrome-dumbbell-set-detail.avif
+?? public/assets/projects/compact-chrome-dumbbell-set-detail.webp
+?? public/assets/projects/compact-chrome-dumbbell-set.avif
+?? public/assets/projects/compact-chrome-dumbbell-set.webp
+?? public/assets/resources/cable-attachments/
+?? public/assets/resources/dumbbell-head-retention/
+?? public/assets/resources/olympic-barbell-buying/
+?? public/assets/resources/steel-dumbbells/
+?? public/assets/resources/weight-plate-tolerance/
+?? public/assets/shipping/
+?? scripts/audit-cable-attachment-guide.ts
+?? scripts/audit-commercial-growth-blogs.ts
+?? scripts/audit-commercial-olympic-barbell-guide.ts
+?? scripts/audit-customer-visible-copy.mjs
+?? scripts/audit-dumbbell-head-retention.ts
+?? scripts/audit-steel-dumbbell-blog.ts
+?? scripts/audit-weight-plate-tolerance-guide.ts
+?? scripts/verify-cable-attachment-rendering.mjs
+?? scripts/verify-commercial-olympic-barbell-rendering.mjs
+?? scripts/verify-dumbbell-head-retention-rendering.mjs
+?? scripts/verify-steel-dumbbell-rendering.mjs
+?? scripts/verify-weight-plate-tolerance-rendering.mjs
+?? seomator.toml
+?? tmp-home-3001-desktop.png
+?? tmp-home-3001-mobile.png
+?? tmp-home-3002-desktop.png
+?? tmp-home-3002-mobile.png
+?? tmp-home-desktop.png
+?? tmp-home-mobile.png
+?? tmp-localhost-debug.png
+?? tmp-localhost-mid.png
+?? tmp-open-check-3000.png
+?? tmp-open-check-3001.png

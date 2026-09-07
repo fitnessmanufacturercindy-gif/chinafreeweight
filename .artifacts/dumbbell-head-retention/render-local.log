@@ -1,0 +1,5 @@
+
+> powerbasefit-homepage@0.1.0 verify:dumbbell-head-retention
+> node scripts/verify-dumbbell-head-retention-rendering.mjs
+
+Dumbbell head retention rendering verified: 13/13 pages, desktop/tablet/mobile, AVIF/WebP images, links, canonical, hreflang, schema and RTL.

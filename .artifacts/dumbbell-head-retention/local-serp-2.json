@@ -1,0 +1,1436 @@
+{
+  "version": "0.1.20260831",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.6290 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09020337-2064-0139-0000-8001f64a686c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.4988 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "mancuernas hexagonales soldadura fricción",
+        "location_code": 2724,
+        "language_code": "es",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "mancuernas hexagonales soldadura fricción",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2724,
+          "language_code": "es",
+          "check_url": "https://www.google.com/search?q=mancuernas%20hexagonales%20soldadura%20fricci%C3%B3n&hl=es&gl=ES&ie=UTF-8&uule=w+CAIQIFISCYu8YTJ440IMEeyjaAeULOym",
+          "datetime": "2026-09-02 03:37:31 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 2430,
+          "pages_count": 1,
+          "items_count": 16,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.amazon.es",
+              "title": "PROIRON Mancuernas Hexagonal 24 kg - Pesas de acero ...",
+              "url": "https://www.amazon.es/PROIRON-PRKRD24K-Mancuernas/dp/B07V2FR725",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.es › PROIRON-PRKRD24K-Mancu...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Vida útil más larga: con la última tecnología de soldadura por fricción, la sólida conexión entre la cabeza de acero de la mancuerna y el mango garantiza que ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 108.99,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "108,99 €"
+              },
+              "highlighted": [
+                "con la última tecnología de soldadura por fricción"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.corpomachine.com",
+              "title": "Mancuernas hexagonales",
+              "url": "https://www.corpomachine.com/mancuernas-hexagonales-c102x1321005?srsltid=AfmBOookajV_-CBGq4wfCrvofZZOnkarJs1efN5u7s0fxfRCsIYcR3bM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.corpomachine.com › mancuernas-hexagon...",
+              "website_name": "Corpomachine",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Tienda fitness maquinas de gimnasio. Barbarian-line, MegaTec ... marcas líderes en maquinas para gimnasio en casa. Entrena en casa como los profesionales!!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.trendingfit.com",
+              "title": "Juego de Mancuernas Hexagonales de Caucho Pesas ...",
+              "url": "https://www.trendingfit.com/mancuernas/3488-juego-de-mancuernas-hexagonales-de-caucho-pesas-cross-training-negro.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.trendingfit.com › ... › Mancuernas",
+              "website_name": "Trendingfit",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mancuernas profesionales de diseño compacto, con un manejo óptimo y seguro. · Núcleo de acero con cubierta de goma presionada. · Capa de 1 cm de espesor de goma.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 2083.05,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "2083,05 €"
+              },
+              "highlighted": [
+                "Mancuernas profesionales de diseño compacto"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué es mejor, mancuerna hexagonal o redonda?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuál es la mejor marca de mancuernas ajustables?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué son las mancuernas hexagonales?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué marcas de mancuernas son buenas?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Mancuernas hexagonales | Fitness Tech FT-28023",
+              "url": "https://www.youtube.com/watch?v=0sqBUdA-siA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Más de 520 visualizaciones  ·  hace 1 año",
+              "website_name": "YouTube · Fitness Tech",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Descubre las Mancuernas Hexagonales de Fitness Tech y eleva tu entrenamiento! 🏋️‍♂️✨ ¿Buscas mancuernas que ofrezcan durabilidad, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Mancuernas Hexagonales"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "singularwod.com",
+              "title": "Mancuernas Crosstraining Profesionales | Hexagonales & ...",
+              "url": "https://singularwod.com/pages/mancuernas-crosstraining-profesionales?srsltid=AfmBOoq7tLhLai1dQ-OsO6nnn9SmrocfB6mp3345B-wj_rRMhK5tpp-n",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://singularwod.com › pages › mancuernas-crosstrai...",
+              "website_name": "singularwod",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mancuernas hexagonales : Son una de las opciones más prácticas para entrenamientos de fuerza y trabajo funcional. Su diseño hexagonal favorece la estabilidad al ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Mancuernas hexagonales"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]",
+              "domain": "www.tiktok.com",
+              "title": "Proceso de fabricación de mancuernas hexagonales",
+              "url": "https://www.tiktok.com/@paragon.machine/video/7403049790172515589",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Más de 121,4 mil visualizaciones  ·  hace 2 años",
+              "website_name": "TikTok · paragon.",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Keywords: fabricación de mancuernas hexagonales, proceso de mancuernas, mancuernas personalizadas en hierro, cómo hacer mancuernas de metal, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas hexagonales"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-02 03:37:31 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.titaniumstrength.es",
+              "title": "Mancuerna Hexagonal (2 - 60 kg)",
+              "url": "https://www.titaniumstrength.es/mancuerna-hexagonal.html?srsltid=AfmBOoqU6Kkl1KWw9iRnxfC-S3Hnn1ooEGAxNGmr8WapK-eLgVtzTkPR",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.titaniumstrength.es › ... › Peso Libre",
+              "website_name": "Titanium Strength",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Están totalmente cromadas para garantizar su durabilidad y resistencia a la oxidación. Esto las hace perfectas para un uso prolongado y resistente al desgaste ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 11.95,
+                "regular": null,
+                "max_value": 22.5,
+                "currency": "EUR",
+                "is_price_range": true,
+                "displayed_price": "Desde 11,95 € hasta 22,50 €"
+              },
+              "highlighted": [
+                "Están totalmente cromadas para garantizar su durabilidad y resistencia a la oxidación"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales ergonómicas con empuñadura cromada y revestimiento de caucho. Dispo en: 2x2, 2x4, 2x5, 2x6, 2x8, 2x10 kg y 12,5 a 30 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:0",
+                  "price": {
+                    "current": 33.95,
+                    "regular": 42,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "33,95 € 42 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "6100830002075976665",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit de mancuernas hexagonales engomadas de 2,5 a 60 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Donatif",
+                  "more_sellers": false,
+                  "seller": "Donatif",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:1",
+                  "price": {
+                    "current": 3951.65,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "3951,65 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2664812452326070908",
+                    "data_docid": "6224747521299828429",
+                    "gid": "14629394907194007037"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "PROIRON Rubber Dumbbells Odorless Steel Weights Set Men Women Home Gym 3kg 5kg 8kg 10kg 12kg 14kg 16kg 20kg 24kg Fitness Training Exercise Body",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller y más",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:2",
+                  "price": {
+                    "current": 48.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "48,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17861366580384154965",
+                    "data_docid": "11100749852255202546",
+                    "gid": "4310975425410024203"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Afw Mancuernas Hexagonal",
+                  "url": null,
+                  "domain": null,
+                  "description": "AllFreeWeight y más",
+                  "more_sellers": false,
+                  "seller": "AllFreeWeight",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:3",
+                  "price": {
+                    "current": 326.7,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "326,70 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16116413235216502030",
+                    "data_docid": "17729789560285136762",
+                    "gid": "218418361350149051"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales juego mangos moleteados",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:4",
+                  "price": {
+                    "current": 107.34,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "107,34 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9174749752927566235",
+                    "data_docid": "8597341757746264720",
+                    "gid": "14260687555539025187"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Set de mancuernas hexagonales 27.5kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica y más",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:5",
+                  "price": {
+                    "current": 799,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "799,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 30,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4944192124776767306",
+                    "data_docid": "14769289595547158037",
+                    "gid": "9338400006171340678"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Yes4All Juego de mancuernas hexagonales de neopreno",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es",
+                  "more_sellers": false,
+                  "seller": "Amazon.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:6",
+                  "price": {
+                    "current": 8.81,
+                    "regular": 10,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "8,81 € 10 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15008002611129216643",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales de hierro fundido mangos de goma moleteada con peso",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09020337-2064-0139-0000-8001f64a686c:7",
+                  "price": {
+                    "current": 113.35,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "113,35 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15569784943305930077",
+                    "data_docid": "15763842697462167836",
+                    "gid": "297697742018987312"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "2 Mancuernas Hexagonales Profesionales FF",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIAasqve8DkG2zkOqeg9TAIoPNSkLu5XCTnXlXISfd9Rqjh2ZDU6u1AmfjFyRORS8ljROD95-K9OAO9TG2bm5C01dH8QwLT_9y8bCLy9AhMO_VcEQKBRGkfA",
+                  "price": {
+                    "current": 127.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "127,40 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 15,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9420544204687634999",
+                    "data_docid": "5666588265421048295",
+                    "gid": "2263847943612791487"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "BIPOWER Mancuernas Hexagonales de Goma Profesionales - Pesas Gimnasio 1 a 50kg (Venta en pares)",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRux4Hm9jG4XNgmjHDxWjaRAUc01V8AvajzylJlYQbtp2aTUXYKS3UcRq6iwhr4yufF4R6fUD_zGb2go7mNTl0rzYzbsQLa0smGsRobtwY_FJDpj9aHotFOwA",
+                  "price": {
+                    "current": 59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "59,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "10485480205720448354",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Viok Sport Mancuernas Hexagonales",
+                  "url": null,
+                  "domain": null,
+                  "description": "Viok Sport y más",
+                  "more_sellers": false,
+                  "seller": "Viok Sport",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTxoR18k5D9f7BJh4cyjLtI-xsp4n8gXSxJFE7i218hhPXPNqTtDIBHmgXMTNfPzfxK06Fif-fZHtn1fJOobQOZpL9TPoRG9AxgbgqsG9grZ_2FH08Hcumv",
+                  "price": {
+                    "current": 574.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "574,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3854150760170741454",
+                    "data_docid": "8662194828174845363",
+                    "gid": "3205229458421248438"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par de Mancuernas Hexagonales de Hierro Fundido con Recubrimiento de Goma, 2 x 12,5 kg, Negro",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRxCtnksCvfdZ_8wF7NmlKTW8_4UjHko-Q3R5dpdhqBpXKQb81aAlmT02T9qBeG7mEj9EjqXeW09RzeePEDgwB_ALZxJzwelKMW6ad08rhA",
+                  "price": {
+                    "current": 155.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "155,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1184794116266868661",
+                    "data_docid": "16527438758208241011",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Juego de mancuernas hexagonales goma negra",
+                  "url": null,
+                  "domain": null,
+                  "description": "Vivol.es y más",
+                  "more_sellers": false,
+                  "seller": "Vivol.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRpT5UZ-6UUxg1CVA2LdrGer6sARUkwI8zScWQikWnyi6fTWtpEOJe6djWyuYtwTiYyj3_nTJ_qNkeSj7RZBjVU2EmXUU78UXRqRmBILIZ13mMvq6qQyvYNGw",
+                  "price": {
+                    "current": 600.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "600,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3427700316984512426",
+                    "data_docid": "14815780274465572188",
+                    "gid": "4550375086882481342"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales Profesionales - Pesas y Mancuernas con Agarre Cromado Antideslizante de Caucho (2.5 kg a 240 kg) - Individual, Par o Combo",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRV3rCjwqp9L7kbvr4ncfA3T-yBr_64xsq3ZwiTQ-hwHpYww7QunqwmeHmVV6LM33vAwQtqqC5m2lyQMKUcFmYz8zfdCOll3_mTXe4TclNt1rhl2O_eCro3",
+                  "price": {
+                    "current": 159.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "159,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 30,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7839501461983410973",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Homcom Juego de mancuernas hexagonales 2 x 12,5 kg de Hierro fundido",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQLR12HGk15BmY47bHRp7qOEOV4OIODBqKFPLr2iEYuWKv8TP1Fh4tFLryHyhJ4dY1EGcryPn6DqCxDef2mJt4L6dKahQ2Ui3V096KgWJvluGgmHCCD7WvM5w",
+                  "price": {
+                    "current": 74.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "74,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12450015045205820293",
+                    "data_docid": "4590123739485163345",
+                    "gid": "14218829720602486118"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales Ruster",
+                  "url": null,
+                  "domain": null,
+                  "description": "Ruster Fitness y más",
+                  "more_sellers": false,
+                  "seller": "Ruster Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR1uBfuAAimg0rk8lo4gwqxOCaObRfedT8h73DYLG5jc6ibd58q_CQJLvcaj5SWxYCkj8K07XLX6-27JYaus_B1YOo9H3nlHZKDCBbuWarikTYcLBH9eViW2eQ",
+                  "price": {
+                    "current": 56.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "56,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "7746716567981010879",
+                    "data_docid": "14094206926113120044",
+                    "gid": "11351814932463439045"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "hacienda.navarra.es",
+              "title": "PLIEGO DE PRESCRIPCIONES TÉCNICAS",
+              "url": "https://hacienda.navarra.es/sicpportal/mtoGeneraDocumento.aspx?DOA=260813154046D865A03F&DOL=2",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hacienda.navarra.es › mtoGeneraDocumento",
+              "website_name": "navarra.es",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "3.5 Mancuernas Hexagonales. Ítem. Descripción del material. Cant. Especificaciones técnicas. 24. Mancuerna hexagonal 5,0 kg. 8 ud. Cabezal hexagonal ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Mancuernas Hexagonales"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Hexagonal 1 kilo",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS1dHoB_ZRKAtnSORacGpKX4FWrgx2oI45BmzFd1RWYEJgP7D1R5OYbJB_Fj98jQfHKCiGXVrOtIfRYHqkcgtAdslj4O9S1v-NjEsiBAkEveXsG5erxW7LxSg",
+                  "price": {
+                    "current": 128.18,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "128,18 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16157384728734836959",
+                    "data_docid": "6694384999961765159",
+                    "gid": "4911446042750276277"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Goodbuy Fitness 2 Unidades Mancuernas Hexagonales",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com y más",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRgWO-4S-HdQCKoTMoNRPRNMBpxDKRi_4lBlgZi67udh207zEYU-e8NRvrp_LdGoKktojLy0rcQpWchC61YPd9ltwYorFKw42zDgCimI4ooZ2Uchp8jeK4RGA",
+                  "price": {
+                    "current": 56.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "56,40 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3668537586596422818",
+                    "data_docid": "16980446727628335905",
+                    "gid": "13273542719928299298"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales, juego de 2, hierro fundido, mangos moleteados, pesas, metal y goma, negras, 2 x 4 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTJoH_-huZbiD-PvzHK2iEr2UW-ER1CkaJxYYBOL4zpWEIO76UtfWpubf1KUHxbK98sQje0E-oN-p1RnGW-GvhwCPSCWiZyieeVx4Jnhx4sY-4MAPB5JsuK8g",
+                  "price": {
+                    "current": 67.26,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "67,26 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14363992742653381617",
+                    "data_docid": "7381680386962233414",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales peso 70 kg. (PAR)",
+                  "url": null,
+                  "domain": null,
+                  "description": "AllFreeWeight",
+                  "more_sellers": false,
+                  "seller": "AllFreeWeight",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTmcA8D768WajFtXiUa9atr7IZfo_11118yvx4VbD96kio_o1yWR_tTu59wR7sg-iSkDcxKRBlg3qY8zdNX_-W4Q7FxkzJyTANBdgAdSiy9zsHrL1kan8io",
+                  "price": {
+                    "current": 482.79,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "482,79 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16259046796826295386",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit de Mancuernas ajustables hexagonales con barra extensora y cierres de seguridad",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España y más",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRa96BI99RwedoHzXPCT3JbYj9PkXlet_U1SLEaHS6cHL2uDFOMaesICZKonxwdJY-6hdoTlm9H8FCiH1L_vf3dgN9IOLUWVkL61JLzvfsLufL4QYn-7PItaQ",
+                  "price": {
+                    "current": 35.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "35,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 25,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3545331700125436052",
+                    "data_docid": "3230439887237311506",
+                    "gid": "17566694686467475308"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Juego de Mancuernas HOMCOM Metal Goma,30,5x12,7x11 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRun7az7Gjn1wECdNmfGpGIO4evGiIH7gEXNzJsSXXGJO1rVdkXw90LvRLpoGQW-64Zcwmww3uu1cAP7rpJxg0nzF0-9gEsaCKOPtOTSo7L-9mPcfIpcqdK",
+                  "price": {
+                    "current": 51.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "51,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6479541425880567672",
+                    "data_docid": "8903366452379527286",
+                    "gid": "11323317229702458854"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales 2 x 12,5 kg de hierro fundido con agarre moleteado",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSyjXbcvpa64yrw3awM6o2879oy6eE-N2jWSuh88cSevVIV3Vr6yEa0OQW-ZKVxhZCl8_t2r0gHItp5yqpBAEsqtq7flncvi-AaIHVt39c",
+                  "price": {
+                    "current": 170.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "170,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6366360464393439252",
+                    "data_docid": "7505326842882733320",
+                    "gid": "1283819467357343274"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas hexagonales - entrenamiento de fuerza y fitness - hierro fundido y caucho - negras (10,5 x 10,5 x 26 cm)",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRFnyNbiWEUxPckzZ-cqqjy0sH9sh36X_6d9TgFRIJkLtrM7A7VaHL0uhBg2lEc-7ffdk657R1MLZk0YFyCcduOYNSGCpNiQxZE48txtWWQsfXZjXi436YzWA",
+                  "price": {
+                    "current": 69.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "69,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12212660217473776403",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 4,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Hexagonal 10KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Work-Force Fitness",
+                  "more_sellers": false,
+                  "seller": "Work-Force Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPzeg5DMpGeCfbxH2VINTkR8zKZDSEGrKsoxRQyY7qXQWXNTqSbLBUDMOSlVnH-vTr89KqGTxKUWseex2r2zUH4GxK9AF_pa2aiFMHerWsjTtCGkNPGch7iw",
+                  "price": {
+                    "current": 89.51,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,51 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16892052747869492208",
+                    "data_docid": "18214977740301220963",
+                    "gid": "11994323767950081848"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Garvee Set de Mancuernas Hexagonales 2-23 kg con Núcleo de Hierro Fundido y Revestimiento de Goma para Entrenamiento en Casa, Mango de Acero...",
+                  "url": null,
+                  "domain": null,
+                  "description": "Garvee ES",
+                  "more_sellers": false,
+                  "seller": "Garvee ES",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ4pC-hmnSR8P-LtPU9tbQspR-8MBBwxR6Ww6y1hwP7Wwt42eNmZu5pjgYNrYL8UuV9K5VWjRnNgOwJcs8Jliw1FisAMKqUlzUZxAU30C2ox8L-EnW0oeN4FQ",
+                  "price": {
+                    "current": 71.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "71,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.4,
+                    "votes_count": 65,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "8316169407145914728",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales 2x4 kg de Hierro Fundido con Mangos Ranurados Antideslizantes para Musculación y Fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR4sSQC3El3TbFEKfg1xR-MzwTUI12Gys3z6XxRJFceUq7ou3Uu3BpwusyAKUTOJFmgzjHBoKL4qVoztm96uoV7x2iKlk5tsCF5cecZCc3CltdqrYa7E7ft",
+                  "price": {
+                    "current": 60.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "60,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "15426524125744537936",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ION fitness Mancuernas Hexagonales",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sprinter y más",
+                  "more_sellers": false,
+                  "seller": "Sprinter",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCf_6cG8cbcefUFzAhkgywAK7C6H4CaA1DJqkzC4v_eeF8jxQ2h0u3Msk1xAhQjpraPuuNNdCacm1o_K_wE38JJLVFGlMOQRosdIAMZWMaM59NSORF8CC48A",
+                  "price": {
+                    "current": 25,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "25,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 9,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "7127601494423644316",
+                    "data_docid": "10820617551434613438",
+                    "gid": "14146958057832280972"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales Profesionales de Caucho Con Agarre de Cromo Ergonómico",
+                  "url": null,
+                  "domain": null,
+                  "description": "Miravia y más",
+                  "more_sellers": false,
+                  "seller": "Miravia",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpggAhZJPcGVWgZ5SmG34to95cYyyYbne8fWE2Rf2uVKj707X5OErHQWBzuknoolf4nlXtrcG7BYAqMy4PM_jdU0hQlmrtyFktRiP-Cv0FU8_TcdCgHJ8v",
+                  "price": {
+                    "current": 75.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "75,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 30,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5438466242273913416",
+                    "data_docid": "16989491227772512686",
+                    "gid": "13173104629220833962"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales peso 47.5 kg (par)",
+                  "url": null,
+                  "domain": null,
+                  "description": "AllFreeWeight",
+                  "more_sellers": false,
+                  "seller": "AllFreeWeight",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ6V653slMwBhns6UdrOA1eo9GGgyaZY-a_VFk6g6zI9gP_1ZR5qui9Hp_EDwo98XTiw4ORKifgWRXpTmz3axe7shlvI3ezB992qDgWD8kiUzPjpigBC1-gBg",
+                  "price": {
+                    "current": 142.49,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "142,49 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9427624003649376968",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuerna Hexagonal Softee",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sprinter y más",
+                  "more_sellers": false,
+                  "seller": "Sprinter",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNDGYGonskTe6MYUiMQ3iAEo5Ua2cSzeHNt29P2xrlqeQiJyHb_oXXoUb_z9Qhz-qYi032fB-4fYLt64oygSBddw3-E5QGi3SebEgna2sLg2TVFXBp2ZYEQUk",
+                  "price": {
+                    "current": 94.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "94,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15246998011746212809",
+                    "data_docid": "2110705004717995024",
+                    "gid": "6922850734711974697"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Mancuernas Hexagonales Engomadas 2",
+                  "url": null,
+                  "domain": null,
+                  "description": "maniboom.es",
+                  "more_sellers": false,
+                  "seller": "maniboom.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4Dy_vuGcltk_IwmFOBLJREdMDjnsQntuCCVRlJGBTOgpjUovmSuHquJU1CdRfskcJxOfHaA_CXizftU35NOhdRj6RudNDGA6R183PTjzn3PpxkKD1HTC6aw",
+                  "price": {
+                    "current": 124.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "124,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14154610501439449039",
+                    "data_docid": "15730513811436028742",
+                    "gid": "2491218644235090197"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]",
+              "domain": "es.wallapop.com",
+              "title": "Mancuernas hexagonales de segunda mano en WALLAPOP",
+              "url": "https://es.wallapop.com/deporte-y-ocio/mancuernas-hexagonales",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://es.wallapop.com › Deporte y Ocio › Mancuernas",
+              "website_name": "Wallapop",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Par de mancuernas hexagonales de 22.5 kg cada una. Ideales para entrenamientos de fuerza. - Diseño hexagonal para mayor estabilidad. - Empuñadura metálica para ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Par de mancuernas hexagonales de 22.5 kg cada una"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[27]/div[1]/div[1]",
+              "domain": "www.idealo.es",
+              "title": "Mancuernas Hexagonales - Pesas",
+              "url": "https://www.idealo.es/lista/115439392/mancuernas-hexagonales.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.idealo.es › lista › mancuernas-hexagonales",
+              "website_name": "idealo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "HomCom Set de mancuernas hexagonales de hierro fundido 2x17,5kg (A91-022V01BK). Mancuerna, Peso 2 x 17,5 kg, hierro fundido. 2 ofertas. desde89,99 €.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuernas hexagonales de hierro fundido 2x17,5kg"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 16,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Singular wod mancuernas",
+                "Mancuernas fijas",
+                "Mancuernas crossfit",
+                "Set mancuernas fijas",
+                "Comprar mancuernas",
+                "Banco singularwod"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,945 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.9521 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-256c3682261a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.8256 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "acabamento barra olímpica hard chrome zinco cerakote academia",
+        "location_code": 2076,
+        "language_code": "pt",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "acabamento barra olímpica hard chrome zinco cerakote academia",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2076,
+          "language_code": "pt",
+          "check_url": "https://www.google.com/search?q=acabamento%20barra%20ol%C3%ADmpica%20hard%20chrome%20zinco%20cerakote%20academia&hl=pt&gl=BR&ie=UTF-8&uule=w+CAIQIFISCc8ozOvHWZwAEWM-KfIGFVop",
+          "datetime": "2026-09-05 03:37:17 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 402,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "d1fitness.com.br",
+              "title": "Barra Reta Olímpica 1,20m - Hard Chrome",
+              "url": "https://d1fitness.com.br/products/barra-reta-olimpica-120m-hard-chrome?srsltid=AfmBOopTO9uH4fpSdWxXwQOdzOiD858i0FoBcHAuxACNlH-gdUTNkxbz",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://d1fitness.com.br › products › barra-reta-olimpica-...",
+              "website_name": "D1Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Acabamento 100% Hard Chrome : Alta resistência contra corrosão e desgaste. · Sistema com 4 Rolamentos: Rotação suave com 2 rolamentos de agulha e 2 esféricos.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 552,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 552,00"
+              },
+              "highlighted": [
+                "Acabamento 100% Hard Chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.mercadolivre.com.br",
+              "title": "Barra Olímpica Feminina 15 Kg Pintura Cerakote",
+              "url": "https://www.mercadolivre.com.br/barra-olimpica-feminina-15-kg-pintura-cerakote/p/MLB54127376",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mercadolivre.com.br › ... › Barras",
+              "website_name": "Mercado Livre",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "- Mangas com Hard Chrome e micro ranhuras – maior fixação das anilhas e durabilidade. - Grip padrão – firme e confortável, ideal para treinos intensos.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1596,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 1.596,00"
+              },
+              "highlighted": [
+                "Hard Chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.pistaecampo.com.br",
+              "title": "Barra Reta Olímpica 1,80 m Hard Chrome Profissional ...",
+              "url": "https://www.pistaecampo.com.br/products/barra-reta-olimpica-180-m-hard-chrome-profissional-envolst?srsltid=AfmBOopTL2tZCg-EkgNPYbSAGhN94ALmItPeXjWzdBc2u4nMnUXHpjEG",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.pistaecampo.com.br › Barras Olímpicas",
+              "website_name": "Pista e Campo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "O corpo em aço com revestimento Hard Chrome resiste ao desgaste diário e mantém a peça protegida contra oxidação superficial, enquanto a pegada recartilhada em ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hard Chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.magazineluiza.com.br",
+              "title": "Barra olímpica com cerakote e hard cromo negro com 4 ...",
+              "url": "https://www.magazineluiza.com.br/barra-olimpica-com-cerakote-e-hard-cromo-negro-com-4-rolamentos-220-cm-the-powerful-bar-20-kg-rae-fitness/p/hhj66gc250/es/bamu/?srsltid=AfmBOopqwhPGkobTlAORVFPHUrT8FtNfDAYPGl5gYxpHXnKux_QGoG17",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.magazineluiza.com.br › bamu",
+              "website_name": "Magazine Luiza",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Foi pensada para suportar cargas mais altas, indicada para atletas de alta e média performance, perfeita para exercícios de maior intensidade como LPO. O hard ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Foi pensada para suportar cargas mais altas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.ultrawod.com.br",
+              "title": "Barra Olímpica é aqui. Qualidade atestada",
+              "url": "https://www.ultrawod.com.br/equipamentos-de-ginastica/lpo/barras-olimpicas?amp&loja=450774&categoria=805&variants%5B0%5D=Modelo%7C%7CElite+Series&srsltid=AfmBOophMCP9ouFqH6J3lOFh30GBqrk_1qmxLB6zB5yoQD7I9KzL-5ur",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ultrawod.com.br › lpo › barras-olimpicas",
+              "website_name": "Ultrawod",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "A Barra Olímpica Pro Ultrawod possui acabamento em Hard Chrome em todo o eixo da barra e também nas mangas. Desta forma dá ao atleta, durante os treinos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "possui acabamento em Hard Chrome em todo o eixo da barra e também nas mangas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "ropestore.com.br",
+              "title": "Barra Olímpica Cerakote Masculina 20kg BC-20H",
+              "url": "https://ropestore.com.br/products/barra-olimpica-masculina-20kg-bc-20h?srsltid=AfmBOoqodsUbP0tHDIIRIONBWjNMKgOJgvYHZL8PYYmmN2L0HUe-doeW",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ropestore.com.br › products › barra-olimpica-ma...",
+              "website_name": "Rope Store",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "As mangas recebem revestimento em Hard Chrome e a barra central em Black Ceramic, garantindo maior vida útil. Ideal para exercícios intensos, como ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1593,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 1.593,00"
+              },
+              "highlighted": [
+                "mangas recebem revestimento em Hard Chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.raefitness.com.br",
+              "title": "Barra Olímpica Feminina de 201 cm 15kg Hard Chrome com 4 ...",
+              "url": "https://www.raefitness.com.br/cross/barras/barra-olimpica-feminina-de-201-m-15kg-hard-chrome-com-4-rolamentos-2-buchas-e-aco-45cr-700-lb-the-bar-rae?srsltid=AfmBOorYs3nGcUjnAYP0NluoICy_ve4-Y0Va3_ihTrs07v_No92ZbF-Q",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.raefitness.com.br › Peso livre › Barras",
+              "website_name": "raefitness.com.br",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Qualidade superior com construção robusta e durável. · Design feminino elegante e funcional. · Rotação suave e precisa para levantamentos mais eficazes.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1340.72,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 1.340,72"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "gears.com.br",
+              "title": "Barra Olímpica Hard Chrome | Cross Training",
+              "url": "https://gears.com.br/produto/barra-olimpica-hard-chrome/?srsltid=AfmBOoouHnCI1IsrxFdjBC50yl3qdUTZYTSeX6Gv77KhXBV9LLcsOFbA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://gears.com.br › Loja",
+              "website_name": "Gears Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Barra Olímpica Hard Chrome feitas em aço, zinco e prata. Suporta treinos intensos e impactos, ideal para LPO, Powerlifting e Cross Training.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Barra Olímpica Hard Chrome feitas em aço, zinco e prata"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.chromafitness.com.br",
+              "title": "Barra Olimpica Preta Hard Chrome 2010mm Diam 25mm",
+              "url": "https://www.chromafitness.com.br/produto/barra-olimpica-preta-hard-chrome-2010mm-diam-25mm-490?srsltid=AfmBOor2nHV4v6tf9HdvPp66dfDc4UWNiPnjpIuKy7WkW29tGTnfGhiT",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.chromafitness.com.br › produto › barra-oli...",
+              "website_name": "Chroma Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Barra Olímpica Feminina 2010mm, 15kg 25mm de diametro Barra em hard chrome negro com mangas em hard chrome prata 8 rolamentos (4 de cada lado) Recartilhado ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1690,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 1.690,00"
+              },
+              "highlighted": [
+                "Barra Olímpica",
+                "hard chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "d1fitness.com.br",
+              "title": "Barra Olímpica Masculina - HARD CHROME LPO TOP",
+              "url": "https://d1fitness.com.br/products/barra-olimpica-masculina-hard-chrome-lpo-top?srsltid=AfmBOor3fiXxUKw_g_hmDeqaUnVSrLuiLu-iuIJMlp3mUxDblqJ4qmd1",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://d1fitness.com.br › products › barra-olimpica-mas...",
+              "website_name": "D1Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Com acabamento 100% Hard Chrome e tratamento térmico no aço, a barra oferece resistência excepcional contra desgaste, corrosão e deformações. Seus 8 rolamentos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 2058,
+                "regular": null,
+                "max_value": null,
+                "currency": "BRL",
+                "is_price_range": false,
+                "displayed_price": "R$ 2.058,00"
+              },
+              "highlighted": [
+                "Com acabamento 100% Hard Chrome"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Masculina 220cm-20kg-28,5mm Ø",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSKulz20Tp00UKAQlMweozOgbCbQwLPqxdtplRgubN4VX-TEx--77Pz72ad_S0N45BD7U95mTC5NyD3niGpGUcPQhKrBue-ZEA1Y8dERkws7h8a0-aTYrI",
+                  "price": {
+                    "current": 1672,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.672,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3694188009245860516",
+                    "data_docid": "17136415549562935489",
+                    "gid": "1035271736547087827"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Rope Store Barra Olímpica Cerakote Masculina 20kg BC-20H",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rope Store",
+                  "more_sellers": false,
+                  "seller": "Rope Store",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfMiNQQYvPskmFHok4KIBsue1O_1J2pnApAzgE5cBH5ak9XP_USrGfkKJvzPO3VrO9_IYrfyI0EPspgDoeWUks8-mvfS6xfvyQ4Ue-lrbPhZMqQErGauMo",
+                  "price": {
+                    "current": 1593,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.593,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1349612553536442230",
+                    "data_docid": "1670548143700094368",
+                    "gid": "6670070678973899027"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra H Romana Olímpica Hard Chrome Bíceps Tríceps D1fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon e mais",
+                  "more_sellers": false,
+                  "seller": "Amazon",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTi8-xIE1hWYhydq0pK1bzjN-0MHMCZx10RJzznbXzskbQcSQ3cjPNQwYHQZzOOEj-m2oO2q7KabSneIVMkxnt8QtWN9D6npuvBkrM-IqwNOXheh-HwOpjH",
+                  "price": {
+                    "current": 729,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 729,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10662401101132018229",
+                    "data_docid": "823954306423021901",
+                    "gid": "13466887605305269907"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Barra Reta Olímpica Hard Chrome 120cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTh7ujgCH1WmgL19po8da_LzdA4YY6GRfJwvl9SkcsIw4YjpqueFeBY8ABE3HUpg0kzNvPDkLIgZHPiq3OvZJVzPM2DTiH2dCTEmZpUn3UHkFIbj3umNPINkA",
+                  "price": {
+                    "current": 552,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 552,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1418610813564787502",
+                    "data_docid": "10049890753216992855",
+                    "gid": "8050742180363653147"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Cromada",
+                  "url": null,
+                  "domain": null,
+                  "description": "MegaGym",
+                  "more_sellers": false,
+                  "seller": "MegaGym",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRZBcC_WZo0pesU-3GIY6McQujOSIFU_2WW78eNtsMHZm4FJmjCZxTCLrgheClRdzHSqaNA3cfiBWNX1J0P1l8Ly4n51qDjFnZUfAQNM8CS78F-D1WWZ4hV",
+                  "price": {
+                    "current": 999,
+                    "regular": null,
+                    "max_value": 1007,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 999,00 Preço normal: R$ 1.007"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.5,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16754427100215147141",
+                    "data_docid": "3990645857059613773",
+                    "gid": "13011281266286215055"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit Barras Olímpicas Cerakote 15 kg + 20 kg – BC-15H e BC-20H",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rope Store",
+                  "more_sellers": false,
+                  "seller": "Rope Store",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQGY7J72MiPrj7Bn8CBIk6i4iMsKP_KOfQ0zGE3wcs-adGWXRemsMw6oBDt4VOsh9PZcRvjW7IFcCwaX2mcjMq5nD_u7-py6cEYh1cXca2O",
+                  "price": {
+                    "current": 2949.75,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 2.949,75"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "8886348869995915755",
+                    "data_docid": "18206626102354447604",
+                    "gid": "17269064226175970767"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Barra W Olímpica Hard Chrome Musculação",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRI2_4s0j4DeJTu7FwD1EA-wJ74PTIF8IduvaRs0EGwF5GfqNT4MWuftostbs2DmIvueUhPo3XCcUhN_NoDU_yfEsYVAaCjU6LpotiHsQCImPuEGMsI7AnT6Q",
+                  "price": {
+                    "current": 623,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 623,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9366876745174125696",
+                    "data_docid": "9572729943272246842",
+                    "gid": "14101828669814067475"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olimpica Preta Hard Chrome 2010mm Diam 25mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Chroma Fitness",
+                  "more_sellers": false,
+                  "seller": "Chroma Fitness",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSAv36-Nl8TchliZxl9DlnLYPH0Ib-djqKuIksKMXHlPtIleKBahbmK8bi_T_cF_g0N-0VbnE7Exm_g2g9XRaHnuCsEYPtUK1N759nSq88",
+                  "price": {
+                    "current": 1690,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.690,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9440229881908425930",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Reta 2.20M Cromada Com Presilha Olímpica Kikos",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kikos Fitness e mais",
+                  "more_sellers": false,
+                  "seller": "Kikos Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7fAG1R-kosuFcizDkdod2sNTi7KVKQ179ePecC8RYS90Uhwk8YTLc2o3KQ7XfPhrWKwM7vPsF56qKvJ9y5L1SVRt67W4xvnYr8EJTQCXcIN3zjIZb2YRp6A",
+                  "price": {
+                    "current": 1524.8,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.524,80 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13480253187543974103",
+                    "data_docid": "16435460709621051860",
+                    "gid": "2626100222997723697"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kit Barra Reta Maciça Cromada 1,80m + Barra Reta Maciça Cromada 1,20m",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcThNlV-SFMjQ9Es8xCp70XbwMG1pDNx3MTcb7ufrvuTwzuJUlZLwrg5TZOTB33gjwYGBFScib7o0CP8EoVlYzzB5HQkNMuRL5Kk9FIOcZ2uXuspI1wQMUX8",
+                  "price": {
+                    "current": 200,
+                    "regular": null,
+                    "max_value": 374,
+                    "currency": "BRL",
+                    "is_price_range": true,
+                    "displayed_price": "R$ 200,00 R$ 374"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "337416093013037892",
+                    "data_docid": "8806844189581973910",
+                    "gid": "2596253965240017143"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Hexagonal aberta com Ponteira Olímpica Cromada",
+                  "url": null,
+                  "domain": null,
+                  "description": "Equipamentos Line Fitness",
+                  "more_sellers": false,
+                  "seller": "Equipamentos Line Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTpEy9joPBOECbTgZXkxzYC_YO4uwznkxYsRR1GFxL_-DYgCxYEZZXt_GuHYSVkEzO91HT3WxW1wqF3EOrzM-RAOUnQHdw3JIgSYg2JJapvhPsZH19A09JG2g",
+                  "price": {
+                    "current": 825.84,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 825,84 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6621044203011559230",
+                    "data_docid": "8996907993182471218",
+                    "gid": "15011392070550260844"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olimpica Preta Hard Chrome 2200mm Diam 28mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Chroma Fitness",
+                  "more_sellers": false,
+                  "seller": "Chroma Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRroMniO4Om4py_rgUCW_nqR0TiFNXgWA8TNPppoDVdYyg_EMnWKH-r9LmvcZNGqByPFsO6eM2csDz3THeykUHlMVf9a_XlRcyiRe3PBgg",
+                  "price": {
+                    "current": 1750,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.750,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12000187227582992890",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Barra Olímpica Feminina",
+                  "url": null,
+                  "domain": null,
+                  "description": "D1Fitness",
+                  "more_sellers": false,
+                  "seller": "D1Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSegK0RpR2OVLDGz7WyhNxat6IsT0tdeNy00C2_4L2kCd13gbWj-6OTWEA7C_fSWpMXw5EL9uHf4n8A3whMVjy1Noj8st8uWqBJGg9EB7773g_yMZPsA87y",
+                  "price": {
+                    "current": 2010,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 2.010,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15777645484056441697",
+                    "data_docid": "11559947450748817197",
+                    "gid": "8227120107137496044"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "D1Fitness Barra Olímpica Feminina 201cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Magalu",
+                  "more_sellers": false,
+                  "seller": "Magalu",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQchi0JbgvLcU8zG3-oG_Cb_RgS-GdxpcML0NK8awKclcjew351bfSdOshK-a1Qc-SDHNcH0JyphgDxTMY2OXt5lZlmykmSeIzaD7HuP7WI",
+                  "price": {
+                    "current": 1644,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 1.644,00 agora"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9910742599808285401",
+                    "data_docid": "14516310095216608157",
+                    "gid": "12099068045071260313"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Rope Store Kit 2 Barras Olímpicas Femininas 15 kg Cerakote – BC-15H",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rope Store",
+                  "more_sellers": false,
+                  "seller": "Rope Store",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSFgYqr3sfJeXBBT1dUcsKrZhOBhOrXzau6BDJvhBxDfh4PMk8ElYKnZjKKKT13RCdM_s0u2MaVp-9stsD52h_KdRv9wsAsKLa_UlDv1fc",
+                  "price": {
+                    "current": 2872.8,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 2.872,80"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11240897335959256822",
+                    "data_docid": "5474756226948520394",
+                    "gid": "5038392621175904394"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Hexagonal Olímpica Pintada Pegada Aço Inox Ponteira Cromada",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rope Store",
+                  "more_sellers": false,
+                  "seller": "Rope Store",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSgFfj-xUmy75NouzxEWP_ekMVixzSZcqdVZq_GJLsUztCnZ2gbqM8ZDEBbGOUO9DvA_WcgQqfQhaBod38rh4WB3rERjThgITEa088hkG1443XdwajoeWlnYQ",
+                  "price": {
+                    "current": 896.85,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "BRL",
+                    "is_price_range": false,
+                    "displayed_price": "R$ 896,85"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17507336958022770098",
+                    "data_docid": "12424554857996822974",
+                    "gid": "1245005815712870562"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Kit anilha e barra olimpica",
+                "Barra d1 fitness",
+                "Barra H Olímpica",
+                "Anilha Olímpica 20kg",
+                "Barra Olímpica 20kg Powerlifting",
+                "Barra 10kg crossfit",
+                "Suporte Para Barra Olímpica",
+                "Anilha Olímpica 2,5kg"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

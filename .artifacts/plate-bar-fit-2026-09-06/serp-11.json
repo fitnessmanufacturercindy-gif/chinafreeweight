@@ -1,0 +1,1278 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.9329 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-a06a175f4162",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.8100 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "halterschijf boring 50 mm 2 inch passing halterstang",
+        "location_code": 2528,
+        "language_code": "nl",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "halterschijf boring 50 mm 2 inch passing halterstang",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2528,
+          "language_code": "nl",
+          "check_url": "https://www.google.com/search?q=halterschijf%20boring%2050%20mm%202%20inch%20passing%20halterstang&hl=nl&gl=NL&ie=UTF-8&uule=w+CAIQIFISCbvkh9vDCcZHEZ8Kvf_OdaGz",
+          "datetime": "2026-09-06 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Tunturi",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=nl&gl=NL&q=tunturi+halterschijf+boring+50+mm+2+inch+passing+halterstang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJvCUx46aW_wUsxt1M1KD-6equRqan-vkYAKqKZH4UPTKpml4_PlZWvuTVixoQJdxZ-gdfgDtwNs_RAmjbKjuncB4FAwUAYUIMo0mKoVJd5syXeaeOxhNWqQiUVDxNuIXYkR5wud6B9QDlakzIcqyXqKlHrmF1S8MlPewp6ntPh1jXRtyChw8HjOSC5YANbKDpNUaXNTWJGxRFru7xiKeUlCdG0rKn7vXf87E8dROKa756H2o&sa=X&ved=2ahUKEwj4qOi_g9mWAxVjxAIHHYqTIPoQxKsJKAB6BAgXEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Gorilla Sports",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=nl&gl=NL&q=gorilla+sports+halterschijf+boring+50+mm+2+inch+passing+halterstang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rERqT1vF4HhOD7QuyJinQWzovDJ8NIl-5dfR_5oV-CoTUHvMZ3bO9niLbqLHtPW_gT0YeYabhpF0Z-uODpjjOAB4yj6_Bk7R8bQRZPgt3B9r3w91qsDGgISs2BVpGxRi4J_wnjo0_U1yDNgskka5NHBQ8GOc43IKcCkcjMAvOw-iQml__ccy5_51RkI-FEAeKO-9D_uMnJ-lDAWuN_dEwYtpqqiVxFcNqRFG2xbBc9xmGYlbz0SvhijQRHUsW20s80mLf5Q&sa=X&ved=2ahUKEwj4qOi_g9mWAxVjxAIHHYqTIPoQxKsJKAF6BAgYEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Body-Solid",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=nl&gl=NL&q=body-solid+halterschijf+boring+50+mm+2+inch+passing+halterstang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rwqTxzvZZduQ2loy8Y8GyvvWWWq6-m4HQDEHHuXkHRsGXKdvJ5J7OaN-viQxHIUzJf4Tgl0fpYs3XMuq0XQem5JyPIWBiZNGCpVkiZ1C5VPg0Y8P3z5xc4Xw9KdG-2ZUiBBpF0nqRWhcoo4oxKwzoDr7XZGOBYUMuQICE9Amgcwprb09lH53Ks6G8VxK9C6uC50DRwA8uukAs_lnc8kwrriUDlnbHETbFx9JhR6i-JGaUxbea&sa=X&ved=2ahUKEwj4qOi_g9mWAxVjxAIHHYqTIPoQxKsJKAJ6BAgeEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Price",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=nl&gl=NL&q=price+halterschijf+boring+50+mm+2+inch+passing+halterstang&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rnSV4kgRTrTT_MeulS2IAGVfrK8eFhijFjI_L8zYqIX86E8COiwovCAmVvxiOZ0nr_g8PNC1vdhiN6IojmoQBpMnKNgVE-vPXcB-LBAdVJLv1XcHcSgSlYPtUUeYTkQftQpH0Bv2mYSmO4ffLA2i6I2PrDxABnJxi8xO3JccDwq9VJ9-vWODYqJt5PUnfWDLDUcg1QHV7fYBuKnrsabrMbv-4Gz4&sa=X&ved=2ahUKEwj4qOi_g9mWAxVjxAIHHYqTIPoQxKsJKAN6BAgZEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "popular_products",
+            "compare_sites"
+          ],
+          "se_results_count": 1510,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "gym-masters.nl",
+              "title": "Wat is het verschil tussen halterschijven 50MM vs 30MM?",
+              "url": "https://gym-masters.nl/blogs/product-reviews/halterschijven-50mm-vs-halterschijven30mm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://gym-masters.nl › Product Reviews",
+              "website_name": "gym-masters.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Halterschijven 30MM worden gebruik voor standaard halterstangen en halterschijven 50MM worden gebruikt voor olympische halterstangen. Wat het meest geschikt ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Halterschijven",
+                "halterschijven 50MM"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.betersport.nl",
+              "title": "Olympische Halterschijf 50 mm - Focus Fitness Hamerton",
+              "url": "https://www.betersport.nl/olympische-halterschijf-50-mm-focus-fitness-2-5-kg.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.betersport.nl › olympische-halterschijf-50-m...",
+              "website_name": "Betersport.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De Olympische Halterschijf Hamerton 2,5 kg van Focus Fitness is een stalen halterschijf voor olympische halterstangen met een diameter van 50 mm.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 7.95,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 7,95"
+              },
+              "highlighted": [
+                "Halterschijf",
+                "2",
+                "halterschijf",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "fitwinkel.nl",
+              "title": "Halterstangen 50 mm | Bekijk ons aanbod",
+              "url": "https://fitwinkel.nl/collections/halterstangen-50mm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fitwinkel.nl › Krachtartikelen › Halterstangen",
+              "website_name": "Fitwinkel",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De sleeve-diameter van 50 mm is de olympische standaard. Dat betekent dat alle schijven met een 50 mm boring op elke stang in dit assortiment passen, ongeacht ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "50 mm",
+                "50 mm boring"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.fitshop.nl",
+              "title": "Taurus Premium halterstang 50 mm zwart staal",
+              "url": "https://www.fitshop.nl/taurus-premium-halterstang-50-mm-zwart-staal-barbell-halter-tf-ob86b",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitshop.nl › taurus-premium-halterstang-50...",
+              "website_name": "Fitshop.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De Taurus Premium Halterstang 50 mm is 220 cm lang en geschikt voor gebruik met halterschijven met een boring van 50 mm. Het oppervlak van de halterstang is ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 11,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 279,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 279,00"
+              },
+              "highlighted": [
+                "geschikt voor gebruik met halterschijven met een boring van 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.victormooren.nl",
+              "title": "Beste Halterschijven Kopen: Top 7 Keuzes [2025]",
+              "url": "https://www.victormooren.nl/fitness-producten/beste-halterschijven-kopen/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.victormooren.nl › Artikelen",
+              "website_name": "Victor Mooren",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "14 jan 2025 — 50-51mm halterschijven komen het meeste voor. Deze zijn geschikt voor standaard olympische halterstangen (50mm boring). · 30-31mm halterschijven ...",
+              "pre_snippet": "01/14/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "50",
+                "halterschijven",
+                "50mm boring"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-01-14 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Toorx Rubber Olympische Halterschijf 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "bol.com en meer",
+                  "more_sellers": false,
+                  "seller": "bol.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:0",
+                  "price": {
+                    "current": 21.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 21,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "847944454045995398",
+                    "data_docid": "9532056665315119001",
+                    "gid": "5508763121813721451"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "AJ-Sports Olympische Halterschijf 2,5 kg – Gietijzer – 50 mm Boring – Tri-Grip met 3 Handgrepen – Zwart – Per Stuk",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aj-Sports",
+                  "more_sellers": false,
+                  "seller": "Aj-Sports",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:1",
+                  "price": {
+                    "current": 14.99,
+                    "regular": 20,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 14,99 € 20"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14851739204480576029",
+                    "data_docid": "1999845817224176206",
+                    "gid": "17612951251648616239"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Gietijzeren Halterschijf 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness Seller",
+                  "more_sellers": false,
+                  "seller": "Fitness Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:2",
+                  "price": {
+                    "current": 4.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 4,50"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 99,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4640216000050852191",
+                    "data_docid": "7859420131274960866",
+                    "gid": "4621188625170914007"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Taurus Gerubberde 50 mm Halterschijven",
+                  "url": null,
+                  "domain": null,
+                  "description": "beslist.nl en meer",
+                  "more_sellers": false,
+                  "seller": "beslist.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:3",
+                  "price": {
+                    "current": 5.49,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 5,49"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15975910899702751256",
+                    "data_docid": "7181229030344332231",
+                    "gid": "6461462494275666801"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "marbo sport Olympische halterschijven set Olympic weight plates",
+                  "url": null,
+                  "domain": null,
+                  "description": "MarboSport.nl en meer",
+                  "more_sellers": false,
+                  "seller": "MarboSport.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:4",
+                  "price": {
+                    "current": 139,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 139,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14775600975855369794",
+                    "data_docid": "18361745419967563386",
+                    "gid": "4394219111089772313"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Body-Solid Olympische Halterschijf 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Betersport.be en meer",
+                  "more_sellers": false,
+                  "seller": "Betersport.be",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:5",
+                  "price": {
+                    "current": 11,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 11,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4375014055346196343",
+                    "data_docid": "549571768749158835",
+                    "gid": "4014599422240024443"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bodybuilding schijf HMS",
+                  "url": null,
+                  "domain": null,
+                  "description": "bol.com en meer",
+                  "more_sellers": false,
+                  "seller": "bol.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:6",
+                  "price": {
+                    "current": 93.49,
+                    "regular": 161,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 93,49 € 161 & meer prijzen"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13088720633205569334",
+                    "data_docid": "3866499299460525380",
+                    "gid": "872187162948157283"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VirtuFit Olympische Gietijzeren Halterschijf",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitwinkel.nl en meer",
+                  "more_sellers": false,
+                  "seller": "Fitwinkel.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:7",
+                  "price": {
+                    "current": 69.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 69,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5890149290254864861",
+                    "data_docid": "10061482845503050001",
+                    "gid": "5315361095586913139"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "title": "Productsites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Halterschijven 50mm - Goedkope halterschijven kopen? | Korting tot 35%",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575353/r/halterschijven_50mm/",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:8",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Halterschijven 50 kg kopen? ✔️ Tot 0% korting op Halterschijven!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575353/c/gewicht_halters~598496",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:9",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Barbell schijven - Gewichten kopen? | Korting tot 42%",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284/r/barbell_schijven/",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:10",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Halterschijven 1 kg kopen? ✔️ Tot 30% korting!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575353/c/gewicht_halters~598484",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a06a175f4162:11",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Olympische halterstang kopen? ✔️ Tot 44% korting!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575352/c/t_halterstangen~6985073",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAq0zfVDNCL6cOd2zYyb7RFZrPt2Ef6I&s=0",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Halterschijven kopen? | Laagste prijs",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575353/c/winkel~19275843",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nKwBco1ZiH_Li3hqPRle6xzXgJxHL6Y&s=0",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Zilveren - Plastic Sport & outdoor",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/c/kleur~401070~~materiaal~484267",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhK38A8HoIRqPCkaStgPzGWz0DEjWg8qo&s=0",
+                  "source": "Beslist.nl"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.framo.nl",
+              "title": "Halterschijven 50 mm",
+              "url": "https://www.framo.nl/oefenmateriaal/oefengewichten/halterschijven-50mm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.framo.nl › Oefenmateriaal › Gewichten",
+              "website_name": "FRAMO sport B.V.",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Halterschijven met 50 mm boring zijn bedoeld voor halterstangen met een passende olympische opname. Controleer daarom altijd of de boring van de schijf, de ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Halterschijven",
+                "50 mm boring",
+                "boring"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Marbo Sport Olympia gegoten halterschijven set gewichten met ø50 / 51 mm boring",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon en meer",
+                  "more_sellers": false,
+                  "seller": "Decathlon",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR7sDlHg2RHIx9bygb5M6VoAYaTeDiMPUFpgPuxSKdxkoGay56o05uGHNa89muFHJTcLKOtxoYxbkd-s1gUuNaAm-P3uWzkgSX090shD2Tb",
+                  "price": {
+                    "current": 264.34,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 264,34"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13265557281094535766",
+                    "data_docid": "13197911740605874308",
+                    "gid": "12939610854639227018"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Pure2Improve Halterschijf",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sportamundo.com en meer",
+                  "more_sellers": false,
+                  "seller": "Sportamundo.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcShm6uVwTfCtMG4P-MkstRd6KbpibqVxTpvkRJxCx1mukCDPfe7ofk2w80ShNyiZgC5FVOXqe419SXv6DYgsrKVlR1AUBTlb9s9o9-HXBJv",
+                  "price": {
+                    "current": 13.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 13,95"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9037350462075891053",
+                    "data_docid": "171773958272656434",
+                    "gid": "10737937079123177278"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Rubberen 4-Grip Halterschijf 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness Seller",
+                  "more_sellers": false,
+                  "seller": "Fitness Seller",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8CRHGgj6F3w0rbEf9b65H6z6AzxfqGH3iOiZQkkcZWxQ2R3zHR3utlPTFLukQjBf1TfRDQD4baTFG8FivAjr-MG3Sd63o3zGl50bRWqapLXzeP5_TW5bmmw",
+                  "price": {
+                    "current": 42,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 42,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 35,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11539569134343004108",
+                    "data_docid": "11170149935233618813",
+                    "gid": "16063639462477680214"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Halterschijf Olympisch",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports en meer",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6aeYhxJXnXpLarSh1XN_Eyf4huf61TqlD6zEch5j4MudfNbpHnkeEiWmlwAyzViSVZ2J6dALAnuConmggUXUru3DC9PV1fEH_FR9tKS37PaC3iZRU5XfkCw",
+                  "price": {
+                    "current": 34.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 34,99"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 490,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10682361164662743302",
+                    "data_docid": "17638747952062696319",
+                    "gid": "239278195663412990"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "AJ-Sports Halterschijf halterschijven 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aj-Sports",
+                  "more_sellers": false,
+                  "seller": "Aj-Sports",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT1CvtZKk9WnMlllm0pwOGrEBzmKaW_kjLl1y65xbU4k3_9EGC_QH62ycQMol9o3NlNbbFjYAN8u8p0OUFzcI_MqFyTde1SAPHZhRThF7WFHV7Z5Ee--MObjw",
+                  "price": {
+                    "current": 14.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 14,99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4869115045468027237",
+                    "data_docid": "13412895965872657278",
+                    "gid": "3422837373749834736"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Gewichtsschijven Olympisch Halterschijven",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports en meer",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRu1J_QHqM_oB4a_Xk1hNkGBUdMNW1rNGl86WtNzP9aoMbt9A02x8T_UVNt0oX_3fTD_8OdUKR14vCNP4QmyqkRhfYnABkHcxIc_A791M0xUDMoVH7cCUVJxg",
+                  "price": {
+                    "current": 64.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 64,99"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.1,
+                    "votes_count": 139,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "14750512751215342718",
+                    "data_docid": "7799520640249584064",
+                    "gid": "15607713305318092432"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Polyurethaan 4-Grip Halterschijf 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness Seller en meer",
+                  "more_sellers": false,
+                  "seller": "Fitness Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOYfJbePCSVrxlIwhkfuVfyA3zi7GZi5FmaoEAVtTYSUGsFWCWwu9ndYPi4jTyajyP2A-76O7RIPY3pC8H0-0wmzoKSGbTPTFKk73_qcbFXv2WodrOpSjU",
+                  "price": {
+                    "current": 109,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 109,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "712414380775856797",
+                    "data_docid": "14159328805408223418",
+                    "gid": "11830695318517792157"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hammer halterschijf octagon 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitnessking en meer",
+                  "more_sellers": false,
+                  "seller": "Fitnessking",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTyUVKwH86mhyd8OGbmyIptL-lPxE29hyyyUrj_3fWtCGlFRHEe6PsD9n_LXadscbRnxKPHpi4BZXjzJnv4yzcTI0FK6g5bGLwuOcXbiIZf8juI4bDIa05i2ZM",
+                  "price": {
+                    "current": 17.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 17,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 18,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8898025038740172274",
+                    "data_docid": "9028206753690278243",
+                    "gid": "16613671760330499503"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "padisport.nl",
+              "title": "Halterschijven set",
+              "url": "https://padisport.nl/fitness/halters-en-gewichten/halterschijven/halterschijven-set",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://padisport.nl › ... › halterschijven",
+              "website_name": "Padisport",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Onze olympische halterschijven hebben een diameter van 50 mm en zijn geschikt voor olympische halterstangen. Deze schijven worden veel gebruikt in professionele ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halterschijven",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "powerimport.nl",
+              "title": "Halterschijven kopen | 50 mm Bumper Plates & Plates",
+              "url": "https://powerimport.nl/product-categorie/halters-gewichten/halterschijven/?srsltid=AfmBOoo1MuUNLtSTE_GYC4l6Ydy7FWRr8TfDkTl-799TXKwvA8GE-dNn",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://powerimport.nl › Halters & Gewichten",
+              "website_name": "Power Import",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Onze halterschijven hebben een 50 mm boring en passen op olympische halterstangen. Ze zijn niet geschikt voor 25 mm standaardstangen. Wat is het verschil tussen ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Onze halterschijven hebben een 50 mm boring en passen op olympische halterstangen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Toorx Crumb bumper halterschijf – 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "bol.com en meer",
+                  "more_sellers": false,
+                  "seller": "bol.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRp3_Ns8LUI9T_Q6idO6eAmZ81R3TsqRVZtuDsmITJJsxQD0Otlz1LKSSXuAPWgk8F2xP80M1TiTakbxBdHId5mnUljHfP_jmKtKP4jEs-W7Gq87w_vRFMy",
+                  "price": {
+                    "current": 49.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 49,95"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16118408675593306012",
+                    "data_docid": "2570863045814773147",
+                    "gid": "13471179958544382219"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Muscle Power PU 4-Grip Halterschijf",
+                  "url": null,
+                  "domain": null,
+                  "description": "Muscle Power en meer",
+                  "more_sellers": false,
+                  "seller": "Muscle Power",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTtxkKDnm1q3MaOAasHb9HJmW4qcs5mZHHs4mNwSQeXWvPVHSMWpMqozi5XbvJkqRTvYEZMGkL1SyQPYLGz_1m-l7K6CeC4WdUT2SM77K9tjYjQZMqviL_d",
+                  "price": {
+                    "current": 154.25,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 154,25"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5461762128684286790",
+                    "data_docid": "3362648678222305931",
+                    "gid": "6490719007122664916"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "1,25 kg ATX Polyurethaan Halterschijf 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness Seller",
+                  "more_sellers": false,
+                  "seller": "Fitness Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTTe_qIbdd_cmizmlo9JpiYPHf2DXTlrDNucAX61BPThFpJNbSfE8lfeW62VXCp6IuUsPM-ry1I1aENNAEMzbQZyegu-IoIoFtvRXadRaVEqP900xh5s0yCqg",
+                  "price": {
+                    "current": 125,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 125,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 25,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16765493948232434599",
+                    "data_docid": "12562373695814043751",
+                    "gid": "6659588508980941200"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Tunturi Olympische",
+                  "url": null,
+                  "domain": null,
+                  "description": "Supersales en meer",
+                  "more_sellers": false,
+                  "seller": "Supersales",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTApGVjFBozcQ1qmoprdmf_MN88UmRl1vNs8am3uAswhN0cEkfqCKsC8No0w_TrHJzdghNseByokbmEXjzETweVw1zYh7eOpeEwTkDbTkPBQrYYEBdn0las",
+                  "price": {
+                    "current": 23.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 23,99"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 22,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16718050004128139805",
+                    "data_docid": "19019309323824477",
+                    "gid": "10445244469289403763"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Olympia gegoten halterschijven set gewichten met ø51 mm boring marbo sport",
+                  "url": null,
+                  "domain": null,
+                  "description": "MarboSport.nl en meer",
+                  "more_sellers": false,
+                  "seller": "MarboSport.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTrrIR4eGIJCAf5uUh2GaLjT-XU5IdIW-z5P8xSm_PafP0jVW20LtWbhu7xcDDZ9lHL_XqPfRkN-5d44Po2pplG7iQo3v27Mi6XMSGuQAQ",
+                  "price": {
+                    "current": 280,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 280,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11904736430562852869",
+                    "data_docid": "10794131907900460695",
+                    "gid": "12093968151016184864"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Focus Fitness Halterschijf",
+                  "url": null,
+                  "domain": null,
+                  "description": "Betersport.nl en meer",
+                  "more_sellers": false,
+                  "seller": "Betersport.nl",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4fc3koFAloukDlaLtDSNdorklLQClnWhPGRqRDYOlBDGMKVo9vNaPcbCNGITXyiz3YklB5u9coyYThGPDbkeOviX0YypVuUFXIEoDkMUlibs2lw_nv03cxQ",
+                  "price": {
+                    "current": 14.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 14,95"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.4,
+                    "votes_count": 19,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2836706990324422516",
+                    "data_docid": "12157929438155330729",
+                    "gid": "16026711584919994714"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VirtuFit Olympische Rubberen Halterschijf",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kruidvat.nl en meer",
+                  "more_sellers": false,
+                  "seller": "Kruidvat.nl",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSdAYp625NvDtOo98MCHMCkM4FQsoj-AXafDTGkno8Rb8AZo1rauy5w5CY-yK4YcQvyxLRSg7vleZw0hw4wtxAu1ksY1N2_oTczWOBat3CY8D_ec3XAlDN-",
+                  "price": {
+                    "current": 16.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 16,95"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15795644101464596277",
+                    "data_docid": "11370060316832377896",
+                    "gid": "10288108451094868689"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "PhysKcal 50 mm Olympische halterschijven, Tri-Grip, rubberen coating, 1,25 | Gewichtsschijven voor gemakkelijker laden en lossen. Veiliger voor tillen",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.nl - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.nl - Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSfWRIogDkPwiTQ31JofYz7x_tkVD3jg0xz8tP7eYDNlPLDAY6rdVIMWyEE0QY0M2U2YfA0f0qgczy4Nndiz5Jd5lvByXQvDXjaWkF7h8IyrfjHGcwCK35-",
+                  "price": {
+                    "current": 39.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 39,99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2385565131531747010",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+              "domain": "www.fitness-seller.nl",
+              "title": "Rubberen olympische grip halterschijven",
+              "url": "https://www.fitness-seller.nl/rubberen-olympische-grip-halterschijven/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitness-seller.nl › rubberen-olympische-gri...",
+              "website_name": "Fitness Seller",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Rubberen olympische halterschijven met geïntegreerde handgrepen. Geluiddempend en vloerbeschermend en geschikt voor alle 50 mm halterstangen.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.9,
+                "votes_count": 18,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 2.9,
+                "regular": null,
+                "max_value": 595,
+                "currency": "EUR",
+                "is_price_range": true,
+                "displayed_price": "€ 2,90 tot € 595,00"
+              },
+              "highlighted": [
+                "Rubberen olympische halterschijven met geïntegreerde handgrepen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]",
+              "domain": "www.lifemaxx.com",
+              "title": "Halterschijven",
+              "url": "https://www.lifemaxx.com/nl/gewichten/halterschijven/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.lifemaxx.com › Home › Gewichten",
+              "website_name": "Lifemaxx Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ga je vooral voor krachttraining of powerlifts? Dan zijn 50 mm Olympische halterschijven de beste keuze. Voor algemene fitness kun je ook 30 mm schijven ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "50 mm",
+                "halterschijven",
+                "mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

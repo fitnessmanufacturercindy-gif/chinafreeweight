@@ -1,0 +1,529 @@
+{
+  "version": "0.1.20260831",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.4076 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09020335-2064-0139-0000-4c6fa28443d6",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.2093 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "haltere cabeça solta academia",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "haltere cabeça solta academia",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=haltere%20cabe%C3%A7a%20solta%20academia&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-02 03:35:29 +00:00",
+          "spell": {
+            "keyword": "halter cabeça solta academia",
+            "type": "did_you_mean"
+          },
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 38900,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Tríceps Testa com Halter: um exercício clássico, eficiente e ...",
+              "url": "https://www.instagram.com/reel/DNl-xNwJUbY/?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "240+ likes  ·  1 year ago",
+              "website_name": "Instagram · pablofferr",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "1️⃣ Posição inicial: segure o halter com as duas mãos, cotovelos alinhados e próximos à cabeça. 2️⃣ Descida controlada: leve o halter em ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halter",
+                "cabeça"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-09-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual a diferença entre dumbell e kettlebell?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quais são as 3 variações de tríceps?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quais músculos são trabalhados no desenvolvimento com halter acima da cabeça?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual o halter para iniciantes?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Desenvolvimento com Halteres",
+              "url": "https://www.instagram.com/reel/DRFh1LtiejZ/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "70+ likes  ·  9 months ago",
+              "website_name": "Instagram · otavio591_maia",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Exercício completo para fortalecer **todos os músculos dos ombros**. Mantenha postura neutra, core firme e empurre os halteres acima da cabeça ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halteres",
+                "cabeça"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "How to Perform Dumbbell Overhead Press",
+              "url": "https://www.youtube.com/watch?v=6SbZlzMXYoI",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "220.1K+ views  ·  1 year ago",
+              "website_name": "YouTube · Laércio Refundini - Cortes",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "How to do the ARNOLD PRESS ! \"THE BEST SHOULDER EXERCISE\" - Arnold Schwarzenegger · Auto-dubbed. 417K views ; 6 Mistakes Every Beginner Makes on ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "How to do the ARNOLD PRESS"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-01-15 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "domain": "www.tiktok.com",
+              "title": "É assim pra pior tacando o halter na cabeça",
+              "url": "https://www.tiktok.com/@dricarvalho_/video/7240946156778425605",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "284.5K+ views  ·  3 years ago",
+              "website_name": "TikTok · Adriana",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Divirta-se com este meme engraçado envolvendo academia e treino, onde alguém acaba tacando o halter na cabeça de forma inesperada. Descubra mais ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "academia",
+                "halter",
+                "cabeça"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-09-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "‼Rapaziada, olha o que acabou de chegar aqui na ...",
+              "url": "https://www.instagram.com/reel/DSTI38ADjLk/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "300+ likes  ·  8 months ago",
+              "website_name": "Instagram · alfypolly",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "eles têm essa camada de borracha nas laterais que estabiliza completamente o halter quando você solta no chão, não fica rolando, não sai girando ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halter",
+                "solta"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Convencendo sua academia sobre o levantamento acima ...",
+              "url": "https://www.reddit.com/r/Fitness/comments/orvfa/convincing_your_gym_about_overhead_press/?tl=pt-br",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "100+ comments  ·  14 years ago",
+              "website_name": "Reddit · r/Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Muitas academias têm uma política contra o levantamento de barra acima da cabeça. Alguém conseguiu convencer a sua academia a mudar isso? Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "academias",
+                "cabeça",
+                "academia"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=haltere+cabe%C3%A7a+solta+academia+site:www.reddit.com&sca_esv=787fd644bf189110&hl=en&gl=US&sa=X&ved=2ahUKEwj43JrQ-86WAxV49AIHHRNDNzUQrQIoAnoECDgQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.amazon.com.br",
+              "title": "Esporte, Aventura E Lazer - Cabeça Não Rotativa",
+              "url": "https://www.amazon.com.br/Halteres-e-Pesos-para-Exerc%C3%ADcios-Academia/s?rh=n%3A17834630011%2Cp_n_g-1003507980111%3A31958187011",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.com.br › Halte...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "LIONSCOOL Conjunto de 2 halteres revestidos de neoprene, halteres hexagonais antiderrapantes e antiderrapantes em par para treinamento de força, treinamento de ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halteres"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "controle. Porque halter não mascara execução ruim. ...",
+              "url": "https://www.instagram.com/reel/DadNWbyKMu-/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "820+ likes  ·  1 month ago",
+              "website_name": "Instagram · matheus.bortoluzzi",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Para de achar que treino completo só existe com máquina cara e academia vazia. Com halter dá pra construir muito mais do que a maioria imagina:",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "academia",
+                "halter"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "unsplash.com",
+              "title": "Mulher levantando um haltere acima da cabeça em uma ...",
+              "url": "https://unsplash.com/pt-br/fotografias/mulher-levantando-um-haltere-acima-da-cabeca-em-uma-academia-SEi2JnJwwSM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://unsplash.com › fotografias",
+              "website_name": "Unsplash",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 2, 2026 — Mulher levantando um haltere acima da cabeça em uma academia. Zoom in ... Read more",
+              "pre_snippet": "03/02/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "haltere",
+                "cabeça",
+                "academia"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Desenvolvimento com halter",
+                "Desenvolvimento de ombros"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

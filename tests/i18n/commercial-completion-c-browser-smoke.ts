@@ -57,7 +57,7 @@ async function main() {
       const response=await request(page,path);
       assert.equal(response.status(),404,`${path}: excluded route`);
     }
-    console.log(`Remaining C-level browser smoke passed: ${pages.length} pages at ${baseUrl}`);
+    console.log(`Retired C-level browser smoke passed: ${pages.length} published pages at ${baseUrl}`);
   } finally {
     await browser.close();
   }

@@ -1,0 +1,1135 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7215 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09030334-2064-0139-0000-10288ac549f6",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.6275 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "custom dumbbells minimum order quantity per weight",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "custom dumbbells minimum order quantity per weight",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=custom%20dumbbells%20minimum%20order%20quantity%20per%20weight&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-03 03:34:57 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "22 – 66.1 lb",
+                "url": "https://www.google.com/search?q=22+lb+to+66.1+lb+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=EhoqGAjT2XASEgkAAAAAAAAkQBEAAAAAAAA-QBgBKjJjdXN0b20gZHVtYmJlbGxzIG1pbmltdW0gb3JkZXIgcXVhbnRpdHkgcGVyIHdlaWdodDJMCAESDjIyIOKAkyA2Ni4xIGxiIhoqGAjT2XASEgkAAAAAAAAkQBEAAAAAAAA-QCoSChAyMiBsYiB0byA2Ni4xIGxiOggI09lwEAAwBliC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAF6BAguEEU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Adjustable",
+                "url": "https://www.google.com/search?q=adjustable+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhoIARIKQWRqdXN0YWJsZToKCJHhLRCS4S0wA1iC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAJ6BAguEEY",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "4.4 – 22 lb",
+                "url": "https://www.google.com/search?q=4.4+lb+to+22+lb+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=EhoqGAjT2XASEgkAAAAAAAAAQBEAAAAAAAAkQBgBKjJjdXN0b20gZHVtYmJlbGxzIG1pbmltdW0gb3JkZXIgcXVhbnRpdHkgcGVyIHdlaWdodDJKCAESDTQuNCDigJMgMjIgbGIiGioYCNPZcBISCQAAAAAAAABAEQAAAAAAACRAKhEKDzQuNCBsYiB0byAyMiBsYjoICNPZcBAAMAZYguQgYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAN6BAguEEc",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Over 66.1 lb",
+                "url": "https://www.google.com/search?q=over+66.1+lb+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=EhEqDwjT2XASCQkAAAAAAAA-QBgBKjJjdXN0b20gZHVtYmJlbGxzIG1pbmltdW0gb3JkZXIgcXVhbnRpdHkgcGVyIHdlaWdodDItCAESDE92ZXIgNjYuMSBsYiIRKg8I09lwEgkJAAAAAAAAPkA6CAjT2XAQADAGWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAR6BAguEEg",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Under 4.4 lb",
+                "url": "https://www.google.com/search?q=under+4.4+lb+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=EhEqDwjT2XASCREAAAAAAAAAQBgBKjJjdXN0b20gZHVtYmJlbGxzIG1pbmltdW0gb3JkZXIgcXVhbnRpdHkgcGVyIHdlaWdodDItCAESDFVuZGVyIDQuNCBsYiIRKg8I09lwEgkRAAAAAAAAAEA6CAjT2XAQADAGWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAV6BAguEEk",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Set",
+                "url": "https://www.google.com/search?q=set+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhMIARIDU2V0OgoI3-EtEODhLTADWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAZ6BAguEEo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "On sale",
+                "url": "https://www.google.com/search?q=custom+dumbbells+minimum+order+quantity+per+weight+sale&hl=en&gl=US&shoprs=EgRKAhgBGAYqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhMIBhIHT24gc2FsZRgCIgRKAhgBWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAd6BAguEEs",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Under $600",
+                "url": "https://www.google.com/search?q=custom+dumbbells+minimum+order+quantity+per+weight+under+$600&hl=en&gl=US&shoprs=Eg0SCxEAAAAAo-HBQRgBGAUqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MiMIBRIKVW5kZXIgJDYwMBgCIg0SCxEAAAAAo-HBQRgBKgIYAViC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAh6BAguEEw",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Rubber Coated",
+                "url": "https://www.google.com/search?q=rubber+coated+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0Mh0IARINUnViYmVyIENvYXRlZDoKCI7hLRCP4S0wA1iC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAl6BAguEE0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "For Sale",
+                "url": "https://www.google.com/search?q=custom+dumbbells+minimum+order+quantity+per+weight+for+sale&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MgwIEhIIRm9yIFNhbGVgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAp6BAguEE4",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Black",
+                "url": "https://www.google.com/search?q=black+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhcIARIFQmxhY2s6DAjYjPUBEOWK9QEwC1iC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAt6BAguEE8",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Online",
+                "url": "https://www.google.com/search?q=online+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MgoIEhIGT25saW5lYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKAx6BAguEFA",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free",
+                "url": "https://www.google.com/search?q=free+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MggIEhIERnJlZWAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKA16BAguEFE",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free Weights",
+                "url": "https://www.google.com/search?q=free+weights+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAkqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhAICRIMRnJlZSBXZWlnaHRzYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKA56BAguEFI",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Red",
+                "url": "https://www.google.com/search?q=red+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhUIARIDUmVkOgwI2Iz1ARDnivUBMAtYguQgYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKA96BAguEFM",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Woman",
+                "url": "https://www.google.com/search?q=woman+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MgkIEhIFV29tYW5gAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBB6BAguEFQ",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Price",
+                "url": "https://www.google.com/search?q=price+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MgkIEhIFUHJpY2VgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBF6BAguEFU",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Gray",
+                "url": "https://www.google.com/search?q=gray+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhYIARIER3JheToMCNiM9QEQ6or1ATALWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBJ6BAguEFY",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Green",
+                "url": "https://www.google.com/search?q=green+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhcIARIFR3JlZW46DAjYjPUBEOiK9QEwC1iC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBN6BAguEFc",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Free shipping",
+                "url": "https://www.google.com/search?q=custom+dumbbells+minimum+order+quantity+per+weight+free+shipping&hl=en&gl=US&shoprs=EgRSAhABGBkqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhcIGRINRnJlZSBzaGlwcGluZyIEUgIQAWAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBR6BAguEFg",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Orange",
+                "url": "https://www.google.com/search?q=orange+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhgIARIGT3JhbmdlOgwI2Iz1ARDuivUBMAtYguQgYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBV6BAguEFk",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reviews",
+                "url": "https://www.google.com/search?q=reviews+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GBIqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MgsIEhIHUmV2aWV3c2AB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBZ6BAguEFo",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Swim Weights",
+                "url": "https://www.google.com/search?q=swim+weights+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAkqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MhAICRIMU3dpbSBXZWlnaHRzYAE&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBd6BAguEFs",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Olympic Regulation",
+                "url": "https://www.google.com/search?q=olympic+regulation+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MiIIARIST2x5bXBpYyBSZWd1bGF0aW9uOgoIi-EtEIzhLTAAWILkIGAB&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBh6BAguEFw",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Standard Regulation",
+                "url": "https://www.google.com/search?q=standard+regulation+custom+dumbbells+minimum+order+quantity+per+weight&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0MiMIARITU3RhbmRhcmQgUmVndWxhdGlvbjoKCIvhLRCN4S0wAFiC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBl6BAguEF0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Weight Plates",
+                "url": "https://www.google.com/search?q=weight+plates+custom+dumbbells+minimum+order+quantity+per&hl=en&gl=US&shoprs=GAEqMmN1c3RvbSBkdW1iYmVsbHMgbWluaW11bSBvcmRlciBxdWFudGl0eSBwZXIgd2VpZ2h0Mh0IARINV2VpZ2h0IFBsYXRlczoKCOnhLRDe4S0wAliC5CBgAQ&sa=X&ved=2ahUKEwidjbyvvdGWAxWA2gIHHfyCBtkQip4GKBp6BAguEF4",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "video",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 151000000,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "dumbbellsdirect.com",
+              "title": "Dumbbells Logo — Custom Branded Weights for Gyms & ...",
+              "url": "https://dumbbellsdirect.com/blogs/dumbbells-buying-guides-materials/dumbbells-logo?srsltid=AfmBOopMrQ5rWDsOEqtTGObp2-yAHoJloMQbbZ_TfFs1Lmt76R6Ij2Kn",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dumbbellsdirect.com › blogs › dumbbells-logo",
+              "website_name": "Dumbbells Direct",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 18, 2025 — Minimum Order Quantities, Lead Times, and Pricing. Be prepared for order minimums and longer lead times. Customization adds cost, but the payoff ... Read more",
+              "pre_snippet": "09/18/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "order minimums"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-09-18 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the minimum weight for a dumbbell?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How much does a 5-to-100 pound dumbbell set weigh?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is 25 lbs of dumbbells enough to build muscle?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What weight increments do dumbbells come in?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.wavar.com",
+              "title": "Wholesale Dumbbells Manufacturer | Commercial Gym ...",
+              "url": "https://www.wavar.com/wholesale-dumbbells/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.wavar.com › wholesale-dumbbells",
+              "website_name": "Wavar",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Q1: What is your minimum order quantity (MOQ) for wholesale dumbbells? Our MOQ depends on the dumbbell type and customization requirements. For standard ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "minimum order quantity",
+                "dumbbells",
+                "dumbbell"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "ordering a set of at-home dumbbells- max weight?",
+              "url": "https://www.reddit.com/r/FTMFitness/comments/vbsk3k/ordering_a_set_of_athome_dumbbells_max_weight/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments  ·  4 years ago",
+              "website_name": "Reddit · r/FTMFitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "hey there! I'm a novice when it comes to weight lifting and up until this point I've been exclusively doing body-wight exercises. I'm looking to take ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Strength & Steel Reviews",
+                  "title": "Best Budget Adjustable Dumbbells of 2026 (What I'd Actually ...",
+                  "timestamp": "2026-05-18 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=g6UcK2r2hkc"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Facebook · Watson Gym Equipment",
+                  "title": "Behind every custom dumbbell order is an in-house ...",
+                  "timestamp": "2026-08-03 03:34:56 +00:00",
+                  "url": "https://www.facebook.com/WatsonGymEquipment/videos/behind-every-custom-dumbbell-order-is-an-in-house-manufacturing-processeach-set-/5427460434146573/"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Budget Gym Co-op",
+                  "title": "I Tested Adjustable Dumbbells from Amazon!",
+                  "timestamp": "2025-10-17 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=K6ID0LYD46Y"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.garagegymreviews.com",
+              "title": "What Size Dumbbells Should I Buy?",
+              "url": "https://www.garagegymreviews.com/what-size-dumbbells-should-i-buy",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.garagegymreviews.com › Resources",
+              "website_name": "Garage Gym Reviews",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "The ideal rep range to build muscle is eight to 15 reps. Pick whatever size dumbbell you can lift for at least eight reps on the main compound lifts of rows, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "size dumbbell",
+                "least"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Missing dumbbell weight set in order delivery",
+              "url": "https://www.facebook.com/groups/2057709194705988/posts/2425236351286602/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "1 comment  ·  4 months ago",
+              "website_name": "Facebook · Cartup Offer and Review",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I received only 1 set of 2*2.5kg dumbbell weight plates during delivery today, i.e. 1 set was missing. 2.5 Kg -2 2 Pcs. Just bring the weights ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "dumbbell weight",
+                "weights"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.premierfitnesssupply.com.au",
+              "title": "Custom Dumbbells Set – Branded & Built to Perform",
+              "url": "https://www.premierfitnesssupply.com.au/pages/custom-dumbbells?srsltid=AfmBOopylXBpGWQPzdmUvKErslsNYPeGO07eai0QImiG3SpNqcUf2O1K",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.premierfitnesssupply.com.au › pages › cust...",
+              "website_name": "Premier Fitness Supply",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Our custom-logo dumbbells have a minimum order requirement of one full set totalling at least 275kg. This would include pairs from 2.5kg to 25kg in 2.5kg ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "one full set totalling at least 275kg"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.quora.com",
+              "title": "If you can only buy just a pair of one dumbbells, what ...",
+              "url": "https://www.quora.com/If-you-can-only-buy-just-a-pair-of-one-dumbbells-what-weight-would-it-be",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ answers  ·  5 years ago",
+              "website_name": "Quora",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "If you can only buy just a pair of one dumbbells, what weight would it be?",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "musclesquad.com",
+              "title": "What weight dumbbells should I buy to start my home gym?",
+              "url": "https://musclesquad.com/blogs/fitness-equipment/what-weight-dumbbells-should-i-buy",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://musclesquad.com › blogs › fitness-equipment",
+              "website_name": "MuscleSquad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Nov 11, 2021 — Find the perfect dumbbell weight for your home workouts in this cover-all guide. We'll help establish your base strength and provide ...",
+              "pre_snippet": "11/11/2021 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "dumbbell weight"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-11-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.leadmanfitness.com",
+              "title": "Ordering Custom Dumbbells | Process and Lead Time Guide",
+              "url": "https://www.leadmanfitness.com/news/ordering-custom-dumbbells-process-lead-times.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.leadmanfitness.com › NEWS",
+              "website_name": "Leadman Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jul 27, 2026 — How can I ensure the weight accuracy of my custom order? You should mandate a specific weight tolerance in your contract, typically +/- 1% or 2% ... Read more",
+              "pre_snippet": "07/27/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "weight",
+                "custom order"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-07-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": "Popular products",
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Promotional Custom Dumbbells",
+                  "url": null,
+                  "domain": null,
+                  "description": "Everything Promo",
+                  "more_sellers": false,
+                  "seller": "Everything Promo",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQaXppDu0O6T6wjmmEhKwe0mtbNOmuStYskynusbnnvIySkSj5nahLtHDAZd8WnZSqmi2j8X6hBcPNvGEgMDqb_lmOGhVt1woyGyUctfxTPsvwPVrF2k2U3",
+                  "price": {
+                    "current": 3.77,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$3.77"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7802597116279711568",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "1Lb, 2Lb Sport Dumbell - Custom Printed",
+                  "url": null,
+                  "domain": null,
+                  "description": "EverythingBranded USA",
+                  "more_sellers": false,
+                  "seller": "EverythingBranded USA",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTGlzU5g2sXNdLlZkNZSulGZg-18rgdWgYQt-fAt57eAfMyC8pBZzWBRjfjZ5Qq7Jgh23kGU9J5v4ziXTbMGf2_sYYxqvLCV8pHwKRoYxo",
+                  "price": {
+                    "current": 0.68,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$0.68"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16926005591634542258",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Pro Style Dumbbells (Customizable)",
+                  "url": null,
+                  "domain": null,
+                  "description": "Ultimate Fitness Outlet\nFree delivery",
+                  "more_sellers": false,
+                  "seller": "Ultimate Fitness Outlet",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQnS9_vE5_1yrfWjyfLR1E0vpRKPujP0RDQGUxPFYnZzwkpAQizVmmxki3yXoIFzI9_FeSoqWPgss9MbImKHguolZCCqpLF6cJeelrkG-ZCjFNEexmGXc3p",
+                  "price": {
+                    "current": 2,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$2.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12821484777904229387",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Custom PU Dumbbells with Your Gym Logo for Gyms",
+                  "url": null,
+                  "domain": null,
+                  "description": "vervefitness.com\nFree delivery",
+                  "more_sellers": false,
+                  "seller": "vervefitness.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPU4PduVXCQPcHrsp8RAWV36q3C_EjOFECGyeX6SZLe6sgYMbRK_aEBacNBKp2fsBrC1pdK1v_1vrP5ovwlBUDQZS6lHgog4agJwcwZ_YtSJpb75gXdDYh4A",
+                  "price": {
+                    "current": 82,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$82.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13594674963505482718",
+                    "data_docid": "7530053030567111998",
+                    "gid": "7075574794740857764"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Custom Rubber Dumbbells",
+                  "url": null,
+                  "domain": null,
+                  "description": "Stray Dog Strength",
+                  "more_sellers": false,
+                  "seller": "Stray Dog Strength",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRW6xTo-4J9QwOVgn2vrH8bz1jM32FZILy0eMQF0mMSejxdEkWT7zyd-YmKjFZn5V6ZhZ3PPlYfS94zJ8UKkRPqYPQCl_5XxUPvK_r8s57a--01bHNTyncU2Q",
+                  "price": {
+                    "current": 1700,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$1,700.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15054439221046491586",
+                    "data_docid": "10896118435069394939",
+                    "gid": "3919341197202835470"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Promotional All-Purpose Color Coated Dumbbell for Strength Trainings",
+                  "url": null,
+                  "domain": null,
+                  "description": "Everything Promo",
+                  "more_sellers": false,
+                  "seller": "Everything Promo",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsgl0WclAmARs_ub6TnrXqzXQbyYQTkGrPxmprbX4uNtt9bnpWgN7JWSYzlQbGw-_50ETk8eSHb1Fk00mOLwUNXZX3poDRLyjIQhoH4-s5LEq7Qf3UewCH",
+                  "price": {
+                    "current": 5.23,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$5.23"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13865161288851668791",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Dumbbell Sets | 1,000lb Custom Set",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fringe Sport\nFree delivery",
+                  "more_sellers": false,
+                  "seller": "Fringe Sport",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQUtlLq5NxDSEk6qKJ48n-QAHWmCLlX-s10ang06GwcAipXWx5w-l29xLa5SVVV1ObVkoArjzJWtrvCnA2Lh5Ww--7m571FXUzPGpNieynNP2FPH-kp8Dsh3A",
+                  "price": {
+                    "current": 2096,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$2,096.00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.7,
+                    "votes_count": 15,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3191432607320483017",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Stray Dog Custom Urethane Dumbbells",
+                  "url": null,
+                  "domain": null,
+                  "description": "Stray Dog Strength",
+                  "more_sellers": false,
+                  "seller": "Stray Dog Strength",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQzVOTm2AKFrHLjMMnakJyjIDbLok_wfMkAszMxzkpmm4qyoxgCN8HWESxgTxZYzM2sxMvXWj3WzwoxhR12Gyig_9LXCtf8mz2TJnoKBXU",
+                  "price": {
+                    "current": 2050,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$2,050.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13088522800855873967",
+                    "data_docid": "5062455113978248211",
+                    "gid": "4181273644993413058"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]",
+              "title": "More products",
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Dumbbell STANDARD - personalized",
+                  "url": null,
+                  "domain": null,
+                  "description": "Wooddog",
+                  "more_sellers": false,
+                  "seller": "Wooddog",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSe9GYz-j_QauXhlGWGhTTSIITbnx06q9c-3AgWfJYZUA7vbrZWMFsrjBCQNohdqf5liwT_xw5ZcrJQX9O6uRi6XJJPCCqpymVWooUz0rw",
+                  "price": {
+                    "current": 18.03,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$18.03"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16831289498173206959",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Custom Logo Silicone Coated Steel Dumbbell",
+                  "url": null,
+                  "domain": null,
+                  "description": "ideastage.com",
+                  "more_sellers": false,
+                  "seller": "ideastage.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTm9HyQb24lyJtkhySLUDQXMgsiDlQlcEHtBVQicyRZijkk7a7PK8wN6YkbkQUFsQx1SVOyOHH6cEPpXsErHfGf9XypGE5iYa8OiIZyziMeMPHNvEOpsLfH",
+                  "price": {
+                    "current": 46.63,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$46.63"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4377828707302340018",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Custom Logo Pro Style Rubber Dumbbells",
+                  "url": null,
+                  "domain": null,
+                  "description": "Power Fitness Super Store",
+                  "more_sellers": false,
+                  "seller": "Power Fitness Super Store",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCtDijbkL_D4cvhXD4iAOuyKEm8-6RiPaXPVb3L2It6ckqWiLhHQjekNVbTIF0HR3urzCPvd3AAQzOlkp8VePxNDaFTRuibgCWAZ8uYDEhvhe4SBy61Zdi",
+                  "price": {
+                    "current": 1599,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$1,599.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4121368581311391893",
+                    "data_docid": "2933987324947786821",
+                    "gid": "4364142661693279172"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Dumbbell STANDARD - personalized with graphic",
+                  "url": null,
+                  "domain": null,
+                  "description": "Wooddog",
+                  "more_sellers": false,
+                  "seller": "Wooddog",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR6GSuHNjt3XfKu84Ms9Sy__803vVnmCkFV_qR0lse60zH_G3QZ_y31HAKUUCt33rPX-qMigYPlsws36jTdyZt7RZW-rBVhXOTV4DLWrgyiwGtX7va5C9z6",
+                  "price": {
+                    "current": 20.88,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$20.88"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12153417743097799248",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Troy Urethane 12 Sided Logo Dumbbell Pairs 5",
+                  "url": null,
+                  "domain": null,
+                  "description": "Dumbbells Direct & more\nFree delivery",
+                  "more_sellers": true,
+                  "seller": "Dumbbells Direct",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRwhmg8_687oBG_nO9FOPa6YgD-9c9WJV-2GlDEd4xUa0lXnsPQ8KT4SEBoeBznHMmF1Bsvtr4eTY0WyvjEMML2wm53S6VPMoGL7oWFT2-xRP6OgSTwJtIQZw",
+                  "price": {
+                    "current": 186.84,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$186.84"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 20,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12108355355570485076",
+                    "data_docid": "6928925444179021034",
+                    "gid": "3208924032404700581"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Custom Logo Pro Style Urethane Dumbbells",
+                  "url": null,
+                  "domain": null,
+                  "description": "Power Fitness Super Store",
+                  "more_sellers": false,
+                  "seller": "Power Fitness Super Store",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSWUjWddoWRiOA6IT69bmg8lBAJfdlHL-k6xYYKHqyrzPctnJNqWB327LNM5srIrsXqvAMq2sDjknwpn8gCLWf_J4b7aF2y63n9UQ92RBWIprYSYcpY-wJ_Nw",
+                  "price": {
+                    "current": 2149,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$2,149.00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1494376219019969656",
+                    "data_docid": "9294199797746882389",
+                    "gid": "14190251318533635209"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Promotional Adjustable Fitness Dumbbell",
+                  "url": null,
+                  "domain": null,
+                  "description": "ideastage.com",
+                  "more_sellers": false,
+                  "seller": "ideastage.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ0pJQL-WJ73yLPj-zltmFTICXYZxrRWCvC_KdjOP3FcbYQjIyTQNluqqQkTmhYlU8irS6XypAXYGTZz1EZ7VdtwYFBniCl_QV0y-h6-I7qz_V9FOzSd_p2",
+                  "price": {
+                    "current": 154.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$154.99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4513571387028747248",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "VTX Urethane Round Head Dumbbell",
+                  "url": null,
+                  "domain": null,
+                  "description": "Precision Performances & more\nFree delivery",
+                  "more_sellers": true,
+                  "seller": "Precision Performances",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQE63sh_QaCHx1TXBByUrYCZh2_xJyncuEvgYq356qw5r4V9X8FuggRPqNccpPgoxGNVwndBFEq3mHkP6a8UY8bfgDzwFOZNTZrTAoe1Kw",
+                  "price": {
+                    "current": 9879,
+                    "regular": 12861,
+                    "max_value": null,
+                    "currency": "USD",
+                    "is_price_range": false,
+                    "displayed_price": "$9,879.00 $12,861"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 9,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16902953167196047467",
+                    "data_docid": "11979861593249097765",
+                    "gid": "11005435446987509655"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Custom dumbbells minimum order quantity per weight reddit",
+                "Custom dumbbells minimum order quantity per weight usa",
+                "Custom dumbbells minimum order quantity per weight amazon",
+                "Adjustable dumbbells",
+                "Wavar dumbbells price",
+                "Dumbbell Set",
+                "Custom dumbbells with logo",
+                "Custom dumbbells manufacturer"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

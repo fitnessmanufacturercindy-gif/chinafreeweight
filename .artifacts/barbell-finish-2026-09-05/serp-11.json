@@ -1,0 +1,812 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.4407 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-76497dced250",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.2533 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "halterstang coating hardchroom zink cerakote sportschool",
+        "location_code": 2528,
+        "language_code": "nl",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "halterstang coating hardchroom zink cerakote sportschool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2528,
+          "language_code": "nl",
+          "check_url": "https://www.google.com/search?q=halterstang%20coating%20hardchroom%20zink%20cerakote%20sportschool&hl=nl&gl=NL&ie=UTF-8&uule=w+CAIQIFISCbvkh9vDCcZHEZ8Kvf_OdaGz",
+          "datetime": "2026-09-05 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "compare_sites",
+            "popular_products"
+          ],
+          "se_results_count": 389,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "gym-masters.nl",
+              "title": "Voor- en nadelen van Cerakote coated halterstang",
+              "url": "https://gym-masters.nl/blogs/product-reviews/waarom-wel-of-niet-kiezen-voor-een-cerakote-coated-halterstang",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://gym-masters.nl › Product Reviews",
+              "website_name": "gym-masters.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Een cerakote halterstang is gecoat met een keramisch materiaal dat veel duurzamer is dan roestvrij staal, chroom of zink. Cerakote is oorspronkelijk ontwikkeld ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cerakote halterstang",
+                "zink",
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.fysiosupplies.nl",
+              "title": "Muscle Power Multifunctionele Army Camo barbell met ...",
+              "url": "https://www.fysiosupplies.nl/muscle-power-multifunctionele-army-camo-barbell-met-camouflage-cerakote-coating",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fysiosupplies.nl › muscle-power-multifuncti...",
+              "website_name": "FysioSupplies.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Zeer mooie Army Camo halterstang met een speciale camouflagecoating. De keramische camouflage (Cerakote) coating is zeer dun, biedt een goede grip en heeft ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halterstang",
+                "Cerakote",
+                "coating"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.fitness24.nl",
+              "title": "Muscle Power Multifunctionele Army Camo barbell cerakote ...",
+              "url": "https://www.fitness24.nl/muscle-power-multifunctionele-army-camo-barbell-cerakote-coating/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitness24.nl › ... › Halterstangen",
+              "website_name": "fitness24.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De Muscle Power Multifunctionele Army Camo barbell is een zeer mooie halterstang met een speciale camouflagecoating. De keramische camouflage (Cerakote) coating ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halterstang",
+                "Cerakote",
+                "coating"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "nl.yanrefitness.com",
+              "title": "Olympische stang en gewichthefstangset te koop",
+              "url": "https://nl.yanrefitness.com/barbell/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://nl.yanrefitness.com › barbell",
+              "website_name": "YR Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De YR Fitness CKMBB-2200 is een veelzijdige halterstang voor heren met een robuuste Cerakote-afwerking en een soepele rotatie van 8 naalden. Bekijk product.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halterstang",
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.rxd-gear.nl",
+              "title": "Cerakote barbell 20kg groen",
+              "url": "https://www.rxd-gear.nl/cerakote-barbell-20kg-groen/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.rxd-gear.nl › ... › Barbells › Olympic barbells",
+              "website_name": "RXDGear",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Door de trekkracht van 190.000 PSI en een tot 680kg te gebruiken gewicht is deze barbell geschikt voor zware krachttraining, powerlifting en Crossfit workouts.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 239.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 239,90"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.fitness-seller.nl",
+              "title": "ATX Cerakote Power Bar - Zombie Green",
+              "url": "https://www.fitness-seller.nl/atx-cerakote-power-bar-zombie-green/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitness-seller.nl › atx-cerakote-power-bar-z...",
+              "website_name": "Fitness Seller",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Multifunctionele halterstang met een opvallende groene Cerakote coating. Zeer duurzaam en zwaar belastbaar dankzij de hoge treksterkte van 190.000 psi.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 39,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 239,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 239,00"
+              },
+              "highlighted": [
+                "Multifunctionele halterstang met een opvallende groene Cerakote coating"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "fitwinkel.nl",
+              "title": "Muscle Power Olympische Halterstang met Camouflage ...",
+              "url": "https://fitwinkel.nl/products/muscle-power-olympische-halterstang-met-camouflage-coating-20-kg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fitwinkel.nl › Halterstangen 50 mm",
+              "website_name": "Fitwinkel",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De keramische camouflage (Cerakote) coating is zeer dun, biedt een goede grip en heeft lage slijtage-eigenschappen en een hoge corrosieweerstand. De sleeves ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 259,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 259,00"
+              },
+              "highlighted": [
+                "Cerakote",
+                "coating"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wat is het gewicht van een standaard halterstang in de sportschool?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wat is de beste lengte voor een halterstang?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wat is een olympische stang?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wat is het gewicht van een olympische halterstang?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "sqmize.nl",
+              "title": "Cerakote®, Ceramic & Titanium barbells kopen",
+              "url": "https://sqmize.nl/collections/ceramic-titanium-barbells?srsltid=AfmBOorBcJMX7NtrMlh8OqJa8ZpLnZXMx1sCiVvtbZeD-LCFiU1KShc5",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sqmize.nl › collections › ceramic-titanium-barbells",
+              "website_name": "SQMIZE Nederland",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ontdek SQMIZE® Ceramic, Cerakote® en Titanium barbells met premium afwerking. Kies een hoogwaardige olympische 50 mm barbell voor jouw krachttraining.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.roguefitness.com",
+              "title": "The Ohio Bar - Cerakote",
+              "url": "https://www.roguefitness.com/nl/the-ohio-bar-cerakote-eu?srsltid=AfmBOoqkAVZ84P5F27DLWq9tqNEIJK04gHp4WRMIFf1qQ3MFELeuzEXK",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.roguefitness.com › ... › Men's 20KG Barbells",
+              "website_name": "Rogue Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "De Ohio Bar is ontworpen als een universele halterstang die uitblinkt bij elke beweging: van de bank, squat en deadlift tot de clean, snatch en alles ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 421,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 447.7,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "€ 447,70"
+              },
+              "highlighted": [
+                "halterstang"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "sportisgood.nl",
+              "title": "Fit & Rack Cerakote Olympische halterstang Signature",
+              "url": "https://sportisgood.nl/bas-420-cerakote-olympische-halterstang-fit-rack-signature-zwart-door-willy-20-kg?variant=5258188",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sportisgood.nl › bas-420-cerakote-olympische-h...",
+              "website_name": "sportisgood.nl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Optimaliseer je trainingen met de cérakote Olympische halter Fit & Rack, die prestaties en elegantie verenigt voor atleten.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "halter"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": "Productsites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Barbel - halterstangen / barbells kopen? | Korting tot 55%",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575352/r/barbel/",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu6Jw7l4DF0jUz3vzmlBmCQ02OgaaCnIU&s=0",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Olympische halterstang 15 kg kopen? ✔️ Tot 39% korting!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575352/c/gewicht_halters~598482~~t_halterstangen~6985073",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGN6sE1NhrGUEGEG1t9pcZ5xH_g0kg8zA&s=0",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Olympische halterstang 20 kg kopen? ✔️ Tot 50% korting!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575352/c/gewicht_halters~598492~~t_halterstangen~6985073",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAq0zfVDNCL6cOd2zYyb7RFZrPt2Ef6I&s=0",
+                  "source": "Beslist.nl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Olympische halterstang kopen? ✔️ Tot 44% korting!",
+                  "url": "https://www.beslist.nl/products/sport_outdoor_vrije-tijd/sport_outdoor_vrije-tijd_484284_575352/c/t_halterstangen~6985073",
+                  "domain": "www.beslist.nl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyAq0zfVDNCL6cOd2zYyb7RFZrPt2Ef6I&s=0",
+                  "source": "Beslist.nl"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Cerakote barbell 20kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "RXDGear",
+                  "more_sellers": false,
+                  "seller": "RXDGear",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcStgOwnbXNTjq0LyePq2ao8vdSd05KdVQSnBXwqbxQOaWQJXvNa_eXgrz2ULN0RbbAuXLVODbHSvyMKyzCXQTh9hZ3rYzqCLN6RaAf9mOlJO3uQXI43Bcz9Zw",
+                  "price": {
+                    "current": 239.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 239,90"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15698162909320663547",
+                    "data_docid": "6139486505513164626",
+                    "gid": "11955553421073296488"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cerakote Ohio Bar",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rogue Fitness",
+                  "more_sellers": false,
+                  "seller": "Rogue Fitness",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYRsz7W1wmMQrvbzZy1JzMjUq9kyybMTXABiqXdqjaadc0wvpqpx5u-scmqvGtRIdkJ_2p5Z4Jto6nv4cQgHPVoeDce_GVMMRhDgwaxY4fkSinp4faZnac",
+                  "price": {
+                    "current": 502.15,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 502,15"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14897775092739412375",
+                    "data_docid": "18104453839478557824",
+                    "gid": "9978952361304602863"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cerakote Barbell SQMIZE PREMIUM BISON OB79CRw-DG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sqmize",
+                  "more_sellers": false,
+                  "seller": "Sqmize",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQQUfe2lv8ArQweFAVAfNjpk0Lnr-utoseKpY2nOgkMK6smHrBlIqxrvDpKclaDObBF7OJ2c-auUra-F1qZ0dpaYuBinB4EHLdKSCKqCFor",
+                  "price": {
+                    "current": 305.95,
+                    "regular": 500,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 305,95 € 500"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "18031664372417451499",
+                    "data_docid": "11683576157813869129",
+                    "gid": "2177241525072081157"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Evolve Cerakote Series Olympische mannenstang - 220 cm / 20 kg (CK-220)",
+                  "url": null,
+                  "domain": null,
+                  "description": "Evolve Fitness",
+                  "more_sellers": false,
+                  "seller": "Evolve Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQDyEkyx75vEBHcVOQvdW9skoemXvQCVDxLZ4LVuSE86RfMy8dT8VOHyUB6GPHNN-11b17OdjfjgCVevB2VXoo7TrwbP3DjRNDlQofAMSnpcxkr369ZQlf7kQ",
+                  "price": {
+                    "current": 239.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 239,99"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1532399613363386574",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Muscle Power Olympische Halterstang met Camouflage Coating",
+                  "url": null,
+                  "domain": null,
+                  "description": "Muscle Power en meer",
+                  "more_sellers": false,
+                  "seller": "Muscle Power",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQBPrcJHUj-8LxdTv3I-obnYC1_bOW2x-O-VgU2qoHJnUTieAskIED6lGDmQhBCXXvcWsCoPOsF26cSMVgYbX3uVQEB_R5tsfXaZa09P57MzAEiliMEs2Vn",
+                  "price": {
+                    "current": 155,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 155,00"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14852723328358272716",
+                    "data_docid": "3755333792959289613",
+                    "gid": "14387231074360744902"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bad Company SZ-halterstang 120 cm met schroefdraad of gladde steunvlakken incl. stersluitingen/veersluitingen 30/31 mm I Curl-stang verchroomd of",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.nl - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.nl - Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT1CgMX4bWjEQFQDzpD_5159plAuln4qiCIcuv9aVvKP2A0PZoUVzWIi_MrwNZD4BMCqS_pdmckl5IC81JqlH25l4OSrxTx1jzWAVGErDSNvEBUFe9DMw",
+                  "price": {
+                    "current": 34.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 34,90"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "14455881821722469630",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Chromium Olympische Halterstang voor Krachttraining",
+                  "url": null,
+                  "domain": null,
+                  "description": "bol.com",
+                  "more_sellers": false,
+                  "seller": "bol.com",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR-YkW5w3jwUcaQ9Ch8GM-HRaxZqsYbv-E-x8FlhnmdPq6SlBsIAjE1N3UkCEh7W7gKCtI1NWomiklJILJJofBHkk1y2btJK9JKWE5Oyis",
+                  "price": {
+                    "current": 261.43,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 261,43"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11778067062760193966",
+                    "data_docid": "9210377278778475001",
+                    "gid": "782163288655458996"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Rogue Rackable Curl Bar",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rogue Fitness",
+                  "more_sellers": false,
+                  "seller": "Rogue Fitness",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSk1rxq2NKgy2OG7kg9vlPV_rIs_FSG_teLcANoxiZKnoXU7rM1nqW9WUFmeRbu9UcHNIw_jbztA3OBk-T_hK6ytYGsKN3zyVA-eeQOkxCPHHvd5l_UtVWC",
+                  "price": {
+                    "current": 376,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "€ 376,00"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 154,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15072925816875472469",
+                    "data_docid": "3846416219008380144",
+                    "gid": "15084302281329103741"
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.8787 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09070336-2064-0139-0000-84d79cbf3cf9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.7923 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "Langhantel Rändelung aggressiv Mittelrändelung Fitnessstudio kaufen",
+        "location_code": 2276,
+        "language_code": "de",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "Langhantel Rändelung aggressiv Mittelrändelung Fitnessstudio kaufen",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2276,
+          "language_code": "de",
+          "check_url": "https://www.google.com/search?q=Langhantel%20R%C3%A4ndelung%20aggressiv%20Mittelr%C3%A4ndelung%20Fitnessstudio%20kaufen&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "datetime": "2026-09-07 03:36:57 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "popular_products",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 391,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "atletica.de",
+              "title": "Langhantel Guide: Alles Rund um die Langhantel - atletica",
+              "url": "https://atletica.de/a/blog/der-gro%C3%9Fe-langhantel-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://atletica.de › blog › der-große-langhantel-guide",
+              "website_name": "atletica.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "22.05.2023 — Die Langhanteln unterscheiden sich in Bauart, Material, und Größe. Für viele Anwendungen sind Hybridstangen geeignet.",
+              "pre_snippet": "05/22/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-05-22 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "strengthshop.eu",
+              "title": "Langhanteltypen im Detail: Der komplette Guide zu allen ...",
+              "url": "https://strengthshop.eu/de/blogs/news/barbells-in-depth-the-complete-guide-to-every-type-of-barbell?srsltid=AfmBOoqNAo2HGCH8mRUBFIBCfJ69TDFe01yAguQMXEovlINXU1fEuJSU",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://strengthshop.eu › blogs › news › barbells-in-dep...",
+              "website_name": "Strength Shop",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "29.05.2026 — Die Rändelung einer Power Bar ist meist mittel bis aggressiv. Die Griffmarkierungen liegen bei 810 mm. Eine Mittelrändelung sorgt dafür, dass ...",
+              "pre_snippet": "05/29/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Rändelung",
+                "aggressiv",
+                "Mittelrändelung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "fitvolution.de",
+              "title": "Langhantel Vergleich - Lies das vor dem Hantelstangen ...",
+              "url": "https://fitvolution.de/langhantel-vergleich-kaufen-guide/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fitvolution.de › langhantel-vergleich-kaufen-guide",
+              "website_name": "Fitvolution",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Es gibt eine große Auswahl Hantelstangen, die man online kaufen kann - Was Du bei der Wahl Deiner Langhantel beachten solltest.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "kaufen",
+                "Langhantel"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "kingsbox.com",
+              "title": "So findest du die richtige Langhantel",
+              "url": "https://kingsbox.com/blog/de/wie-waehlt-man-fitnessgeraete/palico-za-weightlifting-in-powerlifting/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kingsbox.com › wie-waehlt-man-fitnessgeraete",
+              "website_name": "KingsBox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Olympia Langhanteln für Frauen und Männer sind nicht gleich. Sie verfügen über verschiedene Stangendurchmesser, Längen und unterschiedliches Gewicht.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.kuebler-sport.de",
+              "title": "Langhantel kaufen | Hanteln & Gewichte bei Kübler Sport",
+              "url": "https://www.kuebler-sport.de/fitnessgeraete/hanteln-gewichte/langhanteln/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.kuebler-sport.de › ... › Hanteln & Gewichte",
+              "website_name": "Kübler Sport",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Vielseitige Langhanteln im Kübler Sport Onlineshop. Jetzt kaufen! ✓ Sichere Bezahlung ✓ Trusted Shops ✓ Schnelle Lieferung ✓ Top Marken ✓ 30 Tage ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "kaufen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.meditech24.de",
+              "title": "Langhantel für Fitnessstudio online kaufen - Meditech Sachsen",
+              "url": "https://www.meditech24.de/collections/langhantelstange?srsltid=AfmBOopNym62_lqli8ESeIglebsCrDSEI_5fo7DT4m-OKbpeUHG5_wmc",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.meditech24.de › ... › Hanteln & Gewichte",
+              "website_name": "meditech24.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Profi-Langhantelstange finden! ▷ für Fitnessstudio & Physiotherapie ✓ ohne Gewicht ➨ jetzt online kaufen & ab 50€ versandkostenfrei bestellen!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Fitnessstudio",
+                "kaufen"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "MOVIT Langhantel",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:0",
+                  "price": {
+                    "current": 49.99,
+                    "regular": 60,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "49,99 € 60 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.2,
+                    "votes_count": 57,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16428153849857180591",
+                    "data_docid": "5252478741807242329",
+                    "gid": "6483387919650492964"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Langhantel mit Verschlüssen",
+                  "url": null,
+                  "domain": null,
+                  "description": "gornation.com",
+                  "more_sellers": false,
+                  "seller": "gornation.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:1",
+                  "price": {
+                    "current": 499.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "499,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9973638647811480054",
+                    "data_docid": "14092773530820634029",
+                    "gid": "14955090417834332089"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantelstange Jota Langhantel für Frauen",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica & mehr",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:2",
+                  "price": {
+                    "current": 219,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "219,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 17,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "7458872772814661099",
+                    "data_docid": "4145252278907232647",
+                    "gid": "16934494401792355206"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MOVIT Langhantel Set 30",
+                  "url": null,
+                  "domain": null,
+                  "description": "idealo Preisvergleich & mehr",
+                  "more_sellers": false,
+                  "seller": "idealo Preisvergleich",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:3",
+                  "price": {
+                    "current": 119.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "119,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 43,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "14992506001750074370",
+                    "data_docid": "3609884461486708967",
+                    "gid": "2006707992639593226"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Aerobic Langhantel Kurs Set inkl. Hantelscheiben",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports DE & mehr",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports DE",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:4",
+                  "price": {
+                    "current": 189.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "189,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 32,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2564167277121376109",
+                    "data_docid": "7800311380113024329",
+                    "gid": "9676962571725103253"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantel Alpha Cyborg Bar",
+                  "url": null,
+                  "domain": null,
+                  "description": "SchnäppchenPrtl & mehr",
+                  "more_sellers": false,
+                  "seller": "SchnäppchenPrtl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:5",
+                  "price": {
+                    "current": 350.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "350,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1302553934623484620",
+                    "data_docid": "9989334135154471304",
+                    "gid": "4108514577850224810"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MX80 Langhantel mit Ablage",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitshop.de & mehr",
+                  "more_sellers": false,
+                  "seller": "fitshop.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:6",
+                  "price": {
+                    "current": 779,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "779,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 24,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16998887525711863067",
+                    "data_docid": "4053057263608909816",
+                    "gid": "4579018627276895681"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Langhantel Sets inkl. Hantelscheiben",
+                  "url": null,
+                  "domain": null,
+                  "description": "Teamsportbedarf.de",
+                  "more_sellers": false,
+                  "seller": "Teamsportbedarf.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09070336-2064-0139-0000-84d79cbf3cf9:7",
+                  "price": {
+                    "current": 58.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "58,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 13,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10401354114529184123",
+                    "data_docid": "2902086259081280842",
+                    "gid": "2126510335918434413"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Langhantel sollte ich kaufen?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Gewichte gibt es für Langhanteln im Fitnessstudio?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Länge ist optimal für eine Langhantel?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welches Gewicht sollte ich als Anfänger beim Langhanteltraining verwenden?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.affenhand.de",
+              "title": "Langhantel Herren und Damen Gewichtheben Crosstraining",
+              "url": "https://www.affenhand.de/produkt/langhantel-barbell/?srsltid=AfmBOoqGecAWZuTXs_fHFI64dMNwcc81xJXhp-muuLEtEjCOTGLyrKcn",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.affenhand.de › Alle Produkte",
+              "website_name": "Affenhand",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Langhantel von Affenhand® ✓ Olympisches Gewichtheben, Powerlifting und Crosstraining ✓ mittelstarkes Knurling ✓ für 50mm Plates ✓ Made in EU.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 7,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 4.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "Lieferung: 4,90 €"
+              },
+              "highlighted": [
+                "Langhantel"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantelstange Langhantel Alpha",
+                  "url": null,
+                  "domain": null,
+                  "description": "CodeCheck & mehr",
+                  "more_sellers": false,
+                  "seller": "CodeCheck",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQX_qYK-GWG4KcwIog2yekMMLehHXAGu3iQ9ea-zDSxr8KV9WOpxGDqN7CHYFmPXMqT7esPMeHPoTuxhwuSg2O3YmG_6dlE_3epu6K_PNk",
+                  "price": {
+                    "current": 350.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "350,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 14,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13425632374449952059",
+                    "data_docid": "14821692561924436482",
+                    "gid": "13601420647070981215"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GORILLA SPORTS Hantel-Set Langhantelset Aerobic Kunststoff 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Geizhals Preisvergleich & mehr",
+                  "more_sellers": false,
+                  "seller": "Geizhals Preisvergleich",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRnBc5Z34_Nd5OZR8j0WSwl703qSrU45u2VGhQqETYoi-WeRdmzWHu32t4qX624YRAKky-fn_teoDBxZ4WYK_If2SSFBQtGZbda2y4CFKuR3ERfMyXE7yTcLA",
+                  "price": {
+                    "current": 54.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "54,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 99,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8507094149102684981",
+                    "data_docid": "3107354103669735044",
+                    "gid": "15548674402370259205"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "25kg - 110kg Hantelset Hantel Set Langhantel Hantelstange mit Gewichten Hantelscheiben",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTO9UoeCZTnT3e7FSDZupQdiX4-kbuIOrvKGkid4FyKLYa6cmKlJOZexm2L1zaqZKOoSjJsn0vGBFbZ5YAytzgWBHEfYnNtQykdvoXTuyGYuC6yev4MbTXH",
+                  "price": {
+                    "current": 129.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "129,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "7913231579830596854",
+                    "data_docid": "4692437997244894409",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantelstange Zeta Space Hantelstangen Set",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica & mehr",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRIWU6L-BcTtpAKkXCFsnOdEwO8FtZCS1XCsouQTv8-TQSTbIGiMpPdEdlYqFV_5F8SXJixPtKWfdGfBm4rATEqWTB3HdGg51ceWJaUeMcCLu24spaJDDpy",
+                  "price": {
+                    "current": 399,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "399,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 49,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "48678380351346841",
+                    "data_docid": "2633964962545624610",
+                    "gid": "9101228769750480090"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hyde Langhantelstange \"Competition\" L",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sport-Thieme.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Sport-Thieme.de",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTPRMGyQ8LK7nQ2P0TjMbduf7l0hZy7sjfa4Itrw3eJGWpibN7EkUwb97dnsp9PuiP4S00KjEvroCuZBF0KQ6DQeZv3Fh7Xu7iFmJnMhZZjVAaqizOl77zH",
+                  "price": {
+                    "current": 919.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "919,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6832270475955906467",
+                    "data_docid": "3861524069212185044",
+                    "gid": "275858750677725284"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GORILLA SPORTS Hantel-Set Langhantelset Aerobic Gummi Gripper",
+                  "url": null,
+                  "domain": null,
+                  "description": "Heise PVG & mehr",
+                  "more_sellers": false,
+                  "seller": "Heise PVG",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSZjEWPysJkL65wgDaVi7Sm4muK-fysKP6vZimYqXlJxzHt4oGdW0iRaW37Br8quwsixL42j2a0wP8i-kN0yoIHqT49sbmOVIptdnlEhlz_",
+                  "price": {
+                    "current": 79.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "79,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 29,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15027985203421886355",
+                    "data_docid": "15622084500724834939",
+                    "gid": "17965234294242263856"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantel Set Alpha Weightlifting |150kg Bumper Plates",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica & mehr",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT1lTFmbPsaJWfUWYoUUiAZetrR8JR9OBLGTd2ZBcUCiv_YAKcp3xzhmU0N822G_Hu_Kre-Kx5SoLk0op32X9mcpQCSjmbHkZAhdfyR9ONcPODD30JxIMa8",
+                  "price": {
+                    "current": 929,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "929,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11762186682953684915",
+                    "data_docid": "17791905239094873441",
+                    "gid": "5012440839009042399"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantelstange Langhantel Sigma",
+                  "url": null,
+                  "domain": null,
+                  "description": "PreisGrube & mehr",
+                  "more_sellers": false,
+                  "seller": "PreisGrube",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQGVQ1ueYYOhRlldVvncqlNkMsxB_kxpOTqeqNVYmgItSsejJP0CzrCK4yGkrzKODz8jvcdItFjzH_Slzz_UiAePwtKWe40XyNem_sP0DNo3SbaazwR5tB_8w",
+                  "price": {
+                    "current": 207.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "207,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 81,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1141808350952556369",
+                    "data_docid": "4787345302649578747",
+                    "gid": "2465965341224012084"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.holdstrong.de",
+              "title": "Langhanteln kaufen - www.holdstrong.de",
+              "url": "https://www.holdstrong.de/langhanteln/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.holdstrong.de › Produkte › Freie Gewichte",
+              "website_name": "HOLD STRONG Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hier Langhanteln kaufen: Dein Schlüssel zu intensivem Training. HOLD STRONG Fitness bietet robuste und vielseitige Langhanteln. Jetzt bestellen.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "HOLD STRONG Fitness bietet robuste und vielseitige Langhanteln"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]",
+              "domain": "www.amazon.de",
+              "title": "Strength Shop Olympia-Technik-Langhantel, Aluminium ...",
+              "url": "https://www.amazon.de/Strengthshop-Olympia-Technik-Langhantel-Aluminium/dp/B07BR11XPS",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.de › Strengthshop-Olympia-Techni...",
+              "website_name": "Amazon.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wichtigste Highlights · Material. Aluminium · Marke. Strength Shop · Grifftyp. Ergonomisch · Griffgröße. 0.984 inches · Gewichtsbegrenzung. 20 Kilogramm.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 151.25,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "151,25 €"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]",
+              "domain": "hq-germany.com",
+              "title": "Olympia Langhantel online kaufen",
+              "url": "https://hq-germany.com/collections/olympia-langhantel?srsltid=AfmBOopdkgFk4twNDq8_v3Sd5em1xcCNWA3I_YO2y2VFSpI1FmXSBujY",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hq-germany.com › collections › olympia-langha...",
+              "website_name": "HQ Germany",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Erreiche neue Höchstleistungen und bringe dein Training aufs nächste Level: Bestelle hochwertige Olympia Langhanteln für dein Homegym bequem online!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Langhantel 160 oder 180",
+                "Welche langhantel für zuhause",
+                "Langhantel kaufen",
+                "Langhantel 220 cm 30 mm",
+                "Langhantel 20 kg",
+                "Langhantel Set",
+                "Langhantel Stange",
+                "Langhantel 200 cm"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

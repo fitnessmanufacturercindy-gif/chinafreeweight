@@ -1,6 +1,5 @@
 import { dumbbellProducts } from "../../app/products/dumbbells/productData";
 import { weightPlateProducts } from "../../app/products/weight-plates/productData";
-import { racksBenchesProducts } from "../../app/products/racks-benches/productData";
 import { gymAccessoryProducts } from "../../app/products/gym-accessories/productData";
 import type { ContentEntity, LocalizedContentVersion, LocalizedImage } from "../../lib/content/types";
 import { frAnswer, frChecklist, frDefinition, frenchEditorialAuthor, frenchImagePath, frenchTechnicalReviewer, frTable, frText } from "./fr-content-helpers";
@@ -131,7 +130,7 @@ function profiles(source: ProductSource[], category: CategoryKey, map: Record<st
 
 export const frenchProductProfiles = [
   ...profiles(dumbbellProducts, "dumbbells", dumbbellMap), ...profiles(weightPlateProducts, "plates", plateMap),
-  ...profiles(racksBenchesProducts, "racks", rackMap), ...profiles(gymAccessoryProducts, "accessories", accessoryMap)
+  ...profiles(gymAccessoryProducts, "accessories", accessoryMap)
 ];
 
 function rangeText(profile: FrenchProductProfile) {
@@ -161,7 +160,7 @@ function processText(profile: FrenchProductProfile) {
 
 function productImages(profile: FrenchProductProfile): LocalizedImage[] {
   const product = profile.source.gallery?.[0] || profile.source.image;
-  const sources = [product, "/assets/dumbbell-production.webp", "/assets/resource-plate-finishing.webp"];
+  const sources = [product, "/assets/dumbbell-production.avif", "/assets/resource-plate-finishing.webp"];
   return sources.map((src, index) => ({
     id: `image-${index + 1}`, src: frenchImagePath(src, profile.frSlug, index),
     alt: index === 0 ? `${profile.name} pour équipement de salle de sport professionnelle` : index === 1 ? `Processus réel de fabrication lié au ${profile.name.toLowerCase()}` : `Contrôle réel de finition pour ${profile.name.toLowerCase()}`,
@@ -324,7 +323,7 @@ function buildFrenchVersion(profile: FrenchProductProfile): LocalizedContentVers
 }
 
 export function englishPathForFrenchProduct(profile: FrenchProductProfile) {
-  return profile.category === "dumbbells" ? `/products/dumbbells/${profile.source.slug}` : profile.category === "plates" ? `/products/weight-plates/${profile.source.slug}` : profile.category === "racks" ? `/products/racks-benches/${profile.source.slug}` : `/products/gym-accessories/${profile.source.slug}`;
+  return profile.category === "dumbbells" ? `/products/dumbbells/${profile.source.slug}` : profile.category === "plates" ? `/products/weight-plates/${profile.source.slug}` : `/products/gym-accessories/${profile.source.slug}`;
 }
 
 export function frenchVersionForProfile(profile: FrenchProductProfile) { return buildFrenchVersion(profile); }

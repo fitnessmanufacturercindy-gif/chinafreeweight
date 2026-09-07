@@ -1,0 +1,96 @@
+
+> powerbasefit-homepage@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.20
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Kloe\Documents\chinafreeweight独立站\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Kloe\Documents\chinafreeweight独立站\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of C:\Users\Kloe\Documents\chinafreeweight独立站\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled successfully in 6.5s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/1184) ...
+   Generating static pages (296/1184) 
+   Generating static pages (592/1184) 
+   Generating static pages (888/1184) 
+ ✓ Generating static pages (1184/1184)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                 Size  First Load JS
+┌ ○ /                                                      165 B         108 kB
+├ ○ /_not-found                                             1 kB         103 kB
+├ ● /[locale]/[[...segments]]                            1.36 kB         104 kB
+├   ├ /pt
+├   ├ /es
+├   ├ /de
+├   └ [+1054 more paths]
+├ ƒ /api/contact                                           210 B         103 kB
+├ ƒ /bilder-sv/[encoded]/[filename]                        210 B         103 kB
+├ ƒ /bilder/[encoded]/[filename]                           210 B         103 kB
+├ ○ /contact                                             2.85 kB         105 kB
+├ ○ /factory                                               210 B         103 kB
+├ ○ /gambar-id/[encoded]/[filename]                        210 B         103 kB
+├ ƒ /hinh-anh-vi/[encoded]/[filename]                      210 B         103 kB
+├ ƒ /images-fr/[encoded]/[filename]                        210 B         103 kB
+├ ○ /images-ko/[encoded]/[filename]                        210 B         103 kB
+├ ○ /immagini-it/[encoded]/[filename]                      210 B         103 kB
+├ ƒ /llms.txt                                              210 B         103 kB
+├ ● /manufacturer/[slug]                                   210 B         103 kB
+├   └ /manufacturer/rubber-hex-dumbbells-manufacturer
+├ ○ /manufacturer/weight-plate-manufacturer                210 B         103 kB
+├ ○ /oem                                                 4.13 kB         112 kB
+├ ● /oem/[slug]                                            210 B         103 kB
+├ ○ /products                                              210 B         103 kB
+├ ○ /products/dumbbells                                    210 B         103 kB
+├ ● /products/dumbbells/[slug]                             210 B         103 kB
+├   ├ /products/dumbbells/twelve-sided-steel-dumbbell
+├   ├ /products/dumbbells/cast-iron-dumbbell
+├   ├ /products/dumbbells/chrome-dumbbell
+├   └ [+27 more paths]
+├ ○ /products/gym-accessories                              210 B         103 kB
+├ ● /products/gym-accessories/[slug]                       210 B         103 kB
+├   ├ /products/gym-accessories/vinyl-kettlebell
+├   ├ /products/gym-accessories/cast-iron-kettlebell
+├   ├ /products/gym-accessories/competition-kettlebell
+├   └ [+16 more paths]
+├ ○ /products/weight-plates                                210 B         103 kB
+├ ● /products/weight-plates/[slug]                         210 B         103 kB
+├   ├ /products/weight-plates/cpu-bumper-plate
+├   ├ /products/weight-plates/cpu-color-bumper-plate
+├   ├ /products/weight-plates/rubber-weight-plate
+├   └ [+21 more paths]
+├ ○ /projects                                              210 B         103 kB
+├ ○ /projects/compact-chrome-dumbbell-set                  594 B         103 kB
+├ ○ /resources                                             210 B         103 kB
+├ ● /resources/[slug]                                      210 B         103 kB
+├   ├ /resources/do-dumbbells-help-with-bone-density
+├   ├ /resources/why-is-it-called-a-dumbbell
+├   ├ /resources/can-i-build-muscle-with-only-dumbbells
+├   └ [+25 more paths]
+├ ○ /robots.txt                                            210 B         103 kB
+├ ƒ /sitemap-index.xml                                     210 B         103 kB
+├ ○ /sitemap.xml                                           210 B         103 kB
+├ ƒ /sitemaps/blogs.xml                                    210 B         103 kB
+├ ƒ /sitemaps/images.xml                                   210 B         103 kB
+├ ƒ /sitemaps/languages.xml                                210 B         103 kB
+├ ƒ /sitemaps/products.xml                                 210 B         103 kB
+└ ƒ /sitemaps/videos.xml                                   210 B         103 kB
++ First Load JS shared by all                             102 kB
+  ├ chunks/1255-d90f22433f14e976.js                      46.2 kB
+  ├ chunks/4bd1b696-f785427dddbba9fb.js                  54.2 kB
+  └ other shared chunks (total)                          2.02 kB
+
+
+ƒ Middleware                                             33.5 kB
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

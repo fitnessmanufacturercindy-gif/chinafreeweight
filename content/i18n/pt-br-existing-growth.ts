@@ -117,7 +117,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
     reviewedBy: reviewer
   },
   "chrome-dumbbell": {
-    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-main.jpg", "Halter cromado profissional para academia e marca própria"],
+    image: ["/assets/products/dumbbells/chrome/chrome-dumbbell-main.avif", "Halter cromado profissional para academia e marca própria"],
     material: "Estrutura metálica com acabamento cromado",
     category: "Halter profissional premium",
     specifications: [{ name: "Sistema", value: "Opções personalizadas em kg ou lb" }, { name: "Acabamento", value: "Cromado, com opções visuais conforme o projeto" }, { name: "Aplicação", value: "Academias premium, hotéis, estúdios e distribuição" }],
@@ -254,7 +254,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
         ["OEM", "Como criar uma linha de marca própria?", "Reunir logo, embalagem e quantidades"],
         ["Importação", "Como planejar custo, prazo e responsabilidade?", "Consultar profissionais e montar o custo total"]
       ]),
-      checklist("usar", "Como usar os guias", ["Comece pela pergunta do seu projeto", "Registre requisitos e dúvidas em uma planilha", "Separe fato confirmado de hipótese", "Valide números com fornecedores e profissionais responsáveis", "Use os links internos para chegar ao produto correspondente", "Envie uma lista completa ao solicitar cotação"]),
+      checklist("usar", "Como usar os guias", ["Comece pela pergunta do seu projeto", "Registre requisitos e dúvidas em uma planilha", "Separe fato confirmado de hipótese", "Valide números com fornecedores e profissionais responsáveis", "Compare os guias e produtos relacionados", "Envie uma lista completa ao solicitar cotação"]),
       rich("atualizacao", "Revisão e atualização", "Os artigos exibem autor, revisão e data de atualização. Informações de fábrica são revisadas pela equipe de produção e exportação. Quando o tema envolve importação no Brasil, o texto evita fixar alíquotas ou regras sem fonte, porque custos e procedimentos variam conforme produto, operação e data.")
     ],
     faq: [
@@ -270,7 +270,7 @@ export const existingPageEnhancements: Record<string, Partial<PilotPage>> = {
   projects: {
     title: "Projetos de áreas de musculação | PowerBaseFit",
     blocks: [
-      quick("resposta-rapida", "Esta página reúne referências visuais reais já publicadas pela PowerBaseFit para discutir combinação de halteres, anilhas, barras, racks e circulação. As imagens não são apresentadas como depoimentos de clientes, resultados financeiros ou projetos arquitetônicos certificados."),
+      quick("resposta-rapida", "Compare referências visuais reais da PowerBaseFit para discutir combinação de halteres, anilhas, barras, racks e circulação. Use as imagens para definir produtos e layout preliminar; confirme dimensões, instalação e requisitos locais separadamente."),
       definition("definicao", "Referência de projeto", "É um exemplo visual de configuração de equipamentos usado para orientar perguntas de compra. Não substitui planta, cálculo estrutural, projeto de segurança, acessibilidade ou validação de profissionais responsáveis no local."),
       rich("metodo", "Como interpretar as referências", "Uma imagem mostra organização e aparência, mas não informa sozinha dimensões, capacidade, fluxo de usuários ou especificação completa. O comprador deve usar a referência para identificar preferências: formato dos halteres, comprimento do rack, proximidade das anilhas, espaço entre estações e identidade visual.", "Antes de pedir orçamento, converta a referência em requisitos. Informe área disponível, número estimado de usuários, faixa de pesos, tipo de treino e produtos prioritários. Fotos do espaço e planta ajudam, desde que medidas e responsabilidades técnicas sejam confirmadas localmente."),
       table("referencias", "Referências existentes", ["Referência", "O que ela demonstra", "Perguntas para o projeto"], [

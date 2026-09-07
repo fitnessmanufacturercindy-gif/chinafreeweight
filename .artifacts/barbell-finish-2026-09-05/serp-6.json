@@ -1,0 +1,1010 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.7843 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-3ec2f8760bf4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.7182 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "Langhantel Beschichtung Hartchrom Zink Cerakote Fitnessstudio",
+        "location_code": 2276,
+        "language_code": "de",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "Langhantel Beschichtung Hartchrom Zink Cerakote Fitnessstudio",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2276,
+          "language_code": "de",
+          "check_url": "https://www.google.com/search?q=Langhantel%20Beschichtung%20Hartchrom%20Zink%20Cerakote%20Fitnessstudio&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "datetime": "2026-09-05 03:37:17 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products"
+          ],
+          "se_results_count": 380,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Cerakote • Schwarzverzinkt • Blanker Stahl • Blankverzinkt ...",
+              "url": "https://www.reddit.com/r/homegym/comments/phsuy5/barbell_coatings_bottom_to_top_stainless_steel/?tl=de",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Ca. 30 Kommentare  ·  vor 5 Jahren",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Ich besitze Stangen aus Edelstahl, blankem Stahl, Cerakote, schwarzem Zink und Pulverbeschichtung. Edelstahl ist der König. Das Gefühl von ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote",
+                "Zink",
+                "Pulverbeschichtung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.cerakote.de",
+              "title": "Cerakote | Fitness | Ceramic Coatings",
+              "url": "https://www.cerakote.de/pages/cerakote-fitness-ceramic-coatings",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cerakote.de › pages › cerakote-fitness-cera...",
+              "website_name": "CERAKOTE Germany",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die Beschichtung eliminiert Flugrost im Studio und sichert langfristig eine professionelle, neuwertige Optik. ... Gegenüber Hartchrom: Chrom kann ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Beschichtung",
+                "Hartchrom",
+                "Chrom"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "hq-germany.com",
+              "title": "Training Allrounder Langhantelstange | Hartchrom- ...",
+              "url": "https://hq-germany.com/products/trainining-langhantelstange-hartchrom-beschichtung-men-women?srsltid=AfmBOooQ6UMh-9x2NFPJkGLwMAwrpys-G37CoAulNnAGCYd0SOUf-v2y",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://hq-germany.com › Hantelstangen",
+              "website_name": "HQ Germany",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Eine hochwertige Hartchrom-Beschichtung sorgt für Langlebigkeit, und die Rotationsbewegung wird durch je zwei Präzisions-Nadellager und ein Gleitlager pro Seite ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 184.9,
+                "regular": null,
+                "max_value": 193.9,
+                "currency": "EUR",
+                "is_price_range": true,
+                "displayed_price": "184,90 € bis 193,90 €"
+              },
+              "highlighted": [
+                "Hartchrom",
+                "Beschichtung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "simpleproducts.de",
+              "title": "Cerakote Landingpage",
+              "url": "https://simpleproducts.de/cerakote/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://simpleproducts.de › cerakote",
+              "website_name": "simple products GmbH",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die Original Cerakote® Beschichtung sorgt für hervorragenden Grip, Langlebigkeit und ein einzigartiges Finish – Made in Germany und gebaut für dein Home Gym. ✓ ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote",
+                "Beschichtung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "atletica.de",
+              "title": "Langhantel Guide: Alles Rund um die Langhantel - atletica",
+              "url": "https://atletica.de/a/blog/der-gro%C3%9Fe-langhantel-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://atletica.de › blog › der-große-langhantel-guide",
+              "website_name": "atletica.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "22.05.2023 — Cerakote hat nahezu identische Schutzeigenschaften wie Hartchrom, performt je nach Situation mal besser und mal schlechter. Dafür gibt es diese ...",
+              "pre_snippet": "05/22/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote",
+                "Hartchrom"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-05-22 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "the-fitness-outlet.de",
+              "title": "Kingsbox | Cerakote Kings Bar - The Fitness Outlet",
+              "url": "https://the-fitness-outlet.de/products/copy-of-cerakote-queens-bar-langhantel-farbig",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://the-fitness-outlet.de › products › copy-of-cerakote...",
+              "website_name": "the-fitness-outlet.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die aus Keramik bestehende Beschichtung verbessert die Widerstandsfähigkeit der Langhantel. ... Cerakote Beschichtung werden diese noch widerstandsfähiger.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 341.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "341,90 €"
+              },
+              "highlighted": [
+                "Beschichtung",
+                "Langhantel",
+                "Cerakote Beschichtung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Gewichte gibt es für Langhanteln im Fitnessstudio?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Länge sollte eine Langhantelstange für das Fitnessstudio haben?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Länge sollte eine Langhantel für Bankdrücken haben?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Wie schwer ist die leere Stange im Gym?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.kraftsport-news.de",
+              "title": "Leitfaden zum Kauf einer Olympia Langhantelstange, Teil 4",
+              "url": "https://www.kraftsport-news.de/neuheiten/leifaden-zum-kauf-einer-olympia-langhantelstange-teil-4/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.kraftsport-news.de › neuheiten › leifaden-z...",
+              "website_name": "kraftsport-news.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "07.07.2015 — Bei Olympia Langhanteln hat sich die galvanische Verzinkung durchgesetzt. Zink hat eine recht lange Lebensdauer und schützt nachhaltig vor ...",
+              "pre_snippet": "07/07/2015 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Zink"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2015-07-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "kingsbox.com",
+              "title": "Der ultimative Leitfaden für olympische Langhanteln",
+              "url": "https://kingsbox.com/blog/de/pflege-und-wartung-der-gerate/der-ultimative-leitfaden-fuer-olympische-langhanteln-die-wahl-der-richtigen-hantel-fuer-ihr-fitnessprogramm/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kingsbox.com › pflege-und-wartung-der-gerate",
+              "website_name": "KingsBox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Schwarzes Zink: Bietet Korrosionsbeständigkeit und Haltbarkeit. · Hartchrom: Bietet eine glatte, gehärtete Oberfläche mit hervorragender Korrosionsbeständigkeit.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Zink",
+                "Hartchrom"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Ist eine Cerakote-Langhantel das extra Geld wert?",
+              "url": "https://www.reddit.com/r/homegym/comments/7b6zr3/is_a_cerakote_barbell_worth_the_extra_money/?tl=de",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Ca. 20 Kommentare  ·  vor 8 Jahren",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mal so generell betrachtet, die beiden Vorteile von Cerakote sind, dass die Beschichtung quasi unzerstörbar gegen Korrosion ist und die ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote",
+                "Beschichtung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.megafitness.shop",
+              "title": "ATX® Multi Bar - 20 KG - 190K - Hunter Orange Cerakote",
+              "url": "https://www.megafitness.shop/atx-multipurpose-cerakote-bar-orange.html?srsltid=AfmBOoqcHumjRVdQywwqZ5Ogk2WLf5_oiSJKc4bCG7Yo71cb833oTRqz",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.megafitness.shop › atx-multipurpose-cerakot...",
+              "website_name": "Megafitness.Shop",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Olympische Langhantelstange ATX® Cerakote Multi Bar 20 kg, die 50 mm Allround Langhantel im außergewöhnlichen Farbton Hunter Orange fürs intensive Training.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 6,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 199,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "199,00 €"
+              },
+              "highlighted": [
+                "Cerakote",
+                "Langhantel"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Langhantel 170 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQD0NzwcAouvbam0RPTrQqHzRPPk31I9Q4uy9Q14CsKgY2YeEHFQA9wT6ASMCfZqYyvhmKl-TG71sYSMlG2SobYSBpcyI3RJ01oheedNLwaK7z4c_ATsAQ4eA",
+                  "price": {
+                    "current": 149,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "149,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11142515933983221507",
+                    "data_docid": "13800929236071936790",
+                    "gid": "15647806078927818113"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantel Delta Electric Green",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica & mehr",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTGj5ydTbIM7pSg2JSuK1elERl1S72_FNRE3NLKo-Joh7XK6wj_e3wBd0wr1waHD1CfW6LwKDspEjeG5BRkCxCzSK-I5R3dGPq9qQSCeg-st6hONpXF6BMe",
+                  "price": {
+                    "current": 249,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "249,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 34,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6557009980649272509",
+                    "data_docid": "12012488189350565592",
+                    "gid": "10232261868960946520"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GORILLA SPORTS Langhantelstange Chrom 170 cm mit Federverschluss",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcToKZ0zKvvXBlw4DddTQm6IWs3vv-NC154wqPFNK_xB72to-J35vRU6KeeTGZ2z3-Mk5dFr1_Ctk6kEgkP0h4hwhkBIwJKeW7i0sO8oSr3X9aSetCl2-_zn",
+                  "price": {
+                    "current": 39.99,
+                    "regular": 45,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,99 € 45 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 140,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9204770745069847467",
+                    "data_docid": "430960855714986359",
+                    "gid": "2997336367862455384"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "HQ Germany Allrounder Langhantelstange 50mm Olympia Langhantel 20kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "HQ Germany & mehr",
+                  "more_sellers": false,
+                  "seller": "HQ Germany",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTulrY9WvagFMXfhaYEkORitRwVLjoBaEu5B3hscmbsJS3ayIEqKksN1rJOv5vXSbOin6h2rRbpZ2NCB0ThaHqMIowVJANSogb7r3RcRa0PVhftuqVp4j2MyA",
+                  "price": {
+                    "current": 193.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "193,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16734728343778688953",
+                    "data_docid": "12201973683073160408",
+                    "gid": "8492406712900605768"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Multi Bar 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSvpcYZDKeY_FZLEX_EnmRuoEQyFUa2QLGOxySO1rNVwZQ5C6j0-8GM5uRYgAt-0LyP3NtHRavehmeL1qq0tW2muFhOAQ0JMWUyUVYvvIUQnnb9XhWbKf32",
+                  "price": {
+                    "current": 199,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "199,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 45,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11955879231350599659",
+                    "data_docid": "1975955407455754238",
+                    "gid": "1322985487442773187"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Langhantel Set Beta Chrome Iron Plates 157.5 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica & mehr",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ9fRXQm15l3PgtrQnzhRHaJTswssmjlZQMpufHZKWeHP0sU-Q0YUcdlE7CQVYEbWiJf59-eZtsQQjueHaCoyVDYV2vc71YArdlCqgYNZ2C3fdwLrGWHSod",
+                  "price": {
+                    "current": 639,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "639,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16712494159869364754",
+                    "data_docid": "9976847474243881507",
+                    "gid": "5352427177922642635"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cerakote kings bar blau + hard chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRT1yp1lnY4vU6FWcKbmooFXU4x3-aSiv6L9rNWI2GF-qTnWajHl8_1Kz7W_VoGVGTIUJMwNelp5qADTFvompmjzTFZbFC6e398FBwvo5w",
+                  "price": {
+                    "current": 224.34,
+                    "regular": 367,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "224,34 € 367 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "10814276067190674963",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Langhantel mit Verschlüssen",
+                  "url": null,
+                  "domain": null,
+                  "description": "gornation.com",
+                  "more_sellers": false,
+                  "seller": "gornation.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR1MPeSI4bVclGS9CvGvh2n_cXhLTTMPFLz3K8K-vU2vsHYpmfBtBcpQpBrbEOz7qWjYj8FTTF8g4WPrf534mkUE8iMHaEiUWSMmr04vV6lqG9BYOaRKsTp",
+                  "price": {
+                    "current": 149.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "149,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16472461418845574987",
+                    "data_docid": "1041142648684234892",
+                    "gid": "9835543152338652409"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX High Tensile PRO BAR",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQh5vmWrfZ-GkTfiBcTkh0iYFlUlszSoJx7ccQWExrK85Np_vqcTX6Xav6P5JF6Wsej54DXxyn_Mh2ZVZiUwTs1C5Cyjd3hDABlpUZMTsf4ZZwD1qSvFgI37g",
+                  "price": {
+                    "current": 169,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "169,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 43,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4834010330683980089",
+                    "data_docid": "17460853896113853712",
+                    "gid": "5648458183938148651"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantel Set Delta HighRep",
+                  "url": null,
+                  "domain": null,
+                  "description": "Vergleich.org & mehr",
+                  "more_sellers": false,
+                  "seller": "Vergleich.org",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQIQgjp6JBTW1bUWP8Bng2AazPOqJkCVKYmITM6IPJvenb2OXdsAAhyPAWu4xxEH2GJ1d-ChalbEK4bLO6xLeb78u5MXLwFTs_ZIfXb0h0Y5BDSU28p5Lnu",
+                  "price": {
+                    "current": 548.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "548,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 34,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12235108100745483220",
+                    "data_docid": "8609346783751285192",
+                    "gid": "571987808569402551"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "HQ Germany Langhantelstange 50mm Olympia Langhantel 50mm Olympia-Aufnahme",
+                  "url": null,
+                  "domain": null,
+                  "description": "SchnäppchenPrtl & mehr",
+                  "more_sellers": false,
+                  "seller": "SchnäppchenPrtl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSrS4xYjRoLLw3IPKGWFTIqKL6U-ZwwdjJw7Zfm0X0ANzDnRGXWB-bZGqTFJ7rzkJ7wLR7gn11aRCkwD2WqKFisEvcsRkQzNGQhQar6LlkjQXO39caMCKly9Q",
+                  "price": {
+                    "current": 249.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "249,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3777983443775281104",
+                    "data_docid": "8628185407202826053",
+                    "gid": "5339248531846493233"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "LIVEPRO Cerakote Trainings Langhantel Schwarz/Blau",
+                  "url": null,
+                  "domain": null,
+                  "description": "benneaux.com",
+                  "more_sellers": false,
+                  "seller": "benneaux.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ6rZ8SdbGAjv45TRIUjC2ozODDHCxRalBF0WeDuh2T44pEyC7BFyI7BuoLyNAqlnWN7KMiA9HVrIqlNMyzd-5zR5UlI83l3SPsA_sVqyKptfWjstJukU82",
+                  "price": {
+                    "current": 356,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "356,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16435853586678984025",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "CURL verchromte Langhantel 120 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSShHwyCx-fAdLwFPickdHogSc2-ZvUMHFRzBhPl1NbrW8Gi1OtgidSFYyAAc1PUEasOAhhIyMcEUbbSrnGZywINwTEAXgm4gA_4nF2O40",
+                  "price": {
+                    "current": 33.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "33,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13022243196176560492",
+                    "data_docid": "4936812913809553698",
+                    "gid": "3109203284307230979"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Olympiabar CrossColor CERAKOTE 20KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQqTZoseqbyuoiW-3CsdGM6crGO0PDsILgxzfpjFPwObish_gg79ksBMu0R_pIa_PAuZpwmA5am9uvpRyPfpKtkkoDZGxBi_vxcjYkc4xel",
+                  "price": {
+                    "current": 254.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "254,10 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1263947403967259494",
+                    "data_docid": "18347789303498056114",
+                    "gid": "6498160716202332560"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Camouflage Multi Power Bar 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtgVhEI2gVWtQkng9J93HgCnNux1b6g0QIFDv-Qbjd2ByqI0XC7_KMpNhuhaK8dmYK4liueHEuVriiIzKqbMQw5so8srrbvUIptuaCp1nxmiff-3xmr8U2",
+                  "price": {
+                    "current": 299,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "299,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 7,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1409848453421441107",
+                    "data_docid": "11897881247840989560",
+                    "gid": "10878730611096621875"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATLETICA Langhantelstange Jota Langhantel für Frauen",
+                  "url": null,
+                  "domain": null,
+                  "description": "CodeCheck & mehr",
+                  "more_sellers": false,
+                  "seller": "CodeCheck",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ8X9T6M9npQzmT-On_dkiFHUHx3sfIcJZgxc1vdEgmA0IZxWWllD9hzYo2fBeyXxVAg0uXH1ceTYXjwuo780QnrVbTQcuSA0nyKupGnLYcCXsObiRLhcVPQg",
+                  "price": {
+                    "current": 240.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "240,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 17,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "7458872772814661099",
+                    "data_docid": "4145252278907232647",
+                    "gid": "16934494401792355206"
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

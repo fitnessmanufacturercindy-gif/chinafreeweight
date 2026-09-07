@@ -1,0 +1,137 @@
+{
+  "checkedAt": "2026-09-02T04:20:28.240Z",
+  "base": "https://www.chinafreeweight.com",
+  "checks": [
+    {
+      "route": "/resources/dumbbell-head-handle-construction-guide",
+      "status": 200,
+      "bytes": 253503
+    },
+    {
+      "route": "/pt/blog/fixacao-cabeca-cabo-halteres-atacado",
+      "status": 200,
+      "bytes": 228212
+    },
+    {
+      "route": "/es/blog/union-cabeza-mango-mancuernas-mayoristas",
+      "status": 200,
+      "bytes": 227312
+    },
+    {
+      "route": "/de/blog/kurzhantel-kopf-griff-verbindung-pruefen",
+      "status": 200,
+      "bytes": 223141
+    },
+    {
+      "route": "/fr/blog/assemblage-tete-poignee-halteres-achat-gros",
+      "status": 200,
+      "bytes": 223938
+    },
+    {
+      "route": "/vi/blog/kiem-tra-lien-ket-dau-tay-cam-ta-don",
+      "status": 200,
+      "bytes": 227382
+    },
+    {
+      "route": "/sv/blogg/hantelhuvud-handtag-infastning-inkop",
+      "status": 200,
+      "bytes": 220306
+    },
+    {
+      "route": "/it/blog/fissaggio-testa-impugnatura-manubri-ingrosso",
+      "status": 200,
+      "bytes": 221657
+    },
+    {
+      "route": "/nl/blog/bevestiging-dumbbellkop-handgreep-inkoop",
+      "status": 200,
+      "bytes": 209372
+    },
+    {
+      "route": "/ar/blog/rabt-ras-dumbbell-bilmaqbad-liljumla",
+      "status": 200,
+      "bytes": 92070
+    },
+    {
+      "route": "/ko/blog/dumbbell-head-handle-joint-inspection",
+      "status": 200,
+      "bytes": 225239
+    },
+    {
+      "route": "/id/blog/sambungan-kepala-gagang-dumbbell-grosir",
+      "status": 200,
+      "bytes": 209056
+    },
+    {
+      "route": "/pl/blog/polaczenie-glowicy-uchwytu-hantli-zakup-hurtowy",
+      "status": 200,
+      "bytes": 209757
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/fixed-dumbbell-head-handle.webp",
+      "status": 200,
+      "bytes": 96680
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/fixed-dumbbell-head-handle.avif",
+      "status": 200,
+      "bytes": 36928
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/dumbbell-handle-shoulder-detail.webp",
+      "status": 200,
+      "bytes": 115336
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/dumbbell-handle-shoulder-detail.avif",
+      "status": 200,
+      "bytes": 53910
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/dumbbell-head-support-packaging.webp",
+      "status": 200,
+      "bytes": 120098
+    },
+    {
+      "route": "/assets/resources/dumbbell-head-retention/dumbbell-head-support-packaging.avif",
+      "status": 200,
+      "bytes": 38990
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "bytes": 282107
+    },
+    {
+      "route": "/robots.txt",
+      "status": 200,
+      "bytes": 1508
+    },
+    {
+      "route": "/sitemap.xml",
+      "status": 200,
+      "bytes": 2364874
+    },
+    {
+      "route": "/sitemap-index.xml",
+      "status": 200,
+      "bytes": 670
+    },
+    {
+      "route": "/sitemaps/blogs.xml",
+      "status": 200,
+      "bytes": 61718
+    },
+    {
+      "route": "/sitemaps/images.xml",
+      "status": 200,
+      "bytes": 1149558
+    },
+    {
+      "route": "/sitemaps/languages.xml",
+      "status": 200,
+      "bytes": 2065393
+    }
+  ],
+  "failures": []
+}

@@ -8,14 +8,21 @@ import {
   PackageCheck,
   ShieldCheck
 } from "lucide-react";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import type { ContentBlock, PublishedContent } from "../../../lib/content/types";
 import { contentRepository } from "../../../lib/content/repository";
 import { getDumbbellProduct } from "../../products/dumbbells/productData";
 import { getWeightPlateProduct } from "../../products/weight-plates/productData";
-import { getRacksBenchesProduct } from "../../products/racks-benches/productData";
 import { getGymAccessoryProduct } from "../../products/gym-accessories/productData";
 import { getPostBySlug } from "../../resources/blogData";
 import LocalizedInquiryForm from "./LocalizedInquiryForm";
+
+function avifSibling(src: string) {
+  if (!src.startsWith("/assets/") || !src.endsWith(".webp")) return undefined;
+  const candidate = src.replace(/\.webp$/u, ".avif");
+  return existsSync(join(process.cwd(), "public", candidate.replace(/^\//u, ""))) ? candidate : undefined;
+}
 import styles from "./IndonesianMirrorPage.module.css";
 
 type Version = PublishedContent["version"];
@@ -40,8 +47,8 @@ type ProductData = {
 };
 
 const coreImages: Record<string, string[]> = {
-  home: ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/racks-benches.avif", "/assets/gym-accessories.avif"],
-  "products-hub": ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/racks-benches.avif", "/assets/gym-accessories.avif"],
+  home: ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/gym-accessories.avif"],
+  "products-hub": ["/assets/hero-poster.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif", "/assets/gym-accessories.avif"],
   factory: ["/assets/factory.avif", "/assets/factory-process/dumbbell-cutting.webp", "/assets/factory-cases/container-shipping-pbf.avif"],
   projects: ["/assets/projects/round-dumbbell-gym-zone.avif", "/assets/projects/commercial-dumbbell-rack-zone.avif", "/assets/project-plate-zone.avif", "/assets/case-showroom.avif"],
   "oem-private-label": ["/assets/dumbbell-production.avif", "/assets/hex-dumbbells.avif", "/assets/weight-plate.avif"],
@@ -51,7 +58,6 @@ const coreImages: Record<string, string[]> = {
 const categoryImages: Record<string, string> = {
   "dumbbells-category": "/assets/hex-dumbbells.avif",
   "weight-plates-category": "/assets/weight-plate.avif",
-  "racks-benches-category": "/assets/racks-benches.avif",
   "gym-accessories-category": "/assets/gym-accessories.avif"
 };
 
@@ -68,13 +74,31 @@ function productData(content: PublishedContent): ProductData | undefined {
   const slug = sourceSlug(content);
   if (path.includes("/products/dumbbells/")) return getDumbbellProduct(slug);
   if (path.includes("/products/weight-plates/")) return getWeightPlateProduct(slug);
-  if (path.includes("/products/racks-benches/")) return getRacksBenchesProduct(slug);
   if (path.includes("/products/gym-accessories/")) return getGymAccessoryProduct(slug);
   return undefined;
 }
 
 function paragraphs(content?: string) {
   return (content ?? "").split("\n\n").filter(Boolean).map((item) => <p key={item}>{item}</p>);
+}
+
+function markdownContent(content: string) {
+  return content.split(/\n\n+/u).filter(Boolean).map((group, index) => {
+    if (group.startsWith("### ")) return <h3 key={`${group}-${index}`}>{group.slice(4)}</h3>;
+    const lines = group.split("\n").filter(Boolean);
+    if (lines.every((line) => line.startsWith("- "))) {
+      return (
+        <ul key={`${group}-${index}`}>
+          {lines.map((line) => {
+            const value = line.slice(2);
+            const link = value.match(/^\[([^\]]+)\]\((\/[^)]+)\)$/u);
+            return <li key={line}>{link ? <a href={link[2]}>{link[1]}</a> : value}</li>;
+          })}
+        </ul>
+      );
+    }
+    return <p key={`${group}-${index}`}>{group}</p>;
+  });
 }
 
 function textBlock(block: ContentBlock | undefined, fallback: string) {
@@ -102,6 +126,7 @@ function EditorialBlock({ block }: { block: ContentBlock }) {
       {block.heading ? <h2>{block.heading}</h2> : null}
       {block.data?.component === "definition" && typeof block.data.term === "string" ? <strong className={styles.term}>{block.data.term}</strong> : null}
       {paragraphs(block.content)}
+      {typeof block.data?.markdown === "string" ? markdownContent(block.data.markdown) : null}
       {columns.length && rows.length ? (
         <div className={styles.tableWrap}>
           <table><thead><tr>{columns.map((column) => <th key={column}>{column}</th>)}</tr></thead>
@@ -232,11 +257,12 @@ function ArticleMirror({ content }: { content: PublishedContent }) {
   const { version } = content;
   const locale = mirrorLocale(version);
   const source = content.entity.versions.en?.publicPath?.startsWith("/resources/") ? getPostBySlug(sourceSlug(content)) : undefined;
-  const hero = source?.coverImage ?? version.images[0]?.src;
+  const hero = version.schemaData.extra?.useLocalizedHero ? version.images[0]?.src : source?.coverImage ?? version.images[0]?.src;
+  const inlineImagePositions = [3, 7, 11, 12];
   return (
     <main className={`${styles.page} ${styles.articlePage}`} data-page-family="article">
-      <section className={styles.articleHero}><div><a href={tr(locale, "/id/blog", "/pl/blog", "/nl/blog")}>← {tr(locale, "Semua panduan", "Wszystkie poradniki", "Alle inkoopgidsen")}</a><span>{tr(locale, "Panduan teknis untuk pembeli Indonesia", "Poradnik techniczny dla polskich buyerów", "Technische gids voor Nederlandse B2B-inkopers")}</span><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.articleMeta}>{tr(locale, "Ditulis oleh", "Autor", "Auteur")} {version.author?.name} · {tr(locale, "Ditinjau oleh", "Weryfikacja", "Technische controle")} {version.reviewedBy?.name}</div></div>{hero ? <img src={hero} alt={version.images[0]?.alt ?? version.h1} /> : null}</section>
-      <div className={styles.articleLayout}><aside><strong>{tr(locale, "Dalam panduan ini", "W tym poradniku", "In deze gids")}</strong>{version.body.slice(0, 12).map((block) => block.heading ? <a key={block.id} href={`#${block.id}`}>{block.heading}</a> : null)}</aside><article className={styles.articleBody}>{version.body.map((block, index) => <div id={block.id} key={block.id}><EditorialBlock block={block} />{index === 5 && version.images[1] ? <img src={version.images[1].src} alt={version.images[1].alt} /> : null}{index === 12 && version.images[2] ? <img src={version.images[2].src} alt={version.images[2].alt} /> : null}</div>)}</article></div>
+      <section className={styles.articleHero}><div><a href={tr(locale, "/id/blog", "/pl/blog", "/nl/blog")}>← {tr(locale, "Semua panduan", "Wszystkie poradniki", "Alle inkoopgidsen")}</a><span>{tr(locale, "Panduan teknis untuk pembeli Indonesia", "Poradnik techniczny dla polskich buyerów", "Technische gids voor Nederlandse B2B-inkopers")}</span><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.articleMeta}>{tr(locale, "Ditulis oleh", "Autor", "Auteur")} {version.author?.name} · {tr(locale, "Ditinjau oleh", "Weryfikacja", "Technische controle")} {version.reviewedBy?.name}</div></div>{hero ? <picture>{avifSibling(hero) ? <source srcSet={avifSibling(hero)} type="image/avif" sizes="(max-width: 900px) 100vw, 52vw" /> : null}<img src={hero} alt={version.images[0]?.alt ?? version.h1} width={version.images[0]?.width} height={version.images[0]?.height} fetchPriority="high" decoding="async" sizes="(max-width: 900px) 100vw, 52vw" /></picture> : null}</section>
+      <div className={styles.articleLayout}><aside><strong>{tr(locale, "Dalam panduan ini", "W tym poradniku", "In deze gids")}</strong>{version.body.slice(0, 12).map((block) => block.heading ? <a key={block.id} href={`#${block.id}`}>{block.heading}</a> : null)}</aside><article className={styles.articleBody}>{version.body.map((block, index) => { const image = version.images[inlineImagePositions.indexOf(index) + 1]; return <div id={block.id} key={block.id}><EditorialBlock block={block} />{inlineImagePositions.includes(index) && image ? <figure><picture>{avifSibling(image.src) ? <source srcSet={avifSibling(image.src)} type="image/avif" /> : null}<img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /></picture>{image.caption ? <figcaption>{image.caption}</figcaption> : null}</figure> : null}</div>; })}</article></div>
       <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, `Pertanyaan terkait ${version.h1}`, `Pytania dotyczące: ${version.h1}`, `Vragen over ${version.h1}`)}</h2></div><div className={styles.faqGrid}>{version.faq.map((item) => <article key={item.id}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section>
       <FinalCta locale={locale} />
     </main>
@@ -293,7 +319,7 @@ function ResourceIndexMirror({ version }: { version: Version }) {
 
 function HomeMirror({ version }: { version: Version }) {
   const locale = mirrorLocale(version);
-  const categories = contentRepository.listPublished({ locale }).filter(({ entity }) => ["dumbbells-category", "weight-plates-category", "racks-benches-category", "gym-accessories-category"].includes(entity.id));
+  const categories = contentRepository.listPublished({ locale }).filter(({ entity }) => ["dumbbells-category", "weight-plates-category", "gym-accessories-category"].includes(entity.id));
   return (
     <main className={`${styles.page} ${styles.homePage}`} data-page-family="home"><section className={styles.homeHero}><img src="/assets/hero-poster.avif" alt={tr(locale, "Peralatan gym PowerBaseFit", "Profesjonalny sprzęt fitness PowerBaseFit", "Professionele fitnessapparatuur van PowerBaseFit")} /><div><h1>{version.h1}</h1><p>{version.description}</p><div className={styles.heroActions}><a href={tr(locale, "/id/produk", "/pl/produkty", "/nl/producten")}>{tr(locale, "Jelajahi produk", "Zobacz produkty", "Bekijk producten")} <ArrowRight size={20} /></a><a className={styles.secondary} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Minta penawaran", "Poproś o wycenę", "Offerte aanvragen")}</a></div></div></section><section className={styles.catalogSection}><div className={styles.sectionHeading}><span>{tr(locale, "Kategori produk", "Kategorie produktów", "Productcategorieën")}</span><h2>{tr(locale, "Beban bebas dan peralatan gym untuk pembeli profesional", "Wolne ciężary i wyposażenie siłowni dla profesjonalnych buyerów", "Vrije gewichten en fitnessapparatuur voor professionele inkopers")}</h2></div><div className={styles.categoryGrid}>{categories.map((item) => <a key={item.entity.id} href={item.version.publicPath}><img src={categoryImages[item.entity.id]} alt={item.version.h1} /><div><h3>{item.version.h1}</h3><p>{item.version.description}</p></div></a>)}</div></section><section className={styles.factoryFeature}><img src="/assets/factory.avif" alt={tr(locale, "Pabrik PowerBaseFit", "Fabryka PowerBaseFit", "PowerBaseFit-fabriek")} /><div><span>{tr(locale, "Manufaktur dan ekspor", "Produkcja i eksport", "Productie en export")}</span><h2>{tr(locale, "Spesifikasi, sampel, produksi, QC, dan pengiriman dalam satu alur.", "Specyfikacja, próbka, produkcja, QC i dostawa w jednym procesie.", "Specificatie, monster, productie, QC en levering in één proces.")}</h2><p>{textBlock(version.body[4], version.description)}</p><a href={tr(locale, "/id/pabrik", "/pl/fabryka", "/nl/fabriek")}>{tr(locale, "Lihat proses pabrik", "Zobacz proces produkcyjny", "Bekijk het productieproces")} <ArrowRight size={18} /></a></div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={10} /></section><FinalCta locale={locale} /></main>
   );
@@ -303,8 +329,11 @@ function CoreMirror({ content }: { content: PublishedContent }) {
   const { entity, version } = content;
   const locale = mirrorLocale(version);
   const images = coreImages[entity.id] ?? version.images.map((image) => image.src);
+  const usesLocalizedCaseImages = entity.type === "case";
+  const heroImage = version.images[0];
+  const detailImages = version.images.slice(1);
   return (
-    <main className={`${styles.page} ${styles.corePage}`} data-page-family="core"><section className={styles.coreHero}><div><span>PowerBaseFit · {tr(locale, "Pasokan B2B", "Dostawy B2B", "B2B-levering")}</span><h1>{version.h1}</h1><p>{version.description}</p><a className={styles.primaryButton} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Diskusikan proyek", "Omów projekt", "Bespreek uw project")} <ArrowRight size={20} /></a></div>{images[0] ? <img src={images[0]} alt={version.h1} /> : null}</section><section className={styles.capabilityStrip}><div><Factory />{tr(locale, "Produksi terkontrol", "Kontrolowana produkcja", "Gecontroleerde productie")}</div><div><ShieldCheck />{tr(locale, "Spesifikasi dan QC", "Specyfikacja i QC", "Specificatie en QC")}</div><div><Globe2 />{tr(locale, "Ekspor ke pasar global", "Eksport na rynki międzynarodowe", "Export naar internationale markten")}</div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={5} /></section>{images.length > 1 ? <section className={styles.mediaBand}>{images.slice(1).map((image, index) => <img key={image} src={image} alt={`${version.h1} ${index + 2}`} />)}</section> : null}<section className={styles.infoSection}><EditorialGrid version={version} start={5} /></section><FinalCta locale={locale} /></main>
+    <main className={`${styles.page} ${styles.corePage}`} data-page-family="core"><section className={styles.coreHero}><div><span>PowerBaseFit · {tr(locale, "Pasokan B2B", "Dostawy B2B", "B2B-levering")}</span><h1>{version.h1}</h1><p>{version.description}</p><a className={styles.primaryButton} href={tr(locale, "/id/kontak", "/pl/kontakt", "/nl/contact")}>{tr(locale, "Diskusikan proyek", "Omów projekt", "Bespreek uw project")} <ArrowRight size={20} /></a></div>{usesLocalizedCaseImages && heroImage ? <figure className={styles.caseImage}><picture>{avifSibling(heroImage.src) ? <source srcSet={avifSibling(heroImage.src)} type="image/avif" /> : null}<img src={heroImage.src} alt={heroImage.alt} width={heroImage.width} height={heroImage.height} /></picture>{heroImage.caption ? <figcaption>{heroImage.caption}</figcaption> : null}</figure> : images[0] ? <img src={images[0]} alt={version.h1} /> : null}</section><section className={styles.capabilityStrip}><div><Factory />{tr(locale, "Produksi terkontrol", "Kontrolowana produkcja", "Gecontroleerde productie")}</div><div><ShieldCheck />{tr(locale, "Spesifikasi dan QC", "Specyfikacja i QC", "Specificatie en QC")}</div><div><Globe2 />{tr(locale, "Ekspor ke pasar global", "Eksport na rynki międzynarodowe", "Export naar internationale markten")}</div></section><section className={styles.infoSection}><EditorialGrid version={version} start={0} end={5} /></section>{usesLocalizedCaseImages && detailImages.length > 0 ? <section className={styles.mediaBand}>{detailImages.map((image) => <figure className={styles.caseImage} key={image.id}><picture>{avifSibling(image.src) ? <source srcSet={avifSibling(image.src)} type="image/avif" /> : null}<img src={image.src} alt={image.alt} width={image.width} height={image.height} loading="lazy" /></picture>{image.caption ? <figcaption>{image.caption}</figcaption> : null}</figure>)}</section> : images.length > 1 ? <section className={styles.mediaBand}>{images.slice(1).map((image, index) => <img key={image} src={image} alt={`${version.h1} ${index + 2}`} />)}</section> : null}<section className={styles.infoSection}><EditorialGrid version={version} start={5} /></section>{usesLocalizedCaseImages && version.faq.length > 0 ? <section className={styles.faqSection}><div className={styles.sectionHeading}><span>FAQ</span><h2>{tr(locale, `Pertanyaan terkait ${version.h1}`, `Pytania dotyczące: ${version.h1}`, `Vragen over ${version.h1}`)}</h2></div><div className={styles.faqGrid}>{version.faq.map((item) => <article key={item.id}><h3>{item.question}</h3><p>{item.answer}</p></article>)}</div></section> : null}<FinalCta locale={locale} /></main>
   );
 }
 

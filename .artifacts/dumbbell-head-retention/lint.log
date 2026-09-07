@@ -1,0 +1,16 @@
+
+> powerbasefit-homepage@0.1.0 lint
+> eslint .
+
+
+C:\Users\Kloe\Documents\chinafreeweight独立站\content\i18n\french-products.ts
+  62:7  warning  'rackMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Kloe\Documents\chinafreeweight独立站\content\i18n\german-products.ts
+  78:7  warning  'rackMap' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Kloe\Documents\chinafreeweight独立站\content\i18n\vietnamese-products.ts
+  63:7  warning  'racks' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 3 problems (0 errors, 3 warnings)
+

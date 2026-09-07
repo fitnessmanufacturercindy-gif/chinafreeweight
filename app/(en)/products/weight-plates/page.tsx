@@ -130,8 +130,8 @@ export default function WeightPlatesPage() {
             packaging. PBF supports commercial gym plates for mixed container
             projects and distributor programs.
           </p>
-          <a className="primary-button" href="/contact">
-            Send Plate Requirements <ArrowRight size={18} />
+          <a className="primary-button" href="/oem">
+            Plan Custom Weight Plates <ArrowRight size={18} />
           </a>
         </div>
         <div className="capability-list">
@@ -147,13 +147,13 @@ export default function WeightPlatesPage() {
       <section className="products-section" id="weight-plate-products">
         <div className="section-heading-wide">
           <div>
-            <span>Internal Links</span>
+            <span>Product range</span>
             <h2>All Weight Plates products</h2>
           </div>
           <p>
-            Each product style has its own SEO page. Review material,
-            construction, manufacturing process, OEM options, application
-            scenarios, and global shipping support before sending your inquiry.
+            Review material, construction, manufacturing process, OEM options,
+            application scenarios, and export order support before sending your
+            weight plate requirements.
           </p>
         </div>
 

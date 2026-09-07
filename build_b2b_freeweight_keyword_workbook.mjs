@@ -340,7 +340,7 @@ for (const seed of seeds) {
   for (const tpl of aiTemplates) {
     rows.push(makeRow(tpl.replace("{seed}", seed.key), "AI / GEO Keywords", seed.cat, "Global", seed.slug, "Write direct answer sections, comparison tables, buyer checklist, and RFQ CTA."));
   }
-  for (const [country, countrySlug] of countries) {
+  for (const [country] of countries) {
     rows.push(makeRow(`${seed.key} supplier in ${country}`, "Country Keywords", seed.cat, country, seed.slug, "Country landing page should mention shipping, certifications, local buyer concerns, and RFQ."));
     rows.push(makeRow(`${seed.key} manufacturer for ${country} importers`, "Country Keywords", seed.cat, country, seed.slug, "Import-focused B2B term for distributors and gym equipment buyers."));
   }

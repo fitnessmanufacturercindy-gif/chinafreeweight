@@ -40,7 +40,7 @@ export const ptBrCommercialPages: PilotPage[] = [
     title: "Equipamentos de academia OEM e marca própria | PowerBaseFit",
     description: "Fabricação OEM de halteres, anilhas e equipamentos fitness com logo, cores, kg ou lb, embalagem, amostra, QC e suporte de exportação para compradores B2B.",
     h1: "Fabricação OEM de equipamentos fitness e marca própria",
-    image: ["/assets/factory.png", "Fabricação OEM de equipamentos de academia PowerBaseFit"],
+    image: ["/assets/factory.avif", "Fabricação OEM de equipamentos de academia PowerBaseFit"],
     blocks: [
       quick("resposta-rapida", "A PowerBaseFit desenvolve programas OEM para distribuidores, importadores e marcas de equipamentos fitness. Dependendo do produto, podem ser avaliados logo, cores, marcação em kg ou lb, acabamento e embalagem. O processo passa por definição do produto base, revisão de arquivo, amostra, aprovação, produção, QC e exportação."),
       definition("definicao", "OEM e marca própria", "OEM é a fabricação de um produto para ser comercializado sob a marca do comprador, dentro de uma especificação aprovada. Marca própria descreve a estratégia comercial; OEM descreve a relação de fabricação. ODM pode incluir maior participação do fornecedor no desenvolvimento, mas o escopo precisa ser definido em cada projeto."),
@@ -82,7 +82,7 @@ export const ptBrCommercialPages: PilotPage[] = [
     title: "Halter redondo de borracha 2,5–100 kg | PowerBaseFit",
     description: "Halter redondo de borracha de 2,5 a 100 kg para academias e distribuidores, com opções kg/lb, logo, marca própria, QC e embalagem de exportação OEM.",
     h1: "Halter redondo de borracha para uso comercial",
-    image: ["/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.jpg", "Halter redondo de borracha para academia profissional"],
+    image: ["/assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.avif", "Halter redondo de borracha para academia profissional"],
     material: "Cabeça redonda revestida de borracha com empunhadura metálica", category: "Halter profissional",
     specifications: [{ name: "Faixa", value: "2,5 a 100 kg" }, { name: "Incremento", value: "2,5 kg" }, { name: "Sistemas", value: "kg e lb disponíveis conforme projeto" }],
     blocks: [

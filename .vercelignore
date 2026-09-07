@@ -4,3 +4,5 @@
 reports/
 seo-engine/
 tsconfig.tsbuildinfo
+homepage-*.png
+tmp-*.png

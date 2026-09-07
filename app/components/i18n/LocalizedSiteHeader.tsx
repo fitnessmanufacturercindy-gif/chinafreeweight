@@ -32,19 +32,19 @@ const navigation = {
   },
   ko: {
     prefix: "/ko", aria: "주요 탐색", quote: "견적 요청", contact: "/contact",
-    links: [["/products/dumbbells", "덤벨"], ["/products/weight-plates", "원판"], ["/products/racks-benches", "랙·벤치"], ["/factory", "공장"], ["/blog", "구매 가이드"], ["/contact", "문의"]]
+    links: [["/products/dumbbells", "덤벨"], ["/products/weight-plates", "원판"], ["/factory", "공장"], ["/blog", "구매 가이드"], ["/contact", "문의"]]
   },
   id: {
     prefix: "/id", aria: "Navigasi utama", quote: "Minta penawaran", contact: "/kontak",
-    links: [["/produk/dumbbell", "Dumbbell"], ["/produk/piring-beban", "Piring beban"], ["/produk/rak-bangku", "Rack & bench"], ["/pabrik", "Pabrik"], ["/blog", "Panduan"], ["/kontak", "Kontak"]]
+    links: [["/produk/dumbbell", "Dumbbell"], ["/produk/piring-beban", "Piring beban"], ["/pabrik", "Pabrik"], ["/blog", "Panduan"], ["/kontak", "Kontak"]]
   },
   pl: {
     prefix: "/pl", aria: "Główna nawigacja", quote: "Poproś o wycenę", contact: "/kontakt",
-    links: [["/produkty/hantle", "Hantle"], ["/produkty/obciazenia", "Obciążenia"], ["/produkty/stojaki-lawki", "Stojaki i ławki"], ["/fabryka", "Fabryka"], ["/blog", "Poradniki"], ["/kontakt", "Kontakt"]]
+    links: [["/produkty/hantle", "Hantle"], ["/produkty/obciazenia", "Obciążenia"], ["/fabryka", "Fabryka"], ["/blog", "Poradniki"], ["/kontakt", "Kontakt"]]
   },
   nl: {
     prefix: "/nl", aria: "Hoofdnavigatie", quote: "Offerte aanvragen", contact: "/contact",
-    links: [["/producten/halters", "Halters"], ["/producten/halterschijven", "Halterschijven"], ["/producten/racks-banken", "Racks & banken"], ["/fabriek", "Fabriek"], ["/blog", "Inkoopgidsen"], ["/contact", "Contact"]]
+    links: [["/producten/halters", "Halters"], ["/producten/halterschijven", "Halterschijven"], ["/fabriek", "Fabriek"], ["/blog", "Inkoopgidsen"], ["/contact", "Contact"]]
   }
 } as const;
 

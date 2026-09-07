@@ -1,0 +1,549 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.3565 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09040340-2064-0139-0000-08f2db404800",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2098 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "fixed vs adjustable dumbbells commercial gym",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "fixed vs adjustable dumbbells commercial gym",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=fixed%20vs%20adjustable%20dumbbells%20commercial%20gym&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-04 03:40:08 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "discussions_and_forums",
+            "video",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 113,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Static Dumbbells vs Adjustable weights : r/homegym",
+              "url": "https://www.reddit.com/r/homegym/comments/6vljnn/static_dumbbells_vs_adjustable_weights/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "8 comments  ·  9 years ago",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "I'm so much happier with my fixed dumbbells. The durability, ability to change weight by just grabbing the next set, comfort of resting heavy ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "fixed dumbbells"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Adjustable Dumbell vs Regular : r/GarageGym - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/GarageGym/comments/1g52omi/adjustable_dumbell_vs_regular/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Should my first dumbbell be a fixed lightweight or ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/GarageGym/comments/1lftfim/new_to_fitness_should_my_first_dumbbell_be_a/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=fixed+vs+adjustable+dumbbells+commercial+gym+site:www.reddit.com&sca_esv=f1490dcc4a548441&hl=en&gl=US&sa=X&ved=2ahUKEwifmcWygNSWAxXrV6QEHVOGF6YQrQIoAnoECCMQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Adjustable Dumbell vs Regular",
+                  "url": "https://www.reddit.com/r/GarageGym/comments/1g52omi/adjustable_dumbell_vs_regular/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-09-04 03:40:08 +00:00",
+                  "posts_count": 40
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Do you prefer adjustable or regular dumbbells?",
+                  "url": "https://www.facebook.com/groups/262681228448/posts/10159786170468449/",
+                  "domain": "www.facebook.com",
+                  "source": "Facebook",
+                  "description": null,
+                  "timestamp": "2022-09-04 03:40:08 +00:00",
+                  "posts_count": null
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "How do adjustable dumbbells compare to fixed-weight dumb Bells in ...",
+                  "url": "https://www.quora.com/How-do-adjustable-dumbbells-compare-to-fixed-weight-dumb-Bells-in-terms-of-versatility-and-space-saving",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2025-09-04 03:40:08 +00:00",
+                  "posts_count": 30
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.garagegymreviews.com",
+              "title": "Adjustable Dumbbells vs Fixed: A Classic Home Gym Debate",
+              "url": "https://www.garagegymreviews.com/adjustable-dumbbells-vs-fixed",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.garagegymreviews.com › Comparison",
+              "website_name": "Garage Gym Reviews",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Adjustable dumbbells usually offer lower maximum weights than fixed dumbbells, with some models only offering increments up to around 50 pounds.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Adjustable dumbbells usually offer lower maximum weights than fixed dumbbells"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Ryan Treadaway",
+                  "title": "Fixed vs. Adjustable? | Best Dumbbells for Home Gyms",
+                  "timestamp": "2026-04-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/shorts/W4HgZUkk7O8"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · McSport",
+                  "title": "Adjustable vs Fixed Dumbbells — which should you choose for ...",
+                  "timestamp": "2026-03-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/shorts/PlftQ_6AD2M"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Garage Gym Reviews",
+                  "title": "These NEW Adjustable Dumbbells Claim To Fix All Problems!",
+                  "timestamp": "2026-08-21 03:40:08 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jXJHsptdDI4"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Are adjustable or fixed dumbbells better?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the downsides of using adjustable dumbbells?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is a 20 lb dumbbell actually 40 lbs?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Are 50 lb adjustable dumbbells enough?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "powerblock.com",
+              "title": "Adjustable vs. Fixed Dumbbells: Weighing the Pros and Cons",
+              "url": "https://powerblock.com/blogs/adjustable-dumbbells/adjustable-dumbbells-vs-fixed-dumbbells?srsltid=AfmBOoqN1cnmDNJ4aIaO0s8CxMjgnHr0459_FdA1CxVSLZ_BQEBi9ial",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://powerblock.com › blogs › adjustable-dumbbells-...",
+              "website_name": "PowerBlock",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Buying several pairs of fixed dumbbells vs. an adjustable dumbbell will be much higher in price, Adjustable dumbbells offer massive cost savings vs. buying ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Adjustable dumbbells offer massive cost savings"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "strengthwarehouseusa.com",
+              "title": "Adjustable Dumbbells vs Fixed: What's Right for You?",
+              "url": "https://strengthwarehouseusa.com/blogs/resources/adjustable-dumbbells-vs-fixed?srsltid=AfmBOoqhlgPF-ZTcMPYBb4hAJzvr2fgn0l5TVAKw9RC6q8nbNnr0BcW7",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://strengthwarehouseusa.com › blogs › resources",
+              "website_name": "Strength Warehouse USA",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sep 29, 2024 — Fixed dumbbells, while requiring more room, can still be neatly organized using storage racks. You'll often see this setup in a commercial gym, ... Read more",
+              "pre_snippet": "09/29/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Fixed dumbbells",
+                "commercial gym"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.ritfitsports.com",
+              "title": "Adjustable Dumbbells vs Fixed Dumbbells: Which Should ...",
+              "url": "https://www.ritfitsports.com/blogs/article/adjustable-dumbbells-vs-fixed-dumbbells?srsltid=AfmBOooJWPVd6700IDR3r3EMXimkcAqen1l_zz7vtTCUVWiOR_bGz2CJ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ritfitsports.com › blogs › article › adjustabl...",
+              "website_name": "RitFit",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jul 26, 2026 — Adjustable dumbbells need just 2-5 square feet of floor space, while a comparable fixed set with a rack can take up 10-25 square feet or more. Read more",
+              "pre_snippet": "07/26/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Adjustable dumbbells need just 2-5 square feet of floor space"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-07-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "dumbbellsdirect.com",
+              "title": "Adjustable Dumbbells vs Fixed: Which One Fits Your ...",
+              "url": "https://dumbbellsdirect.com/blogs/dumbbell-resources/adjustable-dumbbells-vs-fixed-dumbbells?srsltid=AfmBOoojh01UyAIM5TGwuCqU1C2KGbIRl89UbiIpYEUtx280LKNtzUdB",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dumbbellsdirect.com › blogs › dumbbell-resources",
+              "website_name": "Dumbbells Direct",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apr 11, 2025 — Both of these have solid benefits. Adjustable dumbbells are cost effective and space saver, while fixed dumbbells offer durability and speed. Read more",
+              "pre_snippet": "04/11/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Adjustable dumbbells are cost effective and space saver"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-04-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.ironmaster.com",
+              "title": "Adjustable Dumbbells vs Fixed Dumbbells",
+              "url": "https://www.ironmaster.com/blog/2021/05/14/adjustable-dumbbells-vs-fixed-dumbbells-which-dumbbell-set-should-you-buy/?srsltid=AfmBOory_Msp5VWitR7VekU1075lO3EMix20dKHD0WEZ9sB_xBSEnM5p",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ironmaster.com › BLOG",
+              "website_name": "Ironmaster",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 14, 2021 — If you're buying dumbbells for use in a commercial gym, then you should go with a fixed dumbbell system. Any of the various parts and pieces in ... Read more",
+              "pre_snippet": "05/14/2021 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "fixed dumbbell system"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Adjustable Dumbbells",
+                  "description": null,
+                  "url": "https://www.ironmaster.com/blog/2021/05/14/adjustable-dumbbells-vs-fixed-dumbbells-which-dumbbell-set-should-you-buy/#:~:text=Adjustable%20dumbbells,-Adjustable%20dumbbells",
+                  "domain": "www.ironmaster.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Fixed Dumbbells",
+                  "description": null,
+                  "url": "https://www.ironmaster.com/blog/2021/05/14/adjustable-dumbbells-vs-fixed-dumbbells-which-dumbbell-set-should-you-buy/#:~:text=Fixed%20Dumbbells,-There%20are%20different%20types%20of",
+                  "domain": "www.ironmaster.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Unnatural Dumbbell Look And...",
+                  "description": null,
+                  "url": "https://www.ironmaster.com/blog/2021/05/14/adjustable-dumbbells-vs-fixed-dumbbells-which-dumbbell-set-should-you-buy/#:~:text=Unnatural%20Dumbbell%20Look%20and%20Feel",
+                  "domain": "www.ironmaster.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2021-05-14 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Fixed vs adjustable dumbbells commercial gym reddit",
+                "Fixed vs adjustable dumbbells commercial gym weight",
+                "Fixed vs adjustable dumbbells commercial gym cost",
+                "Adjustable dumbbells vs fixed reddit",
+                "Best adjustable dumbbells",
+                "PowerBlock adjustable dumbbells",
+                "Adjustable dumbbells vs regular dumbbells",
+                "NÜOBELL adjustable dumbbells"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

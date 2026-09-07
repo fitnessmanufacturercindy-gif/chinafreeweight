@@ -1,422 +1,343 @@
-﻿import type { Metadata } from "next";
+import Image from "next/image";
+import type { Metadata } from "next";
 import {
   ArrowRight,
+  BadgeCheck,
   Boxes,
-  CheckCircle2,
+  Check,
   Factory,
+  FileCheck2,
   Globe2,
-  Mail,
-  MessageCircle,
+  Handshake,
   PackageCheck,
-  ShieldCheck,
-  Wrench
+  Palette,
+  RefreshCw,
+  Ruler,
+  SearchCheck,
+  Ship,
+  Tags,
+  Truck
 } from "lucide-react";
-import LazyHeroVideo from "../components/LazyHeroVideo";
-import { siteName } from "../site";
+import FreeSampleCTA from "../components/FreeSampleCTA";
+import { siteName, siteUrl } from "../site";
 import { getEnglishAlternates } from "../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
+  title: "Custom Dumbbells & Weight Plates Manufacturer | PowerBaseFit",
+  description:
+    "Source custom dumbbells and weight plates from PowerBaseFit, with OEM branding, export packaging and production support for importers and distributors.",
   alternates: getEnglishAlternates("/"),
   openGraph: {
     type: "website",
     url: "/",
     siteName,
-    title: "PowerBaseFit | Free Weight Equipment Manufacturer",
+    title: "Custom Dumbbells & Weight Plates Manufacturer | PowerBaseFit",
     description:
-      "OEM dumbbells, weight plates, barbells, benches, racks and gym accessories for global fitness equipment importers and commercial gyms."
+      "OEM free weights, export packaging and repeat-order support for importers, distributors and private label fitness brands.",
+    images: [{
+      url: "/assets/projects/project-hero-desktop.avif",
+      width: 1600,
+      height: 900,
+      alt: "PowerBaseFit commercial free weight equipment project"
+    }]
   }
 };
 
 const products = [
   {
-    name: "Dumbbells",
-    copy: "Rubber, chrome and hex dumbbells with OEM logo, handle color and full gym set options.",
+    name: "Custom Dumbbells",
+    description: "Rubber, hex, chrome, steel, CPU and TPU dumbbells for wholesale ranges, commercial gyms and private label programs.",
     image: "/assets/hex-dumbbells.avif",
-    href: "/products/dumbbells"
+    alt: "Commercial rubber hex dumbbells for wholesale and OEM orders",
+    href: "/products/dumbbells",
+    details: ["KG and LB ranges", "Logo and end-cap options", "Handle and finish selection"]
   },
   {
-    name: "Weight plates",
-    copy: "Bumper plates, rubber plates and cast iron plates for wholesale and commercial gym projects.",
+    name: "Weight & Bumper Plates",
+    description: "Cast iron, rubber-coated, urethane, steel and bumper plates planned around material, use, markings and target market.",
     image: "/assets/weight-plate.avif",
-    href: "/products/weight-plates"
-  },
-  {
-    name: "Multi-functional Racks & Benches",
-    copy: "Power racks, storage racks and adjustable benches for complete free weight training areas.",
-    image: "/assets/racks-benches.avif",
-    href: "/products/racks-benches"
+    alt: "Weight plates and bumper plates supplied for commercial buyers",
+    href: "/products/weight-plates",
+    details: ["Material and finish options", "KG, LB or dual marking", "Custom colors and logos"]
   },
   {
     name: "Gym Accessories",
-    copy: "Handles, bars, kettlebells, collars, ropes and training accessories for add-on sales.",
+    description: "Cable attachments, bars, collars, kettlebells and supporting accessories for complete product lists and add-on sales.",
     image: "/assets/gym-accessories.avif",
-    href: "/products/gym-accessories"
+    alt: "Cable attachments and gym accessories for distributors",
+    href: "/products/gym-accessories",
+    details: ["Mixed accessory lists", "Retail and project supply", "Custom labels and packaging"]
   }
 ];
 
-const strengths = [
+const buyerOutcomes = [
+  { icon: FileCheck2, title: "Comparable specifications", description: "Material, finish, weight range, markings and packing details are defined before order confirmation." },
+  { icon: RefreshCw, title: "Repeat-order control", description: "Approved product details, artwork and packing instructions create a clear reference for future batches." },
+  { icon: PackageCheck, title: "Export-ready packing", description: "Product protection, carton labels, pallet preparation and loading requirements are reviewed for the order." },
+  { icon: SearchCheck, title: "Documented checks", description: "Weight, appearance, assembly, markings and packaging are checked against the confirmed order details." }
+];
+
+const oemOptions = [
+  { icon: Tags, title: "Logo & Marking", description: "Molded, printed, laser or end-cap branding by product construction." },
+  { icon: Palette, title: "Color & Finish", description: "Product colors, surface treatments and visual references confirmed before production." },
+  { icon: Ruler, title: "Weight System", description: "KG, LB and dual-mark ranges prepared for the destination market." },
+  { icon: Boxes, title: "Packaging", description: "Cartons, labels, inserts and retail presentation aligned with the approved order." }
+];
+
+const steps = [
+  { number: "01", title: "Send requirements", copy: "Share product, weight range, quantity, market and destination." },
+  { number: "02", title: "Review specification", copy: "Confirm material, finish, logo, markings and packaging." },
+  { number: "03", title: "Approve sample", copy: "Review the requested product version before bulk production." },
+  { number: "04", title: "Confirm order", copy: "Lock the product list, artwork, packing details and schedule." },
+  { number: "05", title: "Production & checks", copy: "Manufacture and inspect against the confirmed order details." },
+  { number: "06", title: "Pack & ship", copy: "Prepare cartons, pallets, loading information and shipment records." }
+];
+
+const evidence = [
+  { title: "Material processing", copy: "Equipment and material preparation for dumbbell components.", image: "/assets/factory-process/dumbbell-cutting.webp", alt: "Dumbbell component processing equipment at PowerBaseFit" },
+  { title: "Surface finishing", copy: "Finishing work for appearance, edges and product surfaces.", image: "/assets/factory-process/detail-polishing-video.webp", alt: "Free weight component surface finishing process" },
+  { title: "Packing preparation", copy: "Products organized and protected before export dispatch.", image: "/assets/factory-cases/packaging-area-pbf.webp", alt: "PowerBaseFit free weight products prepared in the packing area" }
+];
+
+const exhibitions = [
   {
-    icon: ShieldCheck,
-    title: "Strict Quality Control",
-    copy: "From raw material selection to final inspection, every batch is checked for weight accuracy, durability, and finish."
+    title: "Product discussions",
+    copy: "Review construction, finish, weight ranges and branding directly with our team.",
+    image: "/assets/exhibitions/pbf-exhibition-01.webp",
+    alt: "PowerBaseFit team discussing chrome dumbbells with international buyers at a fitness equipment exhibition"
   },
   {
-    icon: Wrench,
-    title: "OEM Customization",
-    copy: "Custom logos, colors, packaging, and product details help dealers and fitness brands build stronger product lines."
+    title: "Hands-on product review",
+    copy: "Compare product details and commercial applications at the booth.",
+    image: "/assets/exhibitions/pbf-exhibition-05.webp",
+    alt: "PowerBaseFit representative demonstrating free weight equipment to an exhibition visitor"
   },
   {
-    icon: PackageCheck,
-    title: "Stable Supply",
-    copy: "Established production flow and fast communication help buyers reduce waiting time and protect delivery plans."
+    title: "Export sales team",
+    copy: "Meet the people who support product selection, OEM details and order communication.",
+    image: "/assets/exhibitions/pbf-exhibition-team.webp",
+    alt: "PowerBaseFit export sales team at an international fitness equipment exhibition"
   }
 ];
 
-const specs = [
-  "KG and LB systems",
-  "Custom logo molding",
-  "Commercial gym sets",
-  "Private label packaging",
-  "Mixed container orders",
-  "Fast quotation response"
-];
-
-const logoSamples = [
-  "IRONVALE",
-  "NOVA GYM",
-  "APEXFIT",
-  "STRONGWAY",
-  "URBAN LIFT",
-  "PRIME BAR",
-  "VOLTAGE",
-  "HARDLINE",
-  "COREMAX",
-  "ATLAS CLUB",
-  "LIFTEDGE",
-  "FORGE FIT",
-  "BLACK IRON",
-  "GYMOVA",
-  "RACKROOM"
-];
+const exportMarkets = ["Europe", "North America", "South America", "Middle East"];
 
 const projects = [
   {
     title: "Commercial Dumbbell Zone",
-    copy: "Rows of black hex dumbbells for a high-traffic commercial gym free weight area.",
-    image: "/assets/project-dumbbell-zone.avif"
+    need: "A coordinated fixed-dumbbell range with organized storage and consistent presentation.",
+    supplied: "Dumbbell selection, weight progression, rack matching and finish coordination.",
+    image: "/assets/projects/commercial-dumbbell-rack-zone.avif",
+    alt: "Commercial gym dumbbell zone supplied with organized storage"
   },
   {
-    title: "Weight Plate & Barbell Area",
-    copy: "Organized plate storage, Olympic bars and lifting platforms for strength facilities.",
-    image: "/assets/project-plate-zone.avif"
-  },
-  {
-    title: "Premium Home Gym Project",
-    copy: "Multi-functional rack, bench and chrome dumbbells for a high-end private training room.",
-    image: "/assets/racks-benches.avif"
-  },
-  {
-    title: "Dealer Product Display",
-    copy: "Free weight display solutions for showrooms, dealers and branded retail spaces.",
-    image: "/assets/case-gym.avif"
-  },
-  {
-    title: "Private Label Dumbbell Sets",
-    copy: "Custom logo dumbbells and racks prepared for gyms, distributors and franchise buyers.",
-    image: "/assets/case-showroom.avif"
-  },
-  {
-    title: "Accessory Add-on Program",
-    copy: "Handles, ropes, kettlebells and attachments to increase full-container order value.",
-    image: "/assets/gym-accessories.avif"
+    title: "Compact Chrome Dumbbell Set",
+    need: "A compact free weight option for a limited training area.",
+    supplied: "Chrome dumbbell progression with space-conscious vertical storage.",
+    image: "/assets/projects/compact-chrome-dumbbell-set.webp",
+    alt: "Compact chrome dumbbell set with vertical storage rack"
   }
+];
+
+const resources = [
+  { title: "Commercial Free Weight RFQ Checklist", copy: "Prepare specifications that make factory quotations easier to compare.", href: "/resources/commercial-free-weight-rfq-checklist" },
+  { title: "OEM Sample Approval Process", copy: "Create a clear product reference before a branded bulk order.", href: "/resources/oem-free-weight-sample-approval-process" },
+  { title: "Free Weight Batch Consistency", copy: "Record the details that matter when a product range is reordered.", href: "/resources/free-weight-reorder-batch-consistency" },
+  { title: "Export Packaging Guide", copy: "Review protection, carton information, pallets and receiving risks.", href: "/resources/export-packaging-dumbbells-weight-plates" }
 ];
 
 const faqs = [
-  {
-    question: "Can you make custom logo dumbbells and weight plates?",
-    answer:
-      "Yes. PowerBaseFit supports custom logos, colors, handle finishes, product details and packaging for private label buyers."
-  },
-  {
-    question: "What buyers are a good fit for your factory?",
-    answer:
-      "We mainly serve fitness equipment importers, wholesalers, dealers, commercial gym owners and gym equipment stores."
-  },
-  {
-    question: "Can I mix dumbbells, plates, racks and accessories in one order?",
-    answer:
-      "Yes. Mixed container orders are suitable for buyers building a complete free weight product line."
-  },
-  {
-    question: "How fast can I get quotation information?",
-    answer:
-      "Share your country, product requirement, quantity and logo needs. Our sales team will reply with quotation details and solutions."
-  }
+  { question: "What information is required for a factory quotation?", answer: "Send the product type, weight range, quantity, KG or LB marking, logo requirement, packaging requirement and destination country." },
+  { question: "How is the minimum order quantity confirmed?", answer: "MOQ is confirmed for the selected product construction, customization and packing plan after the product list is reviewed." },
+  { question: "Which OEM details are available?", answer: "The order specification covers the available logo method, color, finish, weight marking, carton label and packaging for the selected product." },
+  { question: "How is production lead time quoted?", answer: "Lead time is quoted after quantity, customization, sample approval and the production schedule are confirmed." },
+  { question: "What is checked before shipment?", answer: "The inspection plan records the required checks for product identity, weight, appearance, assembly, marking, quantity and packaging." },
+  { question: "How are repeat orders kept consistent?", answer: "Approved specifications, artwork versions, product references and packing instructions are retained for comparison with the next order." }
 ];
+
+const homepageJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${siteUrl}/#webpage`,
+      url: siteUrl,
+      name: "Custom Dumbbells & Weight Plates Manufacturer",
+      description: "PowerBaseFit manufactures OEM dumbbells, weight plates, bumper plates and gym accessories for importers and distributors.",
+      isPartOf: { "@id": `${siteUrl}#website` },
+      about: { "@id": `${siteUrl}#organization` },
+      primaryImageOfPage: { "@type": "ImageObject", url: `${siteUrl}/assets/projects/project-hero-desktop.avif` }
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer }
+      }))
+    }
+  ]
+};
 
 export default function Home() {
   return (
-    <main className="site-shell">
-      <section className="hero">
-        <LazyHeroVideo />
-        <div className="hero-copy">
-          <div className="brandline">PowerBaseFit</div>
-          <h1>Free Weight Equipment Manufacturer</h1>
-          <p>
-            OEM dumbbells, weight plates, barbells and gym accessories for global
-            fitness equipment importers, wholesalers, dealers and commercial gym
-            projects.
-          </p>
-          <div className="hero-actions">
-            <a className="button primary" href="#contact">
-              Get a Quote <ArrowRight size={18} />
-            </a>
-            <a className="button secondary" href="#products">
-              View Products
-            </a>
+    <main className="home-v3">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageJsonLd) }} />
+      <section className="home-v3-hero" aria-labelledby="home-v3-title">
+        <div className="home-v3-hero-copy">
+          <h1 id="home-v3-title">Custom Dumbbells & Weight Plates Manufacturer for Importers & Distributors</h1>
+          <p>Build a focused free weight range with OEM branding, defined specifications, export packaging and clear repeat-order records from PowerBaseFit in Dezhou, China.</p>
+          <div className="home-v3-hero-actions">
+            <FreeSampleCTA compact section="hero" />
+            <a className="home-v3-button home-v3-button-secondary" href="/contact">Get a Factory Quote <ArrowRight size={18} /></a>
           </div>
-          <div className="hero-proof" aria-label="Company proof points">
-            <span>Since 2008</span>
-            <span>8000 m2 factory</span>
-            <span>OEM/ODM source manufacturer</span>
-          </div>
+          <a className="home-v3-text-link" href="#products">Explore product families <ArrowRight size={16} /></a>
         </div>
-        <div className="hero-overlay-card">
-          <span>Built for</span>
-          <strong>commercial gym supply chains</strong>
-          <p>OEM free weights, private label programs, container orders, and fast factory quotation.</p>
+        <div className="home-v3-hero-media">
+          <Image src="/assets/projects/project-hero-desktop.avif" alt="Commercial free weight training area with dumbbells and weight plates" fill priority fetchPriority="high" quality={40} sizes="(max-width: 900px) 100vw, 56vw" />
         </div>
       </section>
 
-      <section className="intro-strip">
-        <div>
-          <Factory size={24} />
-          <span>Source factory in Shandong, China</span>
-        </div>
-        <div>
-          <Globe2 size={24} />
-          <span>Serving US, UK, Brazil, Canada, Spain, Australia and Mexico</span>
-        </div>
-        <div>
-          <Boxes size={24} />
-          <span>Container orders, wholesale programs and private label projects</span>
-        </div>
+      <section className="home-v3-proof" aria-label="PowerBaseFit company facts">
+        <div><Factory size={21} /><span><strong>Since 2008</strong>Manufacturing experience</span></div>
+        <div><BadgeCheck size={21} /><span><strong>15,000 m² Factory</strong>Dezhou, Shandong, China</span></div>
+        <div><Tags size={21} /><span><strong>OEM / Private Label</strong>Product and packaging details</span></div>
+        <div><Ship size={21} /><span><strong>Export Order Support</strong>Packing and shipment preparation</span></div>
       </section>
 
-      <section id="products" className="section products-section">
-        <div className="section-heading">
-          <span>Product Range</span>
-          <h2>Core free weight categories for importers and gym suppliers</h2>
-          <p>
-            Start with the highest-demand products, then expand into complete
-            free weight areas and gym accessories.
-          </p>
+      <section className="home-v3-section home-v3-products" id="products" aria-labelledby="home-products-title">
+        <div className="home-v3-section-heading">
+          <div><span>Core product families</span><h2 id="home-products-title">Build a free weight range around your market</h2></div>
+          <p>Start with the product category, then define material, weight progression, branding, packaging and order quantity.</p>
         </div>
-        <div className="product-grid">
+        <div className="home-v3-product-grid">
           {products.map((product) => (
-            <article className="product-card" key={product.name}>
-              <a href={product.href} aria-label={`View ${product.name}`}>
-                <img src={product.image} alt={product.name} loading="lazy" decoding="async" />
-              </a>
-              <div>
-                <h3>{product.name}</h3>
-                <p>{product.copy}</p>
-                <a href={product.href}>
-                  Request details <ArrowRight size={16} />
-                </a>
+            <a className="home-v3-product" href={product.href} key={product.name}>
+              <div className="home-v3-product-image"><Image src={product.image} alt={product.alt} fill sizes="(max-width: 760px) 100vw, 33vw" /></div>
+              <div className="home-v3-product-copy">
+                <h3>{product.name}</h3><p>{product.description}</p>
+                <ul>{product.details.map((detail) => <li key={detail}><Check size={15} />{detail}</li>)}</ul>
+                <strong>View product range <ArrowRight size={16} /></strong>
               </div>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="home-v3-section home-v3-outcomes" aria-labelledby="home-outcomes-title">
+        <div className="home-v3-outcomes-media"><Image src="/assets/factory-cases/packaging-area-pbf.webp" alt="PowerBaseFit team preparing dumbbells and weight plates for packing" fill sizes="(max-width: 900px) 100vw, 48vw" /></div>
+        <div className="home-v3-outcomes-copy">
+          <span>Built for repeat purchasing</span><h2 id="home-outcomes-title">Protect the details behind every order</h2>
+          <p>A reliable free weight program begins with written product decisions. PowerBaseFit organizes the specification, sample reference, artwork and packing information used through production and reorder review.</p>
+          <div className="home-v3-outcome-list">
+            {buyerOutcomes.map((item) => <article key={item.title}><item.icon size={22} /><div><h3>{item.title}</h3><p>{item.description}</p></div></article>)}
+          </div>
+        </div>
+      </section>
+
+      <section className="home-v3-section home-v3-oem" id="oem" aria-labelledby="home-oem-title">
+        <div className="home-v3-oem-heading">
+          <span>OEM & private label</span><h2 id="home-oem-title">Turn product decisions into an approved production reference</h2>
+          <p>Branding is reviewed together with the product construction, weight system, finish and packaging so every confirmed detail belongs to one order version.</p>
+        </div>
+        <div className="home-v3-oem-layout">
+          <div className="home-v3-oem-image"><Image src="/assets/chrome-dumbbell.webp" alt="Chrome dumbbell product finish and custom end marking" fill sizes="(max-width: 900px) 100vw, 45vw" /></div>
+          <div className="home-v3-oem-options">
+            {oemOptions.map((item) => <article key={item.title}><item.icon size={22} /><div><h3>{item.title}</h3><p>{item.description}</p></div></article>)}
+            <div className="home-v3-oem-actions"><FreeSampleCTA compact section="oem" /><a className="home-v3-text-link" href="/oem">Explore OEM & Private Label <ArrowRight size={16} /></a></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-v3-section home-v3-process" aria-labelledby="home-process-title">
+        <div className="home-v3-section-heading">
+          <div><span>From requirement to shipment</span><h2 id="home-process-title">A clear six-step purchasing process</h2></div>
+          <p>Each stage produces information used by the next stage, from the first product request to packing and dispatch.</p>
+        </div>
+        <ol className="home-v3-process-list">{steps.map((step) => <li key={step.number}><span>{step.number}</span><h3>{step.title}</h3><p>{step.copy}</p></li>)}</ol>
+      </section>
+
+      <section className="home-v3-section home-v3-factory" aria-labelledby="home-factory-title">
+        <div className="home-v3-factory-intro">
+          <span>Factory evidence</span><h2 id="home-factory-title">See the work behind the finished product</h2>
+          <p>Review production, finishing and packing through real images from PowerBaseFit operations.</p>
+          <a className="home-v3-button home-v3-button-secondary" href="/factory">Visit the Factory <ArrowRight size={18} /></a>
+        </div>
+        <div className="home-v3-evidence-grid">
+          {evidence.map((item, index) => (
+            <article className={index === 0 ? "home-v3-evidence-featured" : ""} key={item.title}>
+              <Image src={item.image} alt={item.alt} fill sizes={index === 0 ? "(max-width: 900px) 100vw, 48vw" : "(max-width: 900px) 100vw, 24vw"} />
+              <div><h3>{item.title}</h3><p>{item.copy}</p></div>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="partner-section" aria-label="Private label logo examples">
-        <div className="partner-heading">
-          <span>OEM Customization</span>
-          <h2>Private label logo styles for global fitness partners</h2>
-        </div>
-        <div className="logo-marquee">
-          <div className="logo-track">
-            {[...logoSamples, ...logoSamples].map((logo, index) => (
-              <div className="partner-logo" key={`${logo}-${index}`}>
-                {logo}
-              </div>
-            ))}
+      <section className="home-v3-exhibitions" aria-labelledby="home-exhibitions-title">
+        <div className="home-v3-exhibitions-copy">
+          <span>International buyer connection</span>
+          <h2 id="home-exhibitions-title">Meet PowerBaseFit at industry exhibitions</h2>
+          <p>Our team presents free weight products, reviews specifications and discusses OEM, packaging and order plans with international buyers face to face.</p>
+          <div className="home-v3-exhibition-points">
+            <div><Handshake size={22} /><span><strong>Buyer meetings</strong>Discuss products and purchasing requirements with our export team.</span></div>
+            <div><Globe2 size={22} /><span><strong>Export market coverage</strong>Europe, North America, South America and the Middle East.</span></div>
           </div>
+          <a className="home-v3-button home-v3-button-secondary" href="/factory">View Exhibitions & Factory <ArrowRight size={18} /></a>
+        </div>
+        <div className="home-v3-exhibition-gallery">
+          {exhibitions.map((item, index) => (
+            <article className={index === 0 ? "home-v3-exhibition-featured" : ""} key={item.title}>
+              <Image src={item.image} alt={item.alt} fill sizes={index === 0 ? "(max-width: 900px) 100vw, 58vw" : "(max-width: 900px) 100vw, 29vw"} />
+              <div><h3>{item.title}</h3><p>{item.copy}</p></div>
+            </article>
+          ))}
+        </div>
+        <div className="home-v3-market-strip" aria-label="PowerBaseFit export markets">
+          <span>Export markets</span>
+          {exportMarkets.map((market) => <strong key={market}>{market}</strong>)}
         </div>
       </section>
 
-      <section className="section split-section" id="factory">
-        <div className="split-copy">
-          <span>Factory Capability</span>
-          <h2>From raw material to finished free weight sets</h2>
-          <p>
-            PowerBaseFit supports overseas buyers with reliable manufacturing,
-            flexible customization and responsive export communication.
-          </p>
+      <section className="home-v3-section home-v3-projects" aria-labelledby="home-projects-title">
+        <div className="home-v3-section-heading">
+          <div><span>Product applications</span><h2 id="home-projects-title">Free weight ranges planned for real spaces</h2></div>
+          <a className="home-v3-text-link" href="/projects">View project cases <ArrowRight size={16} /></a>
         </div>
-        <div className="factory-showcase">
-          <div className="factory-image">
-            <img src="/assets/factory.avif" alt="PowerBaseFit factory exterior" loading="lazy" decoding="async" />
-          </div>
-          <div className="capability-list">
-            {strengths.map((item) => {
-              const Icon = item.icon;
-              return (
-                <article key={item.title}>
-                  <Icon size={24} />
-                  <div>
-                    <h3>{item.title}</h3>
-                    <p>{item.copy}</p>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      <section className="section quality-section" id="resources">
-        <div className="quality-copy">
-          <span>Buying Resources</span>
-          <h2>Free weight buying guides for importers and gym buyers</h2>
-          <p>
-            Build organic traffic with practical content buyers and AI search
-            engines can cite: material comparisons, OEM guides, gym set planning,
-            weight accuracy, packaging and landed-cost questions.
-          </p>
-          <div className="spec-list">
-            {specs.map((spec) => (
-              <div key={spec}>
-                <CheckCircle2 size={18} />
-                {spec}
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="resource-gallery">
-          <img src="/assets/dumbbell-production.avif" alt="Finished dumbbell production area" loading="lazy" decoding="async" />
-          <img src="/assets/resource-plate-finishing.avif" alt="Weight plate finishing and inspection" loading="lazy" decoding="async" />
-          <img src="/assets/resource-cnc-machining.avif" alt="Precision machining for free weight parts" loading="lazy" decoding="async" />
-        </div>
-      </section>
-
-      <section className="section case-section" id="cases">
-        <div className="case-copy">
-          <span>Project Reference</span>
-          <h2>Free weight project references that help buyers imagine the result</h2>
-          <p>
-            Strong project visuals help overseas buyers understand product
-            quality, layout possibilities and private label presentation before
-            they request a quote.
-          </p>
-          <a className="case-more-link" href="/projects">
-            View all project cases <ArrowRight size={18} />
-          </a>
-        </div>
-        <div className="project-grid">
+        <div className="home-v3-project-grid">
           {projects.map((project) => (
-            <article className="project-card" key={project.title}>
-              <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
-              <div>
-                <h3>{project.title}</h3>
-                <p>{project.copy}</p>
-              </div>
+            <article key={project.title}>
+              <div className="home-v3-project-image"><Image src={project.image} alt={project.alt} fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
+              <div className="home-v3-project-copy"><h3>{project.title}</h3><p><strong>Requirement</strong>{project.need}</p><p><strong>Product direction</strong>{project.supplied}</p></div>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="section faq-section">
-        <div className="section-heading">
-          <span>FAQ</span>
-          <h2>Questions buyers ask before placing a free weight order</h2>
-          <p>
-            These answers help procurement visitors, search engines and AI
-            answer systems understand your factory capabilities.
-          </p>
+      <section className="home-v3-section home-v3-resources" aria-labelledby="home-resources-title">
+        <div className="home-v3-resource-intro">
+          <span>Buyer resources</span><h2 id="home-resources-title">Prepare the details that make an order easier to evaluate</h2>
+          <p>Use practical guides for specifications, sample approval, packaging, inspection and repeat purchasing.</p>
+          <a className="home-v3-text-link" href="/resources">Browse all buying guides <ArrowRight size={16} /></a>
         </div>
-        <div className="faq-grid">
-          {faqs.map((item) => (
-            <article key={item.question}>
-              <h3>{item.question}</h3>
-              <p>{item.answer}</p>
-            </article>
-          ))}
+        <div className="home-v3-resource-list">
+          {resources.map((resource, index) => <a href={resource.href} key={resource.title}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{resource.title}</h3><p>{resource.copy}</p></div><ArrowRight size={18} /></a>)}
         </div>
       </section>
 
-      <section className="section rfq-section" id="contact">
-        <div className="rfq-copy">
-          <span>Send RFQ</span>
-          <h2>Get factory quotation for your free weight order</h2>
-          <p>
-            Share your country, product requirement and target quantity. Kloe
-            Du and the sales team will reply within 24 hours with product
-            information, quotations and solutions.
-          </p>
-          <div className="contact-lines">
-            <a href="mailto:Kloe@powerbasefit.com">
-              <Mail size={18} /> Kloe@powerbasefit.com
-            </a>
-            <a href="https://wa.me/8618963018533">
-              <MessageCircle size={18} /> +86 18963018533
-            </a>
-          </div>
-        </div>
-        <form className="rfq-form">
-          <label>
-            Name
-            <input type="text" placeholder="Your name" />
-          </label>
-          <label>
-            Email
-            <input type="email" placeholder="name@company.com" />
-          </label>
-          <label>
-            Country
-            <input type="text" placeholder="United States" />
-          </label>
-          <label>
-            Product Requirement
-            <select defaultValue="">
-              <option value="" disabled>
-                Select product
-              </option>
-              <option>Rubber Dumbbells</option>
-              <option>Chrome Dumbbells</option>
-              <option>Weight Plates</option>
-              <option>Barbells / Benches / Racks</option>
-            </select>
-          </label>
-          <label className="full">
-            Message
-            <textarea placeholder="Tell us product, quantity, logo requirement and target market." />
-          </label>
-          <button type="button">
-            Submit Inquiry <ArrowRight size={18} />
-          </button>
-        </form>
+      <section className="home-v3-section home-v3-faq" aria-labelledby="home-faq-title">
+        <div className="home-v3-faq-intro"><span>Before you request a quote</span><h2 id="home-faq-title">Common purchasing questions</h2><p>Send the product list and destination first. The quotation then records the confirmed order details.</p></div>
+        <div className="home-v3-faq-list">{faqs.map((faq) => <details key={faq.question}><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div>
       </section>
 
-      <footer className="footer">
-        <img className="footer-logo" src="/assets/logo-readable.webp" alt="PowerBaseFit" />
-        <div>
-          <strong>Powerbase Fitness Equipment Co.,Ltd</strong>
-          <span>Zhengyang Road, Ningjin County, Dezhou, Shandong Province, China</span>
-          <span>Since 2008 路 8,000 m2 factory 路 Europe and USA export markets</span>
-        </div>
-        <div className="footer-links">
-          <a href="#products">Products</a>
-          <a href="/factory">Factory</a>
-          <a href="/resources">Resources</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </footer>
+      <section className="home-v3-sample" aria-labelledby="home-sample-title">
+        <div><span>Start with the product</span><h2 id="home-sample-title">Get a Free Sample</h2><p>Tell us the product, quantity, destination and branding requirements. Continue the conversation through WhatsApp or email.</p></div>
+        <FreeSampleCTA section="final-sample" />
+      </section>
+
+      <section className="home-v3-final" aria-label="Factory quotation">
+        <div><Truck size={25} /><span>Ready to prepare a product list?</span></div>
+        <a className="home-v3-button home-v3-button-secondary" href="/contact">Get a Factory Quote <ArrowRight size={18} /></a>
+      </section>
     </main>
   );
 }
-
-
-// The (en) route group preserves the existing public URL while allowing locale-specific root documents.

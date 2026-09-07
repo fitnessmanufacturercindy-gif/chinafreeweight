@@ -1,0 +1,340 @@
+{
+  "total": 1144,
+  "locales": [
+    "en",
+    "pt-BR",
+    "es",
+    "de",
+    "fr",
+    "vi",
+    "sv",
+    "it",
+    "ko",
+    "id",
+    "pl",
+    "nl",
+    "ar"
+  ],
+  "englishBlogs": [
+    {
+      "id": "factory-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/evaluate-oem-gym-equipment-factory-china",
+      "title": "How to Evaluate an OEM Gym Equipment Factory in China",
+      "h1": "How to Evaluate an OEM Gym Equipment Factory in China",
+      "description": "How to Evaluate an OEM Gym Equipment Factory in China"
+    },
+    {
+      "id": "dumbbells-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/how-to-choose-commercial-dumbbells",
+      "title": "How to Choose Commercial Dumbbells",
+      "h1": "How to Choose Commercial Dumbbells",
+      "description": "How to Choose Commercial Dumbbells"
+    },
+    {
+      "id": "plates-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/weight-plates-vs-bumper-plates-b2b-guide",
+      "title": "Weight Plates vs Bumper Plates B2B Guide",
+      "h1": "Weight Plates vs Bumper Plates B2B Guide",
+      "description": "Weight Plates vs Bumper Plates B2B Guide"
+    },
+    {
+      "id": "hex-vs-round-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/hex-vs-round-dumbbells-commercial-gyms",
+      "title": "Hex vs Round Dumbbells for Commercial Gyms",
+      "h1": "Hex vs Round Dumbbells for Commercial Gyms",
+      "description": "Compare hex and round dumbbells by floor stability, exercises, weight range, storage, space, maintenance and commercial buying criteria."
+    },
+    {
+      "id": "materials-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/rubber-vs-urethane-dumbbells-commercial-gyms",
+      "title": "Rubber vs Urethane Dumbbells for Commercial Gyms",
+      "h1": "Rubber vs Urethane Dumbbells for Commercial Gyms",
+      "description": "Compare rubber, PU and TPU dumbbells by finish, odor, cleaning, wear, branding, commercial use, quality checks and total purchasing value."
+    },
+    {
+      "id": "free-weight-area-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-free-weight-area-design",
+      "title": "How to Plan a Commercial Free Weight Area",
+      "h1": "How to Plan a Commercial Free Weight Area",
+      "description": "Plan a commercial free weight area around users, dumbbell runs, plates, bars, circulation, flooring, noise, peak demand, cleaning and phased purchasing."
+    },
+    {
+      "id": "bumper-manufacturing-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/how-are-bumper-plates-made",
+      "title": "How Are Bumper Plates Made?",
+      "h1": "How Are Bumper Plates Made?",
+      "description": "How Are Bumper Plates Made?"
+    },
+    {
+      "id": "dumbbell-weighing-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/how-are-dumbbells-weighed",
+      "title": "How Are Dumbbells Weighed?",
+      "h1": "How Are Dumbbells Weighed?",
+      "description": "How Are Dumbbells Weighed?"
+    },
+    {
+      "id": "plate-materials-b2b",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/cast-iron-rubber-urethane-weight-plates",
+      "title": "Cast Iron vs Rubber vs Urethane Weight Plates | PowerBaseFit",
+      "h1": "Cast Iron vs Rubber-Coated vs Urethane Weight Plates",
+      "description": "Compare cast iron, rubber-coated, and urethane weight plates for commercial gyms by cost, durability, odor, finish, handling, branding, and procurement risk."
+    },
+    {
+      "id": "commercial-free-weight-rfq",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-free-weight-rfq-checklist",
+      "title": "Commercial Free Weight RFQ Checklist for Buyers | PowerBaseFit",
+      "h1": "Commercial Free Weight RFQ: Specifications Buyers Should Send",
+      "description": "Prepare a precise commercial free weight RFQ covering dumbbell and plate specifications, quantities, branding, quality control, packaging, and delivery."
+    },
+    {
+      "id": "custom-logo-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/custom-logo-options-dumbbells-weight-plates",
+      "title": "Custom Logo Options for Dumbbells and Weight Plates | PowerBaseFit",
+      "h1": "Custom Logo Options for Dumbbells and Weight Plates",
+      "description": "Compare molded, printed, engraved, inlaid, badge, and packaging logo options for private-label dumbbells and weight plates by material, MOQ, cost, and durability."
+    },
+    {
+      "id": "export-packaging-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/export-packaging-dumbbells-weight-plates",
+      "title": "Export Packaging for Dumbbells and Weight Plates | PowerBaseFit",
+      "h1": "Export Packaging for Dumbbells and Weight Plates",
+      "description": "Plan export packaging for dumbbells and plates: unit protection, cartons, pallets, moisture, labels, container loading, tests, inspection, and damage claims."
+    },
+    {
+      "id": "free-weight-reorder-batch-consistency",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/free-weight-reorder-batch-consistency",
+      "title": "Free Weight Reorders: Control Batch Consistency | PowerBaseFit",
+      "h1": "How to Control Free Weight Reorder Batch Consistency",
+      "description": "Control dumbbell and plate reorder consistency with specifications, golden samples, colors, molds, tolerances, change control, inspection, records, and spares."
+    },
+    {
+      "id": "landed-cost-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/landed-cost-wholesale-free-weights",
+      "title": "Landed Cost of Wholesale Dumbbells and Weight Plates | PowerBaseFit",
+      "h1": "Landed Cost of Wholesale Dumbbells and Weight Plates",
+      "description": "Calculate landed cost for wholesale dumbbells and weight plates using product, packaging, freight, insurance, customs, destination, and inventory inputs."
+    },
+    {
+      "id": "oem-sample-approval-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/oem-free-weight-sample-approval-process",
+      "title": "OEM Free Weight Sample Approval Process | PowerBaseFit",
+      "h1": "OEM Free Weight Sample Approval: A Buyer Process",
+      "description": "Approve OEM dumbbell and weight plate samples with controlled specifications, measurements, branding, packaging, sign-off, change control, and production references."
+    },
+    {
+      "id": "commercial-dumbbell-set-planning",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/plan-commercial-dumbbell-set",
+      "title": "How to Plan a Commercial Dumbbell Set for a Gym | PowerBaseFit",
+      "h1": "How to Plan a Commercial Dumbbell Set for a Gym",
+      "description": "Plan a commercial dumbbell set by weight range, increments, duplicate pairs, user demand, rack capacity, material, replacement strategy, and purchasing budget."
+    },
+    {
+      "id": "pre-shipment-inspection-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/pre-shipment-inspection-dumbbells-weight-plates",
+      "title": "Pre-Shipment Inspection for Dumbbells and Plates | PowerBaseFit",
+      "h1": "Pre-Shipment Inspection Checklist for Dumbbells and Weight Plates",
+      "description": "Use a pre-shipment inspection checklist for dumbbells and weight plates covering sampling, weight, dimensions, finish, branding, assembly, packing, and quantity."
+    },
+    {
+      "id": "training-vs-competition-bumper-plates",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/training-vs-competition-bumper-plates",
+      "title": "Training vs Competition Bumper Plates for Buyers | PowerBaseFit",
+      "h1": "Training vs Competition Bumper Plates for Commercial Buyers",
+      "description": "Compare training and competition bumper plates by construction, thickness, weight accuracy, rebound, hubs, markings, use, QC, cost, and commercial-gym fit."
+    },
+    {
+      "id": "commercial-dumbbell-maintenance-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-dumbbell-maintenance-cleaning-replacement",
+      "title": "Commercial Dumbbell Maintenance: Cleaning, Odor, Rust and Replacement",
+      "h1": "Commercial Dumbbell Maintenance, Cleaning and Replacement",
+      "description": "Maintain commercial dumbbells with practical cleaning, ventilation, rust control, inspection, isolation, replacement and batch-record procedures."
+    },
+    {
+      "id": "commercial-kettlebell-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-kettlebell-buying-guide",
+      "title": "Commercial Kettlebell Buying Guide: Cast Iron, Competition and Vinyl",
+      "h1": "Commercial Kettlebell Buying Guide",
+      "description": "Choose commercial kettlebells by construction, handle, base, weight range, finish, storage, quality control, packaging and private-label needs."
+    },
+    {
+      "id": "bulk-oem-steel-dumbbells-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/bulk-oem-steel-dumbbells",
+      "title": "Bulk OEM Steel Dumbbells: Commercial Buyer Guide | PowerBaseFit",
+      "h1": "Bulk OEM Steel Dumbbells: Why Are Solid Steel Dumbbells Becoming So Popular?",
+      "description": "A factory-informed guide to solid steel dumbbells, commercial applications, material comparisons, OEM options, production traceability, quality checks and bulk sourcing."
+    },
+    {
+      "id": "cable-attachment-compatibility-oem-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/are-cable-machine-attachments-universal",
+      "title": "Are Cable Machine Attachments Universal? B2B Buyer Guide | PowerBaseFit",
+      "h1": "Are Cable Machine Attachments Universal? A Compatibility and OEM Buying Guide",
+      "description": "Learn how to verify cable attachment fit, connectors, rotation, grips, commercial sets, quality checks, custom logo options and bulk OEM supply."
+    },
+    {
+      "id": "weight-plate-tolerance-bulk-order-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/weight-plate-tolerance-bulk-order-guide",
+      "title": "Weight Plate Tolerance for Bulk Orders: Buyer Guide | PowerBaseFit",
+      "h1": "How to Specify Weight Plate Tolerance for a Bulk Order",
+      "description": "Learn how to specify and verify weight plate tolerance, scale method, sampling, pair matching, dimensions, custom logo and private-label bulk supply."
+    },
+    {
+      "id": "commercial-olympic-barbell-buying-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-olympic-barbell-buying-guide",
+      "title": "Commercial Olympic Barbell Buying Guide | PowerBaseFit",
+      "h1": "How to Choose an Olympic Barbell for a Commercial Gym or Bulk Order",
+      "description": "Choose commercial Olympic barbells by training use, bushings or bearings, shaft, knurl, sleeve fit, finish, inspection, OEM branding and bulk packaging."
+    }
+  ],
+  "relevantTargets": [
+    {
+      "id": "dumbbells-category",
+      "type": "product_category",
+      "locale": "en",
+      "path": "/products/dumbbells",
+      "title": "Commercial Dumbbells",
+      "h1": "Commercial Dumbbells",
+      "description": "Commercial Dumbbells"
+    },
+    {
+      "id": "rubber-hex-dumbbell",
+      "type": "product",
+      "locale": "en",
+      "path": "/products/dumbbells/hex-dumbbell-kg",
+      "title": "Hex Dumbbell KG",
+      "h1": "Hex Dumbbell KG",
+      "description": "Hex Dumbbell KG"
+    },
+    {
+      "id": "factory",
+      "type": "factory",
+      "locale": "en",
+      "path": "/factory",
+      "title": "PowerBaseFit Factory",
+      "h1": "PowerBaseFit Factory",
+      "description": "PowerBaseFit Factory"
+    },
+    {
+      "id": "factory-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/evaluate-oem-gym-equipment-factory-china",
+      "title": "How to Evaluate an OEM Gym Equipment Factory in China",
+      "h1": "How to Evaluate an OEM Gym Equipment Factory in China",
+      "description": "How to Evaluate an OEM Gym Equipment Factory in China"
+    },
+    {
+      "id": "hex-vs-round-guide",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/hex-vs-round-dumbbells-commercial-gyms",
+      "title": "Hex vs Round Dumbbells for Commercial Gyms",
+      "h1": "Hex vs Round Dumbbells for Commercial Gyms",
+      "description": "Compare hex and round dumbbells by floor stability, exercises, weight range, storage, space, maintenance and commercial buying criteria."
+    },
+    {
+      "id": "rubber-hex-dumbbell-manufacturer",
+      "type": "landing",
+      "locale": "en",
+      "path": "/manufacturer/rubber-hex-dumbbells-manufacturer",
+      "title": "Rubber Hex Dumbbell Manufacturer",
+      "h1": "Rubber Hex Dumbbell Manufacturer",
+      "description": "Rubber Hex Dumbbell Manufacturer"
+    },
+    {
+      "id": "commercial-free-weight-rfq",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/commercial-free-weight-rfq-checklist",
+      "title": "Commercial Free Weight RFQ Checklist for Buyers | PowerBaseFit",
+      "h1": "Commercial Free Weight RFQ: Specifications Buyers Should Send",
+      "description": "Prepare a precise commercial free weight RFQ covering dumbbell and plate specifications, quantities, branding, quality control, packaging, and delivery."
+    },
+    {
+      "id": "oem-sample-approval-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/oem-free-weight-sample-approval-process",
+      "title": "OEM Free Weight Sample Approval Process | PowerBaseFit",
+      "h1": "OEM Free Weight Sample Approval: A Buyer Process",
+      "description": "Approve OEM dumbbell and weight plate samples with controlled specifications, measurements, branding, packaging, sign-off, change control, and production references."
+    },
+    {
+      "id": "pre-shipment-inspection-free-weights",
+      "type": "blog",
+      "locale": "en",
+      "path": "/resources/pre-shipment-inspection-dumbbells-weight-plates",
+      "title": "Pre-Shipment Inspection for Dumbbells and Plates | PowerBaseFit",
+      "h1": "Pre-Shipment Inspection Checklist for Dumbbells and Weight Plates",
+      "description": "Use a pre-shipment inspection checklist for dumbbells and weight plates covering sampling, weight, dimensions, finish, branding, assembly, packing, and quantity."
+    },
+    {
+      "id": "product:dumbbells:cpu-hexagonal-dumbbell-kg",
+      "type": "product",
+      "locale": "en",
+      "path": "/products/dumbbells/cpu-hexagonal-dumbbell-kg",
+      "title": "CPU Hexagonal Dumbbell",
+      "h1": "CPU Hexagonal Dumbbell",
+      "description": "CPU Hexagonal Dumbbell for commercial gym equipment buyers."
+    },
+    {
+      "id": "product:dumbbells:cpu-hexagonal-dumbbell-wide",
+      "type": "product",
+      "locale": "en",
+      "path": "/products/dumbbells/cpu-hexagonal-dumbbell-wide",
+      "title": "Wide-Head CPU Hexagonal Dumbbell",
+      "h1": "Wide-Head CPU Hexagonal Dumbbell",
+      "description": "Wide-Head CPU Hexagonal Dumbbell for commercial gym equipment buyers."
+    }
+  ]
+}
+{"path":"/sitemap.xml","status":200,"urls":1157,"conflicts":[]}
+{"path":"/sitemaps/blogs.xml","status":200,"urls":303,"conflicts":[]}
+{"path":"/sitemaps/languages.xml","status":200,"urls":1156,"conflicts":[]}

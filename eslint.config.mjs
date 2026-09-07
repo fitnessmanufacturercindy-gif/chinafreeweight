@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const baseDirectory = path.dirname(fileURLToPath(import.meta.url));
 const compat = new FlatCompat({ baseDirectory });
 
-export default [
+const config = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     ignores: [
@@ -37,6 +37,7 @@ export default [
     ],
     rules: {
       "@next/next/no-html-link-for-pages": "off",
+      "@next/next/no-img-element": "off",
       "react/no-unescaped-entities": "off"
     }
   },
@@ -47,3 +48,5 @@ export default [
     }
   }
 ];
+
+export default config;

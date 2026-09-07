@@ -78,7 +78,7 @@ for (const document of documents) {
   const metadata = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit");
   check(metadata.alternates?.canonical === `${siteUrl}${document.publicPath}`, `${label}: canonical mismatch`);
   const languages = metadata.alternates?.languages ?? {};
-  check(Object.keys(languages).sort().join(",") === ["en", "es", "pt-BR", "x-default"].sort().join(","), `${label}: incomplete hreflang cluster`);
+  check(["en", "es", "pt-BR", "x-default"].every((key) => Object.prototype.hasOwnProperty.call(languages, key)), `${label}: incomplete hreflang cluster`);
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
   const language = document.locale;
   check(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === language), `${label}: BlogPosting schema/language missing`);

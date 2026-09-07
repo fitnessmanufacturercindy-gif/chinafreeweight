@@ -1,0 +1,1002 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5926 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-80f7fa3a7a63",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.4838 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "powłoka gryfu olimpijskiego chrom cynk cerakote siłownia",
+        "location_code": 2616,
+        "language_code": "pl",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "powłoka gryfu olimpijskiego chrom cynk cerakote siłownia",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2616,
+          "language_code": "pl",
+          "check_url": "https://www.google.com/search?q=pow%C5%82oka%20gryfu%20olimpijskiego%20chrom%20cynk%20cerakote%20si%C5%82ownia&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+          "datetime": "2026-09-05 03:37:19 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites",
+            "related_searches"
+          ],
+          "se_results_count": 352,
+          "pages_count": 1,
+          "items_count": 15,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Powłoki sztang: od dołu do góry. • Stal nierdzewna • Nikiel ...",
+              "url": "https://www.reddit.com/r/homegym/comments/phsuy5/barbell_coatings_bottom_to_top_stainless_steel/?tl=pl",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Liczba komentarzy: ponad 30  ·  5 lat temu",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Stal nierdzewna to zazwyczaj moja odpowiedź. Używałem też cynku i Cerakote. Cerakote wydaje mi się bublem i bardziej skupia się na wyglądzie ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cynku",
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "just7gym.pl",
+              "title": "Gryf Olimpijski 15kg Titanium/Cerakote Just7Gym",
+              "url": "https://just7gym.pl/produkt/gryf-olimpijski-15kg-titanium-cerakote-just7gym-2/?srsltid=AfmBOoo8flkd7tMudXQjh7myIhg6zDvY_M2b05cdo_-YP-HgB7rer1Ux",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://just7gym.pl › Strona główna › Sklep",
+              "website_name": "Just7Gym.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wykonany z najwyższej jakości stali, gryf pokryty jest powłoką z ceramiki, co skutecznie zwiększa ochronę gryfu przed uszkodzeniami podczas treningów, rękawy ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 719.4,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "719,40 zł"
+              },
+              "highlighted": [
+                "powłoką",
+                "gryfu"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Czy sztanga zawsze waży 20 kg?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Ile waży pusta sztanga na siłowni?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Ile waży sztanga 200 cm?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Ile waży sztanga 160 cm?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "specialfitness.pl",
+              "title": "Gryf Olimpijski ATX 20kg 220cm Czarny LH-50-ATX-CK-300",
+              "url": "https://specialfitness.pl/gryfy-proste/9773-gryf-olimpijski-atx-20kg-220cm-czarny-lh-50-atx-ck-300",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://specialfitness.pl › ... › GRYFY PROSTE",
+              "website_name": "SpecialFitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Powłoka sztangi: Cerakote – Graphite Black. Powłoka tulei: Czarny chrom. Łożyskowanie: Tuleje z brązu. Mocowanie końcowe: Z pierścieniem zabezpieczającym.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1249,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "1249,00 zł"
+              },
+              "highlighted": [
+                "Powłoka sztangi: Cerakote – Graphite Black"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "klubfitness.pl",
+              "title": "Gryf olimpijski 220cm LH-50-ATX-CK-700 ATX® Cerakote ...",
+              "url": "https://klubfitness.pl/de/gryf-olimpijski-220cm-lh-50-atx-ck-700-atx-cerakote-multi-bar?srsltid=AfmBOor-R6vD8VZUOC9SzY0ZTpT3N6dd6TjvN6YRlq7LSWBey9926Mb-",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://klubfitness.pl › ... › olimpijskie długie",
+              "website_name": "Klubfitness.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Powłoka powierzchniowa: część chwytna - wysokiej jakości powłoka ceramiczna Cerakote część robocza - wysokiej jakości powłoka chromowana (czarny chrom) ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1.65,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "Dostawa za 1,65 zł"
+              },
+              "highlighted": [
+                "Powłoka",
+                "powłoka",
+                "Cerakote",
+                "chrom"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.empik.com",
+              "title": "Gryf Olimpijski 20kg Titanium/Cerakote Żółty - Just7Gym",
+              "url": "https://www.empik.com/gryf-olimpijski-20kg-titanium-cerakote-zolty,p1300196316,sport-p",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.empik.com › ... › Gryfy",
+              "website_name": "Empik.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wykonany z najwyższej jakości stali, gryf pokryty jest powłoką z ceramiki, co skutecznie zwiększa ochronę gryfu przed uszkodzeniami podczas treningów, rękawy ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1299,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "1299,00 zł"
+              },
+              "highlighted": [
+                "konany z najwyższej jakości stali"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "maniakfitness.com",
+              "title": "Gryf olimpijski CrossColor CERAKOTE 15KG - 8 Łożyska",
+              "url": "https://maniakfitness.com/pl-pl/gryf-olimpijski-crosscolor-cerakote-15kg-8-lozyska-600kg-p23?s=89&srsltid=AfmBOornY2m8t5iRrnSEsHwceT_BAD2wgLTkkVxLiaiZWVRQrm9F4Q9Z",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://maniakfitness.com › pl-pl › gryf-olimpijski-cross...",
+              "website_name": "Maniak Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Czy nadaje się do Cross Training i podnoszenia ciężarów? Tak. Jej łożyska igłowe i specyfikacje regulacyjne czynią ją idealną do każdej dyscypliny związanej z ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 252.15,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "252,15 €"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.skapiec.pl",
+              "title": "Gryf Olimpijski 20kg Titanium/Cerakote Zielony",
+              "url": "https://www.skapiec.pl/site/cat/26545/comp/933296456",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.skapiec.pl › Sport › Siłownia i fitness › Gryfy",
+              "website_name": "Skąpiec.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wykonany z najwyższej jakości stali, gryf pokryty jest powłoką z ceramiki, co skutecznie zwiększa ochronę gryfu przed uszkodzeniami podczas treningów, rękawy ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "y z najwyższej jakości stali"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "thornfit.pl",
+              "title": "Gryf prosty Olympic Bar RED CERAKOTE® Edition 20kg",
+              "url": "https://thornfit.pl/sprzet-sportowy/gryfy/gryf-prosty-olympic-bar-red-edition-20kg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thornfit.pl › sprzęt sportowy › gryfy",
+              "website_name": "thorn fit",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "waga: 20 kg; średnica głowicy: 50 mm; ruchome, łożyskowane głowice; precyzyjne łożyska igłowe zapewniające gładką rotację - 8 sztuk (po 4 w każdej głowicy) ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 1599.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "1599,90 zł"
+              },
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Domowa siłownia. Sztanga olimpijska. Gryf olimpijski.",
+              "url": "https://www.youtube.com/watch?v=iMawCMelNns",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Wyświetlenia: ponad 5,6 tys.  ·  7 lat temu",
+              "website_name": "YouTube · Maciej Janiszewski DOMOWA SIŁOWNIA",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Domowa siłownia. Sztanga olimpijska. Gryf olimpijski. @MaciejJaniszewskiDOMOWASIOWNIA64 likes5.6K views7 years ago",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "siłownia"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-01-24 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.ceneo.pl",
+              "title": "Just7gym Gryf Olimpijski 20kg Titanium/Cerakote",
+              "url": "https://www.ceneo.pl/99753462?srsltid=AfmBOorWmNqKa3rvbCByxWOu5Krhhbra9-wNGU4YyYBjMc6UZ13CPZpI",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ceneo.pl › Siłownia i fitness › Gryfy",
+              "website_name": "Ceneo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "17 gru 2020 — Gryf jest idealny do ćwiczeń z duża ilością powtórzeń. Dzięki maksymalnemu obciążeniu gryfu 680kg umożliwia użytkownikowi trening z pojedynczymi ...",
+              "pre_snippet": "12/17/2020 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Gryf jest idealny do ćwiczeń z duża ilością powtórzeń"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-12-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf olimpijski cerakote 220cm atx",
+                  "url": null,
+                  "domain": null,
+                  "description": "Allegro",
+                  "more_sellers": false,
+                  "seller": "Allegro",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQBgIkOcYib7x7NFd8PZEzi-zpImHjl4ySo03ycdTYO6Pj5jJYk8O2h6_I9YDS6xQFLQ0Jnhk2TqFxBt7EBnaSn782nEvRcpASDnNP3swnRUpUr5bA0vIS-dQ",
+                  "price": {
+                    "current": 1299,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "1299,00 zł"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 45,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1035832418564862553",
+                    "data_docid": "14284866630873953224",
+                    "gid": "1322985487442773187"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf Olimpijski 15kg Titanium/Cerakote Just7Gym",
+                  "url": null,
+                  "domain": null,
+                  "description": "Just7Gym",
+                  "more_sellers": false,
+                  "seller": "Just7Gym",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTxmFjYOkbaSDOd6zTTzFWpX9jUATmq-4lFY5wFvWC63-NY_E7Sp8z1fXLVsopGqKz-EaOfSKPVYsskbLV0jeGiq6zzae7VfJCZCgBrJiSGpC_B3pKvz5wW",
+                  "price": {
+                    "current": 719.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "719,40 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17433110582803055233",
+                    "data_docid": "4013159029671251633",
+                    "gid": "7464721337519013730"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf olimpijski chromowany AC-116 BAUER Fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon i więcej",
+                  "more_sellers": false,
+                  "seller": "Decathlon",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQQHNLQ8O_KJy6BNrEjKR6rSMOeWosLcCiQ-_cGzo2FtK0zawjbl8HuHF6NWJCeZijPpHC829M3VJ_fI6kTzBMdLWUE6hnlbST47v_Mobgd-_kDsGgPzJUdUQ",
+                  "price": {
+                    "current": 549,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "549,00 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15872039108471567021",
+                    "data_docid": "14918019767525223909",
+                    "gid": "17638303510611528882"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf Olimpijski Power 2,20 m / 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany PL i więcej",
+                  "more_sellers": false,
+                  "seller": "GymCompany PL",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRZ5vBFS-FvN8iAI6xeyUVj7L4B4aaokLAMsAI489AQFxqLgxnnEtB2py0QLSaliuy58LaxZpQNnXueMm0sRbugcTG9TUd4v3lKozUDGTKfUtjS_NZj2uI39g",
+                  "price": {
+                    "current": 1300,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "1300,00 zł"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11403576486449305430",
+                    "data_docid": "10910256590097897938",
+                    "gid": "5413112891517488994"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf techniczny- CERACOTE 7,5kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Steelstorm Maciej Borowik",
+                  "more_sellers": false,
+                  "seller": "Steelstorm Maciej Borowik",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS4OTL5hMjP7bQMbF1jNQdkQfrl_P5s1DVHtPrYLuQDfpjs4RxBjaUEpdBzSyCqmUDKBlOiLo9rxZdfHLIN7rYL_3Pzej8uBFr2dxY5pB1qjKXDp3wG5J82ew",
+                  "price": {
+                    "current": 759,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "759,00 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9892495778496873483",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf olimpijski łamany tiguar",
+                  "url": null,
+                  "domain": null,
+                  "description": "Allegro i więcej",
+                  "more_sellers": false,
+                  "seller": "Allegro",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcShUTHltilCUXL3Xc1qHIUobQ3H1K7kBKSOfxrNKthe2va1QVrtjOuw_QZabSuedGL8ccwj9yrU2aUDARq89eJgGnQAFYfCVE1TGS0BwX1nBkhB3w_xdVQ8",
+                  "price": {
+                    "current": 566.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "566,10 zł"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "18059177629527487141",
+                    "data_docid": "5974207264384540752",
+                    "gid": "42794315006580974"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf olimpijski Cambered Squat Bar ROKK RPG-220",
+                  "url": null,
+                  "domain": null,
+                  "description": "ROKK i więcej",
+                  "more_sellers": false,
+                  "seller": "ROKK",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfjvFK6gR2FlLvL8HnktiY4Wtm9iaK0E9H-Adcm_b4qqqIVhLytdzPqsWe_ttAQEmSXFVwCbA4dBYZ24fDDh25tibTT6vHpFyabqNeKiEFjj-vnkyKGsjq2w",
+                  "price": {
+                    "current": 1235,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "1235,00 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17364835901478946299",
+                    "data_docid": "11215166144580028884",
+                    "gid": "17780908379112264018"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf Olimpijski 20kg Titanium/Cerakote Just7Gym",
+                  "url": null,
+                  "domain": null,
+                  "description": "Just7Gym i więcej",
+                  "more_sellers": false,
+                  "seller": "Just7Gym",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTyKfWURBjTp_LtJ1MuV2pdFeobdmoTThitA9Z9gfs9iI-UH_6Ppm_Eme75NvtHD5oF6Z_cwJ5367uJuQYLU-66b5yxtaseGMeWaTh3jCIsnqNuIUktflYlbw",
+                  "price": {
+                    "current": 779.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "779,40 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4281023172177273748",
+                    "data_docid": "1556316509184410067",
+                    "gid": "3435080770031215124"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": "Witryny produktów",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Gryf Olimpijski 20kg Titanium/Cerakote Zielony",
+                  "url": "https://www.skapiec.pl/site/cat/26545/comp/933296456",
+                  "domain": "www.skapiec.pl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-80f7fa3a7a63:0",
+                  "source": "Skąpiec.pl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Just7gym Gryf Olimpijski 20kg Titanium/Cerakote",
+                  "url": "https://www.ceneo.pl/99753462",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0hjVsy_2K8sWDAlD09dPiZIO-ZvO4d_I&s=0",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Bauer Fitness Gryf Olimpijski Chromowany Łamany Ac-117 Bauer (Ac117)",
+                  "url": "https://www.ceneo.pl/47823701",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-80f7fa3a7a63:1",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Gryfy Olimpijskie 20 kg Ceny, Opinie, Sklepy",
+                  "url": "https://www.skapiec.pl/cat/26545/3.2,7.2",
+                  "domain": "www.skapiec.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjjt3sjJLCoPa7VcLSzl_wi3yxh7C4yBc&s=0",
+                  "source": "Skąpiec.pl"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Nike Strength Gryf Coated Premium Barbell Orange Swoosh 15kg",
+                  "url": "https://www.ceneo.pl/191957690",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-80f7fa3a7a63:2",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Bauer Fitness Gryf Olimpijski Chromowany Szary - Ceny i opinie",
+                  "url": "https://www.ceneo.pl/141636333",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5tP5dX1bmzo204WGHLDfEFNwSHV9B-9U&s=0",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Proud Gryf Olimpijski Gym Silver 20Kg 220Cm Black Edition",
+                  "url": "https://www.ceneo.pl/128315929",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKvquWszmNqQjRs8mSOPVAndAZ6HcvqY&s=0",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Nike Strength Gryf Coated Premium Barbell Black \"Just Do It\" 15kg",
+                  "url": "https://www.ceneo.pl/191957726",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIjKBDNPpT2L32D5UzIXoiAzKyw63tzQ&s=0",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Proud Gryf Olimpijski Techniczny Różowy 193593",
+                  "url": "https://www.ceneo.pl/127231917",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-a6PneBkl8-mMJArCWNUdHHJMUDeyrGA&s=0",
+                  "source": "Ceneo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Proud Łamany Gryf Olimpijski Szary 560673",
+                  "url": "https://www.ceneo.pl/127231089",
+                  "domain": "www.ceneo.pl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTov-X3bc8MjsPq86_TgiI6KuzgAAiacDs&s=0",
+                  "source": "Ceneo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Bauer Fitness Gryf olimpijski łamany chromowany AC-117",
+                  "url": null,
+                  "domain": null,
+                  "description": "e-treningowy.pl i więcej",
+                  "more_sellers": false,
+                  "seller": "e-treningowy.pl",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTiWxRqcrnzo5-YHy7uEHfVfdaZaMHofTtajrzsOrAD1qVE1tBAV8qegcaM0Sp-pznrdVo_spI8pEGqflXZbC29nYAA4caGMUlWUaNc8t7XzZY0RGqaTfDd",
+                  "price": {
+                    "current": 339,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "339,00 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16457983389360612843",
+                    "data_docid": "3684221377903031755",
+                    "gid": "7730345953746435845"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "thorn+fit Gryf olimpijski THORN FIT R.E.D",
+                  "url": null,
+                  "domain": null,
+                  "description": "Allegro i więcej",
+                  "more_sellers": false,
+                  "seller": "Allegro",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTaQAmdjg__7YODqs0o7Y9TrHu60A9hAkRoYpOHIvxebHUvisnn_b3Uvp6juBvjMKEkjUZAc5YnAncaKddV9HUk0r0p55oyjZGzCGr9zHmMa8nt2cf99BU-uw",
+                  "price": {
+                    "current": 1599.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "1599,90 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "18202556040932482319",
+                    "data_docid": "5824253289220289415",
+                    "gid": "1085119632587999354"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gryf Prosty Black CERACOTE Heavy Metal Edition 20kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Thorn Fit",
+                  "more_sellers": false,
+                  "seller": "Thorn Fit",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTIgBw9tyyJer_5rykZgUzmObsE3kwj3_Z0SfoIcDxWIdVqFZpeinfVLnBX5Cb4Dbuy4h-XW3he6bV1fRRNhnVM1HSKwIa_RLc-hafRBbqVbqVe_4FWhh9S",
+                  "price": {
+                    "current": 1599.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "1599,90 zł"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13348200980009841541",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GA68 Gryf aluminiowy 8KG 1830MM HMS PREMIUM",
+                  "url": null,
+                  "domain": null,
+                  "description": "Taniomania i więcej",
+                  "more_sellers": false,
+                  "seller": "Taniomania",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQc7LFLnuoMXfhyzsQPc7LoVsGtXrtuZXlTlRx0b8hebjRRib6o1gnu1D2VJ52nk5bQdYfcwsntPmlq3VO8rrHMb3T5ArVSNF_419GBBWt18iqQjDVruTXjQg",
+                  "price": {
+                    "current": 422,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "422,00 zł"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9856012854278858006",
+                    "data_docid": "13620785983192529686",
+                    "gid": "9426236846343235852"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Just 7 gym",
+                "Gryf olimpijski sff",
+                "Sztangi olimpijskie",
+                "Gryf olimpijski do wyciskania",
+                "Just7Gym Gryf",
+                "Gryf olimpijski 20 kg"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

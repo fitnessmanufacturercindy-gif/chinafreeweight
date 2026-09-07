@@ -1,0 +1,221 @@
+{
+  "checkedAt": "2026-09-03T04:21:44.580Z",
+  "checks": [
+    {
+      "path": "/sv/blogg/hantlar-viktskivor-kg-lb-inkop",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/pt/blog/halteres-anilhas-kg-lb-pedido-atacado",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/es/blog/mancuernas-discos-kg-lb-compra-mayorista",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/de/blog/kurzhanteln-hantelscheiben-kg-lb-bestellen",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/fr/blog/halteres-disques-kg-lb-commande-gros",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/resources/kg-vs-lb-dumbbells-weight-plates-ordering",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/vi/blog/ta-don-dia-ta-kg-lb-dat-hang-si",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/id/blog/dumbbell-plate-kg-lb-pesanan-grosir",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/ko/blog/dumbbell-weight-plate-kg-lb-ordering",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/nl/blog/dumbbells-halterschijven-kg-lb-inkoop",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/ar/blog/dumbbell-aqras-kg-lb-talab-jumla",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/it/blog/manubri-dischi-kg-lb-ordini-ingrosso",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/en-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/pt-br-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/es-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/en-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/pt-br-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/pl/blog/hantle-obciazenia-kg-lb-zamowienia-hurtowe",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/fr-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/de-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/fr-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/de-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/es-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/sv-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/ko-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/sv-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/vi-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/ko-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/vi-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/id-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/it-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/nl-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/nl-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/ar-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/id-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/it-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/ar-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/pl-weight-assortment.avif",
+      "status": 200,
+      "type": "image/avif"
+    },
+    {
+      "path": "/assets/resources/kg-lb-units/pl-weight-assortment.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "type": "application/xml"
+    },
+    {
+      "path": "/sitemaps/blogs.xml",
+      "status": 200,
+      "type": "application/xml; charset=utf-8"
+    },
+    {
+      "path": "/sitemaps/images.xml",
+      "status": 200,
+      "type": "application/xml; charset=utf-8"
+    },
+    {
+      "path": "/sitemaps/languages.xml",
+      "status": 200,
+      "type": "application/xml; charset=utf-8"
+    }
+  ],
+  "failures": []
+}

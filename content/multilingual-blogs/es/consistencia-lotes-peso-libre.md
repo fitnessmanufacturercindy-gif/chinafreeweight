@@ -12,7 +12,7 @@ target_buyer: Cadena de gimnasios, distribuidor, importador y marca fitness
 published_at: 2026-07-18T08:00:00.000Z
 updated_at: 2026-07-18T08:00:00.000Z
 images:
-  - /assets/dumbbell-production.webp || Producción de mancuernas controlada para pedidos repetidos || Los registros y especificaciones ayudan a reproducir características funcionales y visuales.
+  - /assets/dumbbell-production.avif || Producción de mancuernas controlada para pedidos repetidos || Los registros y especificaciones ayudan a reproducir características funcionales y visuales.
   - /assets/products/dumbbells/classic-rubber-round/classic-rubber-round-dumbbell-main.webp || Mancuerna comercial evaluada para un programa de reposición || El recambio debe cumplir peso, medidas, empuñadura, acabado, logotipo y color.
   - /assets/products/weight-plates/full-rubber/full-rubber-barbell-plate-main.webp || Gama de discos revisada para consistencia entre pedidos || Perfil, centro, marcaciones, color, dureza y embalaje se controlan por modelo.
 internal_links:

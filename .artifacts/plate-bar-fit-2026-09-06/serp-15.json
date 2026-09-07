@@ -1,0 +1,706 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.5023 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-cfcf51f4a5b4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.4022 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "otwór talerza olimpijskiego 50 mm 2 cale pasowanie gryf",
+        "location_code": 2616,
+        "language_code": "pl",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "otwór talerza olimpijskiego 50 mm 2 cale pasowanie gryf",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2616,
+          "language_code": "pl",
+          "check_url": "https://www.google.com/search?q=otw%C3%B3r%20talerza%20olimpijskiego%2050%20mm%202%20cale%20pasowanie%20gryf&hl=pl&gl=PL&ie=UTF-8&uule=w+CAIQIFISCbsLZKRkmQBHEepVzEnKc3UJ",
+          "datetime": "2026-09-06 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 471,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "specialfitness.pl",
+              "title": "WOLNE CIĘŻARY Jest 26 produktów.",
+              "url": "https://specialfitness.pl/79-wolne-ci%C4%99%C5%BCary",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://specialfitness.pl › 79-wolne-ciężary",
+              "website_name": "SpecialFitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Otwór talerza dopasowany jest do gryfów olimpijskich, toteż średnica wewnętrzna powinna wynosić pomiędzy 50 a 51 mm. Kolorystyka talerzy powinna być zgodna ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Otwór talerza dopasowany jest do gryfów olimpijskich"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Jaka jest średnica talerza olimpijskiego?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Jaka jest średnica gryfu olimpijskiego?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Jaka jest średnica obciążenia olimpijskiego?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Czym się różni gryf olimpijski od zwykłego?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.e-insportline.pl",
+              "title": "Jak wybrać odpowiednie obciążenie na gryf? - inSPORTline",
+              "url": "https://www.e-insportline.pl/doradca/230-jak-wybrac-odpowiednie-obciazenie-na-gryf?srsltid=AfmBOoqADy5XHf9-zTXMWFGa61ZAe1WFooZ1nAsc-l3bFhQkc51Ho5Qg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.e-insportline.pl › doradca › 230-jak-wybra...",
+              "website_name": "e-insportline.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Średnica otworu. 50 mm – Tak zwane obciążenia olimpijskie nadają się do gryfów o średnicy osi 50 mm. Są zwykle używane w środowisku zawodowym.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "otworu",
+                "50 mm",
+                "olimpijskie"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Adaptery gryfu olimpijskiego : Czy warto zainwestować?",
+              "url": "https://www.youtube.com/watch?v=K1JnWtvAmjE",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Wyświetlenia: ponad 870  ·  2 lata temu",
+              "website_name": "YouTube · Zrzuć Brzuch",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "... mm ? Sprawdzam ich jakość wykonania, wygodę użytkowania i opłacalność ... @zrzucbrzuch66633 likes870 views 2 years ago more.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mm",
+                "2"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-08-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "e-treningowy.pl",
+              "title": "Obciążenia olimpijskie 50 mm",
+              "url": "https://e-treningowy.pl/obciazenia-olimpijskie-50-mm,c115.html?srsltid=AfmBOoqsOAwEeyLnN6VcwHQKG-9AyvFnJxWMzKQOTGwzK9-9g5rbXfoT",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://e-treningowy.pl › SPRZĘT SIŁOWY › Obciążenia",
+              "website_name": "e-treningowy",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wytrzymały talerz olimpijski wykonany z wysokiej jakości gumy ze stalowym otworem o średnicy 50 mm. Dostępność: Czas dostawy: 1 dzień. Cena: 109.00 zł. 10 rat 0 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Wytrzymały talerz olimpijski wykonany z wysokiej jakości gumy ze stalowym otworem o średnicy 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "grand-fitness.pl",
+              "title": "rodzaje, różnice i jak wybrać odpowiednie talerze?",
+              "url": "https://grand-fitness.pl/pl/blog/obciazenia-olimpijskie-rodzaje-roznice-i-jak-?srsltid=AfmBOorLX3G6OwI7MAx-_IkM3kuMTm7MljKK1I-RvbfLc2HqiB6YIPTF",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://grand-fitness.pl › blog › obciazenia-olimpijskie-r...",
+              "website_name": "grand-fitness.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Podstawową różnicą jest średnica otworu. Talerze olimpijskie dostępne w naszej ofercie mają otwór o średnicy 51 mm i są przeznaczone do gryfów oraz maszyn ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "otworu",
+                "olimpijskie",
+                "otwór",
+                "mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "kelton.pl",
+              "title": "obciążenia ∅ 50 (olimpijskie) - Kelton",
+              "url": "https://kelton.pl/pol_m_Akcesoria-do-silowni_OBCIAZENIA_OBCIAZENIA-50-OLIMPIJSKIE-646.html?srsltid=AfmBOop2AiN4Jar0pBh4XzQcfi1OXTX3c34-VZTAAXAEUUphTWVvpT77",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kelton.pl › Akcesoria do siłowni › OBCIĄŻENIA",
+              "website_name": "kelton.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Obciążenia olimpijskie mają większą średnicę otworu (50 mm), są bardziej wytrzymałe i przystosowane do intensywnego użytkowania. Czy obciążenia 50 mm nadają się ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "olimpijskie",
+                "otworu",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "allegro.pl",
+              "title": "Talerze na Gryf 50mm - Niska cena na ...",
+              "url": "https://allegro.pl/listing?string=talerze%20na%20gryf%2050mm&srsltid=AfmBOoqq9caDBqVfL439MoAOp-kPEeBtvPqfpsSEoXgevqRQ2_bFxlyh",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://allegro.pl › listing › string=talerze na gryf 50mm",
+              "website_name": "Allegro",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": [
+                {
+                  "type": "related_result",
+                  "page": 1,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "allegro.pl",
+                  "title": "Gryf olimpijski HMS GOP050 (50 cm)",
+                  "url": "https://allegro.pl/produkt/gryf-krotki-olimpijski-hms-5-kg-50-cm-z-zaciskami-c4fddb22-1696-48ef-aaec-3ad94f4ac2d9?offerId=17359256875&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dtalerze%2520na%2520gryf%252050mm",
+                  "cache_url": null,
+                  "related_search_url": null,
+                  "breadcrumb": null,
+                  "website_name": null,
+                  "is_image": true,
+                  "is_video": false,
+                  "checks": [
+                    "is_image"
+                  ],
+                  "description": null,
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": null,
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-cfcf51f4a5b4:0"
+                    }
+                  ],
+                  "amp_version": false,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 7,
+                    "rating_max": 5
+                  },
+                  "price": {
+                    "current": 194,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "194 zł"
+                  },
+                  "highlighted": null,
+                  "about_this_result": null,
+                  "timestamp": null
+                },
+                {
+                  "type": "related_result",
+                  "page": 1,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "domain": "allegro.pl",
+                  "title": "2X GRYF KRÓTKI OLIMPIJSKI GŁADKI 50MM SZTANGA CHROMOWANA + GRATIS ZACISKI",
+                  "url": "https://allegro.pl/produkt/gryf-olimpijski-sportforfun-50-cm-50-mm-a2b16519-9730-4fe3-addc-8054fc069fc5?offerId=17929877628&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dtalerze%2520na%2520gryf%252050mm",
+                  "cache_url": null,
+                  "related_search_url": null,
+                  "breadcrumb": null,
+                  "website_name": null,
+                  "is_image": true,
+                  "is_video": false,
+                  "checks": [
+                    "is_image"
+                  ],
+                  "description": null,
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": null,
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-cfcf51f4a5b4:1"
+                    }
+                  ],
+                  "amp_version": false,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.4,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "price": {
+                    "current": 245,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "245 zł"
+                  },
+                  "highlighted": null,
+                  "about_this_result": null,
+                  "timestamp": null
+                },
+                {
+                  "type": "related_result",
+                  "page": 1,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "domain": "allegro.pl",
+                  "title": "Obciążenie olimpijskie żeliwne ATX 0,5 kg 51 mm",
+                  "url": "https://allegro.pl/produkt/obciazenie-olimpijskie-zeliwne-atx-0-5-kg-51-mm-42ba053b-87f9-4470-803e-8b0c9b6d7ca5?offerId=18604944982&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dtalerze%2520na%2520gryf%252050mm",
+                  "cache_url": null,
+                  "related_search_url": null,
+                  "breadcrumb": null,
+                  "website_name": null,
+                  "is_image": true,
+                  "is_video": false,
+                  "checks": [
+                    "is_image"
+                  ],
+                  "description": null,
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": null,
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-cfcf51f4a5b4:2"
+                    }
+                  ],
+                  "amp_version": false,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 6,
+                    "rating_max": 5
+                  },
+                  "price": {
+                    "current": 12,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "12 zł"
+                  },
+                  "highlighted": null,
+                  "about_this_result": null,
+                  "timestamp": null
+                },
+                {
+                  "type": "related_result",
+                  "page": 1,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+                  "domain": "allegro.pl",
+                  "title": "TALERZ OBCIĄŻENIE DO SZTANGI GRYFÓW OLIMPIJSKIE ŻELIWNE GUMOWANE 2.5KG",
+                  "url": "https://allegro.pl/produkt/talerz-obciazenie-do-sztangi-gryfow-olimpijskie-zeliwne-gumowane-2-5kg-3f62ff42-8f99-4002-bfc7-135e83da49cb?offerId=17665728663&utm_source=google&utm_medium=product-carousel&utm_campaign=product-listing&utm_content=%2Flisting%3Fstring%3Dtalerze%2520na%2520gryf%252050mm",
+                  "cache_url": null,
+                  "related_search_url": null,
+                  "breadcrumb": null,
+                  "website_name": null,
+                  "is_image": true,
+                  "is_video": false,
+                  "checks": [
+                    "is_image"
+                  ],
+                  "description": null,
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": null,
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-cfcf51f4a5b4:3"
+                    }
+                  ],
+                  "amp_version": false,
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "price": {
+                    "current": 22,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "PLN",
+                    "is_price_range": false,
+                    "displayed_price": "22 zł"
+                  },
+                  "highlighted": null,
+                  "about_this_result": null,
+                  "timestamp": null
+                }
+              ],
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "underfit.pl",
+              "title": "Gryf olimpijski krótki 50 cm (50 mm) UNDERFIT 5 kg z tuleją ...",
+              "url": "https://underfit.pl/product-pol-10192-Gryf-olimpijski-krotki-50-cm-50-mm-UNDERFIT-5-kg-z-tuleja-obrotowa.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://underfit.pl › TRENING SIŁOWY › Gryfy",
+              "website_name": "underfit.pl",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Wymiary: · Długość całkowita: 50 cm · Długość części chwytnej: 15 cm · Średnica części chwytnej: 29 mm · Długość części na obciążenia: 2 x 16 cm · Średnica części na ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 5,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 189,
+                "regular": null,
+                "max_value": null,
+                "currency": "PLN",
+                "is_price_range": false,
+                "displayed_price": "189,00 zł"
+              },
+              "highlighted": [
+                "50",
+                "mm",
+                "2"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.sfd.pl",
+              "title": "Gryf oraz obciążenie olimpijskie",
+              "url": "https://www.sfd.pl/Gryf_oraz_obci%C4%85%C5%BCenie_olimpijskie-t1226926.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.sfd.pl › Forum › Trening w domu",
+              "website_name": "SFD",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "21 mar 2024 — Co mnie zastanawia to zmierzył dokładnie średnicę otworów i w jednym jest 49mm a w drugim z jednej strony otworu 49mm z drugiej 47mm. Hesa ...",
+              "pre_snippet": "03/21/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "otworu"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-03-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Gryf olimpijski",
+                "Talerze olimpijskie",
+                "Obciążenia olimpijskie"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

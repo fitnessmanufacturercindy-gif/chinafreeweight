@@ -276,7 +276,7 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
       <section className="products-section related-products">
         <div className="section-heading-wide">
           <div>
-            <span>Internal links</span>
+            <span>Related weight plates</span>
             <h2>More Weight Plates products</h2>
           </div>
           <p>

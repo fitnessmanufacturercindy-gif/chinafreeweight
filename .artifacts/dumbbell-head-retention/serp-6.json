@@ -1,0 +1,545 @@
+{
+  "version": "0.1.20260831",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.2774 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09020335-2064-0139-0000-b8c5153e8d28",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.0735 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "mancuerna cabeza floja gimnasio",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "mancuerna cabeza floja gimnasio",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=mancuerna%20cabeza%20floja%20gimnasio&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-02 03:35:29 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "short_videos",
+            "people_also_ask"
+          ],
+          "se_results_count": 13100,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "Intentando levantar una mancuerna de 40 kg por encima de mi ...",
+              "url": "https://www.instagram.com/reel/DVfDwoODI3c/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "12.4K+ likes  ·  6 months ago",
+              "website_name": "Instagram · gus_navamuscle",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "2- Falta de Dominio en el peso cuando las tiras. Mejor baja el peso y controla la bajada. 3- El respeto a las reglas de cada establecimiento es ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "short_videos",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+              "title": "Short videos",
+              "items": [
+                {
+                  "type": "short_videos_element",
+                  "title": "‼ En un gimnasio de Estados Unidos, cámaras de seguridad ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Campeona FM Radio - Publicidad"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "Redes sociales #gimnasio #alerta #accidente #viral ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "TV Azteca Querétaro"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "PESA GIGANTE en la CABEZA en el GIMNASIO  ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Jordi Gil"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "Intentando levantar una mancuerna de 40 kg por encima de mi ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Gus Muscle"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "Gym Humor: Cargando Mancuernas en el Gimnasio",
+                  "url": null,
+                  "domain": null,
+                  "source": "untaljuansandoval"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "MANCUERNA Se CAE Contra Su CARA Por RECIBIR MALA ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Legionarios Élite"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "La mancuerna es fiel  . . . #gymhumor #fitnesshumor #gym # ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Tanque."
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "Un hombre resultó gravemente herido luego de que otro dejara ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "TV Azteca Veracruz"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "La pesadilla de las mancuernas  #fyp #xyzbca #gym",
+                  "url": null,
+                  "domain": null,
+                  "source": "Carlos Mata Coach"
+                },
+                {
+                  "type": "short_videos_element",
+                  "title": "MANCUERNA GIGANTE en el GIMNASIO  CÁMARA ...",
+                  "url": null,
+                  "domain": null,
+                  "source": "Jordi Gil"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué es el método 3 2 8?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cómo funciona una mancuerna regulable?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Hay algún gif que muestre el peso muerto con mancuernas?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Qué es el levantamiento de barra sobre la cabeza?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Yo al fondo del gym intentando disimular que me cayó la ...",
+              "url": "https://www.facebook.com/61550336651587/posts/yo-al-fondo-del-gym-intentando-disimular-que-me-cay%C3%B3-la-mancuerna-en-la-cabeza-p/122334511058011221/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.facebook.com › posts › yo-al-fondo-del-g...",
+              "website_name": "Facebook",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Jun 4, 2026 — Yo al fondo del gym intentando disimular que me cayó la mancuerna en la cabeza por intertar levantar mucho peso.",
+              "pre_snippet": "06/04/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuerna",
+                "cabeza"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-06-04 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "aplastó \"por accidente\" la cabeza de otro hombre con una pesa ...",
+              "url": "https://www.facebook.com/diariochiapashoy/videos/video-aplast%C3%B3-por-accidente-la-cabeza-de-otro-hombre-con-una-pesa-de-20-kiloslas/653750375708803/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ reactions  ·  4 years ago",
+              "website_name": "Facebook · Chiapas Hoy",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Un hombre que causó heridas severas a otro compañero de gimnasio después de golpearlo con una pesa de 20 kilos en la cabeza, motivo por el cual ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "gimnasio",
+                "cabeza"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-09-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "unsplash.com",
+              "title": "Mujer levantando una mancuerna por encima de su ...",
+              "url": "https://unsplash.com/es/fotos/mujer-levantando-una-mancuerna-por-encima-de-su-cabeza-en-un-gimnasio-SEi2JnJwwSM",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://unsplash.com › fotos › muj...",
+              "website_name": "Unsplash",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 2, 2026 — Mujer levantando una mancuerna por encima de su cabeza en un gimnasio. Mujer haciendo ejercicio con una banda de resistencia en el gimnasio.",
+              "pre_snippet": "03/02/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mancuerna",
+                "cabeza",
+                "gimnasio"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "La posición de tu cabeza es súper importante Cuando ...",
+              "url": "https://www.instagram.com/reel/DWDHT1zjXx_/?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ likes  ·  5 months ago",
+              "website_name": "Instagram · jimenafardb",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Cuando levantas la cabeza en peso muerto, rompes la alineación, cargas más la zona lumbar y tensas el cuello. Mirar hacia abajo te da una mejor ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "cabeza"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.instagram.com",
+              "title": "técnica floja = progreso caro. Arregla el agarre y tu fuerza ...",
+              "url": "https://www.instagram.com/reel/Db1kaKvJr5J/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ likes  ·  3 weeks ago",
+              "website_name": "Instagram · herman_fitness_ec",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "técnica floja = progreso caro. Extension sobre la cabeza con mancuernas gracias por el tip🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 ¿cuántas cabezas entrenabas? #gym # ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "floja",
+                "cabeza",
+                "mancuernas",
+                "cabezas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "Mujer provoca caída de barra en la cabeza de un hombre ...",
+              "url": "https://www.facebook.com/primeraplanatelearuba/videos/mujer-provoca-ca%C3%ADda-de-barra-en-la-cabeza-de-un-hombre-en-gimnasio/974490721589578/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ reactions  ·  4 months ago",
+              "website_name": "Facebook · Primera Plana con Alejandra Forero",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "Un incidente ocurrido en un gimnasio se ha viralizado en redes sociales luego de que una mujer aparentemente mientras realizaba ejercicio tocó ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "gimnasio"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-02 03:35:29 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "PESA GIGANTE en la CABEZA en el GIMNASIO  ...",
+              "url": "https://www.youtube.com/shorts/0WQv3CcHAGE",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "670+ views  ·  3 weeks ago",
+              "website_name": "YouTube · Jordi Gil",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": [
+                "is_video"
+              ],
+              "description": "PESA GIGANTE en la CABEZA en el GIMNASIO ‍♂️ CÁMARA OCULTA | #deporte #humor #risas #comedia · GIANT OBJECTS in the LIBRARY ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "CABEZA",
+                "GIMNASIO"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-06 00:00:00 +00:00",
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

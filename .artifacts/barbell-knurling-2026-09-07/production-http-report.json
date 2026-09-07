@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-09-07T04:34:28.471Z",
+  "base": "https://www.chinafreeweight.com",
+  "pages": [
+    {
+      "locale": "en",
+      "path": "/resources/olympic-barbell-knurling-guide-commercial-gym",
+      "status": 200
+    },
+    {
+      "locale": "pt-BR",
+      "path": "/pt/blog/recartilhado-barra-olimpica-academia",
+      "status": 200
+    },
+    {
+      "locale": "es",
+      "path": "/es/blog/moleteado-barra-olimpica-gimnasio",
+      "status": 200
+    },
+    {
+      "locale": "de",
+      "path": "/de/blog/langhantel-raendelung-fitnessstudio-einkauf",
+      "status": 200
+    },
+    {
+      "locale": "fr",
+      "path": "/fr/blog/moletage-barre-olympique-salle-de-sport",
+      "status": 200
+    },
+    {
+      "locale": "sv",
+      "path": "/sv/blogg/skivstang-lattring-gym-inkop",
+      "status": 200
+    },
+    {
+      "locale": "it",
+      "path": "/it/blog/zigrinatura-bilanciere-olimpico-palestra",
+      "status": 200
+    },
+    {
+      "locale": "nl",
+      "path": "/nl/blog/halterstang-karteling-sportschool-inkoop",
+      "status": 200
+    },
+    {
+      "locale": "pl",
+      "path": "/pl/blog/moletowanie-gryfu-olimpijskiego-silownia",
+      "status": 200
+    },
+    {
+      "locale": "vi",
+      "path": "/vi/blog/van-nham-don-ta-olympic-phong-gym",
+      "status": 200
+    },
+    {
+      "locale": "ar",
+      "path": "/ar/blog/barbell-knurling-commercial-gym-guide",
+      "status": 200
+    },
+    {
+      "locale": "ko",
+      "path": "/ko/blog/olympic-barbell-knurling-commercial-gym",
+      "status": 200
+    },
+    {
+      "locale": "id",
+      "path": "/id/blog/knurling-barbel-olimpiade-gym",
+      "status": 200
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/resources/barbell-knurling/ar-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/ar-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/de-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/de-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/en-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/en-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/es-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/es-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/fr-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/fr-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/id-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/id-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/it-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/it-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/ko-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/ko-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/nl-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/nl-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/pl-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/pl-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/pt-br-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/pt-br-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/sv-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/sv-barbell-knurling.webp",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/vi-barbell-knurling.avif",
+      "status": 200
+    },
+    {
+      "path": "/assets/resources/barbell-knurling/vi-barbell-knurling.webp",
+      "status": 200
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemap-index.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemaps/products.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemaps/blogs.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemaps/images.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemaps/videos.xml",
+      "status": 200
+    },
+    {
+      "path": "/sitemaps/languages.xml",
+      "status": 200
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200
+    }
+  ],
+  "sitemapCoverage": {
+    "blogRoutes": 13,
+    "languageRoutes": 13,
+    "canonicalImages": 13,
+    "deliveredAssets": 26
+  },
+  "failures": []
+}

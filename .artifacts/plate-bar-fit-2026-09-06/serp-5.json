@@ -1,0 +1,1004 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7636 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-048474c27eb8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.6635 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "agujero disco olímpico 50 mm 2 pulgadas ajuste barra",
+        "location_code": 2724,
+        "language_code": "es",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "agujero disco olímpico 50 mm 2 pulgadas ajuste barra",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2724,
+          "language_code": "es",
+          "check_url": "https://www.google.com/search?q=agujero%20disco%20ol%C3%ADmpico%2050%20mm%202%20pulgadas%20ajuste%20barra&hl=es&gl=ES&ie=UTF-8&uule=w+CAIQIFISCYu8YTJ440IMEeyjaAeULOym",
+          "datetime": "2026-09-06 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products"
+          ],
+          "se_results_count": 8860,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.amazon.es",
+              "title": "Adaptador Discos Olimpicos",
+              "url": "https://www.amazon.es/adaptador-discos-olimpicos/s?k=adaptador+discos+olimpicos&page=5",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.es › adaptador-discos-olimpicos › k...",
+              "website_name": "Amazon",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La funda adaptador de barra convierte discos de peso de 1 a 2 pulgadas, equipo de fitness de gimnasio resistente a sacudidas de polipropileno para entrenamiento ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "La funda adaptador de barra convierte discos de peso de 1 a 2 pulgadas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "agrisciedu.com",
+              "title": "Set De 2 Discos Olímpicos Engomados De 50 Mm, Núcleo De ...",
+              "url": "https://agrisciedu.com/Discos-Ol-mpicos-Engomados-De-50-Mm-N-cleo-De-Acero-Y-Asas/584894",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://agrisciedu.com › ... › Discos De Pesas",
+              "website_name": "agrisciedu.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Tienen un núcleo de acero y un revestimiento de goma que absorbe impactos, protege el suelo y hace que sean fáciles de agarrar. SPORTNOW Discos Pesas Olímpicos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 18.5,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "18,50 €"
+              },
+              "highlighted": [
+                "acero",
+                "Discos",
+                "Olímpicos"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "fabiennenicolle.com",
+              "title": "SPORTNOW Juego De 2 Discos Olímpicos De 10 Kg",
+              "url": "https://fabiennenicolle.com/SPORTNOW-Juego-De-2-Discos-Ol-mpicos-De-10-Kg-Agujero-De/305578",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fabiennenicolle.com › ... › Pesas Y Accesorios",
+              "website_name": "fabiennenicolle.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "El agujero central es de 50 mm, así que son compatibles con las barras olímpicas estándar de 2 pulgadas, pero también los puedes usar sin barra. Discos De Pesas ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 26.25,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "26,25 €"
+              },
+              "highlighted": [
+                "son compatibles con las barras olímpicas estándar de 2 pulgadas"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "dalter.com",
+              "title": "Adaptadores Barras 30 mm a Discos Olímpicos 50 mm (Par)",
+              "url": "https://dalter.com/fitness/peso-lastre/pesas-musculacion/daptadores-barras-a-discos-par/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dalter.com › ... › Pesas / Musculación",
+              "website_name": "deportes alternativos, s.l",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Pareja de adaptadores para usar platos olímpicos con agujero de 50 mm. Se pueden utilizar las barras de 30 mm usando estos adaptadores a las medidas olímpicas, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 19.36,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "19,36 €"
+              },
+              "highlighted": [
+                "olímpicos",
+                "agujero",
+                "50 mm",
+                "barras"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuál es la diferencia entre un disco olímpico y uno estándar?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuáles son las medidas de los discos olímpicos?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuál es el diámetro de los discos para powerlifting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuál es el grosor de los discos bumper?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.idealo.es",
+              "title": "Discos Barra Olimpica - Pesas",
+              "url": "https://www.idealo.es/lista/119041120/discos-barra-olimpica.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.idealo.es › lista › discos-barra-olimpica",
+              "website_name": "idealo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Barra larga, acero, Diámetro del agujero 50 mm. 1 oferta. 149,99 €. ManiBoom Discos Pesas Hierro ENGOMADO 30mm y 50mm Olimpica con Anillo Interior de Acero y ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Barra",
+                "acero",
+                "agujero 50 mm",
+                "Discos",
+                "50mm",
+                "Acero"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.donatif.com",
+              "title": "Parachoques de 5 Kg - Agujero Olímpico 50 mm",
+              "url": "https://www.donatif.com/es/disco-de-parachoques-5-kg-placa-de-parachoques-de-entrenamiento-agujero-olimpico-50-mm?",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.donatif.com › ... › DISCOS › Parachoques",
+              "website_name": "Donatif",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "El orificio central de 50 mm es de acero mecanizado por CNC , lo que garantiza un ajuste perfecto y minimiza la tensión en la barra. Este diseño, sin tornillos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 15.29,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "15,29 €"
+              },
+              "highlighted": [
+                "50 mm",
+                "acero",
+                "ajuste",
+                "barra"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "SPORTNOW Discos Pesas Olímpicas Agujero Ø50 mm 2 Discos 15 kg Negro | Anillo Interior de Acero, Triple Agarre, para Mancuernas y Barras, Entrenamiento",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:0",
+                  "price": {
+                    "current": 41.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "41,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9940670607949928912",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Adaptador Disco/barra 28/50 mm Recambio Rack Musculación",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:1",
+                  "price": {
+                    "current": 9.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "9,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3224347272952580282",
+                    "data_docid": "12645517796982481668",
+                    "gid": "4969378051558086709"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos olímpicos con anillo interior de acero triple para mancuernas y barras",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:2",
+                  "price": {
+                    "current": 125.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "125,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2906443461610086006",
+                    "data_docid": "16276242707860125856",
+                    "gid": "8921986940832481495"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "PhysKcal Disco Olímpico 50 mm, Disco de Hierro Fundido Tri-Grip | 1,25 kg a 25 kg. Asas ergonómicas para un cambio fácil. Ideal para musculación en",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:3",
+                  "price": {
+                    "current": 36.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "36,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16255289849447262616",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Adaptador 50 mm x 365 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:4",
+                  "price": {
+                    "current": 13.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "13,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5184066596660752411",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos Pesas Olímpico Hierro Agarre",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:5",
+                  "price": {
+                    "current": 20.7,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "20,70 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11140486290732538856",
+                    "data_docid": "8032047457578917095",
+                    "gid": "1161199568926307131"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos Pesas Olímpico con Agarre (Ø50 mm., par) Soporte barras y discos",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:6",
+                  "price": {
+                    "current": 150,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "150,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16202116409846087663",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Adaptador 50 mm x 200 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "GymCompany ES",
+                  "more_sellers": false,
+                  "seller": "GymCompany ES",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-048474c27eb8:7",
+                  "price": {
+                    "current": 7.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "7,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 115,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1435871289304446826",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.etsy.com",
+              "title": "Adaptadores de peso para discos de gimnasio 25/28",
+              "url": "https://www.etsy.com/es/listing/1516522053/adaptadores-de-peso-para-discos-de",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.etsy.com › ... › Fitness y ejercicio",
+              "website_name": "Etsy",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Pueden acomodar discos de tamaño olímpico con un orificio de 50 mm simplemente insertándolos en su máquina o barra, tienen un seguro un poco más grande para ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "discos",
+                "olímpico",
+                "50 mm",
+                "barra"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos de pesas Cubiertas de hierro Barra de 2 pulgadas Olímpico Grip Home Plate 2,5 kg con barra de pesas con barra de goma con barra de agarre, 5 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon",
+                  "more_sellers": false,
+                  "seller": "Amazon",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTemxxg7BisEu6PH88ojL2ejdrsxm4xezmasLqcs4V07yFSeZfHv8J4tyhj4XTP_prm3QQDnmBDeHfUKEAR4P9DhmWn42MUCrlQ-elk8MWwrrxpehypfEK",
+                  "price": {
+                    "current": 42.96,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "42,96 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1383947735048871793",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disco especial alto impacto Tamaño olímpico 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "100x100fitness.com",
+                  "more_sellers": false,
+                  "seller": "100x100fitness.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgrce4zovPOJ8KQfEBZ4JL7SIZUHa98sGS6eyJ0OwMPGsEalmQ6C41oJEa4M_TzSzIWF2YPggagH6j7RrJyJy29ORNZm6LhQ9AKNiN2kPyOkCG_jvgpVFJhQ",
+                  "price": {
+                    "current": 32.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "32,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3327221946013882466",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos Pesas Olímpicos Agujero Ø50 Mm 2x15 Kg Con Anillo Interior De Acero Triple Agarre Para Mancuernas Y Barras Negro",
+                  "url": null,
+                  "domain": null,
+                  "description": "ManoMano.es",
+                  "more_sellers": false,
+                  "seller": "ManoMano.es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQYDIiUI0iu50RVZwbdIcXU39W9ykQP7BFQ8SHtan1ubUxFk1z9omE4PE_2EP1rMSzilnma_34J8gycuPHcM-tNKevpDnoVY01D4tQXhH1MExwV1LHJWuMECg",
+                  "price": {
+                    "current": 106.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "106,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4933190829963327434",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Fitness Tech Barra Olímpica 2.2m x 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_12bMDA0qlxliMRBI80jq_2A3GWYRseOu5DS4wgtyUgCrGHnQoMUpiwreB1NrE-MCJKyFtvuBMCoUXYuXy1hYXoyuzGx9oTxy3zPXrVsz3Yfjy-xUVIWF",
+                  "price": {
+                    "current": 169.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "169,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6320938041106853749",
+                    "data_docid": "11455560275271547678",
+                    "gid": "2285357584755631558"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos Pesas Olímpicos Agujero Ø50 Mm 2x10 Kg Con Anillo Interior De Acero Triple Agarre Para Mancuernas Y Barra...",
+                  "url": null,
+                  "domain": null,
+                  "description": "Ogal.Es",
+                  "more_sellers": false,
+                  "seller": "Ogal.Es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTEQcFvu8FAETSjAMrWJW6yDOo_sKzBro2sODKzanITtRfGBHc8YgaTVjE6MQ9I-sgt1XFDqFS_h982MTlQjOeT8G1Jhr6BTd0fSAo5NcNO",
+                  "price": {
+                    "current": 64.31,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "64,31 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "10358566018525944224",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "SPORTNOW Discos Pesas Olímpicos Agujero Ø50 mm con Anillo Interior de Acero Triple Agarre para Mancuernas y Barras",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aosom.es y más",
+                  "more_sellers": false,
+                  "seller": "Aosom.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR4lbXnhMGEK2P9EwivuLDIyTvXAXZesOxJ_-i7wmCXFRjAD-QaX-oqs7eJZGK84Ke4LKf-oBYo5HYxb8ka0Cr-MGfkfYoiFxpJSa_x_sZVjA6_IAGU670A",
+                  "price": {
+                    "current": 63.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "63,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16943010454025244505",
+                    "data_docid": "1912079452493086791",
+                    "gid": "12646691947871058850"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Discos Pesas Olímpico Hierro Agarre (Ø50 mm., par) Soporte",
+                  "url": null,
+                  "domain": null,
+                  "description": "aemasport.com",
+                  "more_sellers": false,
+                  "seller": "aemasport.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQSEkZIPHMDUwCRXBJq7JqpueFEWcuL_Ze-dmYULygIuXT6Cd9yh-9m4wPe2zL3i8Keh7ysq1X-sD9n9LOCuiHjqyXNTLH9YzSpvokuk7mpWn4uESaRxGI2Tw",
+                  "price": {
+                    "current": 107.6,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "107,60 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "14703343574455382394",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Par de discos olímpicos (diámetro de 50mm) con tres agarres (Peso: 1,25 Kg)",
+                  "url": null,
+                  "domain": null,
+                  "description": "materialdefisioterapiaonline.es",
+                  "more_sellers": false,
+                  "seller": "materialdefisioterapiaonline.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTcCgCeK0gg42LsShggeBZyKjRE6hPfzUULdxLEjzFg2qVURizK88_a0bUlJj-c4NkZTKgPyG_S5w6MxRMRwmdW10wwIhhFlAynAWZ6ZbFGaLHyms4kWlrk",
+                  "price": {
+                    "current": 11.44,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "11,44 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "10611331820383852654",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.amayasport.com",
+              "title": "Adaptador Barra Discos Olímpicos 50 mm",
+              "url": "https://www.amayasport.com/eu/es/accesorios/1896-adaptador-barras-a-platos-8421941940590.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amayasport.com › accesorios › 1896-adapta...",
+              "website_name": "Amaya Sport",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "El adaptador de barra a discos olímpicos permite utilizar discos con agujero de 50 mm en barras estándar de 28 mm o 30 mm, ampliando la compatibilidad de tu ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 12.95,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "12,95 €"
+              },
+              "highlighted": [
+                "permite utilizar discos con agujero de 50 mm en barras estándar de 28 mm o 30 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]",
+              "domain": "www.leroymerlin.es",
+              "title": "Discos Pesas Olímpicos Agujero Ø50 mm 2x10 kg con ...",
+              "url": "https://www.leroymerlin.es/productos/discos-pesas-olimpicos-agujero-50-mm-2x10-kg-con-anillo-interior-de-acero-triple-agarre-para-mancuernas-y-barras-negro-73947586.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.leroymerlin.es › ... › Accesorios de gimnasio",
+              "website_name": "Leroy Merlin",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "27 jun 2026 — Discos Pesas Olímpicos Agujero Ø50 mm 2x10 kg con Anillo Interior de Acero Triple Agarre para Mancuernas y Barras Negro · 97,13 EUR.",
+              "pre_snippet": "06/27/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 97.13,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "97,13 €"
+              },
+              "highlighted": [
+                "Discos Pesas Olímpicos Agujero Ø50 mm 2x10 kg"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-06-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]",
+              "domain": "www.fitnesstech.es",
+              "title": "Set 105kg Discos Triple Agarre 50mm Profesionales",
+              "url": "https://www.fitnesstech.es/products/set-discos-triple-agarre-50mm-profesionales",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitnesstech.es › products › set-discos-triple-a...",
+              "website_name": "Fitness Tech",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "50 mm ; 3 asas de agarre. Puedes combinar tus discos olímpicos con barra olímpica profesional y seguros para así poder completar tu set. Todos los productos ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 100,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 409,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "409,00 €"
+              },
+              "highlighted": [
+                "50 mm",
+                "discos olímpicos",
+                "barra"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

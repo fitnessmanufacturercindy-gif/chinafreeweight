@@ -1,0 +1,833 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.4381 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-9ab57e558825",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2779 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "foro disco olimpico 50 mm 2 pollici compatibilità bilanciere",
+        "location_code": 2380,
+        "language_code": "it",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "foro disco olimpico 50 mm 2 pollici compatibilità bilanciere",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2380,
+          "language_code": "it",
+          "check_url": "https://www.google.com/search?q=foro%20disco%20olimpico%2050%20mm%202%20pollici%20compatibilit%C3%A0%20bilanciere&hl=it&gl=IT&ie=UTF-8&uule=w+CAIQIFISCQPSjUSC_tQSEW9eYyRc9Szi",
+          "datetime": "2026-09-06 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites"
+          ],
+          "se_results_count": 404,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.amazon.it",
+              "title": "Dischi Olimpici 50mm",
+              "url": "https://www.amazon.it/dischi-olimpici-50mm/s?k=dischi+olimpici+50mm&page=2",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.it › dischi-olimpici-50mm › page=2",
+              "website_name": "Amazon.it",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Set Bumper con Bilanciere Olimpico 220 cm | Kit Bumper coppie 5 e 20 kg, quattro dischi da 10 kg foro 50 mm.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Bilanciere Olimpico",
+                "dischi",
+                "foro 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.fitness-flohmarkt.ch",
+              "title": "Dischi per bilanciere da 30 mm o 50 mm",
+              "url": "https://www.fitness-flohmarkt.ch/it/guida-ai-dischi-per-bilanciere-da-30-mm/?srsltid=AfmBOoqIu1JylFeRJUVYdnzfJ_60g9Fw_RMtUHuXHTQ9ziFF16Ep9eIg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitness-flohmarkt.ch › guida-ai-dischi-per-...",
+              "website_name": "Fitness Flohmarkt",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "11 ago 2026 — I dischi per manubri da 30 mm si adattano a un bilanciere da 50 mm? No. Il foro di un disco da 30 mm misura 31 mm e non può essere inserito su ...",
+              "pre_snippet": "08/11/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "dischi",
+                "mm",
+                "bilanciere",
+                "50 mm",
+                "foro",
+                "disco"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il diametro del foro per i dischi del bilanciere?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è la differenza tra un bilanciere olimpico e un bilanciere normale?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il diametro interno di un disco per pesi?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il diametro del bilanciere per 10 kg?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.rawtraining.eu",
+              "title": "adattatore dischi 25 mm/50 mm",
+              "url": "https://www.rawtraining.eu/forum/homemade-tool-e-attrezzatura/1516/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.rawtraining.eu › ... › Homemade tool & att...",
+              "website_name": "Rawtraining",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "30 set 2012 — vorrei fare un cilidro da infilare sulle aste da 50 mm della lat o del bilancere olimpioni da cui esce un profilato-pezzo-di bilanciere-tubo con ...",
+              "pre_snippet": "09/30/2012 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "50 mm",
+                "bilanciere"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2012-09-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "atletica.de",
+              "title": "Peso, diametro e tolleranza dei dischi: la guida completa per ...",
+              "url": "https://atletica.de/it/blogs/approfondimenti/peso-diametro-e-tolleranza-dei-dischi-la-guida-completa-per-principianti-e-professionisti",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://atletica.de › Approfondimenti",
+              "website_name": "atletica.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "28 ago 2026 — Diametro del foro standard. Nei dischi olimpici moderni il diametro interno del foro è di 50 mm. Tutto il resto (30 mm, 25 mm ecc.) è ...",
+              "pre_snippet": "08/28/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "foro",
+                "dischi",
+                "50 mm",
+                "mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-08-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.trovaprezzi.it",
+              "title": "Set Dischi Palestra Foro 50 in Pesistica",
+              "url": "https://www.trovaprezzi.it/prezzo_pesistica_set_dischi_palestra_foro_50.aspx",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.trovaprezzi.it › ... › Pesistica",
+              "website_name": "Trovaprezzi.it",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dischi Palestra Set di 2, Pesi Bilanciere Olimpico 50 mm, Dischi Pesi Palestra Ghisa, Palestra e Home Gym, Pesi Bilanciere (2 x 15 kg) 【COMPATIBILITÀ AMPIA】 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Dischi Palestra Set di 2, Pesi Bilanciere Olimpico 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.mood03.com",
+              "title": "Disco Ghisa Nera 1,25 kg Foro Olimpionico 50mm",
+              "url": "https://www.mood03.com/Disco-Ghisa-Tripla-Presa-da-1,25-kg-con-foro-olimpico-da-50mm?srsltid=AfmBOoqaykVtURj6YxqD5Ytf_UfQSBr_kAju54tdcy30TVraSRqryq_e",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mood03.com › Disco-Ghisa-Tripla-Presa-da...",
+              "website_name": "Mood03.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Grazie alla sua costruzione in ghisa verniciata, offre una resistenza superiore ed è compatibile con tutti i bilancieri e manubri olimpici. Parte della Toorx ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "è compatibile con tutti i bilancieri e manubri olimpici"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "fitness-discount.it",
+              "title": "Kit Bilanciere Olimpico 220cm e 90kg Dischi Bumper foro ...",
+              "url": "https://fitness-discount.it/prodotto/kit-bilanciere-olimpico-220cm-e-90kg-dischi-bumper-adbt-foro-50mm-toorx/?srsltid=AfmBOopo9kM6tjVfpoG3ize6AOG83BZ3kaan84rcCD7HfGyMi4eualFF",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://fitness-discount.it › prodotto › kit-bilanciere-oli...",
+              "website_name": "Fitness-Discount",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Il foro da 50 mm garantisce una perfetta compatibilità con il bilanciere olimpico, assicurando una tenuta sicura e stabile durante l'allenamento. Il ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Il foro da 50 mm garantisce una perfetta compatibilità con il bilanciere olimpico"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.bbhomepage.com",
+              "title": "Home gym - attrezzatura 50mm vs 28mm",
+              "url": "https://www.bbhomepage.com/forum/showthread.php?t=59858",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.bbhomepage.com › forum › showthread",
+              "website_name": "BODYBUILDING HOMEPAGE",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Io uso dischi del Decathlon con foro da 28 mm e faccio stacco ancora con un bilanciere del decathlon nastrato per aumentarne il grip. Fino a un annetto fa ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "dischi",
+                "foro",
+                "mm",
+                "bilanciere"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.manomano.it",
+              "title": "Coppia Dischi Olimpici per Bilancieri e Manubri Bumper ...",
+              "url": "https://www.manomano.it/p/coppia-dischi-olimpici-per-bilancieri-e-manubri-bumper-plates-foro-da-50-mm-dischi-peso-gommati-da-25-kg-a-20-kg-2-dischi-da-20-kg-61400439",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.manomano.it › ... › Barra e dischi",
+              "website_name": "ManoMano.it",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Coppia Dischi Olimpici per Bilancieri e Manubri Bumper Plates Foro da 50 mm Dischi Peso Gommati da 2,5 Kg a 20 Kg (2 dischi da 20 kg) FFitness. 1620,60€. 178 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Coppia Dischi Olimpici per Bilancieri e Manubri Bumper Plates Foro da 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Dischi olimpici foro da 50 mm 2 x con anello interno in acciaio",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTR0tmiHFZWNnJGfKXXRVnRpWXPi1cHwkmFWhclopDvt58EVKQGiYxgTvfPBVjsT_gk4i38tlipzT0ff1Zh180yA0dSA4dSZp94qS5zszJl",
+                  "price": {
+                    "current": 125.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "125,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2906443461610086006",
+                    "data_docid": "3063138316841437135",
+                    "gid": "8921986940832481495"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Madicks. Disco Olimpionico Bumper Gommato",
+                  "url": null,
+                  "domain": null,
+                  "description": "eBay - madicks_official e altri",
+                  "more_sellers": false,
+                  "seller": "eBay - madicks_official",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQQRguIj1Ou2XH-Z9_CWtTCUk9bryWsXtQUaN4jWa6S92sfjxsCCKUdBvyKT_ufs-kHan9jqabyDqPmkEkWMiZcZi4k6ZHA7Xyv2Q4zZY2opyigRWQkTAzzEw",
+                  "price": {
+                    "current": 47.82,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "47,82 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "670575209422625548",
+                    "data_docid": "14902344750419889468",
+                    "gid": "11991029356238966774"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bumper da 10 kg foro olimpico 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Donatif e altri",
+                  "more_sellers": false,
+                  "seller": "Donatif",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRz5LNJZau9H3QzvifcbjWYR8zpVDPf3GXT392s_lwcdAOgr2Nw3d09GTIsw3p18J_qc7TlG1Q6zwfkcYUBxhlbhWrtmoRufrs5srvQk8wgobJEPrqJY_E7",
+                  "price": {
+                    "current": 30.59,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "30,59 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16967673043084822577",
+                    "data_docid": "1966648006813232483",
+                    "gid": "11287961026605599179"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disco Olimpionico in ghisa",
+                  "url": null,
+                  "domain": null,
+                  "description": "spartacosport.it",
+                  "more_sellers": false,
+                  "seller": "spartacosport.it",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSuwcdRrINqfjdiyAOxnOF075wTFxbyPyKFoubP4lljYgRCo0ckEDuVqp8UBd4_zQTQ_Xg6FEgDtf4bvrG81LAMur5xTHJ4r5Y8J3E4lshBxF2pNFt-6TXA",
+                  "price": {
+                    "current": 76.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "76,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4216514625809750649",
+                    "data_docid": "4280588184087567171",
+                    "gid": "14837285799980009916"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "G5 HT SPORT Dischi Ghisa Gommati Olimpionici Foro Ø50 mm per Palestra E Home Gym",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.it e altri",
+                  "more_sellers": false,
+                  "seller": "Amazon.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRNjUmE1zOd4M3cH0z4634PkBr59J5QFkKdZ2g60IdIwZyhS3Yt8PWqKtv0UsoC-YabH9AZs4yVgAjB94ji-PVjsuz-_wJCqdBjWNByHXZIr-aAriCvvD_S",
+                  "price": {
+                    "current": 47.62,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "47,62 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6591464668757779038",
+                    "data_docid": "17202124987488604291",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Diamond Disco Olimpico in acciaio per Powerlifting",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon IT - decathlon.it e altri",
+                  "more_sellers": false,
+                  "seller": "Decathlon IT - decathlon.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTcDDgFLVs3N_NoLoly4_bbP_86v_b65bfh5bbMv8lp-fTnOqngFKKSOV6LkUjXvy-3PVUWE4tj6rMix5x4aplwfy0htgKi8CmOD-ICd2SyooUz4Hc5fj--RQ",
+                  "price": {
+                    "current": 101,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "101,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11912043921852473935",
+                    "data_docid": "9020777051770656056",
+                    "gid": "3801371407461474389"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disco olimpionico Gommato Ruvido Tri-Grip Pro foro 50 mm Diamond Professional",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gallerysport e altri",
+                  "more_sellers": false,
+                  "seller": "Gallerysport",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQFWbHUHwXiAThhj-G8w4Xm3ltj069hpI74RTkTlsp4jVNru6QOIIMrafBwHYeC5tK6Ns_vAp3YaGDZXwO44_jgj6rUrxj0MUMxyIoTdkkGbRlNN5TpAEKNzw",
+                  "price": {
+                    "current": 43.2,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "43,20 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "805970921645365844",
+                    "data_docid": "14817233314625134030",
+                    "gid": "9714450759133646428"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disco olimpico 50/51 mm in plastica % SET 30KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports IT e altri",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports IT",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT-yNHTGZ0ATpnWBZRjezD9t1rS92qK_29Ql4so-DEmxrbX44IelygrGuoe-KJ3MbggRLSRcAvsNp1w2vo606abJ5rLZyCQYFSySmBJBM_DZafz-Pc6b061Sg",
+                  "price": {
+                    "current": 64.99,
+                    "regular": 75,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "64,99 € 75 € e altri prezzi"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.2,
+                    "votes_count": 130,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10710575826797198146",
+                    "data_docid": "782846103123601505",
+                    "gid": "8660354411188389101"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": "Siti di prodotti",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi Palestra Per Bilanciere Olimpico 50mm | Confronta prezzi",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_palestra_per_bilanciere_olimpico_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAiWjIM34b1Ax0HOzzSxxuBZwj3QAE6A&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Set Dischi Palestra Foro 50",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_set_dischi_palestra_foro_50.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR8g6qOvpfZE8Ueozj0UmibYb4NSI0zOw&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi Ghisa 15kg Foro 50mm",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_ghisa_15kg_foro_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQha0HFHQV09MF9U4uPq3c-yM6q__Wzbrw&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi Ghisa 50mm Da 2,5kg",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_ghisa_50mm_da_2$2c5kg.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3r1AYB0XNjWgmNLfn8KLsxhg7VIl5f3g&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi 50mm 2,5kg",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_50mm_2$2c5kg.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3r1AYB0XNjWgmNLfn8KLsxhg7VIl5f3g&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Set Dischi Gommati 50mm | Confronta prezzi",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_set_dischi_gommati_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lJErQw9aHT-2Unkd8IMJxa5Gmh5bxGc&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi Da 20kg 50mm",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_da_20kg_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUteQZDxWDaXVBzwgWtZuFKI77QEq3aU8&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "100kg Dischi 50mm",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_100kg_dischi_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBKqGZpYT1Uid3HIWRhOJdST5d0SfHTfE&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi Pesi Foro 50mm",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_pesi_foro_50mm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3r1AYB0XNjWgmNLfn8KLsxhg7VIl5f3g&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Dischi 50mm 25kg Bumper",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_dischi_50mm_25kg_bumper.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2bm_r2UcEoJOAnlYgUcOpeAZsuaoaM4I&s=0",
+                  "source": "Trovaprezzi.it"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "I fori dei dischi per bilanciere e manubri sono della stessa ...",
+              "url": "https://www.reddit.com/r/weightlifting/comments/2jh8pl/are_barbell_and_dumbbell_plate_holes_the_same/?tl=it",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "4 commenti  ·  11 anni fa",
+              "website_name": "Reddit · r/weightlifting",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Se ho capito bene cosa stai chiedendo, i pesi possono essere di tipo standard (foro da 1 pollice) o olimpico (foro da 2 pollici).",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "foro",
+                "pollice",
+                "olimpico",
+                "2 pollici"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

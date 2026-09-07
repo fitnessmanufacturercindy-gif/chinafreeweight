@@ -117,8 +117,11 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       datePublished: version.publishedAt,
       dateModified: version.updatedAt,
       inLanguage,
-      author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url } : undefined,
-      reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined
+      mainEntityOfPage: { "@id": `${url}#webpage` },
+      image: version.images.length ? version.images.map((image) => absoluteUrl(siteUrl, image.src)) : undefined,
+      author: version.author ? { "@type": version.author.kind ?? "Person", name: version.author.name, url: version.author.url ? absoluteUrl(siteUrl, version.author.url) : undefined } : undefined,
+      reviewedBy: version.reviewedBy ? { "@type": version.reviewedBy.kind ?? "Person", name: version.reviewedBy.name, url: version.reviewedBy.url } : undefined,
+      publisher: { "@type": "Organization", "@id": `${siteUrl.replace(/\/$/, "")}#organization`, name: "PowerBaseFit" }
     });
   }
 
@@ -154,7 +157,7 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
       "@type": "ImageObject",
       "@id": `${url}#image-${image.id}`,
       contentUrl: absoluteUrl(siteUrl, image.src),
-      caption: image.alt,
+      caption: image.caption ?? image.alt,
       inLanguage
     });
   }

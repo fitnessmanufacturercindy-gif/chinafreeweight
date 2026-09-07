@@ -28,6 +28,15 @@ const projectTypes = [
 
 const projects = [
   {
+    title: "Custom Logo Strength Equipment for a Fitness Chain",
+    category: "OEM Brand",
+    image: "/assets/projects/custom-logo-fitness-chain/custom-logo-dumbbells.webp",
+    copy: "A real customer case combining custom logo dumbbells, coordinated weight plates, and storage racks, shipped 15 days after final design approval.",
+    scope: "Custom dumbbells, weight plates, racks",
+    cta: "View the real case",
+    href: "/projects/custom-logo-dumbbells-weight-plates-fitness-chain"
+  },
+  {
     title: "Premium Round Dumbbell Zone",
     category: "Commercial Gyms",
     image: "/assets/projects/round-dumbbell-gym-zone.avif",
@@ -190,7 +199,7 @@ export default function ProjectsPage() {
       </header>
 
       <section className="projects-hero">
-        <picture className="projects-hero-bg" aria-hidden="true">
+        <picture className="projects-hero-bg">
           <source media="(max-width: 640px)" srcSet="/assets/factory-cases/pbf-squat-rack-chrome-plates-mobile.avif" />
           <img
             src="/assets/factory-cases/pbf-squat-rack-chrome-plates.avif"
@@ -253,16 +262,16 @@ export default function ProjectsPage() {
         <div className="section-heading-wide">
           <div>
             <span>Project gallery</span>
-            <h2>More case entrances for every buyer scenario</h2>
+            <h2>Project references for different purchasing needs</h2>
           </div>
           <p>
-            This gallery is designed to grow over time. New customer photos can
-            be added as additional project cards while keeping the same
-            conversion path.
+            Compare commercial gym zones, distributor displays, OEM programs,
+            full gym solutions, and export packing references. Select the closest
+            application before sending your product list and destination.
           </p>
         </div>
 
-        <div className="project-type-list" aria-label="Project filters preview">
+        <div className="project-type-list" aria-label="Project categories">
           {projectTypes.map((type) => (
             <span key={type}>{type}</span>
           ))}
@@ -277,9 +286,9 @@ export default function ProjectsPage() {
             <h2>Commercial Free Weight Zone for Gym Opening</h2>
             <p>
               A high-traffic strength area built around dumbbell sets, racks,
-              benches, and accessories. This type of visual case helps buyers
-              describe their desired gym layout and product scope before
-              requesting a quote.
+              benches, and accessories. The product scope can be adjusted around
+              the required weight range, floor area, storage, branding, and
+              destination market.
             </p>
             <div className="featured-specs">
               <div>
@@ -308,7 +317,7 @@ export default function ProjectsPage() {
         <div className="case-grid" aria-label="Project case cards">
           {projects.map((project) => (
             <article className="case-card" key={project.title}>
-              <a href="/contact" aria-label={`Request quote for ${project.title}`}>
+              <a href={project.href ?? "/contact"} aria-label={project.href ? `View ${project.title}` : `Request quote for ${project.title}`}>
                 <img src={project.image} alt={project.title} loading="lazy" decoding="async" />
               </a>
               <div>
@@ -316,7 +325,7 @@ export default function ProjectsPage() {
                 <h3>{project.title}</h3>
                 <p>{project.copy}</p>
                 <small>{project.scope}</small>
-                <a href="/contact">
+                <a href={project.href ?? "/contact"}>
                   {project.cta} <ArrowRight size={16} />
                 </a>
               </div>
@@ -328,11 +337,11 @@ export default function ProjectsPage() {
       <section className="projects-section buyer-section">
         <div className="buyer-copy">
           <span>Buyer matching</span>
-          <h2>Turn project browsing into a clear RFQ path</h2>
+          <h2>Match your project type with the right product scope</h2>
           <p>
-            Overseas buyers often know the type of gym area they want, but not
-            the exact product list. This section helps them match their scenario
-            with the right product package and send clearer requirements.
+            Start with your facility or sales channel, then confirm the product
+            mix, weight range, storage, branding, packaging, and destination.
+            Send these requirements for a comparable factory quotation.
           </p>
           <a className="secondary-button" href="/contact">
             Send My Project Details
@@ -364,7 +373,7 @@ export default function ProjectsPage() {
           <p>
             Share your product list, quantity, logo needs, destination country,
             and reference photos. We will help prepare a practical free weight
-            project quotation.
+            project quotation. The <a href="/resources/commercial-free-weight-area-design">free weight area planning guide</a> explains which layout inputs to prepare.
           </p>
           <div className="preview-fields">
             <div>Name *</div>
@@ -798,7 +807,7 @@ export default function ProjectsPage() {
           color: #f1c76b;
           text-transform: uppercase;
           letter-spacing: 0.12em;
-          font-size: 11px;
+          font-size: 12px;
           font-weight: 900;
         }
 

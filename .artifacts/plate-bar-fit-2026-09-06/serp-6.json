@@ -1,0 +1,1355 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7884 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-a92a3bbc34b7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.6939 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "Hantelscheibe Bohrung 50 mm 2 Zoll Passung Langhantel",
+        "location_code": 2276,
+        "language_code": "de",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "Hantelscheibe Bohrung 50 mm 2 Zoll Passung Langhantel",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2276,
+          "language_code": "de",
+          "check_url": "https://www.google.com/search?q=Hantelscheibe%20Bohrung%2050%20mm%202%20Zoll%20Passung%20Langhantel&hl=de&gl=DE&ie=UTF-8&uule=w+CAIQIFISCWu-scIecppHEVvlkY5rXeh1",
+          "datetime": "2026-09-06 03:37:20 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Set",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=set+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rMpgNHSsbPt8NsVbsJJs5kEzHmevjGQ8K_F2iPyEx9FU4SQ5Yosf1SB6lgksW8bGeQsdmX4j5cnd3ovFnFSOfawXBvSxq6jBe1LtlwiJNhvDcZyVCaAjDDLKA7VBSd6gIV6A_fZMfgcSe4qYLJQhKjtYh5DGPmeF0EjYq7oQ4pjquoLBxbsdhuPJPwWRMTK5F91aRyP1geZYLI4EyLYh-dIEM0gQOEi_3iklOurRGDS_tYvC2sn3PF5Y0EYxFZDPtlYQB4g&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAB6BAgcEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hanteln",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=hanteln+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2a3aKXb5ZNqJK7Ik9LldwBZVrYh26Si28kgEOsWg9P4vH5pj9wpYonG2WYQm8XL9TYgOeCR29-M26ptUoB1G0VpQoF_7KO7JX39ydbBWBEqxQrkUB5F2g_Fff_prt9nLt-jDpJEg7I5dpxN-J8ZiYyewYRAIzVaYMhIUtIyq6Yr8Q77xv5k601bfFY1ymFBwSmJVN96smLGZIHVGoXCdQiscdXHfhCK8j4XIb7-RUq44I-G5&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAF6BAgdEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Hantelstangen",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=hantelstangen+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJvCUx46aW_wUsxt1M1KD-_SV57xFMvXZZbzUAEoCZ1J2HgypPll71Wza2N-Yv_KxxMYMVzzH2CBXHtawvP_-tYa8euCxkAWYDUu9HiLoLo76voRjmGesIvLfruGikc5oh2GMg6jNkrFdJzPRewTw6yF2TDEJSGXrOVHMrrCoFr546vGLfwUvE0wRIfahHCAnagyHvPxSw-xMMcqUUQoUtCsJzKXQPiiJ1sYLfyceGMjjUJUU&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAJ6BAghEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Standard",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=standard+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ruaCpHu1pUZriBEdBFrDmMl3k0DThEdJIE6P1jBrFocGoSoaxND50q47ILqh3ftE3TweJD5mPr-USHMhfxdNtLnTdA4wG9JrkRbHqw4fA7WkfK6W6KWf1425GX-NbC1VXr9qT9idvJuWQ4qDTbIkiQUHSVMrH8T7_bnXs8kd2sWFH6cUQV11MaZhOoN1o78Xx52ReFBAAM74lmf3lR6zcas0y4zb81ytdxW3RJa5CdmGjWqXso3jDsxq9C4NZY4xmJWd-XQ&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAN6BAglEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Olympia",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=olympia+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rwqTxzvZZduQ2loy8Y8Gyvvjn7m9BIEABeJklmtWrMmruH_P4K405YPsASMy-TY1TprHUpa5qORhbPKfC2s1WGznhz-PDH-uUpCQVGMAs5O48fAqrxruqKxmEG5cc4jYgCpEaouMX9kTf_LQvyNsSi2sPXvdCUVPma5G1-E068YkKJ0tsW4dQ-LlRy_t5oj70X_3O0KiiVpca98SnXr8zM4pk_aWOTyDMr7bhrZxwn_XHFU75O-Tj4kwQNGsRuw_O4M2zDA&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAR6BAggEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Kurzhanteln",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=kurzhanteln+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rERqT1vF4HhOD7QuyJinQWwFV2e8Oi8bCQ9sa8kT9DpC8y3r3LqVa12C6agpeQUhBCCLmrVhF5VbciU2vNObVibrnUq2jXKz8dHYBOmO2GckWkv7uXo4gQtWxWAJ7DvsnMtHVpL4VV_V219AS3vZZEZaCV96h1IQlUFK-qalNTcUDD6gO2evGFnQF6aHphORcsrtWKQ_nF3cOFyay6vFQFr_cwz4pYgZefMahUDjLgnQJM35oW6IFfpfDgrtHLvkcZPOtCA&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAV6BAh9EAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Langhanteln",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=langhanteln+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rERqT1vF4HhOD7QuyJinQWwFV2e8Oi8bCQ9sa8kT9DpC8y3r3LqVa12C6agpeQUhBCCLmrVhF5VbciU2vNObViSv9mhM2yEFtloMGTlJ9GhurP3l0btdDhBCCbUM3aNEetIF5ZwHG6gg6ud8SqQH4lRORc6KOR5ABRmffungZjQDm0mZqkPFv4pjRXBnJQC7qKk3fKkgv6mQrdE4uCC61AANJpBq0DXesX0smrvZyprHexnKUhfssjNTX9Ga-PWU6rKjM9A&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAZ6BAh7EAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Gorilla Sports",
+                "url": "https://www.google.com/search?sca_esv=28798392623af228&hl=de&gl=DE&q=gorilla+sports+hantelscheibe+bohrung+50+mm+2+zoll+passung+langhantel&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_dtACvUgfDyR0RXl-7SkCIwArvarmukM_BMpb80D2lcazx-oaoLf9AmN8gB_BU7e03nV-oj52sLj96CSWj4LQ29wdqRLzh9g7IYc9qJsgqO1J9rwfIjQ-uPXwhrXfaoLGfTliVg6JCY9OVrxgUv76a7IMW62oegPjw_NiyMe2VhJ5bew1Bcq5dD_wyQ90BIPCA3C8PONOdvEBc9vdJovxabsMGWePgi0Joyvl4bOoL37P8LWTe72pp3eHsFP5OmXoVxVq7mRKN_ZzvcdEIZWNYrzGao&sa=X&ved=2ahUKEwj33uW_g9mWAxURgf0HHQWnDBAQxKsJKAd6BAh6EAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "compare_sites",
+            "popular_products"
+          ],
+          "se_results_count": 368,
+          "pages_count": 1,
+          "items_count": 15,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "bockstrength.de",
+              "title": "30 mm vs. 50 mm Hantelscheiben: so entscheidest du richtig",
+              "url": "https://bockstrength.de/30-mm-vs-50-mm-hantelscheiben/?srsltid=AfmBOopSA3dqjiLq2RYRSuVdyDHph6aJ-DtiGa7BpE0Z6cahn_6bpJsc",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://bockstrength.de › Hantelscheiben Vergleich",
+              "website_name": "Bock Strength",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "14.12.2025 — 30 mm vs 50 mm Hantelscheiben ist eine zentrale Entscheidung beim Aufbau eines Hantel-Setups. Der Unterschied liegt nicht im Gewicht, ...",
+              "pre_snippet": "12/14/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "mm",
+                "50 mm Hantelscheiben"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-14 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.amazon.de",
+              "title": "Hantelscheiben Set 50mm: Sport & Freizeit",
+              "url": "https://www.amazon.de/hantelscheiben-set-50mm-Sport-Freizeit/s?k=hantelscheiben+set+50mm&rh=n%3A16435051&page=3",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.de › hantelscheiben-set-50mm-Spor...",
+              "website_name": "Amazon.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Paar Olympische Hantelscheiben für Langhanteln und Hanteln | Bumper Plates Bohrung 50 mm gummierte Gewichtsscheiben von 2,5 kg bis 20 kg ... Oder schnellste ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hantelscheiben",
+                "Bohrung 50 mm",
+                "2"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welchen Lochdurchmesser haben Hantelscheiben?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welche Bohrungen gibt es bei Hantelscheiben?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Welchen Durchmesser haben Langhantelstangen?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.marbosport.de",
+              "title": "Olympia Guss Hantelscheiben-Set Gewichte mit ø50/51 ...",
+              "url": "https://www.marbosport.de/product-ger-28566-Olympia-Guss-Hantelscheiben-Set-Gewichte-mit-o50-51-mm-Bohrung-Set-50-kg-2-x-25-kg-Marbo-Sport.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.marbosport.de › product-ger-28566-Olym...",
+              "website_name": "Marbosport.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Olympia Guss Hantelscheiben-Set Gewichte mit ø50/51 mm Bohrung | Set 50 kg / 2 x 25 kg - Marbo Sport. Hersteller: Marbo Sport. Serie: Weight. Garantie: Home.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 265,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "265,00 €"
+              },
+              "highlighted": [
+                "Olympia Guss Hantelscheiben-Set Gewichte mit ø50/51 mm Bohrung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Empfehlung für Langhantel-Bohrung für daheim - 28/30/ ...",
+              "url": "https://www.reddit.com/r/FitnessDE/comments/1ncg04b/empfehlung_f%C3%BCr_langhantelbohrung_f%C3%BCr_daheim/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Ca. 30 Kommentare  ·  vor 12 Monaten",
+              "website_name": "Reddit · r/FitnessDE",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Guten Tag,\n\nim Fitnessstudio ist ja 50mm-Bohrung und als Langhanteln die 20kg-Olympia-Hanteln der Standard.\n\nFür daheim ist das wahrscheinlich nicht notwendig, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.hammer.de",
+              "title": "Hantelscheiben 50mm kaufen - Krafttraining",
+              "url": "https://www.hammer.de/krafttraining/hanteln-und-gewichte/hantelscheiben/hantelscheiben-50mm.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hammer.de › ... › Hanteln und Gewichte",
+              "website_name": "HAMMER Sport",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hantelscheiben mit 50mm Bohrung sind Gewichtsscheiben nach dem olympischen Standard, die auf Langhantelstangen mit einem Hülsendurchmesser von 50mm passen. Sie ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 462,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Hantelscheiben",
+                "50mm Bohrung",
+                "50mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.idealo.de",
+              "title": "Hantelscheiben 25MM Bohrung: Hanteln",
+              "url": "https://www.idealo.de/preisvergleich/Liste/118376251/hantelscheiben-25mm-bohrung.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.idealo.de › preisvergleich › Liste › hantelsc...",
+              "website_name": "Idealo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Die ACRA Hantelscheiben mit 0,75 kg sind ideal, um deine Gewichte schrittweise zu erhöhen. Diese Scheiben haben eine praktische 25 mm Bohrung und passen ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Hantelscheiben",
+                "mm Bohrung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.otto.de",
+              "title": "SPORTNOW Hantelscheiben 2er-Set, 2 x 10kg Gewichte ...",
+              "url": "https://www.otto.de/p/sportnow-hantelscheiben-2-x-10kg-gewichte-gewichtsscheiben-o-50-mm-bohrung-schwarz-20-kg-fuer-5-cm-hantelstange-o-50-mm-bohrung-schwarz-S0DDB0R3/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.otto.de › ... › Scheiben › Hantelscheiben",
+              "website_name": "OTTO",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hantelscheiben 2 x 10kg Gewichte, Gewichtsscheiben, Ø 50 mm Bohrung, Schwarz ... 2-Zoll Loch für Standard-Hantelstangen; Schnelles Erkennen durch klare ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 62.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "62,90 €"
+              },
+              "highlighted": [
+                "Hantelscheiben 2",
+                "50 mm Bohrung",
+                "2",
+                "Zoll"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.fitshop.de",
+              "title": "Hantelstangen: 30 mm und 50 mm im Vergleich",
+              "url": "https://www.fitshop.de/blog/2017/10/30mm-vs-50mm-hantelstangen-und-hantelscheiben?srsltid=AfmBOopCVXl3mK_NgC1CekL_MgA5FZ1l1RO6Vc8wrsazOAgMeT97MmLG",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitshop.de › blog › 2017/10 › 30mm-vs-50...",
+              "website_name": "Fitshop.de",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "12.10.2017 — Länge: Die 50 mm Langhantelstange ist immer 220 cm lang. · Gewicht: 20 kg · Durchmesser Hantelscheibenaufnahme/Bohrung: 50 mm · Auf diese Stangen ...",
+              "pre_snippet": "10/12/2017 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "50 mm Langhantelstange",
+                "Hantelscheibenaufnahme",
+                "Bohrung",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2017-10-12 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.sport-thieme.de",
+              "title": "Hantelscheiben-Sets",
+              "url": "https://www.sport-thieme.de/Fitnessger%C3%A4te/Hanteln/Hantelsets/Hantelscheiben-Sets",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.sport-thieme.de › ... › Hanteln › Hantelsets",
+              "website_name": "Sport-Thieme",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Bei uns erhalten Sie Ihre Fitness-Hantelscheiben mit 30 mm und 50 mm Bohrung, sodass diese sich auf verschieden dicke Hantelstangen setzen lassen.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 13,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Hantelscheiben",
+                "mm",
+                "50 mm Bohrung"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]",
+              "title": "Produktwebsites",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben 25MM Bohrung: Hanteln",
+                  "url": "https://www.idealo.de/preisvergleich/Liste/118376251/hantelscheiben-25mm-bohrung.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY1fu_NqQHwKgwxvD-zMI9AhT38tkV92o&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Gebrauchte hantelscheiben 50mm",
+                  "url": "https://www.nextag.de/shopping/products?search=gebrauchte-hantelscheiben-50mm",
+                  "domain": "www.nextag.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a92a3bbc34b7:0",
+                  "source": "NexTag"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben 50MM 10KG: Hanteln",
+                  "url": "https://www.idealo.de/preisvergleich/Liste/115451727/hantelscheiben-50mm-10kg.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8nSk8ouUhL-B_KO7TiJPCXvglYrqqM8&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben (2026) zum Bestpreis",
+                  "url": "https://www.idealo.de/preisvergleich/ProductCategory/18820F1671926.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRinYUt6Oyz2dSjVvIFd8-mKNAZkmvKPLo&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben 50MM 20KG: Hanteln",
+                  "url": "https://www.idealo.de/preisvergleich/Liste/113738484/hantelscheiben-50mm-20kg.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ_bfs0OmVdQ8aiJYfE11xWE56jp2JfTs&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hanteln und hantelscheiben | Freizeit",
+                  "url": "https://www.nextag.de/shopping/products?search=hanteln-und-hantelscheiben&qn=freizeit",
+                  "domain": "www.nextag.de",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09060337-2064-0139-0000-a92a3bbc34b7:1",
+                  "source": "NexTag"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben 2 5 kg Gusseisen: Hanteln",
+                  "url": "https://www.idealo.de/preisvergleich/Liste/115569882/hantelscheiben-2-5-kg-gusseisen.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSGH3ea4HwInPt53t2RTIYUQxmhRoZXJU&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hop-Sport Gusseisen Hantelscheiben-Set 40kg, Bohrung 30/31mm (4x10kg)",
+                  "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/211626778_-gusseisen-hantelscheiben-set-40kg-bohrung-30-31mm-4x10kg-hop-sport.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVUQItqtwt_7PIe0j-Z3PdGxwT9Z4MiIU&s=0",
+                  "source": "Idealo"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben zum Bestpreis 💥 Aktuelle Angebote - Preisvergleich",
+                  "url": "https://www.billiger.de/categories/3747/87904-hantelscheiben",
+                  "domain": "www.billiger.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPIx8mpTzEuvI69MAs8GknqsLmr_3o5c&s=0",
+                  "source": "Billiger.de"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Hantelscheiben (2026) zum Bestpreis",
+                  "url": "https://www.idealo.de/preisvergleich/ProductCategory/18820F1671926I16-15.html",
+                  "domain": "www.idealo.de",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyJ-VqmVFnn7JKLGcqumwAJyWnRwdvO0Q&s=0",
+                  "source": "Idealo"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "GYM DISTRICT Hantelscheiben 50mm Fitness-Gewichte für jede 50mm-Olympia-Hantelstange",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRC_vCPfA9P2QidmxmKH8VQQ14vSec7I00bZJo1tHzUwuDhFTEu-BfAUoJzxUxDTRV3MsDhJPuyZ5ZfQvwah3LLbgpxoAhDpBx2hP6Db7qrGwUeS34OLMPc",
+                  "price": {
+                    "current": 64.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "64,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "10433433622767196536",
+                    "data_docid": "15903143259084275018",
+                    "gid": "8694130438893660368"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Paar Olympische Hantelscheiben für Langhanteln und Hanteln Bumper Plates Bohrung 50 mm gummierte Gewichtsscheiben von 2,5 kg bis 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRF2E9gSB-hgLWkv6mi-nnFFw9lVcKR8Dwn4WOEmvFy4ltn0wJigwoOxSp88QI4BLDNHncU1Pd_Dj4l-pjBt3HLWHJbEPSFdQDTy4QuFX0QXORtowNhPy8p2g",
+                  "price": {
+                    "current": 84.74,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "84,74 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4044702384531766744",
+                    "data_docid": "6690933698607829524",
+                    "gid": "2773202028409943218"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Hantelscheibe 50mm Gusseisen Gripper 2,5 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports DE & mehr",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports DE",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ3GN7zJoV134m-mhNwPyJqrDcHahqwtQ5UNVlGbK2Gcsn8vE6PBzxu6ig1_G757TmUC1JT54809t5hm8HaAYo6PsIIu32oEgiIQFh0mqMn5nNJX-qnOPgk",
+                  "price": {
+                    "current": 6.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "6,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2921953493791840645",
+                    "data_docid": "3140041911047052160",
+                    "gid": "7664486446542190436"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GYM DISTRICT Hantelscheiben 50mm - Fitness-Gewichte für jede 50mm-Olympia-Hantelstange - Gusseisen, gummiert, praktische Griffe - Ideale",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTC_3IIeOoUGW_yExVXLDzJLa3cjswkjRF5p7XuQFCz_GtvAoSYJxX8gMYhJTbeCoFyZC9ykhGTMnlWI8njqxsdjArPLDrGE3nAMFRe8PHUOLULas2nnN1E",
+                  "price": {
+                    "current": 92.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "92,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13268898054271450498",
+                    "data_docid": "11872631543632680322",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hantelscheibe mit 2 Grifflöchern, guss, 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitness-Store24",
+                  "more_sellers": false,
+                  "seller": "Fitness-Store24",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQpLq7c3vfplhUI3Q2WE3XIDAIQW4BAVz6OMZnbBfifqvGITVi5fTQu13j8EXZmKyS5Ki2UwIh-__8qk9wAYnOKF0H4Snsy9jf7F2SkbSdghHAWtFqYGVAm",
+                  "price": {
+                    "current": 2.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "2,10 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9444264400371300422",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hantelscheibe ATX 2 Grip",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSNasVz8Xd3z9unw0Qymk1yWmIxi6QPurLtL9AFoYSIv0XvDSiEfvD548MaKFE8iZTXxAxZbAd46JAdv1hnDf5-FpwmPFutRhusbcBEPvmbk5lmu2nCBW-U-uw",
+                  "price": {
+                    "current": 3,
+                    "regular": 3.7,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "3,00 € 3,70 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 114,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11956699129783353867",
+                    "data_docid": "16030792858564540036",
+                    "gid": "1879170587437400307"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "PhysKcal Olympische Hantelscheiben mit Ø50 mm Bohrung 1,25-25 kg | Ergonomische Griffe für leichtes Wechseln & sicheres Heben. Perfekt für",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS4ub5sc-NPRv40HFt5cVQtdJSve2GehuelpiXMnGruPFWsqqYCsZzGOu7Eg4_60rHyqMc_in63AsmrHQpImhUYFQPA9y7iIt9vrh70gIedSojLJrTwIAyk",
+                  "price": {
+                    "current": 69.99,
+                    "regular": 80,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "69,99 € 80 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "746322356000525422",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Physionics Hantelscheiben Hantelscheiben 2er Set",
+                  "url": null,
+                  "domain": null,
+                  "description": "Vergleich.org & mehr",
+                  "more_sellers": false,
+                  "seller": "Vergleich.org",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRK-IQ3L4HMOp7dyg5cbCTZ0gWANOPIeHMrZsvSD9bazOfjm3LucBWI1QepxAs7FDWjWsA9Dnez4DZ-BOtViflma6SabpgtnfbJWQqTicnE",
+                  "price": {
+                    "current": 32.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "32,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 12,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "15609919909105690098",
+                    "data_docid": "8583274649145538790",
+                    "gid": "7643321195350505962"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]/div[1]",
+              "domain": "www.gutefrage.net",
+              "title": "Hanteln: 30mm oder 50mm?",
+              "url": "https://www.gutefrage.net/frage/hanteln-30mm-oder-50mm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.gutefrage.net › frage › hanteln-30mm-oder...",
+              "website_name": "gutefrage",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "05.08.2013 — Ich plane gerade mir für zu Hause ein paar Geräte zum trainieren zu holen. Dazu würde ich mir eine verstellbare Schrägbank und eventuell ein power ...",
+              "pre_snippet": "08/05/2013 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2013-08-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "PB Strong 2-Griff Hantelscheibe Urethane 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Perform Better",
+                  "more_sellers": false,
+                  "seller": "Perform Better",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTiZMoc-yq2lo7Pd1G4MoeKyus31ws-Wb7_fAs3PXZifKd4crHgLVrx1dIp0MTft1pf6IZGLwtI9vI67F3mnu7RdMDtksXl68BR3DIs36fEh1ZOIihE69xl",
+                  "price": {
+                    "current": 9.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "9,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14891158790539714011",
+                    "data_docid": "11668403169494457599",
+                    "gid": "16102372814784995589"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GORNATION Hantelscheiben 50mm aus Gusseisen, Olympische Gewichtsscheiben für Langhantel & Kurzhantel",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR5oM3dlVIU4ZQDyqw-Fgxm60cC8dD9dZAFGcklgwoLJRyzb2_hNznMM6sZaL-vhvRxDr9kBOfoHAqpP32OBXrjNZnF3yzOpyD1KNsK6TjvXWoQhooZPa-Evg",
+                  "price": {
+                    "current": 17.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "17,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "8832269249654462836",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ScSPORTS Hantelscheiben Guss",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9EhAsnRm3e7JcsEHXWznRjAzLeUGgeHHjccJiO_VRkouVFBKLE1hGNRnj9B7Uhq5syRJ5F6I3VaNYChs_0X7VU1jxihnurWe7XFbUM-8X",
+                  "price": {
+                    "current": 14.99,
+                    "regular": 20,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "14,99 € 20 € & weitere Preise"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 110,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16269005593016000270",
+                    "data_docid": "10392393041134704766",
+                    "gid": "3144175555135034433"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hantelscheibe mit 4 Grifflöchern, Polyurethan, 50mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "PriceReviews & mehr",
+                  "more_sellers": false,
+                  "seller": "PriceReviews",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8auFANHTOpoV-a0Oa1-O2SLQEMUOfC_g-GRUTYVXAo0-1eGnSOa9tnMipdcOccgGcfJdp17Cf9R25JxqyZYy4M1yZW6ZuPtb49uK_SZpFUVDLXDHFWvyHwR0l",
+                  "price": {
+                    "current": 6.4,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "6,40 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14588122021059654948",
+                    "data_docid": "5806404015476389974",
+                    "gid": "9680066240712353395"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "GORILLA SPORTS 50/51mm Olympia Gummi Gripper Hantelscheibe",
+                  "url": null,
+                  "domain": null,
+                  "description": "Gorilla Sports DE & mehr",
+                  "more_sellers": false,
+                  "seller": "Gorilla Sports DE",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDb_EWSjiPvnJNY1FaebIEnQ-O32XdeAjdT_95cxPfedyea1egSuQlAH_dBcEcE27JWtK00Kzn5JHZi07H6EtU7iLDwyPlDVGulV2vcxI2vhGrmE9Sgito",
+                  "price": {
+                    "current": 5.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "5,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 9,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13301888907728204135",
+                    "data_docid": "5750949440184030984",
+                    "gid": "4148143488548386994"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Marbo Sport Olympia Guss Hantelscheiben-Set Gewichte mit ø51 mm Bohrung 60 kg Größe",
+                  "url": null,
+                  "domain": null,
+                  "description": "MarboSport & mehr",
+                  "more_sellers": false,
+                  "seller": "MarboSport",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTYc-Mzc0bKC5a8wSOYcLmwDL-5k30yq7a6dlyFlCLPSMIkJC68s-dvZg4ec-J0F5vZ4WlxOz5-xxb7m-hAEBqPOd12LIAenJwsOzPHWNg",
+                  "price": {
+                    "current": 280,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "280,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11904736430562852869",
+                    "data_docid": "13681244697450980774",
+                    "gid": "12093968151016184864"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Marbo Sport Olympia Guss Hantelscheiben-Set Gewichte mit ø50/51 mm Bohrung",
+                  "url": null,
+                  "domain": null,
+                  "description": "MarboSport & mehr",
+                  "more_sellers": false,
+                  "seller": "MarboSport",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0H1D8vGmrSS49-2qrGCrFssh8DkNTtK9VnjnGu-_SK7WdMuLxAIwX59QDL0gaBiemK8KLGDnrnVROruQ1YhmYSLT_3ciqsdQUbJtVSygm",
+                  "price": {
+                    "current": 265,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "265,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13265557281094535766",
+                    "data_docid": "13985284797201543355",
+                    "gid": "12939610854639227018"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Olympia 50mm Hantelscheiben Gusseisen",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller & mehr",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRaTwTlxzFfrMfNkUskheW_udDH3bY7_Rd7430kyX7_W5-9_ZGKpP_Pu-Enq7MwfYsbxGP-8hXH7t7Pae-Hzeiv_cm1Y3kCf3mhLZNMMECN",
+                  "price": {
+                    "current": 49.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "49,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12532748514324405684",
+                    "data_docid": "10523000143727791674",
+                    "gid": "7518357006147238144"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[28]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Polyurethan 4-Grip Hantelscheibe 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTAeYEmPMDBWMy-5FYItDFf0eYKJfJtHlMJTRP0k6xfqCgjQ8h-ch37ls3-3xG-GXMaEHVjw-rD-KVxxQHXPxwGVfqpaWdHHL0uK4ztLvXdT5zcuxR4VFn44LM",
+                  "price": {
+                    "current": 5.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "5,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 31,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16846826012010863154",
+                    "data_docid": "15661518927084697672",
+                    "gid": "14915068453673142344"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hantelscheiben Eisen",
+                  "url": null,
+                  "domain": null,
+                  "description": "gornation.com",
+                  "more_sellers": false,
+                  "seller": "gornation.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS-snk8DTxc19V3WyFd4A1acKQC2PN_LRdZRgX0mRwmxQS3rl8HCMlf8hlbdlg_R5SNTMzg8wiLBDLH4YSVFLsGwUHGoVn-X_ipv7s_0KL04z4DQoI436kbXLM",
+                  "price": {
+                    "current": 12.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "12,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14985023094126417410",
+                    "data_docid": "13462045880912676079",
+                    "gid": "8994019721388833975"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Strength Shop Hantelscheiben 50mm Loch-Ø (1.25kg - 25kg), Hantelscheiben Gusseisen mit Griffkante, Robuste Gewichtsscheiben mit sehr hoher",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.de - Amazon.de-Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.de - Amazon.de-Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmLbgvQe4sk49fx8QHIrCT5zZMDHhJ6cudVt9vT49eH2TBTOlwkdRrpUL1XdBp53TxzOMEpE1s01ZyYOORZOuPwO--y1ya6FYOnnItbgJs50Jf7Nd5MA21FQ",
+                  "price": {
+                    "current": 22.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "22,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15029935366424698159",
+                    "data_docid": "147877293183302648",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "HQ Germany Hantelscheiben 50mm Gewichte 1,25-25kg 100% Gusseisenkern",
+                  "url": null,
+                  "domain": null,
+                  "description": "HQ Germany & mehr",
+                  "more_sellers": false,
+                  "seller": "HQ Germany",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQwNMQmtViFOLZkUWAeEDLusLbnagm_F8KVipfCSmmih2D5BrZYtEm_bczBK5PiQeWbif2Kz_zvzYQBYnk1Ymckc6IFHLVR9slmClcljk4WTEd8DZCOp61CXA",
+                  "price": {
+                    "current": 92.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "92,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 8,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3758511568025830938",
+                    "data_docid": "12390008905804982039",
+                    "gid": "14601015469502542136"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Hantelscheibe 50mm Gusseisen Gripper 10 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Dealcheck & mehr",
+                  "more_sellers": false,
+                  "seller": "Dealcheck",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTr02AHTGJn6mKJwTlxrJEZFgKone9UCokQvIhvY1ug22R61kM6YEfI3m6za3PcL-QMsF9pM0IT09Zw9YCSfwlz3IDilgkue6Z4CgRLMyyIsmAHZUWKQWC6",
+                  "price": {
+                    "current": 27.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "27,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 84,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9848451365415539240",
+                    "data_docid": "14762610193571038077",
+                    "gid": "3820075546185562299"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "ATX Hantelscheiben Guss 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Megafitness-Shop & mehr",
+                  "more_sellers": false,
+                  "seller": "Megafitness-Shop",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSwvUQV7YMJ3-4oLSkJnx1RiA0MErXZx_04Nqq4kPJDgB9LHROOU8Gi3NEpFrKUISePHRjReX2waUS6WXxhoixLrH88x3HzzlwKN4O1CYI",
+                  "price": {
+                    "current": 60,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "60,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 99,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12628416798119948895",
+                    "data_docid": "13928887851090610667",
+                    "gid": "4621188625170914007"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bad-Company Guss Hantelscheiben",
+                  "url": null,
+                  "domain": null,
+                  "description": "NoDoubtDeal.com & mehr",
+                  "more_sellers": false,
+                  "seller": "NoDoubtDeal.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTbiTCPJ6kfOZSNa3SuLPmHigGB2oJAukktvf3s-bvHLakBu5k61zrPOVGBQQ0t8cpII42QTaBT8ByiuDFeHkeNQuUk8U4pFOt2No-FjFenCh1Qwe05LDVVQw",
+                  "price": {
+                    "current": 19.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "19,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "103931665777934660",
+                    "data_docid": "1334523478680266801",
+                    "gid": "12624121042430699291"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Hantelscheibe 20 kg Gusseisen 50 mm AsVIVA Barbell HS4_5_20",
+                  "url": null,
+                  "domain": null,
+                  "description": "sportco.de",
+                  "more_sellers": false,
+                  "seller": "sportco.de",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRd5kZl77Ikx7TuuFA48sQBQBxlkAj2-_FtuxiWO9c13u7ZaEMJYLUJiQPeqKK8tnBbIXjcnoHPGanD1qlPydxMNF49SRU1yANBb0mtyJWvMImoAx4SM40T",
+                  "price": {
+                    "current": 83.3,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "83,30 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17053098876549155233",
+                    "data_docid": "695589628531426660",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

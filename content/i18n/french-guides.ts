@@ -50,7 +50,7 @@ const contextAngles = [
 ];
 
 function guideImages(profile: FrenchGuideProfile): LocalizedImage[] {
-  const sources = ["/assets/dumbbell-production.webp", "/assets/resource-cnc-machining.webp", "/assets/resource-plate-finishing.webp"];
+  const sources = ["/assets/dumbbell-production.avif", "/assets/resource-cnc-machining.webp", "/assets/resource-plate-finishing.webp"];
   const slug = profile.frPath.split("/").pop()!;
   return sources.map((src, index) => ({ id: `image-${index + 1}`, src: frenchImagePath(src, slug, index), alt: index === 0 ? `Expérience de fabrication PowerBaseFit liée au guide ${profile.h1}` : index === 1 ? "Usinage réel de composants d’équipements de musculation" : "Contrôle réel de finition de disques et équipements", caption: index === 0 ? "Processus réel de fabrication PowerBaseFit." : index === 1 ? "Usinage réel dans l’environnement de production." : "Contrôle réel de surface et de finition." }));
 }

@@ -11,6 +11,7 @@ const DATE_ID = new Date().toISOString().replace(/[:.]/g, "-");
 const REPORT_JSON = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.json`);
 const REPORT_MD = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.md`);
 const LIGHTHOUSE_RUNS = Math.max(1, Number(process.env.QUALITY_GATE_LIGHTHOUSE_RUNS || 3));
+const AUDIT_CONCURRENCY = Math.max(1, Number(process.env.QUALITY_GATE_CONCURRENCY || 16));
 
 const thresholds = {
   performance: Number(process.env.QUALITY_GATE_MIN_PERFORMANCE || 90),
@@ -42,6 +43,19 @@ function issue(level, area, message, details = {}) {
 const fail = (area, message, details) => issue("fail", area, message, details);
 const warn = (area, message, details) => issue("warn", area, message, details);
 const unique = (values) => [...new Set(values.filter(Boolean))];
+
+async function mapConcurrent(items, concurrency, worker) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      results[index] = await worker(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
 
 function toUrl(href, pageUrl = BASE_URL) {
   try {
@@ -77,19 +91,29 @@ async function fetchText(url) {
 }
 
 async function fetchHeadOrGet(url) {
-  try {
-    let response = await fetch(url, { method: "HEAD", redirect: "follow" });
-    if (response.status === 405 || response.status === 403) response = await fetch(url, { method: "GET", redirect: "follow" });
-    return response;
-  } catch {
-    return null;
+  let lastResponse = null;
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const imageOptimizerRequest = new URL(url).pathname === "/_next/image";
+      let response = await fetch(url, { method: imageOptimizerRequest ? "GET" : "HEAD", redirect: "follow" });
+      if (response.status === 405 || response.status === 403) response = await fetch(url, { method: "GET", redirect: "follow" });
+      lastResponse = response;
+      if (response.ok || ![408, 429, 500, 502, 503, 504].includes(response.status)) return response;
+    } catch {
+      lastResponse = null;
+    }
+    if (attempt === 0) await new Promise((resolve) => setTimeout(resolve, 150));
   }
+  return lastResponse;
 }
 
 function attrTags(html, tag, attr) {
   const tagPattern = new RegExp(`<${tag}\\b[^>]*>`, "gi");
   const attrPattern = new RegExp(`${attr}\\s*=\\s*["']([^"']+)["']`, "i");
-  return [...html.matchAll(tagPattern)].map((match) => match[0].match(attrPattern)?.[1]).filter(Boolean);
+  return [...html.matchAll(tagPattern)]
+    .map((match) => match[0].match(attrPattern)?.[1])
+    .filter(Boolean)
+    .map((value) => value.replace(/&amp;/giu, "&").replace(/&quot;/giu, '"').replace(/&#39;|&apos;/giu, "'"));
 }
 
 function extractLinks(html) {
@@ -250,14 +274,12 @@ async function discoverUrls(issues) {
 async function checkPages(urls, issues) {
   const linkTargets = new Map();
   const imageTargets = new Map();
-  const pages = [];
-  for (const url of urls) {
+  const pages = await mapConcurrent(urls, AUDIT_CONCURRENCY, async (url) => {
     const page = await fetchText(url).catch((error) => ({ ok: false, status: 0, text: "", error }));
     const result = { url, status: page.status, ok: page.ok, title: "", canonical: "", h1Count: 0, schemaTypes: [] };
-    pages.push(result);
     if (!page.ok) {
       issues.push(fail("availability", `${url} returned ${page.status || "request failed"}`));
-      continue;
+      return result;
     }
     const meta = metadataFromHtml(page.text);
     Object.assign(result, { title: meta.title, canonical: meta.canonical, h1Count: meta.h1Count });
@@ -281,31 +303,31 @@ async function checkPages(urls, issues) {
       if (isSameOrigin(target)) linkTargets.set(toLocalUrlString(target), { from: url });
     }
     for (const imageUrl of extractImageUrls(page.text, url)) imageTargets.set(imageUrl, { from: url });
-  }
+    return result;
+  });
   return { pages, linkTargets, imageTargets };
 }
 
 async function checkLinks(linkTargets, issues) {
-  for (const [url, meta] of linkTargets.entries()) {
+  await mapConcurrent([...linkTargets.entries()], AUDIT_CONCURRENCY, async ([url, meta]) => {
     const response = await fetchHeadOrGet(url);
     if (!response || response.status >= 400) issues.push(fail("broken-links", `${meta.from} links to ${url}, which returned ${response?.status || "request failed"}`));
-  }
+  });
 }
 
 async function checkImages(imageTargets, issues) {
-  const images = [];
-  for (const [url, meta] of imageTargets.entries()) {
+  const images = await mapConcurrent([...imageTargets.entries()], AUDIT_CONCURRENCY, async ([url, meta]) => {
     const response = await fetchHeadOrGet(url);
     if (!response || response.status >= 400) {
       issues.push(fail("images", `${meta.from} references broken image ${url}`));
-      continue;
+      return null;
     }
     const size = Number(response.headers.get("content-length") || 0);
     const image = { url, from: meta.from, size, contentType: response.headers.get("content-type") || "" };
-    images.push(image);
     if (size >= thresholds.imageWarnBytes) issues.push(warn("images", `Image is large (${Math.round(size / 1024)}KB): ${url}`, image));
-  }
-  return images.sort((a, b) => b.size - a.size);
+    return image;
+  });
+  return images.filter(Boolean).sort((a, b) => b.size - a.size);
 }
 
 function checkBundle(issues) {

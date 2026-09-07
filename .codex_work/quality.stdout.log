@@ -1,0 +1,4 @@
+
+> powerbasefit-homepage@0.1.0 quality:gate
+> node scripts/quality-gate.mjs
+

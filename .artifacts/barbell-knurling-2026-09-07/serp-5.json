@@ -1,0 +1,1474 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.9252 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09070336-2064-0139-0000-0b1edddfe8fe",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.8611 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "moleteado barra olímpica agresivo central comprar gimnasio",
+        "location_code": 2724,
+        "language_code": "es",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "moleteado barra olímpica agresivo central comprar gimnasio",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2724,
+          "language_code": "es",
+          "check_url": "https://www.google.com/search?q=moleteado%20barra%20ol%C3%ADmpica%20agresivo%20central%20comprar%20gimnasio&hl=es&gl=ES&ie=UTF-8&uule=w+CAIQIFISCYu8YTJ440IMEeyjaAeULOym",
+          "datetime": "2026-09-07 03:36:59 +00:00",
+          "spell": null,
+          "refinement_chips": {
+            "type": "refinement_chips",
+            "xpath": "/html[1]/body[1]/div[3]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "items": [
+              {
+                "type": "refinement_chips_element",
+                "title": "Domyos",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=domyos+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4ryNQm6Gg7fAUgFValC3hF2vVf6em7MsoYAklVlcr_roHABDxaNy64rhzVoWDD6pw_V6TdXW7HdHAiLJYREokdD0VgLEoMZ3UTdbJvRYWS2oIET8GT8xIy_adjaVi06u65cZTNeKV2TCx5nJ3d7H67KkLKPJy88b_Pg_rrEeSHSPLV9unSL7x2E4Lqpk35sLprPBNtdKJVyuzi-nf48F0Ta7IuECfVVjVF8zWlTgk4A_LQa2lAs1-0t-cf5Csob_6qOCfuUQ&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAB6BAgoEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Barras de dominadas",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=barras+de+dominadas+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHiqIPjSH-VMAs0W8iX43Cc9knuj8QkmWW5DkWhDmy1Jg8eJqwttrIi5mhStYV4EV0GiUHUHTYQH92a8YGv2e9mIqVU-gd-RV73pP35G89bXgWRQdg4h66b_z29fUF-zC9T9zPOEVwsPrK-j5A9JWjR4blZln5Z_50BvYU__UQ1bUZ-RKDP38nrE7HeG0WknP0NroMngPfSnJUYHUlNZmzJRBab7YYY05QQ0XvpNTKYBZoDPs-fRF39BJVk32-D8h3NZKoA&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAF6BAgpEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Pesas",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=pesas+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDGpVLV-J2lF5czJrL5x5MajCUowAwVy_fLSVFIi8G6bGpKHfAvVHwdbg3qHyW3Vxzv13wuwnrcM1rSDyQEO0Cmzhm7x3b2eLhNCDr6fmRLW6xv-jFvgIgNlyloySbd4tZVmHCHWkrKjkjMHM5MAM_ROt4ANO36rNklOzT5HzbKasuCya0V7IpPoD0S9OTYJrtU-q9WvTpwTnDN_GRFdFtJTSDkxgCBe9eK6gjvaM2mKNXXcw&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAJ6BAgqEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Bancos de ejercicio",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=bancos+de+ejercicio+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHiqIPjSH-VMAs0W8iX43Cc9knuj8QkmWW5DkWhDmy1Jg8eJqwttrIi5mhStYV4EV0GiUHUHTYQH92a8YGv2e9mIqVU-gd-RV73pP35G89bUcPT1Z6F-V_wpLyVEJ89V_UgptRMfuSWAmlGkx24iOQPX_9vpI82DegApSw8XfceMAKtb2Nf1xmvOVVSbXHtHh1fVMWTbld4eUN8wgeusfF7exgSEI9I-AJauJWKOXcwfaFZAi7XhbLcO4P_00PFP1yhW97w&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAN6BAgrEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Press de banca",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=press+de+banca+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r5RTX31P66PDigMHGaACNi_SId2F8FZFBX2UY8wCTp1NsBFDJGvEFn9FWzw4qBNdS4E4lMKmUA1BpD-BjZ_gI2K-iRusrW5dnN0U0kfsb78DxEXvsVlhdkm-UBWHW0oOTN6Hrqhy1SNGHT06k8vupkztVsbQsHhX_BLXQnRfektHdis6FcV5kXtQl24kx7wyRjK6apyUgcYaooeK85XwafH50bh87HE8nj8tfCTdBm1smEmn4HG-7y0w9xisatVbT-_UejQ&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAR6BAgtEAE&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Kit",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=kit+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rKbGJTLCpXe2--bGkZhPxQ73gN71V5-_7fL5BW8fSs5N8J0jnIV8T3vF8X4kFxK01yNRqHCiCSS9ZVvAA3Ssihz4dYjxx29qVYzv4TheMRtmZMRtRj4dBUsv8f1uKVMtbm31QXSAbneRQBSwsfVRXa9vlNrH6QUuvGR5yRciGXWV_RfAjmIp66eBUXMpd-z7kyc5OSjsVlIWw22PWycFw4C9oNt-EGp6EjsD3TvOyjepGMhy2Wwu924ZZkWPE7ylTFIVvIg&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAV6BQiMARAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Price",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=price+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rDGpVLV-J2lF5czJrL5x5MajCUowAwVy_fLSVFIi8G6bGpKHfAvVHwdbg3qHyW3Vxzv13wuwnrcM1rSDyQEO0Cmzhm7x3b2eLhNCDr6fmRLVBIBqUXVtTOCHmnYV2BbgBdZtR0r8er9t3Dop1i7TAOXlaNQxdrz9IyOg4gi2kOOVSSDk4v4lluN5MLBezRw4irFtQxlzqZ3X2WjM8gRt3RvxcHMdtnxsmtggaHjI2Il-RC4Pr&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAZ6BQiJARAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              },
+              {
+                "type": "refinement_chips_element",
+                "title": "Reglamento olímpico",
+                "url": "https://www.google.com/search?sca_esv=94401d2cde5b2817&hl=es&gl=ES&q=reglamento+ol%C3%ADmpico+moleteado+barra+ol%C3%ADmpica+agresivo+central+comprar+gimnasio&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rtMlq4CpmOQDwvqxxmLlkz__V_rSEUBaQxSRy9nDYBcpNRMft7PiurZ_forXQwC45Ezdr8MqiGI0sjLmAuAmTRlTlvDVhrOS9Gfd-69huMrLBOtqwwsifUliVpFMY0dz_orRHlMlHpgfD_8f1VbF5eqvt-TojsF0mK1cN6skpFz6Ur2sJYoxojWySsaEEOkgPtlm--JEiz4p0Y5q7e6iD4xTJzwMW-Scja0EPLjyzVLbbZbuDN8KZDNQzU00cml7cKTcHXw&sa=X&ved=2ahUKEwiW19mkxduWAxVMU6QEHcTXAZsQxKsJKAd6BQiLARAB&ictx=0",
+                "domain": "www.google.com",
+                "options": null
+              }
+            ]
+          },
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 663,
+          "pages_count": 1,
+          "items_count": 16,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "maniakfitness.com",
+              "title": "Barras olímpicas de pesas para Cross Training y halterofilia",
+              "url": "https://maniakfitness.com/weightlift-powerlift-barras-olimpicas-c51?srsltid=AfmBOooH3PmwLA4Fse5SLXmFgQIISfgUK6fn5cA92cGuRJ2yL4mLMy6J",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://maniakfitness.com › weightlift-powerlift-barras-...",
+              "website_name": "Maniak Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Además, las barras olímpicas tienen un moleteado o ranurado en la superficie que mejora el agarre y evita que se resbalen de las manos. En Maniak Fitness ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "barras",
+                "moleteado"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.tupropiogym.com",
+              "title": "▷ Las mejores barras olímpicas para casa | GUÍA 2026",
+              "url": "https://www.tupropiogym.com/barra-olimpica/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tupropiogym.com › barra-olimpica",
+              "website_name": "Tu Propio Gym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La elección perfecta si estás buscando una barra económica (-200€), pero solvente. Carga máxima de 450 kg, acabado en óxido negro y rodamientos de aguja.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "barra"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuánto cuesta una barra olímpica de gimnasio?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuántos kg aguanta una barra olímpica?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuánto cuesta una barra olímpica de 20 kg?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "¿Cuánto peso soporta una barra olímpica de 20kg?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "eleiko.com",
+              "title": "Guía de moleteado Eleiko",
+              "url": "https://eleiko.com/es/stories/how-bar-knurling-differs",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://eleiko.com › stories › how-bar-knurling-differs",
+              "website_name": "Eleiko",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "En esta guía explicamos qué es el moleteado de las barras, por qué es importante y cómo hemos definido el moleteado óptimo para powerlifting, halterofilia y ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "moleteado",
+                "barras"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.fitnesstech.es",
+              "title": "Barras Gimnasio I Entrenamiento de Fuerza I Fitness Tech",
+              "url": "https://www.fitnesstech.es/collections/barras-gimnasio-olimpicas-profesionales",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitnesstech.es › collections › barras-gimnasio...",
+              "website_name": "Fitness Tech",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Barra Olímpica Camuflaje 2.2m x 50mm - 4 Rodamientos (365 kg). Precio habitual €249,99 Precio de oferta€189,99 - 24% ; Barra Olímpica Profesional 2.2m x 50mm - 8 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Barra Olímpica Camuflaje 2.2m x 50mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "singularwod.com",
+              "title": "Barras Olímpicas Crosstraining Profesionales",
+              "url": "https://singularwod.com/pages/barras-olimpicas-crosstraining-profesionales?srsltid=AfmBOorJHmmQtDWlSkMLCVUaDv-COFc8D5gsOPV6IakLDS-T1tlGd-tS",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://singularwod.com › pages › barras-olimpicas-cros...",
+              "website_name": "singularwod",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Barras Olímpicas para entrenar en casa ; BARRA OLÍMPICA 15 KG ZOMBIE HOME-CROMO · €274,49 · €304,99 ; BARRA OLÍMPICA 15 KG PINK HOME-CROMO · €296,99 · €329,99 ; BARRA ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Barras Olímpicas para entrenar en casa"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.amazon.es",
+              "title": "Barra Olímpica 220 Cm",
+              "url": "https://www.amazon.es/barra-ol%C3%ADmpica-220-cm/s?k=barra+ol%C3%ADmpica+220+cm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.es › barra-olímpica-220-cm › k=bar...",
+              "website_name": "Amazon.es",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "VIOK SPORT Barra Olímpica 2m - 15kg para Musculación - Entrenamiento de Fuerza y Potencia - Carga Máxima 400Lb - Ideal para Gimnasios y Box.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "VIOK SPORT Barra Olímpica 2m"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "rusterfitness.com",
+              "title": "¿Qué barra olímpica comprar? TE GUIAMOS!!",
+              "url": "https://rusterfitness.com/blog/barra-olimpica-cual-comprar/?srsltid=AfmBOoo0N1MUXB8H1N16aIYPdVWFlWt-BR7ogQNPaHukQj3RIh7ns0CA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://rusterfitness.com › Blog › EJERCICIOS",
+              "website_name": "Ruster Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "11 sept 2024 — Tipo de Knurling: El tipo de knurling (patrón de moleteado) afecta la calidad del agarre. Un knurling agresivo es mejor para powerlifting, ...",
+              "pre_snippet": "09/11/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "moleteado",
+                "agresivo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.mundofitness.es",
+              "title": "Barras Olímpicas para CrossFit y Pesas | MundoFitness",
+              "url": "https://www.mundofitness.es/peso-libre/barras-crossfit/barras-olimpicas.html?srsltid=AfmBOoowLQLAs_nO37kp39DF4iETq9rwcX9A3nuqiFXUmQZYXArVGOto",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mundofitness.es › Peso Libre › Barras",
+              "website_name": "mundofitness.es",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Compra barras olímpicas para CrossFit, halterofilia y entrenamiento de fuerza. Encuentra barras resistentes para entrenar en casa, box o gimnasio.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Compra barras olímpicas para CrossFit, halterofilia y entrenamiento de fuerza"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.leadmanfitness.com",
+              "title": "La importancia de un correcto moleteado de las barras ...",
+              "url": "https://www.leadmanfitness.com/es/news/245.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.leadmanfitness.com › news",
+              "website_name": "Leadman Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Un moleteado más agresivo aumenta el agarre, pero también puede destrozarte las manos durante las series de altas repeticiones. Encuentra el equilibrio adecuado ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "moleteado",
+                "agresivo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "gym-mikolo.com",
+              "title": "Las mejores barras olímpicas de peso para tu gimnasio en ...",
+              "url": "https://gym-mikolo.com/es/blogs/home-gym/top-weight-bar-olympic-options-for-your-home-gym?srsltid=AfmBOoqiTvWAPUyyCS9O1MBMiM58oUGp0OTL_RwovALdrPRTx3X_OQ_I",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://gym-mikolo.com › Gimnasio en casa",
+              "website_name": "MIKOLO",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Los patrones de moleteado agresivos como el moleteado de montaña y volcán mejoran significativamente la fuerza de agarre durante los levantamientos pesados. El ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "moleteado agresivos",
+                "moleteado"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Sentadillas Safety Squat Bar Fitness Tech",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.es y más",
+                  "more_sellers": false,
+                  "seller": "Decathlon.es",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQG1KPNop_s-tuZmbJLYzqDDlfjQwJL38KQF7RGXOQQHBZuuQvZEOWf55Dz0SF8vOiowAZjdrJKUDkX_-M0ovNYvnClgBR0r6VfcLCE0vpJBxT2h5L13Iup",
+                  "price": {
+                    "current": 239.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "239,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3007547267420846485",
+                    "data_docid": "13444101213078579941",
+                    "gid": "8814234533288058613"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra moleteada para tríceps",
+                  "url": null,
+                  "domain": null,
+                  "description": "Donatif",
+                  "more_sellers": false,
+                  "seller": "Donatif",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRBz_p8oKiY0j6bDOHELWzs9DQko65ZZluCycDedsaYVCnFcrZZPoKTa1A0cMmn2dVbBgA71Ms9ZJVCzg2Roa5ZYycRmvPu4ubgmfwzQL74YyV9M48tVJg0",
+                  "price": {
+                    "current": 21.24,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "21,24 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9150904400118826632",
+                    "data_docid": "18068663825644058261",
+                    "gid": "16276221436197656102"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica 220cm Fitness Tech",
+                  "url": null,
+                  "domain": null,
+                  "description": "El Corte Inglés y más",
+                  "more_sellers": false,
+                  "seller": "El Corte Inglés",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRuyEz1pQOAAwQbYjbL0678kP-zgROr_vVelAAcHnEbLfi23oO-Anu3886_c0NT0yN4gP7jm2TqsubLggtbIl59VjEcbULz65lioQO5S3Dt9lbEDk26DSUx",
+                  "price": {
+                    "current": 129,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "129,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 11,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2868850524046933338",
+                    "data_docid": "6512183508073325823",
+                    "gid": "18343970794175896047"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "QUAD barra olímpica regulable",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRFzNcHXThn8uYS2aCb71l8gvlBGA0bFloaI8L43Z8dnPkNOIIrhOGSZIfQ0w281CXQt3zjxVLnF1mCtP3FzfDlBAYrNSB7T-E0c66NX19DMyeYMHf_VslP",
+                  "price": {
+                    "current": 199,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "199,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15859276346435763350",
+                    "data_docid": "9598637326472929517",
+                    "gid": "7151154818956545567"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Boomfit",
+                  "url": null,
+                  "domain": null,
+                  "description": "Leroy Merlin España y más",
+                  "more_sellers": false,
+                  "seller": "Leroy Merlin España",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR-MRLjP_EA54dsg12B6Yy_nN1TjGCRT9y4CZ7k0TFHi0iF2oigx73fht2cgUw4mTbxps_OYR7ifBVlIPTa7-mGqxsUC0xWcAH-_ZlBVR1Xe1fHZkvnkScm",
+                  "price": {
+                    "current": 85.41,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "85,41 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 108,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "7282104338157583041",
+                    "data_docid": "3728049161922774934",
+                    "gid": "1164380108733194456"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica 1.8m * 25mm + 2 Seguros Fitness Tech",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnesstech.es y más",
+                  "more_sellers": false,
+                  "seller": "fitnesstech.es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRyCKzr4Orq9RygppakqN1P_hHVNpVuBGRiP2-CSlQ7-lzxbPQzwLECpftuA_JdMVXWovvFZwa8xKCKxwOAzTxKpxs_Vw8_FRIT_KZHvGiO4eDFWWLE-OP1",
+                  "price": {
+                    "current": 39.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 10,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16382259915245186167",
+                    "data_docid": "1838300048091478075",
+                    "gid": "17466393387339878618"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Behumax Barra Olímpica de Musculación de 2 Metros",
+                  "url": null,
+                  "domain": null,
+                  "description": "Behumax y más",
+                  "more_sellers": false,
+                  "seller": "Behumax",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSuwda_S5gEg7TjO5Z__w8gShhSILDdM1Zvk9EexYUePVXzaBDEzBz7Y7053i0DQU4q65VQPOzPuUze1dsYtSLI5BJlBUihbvQTJCOrtMm8qxZbrbQvYo-kWw",
+                  "price": {
+                    "current": 105,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "105,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1002216782957467536",
+                    "data_docid": "1731158076358938648",
+                    "gid": "10215830136311830141"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Amazon Basics Barra Olímpica Curvada de 5,1cm, 119,4cm, Cromada",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es",
+                  "more_sellers": false,
+                  "seller": "Amazon.es",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTEc_qa3USu8PNKkAzM9EzWOWujls07bVSe4sh8qTNMBfi2tfqINSOR3Sbg3MTDMgFvg9bxfLikv5si6ZuzAanrm1cRRFY8rTLr3e54LlkIStHEwFoEqsRB",
+                  "price": {
+                    "current": 34.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "34,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "17837131684255656779",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica de Acero Inoxidable O'live, 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aerobic & Fitness",
+                  "more_sellers": false,
+                  "seller": "Aerobic & Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ9jTDrG4ELiv6_EITyQsAVPk87axAEB1Qhym9mZQo-kTjw_9evZiITEbhTb7AjF3aEh9NtG4CVHdQeHCY_-WE3eGn-_jc3hzILHwa-8T_mKSkZtcIXjY1kSg",
+                  "price": {
+                    "current": 668.55,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "668,55 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "7420194579005876165",
+                    "data_docid": "3081576594864060971",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica H Multi",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fittest",
+                  "more_sellers": false,
+                  "seller": "Fittest",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRRnmVQKVYa9DolnLOLdA0m8GDyTwVGaJBDBQky2-FA0gdYNmdQAwURfAyJ4ws9-OLQEETF0qskLnohKFh6mRlSpnhCmr1kVJiLVzs8dgG7ZIzK5sNAuFX-",
+                  "price": {
+                    "current": 109.47,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "109,47 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7091161033070918082",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra olímpica de 50 mm x 205 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Corpomachine",
+                  "more_sellers": false,
+                  "seller": "Corpomachine",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTHMX1fGSIdEvhhiG5M65x664_btGpVtlpulWt-rHO_QFeHBkbgHfPt1qaQkuCC4_5aVWL8LSHFATen1_AgXXN-PrkBhgniDEkuUbxh1DUAfIID6iK3BzXXig",
+                  "price": {
+                    "current": 109,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "109,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 4,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11543368567067302819",
+                    "data_docid": "13078542087024654666",
+                    "gid": "8776234584939667169"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Bodytone olímpica 220/olc",
+                  "url": null,
+                  "domain": null,
+                  "description": "El Corte Inglés y más",
+                  "more_sellers": false,
+                  "seller": "El Corte Inglés",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSbeb0oP_Ud3KLDF77UYDJy5nPdMIFbt0MZwG3NCg5b_zVWqZkePh2M7vCa_WKBcSJ0qhLqY503B4WvMAs4SZIm4Y-CtEvPr3Tln3WOlJZj-TL0r37J7gdrgQ",
+                  "price": {
+                    "current": 253,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "253,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4335589850128581981",
+                    "data_docid": "12234574114857153063",
+                    "gid": "12373296785226532439"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra olímpica Gamma Cromada Discos bumper negros 190 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlk447azhIM3T5VXhv-z1PG0KkTF9uk7naMxBbfKwdWR8LTcHZziJHAcwiLHoylSZndOHcQzIlvxJYedkAck7sJS3K8jgw3U_BbiI0yUYMN8YVQAcz84hy0Q",
+                  "price": {
+                    "current": 899,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "899,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1544225226185950410",
+                    "data_docid": "14906623209012392433",
+                    "gid": "2840026002811359850"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "METIS Barra olímpica de 20 kg, barra de 7 pies con discos de peso opcionales, juego de pesas (Zelus/principiante, carga máxima de 320 kg)",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.es - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.es - Seller",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTITkAv5-Cdyc7Wwl32pp_XF6z33DZiV9mfW4PA9yrLjCETj13BIpzmCJ9T1DeCkZZjnQHcGzTIm3r0bwDa27fDIE9ZoULfB6O7-7-NOOw",
+                  "price": {
+                    "current": 114.94,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "114,94 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3417236978774485357",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Curl Supra 360",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fittest",
+                  "more_sellers": false,
+                  "seller": "Fittest",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQezmG2kOBpFhfQzdfTKhe_HOzBKbZkeQmYvPzUtq9EbvMS5C8kqhIgPpEO8bVMEx1LbHIgdD2JCyxs-ouEtzE8JwylIzTmSHFXMqpgPSblTYsW_QUaw_jMqA",
+                  "price": {
+                    "current": 150,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "150,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "18349999284825892409",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra de Musculación Olímpica 1,8 Metros",
+                  "url": null,
+                  "domain": null,
+                  "description": "Behumax y más",
+                  "more_sellers": false,
+                  "seller": "Behumax",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRbE9qa1vevjo778g0PSitQsJk9jYtFc5Jb5X5eRTP6vO16zdaCIto17-LVQCyCAe1FFlQAxl-XI2bqcPVDOxeIbCkep2rrUhjvl3XHxhL0Ui5KIt17vmo5",
+                  "price": {
+                    "current": 99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "99,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5161854176903658633",
+                    "data_docid": "674678813463643273",
+                    "gid": "6924395098095990267"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[27]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Gamma",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica y más",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR1NrFVN0YuZq1GYPFpGCwHTqvG6j-P9ut3NRUvOGKjGu2KaLTncwXIMfoqxUA-HLKdxf3SLpTvoOFCzm82JLypzpfwMb7TOv87zxL3VB0",
+                  "price": {
+                    "current": 279,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "279,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 23,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13111140044819417492",
+                    "data_docid": "10839924786246484542",
+                    "gid": "1778016689018253679"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Set barra olímpica Beta Powerlifting",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica y más",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTyr3BVwfrqrvTwOfnY79j9tG7d4pgYJXpwRFh5dXD9dTyXr6li4WY5dY25ZvJJQjxqbgY7BMLB1EcwumQxZ8azoK1LrG1XT1HK8RJBRXmlrHtV3v_khfu9Sw",
+                  "price": {
+                    "current": 1139,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "1139,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 10,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "13854829456891986820",
+                    "data_docid": "10781794997397473101",
+                    "gid": "2484814436391199268"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra olímpica 20 kg con discos bumpers y cierre con bloqueo. de 5 a 25 kg Color",
+                  "url": null,
+                  "domain": null,
+                  "description": "Suelosport y más",
+                  "more_sellers": false,
+                  "seller": "Suelosport",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRtxT6-Nygfzdj6gn6D4vl0B5TC29YPCNelP6vLRc_32fWFGaiqkVx9C5q52BPt0qUUB6InGTBC3NFF9tSOEBNhjdWp-k_aFQCNmlmgF6zp7Ds2cbC7nSip0w",
+                  "price": {
+                    "current": 628.44,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "628,44 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "7108718630307349993",
+                    "data_docid": "15062386505327547811",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Singular Wod Pro 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Singularwod y más",
+                  "more_sellers": false,
+                  "seller": "Singularwod",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTHKfcXc7D9LKMBEx8Aq-LTY8jNWjc5YspXtHYeTMlXTaRmiB5kMot5JK-JnHZoZxZnhnrKYZXVsjyvCxYviksZops9ACZRRVoKH6-b0b5DwPTZhX937zrZ",
+                  "price": {
+                    "current": 364.49,
+                    "regular": 405,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "364,49 € 405 € y más precios"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "710098950938316634",
+                    "data_docid": "17486053060695072491",
+                    "gid": "2181212306109379002"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Ruster Pure Negra",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnessdigital.com",
+                  "more_sellers": false,
+                  "seller": "fitnessdigital.com",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR5G51kjLsV0_BTVbqGOUQgWdJCY0n2OfjB1kHpJUHQE3kdpE04gzjTAbXvxEDi0-FoFu58bt8unrUnmsdiCY8lr6wYkqz-yUDWRRbQidXfiZ-m4iRpXvCp",
+                  "price": {
+                    "current": 309,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "309,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3072917814244967017",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Singular Wod",
+                  "url": null,
+                  "domain": null,
+                  "description": "Singularwod y más",
+                  "more_sellers": false,
+                  "seller": "Singularwod",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSl6I5XKPEZD01bFLrVCKBwyc5lcVIbYS3C6DehwxmhoBhfNnJmRWIIUrC4ZwQefRfQy6imCIWo0LrPx_qdwtwcvpngxPsoTAvdVmYTVRZ3NEJaWYUC9ucL",
+                  "price": {
+                    "current": 350.99,
+                    "regular": 390,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "350,99 € 390 € y más precios"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "10770572942671087895",
+                    "data_docid": "4854893335146091121",
+                    "gid": "8194848401259260113"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Acero Cromado Grupo Contact Barra Olímpica De 180 Cm – Diámetro 50 Mm, 35 Cm Para Discos, Peso 12 Kg, Carga Máxima 400 Kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fresh Twist",
+                  "more_sellers": false,
+                  "seller": "Fresh Twist",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSRUaWviizX4-ahVscD0rCQBvXPmOpAEzGvRt4QJ6oxG84QeXhj7YtXdUgMX0aL3xrqvWkctnIVmaBARvDYQ2ytOKycwTJGluoi7Sd37-XZfW8aSrbBc_ao",
+                  "price": {
+                    "current": 84.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "84,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "16770991970057132633",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra con angular 180 cm Tank",
+                  "url": null,
+                  "domain": null,
+                  "description": "CrossLiftor",
+                  "more_sellers": false,
+                  "seller": "CrossLiftor",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQFo6fmrqClUQxbikj2uLfELlQybRk4PN-fWIYBkBpk01EFKJvUHKdKb4oVRCNftK2h5A3uleZck82YKHJx6djON0ZjHI1ZVN8i0M_tQDHb",
+                  "price": {
+                    "current": 57.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "57,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3995610793350958015",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 4,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[2]/div[2]/div[1]/div[1]/div[29]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica de Acero Inoxidable O'live, 15 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aerobic & Fitness",
+                  "more_sellers": false,
+                  "seller": "Aerobic & Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQHVTsRwXXnXyuKl8GVm10Gw32MAMd31HiJqJUW0YbgHMhgt5uqV2IkfvDLH1UBErd_Xtg4OgaonpRYz0kA6yBpcZEBGs-sQom2YZw1jXmBpkqk-PDxstP2NA",
+                  "price": {
+                    "current": 581.36,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "581,36 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "9203477526295410096",
+                    "data_docid": "12556712422784281942",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra de Halterofilia Olímpica 20 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "BOXPT y más",
+                  "more_sellers": false,
+                  "seller": "BOXPT",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTBYIXxx62gYyH8gYJVmxQVuS1FyziaqfZlIXhjKJGuW9-3Et1qSqHmD4qwalIaU-CFpTfJy5UJ6L72Qq-gWSqWsd9XqTU-Gj01-7bwST-b33g4rjOxkkOY",
+                  "price": {
+                    "current": 316.55,
+                    "regular": 487,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "316,55 € 487 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "12955981698589259387",
+                    "data_docid": "9999928143858738020",
+                    "gid": "10806004517657610166"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica de 15 kg con discos bumper y cierre con bloqueo de 5 a 25 kg Negros",
+                  "url": null,
+                  "domain": null,
+                  "description": "Suelosport y más",
+                  "more_sellers": false,
+                  "seller": "Suelosport",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR2cwzhhPJ84HVl7yvvLu9K7Xig9powT25rqR2PIuw8yfHzBNbClpd2jIBHGAkfEN8r14j0zsQgApkILeZBFoUPlYL9Vbcv0sEiQEGbul-xNVZnWpUcf_b_",
+                  "price": {
+                    "current": 597.2,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "597,20 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15723097758400566014",
+                    "data_docid": "11435301968801430873",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Odin",
+                  "url": null,
+                  "domain": null,
+                  "description": "Singularwod y más",
+                  "more_sellers": false,
+                  "seller": "Singularwod",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxJ5oFXo4PGLHWyOWTwF1y18nctEYTBH_ZPPRPN_m-bxRJl1m78w4lYYwW4yTKJlkgJii1pVHRY5DNDFcmcLOPLlngvSvVL67kIeL0mj6SaykUzRMJzwbD",
+                  "price": {
+                    "current": 251.99,
+                    "regular": 280,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "251,99 € 280 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "2389295376848860237",
+                    "data_docid": "13253193377022241571",
+                    "gid": "1010536696293173740"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra olímpica 120 cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnessdigital.com y más",
+                  "more_sellers": false,
+                  "seller": "fitnessdigital.com",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQg8B-xlFzULthjy-Knb-fTrr0JVLipqpqeDowfubMtTfAkKhEg5cvphoKaQGBuuTB_b5BYzjvWLrRfqmRbC-rbZO4_FxHXCAO8Jbz6uO87ll112pDK_pme",
+                  "price": {
+                    "current": 89,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.3,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11724067755330281439",
+                    "data_docid": "10319857273974253024",
+                    "gid": "13302833026418776328"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica de 15 kg con discos bumper y cierre con bloqueo de 0 ́5 a 25 kg Color",
+                  "url": null,
+                  "domain": null,
+                  "description": "Suelosport",
+                  "more_sellers": false,
+                  "seller": "Suelosport",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQkxgH99ApLnNvXXikw-ErjKgi73Ex2kiGHxd2t92n7FwtM8rnYs7pGG4ai2j_dac59NTwpRkHwvZjkgcXfA0pGN3s2REWsryX6uK3gsYvbcKkoX1FZn59H",
+                  "price": {
+                    "current": 761.38,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "761,38 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "4636068328958885765",
+                    "data_docid": "14427600338916473429",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica 15 kg METIS + Discos de 15 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Net World Sports ES",
+                  "more_sellers": false,
+                  "seller": "Net World Sports ES",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSZABrgcWUEb76IapIaGj0gu439Cz7QOshTeZaEAgn6CgHy7F7C_Gq2Vnn2_xMV9G4Rogp7n1fejItUkVaSezWK0mxnK4b37g",
+                  "price": {
+                    "current": 249.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "249,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5566429387655630427",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barra Olímpica Funcional Básica O'LIVE",
+                  "url": null,
+                  "domain": null,
+                  "description": "Aerobic & Fitness y más",
+                  "more_sellers": false,
+                  "seller": "Aerobic & Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT1Bnqxj2xQfCtADZEvAe-sTp3sAcHkVC2ZmLLA2RXjE-A2HuRX-jW7h_2llPTzTpbd7T5xNCPm5PAUuH_1eIgF-HEaZ2ySL__1teM1qksrBy1XlVJGUhcbIg",
+                  "price": {
+                    "current": 225.91,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "225,91 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "6281201469980378861",
+                    "data_docid": "4478208833551686253",
+                    "gid": "7724858676896319152"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 16,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[14]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Barra Olímpica 20 kg",
+                "Barra halterofilia 15 kg",
+                "Barra crossfit 20 kg",
+                "Barra olímpica peso",
+                "Barra Olímpica Decathlon",
+                "Barra Olímpica 10 kg"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

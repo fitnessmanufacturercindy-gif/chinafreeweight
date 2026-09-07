@@ -1,0 +1,36 @@
+
+> powerbasefit-homepage@0.1.0 audit:multilingual-blogs
+> tsx scripts/audit-multilingual-blog-expansion.ts
+
+PASS: 30 articles / 10 trilingual clusters
+PASS: word count, unique metadata, localized URLs, images, FAQs, sections, links, canonical, hreflang, schema, and duplicate-risk checks
+
+> powerbasefit-homepage@0.1.0 audit:commercial-growth
+> tsx scripts/audit-commercial-growth-blogs.ts
+
+Commercial growth blog audit passed: 5 topics, 20 localized versions.
+
+> powerbasefit-homepage@0.1.0 audit:steel-dumbbell-blog
+> tsx scripts/audit-steel-dumbbell-blog.ts
+
+Steel dumbbell article audit passed: 13 published locales, 5 optimized images per locale.
+
+> powerbasefit-homepage@0.1.0 audit:cable-attachment-guide
+> tsx scripts/audit-cable-attachment-guide.ts
+
+Cable attachment guide audit passed: 13 localized editions, 5 optimized images and 8 FAQs each.
+
+> powerbasefit-homepage@0.1.0 audit:weight-plate-tolerance
+> tsx scripts/audit-weight-plate-tolerance-guide.ts
+
+Weight plate tolerance guide audit passed: 13 localized editions, 5 optimized images and 8 FAQs each.
+
+> powerbasefit-homepage@0.1.0 audit:commercial-olympic-barbell
+> tsx scripts/audit-commercial-olympic-barbell-guide.ts
+
+Commercial Olympic barbell guide audit passed: 13 localized editions, 5 optimized images and 8 FAQs each.
+
+> powerbasefit-homepage@0.1.0 audit:dumbbell-head-retention
+> tsx scripts/audit-dumbbell-head-retention.ts
+
+Dumbbell head retention guide audit passed: 13 localized editions, 3 optimized images and 6 FAQs each.

@@ -27,7 +27,7 @@ const trustStats = [
   },
   {
     label: "Factory Overview",
-    value: "8,000 m2",
+    value: "15,000 m²",
     copy: "A practical production base with workshop teams, production line coordination, packaging support, and export communication."
   },
   {
@@ -193,8 +193,8 @@ export default function FactoryPage() {
             <a href="/contact">
               Get Factory Price <ArrowRight size={20} />
             </a>
-            <a href="/contact" className="secondary">
-              Request OEM Catalog
+            <a href="/oem" className="secondary">
+              Explore OEM Options
             </a>
           </div>
           <div className="hero-slide-labels">
@@ -356,10 +356,10 @@ export default function FactoryPage() {
             <span>Fast quote for bulk orders</span>
             <ArrowRight size={20} />
           </a>
-          <a href="/contact" className="cta-card">
+          <a href="/oem" className="cta-card">
             <Wrench size={28} />
-            <strong>Contact Our Engineer</strong>
-            <span>Confirm specs and production details</span>
+            <strong>Plan an OEM Project</strong>
+            <span>Review customization and sample steps</span>
             <ArrowRight size={20} />
           </a>
           <a href="/contact" className="cta-card">
@@ -738,7 +738,7 @@ export default function FactoryPage() {
           border: 1px solid rgba(241, 199, 107, 0.32);
           background: rgba(0, 0, 0, 0.58);
           color: #f1c76b;
-          font-size: 11px;
+          font-size: 12px;
           font-weight: 900;
           letter-spacing: 0.08em;
           text-transform: uppercase;

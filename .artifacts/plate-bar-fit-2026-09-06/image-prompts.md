@@ -1,0 +1,5 @@
+# Olympic Plate and Bar Fit Image Brief — 2026-09-06
+
+All 13 source images use the `product-mockup` taxonomy as multilingual B2B buyer-guide hero images. Each scene shows exactly one unbranded Olympic-class barbell sleeve and one loose weight plate with a realistic circular steel insert, aligned for fit inspection on a neutral bench. Images must be photorealistic, mechanically plausible and free of people, brands, logos, text, numbers, readouts, certification marks and watermarks. They must not imply a real customer project, factory record or test result.
+
+Locale variants differ through lighting, bench material, restrained props and camera angle: cool technical bench (en), warm neutral ring-gauge bench (pt-BR), bright QC table (es), dark engineering bench (de), limestone studio (fr), receiving-area work surface (vi), Scandinavian worktop (sv), concrete catalog pedestal (it), warehouse receiving bench (nl), sand-toned studio (ar), organized dark inspection bench (ko), packing-foam receiving table (id), and cool concrete QC bench (pl).

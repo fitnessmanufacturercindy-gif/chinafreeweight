@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import {chromium} from '@playwright/test';
+const base=process.env.BASE_URL||'http://127.0.0.1:3000';const browser=await chromium.launch({headless:true});const failures=[];
+const mobile=await browser.newPage({viewport:{width:390,height:844}});const requests=[];mobile.on('request',r=>requests.push(r.url()));
+await mobile.goto(base,{waitUntil:'networkidle'});
+const hiddenAssets=['/assets/hex-dumbbells.avif','/assets/weight-plate.avif','/assets/gym-accessories.avif'];
+for(const src of hiddenAssets)if(requests.includes(base+src))failures.push(`Hidden menu eagerly requested ${src}`);
+await mobile.screenshot({path:'.artifacts/dumbbell-head-retention/home-mobile-after.png'});
+await mobile.locator('.mobile-nav-menu > summary').click();
+if(!await mobile.locator('.mobile-nav-menu a[href="/oem"]').isVisible())failures.push('Mobile menu link unavailable');
+await mobile.screenshot({path:'.artifacts/dumbbell-head-retention/menu-mobile-after.png'});
+const desktop=await browser.newPage({viewport:{width:1440,height:1000}});
+await desktop.goto(base,{waitUntil:'networkidle'});await desktop.locator('.nav-trigger').click();
+await desktop.waitForFunction(()=>[...document.querySelectorAll('.mega-category-media img')].every(img=>img.complete&&img.naturalWidth>0));
+await desktop.evaluate(async()=>{await Promise.all([...document.querySelectorAll('.mega-category-media img')].map(img=>img.decode()));await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));});
+await desktop.screenshot({path:'.artifacts/dumbbell-head-retention/menu-desktop-after.png'});
+if(await desktop.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))failures.push('Desktop overflow');
+await browser.close();console.log(JSON.stringify({base,hiddenMenuRequests:requests.filter(x=>hiddenAssets.some(src=>x===base+src)),failures}));if(failures.length)process.exit(1);

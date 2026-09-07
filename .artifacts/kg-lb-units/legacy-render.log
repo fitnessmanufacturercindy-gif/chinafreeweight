@@ -1,0 +1,6 @@
+
+> powerbasefit-homepage@0.1.0 audit:rendered-blogs
+> tsx scripts/audit-rendered-multilingual-pages.ts
+
+PASS: 30/30 rendered article URLs returned 200 at http://127.0.0.1:3000
+PASS: HTML language, H1, metadata, canonical, hreflang, schemas, images, links, and sitemap coverage

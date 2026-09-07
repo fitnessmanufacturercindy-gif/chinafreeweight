@@ -1,0 +1,1152 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.6113 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-8b5061115b1e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.4841 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "revêtement barre olympique chrome zinc cerakote salle",
+        "location_code": 2250,
+        "language_code": "fr",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "revêtement barre olympique chrome zinc cerakote salle",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2250,
+          "language_code": "fr",
+          "check_url": "https://www.google.com/search?q=rev%C3%AAtement%20barre%20olympique%20chrome%20zinc%20cerakote%20salle&hl=fr&gl=FR&ie=UTF-8&uule=w+CAIQIFISCTFXeDMpoFQNEffZR8eWP_1r",
+          "datetime": "2026-09-05 03:37:18 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "popular_products",
+            "related_searches"
+          ],
+          "se_results_count": 226,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Nickel chimique • Cerakote • Zinc noir • Acier brut • ...",
+              "url": "https://www.reddit.com/r/homegym/comments/phsuy5/barbell_coatings_bottom_to_top_stainless_steel/?tl=fr",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Plus de 30 commentaires  ·  il y a 5 ans",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Les revêtements ne sont pas permanents, ils s'usent rapidement. J'ai acheté une barre Ohio en zinc noir et le revêtement s'est visiblement ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "revêtements",
+                "barre",
+                "zinc",
+                "revêtement"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.rakk.fr",
+              "title": "Barre d'haltérophilie",
+              "url": "https://www.rakk.fr/collections/barre-halterophilie?srsltid=AfmBOopB4dvU3g4GX_QJ6fDpJvt5oKHnD4VF6xOYdSTff1FrOC-j4r2U",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.rakk.fr › collections › barre-halterophilie",
+              "website_name": "RAKK FRANCE",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Revêtements durables en chrome dur ou Cerakote pour les barres haut de gamme, aluminium pour les barres d'initiation, résistants à la rouille et à la ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Revêtements durables en chrome dur ou Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.powergym.fr",
+              "title": "Barre olympique Cerakote 220 cm capacité de charge 450 ...",
+              "url": "https://www.powergym.fr/barres-olympiques-musculation/2792-barre-halterophilie-olympique-musculation-cerakote.html?srsltid=AfmBOoocrxXGlw2D5UavOO1D7cdZDw6Yn9Qs18Epo196WB0ZvF0PQZO8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.powergym.fr › ... › Barres olympiques",
+              "website_name": "Powergym.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cette barre olympique en acier mesure 220 cm et permet de soulever des charges allant jusqu'à 450 kg grâce à sa résistance de 190 000 PSI.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 419,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "419,00 €"
+              },
+              "highlighted": [
+                "barre olympique"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.fitandrack.com",
+              "title": "Barre Olympique 20KG Cerakote - Signature",
+              "url": "https://www.fitandrack.com/shop/barre-olympique-20kg-signature-sandard-homme-4?srsltid=AfmBOoqnFrY3JbLlXhF5HaWse1Jkzx-k-hDqMIXZfcKrD9EWowlkKPjK",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitandrack.com › ... › Force & Haltérophilie",
+              "website_name": "FIT' & RACK",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Pour des workout colorés , avec une barre conçue dans un acier de qualité , procurant une résistance de 1300 Mpa, afin de pouvoir la charger sans aucune ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 224.17,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "224,17 €"
+              },
+              "highlighted": [
+                "barre"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.fitnesstechstore.fr",
+              "title": "Barres de gymnastique | Technologie de fitness – Fitness Tech",
+              "url": "https://www.fitnesstechstore.fr/collections/barres-olympiques-salle-de-sport-professionnelles?srsltid=AfmBOoqudriCqofMwtARQ9AnoWy4dksfRmjXDs0BKBjJjz14pbEoWG4W",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fitnesstechstore.fr › collections › barres-oly...",
+              "website_name": "fitnesstechstore.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Finition de surface : chrome, zinc ou cerakote, qui protègent la barre contre la rouille et l'usure due à l'usage. Molettage : gravure antidérapante qui ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Finition de surface : chrome, zinc ou cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "shop.sveltus.com",
+              "title": "Barre olympique Cérakote 20kg - rouge",
+              "url": "https://shop.sveltus.com/fr/p/1582-barre-olympique-homme-220-cm-rouge-3412181016829.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://shop.sveltus.com › ... › Barres › Olympiques",
+              "website_name": "Sveltus",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La barre olympique Cérakote allie performance, durabilité et esthétisme. Avec une résistance de 190k PSI, une garantie de 6000 chutes et 8 roulements à ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 181.59,
+                "regular": null,
+                "max_value": 219.99,
+                "currency": "EUR",
+                "is_price_range": true,
+                "displayed_price": "181,59 € à 219,99 €"
+              },
+              "highlighted": [
+                "barre olympique Cérakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "maniakfitness.com",
+              "title": "Barre Olympique CrossColor CERAKOTE Orange 20 kg ...",
+              "url": "https://maniakfitness.com/fr-fr/bar-olympique-crosscolor-cerakote-20kg-8-roulements-900kg-p29?s=100&srsltid=AfmBOoqNm_YMvVvFiqeuELqnUMJQAIaqTWg0U-KXbrVqTuGEO-5v2Stx",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://maniakfitness.com › fr-fr › bar-olympique-cross...",
+              "website_name": "Maniak Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Charge statique maximale : 900 kg; Revêtement du corps : Cerakote (coloré); Manchons : Finition noire; Compatibilité : Disques olympiques de 50 mm; Grip : Grip ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 254.1,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "254,10 €"
+              },
+              "highlighted": [
+                "Revêtement",
+                "Cerakote",
+                "olympiques"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "kingsbox.com",
+              "title": "Le Guide Ultime des Barres Olympiques",
+              "url": "https://kingsbox.com/blog/fr/comment-choisir-lequipement/le-guide-ultime-des-barres-olympiques-choisir-la-bonne-pour-votre-parcours-fitness/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kingsbox.com › comment-choisir-lequipement",
+              "website_name": "KingsBox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Hard Chrome/Chrome dur : offre une surface lisse et durcie avec une excellente résistance à la corrosion. Cerakote/Cérakote : Connue pour sa durabilité ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "offre une surface lisse et durcie avec une excellente résistance à la corrosion"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.krakenequipements.fr",
+              "title": "Barre Olympique cerakote orange 20kg",
+              "url": "https://www.krakenequipements.fr/products/barre-olympique-cerakote-orange-20kg",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.krakenequipements.fr › products › barre-oly...",
+              "website_name": "Kraken équipements",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Diamètre barre : 28 mm · Diamètre manchons : 50 mm · Résistance : 190 000 PSI · Longueur totale : 220 cm · Longueur barre entre les poignées : 130 cm · Longueur ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 289,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "289,00 €"
+              },
+              "highlighted": [
+                "Diamètre barre : 28 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.roguefitness.com",
+              "title": "Rogue 25MM IWF Olympic Weightlifting Bar - Cerakote",
+              "url": "https://www.roguefitness.com/fr/rogue-25mm-iwf-oly-bar-cerakote?srsltid=AfmBOorHI90QY2NEkdNreRRvDp5qeAQ28mkqZVgzh9osAjsnx5p9LFWl",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.roguefitness.com › rogue-25mm-iwf-oly-b...",
+              "website_name": "Rogue Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Le cérakote offre une superbe résistance à l'abrasion, à l'usure et à la corrosion au fil du temps - 100 x fois supérieure à celle du zinc noir – et qui permet ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4,
+                "votes_count": 2,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 696,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "696,00 €"
+              },
+              "highlighted": [
+                "Le cérakote offre une superbe résistance à l'abrasion, à l'usure et à la corrosion"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Kingsbar ii. cerakote blue + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRT1yp1lnY4vU6FWcKbmooFXU4x3-aSiv6L9rNWI2GF-qTnWajHl8_1Kz7W_VoGVGTIUJMwNelp5qADTFvompmjzTFZbFC6e398FBwvo5w",
+                  "price": {
+                    "current": 226.23,
+                    "regular": 370,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 € 370 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "6896381515230987977",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kingsbar ii. cerakote red + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQltBJyB-wa-TmEzX0YkdzKOkiDkSX8onoqYikcxC2kl-VPLN_mnEowC0awHaum4ASb9DF8INJ3JKPjtbRi-s5hiLik9k_wy3zcU1de-FMa",
+                  "price": {
+                    "current": 226.23,
+                    "regular": 370,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 € 370 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "9719642297219982718",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Cerakote Ohio Bar",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rogue Fitness",
+                  "more_sellers": false,
+                  "seller": "Rogue Fitness",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYRsz7W1wmMQrvbzZy1JzMjUq9kyybMTXABiqXdqjaadc0wvpqpx5u-scmqvGtRIdkJ_2p5Z4Jto6nv4cQgHPVoeDce_GVMMRhDgwaxY4fkSinp4faZnac",
+                  "price": {
+                    "current": 498,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "498,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14897775092739412375",
+                    "data_docid": "2263460062932395980",
+                    "gid": "9978952361304602863"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kings bar cerakote blue sky + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTrclHXFBsLOinssCwWBjtKpNISpVi9Lcc1PMagsrTdKvDvh-SeGEBDUbdO7B8MINPJfuEqoxvXNMlgn0AICHaP8cvHJpGgxBhFYgzkZDfW",
+                  "price": {
+                    "current": 226.23,
+                    "regular": 370,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 € 370 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4205001461268248794",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre olympique chromée · GiveMeFit · Accueil",
+                  "url": null,
+                  "domain": null,
+                  "description": "GivemeFit",
+                  "more_sellers": false,
+                  "seller": "GivemeFit",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQCN5iJ0ZpjVuovlCR0DMeZCSZW5m57OhMxmbWUcbiUuFomqq8qkIue7f_dQLJ-44yISv5m7zG0PlOtu_DJQbD_lZzrl9aEJA6oqtrUNhYpW8-G-ziIRD7tTVU",
+                  "price": {
+                    "current": 84.87,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "84,87 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.4,
+                    "votes_count": 21,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12974645810553891951",
+                    "data_docid": "8539216752983305249",
+                    "gid": "618404437128962516"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre olympique Cérakote 20kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Timersport Shop",
+                  "more_sellers": false,
+                  "seller": "Timersport Shop",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRItPAUST96GUOIaR-75OfuhAfMh4YXkoACUkjoYuEd4foAWzizAdUxrWNuLDlE42cekaPtbJOfrGWNiFGPUiPM3-Pm6tNn-HCK_wJ1Brqo6Z6c-zh-9_ILu0A",
+                  "price": {
+                    "current": 239.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "239,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "4689706942191070468",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kingsbar ii. cerakote green handle + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR6Jf-C2nw8cmp1Li80sX5jvO_lWmeTRL7a2hin7j3MSLwb4J0dUWRK0i8zZwCSRPT95qj1YubcnF2vRU8E3OGB3_-WKarn9MNQJwo8_tLX",
+                  "price": {
+                    "current": 226.23,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "12584582509394945959",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Olympique Cerakote rose 15kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Kraken équipements",
+                  "more_sellers": false,
+                  "seller": "Kraken équipements",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTtE6hWn8acRmEuTEWYiG4bMMnVcsa27mU3UWpggt2sw2rj8Ki8jBI6-fP3viqJ5_7EgBtGdFUEGIJcdRYeqU0_pwcS942VWKa_JLGGrvoVgNTddLvjYgYb",
+                  "price": {
+                    "current": 269,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "269,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5841867561638136595",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Bar Olympique Top Grade V3 20KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSe7x4ML1aTMwqh4gkDDA24bSF7Lr06qkqecHO8MV7YrDeKlJ9gZubDxKR3a48ZIPfSKwQfn0uzS-CK1qpbIV__3YTXqNrpEdV1i7Q6YN5P",
+                  "price": {
+                    "current": 320.65,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "320,65 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3501123038179163569",
+                    "data_docid": "13850176632595444185",
+                    "gid": "16622936396849344628"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Homme Cerakote Ø28Mm — Or / Noir",
+                  "url": null,
+                  "domain": null,
+                  "description": "Bullman",
+                  "more_sellers": false,
+                  "seller": "Bullman",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQIDRvdAnLPuK4FYICHUJ0llXOrnG7hl7Bw-PtIt5Epz-BWtKMhlw_IzVXRSTuPkpFvZdZAb7ZXGhP7V0HMfIXH0DoICPVWLs8LxShsFz2PMpY5DlX8J7TkDk",
+                  "price": {
+                    "current": 209,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "209,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1315607738775289506",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre olympique Cerakote 220 cm 680 kg 190 K PSI haltérophilie",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powergym",
+                  "more_sellers": false,
+                  "seller": "Powergym",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSVii17BtF1hT7syAUsx4O1SIW6NEEVMCsOCd7imKn25WiuSyLi0SnrB2h4oO8RggeQQia-fXIpMAlKwAncnGwpmjCnU_-gAy2_-CBca6uHapRDC4pEP7Gk_Q",
+                  "price": {
+                    "current": 349,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "349,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "8787491629767802629",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kingsbar ii. cerakote grey handle + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSTLgiGCjykYTnabKVxB7gIAi0PQjrsMC7CX9gU3TfG835BKHkQ_QDkrt553l_wOXCjKB1aMfSuuLlJpqTllwQ0nK_Z0K_XCSFEIPhcMPI",
+                  "price": {
+                    "current": 226.23,
+                    "regular": 370,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 € 370 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2378901129168556509",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Set Barre olympique Gamma Chrome Set Disques bumper colorés 300 kg",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRzW-XcdSHn4ooDFHKvQ01l3GOBFLkZ9s4xinMgIGG0BKSZPPp8eK-Gt5_shRSbMWvkgxko9y79Ce1XKfFwJBfT9bLlm0hOKP-gM5qFUbeqqjotC8Mg3J_nsw",
+                  "price": {
+                    "current": 1499,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "1 499,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "5443058516829075727",
+                    "data_docid": "15166001995633011922",
+                    "gid": "9884001173923643192"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "fdfitnessdigital Barre olympique fitnessdigital chromée 220cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon et plus",
+                  "more_sellers": false,
+                  "seller": "Amazon",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZ7ceduua8d6bqzaEvuN24B5hXe-zbMem7aicDMcKWnpjEdGfCNqmuEZ0gv_MG6fAfjC1NkC0Sh-oLNwngqcDL4pMHVyILO2wkRWArKN3HsiCwoaIRvVg",
+                  "price": {
+                    "current": 141.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "141,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.6,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "9427719679425923846",
+                    "data_docid": "2361419525384103509",
+                    "gid": "10584884532202077135"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kings bar cerakote white sky + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSFfD6TJfB3kq9ijmWs6nOcI2I5OY794agVxBJo_AL7lGs0c-mrXznQ3e2W2tn4hqzVhs9r8LjGA7JzbUryyShKEl4zusdRTqA0TBnIYMz1",
+                  "price": {
+                    "current": 393.63,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "393,63 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7646660391626629024",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Olympique Signature Fit & Rack",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitandrack.com et plus",
+                  "more_sellers": false,
+                  "seller": "fitandrack.com",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRM6O7XR0MnNYo6DtfxDv2Ui6OdGRuMsOR97vwIRTFf-IAneL70Vz4DyBaulNRQMg1RvNDL1yosAmBXcQjT_W-pmkN6pcOovQipvVCS5hJnxHjZ_qaXxB5hbQ",
+                  "price": {
+                    "current": 207.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "207,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "10332845264987323632",
+                    "data_docid": "18173418885808095240",
+                    "gid": "6963808376807895873"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 3,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Musculation Olympique Chrome",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powertec Europe et plus",
+                  "more_sellers": false,
+                  "seller": "Powertec Europe",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIqeZxfyPFnlcJydsctyoKAF6qqbzMDZwBkwNItOnhHvjCtyiBcQFKrY1Zye0HlzW1QBbjdVXvfRkr9dX6CEoKo_R1-KjLBTnIoD1o2Jv1HzT7aArV9KoP",
+                  "price": {
+                    "current": 161.1,
+                    "regular": 179,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "161,10 € 179 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "5025969295724597153",
+                    "data_docid": "805156010795977781",
+                    "gid": "1933687815709003531"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bar Olympique CrossColor CERAKOTE 20KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQzEC2efSHO9s8bOKy2PQvNfwex0P96zNovKevjlVaeAf64pOnwteode-mNbqSqZc4xNLjTyKpTwv2rNyEy4vmQP-jbqn8McTrfv0nRzXsJ",
+                  "price": {
+                    "current": 254.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "254,10 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "11922451385306930659",
+                    "data_docid": "10629919704962090305",
+                    "gid": "6498160716202332560"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Olympique 20KG Cerakote - Signature",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sportfeat",
+                  "more_sellers": false,
+                  "seller": "Sportfeat",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTXhmRmHNDnVbi6s4Jsp8lH6TesO0saP0fXu20-DvVYazstvF23bKSBXtz0-hq_UGH1YQe1Jt8N_r0dAryDmuihcMcYPO7Qe5Y_L49Z_nciyg57mP2Abd3bsQ",
+                  "price": {
+                    "current": 269,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "269,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11715634274853180224",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "The Ohio Bar Cerakote",
+                  "url": null,
+                  "domain": null,
+                  "description": "Rogue Fitness",
+                  "more_sellers": false,
+                  "seller": "Rogue Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRB9MnG1bmgjx3mDFV2hatFy-ECzWMDr05PkEFlzJZs4BPxRWHvzfubnMFLU7oJnbGSDS-uYiwNf1LrSwyGcXSRI4lKbcF2EZpP6foEQnAkl0WNeo9l2JsU",
+                  "price": {
+                    "current": 444,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "444,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 437,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4801661888245706026",
+                    "data_docid": "17280266359434982421",
+                    "gid": "5558426654512784661"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre olympique Cerakote 220 cm capacité de charge 450 kg résistance 190 K PSI",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powergym",
+                  "more_sellers": false,
+                  "seller": "Powergym",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTtY60fY__2yiev5xKVwbiOzj6gGd84_L5K9g5iJGm6CDL9iA_RgAulYQ0Wstw5AdiqvNw8G5OG8zWssHgOnAyTP560d2xZU6oGlrMDSFg",
+                  "price": {
+                    "current": 419,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "419,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "2086458774346609551",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre Olympique Body-Solid",
+                  "url": null,
+                  "domain": null,
+                  "description": "FitnessBoutique FR et plus",
+                  "more_sellers": false,
+                  "seller": "FitnessBoutique FR",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT3WFn5ybTvsB8Tw2vHvJI8mpBHqVLfFXR0FqhvQd6WWsDC1oaJmOgi1ddVxUFOLAjD2BY-uba1LKNcBWPD7G5aHIs8LxUhFF7wwg2x5rcdNDrAqcA8KGFeEQ",
+                  "price": {
+                    "current": 159,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "159,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 9,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "4855337074858046204",
+                    "data_docid": "6403588109684677591",
+                    "gid": "5798874347601560359"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Barre de musculation Olympique cérakote Fit & Rack Signature",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitandrack.com et plus",
+                  "more_sellers": false,
+                  "seller": "fitandrack.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRcdnFEJKAaxMe5wgpPBtr327QXhrON1WWVe06IjaBeRD5pBum-wVNwVZ1ht9V3eE-M_5G2jLuXEVtD34Dq4umCsrMK_OeDqn55IwYLUjcfgFmVtaZ7f9ca",
+                  "price": {
+                    "current": 224.17,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "224,17 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3235771750331424889",
+                    "data_docid": "9871941445859549544",
+                    "gid": "2549517099340618529"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Kingsbar ii. cerakote white handle + chrome sleeves",
+                  "url": null,
+                  "domain": null,
+                  "description": "KingsBox",
+                  "more_sellers": false,
+                  "seller": "KingsBox",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT1fASHNU1AKmGchEcQaHHMenzJpqiuXNUsZAY1xAEtPaNePgzZEkqMHOvXKluI7mMF3VqbpiuARhpG_bwPIRWWp1jj0kNvzG0MRhLAHT52",
+                  "price": {
+                    "current": 226.23,
+                    "regular": 370,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "226,23 € 370 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "3927713288080598695",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Barre olympique Cerakote",
+                "Barre haltérophilie 20 kg",
+                "Barre FIT and RACK",
+                "Barre de Crossfit",
+                "Materiel crossfit exterieur"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

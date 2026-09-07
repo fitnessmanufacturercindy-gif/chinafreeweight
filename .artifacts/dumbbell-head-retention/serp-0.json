@@ -1,0 +1,491 @@
+{
+  "version": "0.1.20260831",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.9461 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09020335-2064-0139-0000-1ff7a9e2c07f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.7701 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "why do rubber hex dumbbell heads come loose",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "why do rubber hex dumbbell heads come loose",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=why%20do%20rubber%20hex%20dumbbell%20heads%20come%20loose&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-09-02 03:35:28 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 167,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Hex Dumbbell head is loose. : r/homegym",
+              "url": "https://www.reddit.com/r/homegym/comments/4bbywh/hex_dumbbell_head_is_loose/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "9 comments  ·  10 years ago",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "My gym's dumbbells often get loose due to people dropping them. These ones have hex bolts (aka IKEA Allen Wrench bolts) holding the plates onto ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "due to people dropping them"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=why+do+rubber+hex+dumbbell+heads+come+loose+site:www.reddit.com&sca_esv=787fd644bf189110&hl=en&gl=US&sa=X&ved=2ahUKEwif3MTP-86WAxUNK_sDHa4dAKgQrQIoAnoECCoQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Are rubber hex dumbbells good?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long will rubber dumbbells last?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which brand makes the best quality rubber hex dumbbells?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Are rubber dumbbells better than metal?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube · memefortime",
+                  "title": "How to fix your loose or broken Dumbbells",
+                  "timestamp": "2021-06-25 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=o_fT9lJKuxM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · London Strength",
+                  "title": "Fixing a broken rubber hex dumbbell",
+                  "timestamp": "2020-09-30 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jXykJ08fZh0"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube · Kaizen DIY Gym",
+                  "title": "How to restore rubber dumbbells, home gym essentials",
+                  "timestamp": "2022-06-15 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=uZX8-kcHZo8"
+                },
+                {
+                  "type": "video_element",
+                  "source": "Facebook · Superfitness New & Used Gym Equipment",
+                  "title": "Messed up or loose dumbell heads!!! Major liability issue within ...",
+                  "timestamp": "2024-07-20 00:00:00 +00:00",
+                  "url": "https://www.facebook.com/superfitnessusedgymequipment/videos/messed-up-or-loose-dumbell-headsmajor-liability-issue-within-your-gymbe-very-car/1620496165350241/"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.gripboard.com",
+              "title": "\"fixing\" Rubberized Dumbbell Heads - Equipment",
+              "url": "https://www.gripboard.com/topic/40586-fixing-rubberized-dumbbell-heads/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.gripboard.com › Training › Equipment",
+              "website_name": "The GripBoard",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "May 25, 2013 — They look like rough hexes on the inside. Clarification: a hand saw to get the cut started, then a chisel and hammer to get the bits off. I ...",
+              "pre_snippet": "05/25/2013 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "get",
+                "off"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2013-05-25 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.facebook.com",
+              "title": "What are people doing to prevent hex rubber dumbbell ...",
+              "url": "https://www.facebook.com/groups/262681228448/posts/10160510112958449/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "40+ comments  ·  3 years ago",
+              "website_name": "Facebook · Home Gym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "If you can't hold the weights it means it is too much for you. tends to get sloppy. “time under tension” decreases in the intended muscle group ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "can",
+                "is",
+                "get"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "More results from www.facebook.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=why+do+rubber+hex+dumbbell+heads+come+loose+site:www.facebook.com&sca_esv=787fd644bf189110&hl=en&gl=US&sa=X&ved=2ahUKEwif3MTP-86WAxUNK_sDHa4dAKgQrQIoAnoECDwQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.globalfitness.com",
+              "title": "Learn About Rubber Hex Dumbbell Sets - Global Fitness",
+              "url": "https://www.globalfitness.com/blogs/news/everything-you-need-to-know-about-rubber-hex-dumbbell-sets?srsltid=AfmBOorLBHENzw5ShOLzhILj7kb6L8HBS-WkMUrfEE6tpNdDXjvUtnqZ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.globalfitness.com › blog",
+              "website_name": "globalfitness.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "With their hexagonal heads, rubber hex dumbbells won't roll away, and their rubber coating protects your flooring.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "heads",
+                "rubber hex dumbbells",
+                "rubber"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "goimufitness.com",
+              "title": "I Cut Open a Dumbbell Set Hexagon to See Why They Break",
+              "url": "https://goimufitness.com/blogs/news/i-cut-open-a-dumbbell-set-hexagon-to-see-why-they-break?srsltid=AfmBOop6otxd7or9wcSNNpUx2sFd7lPVVOmcnwj-eGonYcm4JbypvhqZ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://goimufitness.com › blogs › news › i-cut-open-a-...",
+              "website_name": "goimufitness.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Mar 2, 2026 — That is the off-gassing of recycled rubber. It usually fades after a few weeks, but cheap sets use low-grade binders that can smell for months. Read more",
+              "pre_snippet": "03/02/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "recycled rubber"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.garagegymreviews.com",
+              "title": "Hex, Round, Square: Does Dumbbell Shape Actually Matter?",
+              "url": "https://www.garagegymreviews.com/dumbbell-shape",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.garagegymreviews.com › Resources",
+              "website_name": "Garage Gym Reviews",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Dec 9, 2025 — For example, the hex dumbbells become larger and more cumbersome as they get heavier and, because of their trademark shape, they are harder to ... Read more",
+              "pre_snippet": "12/09/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "hex dumbbells become",
+                "get",
+                "are"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "cathe.com",
+              "title": "Will my dumbbells fall apart?",
+              "url": "https://cathe.com/forum/threads/will-my-dumbbells-fall-apart.230223/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://cathe.com › ... › Open Discussion",
+              "website_name": "Cathe Friedrich",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Apr 17, 2008 — I ended up going with the rubber covered chrome hex dumbbells - They are a little pricier, but SOOOO nice- I am really glad I got them ... Read more",
+              "pre_snippet": "04/17/2008 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "rubber",
+                "hex dumbbells",
+                "are",
+                "am"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2008-04-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Why do rubber hex dumbbell heads come loose all",
+                "Rubber Hex Dumbbells",
+                "Giant lifting rubber hex dumbbells",
+                "Rubber Hex Dumbbell sets",
+                "Rogue Rubber Hex Dumbbells"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

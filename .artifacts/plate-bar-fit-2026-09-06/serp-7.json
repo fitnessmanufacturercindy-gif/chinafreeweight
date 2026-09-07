@@ -1,0 +1,1041 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.5862 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09060337-2064-0139-0000-4985b7f64baa",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.5360 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "alésage disque olympique 50 mm 2 pouces ajustement barre",
+        "location_code": 2250,
+        "language_code": "fr",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "alésage disque olympique 50 mm 2 pouces ajustement barre",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2250,
+          "language_code": "fr",
+          "check_url": "https://www.google.com/search?q=al%C3%A9sage%20disque%20olympique%2050%20mm%202%20pouces%20ajustement%20barre&hl=fr&gl=FR&ie=UTF-8&uule=w+CAIQIFISCTFXeDMpoFQNEffZR8eWP_1r",
+          "datetime": "2026-09-06 03:37:24 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites"
+          ],
+          "se_results_count": 1120,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.superphysique.org",
+              "title": "Barre olympique : comment utiliser des disques de 28 mm ?",
+              "url": "https://www.superphysique.org/forums/topic8268.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.superphysique.org › forums › topic8268",
+              "website_name": "SuperPhysique",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Sa se monte nickel .J'ai ainsi aléser 6 disque de fonte de 20 kilos pour les adapté a ma barre olympique ! (une fois aléser, le disque perd légérement du poids ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "disque",
+                "barre olympique"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.powergym.fr",
+              "title": "Les disques de poids en musculation : guide d'achat",
+              "url": "https://www.powergym.fr/articles-conseils/47_guide-disques-poids-musculation.html?srsltid=AfmBOop-7TkVQRnZvukcpfEEe3d3ShkGVjEA2I4wZJ45ptAViZZS-6L0",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.powergym.fr › articles-conseils › 47_guide...",
+              "website_name": "Powergym.fr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "15 déc. 2019 — Les disques de poids olympiques sont eux conçus pour les barres de musculation et appareils dotés de supports de poids de 50 mm, et plus ...",
+              "pre_snippet": "12/15/2019 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "disques",
+                "barres",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2019-12-15 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "grupoosg.com",
+              "title": "Trou 50 Mm, Pour Barre Olympique, Plusieurs Poids",
+              "url": "https://grupoosg.com/details/tement-Caoutchouc-Et-Poign-es-Trou-50-Mm-Pour-Barre/717596",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://grupoosg.com › Fitness Et Musculation › Disques",
+              "website_name": "grupoosg.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Le diamètre de l'alésage est de 50 mm – c'est le standard pour les barres olympiques, donc ça s'adapte parfaitement. Disque de musculation - HMS - TOX05 - Acier ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "9,00 €"
+              },
+              "highlighted": [
+                "Le diamètre de l'alésage est de 50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.usinages.com",
+              "title": "Aléser des disques de fonte",
+              "url": "https://www.usinages.com/threads/aleser-des-disques-de-fonte.114630/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.usinages.com › ... › Fraiseuses",
+              "website_name": "Usinages",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "5 oct. 2018 — Je possède des disques de fonte dont le diamètre intérieur est de 28 mm. Je souhaiterais faire réaliser un travail d'alésage pour augmenter ce ...",
+              "pre_snippet": "10/05/2018 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "disques",
+                "mm",
+                "alésage"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-10-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quelle est la taille d'une barre olympique ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quelle est la différence entre une barre olympique et une barre standard ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Quel est le diametre du trou pour un disque de musculation ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Comment reconnaître une barre de 20kg ?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "lesport-discount.fr",
+              "title": "Disques de musculation, disques olympiques & stop disques",
+              "url": "https://lesport-discount.fr/36-disques",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://lesport-discount.fr › 36-disques",
+              "website_name": "Le Sport Discount",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Disque Bumper V2 (5-20 kg) - Tiguar · 29,00 € ; Stop disque 50 mm - Tiguar · 10,63 € ; Disque Olympique à poignée (1,25-25kg) -… · 10,25 € ; Disque Bumper Olympiques ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Disque",
+                "disque 50 mm",
+                "Disque Olympique"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "unistrength.fr",
+              "title": "Guide d'achat disques de poids",
+              "url": "https://unistrength.fr/fr/guide-dachat-disques-de-poids.htm?srsltid=AfmBOorMeq7_tyU6EFtKsV8Amhn2GtD5GrQQr4TzyBbQ3f1UqXEmMJv8",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://unistrength.fr › ... › Blog › Conseils Unistrength",
+              "website_name": "Unistrength",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Il est important que la dimension de l'insert soit identique pour chacun des disques et, la plus proche de la dimension de la barre (soit 50,4mm). Un insert ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "disques",
+                "barre",
+                "50"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.cdiscount.com",
+              "title": "Disque olympique",
+              "url": "https://www.cdiscount.com/le-sport/r-disque+olympique.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cdiscount.com › ... › Disque de Musculation",
+              "website_name": "Cdiscount",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Description du produit : Lot de 2 disques olympiques de 10 kg chacun,conçus pour les barres olympiques avec un alésage de 50 mm. · Usage : Intensif · Matières : ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "2 disques",
+                "barres",
+                "alésage",
+                "50 mm"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Recommandation pour le trou de barre olympique à la ...",
+              "url": "https://www.reddit.com/r/FitnessDE/comments/1ncg04b/empfehlung_f%C3%BCr_langhantelbohrung_f%C3%BCr_daheim/?tl=fr",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Plus de 30 commentaires  ·  il y a 12 mois",
+              "website_name": "Reddit · r/FitnessDE",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Bonjour, \n\nÀ la salle de sport, c'est le trou de 50mm qui est la norme, et les barres olympiques de 20kg sont le standard. \n\nPour la maison, ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "shop.sveltus.com",
+              "title": "Disque Olympique Wheel x1 - Musculation",
+              "url": "https://shop.sveltus.com/fr/p/1940-disque-olympique-wheel-x1.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://shop.sveltus.com › ... › Disques › Musculation",
+              "website_name": "Sveltus",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Avec un diamètre de 50 mm, les disques sont compatibles avec toutes nos gammes de barres olympiques. Les poignées permettent de charger et de décharger les ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 15.6,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "15,60 €"
+              },
+              "highlighted": [
+                "50 mm",
+                "disques",
+                "barres"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.gorillasports.fr",
+              "title": "Disque musculation olympique en plastique 50/51 mm",
+              "url": "https://www.gorillasports.fr/products/disque-olympique-en-plastique-50-51mm",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.gorillasports.fr › products › disque-olympiq...",
+              "website_name": "Gorilla Sports FR",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Compatibilité : Alésage de 51 mm, adapté à toutes les barres de 50 mm de diamètre. ... Disques olympiques 50/51 mm. 52,99 €. SET 2 x 5 KG, 10 KG, 15 KG, 20 KG, 25 ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Alésage de 51 mm, adapté à toutes les barres de 50 mm de diamètre"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Disque olympique caoutchouc",
+                  "url": null,
+                  "domain": null,
+                  "description": "FitnessBoutique FR et plus",
+                  "more_sellers": false,
+                  "seller": "FitnessBoutique FR",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRDCU_3foB7eVJO2NeBaQDG-waHp6ac7H7X0G0ddH_zJI5fE2xxrqDN8QkUmR-nctQGdDr4HCdGd3xU8vRo8eyrN56xvPVQjnLH1r7OOY1V",
+                  "price": {
+                    "current": 10,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "10,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 13,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "14997437076231127215",
+                    "data_docid": "15943871474197438947",
+                    "gid": "4156896839100209328"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Domyos Adaptateur disque ou barre 28/50mm * 2 pièce détachée pour Rack musculation",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon Pro et plus",
+                  "more_sellers": false,
+                  "seller": "Decathlon Pro",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRNoJG2qFeMlRVynPElE3dNDLgZsrRUQzbZbK85JzMPlUweSl4vgiLr_7qDhCrf6EDlDVQJ_y09Z352i70SymgTgHITnHwn4DN6MlXgmwVp",
+                  "price": {
+                    "current": 19.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "19,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 2,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3541319959134677284",
+                    "data_docid": "15832748683138067808",
+                    "gid": "15372785168940042360"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Corength Rack 500 pliable",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.fr et plus",
+                  "more_sellers": false,
+                  "seller": "Decathlon.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQchxS9AHKPFKh9P7ilscOUynOqfE2YO9jaEZVVXqidtPQnnEbuGxtWWTeALcPN8CC-K566R-u69xk9vVJpuoCRQ-llsRrx-gUK-GCLylZ_qobZ6xJYZbWj",
+                  "price": {
+                    "current": 9.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "9,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.7,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "3224347272952580282",
+                    "data_docid": "13674890060395483620",
+                    "gid": "4969378051558086709"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Sveltus Disque olympique Wheel",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sveltus et plus",
+                  "more_sellers": false,
+                  "seller": "Sveltus",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcScq4kwwl76fW3uVErHtWi-xS9K_wnFpUd3t1EI7fdl4ZQw2F4njgbas14CanBXZ2lYRSIHed-h9dUZQSYxmfaAn7gcv57bYrXJ8kLiyWXcwJLIBomSkLXB",
+                  "price": {
+                    "current": 7.99,
+                    "regular": 9.99,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "7,99 € 9,99 € et plus de prix"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "2468247351658990818",
+                    "data_docid": "540388735648567291",
+                    "gid": "7401073320118748688"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "WARM BODY COLD MIND Renforcé Clips Barre Olympique - Stop Disque 50mm - pour Haltérophilie Fitness Gym Accessoires Musculation, Barbell Clamps, Pince",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-lVgR_DHhyhmzjc8duAOhG9g6B06XQ9ETKsxPMJsZLLu_jD3rg3yrIESeZ-OANXrG7x2u4ZS-bL-MMsywnLUR1LHXjWTtwKYxw6FpX97EPbIiUCtLQ12QHA",
+                  "price": {
+                    "current": 17.85,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "17,85 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.8,
+                    "votes_count": 59,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "11535561358918902842",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disques de poids olympiques en polyuréthane 50 mm avec 4 poignées",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powergym",
+                  "more_sellers": false,
+                  "seller": "Powergym",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQftk9tXU-9urYwteTK_9po0mH2b3EA_Ub8Sl5ngcsLmEnleWS61zw8zMBOvnnGY1M0DdxZBjCk79Wp7Oe87yB6TSz6LCF4hiotg-nKY9oU-dWMPm2CihpC",
+                  "price": {
+                    "current": 6.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "6,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 31,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "16846826012010863154",
+                    "data_docid": "17370303361954834080",
+                    "gid": "14915068453673142344"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla sports Disque en plastique de 1,25kg à 15 kg 50-51mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.fr et plus",
+                  "more_sellers": false,
+                  "seller": "Decathlon.fr",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_vqLxcmCrqJBaeGxcXn-Pxk2e_DAePU9CZkT5yHFCMkC2ZijSo6iZ-A1PfmKJ9OunqvlNRjJ-N9oPRaBaZx82X1rFwaOJRZPpxm1uRKrzKFXaARYV_tjM",
+                  "price": {
+                    "current": 39.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.2,
+                    "votes_count": 92,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "11385080326030819200",
+                    "data_docid": "30642490365397951",
+                    "gid": "16681161526537178013"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disque olympique poignées 50 mm sveltus Fitness et musculation",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon Pro",
+                  "more_sellers": false,
+                  "seller": "Decathlon Pro",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQJ1HVOg40HcFvwaXD9DLRB8D3bIwgaJ4vfTnPtPBCljpMGELZ929thFPu7yq-qtoE4r-c5EoFxZPTUoe28eSyjM4mLy8_PmAYLny69M3eD1TC2L1mSqTlBRw",
+                  "price": {
+                    "current": 27.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "27,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "7142721494616197148",
+                    "data_docid": "8943864913631826615",
+                    "gid": "913014222537206422"
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]",
+              "title": "Sites de produits",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Barre et poids olympique – Trouvez le meilleur prix",
+                  "url": "https://ledenicheur.fr/s/barre-et-poids-olympique/",
+                  "domain": "ledenicheur.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSamqD_xK2haf2SRaZafX4090va9ENPiMo&s=0",
+                  "source": "leDénicheur"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Adaptateur 50mm olympique pour barre diamètre de 30mm GS037 - Barre, haltères, poids",
+                  "url": "https://www.achatmoinscher.com/comparateur-de-prix-Barre-halteres-poids/adaptateur-50mm-olympique-pour-barre-diametre-de-30mm-gs037.html",
+                  "domain": "www.achatmoinscher.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYM1ZJKQe1StToHfh_-9m8dlvtKr81XIw&s=0",
+                  "source": "Achat Moins Cher"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Barre longue olympique 218 cm, 50 mm avec stop disques - Barre, haltères, poids",
+                  "url": "https://www.achatmoinscher.com/comparateur-de-prix-Barre-halteres-poids/barre-longue-olympique-218-cm-50-mm-avec-stop-disques.html",
+                  "domain": "www.achatmoinscher.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJyoYK6iFUy-_i_1UFwcbC99nLhlec1s&s=0",
+                  "source": "Achat Moins Cher"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Adaptateur 50mm olympique pour barre diamètre de 30mm chromé",
+                  "url": "https://www.achatmoinscher.com/comparateur-de-prix-Barre-halteres-poids/adaptateur-50mm-olympique-pour-barre-diametre-de-30mm-chrome.html",
+                  "domain": "www.achatmoinscher.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA6r9J5Xo8URIFATzONOnMgzFwiVAtaDo&s=0",
+                  "source": "Achat Moins Cher"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "GORILLA SPORTS Adaptateur 50mm olympique pour barre diamètre de 30mm chromé pas cher",
+                  "url": "https://www.123comparer.fr/halteres-et-poids/go3dccb1gyadopbugc3dc.html",
+                  "domain": "www.123comparer.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzYe0ciDk0U8YovTNmKCej8TRL_LDcpw&s=0",
+                  "source": "123comparer"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[15]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Disque Olympique Compétition",
+                  "url": null,
+                  "domain": null,
+                  "description": "Sveltus et plus",
+                  "more_sellers": false,
+                  "seller": "Sveltus",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQYoNFyZ7GJ3hlcc0Vpp9MqWPBoKW9GLqfl_MIW9kv3yHQM_KCvAD59_JigBVw3xcTYUF27lq1Lh4J1DdMD3Wbg0ncUyqMNSvwBn32ClaX62dM9ymfHiiES",
+                  "price": {
+                    "current": 39.99,
+                    "regular": 50,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "39,99 € 50 € et plus de prix"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "12931959155064915935",
+                    "data_docid": "9338911926127557598",
+                    "gid": "18361589411951486150"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "FFITNESS 2 Disques Olympiques Caoutchoutés de 2,5 kg FF",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.fr et plus",
+                  "more_sellers": false,
+                  "seller": "Decathlon.fr",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmox7oNEfrKdMk5MJT1zd31yvFu4vrtUvd5Cp7MPlrakInMb23Ysr143Qai0nn-gtln9at-lTybsxxt53FdwIuWMVRWfWfEc527_cVAxk1NPVon-WMj8N8",
+                  "price": {
+                    "current": 29.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "29,50 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 5,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "10833546986220410277",
+                    "data_docid": "7517220818004109818",
+                    "gid": "8725808879444331622"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disques en Fonte caoutchoutés Olympiques Trou Ø50 mm Adulte Unisexe",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr et plus",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQB5IcD4FSuwjAlvbL4gUaRslv-5lhFgUkRjvELuUgsL1r_Bd6vxXCgQipt82Q_ae6k2Br7noh1r3UUK8dPYUsnpytjPO-mCOPR-efDxlM",
+                  "price": {
+                    "current": 22.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "22,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "8883219269433333319",
+                    "data_docid": "4765520080669941351",
+                    "gid": "16022402387430599822"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Plaques de poids olympiques 50 mm caoutchouc 0,5 à 40 kg avec poignées, 1,25 kg - usage fitness",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powergym",
+                  "more_sellers": false,
+                  "seller": "Powergym",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR3CMlPpcJ2FDY6JyD_Y_wxTTKB2Dln0GAxOcjLTCYZepih1-jON5INwe7iQf9RgtweRKsc6BMgcKSHMnoBzy1fFZHnjTTWI4e1AwnwaKEeHYoEYFJjq2Xo",
+                  "price": {
+                    "current": 10,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "10,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "14759882145330662787",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disque Olympique Wheel x1",
+                  "url": null,
+                  "domain": null,
+                  "description": "CleverlyFound et plus",
+                  "more_sellers": false,
+                  "seller": "CleverlyFound",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQh4kLB9eEZIASOKyIOzH_Od8PW64pyvVQIv-crR2m4EJbgEo0UoFhAOz5XowUTaIJURzeEpmDdM6st6xJCDn6vmtIcjOwapnr2fgyZpzxAx6EKJe9Su5mhYQ",
+                  "price": {
+                    "current": 19.5,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "19,50 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "1227986531659013610",
+                    "data_docid": "7847193966026082753",
+                    "gid": "15990757705626588860"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Lifemaxx Disque Olympique Modèle 5 Grips",
+                  "url": null,
+                  "domain": null,
+                  "description": "Decathlon.fr et plus",
+                  "more_sellers": false,
+                  "seller": "Decathlon.fr",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSX_eXLvbbQn7jJ6jEVvgIbwPyJ-bvFMt7k2yTJFALl14w-nYDPsvQ-CHGTzBn9I_ix1TO4YmfffdRdb2uVsEDRusCrO0PXiyhGHqoOErFCa2oy-SyMQjvI",
+                  "price": {
+                    "current": 22.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "22,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15683929204178124771",
+                    "data_docid": "11805509757249687285",
+                    "gid": "647855952714992617"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bagues de serrage pour disques olympiques 50 mm",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powergym",
+                  "more_sellers": false,
+                  "seller": "Powergym",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQFXxG7wEUKa0G3cAjQ0ZmDTk6C4w_WwJ1YyRd8e2PxFPYXby3x-JHdlZ3QH_a7qLz1IlU2vuFGnGwgv5m0IPQ-6Pc4nssvlGVLxockjdSvJXIQbCXLFG44CQ",
+                  "price": {
+                    "current": 14.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "14,99 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "15519820220652565984",
+                    "data_docid": "4555911993060703096",
+                    "gid": "4584137679466410257"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "MuscleForge Colliers de Serrage Haltères 50mm – Clips à Dégagement Rapide pour Barres Olympiques – 2 Pièces Bagues Sécurité pour Musculation, Fitness,",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.fr - Seller",
+                  "more_sellers": false,
+                  "seller": "Amazon.fr - Seller",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ4J_IPbGWObvnt3Vj4-2zV5d6ZyRiZMEvDN6BJ1l6hUAMPZX90vIHhSoVg3NOMRjCi53xb-3IttnYP39QFV7eL_Mr160gJvB54Unji_f1JiOQZtXJqEw6M",
+                  "price": {
+                    "current": 13.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "13,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 5,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "10760415276934561550",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

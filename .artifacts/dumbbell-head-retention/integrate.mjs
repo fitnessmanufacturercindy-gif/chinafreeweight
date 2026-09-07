@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+function change(file,from,to){const s=fs.readFileSync(file,'utf8');if(!s.includes(from))throw new Error(`Missing integration anchor: ${file}`);fs.writeFileSync(file,s.replace(from,to));}
+change('content/i18n/multilingual-manifest.ts','import { withCommercialOlympicBarbellGuide } from "./commercial-olympic-barbell-guide";','import { withCommercialOlympicBarbellGuide } from "./commercial-olympic-barbell-guide";\nimport { withDumbbellHeadRetentionGuide } from "./dumbbell-head-retention-guide";');
+change('content/i18n/multilingual-manifest.ts','const commercialOlympicBarbellManifest = withCommercialOlympicBarbellGuide(weightPlateToleranceManifest);','const commercialOlympicBarbellManifest = withCommercialOlympicBarbellGuide(weightPlateToleranceManifest);\nconst dumbbellHeadRetentionManifest = withDumbbellHeadRetentionGuide(commercialOlympicBarbellManifest);');
+change('content/i18n/multilingual-manifest.ts','...commercialOlympicBarbellManifest,\n  entities: commercialOlympicBarbellManifest.entities','...dumbbellHeadRetentionManifest,\n  entities: dumbbellHeadRetentionManifest.entities');
+const blog='app/resources/blogData.ts';
+change(blog,'import { commercialOlympicBarbellEnglishPost } from "../../content/i18n/commercial-olympic-barbell-guide";','import { commercialOlympicBarbellEnglishPost } from "../../content/i18n/commercial-olympic-barbell-guide";\nimport { dumbbellHeadRetentionEnglishPost } from "../../content/i18n/dumbbell-head-retention-guide";');
+const data=fs.readFileSync(blog,'utf8');const start=data.indexOf('  const commercialOlympicBarbellPost: ResourcePost = {');const end=data.indexOf('\n  };',start)+5;
+const newBlock=data.slice(start,end).replaceAll('commercialOlympicBarbellPost','dumbbellHeadRetentionPost').replaceAll('commercialOlympicBarbellEnglishPost','dumbbellHeadRetentionEnglishPost');
+change(blog,data.slice(start,end),data.slice(start,end)+'\n\n'+newBlock);
+change(blog,'weightPlateTolerancePost, commercialOlympicBarbellPost].sort','weightPlateTolerancePost, commercialOlympicBarbellPost, dumbbellHeadRetentionPost].sort');
+const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));
+pkg.scripts['audit:dumbbell-head-retention']='tsx scripts/audit-dumbbell-head-retention.ts';
+pkg.scripts['verify:dumbbell-head-retention']='node scripts/verify-dumbbell-head-retention-rendering.mjs';
+fs.writeFileSync('package.json',JSON.stringify(pkg,null,2)+'\n');
+let audit=fs.readFileSync('scripts/audit-commercial-olympic-barbell-guide.ts','utf8');
+audit=audit.replaceAll('commercial-olympic-barbell-buying-guide','dumbbell-head-handle-construction-guide').replace('const expectedImageCount = 5','const expectedImageCount = 3').replace('const expectedFaqCount = 8','const expectedFaqCount = 6').replaceAll('length < 14','length < 10').replace('locale === "ko" ? 4800 : locale === "ar" ? 8200 : 9000','locale === "ko" ? 2800 : locale === "ar" ? 4800 : 6000').replace('Commercial Olympic barbell guide audit','Dumbbell head retention guide audit');
+fs.writeFileSync('scripts/audit-dumbbell-head-retention.ts',audit);
+let render=fs.readFileSync('scripts/verify-commercial-olympic-barbell-rendering.mjs','utf8');
+const copies=JSON.parse(fs.readFileSync('content/i18n/dumbbell-head-retention-copy.json','utf8'));
+render=render.replace(/const routes = \[[\s\S]*?\n\];/,'const routes = '+JSON.stringify(copies.map(x=>[x.locale,x.path]),null,2)+';').replaceAll('/assets/resources/olympic-barbell-buying/','/assets/resources/dumbbell-head-retention/').replaceAll('commercial-olympic-barbell-guide','dumbbell-head-retention').replaceAll('h2Count < 14','h2Count < 10').replaceAll('faqCount !== 8','faqCount !== 6').replaceAll('imageCount !== 5','imageCount !== 3').replaceAll('avifSourceCount !== 5','avifSourceCount !== 3').replaceAll('Commercial Olympic barbell','Dumbbell head retention');
+fs.writeFileSync('scripts/verify-dumbbell-head-retention-rendering.mjs',render);
+console.log('Integrated 13 editions and dedicated content/render gates.');

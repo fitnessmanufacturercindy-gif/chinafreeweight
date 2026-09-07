@@ -1,0 +1,40 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "17.1766 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09030339-2064-0139-0000-bc8e0ae988fa",
+      "status_code": 40101,
+      "status_message": "Internal SE Server Error.",
+      "time": "17.1275 sec.",
+      "cost": 0.002,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "kg vs lb weight plates 20 kg 45 lb difference",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": null
+    }
+  ]
+}

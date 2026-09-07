@@ -1,0 +1,5 @@
+
+> powerbasefit-homepage@0.1.0 audit:kg-lb-units
+> tsx scripts/audit-kg-lb-free-weight-units.ts
+
+KG/LB free-weight guide audit passed: 13 localized editions, 3 optimized images and 6 FAQs each.

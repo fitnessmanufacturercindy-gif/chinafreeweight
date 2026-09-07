@@ -1,0 +1,1062 @@
+{
+  "version": "0.1.20260902",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.0029 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09050337-2064-0139-0000-8c3723d00cb7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.8632 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "finitura bilanciere olimpico cromo zinco cerakote palestra",
+        "location_code": 2380,
+        "language_code": "it",
+        "device": "desktop",
+        "depth": 10,
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "finitura bilanciere olimpico cromo zinco cerakote palestra",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2380,
+          "language_code": "it",
+          "check_url": "https://www.google.com/search?q=finitura%20bilanciere%20olimpico%20cromo%20zinco%20cerakote%20palestra&hl=it&gl=IT&ie=UTF-8&uule=w+CAIQIFISCQPSjUSC_tQSEW9eYyRc9Szi",
+          "datetime": "2026-09-05 03:37:22 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "popular_products",
+            "compare_sites"
+          ],
+          "se_results_count": 367,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.cerakoteeu.com",
+              "title": "Cerakote per attrezzature per palestre e fitness",
+              "url": "https://www.cerakoteeu.com/it/cerakote-industries/fitness-and-gym-equipment/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cerakoteeu.com › Industrie",
+              "website_name": "Cerakote Europe",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La tecnologia dei polimeri ceramici di Cerakote offre una protezione a vita anche dagli ambienti più difficili. LA CROMATURA APPARTIENE AL PASSATO. La cromatura ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "maniakfitness.com",
+              "title": "Bilanciere Olimpico CrossColor CERAKOTE Verde 20 kg ...",
+              "url": "https://maniakfitness.com/it-it/barra-olimpica-crosscolor-cerakote-20kg-8-cuscinetti-900kg-p29?s=103&srsltid=AfmBOoon0AX8J7VLVQ9rYFi0Q35UFv4NbE6zwH-sZComaKQef54PPR_2",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://maniakfitness.com › it-it › barra-olimpica-crossc...",
+              "website_name": "Maniak Fitness",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Il fusto è rivestito in Cerakote colorato, offrendo una protezione base contro l'ossidazione e una finitura audace e accattivante. Detto questo, ci piace essere ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 3,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 254.1,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "254,10 €"
+              },
+              "highlighted": [
+                "Il fusto è rivestito in Cerakote colorato"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.eurotrame.it",
+              "title": "Palestra & Fitness",
+              "url": "https://www.eurotrame.it/servizi/verniciatura-metalli/palestra-fitness/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.eurotrame.it › Servizi › Verniciatura metalli",
+              "website_name": "Eurotrame",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Se cercate una soluzione di finitura performante per i vostri macchinari da palestra, Euro.Tra.Me, Vi propone la verniciatura Cerakote, che assicura una ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "finitura",
+                "palestra",
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.ebay.it",
+              "title": "Spart Fitness MAN CERAKOTE BAR 220 cm Bilanciere ...",
+              "url": "https://www.ebay.it/itm/167802062558",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ebay.it › ... › Bilancieri",
+              "website_name": "eBay",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Bilanciere olimpionico realizzato in cromatura industriale. Dotato di cuscinetti interni e boccole in ottone con notevoli caratteristiche di resistenza e ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Bilanciere olimpionico realizzato in cromatura industriale"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il bilanciere olimpionico che può sollevare più pesi?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il diametro dei bilancieri?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è la differenza tra un bilanciere olimpico e un bilanciere normale?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Qual è il diametro del bilanciere per il powerlifting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "kingsbox.com",
+              "title": "Guida completa ai bilancieri olimpici",
+              "url": "https://kingsbox.com/blog/come-scegliere/guida-completa-ai-bilancieri-olimpici-come-scegliere-quello-giusto-per-il-tuo-percorso-di-fitness/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://kingsbox.com › blog › come-scegliere › guida-c...",
+              "website_name": "KingsBox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Cerakote : Conosciuto per la sua eccezionale durata, resistenza ai graffi e opzioni di colore vibranti. Titanio: Leggero e incredibilmente resistente, adatto per ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "ironsidearmour.com",
+              "title": "Bilanciere Olimpico Colour - Rosso",
+              "url": "https://ironsidearmour.com/products/bilanciere-olimpico-colour-rosso?srsltid=AfmBOoq6ow6akKSDcyLkdDGYSu9icT1BQ1NKkdJ_Rx0j-TP2U2w9pbl9",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ironsidearmour.com › products › bilanciere-olim...",
+              "website_name": "Ironside Armour",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La finitura esterna in Cerakote® aumenta la durata del bilanciere e garantisce un'estetica moderna con una superficie piacevole al tatto, ideale per un ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": {
+                "current": 279.9,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "279,90 €"
+              },
+              "highlighted": [
+                "La finitura esterna in Cerakote® aumenta la durata del bilanciere"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.amazon.it",
+              "title": "GORILLA SPORTS® Bilanciere Olimpico",
+              "url": "https://www.amazon.it/GORILLA-SPORTS%C2%AE-Olympia-rivestimento-impugnatura/dp/B07J5TYWRQ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.amazon.it › ...",
+              "website_name": "Amazon.it",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "PRATICO: Presa Sicura – La barra olimpica Ø50mm dispone di impugnatura zigrinata antiscivolo e rivestimento Cerakote per garantire stabilità e comfort ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 3.3,
+                "votes_count": 6,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 254.99,
+                "regular": null,
+                "max_value": null,
+                "currency": "EUR",
+                "is_price_range": false,
+                "displayed_price": "254,99 €"
+              },
+              "highlighted": [
+                "Cerakote"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.topskills.it",
+              "title": "Scelta del bilanciere: i rivestimenti",
+              "url": "https://www.topskills.it/il-blog-di-top-skills/scelta-del-bilanciere-i-rivestimenti-b19.html?srsltid=AfmBOorxVabIp0FPLh9I_SsYxxGBviKbZeHrIwSlIPy3gZgi42xlxLE3",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.topskills.it › il-blog-di-top-skills › scelta-de...",
+              "website_name": "Top Skills",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Bare Steel - in questo caso parliamo in realtà di assenza di rivestimento protettivo. · Brunitura (o Black Oxide) · Cromatura · Cromatura Decorativa · Zincatura ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "La Migliore Bilanciere per una Palestra in Casa : r/homegym",
+              "url": "https://www.reddit.com/r/homegym/comments/1asj3ht/targeted_talk_the_best_barbell_for_a_home_gym/?tl=it",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "Oltre 230 commenti  ·  2 anni fa",
+              "website_name": "Reddit · r/homegym",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "La finitura grezza è la seconda migliore, ma può arrugginire in garage umidi. Il duro cromo (non confondere con il cromo) può essere buono se ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "finitura",
+                "cromo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "www.helisports.it",
+              "title": "Pivot Fitness MPB2802 Bilanciere Professionale Olimpico ...",
+              "url": "https://www.helisports.it/product/427581/Pivot-Fitness-MPB2802-Bilanciere-Professionale-Olimpico-Zinco-Nero-220-cm-20-kg.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.helisports.it › ... › Bilancieri Olimpici",
+              "website_name": "helisports.it",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "checks": null,
+              "description": "Presa ottimale: La finitura in zinco nero (black zinc) dell'impugnatura offre una sensazione naturale e un'ottima aderenza, supportata da una doppia marcatura ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "finitura",
+                "zinco"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilancieri olimpici \"design hybrid bar\" atx",
+                  "url": null,
+                  "domain": null,
+                  "description": "Top Skills srl",
+                  "more_sellers": false,
+                  "seller": "Top Skills srl",
+                  "image_url": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHkMtEVvO8_XzFkm5Fxp79zOx2RAuo_lfEnpUtA5GtxoOjQBbCjr0dm8sbM0Sdqs31hQLn1lcJwxbtlBaMKhi99z2MLwIQgE_qqerTBCPr",
+                  "price": {
+                    "current": 379,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "379,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "5101004518966888242",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere Olimpico Cerakote 1500 lbs- Rosso",
+                  "url": null,
+                  "domain": null,
+                  "description": "bluegym.it",
+                  "more_sellers": false,
+                  "seller": "bluegym.it",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRDEJYAnNQH9XwM5hKr7utxiHMa_TLdx9ofFizBMwiJaEj1Ezt6jWmEmqWA53G8_SJLOhYBDfHOBYG7YZyQqTyc44ngjhHNLZucL6_DCNLmkS-5MgnVXWhUSg",
+                  "price": {
+                    "current": 210,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "210,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 12,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "1571371706800816039",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Set Bilanciere | Delta HighRep Electric Green",
+                  "url": null,
+                  "domain": null,
+                  "description": "Atletica e altri",
+                  "more_sellers": false,
+                  "seller": "Atletica",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQtmvAeX4ZCboFBhbl2IXfk4_lRdqv4ygMs0XykuivjNAHAibxl7n1MOBk6_1uDTKcR-NdX068-xaHqEnGXy0hxkTN2VTThpo_T60A7FiuF4J5yaVStxtq9NQ",
+                  "price": {
+                    "current": 499,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "499,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.9,
+                    "votes_count": 34,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "1278794718860577792",
+                    "data_docid": "13245553535555225236",
+                    "gid": "571987808569402551"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Disco Olimpico Cromato Powerlifting",
+                  "url": null,
+                  "domain": null,
+                  "description": "Titanium Strength IT e altri",
+                  "more_sellers": false,
+                  "seller": "Titanium Strength IT",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTE8nRAYHziSOMXXdcezl1EPKHdetM_l1tbNm1APLCSi0vpp_WvzxI2NlGZf7ikwQ2s05XTwUNPs2kjDRJ98oFlG4zrDyRbqGaejJ4KOTDV_i9Xoe7ZLPXYxg",
+                  "price": {
+                    "current": 17.95,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "17,95 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "3599202804277687751",
+                    "data_docid": "12305785251253787650",
+                    "gid": "12730210767687352915"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere 15kg Olimpico Barbell Top Class BLOR – Femminile",
+                  "url": null,
+                  "domain": null,
+                  "description": "BLOR e altri",
+                  "more_sellers": false,
+                  "seller": "BLOR",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR0WYn9RNrqU10rKtXVZtmj6Orw7u8k_t5465X--RG4qryQxnONegTvAG-vLw2TAfpfF1rTioXnP5uVV1vyxM4kJGqTL6V6mf_SeePAxsvzOO9iCbJwD6H8ew",
+                  "price": {
+                    "current": 434.81,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "434,81 € Usata"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "13940804020063519435",
+                    "data_docid": "2617446111157529853",
+                    "gid": "6710623226015179358"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere Olimpico Body-Solid Tools Combo 122cm",
+                  "url": null,
+                  "domain": null,
+                  "description": "fitnessdigital.it",
+                  "more_sellers": false,
+                  "seller": "fitnessdigital.it",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTDt7lNv0214KNIUFe8xVv3sQu7fb-QS015chpQCz_nhRkgOSTNk1wPgjhH6m5rAs8HbhpWPwgrHUxsUNI02zwFn3aT_7gUOpjswKVDZwPoQXCSFO38tJix",
+                  "price": {
+                    "current": 77,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "77,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.1,
+                    "votes_count": 9,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "14321791457691411912",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere olimpico HOME20 315kg Boccola in bronzo",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSefgDW_JZ_gZrnp_DjYMymaBrQZu3ax6gtQrT2J-R4Ls9Rh2pk5_bcg5EH75PDvoacOI2yUNEiKoczts10t4YLjtmejI2Yby4eEWWvFuZFS_5aM4ugQbZq",
+                  "price": {
+                    "current": 106.48,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "106,48 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "16746908700256560865",
+                    "data_docid": "4730420026978514440",
+                    "gid": "5016289079641540977"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere Olimpionico Professionale Morale Sport cromato con impugnature zigrinatee cuscinetti a rullo e bronzine",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon",
+                  "more_sellers": false,
+                  "seller": "Amazon",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQJ4siJb8We0RZhbRmwEhUD6hpyquozr-G5mhWTIeYXA69LGSPA0kEnYjJqlwjYoJc8V-39AHLNg6_LVYf_RoGtvWIv20s3RHdah_aDZKiQO9R5tRS3-aIjwg",
+                  "price": {
+                    "current": 99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "99,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "7858429092416797351",
+                    "gid": null
+                  }
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "compare_sites",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[24]/div[1]",
+              "title": "Siti di prodotti",
+              "items": [
+                {
+                  "type": "compare_sites_element",
+                  "title": "Bilanciere Olimpico",
+                  "url": "https://www.trovaprezzi.it/pesistica/offerte/bilanciere-olimpico",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLSRhWz8k0M-6MQe6jmAEAvgfWhIS9XHY&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Le ricerche di prezzi più frequenti nella categoria Altre Attrezzature fitness",
+                  "url": "https://www.trovaprezzi.it/piu__id98.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-8c3723d00cb7:0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Bilanciere Olimpico 220cm",
+                  "url": "https://www.trovaprezzi.it/prezzo_pesistica_bilanciere_olimpico_220cm.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwUKuB978zfADIalH3NI2r-8IusE3EVbg&s=0",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Le ricerche di prezzi più frequenti nella categoria Altre Attrezzature fitness",
+                  "url": "https://www.trovaprezzi.it/piu__id98_3.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-8c3723d00cb7:1",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Finish",
+                  "url": "https://www.trovaprezzi.it/prezzo_fitness_finish.aspx",
+                  "domain": "www.trovaprezzi.it",
+                  "image_url": "https://api.dataforseo.com/cdn/i/09050337-2064-0139-0000-8c3723d00cb7:2",
+                  "source": "Trovaprezzi.it"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Atletica e sport indoor",
+                  "url": "https://www.kelkoo.it/c/sport-e-tempo-libero/atletica-e-sport-indoor-165101/",
+                  "domain": "www.kelkoo.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdx_fUCByNq6wdmqADtDkOh0C6Idessp0&s=0",
+                  "source": "Kelkoo Italia"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Atletica e sport indoor: VEVOR",
+                  "url": "https://www.kelkoo.it/c/sport-e-tempo-libero/atletica-e-sport-indoor-165101/?marca=60359%7Cvevor",
+                  "domain": "www.kelkoo.it",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdx_fUCByNq6wdmqADtDkOh0C6Idessp0&s=0",
+                  "source": "Kelkoo Italia"
+                },
+                {
+                  "type": "compare_sites_element",
+                  "title": "Pesi e potenziamento muscolare",
+                  "url": "https://www.ieris.com/it/pesi-e-potenziamento-muscolare/",
+                  "domain": "www.ieris.com",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8rj64EKodUrIOTylvtoBgZULvq5j63ms&s=0",
+                  "source": "ieris.com"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "popular_products",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "right",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[26]/div[1]",
+              "title": null,
+              "items": [
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere olimpico CrossColor CERAKOTE 15KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTDr6QBUyomRID_0wmK6jAVjmsKtHvXasdij13KyUdgwWRBX82D8C_Ei_2dPpwAgjpz-MkpPsAR7KUJ8nBig9yqalzme8NQAzriKI8bm6i-",
+                  "price": {
+                    "current": 248.05,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "248,05 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "17115249921642622570",
+                    "data_docid": "9560125363264590038",
+                    "gid": "17271164114165808816"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Gorilla Sports Bilanciere cromato 200 cm con chiusura a stella",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.it - Seller e altri",
+                  "more_sellers": false,
+                  "seller": "Amazon.it - Seller",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRrpm48Mg1pcxIMeIdtLAitdXE9a51oFzv4wjCXVGy2NDlumOZFOrk6kU9FkH5rORey_CgITxUM0RQWlzmvFNCS_p0-ZddP3YfFWdqu-9LyGUcbNb0M0kg3Iw",
+                  "price": {
+                    "current": 119.99,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "119,99 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4.5,
+                    "votes_count": 48,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "6918383948214869879",
+                    "data_docid": "9321909898934232504",
+                    "gid": "6740016166817330974"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere olimpico cromato",
+                  "url": null,
+                  "domain": null,
+                  "description": "Powertec Europe",
+                  "more_sellers": false,
+                  "seller": "Powertec Europe",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSIqeZxfyPFnlcJydsctyoKAF6qqbzMDZwBkwNItOnhHvjCtyiBcQFKrY1Zye0HlzW1QBbjdVXvfRkr9dX6CEoKo_R1-KjLBTnIoD1o2Jv1HzT7aArV9KoP",
+                  "price": {
+                    "current": 161.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "161,10 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "13448494400174306123",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere olimpico CrossColor CERAKOTE 20KG",
+                  "url": null,
+                  "domain": null,
+                  "description": "Maniak Fitness",
+                  "more_sellers": false,
+                  "seller": "Maniak Fitness",
+                  "image_url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTlWx_4cRtbGR27W8oG9PM51XyVhNjMDdqdLIt--17jhK-RUb0bWJtcp2bIZLRRPVUIV28YpAN37KmkJELFr6OMXHa0WYfZpEADjYGHhS4R",
+                  "price": {
+                    "current": 254.1,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "254,10 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "14438938492768407035",
+                    "data_docid": "2361498063257377498",
+                    "gid": "6498160716202332560"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere olimpico \"multibar xtp300\" atx",
+                  "url": null,
+                  "domain": null,
+                  "description": "Top Skills srl",
+                  "more_sellers": false,
+                  "seller": "Top Skills srl",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR5lMojQ_lNrEsQz4Zhl7iuOR_FZNAVvW2VxzkRQOrBYEJ0iJXMv8ffg7Yi1FhzjJLFZfsUjxDga80pCdbqjIlJqDwAn_OhsooRqyIL4MzI",
+                  "price": {
+                    "current": 549,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "549,00 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": null,
+                    "data_docid": "6963161294570120246",
+                    "gid": null
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "FFitness Bilanciere Olimpionico 180 cm con 2 Clip Ferma Pesi FF",
+                  "url": null,
+                  "domain": null,
+                  "description": "Amazon.it - Seller e altri",
+                  "more_sellers": false,
+                  "seller": "Amazon.it - Seller",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSaFw8UdwDkDUbrEkQGAVPwAzZzRd_CwCal2HlZf9w2274UMlZ-Y-pDgLaOJ1-EDMT2WOU87R7viLK_dIfbMQqMSYHA_mRo0XqRHc7VPgE7He93t3Py_JmW",
+                  "price": {
+                    "current": 89.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "89,90 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 3.7,
+                    "votes_count": 3,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "17082954400964707501",
+                    "data_docid": "9865363008212513663",
+                    "gid": "776816187047646953"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere Olimpico Body-Solid",
+                  "url": null,
+                  "domain": null,
+                  "description": "Fitmax e altri",
+                  "more_sellers": false,
+                  "seller": "Fitmax",
+                  "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRiqDYNJolYXK7eaYdf61ZOVd-j8rwad9ios1Jqr_3iGjUrXdNgIeUxbU0i9gwSnDLFHeX792_u_bVrXrdXYx7pHh0nthYQ2dljrqoPWwZwEcUHB0v7QQAZ",
+                  "price": {
+                    "current": 159,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "159,00 €"
+                  },
+                  "rating": {
+                    "rating_type": "Max5",
+                    "value": 4,
+                    "votes_count": 1,
+                    "rating_max": 5
+                  },
+                  "product_identifiers": {
+                    "product_id": "8865780838306553923",
+                    "data_docid": "1446244441881705322",
+                    "gid": "5798874347601560359"
+                  }
+                },
+                {
+                  "type": "popular_products_element",
+                  "title": "Bilanciere Olimpico Colour",
+                  "url": null,
+                  "domain": null,
+                  "description": "Ironside Armour",
+                  "more_sellers": false,
+                  "seller": "Ironside Armour",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTtYvbPqUEnVMtYaWoSY-GpszGal-UMiO8fbjDGUgWw1o6rGrjsLBmwIpv_2_6lvKcaqHiF99RcXffoL-_gHfvKZWRRJG10hc0K78e7kpWgdCWcLZAaoPg-",
+                  "price": {
+                    "current": 279.9,
+                    "regular": null,
+                    "max_value": null,
+                    "currency": "EUR",
+                    "is_price_range": false,
+                    "displayed_price": "279,90 €"
+                  },
+                  "rating": null,
+                  "product_identifiers": {
+                    "product_id": "544486823224954598",
+                    "data_docid": "2972584929811053605",
+                    "gid": "13748589329193672738"
+                  }
+                }
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

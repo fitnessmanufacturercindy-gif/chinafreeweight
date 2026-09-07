@@ -1,0 +1,5 @@
+
+> powerbasefit-homepage@0.1.0 verify:kg-lb-units
+> node scripts/verify-kg-lb-free-weight-units-rendering.mjs
+
+KG/LB free-weight rendering verified: 13/13 pages, desktop/tablet/mobile, AVIF/WebP images, links, canonical, hreflang, schema and RTL.
