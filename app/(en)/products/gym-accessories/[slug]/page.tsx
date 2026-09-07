@@ -346,8 +346,8 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
             <h2>Continue building your accessory line</h2>
           </div>
           <p>
-            Explore related solutions to compare compatible accessories and build
-            a complete product list for your inquiry.
+            Compare related accessories, then send the required models,
+            quantities, branding details, packaging, and destination together.
           </p>
         </div>
         <div className="dumbbell-grid compact-related-grid">

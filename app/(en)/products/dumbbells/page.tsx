@@ -147,10 +147,12 @@ export default function DumbbellsPage() {
             A good dumbbell program is not only about shape. Overseas buyers
             need to confirm coating material, handle style, KG or LB ranges,
             rack matching, packaging method, and logo requirements before bulk
-            production.
+            production. Use the <a href="/resources/rubber-vs-urethane-dumbbells-commercial-gyms">material comparison</a>,
+            the <a href="/resources/hex-vs-round-dumbbells-commercial-gyms">shape comparison</a>, and the
+            <a href="/resources/commercial-dumbbell-maintenance-cleaning-replacement"> maintenance guide</a> to prepare the product brief.
           </p>
-          <a className="primary-button" href="/contact">
-            Send Requirements <ArrowRight size={18} />
+          <a className="primary-button" href="/oem">
+            Plan Custom Dumbbells <ArrowRight size={18} />
           </a>
         </div>
         <div className="capability-list">

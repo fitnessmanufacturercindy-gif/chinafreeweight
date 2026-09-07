@@ -7,7 +7,7 @@ import { company, siteName, siteUrl } from "../../site";
 export const metadata: Metadata = {
   title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",
   description:
-    "Browse PowerBaseFit free weight products including dumbbells, weight plates, barbells, cable handles, and gym accessories for global B2B gym equipment buyers.",
+    "Browse PowerBaseFit free weight products including dumbbells, weight plates and gym accessories for global B2B gym equipment buyers.",
   alternates: getEnglishAlternates("/products"),
   openGraph: {
     type: "website",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",
     description:
-      "Browse dumbbells, weight plates, barbells, handles, and accessories from PowerBaseFit.",
+      "Browse dumbbells, weight plates and accessories from PowerBaseFit.",
     images: ["/assets/hero-poster.avif"]
   }
 };
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: "Can PowerBaseFit supply mixed product categories in one order?",
     answer:
-      "Yes. Buyers can combine dumbbells, weight plates, barbells, cable handles, collars, and gym accessories in one sourcing plan. The final loading method depends on quantity, product size, packaging, and destination market."
+      "Yes. Buyers can combine dumbbells, weight plates and gym accessories in one sourcing plan. The final loading method depends on quantity, product size, packaging, and destination market."
   },
   {
     question: "Do you support OEM logo and private label products?",
@@ -92,7 +92,7 @@ const jsonLd = [
     url: `${siteUrl}/products`,
     inLanguage: "en",
     description:
-      "Free weight equipment product categories for B2B buyers, including dumbbells, weight plates, barbells, cable handles, and gym accessories.",
+      "Free weight equipment product categories for B2B buyers, including dumbbells, weight plates and gym accessories.",
     publisher: {
       "@type": "Organization",
       name: company.legalName,
@@ -169,10 +169,9 @@ export default function ProductsPage() {
           <span>Product System</span>
           <h1>Free Weight Equipment Products for Global B2B Buyers</h1>
           <p>
-            Explore PowerBaseFit product categories for dumbbells, weight plates,
-            multi-functional racks, benches, and gym accessories. This page helps
-            importers, distributors, commercial gyms, and OEM fitness brands find
-            the right product line before requesting a factory quotation.
+            Compare PowerBaseFit dumbbells, weight plates, and gym accessories
+            by material, application, weight range, OEM requirements, packaging,
+            and order quantity before requesting a factory quotation.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="/contact">
@@ -232,8 +231,8 @@ export default function ProductsPage() {
             <h2>Browse PowerBaseFit product lines</h2>
           </div>
           <p>
-            Each category includes product options, application scenarios, OEM
-            details, and direct access to individual product specifications.
+            Compare product options, application scenarios, OEM details, and
+            specifications for each available product family.
           </p>
         </div>
 
