@@ -116,7 +116,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: website-quality-gate-report
-          path: reports/quality-gate/
+          path: |
+            reports/quality-gate/
+            reports/daily-site-health/
 
       - name: Notify search engines after main deployment checks
         if: github.ref == 'refs/heads/main'

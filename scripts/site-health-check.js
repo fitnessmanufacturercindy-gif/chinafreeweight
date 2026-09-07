@@ -657,6 +657,11 @@ if (require.main === module) {
   runSiteHealthCheck()
     .then(({ report, jsonPath, mdPath }) => {
       console.log(`Site health report written:\n- ${mdPath}\n- ${jsonPath}`);
+      const blockingIssues = report.issues.filter((item) => item.severity === "Critical" || item.severity === "High");
+      if (blockingIssues.length > 0) {
+        console.error("Blocking site-health findings:");
+        for (const item of blockingIssues) console.error(`- [${item.severity}] ${item.area}: ${item.url} — ${item.message}`);
+      }
       const failOn = process.env.SITE_HEALTH_FAIL_ON || "";
       if (failOn === "critical" && report.summary.severityCounts.Critical > 0) process.exitCode = 1;
       if (failOn === "high" && (report.summary.severityCounts.Critical > 0 || report.summary.severityCounts.High > 0)) process.exitCode = 1;
