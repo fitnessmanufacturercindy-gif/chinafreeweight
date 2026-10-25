@@ -1,0 +1,302 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/olympic-barbell-straightness-sleeve-wobble-inspection",
+    "title": "Olympic Barbell Straightness & Sleeve Wobble: Buyer Guide",
+    "description": "Learn how to separate shaft bend, runout, sleeve play and rotation, then specify sample, bulk and receiving checks for OEM Olympic barbells.",
+    "h1": "How to Inspect Olympic Barbell Straightness and Sleeve Wobble",
+    "keyword": "Olympic barbell straightness and sleeve wobble inspection",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Olympic barbell factory guide",
+    "sections": [
+      {
+        "heading": "Quick answer for buyers",
+        "text": "A bar that flexes under load and returns is not the same as a permanently bent shaft. A sleeve that has a little assembly clearance is also not automatically evidence that the shaft is crooked. Buyers should separate four observations: shaft straightness, shaft runout while the bar rotates, sleeve radial or axial movement, and sleeve rotation quality. Each needs a defined support, measurement point and acceptance rule.\n\nRolling a bar on a clean flat surface is useful for triage, but it is not a complete bulk-acceptance method. Sleeves rotate independently, knurling changes contact, and an uneven floor can create a false impression. For an OEM, ODM, custom-logo, private-label or bulk order, approve a production-equivalent sample and write the actual measuring setup into the purchase specification before shipment."
+      },
+      {
+        "heading": "Straightness, runout, play and spin are different",
+        "text": "Static straightness describes the shaft axis when the bar is unloaded and supported in a defined way. Radial runout is the change shown at a measuring point during one complete rotation; the total indicated reading is the highest value minus the lowest. Sleeve face runout concerns a flange or end face, while sleeve play is movement between assembled parts. Spin describes how the sleeve rotates, including smoothness, noise and stopping behaviour.\n\nThese observations can interact without sharing one cause. A straight shaft can be paired with an eccentric sleeve component. A serviceable bushing bar can have a different feel from a bearing bar. Dirt, dried lubricant or moisture can affect rotation without bending the steel. Write each requirement separately so a supplier cannot substitute a spin video for a shaft measurement or a floor-roll video for assembly inspection."
+      },
+      {
+        "heading": "Use a repeatable shaft runout setup",
+        "text": "Begin with an identified, unloaded bar at stable room conditions. Clean the chosen support and contact zones. Support the bar on defined smooth cylindrical areas or on an agreed fixture that lets it rotate without sliding. Mount an indicator rigidly, place its contact point normal to the surface, apply suitable preload, zero it and rotate the bar slowly through a full turn. Record the maximum, minimum, total movement, measurement location, support location, instrument resolution and bar serial or batch reference.\n\nMeasure more than one shaft zone when the drawing requires it, and repeat a suspect result after cleaning and reseating the bar. The approved limit must come from the buyer-supplier drawing or purchase order; competition dimensions or a generic internet number do not create a universal straightness tolerance. A factory inspection record should make the result reproducible by the buyer or an independent inspector."
+      },
+      {
+        "heading": "Use rolling and visual checks as receiving triage",
+        "text": "At receiving, first photograph the tube, end protection, carton and impact marks. Inspect both sleeve ends, flanges, shaft, snap rings or end caps, finish and knurl transitions. A visibly displaced sleeve, damaged end, abrupt high spot or scraping sound is a reason to isolate the bar before use. Do not attempt to straighten a suspect commercial bar at the gym.\n\nIf the supplier authorizes a roll check, use a genuinely flat, clean reference surface and the same procedure for all bars. Observe the shaft and sleeve ends from a fixed point while rotating gently. Treat the result as screening: a high spot can locate a bar for instrumented follow-up, but a smooth roll does not prove every shaft and sleeve requirement. Keep packaging evidence because transit impact and production variation require different corrective actions."
+      },
+      {
+        "heading": "Inspect sleeves without confusing clearance with a bend",
+        "text": "Check each sleeve unloaded and then according to the maker's safe service instructions. Observe radial movement, axial movement, flange behaviour, rotation smoothness, unusual friction, noise and whether the retention parts are seated. Compare left and right using the same hand force and the same observation point. Never infer a load rating from how long a sleeve spins.\n\nFor production approval, identify the sleeve system, component revision, lubricant, retention method and service access. If a buyer reports wobble, capture a short fixed-camera video and a measured result at an agreed sleeve zone. This helps separate shaft runout, sleeve eccentricity, assembly clearance, retention problems and cosmetic end-cap movement. Any safety-related damage should stay out of service and follow the supplier's instructions."
+      },
+      {
+        "heading": "Control sample approval, bulk inspection and reorders",
+        "text": "The golden sample should use the quoted shaft steel route, heat treatment, machining, finish, sleeve construction and packaging. Record its straightness and sleeve results rather than approving appearance alone. During bulk production, sample across different machining periods, assembly stations and cartons. A buyer may request wider checks for a new design or after a process change, but the scope must be agreed before inspection.\n\nRepeat orders should retain the drawing revision, fixture definition, indicator resolution, data sheet, component list, artwork and pack specification. Custom logo or private-label markings belong to traceability: connect the approved logo revision and SKU to the measured bar record. Branding must not cover service points or make left and right components hard to identify. As a factory, ChinaFreeWeight can review OEM or ODM requirements model by model, without promising one limit for every bar."
+      },
+      {
+        "heading": "Prevent transport and use damage from obscuring the evidence",
+        "text": "A long dense bar needs packaging that restrains the shaft, protects both ends and prevents the sleeves from becoming impact points. Specify tube or carton construction, internal supports, end clearance, moisture control, labels, pallet position and handling orientation for the actual route. Inspect a packed sample and record changes to foam, caps, board, tube or pallet pattern.\n\nAfter delivery, store bars unloaded on suitable horizontal or vertical storage and follow the product maker's care instructions. Dropping an unloaded bar, striking a bench or rack, leaving it loaded for long periods, poor storage and unsuitable floors can damage a bar. Receiving evidence should therefore be captured before the equipment enters service, while routine inspection records should separate later wear or misuse from delivery condition."
+      }
+    ],
+    "table": {
+      "heading": "Barbell straightness and sleeve acceptance framework",
+      "columns": ["Check", "Method to define", "Decision evidence"],
+      "rows": [
+        ["Shaft straightness or runout", "Support zones, indicator point, rotation and accepted total reading", "Recorded high, low and result by identified bar"],
+        ["Sleeve radial movement", "Reference surface, measurement zone and applied hand force", "Left/right observation or measured comparison"],
+        ["Sleeve axial movement", "Direction, force and end position", "Assembly result against the approved construction"],
+        ["Sleeve rotation", "Unloaded check plus maker-authorized functional check", "Smoothness, friction, noise and retention condition"],
+        ["Visible delivery damage", "Defined lighting, views and packaging sequence", "Dated images tied to carton and bar identity"],
+        ["Corrective action", "Isolation, recheck, supplier review and disposition", "Traceable decision before release to use"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Receiving checklist for a bulk Olympic bar order",
+      "items": [
+        "Match bar, carton, purchase order and approved revision.",
+        "Photograph tube, carton, ends and any impact before unpacking.",
+        "Check sleeves, flanges, shaft, retention parts, finish and markings.",
+        "Keep the bar unloaded and clean the defined support and contact zones.",
+        "Use the agreed fixture, indicator location and instrument resolution.",
+        "Record maximum, minimum and total movement rather than a vague pass note.",
+        "Compare both sleeves for radial play, axial play, rotation and noise.",
+        "Retest suspect results after cleaning and reseating without forcing parts.",
+        "Quarantine impact damage or abnormal movement before the bar enters service.",
+        "Retain measurement, images, carton identity and supplier disposition for reorders."
+      ]
+    },
+    "faq": [
+      ["How can I tell if an Olympic barbell is bent?", "Use a roll or fixed-view observation only for screening, then confirm a suspect bar with the agreed supported indicator method. Compare the measured result with the purchase specification rather than an invented universal limit."],
+      ["Is a little sleeve wobble always a defect?", "No. Some movement can come from assembly clearance, sleeve components or a moving end cap. The buyer must define the observation point, force and accepted result for the exact construction."],
+      ["Does a long sleeve spin prove good bearings?", "No. Spin time alone does not prove alignment, lubrication, load performance, retention or durability. Check smoothness and condition using the manufacturer's instructions."],
+      ["Can I check straightness by rolling the bar on the floor?", "It can help identify an obvious high spot on a verified flat surface, but sleeves and knurling can mislead. Use it as triage, not the final purchase-order measurement."],
+      ["What should an OEM barbell drawing state?", "Identify support zones, measurement points, instrument resolution, rotation method, shaft and sleeve criteria, sampling, record format and corrective action."],
+      ["Can a custom logo affect the inspection?", "Branding should not change straightness, but it should be linked to the exact SKU and revision. Keep marks clear of service and measuring areas and approve them on the representative sample."],
+      ["What should I do with a bar damaged in transit?", "Keep it out of service, preserve packaging evidence, document the condition and follow the supplier's inspection and disposition process. Do not improvise a straightening repair at the facility."]
+    ],
+    "faqHeading": "Frequently Asked Questions: Olympic Barbell Inspection",
+    "linkHeading": "Continue the Olympic bar purchasing review",
+    "linkLabels": [
+      "Choose the right commercial Olympic bar",
+      "Specify barbell knurling",
+      "Compare shaft and sleeve finishes",
+      "Verify plate-hole and sleeve fit",
+      "Control the OEM sample approval",
+      "Plan pre-shipment inspection",
+      "Review export packaging",
+      "Send a barbell inquiry"
+    ],
+    "imageCopy": [
+      ["Unbranded Olympic barbell on V-blocks with a dial indicator checking the shaft", "A repeatable fixture, defined contact zone and recorded total movement turn a visual concern into inspectable evidence."],
+      ["Olympic bar shaft supported on a precision inspection bench", "Clean supports and a fixed measuring point reduce variation when production samples are compared."],
+      ["Olympic barbell sleeve and shaft arranged for receiving inspection", "Shaft runout, sleeve movement and rotation should be observed separately before a decision is made."]
+    ],
+    "cta": [
+      "Specify a measurable Olympic bar order",
+      "Send the bar type, training use, shaft and sleeve requirements, quantities, branding, packaging route and inspection expectations for a model-specific factory review.",
+      "Request an Olympic bar quote"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/verificar-barra-olimpica-empenada-folga-manga",
+    "title": "Barra Olímpica Empenada e Folga na Manga: Guia de Compra",
+    "description": "Saiba distinguir empeno, batimento, folga e rotação da manga e defina a inspeção de amostras, lotes e recebimento de barras olímpicas OEM.",
+    "h1": "Como Verificar Empeno da Barra Olímpica e Folga nas Mangas",
+    "keyword": "verificar barra olímpica empenada e folga na manga",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guia de fábrica de barras olímpicas",
+    "sections": [
+      {
+        "heading": "Resposta direta para importadores e academias",
+        "text": "A flexão elástica durante o levantamento não significa que a barra ficou empenada. Da mesma forma, uma pequena folga de montagem na manga não confirma, sozinha, desvio do eixo. No recebimento de um lote, avalie separadamente a retidão da haste, o batimento durante a rotação, o movimento radial ou axial das mangas e a qualidade do giro. Cada item precisa de apoio, ponto de medição e critério acordados.\n\nRolar a barra em um piso aparentemente plano serve apenas como triagem. A manga gira de modo independente, o recartilhado altera o contato e o próprio piso pode introduzir erro. Em uma compra OEM, ODM, com logotipo personalizado, marca própria ou fornecimento em volume, aprove uma amostra equivalente à produção e anexe o método mensurável ao pedido."
+      },
+      {
+        "heading": "O que é retidão, batimento, folga e rotação",
+        "text": "Retidão descreve o eixo da haste descarregada em uma condição definida. O batimento radial é a variação indicada quando a peça completa uma volta; o resultado total corresponde à diferença entre a maior e a menor leitura. Folga axial é o movimento ao longo do eixo, folga radial aparece de lado, e rotação trata da suavidade, atrito e ruído da manga.\n\nEsses sinais podem ter causas diferentes. Uma haste reta pode estar montada com um componente excêntrico. Um sistema com buchas pode apresentar sensação distinta de um sistema com rolamentos. Sujeira, lubrificante degradado ou umidade podem prejudicar o giro sem dobrar o aço. Por isso o comprador deve proibir a troca de uma medição por um vídeo de giro ou por uma avaliação visual genérica."
+      },
+      {
+        "heading": "Monte uma medição repetível da haste",
+        "text": "Identifique a barra e mantenha-a sem carga, limpa e em temperatura estável. Apoie-a nos trechos cilíndricos definidos ou no dispositivo aprovado, permitindo rotação lenta sem deslocamento. Fixe o relógio comparador em base rígida, alinhe o contato perpendicular à superfície, aplique pré-carga adequada, zere e complete uma volta. Registre máximo, mínimo, variação total, zona medida, pontos de apoio, resolução do instrumento, lote e unidade.\n\nRepita uma leitura suspeita depois de limpar e reassentar a barra. Se o desenho exigir, meça perto das duas mangas e no centro da haste. O limite de aceitação deve constar no desenho ou pedido do modelo; dimensões de competição não criam uma tolerância universal. O relatório da fábrica precisa permitir a repetição do ensaio pelo importador ou inspetor terceirizado."
+      },
+      {
+        "heading": "Faça a triagem no recebimento sem perder a evidência",
+        "text": "Antes de descartar a embalagem, fotografe tubo, tampas, espuma, etiqueta e marcas de impacto. Depois confira extremidades, flanges, haste, anéis ou tampas de retenção, acabamento e transições do recartilhado. Manga deslocada, ponta atingida, raspagem ou ponto alto evidente justificam separar a unidade antes de qualquer uso.\n\nSe o fornecedor aprovar o teste de rolagem, use sempre a mesma superfície plana, limpa e verificada. Observe de um ponto fixo e gire devagar. O procedimento ajuda a escolher quais barras merecem medição instrumental, mas uma rolagem suave não comprova todos os requisitos. Relacione fotos, caixa e número do item para distinguir dano logístico de variação de produção."
+      },
+      {
+        "heading": "Avalie as mangas sem confundir jogo com empeno",
+        "text": "Compare os dois lados descarregados usando a mesma força manual. Observe jogo radial, deslocamento axial, comportamento do flange, suavidade do giro, atrito, ruído e assentamento das peças de retenção. O tempo de giro não demonstra capacidade, alinhamento ou vida útil. Uma manga que gira por muito tempo ainda pode exigir revisão de montagem.\n\nNo controle de produção, registre o tipo de bucha ou rolamento, revisão dos componentes, lubrificante, retenção e acesso de manutenção. Para investigar uma reclamação, filme com câmera fixa e meça no ponto acordado. Assim é possível separar desvio da haste, excentricidade da manga, folga construtiva, problema de retenção e simples movimento da tampa."
+      },
+      {
+        "heading": "Integre amostra, inspeção do lote e reposição",
+        "text": "A amostra aprovada deve representar aço, tratamento térmico, usinagem, acabamento, montagem e embalagem cotados. Registre seus resultados dimensionais e funcionais, além da aparência. No lote, distribua a amostragem entre períodos de usinagem, postos de montagem e caixas. Se houver mudança de processo ou desenho novo, combine uma cobertura maior antes da inspeção.\n\nPara recompras, preserve revisão do desenho, definição do dispositivo, resolução do medidor, formulário de dados, lista de componentes, arte e embalagem. O logotipo e a marca própria devem ajudar na rastreabilidade, não encobrir áreas de serviço. Como fábrica, a ChinaFreeWeight analisa requisitos OEM e ODM por modelo, sem impor o mesmo limite a todas as barras."
+      },
+      {
+        "heading": "Proteja a barra no transporte e no uso comercial",
+        "text": "Uma barra longa e pesada precisa ficar imobilizada, com ambas as pontas protegidas. Defina tubo ou caixa, apoios internos, folga nas extremidades, controle de umidade, identificação, posição no palete e orientação de manuseio conforme a rota até o Brasil. Valide uma unidade embalada e controle qualquer troca de espuma, tampa, papelão ou padrão de paletização.\n\nApós o recebimento, armazene sem carga em suporte adequado e siga as instruções do fabricante. Queda da barra vazia, impacto em banco ou trava, permanência carregada e piso inadequado podem causar dano. Registre a condição antes da liberação para a academia e mantenha a inspeção de rotina separada da conferência de entrega."
+      }
+    ],
+    "table": {
+      "heading": "Quadro de aceitação para retidão e mangas",
+      "columns": ["Verificação", "Método a definir", "Evidência para decisão"],
+      "rows": [
+        ["Retidão ou batimento da haste", "Apoios, ponto do relógio, rotação e limite", "Maior, menor e variação total por barra"],
+        ["Jogo radial da manga", "Zona de referência e força aplicada", "Comparação medida dos dois lados"],
+        ["Jogo axial da manga", "Direção e posição final", "Resultado conforme a construção aprovada"],
+        ["Rotação", "Cheque sem carga e procedimento autorizado", "Suavidade, atrito, ruído e retenção"],
+        ["Dano no transporte", "Iluminação, vistas e sequência de abertura", "Fotos datadas ligadas à caixa"],
+        ["Tratamento da não conformidade", "Segregar, repetir, revisar e decidir", "Registro antes da liberação"]
+      ]
+    },
+    "tablePosition": 2,
+    "checklist": {
+      "heading": "Checklist de recebimento de barras olímpicas",
+      "items": [
+        "Conferir modelo, caixa, pedido e revisão aprovada.",
+        "Fotografar embalagem e impactos antes de abrir.",
+        "Examinar pontas, mangas, flanges, haste, retenção e acabamento.",
+        "Manter a barra sem carga e limpar apoios e pontos de contato.",
+        "Usar o dispositivo, posição e resolução combinados.",
+        "Registrar leituras máxima, mínima e total.",
+        "Comparar jogo radial, axial, giro e ruído dos dois lados.",
+        "Repetir resultado suspeito após limpar e reassentar.",
+        "Segregar dano de impacto ou movimento anormal antes do uso.",
+        "Guardar dados, fotos e decisão do fornecedor para a reposição."
+      ]
+    },
+    "faq": [
+      ["Como saber se a barra olímpica está empenada?", "Use a rolagem apenas como triagem e confirme a unidade suspeita no dispositivo com relógio comparador definido no pedido. Compare o resultado com o limite acordado para o modelo."],
+      ["É normal a manga ter um pouco de folga?", "Alguma movimentação pode vir da folga construtiva, da tampa ou dos componentes internos. Só o método, a força e o critério da montagem específica permitem decidir."],
+      ["Quanto mais a manga gira, melhor a barra?", "Não necessariamente. Tempo de giro não comprova alinhamento, retenção, lubrificação sob carga ou durabilidade. Avalie suavidade e condição conforme as instruções do fabricante."],
+      ["Posso rolar a barra no piso da academia?", "Apenas para localizar um sinal evidente em superfície realmente plana e limpa. Mangas independentes e recartilhado podem enganar, portanto não use isso como aceitação final."],
+      ["O que incluir no desenho de uma barra OEM?", "Inclua zonas de apoio, pontos de medição, resolução, método de rotação, critérios de haste e manga, amostragem, registro e ação corretiva."],
+      ["O logotipo personalizado interfere na medição?", "Não deve interferir, mas precisa estar vinculado ao SKU e à revisão corretos. Evite áreas de serviço e medição e aprove a arte na amostra representativa."],
+      ["O que fazer com uma barra atingida no transporte?", "Não coloque em uso. Preserve embalagem, fotografe a condição e siga o processo de inspeção e destinação combinado com o fornecedor."]
+    ],
+    "faqHeading": "Dúvidas sobre inspeção de barras olímpicas",
+    "linkHeading": "Complete a análise de compra da barra olímpica",
+    "linkLabels": [
+      "Escolher barra olímpica comercial",
+      "Especificar o recartilhado",
+      "Comparar acabamentos de haste e manga",
+      "Verificar encaixe de anilha e manga",
+      "Controlar a aprovação da amostra OEM",
+      "Planejar inspeção pré-embarque",
+      "Revisar embalagem de exportação",
+      "Enviar consulta de barras"
+    ],
+    "imageCopy": [
+      ["Barra olímpica sem marca apoiada em roletes para medir o batimento da haste", "O dispositivo estável e o ponto de contato definido tornam a comparação do lote repetível."],
+      ["Haste de barra olímpica verificada com relógio comparador em bancada", "O registro deve ligar a leitura ao modelo, lote, instrumento e posição medidos."],
+      ["Manga e haste de barra olímpica preparadas para conferência técnica", "Retidão, movimento da manga e qualidade do giro precisam de observações separadas."]
+    ],
+    "cta": [
+      "Defina uma compra mensurável de barras olímpicas",
+      "Envie uso, tipo de barra, requisitos de haste e manga, quantidades, logotipo, rota de embalagem e plano de inspeção para análise da fábrica.",
+      "Solicitar cotação de barras"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/comprobar-barra-olimpica-doblada-holgura-manguito",
+    "title": "Barra Olímpica Doblada y Holgura del Manguito: Guía",
+    "description": "Aprenda a diferenciar curvatura, descentramiento, holgura y giro del manguito y a definir controles para compras OEM de barras olímpicas.",
+    "h1": "Cómo Comprobar si una Barra Olímpica Está Doblada",
+    "keyword": "comprobar barra olímpica doblada y holgura del manguito",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guía de fábrica de barras olímpicas",
+    "sections": [
+      {
+        "heading": "Respuesta breve para compras y recepción",
+        "text": "Que la barra se flexione durante una carga y vuelva a su forma no significa que haya quedado doblada. Tampoco todo movimiento del manguito demuestra una desviación del eje. Para recibir un pedido profesional conviene separar la rectitud del eje, el descentramiento al girar, el juego radial o axial del manguito y la calidad de su rotación. El contrato debe indicar cómo se apoya, dónde se mide y qué resultado se acepta.\n\nHacer rodar la barra en el suelo puede descubrir una anomalía evidente, pero no sustituye una medición. El moleteado modifica el contacto, los manguitos giran por separado y la superficie puede no ser plana. En proyectos OEM, ODM, con logotipo personalizado, marca privada o suministro mayorista, la muestra de aprobación debe representar la producción y conservar un registro cuantitativo."
+      },
+      {
+        "heading": "Cuatro observaciones que no deben mezclarse",
+        "text": "La rectitud describe el eje descargado bajo apoyos definidos. El descentramiento radial es el recorrido del indicador durante una vuelta completa y se registra como diferencia entre la lectura máxima y la mínima. El juego radial se percibe lateralmente, el axial sigue la dirección del eje y el giro describe suavidad, resistencia, ruido y detención.\n\nUna barra puede tener el eje recto y un componente del manguito excéntrico. Los casquillos y los rodamientos tampoco ofrecen la misma sensación. Suciedad, lubricación deteriorada o humedad pueden frenar el giro sin deformar el acero. Por eso un vídeo de rotación, una fotografía lateral o una cifra de resistencia del material no reemplazan el control geométrico y de montaje."
+      },
+      {
+        "heading": "Procedimiento reproducible con indicador",
+        "text": "Trabaje con la barra identificada, descargada y limpia. Colóquela sobre zonas cilíndricas acordadas o en un útil que permita girarla sin deslizarse. Fije el indicador a una base rígida, oriente la punta normal a la superficie, dé la precarga adecuada, ponga a cero y complete una vuelta despacio. Anote máximo, mínimo, movimiento total, ubicación del contacto, apoyos, resolución del instrumento, lote y unidad.\n\nRepita cualquier lectura extraña después de limpiar y recolocar. Mida junto a ambos extremos y en la zona central cuando así lo exija el plano. El límite pertenece al modelo y debe quedar en el plano o pedido; una norma de dimensiones deportivas no crea una tolerancia universal de rectitud. El informe tiene valor cuando otro inspector puede repetir la misma configuración."
+      },
+      {
+        "heading": "Recepción: primero embalaje, después producto",
+        "text": "Fotografíe el tubo, las protecciones de los extremos, la etiqueta y los golpes antes de abrir. Revise extremos, pestañas, eje, anillos o tapas de retención, acabado y transiciones del moleteado. Un manguito desplazado, un extremo golpeado, un roce marcado o un punto alto evidente obligan a apartar la barra antes de entregarla a la sala.\n\nSi se acordó una prueba de rodadura, utilice una superficie limpia y comprobada y observe desde un punto fijo. Sirve para seleccionar unidades que necesitan medición instrumental, no para liberar el lote por sí sola. Conserve la identidad de caja y barra: la investigación cambia si la evidencia apunta a impacto de transporte o a variación de mecanizado y montaje."
+      },
+      {
+        "heading": "Diagnosticar el manguito sin adivinar la causa",
+        "text": "Compare ambos manguitos descargados aplicando la misma fuerza. Observe desplazamiento radial, axial, comportamiento de la pestaña, suavidad, rozamiento, ruido y posición de los retenes. No convierta el tiempo de giro en una clasificación de calidad o capacidad: un giro largo no demuestra alineación ni trabajo correcto bajo carga.\n\nEn la aprobación de producción identifique casquillos o rodamientos, revisión de piezas, lubricante, sistema de retención y posibilidad de servicio. Para una reclamación, un vídeo desde cámara fija y una medida en la zona acordada ayudan a distinguir eje doblado, manguito excéntrico, holgura de diseño, retén suelto o movimiento puramente cosmético de la tapa."
+      },
+      {
+        "heading": "Alinear muestra, lote y futuras reposiciones",
+        "text": "La muestra maestra debe seguir la ruta de acero, tratamiento térmico, mecanizado, acabado, montaje y embalaje cotados. Guarde las lecturas, no solo una aprobación visual. En la inspección del lote tome unidades de distintos momentos de mecanizado, puestos de montaje y cajas. Para un diseño nuevo o un cambio de proceso, acuerde antes una cobertura reforzada.\n\nEn reposiciones conserve revisión del plano, definición del útil, resolución, hoja de datos, lista de piezas, arte y embalaje. El logotipo o la marca privada deben mejorar la trazabilidad y no cubrir puntos de servicio. ChinaFreeWeight revisa como fábrica proyectos OEM y ODM según el modelo, sin trasladar una cifra de una construcción a todas las demás."
+      },
+      {
+        "heading": "Reducir daños de tránsito y uso",
+        "text": "La longitud de una barra concentra riesgo en extremos y manguitos. El embalaje debe inmovilizar el eje, separar metal y pared, mantener espacio en ambos extremos y distribuir la carga dentro de tubo, caja y palé. Defina materiales, humedad, etiquetas y orientación según la ruta. Si cambia la espuma, el tapón, el tubo o el patrón de paletización, revise de nuevo la muestra embalada.\n\nEn el gimnasio almacene la barra descargada en un soporte apto y respete las instrucciones del fabricante. Golpear bancos o seguros, soltar la barra vacía, dejarla cargada y usar una superficie inadecuada puede dañarla. La recepción debe documentarse antes del uso, mientras el mantenimiento posterior debe conservar su propio historial."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de aceptación de eje y manguitos",
+      "columns": ["Control", "Definición necesaria", "Evidencia"],
+      "rows": [
+        ["Rectitud o descentramiento", "Apoyos, punto del indicador, vuelta y límite", "Máximo, mínimo y total por unidad"],
+        ["Juego radial del manguito", "Zona de referencia y fuerza manual", "Comparación de los dos lados"],
+        ["Juego axial", "Dirección y posición final", "Resultado frente al montaje aprobado"],
+        ["Rotación", "Prueba descargada y control autorizado", "Suavidad, resistencia, ruido y retención"],
+        ["Daño visible", "Iluminación y secuencia de apertura", "Fotos fechadas vinculadas a la caja"],
+        ["Disposición", "Aislar, repetir, revisar y decidir", "Resolución trazable antes del uso"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Lista de recepción de barras olímpicas",
+      "items": [
+        "Vincular modelo, pedido, caja y revisión aprobada.",
+        "Fotografiar tubo, protecciones e impactos antes de abrir.",
+        "Revisar extremos, manguitos, pestañas, eje, retenes y acabado.",
+        "Mantener la barra descargada y limpiar apoyos y contactos.",
+        "Montar el útil y el indicador como se acordó.",
+        "Registrar lectura máxima, mínima y movimiento total.",
+        "Comparar juego radial, axial, giro y ruido en ambos lados.",
+        "Repetir una lectura sospechosa tras limpiar y recolocar.",
+        "Aislar golpes o movimiento anormal antes de liberar la barra.",
+        "Guardar datos, fotos, identidad y decisión para reposiciones."
+      ]
+    },
+    "faq": [
+      ["¿Cómo saber si una barra olímpica está doblada?", "Utilice la rodadura solo para localizar una señal y confirme la unidad con el método de indicador y apoyos acordado. La decisión se compara con el requisito del pedido."],
+      ["¿Es normal que el manguito tenga algo de holgura?", "Puede existir movimiento por el diseño del montaje o la tapa. Defina zona, fuerza y límite para la construcción concreta antes de clasificarlo."],
+      ["¿Más tiempo de giro significa mejor rodamiento?", "No. La duración no acredita alineación, retención, lubricación bajo carga ni durabilidad. Evalúe suavidad y condición según las instrucciones del fabricante."],
+      ["¿Sirve hacer rodar la barra en el suelo?", "Solo como triage en una superficie realmente plana y limpia. El moleteado y los manguitos independientes pueden producir una lectura engañosa."],
+      ["¿Qué debe indicar el plano OEM?", "Zonas de apoyo, puntos, resolución, método de rotación, criterios del eje y manguito, muestreo, registro y acción correctiva."],
+      ["¿El logotipo personalizado afecta al control?", "No debería cambiar la geometría, pero debe quedar vinculado al SKU y revisión correctos y mantenerse fuera de zonas de servicio y medición."],
+      ["¿Qué hacer ante un golpe de transporte?", "Aparte la barra, conserve el embalaje, documente el estado y siga la revisión y disposición acordadas con el proveedor antes de usarla."]
+    ],
+    "faqHeading": "Preguntas sobre inspección de barras olímpicas",
+    "linkHeading": "Seguir evaluando la compra de barras",
+    "linkLabels": [
+      "Elegir la barra olímpica comercial",
+      "Definir el moleteado",
+      "Comparar acabados de eje y manguito",
+      "Comprobar ajuste entre disco y manguito",
+      "Controlar la muestra OEM",
+      "Preparar la inspección previa al envío",
+      "Revisar embalaje de exportación",
+      "Enviar una consulta de barras"
+    ],
+    "imageCopy": [
+      ["Barra olímpica sin marca sobre rodillos con indicador en contacto con el eje", "Un útil estable y una zona definida permiten comparar barras del lote con el mismo método."],
+      ["Eje de barra olímpica en una bancada de control dimensional", "Las lecturas deben conservar ubicación, apoyos, instrumento e identidad de la unidad."],
+      ["Manguito y eje de barra olímpica preparados para inspección de recepción", "Rectitud, juego del manguito y rotación requieren controles separados."]
+    ],
+    "cta": [
+      "Preparar una especificación medible de barras",
+      "Envíe uso, construcción, requisitos de eje y manguito, cantidades, marca, ruta de embalaje y plan de inspección para una revisión de fábrica por modelo.",
+      "Solicitar cotización de barras"
+    ]
+  }
+]

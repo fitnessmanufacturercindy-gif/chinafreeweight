@@ -339,8 +339,8 @@ export default function ProjectsPage() {
           <h2>Turn project browsing into a clear RFQ path</h2>
           <p>
             Overseas buyers often know the type of gym area they want, but not
-            the exact product list. This section helps them match their scenario
-            with the right product package and send clearer requirements.
+            the exact product list. These project categories connect each
+            scenario with a practical product package and clearer requirements.
           </p>
           <a className="secondary-button" href="/contact">
             Send My Project Details

@@ -1,0 +1,562 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/olympic-barbell-maintenance-cleaning-guide",
+    "title": "Olympic Barbell Maintenance: A Commercial Gym Care Guide",
+    "description": "Build a finish-aware Olympic barbell maintenance plan for cleaning, sleeve checks, dry storage, service records and safe escalation.",
+    "h1": "How to Maintain Olympic Barbells in a Commercial Gym",
+    "keyword": "Olympic barbell maintenance",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Factory guide for gym operators, distributors and brands",
+    "sections": [
+      {
+        "heading": "Quick answer: maintain the exact bar, not a generic steel rod",
+        "text": "A commercial barbell care plan should identify the model, shaft and sleeve finishes, rotation system, storage location and approved cleaning materials. Remove loose chalk and sweat without trapping moisture, inspect the shaft, sleeves and ends, and record anything that changes from the accepted condition.\n\nThere is no honest universal interval or chemical for every bar. Traffic, humidity, chalk use and finish all matter. Use the model-specific supplier manual and warranty as the controlling instruction; isolate a bar when the shaft, sleeve retention or rotation suggests a safety or structural issue."
+      },
+      {
+        "heading": "Map each bar before choosing a brush or cleaner",
+        "text": "Create an asset record that links the bar ID to its model revision, shaft finish, sleeve finish and bushing or bearing system. A stainless or hard-chrome surface may accept a different brush from zinc, black oxide, decorative coating or bare steel. Do not infer the finish from colour alone.\n\nAsk the manufacturer for a care sheet that names compatible tools and products, areas that must stay dry, and actions that affect warranty. Keep that document with the purchase specification so new staff do not apply the most aggressive method to every bar in the rack."
+      },
+      {
+        "heading": "Clean chalk and sweat without damaging the finish",
+        "text": "Start dry: unload the bar, place it on stable padded supports and use a clean nylon or synthetic brush to lift chalk from the knurl. Wipe the shaft and sleeves with a clean lint-free cloth. When the approved instructions allow a cleaning product, apply it to the cloth rather than flooding the bar.\n\nWork in sections and inspect under side lighting. Do not leave cleaner or oil pooled in the knurl, at the shoulder or around the sleeve end. A wire brush, abrasive pad or strong chemical may remove residue quickly while also changing a coating, so the approved finish-specific method takes priority."
+      },
+      {
+        "heading": "Treat sleeve rotation as a controlled service task",
+        "text": "A sleeve that feels different from its paired sleeve deserves a recorded check, but it does not justify immediate disassembly. Dust, a bent shaft, damaged retention, a dry bushing or an internal problem can produce different symptoms. Compare unloaded rotation, sound, end movement and visible damage against the accepted bar and supplier instructions.\n\nDo not inject lubricant through gaps, remove snap rings or open end assemblies unless the exact manual permits it and a competent person is assigned. Some systems are serviced differently or not intended for field opening. If the method is unclear, quarantine the bar and request guidance from the supplier."
+      },
+      {
+        "heading": "Separate cosmetic change from a stop-use condition",
+        "text": "Light surface staining, worn coating and chalk build-up are not the same as a bent shaft, loose sleeve, damaged end retention or sharp raised metal. Define who may return a cleaned bar to service and who must review an abnormal finding. Photographs should show the whole bar, both ends and a close view with the asset ID.\n\nStop using a bar when the facility cannot confirm that an abnormal condition is cosmetic. Do not straighten, grind or hide evidence before the supplier reviews it. Record when and where the condition was found, recent use, storage position and whether several bars from the same revision show the same pattern."
+      },
+      {
+        "heading": "Control storage and the room, not only the cleaning",
+        "text": "Store unloaded bars in a rack designed to support them without contact that scratches the shaft or loads a vulnerable end component. Keep them away from wet mopping residue, exterior doors, pool air and persistent condensation. After cleaning, the bar should be dry before it returns to storage.\n\nA fixed calendar alone is weak control. Increase observation when member traffic, chalk use or humidity rises, then adjust the local routine from recorded condition. Bars moved between air-conditioned rooms and hot humid loading areas may need special attention because condensation can form even when no rain reaches the equipment."
+      },
+      {
+        "heading": "Use a short service record that leads to decisions",
+        "text": "The record should identify the bar, date, person, storage zone, visible condition, cleaning method and result. Add sleeve rotation, noise, end movement and the disposition: returned to service, monitored, isolated or referred to the supplier. A photograph is useful when it is tied to the same asset ID.\n\nTrend repeated findings rather than collecting paperwork without action. Recurring rust in one rack points to an environmental or contact issue; repeated end movement in one revision calls for supplier review. The record also helps a distributor or brand distinguish care questions from transport damage or product nonconformity."
+      },
+      {
+        "heading": "Make maintenance information part of the factory order",
+        "text": "For OEM and ODM programs, request a model-specific care sheet, finish identification, rotation-system notes, spare-part policy and escalation contact before approval. Custom Logo and Private Label changes should not hide service markings or prevent traceability. Keep the care revision with the golden sample and purchase record.\n\nFor Bulk Supply, agree how bars and replaceable parts are identified across reorders. ChinaFreeWeight can review the bar specification, finish, intended environment and maintenance documentation together for importers, distributors, brands and gym projects, without replacing the facility's inspection or the approved service instructions."
+      }
+    ],
+    "table": {
+      "heading": "Maintenance decision table",
+      "columns": [
+        "Finding",
+        "Immediate action",
+        "Evidence or authority"
+      ],
+      "rows": [
+        [
+          "Loose chalk or sweat film",
+          "Dry brush and wipe using the approved method",
+          "Finish-specific care sheet"
+        ],
+        [
+          "Small surface discolouration",
+          "Clean, photograph and reassess",
+          "Asset ID and before-after record"
+        ],
+        [
+          "Sleeves rotate differently",
+          "Compare unloaded condition and isolate if unexplained",
+          "Model manual and supplier review"
+        ],
+        [
+          "End movement or retention damage",
+          "Stop use and quarantine",
+          "Photos of both ends and serial or batch ID"
+        ],
+        [
+          "Shaft appears bent or has raised damage",
+          "Stop use; do not straighten or grind",
+          "Defined inspection method and supplier decision"
+        ],
+        [
+          "Repeated corrosion in one zone",
+          "Correct storage or environmental cause",
+          "Location trend and room condition record"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten controls for a facility care plan",
+      "items": [
+        "Identify the exact bar model and revision.",
+        "Record shaft and sleeve finishes separately.",
+        "Confirm the rotation system and service boundary.",
+        "List approved brushes, cloths and cleaning products.",
+        "Keep liquids away from unapproved entry points.",
+        "Define cosmetic, monitor and stop-use conditions.",
+        "Use stable padded supports during inspection.",
+        "Return only dry unloaded bars to suitable storage.",
+        "Link photographs and actions to the asset ID.",
+        "Keep current supplier instructions with reorder records."
+      ]
+    },
+    "faqHeading": "Frequently asked questions",
+    "faq": [
+      [
+        "How often should a commercial gym clean its barbells?",
+        "Set the routine from use, chalk, sweat, humidity and recorded condition. The exact model manual should override a generic calendar."
+      ],
+      [
+        "Can a steel wire brush be used on every bar?",
+        "No. Brush choice depends on the finish. Nylon or synthetic brushes are commonly safer starting points, but follow the supplier's instruction for that surface."
+      ],
+      [
+        "Should oil be sprayed directly onto the bar?",
+        "Do not spray or flood the bar unless the model instructions explicitly require it. Approved product is usually better controlled on a cloth, with excess removed."
+      ],
+      [
+        "Should staff lubricate or open the sleeves?",
+        "Only when the exact service manual permits the action and a competent person is assigned. Otherwise isolate an abnormal bar and contact the supplier."
+      ],
+      [
+        "What should a buyer request from an OEM barbell factory?",
+        "Request finish identification, compatible care materials, service boundaries, inspection points, spare-part policy and a revision-controlled care sheet."
+      ]
+    ],
+    "linkHeading": "Continue your Olympic barbell review",
+    "linkLabels": [
+      "Commercial Olympic barbell buying guide",
+      "Barbell finish and coating guide",
+      "Bushing and bearing rotation guide",
+      "Straightness and sleeve runout checks",
+      "Sleeve retention and end-cap guide",
+      "Pre-shipment inspection guide",
+      "Discuss your barbell care specification"
+    ],
+    "imageAlt": "Technician brushing chalk from an unbranded Olympic barbell on a padded commercial gym service bench",
+    "imageCaption": "Conceptual maintenance scene showing a straight unloaded bar, dry cleaning tools and a blank inspection record.",
+    "cta": [
+      "Specify the bar and its care record together",
+      "Share your operating environment, bar revision, finish and service requirements with ChinaFreeWeight for an OEM, ODM, Custom Logo, Private Label or Bulk Supply review.",
+      "Request a specification review"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/manutencao-limpeza-barra-olimpica",
+    "title": "Manutenção de Barra Olímpica: Guia para Academias Comerciais",
+    "description": "Estruture a manutenção da barra olímpica por acabamento, limpeza, giro das mangas, armazenamento seco, registros e critérios de interdição.",
+    "h1": "Como Manter Barras Olímpicas em Academias Comerciais",
+    "keyword": "manutenção de barra olímpica",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Guia de fábrica para academias, distribuidores e marcas",
+    "sections": [
+      {
+        "heading": "Resposta direta: cuide do modelo real, não de uma barra genérica",
+        "text": "O plano deve relacionar cada barra ao acabamento do eixo e das mangas, sistema de giro, local de guarda e materiais de limpeza liberados. Remova magnésio e suor sem reter umidade, observe eixo, mangas e extremidades e registre toda mudança em relação ao estado aceito. Antes de devolver o equipamento ao salão, confirme que não ficou resíduo escorregadio na área de pega nem material solto próximo às mangas.\n\nNão existe periodicidade universal. Movimento da academia, clima, uso de magnésio e acabamento mudam a necessidade. O manual e a garantia do modelo comandam o procedimento; uma alteração de retidão, retenção ou giro sem causa confirmada exige retirar a barra de uso. Uma rotina simples pode ser revista conforme os registros mostrem aumento de uso, mudança de estação ou novo padrão de armazenamento."
+      },
+      {
+        "heading": "Identifique acabamento e sistema antes de separar as ferramentas",
+        "text": "Cadastre o ID do ativo, revisão do produto, acabamento do eixo, acabamento das mangas e presença de buchas ou rolamentos. A cor não basta para distinguir cromo duro, zinco, óxido, aço inoxidável ou revestimento decorativo, e a escova adequada pode mudar. Se houver modelos parecidos no mesmo rack, use uma identificação discreta e rastreável, sem depender apenas da memória da equipe.\n\nPeça ao fabricante uma folha de conservação com produtos compatíveis, pontos que não devem receber líquido e limites de intervenção. Mantenha-a junto da especificação de compra para que terceirizados e novos funcionários não adotem um método agressivo por costume. Registre também a revisão da folha, pois o mesmo nome comercial pode receber atualizações de construção ou acabamento."
+      },
+      {
+        "heading": "Retire magnésio e suor sem atacar a superfície",
+        "text": "Com a barra descarregada em apoios estáveis, use primeiro uma escova de náilon ou sintética limpa para soltar o magnésio do recartilhado. Depois, passe pano limpo que não solte fiapos no eixo e nas mangas. Se a instrução aprovada permitir produto, controle a quantidade no pano.\n\nTrabalhe por trechos e use luz lateral para observar resíduos. Não deixe óleo ou limpador acumulado no recartilhado, no ombro ou na ponta da manga. Escova metálica, abrasivo ou químico forte pode alterar o acabamento; a orientação específica prevalece."
+      },
+      {
+        "heading": "Trate o giro das mangas como serviço controlado",
+        "text": "Diferença de giro entre as mangas pede verificação registrada, não desmontagem imediata. Compare rotação sem carga, ruído, folga axial e danos visíveis com a condição aprovada. Sujeira, retenção danificada ou problema interno podem parecer iguais para quem não conhece a construção.\n\nNão injete lubrificante por frestas nem retire anéis ou tampas sem autorização do manual e responsável capacitado. Alguns conjuntos têm manutenção própria e outros não devem ser abertos no local. Quando a fronteira não estiver clara, interdite e consulte o fornecedor."
+      },
+      {
+        "heading": "Separe desgaste visual de condição que exige interdição",
+        "text": "Mancha superficial, perda de cor e acúmulo de magnésio não equivalem a eixo empenado, manga solta, retenção danificada ou rebarba cortante. Defina quem libera após a limpeza e quem avalia achados anormais. Fotografe a barra inteira, as duas pontas e o detalhe com o ID. Uma marca que desaparece com o método aprovado pode ser registrada de forma diferente de uma mudança que permanece ou evolui.\n\nNão endireite, esmerilhe nem esconda o vestígio antes da análise. Registre local, data, uso recente e posição de armazenamento. Se várias barras da mesma revisão repetirem o padrão, amplie a inspeção e encaminhe o histórico ao fornecedor. Mantenha a unidade suspeita separada das barras liberadas para evitar que ela volte ao uso por engano."
+      },
+      {
+        "heading": "Controle o ambiente e a guarda",
+        "text": "Guarde barras descarregadas em suporte que não risque o eixo nem apoie componente sensível. Afaste de lavagem úmida, portas externas, ar de piscina e condensação persistente. A barra precisa estar seca antes de voltar ao rack. Inspecione os pontos de contato do próprio suporte, pois borracha degradada, metal exposto ou sujeira concentrada pode transferir marcas para diversas unidades.\n\nAumente a observação em períodos de maior fluxo, magnésio ou umidade. Mudanças entre sala climatizada e doca quente podem gerar condensação mesmo sem contato direto com chuva. Um calendário fixo só funciona quando é corrigido pelos registros reais. Ao reorganizar o salão, verifique se a nova posição muda ventilação, respingos ou proximidade com produtos de limpeza."
+      },
+      {
+        "heading": "Use um registro curto que gere decisão",
+        "text": "Anote ID, data, responsável, zona de guarda, condição observada, método de limpeza e resultado. Inclua giro, ruído, movimento das pontas e destino: liberada, monitorada, interditada ou encaminhada. Vincule fotografias ao mesmo ativo. Use campos objetivos e uma lista pequena de decisões para que turnos diferentes descrevam o mesmo achado de maneira comparável.\n\nProcure repetição. Oxidação em um único rack indica ambiente ou contato; folga recorrente em uma revisão pede análise do fornecedor. O histórico ajuda distribuidor e marca a separar conservação, dano logístico e não conformidade. Quando a unidade for substituída, preserve o vínculo entre o registro anterior, a decisão e a nova identificação."
+      },
+      {
+        "heading": "Inclua a manutenção na compra de fábrica",
+        "text": "Em projetos OEM e ODM, peça identificação do acabamento, folha de conservação por modelo, limite de serviço, política de peças e canal de escalonamento. Custom Logo e Private Label não devem cobrir identificação técnica. Guarde a revisão com a amostra padrão.\n\nEm Bulk Supply, combine a rastreabilidade das barras e peças entre recompras. A ChinaFreeWeight pode revisar especificação, ambiente de uso e documentação de manutenção com importadores, distribuidores, marcas e academias, sem substituir a inspeção local nem o manual aprovado."
+      }
+    ],
+    "table": {
+      "heading": "Tabela para decidir a ação",
+      "columns": [
+        "Achado",
+        "Ação imediata",
+        "Base da decisão"
+      ],
+      "rows": [
+        [
+          "Magnésio ou película de suor",
+          "Escovar a seco e limpar conforme orientação",
+          "Folha do acabamento"
+        ],
+        [
+          "Pequena mancha superficial",
+          "Limpar, fotografar e reavaliar",
+          "ID e registro antes/depois"
+        ],
+        [
+          "Mangas com giro diferente",
+          "Comparar sem carga e interditar se persistir",
+          "Manual e análise do fornecedor"
+        ],
+        [
+          "Folga na ponta ou retenção danificada",
+          "Interditar a barra",
+          "Fotos das duas pontas e identificação"
+        ],
+        [
+          "Eixo aparentemente empenado ou com rebarba",
+          "Não usar, endireitar nem lixar",
+          "Método de inspeção acordado"
+        ],
+        [
+          "Oxidação repetida no mesmo rack",
+          "Corrigir guarda e ambiente",
+          "Histórico do local"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dez controles para a rotina",
+      "items": [
+        "Identificar modelo e revisão exatos.",
+        "Registrar acabamentos de eixo e mangas.",
+        "Confirmar sistema de giro e limite de serviço.",
+        "Listar escovas, panos e produtos permitidos.",
+        "Evitar líquidos em entradas não autorizadas.",
+        "Definir condição visual, monitoramento e interdição.",
+        "Inspecionar em apoios estáveis e protegidos.",
+        "Guardar somente a barra seca e descarregada.",
+        "Vincular fotos e ações ao ID.",
+        "Manter instruções atuais com as recompras."
+      ]
+    },
+    "faqHeading": "Perguntas frequentes",
+    "faq": [
+      [
+        "Com que frequência uma academia deve limpar as barras?",
+        "Defina pela utilização, magnésio, suor, umidade e condição registrada. O manual do modelo prevalece sobre um intervalo genérico."
+      ],
+      [
+        "Escova de aço serve para qualquer barra?",
+        "Não. A escolha depende do acabamento. Náilon ou material sintético costuma ser um início mais conservador, sempre sujeito à instrução do fornecedor."
+      ],
+      [
+        "Posso borrifar óleo diretamente?",
+        "Evite borrifar ou encharcar, salvo quando o manual do modelo exigir. Controle no pano e retire o excesso quando esse método for aprovado."
+      ],
+      [
+        "A equipe deve lubrificar ou abrir as mangas?",
+        "Somente se o manual permitir e houver pessoa capacitada. Caso contrário, interdite a anormalidade e consulte o fornecedor."
+      ],
+      [
+        "O que pedir à fábrica OEM?",
+        "Identificação do acabamento, materiais compatíveis, limites de serviço, pontos de inspeção, política de peças e folha de conservação controlada por revisão."
+      ]
+    ],
+    "linkHeading": "Continue a avaliação da barra olímpica",
+    "linkLabels": [
+      "Guia de compra de barras comerciais",
+      "Acabamentos de barras olímpicas",
+      "Buchas, rolamentos e giro",
+      "Retidão e oscilação das mangas",
+      "Retenção e tampas das mangas",
+      "Inspeção pré-embarque",
+      "Revisar a especificação de manutenção"
+    ],
+    "imageAlt": "Técnico remove magnésio de barra olímpica sem marca em bancada protegida de academia comercial",
+    "imageCaption": "Cena conceitual com barra descarregada, limpeza a seco e ficha de inspeção sem dados.",
+    "cta": [
+      "Compre a barra com uma rotina de conservação definida",
+      "Envie ambiente, revisão, acabamento e necessidade de serviço à ChinaFreeWeight para revisar OEM, ODM, Custom Logo, Private Label ou Bulk Supply.",
+      "Solicitar revisão técnica"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/mantenimiento-limpieza-barra-olimpica",
+    "title": "Mantenimiento de Barras Olímpicas para Gimnasios Comerciales",
+    "description": "Organice limpieza, revisión de manguitos, almacenamiento seco, registro e inmovilización según el acabado y el modelo de barra olímpica.",
+    "h1": "Cómo Mantener Barras Olímpicas en un Gimnasio Comercial",
+    "keyword": "mantenimiento de barra olímpica",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Guía de fábrica para operadores, importadores y marcas",
+    "sections": [
+      {
+        "heading": "Respuesta breve: el mantenimiento depende de la barra concreta",
+        "text": "Identifique modelo, acabados del eje y manguitos, sistema de giro, ubicación y materiales autorizados. Retire magnesio y sudor sin introducir humedad, revise eje, extremos y rotación, y documente cualquier cambio respecto del estado aceptado. Antes de devolverla a la sala, compruebe que no queda residuo resbaladizo en el agarre ni material suelto cerca de los manguitos.\n\nNo hay una frecuencia ni un producto válidos para todas las barras. Uso, ambiente y recubrimiento cambian el riesgo. El manual y la garantía del modelo gobiernan; una alteración de rectitud, retención o giro que no pueda explicarse exige inmovilizar el equipo. Revise la rutina cuando cambie la temporada, el aforo o la zona de almacenamiento, en vez de conservar un calendario que ya no refleja el riesgo."
+      },
+      {
+        "heading": "Fiche el activo antes de elegir cepillo o limpiador",
+        "text": "Relacione el identificador con revisión, acabado del eje, acabado de manguitos y sistema de casquillos o rodamientos. El color no identifica por sí solo cromo duro, zinc, óxido negro, acero inoxidable o recubrimiento decorativo. Si conviven modelos parecidos en el mismo soporte, añada una identificación discreta que no dependa de la memoria del turno.\n\nSolicite al fabricante una hoja que indique herramientas compatibles, productos, zonas que deben permanecer secas y operaciones reservadas. Manténgala con la especificación de compra para evitar que personal nuevo aplique la solución más abrasiva a toda la sala. Registre la revisión del documento, ya que una referencia comercial puede cambiar de acabado o construcción con el tiempo."
+      },
+      {
+        "heading": "Limpie magnesio y sudor sin atacar el acabado",
+        "text": "Descargue la barra y apóyela de forma estable. Empiece con cepillo limpio de nailon o fibras sintéticas para levantar el magnesio del moleteado; después pase un paño limpio sin pelusa por eje y manguitos. Si se permite un producto, dosifíquelo en el paño. Cambie o limpie el paño cuando arrastre suciedad, para no redistribuir partículas abrasivas por toda la superficie.\n\nRevise por zonas con luz rasante. No deje líquido u aceite en el moleteado, hombro o extremo. Cepillo metálico, abrasivo o químico fuerte puede alterar el recubrimiento; mande siempre el método aprobado para ese acabado. La limpieza termina con una inspección visual y táctil, no simplemente cuando desaparece el polvo visible."
+      },
+      {
+        "heading": "Convierta la rotación del manguito en una tarea controlada",
+        "text": "Una diferencia entre ambos manguitos merece comprobación, no desmontaje automático. Compare giro sin carga, ruido, desplazamiento axial y daños visibles con la condición aceptada. Suciedad, retención dañada o un problema interno pueden producir síntomas parecidos. Realice la comparación en un apoyo estable y sin discos para que la carga o el roce del suelo no alteren la sensación.\n\nNo inyecte lubricante por juntas ni retire anillos o tapas sin permiso del manual y personal competente. Los sistemas no se mantienen todos igual. Si no existe una instrucción clara, inmovilice la barra y consulte al proveedor. Anote qué lado presenta la diferencia y conserve el vídeo o el sonido únicamente como apoyo, no como sustituto de una evaluación definida."
+      },
+      {
+        "heading": "Distinga desgaste estético de una condición de retirada",
+        "text": "Una mancha ligera, pérdida de color o magnesio acumulado no equivale a eje doblado, manguito suelto, retención dañada o metal cortante. Defina quién puede liberar la barra tras limpiarla y quién debe revisar una anomalía. Fotografíe conjunto, extremos y detalle con el ID. Una marca que desaparece con el método aprobado se documenta de forma distinta de otra que permanece, crece o vuelve después de pocos usos.\n\nNo enderece, pula ni borre indicios antes de la evaluación. Registre fecha, zona, uso reciente y posición de almacenamiento. Si varias barras de la misma revisión repiten el hallazgo, amplíe el control y remita el patrón al proveedor. Mantenga las unidades inmovilizadas separadas y señalizadas para impedir que regresen por error al soporte de uso."
+      },
+      {
+        "heading": "Controle el almacenamiento y el ambiente",
+        "text": "Guarde las barras descargadas en soportes que no rayen el eje ni carguen un componente sensible. Evite fregado húmedo, puertas exteriores, aire de piscina y condensación. Devuelva al soporte únicamente una barra seca. Revise también los puntos de contacto del propio soporte, porque goma degradada, metal expuesto o suciedad concentrada puede marcar varias unidades.\n\nAumente la observación cuando crezcan tráfico, magnesio o humedad. El traslado entre sala climatizada y almacén cálido también puede condensar agua. Ajuste la rutina con datos reales y no solo con un calendario fijo. Si cambia la distribución de la sala, compruebe si aparecen salpicaduras, corrientes húmedas o proximidad a productos químicos."
+      },
+      {
+        "heading": "Registre lo necesario para decidir",
+        "text": "Anote ID, fecha, responsable, zona, estado, método y resultado. Añada giro, ruido, movimiento del extremo y destino: servicio, vigilancia, inmovilización o consulta. Vincule cada fotografía con el mismo activo. Use campos breves y decisiones normalizadas para que dos turnos describan un hallazgo comparable y sea posible revisar el historial sin interpretar notas ambiguas.\n\nBusque tendencias. Corrosión repetida en un soporte apunta al entorno; holgura repetida en una revisión necesita respuesta del proveedor. El historial ayuda a separar conservación, daño de transporte y no conformidad. Cuando se sustituya una unidad, vincule el registro anterior con la decisión y la nueva identificación para no perder el motivo del cambio."
+      },
+      {
+        "heading": "Incluya la conservación en la orden de fábrica",
+        "text": "En OEM y ODM, exija identificación de acabados, hoja por modelo, límite de intervención, política de repuestos y contacto técnico. Custom Logo y Private Label no deben tapar la trazabilidad. Archive la revisión con la muestra patrón. Pida que cualquier cambio de acabado, retención o sistema de giro active una revisión de la hoja, aunque el nombre comercial de la barra se mantenga.\n\nPara Bulk Supply, acuerde cómo se identifican barras y repuestos entre reposiciones. ChinaFreeWeight puede revisar especificación, ambiente y documentación con importadores, distribuidores, marcas y gimnasios, sin sustituir la inspección del operador. Una compra queda mejor cerrada cuando recepción, operación y servicio usan la misma referencia documental y el mismo canal de escalado."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de mantenimiento",
+      "columns": [
+        "Hallazgo",
+        "Acción inmediata",
+        "Referencia"
+      ],
+      "rows": [
+        [
+          "Magnesio o sudor",
+          "Cepillar en seco y limpiar según instrucciones",
+          "Hoja del acabado"
+        ],
+        [
+          "Mancha superficial pequeña",
+          "Limpiar, fotografiar y reevaluar",
+          "ID y registro comparativo"
+        ],
+        [
+          "Giro distinto entre manguitos",
+          "Comparar sin carga e inmovilizar si persiste",
+          "Manual y proveedor"
+        ],
+        [
+          "Holgura o retención dañada",
+          "Retirar de servicio",
+          "Fotos de ambos extremos"
+        ],
+        [
+          "Eje doblado o rebaba",
+          "No usar, enderezar ni lijar",
+          "Método de inspección acordado"
+        ],
+        [
+          "Corrosión repetida en una zona",
+          "Corregir soporte o ambiente",
+          "Historial de ubicación"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez controles de la rutina",
+      "items": [
+        "Identificar modelo y revisión.",
+        "Registrar ambos acabados.",
+        "Confirmar sistema de giro.",
+        "Listar útiles y productos permitidos.",
+        "Evitar entradas de líquido no autorizadas.",
+        "Definir vigilancia e inmovilización.",
+        "Usar apoyos estables y protegidos.",
+        "Guardar la barra seca y descargada.",
+        "Unir fotos y acciones al ID.",
+        "Conservar instrucciones con cada reposición."
+      ]
+    },
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      [
+        "¿Cada cuánto se limpia una barra comercial?",
+        "Depende de uso, magnesio, sudor, humedad y condición registrada. El manual del modelo manda sobre una regla general."
+      ],
+      [
+        "¿Sirve un cepillo de acero para todas?",
+        "No. El cepillo debe ser compatible con el acabado; nailon o fibra sintética suele ser un punto de partida conservador."
+      ],
+      [
+        "¿Se puede rociar aceite directamente?",
+        "No inunde la barra salvo instrucción expresa. Cuando esté aprobado, controle el producto en un paño y retire el exceso."
+      ],
+      [
+        "¿Puede el personal abrir los manguitos?",
+        "Solo si el manual lo autoriza y hay personal competente. Ante una anomalía sin procedimiento, inmovilice y consulte."
+      ],
+      [
+        "¿Qué documentación debe dar una fábrica OEM?",
+        "Acabados, materiales compatibles, límites de servicio, puntos de revisión, repuestos y una hoja controlada por revisión."
+      ]
+    ],
+    "linkHeading": "Siga evaluando la barra",
+    "linkLabels": [
+      "Compra de barras olímpicas comerciales",
+      "Acabados y recubrimientos",
+      "Casquillos, rodamientos y giro",
+      "Rectitud y oscilación",
+      "Retención de manguitos y tapas",
+      "Inspección previa al embarque",
+      "Revisar su especificación"
+    ],
+    "imageAlt": "Técnico limpia una barra olímpica sin marca con paño seco y luz de inspección en un gimnasio comercial",
+    "imageCaption": "Escena conceptual de una barra recta y descargada con herramientas secas y registro vacío.",
+    "cta": [
+      "Defina la barra y su conservación en la misma compra",
+      "Comparta ambiente, revisión, acabado y servicio con ChinaFreeWeight para revisar OEM, ODM, Custom Logo, Private Label o Bulk Supply.",
+      "Solicitar revisión"
+    ]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/olympiastange-reinigen-pflegen",
+    "title": "Olympiastangen Reinigen und Pflegen: Leitfaden für Studios",
+    "description": "So organisieren Studios finishgerechte Reinigung, Hülsenkontrolle, trockene Lagerung, Wartungsnachweis und sichere Sperrentscheidungen.",
+    "h1": "Olympiastangen im Gewerblichen Studio Richtig Pflegen",
+    "keyword": "Olympiastange reinigen und pflegen",
+    "home": "Startseite",
+    "library": "Blog",
+    "eyebrow": "Werksleitfaden für Betreiber, Händler und Eigenmarken",
+    "sections": [
+      {
+        "heading": "Kurzantwort: Die konkrete Stange bestimmt die Pflege",
+        "text": "Erfassen Sie Modell, Schaft- und Hülsenfinish, Drehsystem, Lagerort und freigegebene Reinigungsmittel. Entfernen Sie Magnesia und Schweiß, ohne Feuchte einzutragen, prüfen Sie Schaft, Hülsen und Enden und dokumentieren Sie Abweichungen vom freigegebenen Zustand.\n\nEin allgemeiner Rhythmus passt nicht überall. Auslastung, Luftfeuchte, Magnesianutzung und Oberfläche verändern den Bedarf. Modellanleitung und Gewährleistungsbedingungen sind maßgeblich; ungeklärte Änderungen an Geradheit, Sicherung oder Lauf führen zur Sperrung."
+      },
+      {
+        "heading": "Oberfläche und Aufbau vor der Werkzeugwahl erfassen",
+        "text": "Verknüpfen Sie die Inventarnummer mit Produktstand, Schaftfinish, Hülsenfinish und Buchsen- oder Lagersystem. Aus der Farbe allein lassen sich Hartchrom, Zink, Brünierung, Edelstahl oder dekorative Beschichtung nicht zuverlässig ableiten.\n\nFordern Sie ein Pflegeblatt mit verträglichen Werkzeugen und Mitteln, trockenzuhaltenden Bereichen und Servicegrenzen an. Es gehört zur Beschaffungsspezifikation, damit neue Mitarbeitende nicht jede Stange mit demselben aggressiven Verfahren behandeln."
+      },
+      {
+        "heading": "Magnesia und Schweiß finishgerecht entfernen",
+        "text": "Entlasten Sie die Stange und legen Sie sie stabil auf gepolsterte Auflagen. Lösen Sie Magnesia zuerst trocken mit einer sauberen Nylon- oder Synthetikbürste aus der Rändelung; wischen Sie Schaft und Hülsen mit fusselfreiem Tuch ab. Zugelassenes Mittel wird kontrolliert am Tuch eingesetzt.\n\nArbeiten Sie abschnittsweise unter Streiflicht. In Rändelung, Schulter und Hülsenende dürfen keine Flüssigkeitspfützen zurückbleiben. Metallbürste, Schleifvlies oder starkes Mittel kann das Finish verändern; die Freigabe für die konkrete Oberfläche hat Vorrang."
+      },
+      {
+        "heading": "Hülsenlauf nur nach festgelegtem Verfahren beurteilen",
+        "text": "Unterschiedlicher Lauf beider Hülsen verlangt eine dokumentierte Prüfung, nicht sofortiges Zerlegen. Vergleichen Sie unbelastete Drehung, Geräusch, Axialspiel und sichtbare Schäden mit dem Abnahmezustand. Schmutz, Sicherungsschaden oder internes Problem können ähnlich wirken.\n\nSpritzen Sie kein Schmiermittel in Spalte und entfernen Sie keine Ringe oder Endteile ohne ausdrückliche Modellanweisung und qualifizierte Person. Bei unklarer Servicegrenze wird die Stange gesperrt und der Lieferant einbezogen."
+      },
+      {
+        "heading": "Optische Veränderung und Sperrgrund trennen",
+        "text": "Leichte Verfärbung, abgeriebene Beschichtung und Magnesia sind nicht gleichbedeutend mit krummem Schaft, loser Hülse, defekter Endsicherung oder scharfem Grat. Legen Sie Freigabe- und Eskalationsverantwortung fest. Fotos zeigen Gesamtstange, beide Enden und Detail mit Inventarnummer.\n\nVor der Beurteilung wird nicht gerichtet, geschliffen oder kaschiert. Dokumentieren Sie Fundort, Zeitpunkt, Nutzung und Lagerposition. Wiederholt sich das Muster bei derselben Revision, erweitern Sie die Prüfung und übermitteln Sie den Verlauf."
+      },
+      {
+        "heading": "Lagerort und Raumklima mit beherrschen",
+        "text": "Lagern Sie unbeladene Stangen in geeigneten Haltern ohne kratzenden Kontakt oder Last auf empfindlichen Endteilen. Abstand zu Nassreinigung, Außentüren, Schwimmbadluft und Kondensation ist wichtig. Nur trockene Stangen kommen zurück in den Halter.\n\nBei höherer Auslastung, mehr Magnesia oder Feuchte wird häufiger beobachtet. Auch der Wechsel zwischen klimatisiertem Raum und warmer Anlieferzone kann Kondensat bilden. Aufzeichnungen korrigieren den Plan besser als ein unveränderlicher Kalender."
+      },
+      {
+        "heading": "Ein kurzer Nachweis muss zur Entscheidung führen",
+        "text": "Erfassen Sie ID, Datum, Person, Lagerzone, Befund, Verfahren und Ergebnis. Ergänzen Sie Hülsenlauf, Geräusch, Endbewegung und Status: freigegeben, beobachten, gesperrt oder weitergeleitet. Fotos bleiben eindeutig zugeordnet.\n\nWerten Sie Wiederholungen aus. Korrosion an einem Halter deutet auf Umgebung oder Kontakt; wiederkehrendes Endspiel einer Revision verlangt Lieferantenprüfung. Der Verlauf trennt Pflege, Transportschaden und Produktabweichung."
+      },
+      {
+        "heading": "Pflegeunterlagen in die Werksbestellung aufnehmen",
+        "text": "Für OEM und ODM gehören Finishkennzeichnung, modellbezogenes Pflegeblatt, Servicegrenzen, Ersatzteilregel und Ansprechpartner in die Freigabe. Custom Logo und Private Label dürfen die Rückverfolgbarkeit nicht verdecken. Die Version bleibt beim Referenzmuster.\n\nBei Bulk Supply wird die Identifikation über Nachbestellungen vereinbart. ChinaFreeWeight kann Spezifikation, Einsatzumgebung und Unterlagen mit Importeuren, Händlern, Marken und Studios prüfen, ohne die Betreiberkontrolle zu ersetzen."
+      }
+    ],
+    "table": {
+      "heading": "Entscheidungsmatrix",
+      "columns": [
+        "Befund",
+        "Sofortmaßnahme",
+        "Grundlage"
+      ],
+      "rows": [
+        [
+          "Magnesia oder Schweißfilm",
+          "Trocken bürsten und freigegeben wischen",
+          "Pflegeblatt des Finishs"
+        ],
+        [
+          "Kleine Oberflächenverfärbung",
+          "Reinigen, fotografieren, neu bewerten",
+          "ID und Vergleich"
+        ],
+        [
+          "Hülsen laufen verschieden",
+          "Unbelastet vergleichen und nötigenfalls sperren",
+          "Modellanleitung"
+        ],
+        [
+          "Endspiel oder Sicherungsschaden",
+          "Sofort sperren",
+          "Endfotos und Kennzeichnung"
+        ],
+        [
+          "Schaft krumm oder Grat sichtbar",
+          "Nicht nutzen, richten oder schleifen",
+          "Vereinbarte Prüfmethode"
+        ],
+        [
+          "Korrosion am gleichen Lagerort",
+          "Halter oder Klima korrigieren",
+          "Standortverlauf"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Zehn Punkte für den Pflegeplan",
+      "items": [
+        "Modell und Revision bestimmen.",
+        "Schaft- und Hülsenfinish getrennt erfassen.",
+        "Drehsystem und Servicegrenze bestätigen.",
+        "Zugelassene Bürsten, Tücher und Mittel nennen.",
+        "Unzulässigen Flüssigkeitseintrag verhindern.",
+        "Beobachtung und Sperrung definieren.",
+        "Gepolsterte stabile Auflagen verwenden.",
+        "Nur trocken und unbeladen lagern.",
+        "Fotos und Maßnahmen an die ID binden.",
+        "Aktuelle Anleitung bei Nachbestellungen führen."
+      ]
+    },
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      [
+        "Wie oft sollten Studiostangen gereinigt werden?",
+        "Legen Sie den Rhythmus aus Nutzung, Magnesia, Schweiß, Feuchte und Befund fest. Die Modellanleitung geht vor."
+      ],
+      [
+        "Ist eine Stahlbürste immer geeignet?",
+        "Nein. Die Oberfläche entscheidet. Nylon oder Synthetik ist oft der schonendere Ausgangspunkt, bleibt aber freigabepflichtig."
+      ],
+      [
+        "Darf Öl direkt aufgesprüht werden?",
+        "Nicht ohne ausdrückliche Modellvorgabe. Zugelassenes Mittel wird kontrolliert am Tuch verwendet und überschüssiges entfernt."
+      ],
+      [
+        "Darf Studiopersonal die Hülsen öffnen?",
+        "Nur mit Freigabe in der Anleitung und qualifizierter Person. Sonst sperren und Lieferantenrat einholen."
+      ],
+      [
+        "Welche Unterlagen sollte ein OEM-Werk liefern?",
+        "Finishangaben, verträgliche Mittel, Servicegrenzen, Prüfpunkte, Ersatzteilregel und ein revisionsgeführtes Pflegeblatt."
+      ]
+    ],
+    "linkHeading": "Olympiastangen weiter prüfen",
+    "linkLabels": [
+      "Kaufratgeber für gewerbliche Olympiastangen",
+      "Oberflächen und Beschichtungen",
+      "Buchsen, Lager und Hülsenlauf",
+      "Geradheit und Hülsenrundlauf",
+      "Hülsensicherung und Endkappen",
+      "Prüfung vor dem Versand",
+      "Pflegespezifikation besprechen"
+    ],
+    "imageAlt": "Gerade unbeladene Olympiastange ohne Marke auf gepolsterten Auflagen mit Bürste, Tuch und leerem Wartungsblatt",
+    "imageCaption": "Konzeptionelle Pflegeszene mit trockenen Werkzeugen und vollständig sichtbaren leeren Hülsen.",
+    "cta": [
+      "Stange und Pflegeunterlagen gemeinsam freigeben",
+      "Senden Sie ChinaFreeWeight Umgebung, Produktstand, Finish und Servicebedarf für OEM, ODM, Custom Logo, Private Label oder Bulk Supply.",
+      "Spezifikation prüfen lassen"
+    ]
+  }
+]

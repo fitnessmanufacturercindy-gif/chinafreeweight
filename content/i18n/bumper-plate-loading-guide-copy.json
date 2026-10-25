@@ -1,0 +1,218 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/bumper-plate-thickness-sleeve-capacity-guide",
+    "title": "Bumper Plate Thickness & Sleeve Capacity: Buyer Guide",
+    "description": "Calculate bumper plate loading capacity from sleeve length, plate width, collar space and the planned weight mix, then inspect a bulk order.",
+    "h1": "How to Calculate Bumper Plate Capacity from Plate Thickness",
+    "keyword": "bumper plate thickness and barbell sleeve capacity",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Bumper plate range planning and width inspection",
+    "sections": [
+      {
+        "heading": "The answer starts with usable sleeve length, not a plate count",
+        "text": "There is no universal answer to how many bumper plates fit on a bar. Calculate each side separately: usable length equals the bar's stated loadable sleeve length minus the space required by the selected collar and any agreed clearance. The sum of the actual finished widths of every plate on that side must stay within that usable length. For a repeated single denomination, divide the usable length by its maximum accepted finished width and round down; for a mixed stack, add each plate width in loading order.\n\nDo this calculation for the exact bar, collar and plate models in the project. A catalogue photo, the phrase Olympic size and the nominal weight do not reveal loadable length or disc width. PowerBaseFit can review a model-specific loading plan for OEM, ODM, custom-logo, private-label and bulk-supply enquiries before the set and packaging are confirmed."
+      },
+      {
+        "heading": "Four measurements define the loading envelope",
+        "text": "Loadable sleeve length is the straight cylindrical area available between the sleeve flange and the outer end; it should not be confused with total sleeve length. Plate width is the finished axial distance between the two outer faces, measured at defined points. Collar space is the axial length the chosen lock needs to grip securely. Clearance is any extra margin the buyer deliberately reserves for loading, removal or a recessed hub arrangement.\n\nRecord units and measurement datums on the product sheet. Measure both sleeves because a short bar, women's bar, specialty bar or compact training bar can have a different envelope from a full-length men's bar. The result is a geometric fit calculation, not permission to exceed the bar manufacturer's rated use or to drop a combination that the plate supplier excludes."
+      },
+      {
+        "heading": "Build capacity around the heaviest session the facility actually plans",
+        "text": "A gym does not load a sleeve with one catalogue plate repeated forever. Create representative stacks for the facility: an Olympic-lifting set, a strength set, a teaching set and any event or team configuration. Put the large plates first in the expected order, include change plates when they matter and preserve left-right symmetry. Compare the mass reached before the geometric limit with the programme's realistic top working load.\n\nThis exposes two different purchasing risks. A very thick range can run out of sleeve space before stronger users reach the intended load. An ultra-thin premium range may spend budget on capacity most members never use. The right decision is the lowest-cost, serviceable range that still covers planned sessions, handling rules, replacement stock and future expansion."
+      },
+      {
+        "heading": "Competition dimensions are a reference only when competition is the requirement",
+        "text": "The [IWF 2025 Technical and Competition Rules](https://iwf.sport/wp-content/uploads/downloads/2025/05/IWF-TCRR-2025-as-of-01-June-2025.pdf) list maximum widths for competition discs by denomination and different sleeve lengths for the men's and women's competition bars. Those figures make clear that plate width is denomination-specific and that bar geometry changes the calculation. They do not turn every black or coloured training plate into IWF equipment.\n\nOfficial product sheets also show why buyers must name the model. A full-length bar can publish a substantially longer loadable sleeve than a compact or specialty bar, while plate families publish different widths for each weight. Use such documents to understand the method, then calculate from the confirmed PowerBaseFit drawing or the buyer's approved third-party equipment data."
+      },
+      {
+        "heading": "Thinner is useful only after durability, handling and drop use are defined",
+        "text": "Plate width comes from material, density, hub construction, face geometry and the demands of each denomination. Making a light full-diameter bumper thinner can leave less material to resist bending; some manufacturers therefore restrict dropping light plates alone or use a smaller technique-plate diameter. A thick crumb-rubber model can damp sound differently and use more sleeve space. Neither profile is automatically better.\n\nAsk what use is permitted for every denomination, especially the lightest disc in the range. Review the floor and platform, bar, loading order, storage and user rules together. Do not infer durability, rebound or noise from width alone, and do not mix metal and bumper discs in a dropped setup unless the relevant manufacturers explicitly allow that configuration."
+      },
+      {
+        "heading": "Lock the width table before branding or assortment changes",
+        "text": "The RFQ should request finished width by denomination, the tolerance or maximum acceptance value, the measuring locations, loadable sleeve length for the paired bar, collar model, permitted use and a drawing of the hub and faces. Add a capacity worksheet for the buyer's critical stacks. A sample approval should confirm actual fit on the intended bar with the intended collar, not just one disc sliding over one sleeve.\n\nCustom logos, moulded lettering, colour bands and private-label face designs can change mould surfaces or hub details. ODM changes to material or profile can change width more directly. Treat the whole approved range as a controlled system: update the table, recalculate capacity and reapprove affected samples whenever construction changes."
+      },
+      {
+        "heading": "Inspect width as a stack, not only as isolated pieces",
+        "text": "During production inspection, sample every denomination across mould positions, production runs and cartons. Check identity, mass, diameter, centre fit, face condition, flatness and axial width at several positions. Record individual results, but also assemble representative stacks on a gauge sleeve or approved bar. A series of parts near one allowed limit can consume more space than the nominal table suggests.\n\nThe assembled check should confirm full face contact, no rocking, a usable collar grip and enough removal access. Packaging must keep faces and inserts from being deformed or damaged in transit. At receiving, repeat the critical stack before the range enters service. If the loading envelope fails, resolve the product or documentation discrepancy rather than omitting the collar or accepting an unstable stack."
+      }
+    ],
+    "table": {
+      "heading": "Loading-capacity worksheet for an RFQ",
+      "columns": ["Input", "Buyer records", "Decision it controls"],
+      "rows": [
+        ["Bar", "Model and loadable length for each sleeve", "Starting geometric envelope"],
+        ["Collar", "Model, gripping length and required engagement", "Length that cannot be occupied by plates"],
+        ["Plates", "Finished width and accepted limit for every denomination", "Space used by the planned stack"],
+        ["Use", "Critical lifts, top planned stack, floor and drop rules", "Whether the configuration is relevant and permitted"],
+        ["Approval", "Drawing revision, samples and assembled-fit record", "Reference for bulk inspection and reorders"],
+        ["Change control", "Material, hub, face, marking and mould revisions", "Triggers a new capacity calculation"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Plate-width and sleeve-capacity inspection checklist",
+      "items": [
+        "Name the exact bar, collar and plate family",
+        "Record loadable length on both sleeves",
+        "Reserve the collar's real gripping space",
+        "List finished width by every weight denomination",
+        "Calculate mixed stacks, not only repeated heavy plates",
+        "Confirm permitted use for the lightest full-diameter plates",
+        "Approve the entire range on a representative bar",
+        "Measure width at several face positions",
+        "Assemble critical stacks from multiple production samples",
+        "Recalculate after material, hub, mould or face changes",
+        "Protect faces and inserts during export packing"
+      ]
+    },
+    "faqHeading": "Frequently Asked Questions About Bumper Plate Thickness",
+    "faq": [
+      ["How many bumper plates fit on an Olympic bar?", "It depends on the specific bar's loadable sleeve length, the chosen collar and the finished widths of the plates in the planned stack. Calculate each side from model-specific data."],
+      ["How do I calculate capacity for identical plates?", "Subtract collar space and the agreed clearance from loadable sleeve length, divide by the plate's maximum accepted width and round down. Then verify the assembled stack physically."],
+      ["Are competition bumper plates always thinner?", "Competition-oriented families often control width closely, but the applicable rule and product sheet decide. A marketing label alone does not guarantee a particular profile."],
+      ["Is the thinnest bumper plate the best choice?", "No. Extra capacity helps only when the programme needs it. Material, denomination, durability, handling, drop conditions, cost and replacement availability remain part of the decision."],
+      ["Can I mix bumper and iron plates to save sleeve space?", "Do not assume that a mixed stack may be dropped. Different diameters and constructions change how impact is shared; follow the bar, plate, platform and facility instructions."],
+      ["What should a supplier include in the width specification?", "Ask for finished width by denomination, acceptance limits, measurement points, hub drawing, permitted use, matching bar data and an assembled-fit approval method."],
+      ["Can PowerBaseFit develop a thinner private-label plate?", "PowerBaseFit can review material, profile, hub, mould, branding and loading goals for an OEM or ODM project. Feasibility, samples, quantities and validation depend on the selected construction."]
+    ],
+    "linkHeading": "Complete the plate-and-bar specification",
+    "linkLabels": ["Browse commercial weight plates", "Choose training or competition plates", "Check plate-hole and sleeve fit", "Select the complete Olympic bar", "Understand bumper plate manufacturing", "Approve an OEM sample", "Plan pre-shipment inspection", "Send the loading plan"],
+    "imageCopy": [
+      ["Unbranded bumper plates of different thickness beside an Olympic bar sleeve", "Compare the full plate range with the actual loadable sleeve, not a generic plate count."],
+      ["Bumper plate widths aligned for a commercial equipment inspection", "Finished width must be recorded by denomination and checked at more than one point."],
+      ["Bulk bumper plate samples and a bar sleeve prepared for fit review", "An assembled critical stack reveals cumulative width before shipment."]
+    ],
+    "cta": ["Check your critical stack before ordering", "Send the bar model, sleeve length, collar, plate range, top planned loads, branding and destination. We will review the sample and inspection inputs for the selected construction.", "Request a factory review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/espessura-anilha-bumper-capacidade-barra",
+    "title": "Espessura da Anilha Bumper e Capacidade da Barra",
+    "description": "Calcule quantas anilhas cabem pela parte carregável, espessura por peso, presilha e composição do treino; depois inspecione o lote.",
+    "h1": "Como Calcular a Capacidade da Barra pela Espessura das Anilhas",
+    "keyword": "espessura de anilha bumper e capacidade da barra",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "Planejamento de anilhas e verificação de espessura",
+    "sections": [
+      {
+        "heading": "Resposta direta: transforme milímetros em uma composição real",
+        "text": "Não existe um número único de anilhas bumper que caiba em toda barra olímpica. Em cada lado, subtraia do comprimento carregável da manga o espaço necessário para a presilha e a folga aprovada. A soma das espessuras acabadas das anilhas escolhidas precisa ficar dentro do saldo. Se a composição repetir um único peso, divida esse saldo pela espessura máxima aceita da anilha e arredonde para baixo.\n\nO cálculo deve usar a barra, a presilha e a linha de anilhas do projeto. O termo olímpico indica uma família de interface, mas não informa sozinho o comprimento útil. A PowerBaseFit pode revisar a composição para fornecimento em volume, OEM, ODM, marca própria e logo personalizado antes da aprovação das amostras."
+      },
+      {
+        "heading": "Comprimento carregável e espessura precisam do mesmo critério de medição",
+        "text": "O comprimento carregável é a parte cilíndrica disponível entre o batente da manga e a extremidade; não é necessariamente o comprimento total da manga. A espessura é a distância axial entre as duas faces acabadas da anilha. A presilha ocupa parte dessa região para segurar a carga, e a folga operacional facilita colocar e retirar as peças.\n\nRegistre a unidade, o ponto de referência e a medição dos dois lados da barra. Barras femininas, curtas, técnicas ou especiais podem oferecer outra capacidade. O encaixe geométrico também não autoriza ultrapassar a carga ou o modo de uso declarado pelo fabricante."
+      },
+      {
+        "heading": "No Brasil, calcule o conjunto em kg e confira linhas importadas em lb",
+        "text": "Academias, boxes, clubes e distribuidores trabalham principalmente com quilos, mas linhas em libras também aparecem no varejo e em projetos importados. Não misture espessuras presumindo equivalência entre 20 kg e 45 lb. Monte uma planilha por SKU, unidade nominal e largura acabada, mantendo os pares simétricos.\n\nCrie composições para LPO, treinamento funcional, força geral e iniciação. A capacidade deve cobrir a carga máxima planejada sem comprar uma linha fina e cara que não traz benefício para o público real. Estoque de reposição e identificação rápida por peso também entram na decisão."
+      },
+      {
+        "heading": "Anilha mais fina não é automaticamente mais resistente",
+        "text": "Material, densidade, miolo, formato da face e peso determinam a espessura possível. Uma anilha leve com diâmetro cheio tem menos seção para resistir à flexão; alguns modelos não devem ser soltos sozinhos. Linhas de borracha granulada costumam ocupar mais manga e podem ter outro comportamento de ruído.\n\nConfirme o uso permitido de cada peso, o piso, a plataforma e a ordem de carregamento. Espessura não prova durabilidade, rebote ou proteção do piso. A decisão comercial deve equilibrar capacidade, manutenção, experiência do aluno, preço posto e facilidade de recomprar o mesmo perfil."
+      },
+      {
+        "heading": "Use regras de competição apenas quando o projeto exigir",
+        "text": "O regulamento técnico da IWF de 2025 define larguras máximas por peso para discos de competição e mangas de comprimentos diferentes nas barras masculina e feminina. Isso confirma que o cálculo depende da denominação e da barra. Não significa que toda anilha colorida vendida para treino seja equipamento homologado.\n\nQuando competição for requisito, cite a edição aplicável e peça evidência do modelo. Para academias comuns, use a ficha e a amostra da linha escolhida. Uma barra compacta para aula coletiva pode oferecer muito menos espaço que uma barra olímpica de comprimento integral."
+      },
+      {
+        "heading": "Aprove amostra com presilha e pilha crítica",
+        "text": "O pedido de cotação deve trazer espessura por peso, limite aceito, pontos de medição, desenho do miolo e da face, manga carregável da barra parceira, presilha e uso permitido. Na amostra, instale a composição mais exigente, confirme contato entre faces, espaço de aperto e remoção sem dificuldade. Fotografe a montagem lateral, identifique a revisão do desenho e registre o instrumento utilizado. Esses dados tornam a aprovação comparável na produção e na recompra, mesmo quando o comprador muda a quantidade de pares por kit.\n\nLogo moldado, faixa de cor, gravação e embalagem de marca própria podem alterar molde ou desenho da face. Mudanças ODM de material ou perfil afetam diretamente a largura. Recalcule e reaprove qualquer SKU afetado em vez de reutilizar dados de uma versão anterior. A embalagem também deve impedir compressão permanente das faces durante armazenamento e transporte, pois uma peça deformada pode ocupar o espaço de forma irregular mesmo quando a espessura média parece correta."
+      },
+      {
+        "heading": "Na inspeção, a soma do lote importa tanto quanto cada peça",
+        "text": "Meça pesos leves, médios e pesados de diferentes posições de molde, turnos e caixas. Verifique massa, diâmetro, furo, planicidade, face, miolo e espessura em vários pontos. Depois monte pilhas críticas usando peças de produção; pequenas variações na mesma direção podem consumir a margem de montagem.\n\nA presilha deve prender na manga, não na borda de uma anilha. O conjunto não deve balançar por faces deformadas. Proteja faces e inserts na embalagem de exportação e repita a montagem no recebimento. Divergência de capacidade é motivo para corrigir produto ou documento, não para operar sem trava."
+      }
+    ],
+    "table": {
+      "heading": "Planilha de capacidade para cotação",
+      "columns": ["Entrada", "O que registrar", "Decisão"],
+      "rows": [
+        ["Barra", "Modelo e comprimento carregável por lado", "Espaço geométrico inicial"],
+        ["Presilha", "Modelo e comprimento real de aperto", "Área reservada fora das anilhas"],
+        ["Anilhas", "Espessura acabada e limite por peso", "Consumo da composição"],
+        ["Treino", "Pilha mais pesada, piso e regra de soltura", "Uso relevante e permitido"],
+        ["Aprovação", "Revisão do desenho, amostras e montagem", "Referência do lote e recompra"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Checklist de espessura e capacidade",
+      "items": ["Identificar barra, presilha e linha de anilhas", "Medir os dois lados da manga", "Reservar o aperto real da presilha", "Listar espessura por kg ou lb", "Somar composições mistas de treino", "Confirmar uso dos pesos mais leves", "Aprovar a linha completa na barra", "Medir cada face em mais de um ponto", "Montar a pilha crítica com peças do lote", "Recalcular após mudança de material, miolo ou molde", "Proteger faces e inserts no transporte"]
+    },
+    "faqHeading": "Perguntas sobre Espessura de Anilhas Bumper",
+    "faq": [
+      ["Quantas anilhas bumper cabem na barra olímpica?", "Depende do comprimento carregável da barra, da presilha e das espessuras acabadas na composição escolhida. Calcule por lado e valide a montagem."],
+      ["Como calcular quando todas as anilhas são iguais?", "Subtraia presilha e folga do comprimento útil, divida pela espessura máxima aceita da anilha e arredonde para baixo."],
+      ["20 kg e 45 lb têm a mesma espessura?", "Não é seguro presumir. São denominações e projetos diferentes; use a ficha de cada SKU."],
+      ["Anilha de competição sempre ocupa menos espaço?", "Muitos modelos têm perfil controlado, mas a classificação comercial não garante largura ou homologação. Confirme regra, ficha e amostra."],
+      ["Posso misturar ferro e bumper para ganhar espaço?", "Não suponha que a mistura possa ser solta. Diâmetros e construções diferentes mudam a distribuição do impacto; siga as instruções do sistema."],
+      ["Como inspecionar a espessura no lote?", "Meça vários pontos e peças de cada peso, depois monte a composição crítica com amostras de produção."],
+      ["A PowerBaseFit desenvolve perfil mais fino?", "Podemos avaliar material, miolo, molde, marca e objetivo de carga. Viabilidade, amostra, quantidade e validação dependem da construção escolhida."]
+    ],
+    "linkHeading": "Feche a especificação de anilhas e barra",
+    "linkLabels": ["Ver anilhas para uso comercial", "Comparar treino e competição", "Confirmar furo e manga", "Escolher a barra olímpica", "Entender a fabricação bumper", "Aprovar amostra OEM", "Planejar inspeção pré-embarque", "Enviar a composição"],
+    "imageCopy": [["Anilhas bumper sem marca em espessuras diferentes ao lado de uma manga olímpica", "Compare cada SKU com a barra e a presilha realmente escolhidas."], ["Perfis finos e largos de anilhas alinhados em uma mesa de amostras", "A espessura acabada deve ser medida por peso e por ponto."], ["Amostras de anilhas e barra preparadas para análise de capacidade", "A montagem crítica mostra o acúmulo de largura antes do embarque."]],
+    "cta": ["Valide a composição mais pesada", "Envie modelo da barra, comprimento da manga, presilha, pesos, cargas planejadas, marca e destino. Revisaremos os dados de amostra e inspeção para a construção escolhida.", "Pedir revisão da fábrica"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/grosor-disco-bumper-capacidad-barra",
+    "title": "Grosor del Disco Bumper y Capacidad de la Barra",
+    "description": "Calcule cuántos discos caben según manguito cargable, grosor por peso, cierre y combinación prevista; después inspeccione el lote.",
+    "h1": "Cómo Calcular la Capacidad de la Barra con el Grosor del Disco",
+    "keyword": "grosor de disco bumper y capacidad de barra",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "Planificación de discos y control de anchura",
+    "sections": [
+      {
+        "heading": "Primero calcule el espacio útil de cada manguito",
+        "text": "La pregunta cuántos discos bumper caben en una barra no tiene una cifra universal. Reste al largo cargable del manguito el espacio que necesita el cierre y la holgura acordada. La suma de los grosores acabados de la combinación prevista debe quedar dentro del resultado. Para repetir un solo peso, divida por su grosor máximo aceptado y redondee hacia abajo.\n\nUse las referencias exactas de barra, cierre y discos. Olímpico no define por sí solo la longitud disponible. PowerBaseFit puede revisar esta hoja para compras al por mayor, OEM, ODM, marca privada y logo personalizado antes de fijar muestras y embalaje."
+      },
+      {
+        "heading": "Defina dónde empieza y termina cada medida",
+        "text": "El largo cargable es el tramo cilíndrico entre el tope interior del manguito y su extremo exterior, no todo el conjunto giratorio. El grosor del disco es la distancia axial entre las caras terminadas. El cierre precisa una longitud real para sujetar y la holgura facilita carga y retirada.\n\nIndique unidades, puntos de apoyo y tolerancias. Mida los dos lados. Una barra femenina, corta o especial puede ofrecer otra envolvente que una barra masculina de longitud completa. El resultado geométrico tampoco sustituye el límite de uso o carga del fabricante."
+      },
+      {
+        "heading": "La combinación crítica vale más que una cifra de catálogo",
+        "text": "Prepare configuraciones representativas para halterofilia, fuerza general, iniciación y cualquier evento del centro. Ordene los discos como se usarán, incluya fraccionales cuando corresponda y mantenga simetría. Compare la masa alcanzable antes de agotar el manguito con la carga superior que el programa realmente necesita.\n\nAsí se evita comprar un perfil tan ancho que limite a los usuarios fuertes o pagar por discos ultrafinos cuando nadie necesita esa capacidad. Para un distribuidor español también importan el surtido en kg, la reposición por referencia, el almacenaje y la explicación clara de qué pesos ligeros pueden soltarse."
+      },
+      {
+        "heading": "El perfil fino tiene contrapartidas técnicas",
+        "text": "Material, densidad, núcleo, geometría de cara y denominación condicionan el grosor. Un bumper ligero de diámetro completo y muy fino puede tener poca sección frente a la flexión; ciertos fabricantes limitan su uso en solitario. Un compuesto granulado más ancho puede amortiguar de otra manera, pero ocupar más manguito.\n\nNo deduzca durabilidad, ruido o rebote solo por la anchura. Revise piso, plataforma, barra, orden de carga y mantenimiento. Si se plantea mezclar discos metálicos y bumper en una barra que se soltará, exija autorización expresa de los fabricantes implicados."
+      },
+      {
+        "heading": "Una norma de competición no describe todo el mercado",
+        "text": "Las reglas técnicas IWF de 2025 publican anchos máximos por denominación para discos de competición y longitudes de manguito distintas para las barras masculina y femenina. Sirven para demostrar que se necesita una tabla completa, no para atribuir conformidad a un disco de entrenamiento por su color.\n\nCuando el comprador requiere competición, debe identificar la edición vigente y la aprobación aplicable. Para un gimnasio comercial, mandan la ficha, el uso autorizado y la muestra del modelo. Las barras compactas de clases o espacios pequeños requieren un cálculo separado."
+      },
+      {
+        "heading": "Cierre la tabla antes de cambiar caras o marca",
+        "text": "La solicitud de oferta debe pedir grosor acabado por peso, límite de aceptación, puntos de medición, diseño del inserto y caras, longitud cargable de la barra asociada, cierre y uso permitido. Apruebe físicamente la combinación más exigente con suficiente zona de agarre del cierre. Registre el instrumento, la revisión del plano y una vista lateral del montaje. Así, producción y compras pueden comparar el mismo criterio cuando cambia el número de pares por kit o se repite el pedido meses después.\n\nRelieves, logos moldeados, bandas de color y diseños de marca privada pueden modificar la cara o el molde. Un desarrollo ODM de material o perfil afecta la anchura de forma directa. Recalcule los pesos afectados y no copie datos de una versión anterior. También confirme que el embalaje no comprima ni deforme las caras durante el transporte, porque una pieza alabeada puede consumir espacio de manera irregular aunque el promedio de grosor parezca correcto."
+      },
+      {
+        "heading": "Controle la acumulación de tolerancias en producción",
+        "text": "Tome muestras de cada peso, posición de molde, tanda y caja. Revise masa, diámetro, agujero, planitud, superficie, inserto y grosor en varios puntos. Después monte pilas críticas con piezas del lote: una serie de discos cerca del mismo límite puede consumir más espacio que la medida nominal. Conserve los resultados por número de lote y denominación para detectar desplazamientos del proceso antes de que afecten a todo el surtido.\n\nLas caras deben apoyar sin balanceo y el cierre debe sujetar sobre el manguito. El embalaje de exportación protege superficies e insertos. Repita la comprobación a la recepción y use la misma barra de referencia o un calibre documentado. Si la capacidad no coincide, corrija la referencia o la documentación en lugar de prescindir del cierre."
+      }
+    ],
+    "table": {
+      "heading": "Datos para calcular la capacidad",
+      "columns": ["Dato", "Qué debe constar", "Qué decide"],
+      "rows": [["Barra", "Modelo y largo cargable por lado", "Envolvente disponible"], ["Cierre", "Modelo y longitud de agarre", "Espacio reservado"], ["Discos", "Grosor terminado y límite por peso", "Espacio de la combinación"], ["Uso", "Carga crítica, suelo y reglas de caída", "Validez de la configuración"], ["Aprobación", "Planos, muestras y montaje", "Referencia de lote y reposición"], ["Cambios", "Material, inserto, cara y molde", "Necesidad de recalcular"]]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Lista de control de grosor y carga",
+      "items": ["Identificar barra, cierre y familia de discos", "Medir ambos manguitos", "Reservar el agarre real del cierre", "Registrar grosor por cada peso", "Sumar combinaciones mixtas", "Confirmar el uso de los discos ligeros", "Aprobar toda la gama en una barra representativa", "Medir las caras en varios puntos", "Montar la pila crítica con piezas de producción", "Recalcular tras cambios de material, inserto o molde", "Proteger caras e insertos en el embalaje"]
+    },
+    "faqHeading": "Preguntas sobre el Grosor de Discos Bumper",
+    "faq": [["¿Cuántos discos bumper caben en una barra olímpica?", "Depende del largo cargable del modelo, del cierre y del grosor de cada disco en la combinación. Calcule por lado y verifique el montaje."], ["¿Cómo se calcula con discos iguales?", "Reste cierre y holgura al largo cargable, divida por el grosor máximo aceptado y redondee hacia abajo."], ["¿Un disco de competición siempre es más fino?", "Puede tener un perfil más controlado, pero la etiqueta no garantiza anchura ni homologación. Consulte norma, ficha y muestra."], ["¿Conviene elegir el bumper más fino?", "Solo si la capacidad adicional es necesaria. Durabilidad, manejo, uso de cada peso, coste y reposición también cuentan."], ["¿Se pueden mezclar discos bumper y hierro?", "No presuponga que una combinación mixta se puede soltar. Distintos diámetros y construcciones cambian el reparto del impacto."], ["¿Cómo se inspecciona un lote?", "Mida varios puntos y unidades por peso y monte la combinación crítica con muestras de producción."], ["¿PowerBaseFit puede fabricar un perfil más fino?", "Podemos revisar material, inserto, molde, marca y objetivo de carga. La viabilidad y validación dependen del diseño elegido."]],
+    "linkHeading": "Complete la especificación de discos y barra",
+    "linkLabels": ["Ver discos para uso comercial", "Elegir entrenamiento o competición", "Comprobar agujero y manguito", "Seleccionar la barra olímpica", "Conocer la fabricación bumper", "Aprobar una muestra OEM", "Preparar la inspección preembarque", "Enviar la configuración"],
+    "imageCopy": [["Discos bumper sin marca de distintos grosores junto a un manguito olímpico", "Calcule con los modelos exactos de barra, cierre y discos."], ["Muestras de discos alineadas por anchura en una mesa de compra", "Cada denominación necesita su propio dato de grosor acabado."], ["Discos y manguito preparados para comprobar una combinación crítica", "El montaje revela la acumulación de anchura antes del envío."]],
+    "cta": ["Compruebe la combinación crítica antes de comprar", "Envíe modelo de barra, largo de manguito, cierre, gama, cargas previstas, marca y destino. Revisaremos la muestra y los controles del diseño seleccionado.", "Solicitar revisión de fábrica"]
+  }
+]

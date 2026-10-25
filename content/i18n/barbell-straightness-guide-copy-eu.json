@@ -1,0 +1,469 @@
+[
+  {
+    "locale": "de",
+    "path": "/de/blog/olympia-langhantel-geradheit-huelsen-spiel-pruefen",
+    "title": "Langhantel-Geradheit und Hülsenspiel richtig prüfen",
+    "description": "So unterscheiden Einkäufer Schaftkrümmung, Rundlauf, Hülsenspiel und Rotation und legen messbare Prüfungen für OEM-Olympiastangen fest.",
+    "h1": "Geradheit und Hülsenspiel bei Olympiastangen prüfen",
+    "keyword": "Olympiastange Geradheit Rundlauf Hülsenspiel prüfen",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "ChinaFreeWeight · Werksleitfaden für Olympiastangen",
+    "sections": [
+      {
+        "heading": "Kurzantwort für Einkauf und Wareneingang",
+        "text": "Eine Stange darf sich unter Last elastisch verformen und danach zurückkehren; das ist nicht dasselbe wie ein dauerhaft gekrümmter Schaft. Auch leichtes Hülsenspiel beweist für sich allein keinen verbogenen Schaft. Im Wareneingang sind Schaftgeradheit, radialer Rundlauf, axiales oder radiales Hülsenspiel und die Qualität der Hülsenrotation getrennt zu bewerten. Für jeden Punkt gehören Auflage, Messstelle und Grenzwert in Zeichnung oder Bestellung.\n\nDas Rollen auf einem vermeintlich ebenen Boden ist nur eine Vorauswahl. Rändelung und unabhängig drehende Hülsen verändern die Beobachtung, und der Untergrund kann selbst uneben sein. Bei OEM-, ODM-, Eigenmarken- oder Großhandelsaufträgen sollte deshalb ein seriennahes Freigabemuster mit dokumentiertem Messaufbau vorliegen."
+      },
+      {
+        "heading": "Begriffe sauber trennen",
+        "text": "Geradheit beschreibt die Achse des unbelasteten Schafts in einer definierten Lagerung. Beim radialen Rundlauf wird die Anzeige über eine volle Umdrehung verfolgt; der Gesamtanzeigewert ist die Differenz zwischen höchster und niedrigster Anzeige. Radiales Spiel wirkt quer, axiales Spiel längs der Achse. Rotation beschreibt Gleichmäßigkeit, Reibung, Geräusch und Auslaufverhalten der Hülse.\n\nEin gerader Schaft kann mit einer exzentrischen Hülse montiert sein. Gleitlager und Nadellager fühlen sich nicht gleich an. Schmutz, eingedicktes Schmiermittel oder Feuchtigkeit können die Rotation beeinträchtigen, ohne den Stahl zu krümmen. Ein Spin-Video ersetzt daher weder eine Rundlaufmessung noch die Kontrolle der Sicherungsteile."
+      },
+      {
+        "heading": "Rundlauf reproduzierbar messen",
+        "text": "Die identifizierte Stange wird unbelastet, gereinigt und unter stabilen Bedingungen geprüft. Sie liegt an vereinbarten glatten Zonen oder in einer freigegebenen Rollenvorrichtung, sodass sie langsam drehen kann, ohne seitlich zu wandern. Die Messuhr sitzt steif; ihr Taster steht möglichst normal zur Oberfläche, wird passend vorgespannt und genullt. Nach einer vollen Drehung werden Maximum, Minimum, Gesamtweg, Mess- und Auflageposition, Geräteauflösung, Charge und Stangennummer notiert.\n\nAuffällige Werte werden nach Reinigen und erneutem Auflegen wiederholt. Wenn die Zeichnung es verlangt, folgen Messungen in der Mitte und nahe beiden Hülsen. Einen allgemeinen Grenzwert für alle Olympiastangen gibt es nicht: Der akzeptierte Wert muss zur Konstruktion und zum Messaufbau im Auftrag gehören. Nur so kann ein unabhängiger Prüfer das Werksergebnis nachvollziehen."
+      },
+      {
+        "heading": "Wareneingang zuerst am Packstück beginnen",
+        "text": "Vor dem Auspacken werden Rohr, Karton, Endpolster, Kennzeichnung und Stoßspuren fotografiert. Danach folgen Hülsenenden, Bünde, Schaft, Sicherungsringe oder Endkappen, Oberfläche und Übergänge der Rändelung. Eine versetzte Hülse, ein angeschlagenes Ende, Schleifgeräusche oder ein deutlicher Hochpunkt sind Gründe, die Stange vor der Nutzung zu sperren.\n\nIst ein Rolltest vereinbart, muss er auf derselben geprüften, sauberen Referenzfläche und aus einer festen Blickrichtung erfolgen. Er zeigt Kandidaten für die Messuhr, gibt aber den Auftrag nicht allein frei. Packstück- und Stangenidentität bleiben erhalten, damit Transportstoß und Fertigungsabweichung nicht vermischt werden."
+      },
+      {
+        "heading": "Hülsenbewegung konstruktionsbezogen bewerten",
+        "text": "Beide Hülsen werden unbelastet mit derselben Handkraft verglichen. Zu beobachten sind radiale Bewegung, Axialweg, Verhalten des Bundes, gleichmäßige Rotation, ungewöhnliche Reibung, Geräusch und Sitz der Sicherung. Lange Nachlaufzeit ist weder Tragfähigkeits- noch Lebensdauernachweis.\n\nFür die Serienfreigabe werden Lagerprinzip, Bauteilstand, Schmierstoff, Sicherung und Wartungszugang festgehalten. Bei einer Beanstandung helfen ein Video aus fester Kameraposition und ein Messwert an der vereinbarten Zone. So lassen sich Schaftrundlauf, Hülsenexzentrizität, konstruktives Spiel, lose Sicherung und rein optische Endkappenbewegung unterscheiden."
+      },
+      {
+        "heading": "Muster, Serie und Nachbestellung verbinden",
+        "text": "Das Grenzmuster muss Werkstoffroute, Wärmebehandlung, Bearbeitung, Beschichtung, Hülsenmontage und Verpackung der Bestellung abbilden. Neben Optik werden seine Messwerte gespeichert. In der Serie sollte die Auswahl verschiedene Bearbeitungszeiten, Montageplätze und Kartons abdecken. Bei neuer Konstruktion oder Prozessänderung wird ein größerer Prüfumfang vorab vereinbart.\n\nFür Nachbestellungen bleiben Zeichnungsstand, Vorrichtung, Auflösung, Messblatt, Stückliste, Logo-Freigabe und Verpackungsangabe erhalten. Eigenmarkenkennzeichnungen dürfen Mess- oder Wartungszonen nicht verdecken und werden eindeutig mit SKU und Revision verknüpft. ChinaFreeWeight prüft als Fabrik OEM- und ODM-Vorgaben modellbezogen, nicht mit einer pauschalen Zahl für jede Stange."
+      },
+      {
+        "heading": "Transport- und Nutzungsschäden vorbeugen",
+        "text": "Bei einer langen, dichten Stange sind die Enden besondere Stoßpunkte. Rohr oder Karton müssen den Schaft halten, beide Hülsen entlasten und ausreichend Endabstand vorsehen. Innere Auflagen, Feuchteschutz, Etikett, Palettenlage und Handhabungsrichtung werden an die Route angepasst. Änderungen an Schaum, Stopfen, Karton oder Palettenbild verlangen eine erneute Bewertung des verpackten Musters.\n\nIm Studio werden Stangen unbelastet in geeigneten horizontalen oder vertikalen Haltern gelagert. Das Fallenlassen einer leeren Stange, Schläge auf Bank oder Sicherheitsablage, langes Lagern unter Last und ungeeignete Böden können Schäden verursachen. Daher wird der Anlieferzustand vor Inbetriebnahme dokumentiert und späterer Verschleiß separat geführt."
+      }
+    ],
+    "table": {
+      "heading": "Prüfrahmen für Schaft und Hülse",
+      "columns": ["Prüfpunkt", "Festzulegender Ablauf", "Nachweis"],
+      "rows": [
+        ["Schaftgeradheit/Rundlauf", "Auflagen, Messpunkt, Drehung und Grenzwert", "Maximum, Minimum und Gesamtanzeige je Stange"],
+        ["Radiales Hülsenspiel", "Bezugszone und Handkraft", "Vergleich links/rechts"],
+        ["Axiales Hülsenspiel", "Richtung, Kraft und Endlage", "Ergebnis zur freigegebenen Montage"],
+        ["Hülsenrotation", "Unbelastete und freigegebene Funktionsprüfung", "Lauf, Reibung, Geräusch, Sicherung"],
+        ["Transportschaden", "Beleuchtung und Öffnungsfolge", "Datierte Bilder mit Packstückbezug"],
+        ["Abweichungsentscheidung", "Sperren, wiederholen, prüfen, freigeben", "Rückverfolgbare Disposition"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Checkliste für den Wareneingang",
+      "items": [
+        "Modell, Bestellung, Karton und Revision abgleichen.",
+        "Rohr, Endschutz und Stoßspuren vor dem Öffnen fotografieren.",
+        "Enden, Hülsen, Bünde, Schaft, Sicherung und Oberfläche prüfen.",
+        "Stange unbelastet halten und Auflage- sowie Kontaktzonen reinigen.",
+        "Vereinbarte Vorrichtung, Messstelle und Auflösung verwenden.",
+        "Maximum, Minimum und Gesamtanzeige dokumentieren.",
+        "Radialspiel, Axialspiel, Rotation und Geräusch beider Seiten vergleichen.",
+        "Auffällige Messung nach erneutem Auflegen wiederholen.",
+        "Stoßschaden oder ungewöhnliche Bewegung vor Nutzung sperren.",
+        "Messdaten, Bilder und Entscheidung für Nachbestellungen archivieren."
+      ]
+    },
+    "faq": [
+      ["Wie erkennt man eine verbogene Olympiastange?", "Ein Rolltest dient nur der Vorauswahl. Eine verdächtige Stange wird im vereinbarten Aufbau mit Messuhr geprüft und mit dem Bestellgrenzwert verglichen."],
+      ["Ist leichtes Hülsenspiel immer ein Mangel?", "Nein. Konstruktives Spiel oder eine bewegliche Endkappe können sichtbar sein. Messzone, Handkraft und zulässiges Ergebnis müssen zur konkreten Montage passen."],
+      ["Beweist langes Drehen eine gute Lagerung?", "Nein. Auslaufzeit beweist weder Ausrichtung noch Schmierung unter Last, Sicherung oder Haltbarkeit. Entscheidend sind gleichmäßiger Lauf und Herstellervorgaben."],
+      ["Reicht das Rollen auf dem Hallenboden?", "Nein. Nur auf einer geprüften Fläche kann es einen Hinweis liefern; Rändelung und drehende Hülsen können die Beobachtung verfälschen."],
+      ["Was gehört in eine OEM-Zeichnung?", "Auflagezonen, Messpunkte, Geräteauflösung, Drehmethode, Schaft- und Hülsenkriterien, Stichprobe, Protokoll und Maßnahmen bei Abweichung."],
+      ["Kann ein Kundenlogo die Prüfung beeinflussen?", "Es darf die Geometrie nicht ändern, muss aber eindeutig mit SKU und Revision verknüpft sein und Mess- sowie Wartungszonen freilassen."],
+      ["Was geschieht bei Transportschaden?", "Stange sperren, Verpackung sichern, Zustand dokumentieren und die vereinbarte Lieferantenprüfung und Entscheidung abwarten; nicht im Studio richten."]
+    ],
+    "faqHeading": "Fragen zur Prüfung von Olympiastangen",
+    "linkHeading": "Einkaufsprüfung für Olympiastangen vertiefen",
+    "linkLabels": ["Olympiastange auswählen", "Rändelung spezifizieren", "Beschichtungen vergleichen", "Scheiben-Hülsen-Passung prüfen", "OEM-Muster freigeben", "Vorversandprüfung planen", "Exportverpackung prüfen", "Anfrage senden"],
+    "imageCopy": [
+      ["Markenlose Olympiastange auf Präzisionsauflagen mit Messuhr am Schaft", "Definierte Auflage- und Messzonen machen den Rundlauf zwischen Serienmustern vergleichbar."],
+      ["Olympiastangenschaft in einer sauberen Rundlaufvorrichtung", "Eine feste Messuhr und dokumentierte Position verringern Unterschiede zwischen Prüfern."],
+      ["Olympiastange mit geschützten Enden für die Wareneingangsprüfung", "Verpackungszustand und Messwert gehören zur Identität derselben Stange."]
+    ],
+    "cta": ["Messbare Stangenspezifikation anfragen", "Senden Sie Stangentyp, Einsatz, Schaft- und Hülsenvorgaben, Menge, Kennzeichnung, Versandroute und Prüfplan zur Werksprüfung.", "Angebot für Olympiastangen anfordern"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/verifier-barre-olympique-voilee-jeu-manchon",
+    "title": "Barre Olympique Voilée et Jeu des Manchons : Contrôle",
+    "description": "Distinguez voile, faux-rond, jeu et rotation des manchons, puis définissez un contrôle mesurable pour un achat OEM de barres olympiques.",
+    "h1": "Vérifier le Voile d'une Barre Olympique et le Jeu des Manchons",
+    "keyword": "vérifier barre olympique voilée jeu manchon",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guide usine pour barres olympiques",
+    "sections": [
+      {
+        "heading": "La réponse utile avant de réceptionner un lot",
+        "text": "Une barre qui fléchit pendant un mouvement puis reprend sa forme n'est pas forcément voilée. De même, un léger jeu du manchon ne prouve pas que l'arbre est courbé. Le contrôle professionnel sépare la rectitude de l'arbre, son faux-rond pendant la rotation, les déplacements radial et axial du manchon, puis la qualité de rotation. Chaque observation doit avoir un montage, une zone et une règle d'acceptation.\n\nFaire rouler la barre sur le sol reste un tri rapide, pas une mesure contractuelle. Le moletage change le contact, les manchons tournent indépendamment et le sol peut fausser l'impression. Pour une commande OEM, ODM, logo personnalisé, marque distributeur ou fourniture en volume, validez un échantillon représentatif et joignez la méthode au bon de commande."
+      },
+      {
+        "heading": "Ne pas confondre rectitude, faux-rond, jeu et rotation",
+        "text": "La rectitude concerne l'axe de l'arbre non chargé dans un appui défini. Le faux-rond radial correspond à la variation lue pendant un tour complet; la lecture totale est l'écart entre le maximum et le minimum. Le jeu radial se manifeste de côté, le jeu axial dans la longueur. La rotation décrit continuité, frottement, bruit et ralentissement du manchon.\n\nLes phénomènes n'ont pas nécessairement la même origine. Un arbre droit peut recevoir une pièce de manchon excentrée. Une barre à bagues ne réagit pas comme une barre à roulements. Poussière, graisse altérée ou humidité peuvent gêner la rotation sans courber l'acier. Une vidéo de spin ne remplace donc jamais la mesure du faux-rond ou la vérification des retenues."
+      },
+      {
+        "heading": "Construire une mesure que l'autre partie peut répéter",
+        "text": "La barre identifiée est contrôlée sans charge, propre et dans des conditions stables. Elle repose sur des zones cylindriques précisées ou sur un banc autorisant une rotation lente sans translation. Le comparateur est fixé rigidement, sa touche est normale à la surface, préchargée puis mise à zéro. Sur un tour, consignez valeur haute, valeur basse, mouvement total, emplacement de touche, appuis, résolution de l'instrument, lot et numéro d'unité.\n\nUne valeur inhabituelle se vérifie après nettoyage et remise en place. Selon le plan, répétez près des deux manchons et au milieu. La limite ne doit pas être reprise d'une valeur générique : elle appartient au modèle, au montage et à l'accord acheteur-fournisseur. Un procès-verbal crédible permet à un inspecteur tiers de reconstruire exactement le contrôle."
+      },
+      {
+        "heading": "Commencer la réception par le tube et les extrémités",
+        "text": "Avant de jeter l'emballage, photographiez tube, calages, bouchons, étiquette et traces d'impact. Examinez ensuite les bouts de manchon, collerettes, arbre, circlips ou capuchons, finition et transitions du moletage. Une extrémité marquée, un manchon décalé, un frottement ou un point haut visible impose de mettre la barre à l'écart.\n\nSi un test de roulage est prévu, il se fait sur la même référence plane, propre et contrôlée, depuis un point de vue fixe. Il oriente la sélection des pièces à mesurer, mais ne libère pas le lot. Gardez le lien entre carton et barre pour traiter correctement une cause de transport, d'usinage ou d'assemblage."
+      },
+      {
+        "heading": "Qualifier le mouvement des manchons",
+        "text": "Comparez les deux côtés à vide avec la même force manuelle. Notez déplacement radial, course axiale, comportement de la collerette, régularité de rotation, frottement, bruit et position des pièces de retenue. La durée du spin n'est ni une charge admissible ni une preuve de durée de vie.\n\nÀ la validation série, identifiez système de bagues ou roulements, révision des pièces, lubrifiant, retenue et accès d'entretien. Pour analyser une réclamation, associez une vidéo prise sur trépied à une mesure dans la zone convenue. On peut alors distinguer arbre voilé, pièce excentrée, jeu fonctionnel, retenue desserrée ou mouvement du seul cache."
+      },
+      {
+        "heading": "Faire vivre la référence entre échantillon et réassort",
+        "text": "L'échantillon maître doit suivre l'acier, le traitement thermique, l'usinage, la finition, l'assemblage et l'emballage annoncés. Ses lectures sont enregistrées avec l'aspect. Pendant la production, répartissez l'échantillonnage entre périodes d'usinage, postes de montage et cartons. Un nouveau dessin ou changement de procédé justifie une couverture convenue avant le contrôle.\n\nPour le réassort, conservez indice du plan, définition du banc, résolution, fiche de résultat, nomenclature, version du logo et emballage. Une marque privée doit renforcer la traçabilité sans masquer les zones d'entretien. ChinaFreeWeight examine comme usine les projets OEM ou ODM modèle par modèle, sans appliquer un seul chiffre à toutes les constructions."
+      },
+      {
+        "heading": "Éviter que le transport brouille le diagnostic",
+        "text": "Une barre longue et dense expose surtout ses extrémités. Le tube ou carton doit immobiliser l'arbre, dégager les manchons des chocs et garder une réserve aux deux bouts. Calages, humidité, étiquetage, place sur palette et sens de manutention sont définis pour le trajet. Une modification de mousse, bouchon, tube ou palette demande de revoir l'échantillon emballé.\n\nDans la salle, stockez les barres déchargées sur un support adapté et respectez le guide du fabricant. Lâcher une barre vide, heurter un banc ou des sécurités, la laisser chargée ou utiliser un sol non prévu peut l'endommager. L'état de livraison doit donc être consigné avant mise en service, séparément de l'entretien courant."
+      }
+    ],
+    "table": {
+      "heading": "Cadre d'acceptation de l'arbre et des manchons",
+      "columns": ["Point", "Méthode à définir", "Preuve de décision"],
+      "rows": [
+        ["Rectitude/faux-rond", "Appuis, touche, rotation et limite", "Maximum, minimum et total par barre"],
+        ["Jeu radial", "Zone de référence et force", "Comparaison gauche-droite"],
+        ["Jeu axial", "Direction et position finale", "Résultat face au montage validé"],
+        ["Rotation", "Contrôle à vide et contrôle autorisé", "Régularité, friction, bruit, retenue"],
+        ["Choc de livraison", "Éclairage et ordre d'ouverture", "Photos datées reliées au carton"],
+        ["Traitement", "Isoler, répéter, examiner, décider", "Décision traçable avant utilisation"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Liste de contrôle à la réception",
+      "items": ["Relier modèle, commande, carton et indice validé.", "Photographier tube, protections et chocs avant ouverture.", "Contrôler bouts, manchons, collerettes, arbre, retenues et finition.", "Garder la barre sans charge et nettoyer appuis et contacts.", "Employer le banc, la zone et la résolution convenus.", "Consigner maximum, minimum et mouvement total.", "Comparer jeu radial, axial, rotation et bruit des deux côtés.", "Reprendre une lecture suspecte après nettoyage et repositionnement.", "Isoler tout choc ou mouvement anormal avant utilisation.", "Archiver mesures, images, identité et décision pour le réassort."]
+    },
+    "faq": [
+      ["Comment savoir si une barre olympique est voilée ?", "Le roulage sert à repérer une anomalie. Confirmez-la sur les appuis convenus avec un comparateur et jugez selon la limite du bon de commande."],
+      ["Un léger jeu de manchon est-il toujours un défaut ?", "Non. Il peut venir du jeu fonctionnel ou d'un cache mobile. Zone, force et résultat admissible doivent correspondre au montage exact."],
+      ["Un manchon qui tourne longtemps est-il meilleur ?", "Pas nécessairement. Le temps ne prouve ni alignement, ni lubrification en charge, ni retenue, ni longévité. Contrôlez la régularité selon le fabricant."],
+      ["Puis-je faire rouler la barre sur le sol ?", "Uniquement comme tri sur une surface réellement plane et propre. Moletage et manchons indépendants peuvent produire une impression trompeuse."],
+      ["Que doit préciser un plan OEM ?", "Zones d'appui, points de mesure, résolution, rotation, critères d'arbre et de manchon, échantillonnage, rapport et action corrective."],
+      ["Le logo personnalisé gêne-t-il le contrôle ?", "Il ne doit pas modifier la géométrie; reliez-le au bon SKU et gardez les marquages hors des zones de mesure et d'entretien."],
+      ["Que faire d'une barre touchée pendant le transport ?", "Écartez-la, conservez l'emballage, documentez l'état et suivez le processus de contrôle et de décision convenu avec le fournisseur."]
+    ],
+    "faqHeading": "Questions de contrôle des barres olympiques",
+    "linkHeading": "Poursuivre l'évaluation de la barre",
+    "linkLabels": ["Choisir une barre olympique commerciale", "Spécifier le moletage", "Comparer les finitions", "Vérifier l'ajustement disque-manchon", "Valider l'échantillon OEM", "Préparer le contrôle avant expédition", "Examiner l'emballage export", "Envoyer une demande de prix"],
+    "imageCopy": [
+      ["Barre olympique sans marque sur appuis avec comparateur contre l'arbre", "Un banc stable et une zone de touche définie rendent le résultat reproductible."],
+      ["Arbre de barre olympique contrôlé sur un banc de mesure propre", "Le relevé doit indiquer appuis, position, instrument, lot et unité."],
+      ["Barre olympique et protection d'extrémité prêtes pour réception", "Emballage, faux-rond et mouvement du manchon sont consignés séparément."]
+    ],
+    "cta": ["Définir une commande de barres mesurable", "Envoyez usage, construction, exigences d'arbre et de manchon, quantité, logo, trajet d'emballage et plan de contrôle pour un examen usine par modèle.", "Demander un devis de barres"]
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/kontrollera-skivstang-rakhet-hylsa-glapp",
+    "title": "Rakhet och Glapp i Olympisk Skivstång: Inköpsguide",
+    "description": "Skilj på böjd axel, kast, hylsglapp och rotation och skriv mätbara mottagningskrav för OEM-beställningar av olympiska skivstänger.",
+    "h1": "Kontrollera Skivstångens Rakhet och Hylsans Glapp",
+    "keyword": "kontrollera olympisk skivstång rakhet hylsa glapp",
+    "home": "Start",
+    "library": "Blogg",
+    "eyebrow": "ChinaFreeWeight · Fabriksguide för olympiska skivstänger",
+    "sections": [
+      {
+        "heading": "Snabbt svar för inköpare",
+        "text": "En stång som fjädrar under belastning och återgår är inte samma sak som en permanent böjd axel. Lite rörelse i en hylsa visar inte heller automatiskt att axeln är krokig. Vid mottagning ska rakhet, radiellt kast under rotation, axiellt eller radiellt hylsglapp och hylsans rotationskvalitet kontrolleras var för sig. Stöd, mätpunkt och accepterat resultat ska finnas i ritning eller inköpsorder.\n\nAtt rulla stången på golvet är bara en första sortering. Lättring, separat roterande hylsor och golvets egen planhet påverkar intrycket. För OEM, ODM, egen logotyp, private label eller bulk bör ett produktionslikt prov godkännas med en mätmetod som båda parter kan upprepa."
+      },
+      {
+        "heading": "Fyra olika egenskaper",
+        "text": "Rakhet beskriver den obelastade axelns linje i ett bestämt stöd. Radiellt kast är indikatorns variation under ett helt varv; totalindikeringen är högsta minus lägsta värde. Radiellt glapp går i sidled och axiellt glapp längs stången. Rotation handlar om jämnhet, friktion, ljud och hur hylsan bromsar in.\n\nEn rak axel kan bära en excentrisk hylsdel. Bussningar och lager har olika känsla. Smuts, gammalt smörjmedel eller fukt kan ge trög rotation utan att stålet är böjt. Därför kan en snurrfilm, ett materialvärde eller en blick längs stången inte ersätta en definierad geometrisk kontroll."
+      },
+      {
+        "heading": "Mät kast med samma uppställning varje gång",
+        "text": "Identifiera stången, håll den obelastad och rengör stöd- och kontaktzoner. Lägg den på överenskomna släta cylindriska ytor eller i en godkänd rullfixtur. Fäst mätklockan styvt, ställ spetsen normalt mot axeln, ge lämplig förspänning, nollställ och rotera långsamt ett varv. Skriv ned maximum, minimum, total rörelse, mätläge, stöd, instrumentupplösning, batch och stångidentitet.\n\nRengör och lägg om stången innan ett avvikande värde bekräftas. Mät vid mitten och nära båda hylsorna när ritningen kräver det. Någon allmän gräns för alla olympiska stänger finns inte; gränsen måste höra till modell och metod i beställningen. Protokollet ska räcka för att en extern kontrollant ska kunna återskapa provet."
+      },
+      {
+        "heading": "Bevara transportbeviset vid mottagning",
+        "text": "Fotografera rör, ändskydd, etikett och slagmärken innan emballaget kastas. Kontrollera sedan hylsändar, flänsar, axel, låsringar eller ändkåpor, ytbehandling och övergångar vid lättringen. Förskjuten hylsa, skadad ände, skrapljud eller tydlig högpunkt gör att stången ska avskiljas före användning.\n\nOm rullkontroll ingår används samma rena, verifierat plana yta och en fast observationspunkt. Den väljer ut stänger för instrumentmätning men frigör inte leveransen på egen hand. Behåll kopplingen mellan kartong och stång för att skilja transportskada från bearbetnings- eller monteringsvariation."
+      },
+      {
+        "heading": "Bedöm hylsan utifrån konstruktionen",
+        "text": "Jämför båda hylsorna obelastade med samma handkraft. Observera radiell rörelse, axial förskjutning, flänsens gång, rotationsjämnhet, friktion, ljud och låsdelarnas läge. Lång snurrtid bevisar varken tillåten belastning, inriktning eller hållbarhet.\n\nI seriegodkännandet dokumenteras bussnings- eller lagertyp, komponentrevision, smörjmedel, låsning och serviceåtkomst. Vid reklamation kombineras film från fast kamera med ett mätvärde i överenskommen zon. Då kan axelkast, excentrisk hylsa, funktionsglapp, lös låsning och kosmetisk rörelse i ändkåpan skiljas åt."
+      },
+      {
+        "heading": "Länka prov, serie och återbeställning",
+        "text": "Referensprovet ska motsvara stålrutt, värmebehandling, bearbetning, ytbehandling, hylsmontering och emballage i offerten. Spara dess mätvärden, inte bara utseendet. Under serieinspektion tas enheter från olika bearbetningstider, monteringsstationer och kartonger. Ny konstruktion eller processändring motiverar en i förväg avtalad större kontroll.\n\nVid återbeställning behålls ritningsrevision, fixtur, upplösning, protokoll, komponentlista, logotypversion och packinstruktion. Märkning för egen varumärkeslinje ska stärka spårbarheten utan att täcka servicezoner. ChinaFreeWeight granskar som fabrik OEM- och ODM-krav per modell i stället för att lova samma tal för alla stänger."
+      },
+      {
+        "heading": "Skydda den långa produkten hela vägen",
+        "text": "Stångens längd gör ändarna känsliga för slag. Röret eller kartongen ska hålla axeln, avlasta hylsorna och lämna ändfrigång. Inre stöd, fuktskydd, etiketter, palläge och hanteringsriktning anpassas till rutten. Ändras skum, plugg, kartong eller pallmönster ska det packade provet bedömas på nytt.\n\nI anläggningen lagras stången olastad i lämpligt horisontellt eller vertikalt ställ och sköts enligt tillverkaren. Att släppa en tom stång, träffa bänk eller säkerhetsarm, lämna den belastad eller använda fel golv kan ge skada. Mottagningsstatus dokumenteras därför innan drift och hålls isär från senare underhåll."
+      }
+    ],
+    "table": {
+      "heading": "Beslutsmatris för axel och hylsa",
+      "columns": ["Kontroll", "Metod som ska anges", "Underlag"],
+      "rows": [
+        ["Rakhet/kast", "Stöd, mätpunkt, rotation och gräns", "Maximum, minimum och totalvärde"],
+        ["Radiellt hylsglapp", "Referenszon och handkraft", "Jämförelse mellan sidor"],
+        ["Axiellt hylsglapp", "Riktning och ändläge", "Resultat mot godkänd montering"],
+        ["Rotation", "Obelastad och tillåten funktionskontroll", "Jämnhet, friktion, ljud, låsning"],
+        ["Transportskada", "Ljus och öppningsordning", "Daterade foton kopplade till kartong"],
+        ["Avvikelse", "Avskilj, upprepa, granska, besluta", "Spårbar disposition före användning"]
+      ]
+    },
+    "tablePosition": 2,
+    "checklist": {
+      "heading": "Mottagningslista för olympiska stänger",
+      "items": ["Matcha modell, order, kartong och revision.", "Fotografera rör, ändskydd och slag före öppning.", "Kontrollera ändar, hylsor, flänsar, axel, låsning och yta.", "Håll stången olastad och rengör stöd samt kontaktzoner.", "Använd avtalad fixtur, position och upplösning.", "Registrera maximum, minimum och total rörelse.", "Jämför radiellt glapp, axiellt glapp, rotation och ljud.", "Upprepa misstänkt mätning efter rengöring och omläggning.", "Avskilj stötskada eller onormal rörelse före användning.", "Spara data, bilder, identitet och beslut för återbeställning."]
+    },
+    "faq": [
+      ["Hur ser man om en olympisk skivstång är böjd?", "Använd rullning som grovsortering och bekräfta en misstänkt stång i den avtalade mätuppställningen. Jämför mot orderns modellkrav."],
+      ["Är lite hylsglapp alltid fel?", "Nej. Konstruktionsspel eller ändkåpans rörelse kan synas. Zon, kraft och tillåtet resultat måste definieras för monteringen."],
+      ["Är lång snurrtid ett kvalitetsbevis?", "Nej. Den bevisar inte inriktning, smörjning under last, låsning eller livslängd. Följ tillverkarens funktionskontroll."],
+      ["Kan jag rulla stången på gymgolvet?", "Bara som första kontroll på en verifierat plan och ren yta. Lättring och fria hylsor kan ge ett missvisande resultat."],
+      ["Vad ska en OEM-ritning innehålla?", "Stödzoner, mätpunkter, upplösning, rotationsmetod, axel- och hylskriterier, stickprov, protokoll och åtgärd."],
+      ["Påverkar egen logotyp kontrollen?", "Den ska inte ändra geometrin men måste kopplas till rätt SKU och revision och hållas borta från mät- och serviceområden."],
+      ["Vad gör vi med en transportskadad stång?", "Ta den ur bruk, spara emballaget, dokumentera skadan och följ den överenskomna leverantörsbedömningen."]
+    ],
+    "faqHeading": "Frågor om kontroll av olympiska stänger",
+    "linkHeading": "Fortsätt inköpsgranskningen",
+    "linkLabels": ["Välj olympisk stång", "Specificera lättring", "Jämför ytbehandling", "Kontrollera skiv- och hylspassning", "Godkänn OEM-prov", "Planera kontroll före leverans", "Granska exportemballage", "Skicka stångförfrågan"],
+    "imageCopy": [
+      ["Omärkt olympisk skivstång på rullar med mätklocka mot axeln", "Samma stöd och kontaktpunkt gör kastvärdet jämförbart mellan prov."],
+      ["Skivstångsaxel i ren precisionsfixtur", "Protokollet ska ange position, instrument, batch och enhet."],
+      ["Olympisk skivstång med ändskydd inför mottagningskontroll", "Emballage, axelkast och hylsrörelse dokumenteras var för sig."]
+    ],
+    "cta": ["Skapa en mätbar stångbeställning", "Skicka användning, konstruktion, axel- och hylskrav, antal, märkning, transportrutt och kontrollplan för modellvis fabriksgranskning.", "Begär offert på stänger"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/controllare-bilanciere-piegato-gioco-manicotto",
+    "title": "Bilanciere Piegato e Gioco del Manicotto: Controllo",
+    "description": "Distinguete rettilineità, fuori centro, gioco e rotazione dei manicotti e definite controlli misurabili per ordini OEM di bilancieri olimpici.",
+    "h1": "Come Controllare un Bilanciere Olimpico Piegato",
+    "keyword": "controllare bilanciere olimpico piegato gioco manicotto",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guida di fabbrica ai bilancieri olimpici",
+    "sections": [
+      {
+        "heading": "La risposta pratica per l'ufficio acquisti",
+        "text": "La flessione che compare sotto carico e scompare non equivale a una deformazione permanente. Anche un piccolo movimento del manicotto non dimostra da solo che l'asta sia piegata. Al collaudo occorre distinguere rettilineità dell'asta, variazione durante la rotazione, gioco radiale o assiale del manicotto e qualità del suo giro. Il capitolato deve fissare appoggi, punto di misura e criterio per ognuno.\n\nFar rotolare il bilanciere sul pavimento può rivelare un difetto evidente, ma resta una selezione preliminare. Zigrinatura, manicotti indipendenti e piano non perfetto alterano l'osservazione. Per OEM, ODM, logo personalizzato, marchio privato o fornitura all'ingrosso, approvate un campione equivalente alla serie e conservate il metodo di misura nell'ordine."
+      },
+      {
+        "heading": "Un vocabolario comune evita contestazioni",
+        "text": "La rettilineità descrive l'asse dell'asta scarica con sostegni definiti. Il fuori centro radiale è la variazione dell'indicatore in un giro completo e si registra come differenza fra massimo e minimo. Il gioco radiale è laterale, quello assiale segue l'asse. La rotazione riguarda uniformità, attrito, rumore e arresto del manicotto.\n\nUn'asta diritta può essere abbinata a un componente eccentrico. Boccole e cuscinetti hanno risposte diverse. Polvere, lubrificante degradato o umidità possono frenare il giro senza deformare l'acciaio. Per questo un video della rotazione o il dato di resistenza del materiale non sostituiscono il controllo geometrico."
+      },
+      {
+        "heading": "Misurare con un comparatore in modo ripetibile",
+        "text": "Identificate il bilanciere, tenetelo scarico e pulite aree di appoggio e contatto. Posatelo su zone cilindriche concordate o su rulli che consentano la rotazione lenta senza scorrimento. Fissate rigidamente il comparatore, orientate il tastatore normale alla superficie, precaricate, azzerate e completate un giro. Annotate massimo, minimo, movimento totale, punto, sostegni, risoluzione, lotto e unità.\n\nUna lettura anomala si ripete dopo pulizia e riposizionamento. Se previsto, controllate centro e zone prossime ai manicotti. Il limite non deve provenire da una cifra generica: appartiene al modello, alla procedura e all'accordo nel disegno o ordine. Il rapporto deve permettere a un ispettore indipendente di ricreare l'assetto."
+      },
+      {
+        "heading": "L'ispezione inizia prima di aprire il tubo",
+        "text": "Fotografate tubo, protezioni terminali, etichetta e urti prima di eliminare l'imballo. Esaminate estremità, flange, asta, anelli o tappi di ritenzione, finitura e passaggi della zigrinatura. Un'estremità colpita, un manicotto spostato, sfregamento o punto alto visibile richiedono la segregazione del pezzo.\n\nSe il test di rotolamento è autorizzato, usate sempre una superficie verificata, pulita e una visuale fissa. Il test individua i candidati alla misura strumentale ma non libera il lotto. Mantenete il legame con il cartone per distinguere danno logistico da variazione di lavorazione o assemblaggio."
+      },
+      {
+        "heading": "Controllare il manicotto senza conclusioni affrettate",
+        "text": "Confrontate i due lati scarichi con la stessa forza. Osservate movimento radiale, corsa assiale, flangia, regolarità del giro, attrito, rumore e sede delle ritenzioni. Una lunga rotazione non è una prova di portata, allineamento o vita utile.\n\nPer il campione di serie indicate boccola o cuscinetto, revisione dei componenti, lubrificante, ritenzione e accesso alla manutenzione. In caso di reclamo, abbinate video da camera fissa e misura nella zona concordata. Questo separa asta deformata, manicotto eccentrico, gioco funzionale, ritenzione allentata e movimento del solo tappo."
+      },
+      {
+        "heading": "Dare continuità a campione, lotto e riordino",
+        "text": "Il campione master deve seguire acciaio, trattamento termico, lavorazione, finitura, assemblaggio e imballo quotati. Salvatene le letture oltre all'aspetto. Nel lotto prelevate pezzi da diversi turni di lavorazione, banchi di montaggio e cartoni. Un nuovo disegno o cambio di processo richiede un'estensione concordata prima del controllo.\n\nPer i riordini conservate revisione del disegno, attrezzatura, risoluzione, scheda dati, distinta, versione grafica e imballaggio. Il marchio privato deve aumentare la tracciabilità senza coprire zone di servizio. Come fabbrica ChinaFreeWeight esamina OEM e ODM per singolo modello, senza trasferire lo stesso limite a ogni costruzione."
+      },
+      {
+        "heading": "Gestire trasporto e uso dopo la consegna",
+        "text": "La lunghezza concentra gli urti sulle estremità. Tubo o cartone devono bloccare l'asta, proteggere i manicotti e mantenere spazio alle due teste. Supporti interni, controllo dell'umidità, etichette, posizione sul pallet e orientamento seguono la rotta. Se cambiano schiuma, tappo, tubo o schema pallet, rivalutate il campione confezionato.\n\nIn palestra riponete i bilancieri scarichi su supporti adatti e seguite il produttore. Lasciare cadere la barra vuota, colpire panche o sicurezze, mantenerla caricata o usare pavimenti non idonei può danneggiarla. Lo stato alla consegna va registrato prima dell'uso e tenuto distinto dalla manutenzione successiva."
+      }
+    ],
+    "table": {
+      "heading": "Quadro di accettazione per asta e manicotti",
+      "columns": ["Controllo", "Metodo da definire", "Evidenza"],
+      "rows": [
+        ["Rettilineità/fuori centro", "Appoggi, punto, giro e limite", "Massimo, minimo e totale per barra"],
+        ["Gioco radiale", "Zona e forza manuale", "Confronto tra i lati"],
+        ["Gioco assiale", "Direzione e posizione finale", "Risultato contro l'assemblaggio approvato"],
+        ["Rotazione", "Controllo scarico e prova autorizzata", "Regolarità, attrito, rumore, ritenzione"],
+        ["Danno logistico", "Luce e sequenza di apertura", "Foto datate collegate al cartone"],
+        ["Decisione", "Segregare, ripetere, valutare, disporre", "Esito tracciabile prima dell'uso"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Lista di ricevimento dei bilancieri",
+      "items": ["Associare modello, ordine, cartone e revisione.", "Fotografare tubo, protezioni e urti prima dell'apertura.", "Controllare estremità, manicotti, flange, asta, ritenzioni e finitura.", "Tenere la barra scarica e pulire appoggi e contatti.", "Usare attrezzatura, punto e risoluzione concordati.", "Registrare massimo, minimo e movimento totale.", "Confrontare gioco radiale, assiale, giro e rumore dei due lati.", "Ripetere letture sospette dopo pulizia e riposizionamento.", "Segregare urti o movimento anomalo prima dell'uso.", "Archiviare dati, foto, identità ed esito per il riordino."]
+    },
+    "faq": [
+      ["Come capire se un bilanciere olimpico è piegato?", "Usate il rotolamento solo come selezione e confermate il sospetto con il comparatore e gli appoggi concordati. Il risultato si confronta con il requisito dell'ordine."],
+      ["Un po' di gioco del manicotto è sempre un difetto?", "No. Può derivare dal gioco funzionale o dal tappo. Zona, forza e risultato ammesso devono appartenere all'assemblaggio specifico."],
+      ["Più a lungo gira, migliore è il cuscinetto?", "Non necessariamente. Il tempo non prova allineamento, lubrificazione sotto carico, ritenzione o durata. Controllate uniformità secondo il produttore."],
+      ["Posso far rotolare la barra sul pavimento?", "Solo per una prima verifica su piano realmente pulito e piatto. Zigrinatura e manicotti indipendenti possono ingannare."],
+      ["Cosa deve specificare un disegno OEM?", "Zone di appoggio, punti, risoluzione, rotazione, criteri di asta e manicotto, campionamento, rapporto e azione correttiva."],
+      ["Il logo personalizzato interferisce?", "Non deve modificare la geometria; collegatelo però allo SKU e alla revisione corretti e tenetelo lontano dalle zone di misura e servizio."],
+      ["Cosa fare con un danno da trasporto?", "Isolate la barra, conservate l'imballo, documentate lo stato e seguite la valutazione e disposizione concordate prima dell'uso."]
+    ],
+    "faqHeading": "Domande sul controllo dei bilancieri olimpici",
+    "linkHeading": "Completare la valutazione del bilanciere",
+    "linkLabels": ["Scegliere il bilanciere olimpico", "Specificare la zigrinatura", "Confrontare le finiture", "Verificare l'accoppiamento disco-manicotto", "Approvare il campione OEM", "Pianificare l'ispezione pre-spedizione", "Rivedere l'imballaggio export", "Inviare una richiesta"],
+    "imageCopy": [
+      ["Bilanciere olimpico senza marchio su rulli con comparatore sull'asta", "Appoggi e punto di contatto definiti rendono il fuori centro confrontabile tra campioni."],
+      ["Asta di bilanciere olimpico su banco di misura pulito", "Il rapporto identifica posizione, strumento, lotto e singola unità."],
+      ["Bilanciere olimpico e protezioni terminali per il ricevimento", "Imballo, variazione dell'asta e gioco del manicotto restano osservazioni distinte."]
+    ],
+    "cta": ["Definire un ordine misurabile di bilancieri", "Inviate uso, costruzione, requisiti di asta e manicotto, quantità, marchio, rotta e piano di controllo per una revisione di fabbrica per modello.", "Richiedere un preventivo"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/halterstang-rechtheid-huls-speling-controleren",
+    "title": "Rechtheid en Hulsspeling van een Olympische Halterstang",
+    "description": "Onderscheid buiging, slingering, hulsspeling en rotatie en leg meetbare controles vast voor OEM-inkoop en ontvangst van olympische halterstangen.",
+    "h1": "Rechtheid en Hulsspeling van Halterstangen Controleren",
+    "keyword": "olympische halterstang rechtheid hulsspeling controleren",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Fabrieksgids voor olympische halterstangen",
+    "sections": [
+      {
+        "heading": "Direct antwoord voor de inkoper",
+        "text": "Een stang die onder belasting veert en terugkomt is niet hetzelfde als een blijvend kromme schacht. Een beetje beweging in de huls bewijst evenmin dat de schacht verbogen is. Controleer rechtheid, radiale slingering tijdens rotatie, radiale of axiale hulsspeling en de kwaliteit van de hulsrotatie afzonderlijk. Voor elk punt moeten ondersteuning, meetzone en acceptatie in tekening of order staan.\n\nDe stang over de vloer rollen is hooguit een snelle selectie. Karteling verandert het contact, hulzen draaien los van de schacht en een vloer kan zelf afwijken. Bij OEM, ODM, eigen logo, private label of bulkinkoop hoort daarom een productiegelijk monster met een reproduceerbaar meetprotocol."
+      },
+      {
+        "heading": "Vier verschijnselen met elk een eigen oorzaak",
+        "text": "Rechtheid beschrijft de as van de onbelaste schacht in een vastgelegde oplegging. Radiale slingering is de verandering van de indicator tijdens één volledige omwenteling; totaal is hoogste min laagste aflezing. Radiale speling is zijwaarts, axiale speling loopt met de lengte mee. Rotatie gaat over gelijkmatigheid, weerstand, geluid en uitlopen.\n\nEen rechte schacht kan een excentrisch hulsdeel dragen. Bussen en lagers voelen anders. Vuil, verouderd smeermiddel of vocht kan de rotatie remmen zonder het staal te buigen. Een filmpje van lang doordraaien, een blik langs de stang of alleen een materiaalwaarde kan dus geen geometrische en montagecontrole vervangen."
+      },
+      {
+        "heading": "Slingering meten met een herhaalbare opstelling",
+        "text": "Werk met een geïdentificeerde, onbelaste en schone stang. Leg haar op afgesproken gladde cilindrische zones of in een goedgekeurde rollenbank, zodat ze langzaam draait zonder te verschuiven. Bevestig de meetklok stijf, zet de taster loodrecht op de schacht, geef passende voorspanning, nul en draai één volledige omwenteling. Noteer maximum, minimum, totale beweging, meetplaats, steunpunten, resolutie, batch en stangidentiteit.\n\nReinig en plaats opnieuw voordat een opvallende waarde definitief is. Meet midden en nabij beide hulzen als de tekening dat vraagt. Gebruik geen algemeen internetgetal als grens: de toegestane waarde hoort bij model, opstelling en order. Het verslag moet voldoende detail bevatten voor herhaling door de koper of een externe inspecteur."
+      },
+      {
+        "heading": "Bewijs uit verpakking en ontvangst behouden",
+        "text": "Fotografeer buis, eindblokken, label en inslagsporen voordat de verpakking verdwijnt. Inspecteer daarna hulsuiteinden, flenzen, schacht, borgringen of eindkappen, afwerking en overgangen rond karteling. Een verschoven huls, geraakt uiteinde, schurend geluid of duidelijke hoge plek is reden om de stang apart te houden.\n\nAls een rolcontrole is afgesproken, gebruik dan steeds hetzelfde schone en aantoonbaar vlakke referentievlak en kijk vanuit een vaste positie. De controle selecteert stangen voor instrumentmeting, maar geeft de levering niet alleen vrij. Koppel doos en stang zodat transportschade niet met bewerking of montage wordt verward."
+      },
+      {
+        "heading": "Hulsbeweging beoordelen zonder te gokken",
+        "text": "Vergelijk beide hulzen onbelast met dezelfde handkracht. Let op radiale beweging, axiale slag, flensgedrag, gelijkmatige draaiing, wrijving, geluid en plaats van borgdelen. Lang nadraaien is geen bewijs voor belastbaarheid, uitlijning of levensduur.\n\nLeg voor de serie vast welk bus- of lagersysteem, welke onderdelenrevisie, welk smeermiddel, welke borging en welke serviceopening wordt gebruikt. Bij een klacht combineren een vaste camera en een meting op de afgesproken zone de juiste informatie. Zo onderscheidt u schachtslingering, excentrische huls, functionele speling, losse borging en alleen bewegende eindkap."
+      },
+      {
+        "heading": "Monster, serie en nabestelling op één lijn houden",
+        "text": "Het referentiemonster volgt dezelfde staalroute, warmtebehandeling, bewerking, afwerking, hulsassemblage en verpakking als de offerte. Bewaar meetwaarden naast uiterlijk. Trek in de serie monsters uit verschillende bewerkingsmomenten, montagestations en dozen. Een nieuw ontwerp of proceswijziging vraagt om vooraf afgesproken extra dekking.\n\nBewaar voor nabestellingen tekeningrevisie, rollenbank, resolutie, meetblad, onderdelenlijst, logo- en verpakkingsversie. Een eigen merk hoort traceerbaarheid te versterken en servicezones vrij te laten. ChinaFreeWeight bespreekt als fabriek OEM- en ODM-eisen per model en belooft geen identieke grens voor iedere constructie."
+      },
+      {
+        "heading": "Schade tijdens vervoer en gebruik beperken",
+        "text": "Door de lengte zijn vooral de uiteinden kwetsbaar. Buis of doos moet de schacht ondersteunen, hulzen vrijhouden van impact en aan beide zijden ruimte laten. Interne steunen, vochtbeheersing, labels, palletpositie en hanteringsrichting worden aan de route gekoppeld. Verandert schuim, dop, buis of palletpatroon, beoordeel dan opnieuw het verpakte monster.\n\nBewaar stangen in de club onbelast in een geschikte horizontale of verticale houder en volg de fabrikant. Een lege stang laten vallen, een bank of spotterarm raken, langdurig belast laten liggen of een ongeschikte vloer kan schade veroorzaken. Leg de ontvangst vast vóór ingebruikname en houd later onderhoud apart."
+      }
+    ],
+    "table": {
+      "heading": "Acceptatiekader voor schacht en hulzen",
+      "columns": ["Controle", "Te definiëren methode", "Beslisbewijs"],
+      "rows": [
+        ["Rechtheid/slingering", "Steunen, meetpunt, omwenteling en grens", "Maximum, minimum en totaal per stang"],
+        ["Radiale hulsspeling", "Referentiezone en handkracht", "Vergelijking links/rechts"],
+        ["Axiale hulsspeling", "Richting en eindstand", "Resultaat tegenover goedgekeurde bouw"],
+        ["Rotatie", "Onbelaste en toegestane functiecontrole", "Gelijkmatigheid, wrijving, geluid, borging"],
+        ["Transportschade", "Licht en uitpakvolgorde", "Gedateerde foto's gekoppeld aan doos"],
+        ["Afhandeling", "Apart zetten, herhalen, beoordelen, beslissen", "Traceerbaar besluit vóór gebruik"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Ontvangstlijst voor olympische halterstangen",
+      "items": ["Koppel model, order, doos en goedgekeurde revisie.", "Fotografeer buis, eindbescherming en impact vóór openen.", "Controleer uiteinden, hulzen, flenzen, schacht, borging en afwerking.", "Houd de stang onbelast en maak steun- en contactzones schoon.", "Gebruik afgesproken opstelling, meetplaats en resolutie.", "Registreer maximum, minimum en totale beweging.", "Vergelijk radiale en axiale speling, rotatie en geluid aan beide kanten.", "Herhaal een verdachte meting na reinigen en opnieuw plaatsen.", "Zet impact of abnormale beweging apart vóór gebruik.", "Bewaar data, foto's, identiteit en besluit voor nabestelling."]
+    },
+    "faq": [
+      ["Hoe weet ik of een olympische halterstang krom is?", "Gebruik rollen alleen als eerste selectie en bevestig de verdachte stang met de afgesproken meetklokopstelling. Vergelijk met de ordergrens voor het model."],
+      ["Is een beetje hulsspeling altijd een defect?", "Nee. Functionele speling of beweging van de eindkap kan zichtbaar zijn. Leg zone, kracht en acceptatie voor de specifieke assemblage vast."],
+      ["Bewijst lang draaien een goed lager?", "Nee. Het bewijst geen uitlijning, smering onder belasting, borging of levensduur. Beoordeel gelijkmatigheid volgens de fabrikant."],
+      ["Kan ik de stang op de gymvloer rollen?", "Alleen als grove controle op een werkelijk vlak en schoon oppervlak. Karteling en onafhankelijk draaiende hulzen kunnen misleiden."],
+      ["Wat moet in een OEM-tekening staan?", "Steunzones, meetpunten, resolutie, rotatiemethode, criteria voor schacht en huls, steekproef, verslag en correctieve actie."],
+      ["Beïnvloedt een eigen logo de controle?", "Het mag geometrie niet wijzigen, moet aan juiste SKU en revisie zijn gekoppeld en buiten meet- en servicezones blijven."],
+      ["Wat doen we met transportschade?", "Houd de stang buiten gebruik, bewaar de verpakking, documenteer de staat en volg de afgesproken leveranciersbeoordeling."]
+    ],
+    "faqHeading": "Vragen over inspectie van halterstangen",
+    "linkHeading": "Ga verder met de inkoopcontrole",
+    "linkLabels": ["Kies de olympische halterstang", "Leg karteling vast", "Vergelijk afwerkingen", "Controleer schijf-hulspassing", "Keur het OEM-monster goed", "Plan inspectie vóór verzending", "Beoordeel exportverpakking", "Stuur een aanvraag"],
+    "imageCopy": [
+      ["Merkloze olympische halterstang op rollen met meetklok tegen de schacht", "Vaste steunen en contactzone maken slingering vergelijkbaar tussen productie-eenheden."],
+      ["Halterstangschacht in een schone precisieopstelling", "Het meetblad vermeldt positie, instrument, batch en stangidentiteit."],
+      ["Olympische halterstang en eindbescherming bij ontvangst", "Verpakking, schachtslingering en hulsbeweging blijven afzonderlijke controles."]
+    ],
+    "cta": ["Leg een meetbare stangorder vast", "Stuur toepassing, constructie, schacht- en hulseisen, aantallen, merkwerk, transportroute en controleplan voor fabrieksbeoordeling per model.", "Vraag een offerte aan"]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/sprawdzic-prostosc-gryfu-luz-tulei",
+    "title": "Prostoliniowość Gryfu i Luz Tulei: Kontrola Zakupu",
+    "description": "Dowiedz się, jak odróżnić wygięcie, bicie, luz tulei i jej obrót oraz zapisać mierzalne kryteria dla zamówienia gryfów olimpijskich OEM.",
+    "h1": "Jak Sprawdzić Prostoliniowość Gryfu i Luz Tulei",
+    "keyword": "sprawdzić prostoliniowość gryfu olimpijskiego i luz tulei",
+    "home": "Strona główna",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Fabryczny poradnik o gryfach olimpijskich",
+    "sections": [
+      {
+        "heading": "Krótka odpowiedź dla kupującego",
+        "text": "Ugięcie gryfu pod obciążeniem, po którym wraca on do kształtu, nie jest tym samym co trwałe wygięcie. Niewielki ruch tulei również nie dowodzi sam w sobie krzywizny wału. W odbiorze należy osobno sprawdzić prostoliniowość, bicie promieniowe podczas obrotu, promieniowy lub osiowy luz tulei oraz jakość jej obrotu. Podparcie, miejsce pomiaru i kryterium muszą być zapisane dla każdego punktu.\n\nToczenie gryfu po podłodze jest tylko badaniem przesiewowym. Moletowanie zmienia styk, tuleje obracają się niezależnie, a posadzka może być nierówna. W zamówieniu OEM, ODM, z własnym logo, marką prywatną lub dostawie hurtowej zatwierdź próbkę odpowiadającą serii i dołącz powtarzalną metodę pomiaru."
+      },
+      {
+        "heading": "Cztery cechy, których nie wolno łączyć",
+        "text": "Prostoliniowość opisuje oś nieobciążonego wału przy ustalonym podparciu. Bicie promieniowe jest zmianą wskazania podczas pełnego obrotu; wartość całkowita to różnica między maksimum i minimum. Luz promieniowy działa poprzecznie, osiowy wzdłuż gryfu. Obrót tulei ocenia płynność, opór, hałas i zatrzymywanie.\n\nProsty wał może współpracować z mimośrodowym elementem tulei. Tuleje ślizgowe i łożyska zachowują się inaczej. Brud, zużyty środek smarny lub wilgoć mogą pogorszyć obrót bez wygięcia stali. Film pokazujący długi obrót ani sama wartość wytrzymałości materiału nie zastępują pomiaru geometrii i kontroli montażu."
+      },
+      {
+        "heading": "Powtarzalny pomiar bicia czujnikiem",
+        "text": "Zidentyfikowany gryf badaj bez obciążenia po oczyszczeniu stref styku. Oprzyj go na uzgodnionych gładkich powierzchniach cylindrycznych albo na przyrządzie rolkowym, który pozwala obracać bez przesuwania. Sztywno zamocuj czujnik, ustaw końcówkę prostopadle do powierzchni, nadaj właściwe napięcie wstępne, wyzeruj i wykonaj pełny powolny obrót. Zapisz maksimum, minimum, ruch całkowity, miejsce, podpory, rozdzielczość, partię i numer gryfu.\n\nNietypowy wynik powtórz po czyszczeniu i ponownym ułożeniu. Jeżeli wymaga tego rysunek, mierz w środku oraz przy obu tulejach. Nie istnieje jeden limit właściwy dla każdego gryfu: wartość dopuszczalna należy do modelu i metody uzgodnionej w zamówieniu. Protokół ma umożliwić powtórzenie przez nabywcę lub niezależnego inspektora."
+      },
+      {
+        "heading": "Odbiór zacznij od opakowania",
+        "text": "Przed rozpakowaniem sfotografuj tubę, zabezpieczenia końców, etykietę i ślady uderzeń. Następnie obejrzyj końce tulei, kołnierze, wał, pierścienie albo zaślepki, powłokę i przejścia moletowania. Przesunięta tuleja, uderzony koniec, tarcie lub widoczny punkt wysoki oznacza odseparowanie sztuki przed użyciem.\n\nJeśli uzgodniono próbę toczenia, użyj tej samej czystej i sprawdzonej płaskiej powierzchni oraz stałego punktu obserwacji. Próba wybiera sztuki do pomiaru czujnikiem, lecz nie zatwierdza partii samodzielnie. Zachowaj powiązanie gryfu z kartonem, aby nie pomylić szkody transportowej z obróbką albo montażem."
+      },
+      {
+        "heading": "Luz tulei oceniaj względem konstrukcji",
+        "text": "Porównaj obie tuleje bez obciążenia, używając tej samej siły dłoni. Obserwuj ruch promieniowy i osiowy, kołnierz, płynność obrotu, opór, hałas oraz osadzenie zabezpieczeń. Długi czas wirowania nie potwierdza nośności, współosiowości ani trwałości.\n\nW zatwierdzeniu serii określ system ślizgowy lub łożyskowy, rewizję części, smar, zabezpieczenie i dostęp serwisowy. Przy reklamacji połącz film z nieruchomej kamery z pomiarem w ustalonej strefie. Pozwala to rozróżnić bicie wału, mimośród tulei, luz konstrukcyjny, luźne zabezpieczenie i ruch samej zaślepki."
+      },
+      {
+        "heading": "Połącz próbkę, partię i kolejne zamówienie",
+        "text": "Próbka odniesienia ma odwzorować gatunek i obróbkę stali, obróbkę cieplną, skrawanie, powłokę, montaż tulei i opakowanie z oferty. Zachowaj jej pomiary, a nie tylko wygląd. W partii pobieraj sztuki z różnych okresów obróbki, stanowisk montażowych i kartonów. Nowy projekt lub zmiana procesu wymaga wcześniej ustalonego szerszego zakresu.\n\nDla kolejnych dostaw przechowuj rewizję rysunku, przyrząd, rozdzielczość, kartę pomiaru, listę części, wersję logo i pakowania. Własna marka ma wzmacniać identyfikację bez zakrywania stref serwisowych. ChinaFreeWeight jako fabryka omawia wymagania OEM i ODM dla danego modelu, bez jednej obietnicy dla wszystkich gryfów."
+      },
+      {
+        "heading": "Ogranicz ryzyko transportu i eksploatacji",
+        "text": "Długi, ciężki produkt jest narażony szczególnie na uderzenia w końce. Tuba lub karton powinny podpierać wał, odciążać tuleje i pozostawiać odstęp na obu końcach. Wewnętrzne podpory, ochrona przed wilgocią, etykiety, pozycja na palecie i kierunek manipulacji muszą pasować do trasy. Zmiana pianki, korka, tuby lub układu palety wymaga ponownej oceny zapakowanej próbki.\n\nW klubie przechowuj gryfy bez obciążenia w odpowiednim stojaku i przestrzegaj zaleceń producenta. Upuszczenie pustego gryfu, uderzenie o ławkę lub belkę asekuracyjną, długie pozostawienie pod ciężarem albo zła posadzka mogą spowodować uszkodzenie. Stan dostawy dokumentuj przed użyciem, a późniejszą obsługę prowadź osobno."
+      }
+    ],
+    "table": {
+      "heading": "Ramy odbioru wału i tulei",
+      "columns": ["Kontrola", "Metoda do zapisania", "Dowód decyzji"],
+      "rows": [
+        ["Prostoliniowość/bicie", "Podpory, punkt, obrót i limit", "Maksimum, minimum i wartość całkowita"],
+        ["Luz promieniowy tulei", "Strefa i siła ręczna", "Porównanie obu stron"],
+        ["Luz osiowy", "Kierunek i położenie końcowe", "Wynik wobec zatwierdzonego montażu"],
+        ["Obrót", "Kontrola bez obciążenia i próba dopuszczona", "Płynność, opór, hałas, zabezpieczenie"],
+        ["Szkoda transportowa", "Oświetlenie i kolejność otwarcia", "Zdjęcia z datą i numerem kartonu"],
+        ["Postępowanie", "Odseparuj, powtórz, oceń, zdecyduj", "Identyfikowalna decyzja przed użyciem"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Lista odbiorcza gryfów olimpijskich",
+      "items": ["Powiąż model, zamówienie, karton i rewizję.", "Sfotografuj tubę, końce i uderzenia przed otwarciem.", "Sprawdź końce, tuleje, kołnierze, wał, zabezpieczenia i powłokę.", "Utrzymuj gryf bez obciążenia i oczyść strefy styku.", "Użyj uzgodnionego przyrządu, miejsca i rozdzielczości.", "Zapisz maksimum, minimum i ruch całkowity.", "Porównaj luz promieniowy, osiowy, obrót i hałas stron.", "Powtórz podejrzany pomiar po czyszczeniu i ułożeniu.", "Odseparuj ślady uderzeń lub nietypowy ruch przed użyciem.", "Zachowaj dane, zdjęcia, identyfikację i decyzję dla kolejnej partii."]
+    },
+    "faq": [
+      ["Jak sprawdzić, czy gryf olimpijski jest krzywy?", "Toczenie potraktuj jako przesiew, a podejrzaną sztukę potwierdź czujnikiem w uzgodnionym podparciu. Porównaj z limitem zamówienia dla modelu."],
+      ["Czy niewielki luz tulei zawsze jest wadą?", "Nie. Może wynikać z luzu funkcjonalnego lub ruchu zaślepki. Strefa, siła i dopuszczalny wynik muszą być zdefiniowane dla montażu."],
+      ["Czy długi obrót świadczy o dobrym łożysku?", "Nie. Nie potwierdza współosiowości, smarowania pod obciążeniem, zabezpieczenia ani trwałości. Oceniaj płynność zgodnie z instrukcją."],
+      ["Czy wystarczy toczenie po podłodze?", "Nie. Na sprawdzonej czystej powierzchni może wskazać problem, lecz moletowanie i ruchome tuleje mogą zaburzyć obraz."],
+      ["Co powinien zawierać rysunek OEM?", "Strefy podparcia, punkty, rozdzielczość, obrót, kryteria wału i tulei, próbę, protokół i działania przy odchyleniu."],
+      ["Czy własne logo wpływa na kontrolę?", "Nie powinno zmieniać geometrii, lecz musi być połączone z właściwym SKU i rewizją oraz omijać strefy pomiaru i serwisu."],
+      ["Co zrobić z uszkodzeniem w transporcie?", "Wyłącz gryf z użycia, zachowaj opakowanie, udokumentuj stan i wykonaj uzgodnioną ocenę dostawcy przed decyzją."]
+    ],
+    "faqHeading": "Pytania o kontrolę gryfów olimpijskich",
+    "linkHeading": "Dalsza ocena zakupu gryfów",
+    "linkLabels": ["Wybierz gryf olimpijski", "Określ moletowanie", "Porównaj powłoki", "Sprawdź pasowanie talerza i tulei", "Zatwierdź próbkę OEM", "Zaplanuj kontrolę przed wysyłką", "Oceń opakowanie eksportowe", "Wyślij zapytanie"],
+    "imageCopy": [
+      ["Gryf olimpijski bez marki na podporach z czujnikiem przy wale", "Stałe podpory i punkt styku pozwalają porównać bicie w partii."],
+      ["Wał gryfu olimpijskiego na czystym stanowisku pomiarowym", "Protokół wskazuje miejsce, przyrząd, partię i numer sztuki."],
+      ["Gryf olimpijski z ochroną końców do kontroli odbiorczej", "Opakowanie, bicie wału i ruch tulei mają osobne zapisy."]
+    ],
+    "cta": ["Zdefiniuj mierzalne zamówienie gryfów", "Prześlij zastosowanie, konstrukcję, wymagania wału i tulei, ilości, znakowanie, trasę oraz plan kontroli do fabrycznej oceny modelu.", "Poproś o wycenę gryfów"]
+  }
+]

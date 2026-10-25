@@ -33,11 +33,52 @@ const originalMediaGuideIds = new Set([
   "dumbbell-head-handle-construction-guide",
   "olympic-plate-hole-barbell-sleeve-fit-guide",
   "commercial-barbell-knurling-specification-guide",
+  "bumper-plate-thickness-sleeve-capacity-guide",
+  "olympic-barbell-straightness-sleeve-runout-guide",
+  "bumper-plate-bounce-shore-hardness-test-guide",
+  "cable-attachment-load-rating-inspection-guide",
+  "fixed-dumbbell-handle-specification-guide",
+  "weight-plate-outside-diameter-profile-guide",
+  "rubber-coating-adhesion-dumbbell-plate-guide",
+  "olympic-barbell-tensile-yield-strength-guide",
+  "cable-attachment-handle-grip-specification-guide",
+  "bumper-plate-hub-insert-retention-guide",
+  "olympic-barbell-sleeve-retention-end-cap-guide",
+  "olympic-barbell-collar-buying-inspection-guide",
+  "olympic-barbell-bearing-bushing-sleeve-rotation-guide",
+  "weight-plate-grip-openings-handling-guide",
+  "triceps-rope-attachment-buying-inspection-guide",
+  "lat-pulldown-bar-buying-inspection-guide",
+  "olympic-barbell-whip-stiffness-guide",
+  "cast-iron-weight-plate-finish-coating-guide",
+  "olympic-barbell-smooth-grooved-sleeve-guide",
+  "custom-color-free-weights-approval-guide",
+  "olympic-barbell-mass-weight-tolerance-guide",
+  "olympic-weight-plate-flatness-warp-inspection-guide",
+  "change-plates-fractional-plates-buying-guide",
+  "commercial-dumbbell-rack-compatibility-guide",
+  "olympic-barbell-shaft-diameter-guide",
+  "low-odor-rubber-free-weights-guide",
+  "weight-plate-markings-readability-durability-guide",
+  "hex-dumbbell-head-alignment-anti-roll-inspection-guide",
+  "cable-attachment-swivel-rotation-inspection-guide",
+  "cast-iron-weight-plate-manufacturing-guide",
+  "weight-plate-edge-rim-handling-guide",
+  "rubber-dumbbell-shore-hardness-guide",
+  "rubber-dumbbell-surface-bloom-guide",
+  "cable-attachment-chrome-plating-corrosion-guide",
+  "custom-dumbbell-end-cap-logo-retention-guide",
+  "olympic-barbell-export-packaging-guide",
+  "olympic-barbell-maintenance-cleaning-guide",
+  "urethane-dumbbell-surface-defects-guide",
   "case-custom-logo-fitness-chain-strength-equipment"
 ]);
 const usesOriginalMediaSet = (entityId: string) => originalMediaGuideIds.has(entityId);
-const expectedOriginalImageCount = (entityId: string) => ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 3 : 5;
-const expectedGuideFaqCount = (entityId: string) => ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide"].includes(entityId) ? 6 : entityId === "bulk-oem-steel-dumbbells-guide" ? 10 : ["cable-attachment-compatibility-oem-guide", "weight-plate-tolerance-bulk-order-guide", "commercial-olympic-barbell-buying-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 8 : 5;
+const expectedOriginalImageCount = (entityId: string) => ["cable-attachment-swivel-rotation-inspection-guide", "cast-iron-weight-plate-manufacturing-guide", "weight-plate-edge-rim-handling-guide"].includes(entityId) ? 1 : ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide", "bumper-plate-thickness-sleeve-capacity-guide", "olympic-barbell-straightness-sleeve-runout-guide", "bumper-plate-bounce-shore-hardness-test-guide", "cable-attachment-load-rating-inspection-guide", "fixed-dumbbell-handle-specification-guide", "weight-plate-outside-diameter-profile-guide", "rubber-coating-adhesion-dumbbell-plate-guide", "olympic-barbell-tensile-yield-strength-guide", "cable-attachment-handle-grip-specification-guide", "bumper-plate-hub-insert-retention-guide", "olympic-barbell-sleeve-retention-end-cap-guide", "olympic-barbell-collar-buying-inspection-guide", "olympic-barbell-bearing-bushing-sleeve-rotation-guide", "weight-plate-grip-openings-handling-guide", "triceps-rope-attachment-buying-inspection-guide", "lat-pulldown-bar-buying-inspection-guide", "olympic-barbell-whip-stiffness-guide", "cast-iron-weight-plate-finish-coating-guide", "olympic-barbell-smooth-grooved-sleeve-guide", "custom-color-free-weights-approval-guide", "olympic-barbell-mass-weight-tolerance-guide", "olympic-weight-plate-flatness-warp-inspection-guide", "change-plates-fractional-plates-buying-guide", "commercial-dumbbell-rack-compatibility-guide", "olympic-barbell-shaft-diameter-guide", "low-odor-rubber-free-weights-guide", "weight-plate-markings-readability-durability-guide", "hex-dumbbell-head-alignment-anti-roll-inspection-guide"].includes(entityId) ? 3 : 5;
+const expectedGuideFaqCount = (entityId: string) => ["bumper-plate-thickness-sleeve-capacity-guide", "olympic-barbell-straightness-sleeve-runout-guide", "bumper-plate-bounce-shore-hardness-test-guide", "cable-attachment-load-rating-inspection-guide", "fixed-dumbbell-handle-specification-guide", "rubber-coating-adhesion-dumbbell-plate-guide", "olympic-barbell-tensile-yield-strength-guide", "cable-attachment-handle-grip-specification-guide", "bumper-plate-hub-insert-retention-guide", "olympic-barbell-sleeve-retention-end-cap-guide", "olympic-barbell-whip-stiffness-guide", "cast-iron-weight-plate-finish-coating-guide", "olympic-barbell-smooth-grooved-sleeve-guide", "custom-color-free-weights-approval-guide", "olympic-barbell-mass-weight-tolerance-guide", "olympic-weight-plate-flatness-warp-inspection-guide", "change-plates-fractional-plates-buying-guide", "commercial-dumbbell-rack-compatibility-guide", "olympic-barbell-shaft-diameter-guide", "low-odor-rubber-free-weights-guide", "weight-plate-markings-readability-durability-guide", "hex-dumbbell-head-alignment-anti-roll-inspection-guide"].includes(entityId) ? 7 : ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide", "weight-plate-outside-diameter-profile-guide"].includes(entityId) ? 6 : entityId === "bulk-oem-steel-dumbbells-guide" ? 10 : ["cable-attachment-compatibility-oem-guide", "weight-plate-tolerance-bulk-order-guide", "commercial-olympic-barbell-buying-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 8 : 5;
+
+const expectedEditorialImageCount = (entityId: string) =>
+  ["rubber-dumbbell-shore-hardness-guide", "rubber-dumbbell-surface-bloom-guide", "cable-attachment-chrome-plating-corrosion-guide", "custom-dumbbell-end-cap-logo-retention-guide", "olympic-barbell-export-packaging-guide", "olympic-barbell-maintenance-cleaning-guide", "urethane-dumbbell-surface-defects-guide"].includes(entityId) ? 1 : expectedOriginalImageCount(entityId);
 
 function localizedVersion(
   locale: "en" | "pt-BR",
@@ -112,20 +153,20 @@ test("published locale routing: all twelve launch languages are public", () => {
 });
 
 test("production manifest: only reviewed content in the public languages is published", () => {
-  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 103);
-  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 103);
-  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 107);
-  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 102);
-  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 106);
-  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 102);
-  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 102);
-  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 102);
-  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 12);
-  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 95);
-  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 100);
-  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 101);
-  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 100);
-  assert.equal(contentRepository.listPublished().length, 1235);
+  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 141);
+  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 141);
+  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 145);
+  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 140);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 144);
+  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 140);
+  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 140);
+  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 140);
+  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 50);
+  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 133);
+  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 138);
+  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 139);
+  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 138);
+  assert.equal(contentRepository.listPublished().length, 1729);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
@@ -264,7 +305,7 @@ test("growth content: products and blogs meet useful Portuguese depth targets", 
   const blogWords = portuguese.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(productWords.length, 53);
   assert.ok(productWords.every((count) => count >= 700 && count <= 1500), JSON.stringify(productWords));
-  assert.equal(blogWords.length, 37);
+  assert.equal(blogWords.length, 75);
   assert.ok(blogWords.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogWords));
 });
 
@@ -287,7 +328,7 @@ test("Spanish expansion: products and blogs meet localized depth targets", () =>
   const blogs = spanish.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(products.length, 53);
   assert.ok(products.every((count) => count >= 700 && count <= 1500), JSON.stringify(products));
-  assert.equal(blogs.length, 37);
+  assert.equal(blogs.length, 75);
   assert.ok(blogs.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogs));
 });
 
@@ -592,20 +633,20 @@ test("multilingual sitemap retains all English routes and adds every published l
   const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
   const arabicUrls = urls.filter((url) => new URL(url).pathname === "/ar" || new URL(url).pathname.startsWith("/ar/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !arabicUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
-  assert.equal(englishUrls.length, 119);
-  assert.equal(portugueseUrls.length, 103);
-  assert.equal(spanishUrls.length, 103);
-  assert.equal(germanUrls.length, 107);
-  assert.equal(frenchUrls.length, 102);
-  assert.equal(vietnameseUrls.length, 102);
-  assert.equal(swedishUrls.length, 102);
-  assert.equal(italianUrls.length, 102);
-  assert.equal(arabicUrls.length, 12);
-  assert.equal(koreanUrls.length, 95);
-  assert.equal(indonesianUrls.length, 100);
-  assert.equal(polishUrls.length, 101);
-  assert.equal(dutchUrls.length, 100);
-  assert.equal(new Set(urls).size, 1248);
+  assert.equal(englishUrls.length, 157);
+  assert.equal(portugueseUrls.length, 141);
+  assert.equal(spanishUrls.length, 141);
+  assert.equal(germanUrls.length, 145);
+  assert.equal(frenchUrls.length, 140);
+  assert.equal(vietnameseUrls.length, 140);
+  assert.equal(swedishUrls.length, 140);
+  assert.equal(italianUrls.length, 140);
+  assert.equal(arabicUrls.length, 50);
+  assert.equal(koreanUrls.length, 133);
+  assert.equal(indonesianUrls.length, 138);
+  assert.equal(polishUrls.length, 139);
+  assert.equal(dutchUrls.length, 138);
+  assert.equal(new Set(urls).size, 1742);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -665,20 +706,20 @@ test("language sitemap contains all public URLs with the complete products hub c
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 117);
-  assert.equal(portuguese.length, 103);
-  assert.equal(spanish.length, 103);
-  assert.equal(german.length, 107);
-  assert.equal(french.length, 102);
-  assert.equal(vietnamese.length, 102);
-  assert.equal(swedish.length, 102);
-  assert.equal(italian.length, 102);
-  assert.equal(arabic.length, 12);
-  assert.equal(korean.length, 95);
-  assert.equal(indonesian.length, 100);
-  assert.equal(polish.length, 101);
-  assert.equal(dutch.length, 100);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1246);
+  assert.equal(english.length, 155);
+  assert.equal(portuguese.length, 141);
+  assert.equal(spanish.length, 141);
+  assert.equal(german.length, 145);
+  assert.equal(french.length, 140);
+  assert.equal(vietnamese.length, 140);
+  assert.equal(swedish.length, 140);
+  assert.equal(italian.length, 140);
+  assert.equal(arabic.length, 50);
+  assert.equal(korean.length, 133);
+  assert.equal(indonesian.length, 138);
+  assert.equal(polish.length, 139);
+  assert.equal(dutch.length, 138);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1740);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
@@ -704,7 +745,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 35,
+    blog: 73,
     blog_index: 1,
     case: 1,
     contact: 1,
@@ -716,13 +757,13 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 100);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 100);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 100);
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 138);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 138);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 138);
   const editorialSignatures = pages.map(({ version }) => version.body.slice(0, 6).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 180)}`).join("||"));
-  assert.equal(new Set(editorialSignatures).size, 100, "every Indonesian page must have a distinct below-hero editorial lead");
+  assert.equal(new Set(editorialSignatures).size, 138, "every Indonesian page must have a distinct below-hero editorial lead");
   const headingSignatures = pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"));
-  assert.equal(new Set(headingSignatures).size, 100, "every Indonesian page must have a distinct visible section sequence");
+  assert.equal(new Set(headingSignatures).size, 138, "every Indonesian page must have a distinct visible section sequence");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -742,7 +783,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/id(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedEditorialImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     for (const image of version.images) {
       assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/gambar-id\//, `${version.publicPath}: image filename`);
       assert.ok(image.alt.length >= 20, `${version.publicPath}: localized image alt`);
@@ -754,7 +795,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AIO|AI Search|keyword optimization|ranking optimization)\b/i, `${version.publicPath}: no internal terminology`);
     assert.doesNotMatch(visibleText(version), /\uFFFD|鈥|脿|Ã/, `${version.publicPath}: no mojibake`);
     assert.doesNotMatch(
-      visibleText(version),
+      visibleText(version).replace(/\/[^\s)"']+/gu, ""),
       /\b(?:buyer|supplier|private[- ]label|repeat order|landed cost|quotation|drawing|finishing|marking|interface|alignment|packing list|packing instruction|commercial grade|heavy-duty|lead time|final inspection|incoming inspection|control plan|change control|golden sample|route card|heat treatment|artwork|forecast|packaging)\b/i,
       `${version.publicPath}: no avoidable English procurement prose`
     );
@@ -815,7 +856,7 @@ test("Polish launch meets active-page coverage, content, English-asset and metad
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 35,
+    blog: 73,
     blog_index: 1,
     contact: 1,
     factory: 1,
@@ -826,10 +867,10 @@ test("Polish launch meets active-page coverage, content, English-asset and metad
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 99);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 99);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 99);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 99, "distinct Polish section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 137);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 137);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 137);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 137, "distinct Polish section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -849,9 +890,9 @@ test("Polish launch meets active-page coverage, content, English-asset and metad
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/pl(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedEditorialImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     const english = contentRepository.getPublishedVersion(entity.id, "en");
-    if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
+if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "lat-pulldown-bar-buying-inspection-guide" ? `/assets/resources/lat-pulldown-bars/${version.locale.toLowerCase()}-lat-pulldown-bar-buying-guide.webp` : entity.id === "triceps-rope-attachment-buying-inspection-guide" ? `/assets/resources/triceps-rope/${version.locale.toLowerCase()}-triceps-rope-buying-guide.webp` : entity.id === "weight-plate-grip-openings-handling-guide" ? `/assets/resources/plate-grip-openings/${version.locale.toLowerCase()}-weight-plate-grip-openings.webp` : entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : entity.id === "bumper-plate-thickness-sleeve-capacity-guide" ? `/assets/resources/bumper-plate-loading/${version.locale.toLowerCase()}-bumper-plate-thickness.webp` : entity.id === "olympic-barbell-straightness-sleeve-runout-guide" ? `/assets/resources/barbell-straightness/${version.locale.toLowerCase()}-barbell-straightness.webp` : entity.id === "bumper-plate-bounce-shore-hardness-test-guide" ? `/assets/resources/bumper-plate-bounce/${version.locale.toLowerCase()}-bumper-plate-bounce.webp` : entity.id === "cable-attachment-load-rating-inspection-guide" ? `/assets/resources/cable-attachment-load/${version.locale.toLowerCase()}-cable-attachment-load.webp` : entity.id === "fixed-dumbbell-handle-specification-guide" ? `/assets/resources/dumbbell-handles/${version.locale.toLowerCase()}-dumbbell-handle-guide.webp` : entity.id === "weight-plate-outside-diameter-profile-guide" ? `/assets/resources/weight-plate-diameter/${version.locale.toLowerCase()}-weight-plate-diameter-guide.webp` : entity.id === "rubber-coating-adhesion-dumbbell-plate-guide" ? `/assets/resources/rubber-coating-adhesion/${version.locale.toLowerCase()}-rubber-coating-adhesion.webp` : entity.id === "olympic-barbell-tensile-yield-strength-guide" ? `/assets/resources/barbell-shaft-strength/${version.locale.toLowerCase()}-barbell-shaft-strength.webp` : entity.id === "cable-attachment-handle-grip-specification-guide" ? `/assets/resources/cable-attachment-grips/${version.locale.toLowerCase()}-cable-attachment-grip.webp` : entity.id === "bumper-plate-hub-insert-retention-guide" ? `/assets/resources/bumper-plate-hubs/${version.locale.toLowerCase()}-bumper-plate-hub.webp` : entity.id === "olympic-barbell-sleeve-retention-end-cap-guide" ? `/assets/resources/barbell-sleeve-retention/${version.locale.toLowerCase()}-barbell-sleeve-retention.webp` : entity.id === "olympic-barbell-collar-buying-inspection-guide" ? `/assets/resources/barbell-collars/${version.locale.toLowerCase()}-olympic-barbell-collars.webp` : entity.id === "olympic-barbell-bearing-bushing-sleeve-rotation-guide" ? `/assets/resources/barbell-sleeve-rotation/${version.locale.toLowerCase()}-olympic-barbell-sleeve-rotation.webp` : isOriginalMediaGuide ? version.images[0]?.src : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
     for (const image of version.images) {
       assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
       assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
@@ -893,7 +934,7 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 35,
+    blog: 73,
     blog_index: 1,
     case: 1,
     contact: 1,
@@ -905,10 +946,10 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 100);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 100);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 100);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 100, "distinct Dutch section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 138);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 138);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 138);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 138, "distinct Dutch section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -928,9 +969,9 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     assert.equal(version.publishStatus, "published");
     assert.match(version.publicPath, /^\/nl(?:\/|$)/);
     assert.ok(version.author && version.reviewedBy && version.updatedAt, `${version.publicPath}: editorial provenance`);
-    assert.ok(isOriginalMediaGuide ? version.images.length === expectedOriginalImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
+    assert.ok(isOriginalMediaGuide ? version.images.length === expectedEditorialImageCount(entity.id) : version.images.length >= 2 && version.images.length <= 3, `${version.publicPath}: approved image set`);
     const english = contentRepository.getPublishedVersion(entity.id, "en");
-    if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
+    if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id === "lat-pulldown-bar-buying-inspection-guide" ? `/assets/resources/lat-pulldown-bars/${version.locale.toLowerCase()}-lat-pulldown-bar-buying-guide.webp` : entity.id === "triceps-rope-attachment-buying-inspection-guide" ? `/assets/resources/triceps-rope/${version.locale.toLowerCase()}-triceps-rope-buying-guide.webp` : entity.id === "weight-plate-grip-openings-handling-guide" ? `/assets/resources/plate-grip-openings/${version.locale.toLowerCase()}-weight-plate-grip-openings.webp` : entity.id === "kg-lb-free-weight-ordering-guide" ? `/assets/resources/kg-lb-units/${version.locale.toLowerCase()}-weight-assortment.webp` : entity.id === "fixed-vs-adjustable-dumbbells-commercial-guide" ? `/assets/resources/fixed-vs-adjustable-dumbbells/${version.locale.toLowerCase()}-fixed-adjustable-dumbbells.webp` : entity.id === "olympic-barbell-finish-coating-guide" ? `/assets/resources/barbell-finishes/${version.locale.toLowerCase()}-olympic-barbell-finishes.webp` : entity.id === "olympic-plate-hole-barbell-sleeve-fit-guide" ? `/assets/resources/plate-bar-fit/${version.locale.toLowerCase()}-plate-bar-fit.webp` : entity.id === "commercial-barbell-knurling-specification-guide" ? `/assets/resources/barbell-knurling/${version.locale.toLowerCase()}-barbell-knurling.webp` : entity.id === "bumper-plate-thickness-sleeve-capacity-guide" ? `/assets/resources/bumper-plate-loading/${version.locale.toLowerCase()}-bumper-plate-thickness.webp` : entity.id === "olympic-barbell-straightness-sleeve-runout-guide" ? `/assets/resources/barbell-straightness/${version.locale.toLowerCase()}-barbell-straightness.webp` : entity.id === "bumper-plate-bounce-shore-hardness-test-guide" ? `/assets/resources/bumper-plate-bounce/${version.locale.toLowerCase()}-bumper-plate-bounce.webp` : entity.id === "cable-attachment-load-rating-inspection-guide" ? `/assets/resources/cable-attachment-load/${version.locale.toLowerCase()}-cable-attachment-load.webp` : entity.id === "fixed-dumbbell-handle-specification-guide" ? `/assets/resources/dumbbell-handles/${version.locale.toLowerCase()}-dumbbell-handle-guide.webp` : entity.id === "weight-plate-outside-diameter-profile-guide" ? `/assets/resources/weight-plate-diameter/${version.locale.toLowerCase()}-weight-plate-diameter-guide.webp` : entity.id === "rubber-coating-adhesion-dumbbell-plate-guide" ? `/assets/resources/rubber-coating-adhesion/${version.locale.toLowerCase()}-rubber-coating-adhesion.webp` : entity.id === "olympic-barbell-tensile-yield-strength-guide" ? `/assets/resources/barbell-shaft-strength/${version.locale.toLowerCase()}-barbell-shaft-strength.webp` : entity.id === "cable-attachment-handle-grip-specification-guide" ? `/assets/resources/cable-attachment-grips/${version.locale.toLowerCase()}-cable-attachment-grip.webp` : entity.id === "bumper-plate-hub-insert-retention-guide" ? `/assets/resources/bumper-plate-hubs/${version.locale.toLowerCase()}-bumper-plate-hub.webp` : entity.id === "olympic-barbell-sleeve-retention-end-cap-guide" ? `/assets/resources/barbell-sleeve-retention/${version.locale.toLowerCase()}-barbell-sleeve-retention.webp` : entity.id === "olympic-barbell-collar-buying-inspection-guide" ? `/assets/resources/barbell-collars/${version.locale.toLowerCase()}-olympic-barbell-collars.webp` : entity.id === "olympic-barbell-bearing-bushing-sleeve-rotation-guide" ? `/assets/resources/barbell-sleeve-rotation/${version.locale.toLowerCase()}-olympic-barbell-sleeve-rotation.webp` : isOriginalMediaGuide ? version.images[0]?.src : english.version.images[0].src, `${version.publicPath}: approved primary asset`);
     for (const image of version.images) {
       assert.match(image.src, /^\/assets\//, `${version.publicPath}: original site asset`);
       assert.ok(existsSync(join(process.cwd(), "public", image.src)), `${version.publicPath}: image exists ${image.src}`);
@@ -1004,9 +1045,9 @@ test("German launch: published pages pass depth, media, metadata, schema and lin
   const german = contentRepository.listPublished({ locale: "de" }).filter(({ entity }) => entity.type !== "case");
   const products = german.filter(({ entity }) => entity.type === "product");
   const guides = german.filter(({ entity }) => entity.type === "blog");
-  assert.equal(german.length, 105);
+  assert.equal(german.length, 143);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 30);
+  assert.equal(guides.length, 68);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1085,9 +1126,9 @@ test("French launch: active published pages pass depth, media, metadata, schema 
   const french = contentRepository.listPublished({ locale: "fr" }).filter(({ entity }) => entity.type !== "case");
   const products = french.filter(({ entity }) => entity.type === "product");
   const guides = french.filter(({ entity }) => entity.type === "blog");
-  assert.equal(french.length, 100);
+  assert.equal(french.length, 138);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 25);
+  assert.equal(guides.length, 63);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1121,7 +1162,7 @@ test("French launch: active published pages pass depth, media, metadata, schema 
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "fr"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedEditorialImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
       assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/images-fr\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
       const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
@@ -1166,9 +1207,9 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
   const vietnamese = contentRepository.listPublished({ locale: "vi" }).filter(({ entity }) => entity.type !== "case");
   const products = vietnamese.filter(({ entity }) => entity.type === "product");
   const guides = vietnamese.filter(({ entity }) => entity.type === "blog");
-  assert.equal(vietnamese.length, 100);
+  assert.equal(vietnamese.length, 138);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 25);
+  assert.equal(guides.length, 63);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1203,7 +1244,7 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "vi"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedEditorialImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
       assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/hinh-anh-vi\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
       const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
@@ -1247,9 +1288,9 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
   const swedish = contentRepository.listPublished({ locale: "sv" }).filter(({ entity }) => entity.type !== "case");
   const products = swedish.filter(({ entity }) => entity.type === "product");
   const guides = swedish.filter(({ entity }) => entity.type === "blog");
-  assert.equal(swedish.length, 100);
+  assert.equal(swedish.length, 138);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 25);
+  assert.equal(guides.length, 63);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1284,7 +1325,7 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.internalLinks.length >= 3, `${version.publicPath}: internal links`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "sv"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedEditorialImageCount(entity.id) : 3, `${version.publicPath}: approved image count`);
     for (const image of version.images) {
       assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/bilder-sv\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
       const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");
@@ -1328,9 +1369,9 @@ test("Italian launch: active published pages pass localization, depth, media, me
   const italian = contentRepository.listPublished({ locale: "it" }).filter(({ entity }) => entity.type !== "case");
   const products = italian.filter(({ entity }) => entity.type === "product");
   const guides = italian.filter(({ entity }) => entity.type === "blog");
-  assert.equal(italian.length, 100);
+  assert.equal(italian.length, 138);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 25);
+  assert.equal(guides.length, 63);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1363,7 +1404,7 @@ test("Italian launch: active published pages pass localization, depth, media, me
     assert.ok(version.body.some((block) => block.type === "specifications"), `${version.publicPath}: table`);
     assert.ok(version.body.some((block) => block.type === "features"), `${version.publicPath}: checklist`);
     for (const link of version.internalLinks) assert.ok(contentRepository.getPublishedVersion(link.targetContentId, "it"), `${version.publicPath}: unresolved ${link.targetContentId}`);
-    assert.equal(version.images.length, isOriginalMediaGuide ? expectedOriginalImageCount(entity.id) : 3, `${version.publicPath}: images`);
+    assert.equal(version.images.length, isOriginalMediaGuide ? expectedEditorialImageCount(entity.id) : 3, `${version.publicPath}: images`);
     for (const image of version.images) {
       assert.match(image.src, isOriginalMediaGuide ? /^\/assets\// : /^\/immagini-it\/[A-Za-z0-9_-]+\/[a-z0-9-]+\.(?:avif|gif|jpe?g|png|svg|webp)$/);
       const source = isOriginalMediaGuide ? image.src : Buffer.from(image.src.split("/")[2], "base64url").toString("utf8");

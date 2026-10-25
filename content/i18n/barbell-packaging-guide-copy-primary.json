@@ -1,0 +1,562 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/olympic-barbell-export-packaging-guide",
+    "title": "Olympic Barbell Export Packaging: A Buyer’s Specification Guide",
+    "description": "Specify Olympic barbell export packaging that controls movement, protects finishes and supports long parcels from factory release through receiving.",
+    "h1": "How to Specify Export Packaging for Olympic Barbells",
+    "keyword": "Olympic barbell export packaging",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Factory guide for barbell importers and private-label buyers",
+    "sections": [
+      {
+        "heading": "Quick answer: approve the complete pack, not just the tube",
+        "text": "A shipping tube is only one part of Olympic barbell export packaging. A purchase specification should define the approved bar revision, clean inner wrap, axial restraint, end protection, outer tube or carton, closure method, moisture controls, identification and the way long packages are supported as a unit load.\n\nThe pack should prevent the bar from sliding into the ends, rubbing against abrasive surfaces or sitting across unsupported pallet gaps. Packaging cannot make a bar straight. Record straightness and sleeve condition before packing, then inspect them again after a representative distribution trial and at receiving."
+      },
+      {
+        "heading": "Start with the bar and the distribution route",
+        "text": "Give the factory the actual overall length, shaft and sleeve geometry, surface finish, end-cap design and packed quantity. A zinc sleeve, black shaft or decorative coating may need different contact materials. The package also changes when one bar travels by parcel network versus many bars moving on a pallet or in an export container.\n\nDo not approve wording such as “strong tube” without a sample or drawing. Identify where the bar is supported, what stops axial movement and how the closure remains attached. Carrier limits, warehouse handling and container loading should be considered before freezing the pack."
+      },
+      {
+        "heading": "Control axial movement and protect both ends",
+        "text": "Long bars can build momentum inside a loose package. End blocks or retainers should locate the product without pressing on a removable end cap, bearing shield or other sensitive feature. The closure must resist the expected handling without metal parts breaking through it.\n\nFoam alone is not automatically adequate. Its density, contact area, recovery and position matter, as does the clearance around each sleeve. Ask for a section view or opened sample so the team can see which surface carries the load. There is no universal end-block material or thickness for every bar and route."
+      },
+      {
+        "heading": "Support the full length as a unit load",
+        "text": "Individual tubes can still fail when they overhang a pallet, bridge a large gap or receive a point load from straps and forks. The pallet or frame, tubes, separators, straps and stretch wrap work as one system. Long packages should be prevented from rolling while fork-entry and lifting points remain clear.\n\nAgree how mixed models are separated and how bundle labels remain visible. A rigid outer pack is useful only when it is supported and closed correctly. For Bulk Supply orders, the factory packing instruction should show the bundle pattern as well as the single-bar pack."
+      },
+      {
+        "heading": "Separate surface protection from moisture control",
+        "text": "Inner materials should be clean, non-abrasive and compatible with the shaft and sleeve finish. Protect knurling from rubbing through thin film, but avoid loose material that can catch in collars or closures. Pack only dry products; wet paper, trapped condensation or incompatible adhesive can mark a finish even when the carton looks intact.\n\nDesiccant or barrier film should be used only as part of a defined pack with suitable sealing and storage conditions. It is not a substitute for a dry product, clean handling or route control. Link the approved inner wrap to the same product revision used for the Custom Logo sample."
+      },
+      {
+        "heading": "Validate a representative shipping unit",
+        "text": "A useful trial uses the production-equivalent bar, inner pack, closures, outer pack and unit-load configuration. ASTM D4169 provides a framework for distribution-cycle testing, while ISO 12048 covers compression and stacking tests on complete filled transport packages. The buyer and supplier still need to choose a route-appropriate sequence and acceptance criteria.\n\nDo not describe a generic test as product certification or invent one drop height for every shipment. Record the packed configuration, conditioning, test sequence and before-and-after observations. If raw wood packaging or dunnage is used internationally, confirm applicable ISPM 15 treatment and marking separately; that phytosanitary requirement does not prove mechanical strength."
+      },
+      {
+        "heading": "Inspect and preserve evidence at receiving",
+        "text": "Before opening, photograph the shipping label, full package, both ends, wet areas, punctures, crushed zones and any bend in the outer pack. Open carefully and keep the closures and internal supports until product inspection is complete. This evidence helps separate packaging damage, handling damage and a product issue.\n\nVerify model identity, visible finish, end-cap condition, sleeve rotation and straightness using the agreed methods. Quarantine suspect bars instead of attempting to straighten them or polish away marks. A receiving checklist should state who records the finding and how it is linked to the carton or pallet ID."
+      },
+      {
+        "heading": "Freeze the pack for OEM and Private Label reorders",
+        "text": "For OEM and ODM programs, include the packaging bill of materials, assembly photos or drawings, label fields and approval revision in the golden sample record. Custom Logo artwork on cartons or end labels must stay readable without covering handling or regulatory marks. Private Label presentation should never weaken end protection.\n\nRecheck the pack when the bar geometry, finish, end cap, tube, end block, pallet pattern, route or carrier changes. ChinaFreeWeight can review the product and packaging specification together for distributors, importers, brands and gym projects, then keep the approved configuration attached to Bulk Supply reorder documents."
+      }
+    ],
+    "table": {
+      "heading": "Packaging decision table",
+      "columns": [
+        "Control point",
+        "What the buyer should specify",
+        "Evidence to retain"
+      ],
+      "rows": [
+        [
+          "Bar boundary",
+          "Approved model, dimensions, finish and end construction",
+          "Drawing or golden-sample revision"
+        ],
+        [
+          "Inner protection",
+          "Clean contact materials and protected knurl and sleeves",
+          "Material note and opened-pack photos"
+        ],
+        [
+          "Axial restraint",
+          "End blocks or stops that avoid sensitive components",
+          "Section view and movement check"
+        ],
+        [
+          "Outer package",
+          "Tube or carton, closure and end protection",
+          "Pack drawing and sealed-sample photos"
+        ],
+        [
+          "Unit load",
+          "Support, anti-roll method, straps and fork access",
+          "Pallet pattern and loading photos"
+        ],
+        [
+          "Receiving",
+          "Package evidence and product checks",
+          "Carton or pallet ID with inspection record"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten points to approve before release",
+      "items": [
+        "Confirm the exact bar revision and packed orientation.",
+        "Check that all product-contact materials are clean and compatible.",
+        "Verify that the bar cannot gain damaging axial movement.",
+        "Keep closures away from removable or sensitive end parts.",
+        "Protect shaft, knurl, sleeves and finish from rubbing.",
+        "Support long packages without overhang or concentrated loads.",
+        "Define the bundle, strap and fork-entry arrangement.",
+        "Approve readable SKU, quantity and handling identification.",
+        "Record the representative validation plan and acceptance criteria.",
+        "Give receiving teams a photo and quarantine procedure."
+      ]
+    },
+    "faqHeading": "Frequently asked questions",
+    "faq": [
+      [
+        "Is a heavy cardboard tube enough for an Olympic barbell?",
+        "Not by itself. Tube grade matters, but so do axial restraint, end closures, inner contact materials, full-length support and the distribution route. Approve the assembled shipping unit."
+      ],
+      [
+        "Should foam be placed at both ends?",
+        "End protection is often useful, but its material and location must suit the bar. It should locate the product without loading a removable end cap or other sensitive component."
+      ],
+      [
+        "Can a packaging trial prove that the bar is straight?",
+        "No. The trial evaluates the packed shipping unit under an agreed sequence. Straightness is a separate product characteristic that should be recorded before and after with a defined inspection method."
+      ],
+      [
+        "Does an export order need a wooden crate?",
+        "Not automatically. The decision depends on route, handling, quantity and the complete unit-load design. When raw wood is used internationally, applicable ISPM 15 requirements must be handled separately."
+      ],
+      [
+        "What should I send a manufacturer for a packaging quotation?",
+        "Send the bar models, quantities, dimensions, finishes, logo and label needs, destination route, single-pack or pallet preference, and the acceptance checks you expect."
+      ]
+    ],
+    "linkHeading": "Continue your barbell sourcing review",
+    "linkLabels": [
+      "Commercial Olympic barbell buying guide",
+      "Bar straightness and sleeve runout",
+      "Sleeve retention and end-cap inspection",
+      "Barbell finish and coating guide",
+      "OEM sample approval process",
+      "Pre-shipment inspection guide",
+      "Discuss your packaging specification"
+    ],
+    "imageAlt": "Olympic barbell aligned inside an open reinforced export tube with separate end blocks on an inspection bench",
+    "imageCaption": "Conceptual packaging layout showing a straight Olympic bar, non-abrasive contact protection and restrained tube ends.",
+    "cta": [
+      "Specify the bar and the pack together",
+      "Send ChinaFreeWeight your bar revision, route, branding and receiving requirements for an OEM, ODM, Private Label or Bulk Supply packaging review.",
+      "Request a packaging review"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/embalagem-exportacao-barra-olimpica",
+    "title": "Embalagem de Exportação para Barra Olímpica: Guia de Especificação",
+    "description": "Saiba como especificar embalagem de exportação para barras olímpicas, com apoio longitudinal, proteção das ponteiras e inspeção no recebimento.",
+    "h1": "Como Especificar a Embalagem de Exportação de Barras Olímpicas",
+    "keyword": "embalagem de exportação para barra olímpica",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Guia de fábrica para importadores e marcas próprias",
+    "sections": [
+      {
+        "heading": "Resposta direta: aprove o conjunto completo",
+        "text": "Para uma barra olímpica, dizer apenas “tubo reforçado” não fecha a especificação. O comprador deve aprovar a revisão da barra, a proteção de contato, os limitadores axiais, as proteções de ponta, o tubo ou caixa externa, o fechamento, o controle de umidade, a identificação e a forma de apoiar os volumes compridos.\n\nA barra não pode correr por dentro da embalagem, raspar em material agressivo nem ficar suspensa entre apoios no palete. A embalagem também não corrige empeno. Registre a condição da barra antes de embalar e repita a verificação após um ensaio representativo e no recebimento."
+      },
+      {
+        "heading": "Defina produto, rota e forma de movimentação",
+        "text": "Informe à fábrica o comprimento total, a geometria do eixo e das mangas, o acabamento, a construção das tampas e a quantidade por embarque. Uma unidade enviada por encomenda expressa enfrenta manuseio diferente de um lote paletizado em contêiner.\n\nEvite aprovar termos vagos como “caixa resistente”. O desenho ou a amostra aberta deve mostrar pontos de apoio, folgas, travamento longitudinal e fechamento. Limites da transportadora, armazenagem, garfos e amarração precisam entrar na decisão antes de liberar a produção."
+      },
+      {
+        "heading": "Impeça impactos repetidos nas extremidades",
+        "text": "Uma barra solta ganha movimento e pode golpear as duas pontas do tubo. Calços e batentes devem posicionar as mangas sem transferir carga para tampas removíveis, anéis ou outros componentes sensíveis. O fechamento externo precisa permanecer preso durante o trajeto previsto.\n\nEspuma não é uma solução automática. Densidade, área de contato, recuperação e localização mudam o resultado. Peça uma vista em corte ou abra uma amostra para confirmar onde a carga é recebida. Não existe espessura universal adequada a todas as barras."
+      },
+      {
+        "heading": "Trate palete e volumes como um único sistema",
+        "text": "Tubos rígidos ainda podem sofrer quando avançam além do palete, atravessam vãos grandes ou recebem pressão concentrada de cintas. Palete, separadores, tubos, proteção lateral e amarração funcionam juntos. O conjunto deve impedir rolagem e manter livres as áreas de entrada dos garfos.\n\nEm Bulk Supply, a instrução de embalagem deve registrar o padrão do feixe e não apenas a caixa individual. Modelos mistos precisam de separação e etiquetas visíveis para reduzir troca de SKU no recebimento."
+      },
+      {
+        "heading": "Proteja o acabamento sem reter umidade",
+        "text": "Materiais internos devem estar limpos, secos, sem abrasão e compatíveis com o revestimento do eixo e das mangas. Recubra o recartilhado para evitar atrito, mas não deixe plástico solto perto dos colares. Papel úmido, condensação presa ou adesivo inadequado podem marcar a superfície mesmo com a caixa intacta.\n\nDessecante e filme barreira só fazem sentido em uma configuração definida, com fechamento e condições de armazenagem correspondentes. Eles não substituem secagem, limpeza nem controle de rota. Vincule essa configuração à mesma revisão aprovada da amostra com Custom Logo."
+      },
+      {
+        "heading": "Valide uma unidade representativa do embarque",
+        "text": "O ensaio deve usar barra, proteção interna, batentes, fechamento, embalagem externa e paletização equivalentes à produção. ASTM D4169 oferece uma estrutura para simular ciclos de distribuição; ISO 12048 descreve ensaios de compressão e empilhamento em embalagens completas e cheias. Comprador e fornecedor ainda precisam escolher sequência e critérios adequados à rota. Inclua os mesmos pontos de apoio, o mesmo padrão de cintas e a mesma orientação que serão usados no carregamento.\n\nNão transforme um ensaio genérico em certificado da barra nem use um limite único sem justificativa. Registre configuração, condicionamento, sequência e comparação antes/depois. Reabra a unidade para observar deslocamento interno, marcas de atrito, fechamento e condição das mangas, sem confundir aparência da caixa com aprovação do produto. Se houver madeira bruta em caixas ou calços de exportação, verifique separadamente as exigências aplicáveis da ISPM 15; tratamento fitossanitário não comprova resistência mecânica."
+      },
+      {
+        "heading": "Faça o recebimento sem destruir evidências",
+        "text": "Antes de abrir, fotografe etiqueta, volume inteiro, duas extremidades, áreas molhadas, furos, esmagamentos e deformações. Guarde tampas, calços e separadores até terminar a inspeção. Isso ajuda a distinguir dano da embalagem, evento de manuseio e desvio do produto.\n\nConfirme modelo, acabamento, condição das tampas, rotação das mangas e retitude pelo método combinado. Isole barras suspeitas; não tente desentortar nem polir marcas antes do registro. Relacione cada foto e resultado ao número do volume ou palete."
+      },
+      {
+        "heading": "Congele a configuração para recompras",
+        "text": "Em programas OEM e ODM, guarde lista de materiais, desenho ou fotos de montagem, campos de etiqueta e revisão aprovada no dossiê da amostra. A comunicação Private Label e o Custom Logo da caixa devem ficar legíveis sem cobrir marcações de manuseio. A apresentação comercial nunca deve reduzir a proteção das pontas.\n\nReavalie quando mudarem geometria, acabamento, tampa, tubo, calço, paletização, rota ou transportadora. A ChinaFreeWeight pode revisar produto e embalagem em conjunto e manter a configuração aprovada vinculada aos documentos de recompra e Bulk Supply."
+      }
+    ],
+    "table": {
+      "heading": "Quadro de decisão da embalagem",
+      "columns": [
+        "Ponto de controle",
+        "O que especificar",
+        "Evidência a guardar"
+      ],
+      "rows": [
+        [
+          "Limite do produto",
+          "Modelo, dimensões, acabamento e construção das pontas",
+          "Desenho ou revisão da amostra"
+        ],
+        [
+          "Proteção interna",
+          "Materiais limpos e proteção de eixo e mangas",
+          "Nota de material e fotos abertas"
+        ],
+        [
+          "Travamento axial",
+          "Calços que não carreguem peças sensíveis",
+          "Corte e teste de movimento"
+        ],
+        [
+          "Embalagem externa",
+          "Tubo ou caixa, fechamento e pontas",
+          "Desenho e fotos lacradas"
+        ],
+        [
+          "Unitização",
+          "Apoio, antirrolagem, cintas e acesso dos garfos",
+          "Padrão do palete e fotos"
+        ],
+        [
+          "Recebimento",
+          "Registro do volume e verificações da barra",
+          "ID ligado à ficha de inspeção"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dez pontos antes de liberar o lote",
+      "items": [
+        "Confirmar revisão e orientação exatas da barra.",
+        "Verificar limpeza e compatibilidade dos materiais de contato.",
+        "Impedir deslocamento longitudinal capaz de causar impacto.",
+        "Manter a carga longe de tampas e componentes sensíveis.",
+        "Proteger eixo, recartilhado, mangas e acabamento.",
+        "Apoiar volumes compridos sem balanço nem carga pontual.",
+        "Definir feixe, cintas e entrada de garfos.",
+        "Aprovar identificação legível de SKU e quantidade.",
+        "Registrar plano de validação e critérios de aceitação.",
+        "Fornecer rotina de fotos, inspeção e quarentena."
+      ]
+    },
+    "faqHeading": "Perguntas frequentes",
+    "faq": [
+      [
+        "Um tubo de papelão grosso é suficiente?",
+        "Não isoladamente. O desempenho depende também dos calços, tampas, materiais de contato, apoio longitudinal e rota. Aprove o volume completo montado."
+      ],
+      [
+        "É obrigatório usar espuma nas duas pontas?",
+        "A proteção é importante, mas material e posição precisam combinar com a barra. O calço não deve pressionar uma tampa removível ou outra peça sensível."
+      ],
+      [
+        "O ensaio da embalagem comprova que a barra está reta?",
+        "Não. Ele avalia o volume embalado. A retitude é uma característica separada, registrada antes e depois por um método de inspeção definido."
+      ],
+      [
+        "Toda exportação precisa de caixa de madeira?",
+        "Não. A escolha depende de rota, manuseio, quantidade e unitização. Quando houver madeira bruta, trate os requisitos aplicáveis da ISPM 15 separadamente."
+      ],
+      [
+        "Quais dados enviar para cotação?",
+        "Envie modelos, quantidades, dimensões, acabamentos, necessidades de marca e etiqueta, destino, preferência de caixa ou palete e critérios de recebimento."
+      ]
+    ],
+    "linkHeading": "Continue a análise de compra",
+    "linkLabels": [
+      "Guia de compra de barra olímpica comercial",
+      "Retitude e oscilação das mangas",
+      "Retenção das mangas e tampas",
+      "Acabamentos para barras olímpicas",
+      "Aprovação de amostras OEM",
+      "Inspeção antes do embarque",
+      "Enviar sua especificação de embalagem"
+    ],
+    "imageAlt": "Barra olímpica reta em tubo de exportação aberto com calços separados sobre bancada de inspeção",
+    "imageCaption": "Composição conceitual com proteção limpa, apoio correto e travamento das extremidades de uma barra olímpica.",
+    "cta": [
+      "Especifique a barra e a embalagem juntas",
+      "Envie à ChinaFreeWeight a revisão da barra, rota, marca e critérios de recebimento para uma análise OEM, ODM, Private Label ou Bulk Supply.",
+      "Solicitar análise de embalagem"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/embalaje-exportacion-barra-olimpica",
+    "title": "Embalaje de Exportación para Barras Olímpicas: Guía de Compra",
+    "description": "Cómo especificar el embalaje de barras olímpicas para evitar movimiento axial, roces, extremos dañados y problemas al recibir una importación.",
+    "h1": "Cómo Definir el Embalaje de Exportación de una Barra Olímpica",
+    "keyword": "embalaje de exportación para barra olímpica",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Guía de fábrica para importadores, distribuidores y marcas",
+    "sections": [
+      {
+        "heading": "Respuesta breve: el tubo no es toda la solución",
+        "text": "El embalaje debe aprobarse como un sistema: revisión de la barra, envoltura limpia, bloqueo axial, protección de extremos, tubo o caja exterior, cierres, control de humedad, identificación y soporte del conjunto. Pedir solamente “tubo fuerte” deja sin definir las causas más frecuentes de daño.\n\nLa barra no debe deslizarse hasta golpear las tapas, rozar materiales abrasivos ni quedar en voladizo. El embalaje no endereza el producto. Conviene documentar rectitud y estado de las mangas antes de embalar, después de una prueba representativa y al recibir."
+      },
+      {
+        "heading": "La especificación comienza con el producto y la ruta",
+        "text": "Facilite longitud, geometría de eje y mangas, acabado, diseño de los extremos y cantidad por expedición. Un envío unitario por paquetería no se manipula igual que un lote paletizado para contenedor, y esa diferencia cambia cierres, apoyos y unitización.\n\nExija un plano o una muestra abierta que muestre holguras, puntos de contacto y retención. También deben contemplarse restricciones del transportista, almacenamiento intermedio, uso de carretilla y estiba. Las palabras “embalaje de exportación” no sustituyen esos detalles."
+      },
+      {
+        "heading": "Detenga el desplazamiento longitudinal",
+        "text": "Una pieza larga y pesada puede adquirir impulso dentro de un envase holgado. Los topes deben sujetar las mangas sin descargar el esfuerzo sobre tapas desmontables, retenes o componentes delicados. El cierre exterior tiene que resistir la manipulación prevista sin que el metal lo perfore.\n\nLa espuma funciona solo cuando densidad, recuperación, superficie de apoyo y posición son adecuadas. Revise una sección o desmonte una muestra para saber qué componente recibe la carga. No hay un grosor único que sirva para todas las barras y rutas."
+      },
+      {
+        "heading": "Diseñe el palé para la longitud completa",
+        "text": "Un tubo rígido puede doblarse o aplastarse si sobresale, cruza huecos amplios o recibe presión puntual de flejes. Palé, bastidor, separadores, tubos y amarres forman una unidad. Las piezas deben quedar apoyadas, sin rodar, y con accesos de horquilla claramente definidos.\n\nEn pedidos de Bulk Supply, incluya el patrón de agrupación y no solo el envase individual. Cuando viajen modelos distintos, la separación física y el etiquetado visible reducen errores en almacén y permiten rastrear cada incidencia."
+      },
+      {
+        "heading": "Cuide acabado y humedad por separado",
+        "text": "Los materiales en contacto han de estar limpios, secos, no ser abrasivos y ser compatibles con el recubrimiento. El moleteado necesita protección contra el roce, pero las láminas sueltas no deben entrar en cierres o collares. Condensación, papel húmedo o adhesivo inadecuado pueden dejar marcas sin daño exterior visible.\n\nUna bolsa barrera o desecante requiere un cierre y unas condiciones definidas; no reemplaza el secado ni la limpieza. Vincule estos materiales a la misma revisión de producto aprobada para el Custom Logo, especialmente cuando cambie el acabado."
+      },
+      {
+        "heading": "Ensaye una unidad equivalente a producción",
+        "text": "La validación debe reunir barra, envoltura, topes, cierres, caja exterior y configuración de palé equivalentes al envío real. ASTM D4169 aporta un marco para ciclos de distribución e ISO 12048 describe métodos de compresión y apilado de embalajes completos. La secuencia y los criterios deben adaptarse a la ruta acordada. Reproduzca los apoyos, el patrón de flejado y la orientación previstos para la carga comercial.\n\nNo presente una prueba genérica como certificación del producto ni invente un límite universal. Registre configuración, acondicionamiento, secuencia y observaciones antes y después. Abra la unidad para comprobar desplazamiento, roces, cierres y estado de las mangas; una caja exterior sin roturas no sustituye la inspección del producto. Si se emplea madera en bruto, verifique aparte los requisitos aplicables de ISPM 15; su finalidad fitosanitaria no acredita resistencia estructural."
+      },
+      {
+        "heading": "Reciba el lote conservando las pruebas",
+        "text": "Antes de abrir, fotografíe etiqueta, bulto completo, extremos, humedad, perforaciones, aplastamientos y deformaciones. Conserve tapas y soportes interiores hasta terminar la revisión. Estas evidencias permiten diferenciar un fallo de embalaje, un golpe logístico y una no conformidad del producto. Registre también la orientación del bulto y si estaba suelto o correctamente sujeto dentro de la unidad de carga.\n\nCompruebe identidad, acabado, tapas, giro de mangas y rectitud según métodos pactados. Aísle la barra sospechosa sin enderezarla ni borrar marcas. Cada registro debe asociarse al identificador del bulto o del palé. Si varias unidades muestran el mismo patrón, amplíe la revisión antes de liberar el resto de la partida."
+      },
+      {
+        "heading": "Mantenga controladas las recompras OEM",
+        "text": "En proyectos OEM y ODM, archive materiales, plano o fotos de montaje, campos de etiqueta y revisión aprobada junto a la muestra patrón. El diseño Private Label y el Custom Logo han de ser legibles sin tapar avisos necesarios, y nunca deben reducir la protección física.\n\nVuelva a validar cuando cambien barra, acabado, extremo, tubo, tope, palé, ruta o transportista. ChinaFreeWeight puede revisar en conjunto especificación de producto y embalaje para importadores, distribuidores, marcas y gimnasios, manteniendo la versión aprobada en las órdenes de Bulk Supply."
+      }
+    ],
+    "table": {
+      "heading": "Tabla para cerrar la especificación",
+      "columns": [
+        "Elemento",
+        "Qué debe definir el comprador",
+        "Registro"
+      ],
+      "rows": [
+        [
+          "Producto",
+          "Modelo, dimensiones, acabado y extremos",
+          "Plano o muestra patrón"
+        ],
+        [
+          "Contacto interior",
+          "Materiales limpios y protección de eje y mangas",
+          "Ficha y fotos con envase abierto"
+        ],
+        [
+          "Bloqueo axial",
+          "Topes alejados de piezas sensibles",
+          "Sección y comprobación de movimiento"
+        ],
+        [
+          "Envase exterior",
+          "Tubo o caja, cierres y protección final",
+          "Plano y fotos selladas"
+        ],
+        [
+          "Unidad de carga",
+          "Apoyos, antirrodadura, flejes y horquillas",
+          "Patrón de palé"
+        ],
+        [
+          "Recepción",
+          "Evidencias y controles de la barra",
+          "ID del bulto y acta"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez comprobaciones antes de autorizar",
+      "items": [
+        "Confirmar la revisión exacta y la orientación de la barra.",
+        "Validar limpieza y compatibilidad de todos los contactos.",
+        "Evitar desplazamientos axiales capaces de golpear cierres.",
+        "No cargar tapas desmontables ni elementos delicados.",
+        "Proteger eje, moleteado, mangas y acabado.",
+        "Apoyar la longitud sin voladizos ni presiones puntuales.",
+        "Definir agrupación, flejes y acceso de horquillas.",
+        "Aprobar identificación legible de SKU y cantidad.",
+        "Documentar ensayo representativo y criterios de aceptación.",
+        "Preparar fotos, inspección y cuarentena en destino."
+      ]
+    },
+    "faqHeading": "Preguntas frecuentes",
+    "faq": [
+      [
+        "¿Basta un tubo de cartón grueso?",
+        "No por sí solo. También importan topes, cierres, materiales interiores, soporte longitudinal y ruta. Apruebe la unidad completa montada."
+      ],
+      [
+        "¿Conviene poner espuma en ambos extremos?",
+        "Puede ser útil, pero material, posición y área de apoyo deben adecuarse a la barra sin cargar tapas desmontables ni componentes sensibles."
+      ],
+      [
+        "¿La prueba de embalaje demuestra que la barra está recta?",
+        "No. Evalúa la unidad de envío. La rectitud se controla por separado antes y después con un método definido."
+      ],
+      [
+        "¿Hace falta una caja de madera para exportar?",
+        "No siempre. Depende de ruta, manipulación, cantidad y diseño de la unidad de carga. La madera en bruto exige revisar aparte la ISPM 15 aplicable."
+      ],
+      [
+        "¿Qué información necesita el fabricante para cotizar?",
+        "Modelos, cantidades, dimensiones, acabados, marca y etiquetas, destino, formato individual o paletizado y controles de recepción."
+      ]
+    ],
+    "linkHeading": "Siga revisando su compra de barras",
+    "linkLabels": [
+      "Guía de barras olímpicas comerciales",
+      "Rectitud y oscilación de mangas",
+      "Retención de mangas y tapas",
+      "Acabados para barras olímpicas",
+      "Proceso de muestra OEM",
+      "Inspección previa al embarque",
+      "Compartir la especificación de embalaje"
+    ],
+    "imageAlt": "Barra olímpica dentro de un tubo reforzado abierto con protecciones de extremo sobre una mesa de inspección",
+    "imageCaption": "Escena conceptual de embalaje con la barra recta, contactos limpios y extremos inmovilizados.",
+    "cta": [
+      "Cierre producto y embalaje en una sola revisión",
+      "Comparta con ChinaFreeWeight la barra, la ruta, el diseño de marca y los controles de destino para revisar su proyecto OEM, ODM, Private Label o Bulk Supply.",
+      "Solicitar revisión"
+    ]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/olympia-langhantel-exportverpackung",
+    "title": "Exportverpackung für Olympiastangen: Leitfaden für Einkäufer",
+    "description": "So legen Einkäufer die Exportverpackung für Olympiastangen fest: Längssicherung, Endschutz, Oberflächenschutz, Ladungsträger und Wareneingang.",
+    "h1": "Olympiastangen für den Export Sicher Verpacken",
+    "keyword": "Exportverpackung für Olympiastangen",
+    "home": "Startseite",
+    "library": "Blog",
+    "eyebrow": "Werksleitfaden für Importeure und Eigenmarken",
+    "sections": [
+      {
+        "heading": "Kurzantwort: Die gesamte Verpackungseinheit freigeben",
+        "text": "Ein stabiles Versandrohr allein ist noch keine belastbare Spezifikation. Festzulegen sind die freigegebene Stangenversion, saubere Innenauflagen, axiale Sicherung, Endschutz, Außenrohr oder Karton, Verschluss, Feuchteschutz, Kennzeichnung und die Abstützung des langen Packstücks.\n\nDie Stange darf im Rohr keinen Anlauf nehmen, an rauen Flächen scheuern oder über Palettenränder hinausragen. Verpackung erzeugt keine Geradheit. Dokumentieren Sie Geradheit und Hülsenzustand vor dem Verpacken sowie nach einer repräsentativen Versandprüfung und im Wareneingang."
+      },
+      {
+        "heading": "Produktdaten und Transportweg zuerst klären",
+        "text": "Nennen Sie Gesamtlänge, Schaft- und Hülsengeometrie, Oberfläche, Endkappenkonstruktion und Versandmenge. Ein einzelnes Paket im KEP-Netz wird anders beansprucht als gebündelte Stangen auf einem Ladungsträger im Container.\n\nBegriffe wie „exportfest“ reichen nicht aus. Zeichnung oder geöffnete Freigabemuster müssen Kontaktpunkte, Spiel, Endanschläge und Verschluss zeigen. Vorgaben des Frachtführers, Zwischenlagerung, Gabelaufnahme und Containerstau sind vor Serienfreigabe zu berücksichtigen."
+      },
+      {
+        "heading": "Axiale Bewegung an beiden Enden begrenzen",
+        "text": "Eine lange, schwere Stange kann in einer zu großen Verpackung wiederholt gegen den Abschluss schlagen. Endblöcke sollen die Hülsen positionieren, ohne eine abnehmbare Endkappe, einen Sicherungsring oder ein empfindliches Bauteil zu belasten. Der äußere Abschluss darf nicht vom Metall durchstoßen werden.\n\nSchaum ist nur mit passender Dichte, Rückstellung, Auflagefläche und Position sinnvoll. Lassen Sie sich einen Schnitt zeigen oder öffnen Sie ein Muster, um den tatsächlichen Lastpfad zu erkennen. Eine universelle Materialstärke für jede Stange gibt es nicht."
+      },
+      {
+        "heading": "Lange Packstücke als Ladeeinheit abstützen",
+        "text": "Auch ein starres Rohr kann versagen, wenn es übersteht, große Zwischenräume überbrückt oder von Gurten punktuell gedrückt wird. Palette oder Rahmen, Zwischenlagen, Rohre, Gurte und Folie bilden ein System. Rollen muss verhindert werden; Gabeltaschen und Hebepunkte bleiben frei.\n\nFür Bulk Supply gehört das Bündelschema in die Verpackungsanweisung. Bei gemischten Modellen sorgen Trennung und sichtbare Kennzeichnung dafür, dass Wareneingang und Reklamationszuordnung nicht erschwert werden."
+      },
+      {
+        "heading": "Oberfläche und Feuchte getrennt beherrschen",
+        "text": "Alle Kontaktmaterialien müssen sauber, trocken, abriebarm und mit Schaft- sowie Hülsenfinish verträglich sein. Die Rändelung braucht Schutz gegen Durchscheuern, lose Folie darf jedoch nicht in Bund oder Verschluss geraten. Feuchtes Papier, Kondensat oder ungeeigneter Klebstoff kann unbeschädigte Kartons überstehen und dennoch Spuren hinterlassen.\n\nTrockenmittel oder Sperrfolie funktionieren nur in einem definierten, passenden Verpackungsaufbau. Sie ersetzen weder trockene Produkte noch saubere Handhabung. Verknüpfen Sie die Innenverpackung mit der freigegebenen Custom Logo Produktrevision."
+      },
+      {
+        "heading": "Seriennahe Versandeinheit prüfen",
+        "text": "Eine aussagekräftige Prüfung verwendet Stange, Innenmaterial, Endblöcke, Verschlüsse, Außenpackung und Ladeeinheit wie in der Serie. ASTM D4169 bietet einen Rahmen für Verteilungszyklen; ISO 12048 beschreibt Druck- und Stapelprüfungen an vollständigen, gefüllten Versandstücken. Prüfablauf und Annahmekriterien bleiben routenbezogen zu vereinbaren.\n\nEine allgemeine Verpackungsprüfung ist keine Produktzertifizierung, und ein pauschaler Grenzwert passt nicht zu jedem Transport. Dokumentieren Sie Aufbau, Konditionierung, Ablauf und Vorher-Nachher-Befund. Bei Rohholzverpackung sind anwendbare ISPM-15-Vorgaben separat zu klären; Pflanzenschutzbehandlung ist kein Festigkeitsnachweis."
+      },
+      {
+        "heading": "Wareneingang mit Beweissicherung organisieren",
+        "text": "Fotografieren Sie vor dem Öffnen Etikett, Gesamtpaket, beide Enden, Nässe, Einstiche, Quetschungen und Verformungen. Verschlüsse und Innenstützen bleiben erhalten, bis die Produktprüfung abgeschlossen ist. So lassen sich Verpackungsfehler, Umschlagereignis und Produktabweichung besser trennen.\n\nPrüfen Sie Identität, Finish, Endkappen, Hülsenlauf und Geradheit nach vereinbartem Verfahren. Verdächtige Stangen werden gesperrt, nicht gerichtet oder poliert. Jeder Befund muss eindeutig der Paket- oder Palettennummer zugeordnet sein."
+      },
+      {
+        "heading": "OEM-Verpackung für Nachbestellungen einfrieren",
+        "text": "Bei OEM- und ODM-Projekten gehören Stückliste, Montagezeichnung oder Fotos, Etikettfelder und Freigabestand in den Musterdatensatz. Private Label Gestaltung und Custom Logo müssen lesbar bleiben, ohne Handhabungshinweise zu verdecken. Optik darf den Endschutz nicht schwächen.\n\nÄnderungen an Geometrie, Finish, Endkappe, Rohr, Endblock, Palettierung, Route oder Frachtführer lösen eine Neubewertung aus. ChinaFreeWeight kann Produkt- und Verpackungsspezifikation gemeinsam prüfen und den freigegebenen Stand an Bulk Supply Nachbestellungen binden."
+      }
+    ],
+    "table": {
+      "heading": "Entscheidungstabelle für die Freigabe",
+      "columns": [
+        "Prüfpunkt",
+        "Festzulegen",
+        "Nachweis"
+      ],
+      "rows": [
+        [
+          "Produktgrenze",
+          "Modell, Maße, Finish und Endaufbau",
+          "Zeichnung oder Freigabemuster"
+        ],
+        [
+          "Innenkontakt",
+          "Saubere Materialien und Schutz von Schaft und Hülsen",
+          "Materialangabe und offene Fotos"
+        ],
+        [
+          "Axialsicherung",
+          "Anschläge ohne Last auf empfindliche Teile",
+          "Schnittansicht und Bewegungskontrolle"
+        ],
+        [
+          "Außenpackung",
+          "Rohr oder Karton, Verschluss und Endschutz",
+          "Packzeichnung und geschlossene Fotos"
+        ],
+        [
+          "Ladeeinheit",
+          "Abstützung, Rollschutz, Gurte und Gabelzugang",
+          "Palettenmuster und Ladefotos"
+        ],
+        [
+          "Wareneingang",
+          "Paketbefund und Produktprüfungen",
+          "ID-verknüpftes Prüfprotokoll"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Zehn Punkte vor Serienfreigabe",
+      "items": [
+        "Exakte Produktrevision und Lage der Stange bestätigen.",
+        "Sauberkeit und Verträglichkeit aller Kontaktmaterialien prüfen.",
+        "Schädliche axiale Bewegung zuverlässig begrenzen.",
+        "Abnehmbare Endteile von Lasten freihalten.",
+        "Schaft, Rändelung, Hülsen und Finish gegen Reibung schützen.",
+        "Lange Packstücke ohne Überstand und Punktlast abstützen.",
+        "Bündelung, Gurte und Gabelzugang definieren.",
+        "Lesbare SKU-, Mengen- und Handhabungskennzeichnung freigeben.",
+        "Repräsentativen Prüfplan und Annahmekriterien dokumentieren.",
+        "Foto-, Prüf- und Sperrablauf für den Wareneingang bereitstellen."
+      ]
+    },
+    "faqHeading": "Häufige Fragen",
+    "faq": [
+      [
+        "Reicht ein dickwandiges Papprohr?",
+        "Nicht allein. Entscheidend sind auch Axialsicherung, Abschlüsse, Kontaktmaterialien, Längsabstützung und Transportweg. Freigegeben wird die komplette Einheit."
+      ],
+      [
+        "Soll an beiden Enden Schaum eingesetzt werden?",
+        "Endschutz kann sinnvoll sein, doch Material und Position müssen passen. Er darf keine abnehmbare Endkappe oder ein empfindliches Bauteil belasten."
+      ],
+      [
+        "Beweist eine Verpackungsprüfung die Geradheit?",
+        "Nein. Sie bewertet die Versandeinheit. Die Geradheit wird separat vor und nach der Prüfung nach einem definierten Verfahren erfasst."
+      ],
+      [
+        "Braucht jeder Export eine Holzkiste?",
+        "Nein. Route, Handhabung, Menge und Ladeeinheit entscheiden. Bei Rohholz sind anwendbare ISPM-15-Anforderungen gesondert zu behandeln."
+      ],
+      [
+        "Welche Daten braucht der Hersteller für ein Angebot?",
+        "Modelle, Mengen, Maße, Oberflächen, Logo- und Etikettanforderungen, Zielroute, Einzel- oder Palettenpackung und gewünschte Annahmeprüfungen."
+      ]
+    ],
+    "linkHeading": "Weitere Schritte bei der Stangenbeschaffung",
+    "linkLabels": [
+      "Kaufratgeber für kommerzielle Olympiastangen",
+      "Geradheit und Hülsenrundlauf",
+      "Hülsensicherung und Endkappen",
+      "Oberflächen und Beschichtungen",
+      "OEM-Musterfreigabe",
+      "Prüfung vor dem Versand",
+      "Verpackungsspezifikation besprechen"
+    ],
+    "imageAlt": "Gerade Olympiastange in geöffnetem verstärktem Exportrohr mit getrennten Endblöcken auf einem Prüftisch",
+    "imageCaption": "Konzeptioneller Verpackungsaufbau mit sauberen Kontaktflächen, Längssicherung und geschützten Stangenenden.",
+    "cta": [
+      "Stange und Verpackung gemeinsam spezifizieren",
+      "Senden Sie ChinaFreeWeight Produktstand, Route, Markenanforderungen und Wareneingangsprüfung für eine OEM-, ODM-, Private Label- oder Bulk Supply-Bewertung.",
+      "Verpackung prüfen lassen"
+    ]
+  }
+]

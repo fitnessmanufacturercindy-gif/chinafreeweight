@@ -55,7 +55,7 @@ const factoryProof = [
   ["/assets/factory-process/dumbbell-material.webp", "Material Preparation", "Dumbbell material prepared for the next production stage."],
   ["/assets/factory-process/dumbbell-cutting.webp", "Machining", "Free-weight components processed to the confirmed product specification."],
   ["/assets/factory-process/detail-polishing-video.webp", "Surface Finishing", "Product details inspected during finishing and polishing."],
-  ["/assets/factory-cases/packaging-area-pbf.webp", "Export Packaging", "Finished products organized for packing and shipment preparation."]
+  ["/assets/factory-cases/packaging-area-pbf-optimized.webp", "Export Packaging", "Finished products organized for packing and shipment preparation."]
 ];
 
 const examples = [

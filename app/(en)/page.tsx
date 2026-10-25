@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import "../homepage.css";
 import {
   ArrowRight,
   BadgeCheck,
@@ -96,7 +97,7 @@ const steps = [
 const evidence = [
   { title: "Material processing", copy: "Equipment and material preparation for dumbbell components.", image: "/assets/factory-process/dumbbell-cutting.webp", alt: "Dumbbell component processing equipment at PowerBaseFit" },
   { title: "Surface finishing", copy: "Finishing work for appearance, edges and product surfaces.", image: "/assets/factory-process/detail-polishing-video.webp", alt: "Free weight component surface finishing process" },
-  { title: "Packing preparation", copy: "Products organized and protected before export dispatch.", image: "/assets/factory-cases/packaging-area-pbf.webp", alt: "PowerBaseFit free weight products prepared in the packing area" }
+  { title: "Packing preparation", copy: "Products organized and protected before export dispatch.", image: "/assets/factory-cases/packaging-area-pbf-optimized.webp", alt: "PowerBaseFit free weight products prepared in the packing area" }
 ];
 
 const exhibitions = [
@@ -127,7 +128,7 @@ const projects = [
     title: "Commercial Dumbbell Zone",
     need: "A coordinated fixed-dumbbell range with organized storage and consistent presentation.",
     supplied: "Dumbbell selection, weight progression, rack matching and finish coordination.",
-    image: "/assets/projects/commercial-dumbbell-rack-zone.avif",
+    image: "/assets/projects/commercial-dumbbell-rack-zone-optimized.avif",
     alt: "Commercial gym dumbbell zone supplied with organized storage"
   },
   {
@@ -185,7 +186,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageJsonLd) }} />
       <section className="home-v3-hero" aria-labelledby="home-v3-title">
         <div className="home-v3-hero-copy">
-          <h1 id="home-v3-title">Custom Dumbbells & Weight Plates Manufacturer for Importers & Distributors</h1>
+          <h1 id="home-v3-title">Custom Dumbbell & Weight Plate Manufacturer</h1>
           <p>Build a focused free weight range with OEM branding, defined specifications, export packaging and clear repeat-order records from PowerBaseFit in Dezhou, China.</p>
           <div className="home-v3-hero-actions">
             <FreeSampleCTA compact section="hero" />
@@ -194,7 +195,10 @@ export default function Home() {
           <a className="home-v3-text-link" href="#products">Explore product families <ArrowRight size={16} /></a>
         </div>
         <div className="home-v3-hero-media">
-          <Image src="/assets/projects/project-hero-desktop.avif" alt="Commercial free weight training area with dumbbells and weight plates" fill priority fetchPriority="high" quality={40} sizes="(max-width: 900px) 100vw, 56vw" />
+          <picture className="home-v3-hero-picture">
+            <source media="(max-width: 900px)" srcSet="/assets/projects/project-hero-home-mobile.avif" />
+            <img src="/assets/projects/project-hero-home-desktop.avif" alt="Commercial free weight training area with dumbbells and weight plates" width={1200} height={800} loading="eager" fetchPriority="high" decoding="sync" />
+          </picture>
         </div>
       </section>
 
@@ -225,7 +229,7 @@ export default function Home() {
       </section>
 
       <section className="home-v3-section home-v3-outcomes" aria-labelledby="home-outcomes-title">
-        <div className="home-v3-outcomes-media"><Image src="/assets/factory-cases/packaging-area-pbf.webp" alt="PowerBaseFit team preparing dumbbells and weight plates for packing" fill sizes="(max-width: 900px) 100vw, 48vw" /></div>
+        <div className="home-v3-outcomes-media"><Image src="/assets/factory-cases/packaging-area-pbf-optimized.webp" alt="PowerBaseFit team preparing dumbbells and weight plates for packing" fill sizes="(max-width: 900px) 100vw, 48vw" /></div>
         <div className="home-v3-outcomes-copy">
           <span>Built for repeat purchasing</span><h2 id="home-outcomes-title">Protect the details behind every order</h2>
           <p>A reliable free weight program begins with written product decisions. PowerBaseFit organizes the specification, sample reference, artwork and packing information used through production and reorder review.</p>
@@ -306,7 +310,7 @@ export default function Home() {
         <div className="home-v3-project-grid">
           {projects.map((project) => (
             <article key={project.title}>
-              <div className="home-v3-project-image"><Image src={project.image} alt={project.alt} fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
+              <div className="home-v3-project-image"><Image src={project.image} alt={project.alt} fill sizes="(max-width: 760px) 100vw, 50vw" unoptimized={project.image.endsWith("-optimized.avif")} /></div>
               <div className="home-v3-project-copy"><h3>{project.title}</h3><p><strong>Requirement</strong>{project.need}</p><p><strong>Product direction</strong>{project.supplied}</p></div>
             </article>
           ))}

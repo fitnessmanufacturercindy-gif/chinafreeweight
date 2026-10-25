@@ -1,0 +1,342 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/urethane-dumbbell-surface-defects-inspection-guide",
+    "title": "Urethane Dumbbell Surface Defects: Buyer Inspection Guide",
+    "description": "Classify bubbles, pinholes, voids, seams and flash on cast-urethane dumbbells, then build clear sample, lot and receiving controls for bulk orders.",
+    "h1": "How Should Buyers Inspect Urethane Dumbbell Surface Defects?",
+    "keyword": "urethane dumbbell surface defects inspection",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Urethane dumbbell workmanship and lot control",
+    "sections": [
+      {
+        "heading": "Quick answer: name the condition before accepting the lot",
+        "text": "Do not approve or reject a urethane dumbbell from the word defect alone. Record the appearance, size band, location, depth, repetition and affected SKU, then decide whether it changes identification, hand contact, rack contact, cleaning or the integrity of the finished head. A closed surface dimple, an open pinhole, raised flash and a foreign particle are different conditions and need different decisions.\n\nFor OEM, ODM, Custom Logo, Private Label and Bulk Supply programs, ChinaFreeWeight can connect the agreed visual language to the selected model, color, tooling route and production-equivalent sample. The factory review should preserve that boundary instead of promising a universal flawless surface or inventing an allowable count after the goods are made."
+      },
+      {
+        "heading": "Build a defect vocabulary that inspectors can repeat",
+        "text": "Use plain categories supported by photographs: bubble or blister for a raised pocket, pinhole for a small opening at the surface, exposed void for a larger open cavity, sink for a local depression, flow or knit line for a visible meeting pattern, flash for unwanted material at a tool joint, and contamination for embedded foreign matter. State whether a line is the intentional parting line or uncontrolled excess.\n\nAppearance does not prove the root cause. Similar marks can arise from trapped air, moisture reaction, mould release, venting, mixing, fill pattern, cure, demoulding, trimming or later handling. The receiving report should describe what is visible; the supplier's investigation should use process and material evidence before assigning cause."
+      },
+      {
+        "heading": "Confirm the material and construction behind the surface",
+        "text": "Urethane, thermoplastic polyurethane, rubber and coated steel are not interchangeable labels. Confirm whether the head uses cast elastomer around a metal core, an overmoulded route, a separate shell or another construction, and identify the exposed material at the face, edge, handle boss and logo area. The same mark can have different significance on a decorative face and at a loaded interface.\n\nLink the purchase file to the model, weight ladder, color, core, head drawing, mould revision, logo method and approved material reference. If the factory changes resin family, pigment package, insert preparation, mould cavity, release system or cure route, the buyer needs a defined review rather than assuming the former appearance limit still applies."
+      },
+      {
+        "heading": "Standardize light, cleaning and viewing zones",
+        "text": "Visual acceptance becomes unreliable when one inspector uses strong side light on a dusty black head and another views a cleaned bright color under diffuse light. Define the lighting direction, background, surface cleaning, conditioning state, viewing distance and whether magnification is for investigation only. Photograph the same faces and transitions with a scale that does not hide the mark.\n\nDivide the dumbbell into practical zones: grip and hand-contact transitions, rack-contact bands, primary presentation faces, logo and weight-marking areas, and less visible non-contact surfaces. A tiny closed mark away from contact may be treated differently from sharp flash, an open cavity at the handle boss or damage that removes a required weight mark."
+      },
+      {
+        "heading": "Use boundary samples instead of vague cosmetic adjectives",
+        "text": "Words such as premium, smooth or commercial grade do not create a repeatable release decision. Approve representative photographs or retained samples for acceptable, review-required and reject conditions, and identify the exact zone and defect family each example controls. Include normal mould texture so it is not later mistaken for porosity.\n\nISO 20457 addresses dimensional and geometrical tolerances for relevant moulded plastics, but its published scope explicitly does not define sink marks, unwanted flow structures, roughness or joint lines. Buyers therefore need their own contractual surface criteria. Do not borrow a limit from an unrelated component, color or process without validating it for the selected dumbbell."
+      },
+      {
+        "heading": "Ask for process evidence without diagnosing from a photograph",
+        "text": "Cast-polyurethane processing guidance from material suppliers highlights moisture protection, controlled temperatures, mixing, degassing, mould condition and cure as product-specific variables. These controls explain why the investigation should review batch records, material handling, cavity pattern and production timing when repeated bubbles or voids appear. A photograph alone cannot identify which variable changed.\n\nRequest a containment record that links affected units to model, weight, color, production interval, mould cavity where traceable and packing position. The corrective action should address the verified source and show a production-equivalent result. Cosmetic filling, sanding or repainting is not automatically acceptable because it may change texture, color, identification or the integrity of the surface."
+      },
+      {
+        "heading": "Design lot coverage around real variation",
+        "text": "A dumbbell family contains different head volumes, colors, inserts and moulding conditions. Spread inspection across light, middle and heavy SKUs, more than one carton position and relevant production intervals rather than examining a convenient group from the top of one pallet. Keep paired products traceable when appearance matching matters.\n\nISO 2859-1 provides attribute-sampling schemes when parties choose to use them, but it does not select the defect classes, AQL or commercial consequences for a dumbbell order. Put those choices in the inspection instruction before production. Safety or functional concerns may need a different response from cosmetic observations, and neither should be improvised at receiving."
+      },
+      {
+        "heading": "Check packing contact and preserve the reorder reference",
+        "text": "A clean head can acquire pressure gloss, scuffs, transferred fibers or edge marks from bags, dividers, cartons, racks or neighboring dumbbells. Review the packed production-equivalent sample and identify every contact point. Distinguish a moulding condition from transport damage so responsibility and corrective work follow evidence.\n\nRetain the approved color and texture reference under controlled storage, along with photographs, material and tooling revisions, cleaning method and packing layout. For a reorder, compare the new sample in the same conditions rather than relying on memory or a sales image. Send ChinaFreeWeight the model, weight range, quantities, colors, logo files, destination and inspection expectations for a factory review."
+      }
+    ],
+    "table": {
+      "heading": "Surface-condition decision record",
+      "columns": ["Condition", "What to record", "Buyer decision input"],
+      "rows": [
+        ["Bubble or blister", "Raised area, zone and repetition", "Closed appearance or evidence of separation"],
+        ["Pinhole or open void", "Opening, depth indication and location", "Presentation, cleaning, contact and integrity"],
+        ["Parting line or flash", "Intended joint versus raised excess", "Sharpness, contact and approved trimming"],
+        ["Sink or flow mark", "Shape, lighting response and affected face", "Dimension, appearance and logo readability"],
+        ["Contamination", "Embedded or removable, color and distribution", "Cleaning result and material investigation"],
+        ["Transport mark", "Carton, divider and pallet position", "Packing correction and lot containment"]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten controls for the purchase and inspection file",
+      "items": [
+        "Identify construction, material route, model, weight and color.",
+        "Define bubble, pinhole, void, sink, flow line, seam, flash and contamination.",
+        "Map presentation, hand-contact, rack-contact and marking zones.",
+        "Fix lighting, cleaning, viewing distance and photograph method.",
+        "Approve boundary samples with normal mould texture included.",
+        "Separate visible description from root-cause investigation.",
+        "Sample across weights, colors, production periods and carton positions.",
+        "Write defect classes, sampling plan and disposition before production.",
+        "Review bags, dividers, cartons and rack-contact points.",
+        "Control material, mould, process, artwork and packing changes."
+      ]
+    },
+    "faq": [
+      ["Are small bubbles acceptable on a urethane dumbbell?", "There is no universal count. Acceptance depends on whether the mark is closed or open, its zone, repetition, agreed boundary sample and effect on function, cleaning, identification and appearance."],
+      ["Is a visible mould line always a defect?", "No. A controlled parting line can be inherent to the tooling. Raised sharp flash, irregular trimming or a line outside the approved reference needs separate evaluation."],
+      ["Can a photograph reveal why a pinhole formed?", "It can document appearance and pattern, but not prove the cause. Material handling, mixing, degassing, mould, cure, demoulding and packing evidence may be needed."],
+      ["Should every unit be inspected under magnification?", "Not automatically. Define the normal visual method first and reserve magnification for agreed checks or investigation, otherwise inspectors may apply a different standard to each lot."],
+      ["What should a buyer send for an OEM quotation?", "Send the dumbbell construction, weight ladder, quantities, colors, logo method, surface expectations, destination, packing route and receiving-inspection plan."]
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "linkHeading": "Dumbbell products and related controls",
+    "linkLabels": ["Browse commercial dumbbells", "Review PU dumbbell options", "Control custom colors", "Understand hardness testing", "Check logo end caps", "Review coating adhesion", "Discuss the surface specification"],
+    "imageAlt": "Unbranded black urethane fixed dumbbell examined with raking light for small surface openings and mould-line flash",
+    "imageCaption": "Conceptual inspection scene: describe the visible condition and zone before deciding the lot or investigating the cause.",
+    "cta": ["Turn appearance into a repeatable purchase rule", "Share the model, weights, colors, logo plan, packing route and inspection expectations for an honest factory review of the selected construction.", "Request a specification review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/halteres-uretano-bolhas-poros-defeitos-superficie",
+    "title": "Halteres de Uretano: Bolhas, Poros e Inspeção da Superfície",
+    "description": "Classifique bolhas, poros, rebarbas e linhas de molde em halteres de uretano e defina amostra-limite, lote, embalagem e inspeção de recebimento.",
+    "h1": "Como Inspecionar Defeitos de Superfície em Halteres de Uretano",
+    "keyword": "defeitos de superfície em halteres de uretano",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "ChinaFreeWeight · Acabamento de halteres em PU e controle de lote",
+    "sections": [
+      {
+        "heading": "Resposta direta: registre o sinal visível antes de decidir o lote",
+        "text": "Bolha, furo aberto, depressão, rebarba e sujeira incorporada não são o mesmo problema. A inspeção deve indicar tipo, faixa de tamanho, profundidade aparente, área da cabeça, repetição e SKU. Depois se avalia contato com a mão, berço do rack, limpeza, leitura do peso e integridade do revestimento.\n\nEm projetos OEM, ODM, Custom Logo, Private Label e Bulk Supply, a ChinaFreeWeight pode vincular esse vocabulário ao modelo, à cor e à amostra equivalente à produção. A fábrica não deve transformar o adjetivo perfeito em promessa, nem criar tolerância visual somente depois que o lote estiver pronto."
+      },
+      {
+        "heading": "Separe bolha, poro, linha de molde e rebarba",
+        "text": "Chame de bolha uma elevação fechada; de poro ou pinhole uma abertura pequena; de vazio exposto uma cavidade aberta; de rebaixo uma depressão; de linha de fluxo uma marca de encontro; e de rebarba o excesso na junção da ferramenta. A linha de partição prevista deve aparecer na amostra aprovada para não ser confundida com excesso irregular.\n\nA aparência não fecha o diagnóstico. Um ponto parecido pode ter relação com umidade, ar aprisionado, desmoldante, mistura, respiro, enchimento, cura, desmolde, corte ou transporte. O inspetor descreve e fotografa; a investigação do fornecedor cruza o padrão com registros reais do processo."
+      },
+      {
+        "heading": "Confirme se o produto é PU fundido, TPU ou outra construção",
+        "text": "No mercado brasileiro, PU e uretano aparecem como nomes amplos. Registre se a cabeça é elastômero fundido sobre núcleo metálico, material termoplástico sobremoldado, capa separada ou outro sistema. Identifique o material visível na face, na borda, junto ao cabo e ao emblema.\n\nO pedido deve ligar modelo, pesos, cor, núcleo, desenho, cavidade, logotipo e referência de material. Mudança de resina, pigmento, preparação do inserto, molde, agente de desmolde ou ciclo precisa de análise de amostra. Repetir o código comercial não garante a mesma superfície."
+      },
+      {
+        "heading": "Padronize iluminação, limpeza e zonas de aparência",
+        "text": "Uma cabeça preta com pó sob luz lateral parece diferente de uma peça limpa vista sob iluminação difusa. Defina fundo, direção da luz, limpeza permitida, tempo de condicionamento, distância de observação e uso da lupa. Fotografe sempre as mesmas faces com referência de escala sem cobrir a ocorrência.\n\nDivida a peça em zonas: contato da mão e transição do cabo, apoio no rack, faces de apresentação, área de peso e logo, e superfícies pouco visíveis. Rebarba cortante perto do punho ou poro aberto no ressalto do cabo merece tratamento diferente de uma depressão fechada discreta no verso."
+      },
+      {
+        "heading": "A amostra-limite vale mais que a palavra premium",
+        "text": "Guarde fotos controladas ou peças para três decisões: aceitável, revisão técnica e rejeição. Marque qual família de ocorrência e qual zona cada referência cobre. Inclua a textura normal do molde, evitando que o recebimento trate todo relevo como porosidade.\n\nA ISO 20457 trata de tolerâncias geométricas e dimensionais para peças plásticas moldadas aplicáveis, mas informa que imperfeições de superfície, linhas de união e estruturas de fluxo não entram naquele escopo. Portanto, o comprador precisa contratar seu próprio padrão visual para o halter escolhido, sem copiar limites de outra cor ou construção."
+      },
+      {
+        "heading": "Investigue o processo sem adivinhar pela foto",
+        "text": "Orientações de processamento de poliuretano fundido destacam proteção contra umidade, temperaturas, mistura, retirada de ar, condição do molde e cura conforme o sistema. Se bolhas aparecem repetidamente, peça correlação com lote de material, período, cavidade e peso. Uma imagem isolada não identifica a variável responsável.\n\nA contenção deve localizar caixas, paletes e SKUs afetados antes do retrabalho. Preenchimento, lixamento ou retoque não são automaticamente aceitáveis: podem mudar cor, textura, leitura do peso ou continuidade da superfície. A ação deve atacar a causa confirmada e ser demonstrada numa peça equivalente à série."
+      },
+      {
+        "heading": "Distribua a inspeção pela linha completa",
+        "text": "Cabeças leves e pesadas têm volumes e condições de enchimento diferentes; cores e insertos também alteram a observação. Selecione pesos leves, médios e pesados, mais de um momento de fabricação e posições distintas no palete. Para pares expostos juntos, preserve rastreabilidade e aparência compatível.\n\nA ISO 2859-1 oferece planos de amostragem por atributos quando as partes decidem usá-los. Ela não escolhe sozinha classe do defeito, AQL ou destino comercial do produto. Essas decisões devem estar no plano antes da produção, com tratamento diferente para função, segurança e estética."
+      },
+      {
+        "heading": "Verifique contato da embalagem e controle o reabastecimento",
+        "text": "Saco, separador, caixa, rack e outra cabeça podem criar brilho de pressão, risco, fibra transferida ou marca de borda. Aprove uma amostra embalada e identifique os pontos de contato para distinguir ocorrência de moldagem e dano logístico na chegada ao Brasil.\n\nMantenha referência de cor e textura, fotos, revisão do molde, método de limpeza e arranjo da embalagem. No reabastecimento, repita a comparação sob as mesmas condições. Envie à ChinaFreeWeight modelo, faixa de pesos, quantidades, cores, arte, destino e método de inspeção para uma avaliação de fábrica."
+      }
+    ],
+    "table": {
+      "heading": "Registro para decisão da superfície",
+      "columns": ["Ocorrência", "O que registrar", "Base para decidir"],
+      "rows": [
+        ["Bolha", "Elevação, zona e repetição", "Fechada ou ligada a separação"],
+        ["Poro ou vazio", "Abertura, profundidade aparente e posição", "Contato, limpeza, aparência e integridade"],
+        ["Linha ou rebarba", "Junção prevista ou excesso elevado", "Aresta, contato e acabamento aprovado"],
+        ["Rebaixo ou fluxo", "Forma, luz e face atingida", "Dimensão, visual e marcação"],
+        ["Contaminação", "Incorporada ou removível e distribuição", "Limpeza e investigação do material"],
+        ["Marca de transporte", "Caixa, separador e posição no palete", "Correção da embalagem e contenção"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dez controles para compra e inspeção",
+      "items": [
+        "Identificar construção, material, modelo, peso e cor.",
+        "Definir bolha, poro, vazio, rebaixo, fluxo, linha, rebarba e contaminação.",
+        "Mapear zonas de apresentação, mão, rack e marcação.",
+        "Fixar luz, limpeza, distância e fotografia.",
+        "Aprovar amostras-limite incluindo a textura normal.",
+        "Separar descrição visual de diagnóstico de causa.",
+        "Cobrir pesos, cores, períodos e posições de caixas.",
+        "Definir classes, amostragem e destino antes da produção.",
+        "Revisar saco, separador, caixa e rack.",
+        "Controlar mudanças de material, molde, processo, arte e embalagem."
+      ]
+    },
+    "faq": [
+      ["Bolhas pequenas podem ser aceitas no halter de uretano?", "Não existe contagem universal. A decisão depende de abertura, zona, repetição, amostra-limite e efeito sobre função, limpeza, identificação e aparência."],
+      ["Toda linha de molde é defeito?", "Não. A linha de partição controlada pode pertencer à ferramenta. Rebarba elevada, cortante ou fora da referência precisa de avaliação própria."],
+      ["Uma foto revela a causa de um poro?", "Ela registra aparência e distribuição, mas não prova a causa. É preciso cruzar material, mistura, retirada de ar, molde, cura, desmolde e embalagem."],
+      ["A inspeção deve usar lupa em todas as peças?", "Somente se o método acordado exigir. Primeiro defina a observação normal; use aumento para verificação específica ou investigação."],
+      ["O que enviar para cotação OEM?", "Envie construção, lista de pesos, quantidades, cores, aplicação do logo, padrão de superfície, destino, embalagem e plano de recebimento."]
+    ],
+    "faqHeading": "Perguntas Frequentes",
+    "linkHeading": "Halteres e controles relacionados",
+    "linkLabels": ["Ver halteres profissionais", "Conhecer halteres de PU", "Controlar cores personalizadas", "Entender medição de dureza", "Inspecionar tampas com logo", "Revisar aderência do revestimento", "Apresentar a especificação"],
+    "imageAlt": "Halter fixo azul de uretano sem marca examinado com luz lateral para localizar poros e linha de molde",
+    "imageCaption": "Cena conceitual: registre ocorrência, zona e repetição antes de decidir o lote ou atribuir a causa.",
+    "cta": ["Transforme aparência em critério repetível", "Compartilhe modelo, pesos, cores, logo, rota de embalagem e método de inspeção para uma revisão honesta da construção escolhida.", "Solicitar revisão da especificação"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/mancuernas-uretano-burbujas-poros-defectos-superficie",
+    "title": "Mancuernas de Uretano: Burbujas, Poros e Inspección",
+    "description": "Defina burbujas, poros, rebabas y líneas de molde en mancuernas de uretano, con muestras límite, cobertura de lote y control de recepción.",
+    "h1": "Cómo Inspeccionar la Superficie de una Mancuerna de Uretano",
+    "keyword": "defectos superficiales en mancuernas de uretano",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "ChinaFreeWeight · Acabado de mancuernas de PU y recepción profesional",
+    "sections": [
+      {
+        "heading": "Respuesta breve: describa la señal antes de clasificarla",
+        "text": "Una burbuja cerrada, un poro abierto, una marca de flujo, una depresión y una rebaba no deben reunirse bajo una sola palabra. Anote el tipo visible, la zona, la extensión, la profundidad aparente, la frecuencia y la referencia de peso. La decisión debe considerar agarre, apoyo en el soporte, limpieza, lectura y continuidad de la cabeza.\n\nChinaFreeWeight puede incorporar este criterio en proyectos OEM, ODM, Custom Logo, Private Label y Bulk Supply para distribuidores y cadenas de gimnasios. La revisión de fábrica se basa en el modelo, color y proceso acordados; no ofrece una cifra universal ni convierte una foto comercial en patrón de aceptación."
+      },
+      {
+        "heading": "Use nombres distintos para fenómenos distintos",
+        "text": "Llame ampolla o burbuja a un volumen elevado; poro a una abertura pequeña; cavidad a un vacío abierto mayor; hundimiento a una depresión; línea de flujo a una huella de llenado; y rebaba al material que sobresale de la unión del molde. La línea de partición prevista debe aparecer en la muestra aceptada.\n\nEl aspecto no demuestra el origen. Aire, humedad, mezcla, desmoldeante, ventilación, llenado, curado, extracción, recorte y transporte pueden producir señales parecidas. El control de recepción debe limitarse a describir; la causa se confirma con trazabilidad y datos del proceso."
+      },
+      {
+        "heading": "No confunda uretano colado, TPU y caucho",
+        "text": "En catálogos se usa PU para construcciones diferentes. Confirme si la cabeza se forma con elastómero colado sobre núcleo, material termoplástico sobremoldeado, una cubierta o un recubrimiento. Identifique qué material queda expuesto en cara, canto, encuentro con el mango y alojamiento del logotipo.\n\nLa orden debe unir modelo, escalera de pesos, color, núcleo, plano, revisión del molde, método de marca y referencia del material. Un cambio de pigmento, sistema de desmoldeo, cavidad, preparación del inserto o curado necesita revisión de muestra aunque el nombre comercial siga igual."
+      },
+      {
+        "heading": "Aplique una observación reproducible",
+        "text": "Fije iluminación, fondo, limpieza, estado de acondicionamiento, distancia y uso de aumento. Una superficie negra con polvo bajo luz rasante no puede compararse con otra pieza limpia bajo luz difusa. Tome fotografías de caras constantes y añada una escala sin ocultar el indicio.\n\nSepare zonas de contacto con la mano, apoyo en cuna, presentación frontal, peso y logotipo, borde y reverso. Un exceso afilado junto al mango o una cavidad abierta en el cuello tienen una consecuencia distinta de una huella cerrada y discreta en una cara secundaria."
+      },
+      {
+        "heading": "Apruebe muestras límite, no adjetivos de venta",
+        "text": "Conserve piezas o imágenes controladas que representen aceptación, revisión y rechazo. Asocie cada ejemplo con el tipo de señal y la zona que gobierna, incluyendo la textura normal del molde. Así se evita que un inspector rechace rugosidad prevista y otro acepte una abertura real.\n\nISO 20457 sirve para tolerancias geométricas y dimensionales de piezas plásticas moldeadas dentro de su ámbito, pero declara fuera las marcas de hundimiento, estructuras de flujo no deseadas, rugosidad y líneas de unión. El comprador debe acordar por contrato los límites superficiales de la mancuerna concreta."
+      },
+      {
+        "heading": "Relacione la investigación con la fabricación real",
+        "text": "Las guías técnicas de poliuretano colado tratan humedad, temperatura, mezcla, desgasificación, molde y curado como variables ligadas al sistema. Si aparece un patrón, solicite relación con lote de material, peso, color, momento y cavidad cuando exista esa trazabilidad. Una imagen no demuestra por sí sola qué variable se desvió.\n\nContenga las unidades afectadas antes de retocar. Rellenar, lijar o pintar puede modificar textura, tono, marca o superficie funcional. El proveedor debe confirmar la causa, aplicar una corrección compatible y mostrar el resultado en una muestra equivalente a producción."
+      },
+      {
+        "heading": "Cubra pesos y posiciones, no solo la primera caja",
+        "text": "La familia cambia en volumen, insertos y condiciones de llenado según el peso. Revise referencias ligeras, medias y pesadas, colores relevantes, intervalos de fabricación y cajas de varias posiciones. Mantenga el vínculo de los pares si el proyecto exige coincidencia visual.\n\nISO 2859-1 ofrece esquemas de muestreo por atributos cuando comprador y proveedor eligen aplicarlos. No define por sí sola las clases de defecto, el AQL ni la disposición comercial. Escríbalos antes de fabricar y reserve una respuesta específica para señales funcionales o de seguridad."
+      },
+      {
+        "heading": "Diferencie moldeo y daños del transporte",
+        "text": "Bolsas, separadores, cartón, otras mancuernas y cunas pueden producir brillo por presión, abrasión, fibras o manchas. Revise una unidad embalada como se enviará y señale los puntos de contacto. En la recepción, registre caja y posición para distinguir fabricación y logística.\n\nConserve la referencia de color y textura, revisión de herramienta, método de limpieza y esquema de embalaje. Añada la iluminación, la distancia de observación y la identificación del patrón límite para que cada reposición se compare con el mismo método, el mismo ángulo y la misma secuencia documentada. Envíe a ChinaFreeWeight modelo, pesos, cantidades, colores, arte, destino y expectativas de inspección para una revisión de fábrica."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de decisión superficial",
+      "columns": ["Señal", "Registro necesario", "Criterio de decisión"],
+      "rows": [
+        ["Burbuja o ampolla", "Relieve, zona y repetición", "Cerrada o asociada a separación"],
+        ["Poro o cavidad", "Abertura, profundidad aparente y lugar", "Contacto, limpieza, imagen e integridad"],
+        ["Línea o rebaba", "Unión prevista o exceso", "Arista, contacto y recorte aceptado"],
+        ["Hundimiento o flujo", "Forma, luz y cara", "Dimensión, apariencia y lectura"],
+        ["Contaminación", "Incrustada o removible y distribución", "Resultado de limpieza e investigación"],
+        ["Marca logística", "Caja, separador y posición", "Corrección del embalaje y contención"]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez controles para el expediente de compra",
+      "items": [
+        "Identificar construcción, material, modelo, peso y color.",
+        "Definir burbuja, poro, cavidad, hundimiento, flujo, línea, rebaba y contaminación.",
+        "Mapear zonas de presentación, mano, soporte y marcación.",
+        "Fijar luz, limpieza, distancia y fotografía.",
+        "Aprobar muestras límite con la textura normal.",
+        "Separar observación visual e investigación de causa.",
+        "Cubrir pesos, colores, periodos y posiciones de cajas.",
+        "Definir clases, muestreo y disposición antes de fabricar.",
+        "Revisar bolsas, separadores, cajas y cunas.",
+        "Controlar cambios de material, molde, proceso, arte y embalaje."
+      ]
+    },
+    "faq": [
+      ["¿Se pueden aceptar burbujas pequeñas?", "No existe una cantidad universal. Depende de si están cerradas o abiertas, su zona, repetición, muestra límite y efecto sobre función, limpieza, identificación y apariencia."],
+      ["¿Toda línea del molde es un defecto?", "No. La línea de partición puede ser normal y controlada. La rebaba elevada, cortante o irregular requiere una clasificación aparte."],
+      ["¿Una foto permite conocer la causa de un poro?", "Documenta aspecto y patrón, pero no confirma la causa. Deben revisarse material, mezcla, desgasificación, molde, curado, extracción y embalaje."],
+      ["¿Debe usarse lupa en cada unidad?", "Solo si el método acordado lo exige. Defina primero la observación normal y reserve el aumento para comprobaciones o investigación."],
+      ["¿Qué debe incluir una consulta OEM?", "Construcción, pesos, cantidades, colores, aplicación del logo, expectativa superficial, destino, embalaje y plan de recepción."]
+    ],
+    "faqHeading": "Preguntas Frecuentes",
+    "linkHeading": "Mancuernas y controles relacionados",
+    "linkLabels": ["Ver mancuernas profesionales", "Revisar mancuernas de PU", "Controlar colores personalizados", "Entender la dureza", "Inspeccionar tapas con logo", "Revisar adhesión del recubrimiento", "Presentar la especificación"],
+    "imageAlt": "Par de mancuernas de uretano sin marca inspeccionadas con lupa para revisar línea de molde y textura",
+    "imageCaption": "Escena conceptual: el informe separa el aspecto visible de la investigación del origen.",
+    "cta": ["Convierta el acabado en una regla verificable", "Comparta modelo, pesos, colores, marca, embalaje y plan de inspección para revisar la construcción seleccionada con la fábrica.", "Solicitar revisión técnica"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/halteres-urethane-bulles-porosite-defauts-surface",
+    "title": "Haltères en Uréthane : Bulles, Porosité et Contrôle de Surface",
+    "description": "Classez bulles, pores, vides, bavures et plans de joint sur les haltères en uréthane, puis fixez témoins limites et contrôle de lot.",
+    "h1": "Contrôler les Défauts de Surface d’un Haltère en Uréthane",
+    "keyword": "défauts de surface haltères uréthane",
+    "home": "Accueil",
+    "library": "Guides",
+    "eyebrow": "ChinaFreeWeight · Aspect des haltères en PU et réception de lot",
+    "sections": [
+      {
+        "heading": "Réponse directe : qualifier le défaut avant de statuer",
+        "text": "Une cloque fermée, un pore ouvert, une retassure, une ligne d’écoulement et une bavure ne se gèrent pas de la même façon. Le rapport précise famille, zone, taille apparente, profondeur, répétition et SKU. La décision tient ensuite compte de la prise en main, du rack, du nettoyage, du marquage et de l’intégrité de la tête.\n\nPour les programmes OEM, ODM, Custom Logo, Private Label et Bulk Supply, ChinaFreeWeight peut rattacher ce langage au modèle, à la teinte et à l’échantillon de série. L’usine ne doit ni garantir une surface abstraitement parfaite, ni fixer une tolérance visuelle après fabrication."
+      },
+      {
+        "heading": "Établir un vocabulaire photographique commun",
+        "text": "Distinguez bulle ou cloque en relief, piqûre débouchante, vide ouvert, retassure, trace de flux, plan de joint, bavure et inclusion. Le plan de joint prévu est montré sur le témoin accepté ; l’excès tranchant ou irrégulier devient une autre catégorie.\n\nLa forme observée n’identifie pas automatiquement la cause. Humidité, air, mélange, agent de démoulage, évent, remplissage, cure, démoulage, ébavurage et transport peuvent donner des aspects voisins. La réception décrit ; l’analyse de fabrication démontre."
+      },
+      {
+        "heading": "Définir la matière et l’architecture de la tête",
+        "text": "Le terme PU recouvre plusieurs voies. Précisez élastomère coulé autour d’un noyau, thermoplastique surmoulé, enveloppe rapportée ou revêtement. Identifiez la matière visible sur face, rayon, zone du manche et logement du logo, car la fonction locale change la gravité d’une ouverture.\n\nLe dossier relie modèle, gamme de masses, couleur, noyau, plan, empreinte, méthode de marquage et référence matière. Une modification de résine, pigment, préparation d’insert, moule, démoulant ou cure déclenche l’examen convenu, même si la désignation commerciale reste identique."
+      },
+      {
+        "heading": "Fixer les conditions du contrôle visuel",
+        "text": "Définissez fond, direction de lumière, nettoyage, conditionnement, distance et rôle du grossissement. Une tête sombre poussiéreuse sous lumière rasante ne se compare pas à une couleur claire nettoyée sous éclairage diffus. Photographiez les mêmes faces, avec une échelle non masquante.\n\nCartographiez zones de main, appui sur rack, présentation, logo et poids, bord et revers. Une bavure vive près de la poignée ou un vide ouvert au bossage ne reçoit pas la même décision qu’une petite marque fermée hors contact."
+      },
+      {
+        "heading": "Employer des témoins limites plutôt que le mot haut de gamme",
+        "text": "Conservez pièces ou vues maîtrisées pour accepté, à examiner et refusé. Chaque témoin indique le phénomène et la zone couverts, avec la texture normale du moule. Le contrôleur ne confondra ainsi ni grain voulu avec porosité, ni ouverture réelle avec simple relief.\n\nL’ISO 20457 encadre des tolérances dimensionnelles et géométriques de pièces plastiques moulées dans son domaine, mais exclut explicitement retassures, structures d’écoulement indésirables, rugosité et lignes de joint. Le cahier des charges doit donc définir lui-même l’aspect de l’haltère retenu."
+      },
+      {
+        "heading": "Demander des preuves de procédé sans diagnostic hâtif",
+        "text": "Les recommandations de mise en œuvre des polyuréthanes coulés citent la maîtrise de l’humidité, des températures, du mélange, du dégazage, du moule et de la cure selon le système. En présence d’un motif répété, rapprochez-le du lot matière, de la masse, de la teinte, du créneau de production et de l’empreinte disponible.\n\nIsolez les unités avant réparation. Masticage, ponçage ou retouche peuvent modifier couleur, toucher, inscription ou continuité. L’action corrective suit la cause vérifiée et doit être représentée par une pièce équivalente à la série, pas seulement par une explication."
+      },
+      {
+        "heading": "Échantillonner la gamme et non le carton le plus accessible",
+        "text": "Le volume de tête, l’insert et le remplissage varient avec la masse. Répartissez le contrôle sur références légères, médianes et lourdes, teintes concernées, moments de fabrication et positions de colis. Gardez l’association des paires si leur aspect doit correspondre.\n\nL’ISO 2859-1 propose des plans d’échantillonnage par attributs lorsque les parties les retiennent. Elle ne choisit ni classe de défaut, ni AQL, ni décision commerciale. Ces paramètres figurent dans l’instruction avant lancement et les sujets fonctionnels restent séparés du cosmétique."
+      },
+      {
+        "heading": "Vérifier les contacts d’emballage et préparer le réassort",
+        "text": "Sachet, intercalaire, carton, autre haltère ou berceau peuvent laisser lustrage de pression, fibre, rayure ou transfert. Validez un échantillon emballé et repérez les contacts. À réception, notez colis et emplacement pour distinguer moulage et transport.\n\nConservez témoin de teinte et texture, photos, révision de moule, nettoyage et calage. Au réassort, reprenez le même protocole. Transmettez à ChinaFreeWeight modèle, masses, quantités, couleurs, fichiers de marque, destination et contrôle attendu pour examen par l’usine."
+      }
+    ],
+    "table": {
+      "heading": "Fiche de décision d’aspect",
+      "columns": ["Phénomène", "Donnée à relever", "Élément de décision"],
+      "rows": [
+        ["Bulle ou cloque", "Relief, zone et répétition", "Fermée ou liée à un décollement"],
+        ["Pore ou vide", "Ouverture, profondeur apparente et position", "Contact, nettoyage, aspect et intégrité"],
+        ["Joint ou bavure", "Ligne prévue ou excès", "Arête, contact et ébavurage approuvé"],
+        ["Retassure ou flux", "Forme, lumière et face", "Dimension, aspect et lisibilité"],
+        ["Inclusion", "Incrustée ou amovible et répartition", "Nettoyage et analyse matière"],
+        ["Marque logistique", "Colis, calage et position", "Correction emballage et isolement"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dix points du dossier d’achat",
+      "items": [
+        "Identifier construction, matière, modèle, masse et teinte.",
+        "Définir bulle, pore, vide, retassure, flux, joint, bavure et inclusion.",
+        "Cartographier présentation, main, rack et marquage.",
+        "Fixer éclairage, nettoyage, distance et photo.",
+        "Approuver des témoins limites avec la texture normale.",
+        "Séparer constat visuel et recherche de cause.",
+        "Couvrir masses, teintes, périodes et positions de colis.",
+        "Écrire classes, plan et décision avant production.",
+        "Examiner sachets, intercalaires, cartons et berceaux.",
+        "Maîtriser changements de matière, moule, procédé, décor et emballage."
+      ]
+    },
+    "faq": [
+      ["De petites bulles sont-elles acceptables ?", "Il n’existe pas de quantité universelle. La décision dépend de l’ouverture, de la zone, de la répétition, du témoin limite et de l’impact fonctionnel ou visuel."],
+      ["Un plan de joint visible est-il toujours un défaut ?", "Non. Une ligne maîtrisée peut provenir normalement de l’outillage. Une bavure vive, haute ou irrégulière s’évalue séparément."],
+      ["Une photo suffit-elle à trouver la cause d’un pore ?", "Elle documente l’aspect, pas la cause. Matière, mélange, dégazage, moule, cure, démoulage et emballage doivent être rapprochés."],
+      ["Faut-il contrôler chaque pièce à la loupe ?", "Seulement si la méthode le prévoit. Définissez d’abord l’observation normale et réservez le grossissement aux contrôles ciblés ou à l’analyse."],
+      ["Que transmettre pour un devis OEM ?", "Construction, gamme de masses, quantités, couleurs, procédé de logo, exigence d’aspect, destination, emballage et contrôle de réception."]
+    ],
+    "faqHeading": "Questions Fréquentes",
+    "linkHeading": "Haltères et contrôles complémentaires",
+    "linkLabels": ["Voir les haltères professionnels", "Examiner les haltères en PU", "Maîtriser les couleurs", "Comprendre la dureté", "Contrôler les embouts logo", "Examiner l’adhérence", "Présenter le cahier des charges"],
+    "imageAlt": "Haltère fixe bordeaux en uréthane sans marque contrôlé sous une lampe pour examiner joint et texture",
+    "imageCaption": "Scène conceptuelle : le témoin limite rend la décision d’aspect reproductible entre usine et réception.",
+    "cta": ["Rendre le contrôle d’aspect contractuel", "Partagez modèle, masses, teintes, logo, emballage et méthode de réception pour une revue honnête de la construction choisie.", "Demander une revue technique"]
+  }
+]

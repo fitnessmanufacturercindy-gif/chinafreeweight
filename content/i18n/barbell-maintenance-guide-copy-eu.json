@@ -1,0 +1,702 @@
+[
+  {
+    "locale": "fr",
+    "path": "/fr/blog/entretien-nettoyage-barre-olympique",
+    "title": "Entretien d’une Barre Olympique en Salle Professionnelle",
+    "description": "Organisez nettoyage, contrôle des manchons, stockage au sec, suivi et mise à l’écart selon la finition et le modèle de barre olympique.",
+    "h1": "Comment Entretenir les Barres Olympiques d’une Salle de Sport",
+    "keyword": "entretien barre olympique",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "Guide d’usine pour exploitants, distributeurs et marques",
+    "sections": [
+      {
+        "heading": "Réponse directe : entretenir la référence exacte",
+        "text": "Associez chaque barre à sa finition d’axe et de manchons, son système de rotation, son lieu de rangement et les produits autorisés. Retirez magnésie et transpiration sans emprisonner d’humidité, contrôlez l’axe, les extrémités et la rotation, puis consignez toute évolution.\n\nAucune fréquence ne convient à toutes les salles. Fréquentation, hygrométrie, magnésie et revêtement changent le besoin. La notice et la garantie de la référence priment ; une anomalie inexpliquée de rectitude, de retenue ou de rotation impose une mise à l’écart."
+      },
+      {
+        "heading": "Identifier les finitions avant de choisir le matériel",
+        "text": "La fiche d’actif doit relier l’identifiant à la révision, à la finition de l’axe, à celle des manchons et au montage sur bagues ou roulements. La couleur seule ne distingue pas sûrement chrome dur, zinc, acier inoxydable ou revêtement décoratif.\n\nDemandez au fabricant une fiche précisant brosse, chiffon, produit compatible, zones à garder sèches et limites d’intervention. Elle reste jointe au cahier des charges pour éviter qu’un prestataire applique la méthode la plus abrasive à tout le parc."
+      },
+      {
+        "heading": "Retirer magnésie et sueur sans altérer le revêtement",
+        "text": "Déchargez la barre et placez-la sur des appuis stables protégés. Commencez à sec avec une brosse nylon ou synthétique propre dans le moletage, puis essuyez axe et manchons avec un chiffon non pelucheux. Si un produit est autorisé, dosez-le sur le chiffon.\n\nTravaillez par zones sous lumière rasante. Ne laissez pas de liquide ou d’huile dans le moletage, à l’épaulement ou près de l’extrémité. Brosse métallique, abrasif ou produit puissant peut enlever aussi la finition ; la méthode approuvée reste prioritaire."
+      },
+      {
+        "heading": "Encadrer toute intervention sur les manchons",
+        "text": "Une rotation différente entre les deux côtés justifie une comparaison documentée, pas un démontage immédiat. Observez rotation à vide, bruit, jeu axial et dommage visible par rapport à l’état accepté. Saleté, retenue abîmée ou défaut interne peuvent donner des sensations proches.\n\nN’injectez pas de lubrifiant et ne retirez ni circlip ni embout sans autorisation explicite de la notice et personne compétente. Si la frontière de maintenance est inconnue, isolez la barre et consultez le fournisseur."
+      },
+      {
+        "heading": "Distinguer l’aspect d’un motif d’arrêt",
+        "text": "Une légère coloration, un revêtement poli par l’usage ou de la magnésie ne vaut pas un axe voilé, un manchon desserré, une retenue endommagée ou une bavure coupante. Définissez qui remet en service et qui tranche en cas d’anomalie.\n\nPhotographiez l’ensemble, les deux extrémités et le détail avec l’identifiant. Ne redressez, poncez ou masquez rien avant examen. Date, zone, usage récent et rangement aident le fournisseur à interpréter un motif répété."
+      },
+      {
+        "heading": "Maîtriser aussi le rangement et l’ambiance",
+        "text": "Rangez les barres déchargées sur un support adapté qui ne raye pas l’axe et ne charge pas une pièce d’extrémité. Éloignez-les du lavage humide, des portes, de l’air de piscine et de la condensation. Une barre doit être sèche avant son retour.\n\nRenforcez l’observation avec la fréquentation, la magnésie ou l’humidité. Un passage entre pièce climatisée et quai chaud peut suffire à condenser. Les constats locaux doivent ajuster le planning."
+      },
+      {
+        "heading": "Tenir un relevé court mais exploitable",
+        "text": "Notez identifiant, date, intervenant, zone, constat, méthode et résultat. Ajoutez rotation, bruit, mouvement d’extrémité et décision : remise en service, suivi, isolement ou avis fournisseur. Liez les photos au même actif.\n\nAnalysez les récurrences. Une corrosion limitée à un râtelier pointe vers le milieu ; un jeu répété sur une révision appelle une analyse produit. Ce suivi distingue entretien, transport et non-conformité."
+      },
+      {
+        "heading": "Acheter la documentation avec la barre",
+        "text": "Pour les programmes OEM et ODM, exigez l’identification des finitions, une fiche par modèle, les limites de service, la politique de pièces et le contact d’escalade. Custom Logo et Private Label ne doivent pas masquer la traçabilité.\n\nEn Bulk Supply, stabilisez l’identification entre commandes. ChinaFreeWeight peut examiner spécification, environnement et documentation avec importateurs, distributeurs, marques et salles, sans remplacer le contrôle de l’exploitant."
+      }
+    ],
+    "table": {
+      "heading": "Matrice de décision",
+      "columns": [
+        "Constat",
+        "Action immédiate",
+        "Référence"
+      ],
+      "rows": [
+        [
+          "Magnésie ou film de sueur",
+          "Brosser à sec puis essuyer selon la fiche",
+          "Consigne de finition"
+        ],
+        [
+          "Petite coloration superficielle",
+          "Nettoyer, photographier, réévaluer",
+          "ID et comparaison"
+        ],
+        [
+          "Rotation différente",
+          "Comparer à vide et isoler si inexpliqué",
+          "Notice et fournisseur"
+        ],
+        [
+          "Jeu ou retenue abîmée",
+          "Mettre hors service",
+          "Photos des deux extrémités"
+        ],
+        [
+          "Axe voilé ou bavure",
+          "Ne pas utiliser, redresser ou poncer",
+          "Méthode de contrôle convenue"
+        ],
+        [
+          "Corrosion récurrente au même endroit",
+          "Corriger support ou ambiance",
+          "Historique de zone"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dix contrôles du plan d’entretien",
+      "items": [
+        "Identifier modèle et révision.",
+        "Séparer les deux finitions.",
+        "Confirmer le système de rotation.",
+        "Lister brosses, chiffons et produits autorisés.",
+        "Éviter toute entrée de liquide non prévue.",
+        "Définir suivi et mise à l’écart.",
+        "Utiliser des appuis stables protégés.",
+        "Ranger uniquement une barre sèche et déchargée.",
+        "Relier photos et actions à l’identifiant.",
+        "Conserver la notice avec les réassorts."
+      ]
+    },
+    "faqHeading": "Questions fréquentes",
+    "faq": [
+      [
+        "À quelle fréquence nettoyer les barres ?",
+        "Adaptez au trafic, à la magnésie, à la sueur, à l’humidité et aux constats. La notice du modèle reste prioritaire."
+      ],
+      [
+        "Une brosse métallique convient-elle toujours ?",
+        "Non. La finition commande le choix. Le nylon ou le synthétique constitue souvent un départ plus prudent, sous réserve de la fiche."
+      ],
+      [
+        "Peut-on pulvériser de l’huile ?",
+        "Évitez toute pulvérisation ou saturation sans instruction explicite. Dosez sur un chiffon lorsque cette méthode est autorisée."
+      ],
+      [
+        "Le personnel peut-il ouvrir les manchons ?",
+        "Seulement si la notice l’autorise et qu’une personne compétente intervient. Sinon, isolez et consultez."
+      ],
+      [
+        "Que demander à une usine OEM ?",
+        "Finitions, produits compatibles, limites de service, points de contrôle, politique de pièces et fiche gérée par révision."
+      ]
+    ],
+    "linkHeading": "Poursuivre l’évaluation de la barre",
+    "linkLabels": [
+      "Choisir une barre olympique professionnelle",
+      "Finitions et revêtements",
+      "Bagues, roulements et rotation",
+      "Rectitude et faux-rond",
+      "Retenue des manchons et embouts",
+      "Inspection avant expédition",
+      "Faire relire votre spécification"
+    ],
+    "imageAlt": "Technicien brossant à sec une barre olympique sans marque sur une table protégée de salle professionnelle",
+    "imageCaption": "Scène conceptuelle avec barre déchargée, outils secs et fiche de contrôle vierge.",
+    "cta": [
+      "Valider la barre avec sa fiche d’entretien",
+      "Transmettez environnement, révision, finition et service à ChinaFreeWeight pour examiner OEM, ODM, Custom Logo, Private Label ou Bulk Supply.",
+      "Demander une revue"
+    ]
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/underhall-rengoring-olympisk-skivstang",
+    "title": "Underhåll av Olympiska Skivstänger i Kommersiella Gym",
+    "description": "Planera yt-anpassad rengöring, hylskontroll, torr förvaring, servicejournal och säker avställning för olympiska skivstänger.",
+    "h1": "Så Underhåller du Olympiska Skivstänger i Gymmet",
+    "keyword": "underhåll olympisk skivstång",
+    "home": "Hem",
+    "library": "Blogg",
+    "eyebrow": "Fabriksguide för gym, distributörer och varumärken",
+    "sections": [
+      {
+        "heading": "Kort svar: utgå från den faktiska stången",
+        "text": "Koppla varje stång till modell, ytbehandling på axel och hylsor, rotationssystem, förvaringsplats och godkända rengöringsmedel. Ta bort magnesium och svett utan att kapsla in fukt, kontrollera axel, hylsor och ändar och dokumentera förändringar.\n\nEtt universellt intervall finns inte. Belastning, luftfuktighet, magnesium och yta styr behovet. Modellens instruktion och garanti gäller; oförklarad förändring i rakhet, hylslåsning eller rotation betyder att stången tas ur bruk."
+      },
+      {
+        "heading": "Kartlägg yta och konstruktion före verktygsval",
+        "text": "Tillgångsregistret ska innehålla produktrevision, axelyta, hylsyta och bussnings- eller lagersystem. Färgen ensam avgör inte om ytan är hårdkrom, zink, svartoxid, rostfritt eller dekorativ beläggning.\n\nBegär ett skötselblad med kompatibel borste, trasa och produkt, områden som ska hållas torra och gränser för fältservice. Förvara det med inköpsspecifikationen så att nya medarbetare inte använder samma grova metod på allt."
+      },
+      {
+        "heading": "Rengör magnesium och svett skonsamt",
+        "text": "Avlasta stången på stabila vadderade stöd. Börja torrt med ren nylon- eller syntetborste i lättringen och torka axel och hylsor med luddfri trasa. Om medel är godkänt doseras det på trasan, inte genom att dränka stången.\n\nArbeta sektionsvis i släpljus. Lämna inte vätska eller olja i lättring, skuldra eller hylsände. Metallborste, slipduk eller stark kemi kan ändra beläggningen; den yt-specifika instruktionen går först."
+      },
+      {
+        "heading": "Gör hylsrotation till en styrd servicefråga",
+        "text": "Olika känsla mellan hylsorna kräver en noterad jämförelse, inte omedelbar isärtagning. Jämför rotation utan last, ljud, axial rörelse och synliga skador med godkänt tillstånd. Smuts, skadad låsning och interna fel kan kännas lika.\n\nSpruta inte smörjmedel i springor och ta inte bort ringar eller änddelar utan uttryckligt stöd i rätt manual och kompetent ansvarig. Vid oklar gräns spärras stången och leverantören kontaktas."
+      },
+      {
+        "heading": "Skilj kosmetik från stoppkriterier",
+        "text": "Lätt missfärgning, polerad beläggning och magnesium är inte samma sak som böjd axel, lös hylsa, skadad ändlåsning eller vass grad. Bestäm vem som får återställa och vem som bedömer avvikelse.\n\nFotografera hela stången, båda ändar och detaljen med tillgångs-ID. Räta, slipa eller dölj inget före bedömning. Plats, tid, användning och förvaring hjälper när samma mönster återkommer."
+      },
+      {
+        "heading": "Styr förvaring och klimat",
+        "text": "Förvara obelastade stänger i ställ som inte repar axeln eller belastar känsliga änddelar. Undvik våtstädning, ytterdörrar, badhusluft och kondens. Stången ska vara torr innan den läggs tillbaka.\n\nÖka tillsynen vid högre beläggning, mer magnesium eller fukt. Flytt mellan kyld lokal och varm lastzon kan ge kondens. Låt registrerat skick justera kalendern."
+      },
+      {
+        "heading": "För en kort journal som utlöser åtgärd",
+        "text": "Notera ID, datum, ansvarig, zon, fynd, metod och resultat. Lägg till hylsrotation, ljud, ändrörelse och beslut: godkänd, bevakad, spärrad eller hänvisad. Bilder ska följa samma ID.\n\nSök mönster. Korrosion i ett ställ pekar mot miljön; återkommande glapp i en revision kräver leverantörsbedömning. Journalen skiljer skötsel från transport- och produktfrågor."
+      },
+      {
+        "heading": "Köp med skötselinformation från fabriken",
+        "text": "I OEM- och ODM-program ska ytidentifiering, modellspecifikt skötselblad, servicegräns, reservdelspolicy och kontakt ingå. Custom Logo och Private Label får inte dölja spårbarheten.\n\nFör Bulk Supply ska identitet fungera mellan återbeställningar. ChinaFreeWeight kan granska stång, miljö och dokumentation med importörer, distributörer, varumärken och gym utan att ersätta driftkontrollen."
+      }
+    ],
+    "table": {
+      "heading": "Beslutstabell",
+      "columns": [
+        "Fynd",
+        "Direkt åtgärd",
+        "Underlag"
+      ],
+      "rows": [
+        [
+          "Magnesium eller svettfilm",
+          "Torrborsta och torka enligt blad",
+          "Ytinstruktion"
+        ],
+        [
+          "Liten ytmissfärgning",
+          "Rengör, fotografera, bedöm igen",
+          "ID och jämförelse"
+        ],
+        [
+          "Olika hylsrotation",
+          "Jämför utan last och spärra vid oklarhet",
+          "Manual och leverantör"
+        ],
+        [
+          "Glapp eller låsskada",
+          "Ta ur bruk",
+          "Ändbilder och ID"
+        ],
+        [
+          "Böjd axel eller vass grad",
+          "Använd, räta eller slipa inte",
+          "Avtalad kontrollmetod"
+        ],
+        [
+          "Återkommande korrosion i zon",
+          "Åtgärda ställ eller klimat",
+          "Platshistorik"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Tio kontroller i skötselplanen",
+      "items": [
+        "Identifiera modell och revision.",
+        "Registrera axel- och hylsyta.",
+        "Bekräfta rotationssystem.",
+        "Lista godkända verktyg och medel.",
+        "Hindra otillåten vätska.",
+        "Definiera bevakning och spärrning.",
+        "Använd stabila vadderade stöd.",
+        "Förvara torrt och obelastat.",
+        "Koppla bilder till ID.",
+        "Behåll aktuell instruktion vid återköp."
+      ]
+    },
+    "faqHeading": "Vanliga frågor",
+    "faq": [
+      [
+        "Hur ofta ska gymstänger rengöras?",
+        "Styr efter användning, magnesium, svett, fukt och journalfynd. Modellens instruktion gäller före en generell tidsplan."
+      ],
+      [
+        "Kan stålborste användas på alla stänger?",
+        "Nej. Ytan avgör. Nylon eller syntet är ofta en försiktigare start men ska vara godkänd."
+      ],
+      [
+        "Får olja sprejas direkt?",
+        "Inte utan uttrycklig modellanvisning. Dosera godkänd produkt på trasa och ta bort överskott."
+      ],
+      [
+        "Får personal öppna hylsorna?",
+        "Endast när rätt manual tillåter det och kompetent person ansvarar. Annars spärras stången."
+      ],
+      [
+        "Vad ska en OEM-fabrik lämna?",
+        "Ytdata, kompatibla medel, servicegränser, kontrollpunkter, reservdelspolicy och revisionsstyrt skötselblad."
+      ]
+    ],
+    "linkHeading": "Fortsätt granska stången",
+    "linkLabels": [
+      "Köpguide för kommersiella stänger",
+      "Ytor och beläggningar",
+      "Bussningar, lager och rotation",
+      "Rakhet och hylskast",
+      "Hylslåsning och ändkåpor",
+      "Kontroll före leverans",
+      "Diskutera skötselspecifikationen"
+    ],
+    "imageAlt": "Rak omärkt olympisk skivstång på vadderade stöd medan en tekniker torkar axeln torr",
+    "imageCaption": "Konceptuell skötselscen med tomma hylsor, torr trasa och blank kontrollista.",
+    "cta": [
+      "Beställ stången med rätt skötselinformation",
+      "Skicka miljö, revision, yta och servicebehov till ChinaFreeWeight för OEM, ODM, Custom Logo, Private Label eller Bulk Supply.",
+      "Begär granskning"
+    ]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/manutenzione-pulizia-bilanciere-olimpico",
+    "title": "Manutenzione del Bilanciere Olimpico per Palestre Professionali",
+    "description": "Imposta pulizia per finitura, controllo manicotti, stoccaggio asciutto, registro e fermo sicuro del bilanciere olimpico.",
+    "h1": "Come Mantenere i Bilancieri Olimpici in Palestra",
+    "keyword": "manutenzione bilanciere olimpico",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Guida di fabbrica per palestre, distributori e marchi",
+    "sections": [
+      {
+        "heading": "Risposta pratica: seguire il modello esatto",
+        "text": "Collega ogni bilanciere a finitura di asta e manicotti, sistema di rotazione, posizione e materiali autorizzati. Rimuovi magnesite e sudore senza intrappolare umidità, controlla asta, estremità e rotazione e registra ogni variazione.\n\nNon esiste un intervallo universale. Uso, clima, magnesite e rivestimento cambiano la necessità. Manuale e garanzia del modello comandano; un’anomalia non spiegata di rettilineità, ritegno o rotazione richiede il fermo."
+      },
+      {
+        "heading": "Identificare superficie e costruzione prima degli utensili",
+        "text": "La scheda deve unire ID, revisione, finitura dell’asta, finitura dei manicotti e sistema a boccole o cuscinetti. Il colore non identifica da solo cromo duro, zinco, ossido, acciaio inox o rivestimento decorativo.\n\nChiedi al produttore una scheda con spazzole e prodotti compatibili, zone da mantenere asciutte e limiti di intervento. Conservala con la specifica d’acquisto perché il personale non applichi il metodo più aggressivo a tutto."
+      },
+      {
+        "heading": "Togliere magnesite e sudore senza rovinare la finitura",
+        "text": "Scarica il bilanciere e usa supporti stabili imbottiti. Parti a secco con spazzola pulita in nylon o sintetica sulla zigrinatura, poi passa un panno senza pelucchi su asta e manicotti. Se ammesso, dosa il prodotto sul panno.\n\nLavora per zone con luce radente. Non lasciare liquido o olio nella zigrinatura, alla spalla o in testa. Spazzola metallica, abrasivo o chimico forte può cambiare il rivestimento; prevale la procedura approvata."
+      },
+      {
+        "heading": "Gestire la rotazione come attività controllata",
+        "text": "Una differenza tra i manicotti richiede confronto documentato, non smontaggio immediato. Valuta rotazione a vuoto, rumore, gioco assiale e danni visibili rispetto allo stato accettato. Sporco, ritegno danneggiato e guasto interno possono sembrare uguali.\n\nNon iniettare lubrificante né rimuovere anelli o terminali senza permesso del manuale e persona competente. Se il limite non è chiaro, ferma il bilanciere e chiedi al fornitore."
+      },
+      {
+        "heading": "Separare estetica e condizione di fermo",
+        "text": "Una macchia leggera o rivestimento lucidato non equivale ad asta piegata, manicotto lento, ritegno danneggiato o bava tagliente. Definisci chi può rimettere in servizio e chi valuta un’anomalia.\n\nFotografa intero bilanciere, entrambe le estremità e dettaglio con ID. Non raddrizzare, levigare o coprire prima dell’esame. Luogo, data, uso e stoccaggio rendono leggibile un problema ricorrente."
+      },
+      {
+        "heading": "Controllare anche ambiente e stoccaggio",
+        "text": "Riponi bilancieri scarichi su supporti che non graffino l’asta o carichino parti delicate. Evita lavaggio bagnato, porte esterne, aria di piscina e condensa. Riponi solo una barra asciutta.\n\nAumenta l’osservazione con affluenza, magnesite e umidità. Anche il passaggio tra sala climatizzata e magazzino caldo genera condensa. Correggi il calendario con i riscontri."
+      },
+      {
+        "heading": "Usare un registro breve che porti a una decisione",
+        "text": "Annota ID, data, addetto, zona, condizione, metodo ed esito. Aggiungi rotazione, rumore, movimento terminale e destinazione: servizio, osservazione, fermo o fornitore. Collega le foto.\n\nCerca ricorrenze. Corrosione su una rastrelliera indica ambiente; gioco ripetuto su una revisione richiede il fornitore. Lo storico separa cura, trasporto e non conformità."
+      },
+      {
+        "heading": "Inserire la cura nell’ordine di fabbrica",
+        "text": "Nei programmi OEM e ODM richiedi identificazione delle finiture, scheda per modello, limite di servizio, politica ricambi e contatto. Custom Logo e Private Label non devono coprire la tracciabilità.\n\nPer Bulk Supply, concorda l’identificazione tra riordini. ChinaFreeWeight può rivedere specifica, ambiente e documenti con importatori, distributori, marchi e palestre, senza sostituire il controllo del gestore."
+      }
+    ],
+    "table": {
+      "heading": "Tabella decisionale",
+      "columns": [
+        "Riscontro",
+        "Azione",
+        "Riferimento"
+      ],
+      "rows": [
+        [
+          "Magnesite o sudore",
+          "Spazzolare a secco e pulire come previsto",
+          "Scheda finitura"
+        ],
+        [
+          "Piccola macchia superficiale",
+          "Pulire, fotografare, rivalutare",
+          "ID e confronto"
+        ],
+        [
+          "Rotazione diversa",
+          "Confrontare a vuoto e fermare se ignota",
+          "Manuale e fornitore"
+        ],
+        [
+          "Gioco o ritegno danneggiato",
+          "Togliere dal servizio",
+          "Foto delle estremità"
+        ],
+        [
+          "Asta piegata o bava",
+          "Non usare, raddrizzare o levigare",
+          "Metodo concordato"
+        ],
+        [
+          "Corrosione ricorrente in zona",
+          "Correggere supporto o ambiente",
+          "Storico posizione"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dieci controlli del piano",
+      "items": [
+        "Identificare modello e revisione.",
+        "Registrare entrambe le finiture.",
+        "Confermare il sistema di rotazione.",
+        "Elencare utensili e prodotti ammessi.",
+        "Impedire ingressi di liquido non previsti.",
+        "Definire osservazione e fermo.",
+        "Usare appoggi stabili imbottiti.",
+        "Stoccare asciutto e scarico.",
+        "Collegare foto e azioni all’ID.",
+        "Tenere la scheda aggiornata nei riordini."
+      ]
+    },
+    "faqHeading": "Domande frequenti",
+    "faq": [
+      [
+        "Ogni quanto pulire i bilancieri?",
+        "Dipende da uso, magnesite, sudore, umidità e riscontri. Il manuale del modello prevale."
+      ],
+      [
+        "La spazzola d’acciaio va bene sempre?",
+        "No. Dipende dalla finitura; nylon o sintetico è spesso un inizio più prudente, se approvato."
+      ],
+      [
+        "Si può spruzzare olio direttamente?",
+        "Non senza indicazione espressa. Quando ammesso, dosa sul panno e rimuovi l’eccesso."
+      ],
+      [
+        "Il personale può aprire i manicotti?",
+        "Solo se il manuale lo consente e interviene personale competente. Altrimenti ferma e consulta."
+      ],
+      [
+        "Cosa chiedere a una fabbrica OEM?",
+        "Finiture, materiali compatibili, limiti, controlli, politica ricambi e scheda gestita per revisione."
+      ]
+    ],
+    "linkHeading": "Continua la verifica del bilanciere",
+    "linkLabels": [
+      "Guida all’acquisto professionale",
+      "Finiture e rivestimenti",
+      "Boccole, cuscinetti e rotazione",
+      "Rettilineità e oscillazione",
+      "Ritegno manicotti e terminali",
+      "Ispezione pre-spedizione",
+      "Rivedere la specifica"
+    ],
+    "imageAlt": "Tecnico ispeziona con luce radente un bilanciere olimpico senza marchio su supporti imbottiti",
+    "imageCaption": "Scena concettuale con bilanciere scarico, panno asciutto e scheda vuota.",
+    "cta": [
+      "Definisci prodotto e cura nello stesso ordine",
+      "Invia ambiente, revisione, finitura e servizio a ChinaFreeWeight per OEM, ODM, Custom Logo, Private Label o Bulk Supply.",
+      "Richiedi la revisione"
+    ]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/onderhoud-reiniging-olympische-halterstang",
+    "title": "Onderhoud van Olympische Halterstangen in Commerciële Sportscholen",
+    "description": "Stel een afwerkingsgericht plan op voor reinigen, sleevecontrole, droge opslag, registratie en veilig buiten gebruik stellen.",
+    "h1": "Zo Onderhoudt u Olympische Halterstangen in de Sportschool",
+    "keyword": "onderhoud olympische halterstang",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Fabrieksgids voor sportscholen, distributeurs en merken",
+    "sections": [
+      {
+        "heading": "Kort antwoord: onderhoud de specifieke stang",
+        "text": "Koppel elke stang aan model, afwerking van as en sleeves, rotatiesysteem, opslagplek en toegestane middelen. Verwijder krijt en zweet zonder vocht op te sluiten, controleer as, sleeves en uiteinden en leg veranderingen vast.\n\nEr is geen universele frequentie. Bezetting, luchtvochtigheid, krijt en afwerking bepalen de behoefte. De modelhandleiding en garantie zijn leidend; onverklaarde verandering in rechtheid, borging of rotatie vraagt om buitengebruikstelling."
+      },
+      {
+        "heading": "Leg oppervlak en constructie vast vóór de borstelkeuze",
+        "text": "Het activaregister vermeldt revisie, asafwerking, sleeveafwerking en bus- of lagersysteem. Kleur alleen bewijst niet of het hardchroom, zink, zwartoxide, roestvast staal of decoratieve coating is.\n\nVraag een onderhoudsblad met geschikte borstel, doek en product, droog te houden zones en servicegrenzen. Bewaar dit bij de inkoopspecificatie zodat nieuw personeel niet overal dezelfde agressieve methode toepast."
+      },
+      {
+        "heading": "Verwijder krijt en zweet zonder afwerkingsschade",
+        "text": "Ontlast de stang op stabiele zachte steunen. Begin droog met een schone nylon- of kunststofborstel in de knurling en veeg as en sleeves af met een pluisvrije doek. Doseer een toegestaan middel op de doek.\n\nWerk per deel onder strijklicht. Laat geen vloeistof of olie achter in knurling, schouder of sleeve-einde. Metaalborstel, schuurmiddel of sterke chemie kan de coating wijzigen; de goedgekeurde methode gaat voor."
+      },
+      {
+        "heading": "Behandel sleeverotatie als gecontroleerde service",
+        "text": "Verschil tussen links en rechts vraagt een vastgelegde vergelijking, geen directe demontage. Vergelijk onbelaste rotatie, geluid, axiale beweging en zichtbare schade met de geaccepteerde toestand. Vuil, defecte borging en intern probleem kunnen hetzelfde voelen.\n\nSpuit geen smeermiddel in kieren en verwijder geen ringen of einddelen zonder uitdrukkelijke handleiding en vakbekwaam persoon. Bij twijfel wordt de stang geïsoleerd en de leverancier geraadpleegd."
+      },
+      {
+        "heading": "Scheid uiterlijk van een stopcriterium",
+        "text": "Lichte verkleuring of gepolijste coating is iets anders dan een kromme as, losse sleeve, beschadigde borging of scherpe braam. Leg vast wie na reinigen vrijgeeft en wie afwijkingen beoordeelt.\n\nFotografeer de hele stang, beide uiteinden en het detail met ID. Richt, slijp of maskeer niets vóór beoordeling. Plaats, datum, recent gebruik en opslag helpen bij terugkerende patronen."
+      },
+      {
+        "heading": "Beheers opslag en binnenklimaat",
+        "text": "Bewaar onbelaste stangen op rekken zonder krassend contact of druk op gevoelige einddelen. Houd afstand van nat dweilen, buitendeuren, zwembadlucht en condens. Plaats alleen een droge stang terug.\n\nVerhoog toezicht bij meer gebruik, krijt of vocht. Verplaatsing tussen klimaatruimte en warme laadzone kan condens geven. Laat bevindingen het schema aanpassen."
+      },
+      {
+        "heading": "Maak een kort maar bruikbaar servicelog",
+        "text": "Noteer ID, datum, persoon, zone, bevinding, methode en resultaat. Voeg rotatie, geluid, eindbeweging en status toe: vrij, volgen, blokkeren of leverancier. Koppel foto’s aan hetzelfde activum.\n\nZoek trends. Corrosie bij één rek wijst naar omgeving; terugkerende speling bij één revisie vraagt productbeoordeling. Het log onderscheidt onderhoud, transport en afwijking."
+      },
+      {
+        "heading": "Neem onderhoudsinformatie op in de fabrieksorder",
+        "text": "Vraag bij OEM en ODM om afwerkingsidentificatie, modelblad, servicegrens, onderdelenbeleid en contact. Custom Logo en Private Label mogen traceerbaarheid niet bedekken.\n\nSpreek bij Bulk Supply herkenning tussen herhaalorders af. ChinaFreeWeight kan specificatie, omgeving en documentatie beoordelen met importeurs, distributeurs, merken en sportscholen, zonder de lokale inspectie te vervangen."
+      }
+    ],
+    "table": {
+      "heading": "Beslismatrix",
+      "columns": [
+        "Bevinding",
+        "Directe actie",
+        "Basis"
+      ],
+      "rows": [
+        [
+          "Krijt of zweetfilm",
+          "Droog borstelen en goedgekeurd afnemen",
+          "Afwerkingsblad"
+        ],
+        [
+          "Kleine verkleuring",
+          "Reinigen, fotograferen, herbeoordelen",
+          "ID en vergelijking"
+        ],
+        [
+          "Verschillende sleeverotatie",
+          "Onbelast vergelijken en zo nodig isoleren",
+          "Handleiding"
+        ],
+        [
+          "Speling of borgschade",
+          "Buiten gebruik stellen",
+          "Foto’s van beide uiteinden"
+        ],
+        [
+          "Kromme as of braam",
+          "Niet gebruiken, richten of slijpen",
+          "Afgesproken meetmethode"
+        ],
+        [
+          "Terugkerende corrosie op plek",
+          "Rek of klimaat corrigeren",
+          "Locatiehistorie"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Tien controles voor het plan",
+      "items": [
+        "Bepaal model en revisie.",
+        "Registreer as- en sleeveafwerking.",
+        "Bevestig het rotatiesysteem.",
+        "Noem toegestane hulpmiddelen.",
+        "Voorkom ongewenst vocht.",
+        "Definieer volgen en blokkeren.",
+        "Gebruik stabiele zachte steunen.",
+        "Bewaar droog en onbelast.",
+        "Koppel foto’s en acties aan ID.",
+        "Houd instructies bij herhaalorders actueel."
+      ]
+    },
+    "faqHeading": "Veelgestelde vragen",
+    "faq": [
+      [
+        "Hoe vaak reinigt een sportschool de stangen?",
+        "Stuur op gebruik, krijt, zweet, vocht en bevindingen. De modelhandleiding gaat boven een algemeen schema."
+      ],
+      [
+        "Kan een staalborstel altijd?",
+        "Nee. De afwerking bepaalt dit. Nylon of kunststof is vaak voorzichtiger, maar moet geschikt zijn verklaard."
+      ],
+      [
+        "Mag olie direct worden gespoten?",
+        "Niet zonder uitdrukkelijke instructie. Doseer toegestaan middel op een doek en verwijder teveel."
+      ],
+      [
+        "Mogen medewerkers sleeves openen?",
+        "Alleen als de juiste handleiding het toestaat en een vakbekwaam persoon werkt. Anders isoleren."
+      ],
+      [
+        "Wat vraagt een inkoper aan een OEM-fabriek?",
+        "Afwerkingen, geschikte middelen, servicegrenzen, controlepunten, onderdelenbeleid en revisiebeheerst onderhoudsblad."
+      ]
+    ],
+    "linkHeading": "Beoordeel de halterstang verder",
+    "linkLabels": [
+      "Inkoopgids commerciële halterstangen",
+      "Afwerkingen en coatings",
+      "Bussen, lagers en rotatie",
+      "Rechtheid en sleeve-afwijking",
+      "Sleeveborging en eindkappen",
+      "Inspectie vóór verzending",
+      "Bespreek uw onderhoudsspecificatie"
+    ],
+    "imageAlt": "Technicus borstelt krijt uit een merkloze olympische halterstang op zachte inspectiesteunen",
+    "imageCaption": "Conceptuele onderhoudssituatie met lege sleeves, droge doek en blanco controlekaart.",
+    "cta": [
+      "Leg product en onderhoud samen vast",
+      "Deel omgeving, revisie, afwerking en service met ChinaFreeWeight voor OEM, ODM, Custom Logo, Private Label of Bulk Supply.",
+      "Vraag een beoordeling"
+    ]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/konserwacja-czyszczenie-gryfu-olimpijskiego",
+    "title": "Konserwacja Gryfu Olimpijskiego w Siłowni Komercyjnej",
+    "description": "Ustal czyszczenie właściwe dla powłoki, kontrolę tulei, suche przechowywanie, zapis serwisowy i bezpieczne wycofanie gryfu.",
+    "h1": "Jak Konserwować Gryfy Olimpijskie w Siłowni",
+    "keyword": "konserwacja gryfu olimpijskiego",
+    "home": "Strona główna",
+    "library": "Blog",
+    "eyebrow": "Przewodnik fabryczny dla siłowni, dystrybutorów i marek",
+    "sections": [
+      {
+        "heading": "Krótko: plan dotyczy konkretnego modelu",
+        "text": "Powiąż każdy gryf z modelem, wykończeniem trzpienia i tulei, układem obrotu, miejscem składowania oraz dopuszczonymi środkami. Usuń magnezję i pot bez zatrzymywania wilgoci, sprawdź trzpień, tuleje i końce oraz zapisz zmiany.\n\nNie ma jednego terminu dla wszystkich obiektów. Ruch, wilgotność, magnezja i powłoka zmieniają potrzeby. Instrukcja modelu jest nadrzędna; niewyjaśniona zmiana prostoliniowości, mocowania lub obrotu oznacza wycofanie."
+      },
+      {
+        "heading": "Rozpoznaj powierzchnię i konstrukcję przed wyborem narzędzi",
+        "text": "Rejestr powinien zawierać rewizję, wykończenie trzpienia, wykończenie tulei oraz system tulejowy lub łożyskowy. Sam kolor nie odróżnia twardego chromu, cynku, oksydy, stali nierdzewnej czy powłoki dekoracyjnej.\n\nPoproś producenta o kartę z właściwą szczotką, ściereczką, preparatem, strefami suchymi i granicami serwisu. Przechowuj ją ze specyfikacją zakupu."
+      },
+      {
+        "heading": "Usuń magnezję i pot bez naruszenia powłoki",
+        "text": "Połóż nieobciążony gryf na stabilnych miękkich podporach. Najpierw użyj czystej szczotki nylonowej lub syntetycznej w radełkowaniu, potem wytrzyj trzpień i tuleje bezpyłową ściereczką. Dopuszczony preparat dozuj na materiał.\n\nPracuj odcinkami przy świetle bocznym. Nie pozostawiaj płynu w radełkowaniu, przy kołnierzu i końcu tulei. Drut, ścierniwo lub silna chemia mogą zmienić powłokę; pierwszeństwo ma zatwierdzona metoda."
+      },
+      {
+        "heading": "Kontroluj obrót tulei bez samowolnego demontażu",
+        "text": "Różnica między tulejami wymaga zapisu i porównania, a nie natychmiastowego otwarcia. Sprawdź obrót bez obciążenia, dźwięk, ruch osiowy i widoczne uszkodzenia względem stanu przyjętego.\n\nNie wprowadzaj smaru w szczeliny ani nie usuwaj pierścieni bez zgody instrukcji i kompetentnej osoby. Gdy granica serwisu jest niejasna, odizoluj gryf i skontaktuj się z dostawcą."
+      },
+      {
+        "heading": "Oddziel zmianę wyglądu od powodu wycofania",
+        "text": "Lekkie przebarwienie lub wypolerowana powłoka nie oznacza tego samego co krzywy trzpień, luźna tuleja, uszkodzone mocowanie czy ostry zadzior. Określ odpowiedzialność za dopuszczenie i eskalację.\n\nFotografuj cały gryf, oba końce i detal z ID. Nie prostuj, nie szlifuj i nie ukrywaj śladów przed oceną. Zapisz miejsce, czas, użycie i pozycję składowania."
+      },
+      {
+        "heading": "Kontroluj stojak i warunki pomieszczenia",
+        "text": "Przechowuj nieobciążone gryfy na stojaku, który nie rysuje trzpienia i nie obciąża wrażliwych części końcowych. Unikaj mokrego mycia, drzwi zewnętrznych, powietrza basenowego i kondensacji. Odkładaj tylko suchy gryf.\n\nZwiększ obserwację przy większym ruchu, użyciu magnezji i wilgoci. Przejście z klimatyzacji do ciepłej strefy dostaw również może skraplać wodę. Koryguj harmonogram wynikami."
+      },
+      {
+        "heading": "Prowadź krótki zapis prowadzący do decyzji",
+        "text": "Zapisz ID, datę, osobę, strefę, stan, metodę i wynik. Dodaj obrót tulei, hałas, ruch końca oraz status: dopuszczony, obserwowany, wycofany lub przekazany. Powiąż zdjęcia.\n\nSzukaj powtarzalności. Korozja przy jednym stojaku wskazuje środowisko; powtarzający się luz w rewizji wymaga analizy dostawcy. Historia rozdziela konserwację, transport i niezgodność."
+      },
+      {
+        "heading": "Włącz instrukcję pielęgnacji do zamówienia",
+        "text": "W OEM i ODM wymagaj identyfikacji powłok, karty modelu, granic serwisu, polityki części i kontaktu. Custom Logo i Private Label nie mogą zasłaniać identyfikacji.\n\nPrzy Bulk Supply uzgodnij śledzenie między zamówieniami. ChinaFreeWeight może przejrzeć specyfikację, środowisko i dokumenty z importerami, dystrybutorami, markami i siłowniami, bez zastępowania lokalnej kontroli."
+      }
+    ],
+    "table": {
+      "heading": "Tabela decyzji",
+      "columns": [
+        "Ustalenie",
+        "Działanie",
+        "Podstawa"
+      ],
+      "rows": [
+        [
+          "Magnezja lub pot",
+          "Szczotkować na sucho i wytrzeć zgodnie z kartą",
+          "Instrukcja powłoki"
+        ],
+        [
+          "Małe przebarwienie",
+          "Oczyścić, sfotografować, ocenić",
+          "ID i porównanie"
+        ],
+        [
+          "Różny obrót tulei",
+          "Porównać bez obciążenia, w razie potrzeby wycofać",
+          "Instrukcja"
+        ],
+        [
+          "Luz lub uszkodzone mocowanie",
+          "Wycofać z użycia",
+          "Zdjęcia obu końców"
+        ],
+        [
+          "Krzywy trzpień lub zadzior",
+          "Nie używać, prostować ani szlifować",
+          "Uzgodniona metoda"
+        ],
+        [
+          "Korozja w jednej strefie",
+          "Poprawić stojak lub klimat",
+          "Historia miejsca"
+        ]
+      ]
+    },
+    "checklist": {
+      "heading": "Dziesięć elementów planu",
+      "items": [
+        "Ustalić model i rewizję.",
+        "Zapisać oba wykończenia.",
+        "Potwierdzić układ obrotu.",
+        "Wymienić dopuszczone narzędzia.",
+        "Chronić przed niekontrolowanym płynem.",
+        "Zdefiniować obserwację i wycofanie.",
+        "Używać stabilnych miękkich podpór.",
+        "Składować sucho i bez obciążenia.",
+        "Łączyć zdjęcia z ID.",
+        "Aktualizować instrukcję przy zamówieniach."
+      ]
+    },
+    "faqHeading": "Najczęstsze pytania",
+    "faq": [
+      [
+        "Jak często czyścić gryfy?",
+        "Zależnie od użycia, magnezji, potu, wilgotności i zapisów. Instrukcja modelu ma pierwszeństwo."
+      ],
+      [
+        "Czy szczotka stalowa pasuje do każdego gryfu?",
+        "Nie. Decyduje powłoka. Nylon lub tworzywo jest zwykle ostrożniejszym początkiem, jeśli producent je dopuszcza."
+      ],
+      [
+        "Czy można rozpylać olej bezpośrednio?",
+        "Nie bez wyraźnej instrukcji. Dopuszczony środek dozuj na ściereczkę i usuń nadmiar."
+      ],
+      [
+        "Czy personel może otwierać tuleje?",
+        "Tylko gdy właściwa instrukcja zezwala i odpowiada kompetentna osoba. Inaczej wycofać i zapytać."
+      ],
+      [
+        "Czego wymagać od fabryki OEM?",
+        "Danych powłok, środków, granic serwisu, punktów kontroli, polityki części i karty zarządzanej rewizją."
+      ]
+    ],
+    "linkHeading": "Dalsza ocena gryfu",
+    "linkLabels": [
+      "Zakup gryfów komercyjnych",
+      "Powłoki i wykończenia",
+      "Tuleje, łożyska i obrót",
+      "Prostoliniowość i bicie",
+      "Mocowanie tulei i zaślepki",
+      "Kontrola przed wysyłką",
+      "Omów specyfikację konserwacji"
+    ],
+    "imageAlt": "Technik czyści nieoznakowany gryf olimpijski nylonową szczotką na miękkich podporach",
+    "imageCaption": "Scena koncepcyjna z nieobciążonym gryfem, suchą ściereczką i pustą kartą kontroli.",
+    "cta": [
+      "Zamów gryf wraz z instrukcją pielęgnacji",
+      "Przekaż ChinaFreeWeight środowisko, rewizję, powłokę i serwis dla OEM, ODM, Custom Logo, Private Label lub Bulk Supply.",
+      "Poproś o przegląd"
+    ]
+  }
+]

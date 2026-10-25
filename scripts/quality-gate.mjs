@@ -12,6 +12,9 @@ const REPORT_JSON = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.json`);
 const REPORT_MD = path.join(REPORT_DIR, `${DATE_ID}-quality-gate.md`);
 const LIGHTHOUSE_RUNS = Math.max(1, Number(process.env.QUALITY_GATE_LIGHTHOUSE_RUNS || 3));
 const AUDIT_CONCURRENCY = Math.max(1, Number(process.env.QUALITY_GATE_CONCURRENCY || 16));
+const FETCH_ATTEMPTS = Math.max(1, Number(process.env.QUALITY_GATE_FETCH_ATTEMPTS || 5));
+const FETCH_TIMEOUT_MS = Math.max(1000, Number(process.env.QUALITY_GATE_FETCH_TIMEOUT_MS || 10000));
+const RETRYABLE_STATUS_CODES = new Set([408, 425, 429, 500, 502, 503, 504]);
 
 const thresholds = {
   performance: Number(process.env.QUALITY_GATE_MIN_PERFORMANCE || 90),
@@ -86,23 +89,39 @@ function toLocalUrlString(url) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, { redirect: "follow" });
-  return { ok: response.ok, status: response.status, url: response.url, text: await response.text(), headers: response.headers };
+  let lastResponse = null;
+  for (let attempt = 0; attempt < FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      const response = await fetch(url, { redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      lastResponse = response;
+      if (response.ok || !RETRYABLE_STATUS_CODES.has(response.status) || attempt === FETCH_ATTEMPTS - 1) {
+        return { ok: response.ok, status: response.status, url: response.url, text: await response.text(), headers: response.headers };
+      }
+      await response.body?.cancel();
+    } catch {
+      lastResponse = null;
+    }
+    if (attempt < FETCH_ATTEMPTS - 1) await new Promise((resolve) => setTimeout(resolve, 200 * 2 ** attempt));
+  }
+  return { ok: false, status: lastResponse?.status || 0, url, text: "", headers: lastResponse?.headers || new Headers() };
 }
 
 async function fetchHeadOrGet(url) {
   let lastResponse = null;
-  for (let attempt = 0; attempt < 2; attempt += 1) {
+  for (let attempt = 0; attempt < FETCH_ATTEMPTS; attempt += 1) {
     try {
       const imageOptimizerRequest = new URL(url).pathname === "/_next/image";
-      let response = await fetch(url, { method: imageOptimizerRequest ? "GET" : "HEAD", redirect: "follow" });
-      if (response.status === 405 || response.status === 403) response = await fetch(url, { method: "GET", redirect: "follow" });
+      let response = await fetch(url, { method: imageOptimizerRequest ? "GET" : "HEAD", redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      if (response.status === 405 || response.status === 403) {
+        response = await fetch(url, { method: "GET", redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+      }
       lastResponse = response;
-      if (response.ok || ![408, 429, 500, 502, 503, 504].includes(response.status)) return response;
+      if (response.ok || !RETRYABLE_STATUS_CODES.has(response.status)) return response;
+      await response.body?.cancel();
     } catch {
       lastResponse = null;
     }
-    if (attempt === 0) await new Promise((resolve) => setTimeout(resolve, 150));
+    if (attempt < FETCH_ATTEMPTS - 1) await new Promise((resolve) => setTimeout(resolve, 200 * 2 ** attempt));
   }
   return lastResponse;
 }
