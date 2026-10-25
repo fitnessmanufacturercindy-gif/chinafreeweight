@@ -113,10 +113,16 @@ async function fetchHeadOrGet(url) {
       const imageOptimizerRequest = new URL(url).pathname === "/_next/image";
       let response = await fetch(url, { method: imageOptimizerRequest ? "GET" : "HEAD", redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       if (response.status === 405 || response.status === 403) {
+        await response.body?.cancel();
         response = await fetch(url, { method: "GET", redirect: "follow", signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
       }
       lastResponse = response;
-      if (response.ok || !RETRYABLE_STATUS_CODES.has(response.status)) return response;
+      if (response.ok || !RETRYABLE_STATUS_CODES.has(response.status)) {
+        // These checks only need the status and headers. Closing GET bodies keeps
+        // Undici's connection pool reusable during multi-thousand-resource audits.
+        await response.body?.cancel();
+        return response;
+      }
       await response.body?.cancel();
     } catch {
       lastResponse = null;
