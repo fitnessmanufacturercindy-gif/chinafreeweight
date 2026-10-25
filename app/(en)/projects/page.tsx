@@ -28,6 +28,15 @@ const projectTypes = [
 
 const projects = [
   {
+    title: "Custom Pink CPU Dumbbells and Weight Plates",
+    category: "OEM Brand",
+    image: "/assets/projects/custom-pink-cpu-dumbbells-weight-plates/custom-pink-cpu-dumbbells.webp",
+    copy: "A customer customization case focused on a coordinated pink CPU dumbbell and weight plate range for private-label sourcing.",
+    scope: "CPU dumbbells, weight plates, color and branding",
+    cta: "View the OEM case",
+    href: "/projects/custom-pink-cpu-dumbbells-weight-plates"
+  },
+  {
     title: "Custom Logo Strength Equipment for a Fitness Chain",
     category: "OEM Brand",
     image: "/assets/projects/custom-logo-fitness-chain/custom-logo-dumbbells.webp",
