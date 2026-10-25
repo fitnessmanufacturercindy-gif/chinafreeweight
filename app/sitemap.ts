@@ -19,6 +19,7 @@ const staticRoutes = [
   { path: "/projects/compact-chrome-dumbbell-set", priority: 0.8 },
   { path: "/projects/custom-logo-dumbbells-weight-plates-fitness-chain", priority: 0.82 },
   { path: "/projects/custom-pink-cpu-dumbbells-weight-plates", priority: 0.82 },
+  { path: "/projects/chrome-dumbbell-distributor-stock-direct-shipping", priority: 0.82 },
   { path: "/resources", priority: 0.78 },
   { path: "/contact", priority: 0.86 }
 ];
