@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import type { Metadata } from "next";
+import "../globals.css";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { getLocaleByRouteLocale } from "../../i18n/locale-registry";

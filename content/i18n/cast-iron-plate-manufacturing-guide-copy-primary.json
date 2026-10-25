@@ -1,0 +1,293 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/how-cast-iron-weight-plates-are-made",
+    "title": "How Cast-Iron Weight Plates Are Made: Buyer Guide",
+    "description": "Follow cast-iron weight plates from drawing and sand mould to fettling, machining, finishing and bulk inspection for OEM purchasing.",
+    "h1": "How Are Cast-Iron Weight Plates Made?",
+    "keyword": "how cast iron weight plates are made",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Cast-iron plate manufacturing guide",
+    "sections": [
+      {
+        "heading": "Quick answer: the finished plate begins with controlled casting inputs",
+        "text": "A cast-iron weight plate normally starts with a released drawing and pattern, followed by mould preparation, metal melting and composition control, pouring, cooling, shakeout, gate and flash removal, cleaning, any specified machining, weight and dimensional checks, surface finishing, marking and packing. The exact route varies by plate design and foundry, so a buyer should approve the product-specific process rather than assume every cast plate follows one recipe.\n\nChinaFreeWeight is a factory partner for OEM, ODM, Custom Logo, Private Label and Bulk Supply projects. We connect the approved plate model to samples, process records and final inspection, while stating clearly which operations are performed by the selected production route. A staged photograph or one molten-metal video is not proof that a complete shipment meets the drawing."
+      },
+      {
+        "heading": "Freeze the drawing, pattern and weight logic before metal is poured",
+        "text": "The drawing should separate functional dimensions from decorative geometry. Outside diameter, bore, thickness, hub or rim lands, grip openings, lettering, mould-release angle, parting line and machining allowance all affect the pattern and mould. Nominal mass must be planned with material density and later finishing in mind; it cannot be corrected responsibly by adding random paint or leaving uncontrolled flash.\n\nApprove the full denomination range, not only the largest plate. A light plate may use a different section or cavity layout, while a heavy plate may cool differently. Record pattern identity, cavity or tool reference, artwork revision and which surfaces will remain as-cast, be ground, or be machined. These records protect reorders when a pattern is repaired or replaced."
+      },
+      {
+        "heading": "Treat sand moulding and metal preparation as separate controls",
+        "text": "Sand casting uses a pattern to form the cavity, with a gating and feeding system that lets molten iron enter and solidify. The American Foundry Society explains that sand is widely used for moulds and cores, while the US EPA foundry process description separates mould production, melting, pouring, cooling, shakeout and finishing. Those sources explain the route; they do not certify a gym plate.\n\nThe purchase specification should identify the agreed cast-iron grade or property basis and the evidence expected from the production source. ISO 185 classifies grey cast irons by strength or hardness options, but it does not select a grade for every weight plate. Material identity, charge control and any test request belong to the specific drawing and order."
+      },
+      {
+        "heading": "Pouring and cooling create risks that finishing cannot hide",
+        "text": "Melt condition, mould condition, filling path and cooling influence whether the casting reproduces the intended geometry. Visible cold shuts, incomplete fill, inclusions, shrinkage indications or displaced mould features should not be disguised under filler or a heavy coating. The defect catalogue and disposition route must be agreed before production pressure makes appearance the only release criterion.\n\nDo not turn a generic process description into a universal temperature, cooling time or defect allowance. Foundries use different equipment and control plans. Ask for the actual first-piece record, lot identity and inspection points, then compare representative castings from across the run rather than a specially prepared display sample."
+      },
+      {
+        "heading": "Separate shakeout, fettling and machining decisions",
+        "text": "After cooling, the mould is broken away and sand is removed. Gates, risers, parting-line flash and sharp projections are cut or ground, and the surface may be blast-cleaned. Fettling should leave safe, repeatable edges without cutting into a functional rim, grip opening or weight mark. A smooth-looking plate can still have an incorrect bore or thickness.\n\nMachining is a drawing decision, not a synonym for quality. The bore, hub face, rim or selected faces may be machined when the model requires tighter geometry or a defined contact. ISO 8062-3 provides language for casting tolerances and machining allowances; buyer and manufacturer must still identify the controlled features and acceptance limits for the actual plate."
+      },
+      {
+        "heading": "Finish, markings and packaging complete the product, not the casting",
+        "text": "Bare, painted, powder-coated or otherwise finished plates need a compatible surface preparation and a defined appearance reference. Finish cannot repair incorrect mass, bore geometry, cracking or unsafe edges. Keep coating build away from fit-critical areas unless the approved drawing includes it, and preserve readable weight identification after the selected process.\n\nCustom logos can be cast, filled, printed or applied by another approved method, depending on the design. Review relief depth, location, contrast and contact points on a production-equivalent sample. Private-label cartons must identify the correct denomination and protect faces, rims and bores without presenting generated editorial imagery as a real customer order or factory inspection record."
+      },
+      {
+        "heading": "Release the bulk order through linked process and product evidence",
+        "text": "At sample approval, check model identity, mass, outside diameter, thickness, bore and mating fit, flatness or functional contact, edge condition, markings, finish and packing as separate characteristics. Retain the signed drawing, physical reference, photographs, measurement method and artwork. A passing weight reading does not release a rough bore, and a clean finish does not release an underweight plate.\n\nFor bulk inspection, spread samples across denominations, production periods, mould cavities or pattern positions and cartons. Record individual findings and hold unexplained mixed revisions. Require review after material, pattern, gating, machining, finish, artwork or subcontractor changes. Send ChinaFreeWeight the range, unit system, target use, logo files, packing needs and destination so the factory route can be reviewed before quotation and sampling."
+      }
+    ],
+    "table": {
+      "heading": "Cast-iron plate process-control matrix",
+      "columns": ["Stage", "Buyer must define", "Evidence to retain"],
+      "rows": [
+        ["Drawing and pattern", "Functional geometry, release angle and artwork", "Released drawing and tool identity"],
+        ["Mould and metal", "Process route and material basis", "Lot and first-piece records"],
+        ["Pour and cool", "Visible defect and disposition rules", "Casting inspection record"],
+        ["Fettling", "Edges, flash and protected features", "Approved surface reference"],
+        ["Machining", "Features, datums, limits and allowance", "Dimensional report"],
+        ["Finish and release", "Coating, marking, packing and sampling", "Signed sample and final report"]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten checks before approving production",
+      "items": [
+        "Identify every denomination and drawing revision.",
+        "Name the iron grade or agreed property basis.",
+        "Record pattern, cavity and artwork identities.",
+        "Define as-cast, ground and machined surfaces.",
+        "Agree visible defect and sharp-edge criteria.",
+        "Measure mass and geometry as separate gates.",
+        "Approve coating and marking on finished samples.",
+        "Sample across time, tooling positions and cartons.",
+        "Protect bores, rims and faces in export packing.",
+        "Require reapproval after material or process changes."
+      ]
+    },
+    "faqHeading": "Frequently Asked Questions About Cast-Iron Plate Manufacturing",
+    "faq": [
+      ["Are all cast-iron weight plates sand cast?", "Sand casting is common, but buyers should confirm the actual process for the quoted model. The category name alone does not prove a moulding route or quality level."],
+      ["Does a machined plate automatically weigh more accurately?", "No. Machining can control selected geometry and remove material, but mass accuracy still depends on the casting target, correction method, measurement plan and written tolerance."],
+      ["Why is there a line around a cast plate?", "It may be the mould parting line. Its position and finishing should match the approved sample and must not leave unsafe flash or interfere with stacking and handling."],
+      ["Can paint hide casting defects?", "Paint can change appearance but must not be used to conceal cracks, incomplete fill, unsafe edges or wrong geometry. Product acceptance should occur before and after finishing."],
+      ["What changes should trigger a new sample?", "Changes to material basis, pattern, cavity, gating, machining, coating, artwork or production source should be reviewed for affected characteristics and reapproved as agreed."]
+    ],
+    "linkHeading": "Continue the weight-plate specification",
+    "linkLabels": ["View the cast-iron plate", "Browse commercial weight plates", "Compare plate materials", "Choose a cast-iron finish", "Set plate weight acceptance", "Plan pre-shipment inspection", "Send the manufacturing brief"],
+    "imageAlt": "Unbranded cast-iron weight plates shown from rough casting to cleaned and finished sample on a neutral inspection bench",
+    "imageCaption": "Conceptual manufacturing image showing process stages; it is not a real customer order, production lot or test record.",
+    "cta": ["Build the process around the approved plate", "Share the plate range, drawings, material basis, finish, Custom Logo, Private Label packaging and inspection needs. ChinaFreeWeight will review an OEM, ODM and Bulk Supply route for the selected model.", "Discuss your plate project"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/como-sao-fabricadas-anilhas-ferro-fundido",
+    "title": "Como São Fabricadas Anilhas de Ferro Fundido",
+    "description": "Entenda desenho, molde de areia, fusão, rebarbação, usinagem, pintura e inspeção de anilhas de ferro fundido para compra B2B.",
+    "h1": "Como é Feita uma Anilha de Ferro Fundido?",
+    "keyword": "fabricação de anilhas de ferro fundido",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Fabricação e compra profissional",
+    "sections": [
+      {
+        "heading": "Resposta direta: fundir é apenas uma etapa do produto final",
+        "text": "A anilha nasce de um desenho liberado e de um modelo de fundição. Depois vêm preparação do molde, fusão e controle do metal, vazamento, resfriamento, desmoldagem, retirada de canais e rebarbas, limpeza, usinagem prevista, pesagem, controle dimensional, acabamento, marcação e embalagem. A rota muda conforme o modelo e a fundição; por isso, o comprador deve aprovar o processo real do item cotado.\n\nA ChinaFreeWeight atua como fábrica parceira em projetos OEM, ODM, Custom Logo, Private Label e Bulk Supply. Vinculamos desenho, amostra e inspeção ao modelo aprovado e informamos quais operações pertencem à rota contratada. Um vídeo de metal líquido ou uma peça especialmente preparada não comprova sozinho a conformidade do lote."
+      },
+      {
+        "heading": "O desenho precisa resolver geometria, massa e identidade",
+        "text": "Diâmetro externo, furo, espessura, cubo, aro, pegadas, letras em relevo, ângulo de saída, linha de partição e sobremetal de usinagem influenciam o modelo e o molde. A massa nominal deve considerar material e operações posteriores. Tinta excessiva e rebarba deixada de propósito não são métodos aceitáveis de ajuste.\n\nAprovar só a anilha mais pesada é insuficiente. Pesos leves podem ter seções e cavidades diferentes; pesos altos mudam enchimento e resfriamento. Registre identificação do modelo, cavidade, arte e superfícies que ficarão brutas, retificadas ou usinadas. Assim, uma manutenção futura do ferramental não vira uma mudança invisível."
+      },
+      {
+        "heading": "Molde de areia e preparação do ferro exigem controles próprios",
+        "text": "Na fundição em areia, o modelo forma a cavidade e o sistema de canais conduz o metal. A American Foundry Society descreve a areia como material amplamente usado em moldes e machos; a descrição de processo da US EPA separa moldagem, fusão, vazamento, resfriamento, desmoldagem e acabamento. Essas fontes explicam etapas, mas não certificam uma anilha.\n\nA especificação deve nomear a base de material ou propriedade combinada com o fornecedor. A ISO 185 classifica ferros fundidos cinzentos por opções de resistência ou dureza, sem escolher a classe ideal para toda anilha. Identidade do material, controle da carga e evidência pedida dependem do desenho e do contrato."
+      },
+      {
+        "heading": "Vazamento e resfriamento não podem ser corrigidos apenas na pintura",
+        "text": "Condição do metal, molde, enchimento e solidificação afetam o preenchimento e a geometria. Falta de enchimento, inclusões, indícios de contração, deslocamento do molde ou trincas visíveis precisam de critério e destino definidos. Massa de reparo ou camada espessa não deve esconder uma falha que altera função ou segurança.\n\nNão publique temperatura, tempo de resfriamento ou limite de defeito como se fossem universais. Equipamentos e planos de processo variam. Solicite registro da primeira peça, identificação do lote e pontos de inspeção; depois distribua a amostragem ao longo da produção."
+      },
+      {
+        "heading": "Desmoldagem, rebarbação e usinagem têm funções diferentes",
+        "text": "Depois do resfriamento, o molde é quebrado, a areia é removida e canais, massalotes e rebarbas são cortados ou esmerilhados. O jateamento pode limpar a superfície. O acabamento deve eliminar pontas cortantes sem reduzir o aro, a pegada ou a marcação funcional. Aparência uniforme não garante furo e espessura corretos.\n\nUsinar é uma decisão de desenho. Furo, face do cubo, aro ou outra superfície podem receber usinagem quando o modelo pede contato definido. A ISO 8062-3 oferece linguagem para tolerâncias de fundidos e sobremetal, mas comprador e fabricante ainda devem definir referências, características e limites da anilha real."
+      },
+      {
+        "heading": "Pintura, marca e embalagem finalizam a anilha",
+        "text": "Ferro aparente, pintura líquida, pintura a pó ou outro acabamento exigem preparação compatível e amostra visual. A camada não corrige massa, trinca, furo ou aresta fora do combinado. Controle o acúmulo nas áreas de encaixe e mantenha o peso legível apó o acabamento.\n\nO Custom Logo pode ser fundido, preenchido, impresso ou aplicado por método aprovado. Profundidade, posição, contraste e contato entre anilhas devem ser avaliados na amostra. A embalagem Private Label precisa identificar peso e unidade e proteger faces, aro e furo durante a exportação."
+      },
+      {
+        "heading": "A liberação do lote combina processo, produto e rastreabilidade",
+        "text": "Na amostra, verifique separadamente identidade, massa, diâmetro, espessura, furo e encaixe, apoio funcional, bordas, marcação, acabamento e embalagem. Guarde desenho assinado, amostra física, fotos, método de medição e arte. Uma pesagem aprovada não libera furo agressivo; pintura bonita não libera peça fora de massa.\n\nNo lote, distribua amostras por pesos, horários de produção, cavidades e caixas. Registre resultados individuais e retenha revisões misturadas. Mudanças de material, modelo, canais, usinagem, pintura, arte ou fornecedor de processo exigem análise e eventual nova aprovação.\n\nDefina também como uma não conformidade será isolada. Uma unidade fora do critério não deve ser devolvida à caixa sem identificação, nem usada para ajustar a média do lote. Registre o valor individual, o método, o instrumento e a localização da caixa; depois amplie a amostragem de forma planejada para entender se o desvio é isolado ou ligado a uma cavidade, horário ou operação.\n\nNa reposição, compare o novo lote com desenho, amostra e arte vigentes, não apenas com a memória da equipe. Se um modelo foi reparado, um canal foi alterado ou uma superfície passou a ser usinada, confirme quais características podem mudar. Essa revisão mantém a compra repetida rastreável sem inventar que duas corridas de fundição serão visualmente idênticas."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de controle do processo",
+      "columns": ["Etapa", "Definir antes do pedido", "Evidência"],
+      "rows": [
+        ["Desenho e modelo", "Geometria, saída e arte", "Desenho e ferramental identificados"],
+        ["Molde e metal", "Rota e base de material", "Lote e primeira peça"],
+        ["Vazamento", "Defeitos visíveis e destino", "Registro de fundição"],
+        ["Rebarbação", "Bordas e áreas protegidas", "Amostra de superfície"],
+        ["Usinagem", "Referências, limites e sobremetal", "Relatório dimensional"],
+        ["Liberação", "Pintura, marca, embalagem e amostra", "Amostra assinada e inspeção"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dez pontos para aprovar a produção",
+      "items": ["Listar pesos e revisões.", "Definir material ou propriedade.", "Identificar modelo, cavidade e arte.", "Separar superfícies brutas e usinadas.", "Definir rebarba e arestas.", "Medir massa e geometria separadamente.", "Aprovar acabamento e marcação.", "Amostrar tempos, cavidades e caixas.", "Proteger furo, aro e faces.", "Reaprovar mudanças relevantes."]
+    },
+    "faqHeading": "Dúvidas de Compradores",
+    "faq": [
+      ["Toda anilha de ferro é fundida em areia?", "A fundição em areia é comum, mas o comprador deve confirmar a rota do modelo cotado. O nome do material não comprova o processo."],
+      ["Anilha usinada é sempre mais precisa no peso?", "Não. Usinagem controla superfícies escolhidas e remove material; a massa depende do alvo da peça bruta, do ajuste, da medição e da tolerância contratada."],
+      ["O que é a linha ao redor da anilha?", "Pode ser a linha de partição do molde. Ela deve seguir a amostra e não pode deixar rebarba perigosa ou atrapalhar empilhamento."],
+      ["A pintura pode esconder defeitos?", "Ela melhora a superfície, mas não deve ocultar trinca, falta de metal, aresta insegura ou geometria incorreta."],
+      ["Quando pedir nova amostra?", "Revise mudanças de material, modelo, cavidade, canais, usinagem, acabamento, arte ou fonte produtiva e repita as aprovações afetadas."]
+    ],
+    "linkHeading": "Continue a especificação",
+    "linkLabels": ["Ver anilha de ferro fundido", "Explorar anilhas profissionais", "Comparar materiais", "Escolher acabamento de ferro", "Definir tolerância de peso", "Planejar inspeção pré-embarque", "Enviar briefing de fabricação"],
+    "imageAlt": "Anilhas sem marca em estágios de peça bruta, limpa e acabada sobre bancada neutra de inspeção",
+    "imageCaption": "Imagem conceitual das etapas; não representa pedido real, lote de produção ou resultado de ensaio.",
+    "cta": ["Transforme o desenho em processo controlado", "Envie gama, desenhos, material, acabamento, Custom Logo, embalagem Private Label e inspeção. A ChinaFreeWeight revisará a rota OEM, ODM e Bulk Supply do modelo.", "Falar sobre o projeto"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/como-se-fabrican-discos-hierro-fundido",
+    "title": "Cómo se Fabrican los Discos de Hierro Fundido",
+    "description": "Proceso B2B de discos de hierro fundido: plano, molde de arena, colada, desbarbado, mecanizado, acabado e inspección del lote.",
+    "h1": "¿Cómo se Fabrica un Disco de Hierro Fundido?",
+    "keyword": "fabricación de discos de hierro fundido",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Proceso de fabricación para compradores",
+    "sections": [
+      {
+        "heading": "Respuesta breve: la colada no es todo el proceso",
+        "text": "Un disco de hierro fundido parte de un plano y un modelo aprobados. La ruta habitual continúa con preparación del molde, fusión y control del metal, vertido, enfriamiento, desmoldeo, corte de canales, desbarbado, limpieza, mecanizado definido, pesaje, verificación dimensional, acabado, marcado y embalaje. Cada diseño y fundición puede usar una secuencia distinta.\n\nChinaFreeWeight es socio de fábrica para programas OEM, ODM, Custom Logo, Private Label y Bulk Supply. Relacionamos el modelo aprobado con muestras, revisiones e inspección final, y aclaramos qué operaciones corresponden a la ruta seleccionada. Una foto del vertido no demuestra por sí sola la calidad de un pedido completo."
+      },
+      {
+        "heading": "El plano debe cerrar geometría, masa y marca",
+        "text": "Diámetro exterior, agujero, espesor, cubo, aro, agarres, letras, ángulo de salida, línea de partición y sobremetal condicionan el modelo. La masa nominal se planifica considerando densidad y operaciones posteriores; no debe ajustarse dejando rebaba al azar ni acumulando pintura.\n\nApruebe pesos ligeros, medios y pesados. La sección, la cavidad y el enfriamiento pueden cambiar dentro de la gama. Registre identificación de modelo, cavidad, arte y superficies que quedarán en bruto, rectificadas o mecanizadas. Ese historial protege una reposición cuando se repare o sustituya el utillaje."
+      },
+      {
+        "heading": "Moldeo y preparación del hierro son controles distintos",
+        "text": "En la fundición en arena, el modelo genera la cavidad y los canales guían el metal. La American Foundry Society explica el uso extendido de arena para moldes y machos; la US EPA separa preparación de moldes, fusión, vertido, enfriamiento, desmoldeo y acabado. Son referencias de proceso, no certificados del disco.\n\nEl comprador debe acordar el grado de hierro o la base de propiedades y la evidencia necesaria. ISO 185 clasifica fundiciones grises por opciones de resistencia o dureza, pero no prescribe un grado universal para discos. El plano y el contrato deben vincular material, lote y controles."
+      },
+      {
+        "heading": "Vertido y solidificación dejan señales que no debe tapar el acabado",
+        "text": "El estado del metal, del molde, del llenado y del enfriamiento influye en la forma obtenida. Falta de llenado, inclusiones, indicios de contracción, desplazamientos o grietas visibles requieren criterios de aceptación y disposición. Masilla o recubrimiento grueso no deben ocultar un defecto funcional.\n\nEvite copiar temperaturas, tiempos o límites genéricos. Las instalaciones trabajan con equipos y planes distintos. Pida registro de primera pieza, identidad de lote y puntos de control, y seleccione muestras de varios momentos de la colada y no solo una pieza de exposición."
+      },
+      {
+        "heading": "Desmoldeo, desbarbado y mecanizado resuelven problemas diferentes",
+        "text": "Tras enfriar, se rompe el molde, se elimina arena y se cortan canales y mazarotas. El granallado limpia residuos y el esmerilado retira rebabas. El trabajo debe dejar bordes manejables sin rebajar aro, agarre o marca. Una superficie bonita no confirma un agujero correcto.\n\nEl mecanizado solo se aplica donde lo exige el diseño: agujero, cara de cubo, aro u otras referencias. ISO 8062-3 aporta vocabulario para tolerancias de piezas moldeadas y sobremetales; comprador y fabricante siguen teniendo que definir cotas, referencias, método y límites del modelo concreto."
+      },
+      {
+        "heading": "Acabado, identificación y embalaje completan el producto",
+        "text": "Hierro visto, pintura, polvo u otro sistema necesitan preparación y una muestra visual. El recubrimiento no corrige masa, grietas, agujeros ni aristas. Controle su acumulación en zonas de ajuste y compruebe que la denominación siga siendo legible.\n\nEl Custom Logo puede ser fundido, rellenado, impreso o aplicado mediante un método aprobado. Revise relieve, posición, contraste y contacto entre discos. La caja Private Label debe identificar peso y unidad, proteger caras y agujero y no presentar una ilustración editorial como si fuera evidencia de un cliente real."
+      },
+      {
+        "heading": "La liberación del lote une evidencia de proceso y producto",
+        "text": "En la muestra, compruebe por separado identidad, masa, diámetro, espesor, agujero y ajuste, apoyo funcional, bordes, marcado, acabado y embalaje. Conserve plano firmado, referencia física, fotografías, método de medida y arte. Un peso correcto no libera un agujero abrasivo ni un acabado limpio libera una pieza fuera de masa.\n\nEn producción, distribuya las muestras por denominaciones, periodos, cavidades y cajas. Registre cada resultado y retenga revisiones mezcladas. Cambios de material, modelo, alimentación, mecanizado, acabado, arte o subcontratista deben revisarse antes de continuar el Bulk Supply.\n\nDefina cómo se aislará una no conformidad. Una unidad fuera de criterio no debe volver a la caja sin identificación ni utilizarse para compensar el promedio del lote. Registre el valor individual, el método, el instrumento y la ubicación de la caja; después amplíe el muestreo de forma planificada para saber si el desvío es aislado o se relaciona con una cavidad, un periodo o una operación.\n\nEn una reposición, compare el lote nuevo con el plano, la muestra y el arte vigentes, no solo con la memoria del equipo. Si se reparó un modelo, se cambió un canal o una superficie pasó a mecanizarse, identifique las características afectadas. Así se conserva la trazabilidad sin prometer que dos campañas de fundición tendrán una apariencia idéntica.\n\nConserve la decisión final junto con la revisión utilizada. Separar aceptación, retrabajo y rechazo evita que una fotografía favorable sustituya los resultados individuales y ayuda a comparar el siguiente pedido con el mismo punto de partida."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de control de fabricación",
+      "columns": ["Etapa", "Qué definir", "Evidencia"],
+      "rows": [
+        ["Plano y modelo", "Geometría, salida y arte", "Plano y utillaje identificados"],
+        ["Molde y metal", "Ruta y base material", "Lote y primera pieza"],
+        ["Colada", "Defectos visibles y disposición", "Registro de fundición"],
+        ["Desbarbado", "Bordes y zonas protegidas", "Muestra aprobada"],
+        ["Mecanizado", "Referencias, límites y sobremetal", "Informe dimensional"],
+        ["Liberación", "Acabado, marca, embalaje y muestra", "Referencia firmada e inspección"]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez verificaciones antes de producir",
+      "items": ["Listar denominaciones y revisiones.", "Definir material o propiedades.", "Identificar modelo, cavidad y arte.", "Separar superficies brutas y mecanizadas.", "Acordar rebabas y aristas.", "Medir masa y geometría por separado.", "Aprobar acabado y marcas.", "Muestrear periodos, cavidades y cajas.", "Proteger agujero, aro y caras.", "Reaprobar cambios de proceso."]
+    },
+    "faqHeading": "Preguntas de Compradores",
+    "faq": [
+      ["¿Todos los discos de hierro se moldean en arena?", "Es una ruta común, pero hay que confirmar el proceso del modelo cotizado. El nombre del material no demuestra cómo se fabricó."],
+      ["¿Un disco mecanizado pesa siempre con más precisión?", "No. El mecanizado controla geometría elegida y quita material; la masa depende del objetivo de colada, la corrección y la tolerancia escrita."],
+      ["¿Qué es la línea alrededor del disco?", "Puede ser la línea de partición del molde. Debe coincidir con la muestra y no dejar rebaba peligrosa ni interferir al apilar."],
+      ["¿La pintura puede ocultar defectos?", "Puede uniformar el aspecto, pero no debe esconder grietas, falta de llenado, bordes inseguros o geometría incorrecta."],
+      ["¿Cuándo se necesita otra muestra?", "Revise cambios de material, modelo, cavidad, canales, mecanizado, acabado, arte o fuente de producción y repita las aprobaciones afectadas."]
+    ],
+    "linkHeading": "Siga definiendo el disco",
+    "linkLabels": ["Ver el disco de hierro fundido", "Explorar discos profesionales", "Comparar materiales", "Elegir acabado de hierro", "Definir tolerancia de peso", "Planificar inspección preembarque", "Enviar la ficha de fabricación"],
+    "imageAlt": "Discos sin marca en etapas de fundición bruta, limpieza y acabado sobre una mesa neutra de inspección",
+    "imageCaption": "Escena conceptual del proceso; no representa un pedido, lote ni ensayo real.",
+    "cta": ["Convierta el plano en un proceso verificable", "Comparta gama, planos, material, acabado, Custom Logo, embalaje Private Label e inspección. ChinaFreeWeight revisará la ruta OEM, ODM y Bulk Supply del modelo.", "Consultar el proyecto"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/fabrication-disques-fonte",
+    "title": "Fabrication des Disques en Fonte : Guide Acheteur",
+    "description": "Du plan au moule sable, puis décochage, ébarbage, usinage, finition et contrôle d'un lot de disques en fonte pour achat professionnel.",
+    "h1": "Comment Fabrique-t-on un Disque de Musculation en Fonte ?",
+    "keyword": "fabrication disques de musculation en fonte",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Fabrication et achat professionnel",
+    "sections": [
+      {
+        "heading": "Réponse directe : la coulée n'est qu'un maillon",
+        "text": "Un disque en fonte part d'un plan et d'un modèle validés. Viennent ensuite la préparation du moule, la fusion et le contrôle du métal, la coulée, le refroidissement, le décochage, la coupe des attaques, l'ébarbage, le nettoyage, l'usinage prévu, la pesée, le contrôle dimensionnel, la finition, le marquage et l'emballage. Le parcours exact dépend du modèle et de la fonderie.\n\nChinaFreeWeight accompagne en tant qu'usine les programmes OEM, ODM, Custom Logo, Private Label et Bulk Supply. Nous relions dessin, échantillon et contrôle final au produit retenu et précisons les opérations de la filière choisie. Une image de métal en fusion ne constitue pas à elle seule une preuve de conformité du lot."
+      },
+      {
+        "heading": "Le plan doit fixer la géométrie, la masse et l'identité",
+        "text": "Diamètre extérieur, alésage, épaisseur, moyeu, jante, poignées, lettres, dépouille, plan de joint et surépaisseur d'usinage influencent le modèle. La masse nominale s'anticipe avec la matière et les opérations finales ; une bavure aléatoire ou une peinture épaisse ne sont pas des moyens de réglage.\n\nValidez plusieurs valeurs de la gamme. Un disque léger peut avoir une section différente, tandis qu'une forte masse modifie remplissage et refroidissement. Consignez le modèle, l'empreinte, l'artwork et les faces laissées brutes, meulées ou usinées afin de maîtriser une réparation d'outillage lors d'une commande suivante."
+      },
+      {
+        "heading": "Le moule en sable et le métal demandent deux plans de contrôle",
+        "text": "En moulage sable, le modèle crée l'empreinte et le système d'alimentation conduit le métal. L'American Foundry Society décrit l'emploi courant du sable pour moules et noyaux ; l'US EPA distingue moulage, fusion, coulée, refroidissement, décochage et finition. Ces références décrivent un procédé, sans certifier un disque.\n\nL'acheteur doit convenir de la nuance ou de la base de propriétés et des preuves attendues. ISO 185 classe les fontes grises selon des options de résistance ou de dureté, mais ne choisit pas une nuance universelle pour la musculation. La matière, le lot et les vérifications doivent être liés au plan."
+      },
+      {
+        "heading": "La coulée et la solidification laissent des indices à traiter",
+        "text": "L'état du bain, du moule, du remplissage et du refroidissement agit sur la pièce. Manque de matière, inclusion visible, indice de retrait, déplacement ou fissure exigent un critère et une décision. Mastic et revêtement ne doivent pas masquer un défaut qui touche l'usage ou la sécurité.\n\nN'imposez pas une température ou une durée générique. Les moyens de production diffèrent. Demandez l'identification du lot, le relevé de première pièce et les points de contrôle, puis prélevez à plusieurs moments au lieu de juger un exemplaire de présentation."
+      },
+      {
+        "heading": "Décochage, ébarbage et usinage n'ont pas le même objectif",
+        "text": "Après refroidissement, le sable est retiré et les attaques, masselottes et bavures sont coupées ou meulées. Le grenaillage peut nettoyer la peau de fonte. L'ébarbage doit supprimer les arêtes agressives sans entamer une jante, une prise ou un marquage fonctionnel. Une belle surface ne garantit pas l'alésage.\n\nL'usinage concerne les zones désignées par le plan : alésage, face de moyeu, jante ou autre référence. ISO 8062-3 apporte un vocabulaire de tolérances de pièces moulées et de surépaisseurs ; les valeurs et méthodes du disque restent à convenir."
+      },
+      {
+        "heading": "Finition, marquage et emballage transforment la fonte en produit",
+        "text": "Fonte brute, peinture liquide, poudre ou autre finition nécessitent une préparation et une référence d'aspect. La couche ne corrige ni masse, ni fissure, ni alésage, ni arête. Limitez les surépaisseurs dans les zones d'ajustement et vérifiez la lisibilité de la valeur.\n\nLe Custom Logo peut être moulé, rempli, imprimé ou appliqué selon la méthode validée. Contrôlez relief, emplacement, contraste et contact dans la pile. L'emballage Private Label doit identifier valeur et unité, protéger faces et alésage et ne jamais présenter une illustration comme un projet client réel."
+      },
+      {
+        "heading": "La libération du lot relie procédé, mesures et traçabilité",
+        "text": "Sur l'échantillon, contrôlez séparément identité, masse, diamètre, épaisseur, alésage et ajustement, appui fonctionnel, bords, marquage, finition et emballage. Conservez plan signé, pièce de référence, photos, méthode de mesure et artwork. Une masse conforme ne libère pas un alésage rugueux.\n\nEn série, répartissez les prélèvements entre valeurs, périodes, empreintes et cartons. Notez chaque résultat et bloquez les révisions mélangées. Une modification de matière, modèle, alimentation, usinage, finition, artwork ou sous-traitant exige une revue avant Bulk Supply."
+      }
+    ],
+    "table": {
+      "heading": "Matrice de maîtrise du procédé",
+      "columns": ["Étape", "À définir", "Preuve à conserver"],
+      "rows": [
+        ["Plan et modèle", "Géométrie, dépouille, artwork", "Plan et outil identifiés"],
+        ["Moule et métal", "Filière et base matière", "Lot et première pièce"],
+        ["Coulée", "Défauts visibles et décision", "Rapport de fonderie"],
+        ["Ébarbage", "Bords et zones protégées", "Référence de surface"],
+        ["Usinage", "Références, limites, surépaisseur", "Rapport dimensionnel"],
+        ["Libération", "Finition, marque, emballage, échantillon", "Référence signée et contrôle"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dix contrôles avant lancement",
+      "items": ["Lister valeurs et révisions.", "Définir matière ou propriétés.", "Identifier modèle, empreinte et artwork.", "Séparer surfaces brutes et usinées.", "Fixer bavures et arêtes.", "Mesurer masse et géométrie séparément.", "Valider finition et marquage.", "Échantillonner périodes, empreintes et cartons.", "Protéger alésage, jante et faces.", "Revalider les changements significatifs."]
+    },
+    "faqHeading": "Questions des Acheteurs",
+    "faq": [
+      ["Tous les disques en fonte sont-ils moulés au sable ?", "Le moulage sable est courant, mais il faut confirmer la filière du modèle coté. Le nom du matériau ne prouve pas le procédé."],
+      ["Un disque usiné est-il toujours plus précis en masse ?", "Non. L'usinage maîtrise des surfaces et retire du métal ; la masse dépend aussi de la cible brute, de la correction, de la mesure et de la tolérance."],
+      ["Pourquoi voit-on une ligne autour du disque ?", "Il peut s'agir du plan de joint du moule. Sa finition doit suivre l'échantillon sans arête dangereuse ni gêne à l'empilage."],
+      ["La peinture peut-elle cacher un défaut ?", "Elle uniformise l'aspect mais ne doit pas dissimuler fissure, manque de matière, bord dangereux ou mauvaise géométrie."],
+      ["Quand demander un nouvel échantillon ?", "Examinez tout changement de matière, modèle, empreinte, alimentation, usinage, finition, artwork ou source et revalidez les points touchés."]
+    ],
+    "linkHeading": "Poursuivre la spécification",
+    "linkLabels": ["Voir le disque en fonte", "Parcourir les disques professionnels", "Comparer les matières", "Choisir une finition fonte", "Définir l'acceptation de masse", "Préparer le contrôle avant expédition", "Envoyer le dossier de fabrication"],
+    "imageAlt": "Disques sans marque présentés comme pièce brute, nettoyée puis finie sur une table de contrôle neutre",
+    "imageCaption": "Illustration conceptuelle des étapes ; ce n'est ni une commande client, ni un lot, ni un résultat d'essai réel.",
+    "cta": ["Relier le plan à un procédé contrôlable", "Envoyez gamme, plans, matière, finition, Custom Logo, emballage Private Label et contrôle. ChinaFreeWeight examinera la filière OEM, ODM et Bulk Supply du modèle.", "Discuter du projet"]
+  }
+]

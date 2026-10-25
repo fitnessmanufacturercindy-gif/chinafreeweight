@@ -1,0 +1,188 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/weight-plate-markings-readability-durability-guide",
+    "title": "Weight Plate Markings: Readability & Durability Guide",
+    "description": "Specify readable, durable weight markings for Olympic and commercial plates: units, relief, paint fill, sample approval, wear evidence and lot inspection.",
+    "h1": "How to Specify Readable, Durable Weight Plate Markings",
+    "keyword": "weight plate markings readability durability",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Weight identification, marking method and bulk acceptance",
+    "sections": [
+      {
+        "heading": "Quick answer: approve the denomination as a working feature",
+        "text": "A weight mark is not complete because the artwork file looks correct. Define the denomination, unit, character height and stroke, relief or recess, contrast, orientation, clear space and viewing condition on the finished plate. Approve light, middle and heavy models because available face area and mold geometry can change across the range.\n\nChinaFreeWeight can review OEM, ODM, Custom Logo, Private Label and Bulk Supply projects as a factory. The marking method, tooling, color, packaging and inspection plan remain model-specific and must be confirmed on a production-representative sample."
+      },
+      {
+        "heading": "Put weight and unit ahead of decorative branding",
+        "text": "Users need to identify the load quickly on a rack, storage peg or bar. Build a hierarchy in which the denomination and KG or LB unit remain unambiguous before the logo, series name or decorative ring. A dual-unit layout needs enough separation to prevent one value being read with the wrong unit.\n\nCurrent IWF and IPF rules require clear weight identification within their competition scopes, but they do not create a universal font, contrast ratio or life requirement for every commercial plate. A buyer should cite the applicable rule only when purchasing for that defined competition context."
+      },
+      {
+        "heading": "Choose the marking process with the plate construction",
+        "text": "Cast iron may use integral raised or recessed characters with a coating or paint fill. Rubber and urethane can use molded relief, recessed fill, inlaid elements or another model-specific process. Printed marks may allow flexible graphics but need an agreed substrate, surface preparation, cure and edge condition.\n\nDo not rank methods by name alone. A raised character can wear at proud edges; a recess can collect dirt; paint can lose contrast; an insert can loosen if its construction is unsuitable. Record the actual material, geometry and process instead of assuming that molded, printed or engraved always means durable."
+      },
+      {
+        "heading": "Approve the whole SKU family under realistic viewing",
+        "text": "Review the smallest face, deepest hub, grip openings and any plate where the artwork must move. Check both faces, orientation around the bore, spacing from the rim and whether a storage peg or neighbouring plate hides the denomination. View samples upright, flat, racked and under the lighting expected in the facility.\n\nFreeze a vector master, drawing revision, color reference and physical sample. Photograph the approved plate from fixed distances, but do not use photographs as the only color or relief standard. If the range mixes KG, LB or dual marks, use a controlled SKU matrix so packaging and replenishment cannot silently exchange variants."
+      },
+      {
+        "heading": "Define durability evidence without inventing a lifetime",
+        "text": "First describe the real contact: plate-to-plate rubbing, storage pegs, floors, hands, approved cleaners, transport dividers and sunlight where relevant. Then choose a comparison method and acceptance observation tied to the actual marking system. Record precondition, contact medium, force or load, motion, duration, cleaning agent and post-test viewing.\n\nASTM D4060 is an abrasion method for organic coatings, and ASTM D3359 addresses tape adhesion of coating films to metallic substrates within stated limitations. Neither supplies a universal free-weight cycle count or pass grade. Use a method only when its specimen and scope fit the offered construction, and keep the agreed limit in the buyer specification."
+      },
+      {
+        "heading": "Inspect production and preserve reorder consistency",
+        "text": "At first-piece and final inspection, compare denomination, unit, spelling, position, orientation, fill coverage, edge definition, relief condition, color and contrast with the approved references. Sample across weights, mold cavities, production periods and cartons. Reconcile the physical plate with carton labels and the purchase-order SKU.\n\nQuarantine mixed units, unreadable characters, transferred paint, loose inlays or unapproved artwork. Changes to mold insert, pigment, paint, coating, cure, supplier, relief depth or cleaning instruction should trigger documented review. Keep a retained sample and revision record for later private-label reorders."
+      },
+      {
+        "heading": "Send a marking brief that factories can quote consistently",
+        "text": "List plate family, material, weight range, quantities by SKU, market, KG or LB system, required competition context if any, artwork, hierarchy, color, relief or recess, viewing condition, durability method, sample plan, packaging and acceptance rules. Separate denomination requirements from the brand logo.\n\nAsk every supplier to state feasible processes, tooling boundary, sample route, inspection evidence and change-notification responsibilities. Price, order minimum and schedule depend on the actual range and method; confirm them for the project rather than treating one generic figure as a factory promise."
+      }
+    ],
+    "table": {
+      "heading": "Weight-marking specification matrix",
+      "columns": ["Decision field", "Define before quotation", "Approval evidence"],
+      "rows": [
+        ["Information", "Denomination, KG/LB and hierarchy", "Approved artwork"],
+        ["Geometry", "Character size, stroke, depth and clear space", "Drawing and sample"],
+        ["Process", "Molded, recessed, filled, printed or inlaid", "Named construction"],
+        ["Contrast", "Body, mark, gloss and lighting condition", "Physical reference"],
+        ["Range", "Light, middle, heavy and geometry changes", "SKU matrix"],
+        ["Wear", "Contact, method and acceptance observation", "Controlled comparison"],
+        ["Packing", "Face protection, dividers and SKU label", "Packed sample"],
+        ["Lot control", "Sampling, rejection and change notice", "Inspection record"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "RFQ and sample-approval checklist",
+      "items": ["Destination market and unit system", "Plate material and construction", "Weight range and quantity by SKU", "Denomination and unit hierarchy", "Character geometry and location", "Marking process and color reference", "Viewing and lighting condition", "Wear and cleaning comparison", "Packaging face protection", "Sampling and change notification"]
+    },
+    "faq": [
+      ["Are raised markings always more durable than paint fill?", "No. Durability depends on material, relief geometry, coating or fill, contact and the chosen comparison method."],
+      ["Should a plate show KG, LB or both?", "Use the unit system expected by the market. A dual-unit layout must keep both values and units unmistakable."],
+      ["Does competition color coding make a plate approved?", "No. Color and markings are only parts of the applicable rules; approval and every other requirement remain separate."],
+      ["Can one artwork size be used across every weight?", "Not safely by assumption. Review the smallest face and every geometry change, then approve a range matrix."],
+      ["How should paint-fill durability be tested?", "Define the actual substrate, preparation, contact, cleaner or abrasive, exposure and acceptance observation; no universal cycle count applies."],
+      ["What should receiving inspection check?", "Check denomination, unit, position, orientation, contrast, fill, edge quality, damage, carton identity and agreement with the approved revision."],
+      ["Can the factory add a custom logo beside the weight mark?", "Yes on suitable models after the information hierarchy, artwork, tooling, sample, packaging and inspection plan are approved."]
+    ],
+    "faqHeading": "Weight plate marking FAQ",
+    "linkHeading": "Related plate, branding and inspection guides",
+    "linkLabels": ["Compare plate materials", "Plan KG and LB ranges", "Approve custom colors", "Choose a custom-logo method", "Specify cast-iron finishes", "Plan export packaging", "Plan pre-shipment inspection", "Plan OEM and private label", "Send the plate brief"],
+    "imageCopy": [
+      ["Unbranded iron and rubber Olympic plates with clear 45 LB and 20 KG denomination marks", "Compare unit, hierarchy, relief and contrast on the finished product."],
+      ["Unbranded weight plates comparing high-contrast and molded 20 KG markings", "Approve readability on the actual material and geometry."],
+      ["Unbranded plates with raised, recessed and filled 20 KG markings", "A range record should name the process and accepted appearance." ]
+    ],
+    "cta": ["Turn plate markings into an inspectable specification", "Send the plate range, market, unit system, artwork, marking method, durability expectations, packaging and quantities for a model-specific review.", "Request a weight-plate marking review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/marcacao-peso-anilhas-legibilidade-durabilidade",
+    "title": "Marcação de Peso em Anilhas: Leitura e Durabilidade",
+    "description": "Defina números e unidades legíveis em anilhas, escolha relevo ou pintura, aprove amostras e controle desgaste, embalagem e recebimento em compras B2B.",
+    "h1": "Como Especificar Marcação de Peso Legível e Durável em Anilhas",
+    "keyword": "marcação de peso em anilhas",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Identificação do peso, processo de marcação e inspeção do lote",
+    "sections": [
+      {
+        "heading": "Resposta direta: trate o número como requisito de uso",
+        "text": "Não aprove a marcação apenas no arquivo de arte. Defina valor, unidade, tamanho, espessura do traço, alto ou baixo-relevo, contraste, posição, orientação e condição de leitura na anilha pronta. Aprove pesos leves, médios e pesados, pois a área disponível muda dentro da linha.\n\nComo fábrica, a ChinaFreeWeight avalia projetos OEM, ODM, com logotipo personalizado, marca própria e fornecimento em volume. Método, ferramental, cor, embalagem e inspeção precisam ser confirmados para o modelo real e para uma amostra equivalente à produção.\n\nInclua na aprovação quem fará a leitura e em qual distância: operador de loja, usuário da academia, separador de estoque ou equipe de recebimento. Essa descrição evita que uma arte bonita em tela seja aceita mesmo quando o número desaparece sob reflexo, fica escondido no suporte ou se confunde com outra informação da face."
+      },
+      {
+        "heading": "Faça o usuário enxergar peso e unidade antes da marca",
+        "text": "Em academia, loja ou depósito, o usuário precisa reconhecer a carga no suporte, no pino ou na barra. Dê prioridade visual ao valor e a KG ou LB; depois organize logotipo, nome de linha e elementos decorativos. Em marcação dupla, separe os dois sistemas para evitar leitura cruzada.\n\nAs regras atuais da IWF e da IPF exigem identificação clara do peso em seus próprios contextos competitivos. Elas não definem uma tipografia, contraste ou vida útil universal para toda anilha comercial. Cite a federação somente quando o produto e o uso realmente estiverem nesse escopo.\n\nPara uma linha vendida no Brasil, decida também como o valor aparecerá na etiqueta, na caixa e no cadastro do distribuidor. O mesmo nome, unidade e ordem das informações reduzem troca de SKU e ajudam a comparar a peça física com o pedido, sem transformar a marcação do produto em promessa de homologação esportiva."
+      },
+      {
+        "heading": "Escolha o processo de acordo com material e formato",
+        "text": "Ferro fundido pode receber letras integradas, rebaixadas, pintura de preenchimento ou acabamento sobre o relevo. Borracha e poliuretano podem usar marca moldada, cavidade preenchida ou componente específico. Impressão direta exige confirmar substrato, preparo, cura e proteção das bordas.\n\nNenhum nome de processo garante durabilidade sozinho. Relevo exposto pode sofrer atrito, cavidade pode acumular sujeira, tinta pode perder contraste e aplique pode se soltar. Registre construção, profundidade, material e acabamento em vez de aceitar apenas a palavra moldado ou impresso.\n\nPeça ao fornecedor uma seção ou detalhe do método proposto quando a aparência não explicar a construção. A comparação deve considerar a preparação antes da pintura, a transição nas bordas, a possibilidade de retoque e a proximidade com áreas que encostam em outra anilha, no piso ou na divisória da embalagem."
+      },
+      {
+        "heading": "Aprove a família completa na iluminação do comprador",
+        "text": "Confira a menor anilha, o cubo mais alto, versões com pegada e qualquer SKU em que a arte mude de posição. Observe as duas faces, o alinhamento com o furo e a leitura quando a peça está deitada, vertical, no suporte e próxima de outras anilhas.\n\nTrave arquivo vetorial, revisão de desenho, referência física de cor e amostra. Fotografia ajuda no registro, mas não substitui relevo e cor reais. Para linhas KG, LB ou duplas, use uma matriz de SKU ligada a caixa, etiqueta e reposição no mercado brasileiro.\n\nNa amostra, registre qual face foi aprovada, a orientação do texto e o espaço livre ao redor do número. Se um peso exigir reposicionamento, trate-o como variação controlada, não como ajuste informal da produção. Assim o comprador consegue verificar a série sem exigir que geometrias diferentes pareçam idênticas."
+      },
+      {
+        "heading": "Teste desgaste sem prometer vida útil inventada",
+        "text": "Descreva os contatos prováveis: atrito entre anilhas, pino do suporte, mãos, piso, divisórias, limpador aprovado e luz quando relevante. Só depois defina método, preparação e condição de aceitação para o sistema de marcação escolhido.\n\nASTM D4060 trata de abrasão em revestimentos orgânicos, enquanto ASTM D3359 avalia adesão de filmes em substrato metálico dentro de limitações próprias. Nenhuma fornece quantidade universal de ciclos ou nota automática para anilhas. O método precisa caber na construção e o limite deve ser acordado entre comprador e fábrica.\n\nUse uma amostra sem exposição e outra submetida ao procedimento para comparar perda de contraste, falhas de preenchimento, lascas e legibilidade. Registre iluminação e distância da avaliação. O objetivo é uma decisão reproduzível para aquela construção, não converter um ensaio de revestimento em previsão automática de anos de uso."
+      },
+      {
+        "heading": "Inspecione produção, caixas e reposições",
+        "text": "Compare valor, unidade, grafia, posição, orientação, preenchimento, bordas, relevo e contraste com as referências aprovadas. Amostre pesos, cavidades, horários de produção e caixas diferentes. Confira se a anilha física corresponde ao SKU e à etiqueta externa.\n\nIsole unidade misturada, tinta transferida, caractere incompleto, aplique solto ou arte não aprovada. Mudança de molde, pigmento, tinta, cura, fornecedor ou instrução de limpeza exige avaliação documentada. Guarde amostra e revisão para o próximo lote de marca própria."
+      },
+      {
+        "heading": "Envie uma RFQ comparável para a fábrica",
+        "text": "Informe família, material, pesos, quantidades por SKU, mercado, KG ou LB, eventual escopo esportivo, arte, hierarquia, cor, relevo, condição de leitura, método de desgaste, amostragem, embalagem e regra de aceitação. Separe o número do peso do logotipo.\n\nPeça que cada fornecedor declare processo viável, ferramental, rota de amostra, evidência e controle de mudanças. Mínimo, preço e prazo dependem da linha e da personalização efetivas; devem ser confirmados no orçamento do projeto."
+      }
+    ],
+    "table": {"heading": "Matriz da marcação de peso", "columns": ["Campo", "Definir", "Evidência"], "rows": [["Informação", "Valor, KG/LB e hierarquia", "Arte aprovada"], ["Geometria", "Tamanho, traço, profundidade e respiro", "Desenho e amostra"], ["Processo", "Moldado, rebaixado, pintado ou aplicado", "Construção nomeada"], ["Contraste", "Cor, brilho e iluminação", "Referência física"], ["Linha", "Pesos e mudanças de formato", "Matriz de SKU"], ["Desgaste", "Contato, método e aceitação", "Comparação controlada"], ["Embalagem", "Proteção de face e etiqueta", "Amostra embalada"], ["Lote", "Amostragem e mudança", "Relatório"]]},
+    "tablePosition": 3,
+    "checklist": {"heading": "Checklist de cotação e amostra", "items": ["Mercado e sistema de unidade", "Material e construção", "Pesos e quantidades por SKU", "Hierarquia de valor e unidade", "Geometria e posição", "Processo e referência de cor", "Condição de leitura", "Desgaste e limpeza", "Proteção de embalagem", "Amostragem e mudança"]},
+    "faq": [["Alto-relevo sempre dura mais que pintura?", "Não. Resultado depende do material, geometria, acabamento, contato e método de comparação."], ["A linha deve usar KG, LB ou ambos?", "Use o sistema do mercado; em versão dupla, separe claramente valores e unidades."], ["Cor de competição comprova aprovação?", "Não. Cor e marcação são apenas parte das regras aplicáveis."], ["Posso usar a mesma arte em todos os pesos?", "Somente após revisar a menor face e cada mudança de molde ou formato."], ["Como comparar tinta de preenchimento?", "Defina substrato, preparo, contato, limpador ou abrasivo, exposição e critério; não existe ciclo universal."], ["O que conferir no recebimento?", "Valor, unidade, posição, contraste, preenchimento, dano, caixa e revisão aprovada."], ["A fábrica pode incluir logotipo?", "Sim, em modelos adequados, depois de aprovar hierarquia, arte, ferramental, amostra e controle."]],
+    "faqHeading": "Perguntas sobre marcação em anilhas",
+    "linkHeading": "Guias relacionados de anilhas e personalização",
+    "linkLabels": ["Comparar materiais", "Planejar linhas KG e LB", "Aprovar cores", "Escolher aplicação de logotipo", "Especificar acabamento em ferro", "Planejar embalagem", "Planejar inspeção", "Planejar OEM e marca própria", "Enviar o projeto"],
+    "imageCopy": [["Duas anilhas olímpicas pretas sem marca comparando 20 KG preenchido e moldado", "Compare contraste e processo na peça acabada."], ["Anilhas sem marca com 20 KG em relevo recebidas em ambiente iluminado", "A leitura deve funcionar no recebimento e no armazenamento."], ["Anilhas sem marca com marcações 20 KG em processos diferentes", "Aprove uma matriz de aparência para toda a linha."]],
+    "cta": ["Transforme a marcação em requisito verificável", "Envie linha, mercado, unidades, arte, processo, expectativa de desgaste, embalagem e quantidades para análise do modelo.", "Solicitar análise de marcação"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/marcado-peso-discos-legibilidad-durabilidad",
+    "title": "Marcado de Peso en Discos: Legibilidad y Durabilidad",
+    "description": "Especifique números y unidades legibles en discos, compare relieve y pintura, apruebe muestras y controle desgaste, embalaje e inspección de lote.",
+    "h1": "Cómo Especificar un Marcado de Peso Legible y Duradero",
+    "keyword": "marcado de peso en discos de gimnasio",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Identificación del peso, método de marcado y control del lote",
+    "sections": [
+      {"heading": "Respuesta directa: el marcado debe aprobarse en el disco terminado", "text": "El archivo gráfico no demuestra que el peso pueda leerse en uso. Defina valor, unidad, tamaño, trazo, relieve o hueco, contraste, posición, orientación y distancia de lectura. Revise discos ligeros, medios y pesados porque la cara útil cambia entre referencias.\n\nChinaFreeWeight puede estudiar proyectos OEM, ODM, con logotipo personalizado, marca privada y suministro a granel como fábrica. El proceso, molde, color, embalaje y control se confirman para el modelo y mediante una muestra representativa de producción.\n\nIndique además quién debe reconocer el peso y desde qué posición: personal de tienda, usuario del gimnasio, operario de almacén o equipo de recepción. Esa escena de uso evita aprobar una composición que funciona ampliada en pantalla, pero pierde claridad bajo reflejos, queda tapada en el soporte o se confunde con otra cifra del disco."},
+      {"heading": "Priorice el peso y la unidad frente al elemento decorativo", "text": "En sala, tienda o almacén, la carga debe reconocerse en el carro, soporte o barra. Haga que el valor y KG o LB dominen antes que el logotipo y el nombre de colección. En una cara con dos unidades, evite que una cifra se asocie con la unidad equivocada.\n\nLas reglas vigentes de IWF e IPF piden una identificación clara dentro de sus competiciones. No fijan para todo disco comercial una fuente, contraste o duración universal. Use la referencia deportiva solo cuando el producto se compre para ese ámbito concreto.\n\nPara una gama destinada a España o a otro mercado, alinee también la denominación del disco con la ficha, la caja y el sistema del distribuidor. Mantener unidad, nombre y orden de datos reduce cruces de referencias durante la reposición. No presente colores o palabras deportivas como prueba de homologación si esa condición no ha sido verificada."},
+      {"heading": "Vincule el proceso al material y a la geometría", "text": "La fundición admite caracteres integrados, elevados o hundidos y relleno de pintura. Caucho y uretano pueden emplear relieve moldeado, cavidad coloreada o inserto específico. Una impresión necesita sustrato, preparación, curado y borde definidos.\n\nNo convierta el nombre del proceso en una garantía. Un relieve alto puede rozar, un hueco puede acumular suciedad, la pintura puede perder contraste y un aplique puede aflojarse. Describa la construcción real y sus límites.\n\nCuando la apariencia no revele cómo se fabrica, pida un detalle de sección o una explicación del método propuesto. Compare preparación de superficie, transición en los bordes, posibilidad de retoque y proximidad a zonas de contacto. Dos ofertas que dicen pintura o moldeado pueden ocultar construcciones y controles de proceso muy diferentes."},
+      {"heading": "Apruebe la gama en almacenamiento y bajo la luz del mercado", "text": "Compruebe la referencia de menor cara, el cubo más alto, los agarres y cualquier cambio de molde. Observe ambas caras, orientación, separación del borde y visibilidad cuando el disco está tumbado, en vertical, en un soporte o pegado a otros.\n\nCongele vector, plano, referencia física de color y muestra. La foto documenta, pero no sustituye el relieve ni el color reales. Mantenga una matriz separada para KG, LB y versiones dobles, vinculada a caja y código de producto.\n\nRegistre qué cara y orientación se aprobaron, la zona libre alrededor del número y los pesos que necesitan un ajuste de posición. Considere cada cambio como una variante controlada. Así la recepción puede comparar la serie completa sin exigir una composición idéntica en caras que tienen dimensiones, cubos o aperturas distintas."},
+      {"heading": "Pida evidencia de desgaste sin inventar años de servicio", "text": "Defina primero contacto con otros discos, soporte, suelo, manos, separadores, limpiador y luz. Después acuerde preparación, movimiento, exposición y observación de aceptación para el marcado concreto.\n\nASTM D4060 cubre abrasión de recubrimientos orgánicos y ASTM D3359 trata adhesión por cinta sobre película en metal con límites propios. Ninguna norma aporta por sí sola ciclos o nota de aprobación universal para discos. El método y el límite deben corresponder al producto.\n\nCompare una muestra de referencia con otra expuesta al procedimiento y observe contraste, pérdida de relleno, desconchado, bordes y lectura. Fije luz, distancia y momento de la evaluación. La finalidad es una decisión repetible sobre esa construcción, no convertir un ensayo de recubrimiento en una predicción automática de años de servicio en cualquier gimnasio."},
+      {"heading": "Controle producción, recepción y reposición", "text": "En primera pieza y control final compare valor, unidad, ortografía, posición, orientación, cobertura, borde, relieve y contraste. Tome muestras de pesos, cavidades, momentos de producción y cajas diferentes. Concilie disco, etiqueta y pedido.\n\nAísle unidades mezcladas, pintura transferida, caracteres incompletos, insertos sueltos o arte no autorizado. Un cambio de molde, pigmento, pintura, curado, proveedor o limpieza requiere revisión. Conserve muestra y versión para futuras compras.\n\nEl plan de muestreo debe indicar de qué pesos, cavidades y cajas salen las piezas revisadas, además de qué ocurre cuando aparece un defecto. Una fotografía puede acompañar el informe, pero la decisión debe referirse a la muestra y a la revisión aprobadas. Esto facilita investigar diferencias en una reposición posterior."},
+      {"heading": "Prepare una solicitud de oferta que permita comparar", "text": "Indique familia, material, pesos, cantidades, mercado, KG/LB, posible contexto competitivo, arte, jerarquía, color, relieve, lectura, desgaste, muestra, embalaje y aceptación. Separe siempre el dato de peso del logotipo.\n\nSolicite proceso viable, límite de utillaje, ruta de muestra, evidencia y aviso de cambios. Precio, mínimo y plazo dependen del conjunto real y deben confirmarse para el proyecto. Pida que la respuesta identifique supuestos y opciones por modelo, de modo que una diferencia de coste pueda relacionarse con material, molde, acabado, complejidad de color, protección de la cara o alcance de inspección, y no con una cifra genérica sin construcción definida."}
+    ],
+    "table": {"heading": "Matriz de marcado del disco", "columns": ["Campo", "Definir", "Evidencia"], "rows": [["Información", "Valor, KG/LB y jerarquía", "Arte aprobada"], ["Geometría", "Tamaño, trazo, profundidad y espacio", "Plano y muestra"], ["Proceso", "Moldeado, hundido, pintado o aplicado", "Construcción"], ["Contraste", "Color, brillo e iluminación", "Referencia física"], ["Gama", "Pesos y cambios de cara", "Matriz SKU"], ["Desgaste", "Contacto, método y aceptación", "Comparación"], ["Embalaje", "Protección y etiqueta", "Muestra embalada"], ["Lote", "Muestreo y cambios", "Informe"]]},
+    "tablePosition": 3,
+    "checklist": {"heading": "Lista para oferta y muestra", "items": ["Mercado y unidad", "Material y construcción", "Pesos y cantidades", "Jerarquía del dato", "Geometría y posición", "Proceso y color", "Condición de lectura", "Desgaste y limpieza", "Protección de embalaje", "Muestreo y cambios"]},
+    "faq": [["¿El relieve dura siempre más que la pintura?", "No; depende de material, geometría, acabado, contacto y método."], ["¿KG, LB o los dos?", "Use el sistema del mercado y separe con claridad una versión doble."], ["¿El color de competición demuestra aprobación?", "No; color y marcado son solo partes del reglamento aplicable."], ["¿Una sola arte sirve para todos los pesos?", "Solo tras revisar la cara menor y cada cambio de geometría."], ["¿Cómo evaluar el relleno pintado?", "Defina sustrato, preparación, contacto, exposición y aceptación; no existe un ciclo universal."], ["¿Qué revisar al recibir?", "Valor, unidad, posición, contraste, relleno, daños, caja y versión."], ["¿Puede añadirse un logotipo?", "Sí, después de aprobar jerarquía, arte, molde, muestra y control."]],
+    "faqHeading": "Preguntas sobre el marcado de discos",
+    "linkHeading": "Guías de discos, personalización e inspección",
+    "linkLabels": ["Comparar materiales", "Planificar KG y LB", "Aprobar colores", "Elegir logotipo", "Especificar acabado de fundición", "Planificar embalaje", "Planificar inspección", "Planificar OEM y marca privada", "Enviar el proyecto"],
+    "imageCopy": [["Disco olímpico negro sin marca con 20 KG elevado junto a un plano sin texto", "Apruebe el marcado en el producto y no solo en el archivo."], ["Discos sin marca con 20 KG de contraste distinto", "La visibilidad depende de luz, material y ubicación."], ["Discos sin marca con 20 KG en relieve, hueco y relleno", "Nombre el proceso aceptado en la matriz de producto."]],
+    "cta": ["Convierta el marcado en una especificación inspeccionable", "Envíe gama, mercado, unidades, arte, proceso, desgaste, embalaje y cantidades para una revisión por modelo.", "Solicitar revisión del marcado"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/marquage-poids-disques-lisibilite-durabilite",
+    "title": "Marquage des Disques : Lisibilité et Durabilité",
+    "description": "Définissez chiffres et unités lisibles, relief, remplissage, validation d’échantillon, résistance d’usage et contrôle des lots de disques professionnels.",
+    "h1": "Comment Spécifier un Marquage de Poids Lisible et Durable",
+    "keyword": "marquage poids disques musculation",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "Identification du poids, méthode de marquage et réception",
+    "sections": [
+      {"heading": "Réponse directe : validez la fonction avant l’esthétique", "text": "Un fichier graphique correct ne garantit pas la lecture sur le disque fini. Définissez valeur, unité, hauteur, trait, relief ou creux, contraste, orientation, dégagement et condition d’observation. Validez des références légères, moyennes et lourdes, car la surface disponible varie.\n\nChinaFreeWeight peut étudier en usine les projets OEM, ODM, logo personnalisé, marque privée et fourniture en volume. Procédé, outillage, couleur, emballage et contrôle restent liés au modèle et à un échantillon représentatif de production."},
+      {"heading": "Faites lire la charge avant la marque", "text": "Sur arbre de rangement, chariot ou barre, la valeur et KG ou LB doivent dominer le logo et le nom de gamme. Pour une double unité, séparez clairement chiffres et unités afin d’éviter une association erronée.\n\nLes règles IWF et IPF en vigueur demandent une indication claire dans leur champ de compétition. Elles ne fixent pas une police, un contraste ou une durée universelle pour tous les disques commerciaux. Le cahier des charges doit donc porter sa propre règle."},
+      {"heading": "Associez le procédé au matériau", "text": "La fonte autorise caractères venus de moulage, relief, creux et peinture. Caoutchouc et polyuréthane peuvent recevoir relief moulé, remplissage en creux ou élément rapporté. Une impression exige un substrat, une préparation, une polymérisation et un bord définis.\n\nAucun nom n’est une garantie. Le relief peut frotter, le creux retenir des salissures, la peinture perdre son contraste et une pièce rapportée se desserrer. Décrivez la construction réelle et ses zones de contact."},
+      {"heading": "Validez toute la gamme en situation de rangement", "text": "Contrôlez la petite face, le moyeu haut, les ouvertures de préhension et chaque changement de moule. Observez les deux faces, l’orientation et la visibilité à plat, debout, sur un arbre et contre un disque voisin.\n\nFigez fichier vectoriel, plan, référence physique de couleur et échantillon. Les photos documentent sans remplacer couleur et profondeur. Reliez chaque version KG, LB ou double à son SKU, son carton et sa fiche de réapprovisionnement."},
+      {"heading": "Cadrez l’usure sans promettre une durée fictive", "text": "Listez les contacts réels : disques entre eux, rangement, sol, mains, séparateurs, nettoyant autorisé et lumière. Choisissez ensuite préparation, mouvement, exposition et observation d’acceptation adaptés au marquage.\n\nASTM D4060 concerne l’abrasion de revêtements organiques ; ASTM D3359 traite l’adhérence par ruban de films sur métal dans ses limites. Aucune ne donne un nombre de cycles ou une classe universelle pour les disques. Acheteur et fournisseur doivent convenir de la méthode et du seuil."},
+      {"heading": "Contrôlez la série et les commandes suivantes", "text": "À la première pièce et au contrôle final, comparez valeur, unité, orthographe, position, orientation, couverture, bords, relief et contraste. Échantillonnez plusieurs poids, empreintes, périodes et cartons, puis rapprochez produit, étiquette et commande.\n\nIsolez unités mélangées, transfert de peinture, caractère incomplet, insert mobile ou dessin non approuvé. Toute modification de moule, pigment, peinture, cuisson, fournisseur ou nettoyage appelle une revue documentée."},
+      {"heading": "Rédigez un appel d’offres comparable", "text": "Précisez famille, matière, poids, quantités par SKU, marché, KG/LB, contexte sportif éventuel, dessin, hiérarchie, couleur, relief, lecture, usure, échantillon, emballage et règle d’acceptation. Distinguez le poids du logo.\n\nDemandez procédé proposé, périmètre d’outillage, parcours d’échantillon, preuves et notification des changements. Prix, minimum et délai se confirment selon le projet réel."}
+    ],
+    "table": {"heading": "Matrice de marquage", "columns": ["Champ", "À définir", "Preuve"], "rows": [["Information", "Valeur, KG/LB, hiérarchie", "Dessin approuvé"], ["Géométrie", "Taille, trait, profondeur, dégagement", "Plan et échantillon"], ["Procédé", "Moulé, creux, rempli ou rapporté", "Construction"], ["Contraste", "Couleur, brillance, éclairage", "Référence physique"], ["Gamme", "Poids et changements de face", "Matrice SKU"], ["Usure", "Contact, méthode, acceptation", "Comparaison"], ["Emballage", "Protection et étiquette", "Échantillon emballé"], ["Lot", "Échantillonnage et changement", "Rapport"]]},
+    "tablePosition": 3,
+    "checklist": {"heading": "Liste appel d’offres et échantillon", "items": ["Marché et unité", "Matière et construction", "Poids et quantités", "Hiérarchie", "Géométrie et position", "Procédé et couleur", "Condition de lecture", "Usure et nettoyage", "Protection d’emballage", "Échantillonnage et changement"]},
+    "faq": [["Le relief est-il toujours plus durable ?", "Non. Matière, géométrie, finition, contact et méthode déterminent le résultat."], ["Faut-il KG, LB ou les deux ?", "Choisissez le système du marché et séparez nettement une double unité."], ["Une couleur de compétition prouve-t-elle l’approbation ?", "Non. Couleur et marquage ne sont que des parties du règlement applicable."], ["Un dessin unique convient-il à toute la gamme ?", "Seulement après contrôle de la plus petite face et de chaque changement."], ["Comment évaluer une peinture de remplissage ?", "Définissez substrat, préparation, contact, exposition et acceptation ; aucun cycle universel ne s’applique."], ["Que vérifier à réception ?", "Valeur, unité, position, contraste, remplissage, dommage, carton et révision."], ["L’usine peut-elle ajouter un logo ?", "Oui, après validation de la hiérarchie, du dessin, de l’outillage, de l’échantillon et du contrôle."]],
+    "faqHeading": "Questions sur le marquage des disques",
+    "linkHeading": "Guides associés sur les disques et la personnalisation",
+    "linkLabels": ["Comparer les matières", "Planifier KG et LB", "Valider les couleurs", "Choisir un logo", "Spécifier la finition fonte", "Planifier l’emballage", "Planifier l’inspection", "Planifier OEM et marque privée", "Envoyer le projet"],
+    "imageCopy": [["Disque olympique noir sans marque avec deux zones 20 KG remplies en blanc", "Validez contraste, creux et protection sur la pièce finie."], ["Disques sans marque avec 20 KG visibles dans une zone de réception", "La lisibilité doit subsister de la réception au rangement."], ["Disques sans marque avec marquages 20 KG en relief et en creux", "La matrice doit nommer la construction acceptée."]],
+    "cta": ["Transformez le marquage en exigence contrôlable", "Envoyez gamme, marché, unités, dessin, procédé, usure, emballage et quantités pour une étude par modèle.", "Demander une revue du marquage"]
+  }
+]

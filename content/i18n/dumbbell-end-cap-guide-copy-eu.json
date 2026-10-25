@@ -1,0 +1,342 @@
+[
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/hantel-andplatta-logotyp-fastning-kontroll",
+    "title": "Hanteländplatta med Logotyp: Fäste och Inköpskontroll",
+    "description": "Specificera hantelns ändplatta och logotypinsats genom konstruktion, passning, lim, märkning, rengöring, emballage och mottagningskontroll.",
+    "h1": "Så Godkänner du en Anpassad Hanteländplatta",
+    "keyword": "hantel ändplatta egen logotyp",
+    "home": "Start",
+    "library": "Guider",
+    "eyebrow": "ChinaFreeWeight · Hantelmärkning och kvalitetskontroll",
+    "sections": [
+      {
+        "heading": "Börja med infästningen, inte bara originalet",
+        "text": "Ett godkännande ska omfatta plattans material, ytan på hantelhuvudet, sätet, fästprincipen, färdig nivå, logotyp och viktmärkning. En digital korrektur visar utseendet men avslöjar inte kantresning, vridning, glapp eller en dold serviceinfästning.\n\nVid OEM, private label, egen logotyp och bulkinköp ska konstruktionen stå på ritningen och verifieras på ett produktionslikt prov. Om ett ODM-upplägg ändrar ficka, snäppfunktion eller huvudform måste den nya varianten bedömas på nytt. ChinaFreeWeight granskar lösningen per modell."
+      },
+      {
+        "heading": "Skilj på dekor, kåpa och servicekomponent",
+        "text": "Märkningen kan vara ingjuten, direktgraverad, tryckt eller etsad på en platta, självhäftande, pressad, snäppt, gängad eller mekaniskt låst. Vissa delar är rent dekorativa; andra täcker huvudets infästning eller ingår i en servicebar konstruktion. Samma framsida kan alltså ha olika funktion.\n\nAnge om ändplattan ska vara fast, rotera för rätt logoriktning eller kunna bytas. Dokumentera vad den täcker och vem som får demontera. Mottagningen ska inte bända i en okänd skiva eller behandla en mekanisk kåpa som en vanlig etikett."
+      },
+      {
+        "heading": "Gör passningen mätbar i ritningen",
+        "text": "Sätt mått på diameter, tjocklek, fickans djup och diameter, anliggningsyta, kantspel och färdigt över- eller undermått. För press- och snäppfästen anges ribbor, spår och ingrepp. Gängade lösningar behöver sin egen låsmetod och får inte ärva monteringsdata från en annan hantel.\n\nFör limmade brickor ska stycklistan styra brickans material och finish, limfamilj eller artikel, relevant bärartjocklek, förbehandling, appliceringstryck och konditionering. Då kan ett återköp inte byta materialpar men behålla samma grafiska fil."
+      },
+      {
+        "heading": "Ytan är en del av limfogen",
+        "text": "Damm, olja, släppmedel, ytlig migration, struktur, svag färg eller välvning kan hindra full kontakt. ISO 17212 beskriver principer för förbehandling av metall och plast; den valda limleverantörens anvisningar måste dessutom passa de faktiska materialen.\n\nFastställ kompatibel rengöring, torkning, skydd mot ny nedsmutsning och arbetsordning. Starkt lösningsmedel eller slipning får inte läggas till utan kontroll av gummi, polyuretan, färg, tryck och arbetsmiljö. Referensprovet ska tillverkas med samma process som serien."
+      },
+      {
+        "heading": "Knyt provningen till den färdiga kombinationen",
+        "text": "ISO 29862 beskriver fläkhållfasthetsmetoder för självhäftande tejp och ISO 29863 statisk skjuvvidhäftning. Resultat på standardstål är inte automatiskt ett godkännandekrav för en välvd platta på lack, gummi eller polyuretan. Provkropp, konditionering och beslut måste spegla den sålda konstruktionen.\n\nBedöm första inpassning, kant, oönskad rotation, rengöringsmedel, kontakt med ställ och emballage samt skick efter överenskommen exponering. Registrera revision, upplägg och observationer. Använd inte generella krafter, timmar eller cykler utan ett ansvarigt produktspecifikt krav."
+      },
+      {
+        "heading": "Läsbar vikt är ett annat krav än varumärket",
+        "text": "Logotypen bygger identitet medan kg-, lb- eller dubbelmärkning styr användning och lager. Godkänn värde, läsriktning, kontrast, fri yta och färgreferens för varje artikel. Mindre huvuden kan behöva en egen layout i stället för en förminskad variant som tappar läsbarhet.\n\nKoppla originalets revision till ändplattans ritning och artikelnummer. Kontrollera båda sidor och bestäm om en roterande skiva ska orientera sig. Fel vikt, fel enhet eller gammal grafisk version är avvikelse även när fästet sitter fast."
+      },
+      {
+        "heading": "Mottagningskontroll utan förstörande pill",
+        "text": "Jämför material, yta, centrering, nivå, kantspel och tryck med referensprovet. Leta efter lyfta kanter, bubblor, rester, vickning, otillåten vridning, sprickor, repor och skymd märkning. Släpljus och mjuka, icke skadande hjälpmedel används bara enligt den skrivna metoden.\n\nUndvik kniv, improviserat lösningsmedel eller dragprov på säljbart gods. Fördela urvalet över vikter, kartonger, produktionstid och båda ändar; spärra berörda enheter och analysera mönstret. Upprepning vid samma kant kan peka på geometri, rengöring, applicering eller packkontakt."
+      },
+      {
+        "heading": "Säkra emballage, reservdel och återköp",
+        "text": "Ändytan kan ligga mot kartong, mellanlägg, ställ eller en annan hantel. Godkänn ett produktionslikt packprov och dess tryckpunkter. Skyddet får inte lyfta en kant, lämna rester eller hålla ett oförenligt material mot plattan under transport.\n\nBestäm om reservplattor ska följa, hur de identifieras och om byte på plats är tillåtet. Ritning, material, fäste, emballage och referensprov hålls under samma revision. Skicka modell, vikter, antal, enheter, logofiler och användningsmiljö till ChinaFreeWeight för en tydlig OEM-, ODM- eller private-label-bedömning."
+      }
+    ],
+    "table": {
+      "heading": "Beslutsunderlag för ändplattan",
+      "columns": ["Beslut", "Vad som definieras", "Frisläppningsunderlag"],
+      "rows": [
+        ["Funktion", "Dekorativ, fast, roterande eller servicebar", "Monteringsritning och demonteringsregel"],
+        ["Material", "Huvud, platta, finish och lim", "Styrd stycklista"],
+        ["Passning", "Ficka, ingrepp, kantspel och nivå", "Uppmätt serieprov"],
+        ["Märkning", "Logo, vikt, enhet, färg och riktning", "Godkänt original per artikel"],
+        ["Exponering", "Rengöring, hantering, ställ och emballage", "Representativa kontroller"],
+        ["Återköp", "Revision, reservdel och ändringsbesked", "Sparat prov och historik"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tio punkter i inköpsunderlaget",
+      "items": [
+        "Namnge modell och samtliga viktartiklar.",
+        "Ange fast, roterande, dekorativ eller servicebar funktion.",
+        "Godkänn huvud-, platt- och limmaterial.",
+        "Måttsätt ficka, kantspel och färdig nivå.",
+        "Beskriv rengöring, förbehandling, applicering och konditionering.",
+        "Godkänn logo och vikt per layout.",
+        "Använd ett produktionslikt prov.",
+        "Skriv en icke förstörande mottagningskontroll.",
+        "Godkänn kartongens och mellanläggets kontakt.",
+        "Styr reservdelar, återköp och förändringar."
+      ]
+    },
+    "faq": [
+      ["Vilket fäste är bäst för en egen ändplatta?", "Det beror på modell, material, funktion, geometri, miljö och serviceplan; ingen metod passar allt."],
+      ["Fungerar en självhäftande märkbricka i ett kommersiellt gym?", "Ja, om lim, ytor, förbehandling, geometri och exponering verifieras tillsammans på den aktuella produkten."],
+      ["Bevisar ett ISO-fläkprov att plattan aldrig lossnar?", "Nej. Standarden beskriver en metod; den färdiga välvda fogen behöver egna villkor och godkännandekriterier."],
+      ["Kan gymmet byta en lös ändplatta?", "Endast med godkänd reservdel och instruktion, eftersom plattan kan täcka infästning eller servicekomponent."],
+      ["Vad behövs för en OEM-offert?", "Modell, viktlista, antal, enheter, plattkoncept, material, logofiler, rengöring, emballage och kontrollkrav."]
+    ],
+    "faqHeading": "Vanliga inköpsfrågor om ändplattor",
+    "linkHeading": "Hantlar och inköpsguider",
+    "linkLabels": ["Se kommersiella hantlar", "Jämför PU-hantlar", "Välj logometod", "Godkänn OEM-provet", "Granska huvudkonstruktionen", "Planera private-label-emballage", "Skicka kravbilden"],
+    "imageAlt": "Oprofilerad blågrå hantel med tom ändplatta och två materialprover",
+    "imageCaption": "Konceptuell bild: ändplatta, fäste och godkända material ska styras som en enhet.",
+    "cta": ["Bygg en repeterbar ändplatta", "Skicka modell, vikter, antal, enhet, plattidé, logo, rengöring och emballage för fabriksgranskning.", "Begär granskning"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/tappo-manubrio-logo-fissaggio-controllo",
+    "title": "Tappo Manubrio con Logo: Fissaggio e Controllo",
+    "description": "Definisci tappo e inserto logo per struttura, accoppiamento, adesivo, grafica, pulizia, imballo e controllo in accettazione.",
+    "h1": "Come Approvare un Tappo Personalizzato per Manubrio",
+    "keyword": "tappo manubrio logo personalizzato",
+    "home": "Home",
+    "library": "Guide",
+    "eyebrow": "ChinaFreeWeight · Branding e controllo dei manubri",
+    "sections": [
+      {
+        "heading": "La grafica è solo una parte dell’approvazione",
+        "text": "Il capitolato deve unire materiale del tappo o della targhetta, superficie della testa, sede, sistema di fissaggio, quota finale, logo e indicazione del peso. Un rendering mostra l’estetica, non il sollevamento del bordo, la rotazione, il gioco o l’eventuale vite di servizio nascosta.\n\nPer forniture OEM, private label, logo personalizzato e lotti all’ingrosso, richiedi disegno e campione equivalente alla produzione. Una modifica ODM della tasca, dell’aggancio o della forma della testa richiede una nuova verifica. ChinaFreeWeight valuta la soluzione sul modello effettivo."
+      },
+      {
+        "heading": "Chiarire se è decorazione, copertura o ricambio",
+        "text": "Il marchio può essere stampato nello stampo, inciso direttamente, applicato su piastrina, adesivo, tappo a pressione, scatto, filetto o ritenzione meccanica. Alcuni elementi sono ornamentali; altri coprono il fissaggio della testa o appartengono a un assieme riparabile. L’aspetto esterno non basta.\n\nIndica se il componente deve restare fermo, ruotare per orientare il logo oppure essere sostituibile. Registra cosa nasconde e chi può rimuoverlo. Il magazzino non deve fare leva su un disco sconosciuto né trattare un coperchio meccanico come una semplice etichetta."
+      },
+      {
+        "heading": "Portare sede e accoppiamento sul disegno",
+        "text": "Quota diametro, spessore, profondità della sede, piano d’appoggio, gioco perimetrale e posizione finita. Per pressione o scatto, specifica nervature, gole e zone di presa. Una versione avvitata o filettata usa il proprio sistema di bloccaggio, senza copiare parametri da un altro modello.\n\nPer una targhetta incollata, controlla supporto, finitura, famiglia o codice dell’adesivo, spessore utile, preparazione, pressione e condizionamento. La distinta evita che un riordino cambi coppia di materiali conservando soltanto lo stesso file del logo."
+      },
+      {
+        "heading": "La preparazione determina il contatto",
+        "text": "Polvere, olio, distaccante, migrazione superficiale, rugosità, vernice debole o curvatura possono impedire la bagnabilità. ISO 17212 raccoglie criteri di preparazione per metalli e plastiche; vanno poi applicate le indicazioni specifiche del sistema adesivo scelto.\n\nDefinisci detergente compatibile, asciugatura, protezione dalla ricontaminazione e sequenza. Solvente aggressivo o abrasione non verificata possono danneggiare gomma, poliuretano, vernice e stampa. Il campione di riferimento deve seguire lo stesso processo del lotto."
+      },
+      {
+        "heading": "Leggere le prove nel loro campo di validità",
+        "text": "ISO 29862 descrive metodi di pelatura per nastri autoadesivi e ISO 29863 l’adesione a taglio statico. Un risultato su acciaio standard non diventa un limite universale per una piastra curva su metallo verniciato, gomma o poliuretano. Servono provino, condizionamento e criteri rappresentativi.\n\nControlla seduta iniziale, bordo, rotazione, detergenti, contatto con rastrelliera e imballo e stato dopo esposizioni concordate. Registra revisione, configurazione e osservazioni. Non introdurre forze, ore o cicli generici senza una specifica responsabile del prodotto."
+      },
+      {
+        "heading": "Peso e logo hanno funzioni diverse",
+        "text": "Il marchio identifica, mentre kg, lb o doppia unità guidano utente e inventario. Approva per ogni SKU valore, direzione di lettura, contrasto, area libera e colore. Sui pesi piccoli può servire un layout distinto invece di ridurre troppo quello principale.\n\nCollega la versione grafica al disegno e al codice articolo. Verifica entrambe le estremità e stabilisci l’orientamento di un inserto fisso o rotante. Peso, unità o revisione errati restano una non conformità anche con fissaggio perfetto."
+      },
+      {
+        "heading": "Controllare in accettazione senza danneggiare",
+        "text": "Confronta materiale, finitura, centratura, quota, gioco e grafica con il campione approvato. Cerca bordi alzati, bolle, residui, oscillazione, rotazione indebita, crepe, graffi e marcature coperte. Luce radente e strumenti morbidi si usano solo nel metodo concordato.\n\nEvita lame, solventi improvvisati o prove di strappo sulla merce. Distribuisci il controllo tra pesi, scatole, periodi e due facce; isola il materiale e ricostruisci il pattern. Una ripetizione sullo stesso bordo può derivare da geometria, pulizia, posa o pressione d’imballo."
+      },
+      {
+        "heading": "Imballaggio e ricambi chiudono il progetto",
+        "text": "La faccia può toccare cartone, separatore, culla o manubrio vicino. Approva un campione imballato come la serie e controlla i punti di carico. La protezione non deve alzare il bordo, lasciare residui o confinare materiali incompatibili.\n\nDefinisci disponibilità e codifica dei ricambi e l’eventuale sostituzione sul posto. Disegno, materiali, fissaggio, imballo e campione restano sotto un’unica revisione. Invia a ChinaFreeWeight modello, pesi, quantità, unità, logo e ambiente per valutare correttamente il programma OEM, ODM o private label."
+      }
+    ],
+    "table": {
+      "heading": "Scheda decisionale del tappo",
+      "columns": ["Decisione", "Dato da fissare", "Prova di rilascio"],
+      "rows": [
+        ["Funzione", "Decorativa, fissa, rotante o riparabile", "Disegno e regola di rimozione"],
+        ["Materiali", "Testa, tappo, finitura e adesivo", "Distinta controllata"],
+        ["Accoppiamento", "Sede, presa, gioco e quota", "Campione di serie misurato"],
+        ["Grafica", "Logo, peso, unità, colore e orientamento", "Campione grafico approvato per SKU"],
+        ["Esposizione", "Pulizia, uso, rack e imballo", "Verifiche rappresentative"],
+        ["Riordino", "Revisione, ricambi e notifica modifiche", "Campione trattenuto e storico"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dieci elementi per l’ordine",
+      "items": [
+        "Identificare modello e tutti i pesi.",
+        "Dichiarare funzione fissa, rotante, decorativa o riparabile.",
+        "Approvare materiali di testa, tappo e adesivo.",
+        "Quotare sede, gioco e posizione finita.",
+        "Definire pulizia, preparazione, posa e condizionamento.",
+        "Approvare logo e peso per ogni layout.",
+        "Usare un campione equivalente alla produzione.",
+        "Scrivere un controllo non distruttivo in accettazione.",
+        "Approvare contatti di cartone e separatori.",
+        "Gestire ricambi, riordini e modifiche."
+      ]
+    },
+    "faq": [
+      ["Qual è il fissaggio migliore per un tappo personalizzato?", "Dipende da modello, materiali, funzione, geometria, ambiente e manutenzione; non esiste una soluzione unica."],
+      ["Una piastrina autoadesiva è adatta a un manubrio commerciale?", "Può esserlo se adesivo, superfici, preparazione, geometria ed esposizione vengono approvati insieme."],
+      ["Una prova ISO di pelatura garantisce che non si stacchi?", "No. Definisce un metodo; il giunto curvo finito richiede condizioni e criteri specifici."],
+      ["La palestra può sostituire un tappo lento?", "Solo con ricambio e procedura autorizzati, perché il tappo può coprire un fissaggio o un assieme di servizio."],
+      ["Cosa serve per un preventivo OEM?", "Modello, pesi, quantità, unità, concetto, materiali, file del marchio, pulizia, imballo e controlli richiesti."]
+    ],
+    "faqHeading": "Domande sui tappi personalizzati",
+    "linkHeading": "Manubri e guide di acquisto",
+    "linkLabels": ["Vedi manubri commerciali", "Confronta manubri in PU", "Scegli il metodo del logo", "Approva il campione OEM", "Controlla la costruzione", "Pianifica l’imballo private label", "Invia la specifica"],
+    "imageAlt": "Manubrio commerciale senza marchio con tappo liscio controllato sul bordo",
+    "imageCaption": "Scena concettuale: sede, materiale e fissaggio vanno approvati sul modello effettivo.",
+    "cta": ["Definisci un tappo ripetibile in serie", "Invia modello, pesi, quantità, unità, concetto, logo, pulizia e imballo per la revisione di fabbrica.", "Richiedi la revisione"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/halter-eindkap-logo-bevestiging-controle",
+    "title": "Halter-eindkap met Logo: Bevestiging en Inkoopcontrole",
+    "description": "Leg eindkap en logo-inzet vast via constructie, passing, lijm, opschrift, reiniging, verpakking en ontvangstcontrole voor maatwerkorders.",
+    "h1": "Een Halter-eindkap met Eigen Logo Goedkeuren",
+    "keyword": "halter eindkap eigen logo bevestiging",
+    "home": "Home",
+    "library": "Kennisbank",
+    "eyebrow": "ChinaFreeWeight · Halterbranding en kwaliteitscontrole",
+    "sections": [
+      {
+        "heading": "Keur de verbinding goed, niet alleen het drukbestand",
+        "text": "De goedkeuring omvat materiaal van kap of badge, oppervlak van de kop, uitsparing, bevestigingswijze, afgewerkte hoogte, logo en gewichtsaanduiding. Een visuele proef toont niet of een rand omhoogkomt, een inzet draait, speling ontstaat of een servicebevestiging wordt afgedekt.\n\nBij OEM, private label, eigen logo en bulkinkoop horen constructietekening en productie-equivalent monster bij het dossier. Verandert een ODM-ontwerp de kamer, klikfunctie of kopvorm, dan volgt een nieuwe beoordeling. ChinaFreeWeight bekijkt de combinatie per model."
+      },
+      {
+        "heading": "Bepaal eerst de functie van de eindkap",
+        "text": "Merkinformatie kan zijn meegevormd, direct gegraveerd, gedrukt of geëtst op een plaat, zelfklevend, geperst, vastgeklikt, geschroefd of mechanisch geborgd. Sommige delen zijn decoratief; andere bedekken de kopverbinding of horen bij een onderhoudbare montage. Het uiterlijk vertelt die functie niet.\n\nLeg vast of de kap stilstaat, draait voor logo-oriëntatie of vervangbaar is. Documenteer wat erachter zit en wie mag demonteren. De ontvangstafdeling mag niet aan een onbekende schijf wrikken of een mechanische afdekking als sticker behandelen."
+      },
+      {
+        "heading": "Maak passing en zitting meetbaar",
+        "text": "Zet diameter, dikte, kamerdiameter en -diepte, draagvlak, randspeling en eindpositie op tekening. Benoem bij pers- of klikpassing de ribben, groeven en aangrijping. Een schroef- of draadverbinding krijgt een eigen borging; montagegegevens van een ander model zijn geen basis.\n\nBij lijmtoepassing beheert de stuklijst plaatmateriaal, afwerking, lijmfamilie of artikel, relevante dragerdikte, voorbereiding, aandrukken en conditionering. Daardoor kan een nabestelling niet ongemerkt wisselen van materiaalpaar."
+      },
+      {
+        "heading": "Oppervlaktevoorbereiding hoort bij het systeem",
+        "text": "Stof, olie, lossingsmiddel, migratie, textuur, zwakke lak of kromming beperken het contact. ISO 17212 behandelt voorbereiding van metaal en kunststof; daarnaast moeten de productspecifieke verwerkingsregels van de gekozen lijm passen bij rubber, polyurethaan, lak of metaal.\n\nBeschrijf compatibele reiniger, droging, bescherming tegen hervervuiling en volgorde. Voeg geen sterk oplosmiddel of schuren toe zonder materiaal- en veiligheidscontrole. Het referentiemonster doorloopt dezelfde voorbereiding als de serie."
+      },
+      {
+        "heading": "Gebruik testdata binnen de juiste grenzen",
+        "text": "ISO 29862 beschrijft pelhechting van zelfklevende tape en ISO 29863 statische afschuifhechting. Een resultaat op standaardstaal vormt niet vanzelf een eis voor een gebogen badge op lak, rubber of polyurethaan. Monster, conditionering en criterium moeten de verkochte verbinding vertegenwoordigen.\n\nBeoordeel eerste zitting, rand, ongewenste draaiing, reiniging, contact met rek en verpakking en toestand na afgesproken blootstelling. Noteer revisie, opstelling en observaties. Neem geen algemene kracht, uren of cycli over zonder productspecifieke onderbouwing."
+      },
+      {
+        "heading": "Behandel gewicht en merk als twee controles",
+        "text": "Het logo bouwt identiteit; kg, lb of dubbele eenheid stuurt gebruik en voorraad. Keur per SKU waarde, leesrichting, contrast, vrije ruimte en kleurreferentie goed. Kleine koppen vragen soms een aparte lay-out om het gewicht leesbaar te houden.\n\nKoppel de grafische revisie aan tekening en artikelcode. Controleer beide uiteinden en leg vast of een draaiende inzet zich moet uitlijnen. Een vastzittende kap met verkeerd gewicht, verkeerde eenheid of oud logo blijft afgekeurd."
+      },
+      {
+        "heading": "Ontvangstcontrole zonder verkoopbare delen los te trekken",
+        "text": "Vergelijk materiaal, afwerking, centrering, hoogte, randspeling en beeld met het goedgekeurde monster. Let op opstaande randen, bellen, resten, wiebelen, onbedoeld draaien, scheuren, krassen en bedekte informatie. Strijklicht en zachte hulpmiddelen zijn alleen toegestaan in de afgesproken methode.\n\nGebruik geen mes, willekeurig oplosmiddel of destructieve trekkracht. Spreid controles over gewichten, dozen, productiemomenten en beide kanten; blokkeer afwijkingen en zoek het patroon. Herhaling aan dezelfde zijde kan wijzen op geometrie, reiniging, applicatie of verpakkingsdruk."
+      },
+      {
+        "heading": "Regel verpakking, reservedelen en herhaalorders",
+        "text": "De eindzijde kan karton, tussenschot, rekhouder of een andere halter raken. Keur een productie-equivalent verpakt monster en zijn drukpunten goed. Bescherming mag geen rand optillen, resten achterlaten of een onverenigbaar materiaal insluiten.\n\nBepaal of reservebadges worden geleverd, hoe ze herkenbaar zijn en of vervanging op locatie is toegestaan. Tekening, materialen, bevestiging, verpakking en referentie houden één revisie. Stuur ChinaFreeWeight model, gewichten, aantallen, eenheden, logo en omgeving voor een heldere OEM-, ODM- of private-label-beoordeling."
+      }
+    ],
+    "table": {
+      "heading": "Beslisblad voor de eindkap",
+      "columns": ["Besluit", "Vast te leggen", "Vrijgavebewijs"],
+      "rows": [
+        ["Functie", "Decoratief, vast, draaiend of servicebaar", "Montagetekening en demontageregel"],
+        ["Materiaal", "Kop, kap, afwerking en lijm", "Beheerde stuklijst"],
+        ["Passing", "Kamer, aangrijping, speling en hoogte", "Gemeten seriemonster"],
+        ["Opschrift", "Logo, gewicht, eenheid, kleur en richting", "Getekende proef per SKU"],
+        ["Blootstelling", "Reiniging, gebruik, rek en verpakking", "Representatieve controles"],
+        ["Herhaalorder", "Revisie, reservedelen en wijzigingsmelding", "Bewaarmonster en historie"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tien onderdelen van het inkoopdossier",
+      "items": [
+        "Noem model en alle gewichtsartikelen.",
+        "Verklaar vaste, draaiende, decoratieve of servicefunctie.",
+        "Keur kop-, kap- en lijmmateriaal goed.",
+        "Maatvoer kamer, randspeling en eindpositie.",
+        "Leg reiniging, voorbereiding, applicatie en conditionering vast.",
+        "Keur logo en gewicht per lay-out goed.",
+        "Gebruik een productie-equivalent monster.",
+        "Schrijf een niet-beschadigende ontvangstcontrole.",
+        "Keur contact met doos en tussenschot goed.",
+        "Beheer reservedelen, herhaalorders en wijzigingen."
+      ]
+    },
+    "faq": [
+      ["Welke bevestiging is het beste voor een eigen eindkap?", "Dat hangt af van model, materialen, functie, geometrie, omgeving en serviceplan; er is geen universele methode."],
+      ["Is een zelfklevende badge geschikt voor een commerciële halter?", "Dat kan als lijm, oppervlakken, voorbereiding, vorm en blootstelling samen op het werkelijke product worden gevalideerd."],
+      ["Bewijst een ISO-peltest dat de badge nooit loskomt?", "Nee. De norm beschrijft een methode; de gebogen eindverbinding heeft eigen condities en criteria nodig."],
+      ["Mag de sportschool een losse eindkap vervangen?", "Alleen met een toegestaan onderdeel en voorschrift, omdat de kap een bevestiging of serviceconstructie kan afdekken."],
+      ["Wat heeft de fabriek nodig voor een offerte?", "Model, gewichten, aantallen, eenheden, kapconcept, materialen, logobestanden, reiniging, verpakking en inspectie-eisen."]
+    ],
+    "faqHeading": "Vragen over aangepaste eindkappen",
+    "linkHeading": "Halters en inkoopinformatie",
+    "linkLabels": ["Bekijk commerciële halters", "Vergelijk PU-halters", "Kies een logomethode", "Keur het OEM-monster goed", "Controleer de kopconstructie", "Plan private-label-verpakking", "Bespreek de eindkap"],
+    "imageAlt": "Merkloze hex-halter met lege eindkap en verpakt reserveplaatje op een controlemat",
+    "imageCaption": "Conceptuele ontvangstscène: onderdeel, passing en verpakking horen bij dezelfde goedkeuring.",
+    "cta": ["Maak de eindkap herhaalbaar", "Stuur model, gewichten, aantallen, eenheid, kapidee, logo, reiniging en verpakking voor fabrieksbeoordeling.", "Vraag beoordeling aan"]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/hantle-zaslepka-logo-mocowanie-kontrola",
+    "title": "Zaślepka Hantla z Logo: Mocowanie i Kontrola Zakupu",
+    "description": "Określ zaślepkę i wkładkę logo przez konstrukcję, pasowanie, klej, oznaczenie, czyszczenie, opakowanie i kontrolę dostawy.",
+    "h1": "Jak Zatwierdzić Personalizowaną Zaślepkę Hantla",
+    "keyword": "zaślepka hantla z własnym logo",
+    "home": "Strona główna",
+    "library": "Poradniki",
+    "eyebrow": "ChinaFreeWeight · Znakowanie i kontrola hantli",
+    "sections": [
+      {
+        "heading": "Najpierw zatwierdź połączenie, potem wygląd",
+        "text": "Akceptacja powinna obejmować materiał zaślepki lub plakietki, powierzchnię głowicy, gniazdo, sposób mocowania, położenie po montażu, logo i oznaczenie masy. Wizualizacja nie pokaże podnoszenia krawędzi, obrotu, luzu ani ukrytego elementu serwisowego.\n\nW projekcie OEM, private label, z własnym logo lub w dostawie hurtowej wymagaj rysunku i próbki równoważnej produkcji. Zmiana ODM gniazda, zatrzasku lub kształtu głowicy wymaga ponownej oceny. ChinaFreeWeight analizuje rozwiązanie dla konkretnego modelu."
+      },
+      {
+        "heading": "Ustal rolę plakietki i zaślepki",
+        "text": "Znak może być formowany, grawerowany bezpośrednio, drukowany na płytce, samoprzylepny, wciskany, zatrzaskiwany, gwintowany albo blokowany mechanicznie. Część bywa wyłącznie dekoracyjna, ale może też zakrywać mocowanie głowicy lub należeć do zespołu serwisowego. Wygląd nie określa funkcji.\n\nZapisz, czy element ma być nieruchomy, obracać się dla ustawienia logo czy podlegać wymianie. Wskaż, co znajduje się pod nim i kto może go zdjąć. Magazyn nie powinien podważać nieznanej płytki ani traktować mechanicznej osłony jak naklejki."
+      },
+      {
+        "heading": "Opisz pasowanie wymiarami i bazami",
+        "text": "Rysunek powinien zawierać średnicę, grubość, głębokość i średnicę gniazda, powierzchnię podparcia, szczelinę obwodową oraz położenie końcowe. Dla wcisku i zatrzasku określ żebra, rowek i strefę zazębienia. Wersja gwintowana wymaga własnego sposobu zabezpieczenia.\n\nPrzy klejeniu kontroluj materiał i wykończenie płytki, rodzinę lub numer kleju, istotną grubość nośnika, przygotowanie, docisk i kondycjonowanie. Lista materiałowa zapobiega ukrytej zmianie połączenia podczas kolejnego zamówienia."
+      },
+      {
+        "heading": "Przygotowanie powierzchni jest częścią procesu",
+        "text": "Kurz, olej, środek antyadhezyjny, migracja, tekstura, słaba farba lub krzywizna mogą ograniczyć kontakt. ISO 17212 opisuje zasady przygotowania metali i tworzyw; trzeba je połączyć z instrukcją wybranego systemu klejącego dla rzeczywistych materiałów.\n\nOkreśl bezpieczny środek czyszczący, suszenie, ochronę przed ponownym zabrudzeniem i kolejność. Nie dodawaj mocnego rozpuszczalnika ani ścierania bez sprawdzenia gumy, poliuretanu, farby, nadruku i BHP. Próbka wzorcowa przechodzi ten sam proces co seria."
+      },
+      {
+        "heading": "Wynik testu musi odpowiadać gotowemu złączu",
+        "text": "ISO 29862 opisuje odrywanie taśm samoprzylepnych, a ISO 29863 statyczne ścinanie. Wynik na standardowej stali nie staje się automatycznie kryterium dla zakrzywionej plakietki na farbie, gumie lub poliuretanie. Uzgodnij reprezentatywną próbkę, kondycjonowanie i ocenę.\n\nSprawdź początkowe osadzenie, krawędź, niepożądany obrót, środki czyszczące, kontakt ze stojakiem i opakowaniem oraz stan po ustalonej ekspozycji. Zapisz rewizję i konfigurację. Nie przenoś siły, czasu ani liczby cykli z innego wyrobu."
+      },
+      {
+        "heading": "Logo i masa wymagają oddzielnego sprawdzenia",
+        "text": "Logo buduje markę, natomiast kg, lb lub podwójna jednostka prowadzą użytkownika i magazyn. Dla każdego SKU zatwierdź wartość, kierunek odczytu, kontrast, pole ochronne i kolor. Mniejsze głowice mogą potrzebować odrębnego układu.\n\nPołącz wersję pliku z rysunkiem i kodem produktu. Sprawdź obie strony oraz określ orientację wkładki stałej lub obrotowej. Pewnie osadzona płytka z błędną masą, jednostką albo starą grafiką nadal jest niezgodna."
+      },
+      {
+        "heading": "Kontroluj dostawę bez niszczenia towaru",
+        "text": "Porównaj materiał, wykończenie, wycentrowanie, wysokość, szczelinę i grafikę z próbką. Szukaj podniesionych brzegów, pęcherzy, pozostałości, kołysania, nieplanowanego obrotu, pęknięć, rys i zasłoniętych informacji. Światło boczne i miękkie sprawdziany stosuj tylko według ustalonej metody.\n\nNie używaj noża, przypadkowego rozpuszczalnika ani niszczącego odrywania. Rozłóż próbę na masy, kartony, okresy produkcji i obie strony; odseparuj niezgodności i prześledź wzór. Powtarzalność może wskazać geometrię, czyszczenie, aplikację lub nacisk opakowania."
+      },
+      {
+        "heading": "Uwzględnij opakowanie, części i powtórne zamówienia",
+        "text": "Czoło może dotykać kartonu, przekładki, uchwytu stojaka lub sąsiedniego hantla. Zatwierdź próbkę zapakowaną jak seria i punkty nacisku. Ochrona nie może unosić brzegu, zostawiać osadu ani zamykać niezgodnego materiału przy płytce.\n\nUstal dostawę części zamiennych, ich identyfikację i zgodę na wymianę w obiekcie. Rysunek, materiał, mocowanie, opakowanie i wzorzec mają jedną rewizję. Przekaż ChinaFreeWeight model, masy, ilości, jednostki, logo i środowisko do uczciwej oceny OEM, ODM lub private label."
+      }
+    ],
+    "table": {
+      "heading": "Karta decyzji dla zaślepki",
+      "columns": ["Decyzja", "Zakres definicji", "Dowód akceptacji"],
+      "rows": [
+        ["Funkcja", "Dekoracyjna, stała, obrotowa lub serwisowa", "Rysunek i zasada demontażu"],
+        ["Materiały", "Głowica, płytka, wykończenie i klej", "Kontrolowana lista materiałowa"],
+        ["Pasowanie", "Gniazdo, zaczep, szczelina i wysokość", "Zmierzona próbka serii"],
+        ["Oznaczenie", "Logo, masa, jednostka, kolor i kierunek", "Podpisany plik dla SKU"],
+        ["Ekspozycja", "Czyszczenie, użycie, stojak i opakowanie", "Reprezentatywne kontrole"],
+        ["Powtórne zamówienie", "Rewizja, części i informacja o zmianie", "Próbka wzorcowa i historia"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dziesięć pozycji w dokumentacji zakupu",
+      "items": [
+        "Wskazać model i wszystkie warianty masy.",
+        "Określić funkcję stałą, obrotową, dekoracyjną lub serwisową.",
+        "Zatwierdzić materiały głowicy, płytki i kleju.",
+        "Zwymiarować gniazdo, szczelinę i położenie.",
+        "Opisać czyszczenie, przygotowanie, aplikację i kondycjonowanie.",
+        "Zatwierdzić logo i masę dla każdego układu.",
+        "Użyć próbki równoważnej produkcji.",
+        "Napisać nieniszczącą kontrolę dostawy.",
+        "Zatwierdzić kontakt kartonu i przekładki.",
+        "Kontrolować części, powtórne zamówienia i zmiany."
+      ]
+    },
+    "faq": [
+      ["Jakie mocowanie jest najlepsze dla zaślepki z logo?", "Zależy od modelu, materiałów, funkcji, geometrii, środowiska i serwisu; nie ma jednej metody dla wszystkich."],
+      ["Czy samoprzylepna plakietka nadaje się do hantla komercyjnego?", "Może się nadawać, jeśli klej, powierzchnie, przygotowanie, geometria i ekspozycja zostaną zatwierdzone razem."],
+      ["Czy test ISO odrywania gwarantuje trwałość?", "Nie. Opisuje metodę; gotowe zakrzywione połączenie wymaga własnych warunków i kryteriów."],
+      ["Czy siłownia może wymienić luźną zaślepkę?", "Tylko z zatwierdzoną częścią i instrukcją, ponieważ zaślepka może kryć mocowanie lub element serwisowy."],
+      ["Co przesłać do wyceny OEM?", "Model, masy, ilości, jednostki, koncepcję, materiały, pliki logo, czyszczenie, opakowanie i wymagania kontroli."]
+    ],
+    "faqHeading": "Pytania o personalizowane zaślepki",
+    "linkHeading": "Hantle i poradniki zakupowe",
+    "linkLabels": ["Zobacz hantle komercyjne", "Porównaj hantle PU", "Wybierz metodę logo", "Zatwierdź próbkę OEM", "Sprawdź konstrukcję głowicy", "Zaplanuj opakowanie private label", "Prześlij specyfikację"],
+    "imageAlt": "Niemarkowany hantel z gładką zaślepką i oddzielną próbką referencyjną",
+    "imageCaption": "Scena koncepcyjna: próbka odniesienia pomaga kontrolować pasowanie i materiał przy kolejnych partiach.",
+    "cta": ["Zbuduj powtarzalną specyfikację zaślepki", "Prześlij model, masy, ilości, jednostki, koncepcję, logo, czyszczenie i opakowanie do oceny fabrycznej.", "Poproś o ocenę"]
+  }
+]

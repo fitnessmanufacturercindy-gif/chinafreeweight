@@ -1,0 +1,305 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/cable-attachment-load-rating-inspection-guide",
+    "title": "Cable Attachment Load Ratings: Buyer Inspection Guide",
+    "description": "Learn how to specify cable handle working limits, proof and endurance evidence, connectors, welds, swivels, bulk inspection and private-label control.",
+    "h1": "How to Specify and Verify Cable Attachment Load Ratings",
+    "keyword": "cable attachment load rating inspection",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Cable Attachment Manufacturer Guide",
+    "sections": [
+      {
+        "heading": "Quick answer",
+        "text": "There is no credible universal load rating for every cable-machine handle. A buyer needs a declared limit for the exact finished attachment, a defined test basis, and evidence that covers the complete load path: connector, eye or ring, weld or stitching, fastener, swivel, frame and grip retention. The rating must also fit the machine, pulley arrangement, intended exercise and direction of pull.\n\nDo not copy the number printed on a weight stack, a carabiner or a competing product into an RFQ. Ask the supplier to identify what its number means, which revision it covers and how it was verified. For an OEM, ODM, custom-logo, private-label or bulk order, treat load evidence as a controlled specification rather than a sales adjective."
+      },
+      {
+        "heading": "Working limit, proof load, break result and endurance are different",
+        "text": "A declared working limit is the boundary the responsible manufacturer permits under stated use conditions. A proof or verification load is a defined non-service check intended to demonstrate a requirement without assuming the sample has reached failure. A breaking result records where a specimen failed under one method; it is not automatically a working limit. Endurance evidence asks whether the assembly remains acceptable after repeated loading under a written cycle.\n\nThose terms are not interchangeable. The report should state fixture, direction, rate, load profile, duration or cycles, specimen count, product revision and acceptance criteria. If a supplier gives only a large number with no unit, method or meaning, the buyer still has no usable rating. Applicable standards and legal requirements must be confirmed for the destination and the complete training system."
+      },
+      {
+        "heading": "Map the complete load path before comparing numbers",
+        "text": "For a rigid handle, trace the force from machine connector through eye, clevis or D-ring, weld or fastener, swivel or bearing, frame and handle-retention feature. For a textile D-handle, include the metal ring, webbing width and layers, stitch pattern, thread, edge treatment and grip core. A triceps rope adds its eye or swivel, rope splice or retention method and end stops.\n\nThe usable assembly cannot exceed its weakest verified element. Even that principle requires care: two component values produced with different fixtures, directions or definitions may not be directly comparable. Ask for an assembly decision from the responsible supplier, not a spreadsheet built from unrelated catalogue numbers. A carabiner supplied by the machine maker, one added by the importer and one packed with the handle create three different assembly boundaries."
+      },
+      {
+        "heading": "Start with the actual machine and exercise application",
+        "text": "Record the machine model, cable-end geometry, stated maximum resistance, pulley ratio or routing, one- or two-cable configuration, and instructions for approved accessories. The stack label may not equal force at the hand. Pulley ratio, attachment mass, friction, acceleration, cable angle and whether two trolleys are joined can change the application. Do not calculate a safe handle limit from stack mass alone.\n\nList the intended movements and foreseeable pull directions. A straight axial pull, an angled row, a two-point fly and a slack connector that can rotate sideways do not load hardware in the same way. Compatibility still matters, so first use the [cable attachment fit guide](/resources/are-cable-machine-attachments-universal); then write the load and evidence requirement for the chosen machine family."
+      },
+      {
+        "heading": "Build sample verification around a controlled product revision",
+        "text": "The sample record should identify the drawing revision, dimensions, material for every load-bearing part, section thickness, weld location, fastener grade and retention, bearing or bushing arrangement, coating, textile construction and supplied connector. Photograph the untested sample and inspect alignment, gate closure, burrs, cracks, incomplete welds, abnormal swivel play and stitching before loading.\n\nThe validation plan then fixes the representative fixture, direction, preconditioning, load sequence, measurement equipment and stop rule. After the defined check, compare deformation, crack indications, fastener movement, free rotation, grip retention and textile condition against written criteria. A photograph of a hanging weight does not replace a report. ChinaFreeWeight can discuss manufacturable inspection points, but a claim of compliance requires current evidence for the exact SKU and scope."
+      },
+      {
+        "heading": "Why a marked carabiner does not rate the whole attachment",
+        "text": "A connector marking can be useful only when its maker, standard, unit, direction, gate state and traceable model are known. Ratings for climbing, fall protection or industrial lifting belong to their own applications. Installing such a connector on gym equipment does not transfer that rating to the welded eye, swivel, bolt, strap, handle or machine, and it does not authorize a new exercise.\n\nConnector geometry also controls behaviour. Confirm gate opening, internal clearance, major-axis alignment and whether slack lets the connector turn across its gate or nose. Follow the machine and connector instructions; do not rely on an unmarked commodity clip or an online claim. Where the machine manufacturer specifies a particular connecting link, substitutions need responsible technical review rather than a visual match."
+      },
+      {
+        "heading": "Separate design validation from routine lot acceptance",
+        "text": "Design validation asks whether a defined construction is suitable for its intended application. It may include static, retention, loading, deflection or endurance work under the applicable product standard and risk assessment. Lot acceptance asks whether production matches that approved construction. It normally combines identity, dimensions, materials, weld and assembly checks, functional movement, finish, quantity and packaging, plus any agreed sampling test.\n\nA destructive break test on every shipped item would destroy the order; a light visual check cannot establish design strength. State which controls apply to first articles, periodic validation, each production lot and individual pieces. Also define revalidation triggers: material or supplier change, thinner section, weld change, fastener change, new swivel, relocated hole, altered textile or stitch, structural machining, or a new intended machine and direction."
+      },
+      {
+        "heading": "Inspect rigid, rotating and textile attachments differently",
+        "text": "On steel and aluminum handles, inspect eye shape, weld continuity, heat-affected appearance where relevant, frame symmetry, sharp edges, corrosion, cracks, loose fasteners and grip retention. A rotating handle needs an agreed normal-play reference and a check that it turns without binding; free rotation alone does not prove load capacity. Keep approved samples or measured references so inspectors do not invent limits at the receiving dock.\n\nFor webbing, straps and rope, look for cuts, abrasion, glazing, pulled threads, damaged seams, chemical exposure, deformed rings and loose stops. The hidden overlap and stitching construction matter, so colour and hand feel are insufficient. Life Fitness and Precor maintenance guidance both emphasize inspection around connections, accessories and hardware. A facility should follow the relevant maker's schedule and remove questionable items from use rather than field overload-testing them."
+      },
+      {
+        "heading": "Keep branding changes away from structural ambiguity",
+        "text": "Custom logo work can use a nonstructural plate, end cap, grip accent, packaging, hang tag or approved surface area. Laser marking, engraving, new holes, deep stamping or machining on a load-bearing eye, plate, tube or fastener may change geometry or local stress and therefore needs design review. A finish change can also affect fit, threads, bearing surfaces, weld inspection or corrosion behaviour.\n\nFor private label and bulk supply, link the artwork revision to the product drawing, finish reference, carton code and approved sample. OEM customization usually starts from a verified platform; ODM geometry changes require new evaluation. Never market an old report as evidence for a revised construction merely because the product name and logo stayed the same."
+      },
+      {
+        "heading": "Write the RFQ so every supplier answers the same question",
+        "text": "Send machine models, connection photos and dimensions, pulley configuration, intended movements, market, facility class, quantity by SKU and the requested delivered assembly. Ask for the declared working limit and its definition, applicable standards, validation method, report identity, specimen revision, component traceability, lot controls, change-notification rule, operating inspection and retirement guidance. Separate mandatory requirements from supplier proposals.\n\nAlso define finish, grip, rotation, OEM or ODM scope, custom-logo artwork, private-label packaging, labels and bulk inspection. If a number cannot be supported, leave it open for engineering agreement instead of inserting a familiar value. A good quotation states what is included, what remains conditional and which evidence will be supplied before production release."
+      }
+    ],
+    "table": {
+      "heading": "Evidence matrix for cable attachment procurement",
+      "columns": ["Item", "Question to resolve", "Acceptable record"],
+      "rows": [
+        ["Declared limit", "What use, direction and assembly does it cover?", "Signed specification tied to SKU and revision"],
+        ["Proof or verification", "What load sequence and acceptance rule apply?", "Method, equipment, specimen and result"],
+        ["Breaking result", "Where and how did the specimen fail?", "Destructive report kept separate from working limit"],
+        ["Endurance", "What repeated load and post-check were used?", "Cycle profile and before/after inspection"],
+        ["Connector", "Is maker, model, axis and gate state known?", "Traceable component data and assembly drawing"],
+        ["Weld or fastener", "Which joint carries force and how is it controlled?", "Drawing, process control and inspection rule"],
+        ["Textile", "Which webbing, thread, overlap and stitch are approved?", "Material and construction reference sample"],
+        ["Lot acceptance", "How is production matched to the approved design?", "Sampling plan, records and change notification"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Ten-point buyer checklist",
+      "items": [
+        "Name the exact machine, cable end and pulley arrangement.",
+        "Define the intended exercise, pull direction and commercial environment.",
+        "State the delivered assembly boundary, including or excluding connectors.",
+        "Request a declared working limit with definition and responsible owner.",
+        "Keep proof, breaking and endurance evidence clearly separated.",
+        "Map eyes, welds, fasteners, swivels, grips, webbing and stitching.",
+        "Approve a drawing, sample and inspection method under one revision.",
+        "Define first-article, lot, individual and periodic controls.",
+        "List revalidation triggers for material, geometry or process changes.",
+        "Provide operating inspection, quarantine and retirement instructions."
+      ]
+    },
+    "faq": [
+      ["How much weight can a cable attachment hold?", "There is no universal answer. Use the declared limit and test basis for the exact finished attachment, connector arrangement, machine and direction of use."],
+      ["Is a cable machine's stack weight the handle load?", "Not necessarily. Pulley ratio, routing, friction, attachment mass, acceleration and joined trolleys can change the force seen at the handle."],
+      ["Is breaking load the same as safe working load?", "No. A break result describes failure in one destructive method. A working limit is a declared service boundary under stated conditions."],
+      ["Does a rated carabiner rate the whole handle?", "No. It covers only that connector under its stated conditions. The eye, weld, swivel, fastener, strap, grip and machine still need compatible evidence."],
+      ["Should the factory load-test every attachment?", "The control plan depends on risk, standard and construction. Design validation, sampled lot checks and individual inspection have different purposes; destructive checks cannot be applied to shipped pieces."],
+      ["Can a custom logo change load performance?", "It can if marking, machining, holes, heat or finish changes a load-bearing area. Keep branding nonstructural or re-evaluate the revised design."],
+      ["When should a gym retire a cable handle?", "Follow the maker's instructions and remove it from service when there is deformation, cracking, sharp damage, abnormal looseness, binding, corrosion, damaged stitching, fraying or undocumented service history."]
+    ],
+    "faqHeading": "Frequently Asked Questions",
+    "linkHeading": "Products and buyer guides",
+    "linkLabels": ["Browse gym accessories", "View cable attachment sets", "Compare aluminum gym handles", "Compare solid steel handles", "Check cable attachment compatibility", "Plan OEM sample approval", "Prepare pre-shipment inspection", "Discuss the requirement"],
+    "imageCopy": [
+      ["Unbranded steel cable handle with eye, swivel and closed connector on an inspection bench", "The declared limit must cover every component in the finished load path."],
+      ["Textile cable handle with intact stitching beside a rigid handle and connectors", "Rigid and textile attachments need construction-specific evidence and inspection."],
+      ["V-row cable handle with welded eye illuminated during receiving inspection", "Welds, fasteners, alignment and connector condition are checked against an approved reference."]
+    ],
+    "cta": ["Specify a cable attachment order", "Send the machine, connection, intended movements, quantities, branding and evidence requirements for a model-by-model factory review.", "Request a quotation"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/carga-maxima-puxador-polia-inspecao",
+    "title": "Carga Máxima de Puxadores de Polia: Guia de Inspeção",
+    "description": "Saiba especificar limite de trabalho, prova, ruptura, mosquetão, solda, giro, costura e inspeção de puxadores OEM para academias e marcas.",
+    "h1": "Como Verificar a Carga de Puxadores de Polia",
+    "keyword": "carga máxima de puxador de polia",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "ChinaFreeWeight · Fabricante de Puxadores para Polia",
+    "sections": [
+      {
+        "heading": "Resposta direta",
+        "text": "Não existe uma carga máxima universal confiável para todo puxador de polia. O comprador precisa de um limite declarado para o produto acabado, de uma base de verificação definida e de evidências que cubram o caminho completo da força: mosquetão, olhal ou argola, solda ou costura, parafuso, giro, estrutura e retenção da empunhadura. Esse conjunto ainda deve ser compatível com a máquina, a relação de polias, o exercício e a direção de tração.\n\nNão transforme o número da torre de pesos ou de um mosquetão em especificação do acessório. Em compra OEM, ODM, com logotipo personalizado, marca própria ou fornecimento em volume, peça ao fabricante para dizer o que o valor significa, qual revisão cobre e como foi verificado."
+      },
+      {
+        "heading": "Limite de trabalho, carga de prova, ruptura e fadiga não são sinônimos",
+        "text": "O limite de trabalho é a fronteira de uso que o responsável pelo produto declara sob condições escritas. Uma carga de prova ou de verificação confirma um requisito por um método definido, sem significar que a peça chegou à falha. O resultado de ruptura mostra onde uma amostra rompeu em um ensaio destrutivo; ele não vira automaticamente uma carga segura de trabalho. A avaliação de fadiga ou resistência repetida observa o conjunto após um histórico controlado de ciclos.\n\nO relatório deve identificar dispositivo de fixação, eixo, velocidade, sequência, duração ou ciclos, quantidade de amostras, revisão e critério de aceitação. Um anúncio com um número grande, sem unidade, método e definição, não resolve a decisão de compra."
+      },
+      {
+        "heading": "Mapeie o caminho da força em cada construção",
+        "text": "Num puxador rígido, siga a força do conector para o olhal, chapa ou argola, solda ou fixador, rolamento ou bucha de giro, corpo e trava da empunhadura. Num estribo têxtil, inclua argola metálica, largura e camadas da fita, desenho da costura, linha, acabamento das bordas e núcleo do grip. A corda de tríceps acrescenta o método de fixação da corda e os batentes.\n\nO conjunto utilizável não pode superar seu elemento verificado mais fraco. Porém, valores obtidos em eixos, dispositivos ou conceitos diferentes não devem ser comparados de forma automática. Exija uma decisão sobre o conjunto entregue e registre se o mosquetão vem da máquina, do importador ou do kit."
+      },
+      {
+        "heading": "Comece pela máquina e pelo uso real da academia",
+        "text": "Registre modelo da máquina, geometria da ponta do cabo, resistência máxima informada, relação e percurso das polias, configuração com um ou dois cabos e acessórios autorizados no manual. O peso selecionado não é necessariamente a força na mão. Relação de polias, atrito, massa do puxador, aceleração, ângulo e união de duas torres alteram a aplicação.\n\nListe movimentos e direções previsíveis. Puxada axial, remada angulada, crossover de dois pontos e conector que gira de lado quando o cabo perde tensão não solicitam a peça da mesma maneira. Use primeiro o [guia de compatibilidade](/pt/blog/acessorios-cabo-polia-sao-universais) e depois defina a evidência de carga para a família de máquinas escolhida."
+      },
+      {
+        "heading": "Valide a amostra como uma revisão controlada",
+        "text": "A ficha deve reunir desenho, dimensões, material de cada parte estrutural, espessura, posição de solda, classe e retenção do fixador, bucha ou rolamento, acabamento, construção têxtil e conector incluído. Antes da aplicação de carga definida, fotografe a amostra e verifique alinhamento, fechamento, rebarba, trinca, solda incompleta, folga anormal e costura.\n\nO plano fixa dispositivo representativo, eixo, condicionamento, sequência de carga, equipamento de medição e regra de interrupção. Depois, compare deformação, indício de trinca, movimento do fixador, rotação, retenção do grip e condição do tecido com critérios escritos. Foto com peso pendurado não substitui relatório rastreável."
+      },
+      {
+        "heading": "Por que o valor do mosquetão não classifica o puxador inteiro",
+        "text": "Uma marcação no mosquetão só ajuda quando fabricante, modelo, norma, unidade, eixo e estado do fecho são conhecidos. Conectores de escalada, proteção contra queda e movimentação industrial pertencem a usos próprios. Colocar um deles na academia não transfere sua classificação para olhal, solda, giro, parafuso, fita, grip ou máquina.\n\nConfirme abertura do fecho, espaço interno e alinhamento no eixo principal. Avalie se a folga do cabo deixa o mosquetão apoiar no fecho ou no bico. Siga o manual da máquina e do componente; uma peça sem identificação ou uma descrição de marketplace não é evidência suficiente."
+      },
+      {
+        "heading": "Separe validação de projeto e aceitação do lote",
+        "text": "A validação verifica se a construção definida atende ao uso proposto, podendo abranger carga estática, retenção, deformação e resistência repetida conforme norma e avaliação aplicáveis. A aceitação de lote confirma se a produção repete o projeto aprovado: identidade, dimensões, materiais, solda, montagem, movimento, acabamento, quantidade, embalagem e eventual amostragem de carga acordada.\n\nRomper cada item destruiria o pedido, enquanto olhar a superfície não comprova resistência. Defina controles para primeira peça, validação periódica, lote e unidade. Exija nova avaliação quando mudar material, fornecedor crítico, espessura, solda, parafuso, giro, furo, fita, costura, usinagem ou máquina de destino."
+      },
+      {
+        "heading": "Inspecione metal, giro e tecido com critérios próprios",
+        "text": "Em puxadores de aço ou alumínio, observe olhal, continuidade da solda, simetria, bordas, corrosão, trincas, fixadores soltos e retenção do grip. Para peças giratórias, aprove uma referência de folga normal e confirme movimento livre sem travamento; girar bem não comprova capacidade de carga. Mantenha amostra aprovada e medidas para a inspeção de recebimento.\n\nEm fita e corda, procure cortes, abrasão, endurecimento, fios puxados, costura danificada, ataque químico, argola deformada e batente solto. Na operação, siga a frequência indicada pelo fabricante e retire de uso qualquer item duvidoso. Sobrecarregar o acessório na academia não é um método de inspeção."
+      },
+      {
+        "heading": "Mantenha logotipo e acabamento fora da incerteza estrutural",
+        "text": "O logotipo pode ficar em placa sem função estrutural, tampa, detalhe do grip, embalagem ou etiqueta. Gravação profunda, novo furo, estampagem ou usinagem em olhal, chapa, tubo ou fixador muda a geometria e exige revisão. Até um novo banho ou pintura pode interferir em rosca, ajuste, rolamento, visualização da solda ou corrosão.\n\nVincule a arte da marca própria ao desenho, referência de cor, código de caixa e amostra. A personalização OEM costuma partir de uma plataforma já avaliada; mudanças ODM de geometria pedem nova verificação. Um relatório antigo não cobre automaticamente uma versão nova com o mesmo nome comercial."
+      },
+      {
+        "heading": "Escreva uma solicitação de cotação comparável",
+        "text": "Envie modelos das máquinas, fotos e medidas da conexão, relação de polias, exercícios, mercado, classe de uso, quantidade por SKU e limite do conjunto entregue. Peça definição do limite de trabalho, normas aplicáveis, método de validação, identificação do relatório, revisão das amostras, rastreabilidade, controle do lote, aviso de mudança e instrução de inspeção e descarte.\n\nAcrescente acabamento, grip, giro, escopo OEM ou ODM, logotipo personalizado, embalagem de marca própria e inspeção. Se o valor ainda não tiver suporte, deixe-o para acordo técnico em vez de copiar um número conhecido. A proposta deve separar o que está incluído, o que depende de confirmação e a evidência anterior à liberação da produção."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de evidências para compra de puxadores",
+      "columns": ["Elemento", "Pergunta", "Registro esperado"],
+      "rows": [
+        ["Limite declarado", "Qual uso, eixo e conjunto estão cobertos?", "Especificação ligada ao SKU e à revisão"],
+        ["Prova", "Qual sequência e qual aceitação foram usadas?", "Método, equipamento, amostra e resultado"],
+        ["Ruptura", "Onde e como a peça falhou?", "Relatório destrutivo separado do limite de trabalho"],
+        ["Resistência repetida", "Qual histórico e qual inspeção final?", "Perfil de ciclos e comparação antes/depois"],
+        ["Mosquetão", "Modelo, eixo e fecho estão definidos?", "Dados rastreáveis e desenho de montagem"],
+        ["Solda ou fixador", "Qual junta transmite a força?", "Desenho, processo e regra de inspeção"],
+        ["Têxtil", "Quais fita, linha e costura foram aprovadas?", "Material, construção e amostra de referência"],
+        ["Lote", "Como a produção repete o projeto?", "Plano de amostragem e aviso de alteração"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Checklist de dez pontos",
+      "items": [
+        "Identificar máquina, ponta do cabo e percurso das polias.",
+        "Definir exercício, direção e ambiente comercial.",
+        "Declarar se mosquetões fazem parte do conjunto entregue.",
+        "Solicitar limite de trabalho com definição e responsável.",
+        "Separar evidências de prova, ruptura e resistência repetida.",
+        "Mapear olhal, solda, fixador, giro, grip, fita e costura.",
+        "Aprovar desenho, amostra e inspeção sob a mesma revisão.",
+        "Definir controles de primeira peça, lote, unidade e período.",
+        "Listar mudanças que exigem nova validação.",
+        "Fornecer regras de inspeção, quarentena e descarte."
+      ]
+    },
+    "faq": [
+      ["Quantos quilos suporta um puxador de polia?", "Não há valor universal. Use o limite e a base de verificação do produto acabado, da conexão, da máquina e da direção de uso."],
+      ["O peso da torre é a carga na mão?", "Nem sempre. Relação das polias, percurso, atrito, massa do acessório, aceleração e união de cabos mudam a aplicação."],
+      ["Carga de ruptura é igual a carga segura de trabalho?", "Não. Ruptura é um resultado destrutivo; o limite de trabalho é uma fronteira de serviço declarada sob condições definidas."],
+      ["Um mosquetão classificado define a capacidade do puxador?", "Não. Ele cobre somente o conector nas condições indicadas. Olhal, solda, giro, parafuso, fita, grip e máquina continuam sendo partes separadas."],
+      ["A fábrica deve aplicar carga em todas as peças?", "O plano depende do risco, da norma e da construção. Validação, amostragem de lote e inspeção individual têm funções diferentes; ensaio destrutivo não serve para peças enviadas."],
+      ["O logotipo pode alterar a resistência?", "Pode, se furo, gravação, calor, usinagem ou acabamento atingir uma região estrutural. Prefira área sem função de carga ou valide a revisão."],
+      ["Quando retirar um puxador de uso?", "Siga o fabricante e retire em caso de deformação, trinca, borda danificada, corrosão, folga anormal, travamento, costura rompida, desgaste têxtil ou histórico desconhecido."]
+    ],
+    "faqHeading": "Perguntas frequentes",
+    "linkHeading": "Produtos e guias de compra",
+    "linkLabels": ["Ver acessórios para academia", "Ver kits para polia", "Comparar puxadores de alumínio", "Comparar puxadores de aço", "Conferir compatibilidade", "Planejar aprovação da amostra", "Preparar inspeção pré-embarque", "Discutir a especificação"],
+    "imageCopy": [
+      ["Barra de polia sem marca com giro e ferramentas de inspeção em mesa", "O limite precisa corresponder à revisão completa, não apenas ao corpo metálico."],
+      ["Puxador em V e conexão fechada sob inspeção visual", "Solda, olhal, alinhamento e mosquetão formam uma única cadeia de carga."],
+      ["Barra curva para polia com conexão central giratória", "Máquina, geometria e direção de tração fazem parte da aplicação especificada."]
+    ],
+    "cta": ["Especifique um pedido de puxadores", "Envie máquina, conexão, exercícios, quantidades, marca e evidências desejadas para análise da fábrica por modelo.", "Solicitar cotação"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/carga-maxima-accesorios-polea-inspeccion",
+    "title": "Carga Máxima de Accesorios de Polea: Guía de Control",
+    "description": "Aprenda a definir límite de uso, prueba, rotura, mosquetón, soldadura, giro, costura y control de accesorios de polea OEM y marca privada.",
+    "h1": "Cómo Verificar la Carga de los Accesorios de Polea",
+    "keyword": "carga máxima de accesorios de polea",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "ChinaFreeWeight · Fabricante de Accesorios de Polea",
+    "sections": [
+      {
+        "heading": "Respuesta breve",
+        "text": "No existe una carga máxima universal y creíble para todos los agarres de polea. El comprador necesita un límite declarado para el accesorio terminado, una base de comprobación definida y evidencia de todo el recorrido de la fuerza: conector, ojal o anilla, soldadura o costura, tornillo, articulación giratoria, bastidor y retención del puño. El conjunto también debe corresponder a la máquina, su relación de poleas, el ejercicio y la dirección de tiro.\n\nNo copie el número de la torre de placas ni el grabado de un mosquetón en el pliego. En un pedido OEM, ODM, con logo personalizado, marca privada o suministro mayorista, pida qué significa el valor, qué revisión cubre y cómo se verificó."
+      },
+      {
+        "heading": "Límite de trabajo, carga de prueba, rotura y resistencia repetida",
+        "text": "El límite de trabajo es la frontera de servicio que declara el responsable del producto bajo condiciones escritas. Una carga de prueba o verificación comprueba un requisito mediante un método definido sin suponer que la muestra ha fallado. La rotura registra dónde falló una probeta durante un procedimiento destructivo; no se convierte por sí sola en límite de uso. La resistencia repetida evalúa el estado del conjunto tras un perfil controlado de ciclos.\n\nEl informe debe identificar útil, eje, velocidad, secuencia, duración o ciclos, número de muestras, revisión y criterio de aceptación. Un número grande sin unidad, método ni definición sigue sin responder a la compra."
+      },
+      {
+        "heading": "Dibuje la cadena de carga completa",
+        "text": "En una barra rígida, siga la fuerza desde el conector hasta el ojal, pletina o anilla, soldadura o tornillo, casquillo o rodamiento, bastidor y retención del puño. En una empuñadura textil, incluya anilla, anchura y capas de cinta, patrón de costura, hilo, borde y núcleo. En una cuerda de tríceps también cuentan el empalme o la retención y los topes.\n\nEl conjunto no puede superar su elemento verificado más débil, pero tampoco se deben comparar cifras obtenidas con ejes, montajes o definiciones distintas. Pida al proveedor una decisión sobre el conjunto entregado y aclare si el mosquetón pertenece a la máquina, al importador o al kit."
+      },
+      {
+        "heading": "Parta de la máquina y del ejercicio previstos",
+        "text": "Anote modelo, terminal del cable, resistencia máxima declarada, recorrido o relación de poleas, configuración de uno o dos cables y accesorios admitidos por el fabricante. La masa seleccionada no tiene por qué ser la fuerza en la mano. Relación, fricción, peso del accesorio, aceleración, ángulo y unión de dos carros cambian la aplicación.\n\nEnumere ejercicios y direcciones previsibles. Un tirón axial, un remo en ángulo, un cruce a dos puntos y un conector que cae de lado cuando hay holgura no cargan igual. Consulte primero la [guía de compatibilidad](/es/blog/accesorios-poleas-gimnasio-universales) y después defina la evidencia para esa familia de máquinas."
+      },
+      {
+        "heading": "Convierta la muestra en una versión controlada",
+        "text": "La ficha de muestra debe identificar plano, dimensiones, material y espesor de cada pieza portante, soldadura, clase y retención del tornillo, rodamiento o casquillo, acabado, construcción textil y conector suministrado. Antes de la carga definida, fotografíe e inspeccione alineación, cierre, rebabas, grietas, soldadura incompleta, holgura anormal y costura.\n\nEl plan fija montaje representativo, dirección, acondicionamiento, secuencia, equipo de medición y regla de parada. Después compare deformación, indicios de grieta, movimiento del tornillo, giro, retención y tejido frente a criterios escritos. Una foto con discos colgados no sustituye un informe trazable."
+      },
+      {
+        "heading": "El grabado del mosquetón no califica todo el agarre",
+        "text": "La marca de un conector solo es útil si se conocen fabricante, modelo, norma, unidad, eje y estado del cierre. Escalada, protección anticaídas y elevación industrial tienen contextos propios. Instalar uno de esos conectores en una máquina no transfiere su clasificación al ojal, soldadura, giro, tornillo, cinta, puño o equipo.\n\nCompruebe apertura, espacio interior, orientación en el eje principal y posibilidad de carga lateral cuando el cable queda flojo. Respete instrucciones de máquina y componente; un mosquetón sin trazabilidad o una afirmación comercial no bastan."
+      },
+      {
+        "heading": "No mezcle validación de diseño y aceptación del lote",
+        "text": "La validación determina si una construcción definida sirve para la aplicación, con las comprobaciones estáticas, de retención, deformación o resistencia repetida que correspondan. La aceptación de lote confirma que la producción coincide con lo aprobado mediante identidad, medidas, materiales, soldadura, montaje, movimiento, acabado, cantidad, embalaje y cualquier muestreo acordado.\n\nRomper cada unidad destruiría el pedido; una inspección superficial no demuestra resistencia. Especifique controles de primera pieza, periódicos, por lote e individuales. Material, espesor, proveedor crítico, soldadura, tornillo, giro, agujero, cinta, costura, mecanizado o nueva máquina son posibles motivos de revalidación."
+      },
+      {
+        "heading": "Aplique criterios distintos a metal, giro y textil",
+        "text": "En acero y aluminio revise ojal, continuidad de soldadura, simetría, bordes, corrosión, grietas, tornillos flojos y retención del puño. En piezas giratorias apruebe una referencia de juego normal y compruebe que no se atascan; girar libremente no demuestra capacidad. Guarde una muestra o medidas para que la recepción no improvise.\n\nEn cintas y cuerdas busque cortes, abrasión, endurecimiento, hilos tirados, costura dañada, ataque químico, anillas deformadas y topes sueltos. La instalación debe seguir el programa del fabricante y retirar de servicio lo dudoso, no someterlo a sobrecarga en la sala."
+      },
+      {
+        "heading": "Ubique logo y acabado fuera de la ruta estructural",
+        "text": "El logo personalizado puede situarse en una placa no portante, tapa, detalle del puño, caja o etiqueta. Grabado profundo, perforación, estampación o mecanizado en ojal, pletina, tubo o tornillo cambian la geometría y requieren revisión. Un nuevo recubrimiento también puede afectar roscas, ajustes, rodamientos, inspección de soldadura o corrosión.\n\nVincule la versión gráfica con plano, muestra de color, código de caja y pieza aprobada. La personalización OEM suele partir de una plataforma verificada; un cambio ODM de geometría necesita nueva evaluación. Un informe antiguo no cubre automáticamente una construcción revisada."
+      },
+      {
+        "heading": "Redacte una solicitud de oferta comparable",
+        "text": "Envíe modelos de máquina, fotos y medidas del enlace, relación de poleas, movimientos, país, clase de uso, cantidades por referencia y límite del conjunto suministrado. Solicite definición del límite de trabajo, normas aplicables, método, informe, revisión de muestra, trazabilidad, control de lote, aviso de cambios e instrucciones de inspección y retirada.\n\nAñada acabado, puño, giro, alcance OEM u ODM, logo, embalaje de marca privada e inspección. Si una cifra carece de soporte, déjela para acuerdo técnico. La oferta debe distinguir lo incluido, lo condicionado y la evidencia que llegará antes de autorizar la producción."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de evidencia para comprar accesorios",
+      "columns": ["Elemento", "Pregunta", "Registro útil"],
+      "rows": [
+        ["Límite declarado", "¿Qué uso, eje y conjunto cubre?", "Especificación ligada a referencia y revisión"],
+        ["Prueba", "¿Qué secuencia y aceptación se aplican?", "Método, equipo, muestra y resultado"],
+        ["Rotura", "¿Dónde y cómo falló?", "Informe destructivo separado del límite de uso"],
+        ["Resistencia repetida", "¿Qué perfil y revisión final se usaron?", "Ciclos e inspección antes/después"],
+        ["Conector", "¿Modelo, eje y cierre están definidos?", "Datos trazables y plano de montaje"],
+        ["Soldadura o tornillo", "¿Qué unión transmite la fuerza?", "Plano, proceso y control"],
+        ["Textil", "¿Qué cinta, hilo y costura se aprobaron?", "Material, construcción y muestra"],
+        ["Lote", "¿Cómo se repite el diseño aprobado?", "Muestreo, registros y aviso de cambio"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Lista de diez puntos para el comprador",
+      "items": [
+        "Identificar máquina, terminal y recorrido de poleas.",
+        "Definir ejercicio, dirección y entorno comercial.",
+        "Aclarar si el conector forma parte de la entrega.",
+        "Pedir límite de trabajo definido y responsable.",
+        "Separar prueba, rotura y resistencia repetida.",
+        "Mapear ojal, soldadura, tornillo, giro, puño y costura.",
+        "Aprobar plano, muestra y control con una revisión.",
+        "Definir controles iniciales, por lote, unidad y periodo.",
+        "Listar cambios que obligan a revalidar.",
+        "Entregar instrucciones de inspección y retirada."
+      ]
+    },
+    "faq": [
+      ["¿Cuánto peso soporta un accesorio de polea?", "No existe un valor universal. Use el límite y método del accesorio terminado, su conexión, máquina y dirección de uso."],
+      ["¿La torre de pesos indica la carga en la mano?", "No siempre. Relación de poleas, recorrido, fricción, masa, aceleración y combinación de cables modifican la aplicación."],
+      ["¿La carga de rotura es el límite seguro?", "No. La rotura es un resultado destructivo; el límite de trabajo es una frontera de servicio declarada bajo condiciones definidas."],
+      ["¿Un mosquetón marcado califica el agarre completo?", "No. Solo cubre ese conector en sus condiciones. Ojal, soldadura, giro, tornillo, cinta, puño y máquina requieren evidencia compatible."],
+      ["¿Debe probarse con carga cada unidad?", "Depende del riesgo, norma y construcción. Validación de diseño, muestreo de lote e inspección individual cumplen funciones distintas; una prueba destructiva no sirve para la entrega."],
+      ["¿Puede el logo reducir la resistencia?", "Sí, si perforación, grabado, calor, mecanizado o acabado afectan una zona portante. Use una zona no estructural o revalide."],
+      ["¿Cuándo debe retirarse un agarre?", "Siga al fabricante y retírelo ante deformación, grieta, borde peligroso, corrosión, holgura anormal, bloqueo, costura rota, abrasión o historial incierto."]
+    ],
+    "faqHeading": "Preguntas frecuentes",
+    "linkHeading": "Productos y guías relacionadas",
+    "linkLabels": ["Ver accesorios de gimnasio", "Ver kits para poleas", "Comparar agarres de aluminio", "Comparar agarres de acero", "Revisar compatibilidad", "Planificar la muestra OEM", "Preparar inspección preembarque", "Consultar la especificación"],
+    "imageCopy": [
+      ["Accesorio de remo sin marca con soldadura y conector bajo inspección", "Ojal, soldadura, giro y conector deben pertenecer a la misma revisión verificada."],
+      ["Barra giratoria para polea junto a calibre y ficha sin datos", "La geometría y el conjunto entregado se documentan antes de autorizar producción."],
+      ["Agarre en V con articulación giratoria sobre mesa de muestra", "El examen posterior compara alineación, fijaciones y movimiento con criterios escritos."]
+    ],
+    "cta": ["Defina su pedido de accesorios", "Envíe máquina, conexión, movimientos, cantidades, marca y evidencia requerida para una revisión de fábrica por modelo.", "Solicitar oferta"]
+  }
+]

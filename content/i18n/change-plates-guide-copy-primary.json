@@ -1,0 +1,326 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/change-plates-vs-fractional-plates-buying-guide",
+    "title": "Change Plates vs Fractional Plates: B2B Buying Guide",
+    "description": "Compare change plates and fractional plates by increments, fit, mass control, retention, marking and bulk inspection for commercial gym and private-label orders.",
+    "h1": "How to Buy Change Plates and Fractional Plates for a Commercial Gym",
+    "keyword": "change plates vs fractional plates buying guide",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Small-plate range planning and inspection",
+    "sections": [
+      {
+        "heading": "The quick answer: specify the loading job before the product name",
+        "text": "Change plates and fractional plates both make smaller loading steps, but the names are not applied consistently across every market. A useful purchase specification states each marked denomination, the total increase when a pair is added, kg or lb, centre-bore interface, material, outside profile, retention behaviour and intended position on the bar. Do not approve a line from the words change plate or micro plate alone.\n\nFor a commercial gym, distributor or private-label brand, begin with the training programmes and bar systems that will use the plates. Then build the required pair increments, verify fit and mass on production-equivalent samples and define how the bulk lot will be checked. ChinaFreeWeight can review OEM, ODM, Custom Logo, Private Label and Bulk Supply requirements after the exact range and evidence are identified."
+      },
+      {
+        "heading": "Change plate and fractional plate are purchasing categories, not universal constructions",
+        "text": "In common market use, change plates cover small denominations used between the larger plates, while fractional or micro plates usually describe the lightest increments. Some suppliers overlap the terms. Products may use a coated steel core, a metal insert, an all-metal body or a frictional inner surface, and their outside diameters may stay constant or increase with mass.\n\nThe order sheet should therefore define the product family with measurable fields. Record the denomination on one plate, the pair addition, bore or grip interface, finished thickness, outside diameter, marking layout, color plan and permitted use. Keep competition references, ordinary training products and special record-loading plates as separate configurations instead of merging their labels into one assumed standard."
+      },
+      {
+        "heading": "Calculate the pair increment and range around the real programme",
+        "text": "Plates are normally loaded symmetrically, so purchasing teams should show both the mass of one plate and the change made by a pair. A facility that programs in kilograms should not quietly substitute a pound series, and a mixed-unit club needs an explicit storage and identification plan. List the smallest useful jump for presses, technique work and staged warm-ups, then check that larger combinations can be assembled without redundant SKUs.\n\nCurrent IWF rules list specific competition disc denominations and colors for IWF events, while current IPF rules use a different disc range and provide lighter record plates for their own context. Those documents help buyers understand why discipline and purpose matter; they do not make every commercial small plate approved equipment or establish one universal retail assortment."
+      },
+      {
+        "heading": "Control bore fit, friction and position relative to the collar",
+        "text": "An Olympic label does not fully describe fit. State the finished bore or friction interface, measuring method and compatible sleeve family. The sample should slide or grip as intended without tearing the coating, binding unexpectedly or moving in a way that conflicts with the operating instruction. Check both new and conditioned samples if the selected material is expected to bed in.\n\nSome competition workflows place selected light plates outside a collar and rely on a designed friction fit; many commercial training setups keep plates inside an ordinary collar. The RFQ must state which arrangement is intended. Never copy an outside-collar use claim to a different bore, material or surface merely because the plate has the same color."
+      },
+      {
+        "heading": "Treat small-plate mass and pair matching as their own acceptance decision",
+        "text": "A small absolute difference can be meaningful when the marked denomination itself is small. Define the permitted deviation for the exact model, whether the rule applies to each plate or to a matched pair, and how the result will be rounded. Do not advertise a plate as calibrated unless the evidence, method and product scope support that description.\n\nUse a scale with suitable capacity, resolution, verification status and repeatability for the decision. Identify the plate, let the reading stabilize and record individual results rather than only a pass mark. The scale used for large bumper plates may be too coarse for a light fractional line, while a small tabletop scale may lack capacity for the rest of the range."
+      },
+      {
+        "heading": "Approve material, marking and color as a connected system",
+        "text": "Coated steel, rubber over a core and other constructions feel different on the sleeve and respond differently to edge impact, storage contact and cleaning. Specify the body and insert materials, edge condition, coating coverage, permitted seams, surface transfer and care instructions. A color name alone does not define compound, finish or durability.\n\nEvery plate needs a legible denomination and unit. Review contrast, orientation and whether the marking remains visible when plates are stored or nested. If competition colors are requested, cite the intended rule and edition. Custom artwork must not hide the mass, unit, traceability or friction area, and a change in logo relief or coating can affect final mass."
+      },
+      {
+        "heading": "Plan pairs, spare stock and storage before ordering the set",
+        "text": "A useful commercial assortment is driven by simultaneous users and programmed jumps, not by a photograph of a complete rainbow. Map each session type to the pairs required at one time, distinguish platform stock from member micro plates and decide whether very light items are controlled by coaches, kept at each rack or sold as personal accessories.\n\nCount pairs rather than loose pieces, then decide which denominations need replacements. Small plates are easy to misplace, mix between kg and lb zones or load asymmetrically. Storage pegs, trays or labeled compartments should fit the actual bore, outside diameter and plate count without squeezing soft coatings or obscuring the unit."
+      },
+      {
+        "heading": "Inspect the full SKU family, not only one attractive sample",
+        "text": "Approve representative plates from the light, middle and upper end of the proposed small-plate range. Verify identity, individual mass, pair matching, bore fit, thickness, outside profile, flatness, edge finish, coating, color, markings and stacking. Check the intended bar and collar arrangement physically, because separate measurements do not reveal every interaction.\n\nFor bulk receiving, spread the sample across denominations, cartons and production periods according to the agreed plan. Record each result against the SKU and lot, quarantine unexplained substitutions and define the response to an isolated failure or a repeated pattern. Packaging must prevent dense plates from rubbing, escaping small compartments or transferring color during export."
+      },
+      {
+        "heading": "Freeze OEM and private-label decisions in one controlled approval",
+        "text": "An OEM project may apply a new logo, color, denomination layout or carton to an established construction. ODM work can change the bore, material, diameter, thickness, grip behaviour or range. Either route needs a production-equivalent sample and a revision record that ties product, artwork, weight table, inspection method and packaging together.\n\nAs a factory, ChinaFreeWeight can review manufacture and sourcing requirements for custom small-plate ranges, but the proposal remains model-specific. Send the target market, kg or lb system, denominations, quantities by SKU, bars and collars, intended use, marking files, packing route and required evidence. Price, MOQ and lead time are confirmed only after that configuration is understood."
+      }
+    ],
+    "table": {
+      "heading": "Eight fields to compare before approving a small-plate range",
+      "columns": ["Field", "Define in the RFQ", "Verify on the sample"],
+      "rows": [
+        ["Range", "Denominations and pair increments", "Every marked SKU is present"],
+        ["Unit", "Separate kg or lb system", "Mark and carton agree"],
+        ["Mass", "Model-specific deviation and pair rule", "Suitable recorded weighing"],
+        ["Interface", "Bore, friction and sleeve family", "Fit on the intended bar"],
+        ["Profile", "Diameter, thickness and edge", "Dimensions and safe handling"],
+        ["Material", "Core, coating and contact surface", "Construction and finish match"],
+        ["Marking", "Mass, unit, color and artwork", "Legibility and orientation"],
+        ["Pack", "Pair separation and carton identity", "No movement or surface transfer"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Ten-point buyer checklist",
+      "items": [
+        "List every denomination and the total increment added by a pair.",
+        "Keep kilogram and pound assortments visibly separate.",
+        "State the intended discipline, users, bars and collar arrangement.",
+        "Define bore or friction fit with a measurable method.",
+        "Set mass and pair-matching rules for the actual model.",
+        "Use weighing equipment suitable for the lightest plate.",
+        "Approve material, finish, color and markings together.",
+        "Check light, middle and upper SKUs on production-equivalent samples.",
+        "Link custom artwork and packaging to the controlled revision.",
+        "Sample bulk stock across SKUs, cartons and production periods."
+      ]
+    },
+    "faq": [
+      ["What is the difference between change plates and fractional plates?", "Both provide smaller loading steps. Fractional plates usually describe the lightest increments, while change plates often continue into larger small denominations, but market naming overlaps. Specify the complete range instead of relying on the label."],
+      ["Why must the increment be calculated by pair?", "One plate is normally added to each side of the bar. The training load therefore changes by the combined mass of the pair, which should be shown on the range plan."],
+      ["Do all small plates fit every Olympic bar?", "No. Confirm the finished bore or friction interface, sleeve dimensions, coating condition and intended position relative to the collar on the exact bar system."],
+      ["Are competition colors proof of competition approval?", "No. Color helps identification but does not prove mass, dimensions, certification or approval. Cite the relevant rule and verify the exact product evidence when competition use matters."],
+      ["How should fractional plates be weighed?", "Use suitable equipment with enough capacity and resolution, record individual stabilized readings and apply the agreed model-specific deviation and pair rule."],
+      ["Can a factory add a custom logo?", "For suitable models, yes. Approve the artwork, mass and unit visibility, relief or print method, final mass, friction area and packaging on a production-equivalent sample."],
+      ["What should a bulk RFQ include?", "Send the units, denominations, quantity by SKU, pair increments, bars, collars, intended use, fit and mass criteria, color and logo files, packaging, destination and required inspection evidence."]
+    ],
+    "faqHeading": "Change plates and fractional plates FAQ",
+    "linkHeading": "Continue the buying specification",
+    "linkLabels": [
+      "Compare ChinaFreeWeight plate families",
+      "Define weight-plate mass tolerance",
+      "Check plate bore and sleeve fit",
+      "Control outside diameter and profile",
+      "Plan kg and lb assortments",
+      "Calculate sleeve capacity",
+      "Choose the correct barbell collars",
+      "Build a complete commercial RFQ",
+      "Approve an OEM sample",
+      "Send the project to the factory"
+    ],
+    "imageCopy": [
+      ["Unbranded Olympic change plates and fractional plates arranged beside a barbell sleeve", "Separate the two small-plate families before deciding denominations, fit and inspection rules."],
+      ["Small color-coded change plates compared across graduated diameters", "The range must be approved SKU by SKU rather than inferred from one sample."],
+      ["Thin fractional plates with centered bores ready for fit and pair review", "Mass, pair increment and sleeve interface are separate acceptance fields."]
+    ],
+    "cta": ["Specify the small-plate system before requesting a quote", "Send the denomination table, kg or lb market, bar and collar interface, quantities, branding, packaging and inspection needs. ChinaFreeWeight will review a model-specific OEM, ODM or bulk-supply route.", "Request a factory review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/anilhas-fracionadas-change-plates-guia-compra",
+    "title": "Anilhas Fracionadas e Change Plates: Guia de Compra B2B",
+    "description": "Compare anilhas fracionadas e change plates por incremento, encaixe, massa, marcação e inspeção para academias, distribuidores e marcas próprias.",
+    "h1": "Como Comprar Anilhas Fracionadas e Change Plates para Academia",
+    "keyword": "anilhas fracionadas e change plates para academia",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Planejamento e inspeção de anilhas leves",
+    "sections": [
+      {
+        "heading": "Resposta direta: defina o salto de carga antes do nome comercial",
+        "text": "Anilhas fracionadas e change plates permitem aumentos menores na barra, porém os nomes se sobrepõem no mercado. Uma compra profissional deve listar a massa marcada de cada peça, o incremento total do par, kg ou lb, interface do furo, material, perfil externo, retenção e posição prevista em relação ao colar. A expressão do catálogo, sozinha, não fecha a especificação.\n\nPara academia, distribuidor ou marca própria, comece pela programação de treino e pelas barras disponíveis. Monte os incrementos úteis, teste o encaixe e a massa em amostras equivalentes à produção e defina a inspeção do lote. A ChinaFreeWeight analisa projetos OEM, ODM, Custom Logo, Private Label e Bulk Supply quando a faixa e as evidências estão claras."
+      },
+      {
+        "heading": "Anilha de troca e anilha fracionada não têm construção universal",
+        "text": "No uso brasileiro, anilha fracionada costuma indicar os menores incrementos, enquanto change plate pode abranger a sequência leve usada entre as anilhas grandes. Fornecedores aplicam os termos de maneiras diferentes. Há peças com núcleo de aço revestido, inserto metálico, corpo totalmente metálico ou superfície interna de maior atrito.\n\nA ficha de compra precisa transformar a família em campos verificáveis: massa por peça, acréscimo do par, diâmetro do furo, espessura, diâmetro externo, desenho da borda, marcação e cor. Separe produto de competição, produto de treinamento e anilha especial para recorde; regras de uma modalidade não devem ser misturadas em uma categoria genérica."
+      },
+      {
+        "heading": "Monte a faixa de pares a partir do treino real da academia",
+        "text": "Como a barra é carregada dos dois lados, mostre sempre a massa de uma anilha e a mudança criada pelo par. Uma academia que trabalha em quilogramas não deve receber silenciosamente uma série em libras. Em operação mista, use armazenamento, cor e identificação que impeçam combinações acidentais.\n\nMapeie os menores saltos úteis para movimentos de membros superiores, técnica, aquecimento e progressões dos alunos. As regras atuais da IWF e da IPF ilustram que modalidades diferentes adotam denominações próprias em competição. Elas ajudam a formular a pergunta correta, mas não transformam qualquer anilha colorida em equipamento aprovado."
+      },
+      {
+        "heading": "Controle o encaixe, o atrito e a posição em relação ao colar",
+        "text": "A palavra olímpica não define todo o encaixe. Indique o furo acabado ou a superfície de atrito, o método de medição e a família de mangas compatível. A amostra deve entrar e sair como previsto, sem rasgar o revestimento, travar de forma inesperada nem se mover contra a instrução de uso.\n\nAlguns sistemas de competição colocam anilhas leves específicas do lado externo do colar e dependem de retenção por atrito; o uso comercial comum costuma manter as peças dentro de um colar convencional. Informe o arranjo no pedido. Não replique uma alegação de uso externo em outro material ou furo só porque a cor é parecida."
+      },
+      {
+        "heading": "Trate massa pequena e combinação de pares como critérios próprios",
+        "text": "Uma diferença absoluta modesta pode ser relevante quando a massa nominal também é pequena. Defina o desvio permitido para o modelo, se a regra vale por peça ou por par e como ocorre o arredondamento. A palavra calibrada exige evidência compatível com o produto e o método; acabamento colorido não a comprova.\n\nUse balança com capacidade, resolução, verificação e repetibilidade adequadas. Identifique a peça, espere a leitura estabilizar e registre o valor individual. A balança utilizada em bumper plates pesadas pode ser grosseira para uma linha fracionada, e uma balança pequena pode não cobrir toda a sequência."
+      },
+      {
+        "heading": "Aprove material, cor e marcação como um sistema",
+        "text": "Aço revestido, borracha sobre núcleo e outras construções mudam o contato com a manga, a resistência da borda, a limpeza e o armazenamento. Especifique corpo, inserto, cobertura, emendas permitidas, transferência superficial e cuidados. O nome da cor não determina formulação nem durabilidade.\n\nA massa e a unidade devem permanecer legíveis na peça e na caixa. Revise contraste, orientação e leitura quando as anilhas ficam empilhadas. Se o projeto usar cores de uma federação, cite a regra e a edição. O logotipo não pode esconder massa, unidade, rastreabilidade ou área de atrito; relevo e tinta também podem alterar a massa final."
+      },
+      {
+        "heading": "Planeje pares, reposição e armazenamento antes do pedido",
+        "text": "Uma faixa comercial útil nasce do número de usuários simultâneos e dos saltos programados, não de uma foto com todas as cores. Relacione cada tipo de aula aos pares necessários, separe material de plataforma das microanilhas pessoais e decida se os menores itens ficam com treinadores, em cada rack ou em compartimento controlado.\n\nConte pares, não apenas peças soltas, e defina reposição para as massas mais usadas. Anilhas pequenas se perdem com facilidade e podem migrar entre zonas de kg e lb. Pinos, bandejas e divisórias devem aceitar furo, diâmetro e quantidade sem comprimir revestimento macio nem ocultar a unidade."
+      },
+      {
+        "heading": "Inspecione a família completa e amostre o lote",
+        "text": "Aprove peças leves, intermediárias e superiores da faixa. Verifique identidade, massa individual, pareamento, encaixe, espessura, perfil, planicidade, borda, acabamento, cor, marcação e empilhamento. Monte a combinação na barra e no colar escolhidos, pois medidas isoladas não revelam toda a interação.\n\nNo recebimento, distribua a amostra entre denominações, caixas e momentos de produção conforme o plano acordado. Registre resultado por SKU e lote, separe substituições não explicadas e defina a ação para falha isolada ou padrão repetido. A embalagem precisa impedir atrito, troca de pares e transferência de cor no transporte."
+      },
+      {
+        "heading": "Congele OEM, marca própria e embalagem em uma única aprovação",
+        "text": "Um projeto OEM pode aplicar novo logo, cor, marcação e caixa a uma construção existente. Um desenvolvimento ODM pode alterar furo, material, diâmetro, espessura, retenção ou faixa. Nos dois casos, use amostra equivalente à produção e uma revisão que ligue produto, arte, tabela de massas, inspeção e embalagem.\n\nComo fábrica, a ChinaFreeWeight avalia fabricação e fornecimento de linhas personalizadas, sempre por modelo. Envie mercado, sistema kg ou lb, denominações, quantidade por SKU, barras, colares, uso, arquivos de marca, embalagem e evidências desejadas. Preço, MOQ e prazo são confirmados após entender essa configuração."
+      }
+    ],
+    "table": {
+      "heading": "Oito campos para comparar antes da aprovação",
+      "columns": ["Campo", "Definir na cotação", "Verificar na amostra"],
+      "rows": [
+        ["Faixa", "Denominações e incremento do par", "Todos os SKUs marcados"],
+        ["Unidade", "Sistema kg ou lb separado", "Peça e caixa coerentes"],
+        ["Massa", "Desvio e regra de pareamento", "Pesagem adequada registrada"],
+        ["Interface", "Furo, atrito e manga", "Encaixe na barra prevista"],
+        ["Perfil", "Diâmetro, espessura e borda", "Dimensões e manuseio"],
+        ["Material", "Núcleo, cobertura e contato", "Construção e acabamento"],
+        ["Marcação", "Massa, unidade, cor e arte", "Leitura e orientação"],
+        ["Embalagem", "Separação de pares e identificação", "Sem movimento ou transferência"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Checklist de dez pontos para o comprador",
+      "items": [
+        "Liste cada denominação e o incremento total acrescentado pelo par.",
+        "Separe claramente as faixas em quilogramas e libras.",
+        "Informe modalidade, usuários, barras e posição do colar.",
+        "Defina furo ou retenção por atrito com método mensurável.",
+        "Fixe regras de massa e pareamento para o modelo real.",
+        "Use balança apropriada para a peça mais leve.",
+        "Aprove material, acabamento, cor e marcação juntos.",
+        "Examine SKUs leves, médios e superiores da faixa.",
+        "Vincule arte personalizada e embalagem à revisão controlada.",
+        "Amostre o lote entre SKUs, caixas e períodos de produção."
+      ]
+    },
+    "faq": [
+      ["Qual é a diferença entre change plates e anilhas fracionadas?", "As duas reduzem o salto de carga. Anilhas fracionadas normalmente ocupam a faixa mais leve, enquanto change plates podem avançar para denominações maiores, mas os nomes se sobrepõem. Especifique a faixa completa."],
+      ["Por que calcular o incremento por par?", "Normalmente uma peça entra de cada lado da barra. Assim, a carga total muda pela soma do par, valor que deve aparecer no planejamento."],
+      ["Toda anilha pequena serve em qualquer barra olímpica?", "Não. Confirme furo ou interface de atrito, manga, condição do revestimento e posição em relação ao colar no sistema exato."],
+      ["Cor de competição comprova aprovação?", "Não. A cor ajuda a identificar, mas não prova massa, dimensão ou aprovação. Consulte a regra aplicável e a evidência do produto quando houver uso competitivo."],
+      ["Como pesar anilhas fracionadas?", "Use equipamento com capacidade e resolução adequadas, registre leituras individuais estabilizadas e aplique o desvio e a regra de pares acordados."],
+      ["A fábrica pode aplicar logotipo próprio?", "Em modelos adequados, sim. Aprove arte, visibilidade da massa e unidade, processo, massa final, área de atrito e embalagem em amostra equivalente à produção."],
+      ["O que enviar na cotação de atacado?", "Envie unidade, denominações, quantidade por SKU, incremento dos pares, barras, colares, uso, critérios de encaixe e massa, cores, logo, embalagem, destino e evidências exigidas."]
+    ],
+    "faqHeading": "Dúvidas sobre anilhas fracionadas e change plates",
+    "linkHeading": "Continue a especificação de compra",
+    "linkLabels": [
+      "Compare as linhas de anilhas ChinaFreeWeight",
+      "Defina a tolerância de massa",
+      "Verifique furo e manga",
+      "Controle diâmetro e perfil",
+      "Planeje séries em kg e lb",
+      "Calcule a capacidade da manga",
+      "Escolha colares de barra",
+      "Prepare uma cotação comercial completa",
+      "Aprove uma amostra OEM",
+      "Envie o projeto à fábrica"
+    ],
+    "imageCopy": [
+      ["Change plates e anilhas fracionadas sem marca ao lado de uma manga olímpica", "Separe as famílias antes de decidir denominações, encaixe e inspeção."],
+      ["Anilhas leves coloridas comparadas por diâmetro", "A faixa precisa ser aprovada SKU por SKU."],
+      ["Microanilhas finas prontas para conferência de par e encaixe", "Massa, incremento e interface são critérios diferentes."]
+    ],
+    "cta": ["Especifique o sistema antes de pedir preço", "Envie tabela de denominações, mercado em kg ou lb, barras, colares, quantidades, marca, embalagem e inspeção. A ChinaFreeWeight avaliará uma rota OEM, ODM ou de fornecimento em volume por modelo.", "Solicitar análise da fábrica"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/discos-fraccionales-change-plates-guia-compra",
+    "title": "Discos Fraccionales y Change Plates: Guía de Compra B2B",
+    "description": "Compare discos fraccionales y change plates por incrementos, ajuste, masa, identificación e inspección para gimnasios, distribuidores y marca privada.",
+    "h1": "Cómo Comprar Discos Fraccionales y Change Plates para un Gimnasio",
+    "keyword": "discos fraccionales y change plates para gimnasio",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Planificación e inspección de discos pequeños",
+    "sections": [
+      {
+        "heading": "Respuesta rápida: defina el salto de carga antes del nombre",
+        "text": "Los discos fraccionales y los change plates permiten aumentos pequeños, pero los nombres no se usan igual en todos los mercados. Una especificación profesional indica la masa de cada pieza, el incremento del par, kg o lb, interfaz del orificio, material, perfil exterior, retención y posición respecto al collar. La etiqueta comercial no basta.\n\nPara un gimnasio, distribuidor o marca privada, parta de la programación y de las barras disponibles. Construya los incrementos útiles, verifique ajuste y masa en muestras equivalentes a producción y defina el control del lote. ChinaFreeWeight revisa proyectos OEM, ODM, Custom Logo, Private Label y Bulk Supply cuando la gama y las evidencias quedan identificadas."
+      },
+      {
+        "heading": "Disco de cambio y disco fraccional no describen una construcción universal",
+        "text": "En el mercado hispanohablante, disco fraccional suele nombrar los incrementos más pequeños; change plate puede abarcar una gama ligera más amplia. Los términos se solapan. Existen núcleos de acero recubiertos, insertos metálicos, cuerpos totalmente metálicos y superficies interiores con fricción diseñada.\n\nConvierta la familia en campos medibles: denominación por pieza, aumento del par, diámetro interior, espesor, diámetro exterior, borde, marcación y color. Mantenga separadas las configuraciones de competición, entrenamiento general y carga especial para récord; una norma deportiva no define automáticamente el producto comercial."
+      },
+      {
+        "heading": "Calcule pares e inventario desde el programa real",
+        "text": "La barra se carga de forma simétrica, por lo que la tabla debe mostrar tanto la masa de una pieza como el cambio total del par. Un centro que entrena en kilogramos no debería recibir una serie en libras sin una decisión expresa. En instalaciones mixtas, separe almacenamiento e identificación para evitar combinaciones involuntarias.\n\nDetermine el salto menor útil para presses, técnica, calentamientos y progresión de socios. Las reglas vigentes de IWF e IPF muestran que cada disciplina utiliza denominaciones propias en su ámbito competitivo. Son referencias de contexto, no prueba de que cualquier disco coloreado cumpla una aprobación."
+      },
+      {
+        "heading": "Controle ajuste, fricción y posición del collar",
+        "text": "La palabra olímpico no define por completo el ajuste. Especifique el orificio acabado o la superficie de fricción, el método de medición y la familia de mangas compatible. La muestra debe montar y retirarse como se prevé, sin desgarrar el recubrimiento, atascarse de forma inesperada ni moverse contra las instrucciones.\n\nAlgunos procedimientos de competición colocan discos ligeros concretos fuera del collar y dependen de un agarre por fricción; muchos gimnasios mantienen los discos dentro de un collar convencional. Declare la disposición. No transfiera una afirmación de uso externo a otro material u orificio solo porque tenga el mismo color."
+      },
+      {
+        "heading": "Defina la masa y el emparejamiento con método adecuado",
+        "text": "Una diferencia absoluta pequeña puede importar mucho en una denominación ligera. Establezca el desvío permitido para el modelo, si la regla se aplica a cada pieza o al par y cómo se redondean los resultados. La palabra calibrado exige evidencia y alcance; el acabado no la demuestra.\n\nUtilice una balanza con capacidad, resolución, estado de verificación y repetibilidad adecuados. Identifique el disco, espere una lectura estable y registre cada valor. La balanza usada para bumpers grandes puede ser demasiado poco sensible para microdiscos, mientras que una balanza compacta quizá no cubra toda la gama."
+      },
+      {
+        "heading": "Apruebe material, color y marcación como un conjunto",
+        "text": "Acero recubierto, goma sobre núcleo y otras construcciones cambian el contacto con la manga, la resistencia del borde, la limpieza y el almacenamiento. Defina cuerpo, inserto, cobertura, uniones permitidas, transferencia superficial y cuidado. El nombre del color no especifica formulación ni durabilidad.\n\nLa masa y la unidad deben ser legibles en pieza y embalaje. Revise contraste, orientación y lectura cuando los discos estén apilados. Si se usan colores federativos, cite regla y edición. El logo no debe ocultar masa, unidad, trazabilidad o zona de fricción; el relieve y la tinta también pueden alterar la masa final."
+      },
+      {
+        "heading": "Planifique pares, repuestos y almacenamiento",
+        "text": "Una gama comercial útil responde a usuarios simultáneos y saltos programados, no a una foto multicolor. Relacione cada sesión con los pares necesarios, separe el material de plataforma de los microdiscos personales y decida si las piezas más ligeras quedan con entrenadores, en cada rack o en un compartimento controlado.\n\nCuente pares y reserve reposición para las denominaciones críticas. Los discos pequeños se extravían con facilidad y pueden mezclarse entre zonas kg y lb. Los soportes, bandejas y divisiones deben admitir orificio, diámetro y cantidad sin comprimir el recubrimiento ni esconder la unidad."
+      },
+      {
+        "heading": "Inspeccione toda la familia y reparta la muestra del lote",
+        "text": "Apruebe referencias ligeras, medias y altas de la serie. Verifique identidad, masa individual, emparejamiento, ajuste, espesor, perfil, planitud, borde, acabado, color, marcación y apilado. Monte la combinación en la barra y collar previstos porque las mediciones aisladas no muestran todas las interacciones.\n\nEn recepción, distribuya la muestra entre denominaciones, cajas y periodos de producción según el plan acordado. Registre por SKU y lote, aísle sustituciones no explicadas y defina la respuesta ante una anomalía aislada o un patrón repetido. El embalaje debe evitar roce, pérdida de pares y transferencia de color."
+      },
+      {
+        "heading": "Congele OEM, marca privada y embalaje en una aprobación controlada",
+        "text": "Un proyecto OEM puede aplicar nuevo logo, color, marcación o caja a una construcción existente. Un desarrollo ODM puede cambiar orificio, material, diámetro, espesor, retención o gama. Ambos necesitan una muestra equivalente a producción y una revisión que conecte producto, arte, tabla de masas, inspección y embalaje.\n\nComo fábrica, ChinaFreeWeight analiza fabricación y suministro de gamas personalizadas por modelo. Envíe mercado, sistema kg o lb, denominaciones, cantidades por SKU, barras, collares, uso, archivos de marca, embalaje y evidencias requeridas. Precio, MOQ y plazo se confirman después de comprender esa configuración."
+      }
+    ],
+    "table": {
+      "heading": "Ocho campos para comparar antes de aprobar",
+      "columns": ["Campo", "Definir en la solicitud", "Verificar en la muestra"],
+      "rows": [
+        ["Gama", "Denominaciones e incremento del par", "Todos los SKUs presentes"],
+        ["Unidad", "Sistema kg o lb separado", "Pieza y caja coinciden"],
+        ["Masa", "Desvío y regla de pares", "Pesaje adecuado registrado"],
+        ["Interfaz", "Orificio, fricción y manga", "Ajuste en la barra prevista"],
+        ["Perfil", "Diámetro, espesor y borde", "Dimensiones y manejo"],
+        ["Material", "Núcleo, cobertura y contacto", "Construcción y acabado"],
+        ["Marcación", "Masa, unidad, color y arte", "Legibilidad y orientación"],
+        ["Embalaje", "Separación e identificación", "Sin movimiento ni transferencia"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Lista de diez puntos para el comprador",
+      "items": [
+        "Enumere cada denominación y el incremento total del par.",
+        "Separe de forma visible las gamas en kilogramos y libras.",
+        "Indique disciplina, usuarios, barras y disposición del collar.",
+        "Defina orificio o fricción con un método medible.",
+        "Fije masa y emparejamiento para el modelo real.",
+        "Use una balanza apropiada para la pieza más ligera.",
+        "Apruebe material, acabado, color y marcación juntos.",
+        "Revise SKUs ligeros, medios y superiores de la gama.",
+        "Vincule arte personalizado y embalaje a la revisión.",
+        "Muestree el lote entre SKUs, cajas y periodos."
+      ]
+    },
+    "faq": [
+      ["¿Qué diferencia hay entre change plates y discos fraccionales?", "Ambos reducen el salto de carga. Los discos fraccionales suelen ocupar la parte más ligera y los change plates pueden continuar hacia denominaciones mayores, pero los nombres se solapan. Especifique toda la gama."],
+      ["¿Por qué se calcula el incremento por par?", "Normalmente se añade una pieza a cada lado. La carga cambia por la suma del par, que debe figurar en el plan."],
+      ["¿Todos los discos pequeños sirven en cualquier barra olímpica?", "No. Confirme orificio o interfaz de fricción, manga, recubrimiento y posición respecto al collar en el sistema exacto."],
+      ["¿El color de competición demuestra aprobación?", "No. El color identifica, pero no prueba masa, dimensiones o aprobación. Consulte la regla aplicable y la evidencia del producto."],
+      ["¿Cómo se pesan los discos fraccionales?", "Use un equipo con capacidad y resolución adecuadas, registre lecturas individuales estables y aplique el desvío y regla de pares acordados."],
+      ["¿Puede la fábrica añadir un logo propio?", "En modelos adecuados, sí. Apruebe arte, visibilidad de masa y unidad, proceso, masa final, zona de fricción y embalaje en una muestra equivalente a producción."],
+      ["¿Qué debe incluir una solicitud mayorista?", "Indique unidad, denominaciones, cantidad por SKU, incrementos, barras, collares, uso, criterios de ajuste y masa, colores, logo, embalaje, destino y evidencias."]
+    ],
+    "faqHeading": "Preguntas sobre discos fraccionales y change plates",
+    "linkHeading": "Continúe la especificación de compra",
+    "linkLabels": [
+      "Compare las familias de discos ChinaFreeWeight",
+      "Defina la tolerancia de masa",
+      "Compruebe orificio y manga",
+      "Controle diámetro y perfil",
+      "Planifique gamas kg y lb",
+      "Calcule la capacidad de la manga",
+      "Elija collares para barra",
+      "Prepare una solicitud comercial completa",
+      "Apruebe una muestra OEM",
+      "Envíe el proyecto a fábrica"
+    ],
+    "imageCopy": [
+      ["Change plates y discos fraccionales sin marca junto a una manga olímpica", "Separe las familias antes de decidir denominaciones, ajuste e inspección."],
+      ["Discos pequeños codificados por color y comparados por diámetro", "La gama debe aprobarse referencia por referencia."],
+      ["Microdiscos finos preparados para revisar pares y ajuste", "Masa, incremento e interfaz son criterios distintos."]
+    ],
+    "cta": ["Defina el sistema antes de pedir precio", "Envíe la tabla de denominaciones, mercado kg o lb, barras, collares, cantidades, marca, embalaje e inspección. ChinaFreeWeight revisará una ruta OEM, ODM o de suministro en volumen por modelo.", "Solicitar revisión de fábrica"]
+  }
+]

@@ -1,0 +1,1159 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/custom-color-dumbbells-weight-plates-guide",
+    "title": "Custom-Color Dumbbells and Plates: Approval Guide",
+    "description": "Specify and approve custom colors for dumbbells and weight plates by material, gloss, physical sample, measurement, inspection and reorder control.",
+    "h1": "How to Approve Custom Colors for Dumbbells and Weight Plates",
+    "keyword": "custom-color dumbbells and weight plates",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Private-label color approval",
+    "sections": [
+      {
+        "heading": "Short answer: approve the finished product, not a screen color",
+        "text": "A color code is a useful starting reference, but it does not prove how a dumbbell or plate will look after molding, coating, curing and surface finishing. Rubber, urethane, powder coat, printed ink and color fill can make the same target appear different because the substrate, texture and gloss change the reflected light.\n\nApprove a production-equivalent physical sample under agreed viewing conditions. ChinaFreeWeight is a factory and can review OEM, ODM, Custom Logo, Private Label and Bulk Supply programs, but the approved color must be tied to the exact product, material, finish, artwork and revision rather than a digital mockup alone."
+      },
+      {
+        "heading": "Treat color as a material-and-process specification",
+        "text": "A coated iron plate, molded bumper plate, urethane dumbbell head and printed carton do not share one color recipe. Pigment behaves through each material and process, while mold texture, coating thickness, cure condition and gloss alter appearance. A buyer should therefore name the target separately for every product surface that must coordinate.\n\nPantone itself notes that physical results vary by manufacturer, substrate, finish and application method. ASTM D2244 covers calculations for instrumentally measured color differences and requires buyer and seller to agree the tolerance and calculation procedure. Neither source creates one universal pass limit for gym equipment."
+      },
+      {
+        "heading": "Build one approval package for each visible surface",
+        "text": "The brief should identify the current physical color reference, the product SKU, base material, finish family, texture, gloss intent, logo process, weight marking and viewing condition. Photographs help teams communicate location and layout, but camera exposure, white balance and screens make them unsuitable as the only master.\n\nFor a family of dumbbells or plates, choose representative light, middle and heavy items. Head size, wall thickness, compound batch, molded texture and marking area can change the visual balance. Approve the color beside the logo and weight marking so brand color never reduces basic product identification."
+      },
+      {
+        "heading": "Separate brand colors from competition weight coding",
+        "text": "Commercial ranges may use one brand color, a color family, or a different color for each weight. Competition products can fall under federation rules that assign colors within a defined scope. Current IWF and IPF rules should be checked for the exact product and event; those rules should not be generalized to every training plate.\n\nWrite a color map by SKU and market before sampling. If a brand color conflicts with a familiar weight code, keep the weight value prominent and decide whether the custom color belongs on the full body, a stripe, lettering, hub, end cap or packaging. Accessibility and rapid identification matter as much as brand impact."
+      },
+      {
+        "heading": "Compare samples with controlled viewing and measurement",
+        "text": "Place the approved reference and trial close together, clean and oriented consistently. Use stable neutral illumination, a neutral surround and a repeatable angle that reduces glare. Record whether the decision is visual, instrumental or both. Gloss and texture should be checked separately because two samples with similar measured color can still look different.\n\nIf an instrument is used, record the device, geometry, illuminant, observer, aperture, measurement locations, averaging rule and color-difference formula. Do not copy a tolerance from another material. Correlate the proposed limit with visual acceptance on production-equivalent surfaces and retain accepted and rejected boundary samples when practical."
+      },
+      {
+        "heading": "Inspect the lot without turning one sample into a guarantee",
+        "text": "At incoming or pre-shipment inspection, verify product identity and revision before comparing color. Sample across cartons, production periods, weight sizes and both faces. Look for within-part variation, part-to-part drift, contamination, gloss patches, cure marks, print coverage and color transfer at contact points.\n\nA single approved sample establishes a reference, not proof that every unit matches. The inspection plan must state sample selection, comparison method, defect categories and who decides borderline cases. Separate acceptable process texture from stains, exposed substrate, mixed shades or markings that reduce legibility."
+      },
+      {
+        "heading": "Freeze color evidence for private-label reorders",
+        "text": "Keep the signed product sample, current color reference, material and finish revision, approved artwork, measurement settings, photographs, inspection record and supplier change-notification rule. Store physical references away from light, heat, oil and abrasion, and replace a reference that has aged or been damaged.\n\nRequire review before changing pigment source, compound, substrate, mold texture, coating supplier, cure cycle, gloss target, printing ink or protective packaging. A reorder can use the same color name yet look different after any of these changes. The retained package gives distributor and factory a shared basis for comparison."
+      }
+    ],
+    "table": {
+      "heading": "Custom-color approval matrix",
+      "columns": ["Decision", "What to define", "Evidence to retain"],
+      "rows": [
+        ["Market role", "Brand color, weight code or decorative accent", "SKU color map"],
+        ["Product surface", "Rubber, urethane, paint, print, fill or packaging", "Surface-specific brief"],
+        ["Target", "Current physical reference and color system", "Protected master"],
+        ["Appearance", "Texture, gloss, metallic effect and viewing condition", "Approved limit samples"],
+        ["Markings", "Logo, KG or LB value, contrast and placement", "Artwork revision"],
+        ["Measurement", "Instrument setup, formula, locations and tolerance", "Method record"],
+        ["Lot inspection", "Sampling, comparison and defect disposition", "Inspection report"],
+        ["Reorder control", "Material, process and supplier change triggers", "Revision history"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Ten checks before approving custom-color production",
+      "items": [
+        "Identify the market, product family and purpose of each color.",
+        "Use a current physical reference rather than a screenshot alone.",
+        "Name the material, surface, texture and intended gloss.",
+        "Map every color to its exact SKU and weight marking.",
+        "Check current competition rules only when that scope applies.",
+        "Approve representative light, middle and heavy products.",
+        "Record viewing conditions and any instrument settings.",
+        "Define sampling and treatment of borderline variation.",
+        "Retain approved products, artwork, photographs and records.",
+        "Require reapproval after material or process changes."
+      ]
+    },
+    "faq": [
+      ["Is a Pantone code enough to approve a dumbbell color?", "No. It identifies a target, but the final material, texture, gloss and process affect appearance. Approve a production-equivalent physical sample."],
+      ["Can one color tolerance cover rubber, urethane and powder coat?", "Not responsibly by default. Each material and surface needs a correlated visual or instrumental acceptance method."],
+      ["Should a color sample be approved from a photograph?", "A photograph is useful for records, not as the only master. Camera, lighting and display settings can change the apparent color."],
+      ["Do all weight plates have to follow competition colors?", "No. Apply current federation rules only to products within that competition scope. Commercial training ranges can use another documented system."],
+      ["What should a factory measure for color control?", "Agree the instrument geometry, illuminant, observer, aperture, locations, averaging, formula and acceptance tolerance for the actual surface."],
+      ["How should custom colors be checked in a bulk order?", "Sample across cartons, production periods and representative SKUs, then compare color, gloss, texture, marking contrast and visible defects."],
+      ["What should a private-label buyer keep for a reorder?", "Keep the signed product, physical color reference, material and finish revisions, artwork, measurement method, photographs and change-control record."]
+    ],
+    "faqHeading": "Frequently Asked Questions About Custom Free-Weight Colors",
+    "linkHeading": "Continue the private-label specification",
+    "linkLabels": ["Compare custom logo methods", "Approve an OEM sample", "Control reorder consistency", "Review plate weight tolerance", "Browse commercial dumbbells", "Browse weight plates", "Plan OEM and private label", "Review factory controls", "Plan export packaging", "Send the color brief"],
+    "imageCopy": [
+      ["Unbranded custom-color dumbbells and Olympic plates with plain physical color samples", "Conceptual procurement image for color approval; it is not a customer project or factory test record."],
+      ["Unbranded free weights in coordinated blue, gray and teal surfaces beside a color meter", "The final product surface, texture and gloss should be approved together."],
+      ["Custom-color dumbbell and plate samples arranged under neutral inspection lighting", "Physical samples and a controlled method create a repeatable reorder reference."]
+    ],
+    "cta": ["Send a surface-specific color brief", "Share the product family, material, finish, color reference, weight map, branding, packaging and inspection expectations. ChinaFreeWeight will review a manufacturable approval route for the exact model.", "Discuss custom colors"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/cores-personalizadas-halteres-anilhas-guia",
+    "title": "Cores Personalizadas em Halteres e Anilhas: Aprovação",
+    "description": "Defina cores de halteres e anilhas por material, brilho, amostra física, medição, inspeção e controle de reposição para marca própria.",
+    "h1": "Como Aprovar Cores Personalizadas em Halteres e Anilhas",
+    "keyword": "cores personalizadas em halteres e anilhas",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Aprovação de cor para marca própria",
+    "sections": [
+      {
+        "heading": "Resposta direta: aprove o produto pronto, não a cor da tela",
+        "text": "Um código de cor orienta o desenvolvimento, mas não comprova o resultado depois de moldagem, pintura, cura e acabamento. Borracha, uretano, pintura a pó, tinta de impressão e preenchimento colorido refletem luz de formas diferentes conforme substrato, textura e brilho.\n\nA aprovação deve usar uma amostra física equivalente à produção e condições de observação combinadas. A ChinaFreeWeight é fábrica e pode avaliar programas de OEM, ODM, Custom Logo, Private Label e Bulk Supply, vinculando a cor ao modelo, material, acabamento, arte e revisão corretos.\n\nPara compras B2B, essa distinção evita que uma referência enviada para o corpo seja aplicada por engano ao logo, à marcação de peso ou à caixa. O registro também esclarece qual peça física prevalece quando fotografia, arquivo digital e amostra apresentam diferenças visuais."
+      },
+      {
+        "heading": "Especifique a cor junto com material e processo",
+        "text": "Uma anilha de ferro pintada, um bumper moldado, a cabeça de um halter em uretano e uma caixa impressa não usam a mesma formulação. Pigmento, espessura, cura, textura do molde e nível de brilho mudam o aspecto. Cada superfície visível que precisa combinar deve ter alvo próprio.\n\nA Pantone informa que fabricante, substrato, acabamento e método de aplicação influenciam o resultado físico. A ASTM D2244 trata do cálculo de diferenças medidas e exige acordo entre comprador e vendedor sobre método e tolerância. Nenhuma delas oferece um limite universal para equipamentos de academia."
+      },
+      {
+        "heading": "Monte um pacote de aprovação por superfície",
+        "text": "O briefing deve registrar referência física atual, SKU, material base, acabamento, textura, brilho esperado, processo do logo, marcação de peso e condição de avaliação. Fotos localizam áreas e ajudam a documentar, mas exposição, balanço de branco e tela impedem que sejam o único padrão.\n\nEm uma linha completa, selecione pesos leves, médios e pesados. Tamanho da cabeça, espessura, lote do composto, relevo e área da marca mudam a percepção. Aprove cor, logotipo e indicação de KG ou LB juntos para preservar leitura e identidade.\n\nO pacote precisa nomear quem fornece o padrão, quem aprova a amostra e qual revisão segue para produção. Quando distribuidor, importador e marca participam, uma folha única de decisão reduz instruções paralelas e mantém desenho, cor e acabamento no mesmo histórico."
+      },
+      {
+        "heading": "Separe a cor da marca do código de peso",
+        "text": "Linhas comerciais podem usar uma cor institucional, uma paleta ou uma cor por peso. Produtos de competição podem seguir regras de federações em escopo específico. Consulte a versão atual de IWF ou IPF apenas quando o produto realmente se destinar àquele uso.\n\nFaça um mapa de cor por SKU e mercado antes da amostra. Se a cor da marca conflitar com um código conhecido, mantenha o valor do peso evidente e decida se o tom ficará no corpo, faixa, letras, cubo, tampa ou embalagem. Identificação rápida continua essencial."
+      },
+      {
+        "heading": "Compare amostras sob condição controlada",
+        "text": "Posicione padrão e amostra limpos, próximos e na mesma orientação. Use iluminação neutra estável, entorno sem cor e ângulo repetível para reduzir reflexos. Registre se a decisão será visual, instrumental ou combinada. Avalie brilho e textura separadamente.\n\nQuando houver instrumento, registre aparelho, geometria, iluminante, observador, abertura, pontos, média e fórmula de diferença. Não copie tolerância de outro material. Relacione o limite à aceitação visual da superfície real e guarde amostras-limite quando possível.\n\nPeças curvas e texturizadas exigem pontos de leitura definidos, porque bordas, rebaixos e letras capturam luz de modo diferente. Compare sempre áreas equivalentes e registre posições que possam ser repetidas no recebimento. Uma leitura isolada não substitui a avaliação do conjunto visível."
+      },
+      {
+        "heading": "Inspecione o lote em várias caixas e momentos",
+        "text": "Antes da comparação, confirme identidade e revisão. Retire amostras de caixas, períodos de produção, faixas de peso e duas faces. Procure variação na mesma peça, mudança entre peças, contaminação, manchas de brilho, marcas de cura, cobertura de impressão e transferência de cor.\n\nUma amostra aprovada é referência, não garantia de todas as unidades. O plano precisa definir seleção, método, categorias de defeito e decisão para casos de fronteira. Diferencie textura normal de mancha, substrato exposto, mistura de tons ou marcação pouco legível."
+      },
+      {
+        "heading": "Congele a evidência para a reposição",
+        "text": "Guarde produto assinado, referência física atual, revisão de material e acabamento, arte aprovada, parâmetros de medição, fotos e relatório. Proteja padrões contra luz, calor, óleo e abrasão; substitua os que envelhecerem ou sofrerem dano.\n\nExija análise antes de trocar pigmento, composto, substrato, textura, fornecedor de pintura, ciclo de cura, brilho, tinta ou embalagem protetora. O mesmo nome de cor pode produzir resultado diferente. O pacote retido cria uma base comum para marca, distribuidor e fábrica.\n\nAntes de uma nova compra, confirme se o padrão ainda representa a linha atual e se houve mudança de mercado, identidade ou uso. Reaprovar somente o elemento alterado pode ser suficiente quando a relação com as demais superfícies permanece documentada; mudanças combinadas pedem nova avaliação do produto montado."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de aprovação de cor personalizada",
+      "columns": ["Decisão", "O que definir", "Evidência guardada"],
+      "rows": [
+        ["Função", "Cor de marca, código de peso ou detalhe", "Mapa por SKU"],
+        ["Superfície", "Borracha, uretano, tinta, preenchimento ou caixa", "Briefing específico"],
+        ["Alvo", "Referência física atual e sistema de cor", "Padrão protegido"],
+        ["Aparência", "Textura, brilho, efeito e iluminação", "Amostras-limite"],
+        ["Marcação", "Logo, KG ou LB, contraste e posição", "Revisão da arte"],
+        ["Medição", "Configuração, fórmula, pontos e tolerância", "Método registrado"],
+        ["Inspeção", "Amostragem, comparação e destino do desvio", "Relatório"],
+        ["Reposição", "Mudanças que exigem nova aprovação", "Histórico de revisão"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Dez controles antes da produção em cor personalizada",
+      "items": [
+        "Definir mercado, família e função de cada cor.",
+        "Usar referência física atual, não apenas imagem de tela.",
+        "Registrar material, superfície, textura e brilho.",
+        "Relacionar cada cor ao SKU e à marcação de peso.",
+        "Aplicar regra esportiva somente ao escopo correto.",
+        "Aprovar produtos leves, médios e pesados.",
+        "Documentar iluminação e configuração do instrumento.",
+        "Definir amostragem e tratamento de variações-limite.",
+        "Guardar produto, arte, fotos e relatório aprovados.",
+        "Reaprovar mudanças de material ou processo."
+      ]
+    },
+    "faq": [
+      ["O código Pantone basta para aprovar a cor?", "Não. Ele define um alvo, mas material, textura, brilho e processo alteram o aspecto. Aprove a amostra física equivalente à produção."],
+      ["Uma tolerância serve para borracha, uretano e pintura?", "Não automaticamente. Cada superfície precisa de método visual ou instrumental correlacionado ao resultado aceitável."],
+      ["Posso aprovar por fotografia?", "A foto ajuda no registro, mas câmera, luz e tela mudam a aparência. Ela não deve ser o único padrão."],
+      ["Toda anilha precisa seguir cor de competição?", "Não. Use regras atuais apenas no produto incluído naquele escopo. Linhas comerciais podem adotar sistema documentado diferente."],
+      ["O que registrar na medição de cor?", "Aparelho, geometria, iluminante, observador, abertura, locais, média, fórmula e tolerância acordada para a superfície real."],
+      ["Como inspecionar a cor de um pedido grande?", "Amostre caixas, períodos e SKUs representativos, comparando cor, brilho, textura, contraste da marcação e defeitos visíveis."],
+      ["O que guardar para a reposição?", "Produto assinado, referência física, revisões, arte, método, fotos, relatório e registro de alterações."]
+    ],
+    "faqHeading": "Perguntas Frequentes sobre Cores de Pesos Livres",
+    "linkHeading": "Continue a especificação de marca própria",
+    "linkLabels": ["Compare métodos de logo", "Aprove a amostra OEM", "Controle a reposição entre lotes", "Revise a tolerância das anilhas", "Veja halteres profissionais", "Veja anilhas e bumper plates", "Planeje OEM e marca própria", "Conheça os controles da fábrica", "Planeje a embalagem de exportação", "Envie o briefing de cor"],
+    "imageCopy": [
+      ["Halteres e anilhas sem marca em cores coordenadas com amostras físicas lisas", "Imagem conceitual para compras; não representa projeto de cliente nem ensaio documentado."],
+      ["Halter hexagonal e anilhas sem marca em terracota, preto e cinza", "Material, textura, brilho e marcação devem ser aprovados no produto final."],
+      ["Pesos livres coloridos organizados sob iluminação neutra de comparação", "Amostras retidas ajudam a comparar produção e reposição pelo mesmo critério."]
+    ],
+    "cta": ["Envie um briefing por superfície", "Informe família de produto, material, acabamento, referência de cor, mapa de pesos, identidade, embalagem e inspeção. A ChinaFreeWeight avaliará uma rota de aprovação viável para o modelo.", "Conversar sobre cores"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/colores-personalizados-mancuernas-discos",
+    "title": "Colores Personalizados en Mancuernas y Discos: Guía",
+    "description": "Apruebe colores de mancuernas y discos por material, brillo, muestra física, medición, inspección y control de reposición para marca propia.",
+    "h1": "Cómo Aprobar Colores Personalizados en Mancuernas y Discos",
+    "keyword": "colores personalizados para mancuernas y discos",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Control de color para marca propia",
+    "sections": [
+      {
+        "heading": "Respuesta breve: apruebe el producto terminado, no la pantalla",
+        "text": "Un código orienta el objetivo, pero no demuestra cómo quedará el producto después de moldeado, recubrimiento, curado y acabado. Caucho, uretano, pintura en polvo, impresión y relleno coloreado reflejan la luz de forma distinta según sustrato, textura y brillo.\n\nApruebe una muestra física equivalente a producción bajo condiciones acordadas. ChinaFreeWeight es fábrica y puede revisar OEM, ODM, Custom Logo, Private Label y Bulk Supply, pero la aceptación debe quedar vinculada al modelo, material, acabado, arte y revisión concretos.\n\nEn una compra B2B, esta separación impide que una referencia destinada al cuerpo termine aplicada al logo, al número de peso o al embalaje. El expediente debe indicar qué pieza física prevalece si la fotografía, el archivo digital y la muestra muestran diferencias visibles."
+      },
+      {
+        "heading": "Convierta el color en una especificación de material y proceso",
+        "text": "Un disco de hierro pintado, un bumper moldeado, una cabeza de mancuerna de uretano y una caja impresa no comparten fórmula. Pigmento, espesor, curado, textura del molde y brillo cambian la apariencia. Defina un objetivo para cada superficie que deba coordinarse.\n\nPantone advierte que fabricante, sustrato, acabado y aplicación modifican el resultado físico. ASTM D2244 cubre el cálculo de diferencias medidas y pide acordar procedimiento y tolerancia. Ninguna fuente fija un valor universal para material deportivo."
+      },
+      {
+        "heading": "Prepare un paquete de aprobación por superficie",
+        "text": "El documento debe identificar referencia física vigente, SKU, material base, acabado, textura, brillo previsto, método del logo, marcación del peso y condición de observación. Las fotos ubican detalles, pero exposición, balance de blancos y pantalla impiden usarlas como único patrón.\n\nEn una gama, seleccione pesos ligeros, medios y pesados. El tamaño de la cabeza, espesor, lote del compuesto, relieve y área impresa cambian el equilibrio visual. Apruebe color, logo y valor KG o LB juntos para mantener contraste y lectura.\n\nEl paquete debe nombrar quién entrega el patrón, quién acepta la muestra y qué revisión pasa a fabricación. Cuando intervienen importador, distribuidor y marca, una sola hoja de decisión evita instrucciones paralelas y mantiene dibujo, color, acabado y firma en el mismo historial."
+      },
+      {
+        "heading": "Separe la identidad de marca del código deportivo",
+        "text": "Una línea comercial puede usar color corporativo, una paleta o un tono por peso. Los productos de competición pueden estar sujetos a reglas federativas dentro de un alcance definido. Consulte la versión actual de IWF o IPF solo cuando corresponda al uso real.\n\nHaga un mapa de color por SKU y mercado. Si el color de marca choca con un código reconocido, mantenga visible el peso y decida si el tono va en cuerpo, franja, letras, buje, tapa o embalaje. La identificación rápida no debe perderse."
+      },
+      {
+        "heading": "Compare bajo luz y método controlados",
+        "text": "Coloque referencia y prueba limpias, próximas y con orientación constante. Use iluminación neutra estable, entorno sin dominantes y ángulo repetible para limitar reflejos. Registre si la decisión es visual, instrumental o combinada. Evalúe brillo y textura por separado.\n\nSi mide, guarde instrumento, geometría, iluminante, observador, abertura, puntos, promedio y fórmula. No copie la tolerancia de otro material. Correlacione el límite con la aceptación visual de superficies equivalentes y conserve muestras fronterizas cuando sea posible.\n\nLas piezas curvas o texturizadas necesitan posiciones de lectura definidas, porque bordes, huecos y letras reflejan de otra manera. Compare zonas equivalentes y anote lugares repetibles para la inspección de recepción. Un dato aislado no reemplaza la valoración del aspecto completo."
+      },
+      {
+        "heading": "Inspeccione cajas, momentos y pesos distintos",
+        "text": "Confirme identidad y revisión antes de comparar. Tome piezas de varias cajas, periodos de producción, pesos y caras. Observe variación interna, deriva entre piezas, contaminación, zonas de brillo, marcas de curado, cobertura impresa y transferencia de color por contacto.\n\nLa muestra aprobada es referencia, no garantía de toda la partida. El plan debe definir selección, método, clases de defecto y autoridad para casos límite. Separe textura normal de manchas, sustrato expuesto, tonos mezclados o marcación ilegible.\n\nLa inspección también debe distinguir una diferencia cosmética de un problema que dificulta identificar el peso. Registre la ubicación, el tipo de superficie y la decisión con fotografías comparables, sin convertir esas imágenes en el patrón principal. Así, fábrica y comprador pueden analizar la causa con la misma evidencia."
+      },
+      {
+        "heading": "Conserve la evidencia para nuevas compras",
+        "text": "Guarde producto firmado, referencia física, revisión de material y acabado, arte, ajustes de medición, fotografías e informe. Proteja patrones de luz, calor, aceite y roce; sustituya una referencia envejecida o dañada.\n\nExija revisión antes de cambiar pigmento, compuesto, sustrato, molde, proveedor de recubrimiento, curado, brillo, tinta o embalaje protector. Un nombre idéntico no asegura aspecto idéntico. El paquete retenido permite comparar fábrica, distribuidor y marca sobre la misma base.\n\nAntes de repetir una compra, confirme que el patrón todavía representa la gama vigente y que no cambió el mercado, la identidad ni el uso. Si la relación entre superficies permanece documentada, puede revisarse solo el elemento modificado; varios cambios simultáneos requieren observar de nuevo el producto ensamblado."
+      }
+    ],
+    "table": {
+      "heading": "Matriz para aprobar colores personalizados",
+      "columns": ["Decisión", "Qué definir", "Evidencia conservada"],
+      "rows": [
+        ["Función", "Marca, código de peso o acento", "Mapa por SKU"],
+        ["Superficie", "Caucho, uretano, pintura, tinta o caja", "Ficha específica"],
+        ["Objetivo", "Referencia física vigente y sistema", "Patrón protegido"],
+        ["Aspecto", "Textura, brillo, efecto e iluminación", "Muestras límite"],
+        ["Marcación", "Logo, KG o LB, contraste y posición", "Arte aprobado"],
+        ["Medición", "Equipo, fórmula, puntos y tolerancia", "Método registrado"],
+        ["Inspección", "Muestreo, comparación y disposición", "Informe del lote"],
+        ["Reposición", "Cambios que obligan a reaprobar", "Historial de revisión"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Diez controles antes de autorizar la producción",
+      "items": [
+        "Definir mercado, familia y función de cada color.",
+        "Usar referencia física vigente, no solo una pantalla.",
+        "Registrar material, superficie, textura y brillo.",
+        "Asignar cada tono al SKU y a su marcación.",
+        "Aplicar reglas deportivas solo al alcance correcto.",
+        "Aprobar pesos ligeros, medios y pesados.",
+        "Documentar luz y configuración del instrumento.",
+        "Definir muestreo y decisión para variación límite.",
+        "Conservar producto, arte, fotos e informes.",
+        "Reaprobar tras cambios de material o proceso."
+      ]
+    },
+    "faq": [
+      ["¿Basta un código Pantone para aprobar el color?", "No. El material, la textura, el brillo y el proceso cambian la apariencia. Apruebe una muestra física equivalente a producción."],
+      ["¿Sirve una tolerancia para caucho, uretano y pintura?", "No de manera automática. Cada superficie requiere un método visual o instrumental correlacionado con su aceptación."],
+      ["¿Se puede aprobar mediante fotografía?", "La foto documenta, pero cámara, iluminación y pantalla alteran el aspecto. No debe ser el único patrón."],
+      ["¿Todos los discos deben usar colores de competición?", "No. Aplique las reglas vigentes solo al producto incluido en ese ámbito. Una línea comercial puede usar otro sistema documentado."],
+      ["¿Qué debe registrar una medición de color?", "Equipo, geometría, iluminante, observador, abertura, ubicaciones, promedio, fórmula y tolerancia acordada."],
+      ["¿Cómo se revisa el color de un pedido a granel?", "Muestree cajas, periodos y SKU representativos; compare color, brillo, textura, contraste y defectos visibles."],
+      ["¿Qué se guarda para una reposición?", "Producto firmado, referencia física, revisiones, arte, método de medición, fotos, informe y control de cambios."]
+    ],
+    "faqHeading": "Preguntas Frecuentes sobre Colores de Pesos Libres",
+    "linkHeading": "Continúe la especificación de marca propia",
+    "linkLabels": ["Compare métodos de logo", "Apruebe una muestra OEM", "Controle la coherencia de reposición", "Revise tolerancias de discos", "Vea mancuernas profesionales", "Vea discos y bumper plates", "Planifique OEM y marca propia", "Revise controles de fábrica", "Planifique embalaje de exportación", "Envíe el briefing de color"],
+    "imageCopy": [
+      ["Mancuernas y discos olímpicos sin marca en colores coordinados con muestras físicas", "Imagen conceptual de compra; no representa un proyecto de cliente ni una prueba de fábrica."],
+      ["Pesos libres sin marca en verde, azul, negro y blanco junto a un medidor", "Color, textura y brillo deben aprobarse sobre la superficie final."],
+      ["Mancuernas y discos de colores dispuestos bajo iluminación neutra", "La referencia física y el método documentado facilitan una reposición coherente."]
+    ],
+    "cta": ["Envíe un briefing por superficie", "Comparta familia de producto, material, acabado, referencia de color, mapa de pesos, marca, embalaje e inspección. ChinaFreeWeight revisará una ruta de aprobación fabricable para el modelo.", "Consultar colores personalizados"]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/sonderfarben-kurzhanteln-hantelscheiben",
+    "title": "Sonderfarben für Hanteln und Scheiben richtig freigeben",
+    "description": "Sonderfarben für Kurzhanteln und Scheiben nach Material, Glanz, Freigabemuster, Messung, Serienprüfung und Nachbestellung festlegen.",
+    "h1": "Wie werden Sonderfarben für Kurzhanteln und Hantelscheiben freigegeben?",
+    "keyword": "Sonderfarben für Kurzhanteln und Hantelscheiben",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "ChinaFreeWeight · Farbfestlegung für Eigenmarken",
+    "sections": [
+      {
+        "heading": "Kurzantwort: Das fertige Bauteil freigeben, nicht den Bildschirm",
+        "text": "Ein Farbcode ist ein Ausgangspunkt, beweist aber nicht das Erscheinungsbild nach Formgebung, Beschichtung, Aushärtung und Oberflächenfinish. Gummi, Urethan, Pulverlack, Druckfarbe und Farbauslegung wirken je nach Untergrund, Struktur und Glanz unterschiedlich.\n\nFreigegeben wird ein seriennahes physisches Muster unter vereinbarten Betrachtungsbedingungen. ChinaFreeWeight ist Hersteller und prüft OEM, ODM, Custom Logo, Private Label und Bulk Supply. Die Freigabe wird dennoch immer an Modell, Werkstoff, Oberfläche, Grafikstand und Revision gebunden."
+      },
+      {
+        "heading": "Farbe als Werkstoff- und Prozessmerkmal beschreiben",
+        "text": "Eine lackierte Gussscheibe, eine geformte Bumper Plate, ein Urethankopf und ein bedruckter Karton benötigen nicht dieselbe Rezeptur. Pigment, Schichtdicke, Aushärtung, Werkzeugstruktur und Glanz verändern die Wahrnehmung. Jede sichtbare Fläche erhält deshalb einen eigenen Zielzustand.\n\nPantone weist auf Unterschiede durch Hersteller, Substrat, Finish und Auftrag hin. ASTM D2244 beschreibt die Berechnung instrumenteller Farbdifferenzen und verlangt eine Vereinbarung zu Toleranz und Rechenweg. Daraus folgt kein allgemeiner Grenzwert für Fitnessgeräte."
+      },
+      {
+        "heading": "Für jede Oberfläche ein Freigabepaket anlegen",
+        "text": "Der Einkaufsbrief nennt aktuelle physische Referenz, Artikel, Grundmaterial, Finish, Struktur, Zielglanz, Logoverfahren, Gewichtsmarkierung und Betrachtungsbedingung. Fotos dokumentieren Positionen, sind wegen Kamera, Weißabgleich und Monitor jedoch kein alleiniger Master.\n\nBei einer Hantel- oder Scheibenserie werden leichte, mittlere und schwere Varianten bemustert. Kopfgröße, Wandstärke, Mischung, Prägung und Markierungsfläche beeinflussen die Gesamtwirkung. Farbe, Logo und KG- oder LB-Angabe werden gemeinsam freigegeben."
+      },
+      {
+        "heading": "Markenfarbe und sportliche Gewichtscodierung trennen",
+        "text": "Ein kommerzielles Sortiment kann eine Hausfarbe, eine Palette oder Gewichtscodes verwenden. Wettkampfprodukte können innerhalb eines klaren Geltungsbereichs Farbvorgaben einer Federation unterliegen. Aktuelle IWF- oder IPF-Regeln werden nur für das tatsächlich geplante Produkt angewandt.\n\nVor der Bemusterung entsteht eine Farbmatrix je Artikel und Markt. Kollidiert die Markenfarbe mit einer bekannten Gewichtscodierung, bleibt der Gewichtswert deutlich sichtbar. Die Farbe kann auf Körper, Ring, Schrift, Nabe, Endkappe oder Verpackung begrenzt werden."
+      },
+      {
+        "heading": "Muster unter festgelegtem Licht und Messaufbau vergleichen",
+        "text": "Referenz und Versuchsteil werden sauber, nah beieinander und gleich ausgerichtet beurteilt. Neutrales stabiles Licht, neutrale Umgebung und ein wiederholbarer Winkel reduzieren Blendung. Der Datensatz hält fest, ob visuell, instrumentell oder kombiniert entschieden wird. Glanz und Struktur bleiben eigene Merkmale.\n\nBei Messungen werden Gerät, Geometrie, Lichtart, Beobachter, Öffnung, Messstellen, Mittelung und Formel dokumentiert. Ein Grenzwert eines anderen Materials wird nicht übernommen. Die Toleranz muss mit der visuellen Akzeptanz seriennaher Teile korrelieren."
+      },
+      {
+        "heading": "Serien über Kartons, Zeitpunkte und Gewichtsstufen prüfen",
+        "text": "Vor dem Farbvergleich werden Artikelidentität und Revision bestätigt. Die Stichprobe deckt Kartons, Produktionsabschnitte, Gewichtsstufen und beide Seiten ab. Geprüft werden lokale Abweichung, Drift, Verschmutzung, Glanzflecken, Aushärtespuren, Druckdeckung und Farbübertrag an Kontaktstellen.\n\nDas freigegebene Muster ist eine Referenz, keine Garantie für jedes Stück. Der Prüfplan legt Auswahl, Vergleich, Fehlerklassen und Entscheidung bei Grenzfällen fest. Normale Prozessstruktur wird von Flecken, freiem Untergrund, Farbmischung und schlechter Lesbarkeit getrennt."
+      },
+      {
+        "heading": "Nachbestellungen mit geschützter Referenz absichern",
+        "text": "Aufbewahrt werden signiertes Produkt, aktuelle Farbvorlage, Material- und Finishrevision, Grafik, Messeinstellungen, Fotos und Prüfbericht. Physische Standards werden vor Licht, Wärme, Öl und Abrieb geschützt und bei Alterung oder Schaden ersetzt.\n\nÄnderungen an Pigment, Mischung, Substrat, Werkzeugstruktur, Beschichter, Aushärtung, Glanz, Druckfarbe oder Schutzverpackung lösen eine Prüfung aus. Ein gleichbleibender Farbname verhindert keine Prozessabweichung. Das Paket schafft eine gemeinsame Vergleichsbasis für Marke und Werk."
+      }
+    ],
+    "table": {
+      "heading": "Matrix für die Farbfreigabe",
+      "columns": ["Entscheidung", "Festzulegen", "Nachweis"],
+      "rows": [
+        ["Funktion", "Markenfarbe, Gewichtscode oder Akzent", "Farbmatrix je Artikel"],
+        ["Fläche", "Gummi, Urethan, Lack, Druck oder Verpackung", "Flächenbezogene Vorgabe"],
+        ["Ziel", "Aktuelle physische Referenz und Farbsystem", "Geschützter Master"],
+        ["Eindruck", "Struktur, Glanz, Effekt und Licht", "Grenzmuster"],
+        ["Markierung", "Logo, KG oder LB, Kontrast und Lage", "Grafikrevision"],
+        ["Messung", "Gerät, Formel, Messstellen und Toleranz", "Methodenprotokoll"],
+        ["Serie", "Stichprobe, Vergleich und Abweichungsentscheidung", "Prüfbericht"],
+        ["Nachkauf", "Änderungen mit erneuter Freigabe", "Revisionsverlauf"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Zehn Prüfungen vor der Serienfreigabe",
+      "items": [
+        "Markt, Produktfamilie und Zweck jeder Farbe festlegen.",
+        "Aktuelle physische Referenz statt Bildschirmbild verwenden.",
+        "Werkstoff, Fläche, Struktur und Glanz dokumentieren.",
+        "Jede Farbe dem Artikel und Gewicht zuordnen.",
+        "Sportregeln nur im richtigen Geltungsbereich anwenden.",
+        "Leichte, mittlere und schwere Varianten freigeben.",
+        "Licht und Geräteeinstellung protokollieren.",
+        "Stichprobe und Grenzfallentscheidung definieren.",
+        "Produkt, Grafik, Fotos und Bericht aufbewahren.",
+        "Material- und Prozessänderungen neu freigeben."
+      ]
+    },
+    "faq": [
+      ["Reicht ein Pantone-Code zur Farbfreigabe?", "Nein. Werkstoff, Struktur, Glanz und Prozess verändern das Ergebnis. Ein seriennahes physisches Muster ist erforderlich."],
+      ["Kann eine Toleranz für Gummi, Urethan und Lack gelten?", "Nicht ohne Nachweis. Jede Fläche braucht eine passende visuelle oder instrumentelle Methode."],
+      ["Darf anhand eines Fotos freigegeben werden?", "Fotos sind Dokumentation, aber Kamera, Licht und Display verändern die Farbe. Sie ersetzen keinen physischen Master."],
+      ["Müssen alle Scheiben Wettkampffarben tragen?", "Nein. Aktuelle Regeln gelten nur für den jeweiligen Wettkampfumfang. Trainingssortimente können ein anderes dokumentiertes System nutzen."],
+      ["Welche Messdaten müssen festgehalten werden?", "Gerät, Geometrie, Lichtart, Beobachter, Öffnung, Messstellen, Mittelung, Formel und vereinbarte Toleranz."],
+      ["Wie wird eine Großserie farblich geprüft?", "Über mehrere Kartons, Produktionsabschnitte und repräsentative Artikel hinweg, einschließlich Glanz, Struktur, Kontrast und Fehler."],
+      ["Was braucht eine Eigenmarke für die Nachbestellung?", "Signiertes Produkt, physische Referenz, Revisionen, Grafik, Messmethode, Fotos, Bericht und Änderungsprotokoll."]
+    ],
+    "faqHeading": "Häufige Fragen zu Sonderfarben bei freien Gewichten",
+    "linkHeading": "Eigenmarken-Spezifikation fortsetzen",
+    "linkLabels": ["Logoverfahren vergleichen", "OEM-Muster freigeben", "Chargenkonsistenz sichern", "Gewichtstoleranz der Scheiben prüfen", "Kurzhanteln ansehen", "Hantelscheiben ansehen", "OEM und Private Label planen", "Werkskontrollen prüfen", "Exportverpackung planen", "Farbbrief senden"],
+    "imageCopy": [
+      ["Unbeschriftete Hanteln und Olympiascheiben in abgestimmten Sonderfarben mit Farbmusterkarten", "Konzeptionelles Einkaufsbild; kein Kundenprojekt und kein dokumentierter Werksversuch."],
+      ["Violette und graue Scheiben mit schwarzer Kurzhantel auf neutralem Prüftisch", "Farbe, Struktur und Glanz werden am fertigen Produkt gemeinsam bewertet."],
+      ["Sonderfarbene Hanteln und Scheiben unter neutraler Vergleichsbeleuchtung", "Geschützte Muster erleichtern den Vergleich bei Nachbestellungen."]
+    ],
+    "cta": ["Flächenbezogenen Farbbrief senden", "Teilen Sie Produktfamilie, Material, Finish, Farbreferenz, Gewichtsmatrix, Marke, Verpackung und Prüfung. ChinaFreeWeight bewertet den realisierbaren Freigabeweg für das Modell.", "Sonderfarben besprechen"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/couleurs-personnalisees-halteres-disques",
+    "title": "Couleurs personnalisées pour haltères et disques : validation",
+    "description": "Validez les couleurs d’haltères et de disques selon matière, brillance, échantillon physique, mesure, contrôle de lot et réassort.",
+    "h1": "Comment valider une couleur personnalisée sur haltères et disques ?",
+    "keyword": "couleurs personnalisées haltères et disques",
+    "home": "Accueil",
+    "library": "Guides",
+    "eyebrow": "ChinaFreeWeight · Validation couleur en marque privée",
+    "sections": [
+      {
+        "heading": "Réponse directe : valider le produit fini, pas l’écran",
+        "text": "Un code couleur oriente le développement sans prouver le rendu après moulage, revêtement, cuisson et finition. Caoutchouc, uréthane, poudre, encre et remplissage réagissent différemment selon support, grain et brillance.\n\nValidez un échantillon physique équivalent à la série sous des conditions convenues. ChinaFreeWeight est une usine et étudie OEM, ODM, Custom Logo, Private Label et Bulk Supply, mais l’accord doit rester lié au modèle, à la matière, à la finition, au fichier graphique et à la révision."
+      },
+      {
+        "heading": "Décrire la couleur avec la matière et le procédé",
+        "text": "Un disque fonte peint, un bumper moulé, une tête d’haltère en uréthane et un carton imprimé n’emploient pas la même recette. Pigment, épaisseur, cuisson, grain du moule et brillance modifient le résultat. Chaque surface visible à coordonner reçoit sa propre cible.\n\nPantone rappelle que fabricant, support, finition et application influencent le rendu. ASTM D2244 traite du calcul des écarts instrumentaux et demande un accord sur méthode et tolérance. Elle ne fixe pas une limite universelle pour l’équipement sportif."
+      },
+      {
+        "heading": "Créer un dossier d’approbation pour chaque surface",
+        "text": "Le brief identifie référence physique récente, article, matière, finition, texture, brillance, procédé du logo, marquage du poids et condition d’observation. Les photos situent les zones, mais exposition, balance des blancs et écran empêchent d’en faire l’unique étalon.\n\nPour une gamme, choisissez des variantes légères, intermédiaires et lourdes. Taille, épaisseur, lot de matière, relief et zone de marquage changent l’équilibre visuel. Validez couleur, logo et indication KG ou LB ensemble afin de maintenir le contraste."
+      },
+      {
+        "heading": "Distinguer identité de marque et code de poids",
+        "text": "Une gamme commerciale peut employer une couleur de marque, une palette ou un code par poids. Un produit de compétition peut relever de règles fédérales dans un périmètre précis. Vérifiez les règles IWF ou IPF actuelles uniquement pour le produit concerné.\n\nÉtablissez une carte couleur par article et marché avant l’échantillonnage. Si la couleur de marque contredit un repère familier, gardez la valeur lisible et limitez éventuellement la teinte au corps, à une bande, aux lettres, au moyeu, à l’embout ou à l’emballage."
+      },
+      {
+        "heading": "Comparer sous lumière et protocole contrôlés",
+        "text": "Placez étalon et essai propres, proches et orientés pareillement. Utilisez une lumière neutre stable, un environnement neutre et un angle reproductible qui limite l’éblouissement. Notez si la décision est visuelle, instrumentale ou combinée. Traitez brillance et texture séparément.\n\nEn cas de mesure, enregistrez appareil, géométrie, illuminant, observateur, ouverture, emplacements, moyenne et formule. Ne copiez pas la tolérance d’une autre matière. Corrélez la limite à l’acceptation visuelle de surfaces proches de la série."
+      },
+      {
+        "heading": "Contrôler plusieurs cartons, périodes et poids",
+        "text": "Confirmez identité et révision avant comparaison. Prélevez dans plusieurs cartons, périodes de fabrication, niveaux de poids et deux faces. Recherchez variation locale, dérive, contamination, taches de brillance, traces de cuisson, couverture d’impression et transfert de couleur.\n\nL’échantillon approuvé sert de référence, pas de garantie unitaire. Le plan précise prélèvement, méthode, catégories de défaut et décision aux limites. Séparez texture normale, taches, support visible, mélange de teintes et marquage insuffisamment lisible."
+      },
+      {
+        "heading": "Conserver les preuves pour le réassort",
+        "text": "Gardez produit signé, référence physique, révisions matière et finition, fichier validé, réglages de mesure, photos et rapport. Protégez les standards de la lumière, de la chaleur, des huiles et du frottement, puis remplacez un témoin altéré.\n\nDemandez une revue avant tout changement de pigment, mélange, support, texture de moule, fournisseur de finition, cuisson, brillance, encre ou protection. Un même nom de couleur peut produire un autre aspect. Le dossier donne une base commune à la marque et à l’usine."
+      }
+    ],
+    "table": {
+      "heading": "Matrice de validation de couleur",
+      "columns": ["Décision", "À définir", "Preuve conservée"],
+      "rows": [
+        ["Rôle", "Marque, code de poids ou accent", "Carte par article"],
+        ["Surface", "Caoutchouc, uréthane, peinture, encre ou carton", "Brief dédié"],
+        ["Cible", "Référence physique récente et système", "Étalon protégé"],
+        ["Aspect", "Texture, brillance, effet et éclairage", "Échantillons limites"],
+        ["Marquage", "Logo, KG ou LB, contraste et position", "Révision graphique"],
+        ["Mesure", "Appareil, formule, zones et tolérance", "Protocole"],
+        ["Lot", "Prélèvement, comparaison et décision", "Rapport de contrôle"],
+        ["Réassort", "Changements imposant une nouvelle validation", "Historique"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Dix contrôles avant production en couleur",
+      "items": [
+        "Définir marché, gamme et rôle de chaque couleur.",
+        "Utiliser une référence physique récente.",
+        "Nommer matière, surface, texture et brillance.",
+        "Associer chaque couleur à l’article et au poids.",
+        "Appliquer les règles sportives au seul périmètre pertinent.",
+        "Valider variantes légères, moyennes et lourdes.",
+        "Documenter lumière et réglages de mesure.",
+        "Définir prélèvement et traitement des cas limites.",
+        "Conserver produit, graphique, photos et rapport.",
+        "Revalider après changement de matière ou procédé."
+      ]
+    },
+    "faq": [
+      ["Un code Pantone suffit-il pour valider la couleur ?", "Non. Matière, texture, brillance et procédé modifient le rendu. Validez un échantillon physique équivalent à la production."],
+      ["Une tolérance convient-elle au caoutchouc, à l’uréthane et à la peinture ?", "Pas automatiquement. Chaque surface exige une méthode visuelle ou instrumentale corrélée à son acceptabilité."],
+      ["Peut-on approuver une photo ?", "Elle aide à documenter, mais appareil, lumière et écran changent l’apparence. Elle ne remplace pas l’étalon physique."],
+      ["Tous les disques doivent-ils reprendre les couleurs de compétition ?", "Non. Appliquez les règles actuelles uniquement au produit entrant dans ce périmètre. Une gamme d’entraînement peut suivre un autre système."],
+      ["Que faut-il enregistrer lors d’une mesure ?", "Appareil, géométrie, illuminant, observateur, ouverture, zones, moyenne, formule et tolérance convenue."],
+      ["Comment contrôler la couleur d’une commande en volume ?", "Prélevez plusieurs cartons, périodes et références, puis comparez couleur, brillance, texture, contraste et défauts."],
+      ["Que conserver pour un réassort ?", "Produit signé, référence physique, révisions, graphique, méthode, photos, rapport et suivi des changements."]
+    ],
+    "faqHeading": "Questions fréquentes sur la couleur des poids libres",
+    "linkHeading": "Poursuivre le cahier des charges de marque privée",
+    "linkLabels": ["Comparer les procédés de logo", "Valider un échantillon OEM", "Sécuriser la cohérence des réassorts", "Contrôler la tolérance des disques", "Voir les haltères professionnels", "Voir les disques", "Planifier OEM et marque privée", "Examiner les contrôles usine", "Préparer l’emballage export", "Envoyer le brief couleur"],
+    "imageCopy": [
+      ["Haltères et disques olympiques sans marque en couleurs coordonnées avec témoins physiques", "Visuel éditorial de préparation d’achat, sans prétendre montrer un projet client ou un essai d’usine."],
+      ["Disques et haltère sans marque en violet, gris et noir sur table neutre", "La matière, la texture et la brillance sont validées sur le produit fini."],
+      ["Poids libres colorés sous un éclairage neutre de comparaison", "Un témoin protégé facilite le contrôle des fabrications suivantes."]
+    ],
+    "cta": ["Envoyer un brief par surface", "Indiquez gamme, matière, finition, référence couleur, carte des poids, identité, emballage et contrôle. ChinaFreeWeight étudiera un parcours de validation réalisable pour le modèle.", "Parler des couleurs"]
+  },
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/specialfarg-hantlar-viktskivor",
+    "title": "Specialfärg på hantlar och viktskivor: godkänn rätt",
+    "description": "Godkänn specialfärg på hantlar och viktskivor utifrån material, glans, fysiskt prov, mätning, leveranskontroll och återbeställning.",
+    "h1": "Så godkänns specialfärg på hantlar och viktskivor",
+    "keyword": "specialfärg på hantlar och viktskivor",
+    "home": "Start",
+    "library": "Kunskapsbank",
+    "eyebrow": "ChinaFreeWeight · Färgstyrning för eget varumärke",
+    "sections": [
+      {
+        "heading": "Kort svar: godkänn den färdiga ytan, inte skärmen",
+        "text": "En färgkod anger riktning men visar inte säkert resultatet efter gjutning, ytbehandling och härdning. Gummi, uretan, pulverlack, tryckfärg och färgfyllning ser olika ut beroende på underlag, struktur och glans.\n\nGodkänn ett fysiskt, produktionslikt prov under bestämda betraktningsvillkor. ChinaFreeWeight är fabrik och kan granska OEM, ODM, Custom Logo, Private Label och Bulk Supply, men färgen måste kopplas till exakt modell, material, ytversion och original."
+      },
+      {
+        "heading": "Beskriv färg tillsammans med material och process",
+        "text": "En målad gjutjärnsskiva, en formgjuten bumperviktskiva, ett uretanhuvud och en tryckt kartong använder inte samma recept. Pigment, skikttjocklek, härdning, formstruktur och glans påverkar uttrycket. Ange därför mål för varje synlig yta som ska samordnas.\n\nPantone beskriver hur tillverkare, substrat, finish och applicering påverkar fysisk färg. ASTM D2244 behandlar beräkning av uppmätta färgskillnader och kräver överenskommen metod och tolerans. Ingen generell gräns för gymprodukter följer av detta."
+      },
+      {
+        "heading": "Skapa ett godkännandepaket för varje yta",
+        "text": "Underlaget anger aktuell fysisk referens, artikel, basmaterial, finish, struktur, önskad glans, logometod, viktmärkning och betraktningsvillkor. Bilder visar placering men kamera, vitbalans och bildskärm gör dem olämpliga som enda master.\n\nFör ett helt sortiment väljs lätta, medeltunga och tunga varianter. Huvudstorlek, godstjocklek, materialbatch, relief och märkyta påverkar helheten. Godkänn färg, logo och KG- eller LB-värde tillsammans så att läsbarheten bevaras."
+      },
+      {
+        "heading": "Skilj varumärkesfärg från viktkod",
+        "text": "Ett kommersiellt sortiment kan ha en varumärkesfärg, en palett eller färg per vikt. Tävlingsprodukter kan omfattas av federationsregler inom en bestämd användning. Kontrollera aktuell IWF- eller IPF-regel endast när just den tävlingsomfattningen gäller.\n\nGör en färgkarta per artikel och marknad före prov. Om varumärkesfärgen krockar med en välkänd viktkod ska vikten fortfarande vara tydlig. Färgen kan begränsas till kropp, rand, text, nav, ändbricka eller förpackning."
+      },
+      {
+        "heading": "Jämför prov med styrt ljus och dokumenterad metod",
+        "text": "Lägg ren referens och prov nära varandra med samma riktning. Använd stabilt neutralt ljus, neutral omgivning och återkommande vinkel som minskar reflexer. Notera om beslutet är visuellt, instrumentellt eller kombinerat. Glans och struktur bedöms separat.\n\nVid mätning sparas instrument, geometri, ljuskälla, observatör, öppning, mätpunkter, medelvärde och formel. Kopiera inte toleransen från ett annat material. Koppla gränsen till vad som visuellt accepteras på den aktuella produktionsytan."
+      },
+      {
+        "heading": "Kontrollera flera kartonger och viktsteg",
+        "text": "Verifiera artikel och revision före färgbedömning. Ta prov från olika kartonger, produktionsperioder, vikter och sidor. Leta efter lokal variation, förskjutning mellan delar, smuts, glansfläckar, härdningsmärken, otäckta tryckytor och färgöverföring.\n\nDet godkända provet är en referens, inte ett löfte om varje exemplar. Kontrollplanen anger urval, metod, felklass och beslut vid gränsfall. Normal ytstruktur skiljs från fläck, synligt underlag, blandad nyans och oläslig märkning."
+      },
+      {
+        "heading": "Skydda referensen för nästa beställning",
+        "text": "Spara signerad produkt, fysisk färgreferens, material- och finishrevision, original, mätinställning, foton och rapport. Förvara standarden borta från ljus, värme, olja och nötning och ersätt den om den åldras eller skadas.\n\nKräv granskning innan pigment, blandning, substrat, formstruktur, ytleverantör, härdning, glans, tryckfärg eller skydd ändras. Samma färgnamn kan annars ge ett nytt utseende. Paketet ger köpare och fabrik samma jämförelsegrund."
+      }
+    ],
+    "table": {
+      "heading": "Beslutsmatris för specialfärg",
+      "columns": ["Beslut", "Definiera", "Spara"],
+      "rows": [
+        ["Funktion", "Varumärke, viktkod eller accent", "Färgkarta per artikel"],
+        ["Yta", "Gummi, uretan, lack, tryck eller kartong", "Ytspecifikt underlag"],
+        ["Mål", "Aktuell fysisk referens och system", "Skyddad master"],
+        ["Utseende", "Struktur, glans, effekt och ljus", "Gränsprov"],
+        ["Märkning", "Logo, KG eller LB, kontrast och placering", "Originalversion"],
+        ["Mätning", "Instrument, formel, punkter och tolerans", "Metodpost"],
+        ["Leverans", "Urval, jämförelse och avvikelsebeslut", "Kontrollrapport"],
+        ["Återorder", "Ändringar som kräver nytt prov", "Revisionshistorik"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Tio kontroller före färgad serieproduktion",
+      "items": [
+        "Ange marknad, produktfamilj och färgens funktion.",
+        "Använd aktuell fysisk referens, inte bara skärm.",
+        "Dokumentera material, yta, struktur och glans.",
+        "Koppla varje färg till artikel och viktmärkning.",
+        "Tillämpa idrottsregler bara inom rätt område.",
+        "Godkänn lätta, medeltunga och tunga produkter.",
+        "Dokumentera ljus och instrumentinställningar.",
+        "Bestäm urval och hantering av gränsfall.",
+        "Spara produkt, original, bilder och rapport.",
+        "Godkänn material- eller processändringar på nytt."
+      ]
+    },
+    "faq": [
+      ["Räcker en Pantone-kod för att godkänna färg?", "Nej. Material, struktur, glans och process påverkar utseendet. Godkänn ett produktionslikt fysiskt prov."],
+      ["Kan samma tolerans gälla gummi, uretan och lack?", "Inte automatiskt. Varje yta behöver en visuell eller instrumentell metod som stämmer med acceptansen."],
+      ["Kan köparen godkänna ett fotografi?", "Fotot dokumenterar men kamera, ljus och skärm ändrar intrycket. Det ersätter inte en fysisk master."],
+      ["Måste alla viktskivor följa tävlingsfärger?", "Nej. Använd aktuella regler bara för rätt tävlingsprodukt. Träningssortiment kan följa ett annat dokumenterat system."],
+      ["Vad ska sparas från färgmätningen?", "Instrument, geometri, ljuskälla, observatör, öppning, punkter, medelvärde, formel och avtalad tolerans."],
+      ["Hur kontrolleras färg i en större leverans?", "Ta prov över kartonger, produktionsperioder och representativa artiklar och jämför färg, glans, struktur, kontrast och fel."],
+      ["Vad krävs för en återbeställning?", "Signerad produkt, fysisk referens, revisioner, original, mätmetod, foton, rapport och ändringslogg."]
+    ],
+    "faqHeading": "Vanliga frågor om specialfärg på fria vikter",
+    "linkHeading": "Fortsätt specifikationen för eget varumärke",
+    "linkLabels": ["Jämför logometoder", "Godkänn OEM-prov", "Säkra återbeställningar", "Kontrollera skivornas vikttolerans", "Se professionella hantlar", "Se viktskivor", "Planera OEM och eget varumärke", "Granska fabrikskontroller", "Planera exportemballage", "Skicka färgunderlaget"],
+    "imageCopy": [
+      ["Omärkta hantlar och olympiska viktskivor i samordnade färger med fysiska färgprov", "Konceptuell inköpsbild, inte ett kundprojekt eller dokumenterat fabriksprov."],
+      ["Omärkt hantel och färgade skivor med neutralt jämförelsekort", "Färg, struktur och glans godkänns på den färdiga ytan."],
+      ["Färgade fria vikter i neutral studioljus för jämförelse", "En skyddad fysisk referens hjälper vid framtida leveranser."]
+    ],
+    "cta": ["Skicka ett ytspecifikt färgunderlag", "Ange produktfamilj, material, finish, färgreferens, viktkarta, varumärke, emballage och kontroll. ChinaFreeWeight granskar en tillverkningsbar godkännandeväg.", "Diskutera specialfärg"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/colori-personalizzati-manubri-dischi",
+    "title": "Colori personalizzati per manubri e dischi: approvazione",
+    "description": "Approva i colori di manubri e dischi in base a materiale, lucentezza, campione fisico, misura, controllo del lotto e riordino.",
+    "h1": "Come approvare colori personalizzati per manubri e dischi",
+    "keyword": "colori personalizzati per manubri e dischi",
+    "home": "Home",
+    "library": "Guide",
+    "eyebrow": "ChinaFreeWeight · Controllo colore per marchio privato",
+    "sections": [
+      {
+        "heading": "Risposta breve: approvare il prodotto finito, non lo schermo",
+        "text": "Un codice colore orienta lo sviluppo, ma non prova l’aspetto dopo stampaggio, rivestimento, polimerizzazione e finitura. Gomma, uretano, vernice a polvere, inchiostro e riempimento reagiscono diversamente in base a supporto, texture e lucentezza.\n\nOccorre approvare un campione fisico equivalente alla produzione in condizioni concordate. ChinaFreeWeight è una fabbrica e valuta OEM, ODM, Custom Logo, Private Label e Bulk Supply, legando però l’approvazione a modello, materiale, finitura, grafica e revisione precisi."
+      },
+      {
+        "heading": "Trattare il colore come requisito di materiale e processo",
+        "text": "Un disco in ghisa verniciato, un bumper stampato, una testa in uretano e un cartone non usano la stessa formula. Pigmento, spessore, cura, texture dello stampo e brillantezza modificano la percezione. Ogni superficie da coordinare necessita di un proprio obiettivo.\n\nPantone segnala che produttore, substrato, finitura e applicazione influenzano il risultato fisico. ASTM D2244 riguarda il calcolo delle differenze misurate e richiede accordo su metodo e tolleranza. Non stabilisce un limite universale per i pesi da palestra."
+      },
+      {
+        "heading": "Preparare un fascicolo per ogni superficie",
+        "text": "Il brief identifica riferimento fisico recente, codice articolo, materiale, finitura, texture, brillantezza, metodo del logo, marcatura del peso e condizione di osservazione. Le foto documentano la posizione, ma esposizione, bilanciamento del bianco e monitor impediscono di usarle come unico standard.\n\nPer una gamma completa, scegliere pesi leggeri, medi e pesanti. Dimensione della testa, spessore, lotto del composto, rilievo e area marcata alterano l’equilibrio visivo. Approvare insieme colore, logo e indicazione KG o LB."
+      },
+      {
+        "heading": "Distinguere colore del marchio e codice del peso",
+        "text": "Una linea commerciale può usare un colore istituzionale, una palette o un colore per peso. I prodotti da gara possono ricadere nelle regole federali entro un campo preciso. Verificare le regole IWF o IPF correnti solo quando il prodotto è destinato a tale uso.\n\nCreare una mappa colore per articolo e mercato prima dei campioni. Se il colore del marchio contrasta con una codifica nota, mantenere ben visibile il valore e usare eventualmente il colore su corpo, fascia, lettere, mozzo, tappo o imballo."
+      },
+      {
+        "heading": "Confrontare con luce e metodo controllati",
+        "text": "Collocare riferimento e prova puliti, vicini e orientati nello stesso modo. Usare luce neutra stabile, ambiente neutro e angolo ripetibile che riduca i riflessi. Registrare se la decisione è visiva, strumentale o combinata. Lucentezza e texture restano controlli distinti.\n\nSe si misura, registrare strumento, geometria, illuminante, osservatore, apertura, punti, media e formula. Non copiare la tolleranza di un altro materiale. Collegare il limite all’accettazione visiva sulla superficie equivalente alla produzione."
+      },
+      {
+        "heading": "Ispezionare più cartoni, periodi e taglie",
+        "text": "Confermare identità e revisione prima del confronto. Prelevare da cartoni, momenti produttivi, pesi e lati differenti. Cercare variazione locale, deriva tra pezzi, sporco, chiazze di lucentezza, segni di cura, copertura di stampa e trasferimento di colore.\n\nIl campione approvato è un riferimento, non una garanzia per ogni unità. Il piano definisce selezione, metodo, classi di difetto e decisione sui casi limite. Separare texture normale da macchie, substrato esposto, tonalità miste o marcatura poco leggibile."
+      },
+      {
+        "heading": "Conservare le prove per il riordino",
+        "text": "Conservare prodotto firmato, riferimento fisico, revisioni di materiale e finitura, grafica, impostazioni di misura, foto e rapporto. Proteggere gli standard da luce, calore, olio e abrasione e sostituirli se invecchiati o danneggiati.\n\nRichiedere revisione prima di cambiare pigmento, composto, substrato, texture dello stampo, fornitore, cura, brillantezza, inchiostro o protezione. Lo stesso nome colore può dare un aspetto diverso. Il fascicolo crea una base comune tra marchio e fabbrica."
+      }
+    ],
+    "table": {
+      "heading": "Matrice di approvazione del colore",
+      "columns": ["Decisione", "Da definire", "Prova da conservare"],
+      "rows": [
+        ["Funzione", "Marchio, codice peso o accento", "Mappa per articolo"],
+        ["Superficie", "Gomma, uretano, vernice, stampa o cartone", "Brief dedicato"],
+        ["Obiettivo", "Riferimento fisico recente e sistema", "Standard protetto"],
+        ["Aspetto", "Texture, lucentezza, effetto e luce", "Campioni limite"],
+        ["Marcatura", "Logo, KG o LB, contrasto e posizione", "Revisione grafica"],
+        ["Misura", "Strumento, formula, punti e tolleranza", "Metodo registrato"],
+        ["Lotto", "Campionamento, confronto e decisione", "Rapporto"],
+        ["Riordino", "Modifiche che richiedono nuova prova", "Cronologia revisioni"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Dieci controlli prima della produzione colorata",
+      "items": [
+        "Definire mercato, gamma e funzione di ogni colore.",
+        "Usare un riferimento fisico recente, non solo lo schermo.",
+        "Registrare materiale, superficie, texture e lucentezza.",
+        "Associare ogni colore ad articolo e peso.",
+        "Applicare le regole sportive solo nel campo corretto.",
+        "Approvare varianti leggere, medie e pesanti.",
+        "Documentare luce e impostazioni dello strumento.",
+        "Definire campionamento e gestione dei casi limite.",
+        "Conservare prodotto, grafica, foto e rapporto.",
+        "Riapprovare dopo modifiche di materiale o processo."
+      ]
+    },
+    "faq": [
+      ["È sufficiente un codice Pantone?", "No. Materiale, texture, lucentezza e processo cambiano l’aspetto. Serve un campione fisico equivalente alla produzione."],
+      ["Una tolleranza vale per gomma, uretano e vernice?", "Non automaticamente. Ogni superficie necessita di un metodo visivo o strumentale correlato alla sua accettabilità."],
+      ["Si può approvare da una fotografia?", "La foto documenta, ma fotocamera, luce e monitor alterano l’aspetto. Non sostituisce lo standard fisico."],
+      ["Tutti i dischi devono seguire i colori da gara?", "No. Applicare le regole correnti solo al prodotto nel relativo campo. Una linea commerciale può seguire un altro sistema documentato."],
+      ["Cosa registrare nella misura del colore?", "Strumento, geometria, illuminante, osservatore, apertura, punti, media, formula e tolleranza concordata."],
+      ["Come controllare un ordine in volume?", "Campionare cartoni, periodi e articoli rappresentativi, confrontando colore, lucentezza, texture, contrasto e difetti."],
+      ["Cosa conservare per il riordino?", "Prodotto firmato, riferimento fisico, revisioni, grafica, metodo, fotografie, rapporto e registro modifiche."]
+    ],
+    "faqHeading": "Domande frequenti sui colori dei pesi liberi",
+    "linkHeading": "Continuare la specifica del marchio privato",
+    "linkLabels": ["Confronta i metodi del logo", "Approva un campione OEM", "Controlla la coerenza dei riordini", "Verifica la tolleranza dei dischi", "Vedi i manubri professionali", "Vedi i dischi pesi", "Pianifica OEM e marchio privato", "Esamina i controlli di fabbrica", "Pianifica l’imballaggio export", "Invia il brief colore"],
+    "imageCopy": [
+      ["Manubri e dischi olimpici senza marchio in colori coordinati con campioni fisici", "Immagine concettuale per acquisti; non mostra un progetto cliente né una prova di fabbrica."],
+      ["Manubrio e dischi senza marchio in blu, rame e crema su tavolo neutro", "Materiale, texture e lucentezza vanno approvati sulla superficie finita."],
+      ["Pesi liberi colorati disposti sotto luce neutra di confronto", "Un riferimento fisico protetto sostiene il controllo dei riordini."]
+    ],
+    "cta": ["Invia un brief per ogni superficie", "Condividi gamma, materiale, finitura, riferimento colore, mappa dei pesi, marchio, imballo e controllo. ChinaFreeWeight valuterà un percorso di approvazione realizzabile.", "Parlare dei colori"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/kleuren-op-maat-halter-schijven",
+    "title": "Kleuren op maat voor halters en schijven goedkeuren",
+    "description": "Keur kleuren van halters en schijven goed op materiaal, glans, fysiek monster, meting, partijcontrole en herhaalbestelling.",
+    "h1": "Hoe keurt u kleuren op maat voor halters en halterschijven goed?",
+    "keyword": "kleuren op maat voor halters en halterschijven",
+    "home": "Home",
+    "library": "Inkoopgidsen",
+    "eyebrow": "ChinaFreeWeight · Kleurgoedkeuring voor private label",
+    "sections": [
+      {
+        "heading": "Kort antwoord: keur het afgewerkte product goed, niet het scherm",
+        "text": "Een kleurcode geeft richting, maar bewijst niet hoe het product eruitziet na vormen, coaten, uitharden en afwerken. Rubber, urethaan, poederlak, drukinkt en kleurvulling reageren anders door ondergrond, textuur en glans.\n\nKeur een fysiek, productie-equivalent monster goed onder afgesproken kijkcondities. ChinaFreeWeight is een fabriek en beoordeelt OEM, ODM, Custom Logo, Private Label en Bulk Supply, maar de kleur hoort bij het exacte model, materiaal, oppervlak, artwork en revisienummer."
+      },
+      {
+        "heading": "Beschrijf kleur als materiaal- en proceseis",
+        "text": "Een gelakte gietijzeren schijf, gevormde bumper plate, urethaan halterkop en bedrukte doos gebruiken niet één recept. Pigment, laagdikte, uitharding, matrijstextuur en glans veranderen de waarneming. Geef elk zichtbaar oppervlak dat moet aansluiten daarom een eigen doel.\n\nPantone merkt op dat fabrikant, substraat, afwerking en applicatie het fysieke resultaat beïnvloeden. ASTM D2244 beschrijft berekening van gemeten kleurverschillen en vraagt overeenstemming over methode en tolerantie. Dat levert geen universele grens voor fitnessproducten op."
+      },
+      {
+        "heading": "Maak per zichtbaar oppervlak een goedkeuringspakket",
+        "text": "De briefing vermeldt actuele fysieke referentie, artikel, basismateriaal, afwerking, textuur, gewenste glans, logomethode, gewichtsaanduiding en kijkconditie. Foto’s leggen plaatsing vast, maar camera, witbalans en beeldscherm maken ze ongeschikt als enige master.\n\nKies bij een serie lichte, middelzware en zware varianten. Kopmaat, wanddikte, materiaalbatch, reliëf en markeeroppervlak beïnvloeden het geheel. Keur kleur, logo en KG- of LB-aanduiding samen goed, zodat herkenning en contrast behouden blijven."
+      },
+      {
+        "heading": "Scheid merkkleur van sportieve gewichtscodering",
+        "text": "Een commerciële lijn kan één merkkleur, een palet of een kleur per gewicht gebruiken. Wedstrijdproducten kunnen binnen een bepaald toepassingsgebied aan bondregels vallen. Controleer actuele IWF- of IPF-regels alleen wanneer dat specifieke wedstrijdgebruik geldt.\n\nMaak vóór bemonstering een kleurkaart per artikel en markt. Als een merkkleur botst met bekende gewichtscodering, houdt u de waarde duidelijk leesbaar. De kleur kan worden beperkt tot behuizing, strook, letters, naaf, eindkap of verpakking."
+      },
+      {
+        "heading": "Vergelijk onder vast licht en met een gedocumenteerde methode",
+        "text": "Plaats een schone referentie en proef dicht bij elkaar in dezelfde richting. Gebruik stabiel neutraal licht, een neutrale omgeving en een herhaalbare hoek die schittering beperkt. Noteer of visueel, instrumenteel of gecombineerd wordt beslist. Beoordeel glans en textuur afzonderlijk.\n\nBij meting legt u instrument, geometrie, lichtbron, waarnemer, opening, meetplaatsen, middeling en formule vast. Neem geen tolerantie van ander materiaal over. Koppel de limiet aan visuele acceptatie op een productie-equivalent oppervlak."
+      },
+      {
+        "heading": "Controleer dozen, productiemomenten en gewichten",
+        "text": "Bevestig identiteit en revisie vóór de vergelijking. Trek monsters uit verschillende dozen, productiefasen, gewichtsniveaus en zijden. Zoek plaatselijke variatie, verloop tussen delen, vervuiling, glansvlekken, uithardingssporen, onvolledige opdruk en kleuroverdracht.\n\nHet goedgekeurde monster is een referentie, geen garantie voor ieder stuk. Het inspectieplan bepaalt selectie, methode, foutklasse en beslissing bij grensgevallen. Scheid normale textuur van vlekken, zichtbare ondergrond, gemengde tint en onleesbare markering."
+      },
+      {
+        "heading": "Bescherm de referentie voor herhaalbestellingen",
+        "text": "Bewaar ondertekend product, fysieke kleurreferentie, materiaal- en afwerkingsrevisie, artwork, meetinstellingen, foto’s en rapport. Bescherm standaarden tegen licht, warmte, olie en slijtage en vervang verouderde of beschadigde referenties.\n\nVraag beoordeling vóór wijziging van pigment, mengsel, substraat, matrijstextuur, coatingleverancier, uitharding, glans, inkt of beschermende verpakking. Dezelfde kleurnaam kan anders uitvallen. Het pakket geeft merk en fabriek één vergelijkingsbasis."
+      }
+    ],
+    "table": {
+      "heading": "Beslismatrix voor kleurgoedkeuring",
+      "columns": ["Besluit", "Te definiëren", "Te bewaren bewijs"],
+      "rows": [
+        ["Functie", "Merkkleur, gewichtscode of accent", "Kleurkaart per artikel"],
+        ["Oppervlak", "Rubber, urethaan, lak, print of doos", "Oppervlaktebriefing"],
+        ["Doel", "Actuele fysieke referentie en systeem", "Beschermde master"],
+        ["Uiterlijk", "Textuur, glans, effect en licht", "Grensmonsters"],
+        ["Markering", "Logo, KG of LB, contrast en positie", "Artworkrevisie"],
+        ["Meting", "Instrument, formule, plaatsen en tolerantie", "Methoderecord"],
+        ["Partij", "Steekproef, vergelijking en beslissing", "Inspectierapport"],
+        ["Herhaalorder", "Wijzigingen die herkeuring vragen", "Revisiehistorie"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Tien controles vóór productie in kleur",
+      "items": [
+        "Leg markt, productfamilie en kleurfunctie vast.",
+        "Gebruik een actuele fysieke referentie.",
+        "Noteer materiaal, oppervlak, textuur en glans.",
+        "Koppel iedere kleur aan artikel en gewicht.",
+        "Pas sportregels alleen binnen het juiste bereik toe.",
+        "Keur lichte, middelzware en zware varianten goed.",
+        "Documenteer licht en instrumentinstellingen.",
+        "Bepaal steekproef en behandeling van grensgevallen.",
+        "Bewaar product, artwork, foto’s en rapport.",
+        "Keur materiaal- of proceswijzigingen opnieuw goed."
+      ]
+    },
+    "faq": [
+      ["Is een Pantone-code genoeg voor kleurgoedkeuring?", "Nee. Materiaal, textuur, glans en proces veranderen het uiterlijk. Keur een productie-equivalent fysiek monster goed."],
+      ["Kan één tolerantie gelden voor rubber, urethaan en lak?", "Niet automatisch. Ieder oppervlak vraagt een visuele of instrumentele methode die bij de acceptatie past."],
+      ["Kan een foto worden goedgekeurd als kleurmaster?", "Een foto documenteert, maar camera, licht en scherm veranderen de kleur. Zij vervangt geen fysieke referentie."],
+      ["Moeten alle schijven wedstrijdkleuren volgen?", "Nee. Pas actuele regels alleen toe op producten binnen dat wedstrijdgebied. Trainingslijnen kunnen een ander vastgelegd systeem gebruiken."],
+      ["Wat hoort bij een kleurmeting?", "Instrument, geometrie, lichtbron, waarnemer, opening, meetplaatsen, middeling, formule en afgesproken tolerantie."],
+      ["Hoe controleert u een grote partij?", "Bemonster dozen, productiefasen en representatieve artikelen en vergelijk kleur, glans, textuur, contrast en zichtbare fouten."],
+      ["Wat bewaart u voor een herhaalorder?", "Ondertekend product, fysieke referentie, revisies, artwork, meetmethode, foto’s, rapport en wijzigingslog."]
+    ],
+    "faqHeading": "Veelgestelde vragen over kleur van vrije gewichten",
+    "linkHeading": "Ga verder met de private-labelspecificatie",
+    "linkLabels": ["Vergelijk logomethoden", "Keur een OEM-monster goed", "Borg consistentie bij herhaalorders", "Controleer gewichtstolerantie van schijven", "Bekijk professionele halters", "Bekijk halterschijven", "Plan OEM en private label", "Bekijk fabriekscontroles", "Plan exportverpakking", "Stuur de kleurbriefing"],
+    "imageCopy": [
+      ["Ongebrande halters en olympische schijven in afgestemde kleuren met fysieke kleurmonsters", "Conceptueel inkoopbeeld; geen klantproject of gedocumenteerde fabriekstest."],
+      ["Ongebrande halters en schijven in blauw, koper en crème op een neutrale tafel", "Materiaal, textuur en glans worden op het afgewerkte oppervlak beoordeeld."],
+      ["Gekleurde vrije gewichten onder neutraal vergelijkingslicht", "Een beschermde fysieke referentie ondersteunt consistente herhaalorders."]
+    ],
+    "cta": ["Stuur een briefing per oppervlak", "Deel productfamilie, materiaal, afwerking, kleurreferentie, gewichtsmatrix, merk, verpakking en inspectie. ChinaFreeWeight beoordeelt een maakbare goedkeuringsroute.", "Bespreek kleuren op maat"]
+  },
+  {
+    "locale": "vi",
+    "path": "/vi/blog/mau-tuy-chinh-ta-tay-banh-ta",
+    "title": "Duyệt Màu Tùy Chỉnh cho Tạ Tay và Bánh Tạ",
+    "description": "Xác định màu tạ tay và bánh tạ theo vật liệu, độ bóng, mẫu thật, phép đo, kiểm tra lô và kiểm soát đơn hàng lặp lại.",
+    "h1": "Cách Duyệt Màu Tùy Chỉnh cho Tạ Tay và Bánh Tạ",
+    "keyword": "màu tùy chỉnh cho tạ tay và bánh tạ",
+    "home": "Trang chủ",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Duyệt màu cho thương hiệu riêng",
+    "sections": [
+      {
+        "heading": "Câu trả lời ngắn: duyệt bề mặt thành phẩm, không duyệt qua màn hình",
+        "text": "Mã màu là điểm bắt đầu nhưng không chứng minh sản phẩm sẽ trông thế nào sau tạo hình, phủ bề mặt, đóng rắn và hoàn thiện. Cao su, urethane, sơn bột, mực in và phần tô màu phản xạ ánh sáng khác nhau theo nền vật liệu, vân và độ bóng.\n\nCần duyệt mẫu thật tương đương sản xuất trong điều kiện quan sát đã thống nhất. ChinaFreeWeight là nhà máy, có thể xem xét OEM, ODM, Custom Logo, Private Label và Bulk Supply, nhưng màu phải gắn với đúng mẫu hàng, vật liệu, hoàn thiện, file nhận diện và phiên bản."
+      },
+      {
+        "heading": "Xem màu là yêu cầu của vật liệu và quy trình",
+        "text": "Bánh tạ gang sơn, bumper đúc, đầu tạ urethane và thùng carton in không dùng cùng một công thức. Sắc tố, chiều dày lớp, điều kiện đóng rắn, vân khuôn và độ bóng làm thay đổi cảm nhận. Mỗi bề mặt cần đồng bộ phải có mục tiêu riêng.\n\nPantone nêu rằng nhà sản xuất, nền vật liệu, lớp hoàn thiện và cách thi công ảnh hưởng kết quả thật. ASTM D2244 hướng dẫn tính sai khác màu bằng thiết bị và yêu cầu hai bên thống nhất phương pháp cùng dung sai. Không có một giới hạn chung cho mọi thiết bị gym."
+      },
+      {
+        "heading": "Lập hồ sơ duyệt riêng cho từng bề mặt",
+        "text": "Brief cần ghi mẫu màu vật lý còn hiệu lực, mã hàng, vật liệu nền, kiểu hoàn thiện, vân, độ bóng, phương pháp logo, ký hiệu trọng lượng và điều kiện quan sát. Ảnh giúp xác định vị trí nhưng phơi sáng, cân bằng trắng và màn hình khiến ảnh không thể là chuẩn duy nhất.\n\nVới cả dải tạ, chọn mức nhẹ, trung bình và nặng. Kích thước đầu, chiều dày, mẻ phối liệu, bề mặt nổi và vùng ký hiệu đều thay đổi tổng thể. Duyệt màu cùng logo và giá trị KG hoặc LB để giữ độ tương phản."
+      },
+      {
+        "heading": "Tách màu thương hiệu khỏi quy ước trọng lượng",
+        "text": "Dòng thương mại có thể dùng một màu thương hiệu, một bảng màu hoặc một màu theo trọng lượng. Sản phẩm thi đấu có thể thuộc quy định liên đoàn trong phạm vi cụ thể. Chỉ áp dụng quy tắc IWF hoặc IPF hiện hành khi đúng mục đích đó.\n\nLập bản đồ màu theo mã hàng và thị trường trước khi làm mẫu. Nếu màu thương hiệu xung đột với quy ước quen thuộc, phải giữ số trọng lượng rõ ràng. Có thể giới hạn màu ở thân, sọc, chữ, vòng tâm, nắp đầu hoặc bao bì."
+      },
+      {
+        "heading": "So sánh dưới ánh sáng và phương pháp cố định",
+        "text": "Đặt mẫu chuẩn và mẫu thử sạch, gần nhau, cùng hướng. Dùng ánh sáng trung tính ổn định, nền trung tính và góc quan sát lặp lại để giảm chói. Ghi rõ quyết định bằng mắt, bằng thiết bị hay kết hợp. Độ bóng và vân được kiểm tra riêng.\n\nNếu đo, ghi thiết bị, hình học, nguồn sáng, người quan sát, khẩu độ, vị trí, cách lấy trung bình và công thức. Không sao chép dung sai của vật liệu khác. Liên kết giới hạn với mức chấp nhận bằng mắt trên bề mặt tương đương sản xuất."
+      },
+      {
+        "heading": "Kiểm nhiều thùng, thời điểm và mức tạ",
+        "text": "Xác nhận mã hàng và phiên bản trước khi so màu. Lấy mẫu từ nhiều thùng, giai đoạn sản xuất, mức trọng lượng và hai mặt. Tìm chênh lệch trong cùng chi tiết, trôi màu giữa chi tiết, bẩn, đốm bóng, vết đóng rắn, thiếu mực và chuyển màu khi tiếp xúc.\n\nMẫu duyệt là chuẩn so sánh, không phải bảo đảm cho mọi sản phẩm. Kế hoạch kiểm tra phải nêu cách lấy mẫu, phương pháp, phân loại lỗi và người quyết định trường hợp biên. Tách vân bình thường khỏi vết bẩn, lộ nền, lẫn sắc và ký hiệu khó đọc."
+      },
+      {
+        "heading": "Bảo quản bằng chứng cho lần đặt tiếp theo",
+        "text": "Lưu sản phẩm đã ký, mẫu màu vật lý, phiên bản vật liệu và hoàn thiện, file đồ họa, cấu hình đo, ảnh và báo cáo. Bảo vệ mẫu khỏi ánh sáng, nhiệt, dầu và mài mòn; thay mẫu đã lão hóa hoặc hư hỏng.\n\nYêu cầu đánh giá lại trước khi đổi sắc tố, phối liệu, nền, vân khuôn, nhà cung cấp bề mặt, chu trình đóng rắn, độ bóng, mực hoặc lớp bảo vệ. Cùng tên màu vẫn có thể cho kết quả khác. Hồ sơ giữ lại tạo chuẩn chung giữa thương hiệu và nhà máy."
+      }
+    ],
+    "table": {
+      "heading": "Ma trận duyệt màu tùy chỉnh",
+      "columns": ["Quyết định", "Nội dung cần chốt", "Hồ sơ lưu"],
+      "rows": [
+        ["Vai trò", "Màu thương hiệu, mã trọng lượng hoặc điểm nhấn", "Bản đồ theo SKU"],
+        ["Bề mặt", "Cao su, urethane, sơn, mực hoặc thùng", "Brief riêng"],
+        ["Mục tiêu", "Mẫu thật còn hiệu lực và hệ màu", "Mẫu chuẩn bảo quản"],
+        ["Ngoại quan", "Vân, độ bóng, hiệu ứng và ánh sáng", "Mẫu giới hạn"],
+        ["Ký hiệu", "Logo, KG hoặc LB, độ tương phản và vị trí", "Phiên bản artwork"],
+        ["Phép đo", "Thiết bị, công thức, điểm đo và dung sai", "Hồ sơ phương pháp"],
+        ["Kiểm lô", "Lấy mẫu, so sánh và xử lý lệch", "Báo cáo kiểm tra"],
+        ["Đặt lại", "Thay đổi cần duyệt lại", "Lịch sử phiên bản"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Mười bước trước khi duyệt sản xuất có màu",
+      "items": [
+        "Xác định thị trường, dòng hàng và vai trò của màu.",
+        "Dùng mẫu vật lý còn hiệu lực thay vì chỉ nhìn màn hình.",
+        "Ghi vật liệu, bề mặt, vân và độ bóng.",
+        "Gắn từng màu với SKU và ký hiệu trọng lượng.",
+        "Chỉ áp dụng quy tắc thể thao trong đúng phạm vi.",
+        "Duyệt biến thể nhẹ, trung bình và nặng.",
+        "Ghi điều kiện sáng và cài đặt thiết bị.",
+        "Định nghĩa lấy mẫu và xử lý trường hợp biên.",
+        "Lưu sản phẩm, file, ảnh và báo cáo đã duyệt.",
+        "Duyệt lại sau thay đổi vật liệu hoặc quy trình."
+      ]
+    },
+    "faq": [
+      ["Mã Pantone có đủ để duyệt màu không?", "Không. Vật liệu, vân, độ bóng và quy trình làm thay đổi ngoại quan. Cần duyệt mẫu thật tương đương sản xuất."],
+      ["Một dung sai có dùng chung cho cao su, urethane và sơn không?", "Không mặc định. Mỗi bề mặt cần phương pháp nhìn hoặc đo phù hợp với mức chấp nhận."],
+      ["Có thể duyệt qua ảnh chụp không?", "Ảnh hữu ích để lưu hồ sơ nhưng máy ảnh, ánh sáng và màn hình làm đổi màu. Ảnh không thay thế mẫu vật lý."],
+      ["Mọi bánh tạ có phải theo màu thi đấu không?", "Không. Chỉ dùng quy định hiện hành cho đúng sản phẩm trong phạm vi thi đấu. Dòng tập có thể dùng hệ khác được ghi rõ."],
+      ["Cần ghi gì khi đo màu?", "Thiết bị, hình học, nguồn sáng, người quan sát, khẩu độ, điểm đo, cách lấy trung bình, công thức và dung sai."],
+      ["Kiểm màu của đơn hàng lớn thế nào?", "Lấy mẫu qua nhiều thùng, giai đoạn và SKU đại diện rồi so màu, độ bóng, vân, độ tương phản và lỗi."],
+      ["Cần lưu gì cho đơn đặt lại?", "Sản phẩm ký duyệt, mẫu vật lý, phiên bản, file đồ họa, phương pháp đo, ảnh, báo cáo và nhật ký thay đổi."]
+    ],
+    "faqHeading": "Câu hỏi thường gặp về màu của tạ tự do",
+    "linkHeading": "Hoàn thiện thông số thương hiệu riêng",
+    "linkLabels": ["So sánh phương pháp logo", "Duyệt mẫu OEM", "Kiểm soát độ ổn định khi đặt lại", "Xem dung sai bánh tạ", "Xem tạ tay chuyên nghiệp", "Xem bánh tạ", "Lập kế hoạch OEM và thương hiệu riêng", "Xem kiểm soát nhà máy", "Lập kế hoạch đóng gói xuất khẩu", "Gửi brief màu"],
+    "imageCopy": [
+      ["Tạ tay và bánh tạ Olympic không thương hiệu với màu phối hợp cùng mẫu màu vật lý", "Hình biên tập phục vụ thu mua; không phải dự án khách hàng hay biên bản thử nghiệm nhà máy."],
+      ["Tạ lục giác và bánh tạ không thương hiệu màu cam, xanh và xám", "Vật liệu, vân và độ bóng cần được duyệt trên bề mặt thành phẩm."],
+      ["Tạ tự do nhiều màu dưới ánh sáng trung tính để so sánh", "Mẫu vật lý được bảo quản hỗ trợ kiểm soát đơn hàng lặp lại."]
+    ],
+    "cta": ["Gửi brief màu theo từng bề mặt", "Hãy gửi dòng sản phẩm, vật liệu, hoàn thiện, mẫu màu, bản đồ trọng lượng, nhận diện, bao bì và yêu cầu kiểm tra. ChinaFreeWeight sẽ đánh giá lộ trình duyệt khả thi.", "Trao đổi màu tùy chỉnh"]
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/blog/custom-color-dumbbells-weight-plates-guide",
+    "title": "اعتماد ألوان مخصصة للدمبل وأقراص الأوزان",
+    "description": "دليل لاعتماد لون الدمبل والأقراص حسب المادة واللمعان والعينة الفعلية والقياس وفحص الدفعة وثبات إعادة الطلب.",
+    "h1": "كيف تعتمد ألواناً مخصصة للدمبل وأقراص الأوزان؟",
+    "keyword": "ألوان مخصصة للدمبل وأقراص الأوزان",
+    "home": "الرئيسية",
+    "library": "الموارد",
+    "eyebrow": "ChinaFreeWeight · اعتماد اللون للعلامة الخاصة",
+    "sections": [
+      {
+        "heading": "الإجابة المباشرة: اعتمد السطح النهائي لا لون الشاشة",
+        "text": "رمز اللون نقطة بداية، لكنه لا يثبت شكل المنتج بعد القولبة والطلاء والمعالجة والتشطيب. يظهر المطاط واليوريثان وطلاء المسحوق وحبر الطباعة وحشو اللون بشكل مختلف تبعاً للمادة والملمس واللمعان.\n\nاعتمد عينة مادية مماثلة للإنتاج تحت ظروف مشاهدة متفق عليها. ChinaFreeWeight مصنع يراجع برامج OEM وODM وCustom Logo وPrivate Label وBulk Supply، لكن الاعتماد يجب أن يرتبط بالموديل والمادة والتشطيب وملف الرسم ورقم المراجعة."
+      },
+      {
+        "heading": "اكتب اللون كمتطلب للمادة والعملية",
+        "text": "لا تستخدم صفيحة الحديد المطلية وصفيحة البامبر المقولبة ورأس الدمبل المصنوع من اليوريثان والكرتون المطبوع وصفة واحدة. تؤثر الصبغة والسماكة والمعالجة وملمس القالب واللمعان في المظهر. لذلك يحتاج كل سطح مرئي إلى هدف مستقل.\n\nتوضح Pantone أن الشركة والمادة والتشطيب وطريقة التطبيق تغير النتيجة الفعلية. ويغطي ASTM D2244 حساب فروق اللون المقاسة ويتطلب اتفاق الطرفين على الطريقة والتفاوت. ولا يعطي حداً عاماً لمعدات الصالات."
+      },
+      {
+        "heading": "أنشئ ملف اعتماد لكل سطح ظاهر",
+        "text": "يحدد الملف مرجع اللون المادي الحديث ورمز المنتج والمادة الأساسية والتشطيب والملمس واللمعان وطريقة الشعار وعلامة الوزن وظروف المشاهدة. تساعد الصور على تحديد المكان لكنها لا تصلح مرجعاً وحيداً بسبب الكاميرا والإضاءة والشاشة.\n\nاختر من السلسلة أوزاناً خفيفة ومتوسطة وثقيلة. يؤثر حجم الرأس والسماكة ودفعة الخليط والنقش ومساحة العلامة في التوازن البصري. اعتمد اللون والشعار وقيمة KG أو LB معاً حتى تبقى القراءة واضحة."
+      },
+      {
+        "heading": "افصل لون العلامة عن ترميز الوزن الرياضي",
+        "text": "يمكن للسلسلة التجارية استخدام لون العلامة أو مجموعة ألوان أو لون لكل وزن. وقد تخضع منتجات المنافسة لقواعد اتحادات ضمن نطاق محدد. راجع أحدث قواعد IWF أو IPF فقط عندما يكون المنتج لذلك الاستخدام فعلاً.\n\nضع خريطة لون لكل رمز وسوق قبل إعداد العينات. إذا تعارض لون العلامة مع ترميز معروف فاجعل قيمة الوزن بارزة. ويمكن وضع اللون على الجسم أو الشريط أو الحروف أو المركز أو غطاء الطرف أو العبوة."
+      },
+      {
+        "heading": "قارن العينات بإضاءة وطريقة ثابتتين",
+        "text": "ضع المرجع والعينة نظيفين ومتجاورين وفي الاتجاه نفسه. استخدم ضوءاً محايداً ثابتاً وخلفية محايدة وزاوية قابلة للتكرار لتقليل الوهج. سجل إن كان القرار بصرياً أو بالأداة أو بالطريقتين. افحص اللمعان والملمس بشكل منفصل.\n\nعند القياس سجل الجهاز والهندسة ومصدر الضوء والمراقب والفتحة والمواقع والمتوسط والمعادلة. لا تنقل تفاوت مادة أخرى. اربط الحد بالقبول البصري على سطح مماثل للإنتاج واحتفظ بعينات حدية عند الإمكان."
+      },
+      {
+        "heading": "افحص كراتين وفترات وأوزاناً متعددة",
+        "text": "تحقق من هوية المنتج والمراجعة قبل مقارنة اللون. خذ عينات من كراتين وفترات إنتاج وأوزان ووجهين مختلفين. راقب الاختلاف داخل الجزء والانحراف بين الأجزاء والتلوث وبقع اللمعان وآثار المعالجة وتغطية الطباعة وانتقال اللون.\n\nالعينة المعتمدة مرجع وليست ضماناً لكل قطعة. تحدد خطة الفحص طريقة الاختيار والمقارنة وتصنيف العيوب وصاحب القرار في الحالات الحدية. افصل ملمس العملية الطبيعي عن البقع وظهور المادة واختلاط الدرجات وضعف القراءة."
+      },
+      {
+        "heading": "احفظ المرجع لإعادة الطلب",
+        "text": "احتفظ بالمنتج الموقع ومرجع اللون المادي وإصدارات المادة والتشطيب والرسم وإعدادات القياس والصور والتقرير. احم المرجع من الضوء والحرارة والزيت والاحتكاك واستبدله إذا تقادم أو تضرر.\n\nاطلب مراجعة قبل تغيير الصبغة أو الخليط أو المادة أو ملمس القالب أو مورد التشطيب أو دورة المعالجة أو اللمعان أو الحبر أو الحماية. قد يعطي اسم اللون نفسه مظهراً مختلفاً. يوفر الملف أساساً مشتركاً للعلامة والمصنع."
+      }
+    ],
+    "table": {
+      "heading": "مصفوفة اعتماد اللون المخصص",
+      "columns": ["القرار", "ما يجب تحديده", "ما يجب حفظه"],
+      "rows": [
+        ["الدور", "لون العلامة أو ترميز الوزن أو تفصيل", "خريطة لكل رمز"],
+        ["السطح", "مطاط أو يوريثان أو طلاء أو طباعة أو كرتون", "مواصفة السطح"],
+        ["الهدف", "مرجع مادي حديث ونظام اللون", "مرجع محمي"],
+        ["المظهر", "الملمس واللمعان والتأثير والإضاءة", "عينات حدية"],
+        ["العلامة", "الشعار وKG أو LB والتباين والمكان", "مراجعة الرسم"],
+        ["القياس", "الجهاز والمعادلة والمواقع والتفاوت", "سجل الطريقة"],
+        ["الدفعة", "العينة والمقارنة ومعالجة الانحراف", "تقرير الفحص"],
+        ["إعادة الطلب", "التغييرات التي تتطلب اعتماداً جديداً", "سجل المراجعات"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "عشر نقاط قبل اعتماد الإنتاج الملون",
+      "items": [
+        "حدد السوق والسلسلة ووظيفة كل لون.",
+        "استخدم مرجعاً مادياً حديثاً لا الشاشة وحدها.",
+        "سجل المادة والسطح والملمس واللمعان.",
+        "اربط كل لون برمز المنتج وعلامة الوزن.",
+        "طبق قواعد الرياضة في نطاقها الصحيح فقط.",
+        "اعتمد منتجات خفيفة ومتوسطة وثقيلة.",
+        "وثق الإضاءة وإعدادات الجهاز.",
+        "حدد أخذ العينات والتعامل مع الحالات الحدية.",
+        "احتفظ بالمنتج والرسم والصور والتقرير.",
+        "أعد الاعتماد بعد تغيير المادة أو العملية."
+      ]
+    },
+    "faq": [
+      ["هل يكفي رمز Pantone لاعتماد اللون؟", "لا. تغير المادة والملمس واللمعان والعملية المظهر. يجب اعتماد عينة مادية مماثلة للإنتاج."],
+      ["هل يصلح تفاوت واحد للمطاط واليوريثان والطلاء؟", "ليس تلقائياً. يحتاج كل سطح إلى طريقة بصرية أو آلية مرتبطة بمستوى القبول."],
+      ["هل يمكن الاعتماد من صورة؟", "الصورة مفيدة للتوثيق، لكن الكاميرا والضوء والشاشة تغير المظهر ولا تستبدل المرجع المادي."],
+      ["هل يجب أن تتبع كل الأقراص ألوان المنافسة؟", "لا. طبق القواعد الحالية فقط على المنتج ضمن نطاق المنافسة. ويمكن لسلسلة التدريب اتباع نظام موثق آخر."],
+      ["ما الذي يسجل عند قياس اللون؟", "الجهاز والهندسة ومصدر الضوء والمراقب والفتحة والمواقع والمتوسط والمعادلة والتفاوت المتفق عليه."],
+      ["كيف يفحص لون طلب كبير؟", "خذ عينات من كراتين وفترات ورموز ممثلة وقارن اللون واللمعان والملمس والتباين والعيوب."],
+      ["ماذا تحتفظ العلامة لإعادة الطلب؟", "المنتج الموقع والمرجع المادي والمراجعات والرسم وطريقة القياس والصور والتقرير وسجل التغييرات."]
+    ],
+    "faqHeading": "أسئلة شائعة عن ألوان الأوزان الحرة",
+    "linkHeading": "أكمل مواصفة العلامة الخاصة",
+    "linkLabels": ["قارن طرق وضع الشعار", "اعتمد عينة OEM", "اضبط ثبات إعادة الطلب", "راجع تفاوت وزن الأقراص", "شاهد الدمبل التجاري", "شاهد أقراص الأوزان", "خطط لبرنامج OEM والعلامة الخاصة", "راجع ضوابط المصنع", "خطط لعبوة التصدير", "أرسل ملف اللون"],
+    "imageCopy": [
+      ["دمبل وأقراص أولمبية بلا علامة بألوان متناسقة مع عينات مادية", "صورة تحريرية للشراء وليست مشروع عميل أو سجل اختبار مصنع."],
+      ["أوزان حرة بلا علامة بألوان أزرق ورمادي وأخضر بجوار جهاز قياس", "تعتمد المادة والملمس واللمعان على السطح النهائي معاً."],
+      ["دمبل وأقراص ملونة تحت إضاءة مقارنة محايدة", "يساعد المرجع المادي المحمي في ضبط إعادة الطلب."]
+    ],
+    "cta": ["أرسل ملف لون لكل سطح", "أرسل عائلة المنتج والمادة والتشطيب ومرجع اللون وخريطة الأوزان والعلامة والعبوة والفحص. ستراجع ChinaFreeWeight مسار اعتماد قابل للتصنيع للموديل.", "ناقش الألوان المخصصة"]
+  },
+  {
+    "locale": "ko",
+    "path": "/ko/blog/custom-color-dumbbells-weight-plates-guide",
+    "title": "덤벨·원판 맞춤 색상 승인과 재주문 관리",
+    "description": "덤벨과 원판의 맞춤 색상을 소재, 광택, 실물 샘플, 측정, 로트 검사와 재주문 변경 관리 기준으로 승인하는 방법입니다.",
+    "h1": "덤벨과 원판의 맞춤 색상을 어떻게 승인할까?",
+    "keyword": "덤벨 원판 맞춤 색상 승인",
+    "home": "홈",
+    "library": "구매 가이드",
+    "eyebrow": "ChinaFreeWeight · 자체 브랜드 색상 승인",
+    "sections": [
+      {
+        "heading": "핵심 답변: 화면이 아니라 완성 표면을 승인한다",
+        "text": "색상 코드는 개발의 출발점이지만 성형, 코팅, 경화와 마감 뒤의 외관을 증명하지 않습니다. 고무, 우레탄, 분체도장, 인쇄 잉크와 색 채움은 바탕 소재, 질감과 광택에 따라 빛을 다르게 반사합니다.\n\n합의한 관찰 조건에서 양산과 같은 실물 샘플을 승인해야 합니다. ChinaFreeWeight는 공장으로서 OEM, ODM, Custom Logo, Private Label과 Bulk Supply를 검토하지만, 승인은 정확한 모델, 소재, 마감, 도안과 리비전에 연결합니다."
+      },
+      {
+        "heading": "색상을 소재와 공정의 요구사항으로 작성한다",
+        "text": "도장 주철 원판, 성형 범퍼 원판, 우레탄 덤벨 헤드와 인쇄 상자는 하나의 색 배합을 공유하지 않습니다. 안료, 막 두께, 경화, 금형 질감과 광택이 외관을 바꿉니다. 맞춰야 할 각 표면에 별도 목표를 정하십시오.\n\nPantone은 제조사, 바탕 소재, 마감과 적용 방식이 실제 결과에 영향을 준다고 설명합니다. ASTM D2244는 기기 측정 색차 계산을 다루며 구매자와 판매자가 방법과 허용 범위를 합의하도록 요구합니다. 운동기구의 공통 합격값을 정하는 규격은 아닙니다."
+      },
+      {
+        "heading": "표면별 승인 자료를 하나의 패키지로 묶는다",
+        "text": "자료에는 최신 실물 기준, 품목, 바탕 소재, 마감, 질감, 목표 광택, 로고 방식, 중량 표기와 관찰 조건을 기록합니다. 사진은 위치와 형상을 남기는 데 유용하지만 노출, 화이트밸런스와 화면 차이 때문에 단독 마스터가 될 수 없습니다.\n\n제품군에서는 가벼운 중량, 중간 중량과 무거운 중량을 대표로 선정합니다. 헤드 크기, 두께, 배합 로트, 돌출 질감과 표시 면적이 전체 인상을 바꿉니다. 색상, 로고와 KG 또는 LB 표시를 함께 승인해 식별성을 지킵니다."
+      },
+      {
+        "heading": "브랜드 색상과 경기용 중량 색 체계를 구분한다",
+        "text": "상업용 제품은 하나의 브랜드 색, 조합 팔레트 또는 중량별 색상을 사용할 수 있습니다. 경기 제품은 정해진 범위에서 단체 규정의 색 체계를 따를 수 있습니다. 실제 경기 용도일 때만 최신 IWF 또는 IPF 규칙을 확인하십시오.\n\n샘플 전에 품목과 시장별 색상표를 작성합니다. 브랜드 색이 익숙한 중량 색과 충돌하면 중량값을 분명히 남기고 색상을 본체, 띠, 문자, 허브, 엔드캡 또는 포장에 제한할 수 있습니다."
+      },
+      {
+        "heading": "고정된 조명과 기록된 측정 조건에서 비교한다",
+        "text": "깨끗한 기준품과 시험품을 가까이 같은 방향으로 놓습니다. 안정된 중성 조명, 중성 배경과 반복 가능한 각도로 눈부심을 줄입니다. 육안, 기기 또는 병행 판정인지 기록하고 광택과 질감은 별도 항목으로 확인합니다.\n\n측정한다면 장비, 기하조건, 광원, 관찰자, 측정구, 위치, 평균 방식과 색차 공식을 남깁니다. 다른 소재의 허용값을 그대로 가져오지 마십시오. 양산 표면에서 육안으로 허용 가능한 범위와 측정 한계를 연결해야 합니다."
+      },
+      {
+        "heading": "여러 상자와 생산 구간, 중량을 검사한다",
+        "text": "색 비교 전에 품목과 리비전을 확인합니다. 여러 상자, 생산 구간, 중량과 양면에서 샘플을 고릅니다. 한 부품 내부 편차, 부품 간 변화, 오염, 광택 얼룩, 경화 흔적, 인쇄 누락과 접촉면 이염을 살핍니다.\n\n승인 샘플은 기준일 뿐 모든 제품의 일치를 보장하지 않습니다. 검사계획은 추출, 비교 방법, 결함 분류와 경계 사례 판정자를 정해야 합니다. 정상 공정 질감과 얼룩, 바탕 노출, 색 혼합, 낮은 가독성을 구분합니다."
+      },
+      {
+        "heading": "재주문을 위해 기준품과 변경 이력을 보존한다",
+        "text": "서명한 제품, 실물 색 기준, 소재와 마감 리비전, 도안, 측정 설정, 사진과 보고서를 보관합니다. 실물 기준은 빛, 열, 기름과 마찰에서 보호하고 노화하거나 손상되면 교체합니다.\n\n안료, 배합, 바탕, 금형 질감, 코팅 공급처, 경화 조건, 광택, 잉크 또는 보호포장이 바뀌기 전에 재검토를 요구합니다. 같은 색 이름도 공정이 달라지면 다르게 보일 수 있습니다. 보존 자료가 브랜드와 공장의 공통 기준이 됩니다."
+      }
+    ],
+    "table": {
+      "heading": "맞춤 색상 승인 매트릭스",
+      "columns": ["결정", "정의할 내용", "보존 자료"],
+      "rows": [
+        ["역할", "브랜드 색, 중량 코드 또는 강조", "품목별 색상표"],
+        ["표면", "고무, 우레탄, 도장, 인쇄 또는 상자", "표면별 요구서"],
+        ["목표", "최신 실물 기준과 색 체계", "보호된 마스터"],
+        ["외관", "질감, 광택, 효과와 조명", "한계 샘플"],
+        ["표시", "로고, KG 또는 LB, 대비와 위치", "도안 리비전"],
+        ["측정", "장비, 공식, 위치와 허용 범위", "방법 기록"],
+        ["로트", "샘플링, 비교와 이상 처리", "검사 보고서"],
+        ["재주문", "재승인을 부르는 변경", "리비전 이력"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "맞춤 색상 양산 전 열 가지 확인",
+      "items": [
+        "시장, 제품군과 색상의 역할을 정한다.",
+        "화면만 보지 않고 최신 실물 기준을 쓴다.",
+        "소재, 표면, 질감과 광택을 기록한다.",
+        "각 색을 품목과 중량 표기에 연결한다.",
+        "해당 범위에서만 경기 규칙을 적용한다.",
+        "가벼운, 중간, 무거운 대표품을 승인한다.",
+        "조명과 측정 장비 설정을 문서화한다.",
+        "샘플링과 경계 편차 처리 방식을 정한다.",
+        "제품, 도안, 사진과 보고서를 보존한다.",
+        "소재나 공정 변경 뒤 다시 승인한다."
+      ]
+    },
+    "faq": [
+      ["Pantone 코드만으로 색상을 승인할 수 있나?", "아닙니다. 소재, 질감, 광택과 공정이 외관을 바꾸므로 양산과 같은 실물 샘플을 승인해야 합니다."],
+      ["고무, 우레탄과 도장에 같은 허용값을 쓸 수 있나?", "자동으로 적용할 수 없습니다. 각 표면은 육안 또는 기기 방법을 실제 허용 외관과 연결해야 합니다."],
+      ["사진으로 색상을 승인해도 되나?", "사진은 기록에 유용하지만 카메라, 조명과 화면이 색을 바꿉니다. 실물 기준을 대신하지 못합니다."],
+      ["모든 원판이 경기 색상을 따라야 하나?", "아닙니다. 관련 경기 범위의 제품에만 최신 규칙을 적용하고 훈련용은 다른 체계를 문서화할 수 있습니다."],
+      ["색상 측정에 무엇을 기록해야 하나?", "장비, 기하조건, 광원, 관찰자, 측정구, 위치, 평균 방식, 공식과 합의 허용값을 기록합니다."],
+      ["대량 주문의 색상은 어떻게 검사하나?", "여러 상자, 생산 구간과 대표 품목에서 뽑아 색, 광택, 질감, 표시 대비와 결함을 비교합니다."],
+      ["재주문을 위해 무엇을 보관하나?", "서명한 제품, 실물 기준, 리비전, 도안, 측정법, 사진, 보고서와 변경 기록을 보관합니다."]
+    ],
+    "faqHeading": "프리웨이트 맞춤 색상 자주 묻는 질문",
+    "linkHeading": "자체 브랜드 사양을 계속 준비하기",
+    "linkLabels": ["로고 방식을 비교하기", "OEM 샘플을 승인하기", "재주문 일관성을 관리하기", "원판 중량 공차 확인하기", "상업용 덤벨 보기", "웨이트 원판 보기", "OEM과 자체 브랜드 계획하기", "공장 관리 확인하기", "수출 포장 계획하기", "색상 요구서 보내기"],
+    "imageCopy": [
+      ["실물 색상 칩과 함께 놓인 무브랜드 맞춤 색 덤벨과 올림픽 원판", "구매 검토용 개념 이미지이며 고객 프로젝트나 공장 시험 기록이 아닙니다."],
+      ["중성 테이블 위의 파랑, 흰색, 회색 무브랜드 원판과 덤벨", "완성 표면에서 소재, 질감과 광택을 함께 승인합니다."],
+      ["중성 비교 조명 아래 정렬된 맞춤 색 프리웨이트", "보관된 실물 기준은 재주문 검사의 공통 출발점입니다."]
+    ],
+    "cta": ["표면별 색상 요구서를 보내주세요", "제품군, 소재, 마감, 색 기준, 중량별 색상표, 브랜딩, 포장과 검사 요구를 보내면 ChinaFreeWeight가 해당 모델의 제조 가능한 승인 절차를 검토합니다.", "맞춤 색상 상담"]
+  },
+  {
+    "locale": "id",
+    "path": "/id/blog/warna-kustom-dumbbell-piring-beban",
+    "title": "Persetujuan Warna Kustom untuk Dumbbell dan Piring Beban",
+    "description": "Tentukan warna dumbbell dan piring beban melalui material, kilap, sampel fisik, pengukuran, inspeksi lot, dan kendali pesanan ulang.",
+    "h1": "Cara Menyetujui Warna Kustom Dumbbell dan Piring Beban",
+    "keyword": "warna kustom dumbbell dan piring beban",
+    "home": "Beranda",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Persetujuan warna merek privat",
+    "sections": [
+      {
+        "heading": "Jawaban singkat: setujui permukaan jadi, bukan tampilan layar",
+        "text": "Kode warna merupakan acuan awal, bukan bukti tampilan setelah pencetakan, pelapisan, pematangan, dan penyelesaian. Karet, urethane, powder coat, tinta cetak, dan isian warna memantulkan cahaya berbeda karena bahan dasar, tekstur, dan kilap.\n\nSetujui sampel fisik yang setara produksi di bawah kondisi pandang yang disepakati. ChinaFreeWeight adalah pabrik yang dapat meninjau OEM, ODM, Custom Logo, merek privat, dan Bulk Supply, tetapi persetujuan harus melekat pada model, material, permukaan, desain, dan revisi yang tepat."
+      },
+      {
+        "heading": "Nyatakan warna sebagai persyaratan material dan proses",
+        "text": "Piring besi cor bercat, bumper plate cetak, kepala dumbbell urethane, dan karton tercetak tidak memakai satu resep. Pigmen, ketebalan, pematangan, tekstur cetakan, dan kilap mengubah tampilan. Tetapkan sasaran terpisah bagi setiap permukaan yang perlu selaras.\n\nPantone menjelaskan bahwa produsen, substrat, penyelesaian, dan cara aplikasi memengaruhi hasil fisik. ASTM D2244 membahas perhitungan selisih warna terukur dan meminta kesepakatan metode serta toleransi. Standar itu tidak memberi satu batas universal untuk alat gym."
+      },
+      {
+        "heading": "Bangun paket persetujuan untuk setiap permukaan",
+        "text": "Brief mencatat referensi fisik terkini, SKU, bahan dasar, jenis penyelesaian, tekstur, target kilap, metode logo, penanda berat, dan kondisi pandang. Foto membantu menunjukkan lokasi, tetapi kamera, white balance, dan layar membuatnya tidak layak menjadi satu-satunya master.\n\nUntuk satu seri, pilih produk ringan, menengah, dan berat. Ukuran kepala, ketebalan, batch campuran, relief, dan area penanda memengaruhi keseimbangan visual. Setujui warna bersama logo dan nilai KG atau LB agar kontras tetap jelas."
+      },
+      {
+        "heading": "Pisahkan warna merek dari kode berat pertandingan",
+        "text": "Seri komersial dapat memakai satu warna merek, palet, atau warna per berat. Produk pertandingan dapat mengikuti aturan federasi dalam lingkup tertentu. Periksa aturan IWF atau IPF terkini hanya bila produk memang ditujukan untuk lingkup tersebut.\n\nSusun peta warna per SKU dan pasar sebelum sampel dibuat. Jika warna merek bertabrakan dengan kode berat yang dikenal, pertahankan nilai berat yang mudah dibaca. Warna dapat ditempatkan pada badan, garis, huruf, hub, tutup ujung, atau kemasan."
+      },
+      {
+        "heading": "Bandingkan dengan cahaya dan metode yang terkendali",
+        "text": "Letakkan referensi dan sampel yang bersih secara berdekatan dengan orientasi sama. Gunakan cahaya netral stabil, lingkungan netral, dan sudut yang dapat diulang untuk mengurangi silau. Catat apakah keputusan visual, instrumental, atau gabungan. Periksa kilap dan tekstur secara terpisah.\n\nJika mengukur, catat instrumen, geometri, iluminan, pengamat, aperture, lokasi, perataan, dan rumus. Jangan menyalin toleransi dari bahan lain. Hubungkan batas pengukuran dengan penerimaan visual pada permukaan yang setara produksi."
+      },
+      {
+        "heading": "Periksa beberapa karton, waktu produksi, dan berat",
+        "text": "Pastikan identitas dan revisi sebelum membandingkan warna. Ambil sampel dari beberapa karton, periode produksi, tingkat berat, dan dua sisi. Cari variasi dalam satu bagian, pergeseran antarbenda, kotoran, bercak kilap, bekas pematangan, cetak tidak penuh, dan perpindahan warna.\n\nSampel yang disetujui adalah referensi, bukan jaminan setiap unit. Rencana inspeksi harus menetapkan pemilihan, metode, kelas cacat, dan penentu kasus batas. Pisahkan tekstur proses normal dari noda, bahan dasar terlihat, campuran rona, atau penanda kurang jelas."
+      },
+      {
+        "heading": "Simpan bukti warna untuk pesanan ulang",
+        "text": "Simpan produk bertanda tangan, referensi fisik, revisi material dan penyelesaian, desain, pengaturan ukur, foto, dan laporan. Lindungi standar dari cahaya, panas, minyak, dan abrasi; ganti referensi yang menua atau rusak.\n\nMinta peninjauan sebelum mengubah pigmen, campuran, substrat, tekstur cetakan, pemasok pelapis, siklus pematangan, kilap, tinta, atau pelindung kemasan. Nama warna yang sama dapat tampak berbeda setelah perubahan. Paket tersimpan menjadi dasar bersama bagi merek dan pabrik."
+      }
+    ],
+    "table": {
+      "heading": "Matriks persetujuan warna kustom",
+      "columns": ["Keputusan", "Yang ditentukan", "Bukti yang disimpan"],
+      "rows": [
+        ["Peran", "Warna merek, kode berat, atau aksen", "Peta per SKU"],
+        ["Permukaan", "Karet, urethane, cat, cetak, atau karton", "Brief khusus"],
+        ["Sasaran", "Referensi fisik terkini dan sistem warna", "Master terlindungi"],
+        ["Tampilan", "Tekstur, kilap, efek, dan cahaya", "Sampel batas"],
+        ["Penanda", "Logo, KG atau LB, kontras dan posisi", "Revisi desain"],
+        ["Pengukuran", "Instrumen, rumus, lokasi, dan toleransi", "Catatan metode"],
+        ["Lot", "Sampling, perbandingan, dan keputusan deviasi", "Laporan inspeksi"],
+        ["Pesanan ulang", "Perubahan yang memicu persetujuan baru", "Riwayat revisi"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Sepuluh pemeriksaan sebelum produksi berwarna",
+      "items": [
+        "Tetapkan pasar, keluarga produk, dan peran warna.",
+        "Gunakan referensi fisik terkini, bukan layar saja.",
+        "Catat material, permukaan, tekstur, dan kilap.",
+        "Hubungkan setiap warna ke SKU dan penanda berat.",
+        "Terapkan aturan olahraga hanya pada lingkup tepat.",
+        "Setujui produk ringan, menengah, dan berat.",
+        "Dokumentasikan cahaya dan pengaturan alat.",
+        "Tetapkan sampling dan penanganan kasus batas.",
+        "Simpan produk, desain, foto, dan laporan.",
+        "Setujui ulang perubahan material atau proses."
+      ]
+    },
+    "faq": [
+      ["Apakah kode Pantone cukup untuk persetujuan warna?", "Tidak. Material, tekstur, kilap, dan proses mengubah tampilan. Setujui sampel fisik yang setara produksi."],
+      ["Bisakah satu toleransi dipakai untuk karet, urethane, dan cat?", "Tidak secara otomatis. Setiap permukaan membutuhkan metode visual atau instrumental yang berkaitan dengan penerimaan nyata."],
+      ["Bolehkah warna disetujui dari foto?", "Foto berguna untuk catatan, tetapi kamera, cahaya, dan layar mengubah tampilan. Foto tidak menggantikan master fisik."],
+      ["Haruskah semua plate mengikuti warna pertandingan?", "Tidak. Gunakan aturan terkini hanya pada produk dalam lingkup pertandingan. Seri latihan dapat memakai sistem lain yang terdokumentasi."],
+      ["Apa yang dicatat saat mengukur warna?", "Instrumen, geometri, iluminan, pengamat, aperture, lokasi, perataan, rumus, dan toleransi yang disepakati."],
+      ["Bagaimana memeriksa warna pesanan besar?", "Ambil sampel lintas karton, periode, dan SKU perwakilan; bandingkan warna, kilap, tekstur, kontras, dan cacat."],
+      ["Apa yang disimpan untuk pesanan ulang?", "Produk bertanda tangan, referensi fisik, revisi, desain, metode ukur, foto, laporan, dan catatan perubahan."]
+    ],
+    "faqHeading": "Pertanyaan umum tentang warna free weight",
+    "linkHeading": "Lanjutkan spesifikasi merek privat",
+    "linkLabels": ["Bandingkan metode logo", "Setujui sampel OEM", "Kendalikan konsistensi pesanan ulang", "Tinjau toleransi berat plate", "Lihat dumbbell komersial", "Lihat piring beban", "Rencanakan OEM dan merek privat", "Tinjau kendali pabrik", "Rencanakan kemasan ekspor", "Kirim brief warna"],
+    "imageCopy": [
+      ["Dumbbell dan piring Olimpiade tanpa merek dalam warna selaras dengan sampel fisik", "Gambar konseptual untuk pengadaan, bukan proyek pelanggan atau catatan uji pabrik."],
+      ["Dumbbell dan plate tanpa merek berwarna biru, putih, dan abu-abu", "Material, tekstur, dan kilap disetujui bersama pada permukaan jadi."],
+      ["Free weight berwarna di bawah pencahayaan perbandingan netral", "Referensi fisik yang terlindungi mendukung konsistensi pesanan ulang."]
+    ],
+    "cta": ["Kirim brief warna per permukaan", "Sertakan keluarga produk, material, penyelesaian, referensi warna, peta berat, merek, kemasan, dan inspeksi. ChinaFreeWeight akan menilai jalur persetujuan yang dapat diproduksi.", "Bahas warna kustom"]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/kolory-na-zamowienie-hantle-obciazenia",
+    "title": "Kolory na zamówienie dla hantli i obciążeń: akceptacja",
+    "description": "Zatwierdzaj kolory hantli i talerzy według materiału, połysku, próbki fizycznej, pomiaru, kontroli partii i kolejnych zamówień.",
+    "h1": "Jak zatwierdzić kolory na zamówienie dla hantli i talerzy?",
+    "keyword": "kolory na zamówienie dla hantli i talerzy",
+    "home": "Strona główna",
+    "library": "Poradniki",
+    "eyebrow": "ChinaFreeWeight · Kontrola koloru marki własnej",
+    "sections": [
+      {
+        "heading": "Krótka odpowiedź: zatwierdź gotową powierzchnię, nie ekran",
+        "text": "Kod koloru wyznacza cel, lecz nie pokazuje wyniku po formowaniu, powlekaniu, utwardzaniu i wykończeniu. Guma, uretan, farba proszkowa, tusz i wypełnienie wyglądają inaczej zależnie od podłoża, faktury oraz połysku.\n\nZatwierdź fizyczną próbkę odpowiadającą produkcji w uzgodnionych warunkach oględzin. ChinaFreeWeight jest fabryką i analizuje OEM, ODM, Custom Logo, Private Label oraz Bulk Supply, ale akceptacja musi wskazywać konkretny model, materiał, wykończenie, grafikę i rewizję."
+      },
+      {
+        "heading": "Opisz kolor jako wymaganie materiału i procesu",
+        "text": "Malowany talerz żeliwny, formowany bumper, uretanowa głowica hantla i zadrukowany karton nie korzystają z jednej receptury. Pigment, grubość, utwardzanie, faktura formy i połysk zmieniają odbiór. Każda widoczna powierzchnia wymagająca dopasowania potrzebuje osobnego celu.\n\nPantone wskazuje wpływ producenta, podłoża, wykończenia i metody aplikacji. ASTM D2244 opisuje obliczanie zmierzonych różnic i wymaga uzgodnienia procedury oraz tolerancji. Nie ustanawia jednej granicy dla sprzętu treningowego."
+      },
+      {
+        "heading": "Zbuduj pakiet akceptacji dla każdej powierzchni",
+        "text": "Specyfikacja podaje aktualny wzorzec fizyczny, indeks, materiał bazowy, wykończenie, fakturę, docelowy połysk, metodę logo, oznaczenie masy i warunki obserwacji. Zdjęcia pokazują miejsce, ale aparat, balans bieli i ekran nie pozwalają używać ich jako jedynego wzorca.\n\nDla serii wybierz wariant lekki, średni i ciężki. Wielkość głowicy, grubość, partia mieszanki, relief i pole oznaczenia wpływają na całość. Zatwierdź razem kolor, logo oraz wartość KG lub LB, aby utrzymać czytelność."
+      },
+      {
+        "heading": "Oddziel kolor marki od sportowego kodu masy",
+        "text": "Linia komercyjna może używać koloru marki, palety albo barwy przypisanej do masy. Produkty zawodnicze mogą podlegać regułom federacji w określonym zakresie. Sprawdzaj bieżące zasady IWF lub IPF tylko dla faktycznego zastosowania.\n\nPrzed próbkami przygotuj mapę kolorów według indeksu i rynku. Jeśli kolor marki koliduje ze znanym kodem masy, zachowaj wyraźną wartość i rozważ użycie barwy na korpusie, pasku, literach, piaście, zaślepce lub opakowaniu."
+      },
+      {
+        "heading": "Porównuj przy stałym oświetleniu i zapisanej metodzie",
+        "text": "Umieść czysty wzorzec i próbkę blisko siebie, w tej samej orientacji. Użyj stabilnego neutralnego światła, neutralnego otoczenia i powtarzalnego kąta, aby ograniczyć odblaski. Zapisz, czy decyzja jest wizualna, instrumentalna, czy łączona. Połysk i fakturę oceniaj osobno.\n\nPrzy pomiarze zapisz urządzenie, geometrię, źródło światła, obserwatora, aperturę, miejsca, uśrednianie i wzór. Nie kopiuj tolerancji innego materiału. Powiąż limit z wizualną akceptacją powierzchni odpowiadającej produkcji."
+      },
+      {
+        "heading": "Kontroluj różne kartony, okresy i masy",
+        "text": "Przed porównaniem potwierdź indeks i rewizję. Pobierz próbki z wielu kartonów, okresów produkcji, mas i obu stron. Szukaj różnic w jednym elemencie, przesunięcia między sztukami, zabrudzeń, plam połysku, śladów utwardzania, braków nadruku i transferu koloru.\n\nZatwierdzona próbka jest odniesieniem, nie gwarancją każdej sztuki. Plan określa dobór, metodę, klasy wad i decyzję w przypadkach granicznych. Oddziel normalną fakturę od plam, widocznego podłoża, mieszanych odcieni i nieczytelnego oznaczenia."
+      },
+      {
+        "heading": "Chroń wzorzec dla kolejnego zamówienia",
+        "text": "Zachowaj podpisany produkt, fizyczny wzorzec, rewizje materiału i wykończenia, grafikę, ustawienia pomiaru, zdjęcia i raport. Chroń standard przed światłem, ciepłem, olejem i ścieraniem; wymień go po starzeniu lub uszkodzeniu.\n\nWymagaj przeglądu przed zmianą pigmentu, mieszanki, podłoża, faktury formy, dostawcy powłoki, utwardzania, połysku, tuszu lub ochrony transportowej. Ta sama nazwa koloru może dać inny wygląd. Pakiet tworzy wspólną podstawę dla marki i fabryki."
+      }
+    ],
+    "table": {
+      "heading": "Macierz akceptacji koloru",
+      "columns": ["Decyzja", "Co zdefiniować", "Co zachować"],
+      "rows": [
+        ["Rola", "Kolor marki, kod masy lub akcent", "Mapa według indeksu"],
+        ["Powierzchnia", "Guma, uretan, farba, nadruk lub karton", "Brief powierzchni"],
+        ["Cel", "Aktualny wzorzec fizyczny i system", "Chroniony master"],
+        ["Wygląd", "Faktura, połysk, efekt i światło", "Próbki graniczne"],
+        ["Oznaczenie", "Logo, KG lub LB, kontrast i położenie", "Rewizja grafiki"],
+        ["Pomiar", "Urządzenie, wzór, miejsca i tolerancja", "Zapis metody"],
+        ["Partia", "Próbkowanie, porównanie i decyzja", "Raport kontroli"],
+        ["Ponowienie", "Zmiany wymagające nowej akceptacji", "Historia rewizji"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Dziesięć kontroli przed produkcją kolorową",
+      "items": [
+        "Określ rynek, rodzinę produktu i rolę koloru.",
+        "Użyj aktualnego wzorca fizycznego, nie samego ekranu.",
+        "Zapisz materiał, powierzchnię, fakturę i połysk.",
+        "Przypisz każdy kolor do indeksu i masy.",
+        "Stosuj zasady sportowe tylko w odpowiednim zakresie.",
+        "Zatwierdź wariant lekki, średni i ciężki.",
+        "Udokumentuj światło i ustawienia urządzenia.",
+        "Określ próbkę i obsługę przypadków granicznych.",
+        "Zachowaj produkt, grafikę, zdjęcia i raport.",
+        "Ponownie zatwierdź zmianę materiału lub procesu."
+      ]
+    },
+    "faq": [
+      ["Czy kod Pantone wystarcza do zatwierdzenia koloru?", "Nie. Materiał, faktura, połysk i proces zmieniają wygląd. Zatwierdź fizyczną próbkę odpowiadającą produkcji."],
+      ["Czy jedna tolerancja pasuje do gumy, uretanu i farby?", "Nie automatycznie. Każda powierzchnia potrzebuje metody wizualnej lub pomiarowej powiązanej z akceptacją."],
+      ["Czy można zatwierdzić kolor ze zdjęcia?", "Zdjęcie pomaga dokumentować, ale aparat, światło i ekran zmieniają wygląd. Nie zastępuje wzorca fizycznego."],
+      ["Czy wszystkie talerze muszą mieć barwy zawodnicze?", "Nie. Stosuj aktualne zasady tylko do produktu w danym zakresie zawodów. Linia treningowa może używać innego systemu."],
+      ["Co zapisać przy pomiarze koloru?", "Urządzenie, geometrię, źródło światła, obserwatora, aperturę, miejsca, uśrednianie, wzór i tolerancję."],
+      ["Jak kontrolować kolor dużej partii?", "Pobierz próbki z kartonów, okresów i reprezentatywnych indeksów; porównaj kolor, połysk, fakturę, kontrast i wady."],
+      ["Co zachować do ponownego zamówienia?", "Podpisany produkt, wzorzec fizyczny, rewizje, grafikę, metodę, zdjęcia, raport i rejestr zmian."]
+    ],
+    "faqHeading": "Najczęstsze pytania o kolory wolnych ciężarów",
+    "linkHeading": "Kontynuuj specyfikację marki własnej",
+    "linkLabels": ["Porównaj metody logo", "Zatwierdź próbkę OEM", "Kontroluj zgodność kolejnych partii", "Sprawdź tolerancję talerzy", "Zobacz hantle komercyjne", "Zobacz talerze i bumpery", "Zaplanuj OEM i markę własną", "Przejrzyj kontrole fabryczne", "Zaplanuj opakowanie eksportowe", "Wyślij brief koloru"],
+    "imageCopy": [
+      ["Hantle i talerze olimpijskie bez marki w skoordynowanych kolorach z próbkami fizycznymi", "Koncepcyjna ilustracja zakupowa, nie projekt klienta ani zapis badania fabrycznego."],
+      ["Hantle i talerze bez marki w kolorze zielonym, czerwonym, czarnym i szarym", "Materiał, fakturę i połysk zatwierdza się na gotowej powierzchni."],
+      ["Kolorowe wolne ciężary pod neutralnym światłem porównawczym", "Chroniony wzorzec fizyczny wspiera kontrolę kolejnych zamówień."]
+    ],
+    "cta": ["Wyślij brief dla każdej powierzchni", "Podaj rodzinę produktów, materiał, wykończenie, wzorzec koloru, mapę mas, branding, opakowanie i kontrolę. ChinaFreeWeight oceni wykonalną ścieżkę akceptacji.", "Omów kolory na zamówienie"]
+  }
+]

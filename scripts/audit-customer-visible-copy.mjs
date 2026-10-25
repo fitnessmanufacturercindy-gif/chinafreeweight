@@ -3,6 +3,9 @@
 const DEFAULT_BASE_URL = "https://www.chinafreeweight.com";
 const baseUrl = (process.env.CUSTOMER_COPY_BASE_URL || process.argv[2] || DEFAULT_BASE_URL).replace(/\/$/, "");
 const concurrency = Math.max(1, Number(process.env.CUSTOMER_COPY_CONCURRENCY || 12));
+const fetchAttempts = Math.max(1, Number(process.env.CUSTOMER_COPY_FETCH_ATTEMPTS || 5));
+const fetchTimeoutMs = Math.max(1000, Number(process.env.CUSTOMER_COPY_FETCH_TIMEOUT_MS || 10000));
+const retryableStatusCodes = new Set([408, 425, 429, 500, 502, 503, 504]);
 
 const rules = [
   {
@@ -86,11 +89,25 @@ function onAuditOrigin(location) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: { "user-agent": "PowerBaseFit customer-visible copy audit" },
-    redirect: "follow"
-  });
-  return { ok: response.ok, status: response.status, text: await response.text(), url: response.url };
+  let lastError = null;
+  for (let attempt = 0; attempt < fetchAttempts; attempt += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: { "user-agent": "PowerBaseFit customer-visible copy audit" },
+        redirect: "follow",
+        signal: AbortSignal.timeout(fetchTimeoutMs)
+      });
+      if (response.ok || !retryableStatusCodes.has(response.status) || attempt === fetchAttempts - 1) {
+        return { ok: response.ok, status: response.status, text: await response.text(), url: response.url };
+      }
+      await response.body?.cancel();
+      lastError = new Error(`HTTP ${response.status}`);
+    } catch (error) {
+      lastError = error;
+    }
+    if (attempt < fetchAttempts - 1) await new Promise((resolve) => setTimeout(resolve, 200 * 2 ** attempt));
+  }
+  throw lastError || new Error(`Unable to fetch ${url}`);
 }
 
 async function discoverUrls() {

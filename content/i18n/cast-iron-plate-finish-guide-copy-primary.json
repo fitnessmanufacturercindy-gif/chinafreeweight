@@ -1,0 +1,358 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/cast-iron-weight-plate-finish-coating-guide",
+    "title": "Cast-Iron Weight Plate Finishes: Buyer Guide",
+    "description": "Compare paint, powder coating and electrocoat for cast-iron plates, then specify preparation, coverage, inspection, packing and reorder control.",
+    "h1": "How to Specify Finishes for Cast-Iron Weight Plates",
+    "keyword": "cast iron weight plate finish and coating guide",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Weight plate procurement",
+    "sections": [
+      {
+        "heading": "Short answer: buy a complete coating system, not a finish name",
+        "text": "Paint, powder coating and electrocoat can all protect a cast-iron plate when the substrate preparation, application, cure and coverage are controlled for the chosen product. The finish name alone does not predict corrosion resistance, chip behavior, texture or appearance. Define the market environment, contact points and acceptable cosmetic variation before selecting a route.\n\nFor a bulk order, specify the iron construction, preparation, coating family, target color and texture, surfaces to cover, areas to keep dimensionally controlled, sample approval and receiving checks. ChinaFreeWeight is a factory and can review OEM, ODM, Custom Logo, Private Label and Bulk Supply programs, but the final scope must be tied to the actual plate model and approved sample."
+      },
+      {
+        "heading": "Separate wet paint, powder coating and electrocoat",
+        "text": "A liquid paint system may use primer, color coat or another agreed stack applied by the chosen production method. Powder coating deposits a dry coating material and cures it into a film. Electrocoat uses an electrically driven immersion bath to place coating on conductive parts. These descriptions identify processes; they do not create an automatic quality ranking.\n\nElectrocoat can reach recessed surfaces through immersion and is often comparatively thin. Powder can provide a textured or smooth appearance and many color options. Liquid paint may suit a defined cost, appearance or repair route. Actual performance still depends on cleaning, surface condition, chemistry, film build, cure, part geometry and handling after coating."
+      },
+      {
+        "heading": "Define where the plate is expected to resist corrosion",
+        "text": "Map the journey from production to the end user: enclosed packing, ocean or inland transport, unconditioned storage, cleaning, perspiration, humidity and metal-to-metal contact. A dry climate-controlled gym does not create the same exposure as a coastal warehouse. Ask for a system that fits the real route instead of copying a generic corrosion claim.\n\nGive special attention to the center bore, outer rim, raised lettering, recesses and any machined faces. These are common points for thin coverage, rubbing or exposed metal. If a buyer intentionally wants a machined contact face, the drawing should identify it and define preservation, packing and maintenance rather than letting the omission happen by accident."
+      },
+      {
+        "heading": "Approve texture, color and coverage on production-equivalent plates",
+        "text": "Review light, middle and heavy plates because casting texture, wall thickness and recess geometry can vary across a series. Inspect faces, rim, bore, underside and transitions under agreed lighting. Record color reference, gloss or texture expectation, allowable casting show-through, logo treatment and examples of acceptable and unacceptable appearance.\n\nA small flat coupon is useful for chemistry or color communication, but it does not replace a coated plate. Edges, lettering and bores change how a coating deposits and cures. Keep a labeled production-equivalent sample and photographs taken under consistent conditions so the production lot and later reorders can be compared to the same reference."
+      },
+      {
+        "heading": "Use coating tests only with a written method and purpose",
+        "text": "ASTM D3359 and ISO 2409 describe cut-and-tape approaches for assessing coating adhesion within their stated scopes. They do not supply one pass result for every plate or coating system. If an adhesion check is required, agree the standard edition, specimen, film condition, cut method, rating and who may perform a destructive cut.\n\nISO 9227 specifies salt-spray procedures for assessing corrosion resistance under controlled artificial atmospheres. A result can compare agreed specimens under one method; it is not a direct promise of years in a gym. Record specimen preparation, scribing, exposure, evaluation and acceptance criteria, and never transfer a result from an unrelated substrate or coating stack."
+      },
+      {
+        "heading": "Inspect the finished lot at the product and packing levels",
+        "text": "Sample across weights, cartons and production periods. Confirm identity first, then examine bare spots, blisters, peeling, runs, rough contamination, edge chips, abnormal color difference and corrosion. Check the finished bore on the intended bar or gauge and verify that coating does not hide burrs, distort lettering or change the approved stacking contact.\n\nDo not repair sampled defects with an undocumented marker, spray or oil before disposition. Isolate affected units, trace their location and determine whether the issue is isolated or systemic. The inspection plan should distinguish functional nonconformity from agreed casting texture and minor cosmetic variation, with a clear action for each class."
+      },
+      {
+        "heading": "Protect the finish in transit and control every reorder",
+        "text": "Coated iron can still be damaged when heavy plates rub inside a carton or when moisture is trapped against the surface. Approve separators, bags or wraps that do not stain or stick, control internal movement and identify every carton. Pallet and container plans should keep heavy packages stable and make receiving inspection practical.\n\nRequire notice before changing casting source, blasting or cleaning route, primer, coating chemistry, supplier, color, film target, cure cycle, touch-up method or packaging contact material. Custom logos and weight markings belong in the same controlled revision. Reapprove the affected sample instead of assuming that a matching black color means the finish system is unchanged."
+      }
+    ],
+    "table": {
+      "heading": "Finish specification and evidence matrix",
+      "columns": ["Control point", "What the buyer defines", "Evidence to retain"],
+      "rows": [
+        ["Use environment", "Storage, humidity, cleaning and contact conditions", "Market brief and risk notes"],
+        ["Substrate", "Plate material, casting condition and machined areas", "Drawing and model list"],
+        ["Preparation", "Cleaning and surface-preparation route", "Process statement and sample"],
+        ["Coating system", "Liquid paint, powder, electrocoat or agreed stack", "Named system and revision"],
+        ["Appearance", "Color, gloss, texture and casting show-through", "Approved plate and photo setup"],
+        ["Coverage", "Faces, rim, bore, recesses and exclusions", "Marked drawing and close views"],
+        ["Verification", "Inspection or test method, specimen and acceptance rule", "Method record and results"],
+        ["Packing and change control", "Surface separation, carton identity and notification triggers", "Pack approval and revision log"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Ten checks before releasing the bulk order",
+      "items": [
+        "State the sales market, storage and cleaning environment.",
+        "Identify the exact plate construction and every machined surface.",
+        "Name the surface-preparation and coating system by revision.",
+        "Define finished coverage at faces, rim, bore and recesses.",
+        "Approve color, texture and casting show-through on actual plates.",
+        "Measure functional dimensions only after the finish is complete.",
+        "Write any adhesion or corrosion method with its specimen and pass rule.",
+        "Sample multiple weights, cartons and production periods.",
+        "Approve non-staining separation and stable export packing.",
+        "Require notification and reapproval for process or material changes."
+      ]
+    },
+    "faq": [
+      ["Is electrocoat always better than powder coating for weight plates?", "No. Electrocoat, powder and liquid paint create different process options. The better choice depends on plate geometry, appearance, environment, contact wear, specification and verified execution."],
+      ["Why do cast-iron weight plates rust?", "Rust can begin where iron is exposed to moisture, including chips, pores, thinly covered edges, bores or damaged contact points. Storage, cleaning and packing conditions also matter."],
+      ["Can a coating change the center-hole fit?", "Yes. The bore must be evaluated in its finished state. The drawing should identify any masked or machined areas and the final fit requirement."],
+      ["Does a salt-spray result predict gym service life?", "No. A controlled salt-spray result describes performance under the stated procedure and specimen preparation. It is not a direct conversion to years of field use."],
+      ["Should coating adhesion be tested on every saleable plate?", "Usually a destructive cut belongs on agreed test specimens or sacrificial samples. Lot inspection can combine process records, visual checks and agreed non-destructive observations."],
+      ["Can a factory add a custom color and logo?", "For suitable models, yes. Approve the exact color reference, logo method, placement, contrast, weight marking and coated production-equivalent sample before release."],
+      ["What should a receiving team check first?", "Verify model and carton identity, then inspect coverage, damage and corrosion before confirming bore fit, dimensions, marking and comparison with the approved sample."]
+    ],
+    "faqHeading": "Frequently Asked Questions About Cast-Iron Plate Finishes",
+    "linkHeading": "Continue the weight-plate specification",
+    "linkLabels": ["Compare cast iron, rubber and urethane plates", "Set weight-tolerance controls", "Check outside diameter and profile", "Verify plate-bore and sleeve fit", "Plan export packaging", "Prepare pre-shipment inspection", "Browse commercial weight plates", "Review OEM and private-label options", "See the factory-control approach", "Send the plate requirement"],
+    "imageCopy": [
+      ["Unbranded cast-iron Olympic plates with three protective finish textures on an inspection bench", "Finish selection begins with the actual casting, geometry and intended environment."],
+      ["Cast-iron plates arranged to compare edge and center-bore coating coverage", "Faces, rims, recesses and bores need an explicit coverage decision."],
+      ["Inspector-style bench setup for comparing coated iron plate surfaces and dimensions", "Lot acceptance links appearance, finished fit, packing and production identity." ]
+    ],
+    "cta": ["Build a finish specification that can be repeated", "Send the plate model, weight range, market environment, preferred appearance, logo, quantities, packing and inspection needs. Our factory team will review a practical OEM or bulk-supply scope.", "Request a plate-finish review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/acabamento-anilha-ferro-fundido-pintura-e-coat",
+    "title": "Acabamento de Anilha de Ferro: Pintura, Pó ou E-Coat?",
+    "description": "Compare pintura líquida, pintura a pó e e-coat para anilhas de ferro, com preparo, cobertura, ferrugem, inspeção, embalagem e recompra.",
+    "h1": "Como Especificar o Acabamento de Anilhas de Ferro Fundido",
+    "keyword": "acabamento de anilha de ferro fundido",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Compras de anilhas profissionais",
+    "sections": [
+      {
+        "heading": "Resposta direta: o nome da pintura não substitui a especificação",
+        "text": "Pintura líquida, pintura a pó e e-coat podem proteger uma anilha de ferro fundido, desde que preparo, aplicação, cura e cobertura estejam controlados. Nenhum nome garante sozinho resistência à ferrugem, impacto ou variação visual. O comprador precisa ligar o sistema ao clima, ao armazenamento, à limpeza e aos pontos de contato da anilha.\n\nNa cotação, registre material, condição da fundição, preparo, família de revestimento, cor, textura, áreas cobertas, amostra e inspeção. A ChinaFreeWeight é fábrica e avalia OEM, ODM, Custom Logo, Private Label e Bulk Supply conforme o modelo real; valores comerciais e viabilidade são confirmados depois que o escopo estiver definido."
+      },
+      {
+        "heading": "Entenda o que muda entre líquido, pó e e-coat",
+        "text": "A pintura líquida pode combinar primer e acabamento aplicados pelo processo acordado. A pintura a pó deposita material seco e usa cura para formar o filme. O e-coat utiliza imersão e corrente elétrica para depositar revestimento em uma peça condutiva. São rotas diferentes, não uma escala automática de qualidade.\n\nA imersão do e-coat pode favorecer recessos e costuma produzir filme relativamente fino. O pó permite texturas e cores variadas. O líquido pode atender aparência, custo ou reparo planejado. Em qualquer caso, desengraxe, condição da superfície, química, espessura, cura e manuseio determinam o resultado do SKU comprado."
+      },
+      {
+        "heading": "Traduza umidade e logística em zonas de risco",
+        "text": "Para o Brasil, não basta escrever uso interno. Informe se haverá transporte marítimo, depósito sem climatização, cidade litorânea, limpeza frequente e contato com suor. Uma academia seca e climatizada exige decisão diferente de estoque próximo ao porto. A especificação deve refletir a cadeia real, não um adjetivo genérico de proteção.\n\nMarque no desenho face, borda, furo central, letras em relevo, cavidades e superfícies usinadas. Esses pontos podem receber filme diferente ou sofrer atrito. Se uma área ficar metálica por decisão de projeto, estabeleça proteção na embalagem e manutenção; se não for intencional, trate como falha de cobertura."
+      },
+      {
+        "heading": "Aprove a aparência em pesos leves, médios e pesados",
+        "text": "A textura da fundição e a geometria variam ao longo da linha. Por isso, observe mais de um peso sob iluminação combinada e registre cor, brilho, textura, transparência da fundição, marcação e limites cosméticos. Verifique frente, verso, borda e interior do furo antes de aprovar.\n\nUma chapa teste ajuda a alinhar cor ou química, mas não representa bordas, rebaixos e letras da anilha. Guarde amostra equivalente à produção, identificada por revisão, e fotografe sempre com fundo, distância e luz comparáveis. Isso dá referência para lote e reposição."
+      },
+      {
+        "heading": "Use ensaios com método e limite acordados",
+        "text": "ASTM D3359 e ISO 2409 descrevem abordagens com cortes e fita para avaliar aderência dentro de seus escopos. Eles não fornecem uma aprovação universal para qualquer revestimento. Se o método fizer parte do pedido, defina edição, corpo de prova, condicionamento, corte, classificação e tratamento da área destruída.\n\nA ISO 9227 descreve procedimentos de névoa salina em atmosfera artificial controlada. O resultado pode comparar corpos de prova preparados da mesma forma, mas não equivale diretamente a anos de uso. Registre preparo, risco, tempo, avaliação e critério sem transferir dados de outra peça ou de outro sistema."
+      },
+      {
+        "heading": "Inspecione produto acabado e embalagem como um sistema",
+        "text": "A amostra deve cobrir pesos, caixas e momentos diferentes da produção. Confirme identidade e depois procure metal exposto, bolhas, descascamento, escorrimento, contaminação, lascas, diferença anormal de cor ou corrosão. Meça o furo já acabado e verifique montagem na barra ou no calibre aprovado.\n\nNão esconda desvio com caneta, spray ou óleo sem procedimento autorizado. Separe unidades, registre a posição na carga e investigue se o problema é isolado. O plano deve diferenciar falha funcional de textura de fundição e variação cosmética previamente aceita."
+      },
+      {
+        "heading": "Evite que transporte e recompra desfaçam a aprovação",
+        "text": "Mesmo um bom revestimento pode marcar quando anilhas pesadas vibram encostadas. Aprove separadores, sacos ou mantas que não manchem nem grudem, limite o movimento interno e identifique a caixa. O pallet deve ser estável e permitir conferência no recebimento.\n\nExija aviso antes de mudar origem da fundição, limpeza, jateamento, primer, química, fornecedor, cor, alvo de filme, cura, retoque ou material de contato da embalagem. Logo personalizado e marcação de peso entram na mesma revisão. Cor preta parecida não prova que o sistema continuou igual.\n\nNa chegada, abra caixas de posições distintas do pallet antes de aceitar o lote. Compare também a referência aprovada, registre qualquer umidade, abrasão ou transferência de cor e preserve a identificação das unidades examinadas. Esse histórico ajuda a separar dano logístico de variação de processo e torna a decisão de reposição mais objetiva."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de especificação e evidência",
+      "columns": ["Ponto", "Definição do comprador", "Registro"],
+      "rows": [
+        ["Ambiente", "Armazenamento, umidade, limpeza e atrito", "Brief do mercado"],
+        ["Substrato", "Material, fundição e áreas usinadas", "Desenho e lista de modelos"],
+        ["Preparo", "Limpeza e tratamento da superfície", "Rota de processo"],
+        ["Sistema", "Líquido, pó, e-coat ou camadas combinadas", "Nome e revisão"],
+        ["Aparência", "Cor, brilho, textura e fundição aparente", "Amostra aprovada"],
+        ["Cobertura", "Faces, borda, furo, cavidades e exclusões", "Desenho marcado"],
+        ["Verificação", "Método, corpo de prova e aprovação", "Relatório de resultado"],
+        ["Embalagem e mudança", "Separação, caixa e gatilhos de aviso", "Pack aprovado e histórico"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Dez verificações antes de liberar o pedido",
+      "items": [
+        "Descrever clima, armazenamento, limpeza e transporte.",
+        "Identificar a construção e as superfícies usinadas.",
+        "Nomear preparo e sistema de revestimento por revisão.",
+        "Definir cobertura no furo, borda, faces e cavidades.",
+        "Aprovar cor e textura em anilhas reais de vários pesos.",
+        "Medir dimensões funcionais depois do acabamento.",
+        "Escrever ensaio, corpo de prova e regra de aprovação.",
+        "Amostrar diferentes caixas e momentos de produção.",
+        "Aprovar separação que não manche e pallet estável.",
+        "Exigir comunicação e nova aprovação quando algo mudar."
+      ]
+    },
+    "faq": [
+      ["E-coat é sempre melhor que pintura a pó?", "Não. A escolha depende da geometria, aparência, clima, contato, método de aplicação e evidência do sistema específico."],
+      ["Por que anilha de ferro enferruja?", "A ferrugem pode começar onde o ferro fica exposto à umidade por lasca, poro, cobertura fina, atrito ou dano na logística."],
+      ["A pintura altera o encaixe na barra?", "Pode alterar. O furo deve ser medido e testado na condição final, com máscara ou usinagem claramente definida."],
+      ["Névoa salina informa quantos anos a anilha dura?", "Não. O resultado descreve uma condição controlada e não se converte diretamente em vida útil na academia."],
+      ["É preciso fazer corte de aderência em toda peça?", "Normalmente o método destrutivo fica em corpo de prova ou amostra sacrificada, conforme o plano acordado."],
+      ["A fábrica pode aplicar cor e logo próprios?", "Em modelos adequados, sim. Aprove cor, método, posição, contraste, marcação de peso e amostra final antes da produção."],
+      ["O que conferir primeiro no recebimento?", "Confirme modelo e caixa, verifique cobertura, dano e corrosão, e depois compare furo, dimensões e aparência com a referência."]
+    ],
+    "faqHeading": "Perguntas Frequentes sobre Acabamento de Anilhas de Ferro",
+    "linkHeading": "Continue a especificação das anilhas",
+    "linkLabels": ["Comparar ferro, borracha e PU", "Definir controle de peso", "Verificar diâmetro e perfil", "Confirmar furo e manga da barra", "Planejar embalagem de exportação", "Preparar inspeção pré-embarque", "Ver anilhas profissionais", "Revisar OEM e marca própria", "Conhecer o controle de fábrica", "Enviar requisitos das anilhas"],
+    "imageCopy": [
+      ["Anilhas olímpicas de ferro fundido sem marca com três texturas de acabamento em bancada", "A escolha começa pela fundição, geometria e ambiente de venda."],
+      ["Anilhas de ferro posicionadas para conferir cobertura na borda e no furo central", "Faces, bordas, cavidades e furos precisam de decisão explícita."],
+      ["Bancada de inspeção para comparar superfícies e dimensões de anilhas revestidas", "O aceite reúne aparência, encaixe acabado, embalagem e identidade do lote."]
+    ],
+    "cta": ["Crie uma especificação de acabamento repetível", "Envie modelo, faixa de pesos, mercado, aparência, logo, quantidades, embalagem e necessidade de inspeção. Nossa equipe de fábrica avaliará um escopo OEM ou de fornecimento em volume.", "Solicitar revisão do acabamento"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/acabado-discos-hierro-fundido-pintura-polvo",
+    "title": "Acabado de Discos de Hierro: Pintura, Polvo y E-Coat",
+    "description": "Especifique pintura líquida, recubrimiento en polvo o e-coat para discos de hierro: preparación, cobertura, corrosión, control y embalaje.",
+    "h1": "Cómo Especificar el Acabado de Discos de Hierro Fundido",
+    "keyword": "acabado de discos de hierro fundido",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Compras profesionales de discos",
+    "sections": [
+      {
+        "heading": "Respuesta breve: compre el sistema completo, no una etiqueta",
+        "text": "La pintura líquida, el recubrimiento en polvo y la electrodeposición pueden proteger un disco de fundición cuando la preparación, la aplicación, el curado y la cobertura están controlados. El nombre comercial no garantiza por sí solo resistencia a la corrosión, al desconchado ni uniformidad visual. Primero defina ambiente, manipulación y contacto.\n\nEl pedido debe fijar sustrato, preparación, familia de recubrimiento, color, textura, zonas cubiertas, muestra e inspección. ChinaFreeWeight es una fábrica y puede revisar programas OEM, ODM, Custom Logo, Private Label y Bulk Supply; la solución final se confirma por modelo y muestra equivalente a producción."
+      },
+      {
+        "heading": "Diferencie pintura líquida, polvo y electrodeposición",
+        "text": "Un sistema líquido puede incluir imprimación y capa de color aplicadas por la ruta acordada. El polvo deposita material seco y lo cura para formar una película. La electrodeposición sumerge una pieza conductora y usa corriente para depositar el recubrimiento. Son procesos distintos, no niveles automáticos de calidad.\n\nLa inmersión puede alcanzar recesos y suele dejar una capa relativamente fina. El polvo admite múltiples texturas y colores. La pintura líquida puede responder a un objetivo concreto de acabado o reparación. El resultado depende también de limpieza, superficie, química, espesor, curado y manipulación."
+      },
+      {
+        "heading": "Convierta el clima y el uso en un mapa de exposición",
+        "text": "Documente transporte, almacenamiento, humedad, limpieza, sudor y contacto metal con metal. Un gimnasio climatizado del interior no presenta la misma exposición que un almacén costero. Pida un sistema relacionado con la ruta de venta y servicio en lugar de una promesa genérica de protección.\n\nRevise especialmente agujero central, canto exterior, letras elevadas, huecos y caras mecanizadas. Allí pueden aparecer cobertura fina, roce o metal expuesto. Si una cara debe quedar mecanizada, márquela en el plano y defina protección y mantenimiento; de lo contrario, una omisión accidental puede pasar por diseño."
+      },
+      {
+        "heading": "Apruebe el aspecto sobre discos reales de varios pesos",
+        "text": "La textura de fundición y la geometría cambian dentro de una serie. Examine pesos ligeros, medios y altos por ambas caras, canto y agujero, con iluminación acordada. Registre color, brillo, textura, transparencia de la fundición, tratamiento del logotipo y ejemplos visuales aceptables.\n\nUna probeta plana ayuda con el color o la química, pero no reproduce bordes, letras y cavidades. Conserve una muestra equivalente a producción, identificada con su revisión, y fotografías tomadas con fondo y luz constantes para comparar lote y reposición."
+      },
+      {
+        "heading": "Use ensayos de adherencia y corrosión dentro de su alcance",
+        "text": "ASTM D3359 e ISO 2409 describen métodos de corte y cinta para valorar adherencia bajo condiciones definidas. No aportan un único resultado válido para todos los discos. Si se solicitan, acuerde edición, probeta, acondicionamiento, corte, clasificación y quién puede realizar una prueba destructiva.\n\nISO 9227 establece procedimientos de niebla salina en atmósferas artificiales controladas. Sirven para comparar muestras bajo el método escrito, pero no predicen directamente años de uso. Registre preparación, rayado cuando corresponda, exposición, evaluación y límite de aceptación."
+      },
+      {
+        "heading": "Inspeccione el lote terminado sin retoques ocultos",
+        "text": "Muestree pesos, cajas y periodos de fabricación. Tras verificar la identidad, busque zonas desnudas, ampollas, desprendimiento, descuelgues, contaminación, golpes en cantos, diferencias anormales de color y corrosión. Compruebe el agujero terminado con la barra o galga prevista.\n\nNo convierta un defecto en pieza conforme mediante rotulador, aerosol o aceite sin un procedimiento aprobado. Separe las unidades, registre su ubicación y determine si el problema es aislado. El plan debe distinguir incumplimientos funcionales de la textura de fundición y de la variación cosmética aceptada."
+      },
+      {
+        "heading": "Proteja la superficie durante el transporte y la recompra",
+        "text": "Un buen recubrimiento puede marcarse si discos pesados rozan dentro de la caja o si queda humedad atrapada. Apruebe separadores o bolsas que no manchen ni se adhieran, limite el movimiento e identifique cajas y palés. El embalaje debe facilitar una recepción segura.\n\nExija aviso antes de cambiar fundición, limpieza, granallado, imprimación, química, proveedor, color, espesor objetivo, curado, retoque o material que toca la pieza en el embalaje. El logotipo y la indicación de peso forman parte de la misma revisión.\n\nAl recibir la mercancía, abra cajas tomadas de distintas alturas y zonas del palé. Compare cada disco con la muestra aprobada y documente humedad, transferencia de color, roce entre piezas o daños del canto antes de limpiar la superficie. Mantenga vinculadas las fotografías, el número de caja y el peso nominal para saber si el hallazgo procede del embalaje, de la manipulación o del proceso de recubrimiento.\n\nLa reposición debe conservar la misma revisión técnica aunque cambie el calendario de compra. Adjunte al nuevo pedido el plano de cobertura, la referencia visual, el método de inspección y la instrucción de embalaje. Si alguna condición del mercado o de la logística ha cambiado, revísela expresamente antes de confirmar la muestra; repetir solo el color no reproduce el sistema aprobado."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de especificación y evidencia",
+      "columns": ["Control", "Definición", "Evidencia"],
+      "rows": [
+        ["Entorno", "Almacén, humedad, limpieza y contacto", "Brief de mercado"],
+        ["Sustrato", "Material, estado de fundición y mecanizado", "Plano y modelos"],
+        ["Preparación", "Limpieza y preparación superficial", "Ruta de proceso"],
+        ["Sistema", "Líquido, polvo, e-coat o combinación", "Sistema y revisión"],
+        ["Aspecto", "Color, brillo, textura y fundición visible", "Muestra aprobada"],
+        ["Cobertura", "Caras, canto, agujero, huecos y exclusiones", "Plano marcado"],
+        ["Verificación", "Método, probeta y criterio", "Informe y resultados"],
+        ["Embalaje y cambios", "Separación, caja y avisos obligatorios", "Aprobación e historial"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Diez controles antes de liberar el pedido",
+      "items": [
+        "Describir clima, almacenamiento, limpieza y transporte.",
+        "Identificar construcción y superficies mecanizadas.",
+        "Nombrar preparación y sistema por revisión.",
+        "Definir cobertura en caras, canto, agujero y recesos.",
+        "Aprobar color y textura en varios pesos reales.",
+        "Medir dimensiones funcionales después del acabado.",
+        "Escribir método, probeta y criterio de cada ensayo.",
+        "Muestrear cajas, pesos y momentos de producción.",
+        "Aprobar separación no contaminante y palé estable.",
+        "Exigir notificación y nueva aprobación ante cambios."
+      ]
+    },
+    "faq": [
+      ["¿El e-coat es siempre mejor que el polvo?", "No. La decisión depende de geometría, aspecto, exposición, roce y ejecución verificable del sistema concreto."],
+      ["¿Por qué se oxida un disco de hierro?", "La corrosión puede empezar donde humedad alcanza metal expuesto por poros, golpes, cobertura fina o roce."],
+      ["¿El recubrimiento afecta al agujero central?", "Sí puede hacerlo. Mida y pruebe el agujero una vez terminado y defina las zonas enmascaradas o mecanizadas."],
+      ["¿La niebla salina indica años de vida útil?", "No. Describe el comportamiento de una muestra bajo un procedimiento controlado, no una conversión directa a servicio real."],
+      ["¿Hay que cortar cada disco para comprobar adherencia?", "Normalmente la prueba destructiva se reserva a probetas o muestras sacrificadas según el plan acordado."],
+      ["¿Puede la fábrica añadir color y logotipo propios?", "En modelos adecuados, sí. Se aprueban color, método, posición, contraste, marcación y muestra final."],
+      ["¿Qué se revisa primero al recibir?", "Identidad, cobertura, daños y corrosión; después ajuste del agujero, dimensiones, marcación y comparación con la muestra."]
+    ],
+    "faqHeading": "Preguntas Frecuentes sobre Acabados de Discos de Hierro",
+    "linkHeading": "Complete la especificación del disco",
+    "linkLabels": ["Comparar hierro, caucho y PU", "Definir tolerancia de peso", "Comprobar diámetro y perfil", "Verificar agujero y manga", "Planificar embalaje de exportación", "Preparar inspección preembarque", "Ver discos profesionales", "Revisar OEM y marca privada", "Conocer el control de fábrica", "Enviar requisitos del disco"],
+    "imageCopy": [
+      ["Discos olímpicos de hierro fundido sin marca con tres texturas protectoras", "La selección parte de la fundición, la geometría y el entorno real."],
+      ["Discos de fundición dispuestos para comprobar canto y agujero central", "Caras, cantos, huecos y agujeros requieren una decisión de cobertura."],
+      ["Mesa de inspección para comparar superficies y medidas de discos revestidos", "La aceptación relaciona aspecto, ajuste terminado, embalaje e identidad."]
+    ],
+    "cta": ["Convierta el acabado en una especificación repetible", "Envíe modelo, pesos, mercado, aspecto, logotipo, cantidades, embalaje e inspección. Nuestro equipo de fábrica revisará un alcance OEM o de suministro mayorista.", "Solicitar revisión del acabado"]
+  },
+  {
+    "locale": "ar",
+    "path": "/ar/blog/cast-iron-weight-plate-coating-rust-guide",
+    "title": "طلاء أقراص الحديد الزهر ومقاومة الصدأ: دليل المشتري",
+    "description": "قارن الدهان السائل وطلاء المسحوق والطلاء الكهربائي لأقراص الحديد، وحدد التحضير والتغطية والفحص والتعبئة وإعادة الطلب.",
+    "h1": "كيف تحدد تشطيب أقراص الأوزان المصنوعة من الحديد الزهر؟",
+    "keyword": "طلاء أقراص الأوزان المصنوعة من الحديد الزهر",
+    "home": "الرئيسية",
+    "library": "الموارد",
+    "eyebrow": "ChinaFreeWeight · شراء أقراص الأوزان التجارية",
+    "sections": [
+      {
+        "heading": "الخلاصة: اشترِ نظام حماية محددًا لا اسم طلاء فقط",
+        "text": "يمكن للدهان السائل أو طلاء المسحوق أو الطلاء الكهربائي أن يحمي قرص الحديد الزهر عندما يكون تحضير السطح والتطبيق والمعالجة والتغطية مضبوطًا. اسم العملية وحده لا يضمن مقاومة الصدأ أو التقشر أو ثبات المظهر. ابدأ ببيئة التخزين والتنظيف والرطوبة ونقاط الاحتكاك.\n\nيجب أن يحدد طلب الشراء مادة القرص وحالة السطح والتحضير ونظام الطلاء واللون والملمس والمناطق المغطاة والعينة وطريقة الفحص. ChinaFreeWeight مصنع يراجع برامج OEM وODM والشعار المخصص والعلامة الخاصة والتوريد بالجملة، مع ربط الاعتماد بالموديل والعينة المطابقة للإنتاج."
+      },
+      {
+        "heading": "افصل بين الدهان السائل والمسحوق والطلاء الكهربائي",
+        "text": "قد يتكون نظام الدهان السائل من طبقة أساس وطبقة نهائية بالطريقة المتفق عليها. يترسب المسحوق الجاف ثم يعالج لتكوين الغشاء. أما الطلاء الكهربائي فيغمر القطعة الموصلة في حمام ويستخدم التيار لترسيب المادة. هذه طرق تصنيع مختلفة وليست ترتيبًا ثابتًا للجودة.\n\nيساعد الغمر على الوصول إلى التجاويف ويكون الغشاء عادة رقيقًا نسبيًا. يتيح المسحوق ملمسًا وألوانًا متعددة. وقد يناسب الدهان السائل هدفًا محددًا للمظهر أو الإصلاح. النتيجة الفعلية تعتمد أيضًا على التنظيف وكيمياء الطلاء وسماكته ومعالجته والمناولة."
+      },
+      {
+        "heading": "حوّل المناخ وسلسلة الشحن إلى خريطة تعرض",
+        "text": "دوّن النقل البحري أو البري، والمستودع المكيف أو المفتوح، والرطوبة الساحلية، ومواد التنظيف، والعرق، واحتكاك الأقراص ببعضها. تختلف حاجة نادٍ داخلي جاف عن مخزون قريب من الميناء. اطلب نظامًا يناسب المسار الحقيقي بدل ادعاء عام بالحماية.\n\nركز على الفتحة المركزية والحافة الخارجية والحروف البارزة والتجاويف والأسطح المشغلة. قد تضعف التغطية أو يحدث الاحتكاك في هذه المواضع. إذا كان معدن مكشوف مقصودًا في الرسم، فيجب تحديد الحماية أثناء التعبئة والصيانة بعد الاستلام."
+      },
+      {
+        "heading": "اعتمد اللون والملمس على أقراص فعلية من عدة أوزان",
+        "text": "يتغير نسيج المسبوك وشكل التجاويف عبر سلسلة الأوزان. افحص وجه القرص وظهره وحافته وداخل الفتحة تحت إضاءة متفق عليها. سجّل اللون واللمعان والملمس ودرجة ظهور خشونة المسبوك وطريقة الشعار وحدود التفاوت الشكلي المقبول.\n\nتفيد عينة مسطحة في مناقشة اللون أو المادة، لكنها لا تمثل الحواف والحروف والفتحات. احتفظ بقرص مماثل للإنتاج يحمل رقم المراجعة، وصور العينة والدفعة اللاحقة في ظروف ثابتة لتكون المقارنة قابلة للتكرار."
+      },
+      {
+        "heading": "استخدم اختبارات الالتصاق والتآكل ضمن حدودها",
+        "text": "تصف ASTM D3359 وISO 2409 طرق القطع والشريط لتقييم الالتصاق ضمن نطاقات محددة. لا تمنح أي منهما حد قبول موحدًا لكل قرص وطلاء. عند طلب الاختبار، حدد الإصدار والعينة والتهيئة وطريقة القطع والتصنيف ومن يحق له إجراء الاختبار المتلف.\n\nتحدد ISO 9227 إجراءات رش الملح في أجواء اصطناعية مضبوطة. يمكن للنتيجة مقارنة عينات أعدت بالطريقة نفسها، لكنها لا تتحول مباشرة إلى سنوات استخدام. يجب تسجيل الإعداد والخدش إن وجد ومدة التعرض والتقييم وقاعدة القبول."
+      },
+      {
+        "heading": "افحص الدفعة النهائية قبل أي رتوش غير موثقة",
+        "text": "خذ عينات من أوزان وكراتين وفترات إنتاج مختلفة. بعد التحقق من الهوية، ابحث عن معدن مكشوف وفقاعات وتقشر وسيلان وتلوث وكسور الحافة واختلاف لون غير طبيعي وصدأ. افحص الفتحة بعد اكتمال الطلاء على القضيب أو المقياس المعتمد.\n\nلا تخفِ العيب بقلم أو رذاذ أو زيت من دون إجراء معتمد. اعزل الوحدات وسجل موقعها وحدد هل السبب فردي أم متكرر. يجب أن يميز معيار الفحص بين الخلل الوظيفي وملمس المسبوك أو التفاوت الشكلي المقبول مسبقًا."
+      },
+      {
+        "heading": "احمِ السطح في التعبئة واضبط إعادة الطلب",
+        "text": "قد يتضرر الطلاء الجيد إذا احتكت الأقراص الثقيلة داخل الكرتون أو احتجزت الرطوبة. اعتمد فواصل وأكياسًا لا تلطخ السطح ولا تلتصق به، وثبّت الحركة الداخلية واربط هوية الكرتون بالدفعة. يجب أن تكون المنصة مستقرة وسهلة الفحص عند الوصول.\n\nاطلب إشعارًا قبل تغيير مصدر المسبوك أو التنظيف أو السفع أو طبقة الأساس أو الكيمياء أو المورد أو اللون أو السماكة المستهدفة أو المعالجة أو طريقة الرتوش أو مادة التعبئة الملامسة. يدخل الشعار وبيان الوزن في المراجعة نفسها."
+      }
+    ],
+    "table": {
+      "heading": "مصفوفة المواصفة والدليل",
+      "columns": ["نقطة التحكم", "ما يحدده المشتري", "الدليل المحتفظ به"],
+      "rows": [
+        ["البيئة", "التخزين والرطوبة والتنظيف والاحتكاك", "موجز السوق"],
+        ["المادة", "نوع الحديد وحالة المسبوك والأسطح المشغلة", "الرسم وقائمة الموديلات"],
+        ["التحضير", "التنظيف وتحضير السطح", "بيان العملية"],
+        ["النظام", "دهان سائل أو مسحوق أو طلاء كهربائي", "اسم النظام والمراجعة"],
+        ["المظهر", "اللون واللمعان والملمس وظهور المسبوك", "العينة المعتمدة"],
+        ["التغطية", "الوجه والحافة والفتحة والتجاويف والاستثناءات", "رسم محدد"],
+        ["التحقق", "الطريقة والعينة وحد القبول", "سجل النتائج"],
+        ["التعبئة والتغيير", "الفواصل وهوية الكرتون ومحفزات الإشعار", "اعتماد التعبئة وسجل المراجعة"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "عشر نقاط قبل تحرير الطلب بالجملة",
+      "items": [
+        "حدد المناخ والتخزين والتنظيف ومسار النقل.",
+        "عرّف بنية القرص وكل سطح مشغّل.",
+        "سمِّ تحضير السطح ونظام الطلاء برقم المراجعة.",
+        "حدد التغطية على الوجه والحافة والفتحة والتجاويف.",
+        "اعتمد اللون والملمس على عدة أوزان فعلية.",
+        "قس الأبعاد الوظيفية بعد اكتمال الطلاء.",
+        "اكتب طريقة الاختبار وعينته وحد قبوله.",
+        "خذ عينات من كراتين وأوقات إنتاج مختلفة.",
+        "اعتمد فواصل لا تلوث السطح ومنصة مستقرة.",
+        "اشترط الإشعار وإعادة الاعتماد عند أي تغيير."
+      ]
+    },
+    "faq": [
+      ["هل الطلاء الكهربائي أفضل دائمًا من طلاء المسحوق؟", "لا. يعتمد الاختيار على الشكل والمظهر والبيئة والاحتكاك وتنفيذ النظام المحدد والتحقق منه."],
+      ["لماذا تصدأ أقراص الحديد؟", "يمكن أن يبدأ الصدأ عندما تصل الرطوبة إلى الحديد المكشوف عبر ضربة أو مسام أو تغطية ضعيفة أو احتكاك."],
+      ["هل يؤثر الطلاء في ملاءمة الفتحة؟", "يمكن أن يؤثر. يجب قياس الفتحة وتجربتها بعد التشطيب وتحديد مناطق الحجب أو التشغيل في الرسم."],
+      ["هل يحدد اختبار رش الملح سنوات الخدمة؟", "لا. يصف سلوك عينة تحت إجراء مضبوط ولا يتحول مباشرة إلى عمر فعلي في النادي."],
+      ["هل يجب إجراء قطع التصاق على كل قرص؟", "غالبًا يطبق الاختبار المتلف على عينة متفق عليها أو قطعة مخصصة، لا على كل وحدة للبيع."],
+      ["هل يمكن إضافة لون وشعار خاصين؟", "نعم في الموديلات المناسبة بعد اعتماد اللون والطريقة والموقع والتباين وبيان الوزن والعينة النهائية."],
+      ["ما أول ما يفحص عند الاستلام؟", "الهوية والتغطية والضرر والصدأ، ثم ملاءمة الفتحة والأبعاد والعلامات والمقارنة بالعينة."]
+    ],
+    "faqHeading": "أسئلة شائعة عن تشطيب أقراص الحديد الزهر",
+    "linkHeading": "أكمل مواصفة قرص الأوزان",
+    "linkLabels": ["قارن الحديد والمطاط والبولي يوريثان", "حدد سماحية الوزن", "افحص القطر الخارجي والقطاع", "تحقق من ملاءمة الفتحة والكم", "خطط لتعبئة التصدير", "جهز فحص ما قبل الشحن", "تصفح أقراص الأوزان التجارية", "راجع OEM والعلامة الخاصة", "تعرف على نهج ضبط المصنع", "أرسل متطلبات الأقراص"],
+    "imageCopy": [
+      ["أقراص أولمبية غير موسومة من الحديد الزهر بثلاثة أنسجة تشطيب على طاولة فحص", "يبدأ الاختيار من المسبوك والهندسة وبيئة الاستخدام الفعلية."],
+      ["أقراص حديد مرتبة لفحص تغطية الحافة والفتحة المركزية", "يجب تحديد التغطية على الوجوه والحواف والتجاويف والفتحات."],
+      ["منضدة فحص لمقارنة أسطح وأبعاد أقراص الحديد المطلية", "يربط القبول المظهر والملاءمة النهائية والتعبئة وهوية الإنتاج."]
+    ],
+    "cta": ["حوّل التشطيب إلى مواصفة قابلة للتكرار", "أرسل الموديل ونطاق الأوزان والسوق والمظهر والشعار والكميات والتعبئة والفحص. سيراجع فريق المصنع نطاق OEM أو التوريد بالجملة المناسب.", "اطلب مراجعة تشطيب الأقراص"]
+  }
+]

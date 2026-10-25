@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+import { expect, test } from "@playwright/test";
 
 const productPath = "/products/dumbbells/textured-rubber-hex-dumbbell";
 

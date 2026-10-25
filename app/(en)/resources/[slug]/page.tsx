@@ -68,7 +68,7 @@ function cleanMarkdown(text: string) {
 }
 
 function getFaqs(content: string): Faq[] {
-  const section = content.split(/^## Frequently Asked Questions[^\n]*$/m)[1];
+  const section = content.split(/^## (?:Frequently Asked Questions|[^\n]*\bFAQ\b)[^\n]*$/im)[1];
   if (!section) return [];
   const faqBody = section.split(/^(?:## |\*\*(?:Sources|Evidence))/m)[0];
   return faqBody
@@ -166,7 +166,7 @@ function renderMarkdown(content: string, images: ResourceImage[]) {
 
     if (line.startsWith("## ")) {
       h2Count += 1;
-      faqMode = line.includes("Frequently Asked Questions");
+      faqMode = line.includes("Frequently Asked Questions") || /\bFAQ\b/i.test(line);
       if ([4, 7].includes(h2Count) && images[imageIndex]) {
         blocks.push(renderArticleImage(images[imageIndex], `article-image-${imageIndex}`));
         imageIndex += 1;
@@ -416,7 +416,7 @@ export default async function ResourceArticlePage({ params }: PageProps) {
         <div className="related-grid">
           {relatedPosts.map((item) => (
             <a href={`/resources/${item.slug}`} key={item.slug}>
-              <img src={item.coverImage} alt="" loading="lazy" />
+              <img src={item.coverImage} alt={item.coverAlt} loading="lazy" />
               <div><strong>{item.title}</strong><small>{item.readingTime}</small></div>
             </a>
           ))}

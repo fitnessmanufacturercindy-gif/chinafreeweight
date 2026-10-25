@@ -1,0 +1,299 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/bumper-plate-bounce-shore-hardness-drop-test",
+    "title": "Bumper Plate Bounce & Shore Hardness: Buyer Test Guide",
+    "description": "Learn how to specify Shore hardness, rebound and controlled drop testing for OEM bumper plates without treating one reading as a durability guarantee.",
+    "h1": "How to Specify Bumper Plate Bounce and Shore Hardness",
+    "keyword": "bumper plate bounce Shore hardness drop test",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Bumper plate factory guide",
+    "sections": [
+      {
+        "heading": "The short answer for buyers",
+        "text": "Shore hardness and bumper-plate rebound are related observations, not interchangeable specifications. A Shore A reading measures resistance to indentation under a defined instrument method. It does not by itself prove bounce height, noise, floor protection, insert retention or service life. Compare finished plates with a controlled drop procedure that fixes the bar, load, collars, release, platform, temperature, camera position and acceptance rule.\n\nFor an OEM, ODM, custom-logo, private-label or bulk-supply order, state both controls separately. Define how the rubber compound is checked, preferably on a flat representative coupon when the chosen method requires one, and how assembled plates are compared in intended use. Approve representative light, middle and heavy models because thickness and construction can change across the range."
+      },
+      {
+        "heading": "What Shore hardness measures—and what it does not",
+        "text": "A durometer presses a specified indenter into rubber and reports an empirical indentation-hardness value. ASTM D2240 and ISO 48-4 describe controlled methods and multiple scales; a value is meaningful only with its scale, instrument, specimen, conditioning, contact location and timing. Readings from different scales or from a flat coupon and a curved textured plate should not be merged without a validated comparison.\n\nWithin one controlled material system, a higher Shore A result usually describes a firmer indentation response. It is still not a complete material identity. Formulation, density, damping, thickness, hub geometry, cure and temperature can change how a plate behaves after release. Use hardness for compound and process control, then use an assembled-product test for rebound and condition."
+      },
+      {
+        "heading": "Build a rebound comparison that another inspector can repeat",
+        "text": "First define the intended event: controlled lowering, planned drops in weightlifting, or a product comparison. Select a platform and underfloor that represent the approved facility setup. Use one identified straight bar, matching collars and a symmetrical load. Record the plate models and weights on each side, total load, release height and release method. Keep the camera perpendicular to the plate edge with a fixed blank reference grid.\n\nMeasure the same event on every sample, such as the highest point of the first rebound and any lateral travel, using video reviewed frame by frame. Repeat enough times to reveal variation without presenting an arbitrary cycle count as universal. Stop if the platform, bar, collar, insert or plate shows an unsafe condition. The purchase specification must say whether results are compared with a numeric limit, an approved reference sample or both."
+      },
+      {
+        "heading": "Control weight, temperature and surface before comparing models",
+        "text": "A thin light plate dropped alone can bend and contact the floor differently from a heavier or supported plate. Some manufacturers restrict dropping their lightest models alone. Therefore the test schedule must say which denominations are evaluated separately and which are combined with supporting plates. Do not extrapolate one heavy sample across the entire series.\n\nRubber response can change with conditioning and temperature, while platforms vary in stiffness, joints and wear. Store samples under an agreed condition before testing and record room and product condition rather than comparing a cold delivery sample with a warm showroom reference. Clean the contact surface and keep platform location constant. Noise readings, if required, need their own microphone position and background-noise rule."
+      },
+      {
+        "heading": "Inspect more than the height of the first rebound",
+        "text": "A low first rebound is not an automatic pass. Review whether the bar travels sideways, whether both ends return evenly and whether the plate rocks because of dimensional or assembly variation. After the sequence, inspect the face, rim, centre insert, insert-to-body boundary, flatness, markings and any permitted cosmetic change. Photograph the same views before and after, tied to the sample identity.\n\nKeep design validation separate from shipment inspection. A development drop programme may consume or damage samples and can include more severe conditions. Routine batch acceptance can instead verify compound records, hardness on agreed witness pieces, dimensions, mass, insert condition and a limited functional comparison defined by the buyer. Never sell a destructively tested unit unless the agreed disposition explicitly permits it."
+      },
+      {
+        "heading": "Write the requirement into the RFQ and approval sample",
+        "text": "Ask the supplier for the actual elastomer family, centre-insert construction, permitted use by denomination, hardness-control method and available product-test procedure. Write the Shore scale, target range or approved reference, specimen source, conditioning and measurement locations. For rebound, define the platform, bar, collars, load, release, recording method, repetitions and failure signs. Avoid copying a competitor's number without matching its construction and test basis.\n\nThe approved sample should carry the same product revision, compound control, insert, dimensions, weight marking, logo process and packaging intended for production. Retain the videos, measurement sheet and photographs with that revision. If material, cure, mold, insert, plate thickness or platform changes, decide whether re-approval is required before the next purchase."
+      },
+      {
+        "heading": "Link factory control to gym operation",
+        "text": "Manufacturing control can keep compound preparation, molding, curing, insert preparation, trimming and marking aligned with the approved model, but the gym still controls the floor, platform, bar, collars, loading and user behaviour. Product and operating instructions must agree. A plate described for controlled drops is not permission to use it on concrete, damaged flooring or an unsuitable bar.\n\nChinaFreeWeight reviews bumper-plate projects by model and intended market. Buyers can request OEM and ODM options, custom logos, private-label packaging and bulk supply, but hardness, rebound, allowable use and inspection evidence remain product-specific. Send the full weight list and facility context so the factory can confirm a measurable proposal rather than a generic adjective such as low bounce."
+      }
+    ],
+    "table": {
+      "heading": "Bumper plate hardness and rebound test matrix",
+      "columns": ["Control", "Define before testing", "Evidence to retain"],
+      "rows": [
+        ["Shore hardness", "Scale, instrument, specimen, conditioning, point and timing", "Readings linked to compound and sample"],
+        ["First rebound", "Bar, load, collars, platform, release and camera", "Video and repeatable height reference"],
+        ["Lateral travel", "Start position, camera frame and safe boundary", "Path and variation across repeats"],
+        ["Post-test condition", "Face, rim, insert boundary, flatness and markings", "Matched before-and-after views"],
+        ["Lot acceptance", "Sampling, witness pieces, functional check and disposition", "Signed report tied to PO and carton IDs"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Buyer checklist for hardness and rebound",
+      "items": [
+        "Define the exercises, permitted drops, platform and floor.",
+        "List every plate weight and identify construction changes.",
+        "Name the Shore scale, specimen and conditioning method.",
+        "Separate hardness control from assembled-product rebound.",
+        "Fix the bar, load, collars, release height and release method.",
+        "Fix camera positions and the rebound reference plane.",
+        "Compare light, middle and heavy representative models.",
+        "Record lateral travel and post-test condition as well as height.",
+        "Define stop rules, failure signs and tested-sample disposition.",
+        "Retain approved samples, records and change-control triggers."
+      ]
+    },
+    "faq": [
+      ["Does a higher Shore A number always mean less bounce?", "Not as a universal rule. It indicates a firmer indentation response under the stated method, while finished-plate rebound also depends on formulation, geometry, weight, load, temperature and platform."],
+      ["Can Shore hardness predict bumper plate durability?", "No single reading proves durability. Use it as material or process control and combine it with dimensional, insert, surface and product-level validation under defined conditions."],
+      ["Can a durometer be used directly on a bumper plate?", "Only if the selected method and geometry support a valid reading. Curved, textured or thin areas can distort results, so a flat representative witness coupon is often easier to compare."],
+      ["How should bumper plate bounce be measured?", "Fix the bar, load, collars, release, platform, temperature and camera; then record the same rebound event and lateral movement for each identified sample."],
+      ["Should the lightest plate be drop-tested alone?", "Follow the model's permitted use. Some light plates are restricted from being dropped alone, so the schedule must define a safe representative loading condition."],
+      ["Is a low-bounce plate always quieter?", "No. Sound also depends on total load, compound, platform, room and microphone position. Measure noise separately if it matters to the facility."],
+      ["What should an OEM bumper plate specification include?", "Include material and insert construction, dimensions, mass, hardness method, rebound setup, permitted use, sampling, visual criteria, branding, packaging and change control."]
+    ],
+    "faqHeading": "Frequently Asked Questions About Bumper Plate Rebound",
+    "linkHeading": "Continue the bumper plate buying review",
+    "linkLabels": [
+      "Compare weight plate models",
+      "Choose training or competition bumpers",
+      "Understand bumper plate manufacturing",
+      "Calculate plate thickness and sleeve capacity",
+      "Check plate hole and bar sleeve fit",
+      "Approve an OEM sample",
+      "Plan pre-shipment inspection",
+      "Send a bumper plate inquiry"
+    ],
+    "imageCopy": [
+      ["Unbranded Olympic barbell with bumper plates above a rubber platform during rebound comparison", "A fixed bar, load, platform and camera reference make comparative rebound evidence useful."],
+      ["Shore durometer contacting a flat rubber witness coupon beside an unbranded bumper plate", "Hardness records need the scale, specimen, conditioning, location and instrument method."],
+      ["Camera documenting a symmetrically loaded bumper plate drop-test setup", "Product behaviour should be recorded under safe repeatable conditions rather than judged from one adjective."]
+    ],
+    "cta": [
+      "Define a measurable bumper plate order",
+      "Send intended use, plate weights, quantities, bar and floor setup, hardness method, rebound requirement, logo, packaging and inspection plan for a model-specific factory review.",
+      "Request a bumper plate quotation"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/ressalto-anilha-bumper-dureza-shore-teste",
+    "title": "Ressalto da Anilha Bumper e Dureza Shore: Guia",
+    "description": "Aprenda a especificar dureza Shore, ressalto e teste de queda de anilhas bumper OEM sem transformar uma leitura isolada em promessa de durabilidade.",
+    "h1": "Como Especificar Ressalto e Dureza Shore da Anilha Bumper",
+    "keyword": "ressalto anilha bumper dureza Shore teste de queda",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guia de fábrica para anilhas bumper",
+    "sections": [
+      {
+        "heading": "Resposta direta para importadores e academias",
+        "text": "Dureza Shore e ressalto da anilha bumper são controles relacionados, mas não equivalentes. O durômetro mede a resistência à indentação em condições definidas. A leitura sozinha não comprova altura do primeiro salto, ruído, proteção do piso, fixação do miolo ou vida útil. Para comparar o produto montado, padronize barra, carga, presilhas, soltura, plataforma, temperatura, câmera e regra de aceitação.\n\nEm projetos OEM, ODM, com logotipo personalizado, marca própria ou fornecimento em volume, escreva os dois requisitos separadamente. Defina como o composto será conferido e como a anilha completa será observada no uso previsto. Inclua pesos leves, médios e pesados representativos, pois espessura e construção podem mudar ao longo da linha vendida no Brasil."
+      },
+      {
+        "heading": "O que a dureza Shore informa de verdade",
+        "text": "Um durômetro aplica um penetrador e uma força especificados ao elastômero. ASTM D2240 e ISO 48-4 descrevem métodos, escalas e condições; por isso o número precisa vir acompanhado de escala, aparelho, corpo de prova, condicionamento, ponto e tempo de leitura. Não compare diretamente resultados de escalas diferentes nem uma pastilha plana com a face curva ou texturizada sem validar a correlação.\n\nDentro do mesmo sistema controlado, uma leitura Shore A maior costuma representar resposta mais firme à indentação. Ela não identifica toda a formulação. Densidade, amortecimento, geometria, espessura, cura, miolo e temperatura interferem no comportamento da anilha. Use Shore para controlar material e processo e um ensaio separado para avaliar ressalto e condição do conjunto."
+      },
+      {
+        "heading": "Monte um teste de ressalto que possa ser repetido",
+        "text": "Comece pelo uso autorizado: descida controlada, levantamento com queda planejada ou comparação entre amostras. Selecione plataforma e contrapiso semelhantes aos do box ou academia. Use a mesma barra reta identificada, carga simétrica e presilhas compatíveis. Registre modelo e peso de cada lado, carga total, altura e modo de liberação. A câmera deve ficar fixa, perpendicular à borda, com referência visual sem números.\n\nEscolha antes o evento medido, como o ponto mais alto do primeiro ressalto e o deslocamento lateral. Analise os vídeos quadro a quadro e repita o procedimento para observar variação, sem anunciar um total arbitrário de quedas como regra universal. Pare diante de risco para plataforma, barra, presilha, miolo ou corpo. O pedido deve dizer se a aprovação usa limite, amostra-mestra ou ambos."
+      },
+      {
+        "heading": "Considere peso, clima e piso no Brasil",
+        "text": "Uma anilha leve e fina solta sozinha pode flexionar e tocar o piso de modo diferente de um modelo pesado ou apoiado por outras anilhas. Há fabricantes que restringem quedas de pesos leves isolados. A programação precisa indicar quais pesos são avaliados sozinhos e quais exigem carga de apoio. Não use apenas a amostra de vinte quilos para liberar toda a série.\n\nTemperatura, tempo de estabilização e condição do piso alteram a comparação. Uma amostra recém-saída de transporte quente ou depósito úmido não deve ser confrontada sem condicionamento com outra que ficou em sala climatizada. Registre condição do produto, ambiente, posição e limpeza da plataforma. Se o comprador precisar de ruído, defina posição do microfone e nível de fundo em um controle separado."
+      },
+      {
+        "heading": "Inspecione miolo, borda e trajetória após o ensaio",
+        "text": "Baixo ressalto não garante aprovação. Observe se a barra anda lateralmente, se as duas pontas retornam de forma parecida e se há balanço provocado por variação dimensional ou de montagem. Depois confira face, borda, miolo metálico, união entre miolo e corpo, planicidade, marcação e alterações cosméticas permitidas. Fotografe as mesmas vistas antes e depois e vincule tudo ao código da amostra.\n\nSepare validação de projeto e inspeção de embarque. Um desenvolvimento pode usar ensaio mais severo e consumir peças; o controle de lote pode verificar registros do composto, leitura Shore em testemunhos acordados, massa, dimensões, miolo e uma comparação funcional limitada. Uma peça submetida a ensaio destrutivo não deve voltar ao estoque comercial sem uma destinação expressamente aceita."
+      },
+      {
+        "heading": "Leve o método para a cotação e a amostra aprovada",
+        "text": "Peça ao fornecedor família do elastômero, construção do miolo, uso permitido por peso, método de controle de dureza e procedimento funcional disponível. Declare escala Shore, faixa ou referência, origem do corpo de prova, condicionamento e pontos de leitura. Para ressalto, fixe plataforma, barra, carga, presilhas, soltura, gravação, repetições e sinais de falha. Não copie o número de outro produto sem reproduzir construção e método.\n\nA amostra aprovada precisa representar revisão, composto, miolo, dimensões, marcação, logo e embalagem cotados. Guarde vídeos, ficha e fotos com essa revisão. Mudança de formulação, cura, molde, miolo, espessura ou embalagem pode exigir nova avaliação. O controle evita que a reposição chegue com resposta diferente embora a aparência pareça igual."
+      },
+      {
+        "heading": "Una o controle da fábrica à operação da academia",
+        "text": "A fábrica controla preparação do composto, moldagem, cura, preparo do insert, rebarba e marcação; a academia controla plataforma, piso, barra, presilhas, carregamento e comportamento do usuário. As duas partes precisam seguir o mesmo uso permitido. A palavra bumper não autoriza queda em concreto, piso danificado ou barra incompatível.\n\nA ChinaFreeWeight analisa cada modelo e mercado. Projetos podem incluir OEM, ODM, logotipo personalizado, marca própria e fornecimento em grande quantidade, mas dureza, ressalto, uso e evidência continuam específicos. Envie a lista completa em kg ou lb, ambiente e rotina de treinamento para receber uma proposta mensurável, em vez de depender apenas da expressão ressalto baixo."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de dureza e ressalto para anilhas bumper",
+      "columns": ["Controle", "Definir antes", "Evidência guardada"],
+      "rows": [
+        ["Dureza Shore", "Escala, aparelho, corpo, condição, ponto e tempo", "Leituras ligadas ao composto e à amostra"],
+        ["Primeiro ressalto", "Barra, carga, presilhas, plataforma, soltura e câmera", "Vídeo e referência de altura repetível"],
+        ["Deslocamento lateral", "Ponto inicial, enquadramento e área segura", "Trajetória e variação entre repetições"],
+        ["Condição posterior", "Face, borda, miolo, união, planicidade e marcação", "Fotos equivalentes antes e depois"],
+        ["Recebimento do lote", "Amostragem, testemunhos, função e destinação", "Relatório ligado ao pedido e às caixas"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Checklist do comprador para dureza e ressalto",
+      "items": [
+        "Definir exercícios, quedas permitidas, plataforma e piso.",
+        "Listar todos os pesos e mudanças de construção.",
+        "Nomear escala Shore, corpo de prova e condicionamento.",
+        "Separar controle do composto e ressalto do produto montado.",
+        "Fixar barra, carga, presilhas, altura e forma de soltura.",
+        "Fixar câmeras e plano de referência do ressalto.",
+        "Comparar pesos leves, médios e pesados representativos.",
+        "Registrar movimento lateral e condição final além da altura.",
+        "Definir parada, falhas e destino das peças testadas.",
+        "Reter amostra, registros e gatilhos de nova aprovação."
+      ]
+    },
+    "faq": [
+      ["Shore A maior sempre significa menos ressalto?", "Não como regra universal. O número indica resposta à indentação no método adotado; formulação, peso, geometria, carga, temperatura e plataforma também influenciam a anilha pronta."],
+      ["A dureza Shore prevê a durabilidade da anilha?", "Não. Ela auxilia o controle do material, mas deve ser combinada com dimensões, miolo, superfície e validação do produto em condições definidas."],
+      ["Posso medir Shore diretamente na anilha bumper?", "Somente quando método, área e geometria permitem leitura válida. Superfícies curvas ou texturizadas podem distorcer; uma pastilha plana representativa costuma facilitar a comparação."],
+      ["Como medir o ressalto da anilha?", "Padronize barra, carga, presilhas, soltura, plataforma, temperatura e câmera; depois registre o mesmo evento e o deslocamento lateral de cada amostra."],
+      ["A anilha mais leve deve ser solta sozinha?", "Siga o uso permitido do modelo. Alguns pesos leves não aceitam queda isolada, então o plano precisa definir carregamento seguro e representativo."],
+      ["Anilha de baixo ressalto é sempre mais silenciosa?", "Não. O som também depende da carga, material, plataforma, sala e ponto de medição. Se for requisito, controle o ruído separadamente."],
+      ["O que incluir na especificação OEM de bumper?", "Inclua material, miolo, massa, dimensões, método Shore, teste de ressalto, uso permitido, amostragem, aparência, logo, embalagem e controle de mudanças."]
+    ],
+    "faqHeading": "Perguntas sobre ressalto de anilhas bumper",
+    "linkHeading": "Continue a análise da compra de anilhas",
+    "linkLabels": [
+      "Comparar modelos de anilhas",
+      "Escolher bumper de treino ou competição",
+      "Entender a fabricação da bumper",
+      "Calcular espessura e capacidade da barra",
+      "Verificar furo e manga da barra",
+      "Aprovar uma amostra OEM",
+      "Planejar inspeção pré-embarque",
+      "Enviar consulta de anilhas"
+    ],
+    "imageCopy": [
+      ["Duas barras olímpicas sem marca com anilhas bumper em comparação de ressalto", "Carga, plataforma, soltura e câmera iguais tornam a diferença observada comparável."],
+      ["Durômetro sobre corpo de prova plano ao lado de anilha bumper sem marca", "A ficha de dureza deve identificar escala, amostra, condição, ponto e aparelho."],
+      ["Anilhas bumper preparadas para registrar condição antes e depois do ensaio", "Face, borda, miolo e planicidade precisam de evidência ligada à identidade da peça."]
+    ],
+    "cta": [
+      "Prepare uma compra mensurável de anilhas bumper",
+      "Envie uso, pesos, quantidades, barra, piso, método de dureza, requisito de ressalto, logo, embalagem e inspeção para análise da fábrica por modelo.",
+      "Solicitar cotação de anilhas"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/rebote-disco-bumper-dureza-shore-prueba",
+    "title": "Rebote y Dureza Shore de Discos Bumper: Guía",
+    "description": "Defina dureza Shore, rebote y prueba de caída para discos bumper OEM sin confundir una lectura del caucho con vida útil o resultado final.",
+    "h1": "Cómo Especificar Rebote y Dureza Shore en Discos Bumper",
+    "keyword": "rebote disco bumper dureza Shore prueba de caída",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Guía de fábrica para discos bumper",
+    "sections": [
+      {
+        "heading": "Respuesta breve para compras profesionales",
+        "text": "La dureza Shore y el rebote de un disco bumper no son la misma especificación. El durómetro mide resistencia a la indentación bajo un método definido. Ese valor no demuestra por sí solo altura de rebote, ruido, protección del suelo, unión del casquillo ni duración. Para comparar discos terminados, fije barra, carga, cierres, forma de soltar, plataforma, temperatura, cámara y criterio de aceptación.\n\nEn una compra OEM, ODM, con logotipo personalizado, marca privada o suministro mayorista, escriba ambos controles por separado. Defina cómo se verifica el compuesto y cómo se evalúa el conjunto en el uso autorizado. Seleccione pesos ligeros, medios y pesados porque espesor, material y estructura pueden cambiar dentro de la serie que recibirá el distribuidor o gimnasio."
+      },
+      {
+        "heading": "Qué mide realmente la escala Shore",
+        "text": "El durómetro aplica un penetrador y una fuerza especificados al elastómero. ASTM D2240 e ISO 48-4 describen métodos y escalas, por lo que la cifra necesita escala, instrumento, probeta, acondicionamiento, zona y tiempo de lectura. No mezcle escalas ni compare sin validación una probeta plana con la cara curva, fina o texturada de un disco acabado.\n\nEn un mismo sistema controlado, una lectura Shore A mayor suele describir una respuesta más firme a la indentación. No identifica toda la formulación ni predice sola el producto. Densidad, amortiguación, curado, geometría, grosor, buje y temperatura modifican la respuesta. Use dureza para controlar material y proceso; mida el rebote y el estado en el disco montado."
+      },
+      {
+        "heading": "Diseñe una comparación de rebote reproducible",
+        "text": "Parta del uso: descenso controlado, caída prevista en halterofilia o comparación de muestras. Elija plataforma y subsuelo representativos del centro. Utilice una barra recta identificada, cierres compatibles y carga simétrica. Registre modelo y peso a cada lado, carga total, altura y sistema de liberación. Coloque la cámara perpendicular al borde con un fondo de referencia sin cifras.\n\nDefina qué se medirá, por ejemplo el punto máximo del primer rebote y el movimiento lateral. Revise vídeo cuadro a cuadro y repita lo suficiente para observar variación, sin convertir un número arbitrario de ciclos en norma universal. Detenga la prueba si aparece una condición insegura. El pedido debe indicar si se compara con límite, muestra aprobada o ambos."
+      },
+      {
+        "heading": "Acondicione pesos, temperatura y superficie",
+        "text": "Un disco ligero y delgado soltado solo puede flexionar o golpear de forma distinta a uno pesado o apoyado por otros discos. Algunos fabricantes limitan la caída aislada de sus pesos menores. El programa debe indicar qué denominaciones se prueban solas y cuáles con carga de apoyo. Una muestra pesada no representa automáticamente toda la gama.\n\nEl caucho cambia con acondicionamiento y temperatura; la plataforma también varía por rigidez, juntas y desgaste. Estabilice las muestras en la condición acordada y registre producto y sala. No compare una entrega fría con una referencia caliente de exposición. Limpie la zona y mantenga el mismo punto. Si interesa el sonido, defina micrófono y ruido de fondo en una medición aparte."
+      },
+      {
+        "heading": "Revise trayectoria, borde e inserto después de la caída",
+        "text": "Un primer rebote bajo no basta para aprobar. Observe desplazamiento lateral, simetría entre extremos y balanceo por variación dimensional o de montaje. Después revise cara, canto, inserto metálico, unión inserto-cuerpo, planitud, marcaciones y cambios cosméticos admitidos. Tome las mismas fotografías antes y después y relaciónelas con el código de muestra.\n\nNo confunda validación de diseño e inspección del envío. El desarrollo puede consumir piezas y aplicar condiciones más severas; la aceptación del lote puede comprobar registros del compuesto, Shore en testigos acordados, masa, dimensiones, inserto y una prueba funcional limitada. Una unidad sometida a ensayo destructivo no vuelve a venta sin una disposición expresamente aprobada."
+      },
+      {
+        "heading": "Incluya el método en la solicitud y la muestra maestra",
+        "text": "Solicite familia de elastómero, construcción del inserto, uso permitido por peso, método de dureza y procedimiento funcional. Indique escala Shore, rango o referencia, origen de la probeta, acondicionamiento y puntos. Para rebote, defina plataforma, barra, carga, cierres, liberación, grabación, repeticiones y señales de fallo. No copie la cifra de un competidor si no coincide la construcción y el método.\n\nLa muestra aprobada debe representar revisión, compuesto, inserto, dimensiones, marcación, logo y embalaje de producción. Guarde vídeos, datos y fotos con esa revisión. Si cambia formulación, curado, molde, inserto, grosor o condiciones del producto, establezca si hace falta nueva aprobación antes de fabricar o reponer."
+      },
+      {
+        "heading": "Conecte el control de fábrica con la sala",
+        "text": "La fábrica controla preparación del compuesto, moldeo, curado, inserto, recorte y marcación; el gimnasio controla suelo, plataforma, barra, cierres, carga y comportamiento del usuario. Las instrucciones deben coincidir. Que un producto se llame bumper no autoriza caídas sobre hormigón, suelo deteriorado o una barra inadecuada.\n\nChinaFreeWeight revisa cada modelo y mercado. Puede preparar OEM, ODM, logotipo personalizado, marca privada y suministro a granel, pero dureza, rebote, uso e inspección siguen siendo específicos. Envíe lista en kg o lb, entorno y programa para que la fábrica proponga una condición medible, no solo una etiqueta de rebote bajo."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de control de dureza y rebote",
+      "columns": ["Control", "Definir antes", "Evidencia conservada"],
+      "rows": [
+        ["Dureza Shore", "Escala, instrumento, probeta, condición, punto y tiempo", "Lecturas vinculadas al compuesto y muestra"],
+        ["Primer rebote", "Barra, carga, cierres, plataforma, liberación y cámara", "Vídeo y referencia de altura repetible"],
+        ["Movimiento lateral", "Inicio, encuadre y zona segura", "Trayectoria y variación entre repeticiones"],
+        ["Estado posterior", "Cara, canto, inserto, unión, planitud y marcación", "Vistas equivalentes antes y después"],
+        ["Aceptación del lote", "Muestreo, testigos, función y disposición", "Informe ligado al pedido y cajas"]
+      ]
+    },
+    "tablePosition": 4,
+    "checklist": {
+      "heading": "Lista de compra para dureza y rebote",
+      "items": [
+        "Definir ejercicios, caídas permitidas, plataforma y suelo.",
+        "Enumerar pesos y cambios de construcción.",
+        "Nombrar escala Shore, probeta y acondicionamiento.",
+        "Separar control del compuesto y rebote del conjunto.",
+        "Fijar barra, carga, cierres, altura y liberación.",
+        "Fijar cámaras y plano de referencia.",
+        "Comparar modelos ligeros, medios y pesados.",
+        "Registrar movimiento lateral y estado además de altura.",
+        "Definir parada, fallos y destino de muestras.",
+        "Conservar muestra, registros y cambios que exigen revisión."
+      ]
+    },
+    "faq": [
+      ["¿Un Shore A mayor siempre reduce el rebote?", "No de forma universal. Describe una respuesta más firme a la indentación bajo el método, pero formulación, geometría, peso, carga, temperatura y plataforma también influyen."],
+      ["¿La dureza Shore predice la duración del disco?", "No. Es un control de material que debe combinarse con dimensiones, inserto, superficie y validación del producto en condiciones definidas."],
+      ["¿Se puede medir Shore sobre el disco terminado?", "Solo cuando método, zona y geometría permiten una lectura válida. Curvatura y textura pueden alterar el valor; un testigo plano representativo facilita la comparación."],
+      ["¿Cómo medir el rebote de un bumper?", "Mantenga barra, carga, cierres, liberación, plataforma, temperatura y cámara; registre el mismo evento y movimiento lateral en cada muestra identificada."],
+      ["¿Debe soltarse solo el disco más ligero?", "Respete el uso permitido. Algunos pesos ligeros no están autorizados para caída aislada, por lo que el plan debe definir una carga segura."],
+      ["¿Menos rebote significa menos ruido?", "No necesariamente. El sonido depende también de carga, material, plataforma, sala y micrófono. Mídalo aparte si es relevante."],
+      ["¿Qué incluye una especificación OEM de bumper?", "Material, inserto, masa, dimensiones, método Shore, prueba de rebote, uso, muestreo, aspecto, logo, embalaje y control de cambios."]
+    ],
+    "faqHeading": "Preguntas de compradores sobre el rebote",
+    "linkHeading": "Complete la evaluación de discos bumper",
+    "linkLabels": [
+      "Comparar modelos de discos",
+      "Elegir bumper de entrenamiento o competición",
+      "Entender la fabricación",
+      "Calcular grosor y capacidad de barra",
+      "Comprobar agujero y manguito",
+      "Aprobar una muestra OEM",
+      "Planificar inspección previa al envío",
+      "Enviar una consulta de discos"
+    ],
+    "imageCopy": [
+      ["Durómetro sobre una probeta plana junto a un disco bumper sin marca", "Escala, probeta, acondicionamiento, punto e instrumento deben quedar en el registro."],
+      ["Dos montajes de discos bumper comparados sobre plataforma de caucho", "Usar la misma carga y superficie permite interpretar diferencias sin extrapolar."],
+      ["Disco bumper e inserto metálico revisados con luz de inspección", "La condición posterior incluye cara, borde, unión del inserto, planitud y marcación."]
+    ],
+    "cta": [
+      "Defina un pedido medible de discos bumper",
+      "Envíe uso, pesos, cantidades, barra, suelo, método de dureza, rebote requerido, logo, embalaje e inspección para revisión de fábrica por modelo.",
+      "Solicitar cotización de discos"
+    ]
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/weight-plate-edge-rim-handling-guide",
+    "title": "Weight Plate Edges & Grip Rims: Buyer Inspection Guide",
+    "description": "Specify plate edge radius, chamfer, grip lip, burr control and handling checks before approving OEM weight plates for a commercial order.",
+    "h1": "How Should Buyers Specify Weight Plate Edges and Grip Rims?",
+    "keyword": "weight plate edge and grip rim inspection",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Commercial weight-plate handling and inspection",
+    "sections": [
+      {
+        "heading": "Direct answer: treat every hand-contact edge as a controlled feature",
+        "text": "A weight plate should not be approved from diameter, mass and finish alone. The outer rim, lifting lip, grip openings, face transitions and entrance to the centre hole all need an agreed finished condition. Name where a radius, chamfer or smooth blend is required, where a crisp edge is functional, and how burrs, flash and coating build-up will be judged.\n\nChinaFreeWeight supports OEM, ODM, Custom Logo, Private Label and Bulk Supply programs as a factory partner. For a selected plate model, we can link the drawing, finished sample, edge references, packing method and receiving checklist without claiming that one edge profile suits every plate family."
+      },
+      {
+        "heading": "Separate the lifting problem from the outside-diameter drawing",
+        "text": "Outside diameter controls bar height, floor contact and equipment clearance. Edge geometry answers a different question: can a person reach, separate and control the plate in its actual storage position? A thin steel disc, a deep-dish casting, a rubber grip plate and a bumper plate can share a nominal diameter while presenting very different contact areas.\n\nMap the expected handling moments before choosing a profile. Include lifting a plate from the floor, separating two nested faces, removing it from a loaded sleeve, carrying it to a storage peg and returning it between neighbouring plates. The drawing should identify the outer corner, face relief, usable lip depth and any grip opening rather than rely on a photograph labelled ergonomic."
+      },
+      {
+        "heading": "Put radius, chamfer, burr direction and finish on the released specification",
+        "text": "ISO 13715 gives technical-product-documentation rules for edges of undefined shape, while a geometrically defined edge can be dimensioned under general drawing practice. It does not prescribe a universal gym-plate radius. The practical lesson is to stop using vague notes such as break all edges when a particular location affects handling or bar contact.\n\nDefine the finished feature after machining, moulding, grinding and coating. A metal edge can gain a burr from machining; a moulded part can retain flash; a coating can soften a corner or create a hard ridge at a parting line. State which side of a hole or rim is inspected, the permitted condition, the comparison method and whether appearance and touch are separate acceptance points."
+      },
+      {
+        "heading": "Use contact-risk guidance without turning it into a product certification",
+        "text": "OSHA material-handling guidance identifies sharp or rough edges as a reason for hand and forearm protection, and its ergonomics material lists contact with hard or sharp edges as a pressure risk. Those sources support careful product and work design; they do not certify a plate or set a universal pass value.\n\nA receiving check should therefore combine visual inspection, controlled touch and the intended handling sequence. Inspectors should not drag an unprotected hand along an unknown edge. If an edge can snag a cloth, cut packaging, mark a sleeve or create concentrated hand pressure, isolate the sample and compare it with the released drawing and retained reference before deciding disposition."
+      },
+      {
+        "heading": "Approve the whole weight ladder, not one display plate",
+        "text": "A heavy denomination may have a deep lip that is easy to grasp, while a light plate from the same family can be nearly flat. Mould cavities, machining routes, core thickness and coating flow can also change by size. Review representative light, middle and heavy SKUs and record any intentional profile break in the range.\n\nCustom artwork must stay outside the functional contact zone unless the design review proves otherwise. Raised lettering, colour inserts and metal badges can reduce finger space or create a new hard edge. Freeze the logo revision with the edge drawing and finished sample so a branding change does not silently alter handling or stacking."
+      },
+      {
+        "heading": "Pack plates so the approved edge arrives unchanged",
+        "text": "Edges and lips are exposed during carton movement. Plate-to-plate rubbing can chip a painted rim, polish a rubber contact band or transfer debris into grip recesses. Agree separators, face orientation, carton restraint and pallet protection for the actual mass mix, then open samples from different pallet positions rather than inspecting only the top carton.\n\nAt receiving, compare edge condition before and after unpacking. Distinguish a manufacturing burr from transit impact, abrasion or coating damage. Record the model, denomination, carton and defect location on both faces; a generic photo of a stack is not enough to trace a repeated edge failure."
+      },
+      {
+        "heading": "Turn the approved sample into a repeatable lot decision",
+        "text": "The release plan should cover identity, outer rim, lifting lip, centre-hole entrance, grip openings, face relief, stacking contact, finish continuity and transport damage. Sample across denominations, production periods or cavities and cartons. Keep any touch assessment tied to named people, a retained master and a defined handling step rather than an unsupported comfort score.\n\nSend ChinaFreeWeight the plate family, weight ladder, use case, storage layout, edge drawing, logo files, finish and packing route. We can review an OEM or ODM quotation around the features that matter, prepare a finished-sample approval plan and align the Bulk Supply inspection record with the Private Label configuration."
+      }
+    ],
+    "table": {
+      "heading": "Edge and handling decision matrix",
+      "columns": ["Feature", "Buyer decision", "Evidence to retain"],
+      "rows": [
+        ["Outer rim", "Radius, chamfer or blend by SKU", "Drawing callout and close-up reference"],
+        ["Grip lip", "Reach, separation and usable contact zone", "Finished sample in floor, stack and sleeve positions"],
+        ["Centre-hole entrance", "Lead-in and burr condition without changing fit", "Bore drawing and mating-bar check"],
+        ["Grip opening", "Clearance and all finished contact edges", "Opening profile and both-face photographs"],
+        ["Raised artwork", "Keep hard features away from the hand path", "Approved artwork and physical sample"],
+        ["Packing", "Prevent edge impact, rubbing and carton breakthrough", "Packing specification and arrival record"]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten checks before bulk release",
+      "items": [
+        "Identify each denomination and the applicable drawing revision.",
+        "Confirm the outer rim profile on both faces.",
+        "Check that the lifting lip remains reachable in the real stack.",
+        "Inspect the centre-hole entrance without confusing it with bore size.",
+        "Review every grip-opening edge from both sides.",
+        "Look for machining burrs, mould flash and hard coating ridges.",
+        "Confirm raised marks and logos do not enter the agreed hand path.",
+        "Repeat handling checks on light, middle and heavy SKUs.",
+        "Open cartons from more than one pallet position for transit evidence.",
+        "Record deviations by model, weight, carton, face and location."
+      ]
+    },
+    "faq": [
+      ["Should every weight plate have a rounded outer edge?", "No. The appropriate profile depends on construction, use, stacking and handling. The requirement is a defined, finished and repeatable edge without uncontrolled burrs or flash."],
+      ["Is a deeper rim always easier to handle?", "Not always. It may improve finger access, but plate thickness, neighbouring plates, rack spacing, hand size and the actual lifting direction also matter."],
+      ["Can a chamfer at the centre hole solve a tight plate fit?", "A lead-in can help loading, but tight fit must be diagnosed through bore size, sleeve size, roundness, alignment, coating and burr condition. Do not enlarge the hole informally."],
+      ["How can an inspector check for sharp edges safely?", "Start with visual and raking-light inspection, compare the released sample and use the agreed safe procedure. Do not run an unprotected hand along an unknown edge."],
+      ["When should an edge change trigger a new sample?", "Review changes to the pattern, mould, machining, grinding, coating, artwork, material or supplier route because each can alter a contact edge or lifting lip."]
+    ],
+    "faqHeading": "Frequently Asked Questions About Plate Edges and Grip Rims",
+    "linkHeading": "Continue the plate specification",
+    "linkLabels": [
+      "View a cast-iron weight plate",
+      "Browse commercial weight plates",
+      "Control outside diameter and profile",
+      "Check plate-to-sleeve fit",
+      "Specify grip openings",
+      "Plan pre-shipment inspection",
+      "Send the plate brief"
+    ],
+    "imageAlt": "Unbranded black weight plates on an inspection bench showing a rounded outer rim, accessible grip lip and clean centre-hole entrance",
+    "imageCaption": "Conceptual product image for reviewing plate contact edges and handling features; it is not evidence from a customer order or production line.",
+    "cta": [
+      "Build edge checks into the plate quotation",
+      "Share the weight ladder, drawings, finish, logo plan, storage use and packing route so the factory review can connect handling details to the selected model.",
+      "Request a plate review"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/borda-aba-pegada-anilhas-inspecao",
+    "title": "Borda e Aba de Pegada de Anilhas: Guia de Inspeção",
+    "description": "Defina raio, chanfro, aba de pegada, rebarba e manuseio de anilhas antes de aprovar um pedido OEM para academias e distribuição.",
+    "h1": "Como Especificar a Borda e a Aba de Pegada de Anilhas",
+    "keyword": "inspeção de borda e aba de pegada de anilhas",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Inspeção de anilhas para compra profissional",
+    "sections": [
+      {
+        "heading": "Resposta direta: a borda de contato precisa constar na aprovação",
+      "text": "Peso, diâmetro e acabamento não bastam para liberar uma anilha. A borda externa, a aba de pegada, as passagens para a mão, o relevo das faces e a entrada do furo central precisam ter uma condição final acordada. O desenho deve indicar onde haverá raio, chanfro ou transição suave e como rebarba, linha de molde e acúmulo de revestimento serão avaliados.\n\nA ChinaFreeWeight atua como parceira de fábrica em programas OEM, ODM, Custom Logo, Private Label e Bulk Supply. Para o modelo escolhido, ligamos desenho, amostra acabada, referência de borda, embalagem e inspeção de recebimento sem prometer que um único perfil sirva para todas as famílias.\n\nNa ficha de aprovação, separe a borda que protege a mão da borda que posiciona ou empilha a peça. Essa distinção evita que uma instrução genérica de arredondamento altere uma interface funcional e torna o recebimento mais objetivo."
+      },
+      {
+        "heading": "Comece pelo jeito brasileiro de armazenar e movimentar a carga",
+        "text": "Em academias, condomínios e estúdios, a anilha pode sair de um suporte horizontal, de um pino curto, do chão emborrachado ou de uma pilha apertada. A geometria deve ser julgada nesses cenários, não apenas numa foto isolada. Uma aba que parece funda pode desaparecer quando duas faces encostam.\n\nSepare o tema da borda do diâmetro externo. O diâmetro define altura e interferência; a aba e o alívio da face definem acesso dos dedos e separação. Registre as posições de retirada, transporte e devolução, além do espaço real entre anilhas no rack."
+      },
+      {
+        "heading": "Transforme raio, chanfro e sentido da rebarba em dados do desenho",
+        "text": "A ISO 13715 trata da indicação de arestas de forma não definida em documentação técnica; arestas geometricamente definidas podem receber cotas próprias. A norma não determina um raio universal para anilhas. Para o comprador, a utilidade é eliminar observações vagas como quebrar cantos quando o ponto interfere no manuseio.\n\nA condição deve valer após fundição, usinagem, lixamento e pintura ou borracha. A usinagem pode deixar rebarba na saída; o molde pode criar excesso na linha de partição; a pintura pode formar uma crista dura. Informe lado, zona, método de comparação e referência aprovada."
+      },
+      {
+        "heading": "Use orientação de segurança como limite, não como selo do produto",
+        "text": "Materiais da OSHA associam arestas cortantes ou ásperas a proteção de mãos e reconhecem o contato com superfícies duras e agudas como fator de pressão. Isso ajuda a organizar o risco de manuseio, mas não certifica a anilha e não fornece um valor de aprovação para todos os produtos.\n\nA inspeção combina visão, luz rasante e contato controlado segundo um procedimento seguro. Se a borda prender tecido, cortar separador de embalagem, marcar o sleeve ou concentrar pressão desconfortável, a peça deve ser separada e comparada ao desenho e à amostra mestra."
+      },
+      {
+        "heading": "Avalie a linha de pesos completa e a personalização",
+        "text": "A anilha pesada pode ter aba profunda, enquanto a leve da mesma coleção fica quase plana. Cavidade, núcleo, espessura e fluxo do revestimento mudam com o peso. Aprove amostras leves, médias e pesadas e registre qualquer mudança intencional de perfil ao longo da gama em kg ou lb.\n\nLogo alto, inserto colorido ou medalhão metálico não deve invadir a área de apoio da mão sem revisão funcional. Congele arte, posição e relevo junto com o desenho; uma alteração de marca não pode reduzir o vão da pega nem criar uma quina nova."
+      },
+      {
+        "heading": "Proteja a borda durante o transporte e descubra a origem do dano",
+        "text": "Atrito entre anilhas pode lascar tinta, polir a faixa de borracha ou soltar resíduos no rebaixo. Defina separadores, orientação, travamento dentro da caixa e proteção do palete para a mistura real de pesos. A amostragem precisa alcançar caixas internas e posições inferiores, não só a primeira camada.\n\nNo recebimento, diferencie rebarba de fabricação, impacto de transporte e desgaste do revestimento. Fotografe as duas faces e anote SKU, peso, caixa e posição do defeito. Essa rastreabilidade permite corrigir processo ou embalagem sem atribuir toda falha ao mesmo motivo."
+      },
+      {
+        "heading": "Feche a compra com critérios repetíveis",
+        "text": "O plano de liberação deve cobrir aro externo, aba, entrada do furo, passagens de mão, relevo, empilhamento, acabamento e danos de transporte. Distribua a amostra entre pesos, períodos de produção, cavidades e caixas. Uma avaliação tátil só é útil quando está ligada a pessoas definidas, à amostra retida e à mesma sequência de manuseio.\n\nEnvie à ChinaFreeWeight a família, a sequência de pesos, o uso, o rack, o desenho de borda, a arte, o acabamento e a rota logística. A fábrica pode estruturar cotação, amostra e controle de Bulk Supply para a configuração OEM, ODM e Private Label escolhida."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de decisão para borda e manuseio",
+      "columns": ["Ponto", "Decisão do comprador", "Evidência"],
+      "rows": [
+        ["Borda externa", "Raio, chanfro ou transição por peso", "Cota e foto de referência"],
+        ["Aba de pegada", "Acesso no chão, pilha, sleeve e rack", "Amostra acabada nas posições reais"],
+        ["Entrada do furo", "Chanfro e ausência de rebarba sem alterar o encaixe", "Desenho e teste com barra correspondente"],
+        ["Passagem de mão", "Vão útil e acabamento nos dois lados", "Perfil e fotos das duas faces"],
+        ["Marca em relevo", "Distância da rota de contato da mão", "Arte e amostra aprovadas"],
+        ["Embalagem", "Evitar impacto, atrito e perfuração da caixa", "Especificação e registro de chegada"]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist de liberação em dez pontos",
+      "items": [
+        "Confirmar peso, modelo e revisão do desenho.",
+        "Verificar a borda externa nas duas faces.",
+        "Testar a aba na pilha e no rack reais.",
+        "Inspecionar a entrada do furo sem confundir com diâmetro.",
+        "Revisar todas as bordas das passagens de mão.",
+        "Procurar rebarba, excesso de molde e crista de pintura.",
+        "Manter logo e marcação fora da pega acordada.",
+        "Comparar pesos leves, médios e pesados.",
+        "Abrir caixas de diferentes pontos do palete.",
+        "Registrar desvio por SKU, caixa, face e posição."
+      ]
+    },
+    "faq": [
+      ["Toda anilha precisa de borda arredondada?", "Não. O perfil depende da construção, do uso e do empilhamento. O essencial é que a condição acabada seja definida, repetível e livre de rebarba ou excesso não controlado."],
+      ["Uma aba mais funda sempre melhora a pegada?", "Não necessariamente. Espessura, distância entre anilhas, tamanho da mão e direção da retirada influenciam o acesso real."],
+      ["O chanfro do furo corrige uma anilha apertada?", "Ele pode facilitar a entrada, mas o encaixe depende também de diâmetro, circularidade, alinhamento, revestimento e sleeve. A causa deve ser medida."],
+      ["Como verificar uma borda com segurança?", "Comece pela inspeção visual e por luz rasante, compare a amostra aprovada e use o procedimento de contato controlado. Não deslize a mão desprotegida numa borda desconhecida."],
+      ["Quando aprovar nova amostra?", "Revise mudanças de molde, usinagem, lixamento, revestimento, arte, material ou rota produtiva porque elas podem alterar a borda e a aba."]
+    ],
+    "faqHeading": "Dúvidas de compradores sobre bordas de anilhas",
+    "linkHeading": "Continue a especificação da anilha",
+    "linkLabels": [
+      "Ver anilha de ferro fundido",
+      "Explorar anilhas comerciais",
+      "Definir diâmetro e perfil externo",
+      "Verificar encaixe na barra",
+      "Especificar passagens de mão",
+      "Planejar inspeção pré-embarque",
+      "Enviar a ficha da anilha"
+    ],
+    "imageAlt": "Anilhas pretas sem marca em bancada neutra mostrando borda arredondada, aba de pegada acessível e entrada limpa do furo central",
+    "imageCaption": "Imagem conceitual para revisar áreas de contato e manuseio; não representa pedido de cliente nem linha produtiva real.",
+    "cta": [
+      "Inclua a borda na cotação da anilha",
+      "Compartilhe pesos, desenho, acabamento, logo, rack e embalagem para ligar a aprovação da pega ao modelo realmente comprado.",
+      "Solicitar análise da anilha"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/borde-pestana-agarre-discos-inspeccion",
+    "title": "Borde y Pestaña de Agarre de Discos: Inspección B2B",
+    "description": "Especifique radios, chaflanes, pestañas, rebabas y manejo de discos antes de aprobar una compra OEM para gimnasio o distribución.",
+    "h1": "Cómo Especificar el Borde y el Agarre de los Discos de Pesas",
+    "keyword": "inspección del borde y agarre de discos de pesas",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Control de discos para compras profesionales",
+    "sections": [
+      {
+        "heading": "Respuesta breve: el borde que toca la mano debe quedar definido",
+      "text": "No conviene aprobar un disco solo por peso, diámetro y pintura. El aro exterior, la pestaña de agarre, los huecos, el relieve de las caras y la entrada del orificio central requieren una condición final acordada. El plano debe distinguir radio, chaflán o transición y explicar cómo se controlan rebabas, exceso de molde y acumulación del recubrimiento.\n\nChinaFreeWeight trabaja como fábrica asociada para OEM, ODM, Custom Logo, Private Label y Bulk Supply. Vinculamos el modelo elegido con plano, muestra terminada, referencias de borde, embalaje y recepción, sin presentar una forma concreta como solución universal.\n\nLa aprobación también debe separar las superficies de contacto con la mano de las zonas que apoyan, centran o apilan el disco. Así, una instrucción de suavizado no modifica por accidente una interfaz funcional. El equipo de compras puede asignar una referencia visual a cada zona, registrar el lado afectado y pedir que las fotografías del lote sigan el mismo encuadre.\n\nCuando la gama incluye varios pesos, la experiencia de agarre no se deduce de una sola muestra. Espesor, profundidad del reborde y relieve cambian el espacio disponible para los dedos. Por eso conviene probar una pieza ligera, una intermedia y una pesada en el suelo, la manga de la barra y el soporte que utilizará el comprador."
+      },
+      {
+        "heading": "Observe cómo se retira el disco en el gimnasio de destino",
+        "text": "En un club español, un hotel o una cadena latinoamericana, el disco puede guardarse en pernos horizontales, árboles verticales o pilas próximas al suelo. La geometría útil cambia con el espacio entre piezas, la altura del soporte y el tipo de pavimento. Una pestaña visible en catálogo puede quedar oculta cuando dos caras se juntan.\n\nEl diámetro exterior resuelve altura de la barra y holguras; el borde resuelve acceso de dedos, separación y control durante el traslado. Documente la retirada desde el suelo, el desmontaje del sleeve, el transporte y la devolución al soporte."
+      },
+      {
+        "heading": "Lleve radio, chaflán y dirección de rebaba al plano liberado",
+        "text": "ISO 13715 establece reglas de documentación para aristas de forma no definida, mientras una arista geométrica puede acotarse de forma expresa. No prescribe un radio para todos los discos. Su valor para compras es evitar notas ambiguas cuando una esquina influye en la mano, la barra o el embalaje.\n\nLa condición debe verificarse después de fundición, mecanizado, desbarbado y acabado. El mecanizado puede dejar rebaba de salida; el molde, una línea cortante; la pintura, una cresta. Identifique cara, zona, método y referencia física para que proveedor e inspector lean lo mismo."
+      },
+      {
+        "heading": "Aplique la guía de riesgo sin convertirla en una certificación",
+        "text": "La documentación de OSHA relaciona las aristas cortantes o ásperas con protección de manos y reconoce la presión contra superficies duras o agudas como factor ergonómico. Es una base prudente para diseñar y manipular, pero no certifica un disco ni fija un límite universal.\n\nLa recepción debe combinar observación, luz rasante y contacto controlado. Si una arista engancha tejido, rompe separadores, raya la manga o concentra presión, inmovilice la muestra y compárela con plano y patrón retenido antes de aceptar un retrabajo."
+      },
+      {
+        "heading": "Muestree pesos pequeños, medios y grandes",
+        "text": "Un disco pesado puede ofrecer una pestaña profunda y el ligero de la misma serie quedar plano. También cambian molde, núcleo, espesor y flujo del recubrimiento. Apruebe la escalera completa y anote cualquier cambio deliberado de borde entre referencias en kg y lb.\n\nEl logo elevado, la pieza de color o una placa metálica no deben invadir el recorrido de la mano. Congele revisión, altura y posición del Custom Logo con la muestra final para que una modificación estética no reduzca el hueco ni cree un contacto duro."
+      },
+      {
+        "heading": "Conserve la geometría durante caja, palé y descarga",
+        "text": "El roce entre discos puede desconchar un aro pintado, pulir caucho o dejar residuos en una cavidad. Defina separadores, orientación, inmovilización y protección del palé para la mezcla real de pesos. Abra cajas de varios niveles y zonas, no solo la unidad preparada para inspección.\n\nAl recibir, distinga rebaba de fabricación, golpe logístico y abrasión del acabado. Registre referencia, denominación, caja, cara y ubicación del defecto. Esa evidencia dirige la corrección a proceso o embalaje sin inventar una causa."
+      },
+      {
+        "heading": "Convierta la muestra en una decisión de lote",
+        "text": "Revise aro, pestaña, entrada del orificio, huecos, relieve, contacto entre caras, acabado y daño de transporte. Reparta la muestra entre referencias, momentos de producción, cavidades y cajas. Si se usa evaluación táctil, mantenga las mismas personas, secuencia y patrón físico.\n\nEnvíe a ChinaFreeWeight la familia, escalera de pesos, uso, almacenaje, plano de bordes, arte, acabado y ruta de envío. La fábrica puede preparar una cotización OEM u ODM, una muestra Private Label y un plan Bulk Supply centrados en el modelo real."
+      }
+    ],
+    "table": {
+      "heading": "Matriz para decidir borde y manejo",
+      "columns": ["Elemento", "Decisión de compra", "Prueba conservada"],
+      "rows": [
+        ["Aro exterior", "Radio, chaflán o unión por referencia", "Plano y macro de la muestra"],
+        ["Pestaña", "Acceso en suelo, pila, barra y soporte", "Prueba con muestra terminada"],
+        ["Entrada central", "Guía y rebaba sin modificar el ajuste", "Plano del orificio y barra compatible"],
+        ["Hueco de agarre", "Holgura y bordes en ambas caras", "Perfil y fotografías laterales"],
+        ["Relieve de marca", "Separación respecto a la mano", "Arte revisado y muestra física"],
+        ["Embalaje", "Evitar impactos, roce y rotura de caja", "Ficha de embalaje y recepción"]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez controles antes de liberar el pedido",
+      "items": [
+        "Identificar peso, referencia y revisión activa.",
+        "Comprobar el aro por las dos caras.",
+        "Probar la pestaña en la pila y el soporte previstos.",
+        "Revisar la entrada central sin confundirla con el diámetro.",
+        "Examinar todos los bordes de los huecos de agarre.",
+        "Buscar rebaba, exceso de molde y cresta de acabado.",
+        "Mantener logo y cifras fuera de la zona de mano.",
+        "Comparar referencias ligeras, medias y pesadas.",
+        "Abrir cajas de distintas posiciones del palé.",
+        "Registrar cada desvío con cara y ubicación."
+      ]
+    },
+    "faq": [
+      ["¿Todos los discos necesitan un borde redondeado?", "No. La forma depende de construcción, uso y apilado. Debe definirse la condición final y evitar rebabas o excesos no controlados."],
+      ["¿Una pestaña profunda siempre facilita el manejo?", "No siempre. Espesor, separación, tamaño de mano y dirección de retirada cambian el acceso real."],
+      ["¿El chaflán central corrige un disco demasiado ajustado?", "Puede guiar la entrada, pero ajuste depende de orificio, manga, redondez, alineación, recubrimiento y rebaba. Hay que medir la causa."],
+      ["¿Cómo inspeccionar una arista de forma segura?", "Empiece por vista y luz rasante, compare el patrón aprobado y aplique el procedimiento de contacto acordado. No deslice la mano desnuda por una arista desconocida."],
+      ["¿Qué cambios exigen revisar la muestra?", "Cambios de molde, mecanizado, desbarbado, recubrimiento, arte, material o ruta de fabricación pueden alterar el borde o la pestaña."]
+    ],
+    "faqHeading": "Preguntas de compra sobre bordes y pestañas",
+    "linkHeading": "Complete la especificación del disco",
+    "linkLabels": [
+      "Ver disco de hierro fundido",
+      "Explorar discos comerciales",
+      "Definir diámetro y perfil exterior",
+      "Comprobar ajuste con la barra",
+      "Especificar huecos de agarre",
+      "Preparar inspección preembarque",
+      "Enviar la ficha del disco"
+    ],
+    "imageAlt": "Discos negros sin marca sobre una mesa de revisión con aro suavizado, pestaña accesible y entrada central limpia",
+    "imageCaption": "Imagen conceptual para revisar contactos y manejo; no documenta una fábrica ni un proyecto de cliente.",
+    "cta": [
+      "Añada el borde a la solicitud de cotización",
+      "Comparta pesos, plano, acabado, logo, almacenaje y embalaje para revisar la pestaña en el modelo que se comprará.",
+      "Solicitar revisión de discos"
+    ]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/bord-rebord-prise-disques-controle",
+    "title": "Bord et Rebord de Prise des Disques : Contrôle B2B",
+    "description": "Définissez rayon, chanfrein, rebord de prise, bavures et manutention avant de valider des disques OEM pour une commande professionnelle.",
+    "h1": "Comment Spécifier le Bord et la Prise d’un Disque de Musculation",
+    "keyword": "contrôle bord et rebord de prise disque musculation",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "Contrôle de manutention des disques professionnels",
+    "sections": [
+      {
+        "heading": "Réponse directe : chaque arête en contact avec la main doit être définie",
+        "text": "Masse, diamètre et finition ne suffisent pas à valider un disque. Couronne extérieure, rebord de prise, ouvertures, transitions de face et entrée de l’alésage doivent présenter un état fini convenu. Le plan précise rayon, chanfrein ou raccordement et la façon de juger bavure, ligne de joint et surépaisseur de revêtement.\n\nChinaFreeWeight accompagne en tant qu’usine les programmes OEM, ODM, Custom Logo, Private Label et Bulk Supply. Pour le modèle retenu, nous relions plan, échantillon fini, références de bord, emballage et contrôle à réception sans imposer un profil unique à toutes les constructions."
+      },
+      {
+        "heading": "Étudiez la prise dans le rangement réellement utilisé",
+        "text": "Un club, une salle d’hôtel ou un distributeur peut livrer des disques destinés à des racks horizontaux, des arbres verticaux ou des piles au sol. L’accès dépend de l’écart entre pièces, de la hauteur du support et du revêtement de sol. Un rebord visible seul peut devenir inaccessible lorsque deux faces se touchent.\n\nLe diamètre extérieur gère hauteur de barre et encombrement. Le bord et le relief gèrent séparation, passage des doigts et maîtrise du disque. Décrivez retrait au sol, déchargement du manchon, portage et remise sur le support."
+      },
+      {
+        "heading": "Inscrivez rayon, chanfrein et sens de bavure sur le plan libéré",
+        "text": "ISO 13715 fixe des règles de documentation pour les arêtes de forme non définie ; une forme géométrique voulue peut être cotée explicitement. Elle ne choisit pas un rayon universel de disque. Elle rappelle surtout qu’une note vague ne remplace pas une exigence localisée.\n\nContrôlez l’état après moulage, usinage, ébavurage et revêtement. L’outil peut créer une bavure de sortie, le moule une lèvre au plan de joint et la peinture une arête dure. Identifiez face, zone, méthode et référence afin que l’inspection ne dépende pas d’une impression générale."
+      },
+      {
+        "heading": "Cadrez le risque de contact sans revendiquer une certification",
+        "text": "Les publications OSHA associent charges coupantes ou rugueuses à la protection des mains et citent la pression contre une surface dure ou vive parmi les facteurs ergonomiques. Elles guident une manutention prudente mais ne certifient ni le produit ni une valeur d’acceptation.\n\nÀ réception, combinez examen visuel, lumière rasante et contact maîtrisé. Si une arête accroche un tissu, coupe un intercalaire, marque un manchon ou concentre la pression, isolez l’échantillon et revenez au plan et à la pièce de référence."
+      },
+      {
+        "heading": "Validez les petites, moyennes et grandes charges",
+        "text": "Le disque lourd peut offrir un rebord profond alors que le petit modèle de la même ligne reste presque plat. Empreinte, noyau, épaisseur et écoulement du revêtement varient. Échantillonnez la gamme et consignez toute rupture volontaire de profil entre références en kg ou lb.\n\nUn logo en relief, une bague colorée ou un médaillon ne doit pas empiéter sur la trajectoire de la main. Figez position, hauteur et version graphique avec l’échantillon, car une évolution de marque peut réduire l’espace ou ajouter une arête."
+      },
+      {
+        "heading": "Préservez le bord entre l’usine et la zone de déchargement",
+        "text": "Le frottement disque contre disque peut écailler une couronne peinte, polir le caoutchouc ou déplacer des résidus vers les évidements. Définissez intercalaires, orientation, calage du carton et protection de palette pour la composition réelle de la commande. Prélevez des cartons dans plusieurs zones.\n\nDistinguez bavure de fabrication, choc de transport et abrasion de finition. Notez modèle, charge, carton, face et position du défaut. Cette preuve permet d’agir sur le bon procédé sans attribuer automatiquement chaque dommage à la production."
+      },
+      {
+        "heading": "Faites de l’échantillon une règle de décision reproductible",
+        "text": "Le plan de libération couvre couronne, rebord, entrée d’alésage, ouvertures, relief, contact d’empilage, continuité de finition et transport. Répartissez les prélèvements entre charges, périodes, empreintes et cartons. Toute appréciation tactile reste liée à un échantillon maître et à une séquence nommée.\n\nTransmettez à ChinaFreeWeight la famille, l’échelonnement des poids, l’usage, le rangement, le plan de bord, le logo, la finition et l’emballage. L’usine peut bâtir offre OEM ou ODM, échantillon Private Label et contrôle Bulk Supply autour du modèle sélectionné."
+      }
+    ],
+    "table": {
+      "heading": "Matrice de décision bord et manutention",
+      "columns": ["Zone", "Décision acheteur", "Preuve conservée"],
+      "rows": [
+        ["Couronne", "Rayon, chanfrein ou raccord selon la référence", "Cote et macrophotographie"],
+        ["Rebord de prise", "Accès au sol, en pile, sur barre et rack", "Échantillon fini en situation"],
+        ["Entrée d’alésage", "Guidage et absence de bavure sans modifier l’ajustement", "Plan et essai avec manchon associé"],
+        ["Ouverture de prise", "Passage utile et bords des deux faces", "Profil et vues recto-verso"],
+        ["Marquage en relief", "Écart par rapport au chemin de la main", "Artwork et pièce approuvée"],
+        ["Emballage", "Limiter choc, frottement et percement", "Instruction et constat à l’arrivée"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dix contrôles avant libération",
+      "items": [
+        "Identifier la charge, le modèle et la révision.",
+        "Examiner la couronne sur les deux faces.",
+        "Tester le rebord dans la pile et le rack prévus.",
+        "Contrôler l’entrée centrale sans la confondre avec le diamètre.",
+        "Observer chaque bord des ouvertures de prise.",
+        "Rechercher bavure, flash de moulage et crête de peinture.",
+        "Éloigner logo et marquages du chemin de la main.",
+        "Comparer petites, moyennes et grandes charges.",
+        "Ouvrir des cartons de plusieurs positions de palette.",
+        "Tracer le défaut par référence, carton, face et zone."
+      ]
+    },
+    "faq": [
+      ["Tous les disques doivent-ils avoir un bord arrondi ?", "Non. Le profil dépend de la construction, de l’usage et de l’empilage. L’état fini doit surtout être défini, reproductible et sans bavure incontrôlée."],
+      ["Un rebord profond facilite-t-il toujours la prise ?", "Pas toujours. Épaisseur, proximité des autres disques, taille de main et direction du geste changent l’accès."],
+      ["Un chanfrein d’alésage corrige-t-il un disque trop serré ?", "Il peut guider l’entrée, mais l’ajustement dépend aussi des diamètres, de la circularité, de l’alignement, du revêtement et des bavures. Mesurez la cause."],
+      ["Comment vérifier une arête sans danger ?", "Commencez par la vue et la lumière rasante, comparez l’échantillon maître et appliquez la procédure de contact convenue. Ne faites pas glisser une main nue sur une arête inconnue."],
+      ["Quand faut-il revoir l’échantillon ?", "Un changement de moule, usinage, ébavurage, revêtement, artwork, matière ou source peut modifier le bord ou le rebord."]
+    ],
+    "faqHeading": "Questions d’acheteurs sur les bords de disques",
+    "linkHeading": "Poursuivre la spécification du disque",
+    "linkLabels": [
+      "Voir un disque en fonte",
+      "Parcourir les disques professionnels",
+      "Définir diamètre et profil extérieur",
+      "Contrôler l’ajustement sur la barre",
+      "Spécifier les ouvertures de prise",
+      "Préparer l’inspection avant expédition",
+      "Envoyer le cahier des charges"
+    ],
+    "imageAlt": "Disques noirs sans marque sur une table neutre montrant couronne adoucie, rebord accessible et entrée d’alésage propre",
+    "imageCaption": "Image conceptuelle dédiée au contrôle des zones de contact ; elle ne prouve ni commande client ni atelier réel.",
+    "cta": [
+      "Ajoutez le bord à votre demande de prix",
+      "Partagez gamme, plan, finition, logo, rangement et emballage pour évaluer la prise sur le modèle réellement commandé.",
+      "Demander une revue du disque"
+    ]
+  }
+]

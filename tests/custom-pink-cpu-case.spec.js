@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+import { expect, test } from "@playwright/test";
 
 const casePath = "/projects/custom-pink-cpu-dumbbells-weight-plates";
 

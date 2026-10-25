@@ -1,6 +1,5 @@
 import WhatsAppButton from "./WhatsAppButton";
 import { localBusinessJsonLd, organizationJsonLd, websiteJsonLd } from "../site";
-import "../globals.css";
 
 type RootDocumentProps = {
   children: React.ReactNode;

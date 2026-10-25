@@ -1,0 +1,259 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/olympic-barbell-collar-buying-inspection-guide",
+    "title": "Olympic Barbell Collars: Commercial Buyer & Inspection Guide",
+    "description": "Specify Olympic barbell collars by sleeve fit, mechanism, width and verified holding behavior, then inspect each bulk lot without invented claims.",
+    "h1": "How to Specify and Inspect Olympic Barbell Collars",
+    "keyword": "Olympic barbell collar buying and inspection guide",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "ChinaFreeWeight · Commercial barbell procurement",
+    "sections": [
+      {
+        "heading": "Short answer: qualify the collar with the exact bar",
+        "text": "An Olympic label is a starting category, not proof that every collar will hold on every sleeve. Put the intended collar on every bar model in the order, close it as designed and evaluate the pair under a written setup. Finished sleeve diameter, coating, groove pattern, wear, contamination and the collar contact surface all influence fit.\n\nFor a bulk purchase, specify the bar model, collar mechanism, open and closed geometry, usable width, pair mass, contact material, operating direction and acceptance method. ChinaFreeWeight can review spring-coil, lever-clamp and model-specific collar programs for OEM, ODM, custom logo, private label and bulk supply, but approval remains tied to the production-equivalent sample and agreed use."
+      },
+      {
+        "heading": "Define the interface before comparing mechanisms",
+        "text": "Measure the finished sleeve where the collar actually grips, not the plate bore and not the bare drawing before coating. Record whether the surface is smooth, grooved, plated or otherwise finished. A collar may feel firm on one sleeve and creep on another even when both are marketed in the same nominal category.\n\nThe contact system also matters. A spring coil relies on its geometry and spring condition. A lever clamp may use a resin frame, hinge, latch, fasteners and an elastomer liner. A competition collar is a different, heavier assembly. Ask the supplier to identify every load-path and wear component instead of treating the outside shell as the whole product."
+      },
+      {
+        "heading": "Choose spring, lever or competition collars by workflow",
+        "text": "Spring-coil collars are simple, compact and quick when users can squeeze them comfortably. Lever clamps give a clear open-or-closed action and can be easy to count, color-code and replace across a shared gym. Neither type is automatically stronger: holding behavior depends on the actual construction, sleeve and condition.\n\nIWF competition rules specify two 2.5 kg collars for an IWF barbell. That fact describes sanctioned competition equipment; it does not turn a lightweight training clamp into a competition collar or make heavy competition collars the default for a general gym. Write the intended lifts, user group, change frequency, sleeve-space limit and facility rules before choosing."
+      },
+      {
+        "heading": "Approve a production-equivalent sample",
+        "text": "Approve the collar on the light, middle and heavy bar models in the program whenever their sleeves differ. Mark the starting position, use the actual plates and follow the agreed movement or controlled handling sequence. Record installation, closure, plate contact, axial movement, release effort and visible condition before and after.\n\nThere is no honest universal load, tilt angle or drop count for every collar. A useful report identifies the bar, sleeve finish, plate stack, collar revision, setup, repetitions, observation interval and pass rule. If a destructive or accelerated review is required, keep it separate from saleable lot inspection and agree who owns the tested sample."
+      },
+      {
+        "heading": "Inspect the lot and quarantine loss of hold",
+        "text": "Start with identity: purchase order, SKU, color, pair count, carton and production period. Spread the sample across cartons and production stages. Check cracks, deformation, burrs, corrosion, loose fasteners, damaged pads, uneven spring shape, incomplete closure and excessive operating resistance before any functional review.\n\nUse the approved bar-and-collar method on the sampled pairs. Do not add oil, bend a spring, tighten an undocumented screw or sand a liner to force a pass. If a collar shifts, opens, pinches, damages the sleeve or no longer releases normally, isolate it, widen the review and trace the mechanism, material, tooling or assembly change."
+      },
+      {
+        "heading": "Control branding, packing and replacement stock",
+        "text": "Place a custom logo or color on a non-contact area where it does not hide a crack, operating mark, fastener or latch position. Approve color, texture, logo orientation and contrast on the actual material. A cosmetic change must not reduce lever clearance, change the liner, weaken a spring handle or obstruct inspection.\n\nPack collars as identified pairs with the correct bar program, instructions and carton quantity. Protect levers and handles from being held closed or distorted in transit. Keep a documented replacement route for shared facilities, and preserve the approved sample and revision record so a reorder can be checked against the same functional definition."
+      }
+    ],
+    "table": {
+      "heading": "RFQ and acceptance matrix",
+      "columns": ["Control point", "What to define", "Evidence to retain"],
+      "rows": [
+        ["Bar pairing", "Every bar model, finished sleeve surface and gripping zone", "Pairing list and measured sample"],
+        ["Mechanism", "Spring coil, lever clamp or competition assembly", "Section view and parts list"],
+        ["Contact", "Coil geometry, liner or pad material and coverage", "Approved sample and close photos"],
+        ["Geometry", "Open size, closed condition, width and lever clearance", "Dimension record"],
+        ["Pair identity", "Mass, color, left-right consistency and marking", "Pair inspection sheet"],
+        ["Holding review", "Bar, plates, setup, repetitions and observation points", "Method and result log"],
+        ["Condition", "Cracks, wear, corrosion, fasteners and release action", "Defect examples and disposition"],
+        ["Packing", "Pairs per pack, protection, carton code and replacement stock", "Packing approval and trace code"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Ten checks before releasing a bulk order",
+      "items": [
+        "List every bar model the collar must fit.",
+        "Measure the finished gripping zone on a production-equivalent sleeve.",
+        "Name the mechanism and all contact components.",
+        "Record collar width and remaining usable sleeve length.",
+        "Approve installation, closure, release and handling with representative users.",
+        "Write the holding review setup without a borrowed universal number.",
+        "Sample pairs across cartons and production stages.",
+        "Define quarantine triggers for cracks, deformation, corrosion and movement.",
+        "Keep logos and color changes away from functional interfaces.",
+        "Link samples, results, cartons and replacements to one revision."
+      ]
+    },
+    "faq": [
+      ["Are Olympic barbell collars universal?", "No. Nominal category alone does not prove fit or holding behavior. Verify the collar on every intended finished sleeve and record the approved pairing."],
+      ["Why does a barbell collar start slipping?", "Possible contributors include sleeve mismatch, liner or spring wear, contamination, deformation, loose hardware or an unapproved component change. Isolate the pair and inspect it rather than guessing."],
+      ["Are spring collars or lever clamps better for a commercial gym?", "Choose from the actual workflow. Spring collars are simple and compact; lever clamps provide a clear lock action. Compare operation, fit, width, maintenance and replacement on the intended bars."],
+      ["Do competition collar rules apply to ordinary training collars?", "No. Federation requirements describe equipment for their competitions. A commercial training collar needs its own bar pairing, use case and acceptance method."],
+      ["Can a factory add a custom logo or private-label color?", "On suitable models, yes. Approve the marked production-equivalent sample and keep branding away from liners, hinges, latches, fasteners and inspection boundaries."]
+    ],
+    "faqHeading": "Frequently Asked Questions About Olympic Barbell Collars",
+    "linkHeading": "Continue the purchase specification",
+    "linkLabels": ["Choose the matching commercial Olympic bar", "Check plate-bore and sleeve fit", "Calculate usable sleeve capacity", "Plan pre-shipment inspection", "Browse gym accessories", "Review OEM and private-label options", "See the factory-control approach", "Send the bar-and-collar list"],
+    "imageCopy": [
+      ["Unbranded lever collars fitted outside bumper plates on an Olympic barbell sleeve", "A collar must be evaluated on the exact finished sleeve and plate arrangement."],
+      ["Spring-coil and lever-clamp barbell collars arranged for construction comparison", "Mechanism, contact surface and usable width belong in the purchase specification."],
+      ["Inspector checking paired barbell collars and a sleeve with measuring tools", "Lot acceptance links the collar pair, bar model, method and production identity." ]
+    ],
+    "cta": ["Qualify the collar with the bar", "Send the bar models, sleeve details, collar type, plate program, intended use, colors and packing plan. Our factory team will return a model-specific OEM or bulk-supply checklist.", "Request a collar specification review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/presilha-barra-olimpica-compra-inspecao",
+    "title": "Presilha para Barra Olímpica: Compra e Inspeção B2B",
+    "description": "Compare presilhas de mola, trava rápida e competição pela barra real, largura, acionamento e controle de lote para academia.",
+    "h1": "Como Comprar e Inspecionar Presilhas para Barra Olímpica",
+    "keyword": "presilha para barra olímpica compra e inspeção",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Compras para academia comercial",
+    "sections": [
+      {
+        "heading": "Resposta direta: teste a presilha na barra que será entregue",
+        "text": "A indicação 50 mm ou olímpica não garante, sozinha, o mesmo aperto em todas as mangas. O diâmetro acabado, o cromado, os sulcos, o desgaste e a área interna da presilha mudam o contato. Por isso, o comprador deve formar e aprovar pares reais de barra, anilhas e presilha.\n\nNa cotação, informe os modelos de barra, o tipo de trava, a largura ocupada, a massa do par, o material de contato e o modo de uso. A ChinaFreeWeight avalia projetos OEM, ODM, custom logo, private label e fornecimento em volume, sempre com amostra equivalente à produção e critério escrito."
+      },
+      {
+        "heading": "Separe medida nominal de encaixe funcional",
+        "text": "Meça a região da manga onde a presilha fecha, depois de todos os acabamentos. Não use o furo da anilha como substituto dessa medida. Registre também se a manga é lisa, ranhurada ou revestida, pois duas barras vendidas na mesma categoria podem responder de forma diferente.\n\nEm presilhas de mola, observe geometria, simetria e abertura das alças. Em travas de alavanca, identifique corpo, dobradiça, fecho, parafusos e borracha interna. A carcaça externa não revela toda a capacidade do conjunto; peça desenho, lista de componentes e limites de inspeção."
+      },
+      {
+        "heading": "Escolha o mecanismo conforme o fluxo da academia",
+        "text": "A mola metálica é compacta e simples, mas exige compressão confortável e conservação da forma. A trava rápida oferece uma posição aberta e outra fechada mais visíveis, útil em ambientes compartilhados. Nenhuma opção vence apenas pelo nome: compare na barra, com a equipe e o ritmo previstos.\n\nCollars de competição seguem outro objetivo. As regras da IWF usam duas peças de 2,5 kg no conjunto oficial, mas esse dado não é uma exigência para uma presilha leve de treino. Defina se o uso será LPO, treinamento geral, troca frequente de cargas ou evento regulamentado antes de selecionar."
+      },
+      {
+        "heading": "Aprove a amostra com um método reproduzível",
+        "text": "Use as barras e anilhas do projeto, marque a posição inicial e documente instalação, fechamento, contato com a pilha, deslocamento axial e remoção. Quando a linha tiver mangas diferentes, inclua cada família de barra. Usuários representativos também devem confirmar acesso à alavanca ou às alças.\n\nNão existe um número universal de carga, inclinação ou quedas que valide toda presilha. O protocolo precisa nomear barra, superfície, anilhas, revisão, repetições, intervalo de observação e regra de aprovação. Separe ensaio de desenvolvimento do controle não destrutivo do lote."
+      },
+      {
+        "heading": "Faça a inspeção de lote sem retrabalho improvisado",
+        "text": "Confirme SKU, cor, quantidade de pares, caixa e período de produção. Distribua a amostra entre volumes. Procure trinca, empeno, rebarba, corrosão, parafuso solto, borracha danificada, mola assimétrica, fechamento incompleto e acionamento excessivamente duro.\n\nDepois aplique o mesmo método aprovado ao conjunto amostrado. Não lubrifique, dobre, lixe ou aperte componentes sem instrução do fabricante para fazer uma peça passar. Se houver movimento, abertura, beliscamento ou dano à manga, isole, amplie a verificação e investigue material, ferramental e montagem."
+      },
+      {
+        "heading": "Trate marca, embalagem e reposição como parte do produto",
+        "text": "Aplique logotipo e cor fora da área de contato e sem esconder trincas, fecho ou parafusos. Aprove orientação, contraste e textura na amostra final. Uma mudança visual não pode reduzir a folga da alavanca, trocar a borracha ou enfraquecer as alças da mola.\n\nEmbale pares identificados, proteja mecanismos contra compressão no transporte e vincule caixa, lote e revisão. Academias e distribuidores devem planejar reposição compatível. Guardar amostra aprovada e registro funcional evita que uma recompra igual apenas na aparência entre na mesma linha."
+      },
+      {
+        "heading": "Compare propostas pelo mesmo pacote de evidências",
+        "text": "Uma cotação barata e outra mais alta só podem ser comparadas quando descrevem o mesmo conjunto. Peça desenho da presilha aberta e fechada, materiais do corpo e do contato, massa por par, largura ocupada, modelo de barra usado na validação, plano de amostragem e proteção de embalagem. Separe itens obrigatórios de opções de cor, logotipo e apresentação. Assim, uma troca de material ou a retirada de uma etapa de controle não fica escondida dentro de uma diferença de preço. Solicite também que exceções sejam registradas antes da amostra, para que o comprador não descubra na inspeção que a proposta usou outra manga, outro inserto ou outro método de fechamento.\n\nNo pedido, transforme a amostra aprovada em uma referência controlada. O relatório deve ligar código da presilha, revisão, componentes críticos, modelo da barra, condição da manga, sequência de uso e resultado observado. Combine como alterações de ferramental, borracha, polímero, mola, pino, parafuso, acabamento ou fornecedor secundário serão comunicadas e reavaliadas. Na reposição, compare pares novos com a referência e mantenha unidades incompatíveis fora do estoque liberado. Esse processo permite discutir custo total com dados: tempo de triagem, risco de mistura, facilidade de reposição e compatibilidade da frota importam tanto quanto o preço unitário. Para um programa de marca própria, o objetivo é repetir a função aprovada sem transformar aparência semelhante em evidência técnica."
+      }
+    ],
+    "table": {
+      "heading": "Matriz para cotação e aceite",
+      "columns": ["Ponto", "Definição", "Evidência"],
+      "rows": [
+        ["Combinação", "Modelo de barra, superfície acabada e zona de aperto", "Lista de pares e amostra medida"],
+        ["Mecanismo", "Mola, trava de alavanca ou collar de competição", "Corte e lista de peças"],
+        ["Contato", "Geometria da mola ou material e cobertura da borracha", "Amostra aprovada e fotos"],
+        ["Dimensões", "Abertura, fechamento, largura e acesso ao acionamento", "Relatório dimensional"],
+        ["Par", "Massa, cor, consistência e identificação", "Ficha do par"],
+        ["Retenção", "Barra, anilhas, sequência e observação", "Método e resultados"],
+        ["Condição", "Trinca, desgaste, corrosão, ferragem e liberação", "Padrão de defeitos"],
+        ["Embalagem", "Pares, proteção, código e estoque de reposição", "Aprovação da embalagem"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Dez pontos antes de liberar o pedido",
+      "items": [
+        "Liste todas as barras que receberão a presilha.",
+        "Meça a zona de aperto com o acabamento final.",
+        "Nomeie mecanismo e componentes de contato.",
+        "Registre largura e comprimento de manga restante.",
+        "Aprove fechamento e remoção com usuários representativos.",
+        "Escreva o protocolo sem copiar um número universal.",
+        "Amostre pares de diferentes caixas e fases.",
+        "Defina quando isolar trinca, corrosão, deformação ou movimento.",
+        "Mantenha logo e cor fora das interfaces funcionais.",
+        "Vincule amostra, resultado, caixa e reposição à mesma revisão."
+      ]
+    },
+    "faq": [
+      ["Toda presilha olímpica serve em qualquer barra?", "Não. Confirme o conjunto na manga acabada de cada modelo de barra e registre a combinação aprovada."],
+      ["Por que a presilha começa a escorregar?", "Diferença de encaixe, desgaste da mola ou borracha, sujeira, deformação, ferragem solta ou mudança de componente podem contribuir. Isole e inspecione o par."],
+      ["Mola ou trava rápida: qual é melhor?", "Depende do uso. Compare aperto, facilidade, largura, manutenção e reposição nas barras reais da academia."],
+      ["A regra de collar de competição vale para treino comercial?", "Não automaticamente. Regras federativas tratam de seus eventos; presilhas de treino precisam de especificação e aceite próprios."],
+      ["A fábrica pode fazer cor e logo personalizados?", "Em modelos adequados, sim. Aprove a amostra final e mantenha a marca fora de mola, borracha, dobradiça, fecho e parafusos."]
+    ],
+    "faqHeading": "Dúvidas sobre presilhas para barra olímpica",
+    "linkHeading": "Complete a especificação de compra",
+    "linkLabels": ["Escolha a barra olímpica comercial", "Verifique furo da anilha e manga", "Calcule a capacidade da manga", "Planeje a inspeção pré-embarque", "Veja acessórios de academia", "Conheça OEM e marca própria", "Entenda o controle de fábrica", "Envie a lista de barras e presilhas"],
+    "imageCopy": [
+      ["Presilhas sem marca fechadas fora das anilhas bumper em uma barra olímpica", "O encaixe deve ser aprovado na manga acabada e no conjunto real."],
+      ["Presilha de mola e trava de alavanca dispostas para comparação", "Mecanismo, contato e largura fazem parte da especificação."],
+      ["Inspetor comparando um par de presilhas com a manga da barra", "O aceite liga par, barra, método e identidade de produção."]
+    ],
+    "cta": ["Qualifique presilha e barra juntas", "Envie modelos de barra, acabamento da manga, tipo de presilha, anilhas, uso, cores e embalagem. Nossa equipe de fábrica prepara uma lista de confirmação OEM ou para atacado.", "Solicitar revisão da especificação"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/cierres-barra-olimpica-compra-inspeccion",
+    "title": "Cierres para Barra Olímpica: Compra e Inspección Comercial",
+    "description": "Especifique cierres de muelle, palanca o competición por ajuste real, anchura, manejo y control de lote para gimnasio y distribución.",
+    "h1": "Cómo Elegir e Inspeccionar Cierres para Barra Olímpica",
+    "keyword": "cierres para barra olímpica compra e inspección",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "ChinaFreeWeight · Equipamiento para gimnasios y distribuidores",
+    "sections": [
+      {
+        "heading": "La decisión empieza con la barra, no con la etiqueta",
+        "text": "Un cierre anunciado para barra olímpica no queda validado por la palabra 50 mm o 2 pulgadas. El diámetro terminado del manguito, su recubrimiento, ranuras y desgaste cambian la superficie que recibe el cierre. Forme una matriz con cada modelo de barra y el cierre que debe acompañarlo.\n\nLa solicitud de oferta debe indicar mecanismo, anchura, masa por pareja, material interior, espacio de accionamiento y uso. ChinaFreeWeight puede revisar suministro a granel, OEM, ODM, custom logo y private label; la referencia de aprobación será siempre una muestra equivalente a producción, no una promesa genérica."
+      },
+      {
+        "heading": "Describa el contacto que realmente sujeta",
+        "text": "Mida la zona del manguito donde cierra la pieza después del acabado. Anote si la superficie es lisa, ranurada, cromada u otra. El agujero del disco es otra interfaz y no sirve como medida del cierre. Dos barras de la misma categoría comercial pueden exigir una comprobación distinta.\n\nUn muelle depende de su diámetro de alambre, forma y recuperación. Un cierre de palanca combina cuerpo, bisagra, leva, tornillería y almohadilla interior. Pida que el proveedor identifique piezas de desgaste y puntos de control. El aspecto exterior por sí solo no demuestra sujeción."
+      },
+      {
+        "heading": "Relacione cada tipo de cierre con el trabajo diario",
+        "text": "Los muelles ocupan poco espacio y permiten cambios rápidos cuando el usuario puede comprimirlos bien. Las abrazaderas de palanca muestran con claridad si están abiertas o cerradas y facilitan organizar parejas por color. Compare comodidad, mantenimiento, reposición y comportamiento en las barras del centro.\n\nLos collares pesados de competición pertenecen a otro sistema. La IWF especifica dos unidades de 2,5 kg para su barra oficial, pero esa regla no convierte un cierre ligero de entrenamiento en material de competición. Defina si compra para halterofilia reglada, clases, fuerza general o rotación intensa."
+      },
+      {
+        "heading": "Convierta la muestra en una referencia medible",
+        "text": "Monte las placas reales, coloque el cierre contra la pila y marque la posición inicial. Registre cierre completo, acceso a la palanca o asas, movimiento axial, esfuerzo de liberación y daños antes y después de la secuencia acordada. Incluya todas las familias de manguitos del pedido.\n\nNo acepte un valor universal de carga, inclinación o caídas sin montaje descrito. El informe debe nombrar barra, acabado, discos, revisión del cierre, repeticiones, puntos de observación y criterio. Una validación acelerada no sustituye la inspección normal de mercancía vendible."
+      },
+      {
+        "heading": "Muestree parejas y trate el deslizamiento como una no conformidad",
+        "text": "Revise pedido, SKU, color, cantidad de parejas, caja y periodo de producción. Distribuya el muestreo entre embalajes. Busque grietas, deformación, rebabas, corrosión, tornillos flojos, almohadillas cortadas, muelles asimétricos, cierre parcial o resistencia anormal.\n\nAplique después el método aprobado. No lubrique, doble, lije ni ajuste un tornillo sin procedimiento autorizado para conseguir un aprobado. Si la pieza se mueve, se abre, pellizca al usuario o marca el manguito, aísle el lote afectado y rastree montaje, material, molde o componente."
+      },
+      {
+        "heading": "Proteja la función al personalizar y embalar",
+        "text": "Sitúe el logotipo en una cara no funcional y visible para control. La pintura o textura no debe alcanzar la almohadilla, la leva, la bisagra o la rosca. Apruebe orientación y contraste sobre la pieza final, y repita la comprobación si cambia material, colorante o herraje.\n\nEmbale cada pareja con identificación de revisión y protección contra deformación. No mantenga palancas o asas forzadas durante el transporte. Para gimnasios compartidos, acuerde stock de recambio y conserve la muestra aprobada para que la siguiente compra mantenga ajuste y operación, no solo apariencia."
+      },
+      {
+        "heading": "Compare ofertas con el mismo paquete de pruebas",
+        "text": "Dos precios solo son comparables si describen el mismo conjunto. Solicite dibujo del cierre abierto y cerrado, materiales del cuerpo y del contacto, masa por pareja, anchura ocupada, barra usada en la validación, plan de muestreo y protección del embalaje. Separe requisitos obligatorios de opciones de color, logotipo y presentación. De ese modo, un cambio de material o la eliminación de un control no queda oculto dentro de una diferencia comercial. Pida que cualquier excepción se declare antes de fabricar la muestra, para no descubrir durante la recepción que la oferta utilizó otro manguito, otra almohadilla o una forma distinta de accionar el cierre.\n\nConvierta la muestra aprobada en una referencia controlada del pedido. El informe debe relacionar código, revisión, componentes críticos, modelo de barra, estado del manguito, secuencia de manejo y resultado observado. Acuerde cómo se comunicarán y volverán a revisar cambios de molde, polímero, goma, muelle, pasador, tornillo, acabado o subproveedor. En una reposición, compare las nuevas parejas con la referencia y mantenga fuera del inventario liberado cualquier combinación incompatible. Así se puede valorar el coste total con evidencia: tiempo de clasificación, riesgo de mezclar modelos, disponibilidad de repuestos y coherencia de la flota también importan. Para marca propia, repetir la función aprobada es más importante que recibir una pieza que solo parece igual. Documente quién libera la desviación y qué combinación debe quedar bloqueada hasta una nueva comprobación con el conjunto de uso previsto."
+      }
+    ],
+    "table": {
+      "heading": "Ficha de compra y recepción",
+      "columns": ["Control", "Qué especificar", "Registro"],
+      "rows": [
+        ["Pareja barra-cierre", "Modelos, acabado y zona de contacto", "Listado y muestra medida"],
+        ["Mecanismo", "Muelle, palanca o collar de competición", "Despiece"],
+        ["Interior", "Forma del muelle o material de almohadilla", "Muestra y fotografías"],
+        ["Geometría", "Apertura, cierre, anchura y acceso", "Medidas finales"],
+        ["Pareja", "Masa, color, consistencia y marca", "Hoja de inspección"],
+        ["Retención", "Barra, discos, secuencia y observación", "Método y resultados"],
+        ["Estado", "Grietas, desgaste, corrosión, tornillos y liberación", "Catálogo de defectos"],
+        ["Embalaje", "Parejas, protección, caja y repuestos", "Aprobación de empaque"]
+      ]
+    },
+    "tablePosition": 3,
+    "checklist": {
+      "heading": "Lista de diez comprobaciones",
+      "items": [
+        "Identifique cada barra que usará el cierre.",
+        "Mida el manguito con el acabado definitivo.",
+        "Documente mecanismo, piezas y superficies de contacto.",
+        "Anote anchura y longitud de carga restante.",
+        "Pruebe manejo con usuarios representativos.",
+        "Defina el montaje de comprobación sin cifras universales prestadas.",
+        "Tome parejas de varias cajas y momentos de producción.",
+        "Establezca señales de aislamiento y ampliación del control.",
+        "Mantenga marca y color lejos de las interfaces.",
+        "Relacione muestra, informe, caja y repuesto con una revisión."
+      ]
+    },
+    "faq": [
+      ["¿Todos los cierres olímpicos son universales?", "No. Compruebe cada cierre sobre el manguito terminado de todas las barras previstas y conserve la matriz aprobada."],
+      ["¿Por qué un cierre empieza a deslizarse?", "Pueden influir ajuste, desgaste, suciedad, deformación, tornillería floja o un cambio de componente. Aísle la pareja y determine la causa."],
+      ["¿Es mejor un muelle o una abrazadera de palanca?", "Depende del uso, el espacio, la facilidad de accionamiento y el mantenimiento. Compárelos en las barras reales del gimnasio."],
+      ["¿Un cierre de entrenamiento debe cumplir la masa de competición?", "No necesariamente. Las reglas federativas se aplican a sus eventos. El producto de entrenamiento necesita una especificación propia."],
+      ["¿Se puede personalizar con color y logotipo?", "Sí, en modelos compatibles y zonas no funcionales. Apruebe la muestra final sin cubrir almohadilla, leva, bisagra o tornillos."]
+    ],
+    "faqHeading": "Preguntas sobre cierres para barra olímpica",
+    "linkHeading": "Siga definiendo el conjunto",
+    "linkLabels": ["Elegir una barra olímpica comercial", "Comprobar agujero y manguito", "Calcular capacidad del manguito", "Preparar inspección preembarque", "Ver accesorios de gimnasio", "Revisar OEM y marca propia", "Conocer el control de fábrica", "Enviar la lista de barras y cierres"],
+    "imageCopy": [
+      ["Cierres sin marca colocados fuera de discos bumper en una barra olímpica", "El conjunto se valida con el manguito y los discos que realmente se utilizarán."],
+      ["Cierre de muelle y abrazadera de palanca preparados para comparar", "Mecanismo, superficie interior y anchura cambian la decisión de compra."],
+      ["Control de una pareja de cierres junto al manguito de una barra", "La recepción vincula pareja, barra, método y lote."]
+    ],
+    "cta": ["Valide cierres y barras como un sistema", "Comparta modelos de barra, acabado del manguito, tipo de cierre, discos, uso, colores y embalaje. Nuestro equipo de fábrica preparará la lista de confirmación para OEM o mayoreo.", "Solicitar revisión del cierre"]
+  }
+]

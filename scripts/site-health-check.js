@@ -358,6 +358,7 @@ async function checkPage(page, context, url, linkStatusCache) {
     nodes.map((img) => ({
       src: img.currentSrc || img.src,
       alt: img.getAttribute("alt"),
+      decorative: Boolean(img.closest('[aria-hidden="true"]') || img.getAttribute("role") === "presentation"),
       complete: img.complete,
       naturalWidth: img.naturalWidth,
       naturalHeight: img.naturalHeight
@@ -371,7 +372,7 @@ async function checkPage(page, context, url, linkStatusCache) {
   if (brokenImages.length > 0) {
     issues.push(issue(brokenImages.length >= 5 ? "Critical" : "High", "images", url, "Broken images detected", { images: brokenImages.slice(0, 20), autoFixable: true }));
   }
-  const missingAlt = images.filter((img) => img.src && (img.alt === null || img.alt.trim() === ""));
+  const missingAlt = images.filter((img) => img.src && !img.decorative && (img.alt === null || img.alt.trim() === ""));
   if (missingAlt.length > 0) {
     issues.push(issue("Medium", "images", url, "Images missing alt text", { count: missingAlt.length, samples: missingAlt.slice(0, 10), autoFixable: true }));
   }
