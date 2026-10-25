@@ -8,7 +8,7 @@ type ProductSource = { slug: string; name: string; range: string; type: string; 
 type CategoryKey = "dumbbells" | "plates" | "racks" | "accessories";
 export type SwedishProductProfile = { source: ProductSource; category: CategoryKey; svSlug: string; name: string; keyword: string; index: number };
 
-const excludedDumbbells = new Set(["cpu-dumbbell-lb","cpu-square-dumbbell-lb","neoprene-dumbbell-lb","hex-dumbbell-lb","pu-dumbbell-lb","tpu-dumbbell-lb","sus304-dumbbell-lb","adjustable-dumbbell-lb","tpu-adjustable-dumbbell-lb"]);
+const excludedDumbbells = new Set(["cpu-dumbbell-lb","cpu-square-dumbbell-lb","neoprene-dumbbell-lb","hex-dumbbell-lb","pu-dumbbell-lb","tpu-dumbbell-lb","sus304-dumbbell-lb","adjustable-dumbbell-lb","tpu-adjustable-dumbbell-lb","textured-rubber-hex-dumbbell"]);
 
 function swedishName(input: string) {
   let value=input

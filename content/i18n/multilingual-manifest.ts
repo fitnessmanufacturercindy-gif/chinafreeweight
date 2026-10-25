@@ -16,6 +16,8 @@ import { withPolishLocalization } from "./polish-manifest";
 import { withDutchLocalization } from "./dutch-manifest";
 import { compactChromeDumbbellCase } from "./compact-chrome-dumbbell-case";
 import { withCustomLogoFitnessChainCase } from "./custom-logo-fitness-chain-case";
+import { customPinkCpuCase } from "./custom-pink-cpu-case";
+import { chromeDumbbellDistributorFulfillmentCase } from "./chrome-dumbbell-distributor-fulfillment-case";
 import { withCommercialGrowthBlogs } from "./commercial-growth-blogs";
 import { withSteelDumbbellOemBlog } from "./steel-dumbbell-oem-blog";
 import { withCableAttachmentCompatibilityGuide } from "./cable-attachment-compatibility-guide";
@@ -168,7 +170,15 @@ const compactCaseManifest: ContentManifest = {
   entities: [...growthManifest.entities, compactChromeDumbbellCase]
 };
 const customCaseManifest = withCustomLogoFitnessChainCase(compactCaseManifest);
-const steelDumbbellManifest = withSteelDumbbellOemBlog(customCaseManifest);
+const pinkCpuCaseManifest: ContentManifest = {
+  ...customCaseManifest,
+  entities: [...customCaseManifest.entities, customPinkCpuCase]
+};
+const chromeDistributorCaseManifest: ContentManifest = {
+  ...pinkCpuCaseManifest,
+  entities: [...pinkCpuCaseManifest.entities, chromeDumbbellDistributorFulfillmentCase]
+};
+const steelDumbbellManifest = withSteelDumbbellOemBlog(chromeDistributorCaseManifest);
 const cableAttachmentManifest = withCableAttachmentCompatibilityGuide(steelDumbbellManifest);
 const weightPlateToleranceManifest = withWeightPlateToleranceGuide(cableAttachmentManifest);
 const commercialOlympicBarbellManifest = withCommercialOlympicBarbellGuide(weightPlateToleranceManifest);

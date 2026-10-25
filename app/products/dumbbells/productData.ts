@@ -10,6 +10,13 @@ export type DumbbellProduct = {
   details: string[];
   buyerNotes: string;
   gallery?: string[];
+  video?: string;
+  videoPoster?: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  seoKeywords?: string[];
+  quickAnswer?: string;
+  faqs?: Array<{ question: string; answer: string }>;
 };
 
 export const dumbbellProducts: DumbbellProduct[] = [
@@ -132,6 +139,70 @@ export const dumbbellProducts: DumbbellProduct[] = [
     applications: ["Strength gyms", "Professional training centers", "Heavy free weight zones"],
     details: ["Extended KG range for advanced training", "Designed for high-use gym environments", "Can be supplied with matching storage solutions"],
     buyerNotes: "Recommended for projects that need heavier dumbbells beyond standard commercial ranges."
+  },
+  {
+    slug: "textured-rubber-hex-dumbbell",
+    name: "Textured Rubber Hex Dumbbell",
+    range: "7.5 kg sample shown; custom KG/LB range by quotation",
+    type: "Rubber-coated hex head",
+    image: "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-main.webp",
+    gallery: [
+      "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-main.webp",
+      "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-texture.webp"
+    ],
+    video: "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-demo.mp4",
+    videoPoster: "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-video-poster.webp",
+    copy: "A fixed rubber hex dumbbell with a textured black head, clear weight marking, and knurled metal handle for commercial gyms, wholesale programs, and private label sourcing.",
+    seoKeyword: "textured rubber hex dumbbell manufacturer",
+    seoKeywords: [
+      "rubber hex dumbbell manufacturer",
+      "commercial hex dumbbells wholesale",
+      "custom logo hex dumbbells",
+      "rubber coated dumbbell supplier China",
+      "OEM hex dumbbell factory"
+    ],
+    metaTitle: "Textured Rubber Hex Dumbbell Manufacturer | OEM & Wholesale",
+    metaDescription: "Source textured rubber hex dumbbells for commercial gyms, distributors and private label brands. Review the 7.5 kg sample, knurled handle, OEM options, QC and export packing.",
+    quickAnswer: "A textured rubber hex dumbbell is a fixed-weight dumbbell with six-sided rubber-coated heads that resist rolling and a knurled metal handle for grip. The product shown is a 7.5 kg sample; available KG or LB ranges, logo methods, MOQ, tolerance, packaging, and lead time are confirmed for each quotation.",
+    applications: ["Commercial gym free weight zones", "Distributor and wholesale product ranges", "OEM and private label fitness brands"],
+    details: [
+      "Six-sided head helps reduce rolling during storage and floor exercises",
+      "Textured rubber surface provides practical protection and a distinctive commercial finish",
+      "Knurled metal handle supports a secure grip during repeated training",
+      "Raised weight marking improves identification on a rack or gym floor",
+      "Logo, marking, KG/LB range, color details, and export packaging can be reviewed for OEM orders"
+    ],
+    buyerNotes: "This model suits buyers comparing stable floor placement, visible weight markings, handle feel, surface consistency, head-to-handle security, and export packaging. Confirm the required weight progression and quantity by weight before sampling or bulk production.",
+    faqs: [
+      {
+        question: "What is a textured rubber hex dumbbell?",
+        answer: "It is a fixed-weight dumbbell with six-sided rubber-coated heads and a textured exterior. The hex shape helps reduce rolling, while the metal handle provides a durable gripping surface for gym and strength-training use."
+      },
+      {
+        question: "Are rubber hex dumbbells suitable for commercial gyms?",
+        answer: "They are commonly selected for commercial free weight and functional training zones. Buyers should confirm the head construction, handle finish, weight tolerance, surface consistency, odor expectations, and inspection standard for the intended usage level."
+      },
+      {
+        question: "Does the hex shape stop the dumbbell from rolling?",
+        answer: "The six-sided head is designed to reduce rolling on a level floor compared with a round dumbbell. It also supports stable placement during exercises such as dumbbell rows and push-up variations."
+      },
+      {
+        question: "Can I order custom logo rubber hex dumbbells?",
+        answer: "Yes. Logo placement, weight marking, color details, KG or LB units, carton labels, and packaging can be reviewed for OEM and private label orders. Feasibility depends on the requested design, quantity, and sample approval."
+      },
+      {
+        question: "Which weights are available for this hex dumbbell?",
+        answer: "The photos show a 7.5 kg sample. Send the complete weight progression and quantity required for each weight so PowerBaseFit can confirm the available KG or LB range and prepare an accurate quotation."
+      },
+      {
+        question: "What should buyers inspect before a bulk order?",
+        answer: "Review weight tolerance, head-to-handle security, handle alignment and knurling, rubber surface consistency, weight-marking clarity, odor expectations, carton strength, labels, and pallet preparation against the approved sample and order specification."
+      },
+      {
+        question: "What information is needed for a wholesale quotation?",
+        answer: "Send the required weights, quantity per weight, KG or LB system, logo file, target market, packaging preference, destination country, and requested delivery timing. MOQ and lead time are confirmed after these details are reviewed."
+      }
+    ]
   },
   {
     slug: "hex-dumbbell-kg",

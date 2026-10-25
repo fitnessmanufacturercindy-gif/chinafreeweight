@@ -31,6 +31,20 @@ export const staticSeoRoutes: SeoRoute[] = [
     image: "/assets/projects/compact-chrome-dumbbell-set.webp",
     lastModified: "2026-07-27T05:30:00.000Z"
   },
+  {
+    path: "/projects/custom-pink-cpu-dumbbells-weight-plates",
+    type: "landing",
+    title: "Custom Pink CPU Dumbbells and Weight Plates OEM Case",
+    image: "/assets/projects/custom-pink-cpu-dumbbells-weight-plates/custom-pink-cpu-dumbbells.webp",
+    lastModified: "2026-10-25T08:00:00.000Z"
+  },
+  {
+    path: "/projects/chrome-dumbbell-distributor-stock-direct-shipping",
+    type: "landing",
+    title: "Wholesale Chrome Dumbbells for Distributor Fulfillment",
+    image: "/assets/projects/chrome-dumbbell-distributor-fulfillment/real-chrome-dumbbell-pallet-shipment.webp",
+    lastModified: "2026-10-25T10:00:00.000Z"
+  },
   { path: "/resources", type: "static", title: "Resources", image: "/assets/resource-cnc-machining.avif" },
   { path: "/contact", type: "static", title: "Contact" },
   { path: "/manufacturer/rubber-hex-dumbbells-manufacturer", type: "landing", title: "Rubber Hex Dumbbells Manufacturer China", image: "/assets/hex-dumbbells.avif" }

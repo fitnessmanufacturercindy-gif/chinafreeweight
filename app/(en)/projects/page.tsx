@@ -28,6 +28,24 @@ const projectTypes = [
 
 const projects = [
   {
+    title: "Chrome Dumbbells for Distributor Stock and Direct Delivery",
+    category: "Distributor Display",
+    image: "/assets/projects/chrome-dumbbell-distributor-fulfillment/real-chrome-dumbbell-pallet-shipment.webp",
+    copy: "A wholesale chrome dumbbell program combining distributor warehouse replenishment with direct customer delivery.",
+    scope: "Chrome dumbbells, pallet packing, split fulfillment",
+    cta: "View the distributor case",
+    href: "/projects/chrome-dumbbell-distributor-stock-direct-shipping"
+  },
+  {
+    title: "Custom Pink CPU Dumbbells and Weight Plates",
+    category: "OEM Brand",
+    image: "/assets/projects/custom-pink-cpu-dumbbells-weight-plates/custom-pink-cpu-dumbbells.webp",
+    copy: "A customer customization case focused on a coordinated pink CPU dumbbell and weight plate range for private-label sourcing.",
+    scope: "CPU dumbbells, weight plates, color and branding",
+    cta: "View the OEM case",
+    href: "/projects/custom-pink-cpu-dumbbells-weight-plates"
+  },
+  {
     title: "Custom Logo Strength Equipment for a Fitness Chain",
     category: "OEM Brand",
     image: "/assets/projects/custom-logo-fitness-chain/custom-logo-dumbbells.webp",
