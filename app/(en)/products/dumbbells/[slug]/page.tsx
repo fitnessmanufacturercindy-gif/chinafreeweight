@@ -2,7 +2,7 @@
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, Factory, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
-import { sourcingFacts } from "../../../../site";
+import { siteUrl, sourcingFacts } from "../../../../site";
 import { dumbbellProducts, getDumbbellProduct } from "../../../../products/dumbbells/productData";
 import { getEnglishAlternates } from "../../../../../lib/seo/english-alternates";
 
@@ -23,9 +23,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   return {
-    title: `${product.name} | ${product.range} | PBF Dumbbell Supplier`,
-    description: `${product.name} from PBF. ${product.copy} Weight range: ${product.range}. OEM dumbbell customization and export support for global gym equipment buyers.`,
-    alternates: getEnglishAlternates(`/products/dumbbells/${product.slug}`)
+    title: product.metaTitle ?? `${product.name} | ${product.range} | PBF Dumbbell Supplier`,
+    description: product.metaDescription ?? `${product.name} from PBF. ${product.copy} Weight range: ${product.range}. OEM dumbbell customization and export support for global gym equipment buyers.`,
+    keywords: product.seoKeywords ?? [product.seoKeyword, "commercial dumbbells", "OEM dumbbell supplier"],
+    alternates: getEnglishAlternates(`/products/dumbbells/${product.slug}`),
+    openGraph: {
+      title: product.metaTitle ?? product.name,
+      description: product.metaDescription ?? product.copy,
+      url: `/products/dumbbells/${product.slug}`,
+      type: "website",
+      images: [{ url: product.image, alt: `${product.name} product photo` }]
+    }
   };
 }
 
@@ -38,12 +46,35 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
   }
 
   const related = dumbbellProducts.filter((item) => item.slug !== product.slug).slice(0, 4);
+  const faqs = product.faqs ?? [
+    {
+      question: "Can this product support OEM customization?",
+      answer: "Yes. Logo, color details, packaging, and carton marks can be discussed based on the selected material, target quantity, and buyer market."
+    },
+    {
+      question: "What information is needed for quotation?",
+      answer: "Send the product name, weight range, quantity, destination country, packaging requirements, and any logo or sample request."
+    },
+    { question: "What is the MOQ for this dumbbell?", answer: sourcingFacts.moq },
+    { question: "How are dumbbells packed for export?", answer: sourcingFacts.packaging },
+    { question: "What is the usual lead time?", answer: sourcingFacts.leadTime },
+    {
+      question: "Can this be ordered with other free weight products?",
+      answer: "Yes. Dumbbells can be planned together with weight plates, racks, benches, bars, and gym accessories for mixed container orders."
+    },
+    {
+      question: "Is this suitable for commercial gym use?",
+      answer: "This depends on the selected material and use scenario. PBF can help match the dumbbell type with commercial gym, retail, or OEM requirements."
+    }
+  ];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     inLanguage: "en",
+    url: `${siteUrl}/products/dumbbells/${product.slug}`,
+    sku: product.slug,
     name: product.name,
-    image: product.image,
+    image: (product.gallery ?? [product.image]).map((image) => `${siteUrl}${image}`),
     description: `${product.copy} Weight range: ${product.range}.`,
     brand: {
       "@type": "Brand",
@@ -67,10 +98,33 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
       }
     ]
   };
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer
+      }
+    }))
+  };
+  const videoJsonLd = product.video ? {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name: `${product.name} product detail video`,
+    description: `Real product video showing the ${product.name.toLowerCase()} head shape, surface texture, weight marking, and handle.`,
+    thumbnailUrl: `${siteUrl}${product.videoPoster}`,
+    contentUrl: `${siteUrl}${product.video}`,
+    inLanguage: "en"
+  } : null;
 
   return (
     <main className="product-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      {videoJsonLd ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(videoJsonLd) }} /> : null}
       <header className="products-header">
         <a className="products-brand" href="/">
           <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />
@@ -139,7 +193,24 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
             {product.gallery.map((image, index) => (
               <img src={image} alt={`${product.name} product detail ${index + 1}`} key={image} loading="lazy" decoding="async" />
             ))}
+            {product.video ? (
+              <figure className="product-detail-video">
+                <video controls playsInline preload="metadata" poster={product.videoPoster}>
+                  <source src={product.video} type="video/mp4" />
+                  Your browser does not support the product video.
+                </video>
+                <figcaption>Real product video showing the textured rubber head, hex profile, weight marking, and knurled handle.</figcaption>
+              </figure>
+            ) : null}
           </div>
+        </section>
+      ) : null}
+
+      {product.quickAnswer ? (
+        <section className="products-section product-quick-answer" aria-labelledby="quick-answer-title">
+          <span>Quick answer</span>
+          <h2 id="quick-answer-title">What should buyers know about this rubber hex dumbbell?</h2>
+          <p>{product.quickAnswer}</p>
         </section>
       ) : null}
 
@@ -229,48 +300,12 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
           </div>
         </div>
         <div className="faq-list">
-          <article>
-            <h3>Can this product support OEM customization?</h3>
-            <p>
-              Yes. Logo, color details, packaging, and carton marks can be
-              discussed based on the selected material, target quantity, and
-              buyer market.
-            </p>
-          </article>
-          <article>
-            <h3>What information is needed for quotation?</h3>
-            <p>
-              Send the product name, weight range, quantity, destination
-              country, packaging requirements, and any logo or sample request.
-            </p>
-          </article>
-          <article>
-            <h3>What is the MOQ for this dumbbell?</h3>
-            <p>{sourcingFacts.moq}</p>
-          </article>
-          <article>
-            <h3>How are dumbbells packed for export?</h3>
-            <p>{sourcingFacts.packaging}</p>
-          </article>
-          <article>
-            <h3>What is the usual lead time?</h3>
-            <p>{sourcingFacts.leadTime}</p>
-          </article>
-          <article>
-            <h3>Can this be ordered with other free weight products?</h3>
-            <p>
-              Yes. Dumbbells can be planned together with weight plates, racks,
-              benches, bars, and gym accessories for mixed container orders.
-            </p>
-          </article>
-          <article>
-            <h3>Is this suitable for commercial gym use?</h3>
-            <p>
-              This depends on the selected material and use scenario. PBF can
-              help match the dumbbell type with commercial gym, retail, or OEM
-              requirements.
-            </p>
-          </article>
+          {faqs.map((item) => (
+            <article key={item.question}>
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </article>
+          ))}
         </div>
       </section>
 

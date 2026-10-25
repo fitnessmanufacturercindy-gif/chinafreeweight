@@ -95,6 +95,16 @@ export function videoSitemapXml() {
       <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
+  <url>
+    <loc>${escapeXml(`${siteUrl}/products/dumbbells/textured-rubber-hex-dumbbell`)}</loc>
+    <video:video>
+      <video:thumbnail_loc>${escapeXml(`${siteUrl}/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-video-poster.webp`)}</video:thumbnail_loc>
+      <video:title>${escapeXml("Textured rubber hex dumbbell product demonstration")}</video:title>
+      <video:description>${escapeXml("Close-up product video of a 7.5 kg textured rubber hex dumbbell with a knurled metal handle for commercial gym, wholesale and OEM buyers.")}</video:description>
+      <video:content_loc>${escapeXml(`${siteUrl}/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-demo.mp4`)}</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
 </urlset>
 `;
 }
