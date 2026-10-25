@@ -157,7 +157,7 @@ test("production manifest: only reviewed content in the public languages is publ
   assert.equal(contentRepository.listPublished({ locale: "es" }).length, 141);
   assert.equal(contentRepository.listPublished({ locale: "de" }).length, 145);
   assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 140);
-  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 144);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 146);
   assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 140);
   assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 140);
   assert.equal(contentRepository.listPublished({ locale: "it" }).length, 140);
@@ -166,7 +166,7 @@ test("production manifest: only reviewed content in the public languages is publ
   assert.equal(contentRepository.listPublished({ locale: "id" }).length, 138);
   assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 139);
   assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 138);
-  assert.equal(contentRepository.listPublished().length, 1729);
+  assert.equal(contentRepository.listPublished().length, 1731);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
@@ -633,7 +633,7 @@ test("multilingual sitemap retains all English routes and adds every published l
   const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
   const arabicUrls = urls.filter((url) => new URL(url).pathname === "/ar" || new URL(url).pathname.startsWith("/ar/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !arabicUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
-  assert.equal(englishUrls.length, 157);
+  assert.equal(englishUrls.length, 160);
   assert.equal(portugueseUrls.length, 141);
   assert.equal(spanishUrls.length, 141);
   assert.equal(germanUrls.length, 145);
@@ -646,7 +646,7 @@ test("multilingual sitemap retains all English routes and adds every published l
   assert.equal(indonesianUrls.length, 138);
   assert.equal(polishUrls.length, 139);
   assert.equal(dutchUrls.length, 138);
-  assert.equal(new Set(urls).size, 1742);
+  assert.equal(new Set(urls).size, 1745);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -706,7 +706,7 @@ test("language sitemap contains all public URLs with the complete products hub c
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 155);
+  assert.equal(english.length, 158);
   assert.equal(portuguese.length, 141);
   assert.equal(spanish.length, 141);
   assert.equal(german.length, 145);
@@ -719,7 +719,7 @@ test("language sitemap contains all public URLs with the complete products hub c
   assert.equal(indonesian.length, 138);
   assert.equal(polish.length, 139);
   assert.equal(dutch.length, 138);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1740);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1743);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
