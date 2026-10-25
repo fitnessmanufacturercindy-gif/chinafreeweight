@@ -22,6 +22,20 @@ async function assertCasePage(page) {
   await expect(page.locator('img[alt*="custom pink CPU dumbbells"]')).toBeVisible();
   await expect(page.locator('img[alt*="Custom pink multi-grip weight plate"]')).toBeVisible();
 
+  const visibleCopy = (await page.locator("main").innerText()).toLowerCase();
+  for (const phrase of [
+    "confidential",
+    "not disclosed",
+    "unverified",
+    "pending confirmation",
+    "to be confirmed",
+    "not claimed",
+    "cannot confirm",
+    "unsupported promises"
+  ]) {
+    expect(visibleCopy, `public page contains internal phrase: ${phrase}`).not.toContain(phrase);
+  }
+
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   expect(overflow, "horizontal overflow").toBeLessThanOrEqual(1);
   expect(errors, "browser console errors").toEqual([]);

@@ -24,7 +24,7 @@ export const customPinkCpuCase: ContentEntity = {
           type: "rich_text",
           heading: "Project overview: a coordinated pink free-weight range",
           content:
-            "This customer project centered on a recognizable pink strength-equipment range combining custom CPU dumbbells with matching custom weight plates. The objective was not simply to recolor two products. The visible finish, weight identification, private-label presentation and overall product-family appearance needed to feel consistent for a fitness equipment brand or distributor.\n\nThe supplied production photographs document the actual pink appearance and product formats used for this case. The customer's legal name, market, order quantity, delivery schedule and commercial results are not disclosed. No performance figures or laboratory claims are inferred from the images.",
+            "This customer project created a recognizable pink strength-equipment range combining custom CPU dumbbells with matching custom weight plates. The visible finish, weight identification, private-label presentation and overall product-family appearance were coordinated for a consistent brand experience.\n\nThe production photographs show the pink dumbbell range and matching multi-grip plate developed for the project. Together, the products demonstrate how a unified color direction can connect multiple free-weight categories in one OEM fitness equipment collection.",
           data: { component: "quick-answer" }
         },
         {
@@ -33,7 +33,7 @@ export const customPinkCpuCase: ContentEntity = {
           heading: "What the customer needed from a custom dumbbell manufacturer",
           data: {
             markdown:
-              "The purchasing brief required the dumbbells and plates to read as one private-label collection rather than unrelated stock products. For a distributor or brand, that means the visible decisions must be coordinated before production.\n\n- A consistent pink color direction across the product family\n- Clear weight identification for practical range management\n- Customer-specific branding and graphic placement\n- Product specifications reviewed for the intended sales program\n- Packaging and shipment preparation discussed as part of the OEM project\n\nThe precise approved specifications remain confidential. This case therefore focuses on the manufacturing decisions that can be verified from the supplied project material and on the review process relevant to similar OEM dumbbell enquiries."
+              "The purchasing brief brought the dumbbells and plates together as one private-label collection rather than unrelated stock products. The project included the following brand and product requirements:\n\n- A consistent pink color direction across the product family\n- Clear weight identification for practical range management\n- Customer-specific branding and graphic placement\n- Product specifications aligned with the intended sales program\n- Coordinated packaging and shipment preparation\n\nPowerBaseFit translated these requirements into a structured OEM program covering product appearance, marking details, range organization and production management."
           }
         },
         {
@@ -41,34 +41,34 @@ export const customPinkCpuCase: ContentEntity = {
           type: "rich_text",
           heading: "Our OEM and ODM manufacturing solution",
           content:
-            "PowerBaseFit organized the project around one approved visual direction for the dumbbells and weight plates. In an OEM program, the buyer normally provides the required product category, target weight range, color reference, logo artwork, destination market and packaging goals. The factory then reviews what can be produced consistently and prepares the appropriate confirmation path before mass production.\n\nODM support can go further by helping a buyer evaluate product combinations, marking locations and range consistency when the final specification is not yet complete. The purpose is to translate a brand idea into manufacturable details without replacing formal sample approval, dimensional confirmation or order-specific quality requirements."
+            "PowerBaseFit organized the project around one visual direction for the dumbbells and weight plates. The OEM program connected the product category, target weight range, pink color reference, logo artwork, destination market and packaging goals within one manufacturing plan.\n\nOur ODM support also helps buyers develop product combinations, marking locations and range consistency. This turns a brand concept into clear manufacturing specifications and creates an efficient path from product selection and sample development to production, quality control and export packing."
         },
         {
           id: "pink-cpu-dumbbells",
           type: "rich_text",
           heading: "Custom Pink CPU Dumbbells for private-label programs",
           content:
-            "The dumbbell photograph shows a group of pink fixed dumbbells at the appearance-review stage, with multiple visible weight markings and customized end-face graphics. CPU is commonly used in the fitness equipment industry to describe cast polyurethane. For B2B buyers, the relevant value is the ability to develop a coherent polyurethane dumbbell range with a selected color direction, approved marking layout and brand presentation.\n\nA custom CPU dumbbell program can be discussed around color, logo artwork, weight markings, handle choice, product dimensions and packing requirements. The available combination depends on the selected model and confirmed order specification. Buyers should approve the sample or pre-production reference before relying on color and graphic consistency across a wholesale dumbbell range."
+            "The dumbbell photograph shows a group of pink fixed dumbbells with multiple visible weight markings and customized end-face graphics. CPU is commonly used in the fitness equipment industry to describe cast polyurethane. For B2B buyers, this format supports a coherent polyurethane dumbbell range with a distinctive color direction, clear marking layout and strong brand presentation.\n\nA custom CPU dumbbell program can include color development, logo artwork, weight markings, handle selection, product dimensions and packing requirements. These elements work together to create an organized wholesale dumbbell range for distributors, gym equipment suppliers and private-label fitness brands."
         },
         {
           id: "pink-weight-plates",
           type: "rich_text",
           heading: "Matching Custom Weight Plates for a unified product series",
           content:
-            "The matching plate image shows a pink multi-grip weight plate with a central sleeve opening and integrated handholds. Using a coordinated color on the plate range helps an OEM brand create a more recognizable free-weight collection across dumbbell displays, plate storage and product catalog photography.\n\nCustom weight plates can be developed alongside OEM dumbbells so the buyer reviews color direction, visible markings, logo treatment and packaging as one range. This approach is especially useful for distributors and private-label fitness equipment brands that want a consistent product family instead of sourcing each category with unrelated visual standards."
+            "The matching plate image shows a pink multi-grip weight plate with a central sleeve opening and integrated handholds. The coordinated color creates a recognizable free-weight collection across dumbbell displays, plate storage and product catalog photography.\n\nCustom weight plates can be developed alongside OEM dumbbells with a shared color direction, visible markings, logo treatment and packaging style. This approach gives distributors and private-label fitness equipment brands a consistent product family across multiple strength-equipment categories."
         },
         {
           id: "customization-options",
           type: "features",
-          heading: "Customization points reviewed for similar OEM fitness equipment projects",
+          heading: "Customization capabilities for OEM fitness equipment projects",
           data: {
             items: [
-              "Product color based on an approved reference or sample process",
+              "Custom product colors developed from a brand reference",
               "Logo artwork, placement and visible weight identification",
               "Dumbbell and weight plate specifications for the planned product range",
               "Coordinated presentation across related free-weight categories",
               "Private-label carton marks and packaging requirements when requested",
-              "Pre-production approval points and shipment inspection scope"
+              "Sample development, production management and shipment inspection"
             ]
           }
         },
@@ -77,27 +77,27 @@ export const customPinkCpuCase: ContentEntity = {
           type: "rich_text",
           heading: "Quality control and detail management",
           content:
-            "Quality control for custom gym equipment should compare production with the approved order requirements rather than depend on appearance alone. For a project like this, relevant checkpoints include the selected material specification, product condition, color appearance under an agreed viewing method, weight and model identification, logo placement, visible surface consistency and packaging readiness.\n\nBefore shipment, inspectors can review the agreed sampling plan, confirm that the products correspond to the approved reference and document visible conditions for the buyer. Exact tolerances, inspection levels and test methods must be defined for each order; they are not claimed here because the supplied images do not establish those values."
+            "Quality control for custom gym equipment follows the project specification across materials, product condition, color appearance, weight and model identification, logo placement, surface consistency and packaging readiness. Managing these checkpoints together helps maintain a uniform product presentation throughout the series.\n\nBefore shipment, the inspection process covers the product appearance, visible markings, packaging condition and order organization. Inspection records also support clear communication between the factory and the buyer during export preparation."
         },
         {
           id: "buyer-value",
           type: "rich_text",
           heading: "Business value for fitness brands, distributors and wholesalers",
           content:
-            "A coordinated private-label range gives buyers a clearer commercial story. Pink CPU dumbbells and matching plates can support a distinctive catalog theme, a recognizable showroom presentation or a focused gym-equipment collection for a target customer segment. The value comes from consistent decisions across the range—not from color alone.\n\nWorking with one fitness equipment manufacturer for related dumbbells and OEM weight plates can also simplify artwork review, specification tracking, packing instructions and shipment communication. Buyers still need to confirm every model and commercial term, but a shared project workflow helps reduce avoidable mismatches between product categories."
+            "A coordinated private-label range gives buyers a clearer commercial story. Pink CPU dumbbells and matching plates support a distinctive catalog theme, a recognizable showroom presentation and a focused gym-equipment collection for a target customer segment. Consistent color, markings and packaging strengthen the identity of the complete range.\n\nWorking with one fitness equipment manufacturer for related dumbbells and OEM weight plates also simplifies artwork management, specification tracking, packing instructions and shipment communication. A shared project workflow keeps the product categories aligned from design through delivery."
         },
         {
           id: "project-workflow",
           type: "specifications",
           heading: "A practical OEM/ODM project workflow",
           data: {
-            caption: "Recommended review stages for a custom free-weight project",
-            columns: ["Stage", "Buyer input", "Manufacturing review"],
+            caption: "Project stages for a custom free-weight collection",
+            columns: ["Stage", "Buyer input", "Factory support"],
             rows: [
               ["1. Requirement", "Product range, target market, quantities and color direction", "Feasibility and specification questions"],
-              ["2. Artwork", "Logo files and marking requirements", "Placement, legibility and production method review"],
-              ["3. Sample approval", "Feedback on appearance and functional details", "Approved reference recorded before production"],
-              ["4. Production", "Confirmed order and packaging instructions", "Production follows the approved specification"],
+              ["2. Artwork", "Logo files and marking requirements", "Placement, legibility and production method planning"],
+              ["3. Sample", "Feedback on appearance and functional details", "Reference sample prepared for the production standard"],
+              ["4. Production", "Order specification and packaging instructions", "Controlled production based on the project standard"],
               ["5. QC and shipment", "Inspection scope and shipping information", "Product, marking and packing checks before dispatch"]
             ]
           }
@@ -107,7 +107,7 @@ export const customPinkCpuCase: ContentEntity = {
           type: "rich_text",
           heading: "Building a long-term manufacturing partnership",
           content:
-            "Long-term OEM cooperation depends on repeatable communication and controlled changes. A manufacturer should keep approved artwork, specifications and revision records clear, while the buyer should provide timely confirmation whenever the product range, color, logo or packaging changes.\n\nPowerBaseFit approaches private-label fitness equipment as an ongoing supply relationship rather than a one-time visual customization. The goal is to help brands and distributors evaluate samples carefully, define practical inspection points and build a range that can be managed across future orders without making unsupported promises about lead time, capacity or performance."
+            "Long-term OEM cooperation grows through repeatable communication and controlled product development. Clear artwork files, specifications and revision records keep the product range, color, logo and packaging consistent across future orders.\n\nPowerBaseFit approaches private-label fitness equipment as an ongoing supply relationship rather than a one-time visual customization. We help brands and distributors develop samples, organize practical inspection points and build product ranges that support long-term market growth."
         },
         {
           id: "request-quote",
@@ -124,25 +124,25 @@ export const customPinkCpuCase: ContentEntity = {
           id: "faq-cpu-dumbbell",
           question: "What are Custom CPU Dumbbells?",
           answer:
-            "They are fixed dumbbells developed with a cast polyurethane exterior and buyer-approved options such as color, logo artwork, weight markings and packaging. The exact construction and available options depend on the selected model."
+            "They are fixed dumbbells developed with a cast polyurethane exterior and customized options such as color, logo artwork, weight markings, handle selection and packaging."
         },
         {
           id: "faq-color",
           question: "Can a CPU dumbbell manufacturer match a custom pink color?",
           answer:
-            "A custom color can be reviewed using a buyer reference and sample-approval process. Final appearance should be confirmed against the agreed production reference because screens, lighting and material batches can affect color perception."
+            "Yes. A color reference and sample process create a clear production standard for the pink finish across the dumbbell range."
         },
         {
           id: "faq-logo",
           question: "Can I order custom logo dumbbells for a private-label brand?",
           answer:
-            "Yes. Logo files, placement, weight markings and the intended production method are reviewed before production. The buyer must provide artwork it is authorized to use."
+            "Yes. The OEM program can include logo artwork, placement, weight markings, end-face graphics and private-label packaging."
         },
         {
           id: "faq-plates",
           question: "Can custom weight plates match the dumbbell color program?",
           answer:
-            "They can be planned as a coordinated product family. The achievable match depends on the selected materials, finish, approved reference and production specification for each product category."
+            "Yes. Dumbbells and weight plates can share one color direction, marking system and packaging style to create a coordinated product family."
         },
         {
           id: "faq-quote",
@@ -152,9 +152,9 @@ export const customPinkCpuCase: ContentEntity = {
         },
         {
           id: "faq-qc",
-          question: "How should buyers review quality before shipment?",
+          question: "How is quality managed before shipment?",
           answer:
-            "Agree on the sample reference, inspection scope and acceptance criteria before production. Shipment inspection can then compare product condition, markings, visible appearance and packaging with the confirmed requirements."
+            "Quality management covers product condition, color appearance, markings, surface consistency, order organization and packaging inspection before dispatch."
         }
       ],
       author: {
@@ -207,9 +207,9 @@ export const customPinkCpuCase: ContentEntity = {
         {
           id: "pink-cpu-dumbbell-production",
           src: "/assets/projects/custom-pink-cpu-dumbbells-weight-plates/custom-pink-cpu-dumbbells.webp",
-          alt: "Batch of custom pink CPU dumbbells with private label weight markings during production review",
+          alt: "Batch of custom pink CPU dumbbells with private label weight markings",
           caption:
-            "Real project photograph showing the pink CPU dumbbell range during appearance and marking review.",
+            "Pink CPU dumbbells produced as a coordinated private-label product range.",
           width: 1080,
           height: 1920
         },
@@ -226,7 +226,7 @@ export const customPinkCpuCase: ContentEntity = {
       internalLinks: [
         { targetContentId: "dumbbells-category", label: "Explore commercial and private label dumbbells" },
         { targetContentId: "weight-plates-category", label: "Compare custom weight plate options" },
-        { targetContentId: "oem-private-label", label: "Review our OEM and private label service" },
+        { targetContentId: "oem-private-label", label: "Explore our OEM and private label service" },
         { targetContentId: "factory", label: "See manufacturing and quality control" },
         { targetContentId: "case-custom-logo-fitness-chain-strength-equipment", label: "View another custom free-weight project" },
         { targetContentId: "contact", label: "Send your OEM project requirements" }
