@@ -89,6 +89,8 @@
     "audit:barbell-maintenance-rendered": "node scripts/verify-barbell-maintenance-rendering.mjs",
     "audit:urethane-dumbbell-surfaces": "tsx scripts/audit-urethane-dumbbell-surface-guide.ts",
     "audit:urethane-dumbbell-surfaces-rendered": "node scripts/verify-urethane-dumbbell-surface-rendering.mjs",
+    "audit:neoprene-vinyl-dumbbells": "tsx scripts/audit-neoprene-vinyl-dumbbell-guide.ts",
+    "audit:neoprene-vinyl-dumbbells-rendered": "node scripts/verify-neoprene-vinyl-dumbbell-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

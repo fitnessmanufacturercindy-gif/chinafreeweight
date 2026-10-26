@@ -67,6 +67,7 @@ import { withDumbbellEndCapGuide } from "./dumbbell-end-cap-guide";
 import { withBarbellPackagingGuide } from "./barbell-packaging-guide";
 import { withBarbellMaintenanceGuide } from "./barbell-maintenance-guide";
 import { withUrethaneDumbbellSurfaceGuide } from "./urethane-dumbbell-surface-guide";
+import { withNeopreneVinylDumbbellGuide } from "./neoprene-vinyl-dumbbell-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -226,7 +227,8 @@ const dumbbellEndCapManifest = withDumbbellEndCapGuide(cableAttachmentFinishMani
 const barbellPackagingManifest = withBarbellPackagingGuide(dumbbellEndCapManifest);
 const barbellMaintenanceManifest = withBarbellMaintenanceGuide(barbellPackagingManifest);
 const urethaneDumbbellSurfaceManifest = withUrethaneDumbbellSurfaceGuide(barbellMaintenanceManifest);
+const neopreneVinylDumbbellManifest = withNeopreneVinylDumbbellGuide(urethaneDumbbellSurfaceManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  urethaneDumbbellSurfaceManifest
+  neopreneVinylDumbbellManifest
 );

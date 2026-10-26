@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-26",
+  "startedAt": "2026-10-26T03:36:19.849Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-10-26-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-en-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-pt-BR-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-es-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-de-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-fr-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-vi-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-sv-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-it-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-nl-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-ar-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-ko-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-id-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-26-chinafreeweight-pl-neoprene-vinyl-dumbbells"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    },
+    {
+      "id": "2026-10-26-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "planned"
+    }
+  ],
+  "preparedAt": "2026-10-26T04:30:32.615Z",
+  "selectedTopic": "Neoprene versus vinyl dumbbells for wholesale and private-label buying",
+  "preparedCount": 13
+}
