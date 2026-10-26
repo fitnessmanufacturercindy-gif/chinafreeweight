@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-26",
+  "status": "complete",
+  "selectedTopic": "Neoprene versus vinyl dumbbells for wholesale and private-label buying",
+  "selectionReason": "Distinct high-intent material question not owned by the existing rubber-versus-urethane guide; buyers need a verification framework because market labels are inconsistent.",
+  "locales": {
+    "en": {
+      "targetKeyword": "neoprene vs vinyl dumbbells wholesale",
+      "questions": [
+        "Are neoprene and vinyl dumbbells the same?",
+        "Which coating is better for sweaty hands?",
+        "Are vinyl-coated dumbbells easy to clean?",
+        "Can color prove that a dumbbell is neoprene?",
+        "What should a wholesale buyer send for a quotation?"
+      ],
+      "evidence": [
+        "English People Also Ask results repeatedly asked whether neoprene and vinyl are the same and whether vinyl-coated dumbbells are suitable for use.",
+        "Reddit buyers framed the choice through sweaty-hand grip, sticky transfer, smell, grime and cracking rather than a coating name alone."
+      ],
+      "path": "/resources/neoprene-vs-vinyl-dumbbells-buyer-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "halteres de neoprene vs vinil atacado",
+      "questions": [
+        "Halter de neoprene e de vinil é a mesma coisa?",
+        "Qual é melhor para mão suada?",
+        "Vinil é fácil de higienizar?",
+        "A cor prova que o halter é de neoprene?",
+        "O que enviar para uma cotação de atacado?"
+      ],
+      "evidence": [
+        "Buscas brasileiras usam halter de neoprene, halter em vinil, kit colorido e fácil de higienizar, com forte contexto de estúdio e varejo.",
+        "A edição brasileira prioriza mãos suadas, produto de limpeza, marcação em kg, cartela de cores e reposição do kit."
+      ],
+      "path": "/pt/blog/halteres-neoprene-vs-vinil-guia-compra"
+    },
+    "es": {
+      "targetKeyword": "mancuernas de neopreno vs vinilo al por mayor",
+      "questions": [
+        "¿Son iguales las mancuernas de neopreno y vinilo?",
+        "¿Qué material va mejor con manos sudadas?",
+        "¿Las mancuernas de vinilo se limpian fácilmente?",
+        "¿El color demuestra que una mancuerna es de neopreno?",
+        "¿Qué debe enviar un comprador mayorista?"
+      ],
+      "evidence": [
+        "Las preguntas en español incluyeron si las mancuernas de neopreno son buenas y cuál es el mejor material para una mancuerna.",
+        "La edición usa el lenguaje de compra mayorista, clases dirigidas, limpieza, marcación en kg y continuidad de surtido."
+      ],
+      "path": "/es/blog/mancuernas-neopreno-vs-vinilo-guia-compra"
+    },
+    "de": {
+      "targetKeyword": "Neopren Vinyl Kurzhanteln Großhandel Vergleich",
+      "questions": [
+        "Sind Neopren- und Vinyl-Hanteln dasselbe?",
+        "Welche Oberfläche eignet sich besser bei Schweiß?",
+        "Lassen sich Vinyl-Hanteln leicht reinigen?",
+        "Beweist die Farbe, dass es Neopren ist?",
+        "Welche Angaben braucht die Großhandelsanfrage?"
+      ],
+      "evidence": [
+        "Deutschsprachige Ergebnisse verwenden Neopren-Hanteln, Vinyl-Kurzhanteln, Großhandel, Reinigung und rutschfester Griff als Beschaffungssprache.",
+        "Die DACH-Fassung priorisiert Werkstoffangabe, Artikelnummer, Nachweisumfang und wiederholbare Wareneingangskriterien."
+      ],
+      "path": "/de/blog/neopren-vs-vinyl-kurzhanteln-einkaufsleitfaden"
+    },
+    "fr": {
+      "targetKeyword": "haltères néoprène vinyle achat en gros",
+      "questions": [
+        "Le néoprène et le vinyle sont-ils identiques ?",
+        "Quel revêtement convient aux mains moites ?",
+        "Les haltères vinyle sont-ils faciles à nettoyer ?",
+        "La couleur permet-elle d’identifier le néoprène ?",
+        "Que transmettre pour un devis en gros ?"
+      ],
+      "evidence": [
+        "Les recherches francophones associent haltères néoprène ou vinyle à la prise en main, au nettoyage, aux petites charges et aux cours collectifs.",
+        "La version française structure la décision comme un cahier des charges avec référence, justificatif, bon à tirer et réassort."
+      ],
+      "path": "/fr/blog/halteres-neoprene-vs-vinyle-guide-achat"
+    },
+    "sv": {
+      "targetKeyword": "neopren vinyl hantlar grossist jämförelse",
+      "questions": [
+        "Är neopren- och vinylhantlar samma sak?",
+        "Vilken yta fungerar bäst för svettiga händer?",
+        "Är vinylhantlar lätta att rengöra?",
+        "Visar färgen att en hantel är av neopren?",
+        "Vad ska en grossist skicka för offert?"
+      ],
+      "evidence": [
+        "Svenska sökningar kopplar neopren- och vinylhantlar till gruppträning, grepp, rengöring, färgkodning och inköp för gym.",
+        "Den svenska vinkeln betonar städrutin, komplettering, kontrollerad kulör och mottagningskontroll för anläggningar."
+      ],
+      "path": "/sv/blogg/neopren-vs-vinyl-hantlar-inkopsguide"
+    },
+    "it": {
+      "targetKeyword": "manubri neoprene vinile ingrosso confronto",
+      "questions": [
+        "Neoprene e vinile sono la stessa cosa?",
+        "Quale superficie è migliore con le mani sudate?",
+        "I manubri in vinile sono facili da pulire?",
+        "Il colore dimostra che un manubrio è in neoprene?",
+        "Cosa inviare per un preventivo all’ingrosso?"
+      ],
+      "evidence": [
+        "Le ricerche italiane usano manubri in neoprene o vinile, ingrosso, presa, pulizia e set colorati per corsi e vendita.",
+        "La versione italiana mette al centro fascicolo acquisti, scala pesi, private label, campione e continuità del riordino."
+      ],
+      "path": "/it/blog/manubri-neoprene-vs-vinile-guida-acquisto"
+    },
+    "nl": {
+      "targetKeyword": "neopreen vinyl dumbbells groothandel vergelijking",
+      "questions": [
+        "Zijn neopreen en vinyl dumbbells hetzelfde?",
+        "Welk oppervlak werkt beter bij zweethanden?",
+        "Zijn vinyl dumbbells gemakkelijk schoon te maken?",
+        "Bewijst de kleur dat een dumbbell van neopreen is?",
+        "Wat stuur je mee voor een groothandelsofferte?"
+      ],
+      "evidence": [
+        "Nederlandstalige zoektermen combineren neopreen of vinyl dumbbells met groothandel, schoonmaken, grip en groepslessen.",
+        "De Nederlandse editie legt nadruk op beheerde referenties, gebruikskosten, doosvolume en leverbaarheid bij nabestelling."
+      ],
+      "path": "/nl/blog/neopreen-vs-vinyl-dumbbells-inkoopgids"
+    },
+    "vi": {
+      "targetKeyword": "tạ tay neoprene vinyl mua sỉ",
+      "questions": [
+        "Tạ neoprene và vinyl có giống nhau không?",
+        "Loại nào bám tốt hơn khi tay ra mồ hôi?",
+        "Tạ vinyl có dễ vệ sinh không?",
+        "Màu sắc có chứng minh tạ là neoprene không?",
+        "Người mua sỉ cần gửi gì để báo giá?"
+      ],
+      "evidence": [
+        "Truy vấn tiếng Việt dùng tạ tay bọc neoprene, tạ vinyl, mua sỉ, bộ kg và vệ sinh cho phòng tập hoặc lớp nhóm.",
+        "Bài viết ưu tiên dải kg, màu nhận diện, tay ẩm, hồ sơ nhập hàng và khả năng bổ sung SKU bán chạy."
+      ],
+      "path": "/vi/blog/ta-tay-neoprene-va-vinyl-huong-dan-mua-si"
+    },
+    "id": {
+      "targetKeyword": "dumbbell neoprene vinyl grosir",
+      "questions": [
+        "Apakah dumbbell neoprene dan vinyl sama?",
+        "Mana yang lebih baik untuk tangan berkeringat?",
+        "Apakah dumbbell vinyl mudah dibersihkan?",
+        "Apakah warna membuktikan dumbbell terbuat dari neoprene?",
+        "Apa yang perlu dikirim pembeli grosir?"
+      ],
+      "evidence": [
+        "Pencarian Indonesia memakai dumbbell neoprene atau vinyl, grosir, mudah dibersihkan, grip, dan paket warna untuk kelas.",
+        "Edisi Indonesia menekankan SKU, tangga berat, penanganan distributor, dokumen tujuan, packing, dan pengisian ulang."
+      ],
+      "path": "/id/blog/dumbbell-neoprene-vs-vinyl-panduan-pembelian"
+    },
+    "pl": {
+      "targetKeyword": "hantle neoprenowe winylowe hurtownia porównanie",
+      "questions": [
+        "Czy hantle neoprenowe i winylowe są tym samym?",
+        "Która powierzchnia jest lepsza dla spoconych dłoni?",
+        "Czy hantle winylowe są łatwe do czyszczenia?",
+        "Czy kolor dowodzi, że hantla jest neoprenowa?",
+        "Co wysłać do wyceny hurtowej?"
+      ],
+      "evidence": [
+        "Polskie wyniki łączą hantle neoprenowe i winylowe z hurtownią, chwytem, czyszczeniem, kolorem oraz zajęciami fitness.",
+        "Wersja polska koncentruje się na dokumentacji zakupu, kryteriach odbioru, znakowaniu masy i zgodności kolejnych dostaw."
+      ],
+      "path": "/pl/blog/hantle-neoprenowe-vs-winylowe-poradnik-zakupowy"
+    },
+    "ar": {
+      "targetKeyword": "دمبل نيوبرين فينيل بالجملة",
+      "questions": [
+        "هل دمبل النيوبرين والفينيل متشابهان؟",
+        "أي سطح أفضل لليد المتعرقة؟",
+        "هل يسهل تنظيف دمبل الفينيل؟",
+        "هل يثبت اللون أن الدمبل من النيوبرين؟",
+        "ماذا يرسل مشتري الجملة لطلب عرض؟"
+      ],
+      "evidence": [
+        "تستخدم نتائج البحث العربية عبارات دمبل نيوبرين ودمبل فينيل والشراء بالجملة وسهولة التنظيف والثبات في اليد.",
+        "تركز النسخة العربية على وثائق سوق الوجهة ووضوح الوزن والتغليف وإمكانية تكرار الشكل في الطلب التالي."
+      ],
+      "path": "/ar/blog/neoprene-vs-vinyl-dumbbells-buyer-guide"
+    },
+    "ko": {
+      "targetKeyword": "네오프렌 비닐 덤벨 도매 비교",
+      "questions": [
+        "네오프렌 덤벨과 비닐 덤벨은 같은가요?",
+        "땀이 나는 손에는 어느 표면이 더 좋은가요?",
+        "비닐 덤벨은 세척하기 쉬운가요?",
+        "색상으로 네오프렌 여부를 알 수 있나요?",
+        "도매 견적에는 무엇을 보내야 하나요?"
+      ],
+      "evidence": [
+        "한국어 검색은 네오프렌 덤벨, 비닐 덤벨, 도매, 세척, 미끄럼과 그룹 수업용 저중량 세트를 함께 다룹니다.",
+        "한국어판은 kg 표시, 빠른 사용자 교대, 반복 세척, 입고 검사와 동일 외관 재주문을 중심으로 구성했습니다."
+      ],
+      "path": "/ko/blog/neoprene-vs-vinyl-dumbbells-buyer-guide"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Ironhue",
+      "url": "https://ironhue.com/products/dumbbells/vinyl-neoprene-dumbbells",
+      "observation": "Uses a combined material label, reinforcing the need for exact SKU declarations."
+    },
+    {
+      "name": "Avec Fitness",
+      "url": "https://www.avecfitness.com/Boutique-customization/neoprene-hex-weights-dumbbells",
+      "observation": "Listing terminology and stated material fields are not identical, so the guide avoids inferring chemistry from titles."
+    },
+    {
+      "name": "Yanre Fitness",
+      "url": "https://www.yanrefitness.com/wholesale-neoprene-dumbbells/",
+      "observation": "Targets wholesale neoprene demand and customization language."
+    }
+  ],
+  "rejectedTopics": [
+    "Export packaging for dumbbells and weight plates — existing page owns the intent.",
+    "Cable-attachment weld inspection — existing quality content would overlap.",
+    "Commercial dumbbell-set planning — already published in every locale.",
+    "General pre-shipment inspection — existing guide owns the query.",
+    "Rust and corrosion — already covered by finish and maintenance guides."
+  ],
+  "siteGaps": [
+    "No dedicated neoprene-versus-vinyl light-dumbbell procurement guide before this run."
+  ],
+  "searchRun": {
+    "provider": "DataForSEO live search plus public web review",
+    "successfulTasks": 14,
+    "recordedCostUsd": 0.088,
+    "observedQuestions": 24,
+    "limitations": [
+      "German and French paid live-result tasks failed; broader public results and local site terminology were used.",
+      "Quora page text was inaccessible; only question snippets were observed and no technical claim relies on an answer.",
+      "Vietnamese results were noisy and were used only for vocabulary and question framing."
+    ]
+  },
+  "sources": [
+    {
+      "title": "ECHA — Phthalates",
+      "url": "https://echa.europa.eu/hot-topics/phthalates",
+      "primary": true,
+      "use": "Regulator overview used for the bounded statement that certain phthalates are restricted and that applicability depends on substance, article and destination context."
+    },
+    {
+      "title": "ECHA — Annex XVII restriction entry for specified phthalates",
+      "url": "https://echa.europa.eu/documents/10162/aaa92146-a005-1dc2-debe-93c80b57c5ee",
+      "primary": true,
+      "use": "Primary restriction text used to keep documentation advice model- and scope-specific rather than make a generic compliance claim."
+    },
+    {
+      "title": "Vinyl Institute — Vinyl production",
+      "url": "https://www.vinylinfo.org/production/",
+      "primary": false,
+      "use": "Industry description supporting cautious terminology around vinyl and PVC; it is not treated as regulatory evidence."
+    },
+    {
+      "title": "Reddit Fitness — Neoprene vs vinyl vs raw dumbbells",
+      "url": "https://www.reddit.com/r/Fitness/comments/9kmxd6/neoprene_vs_vinyl_vs_raw_little_dumbbells/",
+      "primary": false,
+      "use": "Community vocabulary about grip and cleaning concerns; not used as material-performance proof."
+    },
+    {
+      "title": "Ironhue — Vinyl/Neoprene Dumbbells",
+      "url": "https://ironhue.com/products/dumbbells/vinyl-neoprene-dumbbells",
+      "primary": false,
+      "use": "Market-language example showing why the buyer should request an exact construction declaration."
+    }
+  ]
+}
