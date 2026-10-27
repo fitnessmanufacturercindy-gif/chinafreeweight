@@ -1,0 +1,245 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/weight-plate-storage-rack-buying-guide",
+    "title": "Weight Plate Storage Racks: Commercial Buyer Guide",
+    "description": "Plan a commercial weight plate storage system by checking plate mix, peg fit, usable length, clearance, load ratings, access, installation and inspection.",
+    "h1": "How to Specify Weight Plate Storage for a Commercial Gym",
+    "keyword": "commercial weight plate storage rack",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Weight Plate Storage Planning",
+    "sections": [
+      {
+        "heading": "Start with the plates, not the rack photograph",
+        "text": "A commercial plate rack should be specified from the actual plate schedule: bore, finished outside diameter, thickness by denomination, piece count, material, grip profile and training zone. A rack advertised for Olympic plates may still have too little usable peg length, too little clearance between levels or the wrong layout for a mixed set of thin iron plates and thick bumpers.\n\nBuild a storage map before requesting quotations. Assign frequently used plates to accessible positions, keep heavy loads low where the approved rack design allows, and reserve a separate tray or short peg for change plates when large plates would hide them. The result must remain within the rack maker's stated use and installation instructions."
+      },
+      {
+        "heading": "Choose a storage architecture for the operating zone",
+        "text": "A freestanding tree uses little floor area and sorts plates across several horns. A low slot rack makes the faces of thick bumper plates visible and avoids sliding a full stack off one peg. Rack-mounted horns save a separate footprint but must match the exact upright, hole pattern, hardware and permitted mounting position. Wall storage transfers the load into the wall and fixings, so it needs a verified substrate and installation plan.\n\nDo not treat these formats as interchangeable. A mobile rack is useful only when its wheels, brakes, route and loaded-movement instructions support the intended use. Storage integrated into a power rack can interfere with spotter arms, cable paths, benches or lifting clearance. Mock up the largest plate envelope and the user's hand path around the real station."
+      },
+      {
+        "heading": "Check peg fit and usable length separately",
+        "text": "Nominal 50 mm or two-inch language identifies a product family, not the finished fit of every plate on every storage horn. Record the finished plate bore and the peg's outside diameter, protective sleeve, end shape and permitted clearance. A plate should load and unload without binding, excessive tilt or damage to its hub, while any stop or retaining feature must remain usable.\n\nUsable length is the straight supported distance available to the plates, not the full metal projection or the dimension hidden inside a bracket. Add the accepted maximum thickness of every plate assigned to that position, then leave the access and retention margin required by the rack instructions. Repeat the calculation for each peg because the storage mix is rarely symmetrical."
+      },
+      {
+        "heading": "Verify clearance, capacity and stability as one system",
+        "text": "Plate diameter and peg spacing decide whether neighbouring stacks overlap. Plate thickness decides how many pieces fit. Individual-peg and whole-rack ratings decide whether that geometry is allowed. Keep these three checks together; fitting six plates on a horn does not prove that the horn, frame, floor or mounting is rated for their combined mass.\n\nReview the worst credible loading pattern, including an uneven condition while users remove plates from one side. Confirm base footprint, feet, anchoring or ballast requirements, floor condition and required levelness from the responsible equipment supplier. OSHA's general storage rule is a useful U.S. reference for keeping stored material stable and passageways clear, but it does not supply a gym-rack capacity."
+      },
+      {
+        "heading": "Design for handling and housekeeping",
+        "text": "Place high-turnover denominations near the bar or machine they serve without narrowing the lifting lane. Check whether a user can see the weight marking, separate two plates, reach a grip opening and withdraw one piece without scraping a neighbour. Small plates should not be trapped behind large discs or placed where staff must lift them over shoulder height.\n\nPlan the full route from rack to bar, including benches, platforms, columns, doors and cleaning equipment. The storage unit should not become a trip point or collect loose collars and accessories in an unapproved location. A clear return pattern supports faster re-racking, but labels and color coding should supplement a safe physical layout rather than compensate for poor access."
+      },
+      {
+        "heading": "Write the RFQ around evidence and change control",
+        "text": "Send the supplier a plate-by-plate schedule, proposed allocation, bore and thickness data, maximum stored mass, facility layout and preferred storage format. Request dimensioned drawings, usable lengths, peg and total ratings, installation instructions, hardware list, finish, protective contact material, packaging and inspection points. Model-specific values belong in the quotation; do not copy a competitor's capacity into a new design.\n\nFor OEM or ODM development, define the controlled frame, welds, fasteners, peg sleeves, feet, wheels or anchors and coating. Custom Logo and Private Label changes must not cover rating, model or installation identification. For Bulk Supply, connect each rack revision to the compatible plate range and require notice before structural or mounting changes."
+      },
+      {
+        "heading": "Inspect the delivered rack with the approved plate set",
+        "text": "At receipt, reconcile model, revision, quantity, cartons and hardware before assembly. Inspect tubes, welds, fastener holes, pegs, sleeves, feet, wheels, coating and transit damage. Assemble on the intended level surface according to the supplied instructions, torque or secure fasteners as specified by the responsible manufacturer and keep the manual with the facility record.\n\nUse representative thin and thick plates to confirm fit, full-face support, hand clearance and removal from every position. Load only within the declared configuration and rating. Quarantine a rack with deformation, cracked welds, loose structural joints, damaged anchors, uncontrolled movement or missing identification; appearance alone is not an acceptance test."
+      }
+    ],
+    "table": {
+      "heading": "Storage format decision matrix",
+      "columns": ["Format", "Best fit", "Verify before approval"],
+      "rows": [
+        ["Freestanding plate tree", "Mixed iron or grip plates near one zone", "Peg spacing, base, uneven loading, total rating"],
+        ["Low slot rack", "Thick bumper plates and visible separation", "Slot width, total length, wheels or feet, hand access"],
+        ["Rack-mounted horns", "Plates assigned to one compatible rack", "Upright and hole pattern, hardware, training clearance"],
+        ["Wall-mounted pegs", "Fixed layout with verified structure", "Wall substrate, fixings, cantilever load, installation"],
+        ["Mobile trolley", "Shared zones with an approved movement plan", "Loaded-movement permission, wheel rating, brakes, route"],
+        ["Change-plate tray", "Small denominations that need quick visibility", "Compartment width, labels, reach and piece count"]
+      ]
+    },
+    "checklist": {
+      "heading": "Buyer checklist for a plate-storage order",
+      "items": [
+        "List every plate model, denomination and piece count.",
+        "Record finished bore, outside diameter and maximum thickness.",
+        "Allocate plates to each peg, slot or tray.",
+        "Confirm usable length rather than total projection.",
+        "Check adjacent-plate and hand clearance.",
+        "Obtain per-peg and whole-system ratings.",
+        "Approve installation, anchoring and floor requirements.",
+        "Keep aisles and lifting zones unobstructed.",
+        "Freeze model, hardware, finish and protective sleeves.",
+        "Inspect the assembled rack with representative plates."
+      ]
+    },
+    "faq": [
+      ["Will every Olympic plate fit a 50 mm storage peg?", "Not automatically. Compare the finished bore with the finished peg, sleeve and end geometry, then verify the actual plate on the identified rack."],
+      ["How many bumper plates fit on one storage horn?", "Divide usable supported length by the accepted plate thickness only after reserving the required access or retention margin, then confirm the peg and rack ratings."],
+      ["Is a plate tree better than a slot rack?", "Neither is universally better. Trees can be compact for thin plates; low slots often make thick bumpers easier to see and separate."],
+      ["Can storage pegs from one power rack fit another?", "Do not assume so. Upright size, hole diameter, spacing, bracket shape, hardware and approved mounting positions can differ."],
+      ["Can ChinaFreeWeight supply matching plates and storage?", "ChinaFreeWeight is a factory and can review OEM, ODM, Custom Logo, Private Label and Bulk Supply requirements by model. Final storage feasibility and values are confirmed from the selected configuration." ]
+    ],
+    "faqHeading": "Weight Plate Storage FAQ",
+    "linkHeading": "Continue planning the plate system",
+    "linkLabels": ["Browse commercial weight plates", "Compare weight plates and bumper plates", "Check plate outside diameter", "Check plate thickness and sleeve capacity", "Review plate grip openings", "Review plate edges and handling", "Plan export packaging", "Discuss a storage-ready plate program"],
+    "imageAlt": "Unbranded commercial weight plate storage tree with Olympic plates arranged on six pegs",
+    "imageCaption": "Storage capacity depends on the identified plate mix, usable peg length, clearance and declared rack configuration.",
+    "cta": ["Plan the plates and storage together", "Send the plate schedule, facility layout, storage format, branding and destination so the factory team can review a model-specific OEM or wholesale brief.", "Request a factory review"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/suporte-anilhas-olimpicas-guia-compra",
+    "title": "Suporte para Anilhas Olímpicas: Guia de Compra B2B",
+    "description": "Dimensione o suporte de anilhas pela mistura real de discos, diâmetro dos pinos, comprimento útil, folgas, capacidade, acesso e instalação.",
+    "h1": "Como Especificar um Suporte de Anilhas para Academia",
+    "keyword": "suporte para anilhas olímpicas profissional",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Planejamento de Armazenamento",
+    "sections": [
+      {
+        "heading": "Resposta direta: transforme o jogo de anilhas em um mapa",
+        "text": "O comprador deve começar pela lista de anilhas, e não pela foto do expositor. Registre modelo, furo acabado, diâmetro externo, espessura máxima por peso, quantidade de peças, material, pegada e área de uso. Só então distribua cada grupo entre hastes, nichos ou bandejas e compare essa carga com a configuração declarada do suporte.\n\nUma árvore compacta pode funcionar bem com discos finos, mas ficar lotada com bumpers espessos. Um rack baixo de nichos deixa os bumpers visíveis, porém ocupa mais comprimento de piso. Academias brasileiras também precisam prever anilhas fracionárias, identificação em kg, circulação dos alunos e a rotina de devolver cada peso ao lugar."
+      },
+      {
+        "heading": "Escolha o formato conforme a operação da sala",
+        "text": "A árvore independente atende uma estação concentrada e reduz a área ocupada. Hastes instaladas no power rack aproximam as anilhas do exercício, mas precisam ser compatíveis com coluna, furação, parafuso e posição aprovadas. Rack de nichos atende discos grandes lado a lado; suporte de parede depende da estrutura e da fixação; carrinho móvel depende das rodas, freios e permissão para deslocamento carregado.\n\nFaça uma planta simples com plataformas, bancos, equipamentos plate loaded, colunas, portas e corredores. O suporte não pode bloquear a retirada da barra, o ajuste do safety, o curso do cabo ou a aproximação de quem carrega uma anilha pesada. Considere também o espaço que as placas acrescentam atrás de um rack integrado."
+      },
+      {
+        "heading": "Meça haste, furo e comprimento útil",
+        "text": "A indicação 50 mm ou olímpica não substitui a comparação dimensional. Peça o diâmetro acabado da haste, incluindo capa protetora, e confronte com o furo real das anilhas escolhidas. Avalie entrada, inclinação, contato com o insert e facilidade de retirada; folga excessiva ou interferência não deve ser aceita por suposição.\n\nComprimento útil é a parte reta que realmente apoia os discos. Some a espessura máxima acordada das peças alocadas e preserve a margem indicada para acesso e retenção. Uma haste que parece longa pode perder espaço no batente, na curva, na tampa ou na própria placa de fixação."
+      },
+      {
+        "heading": "Cruze capacidade, estabilidade e distribuição",
+        "text": "Confirme a carga admissível por haste e para o conjunto completo. Depois simule o pior arranjo provável, inclusive a retirada temporária de todas as anilhas de um lado. Número de hastes não é sinônimo de capacidade, e o peso do próprio suporte não comprova a estabilidade de uma configuração que o fabricante não avaliou.\n\nVerifique base, pés, nivelamento, ancoragem quando exigida e condição do piso. Mantenha os discos pesados em posições baixas quando isso fizer parte do uso aprovado. Para suporte de parede ou integrado, a estrutura receptora e os fixadores pertencem ao sistema de carga e precisam de documentação específica."
+      },
+      {
+        "heading": "Projete acesso rápido sem criar obstáculo",
+        "text": "Posicione as anilhas de maior giro perto da estação correspondente, mas fora da trajetória da barra e dos usuários. Teste a retirada de uma peça no meio de uma haste cheia, a leitura do peso, o acesso ao grip e o retorno sem esmagar dedos contra o disco vizinho. As anilhas pequenas devem ficar visíveis e não enterradas atrás das maiores.\n\nO corredor deve continuar livre durante a aula ou no horário de pico. Uma boa sinalização ajuda a manter a ordem, mas não corrige um suporte baixo demais, alto demais ou colocado em uma quina sem espaço para o corpo. Inclua limpeza, inspeção diária e reposição de sleeves protetores na rotina da academia."
+      },
+      {
+        "heading": "Monte um RFQ comparável para fábrica e fornecedor",
+        "text": "Envie tabela por SKU, quantidade, dimensões acabadas, massa total prevista e alocação desejada. Solicite desenho cotado, comprimentos úteis, folgas, carga por posição e carga total, instrução de montagem, lista de ferragens, acabamento, proteção de contato, embalagem e pontos de inspeção. Valores de outro modelo não devem ser reaproveitados.\n\nEm OEM ou ODM, congele quadro, solda, pinos, parafusos, pés, rodas, buchas e revestimento. Custom Logo e Private Label não podem ocultar identificação, capacidade ou instrução. Para Bulk Supply, vincule a revisão do suporte à linha de anilhas e exija avaliação quando mudar espessura, insert, perfil ou quantidade do jogo.\n\nAnexe uma matriz simples de responsabilidade: a fábrica confirma o produto cotado e sua documentação; o comprador confirma piso, parede, circulação e regras do mercado de destino; o instalador confirma fixação e montagem no local. Registre ainda a unidade de medida, a revisão do desenho e o arquivo de arte aprovado. Essa separação torna as propostas comparáveis e evita que uma premissa da obra seja tratada como característica comprovada do suporte."
+      },
+      {
+        "heading": "Faça o recebimento com as anilhas representativas",
+        "text": "Confira código, revisão, volumes, ferragens e manual antes de montar. Inspecione tubos, soldas, furos, hastes, capas, pés, rodas, pintura e avarias de transporte. Monte no piso previsto seguindo o documento do responsável pelo equipamento e registre qualquer peça substituída.\n\nExperimente anilhas finas e espessas em todas as posições, sem exceder os limites declarados. Observe encaixe, apoio, folga entre níveis, acesso da mão e movimento do suporte. Deformação, solda trincada, junta estrutural solta, roda sem controle, ancoragem danificada ou identificação ausente exige segregação e análise."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de escolha do armazenamento",
+      "columns": ["Solução", "Quando faz sentido", "O que confirmar"],
+      "rows": [
+        ["Árvore de anilhas", "Discos finos próximos de uma estação", "Folga entre hastes, base, carga desigual"],
+        ["Rack baixo de nichos", "Bumpers espessos e separação visual", "Largura dos nichos, comprimento, pés ou rodas"],
+        ["Hastes no power rack", "Uso dedicado ao rack compatível", "Coluna, furação, parafuso e interferências"],
+        ["Parede", "Layout fixo e estrutura verificada", "Parede, fixadores, alavanca e instalação"],
+        ["Carrinho", "Compartilhamento entre zonas", "Permissão de movimento, rodas, freios e rota"],
+        ["Bandeja pequena", "Anilhas fracionárias e change plates", "Divisão, leitura, acesso e contagem"]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist para cotação e aprovação",
+      "items": [
+        "Listar modelo, peso e quantidade de cada anilha.",
+        "Registrar furo, diâmetro e espessura acabados.",
+        "Distribuir as peças por haste, nicho ou bandeja.",
+        "Confirmar comprimento realmente utilizável.",
+        "Testar sobreposição e espaço para a mão.",
+        "Obter carga por haste e capacidade total.",
+        "Definir piso, nivelamento e ancoragem.",
+        "Preservar corredores e área de levantamento.",
+        "Congelar revisão, ferragens e sleeves protetores.",
+        "Receber com amostras finas e espessas."
+      ]
+    },
+    "faq": [
+      ["Toda anilha olímpica serve em haste de 50 mm?", "Não por definição. Compare furo e haste acabados, proteção e formato da ponta, e confirme o encaixe com o modelo real."],
+      ["Quantos bumpers cabem em uma haste?", "Some as espessuras máximas no comprimento útil, reserve a margem exigida e confirme tanto a carga da haste quanto a do suporte."],
+      ["Árvore ou rack baixo: qual é melhor?", "Depende do mix e da operação. A árvore economiza área com discos finos; o rack baixo costuma facilitar a separação de bumpers espessos."],
+      ["Posso instalar qualquer haste em qualquer power rack?", "Não. Coluna, diâmetro e passo da furação, suporte, parafusos e posições permitidas variam por sistema."],
+      ["A ChinaFreeWeight fornece um programa combinado?", "A ChinaFreeWeight é fábrica e avalia OEM, ODM, Custom Logo, Private Label e Bulk Supply por configuração, sem publicar capacidade ou pedido mínimo genérico." ]
+    ],
+    "faqHeading": "Perguntas sobre suportes de anilhas",
+    "linkHeading": "Continue o planejamento da área de pesos",
+    "linkLabels": ["Ver anilhas comerciais", "Comparar anilhas e bumpers", "Conferir diâmetro externo", "Calcular espessura e capacidade da barra", "Revisar aberturas de pegada", "Revisar bordas e manuseio", "Planejar embalagem de exportação", "Falar sobre um programa completo"],
+    "imageAlt": "Suporte profissional sem marca com anilhas olímpicas agrupadas em hastes protegidas",
+    "imageCaption": "O suporte precisa ser calculado pela mistura real de anilhas, comprimento útil, folgas e configuração declarada.",
+    "cta": ["Planeje anilhas e armazenamento como um sistema", "Envie lista de SKUs, planta, formato do suporte, identidade visual e destino para uma revisão de fábrica por modelo.", "Solicitar análise da fábrica"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/soporte-discos-olimpicos-guia-compra",
+    "title": "Soporte para Discos Olímpicos: Guía de Compra B2B",
+    "description": "Elija almacenamiento para discos por mezcla real, diámetro, longitud útil, separación, carga, estabilidad, circulación, montaje e inspección.",
+    "h1": "Cómo Especificar el Almacenamiento de Discos Olímpicos",
+    "keyword": "soporte discos olímpicos gimnasio profesional",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Planificación de la Zona de Discos",
+    "sections": [
+      {
+        "heading": "La respuesta corta: calcule el sistema con el inventario real",
+        "text": "No compre un árbol de discos por el número de brazos que aparece en la foto. Prepare una matriz con modelo, unidad, peso nominal, cantidad, diámetro exterior, espesor máximo, agujero terminado, agarres y zona de uso. Asigne cada grupo a un pin, ranura o bandeja y contraste el peso resultante con la configuración declarada por el fabricante del soporte.\n\nLos gimnasios que mezclan discos de hierro, grip plates, bumpers y fraccionales suelen necesitar más de un tipo de almacenamiento. Los bumpers ocupan mucho ancho; los discos finos concentran más masa en un pin; las piezas pequeñas desaparecen detrás de las grandes. La distribución debe resolver esas diferencias sin bloquear el paso."
+      },
+      {
+        "heading": "Seleccione el formato por flujo de trabajo",
+        "text": "Un árbol vertical concentra varios pins en una huella compacta. Un carro bajo con ranuras deja los bumpers de canto y visibles. Los cuernos instalados en un rack ahorran un mueble, pero deben pertenecer al sistema compatible. La pared solo es una opción cuando soporte, anclajes y sustrato están verificados. Un carro con ruedas exige capacidad de rueda, freno y permiso de movimiento con carga.\n\nDibuje plataformas, racks, bancos, máquinas, columnas y recorridos. Revise si las placas almacenadas chocan con la barra, los seguros, el banco o un cable. Una solución eficiente en catálogo puede ocupar la zona de acceso cuando se carga con el disco de mayor diámetro."
+      },
+      {
+        "heading": "Diferencie encaje del pin y capacidad lineal",
+        "text": "Las expresiones olímpico, 50 mm y dos pulgadas no garantizan por sí solas el mismo ajuste. Solicite diámetro terminado del pin y de su funda, geometría de la punta y agujero real del disco. La pieza debe entrar y salir sin atasco, inclinación descontrolada ni daño en el inserto.\n\nMida la longitud útil desde el tope que realmente recibe la primera placa hasta el límite de apoyo. Sume los espesores máximos aceptados y reserve el margen de manipulación o retención indicado. No cuente la rosca, la curva, la tapa ni la parte oculta en la abrazadera como espacio para discos."
+      },
+      {
+        "heading": "Compruebe separación, carga y estabilidad juntas",
+        "text": "La distancia vertical y lateral entre pins debe admitir el diámetro máximo y la mano del usuario. La longitud decide el número de piezas, mientras que la carga por pin y del conjunto decide si esa combinación está permitida. Que las placas quepan no demuestra que el soporte pueda sostenerlas.\n\nSimule una carga desigual durante el uso: un lado puede vaciarse antes que el otro. Confirme base, apoyos, nivelación, fijación y suelo según las instrucciones del equipo. Almacenar los discos pesados abajo suele facilitar el manejo, pero solo debe hacerse dentro de la distribución aprobada, no como sustituto de una verificación estructural."
+      },
+      {
+        "heading": "Organice acceso, señalización y mantenimiento",
+        "text": "Ponga las denominaciones de mayor rotación cerca de su estación, sin reducir el carril de levantamiento. Compruebe que una persona pueda leer la marca, separar dos caras, usar el agarre y retirar una placa del centro de un pin lleno. Reserve bandejas visibles para change plates y fraccionales.\n\nLa señalización por kg o lb ayuda a devolver el material, pero el diseño físico debe funcionar incluso en hora punta. Incluya limpieza del suelo, inspección de fundas protectoras, apriete conforme al manual y un lugar autorizado para collars; no convierta la base en un cajón improvisado."
+      },
+      {
+        "heading": "Pida una oferta que permita comparar proveedores",
+        "text": "Adjunte inventario por SKU, medidas terminadas, masa total, plano de sala y reparto propuesto. Solicite dibujo acotado, longitud útil, capacidad por posición y total, lista de herrajes, montaje, acabado, superficies de contacto, embalaje y controles. Las cifras de otro modelo o de una foto comercial no son evidencia para la oferta actual.\n\nEn OEM y ODM, controle bastidor, soldaduras, pins, soportes, tornillos, pies, ruedas, fundas y pintura. Custom Logo y Private Label deben conservar visibles modelo, carga e instrucciones. En Bulk Supply, relacione la revisión del soporte con la gama de discos y revise cualquier cambio de espesor, perfil o cantidad.\n\nAñada una matriz breve de responsabilidades: la fábrica confirma el producto cotizado y sus documentos; el comprador confirma suelo, pared, circulación y requisitos del mercado de destino; el instalador confirma anclaje y montaje en la obra. Indique también la unidad de medida, la revisión del plano y la versión del arte aprobada. Así las ofertas se comparan sobre la misma base y una condición del edificio no se confunde con una prestación demostrada del soporte."
+      },
+      {
+        "heading": "Reciba el soporte con placas representativas",
+        "text": "Antes del montaje verifique referencia, revisión, bultos, herrajes y manual. Inspeccione tubos, soldaduras, agujeros, pins, protecciones, patas, ruedas, recubrimiento y daños de transporte. Monte en la superficie prevista y documente piezas faltantes o sustituidas.\n\nPruebe discos finos y gruesos en todas las posiciones sin superar los límites declarados. Observe encaje, apoyo, separación, acceso de mano y movimiento. Deformación, soldadura agrietada, unión estructural floja, rueda sin control, anclaje dañado o identificación ausente requiere inmovilizar el equipo y consultar al responsable."
+      }
+    ],
+    "table": {
+      "heading": "Matriz para elegir el tipo de soporte",
+      "columns": ["Formato", "Uso adecuado", "Verificación clave"],
+      "rows": [
+        ["Árbol independiente", "Discos finos o con agarre en una zona", "Separación, base, carga parcial y total"],
+        ["Rack bajo con ranuras", "Bumpers gruesos y selección visible", "Ancho de ranura, longitud, acceso, ruedas"],
+        ["Pins en power rack", "Stock dedicado a un rack compatible", "Perfil, agujeros, herrajes e interferencias"],
+        ["Soporte de pared", "Distribución fija con estructura verificada", "Sustrato, anclaje, palanca e instalación"],
+        ["Carro móvil", "Zonas compartidas con ruta definida", "Movimiento cargado, ruedas, frenos y suelo"],
+        ["Bandeja fraccional", "Discos pequeños de uso frecuente", "Compartimentos, visibilidad y recuento"]
+      ]
+    },
+    "checklist": {
+      "heading": "Lista de control para el comprador",
+      "items": [
+        "Inventariar modelo, peso y cantidad de discos.",
+        "Registrar agujero, diámetro y espesor terminados.",
+        "Asignar cada pieza a un pin, ranura o bandeja.",
+        "Confirmar la longitud útil real.",
+        "Probar solape y espacio para la mano.",
+        "Obtener capacidades por posición y total.",
+        "Definir suelo, nivelación y fijación.",
+        "Mantener libres pasillos y zonas de levantamiento.",
+        "Congelar revisión, herrajes y protecciones.",
+        "Inspeccionar con placas finas y gruesas."
+      ]
+    },
+    "faq": [
+      ["¿Todos los discos olímpicos caben en un pin de 50 mm?", "No se debe suponer. Compare agujero y pin terminados, funda y geometría de punta, y pruebe el modelo identificado."],
+      ["¿Cuántos bumpers caben en un cuerno?", "Calcule con longitud útil y espesor máximo, reserve el margen necesario y confirme los límites del pin y del soporte completo."],
+      ["¿Es mejor un árbol o un rack de ranuras?", "Depende de la mezcla. El árbol concentra discos finos; las ranuras suelen facilitar la separación de bumpers gruesos."],
+      ["¿Son universales los pins para power rack?", "No. Perfil de columna, agujero, separación, abrazadera, tornillería y posición autorizada pueden variar."],
+      ["¿Puede ChinaFreeWeight revisar discos y soporte juntos?", "ChinaFreeWeight es fábrica y revisa OEM, ODM, Custom Logo, Private Label y Bulk Supply por modelo, sin inventar una capacidad o MOQ universal." ]
+    ],
+    "faqHeading": "Preguntas sobre almacenamiento de discos",
+    "linkHeading": "Complete la especificación de la zona",
+    "linkLabels": ["Ver discos comerciales", "Comparar discos y bumpers", "Comprobar diámetro exterior", "Calcular espesor y manga", "Revisar aberturas de agarre", "Revisar bordes y manipulación", "Planificar embalaje de exportación", "Consultar un programa completo"],
+    "imageAlt": "Rack bajo sin marca con discos bumper olímpicos separados y ruedas bloqueadas",
+    "imageCaption": "Los bumpers gruesos requieren longitud, ranuras, acceso y capacidad comprobados con el inventario real.",
+    "cta": ["Diseñe el almacenamiento a partir de sus discos", "Comparta inventario, distribución, formato, marca y destino para revisar una solución OEM o mayorista por configuración.", "Solicitar revisión de fábrica"]
+  }
+]
