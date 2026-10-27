@@ -1,0 +1,212 @@
+[
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/viktskivestall-50-mm-inkopsguide",
+    "title": "Viktskiveställ 50 mm: Inköpsguide för Gym",
+    "description": "Planera förvaring för viktskivor utifrån skivmix, tappdiameter, användbar längd, frigång, belastning, placering och mottagningskontroll.",
+    "h1": "Så Specificerar Du Viktskiveförvaring för ett Kommersiellt Gym",
+    "keyword": "viktskiveställ 50 mm gym",
+    "home": "Start",
+    "library": "Blogg",
+    "eyebrow": "Planering av Viktskiveförvaring",
+    "sections": [
+      {
+        "heading": "Börja med skivschemat, inte med antalet pinnar",
+        "text": "Lista varje modell, nominell vikt, antal, färdigt centrumhål, ytterdiameter, maximal tjocklek och användningszon. Fördela därefter skivorna på förvaringspinnar, fack eller tråg och jämför både total massa och åtkomst med den deklarerade ställkonfigurationen. Sex pinnar på en bild säger inte hur många av just era skivor som ryms.\n\nTunna järnskivor samlar mycket vikt på kort längd, medan tjocka bumpers snabbt fyller en pinne. Små change plates behöver en egen synlig plats. Planen ska fungera när gymmet är fullt, när ett par positioner är tomma och när vikten tillfälligt är ojämnt fördelad."
+      },
+      {
+        "heading": "Välj ställtyp efter flöde och golvyta",
+        "text": "Ett fristående viktträd ger tät förvaring nära en station. Ett lågt fackställ visar bumperplattor från sidan och förenklar separation. Rackmonterade pinnar kräver rätt stolpprofil, hål, avstånd, konsol och infästning. Väggmontage kräver verifierad vägg och infästning; en vagn kräver hjul, bromsar och godkännande för rörelse under last.\n\nRita in rack, plattformar, bänkar, kabelstationer, dörrar och gångstråk. Lastade skivor får inte hindra safeties, stångbana eller serviceåtkomst. Mät utrymmet med den största skivan på plats och med en användare framför stället."
+      },
+      {
+        "heading": "Skilj passning från användbar lagringslängd",
+        "text": "Olympisk eller 50 mm är inte en universell passningstolerans. Jämför färdigt hål med pinnens ytterdiameter, skyddshylsa och ändform. Skivan ska kunna sättas på och tas av utan kärvning, okontrollerad lutning eller skada på navet. Acceptera inte mått som bara gäller obearbetat material.\n\nAnvändbar längd är den raka bärande delen mellan det inre stoppet och den yttre gränsen. Summera maximalt godkänd tjocklek för den planerade stapeln och lämna den marginal som manualen kräver för grepp eller kvarhållning. Gängor, lock, böjar och dold konsollängd räknas bort."
+      },
+      {
+        "heading": "Bedöm last, stabilitet och golv tillsammans",
+        "text": "Begär tillåten last per pinne och för hela systemet. Testa beräkningen mot den mest ogynnsamma normala fördelningen, inte bara en symmetrisk katalogbild. Att skivorna fysiskt ryms visar inte att ram, infästning eller golv är dimensionerade för massan.\n\nKontrollera fotavtryck, ställfötter, nivå, eventuell förankring och underlag enligt ansvarig leverantör. Tunga skivor placeras lågt när den godkända konstruktionen medger det. På rack- och vägglösningar ingår mottagande konstruktion och fästdon i lastvägen."
+      },
+      {
+        "heading": "Prova åtkomst i ett fyllt ställ",
+        "text": "Kontrollera att viktmarkeringen syns och att handen kan separera, greppa och dra ut en skiva mellan grannar. Ett tomt horn avslöjar inte klämrisk eller dold märkning. Små vikter bör ha tråg eller korta pinnar så att de inte hamnar bakom stora skivor.\n\nPlacera högfrekventa vikter nära rätt station utan att minska gång- eller lyftzonen. Skyltning i kg eller lb hjälper ordningen men ersätter inte en begriplig fysisk layout. Lägg rengöring, kontroll av skyddshylsor och uppföljning av lösa förband i driftplanen."
+      },
+      {
+        "heading": "Skriv offertunderlaget med spårbar revision",
+        "text": "Skicka artikelmatris, färdiga mått, antal, total massa, fördelning och planritning. Begär måttsatt ritning, användbara längder, frigång, last per position och totalt, monteringsanvisning, beslag, yta, kontaktskydd, emballage och kontrollpunkter. Ett värde från en annan modell får inte kopieras.\n\nFör OEM och ODM låses ram, svets, pinnar, konsoler, skruv, fötter, hjul, hylsor och lack. Custom Logo och Private Label får inte dölja modell, last eller montering. Vid Bulk Supply kopplas ställrevisionen till kompatibel skivlista och ändringar kräver ny granskning."
+      },
+      {
+        "heading": "Ta emot efter montering med representativa skivor",
+        "text": "Stäm av modell, revision, kollin, beslag och manual. Inspektera profiler, svetsar, hål, pinnar, hylsor, fötter, hjul, yta och transportskador. Montera på avsett plant golv enligt instruktion och dokumentera saknade eller ersatta delar.\n\nProva både tunna och tjocka skivor på varje position inom deklarerad last. Bedöm stöd, frigång, handväg och rörelse. Deformation, sprucken svets, lös bärande fog, skadad förankring, okontrollerat hjul eller saknad identitet innebär att stället tas ur bruk för bedömning."
+      }
+    ],
+    "table": {
+      "heading": "Valmatris för förvaring",
+      "columns": ["Typ", "Lämpligt sammanhang", "Kontroll före köp"],
+      "rows": [
+        ["Fristående träd", "Tunna skivor nära en zon", "Pinnavstånd, bas, ojämn last, totalgräns"],
+        ["Lågt fackställ", "Tjocka bumpers och tydlig separation", "Fackbredd, längd, handåtkomst, hjul"],
+        ["Rackpinnar", "Skivor för ett kompatibelt rack", "Stolpe, hålbild, beslag, träningsfrigång"],
+        ["Väggpinnar", "Fast plan med verifierad vägg", "Underlag, fästdon, hävarm, montering"],
+        ["Vagn", "Delade zoner och bestämd transportväg", "Lastad rörelse, hjul, broms, golv"],
+        ["Småskivetråg", "Change plates och mikrovikter", "Fack, synlighet, räckvidd, antal"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tio inköpskontroller",
+      "items": ["Lista modell, vikt och antal.", "Dokumentera hål, diameter och tjocklek.", "Fördela skivor per position.", "Bekräfta faktisk användbar längd.", "Prova överlapp och handutrymme.", "Begär positions- och totallast.", "Fastställ golv och förankring.", "Håll gång- och lyftzon fri.", "Lås revision och kontaktskydd.", "Kontrollera monterat ställ med skivor."]
+    },
+    "faq": [
+      ["Passar alla 50 mm-skivor på alla förvaringspinnar?", "Nej. Jämför färdigt hål, pinne, hylsa och ändform och prova den identifierade kombinationen."],
+      ["Hur många bumperplattor ryms på en pinne?", "Summera maximal skivtjocklek inom användbar längd, reservera greppmarginal och respektera både pinn- och systemlast."],
+      ["Är ett viktträd bättre än ett fackställ?", "Inte generellt. Träd är kompakta för tunna skivor; fack gör ofta tjocka bumpers lättare att se och separera."],
+      ["Är rackmonterade förvaringspinnar universella?", "Nej. Stolpmått, hål, konsol, beslag och godkända positioner kan skilja."],
+      ["Kan ChinaFreeWeight granska ett komplett program?", "ChinaFreeWeight är fabrik och granskar OEM, ODM, Custom Logo, Private Label och Bulk Supply per modell utan att hitta på en allmän last eller MOQ." ]
+    ],
+    "faqHeading": "Frågor om viktskiveförvaring",
+    "linkHeading": "Planera resten av skivsystemet",
+    "linkLabels": ["Se kommersiella viktskivor", "Jämför viktskivor och bumpers", "Kontrollera ytterdiameter", "Beräkna tjocklek och hylskapacitet", "Bedöm greppöppningar", "Kontrollera kanter och hantering", "Planera exportemballage", "Diskutera ett komplett program"],
+    "imageAlt": "Minimalistiskt omärkt viktskiveställ med tunga olympiska skivor lågt placerade",
+    "imageCaption": "Fördelning, frigång och last ska godkännas för den verkliga skivmixen.",
+    "cta": ["Samordna skivor och förvaring", "Skicka skivschema, planlösning, ställtyp, profil och destination för en modellspecifik fabriksgranskning.", "Begär fabriksgranskning"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/porta-dischi-olimpici-guida-acquisto",
+    "title": "Porta Dischi Olimpici: Guida all’Acquisto B2B",
+    "description": "Progetta lo stoccaggio dei dischi verificando mix, perni, lunghezza utile, ingombri, portata, stabilità, installazione e collaudo.",
+    "h1": "Come Specificare un Porta Dischi per una Palestra Professionale",
+    "keyword": "porta dischi olimpici professionale",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Progetto dell’Area Pesi",
+    "sections": [
+      {
+        "heading": "Partire dall’elenco dei dischi, non dalla foto del rack",
+        "text": "Prepara una distinta con modello, peso nominale, quantità, foro finito, diametro esterno, spessore massimo, materiale e zona di utilizzo. Assegna poi ogni gruppo a un perno, vano o vassoio e verifica massa, accesso e ingombro nella configurazione dichiarata. Il numero di perni non indica da solo la capacità utile.\n\nDischi sottili in ghisa concentrano molta massa; bumper spessi consumano rapidamente lunghezza; change plates richiedono visibilità. Il piano deve restare pratico in orario di punta e stabile durante una distribuzione temporaneamente asimmetrica."
+      },
+      {
+        "heading": "Scegliere la struttura in base al flusso",
+        "text": "Un albero indipendente concentra il materiale vicino a una postazione. Un rack basso a settori separa i bumper. Perni sul power rack richiedono montante, fori, staffa, bulloneria e posizione compatibili. Il fissaggio a parete dipende dalla struttura; il carrello mobile da ruote, freni e istruzioni per lo spostamento carico.\n\nDisegna piattaforme, panche, rack, cavi, porte e passaggi. Il disco più grande montato non deve interferire con safety, bilanciere, panca o manutenzione. Considera lo spazio per il corpo e la mano, non solo l’impronta a terra del telaio vuoto."
+      },
+      {
+        "heading": "Misurare accoppiamento e lunghezza utile",
+        "text": "Olimpico, 50 mm o due pollici non definiscono una tolleranza universale. Confronta foro finito e diametro esterno del perno, guaina protettiva e terminale. Il disco deve scorrere senza bloccarsi, inclinarsi in modo incontrollato o rovinare l’inserto.\n\nLa lunghezza utile è solo il tratto rettilineo che sostiene i dischi. Somma gli spessori massimi assegnati e mantieni il margine richiesto per presa o fermo. Filetto, tappo, curva e parte nascosta nella staffa non sono spazio di carico. Ripeti il calcolo per ogni posizione."
+      },
+      {
+        "heading": "Verificare portata e stabilità nel caso peggiore",
+        "text": "Richiedi portata per singolo perno e per l’intero supporto. Confronta la distribuzione reale, compreso lo svuotamento di un lato. Il fatto che i dischi entrino geometricamente non dimostra che perno, telaio, fissaggio o pavimento sopportino la massa.\n\nConferma base, piedi, livellamento, ancoraggio e condizioni del pavimento con il responsabile del prodotto. Tenere i dischi pesanti in basso è utile solo dentro la configurazione approvata. Parete e rack ricevente fanno parte del percorso di carico."
+      },
+      {
+        "heading": "Provare la presa a supporto pieno",
+        "text": "Controlla che il valore sia visibile e che una mano possa separare due facce, usare un foro grip e sfilare un pezzo dal centro. Un perno vuoto non mostra il rischio di schiacciamento. Piccoli dischi e microcarichi devono avere un vano riconoscibile.\n\nColloca le pezzature più usate vicino alla zona senza invadere corsia o traiettoria del sollevamento. Etichette kg/lb e colori aiutano il riordino, ma non correggono un’altezza o una distanza sbagliata. Integra pulizia e controllo di guaine e giunti."
+      },
+      {
+        "heading": "Preparare una richiesta d’offerta confrontabile",
+        "text": "Invia matrice SKU, quantità, misure finite, massa, assegnazione e planimetria. Richiedi disegno quotato, lunghezze utili, distanze, portate, montaggio, ferramenta, finitura, protezioni di contatto, imballo e controlli. Non trasferire il dato di un modello concorrente.\n\nPer OEM e ODM blocca telaio, saldature, perni, staffe, bulloni, piedi, ruote, guaine e coating. Custom Logo e Private Label non devono coprire modello, portata o istruzioni. In Bulk Supply collega revisione del supporto e lista dei dischi compatibili."
+      },
+      {
+        "heading": "Collaudare dopo il montaggio con dischi reali",
+        "text": "Verifica codice, revisione, colli, ferramenta e manuale. Ispeziona profili, saldature, fori, perni, guaine, piedi, ruote, vernice e danni di trasporto. Monta sul piano previsto seguendo le istruzioni e registra ogni sostituzione.\n\nProva dischi sottili e spessi in ogni posizione entro i limiti dichiarati. Controlla appoggio, rimozione, sovrapposizione e movimento. Deformazione, saldatura fessurata, giunto portante lento, ancoraggio danneggiato, ruota incontrollata o identificazione mancante richiedono quarantena."
+      }
+    ],
+    "table": {
+      "heading": "Matrice di scelta del supporto",
+      "columns": ["Formato", "Uso adatto", "Verifica decisiva"],
+      "rows": [
+        ["Albero indipendente", "Dischi sottili vicino a una zona", "Distanze, base, carico asimmetrico, totale"],
+        ["Rack basso a settori", "Bumper spessi e separazione visibile", "Larghezza, lunghezza, presa, ruote"],
+        ["Perni sul rack", "Dischi dedicati a un sistema compatibile", "Montante, fori, staffa, interferenze"],
+        ["Perni a parete", "Layout fisso con struttura verificata", "Supporto, tasselli, leva, installazione"],
+        ["Carrello", "Zone condivise con percorso definito", "Movimento carico, ruote, freni, pavimento"],
+        ["Vassoio piccoli dischi", "Change plates e frazionali", "Scomparti, vista, portata della mano, conteggio"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dieci controlli per l’ordine",
+      "items": ["Elencare modello, peso e quantità.", "Registrare foro, diametro e spessore finiti.", "Assegnare ogni disco a una posizione.", "Confermare la lunghezza utile.", "Provare sovrapposizione e spazio mano.", "Ottenere portata singola e totale.", "Definire pavimento e ancoraggio.", "Lasciare libere corsie e zone di alzata.", "Bloccare revisione e protezioni.", "Collaudare montato con dischi reali."]
+    },
+    "faq": [
+      ["Ogni disco da 50 mm entra su ogni perno?", "No. Confronta foro e perno finiti, guaina e terminale e prova la combinazione identificata."],
+      ["Quanti bumper entrano su un perno?", "Somma gli spessori massimi nella lunghezza utile, conserva il margine e rispetta portata del perno e del telaio."],
+      ["Meglio albero o rack a settori?", "Dipende dal mix: l’albero è compatto per dischi sottili; i settori facilitano spesso i bumper spessi."],
+      ["I perni per power rack sono universali?", "No. Montante, foratura, staffa, bulloneria e posizioni ammesse possono cambiare."],
+      ["ChinaFreeWeight può fornire un programma coordinato?", "ChinaFreeWeight è una fabbrica e valuta OEM, ODM, Custom Logo, Private Label e Bulk Supply per modello, senza inventare portate o MOQ universali." ]
+    ],
+    "faqHeading": "Domande sullo stoccaggio dei dischi",
+    "linkHeading": "Completare il progetto dei pesi",
+    "linkLabels": ["Vedere i dischi professionali", "Confrontare dischi e bumper", "Controllare il diametro esterno", "Calcolare spessore e capacità", "Valutare le aperture grip", "Controllare bordi e presa", "Pianificare l’imballo export", "Discutere un programma completo"],
+    "imageAlt": "Albero porta dischi senza marchio con sei perni e piastre olimpiche nere",
+    "imageCaption": "La stabilità va valutata sulla distribuzione reale, non sul solo numero di perni.",
+    "cta": ["Progetta insieme dischi e deposito", "Invia lista, pianta, formato, identità e destinazione per una revisione di fabbrica legata al modello.", "Richiedi la revisione"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/halterschijven-opbergrek-inkoopgids",
+    "title": "Halterschijven Opbergrek: Zakelijke Inkoopgids",
+    "description": "Kies plaatopslag op basis van schijvenmix, penmaat, bruikbare lengte, vrije ruimte, draagvermogen, plaatsing, montage en inspectie.",
+    "h1": "Opslag voor Halterschijven Zakelijk Specificeren",
+    "keyword": "halterschijven opbergrek 50 mm sportschool",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Planning van Schijvenopslag",
+    "sections": [
+      {
+        "heading": "Begin met de schijvenmatrix",
+        "text": "Leg per artikel nominaal gewicht, aantal, afgewerkt gat, buitendiameter, maximale dikte, materiaal, grip en gebruikszone vast. Verdeel daarna de schijven over pennen, sleuven of bakken en vergelijk massa en bereikbaarheid met de opgegeven rekconfiguratie. Een productfoto met zes pennen bewijst geen bruikbare capaciteit.\n\nDunne ijzeren schijven concentreren veel gewicht, dikke bumpers verbruiken lengte en kleine change plates verdwijnen achter grote diameters. Maak daarom een indeling die tijdens piekuren begrijpelijk blijft en ook een tijdelijk ongelijke belasting meeneemt."
+      },
+      {
+        "heading": "Kies het systeem bij ruimte en looproute",
+        "text": "Een vrijstaande boom is compact. Een laag sleuvenrek maakt bumpers zichtbaar. Rackpennen moeten passen bij staander, gaten, beugel, bevestiging en toegestane positie. Wandpennen vragen een aantoonbare wand en montage; een verrijdbaar rek vraagt geschikte wielen, remmen en instructies voor verplaatsen met last.\n\nTeken platforms, banken, rekken, kabels, deuren en gangpaden. De grootste opgeslagen schijf mag spotter arms, stangbaan of onderhoud niet raken. Controleer ook of een gebruiker recht voor het rek kan staan zonder achterwaarts in de route te stappen."
+      },
+      {
+        "heading": "Controleer passing en lengte als twee eisen",
+        "text": "Olympisch, 50 mm of twee inch is geen universele maattolerantie. Vergelijk afgewerkt schijfgat met buitendiameter, beschermhuls en uiteinde van de opslagpen. De schijf moet zonder klemmen, overmatige kanteling of schade aan de naaf kunnen bewegen.\n\nBruikbare lengte is het rechte dragende deel vanaf de binnenaanslag. Tel maximale plaatdikten op en houd de vereiste bedienings- of borgmarge vrij. Schroefdraad, dop, overgang en verborgen beugellengte tellen niet mee. Bereken iedere positie afzonderlijk."
+      },
+      {
+        "heading": "Beoordeel belasting en stabiliteit samen",
+        "text": "Vraag een limiet per pen en voor het hele frame. Vergelijk met de ongunstigste normale verdeling, inclusief het leegnemen van één zijde. Dat de schijven passen, toont niet aan dat pen, frame, bevestiging of vloer de massa dragen.\n\nBevestig voetmaat, stelvoeten, niveau, verankering en ondergrond met de verantwoordelijke leverancier. Zware schijven kunnen laag worden geplaatst binnen het goedgekeurde plan. Bij wand- of rackmontage horen dragende structuur en bevestigers bij hetzelfde lastpad."
+      },
+      {
+        "heading": "Test het bereik in een gevuld rek",
+        "text": "Controleer zicht op het gewicht, scheiding tussen vlakken, vingerruimte en uittrekken uit een volle stapel. Een lege pen verbergt knelpunten. Geef kleine schijven een herkenbare bak of korte pen zodat telling en nabestelling eenvoudig blijven.\n\nZet veelgebruikte gewichten dicht bij hun station zonder loop- of hefzone te verkleinen. kg/lb-labels en kleur helpen, maar herstellen geen slechte hoogte of onbereikbare positie. Neem schoonmaak en inspectie van hulzen, bouten en wielen op in het beheer."
+      },
+      {
+        "heading": "Maak offertes technisch vergelijkbaar",
+        "text": "Stuur SKU-matrix, afmetingen, aantallen, massa, indeling en plattegrond. Vraag bemaatte tekening, bruikbare lengten, vrije ruimten, pen- en totaalbelasting, montage, bevestigers, afwerking, contactbescherming, verpakking en controlepunten. Kopieer geen capaciteit van een ander model.\n\nLeg bij OEM en ODM frame, lassen, pennen, beugels, bouten, voeten, wielen, hulzen en coating vast. Custom Logo en Private Label mogen model, belasting en instructies niet bedekken. Koppel bij Bulk Supply iedere rekrevisie aan de compatibele schijvenlijst."
+      },
+      {
+        "heading": "Inspecteer gemonteerd met representatieve schijven",
+        "text": "Vergelijk model, revisie, dozen, hardware en handleiding. Bekijk profielen, lassen, gaten, pennen, hulzen, voeten, wielen, lak en transportschade. Monteer op de bedoelde vlakke vloer volgens de instructie en noteer ontbrekende of vervangen delen.\n\nProbeer dunne en dikke schijven op elke positie binnen de verklaarde belasting. Controleer steun, overlap, handpad en beweging. Vervorming, gescheurde las, losse dragende verbinding, beschadigd anker, ongecontroleerd wiel of ontbrekende identificatie betekent blokkeren en beoordelen."
+      }
+    ],
+    "table": {
+      "heading": "Keuzematrix voor opslag",
+      "columns": ["Systeem", "Geschikte toepassing", "Voor goedkeuring controleren"],
+      "rows": [
+        ["Vrijstaande boom", "Dunne schijven bij één zone", "Penafstand, basis, scheve last, totaallimiet"],
+        ["Laag sleuvenrek", "Dikke bumpers met zichtbare scheiding", "Sleufbreedte, lengte, handtoegang, wielen"],
+        ["Rackpennen", "Schijven voor één compatibel rack", "Staander, gaten, beugel, trainingsruimte"],
+        ["Wandpennen", "Vaste indeling op gecontroleerde wand", "Ondergrond, bevestiging, hefboom, montage"],
+        ["Verrijdbaar rek", "Gedeelde zones met route", "Beladen verplaatsen, wielen, remmen, vloer"],
+        ["Bak voor kleine schijven", "Change plates en fracties", "Vakken, zicht, bereik, aantallen"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tien eisen voor de bestelling",
+      "items": ["Inventariseer model, gewicht en aantal.", "Noteer gat, diameter en dikte.", "Wijs elke schijf aan een positie toe.", "Bevestig de echte bruikbare lengte.", "Test overlap en handruimte.", "Vraag pen- en totaallast.", "Bepaal vloer en verankering.", "Houd gang- en hefzone vrij.", "Leg revisie en beschermhulzen vast.", "Inspecteer gemonteerd met schijven."]
+    },
+    "faq": [
+      ["Past elke 50 mm-schijf op elke opslagpen?", "Nee. Vergelijk afgewerkt gat, pen, huls en uiteinde en test de geïdentificeerde combinatie."],
+      ["Hoeveel bumpers passen op één pen?", "Tel maximale dikten binnen de bruikbare lengte op, reserveer marge en respecteer pen- en framelimieten."],
+      ["Is een boom beter dan een sleuvenrek?", "Niet algemeen. Een boom is compact voor dunne schijven; sleuven maken dikke bumpers vaak makkelijker bereikbaar."],
+      ["Zijn opslagpennen voor power racks universeel?", "Nee. Staandermaat, gaten, beugel, hardware en toegestane plaatsing kunnen verschillen."],
+      ["Kan ChinaFreeWeight schijven en opslag samen beoordelen?", "ChinaFreeWeight is een fabriek en beoordeelt OEM, ODM, Custom Logo, Private Label en Bulk Supply per model zonder algemene belasting of MOQ te verzinnen." ]
+    ],
+    "faqHeading": "Vragen over schijvenopslag",
+    "linkHeading": "Werk het hele gewichtssysteem uit",
+    "linkLabels": ["Bekijk commerciële halterschijven", "Vergelijk schijven en bumpers", "Controleer buitendiameter", "Bereken dikte en hulscapaciteit", "Beoordeel gripopeningen", "Controleer randen en hantering", "Plan exportverpakking", "Bespreek een compleet programma"],
+    "imageAlt": "Vrijstaand onbedrukt opbergrek met zwarte en blauwe olympische halterschijven",
+    "imageCaption": "Een heldere indeling koppelt elke positie aan schijfmaat, belasting en gebruikerspad.",
+    "cta": ["Stem schijven en opslag op elkaar af", "Stuur schijvenlijst, plattegrond, opslagvorm, merkbrief en bestemming voor een modelgebonden fabriekscontrole.", "Vraag fabriekscontrole aan"]
+  }
+]

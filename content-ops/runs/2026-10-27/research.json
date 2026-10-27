@@ -1,0 +1,1454 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-27",
+  "status": "complete",
+  "selectedTopic": "Commercial weight-plate storage compatibility and capacity planning",
+  "selectionReason": "High-intent equipment-planning question not owned by an existing article; it links plate dimensions to storage geometry, declared load, access and inspection without duplicating prior plate-component guides.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "commercial weight plate storage rack: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "commercial weight plate storage rack: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "commercial weight plate storage rack: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "commercial weight plate storage rack: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "commercial weight plate storage rack: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "commercial weight plate storage rack: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "commercial weight plate storage rack: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "commercial weight plate storage rack: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "commercial weight plate storage rack: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "commercial weight plate storage rack: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "commercial weight plate storage rack: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "commercial weight plate storage rack: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "commercial weight plate storage rack: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "commercial weight plate storage rack: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "commercial weight plate storage rack: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "suporte para anilhas olímpicas profissional: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "suporte para anilhas olímpicas profissional: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "suporte para anilhas olímpicas profissional: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "suporte para anilhas olímpicas profissional: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "suporte para anilhas olímpicas profissional: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "suporte para anilhas olímpicas profissional: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "suporte para anilhas olímpicas profissional: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "suporte para anilhas olímpicas profissional: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "suporte para anilhas olímpicas profissional: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "suporte para anilhas olímpicas profissional: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "suporte para anilhas olímpicas profissional: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "suporte para anilhas olímpicas profissional: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "suporte para anilhas olímpicas profissional: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "suporte para anilhas olímpicas profissional: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "suporte para anilhas olímpicas profissional: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "soporte discos olímpicos gimnasio profesional: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "soporte discos olímpicos gimnasio profesional: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "soporte discos olímpicos gimnasio profesional: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "soporte discos olímpicos gimnasio profesional: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "soporte discos olímpicos gimnasio profesional: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "soporte discos olímpicos gimnasio profesional: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "soporte discos olímpicos gimnasio profesional: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "soporte discos olímpicos gimnasio profesional: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "soporte discos olímpicos gimnasio profesional: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "soporte discos olímpicos gimnasio profesional: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "soporte discos olímpicos gimnasio profesional: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "soporte discos olímpicos gimnasio profesional: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "soporte discos olímpicos gimnasio profesional: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "soporte discos olímpicos gimnasio profesional: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "soporte discos olímpicos gimnasio profesional: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Hantelscheibenständer 50 mm Studio: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Hantelscheibenständer 50 mm Studio: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Hantelscheibenständer 50 mm Studio: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Hantelscheibenständer 50 mm Studio: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Hantelscheibenständer 50 mm Studio: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Hantelscheibenständer 50 mm Studio: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Hantelscheibenständer 50 mm Studio: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Hantelscheibenständer 50 mm Studio: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Hantelscheibenständer 50 mm Studio: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Hantelscheibenständer 50 mm Studio: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Hantelscheibenständer 50 mm Studio: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Hantelscheibenständer 50 mm Studio: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Hantelscheibenständer 50 mm Studio: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Hantelscheibenständer 50 mm Studio: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Hantelscheibenständer 50 mm Studio: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "rangement disques olympiques professionnel: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "rangement disques olympiques professionnel: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "rangement disques olympiques professionnel: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "rangement disques olympiques professionnel: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "rangement disques olympiques professionnel: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "rangement disques olympiques professionnel: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "rangement disques olympiques professionnel: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "rangement disques olympiques professionnel: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "rangement disques olympiques professionnel: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "rangement disques olympiques professionnel: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "rangement disques olympiques professionnel: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "rangement disques olympiques professionnel: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "rangement disques olympiques professionnel: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "rangement disques olympiques professionnel: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "rangement disques olympiques professionnel: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "viktskiveställ 50 mm gym: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "viktskiveställ 50 mm gym: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "viktskiveställ 50 mm gym: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "viktskiveställ 50 mm gym: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "viktskiveställ 50 mm gym: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "viktskiveställ 50 mm gym: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "viktskiveställ 50 mm gym: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "viktskiveställ 50 mm gym: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "viktskiveställ 50 mm gym: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "viktskiveställ 50 mm gym: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "viktskiveställ 50 mm gym: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "viktskiveställ 50 mm gym: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "viktskiveställ 50 mm gym: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "viktskiveställ 50 mm gym: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "viktskiveställ 50 mm gym: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "porta dischi olimpici professionale: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "porta dischi olimpici professionale: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "porta dischi olimpici professionale: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "porta dischi olimpici professionale: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "porta dischi olimpici professionale: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "porta dischi olimpici professionale: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "porta dischi olimpici professionale: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "porta dischi olimpici professionale: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "porta dischi olimpici professionale: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "porta dischi olimpici professionale: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "porta dischi olimpici professionale: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "porta dischi olimpici professionale: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "porta dischi olimpici professionale: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "porta dischi olimpici professionale: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "porta dischi olimpici professionale: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "halterschijven opbergrek 50 mm sportschool: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "halterschijven opbergrek 50 mm sportschool: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "halterschijven opbergrek 50 mm sportschool: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "halterschijven opbergrek 50 mm sportschool: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "halterschijven opbergrek 50 mm sportschool: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "halterschijven opbergrek 50 mm sportschool: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "halterschijven opbergrek 50 mm sportschool: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "halterschijven opbergrek 50 mm sportschool: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "halterschijven opbergrek 50 mm sportschool: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "halterschijven opbergrek 50 mm sportschool: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "halterschijven opbergrek 50 mm sportschool: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "halterschijven opbergrek 50 mm sportschool: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "halterschijven opbergrek 50 mm sportschool: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "halterschijven opbergrek 50 mm sportschool: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "halterschijven opbergrek 50 mm sportschool: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "giá để bánh tạ Olympic phòng gym: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "giá để bánh tạ Olympic phòng gym: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "giá để bánh tạ Olympic phòng gym: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "giá để bánh tạ Olympic phòng gym: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "giá để bánh tạ Olympic phòng gym: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "giá để bánh tạ Olympic phòng gym: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "giá để bánh tạ Olympic phòng gym: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "giá để bánh tạ Olympic phòng gym: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "giá để bánh tạ Olympic phòng gym: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "giá để bánh tạ Olympic phòng gym: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "giá để bánh tạ Olympic phòng gym: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "giá để bánh tạ Olympic phòng gym: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "giá để bánh tạ Olympic phòng gym: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "giá để bánh tạ Olympic phòng gym: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "giá để bánh tạ Olympic phòng gym: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "rak penyimpanan plate Olympic gym: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "rak penyimpanan plate Olympic gym: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "rak penyimpanan plate Olympic gym: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "rak penyimpanan plate Olympic gym: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "rak penyimpanan plate Olympic gym: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "rak penyimpanan plate Olympic gym: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "rak penyimpanan plate Olympic gym: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "rak penyimpanan plate Olympic gym: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "rak penyimpanan plate Olympic gym: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "rak penyimpanan plate Olympic gym: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "rak penyimpanan plate Olympic gym: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "rak penyimpanan plate Olympic gym: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "rak penyimpanan plate Olympic gym: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "rak penyimpanan plate Olympic gym: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "rak penyimpanan plate Olympic gym: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "stojak na obciążenia olimpijskie 50 mm: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "حامل تخزين أقراص الأوزان التجارية: bulk plate and rack program",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "상업용 원판 보관대: plate tree versus slot rack",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "상업용 원판 보관대: 50 mm storage peg compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "상업용 원판 보관대: bumper plate rack capacity",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "상업용 원판 보관대: usable peg length",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "상업용 원판 보관대: uneven loading stability",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "상업용 원판 보관대: rack-mounted horn compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "상업용 원판 보관대: wall-mounted plate storage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "상업용 원판 보관대: mobile plate trolley",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "상업용 원판 보관대: change plate organization",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "상업용 원판 보관대: plate storage RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "상업용 원판 보관대: plate rack receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "상업용 원판 보관대: gym storage aisle planning",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "상업용 원판 보관대: plate thickness storage math",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "상업용 원판 보관대: private-label plate rack",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "상업용 원판 보관대: bulk plate and rack program",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "commercial weight plate storage rack",
+      "questions": [
+        "Will every Olympic plate fit a 50 mm storage peg?",
+        "How many bumper plates fit on one storage horn?",
+        "Is a plate tree better than a slot rack?",
+        "Can storage pegs from one power rack fit another?",
+        "Can ChinaFreeWeight supply matching plates and storage?"
+      ],
+      "evidence": [
+        "English buyer questions compare plate trees, floor racks, wall storage and rack-mounted pegs by fit, capacity and stability.",
+        "Community discussions repeatedly ask whether thick bumper plates fit, whether a tree can tip and how to avoid wasted floor space."
+      ],
+      "path": "/resources/weight-plate-storage-rack-buying-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "suporte para anilhas olímpicas profissional",
+      "questions": [
+        "Toda anilha olímpica serve em haste de 50 mm?",
+        "Quantos bumpers cabem em uma haste?",
+        "Árvore ou rack baixo: qual é melhor?",
+        "Posso instalar qualquer haste em qualquer power rack?",
+        "A ChinaFreeWeight fornece um programa combinado?"
+      ],
+      "evidence": [
+        "Buscas brasileiras usam suporte para anilhas olímpicas, árvore de anilhas 50 mm, capacidade e organização de academia.",
+        "A edição brasileira liga a escolha à mistura de anilhas, circulação, marcação em kg e recebimento do lote."
+      ],
+      "path": "/pt/blog/suporte-anilhas-olimpicas-guia-compra"
+    },
+    "es": {
+      "targetKeyword": "soporte discos olímpicos gimnasio profesional",
+      "questions": [
+        "¿Todos los discos olímpicos caben en un pin de 50 mm?",
+        "¿Cuántos bumpers caben en un cuerno?",
+        "¿Es mejor un árbol o un rack de ranuras?",
+        "¿Son universales los pins para power rack?",
+        "¿Puede ChinaFreeWeight revisar discos y soporte juntos?"
+      ],
+      "evidence": [
+        "Las búsquedas usan soporte para discos olímpicos, árbol de discos 50 mm, capacidad y almacenamiento para gimnasio.",
+        "La edición española prioriza medidas terminadas, reparto por perno, circulación y control de recepción."
+      ],
+      "path": "/es/blog/soporte-discos-olimpicos-guia-compra"
+    },
+    "de": {
+      "targetKeyword": "Hantelscheibenständer 50 mm Studio",
+      "questions": [
+        "Passt jede 50-mm-Scheibe auf jeden Lagerdorn?",
+        "Wie viele Bumper passen auf einen Dorn?",
+        "Ist ein Scheibenbaum besser als ein Fächerregal?",
+        "Sind Ablagedorne verschiedener Racks kompatibel?",
+        "Kann ChinaFreeWeight Scheiben und Ablage gemeinsam prüfen?"
+      ],
+      "evidence": [
+        "Deutschsprachige Suchen verwenden Hantelscheibenständer 50 mm, Aufbewahrung, Belastbarkeit und Bumper Plates.",
+        "Die DACH-Fassung trennt nutzbare Länge, Freiraum, Einzellast und Gesamtfreigabe für eine prüfbare Bestellung."
+      ],
+      "path": "/de/blog/hantelscheibenstaender-50-mm-kaufberatung"
+    },
+    "fr": {
+      "targetKeyword": "rangement disques olympiques professionnel",
+      "questions": [
+        "Tout disque olympique va-t-il sur une broche de 50 mm ?",
+        "Combien de bumpers tient une broche ?",
+        "Arbre ou rack à cases : lequel choisir ?",
+        "Les broches de cages sont-elles universelles ?",
+        "ChinaFreeWeight peut-elle étudier l’ensemble ?"
+      ],
+      "evidence": [
+        "Les requêtes emploient rangement disques olympiques, arbre à disques, support bumper et capacité pour salle.",
+        "La version française relie nomenclature des disques, plan de zone, fixation, accessibilité et réception."
+      ],
+      "path": "/fr/blog/rangement-disques-olympiques-guide-achat"
+    },
+    "sv": {
+      "targetKeyword": "viktskiveställ 50 mm gym",
+      "questions": [
+        "Passar alla 50 mm-skivor på alla förvaringspinnar?",
+        "Hur många bumperplattor ryms på en pinne?",
+        "Är ett viktträd bättre än ett fackställ?",
+        "Är rackmonterade förvaringspinnar universella?",
+        "Kan ChinaFreeWeight granska ett komplett program?"
+      ],
+      "evidence": [
+        "Svenska sökningar använder viktskiveställ 50 mm, förvaring av bumper plates, kapacitet och gymmiljö.",
+        "Den svenska texten prioriterar skivlista, åtkomst, golvyta, tillåten last och mottagningskontroll."
+      ],
+      "path": "/sv/blogg/viktskivestall-50-mm-inkopsguide"
+    },
+    "it": {
+      "targetKeyword": "porta dischi olimpici professionale",
+      "questions": [
+        "Ogni disco da 50 mm entra su ogni perno?",
+        "Quanti bumper entrano su un perno?",
+        "Meglio albero o rack a settori?",
+        "I perni per power rack sono universali?",
+        "ChinaFreeWeight può fornire un programma coordinato?"
+      ],
+      "evidence": [
+        "Le ricerche usano porta dischi olimpici, rastrelliera 50 mm, capacità e stoccaggio dischi palestra.",
+        "La versione italiana collega distinta dischi, spazio utile, passaggi, fissaggio e collaudo in ricezione."
+      ],
+      "path": "/it/blog/porta-dischi-olimpici-guida-acquisto"
+    },
+    "nl": {
+      "targetKeyword": "halterschijven opbergrek 50 mm sportschool",
+      "questions": [
+        "Past elke 50 mm-schijf op elke opslagpen?",
+        "Hoeveel bumpers passen op één pen?",
+        "Is een boom beter dan een sleuvenrek?",
+        "Zijn opslagpennen voor power racks universeel?",
+        "Kan ChinaFreeWeight schijven en opslag samen beoordelen?"
+      ],
+      "evidence": [
+        "Nederlandse zoektermen combineren halterschijven opbergrek, 50 mm, bumper plates, capaciteit en sportschool.",
+        "De Nederlandse editie maakt de kosten van verkeerde maatvoering zichtbaar via bezetting, handling en nabestelling."
+      ],
+      "path": "/nl/blog/halterschijven-opbergrek-inkoopgids"
+    },
+    "vi": {
+      "targetKeyword": "giá để bánh tạ Olympic phòng gym",
+      "questions": [
+        "Mọi bánh tạ 50 mm có vừa mọi chốt để đĩa không?",
+        "Một chốt chứa được bao nhiêu bumper?",
+        "Giá cây hay giá khe tốt hơn?",
+        "Chốt gắn power rack có dùng chung không?",
+        "ChinaFreeWeight có thể rà soát cả đĩa và giá không?"
+      ],
+      "evidence": [
+        "Truy vấn dùng giá để bánh tạ Olympic, cây treo bánh tạ 50 mm, sức chứa và sắp xếp phòng gym.",
+        "Bài viết ưu tiên danh sách bánh, chiều dài hữu dụng, lối đi, lấy bánh và kiểm tra khi nhận."
+      ],
+      "path": "/vi/blog/gia-de-banh-ta-olympic-huong-dan-mua"
+    },
+    "id": {
+      "targetKeyword": "rak penyimpanan plate Olympic gym",
+      "questions": [
+        "Apakah semua plate 50 mm cocok pada semua peg?",
+        "Berapa bumper muat pada satu peg?",
+        "Plate tree atau rak slot mana lebih baik?",
+        "Apakah peg power rack universal?",
+        "Bisakah ChinaFreeWeight meninjau program lengkap?"
+      ],
+      "evidence": [
+        "Pencarian Indonesia memakai rak penyimpanan plate Olympic, tree 50 mm, kapasitas dan penataan gym.",
+        "Edisi Indonesia menghubungkan daftar plate, panjang pakai, jalur pengguna, stabilitas dan pemeriksaan penerimaan."
+      ],
+      "path": "/id/blog/rak-penyimpanan-plate-olympic-panduan"
+    },
+    "pl": {
+      "targetKeyword": "stojak na obciążenia olimpijskie 50 mm",
+      "questions": [
+        "Czy każdy talerz 50 mm pasuje na każdy trzpień?",
+        "Ile bumperów mieści jeden trzpień?",
+        "Lepsze drzewko czy stojak szczelinowy?",
+        "Czy trzpienie do power racków są uniwersalne?",
+        "Czy ChinaFreeWeight przeanalizuje kompletny program?"
+      ],
+      "evidence": [
+        "Polskie wyszukiwania używają stojak na obciążenia olimpijskie 50 mm, bumper plates, udźwig i przechowywanie.",
+        "Wersja polska rozdziela geometrię, nośność, stateczność, montaż oraz kontrolę dostawy."
+      ],
+      "path": "/pl/blog/stojak-na-obciazenia-olimpijskie-poradnik"
+    },
+    "ar": {
+      "targetKeyword": "حامل تخزين أقراص الأوزان التجارية",
+      "questions": [
+        "هل يناسب كل قرص أولمبي وتد تخزين 50 مم؟",
+        "كم قرص بامبر يتسع له وتد واحد؟",
+        "هل الشجرة أفضل من الحامل ذي الخانات؟",
+        "هل يمكن تركيب أوتاد راك من علامة على راك آخر؟",
+        "هل تستطيع ChinaFreeWeight توريد الأقراص والتخزين معاً؟"
+      ],
+      "evidence": [
+        "تستخدم الاستفسارات العربية حامل أقراص أوزان أولمبية وشجرة أقراص 50 مم والسعة وتنظيم الصالة.",
+        "تركز النسخة العربية على جدول الأقراص والخلوص والثبات ومسار المستخدم وفحص الاستلام."
+      ],
+      "path": "/ar/blog/weight-plate-storage-rack-buying-guide"
+    },
+    "ko": {
+      "targetKeyword": "상업용 원판 보관대",
+      "questions": [
+        "모든 올림픽 원판이 50 mm 보관봉에 맞나요?",
+        "보관봉 하나에 범퍼 플레이트가 몇 장 들어가나요?",
+        "원판 트리와 슬롯형 랙 중 어느 것이 더 좋은가요?",
+        "한 파워랙의 보관봉을 다른 파워랙에 설치할 수 있나요?",
+        "ChinaFreeWeight에서 원판과 보관대를 함께 공급할 수 있나요?"
+      ],
+      "evidence": [
+        "한국어 검색은 원판 보관대, 50 mm 원판 거치대, 범퍼 플레이트 수납, 허용 하중을 함께 묻습니다.",
+        "한국어판은 완성 치수, 실사용 길이, 편하중, 동선과 입고 검사에 초점을 둡니다."
+      ],
+      "path": "/ko/blog/weight-plate-storage-rack-buying-guide"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Precor",
+      "url": "https://www.precor.com/en-US/products/DBR0817",
+      "observation": "Presents storage by an identified model rather than a universal capacity claim."
+    },
+    {
+      "name": "Eleiko",
+      "url": "https://eleiko.com/en/equipment/outdoor/galvanized/3085718-01-eleiko-prestera-plate-storage-1720mm-outdoor",
+      "observation": "Shows ecosystem-specific rack storage and configuration language."
+    },
+    {
+      "name": "Rival Strength",
+      "url": "https://www.rivalstrength.co.uk/products/t-series-rack-mounted-plate-storage-pair",
+      "observation": "Makes rack interface compatibility part of the product definition."
+    }
+  ],
+  "rejectedTopics": [
+    "Weight-plate outside diameter — already covered by the diameter guide.",
+    "Bumper plate thickness and bar loading — already covered by the sleeve-capacity guide.",
+    "Weight-plate grip openings — already covered by the handling guide.",
+    "Weight-plate edge handling — already published in every locale.",
+    "Dumbbell rack compatibility — published on 2026-10-02 and outside the selected product family."
+  ],
+  "siteGaps": [
+    "No dedicated guide previously connected a real plate schedule to storage format, usable length, load declarations, access, installation and receipt inspection."
+  ],
+  "conflictCheck": {
+    "liveBlogUrlsReviewed": 888,
+    "dedicatedPlateStorageArticleFound": false,
+    "nearestTopics": [
+      "commercial dumbbell rack compatibility",
+      "weight plate outside diameter",
+      "bumper plate thickness and sleeve capacity"
+    ]
+  },
+  "searchRun": {
+    "provider": "Public Google/Bing-visible results and direct source review",
+    "queryFormulationsReviewed": 24,
+    "observedQuestionGroups": 17,
+    "limitations": [
+      "Quora page text was blocked, so no technical claim relies on a Quora answer.",
+      "Community discussions were used only for question wording; engineering guidance relies on responsible product documentation and bounded general safety references."
+    ]
+  },
+  "sources": [
+    {
+      "title": "OSHA 29 CFR 1910.176 — Materials handling and storage",
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176",
+      "primary": true,
+      "use": "Primary U.S. reference for stable storage and clear passageways; explicitly not used as a rack load rating."
+    },
+    {
+      "title": "Precor DBR0817 Olympic Weight Tree",
+      "url": "https://www.precor.com/en-US/products/DBR0817",
+      "primary": true,
+      "use": "Manufacturer page showing that horn count and stated storage values belong to an identified model."
+    },
+    {
+      "title": "Eleiko Prestera Plate Storage",
+      "url": "https://eleiko.com/en/equipment/outdoor/galvanized/3085718-01-eleiko-prestera-plate-storage-1720mm-outdoor",
+      "primary": true,
+      "use": "Manufacturer example showing that rack-mounted storage is tied to a named equipment ecosystem and configuration."
+    },
+    {
+      "title": "Rival T Series Rack Mounted Plate Storage",
+      "url": "https://www.rivalstrength.co.uk/products/t-series-rack-mounted-plate-storage-pair",
+      "primary": true,
+      "use": "Manufacturer example supporting exact upright, hole and hardware compatibility checks."
+    },
+    {
+      "title": "Reddit Weightlifting — bumper plate storage question",
+      "url": "https://www.reddit.com/r/weightlifting/comments/15pa8xv/bumper_plate_storage_what_about_tire_racks/",
+      "primary": false,
+      "use": "Natural buyer wording around plate diameter, slot format and storage footprint; not used as engineering evidence."
+    }
+  ]
+}
