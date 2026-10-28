@@ -1,0 +1,245 @@
+[
+  {
+    "locale": "de",
+    "path": "/de/blog/gtin-ean-kartonetikett-private-label-hanteln",
+    "title": "GTIN & EAN für Private-Label-Hanteln: Einkaufsleitfaden",
+    "description": "Ordnen Sie SKU, GTIN/EAN, Stück, Paar, Set, Umkarton, Druckdatei, Musterfreigabe und Scanprüfung für Hanteln und Scheiben.",
+    "h1": "GTIN, EAN und Kartonetiketten für Private-Label-Gewichte planen",
+    "keyword": "GTIN EAN Private Label Hanteln",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "Kennzeichnung für Eigenmarken",
+    "sections": [
+      {
+        "heading": "Zuerst die bestellbare Einheit festlegen",
+        "text": "Ausgangspunkt ist nicht die Strichgrafik, sondern der Handelsartikel: eine Kurzhantel, ein Paar, ein festes Set, eine einzelne Scheibe oder ein verpacktes Sortiment. Die GTIN kennzeichnet diesen Artikel. EAN-13 und UPC-A sind Symbole, die eine Nummer für das Scannen darstellen können. Eine interne Artikelnummer steuert das eigene Lager, ersetzt aber nicht automatisch die Kennzeichnung, die Handel oder Logistikpartner erwarten.\n\nBei einer Eigenmarke vergibt normalerweise der Markeninhaber die GTIN, auch wenn ein Auftragsfertiger produziert und verpackt. Importeur oder Marke definieren daher die Hierarchie und liefern freigegebene Nummern sowie Druckdaten. ChinaFreeWeight kann diese kontrollierten Dateien anwenden, sollte aber weder eine Handelsnummer erfinden noch ein fremdes Präfix als Eigentum des Käufers darstellen."
+      },
+      {
+        "heading": "Gewicht, Verkaufseinheit und Vertriebskanal abgleichen",
+        "text": "Führen Sie jede verkäufliche Variante in einer eigenen Zeile: kg oder lb, Nenngewicht, Stück, Paar oder Set, Farbe, Oberfläche, Packmenge und Kanal. Werden 10 kg und 12,5 kg getrennt bestellt, bleiben sie unterscheidbare Artikel. Auch Paar und Komplettsatz brauchen eine eigene Entscheidung, sobald sie als geschlossene Einheit bestellt, bepreist oder fakturiert werden.\n\nDie Stammliste trennt Marken-SKU, Beschreibung, GTIN und Verpackungsstufe. Ergänzen Sie Sprache, Zielland, deklarierte Menge und Revisionsstand. So fällt vor dem Druck auf, wenn der Umkarton ein Paar nennt, der Wareneingang aber ein Stück erwartet, oder wenn zwei Gewichte versehentlich auf dieselbe externe Kennung verweisen."
+      },
+      {
+        "heading": "Verkaufspackung und Versandkarton getrennt behandeln",
+        "text": "Die Verkaufspackung muss genau den angebotenen Inhalt abbilden. Wird ein Hantelpaar gemeinsam verkauft, ist die Paarverpackung der Handelsartikel. Sichtbare Codes der Einzelteile dürfen an der Kasse keinen widersprüchlichen Scan auslösen. Wenn Einzelstück und Paar parallel verkauft werden, dokumentieren Sie beide Ebenen und klären Sie die Darstellung mit dem Händler.\n\nDer Umkarton ist eine logistische Stufe. Wird er selbst bestellt, bepreist oder berechnet, kann er eine eigene Kennzeichnung benötigen. Daneben stehen operative Angaben wie Artikelreferenz, Stückzahl, Gewicht und vereinbarte Versandmarkierung. Paletten-, Marktplatz- oder Frachtetiketten folgen weiteren Vorgaben. Stimmen Sie die gesamte Hierarchie mit der zuständigen GS1-Stelle und dem Empfänger ab."
+      },
+      {
+        "heading": "Druckdatei und reales Muster freigeben",
+        "text": "Übermitteln Sie eine kontrollierte Tabelle und finale Vektordaten statt eines Screenshots. Benennen Sie SKU, zugeteilte Nummer, Symbolart, Größe, Farben, Ruhezonen, Klarschriftzeile, Material, Position, Verpackungsstufe und Revisionsverantwortlichen. Vor dem Seriendruck sollte die Fabrik einen digitalen Korrekturabzug und ein angewendetes Verpackungsmuster bereitstellen.\n\nEine korrekte Nummer kann durch den Druck unlesbar werden. Prüfen Sie Prüfziffer, Aufbau, Höhe, Kontrast und freie Randbereiche. Falten, Nähte, Kanten, Klammern, Umreifungen, raue Flächen und Glanz sind ungünstige Positionen. Scannen Sie den tatsächlichen Druck auf dem endgültigen Material mit einem Gerät, das dem vorgesehenen Kassen- oder Lagerumfeld entspricht."
+      },
+      {
+        "heading": "Änderungen bis zur Nachbestellung kontrollieren",
+        "text": "Verknüpfen Sie die freigegebene Matrix mit dem Referenzmuster. Ändern sich Marke, deklarierter Inhalt, Packmenge oder Produktidentität, ist vor dem Etikettendruck zu prüfen, ob eine neue GTIN erforderlich ist. Auch rein grafische Anpassungen erhalten eine neue Dateirevision, damit alte und neue Druckstände nicht vermischt werden.\n\nBei Nachbestellungen werden Bestellung, SKU-Liste, Druckrevision und Kartonplan vor Produktionsbeginn abgeglichen. Die Vorversandprüfung nimmt mehrere Gewichte und Packstufen auf: Klarschriftnummer vergleichen, Symbol scannen und Kartoninhalte öffnen. Unlesbare oder falsch zugeordnete Ware wird gesperrt statt mit einem unkontrollierten Zweitetikett überklebt."
+      },
+      {
+        "heading": "Verantwortung in der Anfrage sichtbar machen",
+        "text": "Nennen Sie Markeninhaber, Nummernvergeber und Freigabestelle. Fügen Sie Märkte, Vertriebskanäle, Gewichtsstufen, Stück/Paar/Set-Logik, Packhierarchie, Sprachen, Aufbringungsverfahren, Kartondaten und Scanumgebung hinzu. Steuerliche, rechtliche oder plattformspezifische Anforderungen sind veränderlich und müssen vom Käufer bei der zuständigen Stelle geprüft werden.\n\nChinaFreeWeight ist eine Fabrik für Kurzhanteln, Gewichtsscheiben und verwandte Freihanteln. Wir können OEM, ODM, Custom Logo, Private Label und Bulk Supply anhand einer freigegebenen Matrix prüfen und Muster, Position, Druck sowie Versandkontrolle für das gewählte Modell koordinieren. Eine ungeprüfte Händlerzulassung oder Eigentum an der Käufer-GTIN wird nicht zugesichert."
+      },
+      {
+        "heading": "Wareneingang vor der ersten Serie proben",
+        "text": "Geben Sie Referenzmuster und Matrix an die Teams für Artikelanlage, Wareneingang und Bestand. Scannen Sie Verkaufseinheit und Karton in der späteren Arbeitsfolge. Die Probe deckt eine gültige Kennung auf der falschen Stufe, ein als Stück angelegtes Paar oder eine Kartonbeschreibung außerhalb der Bestellung auf.\n\nDokumentieren Sie Revision, Lesegerät, Prüfer und Rückgabe des Systems. Der Nachweis gilt für diese Konfiguration und ist keine dauerhafte Zusage. Wechselt Händler, Marketplace oder 3PL, wird die Übergabe mit der aktuellen Vorgabe vor dem nächsten Druck wiederholt."
+      }
+    ],
+    "table": {
+      "heading": "Entscheidungsmatrix für Artikel und Verpackung",
+      "columns": ["Stufe", "Entscheidung", "Freigabenachweis"],
+      "rows": [
+        ["Einzelhantel oder Scheibe", "Wird das Stück einzeln verkauft?", "Eigener Datensatz, Kennung und Stückmuster"],
+        ["Paar", "Ist das Paar eine Verkaufseinheit?", "Inhalt, Außenetikett und Umgang mit Innencodes"],
+        ["Festes Set", "Sind Bestandteile und Mengen vorgegeben?", "Inhaltsliste, Set-Kennung und Packplan"],
+        ["Innenpack", "Wird es gescannt oder nur bewegt?", "Lageranforderung, Menge und Position"],
+        ["Umkarton", "Wird der Karton bestellt oder fakturiert?", "Kennungsentscheidung, Anzahl, Gewicht und Muster"],
+        ["Palette oder Logistiketikett", "Welcher Partner steuert diese Ebene?", "Vorgabe von 3PL, Händler oder Frachtführer" ]
+      ]
+    },
+    "checklist": {
+      "heading": "Prüfliste vor dem Seriendruck",
+      "items": [
+        "Stück, Paar, Set und Karton definieren.",
+        "Gewichte, Farben und Packmengen zuordnen.",
+        "Eigentümer und Nummernvergabe bestätigen.",
+        "Interne SKU und GTIN getrennt führen.",
+        "Symbol, Größe, Farben und Ruhezonen festlegen.",
+        "Nähte, Falten, Kanten und Glanz vermeiden.",
+        "Vektordatei und Druckmuster freigeben.",
+        "Endmaterial in der vorgesehenen Umgebung scannen.",
+        "Revision mit dem Referenzmuster einfrieren.",
+        "Produkt, Etikett und Inhalt vor Versand abgleichen."
+      ]
+    },
+    "faq": [
+      ["Soll die Fabrik die EAN meiner Eigenmarke erzeugen?", "Normalerweise vergibt der Markeninhaber die GTIN und liefert Nummer sowie freigegebene Druckdaten. Die Fabrik druckt und appliziert diese kontrollierte Datei."],
+      ["Braucht jedes Hantelgewicht eine eigene GTIN?", "Wenn Gewichte als unterschiedliche Handelsartikel verkauft werden, führen Sie getrennte Datensätze und wenden die aktuellen GTIN-Regeln an. Die endgültige Hierarchie ist mit GS1 und Vertriebskanal zu prüfen."],
+      ["Kann eine Nummer für Stück, Paar und Set gelten?", "Davon ist nicht auszugehen. Inhalt und Bestellweise unterscheiden sich; definieren Sie jeden Handelsartikel vor der Nummernvergabe."],
+      ["Sind interne Artikelnummer und GTIN identisch?", "Nein. Die SKU steuert interne Abläufe, die GTIN identifiziert den Handelsartikel zwischen Partnern. Eine Stammliste verknüpft beide."],
+      ["Was kann ChinaFreeWeight vor Versand prüfen?", "Mit freigegebener Datei können wir Revision, Platzierung, Druckbild, Code-SKU-Zuordnung, Stichprobenscan und Kartoninhalt koordinieren. Die Kanalzulassung bleibt beim Käufer." ]
+    ],
+    "faqHeading": "Fragen zu GTIN und EAN",
+    "linkHeading": "Eigenmarkenprogramm weiter vorbereiten",
+    "linkLabels": ["Kurzhanteln ansehen", "Gewichtsscheiben ansehen", "Vergleichbare RFQ vorbereiten", "Logooptionen prüfen", "OEM-Muster freigeben", "Exportverpackung planen", "Vorversandprüfung planen", "Artikelmatrix senden"],
+    "imageAlt": "Markenlose Chromhanteln und Scheiben neben neutralen Kartons und Etikettenmuster im Prüfraum",
+    "imageCaption": "Artikel, Verkaufseinheit und Umkarton werden vor der Freigabe des Druckstands eindeutig verknüpft.",
+    "cta": ["Artikel- und Verpackungsmatrix senden", "Teilen Sie Gewichtsstufen, Stück- oder Paarlogik, vergebene Kennungen, Druckrevision, Kartonhierarchie und Vertriebskanal für eine nachvollziehbare Werksprüfung.", "Verpackung prüfen lassen"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/gtin-ean-etiquettes-carton-poids-marque-privee",
+    "title": "GTIN et EAN des Poids en Marque Privée : Guide Pro",
+    "description": "Structurez SKU, GTIN/EAN, unité, paire, lot, carton, fichier d’étiquette, BAT imprimé et lecture pour haltères et disques.",
+    "h1": "Préparer GTIN, EAN et Étiquettes Carton pour des Poids en Marque Privée",
+    "keyword": "GTIN EAN haltères marque privée",
+    "home": "Accueil",
+    "library": "Guides",
+    "eyebrow": "Identification de Marque Privée",
+    "sections": [
+      {
+        "heading": "Définir l’unité commerciale avant le visuel",
+        "text": "Commencez par ce que le client commande : un haltère, une paire, un ensemble fermé, un disque ou un assortiment. Le GTIN identifie l’article commercial ; EAN-13 et UPC-A sont des symboles pouvant porter ce numéro. Le SKU sert au système interne de la marque ou du distributeur, mais ne remplace pas automatiquement l’identifiant demandé par un détaillant ou un logisticien.\n\nEn marque privée, le propriétaire de la marque attribue normalement le GTIN même si la fabrication est confiée à une usine. La marque ou l’importateur construit donc la hiérarchie et fournit numéros et fichiers validés. ChinaFreeWeight peut appliquer ces données à l’emballage convenu, sans inventer un numéro de vente ni présenter le préfixe d’un tiers comme celui de l’acheteur."
+      },
+      {
+        "heading": "Relier poids, présentation et circuit de vente",
+        "text": "Créez une ligne pour chaque variante vendable : kg ou lb, poids nominal, pièce, paire ou kit, couleur, finition, quantité et canal. Deux poids vendus séparément restent deux articles distinguables. Une paire ou un set demande également une décision propre lorsqu’il est commandé, tarifé ou facturé comme un tout.\n\nLe fichier maître sépare SKU de marque, description, identifiant et niveau d’emballage. Ajoutez langue, destination, contenu déclaré et révision graphique. Cette table révèle avant impression une boîte marquée paire alors que le dépôt attend une pièce, ou deux poids reliés par erreur au même identifiant externe."
+      },
+      {
+        "heading": "Distinguer emballage de vente et carton logistique",
+        "text": "L’emballage de vente décrit exactement son contenu. Si deux haltères forment une paire vendue ensemble, l’enveloppe extérieure représente cette unité. Des codes visibles sur les pièces intérieures ne doivent pas créer une lecture contradictoire en caisse. Si la pièce et la paire sont toutes deux commercialisées, documentez les niveaux et validez leur présentation avec l’enseigne.\n\nLe carton maître appartient à la distribution. Lorsqu’il est commandé, tarifé ou facturé comme article, une identification distincte peut être requise. Il porte aussi les données opérationnelles convenues : référence, nombre de pièces, poids et marquage. Les étiquettes palette, transporteur, marketplace ou 3PL suivent une autre procédure ; confirmez la hiérarchie avec GS1 et le destinataire."
+      },
+      {
+        "heading": "Valider le fichier puis le résultat imprimé",
+        "text": "Transmettez une table contrôlée et un fichier vectoriel final, pas une capture d’écran. Précisez SKU, numéro attribué, symbole, dimensions, couleurs, zones de silence, ligne lisible, support, emplacement, niveau et responsable de révision. Demandez un BAT numérique puis un échantillon appliqué sur le carton réel avant le tirage en série.\n\nUn bon numéro peut devenir illisible après impression. Contrôlez clé, construction, hauteur, contraste et marges. Évitez plis, joints, angles, agrafes, feuillards, surfaces rugueuses et reflets. Testez le support définitif avec un lecteur représentatif de la caisse ou de l’entrepôt cible ; une lecture occasionnelle au téléphone ne remplace pas toute la validation."
+      },
+      {
+        "heading": "Maîtriser les changements et réassorts",
+        "text": "Associez la matrice à l’échantillon approuvé. Un changement de marque, contenu déclaré, quantité ou identité produit impose de réexaminer le GTIN avant de modifier l’étiquette. Même une évolution graphique conservant le numéro reçoit une nouvelle révision, afin que l’usine ne mélange pas les anciens et nouveaux fichiers.\n\nAu réassort, rapprochez commande, liste SKU, version et plan de carton avant lancement. L’inspection avant expédition couvre plusieurs poids et niveaux : comparez le numéro lisible, scannez le symbole et ouvrez des cartons. Isolez les étiquettes illisibles ou incohérentes plutôt que d’ajouter un autocollant sans historique."
+      },
+      {
+        "heading": "Clarifier les rôles dans la demande de prix",
+        "text": "Indiquez le propriétaire de marque, l’attributaire des identifiants et le valideur des fichiers. Joignez marchés, canaux, gamme, logique pièce/paire/kit, niveaux, langues, pose, données carton et environnement de lecture. Les obligations légales, fiscales ou de plateforme peuvent varier ; l’acheteur les confirme auprès des organismes et partenaires responsables.\n\nChinaFreeWeight est une usine d’haltères, disques et autres poids libres. Nous pouvons étudier OEM, ODM, Custom Logo, Private Label et Bulk Supply à partir d’une matrice validée, puis coordonner échantillon, placement, impression et contrôle d’expédition. Nous ne revendiquons pas la propriété du GTIN de l’acheteur ni l’acceptation d’un canal non consulté."
+      },
+      {
+        "heading": "Répéter la réception avant le premier lot",
+        "text": "Transmettez échantillon et matrice aux équipes qui créent la fiche, réceptionnent et entrent le stock. Faites lire unité et carton dans l’ordre opérationnel prévu. Cette répétition peut révéler un symbole valide posé au mauvais niveau, une paire enregistrée en pièce ou une description différente de la commande.\n\nConsignez révision, lecteur, opérateur et résultat. La preuve concerne la configuration contrôlée et ne vaut pas garantie permanente. En cas de changement d’enseigne, marketplace ou 3PL, recommencez cette passation avec la spécification à jour avant un nouveau tirage."
+      }
+    ],
+    "table": {
+      "heading": "Matrice des niveaux d’identification",
+      "columns": ["Niveau", "Décision acheteur", "Preuve à valider"],
+      "rows": [
+        ["Haltère ou disque à l’unité", "La pièce est-elle vendue séparément ?", "Fiche article, identifiant et épreuve unité"],
+        ["Paire", "Les deux pièces forment-elles une vente ?", "Contenu, code extérieur et traitement des codes internes"],
+        ["Ensemble fermé", "La composition est-elle fixe ?", "Nomenclature, identifiant du set et plan de calage"],
+        ["Sous-colis", "Est-il scanné ou seulement manutentionné ?", "Besoin entrepôt, quantité et emplacement"],
+        ["Carton maître", "Est-il commandé ou facturé ?", "Décision d’identification, compte, poids et épreuve"],
+        ["Palette ou étiquette logistique", "Quel partenaire la pilote ?", "Spécification 3PL, enseigne ou transporteur" ]
+      ]
+    },
+    "checklist": {
+      "heading": "Contrôles avant impression série",
+      "items": [
+        "Définir pièce, paire, set et carton.",
+        "Mapper poids, couleurs et quantités.",
+        "Confirmer propriétaire et attribution des numéros.",
+        "Séparer SKU interne et GTIN.",
+        "Fixer symbole, dimensions, couleurs et marges.",
+        "Éviter plis, joints, angles et reflets.",
+        "Valider fichier vectoriel et échantillon imprimé.",
+        "Scanner le support final dans son environnement.",
+        "Figer la révision avec l’échantillon.",
+        "Rapprocher produit, étiquette et contenu avant départ."
+      ]
+    },
+    "faq": [
+      ["L’usine doit-elle créer l’EAN de ma marque ?", "Le propriétaire de marque attribue normalement le GTIN et transmet numéro et fichier validés. L’usine imprime et pose ce document contrôlé."],
+      ["Chaque poids d’haltère demande-t-il un GTIN ?", "Si les poids sont vendus comme articles distincts, conservez des fiches séparées et appliquez les règles GTIN actuelles. Validez la hiérarchie avec GS1 et le canal."],
+      ["Un code peut-il couvrir pièce, paire et set ?", "Ne le supposez pas. Contenu et commande diffèrent ; définissez chaque article avant attribution."],
+      ["SKU interne et GTIN sont-ils équivalents ?", "Non. Le SKU organise l’interne, le GTIN identifie l’article entre partenaires. Une matrice peut les relier."],
+      ["Que peut vérifier ChinaFreeWeight ?", "Avec un fichier validé, nous pouvons coordonner révision, placement, aspect, correspondance code-SKU, lecture échantillonnée et contenu carton. L’acceptation du canal reste à l’acheteur." ]
+    ],
+    "faqHeading": "Questions GTIN et EAN",
+    "linkHeading": "Poursuivre le projet de marque privée",
+    "linkLabels": ["Voir les haltères professionnels", "Voir les disques", "Préparer une RFQ comparable", "Étudier les options de logo", "Valider l’échantillon OEM", "Planifier l’emballage export", "Planifier l’inspection avant départ", "Envoyer la matrice articles"],
+    "imageAlt": "Haltères et disques sans marque près de cartons neutres et d’une épreuve d’étiquette en studio",
+    "imageCaption": "Chaque unité de vente et niveau logistique est relié au fichier validé avant l’impression du lot.",
+    "cta": ["Transmettez la matrice articles et cartons", "Partagez gamme, logique pièce ou paire, identifiants attribués, révision, hiérarchie et canal pour une étude d’usine sans donnée supposée.", "Demander l’étude emballage"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/gtin-ean-etichette-cartoni-pesi-private-label",
+    "title": "GTIN ed EAN per Pesi Private Label: Guida all’Acquisto",
+    "description": "Organizza SKU, GTIN/EAN, pezzo, coppia, set, cartone, file etichetta, campione stampato e lettura per manubri e dischi.",
+    "h1": "Pianificare GTIN, EAN ed Etichette Cartone per Pesi Private Label",
+    "keyword": "GTIN EAN manubri private label",
+    "home": "Home",
+    "library": "Guide",
+    "eyebrow": "Identificazione Private Label",
+    "sections": [
+      {
+        "heading": "Definisci l’unità commerciale prima del codice",
+        "text": "Parti da ciò che il cliente ordina: un manubrio, una coppia, un set fisso, un disco o un assortimento. Il GTIN identifica l’articolo commerciale; EAN-13 e UPC-A sono simboli che possono rappresentarlo. Lo SKU serve al gestionale interno della marca o del distributore, ma non sostituisce automaticamente l’identificatore richiesto da negozio, marketplace o logistica.\n\nNel private label il titolare del marchio assegna normalmente il GTIN anche se produzione e imballaggio sono affidati a terzi. Marca o importatore definiscono quindi la gerarchia e inviano numeri e file approvati. ChinaFreeWeight può applicarli alla confezione concordata, senza inventare un numero retail né usare un prefisso altrui come se appartenesse al compratore."
+      },
+      {
+        "heading": "Incrocia peso, confezione e canale",
+        "text": "Crea una riga per ogni variante vendibile: kg o lb, peso nominale, pezzo, coppia o kit, colore, finitura, quantità e canale. Manubri di peso diverso restano articoli distinti quando sono venduti separatamente. Anche coppia e set richiedono una decisione propria quando vengono ordinati, prezzati o fatturati come unità complete.\n\nNel file master separa SKU, descrizione, identificatore e livello di imballaggio. Aggiungi lingua, destinazione, contenuto dichiarato e revisione grafica. La tabella evita che il cartone indichi una coppia mentre il magazzino attende un pezzo, oppure che due pesi differenti condividano per errore la stessa identificazione esterna."
+      },
+      {
+        "heading": "Distingui confezione di vendita e cartone logistico",
+        "text": "La confezione di vendita descrive esattamente il contenuto. Se due manubri sono venduti come coppia, l’involucro esterno rappresenta quell’unità. Codici interni visibili non devono generare una lettura in conflitto alla cassa. Quando pezzo e coppia sono entrambi in vendita, documenta i livelli e concorda la presentazione con il retailer.\n\nIl cartone master è un livello distributivo. Se viene ordinato, prezzato o fatturato, può richiedere una propria identificazione. Riporta anche i dati operativi approvati: riferimento, quantità, peso e marcature. Etichette pallet, corriere, marketplace o 3PL seguono un altro flusso; conferma l’intera gerarchia con GS1 e il destinatario."
+      },
+      {
+        "heading": "Approva file e stampa sul supporto reale",
+        "text": "Invia una tabella controllata e il vettoriale finale, non uno screenshot. Specifica SKU, numero assegnato, simbologia, dimensioni, colori, zone libere, testo leggibile, materiale, posizione, livello e responsabile revisione. Prima della serie, richiedi una prova di stampa digitale e un campione applicato alla confezione effettiva.\n\nAnche un numero corretto può risultare illeggibile. Controlla cifra, costruzione, altezza, contrasto e margini. Evita pieghe, giunte, spigoli, graffe, reggette, superfici ruvide e riflessi. Scansiona la stampa sul materiale definitivo con uno strumento rappresentativo del punto vendita o magazzino previsto."
+      },
+      {
+        "heading": "Blocca modifiche tra campione e riordino",
+        "text": "Collega la matrice al campione approvato. Cambi di marchio, contenuto dichiarato, quantità o identità prodotto richiedono di rivalutare il GTIN prima di stampare. Anche un ritocco grafico che conserva il numero riceve una nuova revisione, così i file vecchi e nuovi non vengono mescolati.\n\nAl riordino confronta ordine, elenco SKU, revisione e piano cartoni. L’ispezione pre-spedizione include pesi e livelli diversi: verifica il numero leggibile, scansiona il simbolo e apri cartoni per controllare il contenuto. Isola gli errori invece di coprirli con una seconda etichetta priva di controllo."
+      },
+      {
+        "heading": "Assegna i ruoli nella richiesta di offerta",
+        "text": "Indica titolare del marchio, soggetto che assegna gli identificatori e responsabile dell’approvazione. Allega mercati, canali, gamma, logica pezzo/coppia/set, gerarchia, lingue, applicazione, dati cartone e ambiente di lettura. Requisiti legali, fiscali o della piattaforma possono cambiare e vanno confermati dal compratore con i soggetti competenti.\n\nChinaFreeWeight è una fabbrica di manubri, dischi e pesi liberi correlati. Possiamo valutare OEM, ODM, Custom Logo, Private Label e Bulk Supply sulla matrice approvata, coordinando campione, posizione, stampa e controllo della spedizione. Non attribuiamo alla fabbrica la proprietà dei GTIN del cliente né garantiamo un canale che non abbia verificato la configurazione."
+      },
+      {
+        "heading": "Simula il ricevimento prima del primo lotto",
+        "text": "Consegna campione e matrice ai team che creano l’anagrafica, ricevono i cartoni e caricano lo stock. Scansiona unità e collo nella stessa sequenza operativa prevista. La prova può evidenziare un simbolo valido sul livello errato, una coppia registrata come pezzo o una descrizione diversa dall’ordine.\n\nRegistra revisione, lettore, operatore e risultato. L’evidenza riguarda quella configurazione e non è una garanzia permanente. Se cambia retailer, marketplace o 3PL, ripeti il passaggio con la specifica corrente prima della nuova stampa."
+      }
+    ],
+    "table": {
+      "heading": "Matrice di identificazione e imballaggio",
+      "columns": ["Livello", "Decisione", "Prova da approvare"],
+      "rows": [
+        ["Manubrio o disco singolo", "Il pezzo è venduto separatamente?", "Riga articolo, identificatore e prova unità"],
+        ["Coppia", "I due pezzi formano una vendita?", "Contenuto, etichetta esterna e codici interni"],
+        ["Set fisso", "Componenti e quantità sono predefiniti?", "Elenco, identificatore set e schema imballo"],
+        ["Imballo interno", "Viene letto o solo movimentato?", "Requisito magazzino, quantità e posizione"],
+        ["Cartone master", "Viene ordinato o fatturato?", "Decisione identificatore, quantità, peso e prova"],
+        ["Pallet o etichetta logistica", "Chi controlla questo livello?", "Specifica 3PL, retailer o vettore" ]
+      ]
+    },
+    "checklist": {
+      "heading": "Controlli prima della stampa in serie",
+      "items": [
+        "Definire pezzo, coppia, set e cartone.",
+        "Mappare pesi, colori e quantità.",
+        "Confermare titolare e assegnazione dei numeri.",
+        "Separare SKU interno e GTIN.",
+        "Fissare simbolo, misure, colori e zone libere.",
+        "Evitare pieghe, giunte, spigoli e riflessi.",
+        "Approvare vettoriale e campione stampato.",
+        "Scansionare il supporto definitivo.",
+        "Bloccare la revisione con il campione.",
+        "Confrontare prodotto, etichetta e contenuto prima della spedizione."
+      ]
+    },
+    "faq": [
+      ["La fabbrica deve creare l’EAN del mio marchio?", "Normalmente il titolare assegna il GTIN e fornisce numero e file approvati. La fabbrica stampa e applica quel documento controllato."],
+      ["Ogni peso del manubrio richiede un GTIN?", "Se i pesi sono articoli distinti, mantieni schede separate e applica le regole GTIN correnti. Conferma la gerarchia con GS1 e il canale."],
+      ["Un codice può coprire pezzo, coppia e set?", "Non darlo per scontato. Contenuto e modalità d’ordine cambiano; definisci ogni articolo prima dell’assegnazione."],
+      ["SKU interno e GTIN coincidono?", "No. Lo SKU organizza l’interno, il GTIN identifica l’articolo tra partner. La matrice può collegarli."],
+      ["Che cosa può controllare ChinaFreeWeight?", "Con il file approvato possiamo coordinare revisione, posizione, aspetto, rapporto codice-SKU, scansione a campione e contenuto cartone. L’accettazione del canale resta al compratore." ]
+    ],
+    "faqHeading": "Domande su GTIN ed EAN",
+    "linkHeading": "Proseguire il progetto private label",
+    "linkLabels": ["Vedere i manubri professionali", "Vedere i dischi", "Preparare una RFQ comparabile", "Valutare le opzioni logo", "Approvare il campione OEM", "Pianificare l’imballaggio export", "Pianificare l’ispezione pre-spedizione", "Inviare la matrice articoli"],
+    "imageAlt": "Manubri cromati e dischi senza marchio vicino a cartoni neutri e prova etichetta in studio",
+    "imageCaption": "Unità di vendita e livello logistico vengono collegati al file approvato prima della stampa del lotto.",
+    "cta": ["Invia la matrice articoli e cartoni", "Condividi gamma, logica pezzo o coppia, identificatori assegnati, revisione, gerarchia e canale per un controllo di fabbrica senza dati presunti.", "Richiedere controllo imballo"]
+  }
+]

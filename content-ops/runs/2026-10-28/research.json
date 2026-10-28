@@ -1,0 +1,1457 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-28",
+  "status": "complete",
+  "selectedTopic": "GTIN, UPC/EAN and carton-label handoff for private-label free weights",
+  "selectionReason": "High-intent brand and importer question that connects item hierarchy, identifier ownership, factory artwork handoff, print verification and receiving without duplicating the existing logo or export-packaging guides.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "private label free weight barcode guide: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "private label free weight barcode guide: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "private label free weight barcode guide: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "private label free weight barcode guide: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "private label free weight barcode guide: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "private label free weight barcode guide: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "private label free weight barcode guide: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "private label free weight barcode guide: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "private label free weight barcode guide: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "private label free weight barcode guide: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "private label free weight barcode guide: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "private label free weight barcode guide: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "private label free weight barcode guide: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "private label free weight barcode guide: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "private label free weight barcode guide: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "GTIN EAN halteres marca própria: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "GTIN EAN halteres marca própria: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "GTIN EAN halteres marca própria: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "GTIN EAN halteres marca própria: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "GTIN EAN halteres marca própria: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "GTIN EAN halteres marca própria: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "GTIN EAN halteres marca própria: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "GTIN EAN halteres marca própria: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "GTIN EAN halteres marca própria: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "GTIN EAN halteres marca própria: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "GTIN EAN halteres marca própria: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "GTIN EAN halteres marca própria: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "GTIN EAN halteres marca própria: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "GTIN EAN halteres marca própria: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "GTIN EAN halteres marca própria: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "GTIN EAN pesas marca propia: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "GTIN EAN pesas marca propia: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "GTIN EAN pesas marca propia: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "GTIN EAN pesas marca propia: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "GTIN EAN pesas marca propia: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "GTIN EAN pesas marca propia: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "GTIN EAN pesas marca propia: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "GTIN EAN pesas marca propia: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "GTIN EAN pesas marca propia: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "GTIN EAN pesas marca propia: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "GTIN EAN pesas marca propia: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "GTIN EAN pesas marca propia: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "GTIN EAN pesas marca propia: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "GTIN EAN pesas marca propia: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "GTIN EAN pesas marca propia: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "GTIN EAN Private Label Hanteln: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "GTIN EAN Private Label Hanteln: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "GTIN EAN Private Label Hanteln: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "GTIN EAN Private Label Hanteln: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "GTIN EAN Private Label Hanteln: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "GTIN EAN Private Label Hanteln: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "GTIN EAN Private Label Hanteln: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "GTIN EAN Private Label Hanteln: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "GTIN EAN Private Label Hanteln: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "GTIN EAN Private Label Hanteln: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "GTIN EAN Private Label Hanteln: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "GTIN EAN Private Label Hanteln: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "GTIN EAN Private Label Hanteln: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "GTIN EAN Private Label Hanteln: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "GTIN EAN Private Label Hanteln: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "GTIN EAN haltères marque privée: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "GTIN EAN haltères marque privée: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "GTIN EAN haltères marque privée: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "GTIN EAN haltères marque privée: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "GTIN EAN haltères marque privée: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "GTIN EAN haltères marque privée: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "GTIN EAN haltères marque privée: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "GTIN EAN haltères marque privée: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "GTIN EAN haltères marque privée: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "GTIN EAN haltères marque privée: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "GTIN EAN haltères marque privée: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "GTIN EAN haltères marque privée: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "GTIN EAN haltères marque privée: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "GTIN EAN haltères marque privée: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "GTIN EAN haltères marque privée: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "GTIN EAN manubri private label: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "GTIN EAN manubri private label: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "GTIN EAN manubri private label: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "GTIN EAN manubri private label: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "GTIN EAN manubri private label: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "GTIN EAN manubri private label: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "GTIN EAN manubri private label: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "GTIN EAN manubri private label: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "GTIN EAN manubri private label: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "GTIN EAN manubri private label: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "GTIN EAN manubri private label: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "GTIN EAN manubri private label: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "GTIN EAN manubri private label: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "GTIN EAN manubri private label: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "GTIN EAN manubri private label: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "GTIN EAN private label hantlar: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "GTIN EAN private label hantlar: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "GTIN EAN private label hantlar: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "GTIN EAN private label hantlar: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "GTIN EAN private label hantlar: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "GTIN EAN private label hantlar: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "GTIN EAN private label hantlar: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "GTIN EAN private label hantlar: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "GTIN EAN private label hantlar: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "GTIN EAN private label hantlar: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "GTIN EAN private label hantlar: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "GTIN EAN private label hantlar: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "GTIN EAN private label hantlar: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "GTIN EAN private label hantlar: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "GTIN EAN private label hantlar: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "GTIN EAN private label dumbbells: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "GTIN EAN private label dumbbells: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "GTIN EAN private label dumbbells: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "GTIN EAN private label dumbbells: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "GTIN EAN private label dumbbells: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "GTIN EAN private label dumbbells: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "GTIN EAN private label dumbbells: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "GTIN EAN private label dumbbells: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "GTIN EAN private label dumbbells: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "GTIN EAN private label dumbbells: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "GTIN EAN private label dumbbells: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "GTIN EAN private label dumbbells: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "GTIN EAN private label dumbbells: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "GTIN EAN private label dumbbells: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "GTIN EAN private label dumbbells: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "GTIN EAN hantle private label: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "GTIN EAN hantle private label: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "GTIN EAN hantle private label: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "GTIN EAN hantle private label: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "GTIN EAN hantle private label: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "GTIN EAN hantle private label: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "GTIN EAN hantle private label: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "GTIN EAN hantle private label: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "GTIN EAN hantle private label: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "GTIN EAN hantle private label: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "GTIN EAN hantle private label: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "GTIN EAN hantle private label: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "GTIN EAN hantle private label: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "GTIN EAN hantle private label: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "GTIN EAN hantle private label: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "GTIN EAN tạ tay nhãn riêng: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "GTIN EAN tạ tay nhãn riêng: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "GTIN EAN tạ tay nhãn riêng: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "GTIN EAN tạ tay nhãn riêng: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "GTIN EAN tạ tay nhãn riêng: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "GTIN EAN tạ tay nhãn riêng: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "GTIN EAN tạ tay nhãn riêng: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "GTIN EAN tạ tay nhãn riêng: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "GTIN EAN tạ tay nhãn riêng: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "GTIN EAN tạ tay nhãn riêng: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "GTIN EAN tạ tay nhãn riêng: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "GTIN EAN tạ tay nhãn riêng: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "GTIN EAN tạ tay nhãn riêng: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "GTIN EAN tạ tay nhãn riêng: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "GTIN EAN tạ tay nhãn riêng: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "GTIN EAN dumbbell merek sendiri: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "GTIN EAN dumbbell merek sendiri: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "GTIN EAN dumbbell merek sendiri: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "GTIN EAN dumbbell merek sendiri: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "GTIN EAN dumbbell merek sendiri: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "GTIN EAN dumbbell merek sendiri: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "GTIN EAN dumbbell merek sendiri: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "GTIN EAN dumbbell merek sendiri: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "GTIN EAN dumbbell merek sendiri: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "GTIN EAN dumbbell merek sendiri: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "GTIN EAN dumbbell merek sendiri: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "GTIN EAN dumbbell merek sendiri: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "GTIN EAN dumbbell merek sendiri: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "GTIN EAN dumbbell merek sendiri: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "GTIN EAN dumbbell merek sendiri: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "GTIN EAN أوزان علامة خاصة: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "GTIN EAN أوزان علامة خاصة: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "GTIN EAN أوزان علامة خاصة: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "GTIN EAN أوزان علامة خاصة: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "GTIN EAN أوزان علامة خاصة: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "GTIN EAN أوزان علامة خاصة: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "GTIN EAN أوزان علامة خاصة: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "GTIN EAN أوزان علامة خاصة: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "GTIN EAN أوزان علامة خاصة: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "GTIN EAN أوزان علامة خاصة: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "GTIN EAN أوزان علامة خاصة: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "GTIN EAN أوزان علامة خاصة: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "GTIN EAN أوزان علامة خاصة: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "GTIN EAN أوزان علامة خاصة: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "GTIN EAN أوزان علامة خاصة: pre-shipment barcode inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: brand owner versus factory GTIN responsibility",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: UPC or EAN for private-label dumbbells",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: one GTIN per dumbbell weight",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: single versus pair barcode",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: set and assortment identification",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: inner pack versus master carton",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: GTIN and internal SKU mapping",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: barcode artwork handoff to factory",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: quiet zone and carton placement",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: printed barcode sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: 3PL receiving scan rehearsal",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: marketplace label versus product barcode",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: private-label weight plate carton labels",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: repeat-order artwork control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "자체 브랜드 덤벨 GTIN EAN: pre-shipment barcode inspection",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "private label free weight barcode guide",
+      "questions": [
+        "Should the factory create the UPC or EAN for my private-label weights?",
+        "Does every dumbbell weight need a different GTIN?",
+        "Can one code cover a single dumbbell, a pair and a set?",
+        "Is an internal SKU the same as a GTIN?",
+        "What can ChinaFreeWeight verify before shipment?"
+      ],
+      "evidence": [
+        "English buyer questions distinguish who obtains a UPC or EAN, whether every weight needs its own record, and how a factory applies the file.",
+        "The edition separates single, pair, set and case levels for retailers, marketplaces and 3PL receiving."
+      ],
+      "path": "/resources/private-label-free-weight-gtin-barcode-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "GTIN EAN halteres marca própria",
+      "questions": [
+        "A fábrica deve criar o EAN da minha marca própria?",
+        "Cada peso de halter precisa de um GTIN?",
+        "Posso usar o mesmo código na peça, no par e no kit?",
+        "SKU interno e GTIN são a mesma coisa?",
+        "O que a ChinaFreeWeight pode conferir no lote?"
+      ],
+      "evidence": [
+        "Buscas brasileiras combinam GTIN, EAN, SKU, marca própria, caixa máster e cadastro de marketplace.",
+        "A edição brasileira usa peça, par e kit e concentra a decisão na matriz que acompanha importação e recebimento."
+      ],
+      "path": "/pt/blog/gtin-ean-etiqueta-caixa-pesos-marca-propria"
+    },
+    "es": {
+      "targetKeyword": "GTIN EAN pesas marca propia",
+      "questions": [
+        "¿Debe la fábrica crear el EAN de mi marca?",
+        "¿Cada peso de mancuerna necesita un GTIN distinto?",
+        "¿Puedo usar un código para pieza, pareja y juego?",
+        "¿El SKU interno equivale al GTIN?",
+        "¿Qué puede comprobar ChinaFreeWeight?"
+      ],
+      "evidence": [
+        "Las consultas usan GTIN, EAN, código de barras, marca propia, pareja, juego y caja máster.",
+        "La versión española prioriza alta de producto, prueba impresa, recepción y control de reposición."
+      ],
+      "path": "/es/blog/gtin-ean-etiquetas-caja-pesas-marca-propia"
+    },
+    "de": {
+      "targetKeyword": "GTIN EAN Private Label Hanteln",
+      "questions": [
+        "Soll die Fabrik die EAN meiner Eigenmarke erzeugen?",
+        "Braucht jedes Hantelgewicht eine eigene GTIN?",
+        "Kann eine Nummer für Stück, Paar und Set gelten?",
+        "Sind interne Artikelnummer und GTIN identisch?",
+        "Was kann ChinaFreeWeight vor Versand prüfen?"
+      ],
+      "evidence": [
+        "Deutschsprachige Fragen verwenden GTIN, EAN, Artikelnummer, Verkaufseinheit, Umkarton und Eigenmarke.",
+        "Die DACH-Fassung betont Stammdaten, Druckfreigabe, Wareneingang und Revisionskontrolle."
+      ],
+      "path": "/de/blog/gtin-ean-kartonetikett-private-label-hanteln"
+    },
+    "fr": {
+      "targetKeyword": "GTIN EAN haltères marque privée",
+      "questions": [
+        "L’usine doit-elle créer l’EAN de ma marque ?",
+        "Chaque poids d’haltère demande-t-il un GTIN ?",
+        "Un code peut-il couvrir pièce, paire et set ?",
+        "SKU interne et GTIN sont-ils équivalents ?",
+        "Que peut vérifier ChinaFreeWeight ?"
+      ],
+      "evidence": [
+        "Les requêtes associent GTIN, EAN, SKU, marque privée, unité consommateur, lot et carton maître.",
+        "La version française articule BAT, support réel, enseigne, logisticien et réassort."
+      ],
+      "path": "/fr/blog/gtin-ean-etiquettes-carton-poids-marque-privee"
+    },
+    "it": {
+      "targetKeyword": "GTIN EAN manubri private label",
+      "questions": [
+        "La fabbrica deve creare l’EAN del mio marchio?",
+        "Ogni peso del manubrio richiede un GTIN?",
+        "Un codice può coprire pezzo, coppia e set?",
+        "SKU interno e GTIN coincidono?",
+        "Che cosa può controllare ChinaFreeWeight?"
+      ],
+      "evidence": [
+        "Le ricerche usano GTIN, EAN, SKU, private label, coppia, set e cartone master.",
+        "La versione italiana segue anagrafica, file vettoriale, campione, ricevimento e riordino."
+      ],
+      "path": "/it/blog/gtin-ean-etichette-cartoni-pesi-private-label"
+    },
+    "sv": {
+      "targetKeyword": "GTIN EAN private label hantlar",
+      "questions": [
+        "Ska fabriken skapa EAN för mitt eget varumärke?",
+        "Behöver varje hantelvikt ett eget GTIN?",
+        "Kan samma kod användas för styck, par och set?",
+        "Är intern SKU samma som GTIN?",
+        "Vad kan ChinaFreeWeight kontrollera?"
+      ],
+      "evidence": [
+        "Svenska frågor använder GTIN, EAN, artikelnummer, eget varumärke, par, set och ytterkartong.",
+        "Texten kopplar artikelregister, tryckprov, mottagning och återorder utan att ge universella kanalregler."
+      ],
+      "path": "/sv/blogg/gtin-ean-kartongmarkning-private-label-vikter"
+    },
+    "nl": {
+      "targetKeyword": "GTIN EAN private label dumbbells",
+      "questions": [
+        "Moet de fabriek de EAN van mijn merk maken?",
+        "Heeft elk dumbbellgewicht een eigen GTIN nodig?",
+        "Kan één code voor stuk, paar en set worden gebruikt?",
+        "Is een interne SKU hetzelfde als GTIN?",
+        "Wat kan ChinaFreeWeight controleren?"
+      ],
+      "evidence": [
+        "Nederlandse zoektaal combineert GTIN, EAN, artikelnummer, eigen merk, paar, set en omdoos.",
+        "De editie legt de nadruk op artikelhiërarchie, drukproef, logistieke ontvangst en revisiebeheer."
+      ],
+      "path": "/nl/blog/gtin-ean-doosetiketten-private-label-gewichten"
+    },
+    "pl": {
+      "targetKeyword": "GTIN EAN hantle private label",
+      "questions": [
+        "Czy fabryka ma utworzyć EAN mojej marki?",
+        "Czy każda masa hantli potrzebuje GTIN?",
+        "Czy jeden kod obejmie sztukę, parę i set?",
+        "Czy wewnętrzny SKU to GTIN?",
+        "Co może sprawdzić ChinaFreeWeight?"
+      ],
+      "evidence": [
+        "Polskie wyszukiwania łączą GTIN, EAN, SKU, markę własną, parę, zestaw i karton zbiorczy.",
+        "Wersja polska prowadzi od kartoteki przez próbkę druku do przyjęcia i ponownego zamówienia."
+      ],
+      "path": "/pl/blog/gtin-ean-etykiety-kartonow-ciezary-private-label"
+    },
+    "vi": {
+      "targetKeyword": "GTIN EAN tạ tay nhãn riêng",
+      "questions": [
+        "Nhà máy có nên tạo EAN cho thương hiệu của tôi?",
+        "Mỗi mức tạ tay có cần GTIN riêng?",
+        "Có thể dùng một mã cho chiếc, cặp và bộ không?",
+        "SKU nội bộ có giống GTIN không?",
+        "ChinaFreeWeight có thể kiểm tra gì?"
+      ],
+      "evidence": [
+        "Truy vấn dùng mã SKU, GTIN, EAN, mã vạch, hàng nhãn riêng, chiếc, cặp và thùng ngoài.",
+        "Bản tiếng Việt gắn tệp nhãn với sàn, 3PL và quy trình nhận hàng thực tế."
+      ],
+      "path": "/vi/blog/gtin-ean-nhan-thung-ta-nhan-rieng"
+    },
+    "id": {
+      "targetKeyword": "GTIN EAN dumbbell merek sendiri",
+      "questions": [
+        "Apakah pabrik harus membuat EAN merek saya?",
+        "Apakah setiap berat dumbbell memerlukan GTIN?",
+        "Bisakah satu kode dipakai untuk satuan, pasang, dan set?",
+        "Apakah SKU internal sama dengan GTIN?",
+        "Apa yang dapat diperiksa ChinaFreeWeight?"
+      ],
+      "evidence": [
+        "Pencarian Indonesia memakai SKU, GTIN, EAN, kode batang, merek sendiri, pasang, set, dan karton induk.",
+        "Edisi Indonesia membedakan data merek, berkas pabrik, marketplace, 3PL, dan penerimaan barang."
+      ],
+      "path": "/id/blog/gtin-ean-label-karton-beban-merek-sendiri"
+    },
+    "ar": {
+      "targetKeyword": "GTIN EAN أوزان علامة خاصة",
+      "questions": [
+        "هل يجب أن ينشئ المصنع EAN لعلامتي؟",
+        "هل يحتاج كل وزن دمبل إلى GTIN؟",
+        "هل يصلح رمز واحد للقطعة والزوج والطقم؟",
+        "هل SKU الداخلي هو GTIN؟",
+        "ما الذي تستطيع ChinaFreeWeight فحصه؟"
+      ],
+      "evidence": [
+        "تجمع الاستفسارات العربية بين GTIN وEAN وSKU والعلامة الخاصة والزوج والطقم والكرتون الرئيسي.",
+        "تربط النسخة العربية ملكية الرقم بملف المشتري وفحص الطباعة والاستلام."
+      ],
+      "path": "/ar/blog/private-label-free-weight-gtin-barcode-guide"
+    },
+    "ko": {
+      "targetKeyword": "자체 브랜드 덤벨 GTIN EAN",
+      "questions": [
+        "공장이 자체 브랜드 EAN을 만들어야 하나요?",
+        "덤벨 중량마다 GTIN이 필요한가요?",
+        "낱개, 한 쌍, 세트에 같은 코드를 써도 되나요?",
+        "내부 SKU와 GTIN은 같은가요?",
+        "ChinaFreeWeight는 무엇을 확인할 수 있나요?"
+      ],
+      "evidence": [
+        "한국어 검색은 GTIN, EAN, SKU, 자체 브랜드, 낱개, 한 쌍, 세트와 마스터 카톤을 함께 묻습니다.",
+        "한국어판은 상품 등록, 인쇄 샘플, 물류센터 입고와 재주문 개정을 연결합니다."
+      ],
+      "path": "/ko/blog/private-label-free-weight-gtin-barcode-guide"
+    }
+  },
+  "competitors": [
+    {
+      "name": "GymWeightSupply",
+      "url": "https://gymweightsupply.com/oem-odm",
+      "observation": "Mentions label files, barcodes, carton marks and packing-language inputs but does not provide a complete item-hierarchy decision method."
+    },
+    {
+      "name": "GripForge Fitness",
+      "url": "https://www.dumbbellmanufacturers.com/",
+      "observation": "Lists barcode labels and retail packaging among private-label inputs; exact commercial claims were not reused."
+    },
+    {
+      "name": "Yunlingyu",
+      "url": "https://yunlingyusport.com/oem-private-label/",
+      "observation": "Treats barcode and carton files as buyer-supplied packaging requirements; no technical claim relies on the page."
+    }
+  ],
+  "rejectedTopics": [
+    "Custom-logo application methods — already covered in every locale.",
+    "General export packaging strength — already covered in every locale.",
+    "Pre-shipment inspection — already has a dedicated multilingual guide.",
+    "Dumbbell weight markings — already covered by marking and unit guides.",
+    "Weight-plate storage — published on 2026-10-27 and intentionally avoided."
+  ],
+  "siteGaps": [
+    "No existing guide previously explained who controls identifiers, how single/pair/set/case levels differ, or how the buyer hands approved files to the free-weight factory."
+  ],
+  "conflictCheck": {
+    "liveBlogUrlsReviewed": 901,
+    "dedicatedGtinBarcodeArticleFound": false,
+    "nearestTopics": [
+      "custom-logo free weights",
+      "export packaging",
+      "OEM sample approval",
+      "pre-shipment inspection"
+    ]
+  },
+  "searchRun": {
+    "provider": "Public Google and Bing result review plus direct source verification",
+    "queryFormulationsReviewed": 12,
+    "observedQuestionGroups": 16,
+    "limitations": [
+      "Bing's live interface returned no usable organic result body for the focused query, so no claim depends on it.",
+      "Quora blocked automated access; no answer text was used.",
+      "Reddit supplied buyer wording only. Standards and allocation claims rely on GS1 sources.",
+      "Paid search cache was not refreshed because this run is not the scheduled Sunday research refresh."
+    ]
+  },
+  "sources": [
+    {
+      "title": "GS1 — Who is responsible for numbering trade items?",
+      "url": "https://support.gs1.org/support/solutions/articles/43000734414-who-is-responsible-for-numbering-trade-items-",
+      "primary": true,
+      "use": "Primary source for the normal responsibility of the brand owner, including an importer or wholesaler selling under its own brand."
+    },
+    {
+      "title": "GS1 GTIN Management Standard",
+      "url": "https://www.gs1.org/sites/default/files/docs/barcodes/GS1_GTIN_Management_Standard.pdf",
+      "primary": true,
+      "use": "Primary standard for reviewing new products, declared content, brand and pack or case quantity changes; no local legal conclusion is inferred."
+    },
+    {
+      "title": "GS1 — What should I check to ensure good quality barcodes?",
+      "url": "https://support.gs1.org/support/solutions/articles/43000734141-what-should-i-check-to-ensure-good-quality-barcodes-",
+      "primary": true,
+      "use": "Primary guidance for check digit, quiet zones, contrast, height, substrate obstacles, damage and placement checks."
+    },
+    {
+      "title": "GS1 General Specifications",
+      "url": "https://ref.gs1.org/standards/genspecs/",
+      "primary": true,
+      "use": "Normative reference for barcode placement and for avoiding seams, folds, edges, staples and conflicting identifiers."
+    },
+    {
+      "title": "Reddit r/barcodes — who is responsible for the barcode, brand or overseas manufacturer?",
+      "url": "https://www.reddit.com/r/barcodes/comments/1arou7a/questions_about_barcodes_from_a_soon_to_be_food/",
+      "primary": false,
+      "use": "Natural buyer wording about giving an allocated number to a contract manufacturer; not used as standards evidence."
+    }
+  ]
+}

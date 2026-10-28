@@ -1,0 +1,124 @@
+[
+  {
+    "locale": "vi",
+    "path": "/vi/blog/gtin-ean-nhan-thung-ta-nhan-rieng",
+    "title": "GTIN, EAN cho Tạ Nhãn Riêng: Hướng Dẫn Mua B2B",
+    "description": "Lập bảng SKU, GTIN/EAN, chiếc, cặp, bộ, thùng ngoài, tệp nhãn, mẫu in và kiểm tra quét cho tạ tay và bánh tạ nhãn riêng.",
+    "h1": "Cách Chuẩn Bị GTIN, EAN và Nhãn Thùng cho Tạ Nhãn Riêng",
+    "keyword": "GTIN EAN tạ tay nhãn riêng",
+    "home": "Trang chủ",
+    "library": "Hướng dẫn",
+    "eyebrow": "Nhận Diện Hàng Nhãn Riêng",
+    "sections": [
+      {
+        "heading": "Xác định đơn vị bán trước khi làm nhãn",
+        "text": "Hãy bắt đầu từ mặt hàng khách thực sự đặt: một quả tạ tay, một cặp, một bộ cố định, một bánh tạ hoặc một hộp phối hợp. GTIN nhận diện mặt hàng thương mại; EAN-13 và UPC-A là dạng ký hiệu có thể mang số đó để quét. SKU nội bộ phục vụ kho của thương hiệu hay nhà phân phối, nhưng không tự động thay thế mã nhận diện mà kênh bán hoặc 3PL yêu cầu.\n\nVới hàng nhãn riêng, chủ sở hữu thương hiệu thường là bên cấp GTIN dù nhà máy khác sản xuất và đóng gói. Vì vậy thương hiệu hoặc nhà nhập khẩu xây cây mặt hàng, lấy số và gửi tệp đã duyệt. ChinaFreeWeight có thể in đúng tệp kiểm soát, nhưng không tự tạo số bán lẻ hoặc sử dụng tiền tố của một doanh nghiệp khác như tài sản của người mua."
+      },
+      {
+        "heading": "Lập ma trận theo mức tạ và cách bán",
+        "text": "Tạo một dòng cho mỗi biến thể có thể bán: kg hoặc lb, mức tạ, chiếc, cặp hay bộ, màu, bề mặt, số lượng trong hộp và kênh. Hai mức tạ bán riêng là hai mặt hàng phân biệt. Một cặp và một bộ hoàn chỉnh cũng cần quyết định riêng khi được đặt, báo giá hoặc xuất hóa đơn như một đơn vị.\n\nTách SKU thương hiệu, mô tả, mã thương mại và cấp bao bì thành các cột riêng. Thêm ngôn ngữ, thị trường, nội dung công bố và phiên bản thiết kế. Bảng này giúp phát hiện trước khi in nếu thùng ghi cặp nhưng kho đang chờ một chiếc, hoặc hai mức tạ bị gán nhầm cùng một mã ngoài hệ thống."
+      },
+      {
+        "heading": "Phân biệt hộp bán lẻ và thùng vận chuyển",
+        "text": "Bao bì bán lẻ phải đúng với lượng hàng bên trong. Nếu hai quả tạ được bán thành cặp, hộp ngoài của cặp là mặt hàng thương mại. Mã trên từng sản phẩm bên trong không được gây quét nhầm tại điểm bán. Nếu vừa bán lẻ từng chiếc vừa bán cặp, hãy ghi rõ cả hai cấp và xác nhận cách trình bày với nhà bán lẻ.\n\nThùng ngoài là cấp logistics. Khi bản thân thùng được đặt, định giá hoặc lập hóa đơn, nó có thể cần nhận diện riêng. Thùng còn mang dữ liệu vận hành đã thống nhất như mã hàng, số lượng, khối lượng và ký mã hiệu. Nhãn pallet, đơn vị vận chuyển, sàn thương mại hay 3PL thuộc quy trình khác; cần xác nhận toàn bộ cây với GS1 và nơi nhận."
+      },
+      {
+        "heading": "Duyệt tệp rồi kiểm tra bản in thật",
+        "text": "Gửi bảng kiểm soát và tệp vector cuối cùng, không chỉ gửi ảnh chụp màn hình. Nêu SKU, số được cấp, loại ký hiệu, kích thước, màu, khoảng trống, dòng số đọc được, vật liệu, vị trí, cấp bao bì và người quản lý phiên bản. Trước khi in số lượng lớn, yêu cầu bản duyệt điện tử và mẫu nhãn đặt trên chính loại hộp sẽ dùng.\n\nSố đúng vẫn có thể không đọc được nếu in sai. Kiểm tra số kiểm tra, cấu trúc, chiều cao, tương phản và vùng trống. Tránh nếp gấp, mép nối, góc hộp, ghim, dây đai, bề mặt thô và vùng phản sáng. Quét mẫu trên vật liệu cuối cùng bằng thiết bị đại diện cho quầy bán hoặc kho dự kiến."
+      },
+      {
+        "heading": "Kiểm soát thay đổi và đơn tái nhập",
+        "text": "Gắn ma trận với mẫu đã duyệt. Nếu đổi thương hiệu, nội dung công bố, số lượng đóng gói hoặc nhận diện sản phẩm, hãy xem lại việc cần GTIN mới trước khi sửa nhãn. Ngay cả thay đổi đồ họa không đổi số cũng phải có phiên bản mới để nhà máy không trộn tệp cũ và mới.\n\nVới đơn tái nhập, đối chiếu đơn mua, danh sách SKU, phiên bản tệp và sơ đồ thùng trước sản xuất. Khi kiểm hàng trước giao, lấy mẫu ở nhiều mức tạ và cấp bao bì, so dòng số, quét ký hiệu và mở thùng đối chiếu. Cách ly nhãn sai thay vì dán chồng bằng tem thứ hai không có kiểm soát."
+      },
+      {
+        "heading": "Ghi rõ trách nhiệm trong yêu cầu báo giá",
+        "text": "Nêu ai sở hữu thương hiệu, ai cấp số và ai duyệt thiết kế. Đính kèm thị trường, kênh bán, dải tạ, logic chiếc/cặp/bộ, cây bao bì, ngôn ngữ, cách dán, dữ liệu thùng và môi trường quét. Yêu cầu pháp lý, thuế hoặc của sàn có thể thay đổi; người mua cần xác nhận với đơn vị chịu trách nhiệm.\n\nChinaFreeWeight là nhà máy tạ tay, bánh tạ và các loại tạ rời liên quan. Chúng tôi có thể đánh giá OEM, ODM, Custom Logo, Private Label và Bulk Supply theo ma trận đã duyệt, rồi phối hợp mẫu, vị trí, in và kiểm tra giao hàng. Chúng tôi không nhận quyền sở hữu GTIN của khách hoặc bảo đảm một kênh chưa xem cấu hình sẽ chấp nhận."
+      },
+      {
+        "heading": "Chạy thử quy trình nhận hàng trước chuyến đầu",
+        "text": "Giao mẫu chuẩn và ma trận cho nhóm tạo danh mục, nhận thùng và nhập kho. Hãy quét đơn vị bán cùng thùng ngoài theo đúng thứ tự sẽ dùng. Buổi chạy thử có thể phát hiện ký hiệu hợp lệ nhưng đặt sai cấp, một cặp bị đăng ký thành một chiếc hoặc mô tả thùng lệch với đơn mua.\n\nGhi lại phiên bản, thiết bị, người thực hiện và kết quả hệ thống. Bằng chứng chỉ áp dụng cho cấu hình được kiểm tra, không bảo đảm vĩnh viễn. Khi đổi sàn, nhà bán lẻ hoặc 3PL, hãy lặp lại bàn giao theo quy cách hiện hành trước lần in tiếp theo."
+      }
+    ],
+    "table": { "heading": "Ma trận quyết định theo cấp bao bì", "columns": ["Cấp", "Quyết định", "Bằng chứng duyệt"], "rows": [
+      ["Tạ tay hoặc bánh tạ lẻ", "Một chiếc có bán riêng không?", "Dòng mặt hàng riêng, mã và mẫu đơn vị"],
+      ["Cặp", "Hai chiếc có phải một đơn vị bán?", "Nội dung, nhãn ngoài và xử lý mã bên trong"],
+      ["Bộ cố định", "Thành phần và số lượng có cố định?", "Danh sách, mã bộ và sơ đồ đóng gói"],
+      ["Hộp trong", "Có quét hay chỉ dùng để xếp dỡ?", "Yêu cầu kho, số lượng và vị trí"],
+      ["Thùng ngoài", "Thùng có được đặt hoặc lập hóa đơn?", "Quyết định mã, số lượng, khối lượng và mẫu"],
+      ["Pallet hoặc nhãn logistics", "Đối tác nào kiểm soát cấp này?", "Quy cách của 3PL, nhà bán lẻ hoặc vận chuyển"] ] },
+    "checklist": { "heading": "Kiểm tra trước khi in hàng loạt", "items": [
+      "Xác định chiếc, cặp, bộ và thùng.", "Lập bảng mức tạ, màu và số lượng.", "Xác nhận chủ sở hữu và bên cấp số.", "Tách SKU nội bộ khỏi GTIN.", "Khóa loại ký hiệu, kích thước, màu và khoảng trống.", "Tránh nếp gấp, mép nối, góc và phản sáng.", "Duyệt tệp vector và mẫu in.", "Quét trên vật liệu cuối cùng.", "Khóa phiên bản cùng mẫu chuẩn.", "Đối chiếu sản phẩm, nhãn và thùng trước giao." ] },
+    "faq": [
+      ["Nhà máy có nên tạo EAN cho thương hiệu của tôi?", "Chủ sở hữu thương hiệu thường cấp GTIN và gửi số cùng tệp đã duyệt. Nhà máy in và dán đúng tài liệu kiểm soát đó."],
+      ["Mỗi mức tạ tay có cần GTIN riêng?", "Nếu các mức tạ là mặt hàng bán riêng, hãy giữ hồ sơ tách biệt và áp dụng quy tắc GTIN hiện hành. Xác nhận cây cuối cùng với GS1 và kênh bán."],
+      ["Có thể dùng một mã cho chiếc, cặp và bộ không?", "Không nên mặc định. Nội dung và cách đặt hàng khác nhau; hãy định nghĩa từng mặt hàng trước khi cấp mã."],
+      ["SKU nội bộ có giống GTIN không?", "Không. SKU quản lý nội bộ; GTIN nhận diện mặt hàng giữa các đối tác. Ma trận có thể liên kết hai trường."],
+      ["ChinaFreeWeight có thể kiểm tra gì?", "Với tệp đã duyệt, chúng tôi có thể phối hợp phiên bản, vị trí, hình in, đối chiếu mã-SKU, quét mẫu và nội dung thùng. Việc kênh chấp nhận thuộc trách nhiệm người mua."] ],
+    "faqHeading": "Câu hỏi về GTIN và EAN", "linkHeading": "Tiếp tục chuẩn bị chương trình nhãn riêng",
+    "linkLabels": ["Xem tạ tay thương mại", "Xem bánh tạ", "Chuẩn bị RFQ có thể so sánh", "Xem phương án logo", "Duyệt mẫu OEM", "Lập phương án bao bì xuất khẩu", "Lập kế hoạch kiểm hàng", "Gửi ma trận mặt hàng"],
+    "imageAlt": "Tạ tay và bánh tạ không thương hiệu cạnh thùng trơn và bản duyệt nhãn trên bàn mẫu",
+    "imageCaption": "Mỗi đơn vị bán và cấp thùng cần được liên kết với tệp đã duyệt trước khi in số lượng lớn.",
+    "cta": ["Gửi ma trận mặt hàng và thùng", "Chia sẻ dải tạ, logic chiếc hoặc cặp, mã đã cấp, phiên bản, cây bao bì và kênh để nhà máy đánh giá mà không tự điền dữ liệu.", "Yêu cầu đánh giá bao bì"]
+  },
+  {
+    "locale": "id",
+    "path": "/id/blog/gtin-ean-label-karton-beban-merek-sendiri",
+    "title": "GTIN dan EAN untuk Beban Merek Sendiri: Panduan B2B",
+    "description": "Atur SKU, GTIN/EAN, satuan, pasang, set, karton induk, berkas label, sampel cetak, dan uji pindai dumbbell serta plate.",
+    "h1": "Menyiapkan GTIN, EAN, dan Label Karton untuk Beban Merek Sendiri",
+    "keyword": "GTIN EAN dumbbell merek sendiri",
+    "home": "Beranda",
+    "library": "Panduan",
+    "eyebrow": "Identifikasi Merek Milik Pembeli",
+    "sections": [
+      {
+        "heading": "Tentukan unit jual sebelum membuat label",
+        "text": "Mulailah dari barang yang benar-benar dipesan: satu dumbbell, sepasang, satu set tetap, satu plate, atau paket campuran. GTIN mengidentifikasi barang dagang, sedangkan EAN-13 dan UPC-A adalah simbol yang dapat memuat nomor untuk dipindai. SKU internal membantu sistem gudang sendiri, tetapi tidak otomatis menggantikan identifikasi yang diminta peritel, marketplace, atau 3PL.\n\nUntuk produk merek milik pembeli, pemilik merek biasanya mengalokasikan GTIN walaupun pabrik lain memproduksi dan mengemas. Merek atau importir menyusun tingkat barang, lalu mengirim nomor dan berkas yang sudah disetujui. ChinaFreeWeight dapat mencetak berkas terkendali tersebut, tetapi tidak seharusnya membuat nomor retail tanpa keputusan pembeli atau memakai prefiks pihak lain."
+      },
+      {
+        "heading": "Hubungkan berat, bentuk penjualan, dan kanal",
+        "text": "Buat satu baris untuk setiap varian yang dijual: kg atau lb, berat nominal, satuan, pasang atau set, warna, lapisan, jumlah isi, dan kanal. Dumbbell dengan berat berbeda tetap menjadi barang terpisah bila dijual sendiri-sendiri. Pasangan dan set lengkap juga membutuhkan keputusan sendiri ketika dipesan, diberi harga, atau ditagihkan sebagai satu kesatuan.\n\nPisahkan SKU merek, deskripsi, identifikasi dagang, dan tingkat kemasan. Tambahkan bahasa, tujuan, isi yang dinyatakan, dan revisi desain. Tabel ini mencegah karton bertuliskan sepasang saat gudang menunggu satu buah, atau dua berat berbeda menerima nomor eksternal yang sama."
+      },
+      {
+        "heading": "Bedakan kemasan jual dan karton induk",
+        "text": "Kemasan jual harus sesuai dengan isi sebenarnya. Jika dua dumbbell dijual sebagai pasangan, kemasan luar pasangan itulah unit dagangnya. Kode pada barang di dalam tidak boleh menimbulkan pemindaian yang bertentangan di kasir. Bila satuan dan pasangan sama-sama dijual, dokumentasikan kedua tingkat dan konfirmasikan tampilannya kepada peritel.\n\nKarton induk adalah tingkat logistik. Jika karton itu sendiri dipesan, diberi harga, atau ditagihkan, mungkin diperlukan identifikasi tersendiri. Karton juga memuat data operasional yang disepakati seperti referensi, jumlah, berat, dan tanda penanganan. Label palet, kurir, marketplace, atau 3PL mengikuti alur lain; konfirmasikan seluruh hierarki dengan GS1 dan penerima."
+      },
+      {
+        "heading": "Setujui berkas dan hasil cetak nyata",
+        "text": "Kirim tabel terkendali serta berkas vektor final, bukan tangkapan layar. Cantumkan SKU, nomor yang dialokasikan, jenis simbol, ukuran, warna, area kosong, baris angka terbaca, bahan, posisi, tingkat, dan pemilik revisi. Sebelum produksi banyak, mintalah bukti digital dan sampel pada kemasan yang sebenarnya.\n\nNomor yang benar tetap bisa gagal dibaca karena pencetakan. Periksa digit, konstruksi, tinggi, kontras, dan ruang bebas. Hindari lipatan, sambungan, sudut, staples, tali, permukaan kasar, dan pantulan. Pindai bahan akhir dengan perangkat yang mewakili toko atau gudang tujuan."
+      },
+      {
+        "heading": "Kendalikan perubahan dan pesanan ulang",
+        "text": "Hubungkan matriks dengan sampel yang disetujui. Perubahan merek, isi yang dinyatakan, jumlah kemasan, atau identitas produk perlu ditinjau untuk menentukan GTIN baru sebelum label dicetak. Perubahan grafis yang mempertahankan nomor tetap harus mendapat revisi baru agar pabrik tidak mencampur berkas lama dan baru.\n\nUntuk pesanan ulang, cocokkan pesanan pembelian, daftar SKU, revisi, dan rencana karton sebelum produksi. Pemeriksaan sebelum kirim mencakup beberapa berat dan tingkat: bandingkan nomor terbaca, pindai simbol, lalu buka karton. Pisahkan label salah, bukan menutupinya dengan stiker kedua tanpa kendali revisi."
+      },
+      {
+        "heading": "Tetapkan tanggung jawab dalam permintaan harga",
+        "text": "Sebutkan pemilik merek, pihak pengalokasi nomor, dan pemberi persetujuan desain. Lampirkan pasar, kanal, rentang berat, logika satuan/pasang/set, hierarki, bahasa, metode penerapan, data karton, dan lingkungan pindai. Persyaratan hukum, pajak, atau platform dapat berubah; pembeli perlu mengonfirmasinya kepada pihak yang bertanggung jawab.\n\nChinaFreeWeight adalah pabrik dumbbell, plate, dan beban bebas terkait. Kami dapat menilai OEM, ODM, logo khusus, merek milik pembeli, dan pasokan volume besar berdasarkan matriks yang disetujui, lalu mengoordinasikan sampel, posisi, cetak, dan pemeriksaan pengiriman. Kami tidak mengklaim kepemilikan GTIN pembeli atau menjamin kanal yang belum menilai susunan tersebut."
+      },
+      {
+        "heading": "Uji alur penerimaan sebelum kiriman pertama",
+        "text": "Berikan sampel acuan dan matriks kepada tim yang membuat katalog, menerima karton, dan memasukkan stok. Pindai unit jual serta karton dalam urutan kerja nyata. Uji ini dapat menemukan simbol benar pada tingkat yang salah, pasangan terdaftar sebagai satuan, atau deskripsi karton yang tidak sama dengan pesanan.\n\nCatat revisi, perangkat, pelaksana, dan hasil sistem. Bukti itu hanya berlaku untuk susunan yang diperiksa, bukan jaminan permanen. Jika peritel, marketplace, atau 3PL berubah, ulangi serah terima sesuai spesifikasi terbaru sebelum pencetakan berikutnya."
+      }
+    ],
+    "table": { "heading": "Matriks keputusan identifikasi", "columns": ["Tingkat", "Keputusan pembeli", "Bukti persetujuan"], "rows": [
+      ["Dumbbell atau plate satuan", "Apakah satu buah dijual terpisah?", "Baris barang, identifikasi, dan sampel satuan"],
+      ["Pasangan", "Apakah dua buah satu unit jual?", "Isi, label luar, dan perlakuan kode dalam"],
+      ["Set tetap", "Apakah komponen dan jumlahnya tetap?", "Daftar isi, identifikasi set, dan gambar kemasan"],
+      ["Kemasan dalam", "Apakah dipindai atau hanya ditangani?", "Kebutuhan gudang, jumlah, dan posisi"],
+      ["Karton induk", "Apakah karton dipesan atau ditagihkan?", "Keputusan identifikasi, jumlah, berat, dan sampel"],
+      ["Palet atau label logistik", "Mitra mana yang mengendalikan tingkat ini?", "Spesifikasi 3PL, peritel, atau pengangkut"] ] },
+    "checklist": { "heading": "Daftar sebelum cetak massal", "items": [
+      "Tentukan satuan, pasang, set, dan karton.", "Petakan berat, warna, dan jumlah kemasan.", "Konfirmasikan pemilik serta pengalokasi nomor.", "Pisahkan SKU internal dari GTIN.", "Tetapkan simbol, ukuran, warna, dan area kosong.", "Hindari lipatan, sambungan, sudut, dan pantulan.", "Setujui berkas vektor serta sampel cetak.", "Pindai pada bahan akhir.", "Bekukan revisi bersama sampel acuan.", "Cocokkan produk, label, dan isi sebelum kirim." ] },
+    "faq": [
+      ["Apakah pabrik harus membuat EAN merek saya?", "Pemilik merek biasanya mengalokasikan GTIN dan mengirim nomor serta berkas yang disetujui. Pabrik mencetak dan menerapkan dokumen terkendali itu."],
+      ["Apakah setiap berat dumbbell memerlukan GTIN?", "Jika berat dijual sebagai barang berbeda, simpan catatan terpisah dan terapkan aturan GTIN terkini. Konfirmasikan hierarki dengan GS1 dan kanal."],
+      ["Bisakah satu kode dipakai untuk satuan, pasang, dan set?", "Jangan diasumsikan. Isi dan cara pemesanan berbeda; tentukan setiap barang dagang sebelum alokasi."],
+      ["Apakah SKU internal sama dengan GTIN?", "Tidak. SKU mengatur operasi internal; GTIN mengidentifikasi barang di antara mitra. Matriks dapat menghubungkan keduanya."],
+      ["Apa yang dapat diperiksa ChinaFreeWeight?", "Dengan berkas yang disetujui, kami dapat mengoordinasikan revisi, posisi, hasil cetak, hubungan kode-SKU, pindai sampel, dan isi karton. Penerimaan kanal tetap menjadi tanggung jawab pembeli."] ],
+    "faqHeading": "Pertanyaan tentang GTIN dan EAN", "linkHeading": "Lanjutkan persiapan program merek milik pembeli",
+    "linkLabels": ["Lihat dumbbell komersial", "Lihat plate", "Siapkan RFQ yang dapat dibandingkan", "Tinjau opsi logo", "Setujui sampel OEM", "Rencanakan kemasan ekspor", "Rencanakan inspeksi sebelum kirim", "Kirim matriks barang"],
+    "imageAlt": "Dumbbell warna dan plate tanpa merek di samping karton polos serta bukti label pada meja sampel",
+    "imageCaption": "Setiap unit jual dan tingkat logistik dihubungkan dengan berkas yang disetujui sebelum pencetakan massal.",
+    "cta": ["Kirim matriks barang dan karton", "Bagikan rentang berat, logika satuan atau pasang, identifikasi yang dialokasikan, revisi, hierarki kemasan, dan kanal untuk penilaian pabrik yang jelas.", "Minta tinjauan kemasan"]
+  }
+]

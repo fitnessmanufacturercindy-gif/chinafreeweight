@@ -93,6 +93,8 @@
     "audit:neoprene-vinyl-dumbbells-rendered": "node scripts/verify-neoprene-vinyl-dumbbell-rendering.mjs",
     "audit:weight-plate-storage": "tsx scripts/audit-weight-plate-storage-guide.ts",
     "audit:weight-plate-storage-rendered": "node scripts/verify-weight-plate-storage-rendering.mjs",
+    "audit:private-label-gtin-packaging": "tsx scripts/audit-private-label-gtin-packaging-guide.ts",
+    "audit:private-label-gtin-packaging-rendered": "node scripts/verify-private-label-gtin-packaging-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",
