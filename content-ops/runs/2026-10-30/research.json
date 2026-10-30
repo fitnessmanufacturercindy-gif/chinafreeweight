@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-30",
+  "status": "complete",
+  "selectedTopic": "AQL acceptance sampling and defect classification for wholesale free-weight orders",
+  "selectionReason": "High-intent importer question that complements the existing pre-shipment guide by defining defect classes, lot/SKU coverage, numerical evidence and post-rejection action without duplicating the inspection sequence.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "AQL inspection for wholesale free weights: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "AQL inspection for wholesale free weights: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "AQL inspection for wholesale free weights: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "AQL inspection for wholesale free weights: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "AQL inspection for wholesale free weights: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "AQL inspection for wholesale free weights: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "AQL inspection for wholesale free weights: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "AQL inspection for wholesale free weights: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "AQL inspection for wholesale free weights: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "AQL inspection for wholesale free weights: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "AQL inspection for wholesale free weights: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "AQL inspection for wholesale free weights: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "AQL inspection for wholesale free weights: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "AQL inspection for wholesale free weights: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "AQL inspection for wholesale free weights: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "inspeção AQL de pesos livres no atacado: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "inspeção AQL de pesos livres no atacado: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "inspeção AQL de pesos livres no atacado: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "inspeção AQL de pesos livres no atacado: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "inspeção AQL de pesos livres no atacado: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "inspeção AQL de pesos livres no atacado: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "inspeção AQL de pesos livres no atacado: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "inspeção AQL de pesos livres no atacado: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "inspeção AQL de pesos livres no atacado: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "inspeção AQL de pesos livres no atacado: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "inspeção AQL de pesos livres no atacado: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "inspeção AQL de pesos livres no atacado: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "inspeção AQL de pesos livres no atacado: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "inspeção AQL de pesos livres no atacado: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "inspeção AQL de pesos livres no atacado: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "inspección AQL de pesas al por mayor: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "inspección AQL de pesas al por mayor: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "inspección AQL de pesas al por mayor: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "inspección AQL de pesas al por mayor: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "inspección AQL de pesas al por mayor: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "inspección AQL de pesas al por mayor: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "inspección AQL de pesas al por mayor: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "inspección AQL de pesas al por mayor: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "inspección AQL de pesas al por mayor: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "inspección AQL de pesas al por mayor: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "inspección AQL de pesas al por mayor: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "inspección AQL de pesas al por mayor: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "inspección AQL de pesas al por mayor: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "inspección AQL de pesas al por mayor: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "inspección AQL de pesas al por mayor: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "AQL-Prüfung Freihanteln Großhandel: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "inspection AQL poids libres grossiste: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "inspection AQL poids libres grossiste: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "inspection AQL poids libres grossiste: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "inspection AQL poids libres grossiste: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "inspection AQL poids libres grossiste: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "inspection AQL poids libres grossiste: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "inspection AQL poids libres grossiste: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "inspection AQL poids libres grossiste: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "inspection AQL poids libres grossiste: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "inspection AQL poids libres grossiste: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "inspection AQL poids libres grossiste: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "inspection AQL poids libres grossiste: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "inspection AQL poids libres grossiste: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "inspection AQL poids libres grossiste: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "inspection AQL poids libres grossiste: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "ispezione AQL pesi liberi ingrosso: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "ispezione AQL pesi liberi ingrosso: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "ispezione AQL pesi liberi ingrosso: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "ispezione AQL pesi liberi ingrosso: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "ispezione AQL pesi liberi ingrosso: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "ispezione AQL pesi liberi ingrosso: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "ispezione AQL pesi liberi ingrosso: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "ispezione AQL pesi liberi ingrosso: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "ispezione AQL pesi liberi ingrosso: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "ispezione AQL pesi liberi ingrosso: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "ispezione AQL pesi liberi ingrosso: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "ispezione AQL pesi liberi ingrosso: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "ispezione AQL pesi liberi ingrosso: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "ispezione AQL pesi liberi ingrosso: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "ispezione AQL pesi liberi ingrosso: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "AQL-kontroll fria vikter grossist: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "AQL-kontroll fria vikter grossist: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "AQL-kontroll fria vikter grossist: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "AQL-kontroll fria vikter grossist: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "AQL-kontroll fria vikter grossist: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "AQL-kontroll fria vikter grossist: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "AQL-kontroll fria vikter grossist: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "AQL-kontroll fria vikter grossist: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "AQL-kontroll fria vikter grossist: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "AQL-kontroll fria vikter grossist: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "AQL-kontroll fria vikter grossist: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "AQL-kontroll fria vikter grossist: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "AQL-kontroll fria vikter grossist: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "AQL-kontroll fria vikter grossist: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "AQL-kontroll fria vikter grossist: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "AQL-inspectie vrije gewichten groothandel: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "AQL-inspectie vrije gewichten groothandel: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "AQL-inspectie vrije gewichten groothandel: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "AQL-inspectie vrije gewichten groothandel: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "AQL-inspectie vrije gewichten groothandel: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "AQL-inspectie vrije gewichten groothandel: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "AQL-inspectie vrije gewichten groothandel: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "AQL-inspectie vrije gewichten groothandel: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "AQL-inspectie vrije gewichten groothandel: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "AQL-inspectie vrije gewichten groothandel: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "AQL-inspectie vrije gewichten groothandel: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "AQL-inspectie vrije gewichten groothandel: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "AQL-inspectie vrije gewichten groothandel: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "AQL-inspectie vrije gewichten groothandel: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "AQL-inspectie vrije gewichten groothandel: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "kontrola AQL wolne ciężary hurt: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "kontrola AQL wolne ciężary hurt: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "kontrola AQL wolne ciężary hurt: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "kontrola AQL wolne ciężary hurt: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "kontrola AQL wolne ciężary hurt: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "kontrola AQL wolne ciężary hurt: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "kontrola AQL wolne ciężary hurt: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "kontrola AQL wolne ciężary hurt: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "kontrola AQL wolne ciężary hurt: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "kontrola AQL wolne ciężary hurt: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "kontrola AQL wolne ciężary hurt: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "kontrola AQL wolne ciężary hurt: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "kontrola AQL wolne ciężary hurt: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "kontrola AQL wolne ciężary hurt: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "kontrola AQL wolne ciężary hurt: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kiểm tra AQL tạ tự do số lượng lớn: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "inspeksi AQL beban bebas grosir: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "inspeksi AQL beban bebas grosir: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "inspeksi AQL beban bebas grosir: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "inspeksi AQL beban bebas grosir: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "inspeksi AQL beban bebas grosir: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "inspeksi AQL beban bebas grosir: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "inspeksi AQL beban bebas grosir: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "inspeksi AQL beban bebas grosir: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "inspeksi AQL beban bebas grosir: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "inspeksi AQL beban bebas grosir: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "inspeksi AQL beban bebas grosir: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "inspeksi AQL beban bebas grosir: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "inspeksi AQL beban bebas grosir: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "inspeksi AQL beban bebas grosir: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "inspeksi AQL beban bebas grosir: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "فحص AQL للأوزان الحرة بالجملة: supplier corrective action after repeated findings",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "프리웨이트 도매 AQL 검사: critical-major-minor defect catalogue",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "프리웨이트 도매 AQL 검사: AQL is not a permitted defect percentage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "프리웨이트 도매 AQL 검사: lot definition for mixed SKU orders",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "프리웨이트 도매 AQL 검사: random carton selection across pallets",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "프리웨이트 도매 AQL 검사: weight tolerance as numerical evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "프리웨이트 도매 AQL 검사: plate bore and bar sleeve fit",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "프리웨이트 도매 AQL 검사: dumbbell head retention finding",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "프리웨이트 도매 AQL 검사: custom-logo zone severity",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "프리웨이트 도매 AQL 검사: coating boundary samples",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "프리웨이트 도매 AQL 검사: carton and label mismatch",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "프리웨이트 도매 AQL 검사: zero-acceptance critical class decision",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "프리웨이트 도매 AQL 검사: reinspection after sorting or rework",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "프리웨이트 도매 AQL 검사: written concession by exact lot",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "프리웨이트 도매 AQL 검사: AQL versus full inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "프리웨이트 도매 AQL 검사: supplier corrective action after repeated findings",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "AQL inspection for wholesale free weights",
+      "questions": [
+        "Does AQL mean the buyer accepts that percentage of defects?",
+        "Which AQL values should a dumbbell buyer choose?",
+        "Can one sample cover every weight and color?",
+        "Should critical defects have zero acceptance?",
+        "Can pre-shipment sampling replace factory process control?"
+      ],
+      "evidence": [
+        "The en edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/resources/free-weight-aql-inspection-defect-classification-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "inspeção AQL de pesos livres no atacado",
+      "questions": [
+        "AQL é o percentual de defeitos permitido?",
+        "Qual AQL usar para halteres?",
+        "Uma amostra cobre todos os pesos e cores?",
+        "Defeito crítico deve ter aceitação zero?",
+        "A amostragem pré-embarque substitui o controle da fábrica?"
+      ],
+      "evidence": [
+        "The pt-BR edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/pt/blog/inspecao-aql-pesos-livres-classificacao-defeitos"
+    },
+    "es": {
+      "targetKeyword": "inspección AQL de pesas al por mayor",
+      "questions": [
+        "¿AQL es el porcentaje de defectos permitido?",
+        "¿Qué AQL conviene para mancuernas?",
+        "¿Una muestra cubre todos los pesos y colores?",
+        "¿Los defectos críticos llevan aceptación cero?",
+        "¿El muestreo final sustituye el control de fábrica?"
+      ],
+      "evidence": [
+        "The es edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/es/blog/inspeccion-aql-pesas-clasificacion-defectos"
+    },
+    "de": {
+      "targetKeyword": "AQL-Prüfung Freihanteln Großhandel",
+      "questions": [
+        "Ist AQL der zulässige Fehlerprozentsatz?",
+        "Welcher AQL-Wert gilt für Hanteln?",
+        "Deckt eine Stichprobe alle Gewichte und Farben ab?",
+        "Müssen kritische Fehler Nullannahme haben?",
+        "Ersetzt die Endstichprobe die Prozesskontrolle?"
+      ],
+      "evidence": [
+        "The de edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/de/blog/aql-pruefung-freihanteln-fehlerklassifizierung"
+    },
+    "fr": {
+      "targetKeyword": "inspection AQL poids libres grossiste",
+      "questions": [
+        "L'AQL est-il le pourcentage de défauts autorisé ?",
+        "Quel AQL choisir pour des haltères ?",
+        "Un échantillon couvre-t-il tous les poids et couleurs ?",
+        "Les défauts critiques exigent-ils zéro acceptation ?",
+        "Le contrôle avant expédition remplace-t-il le procédé ?"
+      ],
+      "evidence": [
+        "The fr edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/fr/blog/inspection-aql-poids-libres-classification-defauts"
+    },
+    "it": {
+      "targetKeyword": "ispezione AQL pesi liberi ingrosso",
+      "questions": [
+        "L'AQL è la percentuale di difetti ammessa?",
+        "Quale AQL scegliere per i manubri?",
+        "Un campione copre tutti i pesi e colori?",
+        "I difetti critici richiedono accettazione zero?",
+        "Il controllo finale sostituisce quello di processo?"
+      ],
+      "evidence": [
+        "The it edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/it/blog/ispezione-aql-pesi-liberi-classificazione-difetti"
+    },
+    "sv": {
+      "targetKeyword": "AQL-kontroll fria vikter grossist",
+      "questions": [
+        "Är AQL en tillåten felprocent?",
+        "Vilket AQL ska gälla för hantlar?",
+        "Täcker ett prov alla vikter och färger?",
+        "Ska kritiska fel ha nollacceptans?",
+        "Ersätter slutkontrollen processkontroll?"
+      ],
+      "evidence": [
+        "The sv edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/sv/blogg/aql-kontroll-fria-vikter-felklassning"
+    },
+    "nl": {
+      "targetKeyword": "AQL-inspectie vrije gewichten groothandel",
+      "questions": [
+        "Is AQL het toegestane defectpercentage?",
+        "Welke AQL geldt voor dumbbells?",
+        "Dekt één monster alle gewichten en kleuren?",
+        "Moeten kritische defecten nulacceptatie hebben?",
+        "Vervangt eindcontrole de procesbeheersing?"
+      ],
+      "evidence": [
+        "The nl edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/nl/blog/aql-inspectie-vrije-gewichten-defectclassificatie"
+    },
+    "pl": {
+      "targetKeyword": "kontrola AQL wolne ciężary hurt",
+      "questions": [
+        "Czy AQL to dozwolony procent wad?",
+        "Jaki AQL wybrać dla hantli?",
+        "Czy jedna próba obejmie wszystkie masy i kolory?",
+        "Czy wady krytyczne muszą mieć zerową akceptację?",
+        "Czy kontrola końcowa zastępuje kontrolę procesu?"
+      ],
+      "evidence": [
+        "The pl edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/pl/blog/kontrola-aql-wolne-ciezary-klasyfikacja-wad"
+    },
+    "vi": {
+      "targetKeyword": "kiểm tra AQL tạ tự do số lượng lớn",
+      "questions": [
+        "AQL có phải tỷ lệ lỗi được phép không?",
+        "Nên chọn AQL nào cho tạ tay?",
+        "Một mẫu có phủ hết trọng lượng và màu không?",
+        "Lỗi nghiêm trọng có phải chấp nhận bằng không?",
+        "Kiểm trước giao hàng có thay kiểm soát công đoạn không?"
+      ],
+      "evidence": [
+        "The vi edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/vi/blog/kiem-tra-aql-ta-tu-do-phan-loai-loi"
+    },
+    "id": {
+      "targetKeyword": "inspeksi AQL beban bebas grosir",
+      "questions": [
+        "Apakah AQL adalah persentase cacat yang diizinkan?",
+        "AQL berapa untuk dumbbell?",
+        "Apakah satu sampel mencakup semua berat dan warna?",
+        "Apakah cacat kritis harus nol penerimaan?",
+        "Apakah sampling akhir mengganti kontrol pabrik?"
+      ],
+      "evidence": [
+        "The id edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/id/blog/inspeksi-aql-beban-bebas-klasifikasi-cacat"
+    },
+    "ar": {
+      "targetKeyword": "فحص AQL للأوزان الحرة بالجملة",
+      "questions": [
+        "هل AQL نسبة عيوب مسموحة؟",
+        "ما قيمة AQL المناسبة للدمبل؟",
+        "هل تغطي عينة واحدة كل الأوزان والألوان؟",
+        "هل تتطلب العيوب الحرجة قبولاً صفرياً؟",
+        "هل تستبدل عينة ما قبل الشحن ضبط المصنع؟"
+      ],
+      "evidence": [
+        "The ar edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/ar/blog/free-weight-aql-inspection-defect-classification"
+    },
+    "ko": {
+      "targetKeyword": "프리웨이트 도매 AQL 검사",
+      "questions": [
+        "AQL은 허용 결함 비율인가요?",
+        "덤벨에는 어떤 AQL을 써야 하나요?",
+        "한 표본으로 모든 중량과 색상을 다루나요?",
+        "치명 결함은 합격 수가 0이어야 하나요?",
+        "출하 전 샘플링이 공정 관리를 대신하나요?"
+      ],
+      "evidence": [
+        "The ko edition uses local procurement language for AQL, defect classes, lot traceability and pre-shipment acceptance.",
+        "Its examples distinguish dimensional results, product function, branding zones and packing evidence for the local buyer context."
+      ],
+      "path": "/ko/blog/free-weight-aql-inspection-defect-classification"
+    }
+  },
+  "competitors": [
+    {
+      "name": "DZSD",
+      "url": "https://dzsfitness.com/guides/factory-inspection-gym-equipment",
+      "observation": "Broad AQL and inspection overview; it does not provide this guide's free-weight-specific consequence/evidence matrix."
+    },
+    {
+      "name": "ChaHang",
+      "url": "https://www.chahangdumbbell.com/quality-control",
+      "observation": "Product-specific QC matrix reviewed as competitor context; no numerical or factory claim was reused."
+    },
+    {
+      "name": "TradeAiders",
+      "url": "https://www.tradeaiders.com/de/dumbbell-and-kettlebell-inspection-checklist.html",
+      "observation": "Inspection-service checklist reviewed; the article remains focused on buyer-owned defect classification and lot decisions."
+    }
+  ],
+  "rejectedTopics": [
+    "CPU versus TPU dumbbells — overlaps the existing rubber-versus-urethane and material guides.",
+    "Container loading optimization — overlaps the export-packaging and landed-cost guides.",
+    "Dumbbell weight tolerance alone — existing weighed-dumbbell and tolerance content already covers the main intent.",
+    "General pre-shipment inspection — already published in every active locale.",
+    "Cable weld inspection alone — overlaps compatibility and load-path guides and lacks a distinct broad buyer decision gap."
+  ],
+  "siteGaps": [
+    "No existing article defined how a buyer converts consequences into critical, major and minor findings across mixed free-weight SKUs, or how rejection, containment and reinspection should be documented."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1784,
+    "liveBlogUrlsReviewed": 914,
+    "activeLanguageUrlsReviewed": 1782,
+    "dedicatedAqlDefectClassificationArticleFound": false,
+    "nearestTopics": [
+      "pre-shipment inspection",
+      "OEM sample approval",
+      "weight-plate tolerances",
+      "dumbbell head retention"
+    ]
+  },
+  "searchRun": {
+    "provider": "Public Google and Bing result review, Reddit buyer-language review, competitor review and direct primary-source verification",
+    "queryFormulationsReviewed": 24,
+    "observedQuestionGroups": 18,
+    "limitations": [
+      "Quora blocked automated access; no answer text was used.",
+      "Reddit supplied buyer language only; standards claims rely on ISO and ASQ.",
+      "ISO table values are not reproduced because buyers must select the purchased standard edition and contractual plan.",
+      "No customer, shipment, price, MOQ, certification or performance result was inferred from public pages."
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 2859-1:2026",
+      "url": "https://www.iso.org/standard/2859-1",
+      "primary": true,
+      "use": "Current edition scope: AQL-indexed sampling schemes for lot-by-lot inspection and switching rules."
+    },
+    {
+      "title": "ASQ — Sampling",
+      "url": "https://asq.org/quality-resources/sampling",
+      "primary": true,
+      "use": "Explains what random samples can infer and why sampling does not identify the location or cause of defects."
+    },
+    {
+      "title": "ASQ Quality Glossary",
+      "url": "https://asq.org/quality-resources/quality-glossary",
+      "primary": true,
+      "use": "Definitions for AQL, acceptance sampling, acceptance number, sample and random sampling."
+    },
+    {
+      "title": "ASQ — Standards resources",
+      "url": "https://asq.org/quality-resources/learn-about-standards",
+      "primary": true,
+      "use": "Reference point for ANSI/ASQ Z1.4 sampling by attributes; no tables or acceptance numbers are reproduced."
+    },
+    {
+      "title": "Reddit buyer discussion — loose dumbbell heads",
+      "url": "https://www.reddit.com/r/homegym/comments/k9efp5",
+      "primary": false,
+      "use": "Buyer wording around loose-head concerns; not used as standards or product-safety evidence."
+    },
+    {
+      "title": "DZSD — gym equipment factory inspection guide",
+      "url": "https://dzsfitness.com/guides/factory-inspection-gym-equipment",
+      "primary": false,
+      "use": "Competitor coverage confirms broad AQL intent; numerical recommendations and claims were not reused."
+    },
+    {
+      "title": "ChaHang — free-weight quality control",
+      "url": "https://www.chahangdumbbell.com/quality-control",
+      "primary": false,
+      "use": "Competitor product matrix reviewed for scope only; no unverified claim was imported."
+    }
+  ]
+}

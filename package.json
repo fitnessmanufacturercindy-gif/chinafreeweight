@@ -95,6 +95,8 @@
     "audit:weight-plate-storage-rendered": "node scripts/verify-weight-plate-storage-rendering.mjs",
     "audit:private-label-gtin-packaging": "tsx scripts/audit-private-label-gtin-packaging-guide.ts",
     "audit:private-label-gtin-packaging-rendered": "node scripts/verify-private-label-gtin-packaging-rendering.mjs",
+    "audit:free-weight-aql-inspection": "tsx scripts/audit-free-weight-aql-inspection-guide.ts",
+    "audit:free-weight-aql-inspection-rendered": "node scripts/verify-free-weight-aql-inspection-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

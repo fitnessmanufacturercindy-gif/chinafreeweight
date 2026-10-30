@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-30",
+  "startedAt": "2026-10-30T03:32:15.263Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-10-30-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-en-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-pt-BR-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-es-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-de-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-fr-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-vi-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-sv-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-it-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-nl-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-ar-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-ko-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-id-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-10-30-chinafreeweight-pl-free-weight-aql-inspection"
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    },
+    {
+      "id": "2026-10-30-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "Daily minimum satisfied by the selected high-value guide; additional slot held for future non-overlapping topics."
+    }
+  ],
+  "preparedAt": "2026-10-30T04:17:43.989Z",
+  "selectedTopic": "AQL acceptance sampling and defect classification for wholesale free-weight orders",
+  "preparedCount": 13,
+  "candidateCount": 195
+}
