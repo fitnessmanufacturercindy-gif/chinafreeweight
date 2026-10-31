@@ -1,0 +1,164 @@
+[
+  {
+    "locale": "vi",
+    "path": "/vi/blog/moq-ta-tay-banh-ta-don-hang-nhieu-ma",
+    "title": "MOQ Tạ Tay và Bánh Tạ: Lập Đơn Hàng Nhiều Mã Hàng",
+    "description": "Xác định mức tối thiểu theo toàn đơn, từng mức tạ, màu, logo hay bao bì trước khi nhập sỉ tạ tay và bánh tạ.",
+    "h1": "Cách Lập Đơn Tạ Tay và Bánh Tạ Nhiều SKU Theo MOQ",
+    "keyword": "MOQ tạ tay bánh tạ nhập sỉ",
+    "home": "Trang chủ",
+    "library": "Hướng dẫn",
+    "eyebrow": "Lập danh mục cho nhà nhập khẩu",
+    "sections": [
+      {
+        "heading": "Câu trả lời cần có trước khi hỏi giá",
+        "text": "Mỗi mức tối thiểu phải ghi rõ đơn vị và phạm vi. Hãy hỏi mức đó áp dụng cho toàn đơn, từng mức kg, một nhóm vật liệu, mẻ màu, phương pháp logo hay bao bì in riêng.\n\nLập bảng theo từng SKU với cột riêng cho chiếc, đôi, bộ, thùng và khối lượng sản xuất. Cùng một con số nhưng khác đơn vị sẽ tạo ra cam kết hàng tồn rất khác."
+      },
+      {
+        "heading": "Vì sao một đơn có nhiều mức tối thiểu",
+        "text": "Đúc, ép phủ, gia công, đổi màu, gá logo và in thùng cần chuẩn bị khác nhau. Tổng đơn có thể đủ lớn nhưng một màu hoặc một mức tạ vẫn chưa đạt điều kiện của công đoạn riêng.\n\nYêu cầu nhà cung cấp nêu công đoạn tạo ra giới hạn, SKU nào được dùng chung và kết quả nếu giảm số biến thể. Không nên lấy một mức trong catalog áp cho mọi sản phẩm."
+      },
+      {
+        "heading": "Tách đúng biến thể bán hàng",
+        "text": "Phân biệt khối lượng danh nghĩa, KG hay LB, kết cấu, bề mặt, màu, logo và quy cách bán. Bất kỳ biến thể nào kho hoặc khách hàng cần nhận diện riêng đều phải có một dòng rõ ràng.\n\nGS1 yêu cầu nhận diện riêng cho biến thể kích cỡ và màu khi đó là mặt hàng thương mại khác nhau. Bảng nội bộ cũng nên nối SKU với chiếc, đôi, thùng và GTIN nếu áp dụng."
+      },
+      {
+        "heading": "Kiểm tra khả năng gộp thay vì tự suy đoán",
+        "text": "Hai mức tạ nhìn giống nhau có thể dùng lõi, khuôn, thùng và mẫu kiểm khác nhau. Cùng màu cũng chưa chắc cùng mẻ khi vật liệu hoặc lịch sản xuất thay đổi.\n\nNếu nhà máy cho phép gộp, hãy ghi danh sách SKU, cơ sở chung và cách chia số lượng. Quy tắc đó phải xuất hiện trong xác nhận đơn hàng."
+      },
+      {
+        "heading": "Cân bằng độ rộng danh mục và vốn tồn",
+        "text": "Đối chiếu từng mức tạ với nhu cầu, diện tích trưng bày, sức chứa kho và khả năng tái đặt. Dải sản phẩm dài có thể đẹp trong catalog nhưng làm tăng hàng chậm và bao bì dư.\n\nỞ đơn đầu, nên giữ kết cấu, màu và thùng tiêu chuẩn tại những vị trí không tạo khác biệt rõ cho thị trường. Tùy chỉnh sâu cần lý do bán hàng và kế hoạch đặt lại."
+      },
+      {
+        "heading": "Ghép bảng SKU với kế hoạch vận chuyển",
+        "text": "Xin packing list dự kiến theo SKU, gồm số đơn vị, thùng, khối lượng tịnh, khối lượng cả bì và vị trí pallet. Free weight có mật độ cao nên không thể chỉ tính theo thể tích.\n\nTổ chức Hàng hải Quốc tế yêu cầu xác minh khối lượng cả bì với container thuộc phạm vi SOLAS. Đồng thời ghi Incoterms và địa điểm cụ thể; quy tắc ICC phân chia một số chi phí và rủi ro, không quyết định MOQ."
+      },
+      {
+        "heading": "Đưa mọi điều kiện vào RFQ",
+        "text": "Theo từng dòng, yêu cầu phạm vi mức tối thiểu, bậc giá, chi phí chuẩn bị, trách nhiệm đối với vật liệu hoặc thùng dư, mẫu duyệt và điều kiện tái đặt. Ngoại lệ phải gắn với đúng SKU.\n\nChinaFreeWeight là nhà máy free weight hỗ trợ OEM, ODM, Custom Logo, Private Label và Bulk Supply. Gửi dải tạ, đơn vị, logo, bao bì và điểm đến để chúng tôi đánh giá khả năng sản xuất mà không đưa ra một MOQ chung thiếu căn cứ."
+      }
+    ],
+    "table": {
+      "heading": "Bảng làm rõ phạm vi MOQ",
+      "columns": ["Phạm vi có thể áp dụng", "Nội dung cần ghi", "Rủi ro nếu bỏ trống"],
+      "rows": [
+        ["Toàn đơn hàng", "Nhóm sản phẩm được gộp và cơ sở tổng", "Người mua tưởng mọi SKU đều gộp được"],
+        ["Từng mức tạ hoặc SKU", "Khối lượng, hệ đơn vị và đơn vị mua", "Danh mục lớn hơn dự kiến"],
+        ["Vật liệu hoặc màu", "Hợp chất, hoàn thiện và dòng dùng chung", "Không thể chia lại mẻ"],
+        ["Logo và dấu hiệu", "Phiên bản, vị trí và phạm vi đồ gá", "Mẫu duyệt bị dùng sai kích cỡ"],
+        ["Bao bì", "Cấp bao gói, kích thước, in và phần dư", "Thùng cam kết nhiều hơn sản phẩm"],
+        ["Pallet và vận chuyển", "Số thùng, khối lượng cả bì, vị trí và điểm đến", "Cơ cấu không phù hợp giao nhận"]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist bàn giao cho nhà máy",
+      "items": [
+        "Liệt kê nhóm sản phẩm và từng mức tạ.",
+        "Định nghĩa chiếc, đôi, bộ, thùng hoặc khối lượng.",
+        "Tách KG, LB và dấu hiệu kép.",
+        "Ghi bề mặt, màu và logo theo SKU.",
+        "Tách bao bì tiêu chuẩn và tùy chỉnh.",
+        "Xác nhận mức nào được phép gộp.",
+        "Quy định chi phí chuẩn bị và phần dư.",
+        "Đối chiếu với packing list dự kiến.",
+        "Ghi Incoterms và địa điểm cụ thể.",
+        "Duyệt bảng trước khi sản xuất."
+      ]
+    },
+    "faq": [
+      ["MOQ tạ tay tính theo chiếc, đôi hay kilogram?", "Không có một cơ sở chung. Báo giá phải ghi đơn vị và phạm vi như chiếc, đôi, bộ, SKU hoặc khối lượng sản xuất."],
+      ["Các mức tạ khác nhau có thể dùng chung mức tối thiểu không?", "Chỉ khi nhà sản xuất xác nhận công đoạn, vật liệu, màu, logo và bao bì dùng chung cùng cách chia số lượng."],
+      ["Vì sao bao bì có mức tối thiểu riêng?", "In, bế, nhãn và khay chèn có nguồn cung và chuẩn bị riêng. Cần quy định cả cách xử lý phần dư."],
+      ["Đặt đủ container có xóa mức tối thiểu theo SKU không?", "Không. Tổng tải có thể lớn nhưng một mức tạ, màu hoặc artwork vẫn dưới ngưỡng của công đoạn đó."],
+      ["Cần gửi gì để nhận phản hồi chính xác?", "Mẫu sản phẩm, dải tạ, đơn vị bán, số lượng theo SKU, màu, logo, bao bì, điểm đến và kế hoạch tái đặt."]
+    ],
+    "faqHeading": "Câu hỏi của người mua về MOQ",
+    "linkHeading": "Hoàn thiện hồ sơ mua hàng",
+    "linkLabels": ["So sánh tạ tay thương mại", "Xem lựa chọn bánh tạ", "Chuẩn bị RFQ có thể so sánh", "Chọn phương pháp logo", "Duyệt mẫu OEM", "Lập mã sản phẩm và thùng", "Quy định bao bì xuất khẩu", "Yêu cầu nhà máy đánh giá"],
+    "imageAlt": "Nhiều cỡ tạ tay lục giác và bánh tạ không thương hiệu bên khay phân nhóm trống trong khu nhận hàng",
+    "imageCaption": "Hình minh họa khái niệm cho việc lập danh mục, không phải đơn khách hàng, hồ sơ vận chuyển hay bằng chứng sản xuất.",
+    "cta": ["Biến dải SKU thành báo giá khả thi", "Gửi mức tạ, đơn vị, phạm vi logo, bao bì và điểm đến để rà soát từng dòng.", "Trao đổi đơn hàng hỗn hợp"]
+  },
+  {
+    "locale": "id",
+    "path": "/id/blog/moq-beban-bebas-pesanan-campuran-sku",
+    "title": "MOQ Beban Bebas: Merencanakan Pesanan Campuran SKU",
+    "description": "Pastikan apakah jumlah minimum berlaku per pesanan, bobot, warna, logo, atau kemasan sebelum membeli dumbel dan pelat secara grosir.",
+    "h1": "Cara Menyusun MOQ untuk Pesanan Campuran Dumbel dan Pelat Beban",
+    "keyword": "MOQ dumbel pelat beban grosir",
+    "home": "Beranda",
+    "library": "Panduan",
+    "eyebrow": "Perencanaan stok importir",
+    "sections": [
+      {
+        "heading": "Jawaban yang harus tertulis",
+        "text": "Setiap jumlah minimum harus memiliki satuan dan cakupan. Minta pemasok menjelaskan apakah batasnya berlaku untuk seluruh pesanan, setiap bobot, kelompok bahan, batch warna, proses logo, atau kemasan cetak.\n\nBuat matriks per SKU dengan kolom terpisah untuk unit, pasang, set, karton, dan massa produksi. Angka yang sama dapat berarti komitmen persediaan yang sangat berbeda."
+      },
+      {
+        "heading": "Mengapa satu pesanan memiliki beberapa minimum",
+        "text": "Pengecoran, pencetakan, pemesinan, pergantian warna, alat bantu logo, dan pencetakan karton membutuhkan persiapan yang berbeda. Total pesanan dapat cukup besar, tetapi satu varian belum memenuhi dasar prosesnya.\n\nTanyakan proses yang menyebabkan batas, SKU yang benar-benar dapat digabung, dan dampak bila variasi dikurangi. Jangan menganggap angka katalog berlaku untuk semua lini."
+      },
+      {
+        "heading": "Pisahkan varian yang dijual",
+        "text": "Bedakan bobot nominal, KG atau LB, konstruksi, lapisan akhir, warna, logo, dan format penjualan. Setiap kombinasi yang perlu dibedakan oleh gudang atau pembeli memerlukan baris sendiri.\n\nGS1 memperlakukan variasi ukuran dan warna sebagai barang dagang terpisah ketika harus diidentifikasi berbeda. Hubungkan SKU internal dengan unit, pasang, karton, dan GTIN bila digunakan."
+      },
+      {
+        "heading": "Uji aturan penggabungan",
+        "text": "Produk yang tampak serupa dapat memakai inti, cetakan, karton, atau acuan pemeriksaan yang berbeda. Warna yang sama juga belum tentu berasal dari satu batch bila bahan atau jadwal berbeda.\n\nJika pabrik mengizinkan penggabungan, tuliskan daftar SKU, dasar bersama, dan pembagian yang diperbolehkan. Masukkan aturan itu ke konfirmasi pesanan."
+      },
+      {
+        "heading": "Kendalikan risiko stok awal",
+        "text": "Bandingkan setiap tingkat bobot dengan permintaan, ruang pajang, kapasitas gudang, dan keyakinan pemesanan ulang. Rentang yang panjang terlihat lengkap, tetapi dapat menahan dana pada SKU lambat dan karton bermerek yang tersisa.\n\nPada peluncuran awal, pertahankan struktur, warna, dan kemasan standar jika perubahan tidak memberi nilai pasar yang jelas. Kustomisasi lebih dalam memerlukan alasan komersial."
+      },
+      {
+        "heading": "Selaraskan dengan pengiriman",
+        "text": "Minta daftar kemasan perkiraan per SKU berisi unit, karton, massa bersih, massa kotor, dan posisi palet. Beban bebas padat sehingga perencanaan volume saja tidak cukup.\n\nOrganisasi Maritim Internasional mewajibkan massa kotor terverifikasi untuk kontainer yang tercakup SOLAS. Cantumkan juga aturan Incoterms dan tempat yang disebut; aturan ICC membagi biaya dan risiko tertentu, bukan menetapkan MOQ."
+      },
+      {
+        "heading": "Masukkan syarat ke RFQ",
+        "text": "Untuk setiap baris, catat cakupan minimum, tingkat harga, biaya persiapan, tanggung jawab bahan atau karton sisa, sampel acuan, dan syarat pemesanan ulang. Pengecualian harus menunjuk SKU yang tepat.\n\nChinaFreeWeight adalah pabrik beban bebas yang mendukung OEM, ODM, logo khusus, merek milik pembeli, dan pasokan volume besar. Kirim rentang, satuan, kemasan, dan tujuan untuk tinjauan kelayakan."
+      }
+    ],
+    "table": {
+      "heading": "Matriks cakupan jumlah minimum",
+      "columns": ["Cakupan yang mungkin", "Data yang harus dicatat", "Risiko bila tidak jelas"],
+      "rows": [
+        ["Seluruh pesanan", "Keluarga yang boleh digabung dan dasar total", "Pembeli mengira semua SKU bebas dicampur"],
+        ["Setiap bobot atau SKU", "Bobot, sistem satuan, dan unit pembelian", "Rentang tumbuh di luar rencana"],
+        ["Bahan atau warna", "Kompon, lapisan akhir, dan baris yang berbagi", "Batch tidak dapat dibagi ulang"],
+        ["Logo", "Versi file, posisi, dan cakupan alat bantu", "Persetujuan dipakai pada ukuran salah"],
+        ["Kemasan", "Tingkat, dimensi, cetak, dan sisa", "Komitmen karton melebihi produk"],
+        ["Palet dan pengiriman", "Karton, massa kotor, posisi, dan tujuan", "Campuran tidak cocok untuk penerimaan"]
+      ]
+    },
+    "checklist": {
+      "heading": "Daftar serah terima kepada pabrik",
+      "items": [
+        "Daftar keluarga produk dan tingkat bobot.",
+        "Tentukan unit, pasang, set, karton, atau massa.",
+        "Pisahkan KG, LB, dan penandaan ganda.",
+        "Catat lapisan akhir, warna, dan logo per SKU.",
+        "Pisahkan kemasan standar dan khusus.",
+        "Konfirmasikan minimum yang boleh digabung.",
+        "Atur biaya setup dan bahan sisa.",
+        "Cocokkan matriks dengan daftar kemasan.",
+        "Nyatakan Incoterms dan tempat yang disebut.",
+        "Setujui matriks sebelum produksi."
+      ]
+    },
+    "faq": [
+      ["Apakah MOQ dumbel dihitung per unit, pasang, atau kilogram?", "Tidak ada dasar universal. Penawaran harus menyebut satuan dan cakupannya, misalnya unit, pasang, set, SKU, atau massa produksi."],
+      ["Bisakah beberapa bobot berbagi satu minimum?", "Hanya bila produsen mengonfirmasi proses, bahan, warna, logo, dan kemasan bersama beserta pembagiannya."],
+      ["Mengapa kemasan memiliki minimum sendiri?", "Pencetakan, die-cut, label, dan insert memiliki pembelian serta persiapan terpisah. Tentukan juga penanganan sisa."],
+      ["Apakah kontainer penuh menghapus minimum per SKU?", "Tidak. Total muatan dapat besar sementara satu bobot, warna, atau desain cetak masih di bawah batas prosesnya."],
+      ["Apa yang perlu dikirim kepada pabrik?", "Model, rentang bobot, unit jual, jumlah per SKU, warna, logo, kemasan, tujuan, dan rencana pemesanan ulang."]
+    ],
+    "faqHeading": "Pertanyaan pembeli tentang MOQ",
+    "linkHeading": "Lengkapi dokumen pembelian",
+    "linkLabels": ["Bandingkan dumbel komersial", "Tinjau pelat beban", "Siapkan RFQ yang sebanding", "Pilih metode logo", "Setujui sampel OEM", "Rencanakan identifikasi barang dan karton", "Tentukan kemasan ekspor", "Minta tinjauan pabrik"],
+    "imageAlt": "Dumbel heksagonal dan pelat beban tanpa merek dengan palet, karton polos, dan kartu kosong di gudang",
+    "imageCaption": "Adegan konseptual untuk perencanaan, bukan pesanan pelanggan, catatan pengiriman, atau bukti produksi nyata.",
+    "cta": ["Ubah campuran SKU menjadi penawaran yang jelas", "Kirim bobot, satuan, cakupan logo, kemasan, dan tujuan untuk tinjauan per baris.", "Bahas pesanan campuran"]
+  }
+]

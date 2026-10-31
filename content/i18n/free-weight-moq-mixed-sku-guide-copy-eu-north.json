@@ -1,0 +1,245 @@
+[
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/minsta-orderkvantitet-fria-vikter-sku-mix",
+    "title": "Minsta Orderkvantitet för Fria Vikter: Planera SKU-Mixen",
+    "description": "Klargör om minsta kvantitet gäller hela ordern, varje vikt, färg, logotyp eller förpackning före ett grossistköp.",
+    "h1": "Så Planerar du en Blandad Hantel- och Viktskiveorder Utifrån MOQ",
+    "keyword": "minsta orderkvantitet hantlar grossist",
+    "home": "Start",
+    "library": "Guider",
+    "eyebrow": "Sortimentsplanering för inköpare",
+    "sections": [
+      {
+        "heading": "Det korta inköpssvaret",
+        "text": "Begär att varje minsta kvantitet får både en enhet och en omfattning. Den kan gälla hela ordern, varje vikt-SKU, en material- eller färgbatch, logometoden eller en tryckt förpackning.\n\nGör en rad per säljbar variant innan priser jämförs. Styck, par, set, kartong och produktionsmassa får inte blandas i samma mängdkolumn."
+      },
+      {
+        "heading": "Varför en order kan ha flera gränser",
+        "text": "Gjutning, formning, bearbetning, färgbyte, logofixtur och kartongtryck kräver olika förberedelser. Därför kan totalen vara tillräcklig samtidigt som en enskild variant ligger under sin processgräns.\n\nBe leverantören ange orsaken, vilka SKU:er som delar den och vad som förändras om sortimentet förenklas. En allmän katalogsiffra räcker inte."
+      },
+      {
+        "heading": "Utgå från hur varje variant ska säljas",
+        "text": "Separera nominell vikt, KG eller LB, konstruktion, yta, färg, logotyp och packnivå. Om lagret eller kunden behöver skilja alternativen åt ska de ha egna orderrader.\n\nGS1 anger att storleks- och färgvarianter behöver egna identiteter när de är skilda handelsartiklar. Samma tydlighet bör koppla ert SKU till styck, par, kartong och eventuell GTIN."
+      },
+      {
+        "heading": "Bekräfta vad som verkligen får räknas ihop",
+        "text": "Liknande utseende betyder inte att vikter delar kärna, verktyg, kartong eller kontrollreferens. Även samma färg kan behöva separata körningar när material eller produktionsplan skiljer sig.\n\nSkriv in vilka rader som får poolas, den gemensamma basen och tillåten fördelning. Låt regeln följa med i orderbekräftelsen."
+      },
+      {
+        "heading": "Väg sortimentsbredd mot lagerbindning",
+        "text": "Bedöm efterfrågan, hyllplats, lagerkapacitet och återbeställningssäkerhet för varje viktsteg. En komplett stege kan stärka erbjudandet men skapa långsamma SKU:er och kvarvarande specialkartonger.\n\nVid en första lansering kan standardfärg, befintlig konstruktion och enkel packning minska komplexiteten. Särlösningar bör ha en tydlig marknadsnytta och trovärdig fortsättning."
+      },
+      {
+        "heading": "Kontrollera vikt och leveransupplägg",
+        "text": "Begär en uppskattad packlista per SKU med enheter, kartonger, netto- och bruttomassa samt pallplatser. Täta produkter måste planeras i massa, inte bara i volym.\n\nInternationella sjöfartsorganisationens SOLAS-regel kräver verifierad bruttomassa för berörda containrar. Ange också Incoterms-regel och namngiven plats; ICC-reglerna fördelar vissa kostnader och risker men bestämmer inte SKU-mixen."
+      },
+      {
+        "heading": "Gör villkoren till en del av offertunderlaget",
+        "text": "Kräv per rad omfattning, prissteg, eventuell ställkostnad, ansvar för överblivet material eller emballage, godkänt prov och villkor för återorder. Undantag ska knytas till exakt SKU.\n\nChinaFreeWeight är en fabrik för fria vikter med OEM, ODM, Custom Logo, Private Label och Bulk Supply. Skicka viktsteg, enheter, märkning, packning och destination för en genomförbarhetsgranskning utan påhittad standardgräns."
+      }
+    ],
+    "table": {
+      "heading": "Matris för att läsa MOQ-villkor",
+      "columns": ["Möjlig omfattning", "Detta ska anges", "Risk om det saknas"],
+      "rows": [
+        ["Hela ordern", "Tillåtna produktfamiljer och total bas", "Fri blandning antas felaktigt"],
+        ["Varje vikt eller SKU", "Nominell vikt, system och köpenhet", "Sortimentet blir större än planerat"],
+        ["Material eller färg", "Blandning, yta och delbara rader", "Batchen kan inte fördelas"],
+        ["Logotyp", "Filversion, placering och fixturomfattning", "Fel storlek får fel godkännande"],
+        ["Förpackning", "Nivå, mått, tryck och restlager", "Kartonger binder större kvantitet"],
+        ["Pall och transport", "Kartonger, bruttomassa, platser och mål", "Mixen fungerar inte vid leverans"]
+      ]
+    },
+    "checklist": {
+      "heading": "Inköparens överlämningslista",
+      "items": [
+        "Lista produktfamiljer och viktsteg.",
+        "Definiera styck, par, set, kartong eller massa.",
+        "Separera KG, LB och dubbel märkning.",
+        "Ange yta, färg och logotyp per SKU.",
+        "Skilj standard från specialförpackning.",
+        "Bekräfta vilka minimum som får poolas.",
+        "Reglera ställkostnad och restmaterial.",
+        "Stäm av mot uppskattad packlista.",
+        "Ange Incoterms-regel och namngiven plats.",
+        "Godkänn matrisen före produktionsstart."
+      ]
+    },
+    "faq": [
+      ["Anges MOQ för hantlar per styck, par eller kilogram?", "Det finns ingen gemensam bas. Offerten ska ange både enhet och omfattning, exempelvis styck, par, set, SKU eller produktionsmassa."],
+      ["Kan olika vikter dela samma minimum?", "Ja, men bara när leverantören bekräftar gemensam process, material, färg, logotyp och förpackning samt tillåten fördelning."],
+      ["Varför har förpackningen ett eget minimum?", "Tryck, stansning, etiketter och inlägg har egna inköp och förberedelser. Bestäm också vem som hanterar överskottet."],
+      ["Tar en full container bort alla SKU-minimum?", "Nej. Totalen kan vara stor medan en särskild vikt, färg eller fil ligger under sin produktionsgräns."],
+      ["Vad bör skickas med förfrågan?", "Modell, viktsteg, säljenhet, mängd per SKU, färg, logotyp, packformat, destination och plan för återorder."]
+    ],
+    "faqHeading": "Vanliga frågor om minsta orderkvantitet",
+    "linkHeading": "Färdigställ inköpsunderlaget",
+    "linkLabels": ["Jämför kommersiella hantlar", "Granska viktskivor", "Skapa jämförbar RFQ", "Välj logometod", "Godkänn OEM-provet", "Planera artikel- och kartongkoder", "Definiera exportförpackning", "Begär fabriksgranskning"],
+    "imageAlt": "Omärkta fasta hantlar och viktskivor på ställ med neutrala kartonger och tomma färgprover",
+    "imageCaption": "Konceptuell planeringsbild; ingen kundorder, frakthandling eller dokumenterad produktion.",
+    "cta": ["Gör SKU-mixen möjlig att offerera", "Skicka viktsteg, enheter, logoomfattning, förpackning och destination för radvis granskning.", "Diskutera den blandade ordern"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/minimale-afname-vrije-gewichten-gemengde-sku-order",
+    "title": "Minimale Afname Vrije Gewichten: Plan een Gemengde SKU-Order",
+    "description": "Leg vast of de minimumafname per order, gewicht, kleur, logo of verpakking geldt voordat u dumbbells en schijven inkoopt.",
+    "h1": "Zo Vergelijkt u MOQ voor een Gemengde Order Dumbbells en Halterschijven",
+    "keyword": "MOQ dumbbells halterschijven groothandel",
+    "home": "Home",
+    "library": "Kennisbank",
+    "eyebrow": "Assortiments- en logistieke planning",
+    "sections": [
+      {
+        "heading": "Het antwoord dat in de offerte hoort",
+        "text": "Een minimum heeft altijd een eenheid en een bereik nodig. Laat aangeven of het geldt voor de totale order, iedere gewichts-SKU, een materiaal- of kleurbatch, de logotechniek of bedrukt verpakkingsmateriaal.\n\nZet stuk, paar, set, doos en productiemassa in afzonderlijke kolommen. Zo voorkomt u dat gelijk ogende cijfers verschillende commerciële verplichtingen beschrijven."
+      },
+      {
+        "heading": "Waarom één order meerdere minima heeft",
+        "text": "Gieten, vormen, verspanen, kleurwissel, logo-opstelling en doosbedrukking kennen verschillende voorbereidingen. De totale order kan groot genoeg zijn terwijl een variant haar eigen productiebasis niet bereikt.\n\nVraag welk proces de grens bepaalt, welke SKU’s de basis delen en wat een eenvoudiger assortiment verandert. Een universeel catalogusgetal geeft die informatie niet."
+      },
+      {
+        "heading": "Begin bij het verkoopbare artikel",
+        "text": "Scheid nominaal gewicht, KG of LB, constructie, afwerking, kleur, logo en verpakking. Elke combinatie die magazijn, retailer of klant apart moet herkennen verdient een eigen regel.\n\nGS1 behandelt maat- en kleurvarianten als afzonderlijke handelsartikelen wanneer ze apart geïdentificeerd moeten worden. Koppel daarom intern SKU, stuk, paar, doos en eventuele GTIN zonder aannames."
+      },
+      {
+        "heading": "Toets of mengen werkelijk is toegestaan",
+        "text": "Vergelijkbare producten kunnen andere kernen, mallen, dozen of inspectiereferenties gebruiken. Eenzelfde kleur hoeft geen gedeelde batch te zijn als materiaal of planning verschilt.\n\nLaat de leverancier de combineerbare regels, gezamenlijke basis en toegestane verdeling benoemen. Neem die afspraak over in de orderbevestiging."
+      },
+      {
+        "heading": "Beperk voorraad zonder de range te verzwakken",
+        "text": "Koppel elk gewicht aan vraag, schapruimte, opslag en verwachte herhaalorder. Een brede ladder toont compleet, maar kan kapitaal vastzetten in trage artikelen en ongebruikte merkdozen.\n\nGebruik bij een eerste reeks standaardconstructie en verpakking waar maatwerk weinig extra waarde biedt. Reserveer eigen kleuren en structuren voor varianten met een heldere businesscase."
+      },
+      {
+        "heading": "Reken massa, dozen en leveringspunt door",
+        "text": "Vraag een voorlopige paklijst per SKU met aantallen, dozen, netto- en brutomassa en palletplaatsen. Vrije gewichten zijn dicht; alleen kubieke meters beoordelen is onvoldoende.\n\nDe Internationale Maritieme Organisatie verlangt geverifieerde brutomassa voor containers waarop SOLAS van toepassing is. Noteer ook Incoterms-regel en genoemde plaats; ICC-regels verdelen bepaalde kosten en risico’s, maar corrigeren geen verkeerde SKU-mix."
+      },
+      {
+        "heading": "Maak elk minimum onderdeel van de RFQ",
+        "text": "Vraag per regel om bereik, prijsstap, instelkosten, bestemming van restmateriaal of dozen, goedgekeurd monster en herhaalvoorwaarde. Een uitzondering moet aan de exacte SKU en order zijn gekoppeld.\n\nChinaFreeWeight is een fabriek voor vrije gewichten met OEM, ODM, Custom Logo, Private Label en Bulk Supply. Stuur range, eenheden, branding, verpakking en bestemming voor een maakbaarheidscontrole zonder algemene MOQ-belofte."
+      }
+    ],
+    "table": {
+      "heading": "MOQ-matrix voor offertecontrole",
+      "columns": ["Mogelijk bereik", "Vast te leggen", "Risico zonder duidelijkheid"],
+      "rows": [
+        ["Totale order", "Toegestane families en totale basis", "Vrij mengen wordt ten onrechte aangenomen"],
+        ["Elk gewicht of SKU", "Gewicht, eenhedensysteem en koopeenheid", "De range groeit buiten het plan"],
+        ["Materiaal of kleur", "Samenstelling, afwerking en deelbare regels", "De batch kan niet worden verdeeld"],
+        ["Logo", "Bestandsversie, positie en hulpmiddel", "Goedkeuring komt op verkeerd formaat"],
+        ["Verpakking", "Niveau, maat, bedrukking en restant", "Dozen verplichten meer dan producten"],
+        ["Pallet en zending", "Dozen, brutomassa, plaatsen en bestemming", "Mix past niet bij transport of ontvangst"]
+      ]
+    },
+    "checklist": {
+      "heading": "Overdrachtslijst voor inkopers",
+      "items": [
+        "Noteer productfamilies en gewichtsstappen.",
+        "Definieer stuk, paar, set, doos of massa.",
+        "Scheid KG, LB en dubbele markering.",
+        "Leg afwerking, kleur en logo per SKU vast.",
+        "Scheid standaard- en merkverpakking.",
+        "Bevestig welke minima samen mogen.",
+        "Regel instelkosten en restmaterialen.",
+        "Vergelijk de matrix met de paklijst.",
+        "Noem Incoterms-regel en plaats.",
+        "Keur de matrix goed vóór productie."
+      ]
+    },
+    "faq": [
+      ["Geldt dumbbell-MOQ per stuk, paar of kilogram?", "Er is geen vaste basis. De offerte moet eenheid en bereik noemen, zoals stuk, paar, set, SKU of productiemassa."],
+      ["Mogen verschillende gewichten één minimum delen?", "Alleen wanneer de leverancier gedeelde processen, materialen, kleuren, logo’s en verpakkingen met een verdeling bevestigt."],
+      ["Waarom heeft verpakking een ander minimum?", "Bedrukking, stanswerk, labels en inzetstukken hebben eigen inkoop en voorbereiding. Leg ook restvoorraad vast."],
+      ["Verdwijnt SKU-MOQ bij een volle container?", "Nee. Het totaal kan groot zijn terwijl één gewicht, kleur of artwork onder de eigen productiedrempel blijft."],
+      ["Welke informatie heeft de fabriek nodig?", "Model, gewichtsrange, verkoopeenheid, aantal per SKU, kleur, logo, verpakking, bestemming en herhaalplan."]
+    ],
+    "faqHeading": "Vragen over MOQ voor vrije gewichten",
+    "linkHeading": "Maak het inkoopdossier compleet",
+    "linkLabels": ["Vergelijk commerciële dumbbells", "Bekijk halterschijven", "Maak een vergelijkbare RFQ", "Kies een logotechniek", "Keur het OEM-monster goed", "Plan artikel- en doosidentificatie", "Bepaal exportverpakking", "Vraag fabriekscontrole aan"],
+    "imageAlt": "Ongemerkte dumbbells en olympische schijven met blanco kaarten en neutrale dozen in een logistieke ruimte",
+    "imageCaption": "Conceptuele assortimentsplanning; geen klantorder, verzendbewijs of documentaire productiefoto.",
+    "cta": ["Maak de gemengde range offerteerbaar", "Stuur gewichten, eenheden, logo, verpakking en bestemming voor controle per orderregel.", "Bespreek de SKU-mix"]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/moq-wolne-ciezary-zamowienie-wielo-sku",
+    "title": "MOQ Wolnych Ciężarów: Planowanie Zamówienia Wielo-SKU",
+    "description": "Ustal, czy minimum dotyczy całego zamówienia, wagi, koloru, logo czy opakowania przed hurtowym zakupem hantli i talerzy.",
+    "h1": "Jak Zaplanować MOQ dla Mieszanego Zamówienia Hantli i Talerzy",
+    "keyword": "MOQ hantle talerze hurt",
+    "home": "Strona główna",
+    "library": "Poradniki",
+    "eyebrow": "Planowanie asortymentu importera",
+    "sections": [
+      {
+        "heading": "Najpierw ustal jednostkę i zakres",
+        "text": "Każde minimum powinno wskazywać, czego dotyczy: całego zamówienia, konkretnej wagi, partii materiału lub koloru, metody logo albo drukowanego opakowania. Bez tego liczby nie są porównywalne.\n\nZbuduj matrycę SKU z osobnymi polami dla sztuki, pary, zestawu, kartonu i masy produkcyjnej. To chroni budżet przed ukrytym mnożeniem wariantów."
+      },
+      {
+        "heading": "Skąd bierze się kilka minimów",
+        "text": "Odlewanie, formowanie, obróbka, zmiana koloru, oprzyrządowanie logo i druk kartonu mają różne warunki przygotowania. Duże zamówienie łączne może nadal nie spełniać progu pojedynczej wersji.\n\nPoproś o wskazanie procesu, SKU korzystających z tej samej podstawy i efektu uproszczenia. Nie przenoś minimum z jednego modelu na całą kategorię."
+      },
+      {
+        "heading": "Zdefiniuj wariant sprzedawany na rynku",
+        "text": "Rozdziel wagę nominalną, KG lub LB, konstrukcję, wykończenie, kolor, logo i poziom pakowania. Każda kombinacja rozpoznawana osobno w magazynie lub sprzedaży wymaga własnej pozycji.\n\nGS1 wymaga osobnej identyfikacji wariantów rozmiaru i koloru, gdy są odrębnymi jednostkami handlowymi. Tę samą dyscyplinę zastosuj do SKU, sztuki, pary, kartonu i GTIN, jeśli występuje."
+      },
+      {
+        "heading": "Sprawdź, co naprawdę można łączyć",
+        "text": "Podobny wygląd nie oznacza wspólnego rdzenia, formy, kartonu ani wzorca kontroli. Ten sam kolor także może powstawać w oddzielnych partiach materiału.\n\nNiech oferta wymieni łączone SKU, wspólną podstawę i dozwolony podział ilości. Ustalenie powinno znaleźć się w potwierdzeniu zamówienia."
+      },
+      {
+        "heading": "Równoważ szerokość oferty i zapas",
+        "text": "Przypisz każdej wadze prognozę popytu, miejsce na ekspozycji, pojemność magazynu i pewność domówienia. Pełna drabinka wygląda dobrze, lecz może zamrozić środki w wolnych pozycjach i resztkach pudełek.\n\nW pierwszej serii zachowaj standardową konstrukcję i pakowanie tam, gdzie personalizacja nie tworzy wyraźnej wartości. Osobne kolory i narzędzia powinny mieć uzasadnienie handlowe."
+      },
+      {
+        "heading": "Połącz matrycę z planem wysyłki",
+        "text": "Zażądaj szacunkowej listy pakowej według SKU: jednostki, kartony, masa netto, masa brutto i miejsca paletowe. Gęste towary trzeba planować wagowo, nie tylko objętościowo.\n\nMiędzynarodowa Organizacja Morska wymaga zweryfikowanej masy brutto dla kontenerów objętych SOLAS. Podaj też regułę Incoterms i nazwane miejsce; zasady ICC rozdzielają koszty i ryzyko, ale nie ustalają MOQ."
+      },
+      {
+        "heading": "Wpisz minimum do zapytania ofertowego",
+        "text": "Dla każdej pozycji określ zakres, próg cenowy, przygotowanie, odpowiedzialność za resztki materiału lub opakowań, próbkę odniesienia i warunek domówienia. Wyjątek musi wskazywać dokładne SKU.\n\nChinaFreeWeight to fabryka wolnych ciężarów obsługująca OEM, ODM, Custom Logo, Private Label i Bulk Supply. Prześlij zakres wag, jednostki, znakowanie, pakowanie i cel, aby ocenić wykonalność bez fikcyjnego wspólnego minimum."
+      }
+    ],
+    "table": {
+      "heading": "Matryca zakresu MOQ",
+      "columns": ["Możliwy zakres", "Co zapisać", "Ryzyko braku ustalenia"],
+      "rows": [
+        ["Całe zamówienie", "Dopuszczone rodziny i podstawa sumy", "Zakłada się swobodne mieszanie"],
+        ["Każda waga lub SKU", "Waga, system i jednostka zakupu", "Asortyment rośnie ponad plan"],
+        ["Materiał lub kolor", "Mieszanka, wykończenie i łączone pozycje", "Partii nie da się podzielić"],
+        ["Logo", "Wersja pliku, pozycja i zakres narzędzia", "Akceptacja trafia na zły format"],
+        ["Opakowanie", "Poziom, wymiar, nadruk i pozostałość", "Pudełka wymagają większej ilości"],
+        ["Paleta i wysyłka", "Kartony, masa brutto, miejsca i cel", "Mix nie działa w transporcie"]
+      ]
+    },
+    "checklist": {
+      "heading": "Lista przekazania do fabryki",
+      "items": [
+        "Wymień rodziny i stopnie wagowe.",
+        "Określ sztukę, parę, zestaw, karton lub masę.",
+        "Rozdziel KG, LB i podwójne oznaczenie.",
+        "Podaj wykończenie, kolor i logo dla SKU.",
+        "Rozdziel opakowanie standardowe i własne.",
+        "Potwierdź, które minima można łączyć.",
+        "Ustal koszty przygotowania i pozostałości.",
+        "Uzgodnij matrycę z listą pakową.",
+        "Wskaż Incoterms i nazwane miejsce.",
+        "Zatwierdź matrycę przed produkcją."
+      ]
+    },
+    "faq": [
+      ["Czy MOQ hantli liczy się na sztuki, pary czy kilogramy?", "Nie ma jednej podstawy. Oferta powinna podać jednostkę i zakres, na przykład sztukę, parę, zestaw, SKU lub masę produkcyjną."],
+      ["Czy różne wagi mogą wspólnie spełnić minimum?", "Tylko gdy producent potwierdzi wspólny proces, materiał, kolor, logo i pakowanie oraz zapisze dozwolony podział."],
+      ["Dlaczego opakowanie ma osobne minimum?", "Druk, wykrojnik, etykiety i wkładki mają własne zakupy i przygotowanie. Trzeba też ustalić los nadwyżki."],
+      ["Czy pełny kontener usuwa minima dla SKU?", "Nie. Łączna masa może być duża, a jedna waga, kolor lub grafika nadal nie osiąga progu swojej operacji."],
+      ["Co wysłać producentowi?", "Model, zakres wag, jednostkę sprzedaży, ilość na SKU, kolor, logo, pakowanie, miejsce docelowe i plan domówień."]
+    ],
+    "faqHeading": "Pytania kupujących o MOQ",
+    "linkHeading": "Uzupełnij dokumentację zakupu",
+    "linkLabels": ["Porównaj hantle komercyjne", "Sprawdź talerze", "Przygotuj porównywalne RFQ", "Wybierz metodę logo", "Zatwierdź próbkę OEM", "Zaplanuj identyfikację produktu i kartonu", "Określ opakowanie eksportowe", "Poproś o ocenę fabryki"],
+    "imageAlt": "Nieoznakowane hantle i talerze z pustymi przekładkami oraz neutralnymi kartonami w magazynie",
+    "imageCaption": "Koncepcyjna scena planowania; nie przedstawia zamówienia klienta, dokumentu wysyłkowego ani realnej produkcji.",
+    "cta": ["Przekształć mix SKU w czytelną ofertę", "Prześlij wagi, jednostki, zakres logo, pakowanie i cel do kontroli każdej pozycji.", "Omów mieszane zamówienie"]
+  }
+]

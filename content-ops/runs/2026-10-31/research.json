@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-10-31",
+  "status": "complete",
+  "selectedTopic": "MOQ scope and mixed-SKU planning for wholesale dumbbell and weight-plate orders",
+  "selectionReason": "High-intent importer question that explains whether minimums apply by order, SKU, weight, material, color, logo process or packaging without duplicating the existing gym-use dumbbell-set planner.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "free weight MOQ mixed SKU order: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "free weight MOQ mixed SKU order: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "free weight MOQ mixed SKU order: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "free weight MOQ mixed SKU order: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "free weight MOQ mixed SKU order: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "free weight MOQ mixed SKU order: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "free weight MOQ mixed SKU order: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "free weight MOQ mixed SKU order: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "free weight MOQ mixed SKU order: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "free weight MOQ mixed SKU order: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "free weight MOQ mixed SKU order: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "free weight MOQ mixed SKU order: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "free weight MOQ mixed SKU order: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "free weight MOQ mixed SKU order: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "free weight MOQ mixed SKU order: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "MOQ de halteres e anilhas no atacado: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "MOQ de halteres e anilhas no atacado: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "MOQ de halteres e anilhas no atacado: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "MOQ de halteres e anilhas no atacado: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "MOQ de halteres e anilhas no atacado: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "MOQ de halteres e anilhas no atacado: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "MOQ de halteres e anilhas no atacado: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "MOQ de halteres e anilhas no atacado: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "MOQ de halteres e anilhas no atacado: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "MOQ de halteres e anilhas no atacado: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "MOQ de halteres e anilhas no atacado: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "MOQ de halteres e anilhas no atacado: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "MOQ de halteres e anilhas no atacado: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "MOQ de halteres e anilhas no atacado: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "MOQ de halteres e anilhas no atacado: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "MOQ mancuernas y discos al por mayor: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "MOQ mancuernas y discos al por mayor: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "MOQ mancuernas y discos al por mayor: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "MOQ mancuernas y discos al por mayor: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "MOQ mancuernas y discos al por mayor: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "MOQ mancuernas y discos al por mayor: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "MOQ mancuernas y discos al por mayor: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "MOQ mancuernas y discos al por mayor: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "MOQ mancuernas y discos al por mayor: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "MOQ mancuernas y discos al por mayor: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "MOQ mancuernas y discos al por mayor: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "MOQ mancuernas y discos al por mayor: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "MOQ mancuernas y discos al por mayor: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "MOQ mancuernas y discos al por mayor: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "MOQ mancuernas y discos al por mayor: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Mindestbestellmenge Hanteln Großhandel: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "MOQ haltères et disques en gros: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "MOQ haltères et disques en gros: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "MOQ haltères et disques en gros: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "MOQ haltères et disques en gros: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "MOQ haltères et disques en gros: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "MOQ haltères et disques en gros: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "MOQ haltères et disques en gros: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "MOQ haltères et disques en gros: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "MOQ haltères et disques en gros: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "MOQ haltères et disques en gros: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "MOQ haltères et disques en gros: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "MOQ haltères et disques en gros: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "MOQ haltères et disques en gros: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "MOQ haltères et disques en gros: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "MOQ haltères et disques en gros: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "MOQ manubri e dischi ingrosso: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "MOQ manubri e dischi ingrosso: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "MOQ manubri e dischi ingrosso: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "MOQ manubri e dischi ingrosso: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "MOQ manubri e dischi ingrosso: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "MOQ manubri e dischi ingrosso: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "MOQ manubri e dischi ingrosso: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "MOQ manubri e dischi ingrosso: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "MOQ manubri e dischi ingrosso: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "MOQ manubri e dischi ingrosso: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "MOQ manubri e dischi ingrosso: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "MOQ manubri e dischi ingrosso: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "MOQ manubri e dischi ingrosso: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "MOQ manubri e dischi ingrosso: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "MOQ manubri e dischi ingrosso: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "minsta orderkvantitet hantlar grossist: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "minsta orderkvantitet hantlar grossist: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "minsta orderkvantitet hantlar grossist: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "minsta orderkvantitet hantlar grossist: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "minsta orderkvantitet hantlar grossist: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "minsta orderkvantitet hantlar grossist: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "minsta orderkvantitet hantlar grossist: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "minsta orderkvantitet hantlar grossist: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "minsta orderkvantitet hantlar grossist: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "minsta orderkvantitet hantlar grossist: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "minsta orderkvantitet hantlar grossist: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "minsta orderkvantitet hantlar grossist: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "minsta orderkvantitet hantlar grossist: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "minsta orderkvantitet hantlar grossist: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "minsta orderkvantitet hantlar grossist: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "MOQ dumbbells halterschijven groothandel: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "MOQ dumbbells halterschijven groothandel: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "MOQ dumbbells halterschijven groothandel: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "MOQ dumbbells halterschijven groothandel: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "MOQ dumbbells halterschijven groothandel: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "MOQ dumbbells halterschijven groothandel: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "MOQ dumbbells halterschijven groothandel: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "MOQ dumbbells halterschijven groothandel: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "MOQ dumbbells halterschijven groothandel: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "MOQ dumbbells halterschijven groothandel: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "MOQ dumbbells halterschijven groothandel: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "MOQ dumbbells halterschijven groothandel: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "MOQ dumbbells halterschijven groothandel: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "MOQ dumbbells halterschijven groothandel: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "MOQ dumbbells halterschijven groothandel: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "MOQ hantle talerze hurt: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "MOQ hantle talerze hurt: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "MOQ hantle talerze hurt: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "MOQ hantle talerze hurt: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "MOQ hantle talerze hurt: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "MOQ hantle talerze hurt: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "MOQ hantle talerze hurt: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "MOQ hantle talerze hurt: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "MOQ hantle talerze hurt: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "MOQ hantle talerze hurt: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "MOQ hantle talerze hurt: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "MOQ hantle talerze hurt: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "MOQ hantle talerze hurt: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "MOQ hantle talerze hurt: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "MOQ hantle talerze hurt: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "MOQ tạ tay bánh tạ nhập sỉ: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "MOQ dumbel pelat beban grosir: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "MOQ dumbel pelat beban grosir: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "MOQ dumbel pelat beban grosir: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "MOQ dumbel pelat beban grosir: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "MOQ dumbel pelat beban grosir: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "MOQ dumbel pelat beban grosir: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "MOQ dumbel pelat beban grosir: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "MOQ dumbel pelat beban grosir: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "MOQ dumbel pelat beban grosir: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "MOQ dumbel pelat beban grosir: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "MOQ dumbel pelat beban grosir: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "MOQ dumbel pelat beban grosir: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "MOQ dumbel pelat beban grosir: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "MOQ dumbel pelat beban grosir: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "MOQ dumbel pelat beban grosir: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة: written MOQ exception in the purchase order",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: minimum per order versus per SKU",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: pieces pairs sets or production mass",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: mixed dumbbell weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: material and color batch scope",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: custom-logo setup grouping",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: private-label packaging minimum",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: standard product versus new tooling",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: first-order assortment risk",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: slow-moving weight exposure",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: price break versus inventory cost",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: estimated packing list by SKU",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: pallet and gross-mass reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: repeat-order conditions",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: leftover packaging ownership",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "덤벨 웨이트 원판 도매 MOQ: written MOQ exception in the purchase order",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "free weight MOQ mixed SKU order",
+      "questions": [
+        "Is dumbbell MOQ normally quoted per piece, pair or kilogram?",
+        "Can different dumbbell weights share one MOQ?",
+        "Why can custom packaging have a different minimum from the product?",
+        "Does a full-container order remove per-SKU minimums?",
+        "What should a buyer send before asking for MOQ?"
+      ],
+      "evidence": [
+        "The en edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/resources/free-weight-moq-mixed-sku-order-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "MOQ de halteres e anilhas no atacado",
+      "questions": [
+        "O MOQ de halteres é por peça ou por par?",
+        "Pesos diferentes podem entrar no mesmo mínimo?",
+        "Por que a caixa personalizada tem outro mínimo?",
+        "Fechar um contêiner elimina mínimos por SKU?",
+        "O que enviar para receber uma resposta útil?"
+      ],
+      "evidence": [
+        "The pt-BR edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/pt/blog/moq-pesos-livres-pedido-varios-skus"
+    },
+    "es": {
+      "targetKeyword": "MOQ mancuernas y discos al por mayor",
+      "questions": [
+        "¿El MOQ de mancuernas se calcula por unidad, par o peso?",
+        "¿Puedo mezclar todos los pesos en un único mínimo?",
+        "¿Por qué el envase tiene un mínimo distinto?",
+        "¿Un contenedor completo elimina el mínimo por referencia?",
+        "¿Qué información necesita el fabricante para responder?"
+      ],
+      "evidence": [
+        "The es edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/es/blog/moq-pesas-pedido-multiples-sku"
+    },
+    "de": {
+      "targetKeyword": "Mindestbestellmenge Hanteln Großhandel",
+      "questions": [
+        "Wird die Mindestmenge für Kurzhanteln in Stück, Paar oder Kilogramm angegeben?",
+        "Dürfen verschiedene Gewichte gemeinsam gezählt werden?",
+        "Warum hat die Verpackung eine eigene Mindestmenge?",
+        "Beseitigt eine volle Containerladung alle SKU-Mindestmengen?",
+        "Welche Angaben braucht der Hersteller?"
+      ],
+      "evidence": [
+        "The de edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/de/blog/mindestbestellmenge-hanteln-sku-mix-planen"
+    },
+    "fr": {
+      "targetKeyword": "MOQ haltères et disques en gros",
+      "questions": [
+        "Le MOQ des haltères est-il calculé à la pièce, à la paire ou au poids ?",
+        "Peut-on mélanger plusieurs poids dans un seul minimum ?",
+        "Pourquoi l’emballage a-t-il un minimum différent ?",
+        "Un conteneur complet supprime-t-il les minimums par SKU ?",
+        "Que faut-il envoyer pour obtenir une réponse exploitable ?"
+      ],
+      "evidence": [
+        "The fr edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/fr/blog/moq-halteres-disques-commande-multi-references"
+    },
+    "it": {
+      "targetKeyword": "MOQ manubri e dischi ingrosso",
+      "questions": [
+        "Il MOQ dei manubri è per pezzo, coppia o chilogrammo?",
+        "Pesi diversi possono condividere lo stesso minimo?",
+        "Perché l’imballo ha un minimo separato?",
+        "Un container completo elimina i minimi per SKU?",
+        "Quali dati servono per una risposta utile?"
+      ],
+      "evidence": [
+        "The it edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/it/blog/moq-pesi-liberi-ordine-multi-sku"
+    },
+    "sv": {
+      "targetKeyword": "minsta orderkvantitet hantlar grossist",
+      "questions": [
+        "Anges MOQ för hantlar per styck, par eller kilogram?",
+        "Kan olika vikter dela samma minimum?",
+        "Varför har förpackningen ett eget minimum?",
+        "Tar en full container bort alla SKU-minimum?",
+        "Vad bör skickas med förfrågan?"
+      ],
+      "evidence": [
+        "The sv edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/sv/blogg/minsta-orderkvantitet-fria-vikter-sku-mix"
+    },
+    "nl": {
+      "targetKeyword": "MOQ dumbbells halterschijven groothandel",
+      "questions": [
+        "Geldt dumbbell-MOQ per stuk, paar of kilogram?",
+        "Mogen verschillende gewichten één minimum delen?",
+        "Waarom heeft verpakking een ander minimum?",
+        "Verdwijnt SKU-MOQ bij een volle container?",
+        "Welke informatie heeft de fabriek nodig?"
+      ],
+      "evidence": [
+        "The nl edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/nl/blog/minimale-afname-vrije-gewichten-gemengde-sku-order"
+    },
+    "pl": {
+      "targetKeyword": "MOQ hantle talerze hurt",
+      "questions": [
+        "Czy MOQ hantli liczy się na sztuki, pary czy kilogramy?",
+        "Czy różne wagi mogą wspólnie spełnić minimum?",
+        "Dlaczego opakowanie ma osobne minimum?",
+        "Czy pełny kontener usuwa minima dla SKU?",
+        "Co wysłać producentowi?"
+      ],
+      "evidence": [
+        "The pl edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/pl/blog/moq-wolne-ciezary-zamowienie-wielo-sku"
+    },
+    "vi": {
+      "targetKeyword": "MOQ tạ tay bánh tạ nhập sỉ",
+      "questions": [
+        "MOQ tạ tay tính theo chiếc, đôi hay kilogram?",
+        "Các mức tạ khác nhau có thể dùng chung mức tối thiểu không?",
+        "Vì sao bao bì có mức tối thiểu riêng?",
+        "Đặt đủ container có xóa mức tối thiểu theo SKU không?",
+        "Cần gửi gì để nhận phản hồi chính xác?"
+      ],
+      "evidence": [
+        "The vi edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/vi/blog/moq-ta-tay-banh-ta-don-hang-nhieu-ma"
+    },
+    "id": {
+      "targetKeyword": "MOQ dumbel pelat beban grosir",
+      "questions": [
+        "Apakah MOQ dumbel dihitung per unit, pasang, atau kilogram?",
+        "Bisakah beberapa bobot berbagi satu minimum?",
+        "Mengapa kemasan memiliki minimum sendiri?",
+        "Apakah kontainer penuh menghapus minimum per SKU?",
+        "Apa yang perlu dikirim kepada pabrik?"
+      ],
+      "evidence": [
+        "The id edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/id/blog/moq-beban-bebas-pesanan-campuran-sku"
+    },
+    "ar": {
+      "targetKeyword": "الحد الأدنى لطلب الدمبل وأقراص الأوزان بالجملة",
+      "questions": [
+        "هل يحسب MOQ للدمبل بالقطعة أم بالزوج أم بالكيلوغرام؟",
+        "هل يمكن جمع أوزان مختلفة في حد واحد؟",
+        "لماذا للعبوة حد منفصل؟",
+        "هل تلغي الحاوية الكاملة حدود كل SKU؟",
+        "ما المعلومات التي يحتاجها المصنع؟"
+      ],
+      "evidence": [
+        "The ar edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/ar/blog/free-weight-moq-mixed-sku-order-guide"
+    },
+    "ko": {
+      "targetKeyword": "덤벨 웨이트 원판 도매 MOQ",
+      "questions": [
+        "덤벨 MOQ는 개, 쌍, 킬로그램 중 무엇으로 계산합니까?",
+        "여러 중량을 한 최소량으로 묶을 수 있습니까?",
+        "포장 최소량이 제품과 다른 이유는 무엇입니까?",
+        "컨테이너를 채우면 SKU별 최소량이 사라집니까?",
+        "공장에 무엇을 보내야 합니까?"
+      ],
+      "evidence": [
+        "The ko edition uses local procurement language for minimum-order scope, SKU mix, packaging and repeat-order exposure.",
+        "Its examples distinguish pieces, pairs, sets, production mass, color batches and pack levels for the local buying context."
+      ],
+      "path": "/ko/blog/free-weight-moq-mixed-sku-order-guide"
+    }
+  },
+  "competitors": [
+    {
+      "name": "IRONHUE",
+      "url": "https://ironhue.com/blog/free-weight-moq-kilograms-pieces-pairs",
+      "observation": "Covers the headline distinction between mass, pieces and pairs; all exact supplier figures were excluded from this guide."
+    },
+    {
+      "name": "Gym Weight Supply",
+      "url": "https://gymweightsupply.com/factory/faq",
+      "observation": "Covers common MOQ and mixed-container questions; the new guide adds a buyer-owned scope matrix, inventory exposure and documentation controls."
+    },
+    {
+      "name": "RYMAX Fitness",
+      "url": "https://www.rymaxfitness.com/dumbbell-faq/",
+      "observation": "FAQ result reviewed for buyer wording only; no commercial quantity or factory claim was reused."
+    }
+  ],
+  "rejectedTopics": [
+    "Tooling ownership for a private mould — valuable but lower-frequency than the selected first-order MOQ question.",
+    "Container loading optimization — overlaps the export-packaging and landed-cost guides.",
+    "Commercial dumbbell-set planning for gym use — already published in every active locale.",
+    "Custom-logo method comparison — existing multilingual content covers moulded, printed, engraved and end-cap options.",
+    "AQL acceptance sampling — published on the previous run and intentionally excluded from today's intent."
+  ],
+  "siteGaps": [
+    "No existing article explains how a free-weight buyer separates a total-order minimum from per-weight, material, color, logo, packaging and shipment constraints in one comparable RFQ matrix."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1797,
+    "liveBlogUrlsReviewed": 927,
+    "activeLanguageUrlsReviewed": 1795,
+    "dedicatedFreeWeightMoqScopeArticleFound": false,
+    "nearestTopics": [
+      "commercial dumbbell set planning",
+      "commercial free-weight RFQ",
+      "private-label GTIN and packaging",
+      "landed-cost planning"
+    ]
+  },
+  "searchRun": {
+    "provider": "Public Google- and Bing-visible result review, People Also Ask-style question review, Reddit buyer-language review, competitor review and direct primary-source verification",
+    "queryFormulationsReviewed": 22,
+    "observedQuestionGroups": 17,
+    "limitations": [
+      "Quora blocked automated access; no answer text was used.",
+      "Reddit supplied buyer language only; identification, shipment-mass and trade-term statements rely on GS1, IMO and ICC.",
+      "Competitor minimum quantities were treated as supplier-specific and were not reproduced.",
+      "No customer, shipment, price, MOQ number, lead time, certification or performance result was inferred from public pages."
+    ]
+  },
+  "sources": [
+    {
+      "title": "GS1 — sizes and colours need separate GTINs",
+      "url": "https://support.gs1.org/support/solutions/articles/43000734083-how-many-gs1-gtins-do-i-need-when-i-have-a-product-with-many-sizes-and-colours-",
+      "primary": true,
+      "use": "Primary guidance that separately traded size and colour variations need separate identification."
+    },
+    {
+      "title": "IMO — verification of packed-container gross mass",
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "primary": true,
+      "use": "Primary SOLAS explanation for verified gross mass; used only to bound shipment-mass planning."
+    },
+    {
+      "title": "ICC — Incoterms and commercial contracts",
+      "url": "https://library.iccwbo.org/clp/clp-incoterms-qa-2020.htm",
+      "primary": true,
+      "use": "Primary explanation of cost, risk and obligation allocation; not treated as an MOQ rule."
+    },
+    {
+      "title": "Reddit — MOQ with several sizes",
+      "url": "https://www.reddit.com/r/SupplyChainLogistics/comments/1wzrw59/",
+      "primary": false,
+      "use": "Buyer wording around whether a quoted minimum applies per size, SKU or total order."
+    },
+    {
+      "title": "Reddit — manufacturing MOQ discussion",
+      "url": "https://www.reddit.com/r/manufacturing/comments/1tgypkv/",
+      "primary": false,
+      "use": "Manufacturer-side language around setup, batch economics and packaging; no numerical claim reused."
+    },
+    {
+      "title": "IRONHUE — free-weight MOQ units",
+      "url": "https://ironhue.com/blog/free-weight-moq-kilograms-pieces-pairs",
+      "primary": false,
+      "use": "Competitor result reviewed for common buyer questions; its exact commercial numbers were excluded."
+    },
+    {
+      "title": "Gym Weight Supply — factory FAQ",
+      "url": "https://gymweightsupply.com/factory/faq",
+      "primary": false,
+      "use": "Competitor result reviewed for RFQ fields and mixed-order language; no factory claim was imported."
+    }
+  ]
+}

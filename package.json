@@ -97,6 +97,8 @@
     "audit:private-label-gtin-packaging-rendered": "node scripts/verify-private-label-gtin-packaging-rendering.mjs",
     "audit:free-weight-aql-inspection": "tsx scripts/audit-free-weight-aql-inspection-guide.ts",
     "audit:free-weight-aql-inspection-rendered": "node scripts/verify-free-weight-aql-inspection-rendering.mjs",
+    "audit:free-weight-moq-mixed-sku": "tsx scripts/audit-free-weight-moq-mixed-sku-guide.ts",
+    "audit:free-weight-moq-mixed-sku-rendered": "node scripts/verify-free-weight-moq-mixed-sku-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",
