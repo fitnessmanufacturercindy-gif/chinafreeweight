@@ -71,6 +71,7 @@ import { withNeopreneVinylDumbbellGuide } from "./neoprene-vinyl-dumbbell-guide"
 import { withWeightPlateStorageGuide } from "./weight-plate-storage-guide";
 import { withPrivateLabelGtinPackagingGuide } from "./private-label-gtin-packaging-guide";
 import { withFreeWeightAqlInspectionGuide } from "./free-weight-aql-inspection-guide";
+import { withFreeWeightMoqMixedSkuGuide } from "./free-weight-moq-mixed-sku-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -234,7 +235,8 @@ const neopreneVinylDumbbellManifest = withNeopreneVinylDumbbellGuide(urethaneDum
 const weightPlateStorageManifest = withWeightPlateStorageGuide(neopreneVinylDumbbellManifest);
 const privateLabelGtinPackagingManifest = withPrivateLabelGtinPackagingGuide(weightPlateStorageManifest);
 const freeWeightAqlInspectionManifest = withFreeWeightAqlInspectionGuide(privateLabelGtinPackagingManifest);
+const freeWeightMoqMixedSkuManifest = withFreeWeightMoqMixedSkuGuide(freeWeightAqlInspectionManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightAqlInspectionManifest
+  freeWeightMoqMixedSkuManifest
 );

@@ -1,0 +1,284 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/free-weight-moq-mixed-sku-order-guide",
+    "title": "Free-Weight MOQ Guide: Plan Mixed-SKU Dumbbell and Plate Orders",
+    "description": "Clarify whether MOQ applies by order, weight, color, logo process or packaging before you build a mixed dumbbell and weight-plate purchase.",
+    "h1": "How to Plan MOQ for a Mixed-SKU Dumbbell and Weight-Plate Order",
+    "keyword": "free weight MOQ mixed SKU order",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Wholesale assortment planning",
+    "sections": [
+      {
+        "heading": "The short answer",
+        "text": "Do not treat MOQ as one headline number. Ask the supplier to write the unit and scope beside every minimum: total order, product family, weight step, color batch, logo process, packaging design or pallet.\n\nBuild a line-by-line SKU matrix before comparing quotations. For each dumbbell, plate, bar or cable attachment, show the selling unit, quantity, net product mass, customization and packing level so a low-looking minimum cannot hide an impractical split."
+      },
+      {
+        "heading": "What MOQ means in a free-weight quotation",
+        "text": "MOQ is the smallest quantity a supplier is prepared to make or sell under stated commercial conditions. It is not a universal product specification, and the same factory may use different bases for cast products, molded coatings, machined bars, bought-in accessories and printed cartons.\n\nA mixed purchase order can therefore meet the supplier's overall tonnage while still missing a minimum for one color, one artwork or one weight. The useful question is not only “What is the MOQ?” but “Which line, process and packaging component does this minimum govern?”"
+      },
+      {
+        "heading": "Separate sellable variants before you allocate quantity",
+        "text": "Treat every combination that buyers must identify separately as its own commercial line: nominal weight, unit system, construction, finish, color, logo and pack format. GS1 likewise treats size and color variations as distinct trade items when they must be identified separately; your internal SKU map should be at least as clear.\n\nDo not merge a pair, a single piece, a set and a master carton into one quantity column. State the order unit and conversion for every line so factory production, carton labels and the buyer's inventory system use the same basis."
+      },
+      {
+        "heading": "Find the real constraint behind each minimum",
+        "text": "A minimum may come from a material batch, molding or casting run, machining setup, color change, logo fixture, print process, carton purchase or the economics of handling a very small line. Ask which factor applies and whether two SKUs genuinely share it.\n\nShared material or packaging can sometimes simplify a program, but visual similarity does not prove common setup. Two weights may require different cores, tools, carton sizes or inspection references. Record any allowed grouping in the quotation instead of assuming the total can be redistributed later."
+      },
+      {
+        "heading": "Balance range coverage against inventory exposure",
+        "text": "Start with the assortment your channel can explain and replenish, then test it against the supplier's production groupings. A broad weight ladder can look complete while tying cash to slow variants and creating many small packaging or artwork runs.\n\nUse expected demand, rack or shelf capacity, receiving constraints and reorder confidence to decide where range depth matters. If evidence is weak, keep more elements standard and reserve structural changes, custom colors or special cartons for variants that justify a separate production commitment."
+      },
+      {
+        "heading": "Connect the order matrix to freight and receiving",
+        "text": "Free weights are dense, so the product mix must be checked by mass as well as cartons and pallet positions. The International Maritime Organization requires verified gross mass for packed containers under the applicable SOLAS rule; a preliminary loading estimate is planning evidence, not the final verified value.\n\nAsk for an estimated packing list by SKU, then reconcile pieces, pairs, cartons, net mass, gross mass and pallet count. Confirm the Incoterms rule and named place separately, because ICC rules allocate defined costs and risks but do not fix product MOQ or inventory ownership."
+      },
+      {
+        "heading": "Put every minimum and exception into the RFQ",
+        "text": "Issue the same matrix to each supplier and require the reply to show minimum scope, price break, setup charge if any, unused packaging or material responsibility, sample reference and reorder condition. A negotiated exception is useful only when it is written against the exact SKU and order.\n\nChinaFreeWeight is a free-weight factory supporting OEM, ODM, Custom Logo, Private Label and Bulk Supply programs. Share your product mix, quantities by selling unit, destination and packaging plan so we can review manufacturability and quote the real scope without presenting a universal MOQ."
+      }
+    ],
+    "table": {
+      "heading": "MOQ scope matrix for quotation comparison",
+      "columns": ["Minimum may apply to", "Buyer should record", "Risk if left vague"],
+      "rows": [
+        ["Whole purchase order", "Eligible product families and total basis", "Buyer assumes every SKU can be mixed freely"],
+        ["Each product or weight SKU", "Nominal weight, unit system and quantity unit", "A complete range becomes much larger than expected"],
+        ["Material or color batch", "Compound, finish, color reference and shareable lines", "Color or material cannot be redistributed"],
+        ["Logo or marking process", "Artwork version, placement, tool or fixture scope", "One approved logo is assumed to cover every size"],
+        ["Retail and export packaging", "Pack level, carton size, artwork and leftover terms", "Packaging commitment exceeds product quantity"],
+        ["Pallet or shipment plan", "Cartons, gross mass, pallet positions and destination", "Production mix does not fit receiving or freight limits"]
+      ]
+    },
+    "checklist": {
+      "heading": "Buyer handoff checklist",
+      "items": [
+        "List every product family and weight step.",
+        "State whether quantity means pieces, pairs, sets, cartons or mass.",
+        "Separate KG, LB and dual-marked variants.",
+        "Record finish, color and logo process by SKU.",
+        "Identify standard and custom packaging levels.",
+        "Ask which minimums can be pooled and why.",
+        "Request setup charges and leftover-material terms in writing.",
+        "Reconcile SKU quantities with the estimated packing list.",
+        "Confirm the Incoterms rule and named place.",
+        "Approve the final matrix before production release."
+      ]
+    },
+    "faq": [
+      ["Is dumbbell MOQ normally quoted per piece, pair or kilogram?", "There is no universal basis. Suppliers may quote by piece, pair, set, SKU, production mass or another defined unit, so the quotation must state both unit and scope."],
+      ["Can different dumbbell weights share one MOQ?", "Sometimes, but only when the supplier confirms which production, material, logo and packaging requirements are genuinely shared. Put the permitted mix in the quotation."],
+      ["Why can custom packaging have a different minimum from the product?", "Printed cartons, labels, inserts and other packaging components have their own suppliers and setups. Ask who owns or stores any excess and whether it can be used for a later order."],
+      ["Does a full-container order remove per-SKU minimums?", "Not automatically. A shipment can be large overall while one weight, color or artwork remains below the production minimum for that specific line."],
+      ["What should a buyer send before asking for MOQ?", "Send the product style, weight ladder, selling unit, quantity by SKU, logo method, color, pack format, destination and expected reorder logic. This makes the answer comparable."]
+    ],
+    "faqHeading": "Free-weight MOQ FAQ for wholesale buyers",
+    "linkHeading": "Build the rest of the purchase file",
+    "linkLabels": [
+      "Compare commercial dumbbells",
+      "Review weight plate options",
+      "Prepare a comparable RFQ",
+      "Choose a custom-logo method",
+      "Approve the OEM sample",
+      "Plan item and carton identification",
+      "Define export packaging",
+      "Request a factory review"
+    ],
+    "imageAlt": "Mixed unbranded hex dumbbells and Olympic plates beside plain cartons and a blank order grid",
+    "imageCaption": "Conceptual assortment-planning scene; it is not a customer order, shipment record or factory production image.",
+    "cta": [
+      "Turn the SKU mix into a workable quotation",
+      "Send your weight ladder, quantity unit, logo scope, packaging plan and destination for a line-by-line manufacturing review.",
+      "Discuss your mixed order"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/moq-pesos-livres-pedido-varios-skus",
+    "title": "MOQ de Pesos Livres: Planeje Pedidos com Vários SKUs",
+    "description": "Entenda se o MOQ vale por pedido, peso, cor, aplicação de logo ou embalagem antes de cotar halteres e anilhas em atacado.",
+    "h1": "Como Estruturar o MOQ de Halteres e Anilhas por Peso, Cor e Embalagem",
+    "keyword": "MOQ de halteres e anilhas no atacado",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "Planejamento de compra para distribuidores",
+    "sections": [
+      {
+        "heading": "Resposta direta para o comprador",
+      "text": "Peça que cada mínimo venha acompanhado de sua unidade e abrangência. O fornecedor deve indicar se o limite vale para o pedido inteiro, para cada peso, para uma família de produto, para o lote de cor, para o processo de logo ou para a embalagem impressa.\n\nMonte uma planilha por SKU antes de discutir desconto. Uma cotação só é comparável quando peça, par, conjunto, caixa e massa do lote estão claramente separados.\n\nAntes de enviar a consulta, acrescente uma coluna para o volume desejado agora e outra para a reposição provável. Essa separação ajuda a fábrica a explicar quando a condição depende do primeiro lote, da repetição da mesma configuração ou de uma nova preparação."
+      },
+      {
+        "heading": "MOQ não é um número único do catálogo",
+      "text": "O mínimo comercial depende do processo que precisa ser preparado para aquele item. Fundição, revestimento moldado, usinagem, troca de cor, aplicação de marca e compra de caixas podem criar limites diferentes dentro do mesmo pedido.\n\nPor isso, atingir o volume total não garante que todos os pesos estejam liberados. O comprador deve perguntar qual etapa sustenta cada mínimo e qual combinação o fabricante realmente aceita.\n\nSepare também produto padrão de alteração estrutural. Uma cor ou impressão pode usar uma base existente, enquanto um novo núcleo, molde ou componente exige outra avaliação. A proposta deve dizer se a condição cotada continua válida quando o desenho, o material ou a apresentação comercial muda."
+      },
+      {
+        "heading": "Comece pela unidade vendida no seu mercado",
+        "text": "No Brasil, confirme se o produto será cadastrado e vendido por unidade, par ou conjunto. Registre também quilogramas, libras ou marcação dupla, porque a unidade nominal e a arte visível mudam o SKU comercial.\n\nA orientação da GS1 para variações de tamanho e cor reforça a necessidade de identificação separada quando o mercado precisa distinguir os itens. O mapa interno do importador deve ligar SKU, GTIN quando aplicável, caixa e descrição da nota sem ambiguidades."
+      },
+      {
+        "heading": "Descubra o que pode ser agrupado de verdade",
+      "text": "Pergunte se pesos diferentes compartilham matéria-prima, molde, cor, dispositivo de logo e caixa. O fato de pertencerem à mesma linha visual não significa que usam a mesma preparação ou o mesmo tamanho de embalagem.\n\nQuando o fornecedor aceitar um agrupamento, registre a regra: quais SKUs entram, qual é a base mínima e como a quantidade pode ser distribuída. Evite depender de uma conversa informal que não aparece na proposta final.\n\nTeste a regra com dois exemplos reais da grade, um peso de alta saída e outro de menor giro. Peça que o fornecedor mostre como ambos entram no cálculo. Isso revela rapidamente se o agrupamento vale para o produto, para o acabamento ou apenas para uma etapa específica."
+      },
+      {
+        "heading": "Proteja o caixa no primeiro sortimento",
+      "text": "Uma grade muito ampla pode ocupar capital em pesos de baixa saída e gerar sobras de embalagem específica. Use dados do canal, espaço de estoque, capacidade de exposição e frequência provável de reposição para decidir a profundidade de cada faixa.\n\nPara um lançamento, padronizar cor, estrutura e caixa costuma facilitar a leitura do risco. Personalizações adicionais devem entrar quando a demanda e a margem justificarem um compromisso separado de produção.\n\nMonte cenários básico, intermediário e completo sem transformar previsão em promessa de venda. Compare o capital imobilizado, a quantidade de SKUs, o espaço de recebimento e a facilidade de recompor os itens principais. A melhor grade é a que pode ser explicada, recebida e repetida com controle."
+      },
+      {
+        "heading": "Cruze a grade com paletes e transporte",
+        "text": "Pesos livres têm alta densidade, portanto a soma em quilos e a distribuição nas caixas importam tanto quanto a contagem de unidades. A regra de massa bruta verificada da Organização Marítima Internacional exige que o embarcador forneça o valor verificado antes do carregamento do contêiner aplicável.\n\nSolicite uma packing list estimada por SKU e confira unidades, caixas, massa líquida, massa bruta e paletes. O Incoterm e o local nomeado devem aparecer em campo separado, pois definem responsabilidades comerciais, mas não substituem a composição física do pedido."
+      },
+      {
+        "heading": "Transforme a negociação em uma especificação",
+        "text": "Inclua na RFQ a grade completa, a unidade de compra, a arte, a cor, o tipo de embalagem e o destino. Peça resposta sobre mínimos agrupáveis, custos de preparação, sobras de caixas ou materiais e condição de repetição do mesmo SKU.\n\nA ChinaFreeWeight é uma fábrica de pesos livres que atende programas OEM, ODM, Custom Logo, Private Label e Bulk Supply. Envie sua grade e o plano de embalagem para avaliarmos a viabilidade sem inventar um MOQ padrão para todos os projetos."
+      }
+    ],
+    "table": {
+      "heading": "Quadro para esclarecer o MOQ na proposta",
+      "columns": ["Abrangência possível", "Informação que precisa constar", "Risco de deixar em aberto"],
+      "rows": [
+        ["Pedido completo", "Famílias aceitas e base total", "Mistura livre é presumida sem confirmação"],
+        ["Cada peso ou SKU", "Peso nominal, unidade de venda e quantidade", "A grade completa cresce além do previsto"],
+        ["Matéria-prima ou cor", "Composto, acabamento, referência e itens agrupáveis", "A cor não pode ser redistribuída"],
+        ["Logo e marcação", "Versão da arte, posição e alcance do dispositivo", "Uma aprovação é aplicada a tamanhos diferentes"],
+        ["Embalagem", "Nível de caixa, dimensões, impressão e sobras", "O mínimo da caixa supera o do produto"],
+        ["Palete e embarque", "Caixas, massa bruta, posições e destino", "O mix não funciona no recebimento"]
+      ]
+    },
+    "checklist": {
+      "heading": "Checklist para enviar ao fabricante",
+      "items": [
+        "Liste cada família e cada faixa de peso.",
+        "Defina peça, par, conjunto, caixa ou massa.",
+        "Separe versões em KG, LB e marcação dupla.",
+        "Indique acabamento, cor e logo por SKU.",
+        "Diferencie embalagem padrão e personalizada.",
+        "Pergunte quais mínimos podem ser agrupados.",
+        "Registre preparação e destino de sobras.",
+        "Cruze a grade com a packing list estimada.",
+        "Confirme Incoterm e local nomeado.",
+        "Aprove a matriz antes de liberar a produção."
+      ]
+    },
+    "faq": [
+      ["O MOQ de halteres é por peça ou por par?", "Pode ser por peça, par, conjunto, SKU, massa de produção ou outra base. A proposta deve informar a unidade e onde o mínimo se aplica."],
+      ["Pesos diferentes podem entrar no mesmo mínimo?", "Podem quando o fabricante confirma o agrupamento de processo, material, cor, logo e embalagem. A combinação permitida deve ficar escrita."],
+      ["Por que a caixa personalizada tem outro mínimo?", "A gráfica, o formato, a impressão e os insertos possuem preparações próprias. Defina também quem guarda ou assume a sobra."],
+      ["Fechar um contêiner elimina mínimos por SKU?", "Não necessariamente. O volume total pode ser suficiente, enquanto uma cor, um peso ou uma arte ainda fica abaixo do lote daquela etapa."],
+      ["O que enviar para receber uma resposta útil?", "Envie modelo, grade de pesos, unidade de venda, quantidade por SKU, logo, cor, embalagem, destino e lógica de reposição."]
+    ],
+    "faqHeading": "Dúvidas de compradores sobre MOQ",
+    "linkHeading": "Complete o arquivo de compra",
+    "linkLabels": [
+      "Comparar halteres profissionais",
+      "Revisar opções de anilhas",
+      "Preparar uma RFQ comparável",
+      "Escolher aplicação de logo",
+      "Aprovar a amostra OEM",
+      "Planejar identificação e códigos",
+      "Definir embalagem de exportação",
+      "Solicitar análise da fábrica"
+    ],
+    "imageAlt": "Linha de halteres hexagonais sem marca em vários tamanhos com caixas lisas e folha de planejamento sem texto",
+    "imageCaption": "Cena conceitual de planejamento; não representa pedido de cliente, registro de embarque ou produção real.",
+    "cta": [
+      "Converta a grade em uma cotação executável",
+      "Envie pesos, unidade de compra, escopo do logo, embalagem e destino para uma revisão linha a linha.",
+      "Discutir o pedido misto"
+    ]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/moq-pesas-pedido-multiples-sku",
+    "title": "MOQ de Pesas: Cómo Planificar un Pedido con Varios SKU",
+    "description": "Aclare si el pedido mínimo se aplica al total, a cada peso, color, logotipo o envase antes de comprar mancuernas y discos al por mayor.",
+    "h1": "Cómo Comparar el MOQ de un Pedido Mixto de Mancuernas y Discos",
+    "keyword": "MOQ mancuernas y discos al por mayor",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "Control de surtido para importadores",
+    "sections": [
+      {
+        "heading": "La respuesta que debe quedar por escrito",
+      "text": "Un MOQ solo es útil cuando incluye unidad y alcance. Exija que la oferta indique si el mínimo corresponde al pedido completo, a cada referencia de peso, a una tirada de color, al método de logotipo o a un componente del envase.\n\nPrepare una matriz por SKU con piezas, pares, juegos, cajas y masa. Así evita comparar dos cifras que parecen iguales pero describen compromisos de compra distintos.\n\nAñada una columna para la compra inicial y otra para la reposición prevista. La fábrica podrá señalar si una condición depende del primer lote, de repetir exactamente la misma configuración o de preparar de nuevo un color, un útil o un envase."
+      },
+      {
+        "heading": "Por qué aparecen varios mínimos en una misma compra",
+      "text": "Cada proceso puede tener su propia preparación: fundición, moldeo, mecanizado, mezcla de color, útil de marcado, impresión y embalaje. El proveedor puede aceptar una cantidad total y, al mismo tiempo, pedir un lote separado para una variante concreta.\n\nEl comprador no necesita adivinar la estructura de costes. Debe pedir qué operación origina el límite, qué referencias la comparten y qué cambia si reduce el número de variantes.\n\nDiferencie además una selección de catálogo de un cambio estructural. Aplicar una marca sobre una base existente no equivale a modificar un núcleo, un molde o un componente. La oferta debe explicar cuándo deja de ser válida la condición por cambiar material, geometría o presentación comercial."
+      },
+      {
+        "heading": "Defina primero la referencia que venderá",
+      "text": "Separe peso nominal, sistema KG o LB, construcción, acabado, color, marca y presentación comercial. Si el almacén o el cliente debe distinguir una variación, merece una línea propia en la orden y en la recepción.\n\nGS1 señala que las variaciones de talla y color requieren identificación diferenciada cuando constituyen artículos comerciales distintos. Para las pesas, la misma disciplina ayuda a evitar que una unidad, un par y un juego terminen con cantidades incompatibles.\n\nUse la misma clave de SKU en la solicitud, la muestra aprobada, la proforma y la lista de empaque. Si el proveedor utiliza un código interno diferente, mantenga una tabla de correspondencia. Este control evita que una conversión de pares a piezas altere la cantidad durante producción o recepción."
+      },
+      {
+        "heading": "Audite la promesa de mezcla",
+      "text": "Pregunte si la mezcla se admite entre pesos, colores o modelos y sobre qué base se calcula. Una familia visual puede usar núcleos, moldes, cajas y referencias de inspección diferentes, por lo que no debe suponerse que todo comparte lote.\n\nSi la fábrica ofrece flexibilidad, pida una tabla que nombre las referencias incluidas y el reparto permitido. Esa tabla debe acompañar a la proforma y a la orden de compra.\n\nCompruebe la regla con dos referencias reales: una de rotación alta y otra más lenta. Solicite que el proveedor muestre cómo entran en el cálculo. Así podrá saber si la flexibilidad corresponde al producto completo, al material compartido, al acabado o solamente a una operación concreta."
+      },
+      {
+        "heading": "Evite completar la gama con inventario inmóvil",
+      "text": "Cruce la escalera de pesos con ventas previstas, capacidad de exposición, espacio de almacén y ritmo de reposición. Una gama extensa puede ser atractiva en catálogo, pero también multiplicar cajas, artes y saldos de baja rotación.\n\nEn una primera compra, conserve elementos estándar donde no aporten una diferencia visible al mercado. Reserve color exclusivo, envase especial o cambios estructurales para referencias con una razón comercial comprobable.\n\nPrepare escenarios básico, intermedio y completo sin presentar la previsión como venta garantizada. Compare capital inmovilizado, número de referencias, capacidad de recepción y facilidad de reponer los pesos principales. El surtido más útil es el que su canal puede explicar, almacenar y repetir de forma controlada."
+      },
+      {
+        "heading": "Compruebe masa, cajas y responsabilidad logística",
+        "text": "Solicite una lista de empaque estimada por referencia. Revise cantidad, unidad de venta, cajas, masa neta, masa bruta y posiciones de palé antes de aceptar la combinación.\n\nLa Organización Marítima Internacional exige masa bruta verificada para los contenedores sujetos a la regla SOLAS correspondiente. Además, indique el Incoterm y el lugar nombrado: las reglas ICC distribuyen ciertos costes y riesgos, pero no corrigen un surtido mal calculado."
+      },
+      {
+        "heading": "Convierta el MOQ en una condición de la RFQ",
+      "text": "Pida que cada oferta muestre el alcance del mínimo, escalones de precio, preparación, material o envase sobrante, muestra aprobada y condición de reposición. Toda excepción debe referirse a la línea exacta y no a una promesa general.\n\nChinaFreeWeight es una fábrica de pesas libres para programas OEM, ODM, Custom Logo, Private Label y Bulk Supply. Comparta su matriz, destino y formato de embalaje para revisar la viabilidad sin prometer un MOQ universal. Conserve la versión aceptada junto con la orden para que compras, producción e inspección trabajen con el mismo reparto."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de riesgos del MOQ",
+      "columns": ["Dónde puede aplicarse", "Dato que debe fijarse", "Consecuencia de no aclararlo"],
+      "rows": [
+        ["Pedido total", "Familias permitidas y base de cálculo", "Se presupone una mezcla que no existe"],
+        ["Cada peso o SKU", "Peso, sistema de unidades y unidad de compra", "La gama exige más inventario del previsto"],
+        ["Material o color", "Compuesto, acabado y referencias agrupables", "La tirada no puede repartirse libremente"],
+        ["Logotipo", "Arte, ubicación y alcance del útil", "Se reutiliza una aprobación incorrecta"],
+        ["Envase", "Nivel, tamaño, impresión y saldo", "El compromiso de cajas supera al producto"],
+        ["Palé y envío", "Bultos, masa bruta, posiciones y destino", "El surtido falla en transporte o recepción"]
+      ]
+    },
+    "checklist": {
+      "heading": "Lista para comparar proveedores",
+      "items": [
+        "Enumere familias y escalones de peso.",
+        "Defina pieza, par, juego, caja o masa.",
+        "Separe KG, LB y marcado doble.",
+        "Anote acabado, color y logotipo por SKU.",
+        "Distinga envase estándar y personalizado.",
+        "Pida la regla de agrupación de mínimos.",
+        "Aclare preparación y materiales sobrantes.",
+        "Concilie cantidades con la lista de empaque.",
+        "Fije Incoterm y lugar nombrado.",
+        "Apruebe la matriz antes de producción."
+      ]
+    },
+    "faq": [
+      ["¿El MOQ de mancuernas se calcula por unidad, par o peso?", "No existe una base universal. La fábrica puede cotizar por pieza, par, juego, SKU, masa de producción u otra unidad definida."],
+      ["¿Puedo mezclar todos los pesos en un único mínimo?", "Solo si el proveedor confirma qué procesos, materiales, colores, logos y envases comparten la base. Deje el reparto por escrito."],
+      ["¿Por qué el envase tiene un mínimo distinto?", "Cajas, etiquetas e insertos tienen compras y preparaciones propias. Aclare también el destino de cualquier sobrante."],
+      ["¿Un contenedor completo elimina el mínimo por referencia?", "No de forma automática. El volumen total puede ser alto y una referencia seguir por debajo de su tirada de producción."],
+      ["¿Qué información necesita el fabricante para responder?", "Modelo, pesos, unidad de venta, cantidad por SKU, color, logotipo, envase, destino y plan de reposición."]
+    ],
+    "faqHeading": "Preguntas sobre MOQ de pesas",
+    "linkHeading": "Prepare una compra completa",
+    "linkLabels": [
+      "Comparar mancuernas comerciales",
+      "Revisar discos de peso",
+      "Preparar una RFQ comparable",
+      "Elegir método de logotipo",
+      "Aprobar la muestra OEM",
+      "Planificar identificación y códigos",
+      "Definir embalaje de exportación",
+      "Solicitar revisión de fábrica"
+    ],
+    "imageAlt": "Mancuernas redondas y discos olímpicos sin marca agrupados con tarjetas en blanco y cajas lisas",
+    "imageCaption": "Escena conceptual de surtido; no es un pedido de cliente, un registro de envío ni una imagen documental.",
+    "cta": [
+      "Lleve el surtido a una cotización clara",
+      "Envíe pesos, unidades de compra, alcance de marca, envase y destino para revisar cada línea.",
+      "Consultar el pedido mixto"
+    ]
+  }
+]
