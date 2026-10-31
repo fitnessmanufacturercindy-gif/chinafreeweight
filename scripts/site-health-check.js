@@ -14,6 +14,7 @@ const PAGE_IDLE_TIMEOUT_MS = Number(process.env.SITE_HEALTH_PAGE_IDLE_TIMEOUT_MS
 const MOBILE_IDLE_TIMEOUT_MS = Number(process.env.SITE_HEALTH_MOBILE_IDLE_TIMEOUT_MS || 1500);
 const SCROLL_DELAY_MS = Number(process.env.SITE_HEALTH_SCROLL_DELAY_MS || 60);
 const POST_SCROLL_WAIT_MS = Number(process.env.SITE_HEALTH_POST_SCROLL_WAIT_MS || 300);
+const LINK_CHECK_CONCURRENCY = Math.max(1, Number(process.env.SITE_HEALTH_LINK_CHECK_CONCURRENCY || 12));
 const REQUESTED_PATHS = uniqueRequestedPaths(process.env.SITE_HEALTH_PATHS || "");
 
 function uniqueRequestedPaths(value) {
@@ -100,6 +101,17 @@ function normalizeInternalUrl(href) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))];
+}
+
+async function mapConcurrent(items, concurrency, worker) {
+  let nextIndex = 0;
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      await worker(items[index], index);
+    }
+  });
+  await Promise.all(workers);
 }
 
 async function fetchText(url) {
@@ -385,11 +397,13 @@ async function checkPage(page, context, url, linkStatusCache) {
       .map(normalizeInternalUrl)
   );
 
-  for (const href of internalLinks) {
+  await mapConcurrent(internalLinks, LINK_CHECK_CONCURRENCY, async (href) => {
     if (!linkStatusCache.has(href)) {
       try {
         const linkResponse = await context.request.get(href, { maxRedirects: 8, timeout: 15000 });
-        linkStatusCache.set(href, linkResponse.status());
+        const linkStatus = linkResponse.status();
+        await linkResponse.dispose();
+        linkStatusCache.set(href, linkStatus);
       } catch {
         linkStatusCache.set(href, 0);
       }
@@ -398,7 +412,7 @@ async function checkPage(page, context, url, linkStatusCache) {
     if (!linkStatus || linkStatus >= 400) {
       issues.push(issue(linkStatus >= 500 ? "High" : "Medium", "links", url, `Internal link failed (${linkStatus || "request failed"}): ${href}`, { href, status: linkStatus, autoFixable: true }));
     }
-  }
+  });
 
   const contactLinks = anchors.filter((anchor) => /whatsapp|mailto:|email|phone|tel:/i.test(`${anchor.text} ${anchor.ariaLabel} ${anchor.href}`));
   for (const anchor of contactLinks) {
