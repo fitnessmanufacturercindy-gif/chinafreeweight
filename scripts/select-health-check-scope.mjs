@@ -81,8 +81,14 @@ function routeForFile(file) {
 }
 
 const date = shanghaiDateParts();
-const monthlyFull = date.day === "01";
-const weeklyAppend = date.weekday === "Sun";
+// Pull requests and branch pushes need deterministic, change-scoped checks. A
+// date-only policy made every PR opened on the first day of the month crawl the
+// entire site and exhaust the quality-gate job timeout before it could merge.
+// Keep the expensive calendar policy on scheduled/manual maintenance runs;
+// those workflows still exercise the complete monthly and seven-day scopes.
+const calendarPolicyRun = ["schedule", "workflow_dispatch"].includes(process.env.GITHUB_EVENT_NAME || "");
+const monthlyFull = calendarPolicyRun && date.day === "01";
+const weeklyAppend = calendarPolicyRun && date.weekday === "Sun";
 let changedFiles = [];
 
 if (!monthlyFull) {
