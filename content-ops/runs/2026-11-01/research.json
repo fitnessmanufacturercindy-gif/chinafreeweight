@@ -1,0 +1,1479 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-01",
+  "status": "complete",
+  "selectedTopic": "Production lead time and critical-path planning for custom dumbbells and weight plates",
+  "selectionReason": "High-intent buyer question with no dedicated live article. The guide defines the production clock, separates manufacturing from development and freight, and avoids unverified universal timing claims.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "custom free weight production lead time: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "custom free weight production lead time: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "custom free weight production lead time: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "custom free weight production lead time: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "custom free weight production lead time: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "custom free weight production lead time: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "custom free weight production lead time: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "custom free weight production lead time: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "custom free weight production lead time: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "custom free weight production lead time: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "custom free weight production lead time: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "custom free weight production lead time: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "custom free weight production lead time: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "custom free weight production lead time: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "custom free weight production lead time: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "prazo de produção de halteres personalizados: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "prazo de produção de halteres personalizados: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "prazo de produção de halteres personalizados: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "prazo de produção de halteres personalizados: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "prazo de produção de halteres personalizados: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "prazo de produção de halteres personalizados: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "prazo de produção de halteres personalizados: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "prazo de produção de halteres personalizados: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "prazo de produção de halteres personalizados: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "prazo de produção de halteres personalizados: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "prazo de produção de halteres personalizados: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "prazo de produção de halteres personalizados: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "prazo de produção de halteres personalizados: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "prazo de produção de halteres personalizados: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "prazo de produção de halteres personalizados: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "plazo fabricación mancuernas personalizadas: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "plazo fabricación mancuernas personalizadas: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "plazo fabricación mancuernas personalizadas: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "plazo fabricación mancuernas personalizadas: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "plazo fabricación mancuernas personalizadas: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "plazo fabricación mancuernas personalizadas: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "plazo fabricación mancuernas personalizadas: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "plazo fabricación mancuernas personalizadas: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "plazo fabricación mancuernas personalizadas: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "plazo fabricación mancuernas personalizadas: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "plazo fabricación mancuernas personalizadas: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "plazo fabricación mancuernas personalizadas: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "plazo fabricación mancuernas personalizadas: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "plazo fabricación mancuernas personalizadas: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "plazo fabricación mancuernas personalizadas: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Produktionszeit individuelle Kurzhanteln: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Produktionszeit individuelle Kurzhanteln: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Produktionszeit individuelle Kurzhanteln: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Produktionszeit individuelle Kurzhanteln: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Produktionszeit individuelle Kurzhanteln: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Produktionszeit individuelle Kurzhanteln: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Produktionszeit individuelle Kurzhanteln: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Produktionszeit individuelle Kurzhanteln: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Produktionszeit individuelle Kurzhanteln: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Produktionszeit individuelle Kurzhanteln: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Produktionszeit individuelle Kurzhanteln: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Produktionszeit individuelle Kurzhanteln: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Produktionszeit individuelle Kurzhanteln: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Produktionszeit individuelle Kurzhanteln: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Produktionszeit individuelle Kurzhanteln: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "délai fabrication haltères personnalisés: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "délai fabrication haltères personnalisés: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "délai fabrication haltères personnalisés: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "délai fabrication haltères personnalisés: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "délai fabrication haltères personnalisés: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "délai fabrication haltères personnalisés: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "délai fabrication haltères personnalisés: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "délai fabrication haltères personnalisés: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "délai fabrication haltères personnalisés: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "délai fabrication haltères personnalisés: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "délai fabrication haltères personnalisés: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "délai fabrication haltères personnalisés: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "délai fabrication haltères personnalisés: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "délai fabrication haltères personnalisés: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "délai fabrication haltères personnalisés: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "tempi produzione manubri personalizzati: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "tempi produzione manubri personalizzati: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "tempi produzione manubri personalizzati: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "tempi produzione manubri personalizzati: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "tempi produzione manubri personalizzati: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "tempi produzione manubri personalizzati: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "tempi produzione manubri personalizzati: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "tempi produzione manubri personalizzati: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "tempi produzione manubri personalizzati: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "tempi produzione manubri personalizzati: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "tempi produzione manubri personalizzati: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "tempi produzione manubri personalizzati: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "tempi produzione manubri personalizzati: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "tempi produzione manubri personalizzati: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "tempi produzione manubri personalizzati: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "produktionstid specialanpassade hantlar: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "produktionstid specialanpassade hantlar: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "produktionstid specialanpassade hantlar: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "produktionstid specialanpassade hantlar: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "produktionstid specialanpassade hantlar: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "produktionstid specialanpassade hantlar: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "produktionstid specialanpassade hantlar: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "produktionstid specialanpassade hantlar: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "produktionstid specialanpassade hantlar: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "produktionstid specialanpassade hantlar: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "produktionstid specialanpassade hantlar: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "produktionstid specialanpassade hantlar: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "produktionstid specialanpassade hantlar: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "produktionstid specialanpassade hantlar: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "produktionstid specialanpassade hantlar: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "productietijd custom dumbbells: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "productietijd custom dumbbells: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "productietijd custom dumbbells: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "productietijd custom dumbbells: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "productietijd custom dumbbells: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "productietijd custom dumbbells: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "productietijd custom dumbbells: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "productietijd custom dumbbells: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "productietijd custom dumbbells: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "productietijd custom dumbbells: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "productietijd custom dumbbells: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "productietijd custom dumbbells: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "productietijd custom dumbbells: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "productietijd custom dumbbells: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "productietijd custom dumbbells: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "czas produkcji hantli na zamówienie: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "czas produkcji hantli na zamówienie: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "czas produkcji hantli na zamówienie: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "czas produkcji hantli na zamówienie: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "czas produkcji hantli na zamówienie: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "czas produkcji hantli na zamówienie: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "czas produkcji hantli na zamówienie: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "czas produkcji hantli na zamówienie: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "czas produkcji hantli na zamówienie: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "czas produkcji hantli na zamówienie: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "czas produkcji hantli na zamówienie: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "czas produkcji hantli na zamówienie: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "czas produkcji hantli na zamówienie: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "czas produkcji hantli na zamówienie: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "czas produkcji hantli na zamówienie: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "thời gian sản xuất tạ tay tùy chỉnh: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "waktu produksi dumbbell custom: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "waktu produksi dumbbell custom: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "waktu produksi dumbbell custom: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "waktu produksi dumbbell custom: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "waktu produksi dumbbell custom: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "waktu produksi dumbbell custom: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "waktu produksi dumbbell custom: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "waktu produksi dumbbell custom: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "waktu produksi dumbbell custom: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "waktu produksi dumbbell custom: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "waktu produksi dumbbell custom: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "waktu produksi dumbbell custom: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "waktu produksi dumbbell custom: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "waktu produksi dumbbell custom: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "waktu produksi dumbbell custom: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "맞춤 덤벨 생산 일정: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "맞춤 덤벨 생산 일정: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "맞춤 덤벨 생산 일정: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "맞춤 덤벨 생산 일정: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "맞춤 덤벨 생산 일정: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "맞춤 덤벨 생산 일정: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "맞춤 덤벨 생산 일정: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "맞춤 덤벨 생산 일정: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "맞춤 덤벨 생산 일정: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "맞춤 덤벨 생산 일정: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "맞춤 덤벨 생산 일정: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "맞춤 덤벨 생산 일정: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "맞춤 덤벨 생산 일정: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "맞춤 덤벨 생산 일정: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "맞춤 덤벨 생산 일정: schedule comparison checklist",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "مدة إنتاج دمبل مخصص: definition of the production clock",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "مدة إنتاج دمبل مخصص: sample approval versus production",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "مدة إنتاج دمبل مخصص: construction-specific critical path",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "مدة إنتاج دمبل مخصص: tool and material readiness",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "مدة إنتاج دمبل مخصص: logo artwork release",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "مدة إنتاج دمبل مخصص: private-label packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "مدة إنتاج دمبل مخصص: inspection booking point",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "مدة إنتاج دمبل مخصص: production completion versus packing",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "مدة إنتاج دمبل مخصص: factory handoff versus freight",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "مدة إنتاج دمبل مخصص: buyer change-control process",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "مدة إنتاج دمبل مخصص: repeat-order resource check",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "مدة إنتاج دمبل مخصص: milestone evidence in the RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "مدة إنتاج دمبل مخصص: Incoterms named-place boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "مدة إنتاج دمبل مخصص: verified gross mass boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "مدة إنتاج دمبل مخصص: schedule comparison checklist",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "custom free weight production lead time",
+      "questions": [
+        "How long does custom dumbbell production take?",
+        "When should production lead time start?",
+        "Is sample approval included in production lead time?",
+        "Can a custom logo delay a free-weight order?",
+        "How can a buyer shorten the schedule without increasing risk?"
+      ],
+      "evidence": [
+        "The en edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/resources/custom-free-weight-production-lead-time-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "prazo de produção de halteres personalizados",
+      "questions": [
+        "Quanto tempo leva para fabricar halteres personalizados?",
+        "Quando deve começar a contagem do prazo?",
+        "A aprovação da amostra entra no prazo de produção?",
+        "O logo personalizado pode afetar o cronograma?",
+        "Como encurtar o cronograma sem remover controles?"
+      ],
+      "evidence": [
+        "The pt-BR edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/pt/blog/prazo-producao-halteres-anilhas-personalizados"
+    },
+    "es": {
+      "targetKeyword": "plazo fabricación mancuernas personalizadas",
+      "questions": [
+        "¿Cuánto tarda la fabricación de mancuernas personalizadas?",
+        "¿Cuándo debe empezar el plazo de producción?",
+        "¿La muestra forma parte del plazo de producción?",
+        "¿El logotipo puede cambiar el calendario?",
+        "¿Cómo reducir el tiempo sin perder control?"
+      ],
+      "evidence": [
+        "The es edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/es/blog/plazo-fabricacion-mancuernas-discos-personalizados"
+    },
+    "de": {
+      "targetKeyword": "Produktionszeit individuelle Kurzhanteln",
+      "questions": [
+        "Wie lange dauert die Produktion individueller Kurzhanteln?",
+        "Wann sollte die Produktionszeit beginnen?",
+        "Gehört die Musterfreigabe zur Produktionszeit?",
+        "Kann ein individuelles Logo den Termin beeinflussen?",
+        "Wie lässt sich der Ablauf ohne Kontrollverlust verkürzen?"
+      ],
+      "evidence": [
+        "The de edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/de/blog/produktionszeit-kurzhanteln-hantelscheiben-sonderanfertigung"
+    },
+    "fr": {
+      "targetKeyword": "délai fabrication haltères personnalisés",
+      "questions": [
+        "Quel est le délai de fabrication d'haltères personnalisés ?",
+        "Quand le délai de production doit-il commencer ?",
+        "La validation de l'échantillon est-elle comprise ?",
+        "Un logo personnalisé peut-il modifier le calendrier ?",
+        "Comment raccourcir le parcours sans affaiblir le contrôle ?"
+      ],
+      "evidence": [
+        "The fr edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/fr/blog/delai-fabrication-halteres-disques-personnalises"
+    },
+    "it": {
+      "targetKeyword": "tempi produzione manubri personalizzati",
+      "questions": [
+        "Quanto richiede la produzione di manubri personalizzati?",
+        "Quando deve iniziare il tempo di produzione?",
+        "L'approvazione del campione è inclusa?",
+        "Il logo personalizzato può incidere sul programma?",
+        "Come ridurre il percorso senza perdere controllo?"
+      ],
+      "evidence": [
+        "The it edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/it/blog/tempi-produzione-manubri-dischi-personalizzati"
+    },
+    "sv": {
+      "targetKeyword": "produktionstid specialanpassade hantlar",
+      "questions": [
+        "Hur lång tid tar specialanpassade hantlar att producera?",
+        "När bör produktionstiden börja?",
+        "Ingår provgodkännandet i produktionstiden?",
+        "Kan en egen logo påverka tidsplanen?",
+        "Hur kortas vägen utan svagare kontroll?"
+      ],
+      "evidence": [
+        "The sv edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/sv/blogg/produktionstid-specialanpassade-hantlar-viktskivor"
+    },
+    "nl": {
+      "targetKeyword": "productietijd custom dumbbells",
+      "questions": [
+        "Hoe lang duurt de productie van custom dumbbells?",
+        "Wanneer hoort de productietijd te beginnen?",
+        "Valt monstergoedkeuring binnen de productietijd?",
+        "Kan een custom logo de planning beïnvloeden?",
+        "Hoe verkort een koper het traject zonder minder controle?"
+      ],
+      "evidence": [
+        "The nl edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/nl/blog/productietijd-custom-dumbbells-halterschijven"
+    },
+    "pl": {
+      "targetKeyword": "czas produkcji hantli na zamówienie",
+      "questions": [
+        "Ile trwa produkcja hantli na zamówienie?",
+        "Kiedy powinien zacząć się czas produkcji?",
+        "Czy akceptacja próbki wchodzi w czas produkcji?",
+        "Czy własne logo może wpłynąć na harmonogram?",
+        "Jak skrócić proces bez osłabienia kontroli?"
+      ],
+      "evidence": [
+        "The pl edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/pl/blog/czas-produkcji-hantli-talerzy-na-zamowienie"
+    },
+    "vi": {
+      "targetKeyword": "thời gian sản xuất tạ tay tùy chỉnh",
+      "questions": [
+        "Sản xuất tạ tay tùy chỉnh mất bao lâu?",
+        "Khi nào nên bắt đầu tính thời gian sản xuất?",
+        "Duyệt mẫu có nằm trong thời gian sản xuất không?",
+        "Logo tùy chỉnh có thể ảnh hưởng lịch không?",
+        "Làm sao rút gọn quy trình mà không giảm kiểm soát?"
+      ],
+      "evidence": [
+        "The vi edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/vi/blog/thoi-gian-san-xuat-ta-tay-banh-ta-tuy-chinh"
+    },
+    "id": {
+      "targetKeyword": "waktu produksi dumbbell custom",
+      "questions": [
+        "Berapa lama produksi dumbbell custom?",
+        "Kapan hitungan waktu produksi dimulai?",
+        "Apakah persetujuan sampel termasuk waktu produksi?",
+        "Apakah logo custom dapat memengaruhi jadwal?",
+        "Bagaimana memperpendek proses tanpa melemahkan kontrol?"
+      ],
+      "evidence": [
+        "The id edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/id/blog/waktu-produksi-dumbbell-pelat-beban-custom"
+    },
+    "ko": {
+      "targetKeyword": "맞춤 덤벨 생산 일정",
+      "questions": [
+        "맞춤 덤벨 생산에는 얼마나 걸리나요?",
+        "생산 기간은 언제부터 계산해야 하나요?",
+        "샘플 승인이 생산 기간에 포함되나요?",
+        "맞춤 로고가 일정에 영향을 줄 수 있나요?",
+        "검증을 약화하지 않고 일정을 줄이려면 어떻게 하나요?"
+      ],
+      "evidence": [
+        "The ko edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/ko/blog/custom-free-weight-production-lead-time-guide"
+    },
+    "ar": {
+      "targetKeyword": "مدة إنتاج دمبل مخصص",
+      "questions": [
+        "كم يستغرق إنتاج الدمبل المخصص؟",
+        "متى يبدأ احتساب مدة الإنتاج؟",
+        "هل يدخل اعتماد العينة ضمن مدة الإنتاج؟",
+        "هل يؤثر الشعار المخصص في الجدول؟",
+        "كيف يمكن تقصير المسار دون إضعاف الرقابة؟"
+      ],
+      "evidence": [
+        "The ar edition uses local procurement language for schedule triggers, approvals, production milestones and logistics handoff.",
+        "Its examples distinguish the manufacturing path from sample development, buyer approvals, inspection, packing and international transit."
+      ],
+      "path": "/ar/blog/custom-free-weight-production-lead-time-guide"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Weight Supply",
+      "url": "https://weightsupply.com/",
+      "observation": "Publishes a fixed range from a commercial trigger; the guide excludes that figure and teaches buyers to align the scope and milestones."
+    },
+    {
+      "name": "Ivanko",
+      "url": "https://ivankobarbell.com/pages/urethane-specs-engraving-and-warranty",
+      "observation": "Uses customer approval and payment as schedule conditions for one program; the guide generalizes only the need to define a trigger."
+    },
+    {
+      "name": "OKPRO",
+      "url": "https://www.okpro.com/blog/b2b-sourcing-guide-for-durable-dumbbell-manufacturing",
+      "observation": "Combines sourcing, customization and schedule language; the new guide adds a buyer-controlled critical-path and evidence matrix."
+    }
+  ],
+  "rejectedTopics": [
+    "Sample approval for OEM free weights — already published in every active locale.",
+    "Custom logo method comparison — existing multilingual guide covers molded, printed, engraved and end-cap routes.",
+    "MOQ scope and mixed-SKU planning — published on the previous daily run.",
+    "Export packaging — existing guide owns the primary packaging intent.",
+    "AQL inspection — existing guide owns the acceptance-sampling intent."
+  ],
+  "siteGaps": [
+    "No existing article defines the start and finish of a custom free-weight production schedule or maps product, branding, packaging, inspection and handoff dependencies in one buyer file."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1810,
+    "liveBlogUrlsReviewed": 940,
+    "activeLanguageUrlsReviewed": 1808,
+    "liveImageEntriesReviewed": 4498,
+    "dedicatedLeadTimeArticleFound": false,
+    "nearestTopics": [
+      "OEM sample approval",
+      "custom-logo methods",
+      "commercial free-weight RFQ",
+      "MOQ scope",
+      "export packaging",
+      "AQL inspection"
+    ]
+  },
+  "searchRun": {
+    "provider": "DataForSEO Google and Bing results, People Also Ask extraction, Reddit buyer-language review, competitor review and direct primary-source verification",
+    "initialTasks": 28,
+    "successfulInitialTasks": 17,
+    "followupTasks": 6,
+    "successfulFollowupTasks": 6,
+    "organicUrls": 170,
+    "peopleAlsoAskQuestions": 16,
+    "reportedCostUsd": 0.17,
+    "limitations": [
+      "Eleven initial tasks returned no result, an upstream error or an unsupported language field.",
+      "Quora blocked automated access; no answer text was used.",
+      "Competitor durations were treated as supplier-specific and were not reproduced.",
+      "No customer, order quantity, price, duration, capacity, certification or performance result was inferred from public pages."
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 9001 — quality management systems",
+      "url": "https://www.iso.org/standard/9001.html",
+      "primary": true,
+      "use": "Primary overview for controlled processes, customer requirements and documented information; no certification claim is made."
+    },
+    {
+      "title": "ICC — Incoterms delivery, risk and costs",
+      "url": "https://library.iccwbo.org/clp/clp-incoterms-qa-2020.htm",
+      "primary": true,
+      "use": "Primary explanation for separating a named delivery point from a manufacturing completion milestone."
+    },
+    {
+      "title": "IMO — verification of packed-container gross mass",
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "primary": true,
+      "use": "Primary SOLAS explanation used to keep verified gross mass within the later shipping stage."
+    },
+    {
+      "title": "Weight Supply — custom weights",
+      "url": "https://weightsupply.com/",
+      "primary": false,
+      "use": "Competitor result reviewed to identify fixed-range wording; its numeric promise was excluded."
+    },
+    {
+      "title": "Ivanko — custom urethane specifications",
+      "url": "https://ivankobarbell.com/pages/urethane-specs-engraving-and-warranty",
+      "primary": false,
+      "use": "Competitor result reviewed to compare the trigger used for a quoted schedule; no duration was reused."
+    },
+    {
+      "title": "OKPRO — B2B dumbbell sourcing guide",
+      "url": "https://www.okpro.com/blog/b2b-sourcing-guide-for-durable-dumbbell-manufacturing",
+      "primary": false,
+      "use": "Reviewed for overlapping buyer terminology; commercial quantities and timing claims were excluded."
+    },
+    {
+      "title": "Reddit — manufacturing shop stage visibility",
+      "url": "https://www.reddit.com/r/GarageGym/comments/1pxtbsb/lets_set_the_record_straight_the_reality_of/",
+      "primary": false,
+      "use": "Buyer-language evidence for visible fabrication, coating and packaging stages; no time claim was reused."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/custom-free-weight-production-lead-time-guide",
+    "title": "Custom Free-Weight Production Lead Time: Buyer Planning Guide",
+    "description": "Learn what controls the manufacturing schedule for custom dumbbells and weight plates, from specification release to inspection and shipment handoff.",
+    "h1": "What Controls the Production Time for Custom Dumbbells and Weight Plates?",
+    "keyword": "custom free weight production lead time",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Factory schedule planning for buyers",
+    "sections": [
+      {
+        "heading": "The direct answer",
+        "text": "There is no responsible universal lead-time figure for custom free weights. The schedule depends on what is being made, which specification has been released, what must be tooled or purchased, how branding and packaging are approved, and when inspection can occur. A useful quotation states both the start event and the completion event instead of presenting an isolated number.\n\nAsk the factory for a milestone plan tied to the exact SKU matrix. Separate product development, sample approval, production, inspection, packing, export handoff and freight. This makes two supplier schedules comparable and shows where a buyer decision can hold the critical path."
+      },
+      {
+        "heading": "Define the clock before comparing suppliers",
+        "text": "Production lead time may begin after a deposit, purchase order, approved sample, released artwork, confirmed materials or another agreed gate. It may end at production completion, inspection release, packing completion or handover at the named delivery point. Those definitions are not interchangeable.\n\nWrite the trigger and finish point into the quotation. Keep sample development and international transit on separate lines. Incoterms rules allocate defined delivery obligations, costs and risks at a named place; they do not create a manufacturing promise or replace a product-release checklist."
+      },
+      {
+        "heading": "Map the product-specific critical path",
+        "text": "A cast plate, molded rubber dumbbell, cast polyurethane product and machined steel component do not follow the same route. Tool availability, core preparation, material conditioning, molding or casting, machining, surface treatment, curing, assembly and finishing can create different dependencies. Even products that look similar may use separate fixtures, sleeves, inserts or packaging.\n\nAsk the factory to identify the longest dependent sequence for the quoted construction. ChinaFreeWeight can review dumbbells and weight plates at model level, but the exact route must follow the released drawing, material, finish and packing specification. A catalog photo alone is not enough to confirm the schedule."
+      },
+      {
+        "heading": "Treat branding and packaging as approval gates",
+        "text": "OEM may reproduce a buyer-defined specification, while ODM may adapt a factory-developed platform. Custom Logo work can involve an insert, mold detail, plate, print screen, label or another controlled method. Private Label adds the retail identity, item data and packaging hierarchy. Bulk Supply may keep presentation simpler, but it still needs an agreed product and export pack.\n\nEach program needs a clear change-control point. Release only the approved artwork version, color reference, marking content, unit system, carton layout and barcode data that apply to each SKU. A late revision is not a harmless text edit when it changes tooling, purchased packaging or inspection references."
+      },
+      {
+        "heading": "Use evidence at every milestone",
+        "text": "A schedule should name the evidence that closes each stage: released specification, approved reference sample, confirmed material or component, artwork sign-off, production readiness, inspection result and final packing list. Evidence lets procurement distinguish progress from an estimate that has not yet met its dependency.\n\nInspection should be planned before goods are declared ready. The inspection scope, approved references, sampling basis and acceptance responsibilities belong in the purchase file. For containerized shipments, verified gross mass is a shipping requirement under the applicable SOLAS framework; it confirms a later logistics value and should not be confused with production completion."
+      },
+      {
+        "heading": "Control changes that move the schedule",
+        "text": "The most avoidable delays come from incomplete specifications, conflicting unit markings, unresolved artwork, altered colors, packaging revisions, added SKUs and inspection criteria introduced after release. Keep one controlled SKU matrix and record who can approve a change. When a revision is requested, ask the factory which completed work, materials or packaging it affects before accepting a new date.\n\nA repeat order can be simpler only when the released configuration remains unchanged and the required tools, materials and capacity are available. Do not assume the previous timing automatically applies. Reconfirm the product version, artwork, packaging stock, quality reference and production slot."
+      },
+      {
+        "heading": "Build a schedule the factory can actually confirm",
+        "text": "Send the RFQ with drawings or model references, weight ladder, construction, finish, color, logo method, packaging levels, destination, inspection plan and desired handover point. Ask for dependencies and buyer approval dates, not just a single completion promise. Freeze the released configuration once the order enters production and route every change through a written impact review.\n\nChinaFreeWeight is a free-weight factory supporting OEM, ODM, Custom Logo, Private Label and Bulk Supply programs. We can map the manufacturing route and provide a project-specific schedule after the scope is verified; we do not present one fixed lead time as suitable for every product or order."
+      }
+    ],
+    "table": {
+      "heading": "Milestone schedule for a buyer purchase file",
+      "columns": ["Stage", "Release evidence", "Dependency to confirm"],
+      "rows": [
+        ["Specification release", "Controlled SKU matrix and drawing", "Weights, construction, finish and unit markings agree"],
+        ["Sample or reference approval", "Signed approval record", "Approved reference matches the quoted production route"],
+        ["Materials and tooling", "Factory readiness confirmation", "Required inputs, molds, fixtures and components are available"],
+        ["Branding and packaging", "Released artwork and pack specification", "Logo method, labels, cartons and codes use one version"],
+        ["Production and inspection", "Readiness notice and inspection result", "Criteria and approved references were defined in advance"],
+        ["Packing and handover", "Final packing list and delivery record", "Named place, shipping documents and logistics responsibility align"]
+      ]
+    },
+    "checklist": {
+      "heading": "Lead-time questions to send with the RFQ",
+      "items": [
+        "Define the event that starts the production clock.",
+        "Define what the quoted completion date actually means.",
+        "Separate development, production, inspection and transit.",
+        "Identify the critical path for each product construction.",
+        "Release one controlled SKU and artwork matrix.",
+        "Record every buyer approval and its due point.",
+        "Book inspection against an agreed product reference.",
+        "Ask how revisions affect completed work and materials.",
+        "Confirm the Incoterms rule and named place separately.",
+        "Reconfirm resources and specifications for repeat orders."
+      ]
+    },
+    "faq": [
+      ["How long does custom dumbbell production take?", "It cannot be answered responsibly without the construction, SKU range, customization, packaging, approval status and factory resource check. Ask for a milestone schedule for the released scope."],
+      ["When should production lead time start?", "Use the specific agreed gate, such as final specification and sample approval plus required commercial conditions. The quotation should name the trigger rather than leave it implied."],
+      ["Is sample approval included in production lead time?", "Only if the supplier explicitly defines it that way. Keep development and sample approval separate so neither party mistakes an unapproved design for released production."],
+      ["Can a custom logo delay a free-weight order?", "It can affect the schedule when artwork, a tool, insert, print setup, label or inspection reference is unresolved. Release the method and artwork version before production."],
+      ["How can a buyer shorten the schedule without increasing risk?", "Reduce unresolved variants, use a proven construction where suitable, approve specifications promptly, freeze changes and book inspection early. Do not remove verification gates simply to show an earlier date."]
+    ],
+    "faqHeading": "Custom free-weight production lead-time FAQ",
+    "linkHeading": "Prepare the rest of the purchase file",
+    "linkLabels": [
+      "Compare commercial dumbbells",
+      "Review weight plate options",
+      "Build a comparable RFQ",
+      "Approve the OEM sample",
+      "Choose a custom-logo method",
+      "Plan MOQ by SKU",
+      "Define export packaging",
+      "Request a factory schedule review"
+    ],
+    "imageAlt": "Unbranded dumbbell and Olympic plate beside material samples, calipers and plain export cartons",
+    "imageCaption": "Conceptual production-planning scene; it is not a customer project, shipping record or documentary factory image.",
+    "cta": [
+      "Turn the specification into a workable schedule",
+      "Send your product construction, SKU matrix, branding, packaging, inspection plan and handover point for a factory-level dependency review.",
+      "Discuss the production plan"
+    ]
+  }
+]

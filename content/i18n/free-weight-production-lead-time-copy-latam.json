@@ -1,0 +1,112 @@
+[
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/prazo-producao-halteres-anilhas-personalizados",
+    "title": "Prazo de Produção de Halteres e Anilhas Personalizados",
+    "description": "Entenda o que define o cronograma de halteres e anilhas personalizados, da liberação técnica até inspeção, embalagem e entrega ao transporte.",
+    "h1": "Como Planejar o Prazo de Fabricação de Pesos Livres Sob Medida",
+    "keyword": "prazo de produção de halteres personalizados",
+    "home": "Início",
+    "library": "Guias",
+    "eyebrow": "Cronograma industrial para importadores",
+    "sections": [
+      {
+        "heading": "A resposta que compras precisa receber",
+        "text": "Não existe um prazo único e responsável para todos os pesos livres personalizados. O caminho muda conforme construção, grade de pesos, ferramental, matéria-prima, marca, embalagem e inspeção. Uma proposta útil informa qual evento inicia a contagem e qual evidência encerra a fabricação.\n\nPeça um cronograma por marcos ligado à matriz real de SKUs. Desenvolvimento, aprovação de amostra, produção, inspeção, embalagem, entrega ao agente e trânsito internacional devem aparecer como etapas distintas. Assim, o importador identifica rapidamente qual decisão própria está no caminho crítico."
+      },
+      {
+        "heading": "Defina início e fim antes de comparar ofertas",
+        "text": "Alguns fornecedores iniciam a contagem após pedido, condição comercial, amostra aprovada, arte liberada ou confirmação dos insumos. O término também pode significar produto fabricado, mercadoria inspecionada, caixas finalizadas ou carga entregue no local nomeado. Comparar essas datas sem uma definição comum leva a uma conclusão errada.\n\nRegistre o gatilho e o ponto de conclusão na cotação. Mantenha o transporte fora do prazo fabril. O Incoterm e o local nomeado organizam obrigações, custos e riscos da entrega, mas não substituem a liberação técnica nem garantem uma data de fabricação."
+      },
+      {
+        "heading": "Mapeie a rota de cada construção",
+        "text": "Anilha fundida, halter com borracha moldada, peça de poliuretano fundido e componente de aço usinado passam por operações diferentes. Disponibilidade de molde, preparação do núcleo, tratamento do material, moldagem, usinagem, cura, acabamento e montagem podem mudar a sequência crítica. Modelos parecidos ainda podem exigir buchas, insertos, gabaritos e caixas próprios.\n\nSolicite que a fábrica indique a operação mais longa e suas dependências. A ChinaFreeWeight avalia o cronograma no nível do modelo, com base no desenho liberado, material, acabamento e embalagem. Foto de catálogo ou descrição genérica não basta para assumir a mesma rota."
+      },
+      {
+        "heading": "Logo e embalagem também são etapas técnicas",
+        "text": "Em OEM, o comprador normalmente fornece requisitos que a fábrica deve reproduzir; no ODM, uma plataforma existente pode ser adaptada ao canal. Custom Logo pode envolver inserto, molde, clichê, tela, etiqueta ou outro método controlado. Private Label inclui identidade de varejo, dados do item e hierarquia das caixas. Bulk Supply pode reduzir elementos comerciais, mas continua exigindo produto e proteção de exportação definidos.\n\nLibere uma única versão da arte, referência de cor, marcação de KG ou LB, layout de caixa e código de item por SKU. Alterar esses dados depois da preparação pode afetar material comprado, ferramenta ou critério de inspeção. Toda revisão precisa de análise escrita do impacto."
+      },
+      {
+        "heading": "Associe uma prova a cada marco",
+        "text": "O cronograma deve dizer o que comprova a conclusão: especificação controlada, amostra de referência aprovada, confirmação de material, arte assinada, aviso de prontidão, resultado de inspeção e packing list final. Essas provas evitam tratar uma previsão como se fosse avanço concluído.\n\nPrograme a inspeção antes de a carga ser declarada pronta e deixe critérios, referência aprovada e responsabilidades no arquivo de compra. Em contêineres sujeitos à regra aplicável, a massa bruta verificada é uma exigência de embarque; ela pertence à etapa logística posterior e não é sinônimo de produção finalizada."
+      },
+      {
+        "heading": "Controle as mudanças que deslocam a data",
+        "text": "Os desvios mais evitáveis surgem de ficha incompleta, unidades conflitantes, cor sem referência, arte aberta, embalagem revisada, SKUs adicionados ou critério de inspeção definido tarde. Use uma matriz controlada e nomeie quem pode aprovar alterações. Antes de aceitar uma nova data, peça que a fábrica mostre quais atividades, materiais e caixas já preparados serão afetados.\n\nReposição pode seguir caminho mais simples quando produto, marca e embalagem permanecem iguais e os recursos estão disponíveis. Ainda assim, reconfirme versão, estoque de embalagem, referência de qualidade e janela fabril. O histórico anterior não é uma reserva automática de capacidade."
+      },
+      {
+        "heading": "Envie uma RFQ que permita confirmar o cronograma",
+        "text": "Inclua modelo ou desenho, grade de pesos, construção, acabamento, cor, método de logo, níveis de embalagem, destino, plano de inspeção e ponto de entrega desejado. Solicite dependências e datas de aprovação do comprador, não apenas uma promessa final. Depois da liberação, congele a configuração e trate toda mudança por um registro de impacto.\n\nNa comparação de propostas, peça que cada fornecedor devolva a mesma tabela. Marque o responsável por aprovar desenho, amostra, cor, arte, caixa e critério de inspeção. Registre também o que acontece se uma aprovação chegar depois do ponto previsto: quais atividades continuam, quais precisam esperar e qual evidência será usada para recalcular a sequência. Essa disciplina evita que uma data otimista esconda uma condição ainda aberta.\n\nAntes do embarque, concilie a lista de embalagem com a matriz liberada e confirme que unidades, pares, pesos, caixas e códigos correspondem. O cronograma só deve avançar para a etapa logística quando produto, inspeção e documentação atingirem os marcos acordados; uma reserva de transporte não corrige uma especificação incompleta.\n\nA ChinaFreeWeight é uma fábrica de pesos livres para programas OEM, ODM, Custom Logo, Private Label e Bulk Supply. Podemos montar um cronograma específico depois de verificar o escopo; não usamos um prazo fixo como resposta para produtos e pedidos diferentes."
+      }
+    ],
+    "table": {
+      "heading": "Marcos que devem aparecer no arquivo de compra",
+      "columns": ["Etapa", "Evidência de liberação", "Dependência a confirmar"],
+      "rows": [
+        ["Especificação", "Matriz de SKU e desenho controlados", "Peso, construção, acabamento e marcação concordam"],
+        ["Amostra", "Registro formal de aprovação", "Referência corresponde à rota cotada"],
+        ["Materiais e ferramentas", "Confirmação de prontidão da fábrica", "Moldes, insertos e componentes estão disponíveis"],
+        ["Marca e embalagem", "Arte e ficha de embalagem liberadas", "Logo, rótulo, caixa e código usam a mesma versão"],
+        ["Produção e inspeção", "Aviso de prontidão e resultado", "Critérios foram definidos antes da execução"],
+        ["Embalagem e entrega", "Packing list e registro de entrega", "Local nomeado e documentos estão alinhados"]
+      ]
+    },
+    "checklist": {
+      "heading": "Perguntas de prazo para anexar à RFQ",
+      "items": [
+        "Defina o evento que inicia a contagem fabril.",
+        "Explique o que a data de conclusão representa.",
+        "Separe desenvolvimento, produção, inspeção e trânsito.",
+        "Identifique o caminho crítico de cada construção.",
+        "Libere uma matriz única de SKU e arte.",
+        "Registre aprovações e responsáveis do comprador.",
+        "Agende inspeção com referência definida.",
+        "Avalie impacto de toda revisão solicitada.",
+        "Confirme Incoterm e local nomeado em separado.",
+        "Revalide recursos e versão na reposição."
+      ]
+    },
+    "faq": [
+      ["Quanto tempo leva para fabricar halteres personalizados?", "A resposta depende de construção, grade, personalização, embalagem, aprovações e disponibilidade fabril. Solicite um cronograma por marcos para o escopo liberado."],
+      ["Quando deve começar a contagem do prazo?", "No gatilho acordado e registrado, como especificação e amostra finais somadas às condições comerciais exigidas. A cotação deve nomear esse evento."],
+      ["A aprovação da amostra entra no prazo de produção?", "Somente quando a proposta definir dessa forma. É mais claro separar desenvolvimento e aprovação para que um desenho ainda aberto não seja tratado como produção liberada."],
+      ["O logo personalizado pode afetar o cronograma?", "Pode quando arte, inserto, ferramenta, impressão, etiqueta ou referência de inspeção ainda não foram aprovados. Libere método e versão antes da fabricação."],
+      ["Como encurtar o cronograma sem remover controles?", "Reduza variantes abertas, escolha uma construção conhecida quando fizer sentido, aprove rapidamente, congele mudanças e reserve inspeção cedo. Não elimine verificações essenciais."]
+    ],
+    "faqHeading": "Dúvidas sobre prazo de pesos personalizados",
+    "linkHeading": "Complete o arquivo de importação",
+    "linkLabels": ["Comparar halteres profissionais", "Revisar opções de anilhas", "Montar uma RFQ comparável", "Aprovar a amostra OEM", "Escolher o método de logo", "Planejar MOQ por SKU", "Definir embalagem de exportação", "Solicitar análise do cronograma"],
+    "imageAlt": "Halteres e anilhas sem marca ao lado de paquímetro, amostras de acabamento e caixas lisas",
+    "imageCaption": "Cena conceitual de planejamento; não representa cliente, pedido, embarque ou registro documental de fábrica.",
+    "cta": ["Transforme a especificação em um cronograma executável", "Envie construção, SKUs, marca, embalagem, inspeção e ponto de entrega para revisarmos as dependências de fábrica.", "Discutir o plano de produção"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/plazo-fabricacion-mancuernas-discos-personalizados",
+    "title": "Plazo de Fabricación de Mancuernas y Discos Personalizados",
+    "description": "Sepa qué determina el calendario de pesas personalizadas, desde la ficha aprobada hasta inspección, embalaje y entrega logística.",
+    "h1": "Cómo Evaluar el Tiempo de Producción de Pesas Personalizadas",
+    "keyword": "plazo fabricación mancuernas personalizadas",
+    "home": "Inicio",
+    "library": "Guías",
+    "eyebrow": "Planificación de fábrica para importadores",
+    "sections": [
+      {"heading": "La respuesta corta para compras", "text": "No hay un plazo universal fiable para todas las pesas personalizadas. La ruta depende de la construcción, referencias, útiles, materiales, marca, envase e inspección. Una oferta útil indica el evento que inicia el cómputo y la prueba que marca la finalización, en lugar de mostrar una cifra aislada.\n\nSolicite un calendario por hitos vinculado a la matriz real de SKU. Desarrollo, muestra, fabricación, inspección, embalaje, entrega al operador y transporte internacional deben quedar separados. Así se distingue una dependencia fabril de una aprobación que corresponde al comprador."},
+      {"heading": "Alinee el punto de inicio y el de entrega", "text": "El proveedor puede empezar a contar tras la orden, la condición comercial, la muestra aceptada, el arte liberado o la confirmación de insumos. El final puede ser producto fabricado, lote inspeccionado, cajas cerradas o entrega en el lugar nombrado. Dos ofertas con distinta definición no son comparables.\n\nDeje ambos eventos por escrito y muestre el tránsito como otra fase. La regla Incoterms y el lugar nombrado distribuyen obligaciones, costes y riesgos de entrega, pero no sustituyen la liberación técnica ni prometen por sí solos una fecha de fabricación."},
+      {"heading": "Identifique la ruta crítica del producto", "text": "Un disco de hierro fundido, una mancuerna de caucho moldeado, una pieza de poliuretano colado y un componente de acero mecanizado no siguen el mismo proceso. Molde, núcleo, preparación de material, mecanizado, curado, tratamiento superficial, montaje y acabado crean dependencias diferentes. Referencias visualmente similares pueden requerir insertos, casquillos, útiles o cajas propios.\n\nPida que la fábrica señale la secuencia dependiente más larga para la construcción cotizada. ChinaFreeWeight revisa cada modelo según plano, material, acabado y envase liberados. Una fotografía o nombre comercial no permite confirmar el calendario."},
+      {"heading": "Integre marca y envase en el control de cambios", "text": "OEM suele partir de una especificación del comprador; ODM puede adaptar una plataforma desarrollada por la fábrica. Custom Logo puede usar inserto, detalle de molde, placa, pantalla, etiqueta u otro método controlado. Private Label incorpora identidad comercial, datos del artículo y niveles de envase. Bulk Supply simplifica la presentación, pero todavía exige producto y protección de exportación acordados.\n\nLibere una versión de arte, color, marcado, caja y código por referencia. Una modificación tardía puede afectar un útil, material comprado o criterio de inspección. Antes de aceptar el cambio, documente qué trabajo completado se invalida y cómo se ajustan los hitos."},
+      {"heading": "Exija evidencia para cerrar cada etapa", "text": "Relacione cada hito con un documento: ficha controlada, muestra aprobada, confirmación de material, arte firmado, aviso de lote listo, resultado de inspección y lista de empaque final. Esta trazabilidad diferencia el progreso comprobado de una estimación sujeta a condiciones.\n\nReserve la inspección con antelación y defina alcance, referencias y responsabilidades. Para un contenedor sujeto a la norma correspondiente, la masa bruta verificada forma parte del proceso de envío; es un dato logístico posterior y no demuestra por sí mismo que la fabricación esté aprobada."},
+      {"heading": "Evite los cambios que desplazan el calendario", "text": "Las causas controlables incluyen fichas incompletas, unidades contradictorias, colores sin referencia, arte abierto, revisión del envase, nuevas referencias y criterios de inspección introducidos tarde. Mantenga una matriz maestra y determine quién puede autorizar una modificación. Pida un análisis de impacto sobre materiales, útiles, cajas y trabajo ya realizado.\n\nUna reposición puede ser más sencilla si conserva exactamente la configuración y los recursos siguen disponibles. Aun así, reconfirme versión, material, envase, referencia de calidad y capacidad. El calendario anterior no reserva automáticamente una nueva ventana."},
+      {"heading": "Prepare una solicitud que la fábrica pueda programar", "text": "Envíe modelo o plano, escalera de pesos, construcción, acabado, color, método de logotipo, envases, destino, inspección y punto de entrega deseado. Solicite dependencias y fechas de aprobación, no solo una promesa final. Una vez liberado el pedido, congele la configuración y documente toda excepción.\n\nPara comparar proveedores, entregue a todos la misma tabla y pida que asignen responsable y evidencia a cada hito. Debe quedar claro quién acepta dibujo, muestra, color, arte, caja y criterio de inspección. Si una aprobación llega después del momento acordado, el proveedor debe explicar qué operaciones pueden continuar, cuáles deben esperar y qué dato utilizará para reconstruir la secuencia. Así se evita que una fecha atractiva oculte una condición pendiente.\n\nAntes del envío, concilie la lista de empaque con la matriz liberada: referencias, unidades, pares, pesos, cajas y códigos tienen que coincidir. La reserva de transporte pertenece a la fase logística y no corrige una ficha incompleta ni sustituye la aceptación del producto.\n\nChinaFreeWeight es una fábrica de pesas libres para programas OEM, ODM, Custom Logo, Private Label y Bulk Supply. Podemos confirmar un calendario específico después de revisar el alcance; no aplicamos un plazo fijo a productos y pedidos que siguen rutas distintas."}
+    ],
+    "table": {"heading": "Hitos para comparar un calendario de producción", "columns": ["Etapa", "Prueba de liberación", "Dependencia que debe confirmarse"], "rows": [["Especificación", "Matriz de SKU y plano controlados", "Peso, construcción, acabado y marcado coinciden"], ["Muestra", "Registro de aprobación", "La referencia corresponde al proceso cotizado"], ["Materiales y útiles", "Confirmación de disponibilidad", "Moldes, insertos y componentes están preparados"], ["Marca y envase", "Arte y ficha de embalaje liberados", "Logo, etiqueta, caja y código comparten versión"], ["Producción e inspección", "Aviso de listo y resultado", "Los criterios se acordaron con antelación"], ["Embalaje y entrega", "Lista final y registro de entrega", "Lugar nombrado, documentos y responsabilidades coinciden"]]},
+    "checklist": {"heading": "Preguntas de plazo para la solicitud de oferta", "items": ["Defina el evento que inicia el cómputo.", "Aclare qué significa la fecha de finalización.", "Separe desarrollo, producción, inspección y tránsito.", "Identifique la ruta crítica de cada construcción.", "Libere una sola matriz de SKU y arte.", "Registre responsables y aprobaciones del comprador.", "Programe la inspección contra una referencia acordada.", "Analice el impacto de cada revisión.", "Confirme Incoterm y lugar nombrado aparte.", "Revalide versión y recursos para la reposición."]},
+    "faq": [["¿Cuánto tarda la fabricación de mancuernas personalizadas?", "Depende de construcción, gama, personalización, envase, aprobaciones y disponibilidad. Solicite un calendario por hitos para el alcance ya liberado."], ["¿Cuándo debe empezar el plazo de producción?", "En el evento acordado, como ficha y muestra finales junto con las condiciones comerciales exigidas. La oferta debe nombrar claramente ese gatillo."], ["¿La muestra forma parte del plazo de producción?", "Solo si la definición lo incluye expresamente. Conviene separar desarrollo y aprobación para no tratar un diseño abierto como producción liberada."], ["¿El logotipo puede cambiar el calendario?", "Sí, cuando arte, inserto, útil, impresión, etiqueta o referencia de control aún no están aprobados. Cierre método y versión antes de fabricar."], ["¿Cómo reducir el tiempo sin perder control?", "Limite variantes abiertas, use una construcción probada cuando sea adecuada, apruebe con rapidez, congele cambios y reserve inspección pronto. No suprima verificaciones esenciales."]],
+    "faqHeading": "Preguntas de compradores sobre el plazo fabril",
+    "linkHeading": "Complete el expediente de compra",
+    "linkLabels": ["Comparar mancuernas comerciales", "Revisar discos de peso", "Preparar una RFQ comparable", "Aprobar la muestra OEM", "Elegir método de logotipo", "Planificar MOQ por SKU", "Definir embalaje de exportación", "Solicitar revisión del calendario"],
+    "imageAlt": "Mancuernas y discos sin marca junto a calibre, muestras de acabado y cajas de exportación lisas",
+    "imageCaption": "Escena conceptual de planificación; no representa un cliente, pedido, envío ni registro documental de fábrica.",
+    "cta": ["Convierta la ficha en un calendario realizable", "Comparta construcción, SKU, marca, envase, inspección y punto de entrega para revisar las dependencias de fabricación.", "Consultar el plan de producción"]
+  }
+]

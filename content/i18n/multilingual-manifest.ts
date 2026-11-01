@@ -72,6 +72,7 @@ import { withWeightPlateStorageGuide } from "./weight-plate-storage-guide";
 import { withPrivateLabelGtinPackagingGuide } from "./private-label-gtin-packaging-guide";
 import { withFreeWeightAqlInspectionGuide } from "./free-weight-aql-inspection-guide";
 import { withFreeWeightMoqMixedSkuGuide } from "./free-weight-moq-mixed-sku-guide";
+import { withFreeWeightProductionLeadTimeGuide } from "./free-weight-production-lead-time-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -236,7 +237,8 @@ const weightPlateStorageManifest = withWeightPlateStorageGuide(neopreneVinylDumb
 const privateLabelGtinPackagingManifest = withPrivateLabelGtinPackagingGuide(weightPlateStorageManifest);
 const freeWeightAqlInspectionManifest = withFreeWeightAqlInspectionGuide(privateLabelGtinPackagingManifest);
 const freeWeightMoqMixedSkuManifest = withFreeWeightMoqMixedSkuGuide(freeWeightAqlInspectionManifest);
+const freeWeightProductionLeadTimeManifest = withFreeWeightProductionLeadTimeGuide(freeWeightMoqMixedSkuManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightMoqMixedSkuManifest
+  freeWeightProductionLeadTimeManifest
 );
