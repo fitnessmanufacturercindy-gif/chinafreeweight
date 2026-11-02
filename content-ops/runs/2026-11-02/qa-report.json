@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-02",
+  "checkedAt": "2026-11-02T09:46:58.575Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-02-chinafreeweight-en-fixed-vs-rotating-dumbbell-handles",
+      "locale": "en",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-fixed-vs-rotating-dumbbell-handles",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-fixed-vs-rotating-dumbbell-handles",
+      "locale": "es",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-fixed-vs-rotating-dumbbell-handles",
+      "locale": "de",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-fixed-vs-rotating-dumbbell-handles",
+      "locale": "fr",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-fixed-vs-rotating-dumbbell-handles",
+      "locale": "it",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-fixed-vs-rotating-dumbbell-handles",
+      "locale": "nl",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-fixed-vs-rotating-dumbbell-handles",
+      "locale": "vi",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-fixed-vs-rotating-dumbbell-handles",
+      "locale": "sv",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-fixed-vs-rotating-dumbbell-handles",
+      "locale": "pl",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-fixed-vs-rotating-dumbbell-handles",
+      "locale": "ar",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-fixed-vs-rotating-dumbbell-handles",
+      "locale": "ko",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-fixed-vs-rotating-dumbbell-handles",
+      "locale": "id",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-02",
+  "startedAt": "2026-11-02T03:40:05.874Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-11-02-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/resources/fixed-vs-rotating-dumbbell-handles",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-en-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/pt/blog/halteres-pegador-fixo-giratorio",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-pt-BR-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/es/blog/mancuernas-mango-fijo-giratorio",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-es-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/de/blog/kurzhanteln-fester-drehbarer-griff",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-de-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/fr/blog/halteres-poignee-fixe-rotative",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-fr-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/vi/blog/ta-tay-tay-cam-co-dinh-xoay",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-vi-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/sv/blogg/hantlar-fast-roterande-handtag",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-sv-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/it/blog/manubri-impugnatura-fissa-girevole",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-it-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/nl/blog/dumbbells-vaste-roterende-handgreep",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-nl-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/ar/blog/fixed-vs-rotating-dumbbell-handles",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-ar-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/ko/blog/fixed-vs-rotating-dumbbell-handles",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-ko-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/id/blog/dumbbell-handle-tetap-berputar",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-id-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "entityId": "fixed-vs-rotating-dumbbell-handle-guide",
+      "publicPath": "/pl/blog/hantle-uchwyt-staly-obrotowy",
+      "draft": "drafts/index.json",
+      "documentId": "2026-11-02-chinafreeweight-pl-fixed-vs-rotating-dumbbell-handles"
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-02-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is published for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    }
+  ],
+  "status": "prepared",
+  "preparedAt": "2026-11-02T09:46:54.418Z"
+}

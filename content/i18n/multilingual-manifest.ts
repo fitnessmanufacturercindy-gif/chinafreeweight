@@ -73,6 +73,7 @@ import { withPrivateLabelGtinPackagingGuide } from "./private-label-gtin-packagi
 import { withFreeWeightAqlInspectionGuide } from "./free-weight-aql-inspection-guide";
 import { withFreeWeightMoqMixedSkuGuide } from "./free-weight-moq-mixed-sku-guide";
 import { withFreeWeightProductionLeadTimeGuide } from "./free-weight-production-lead-time-guide";
+import { withFixedVsRotatingDumbbellHandleGuide } from "./fixed-vs-rotating-dumbbell-handle-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -238,7 +239,8 @@ const privateLabelGtinPackagingManifest = withPrivateLabelGtinPackagingGuide(wei
 const freeWeightAqlInspectionManifest = withFreeWeightAqlInspectionGuide(privateLabelGtinPackagingManifest);
 const freeWeightMoqMixedSkuManifest = withFreeWeightMoqMixedSkuGuide(freeWeightAqlInspectionManifest);
 const freeWeightProductionLeadTimeManifest = withFreeWeightProductionLeadTimeGuide(freeWeightMoqMixedSkuManifest);
+const fixedVsRotatingDumbbellHandleManifest = withFixedVsRotatingDumbbellHandleGuide(freeWeightProductionLeadTimeManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightProductionLeadTimeManifest
+  fixedVsRotatingDumbbellHandleManifest
 );
