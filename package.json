@@ -101,6 +101,8 @@
     "audit:free-weight-moq-mixed-sku-rendered": "node scripts/verify-free-weight-moq-mixed-sku-rendering.mjs",
     "audit:free-weight-production-lead-time": "tsx scripts/audit-free-weight-production-lead-time-guide.ts",
     "audit:free-weight-production-lead-time-rendered": "node scripts/verify-free-weight-production-lead-time-rendering.mjs",
+    "audit:fixed-vs-rotating-dumbbell-handles": "tsx scripts/audit-fixed-vs-rotating-dumbbell-handle-guide.ts",
+    "audit:fixed-vs-rotating-dumbbell-handles-rendered": "node scripts/verify-fixed-vs-rotating-dumbbell-handle-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

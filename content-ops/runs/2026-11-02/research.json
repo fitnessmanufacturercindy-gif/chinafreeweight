@@ -1,0 +1,1447 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-02",
+  "status": "complete",
+  "selectedTopic": "Fixed versus rotating handle mechanisms for commercial fixed-weight dumbbells",
+  "selectionReason": "A high-intent mechanism and lifecycle question with no dedicated live article. It is distinct from existing fixed-versus-adjustable and grip-dimension guides.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "fixed vs rotating dumbbell handles: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "fixed vs rotating dumbbell handles: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "fixed vs rotating dumbbell handles: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "fixed vs rotating dumbbell handles: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "fixed vs rotating dumbbell handles: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "fixed vs rotating dumbbell handles: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "fixed vs rotating dumbbell handles: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "fixed vs rotating dumbbell handles: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "fixed vs rotating dumbbell handles: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "fixed vs rotating dumbbell handles: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "fixed vs rotating dumbbell handles: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "fixed vs rotating dumbbell handles: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "fixed vs rotating dumbbell handles: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "fixed vs rotating dumbbell handles: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "fixed vs rotating dumbbell handles: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "halteres pegador fixo ou giratório: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "halteres pegador fixo ou giratório: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "halteres pegador fixo ou giratório: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "halteres pegador fixo ou giratório: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "halteres pegador fixo ou giratório: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "halteres pegador fixo ou giratório: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "halteres pegador fixo ou giratório: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "halteres pegador fixo ou giratório: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "halteres pegador fixo ou giratório: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "halteres pegador fixo ou giratório: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "halteres pegador fixo ou giratório: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "halteres pegador fixo ou giratório: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "halteres pegador fixo ou giratório: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "halteres pegador fixo ou giratório: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "halteres pegador fixo ou giratório: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "mancuernas mango fijo o giratorio: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "mancuernas mango fijo o giratorio: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "mancuernas mango fijo o giratorio: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "mancuernas mango fijo o giratorio: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "mancuernas mango fijo o giratorio: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "mancuernas mango fijo o giratorio: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "mancuernas mango fijo o giratorio: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "mancuernas mango fijo o giratorio: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "mancuernas mango fijo o giratorio: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "mancuernas mango fijo o giratorio: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "mancuernas mango fijo o giratorio: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "mancuernas mango fijo o giratorio: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "mancuernas mango fijo o giratorio: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "mancuernas mango fijo o giratorio: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "mancuernas mango fijo o giratorio: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Kurzhantel fester oder drehbarer Griff: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Kurzhantel fester oder drehbarer Griff: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Kurzhantel fester oder drehbarer Griff: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Kurzhantel fester oder drehbarer Griff: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Kurzhantel fester oder drehbarer Griff: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Kurzhantel fester oder drehbarer Griff: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Kurzhantel fester oder drehbarer Griff: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Kurzhantel fester oder drehbarer Griff: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Kurzhantel fester oder drehbarer Griff: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Kurzhantel fester oder drehbarer Griff: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Kurzhantel fester oder drehbarer Griff: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Kurzhantel fester oder drehbarer Griff: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Kurzhantel fester oder drehbarer Griff: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Kurzhantel fester oder drehbarer Griff: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Kurzhantel fester oder drehbarer Griff: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "haltères poignée fixe ou rotative: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "haltères poignée fixe ou rotative: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "haltères poignée fixe ou rotative: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "haltères poignée fixe ou rotative: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "haltères poignée fixe ou rotative: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "haltères poignée fixe ou rotative: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "haltères poignée fixe ou rotative: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "haltères poignée fixe ou rotative: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "haltères poignée fixe ou rotative: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "haltères poignée fixe ou rotative: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "haltères poignée fixe ou rotative: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "haltères poignée fixe ou rotative: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "haltères poignée fixe ou rotative: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "haltères poignée fixe ou rotative: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "haltères poignée fixe ou rotative: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "manubri impugnatura fissa o girevole: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "manubri impugnatura fissa o girevole: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "manubri impugnatura fissa o girevole: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "manubri impugnatura fissa o girevole: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "manubri impugnatura fissa o girevole: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "manubri impugnatura fissa o girevole: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "manubri impugnatura fissa o girevole: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "manubri impugnatura fissa o girevole: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "manubri impugnatura fissa o girevole: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "manubri impugnatura fissa o girevole: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "manubri impugnatura fissa o girevole: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "manubri impugnatura fissa o girevole: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "manubri impugnatura fissa o girevole: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "manubri impugnatura fissa o girevole: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "manubri impugnatura fissa o girevole: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "dumbbells vaste of roterende handgreep: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "dumbbells vaste of roterende handgreep: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "dumbbells vaste of roterende handgreep: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "dumbbells vaste of roterende handgreep: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "dumbbells vaste of roterende handgreep: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "dumbbells vaste of roterende handgreep: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "dumbbells vaste of roterende handgreep: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "dumbbells vaste of roterende handgreep: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "dumbbells vaste of roterende handgreep: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "dumbbells vaste of roterende handgreep: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "dumbbells vaste of roterende handgreep: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "dumbbells vaste of roterende handgreep: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "dumbbells vaste of roterende handgreep: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "dumbbells vaste of roterende handgreep: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "dumbbells vaste of roterende handgreep: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "tạ tay tay cầm cố định hay xoay: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "tạ tay tay cầm cố định hay xoay: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "tạ tay tay cầm cố định hay xoay: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "tạ tay tay cầm cố định hay xoay: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "tạ tay tay cầm cố định hay xoay: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "tạ tay tay cầm cố định hay xoay: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "tạ tay tay cầm cố định hay xoay: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "tạ tay tay cầm cố định hay xoay: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "tạ tay tay cầm cố định hay xoay: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "tạ tay tay cầm cố định hay xoay: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "tạ tay tay cầm cố định hay xoay: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "tạ tay tay cầm cố định hay xoay: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "tạ tay tay cầm cố định hay xoay: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "tạ tay tay cầm cố định hay xoay: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "tạ tay tay cầm cố định hay xoay: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "hantlar fast eller roterande handtag: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "hantlar fast eller roterande handtag: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "hantlar fast eller roterande handtag: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "hantlar fast eller roterande handtag: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "hantlar fast eller roterande handtag: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "hantlar fast eller roterande handtag: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "hantlar fast eller roterande handtag: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "hantlar fast eller roterande handtag: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "hantlar fast eller roterande handtag: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "hantlar fast eller roterande handtag: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "hantlar fast eller roterande handtag: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "hantlar fast eller roterande handtag: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "hantlar fast eller roterande handtag: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "hantlar fast eller roterande handtag: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "hantlar fast eller roterande handtag: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "hantle uchwyt stały czy obrotowy: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "hantle uchwyt stały czy obrotowy: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "hantle uchwyt stały czy obrotowy: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "hantle uchwyt stały czy obrotowy: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "hantle uchwyt stały czy obrotowy: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "hantle uchwyt stały czy obrotowy: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "hantle uchwyt stały czy obrotowy: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "hantle uchwyt stały czy obrotowy: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "hantle uchwyt stały czy obrotowy: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "hantle uchwyt stały czy obrotowy: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "hantle uchwyt stały czy obrotowy: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "hantle uchwyt stały czy obrotowy: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "hantle uchwyt stały czy obrotowy: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "hantle uchwyt stały czy obrotowy: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "hantle uchwyt stały czy obrotowy: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "مقبض دمبل ثابت أو دوار: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "مقبض دمبل ثابت أو دوار: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "مقبض دمبل ثابت أو دوار: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "مقبض دمبل ثابت أو دوار: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "مقبض دمبل ثابت أو دوار: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "مقبض دمبل ثابت أو دوار: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "مقبض دمبل ثابت أو دوار: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "مقبض دمبل ثابت أو دوار: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "مقبض دمبل ثابت أو دوار: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "مقبض دمبل ثابت أو دوار: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "مقبض دمبل ثابت أو دوار: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "مقبض دمبل ثابت أو دوار: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "مقبض دمبل ثابت أو دوار: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "مقبض دمبل ثابت أو دوار: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "مقبض دمبل ثابت أو دوار: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "덤벨 고정형 회전형 손잡이 비교: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "dumbbell handle tetap atau berputar: fixed versus rotating grip definition",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "dumbbell handle tetap atau berputar: bearing or bushing mechanism",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "dumbbell handle tetap atau berputar: sample play inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "dumbbell handle tetap atau berputar: binding and noise checks",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "dumbbell handle tetap atau berputar: head retention boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "dumbbell handle tetap atau berputar: rack fit across weight ladder",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "dumbbell handle tetap atau berputar: pair consistency",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "dumbbell handle tetap atau berputar: service-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "dumbbell handle tetap atau berputar: quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "dumbbell handle tetap atau berputar: fixed weight versus adjustable load",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "dumbbell handle tetap atau berputar: model-specific training trial",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "dumbbell handle tetap atau berputar: Custom Logo identification",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "dumbbell handle tetap atau berputar: receiving inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "dumbbell handle tetap atau berputar: repeat-order revision control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "dumbbell handle tetap atau berputar: RFQ evidence matrix",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "fixed vs rotating dumbbell handles",
+      "questions": [
+        "Are rotating dumbbell handles safer for wrists?",
+        "Do fixed handles mean the dumbbell weight is adjustable?",
+        "What should a buyer check on a rotating-handle sample?",
+        "Should a rotating dumbbell spin for a specified number of seconds?",
+        "Can ChinaFreeWeight customize either handle system?"
+      ],
+      "evidence": [
+        "The en edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/resources/fixed-vs-rotating-dumbbell-handles"
+    },
+    "pt-BR": {
+      "targetKeyword": "halteres pegador fixo ou giratório",
+      "questions": [
+        "Pegador giratório é sempre melhor para os punhos?",
+        "Pegador fixo significa halter ajustável?",
+        "O que verificar na amostra giratória?",
+        "Vale exigir um tempo de giro livre?",
+        "A ChinaFreeWeight personaliza os dois sistemas?"
+      ],
+      "evidence": [
+        "The pt-BR edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/pt/blog/halteres-pegador-fixo-giratorio"
+    },
+    "es": {
+      "targetKeyword": "mancuernas mango fijo o giratorio",
+      "questions": [
+        "¿El mango giratorio siempre protege más la muñeca?",
+        "¿Mango fijo quiere decir mancuerna ajustable?",
+        "¿Qué se revisa en una muestra giratoria?",
+        "¿Debe girar durante un número fijo de segundos?",
+        "¿ChinaFreeWeight puede personalizar ambos sistemas?"
+      ],
+      "evidence": [
+        "The es edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/es/blog/mancuernas-mango-fijo-giratorio"
+    },
+    "de": {
+      "targetKeyword": "Kurzhantel fester oder drehbarer Griff",
+      "questions": [
+        "Ist ein drehbarer Griff grundsätzlich schonender für das Handgelenk?",
+        "Ist eine Hantel mit festem Griff verstellbar?",
+        "Was gehört in die Musterprüfung?",
+        "Soll eine Mindest-Freilaufzeit vorgeschrieben werden?",
+        "Kann ChinaFreeWeight beide Systeme anpassen?"
+      ],
+      "evidence": [
+        "The de edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/de/blog/kurzhanteln-fester-drehbarer-griff"
+    },
+    "fr": {
+      "targetKeyword": "haltères poignée fixe ou rotative",
+      "questions": [
+        "Une poignée rotative protège-t-elle toujours les poignets ?",
+        "Poignée fixe signifie-t-elle haltère réglable ?",
+        "Que contrôler sur l'échantillon rotatif ?",
+        "Faut-il imposer une durée de rotation libre ?",
+        "ChinaFreeWeight peut-elle personnaliser les deux systèmes ?"
+      ],
+      "evidence": [
+        "The fr edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/fr/blog/halteres-poignee-fixe-rotative"
+    },
+    "it": {
+      "targetKeyword": "manubri impugnatura fissa o girevole",
+      "questions": [
+        "L'impugnatura girevole è sempre migliore per i polsi?",
+        "Impugnatura fissa significa manubrio regolabile?",
+        "Cosa controllare sul campione girevole?",
+        "Serve un tempo minimo di rotazione libera?",
+        "ChinaFreeWeight personalizza entrambi i sistemi?"
+      ],
+      "evidence": [
+        "The it edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/it/blog/manubri-impugnatura-fissa-girevole"
+    },
+    "nl": {
+      "targetKeyword": "dumbbells vaste of roterende handgreep",
+      "questions": [
+        "Is een roterende greep altijd beter voor de polsen?",
+        "Betekent vaste greep dat de dumbbell verstelbaar is?",
+        "Wat controleer je bij een roterend monster?",
+        "Moet een greep een vast aantal seconden vrij draaien?",
+        "Kan ChinaFreeWeight beide systemen aanpassen?"
+      ],
+      "evidence": [
+        "The nl edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/nl/blog/dumbbells-vaste-roterende-handgreep"
+    },
+    "vi": {
+      "targetKeyword": "tạ tay tay cầm cố định hay xoay",
+      "questions": [
+        "Tay cầm xoay luôn tốt hơn cho cổ tay không?",
+        "Tay cầm cố định có nghĩa là tạ điều chỉnh không?",
+        "Cần kiểm gì trên mẫu xoay?",
+        "Có nên quy định số giây quay tự do?",
+        "ChinaFreeWeight tùy chỉnh được cả hai hệ không?"
+      ],
+      "evidence": [
+        "The vi edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/vi/blog/ta-tay-tay-cam-co-dinh-xoay"
+    },
+    "sv": {
+      "targetKeyword": "hantlar fast eller roterande handtag",
+      "questions": [
+        "Är roterande handtag alltid bättre för handlederna?",
+        "Betyder fast handtag justerbar hantel?",
+        "Vad kontrolleras på ett roterande prov?",
+        "Ska ett handtag frirulla ett visst antal sekunder?",
+        "Kan ChinaFreeWeight anpassa båda systemen?"
+      ],
+      "evidence": [
+        "The sv edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/sv/blogg/hantlar-fast-roterande-handtag"
+    },
+    "pl": {
+      "targetKeyword": "hantle uchwyt stały czy obrotowy",
+      "questions": [
+        "Czy obrotowy uchwyt jest zawsze lepszy dla nadgarstków?",
+        "Czy stały uchwyt oznacza hantel regulowany?",
+        "Co sprawdzić w próbce obrotowej?",
+        "Czy uchwyt powinien obracać się swobodnie przez określony czas?",
+        "Czy ChinaFreeWeight dostosowuje oba systemy?"
+      ],
+      "evidence": [
+        "The pl edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/pl/blog/hantle-uchwyt-staly-obrotowy"
+    },
+    "ar": {
+      "targetKeyword": "مقبض دمبل ثابت أو دوار",
+      "questions": [
+        "هل المقبض الدوار أفضل دائمًا للمعصم؟",
+        "هل المقبض الثابت يعني أن الدمبل قابل للتعديل؟",
+        "ما الذي يفحص في العينة الدوارة؟",
+        "هل نحدد عدد ثوانٍ للدوران الحر؟",
+        "هل تخصص ChinaFreeWeight النظامين؟"
+      ],
+      "evidence": [
+        "The ar edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/ar/blog/fixed-vs-rotating-dumbbell-handles"
+    },
+    "ko": {
+      "targetKeyword": "덤벨 고정형 회전형 손잡이 비교",
+      "questions": [
+        "회전형 손잡이가 항상 손목에 더 안전한가요?",
+        "고정형 손잡이는 조절식 덤벨을 뜻하나요?",
+        "회전형 샘플은 무엇을 확인하나요?",
+        "몇 초간 자유 회전을 요구해야 하나요?",
+        "ChinaFreeWeight가 두 방식을 모두 커스텀할 수 있나요?"
+      ],
+      "evidence": [
+        "The ko edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/ko/blog/fixed-vs-rotating-dumbbell-handles"
+    },
+    "id": {
+      "targetKeyword": "dumbbell handle tetap atau berputar",
+      "questions": [
+        "Apakah handle berputar selalu lebih aman untuk pergelangan?",
+        "Apakah handle tetap berarti dumbbell adjustable?",
+        "Apa yang diperiksa pada sampel berputar?",
+        "Perlukah menetapkan waktu putar bebas?",
+        "Dapatkah ChinaFreeWeight menyesuaikan kedua sistem?"
+      ],
+      "evidence": [
+        "The id edition uses market-appropriate procurement language for grip rotation, sample approval, rack fit, receiving inspection and service boundaries.",
+        "Its buyer questions separate fixed-weight format from a rotating grip interface and avoid transferring one supplier's model claim to another product."
+      ],
+      "path": "/id/blog/dumbbell-handle-tetap-berputar"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Eleiko",
+      "url": "https://eleiko.com/en/equipment/dumbbells/rotating/3060991-1020-eleiko-evo-dumbbell-set-rotating-42-60-kg",
+      "observation": "Maintains separate fixed and rotating families; the guide treats its use wording as model-specific."
+    },
+    {
+      "name": "RitFit",
+      "url": "https://www.ritfitsports.com/blogs/article/dumbbell-handle-grip-guide-rotating",
+      "observation": "Publishes broad grip terminology; the new guide adds procurement evidence, service and receiving controls."
+    }
+  ],
+  "rejectedTopics": [
+    "Container loading — existing export-packaging guidance owns the intent.",
+    "Batch traceability — existing reorder-consistency and item-data guidance already cover it.",
+    "Plate thickness — existing bumper-plate sleeve-capacity guide owns the intent."
+  ],
+  "siteGaps": [
+    "No existing page compares fixed and rotating grip-to-head interfaces while separating that choice from adjustable load."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1823,
+    "liveBlogUrlsReviewed": 953,
+    "activeLanguageUrlsReviewed": 1821,
+    "liveImageEntriesReviewed": 4511,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "dumbbell handle diameter and knurling",
+      "dumbbell head retention",
+      "fixed versus adjustable dumbbells",
+      "dumbbell rack compatibility",
+      "OEM sample approval"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Eleiko EVO rotating dumbbell",
+      "url": "https://eleiko.com/en/equipment/dumbbells/rotating/3060991-1020-eleiko-evo-dumbbell-set-rotating-42-60-kg",
+      "primary": true,
+      "use": "Primary manufacturer evidence for one rotating product architecture and its model-specific positioning."
+    },
+    {
+      "title": "Eleiko EVO fixed dumbbell",
+      "url": "https://eleiko.com/en/equipment/dumbbells/fixed/3060990-0010-eleiko-evo-dumbbell-fixed-1-kg",
+      "primary": true,
+      "use": "Primary manufacturer evidence for a fixed counterpart; no universal performance claim is inferred."
+    },
+    {
+      "title": "Eleiko rotating dumbbell product sheet",
+      "url": "https://media.eleiko.com/admin/download-product-sheet.aspx?articlecode=3060991-0600&language=en-us",
+      "primary": true,
+      "use": "Primary product document supporting the request for model-level specifications."
+    },
+    {
+      "title": "RitFit rotating dumbbell handle guide",
+      "url": "https://www.ritfitsports.com/blogs/article/dumbbell-handle-grip-guide-rotating",
+      "primary": false,
+      "use": "Competitor terminology reviewed; unverified performance claims were excluded."
+    },
+    {
+      "title": "Reddit GripTraining discussion",
+      "url": "https://www.reddit.com/r/GripTraining/comments/cz5dxo",
+      "primary": false,
+      "use": "Public user-language evidence for grip context; anecdotes were not used as product proof."
+    }
+  ],
+  "limitations": [
+    "Quora results were not used because verification was blocked by robots restrictions.",
+    "Paid keyword refresh was not run because shared policy permits it on Sunday; this Monday run uses public search and the existing topic ledger."
+  ]
+}
