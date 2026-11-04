@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-04",
+  "startedAt": "2026-11-04T03:36:30.838Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-11-04-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-en-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/resources/cable-attachment-weld-quality-inspection-guide",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-pt-BR-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/pt/blog/inspecao-solda-acessorios-cabo",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-es-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/es/blog/inspeccion-soldaduras-accesorios-polea",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-de-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/de/blog/schweissnaehte-kabelzug-griffe-pruefen",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-fr-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/fr/blog/controle-soudures-accessoires-poulie",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-vi-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/vi/blog/kiem-tra-moi-han-phu-kien-cap",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-sv-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/sv/blogg/kontrollera-svetsar-kabelhandtag",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-it-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/it/blog/controllo-saldature-accessori-cavi",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-nl-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/nl/blog/lassen-kabelaccessoires-inspecteren",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-ar-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/ar/blog/cable-attachment-weld-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-ko-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/ko/blog/cable-attachment-weld-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-id-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/id/blog/inspeksi-las-attachment-kabel",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-04-chinafreeweight-pl-cable-attachment-weld-inspection",
+      "entityId": "cable-attachment-weld-quality-inspection-guide",
+      "publicPath": "/pl/blog/kontrola-spoin-akcesoriow-wyciagu",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-04-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    }
+  ],
+  "status": "prepared",
+  "preparedAt": "2026-11-04T10:29:45.313Z"
+}

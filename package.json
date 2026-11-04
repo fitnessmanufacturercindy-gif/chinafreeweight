@@ -103,6 +103,8 @@
     "audit:free-weight-production-lead-time-rendered": "node scripts/verify-free-weight-production-lead-time-rendering.mjs",
     "audit:fixed-vs-rotating-dumbbell-handles": "tsx scripts/audit-fixed-vs-rotating-dumbbell-handle-guide.ts",
     "audit:fixed-vs-rotating-dumbbell-handles-rendered": "node scripts/verify-fixed-vs-rotating-dumbbell-handle-rendering.mjs",
+    "audit:cable-attachment-welds": "tsx scripts/audit-cable-attachment-weld-inspection-guide.ts",
+    "audit:cable-attachment-welds-rendered": "node scripts/verify-cable-attachment-weld-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

@@ -1,0 +1,1461 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-04",
+  "status": "complete",
+  "selectedTopic": "Welded-joint specification and visual inspection for commercial cable-machine attachments",
+  "selectionReason": "A purchase-intent gap with no dedicated live owner. The article separates joint drawings, welding-production evidence and pre-finish inspection from the existing compatibility, load-rating, grip and chrome-finish guides.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "cable attachment weld quality inspection: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "cable attachment weld quality inspection: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "cable attachment weld quality inspection: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "cable attachment weld quality inspection: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "cable attachment weld quality inspection: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "cable attachment weld quality inspection: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "cable attachment weld quality inspection: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "cable attachment weld quality inspection: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "cable attachment weld quality inspection: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "cable attachment weld quality inspection: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "cable attachment weld quality inspection: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "cable attachment weld quality inspection: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "cable attachment weld quality inspection: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "cable attachment weld quality inspection: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "cable attachment weld quality inspection: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "inspeção de solda em acessórios de cabo: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "inspeção de solda em acessórios de cabo: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "inspeção de solda em acessórios de cabo: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "inspeção de solda em acessórios de cabo: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "inspeção de solda em acessórios de cabo: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "inspeção de solda em acessórios de cabo: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "inspeção de solda em acessórios de cabo: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "inspeção de solda em acessórios de cabo: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "inspeção de solda em acessórios de cabo: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "inspeção de solda em acessórios de cabo: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "inspeção de solda em acessórios de cabo: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "inspeção de solda em acessórios de cabo: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "inspeção de solda em acessórios de cabo: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "inspeção de solda em acessórios de cabo: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "inspeção de solda em acessórios de cabo: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "inspección soldaduras accesorios de polea: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "inspección soldaduras accesorios de polea: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "inspección soldaduras accesorios de polea: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "inspección soldaduras accesorios de polea: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "inspección soldaduras accesorios de polea: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "inspección soldaduras accesorios de polea: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "inspección soldaduras accesorios de polea: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "inspección soldaduras accesorios de polea: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "inspección soldaduras accesorios de polea: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "inspección soldaduras accesorios de polea: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "inspección soldaduras accesorios de polea: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "inspección soldaduras accesorios de polea: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "inspección soldaduras accesorios de polea: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "inspección soldaduras accesorios de polea: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "inspección soldaduras accesorios de polea: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Schweißnahtprüfung Kabelzuggriffe: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "contrôle soudure accessoires poulie: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "contrôle soudure accessoires poulie: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "contrôle soudure accessoires poulie: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "contrôle soudure accessoires poulie: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "contrôle soudure accessoires poulie: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "contrôle soudure accessoires poulie: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "contrôle soudure accessoires poulie: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "contrôle soudure accessoires poulie: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "contrôle soudure accessoires poulie: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "contrôle soudure accessoires poulie: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "contrôle soudure accessoires poulie: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "contrôle soudure accessoires poulie: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "contrôle soudure accessoires poulie: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "contrôle soudure accessoires poulie: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "contrôle soudure accessoires poulie: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "svetskontroll kabelhandtag: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "svetskontroll kabelhandtag: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "svetskontroll kabelhandtag: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "svetskontroll kabelhandtag: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "svetskontroll kabelhandtag: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "svetskontroll kabelhandtag: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "svetskontroll kabelhandtag: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "svetskontroll kabelhandtag: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "svetskontroll kabelhandtag: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "svetskontroll kabelhandtag: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "svetskontroll kabelhandtag: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "svetskontroll kabelhandtag: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "svetskontroll kabelhandtag: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "svetskontroll kabelhandtag: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "svetskontroll kabelhandtag: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "controllo saldature accessori cavi: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "controllo saldature accessori cavi: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "controllo saldature accessori cavi: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "controllo saldature accessori cavi: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "controllo saldature accessori cavi: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "controllo saldature accessori cavi: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "controllo saldature accessori cavi: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "controllo saldature accessori cavi: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "controllo saldature accessori cavi: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "controllo saldature accessori cavi: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "controllo saldature accessori cavi: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "controllo saldature accessori cavi: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "controllo saldature accessori cavi: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "controllo saldature accessori cavi: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "controllo saldature accessori cavi: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "lasinspectie kabelaccessoires: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "lasinspectie kabelaccessoires: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "lasinspectie kabelaccessoires: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "lasinspectie kabelaccessoires: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "lasinspectie kabelaccessoires: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "lasinspectie kabelaccessoires: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "lasinspectie kabelaccessoires: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "lasinspectie kabelaccessoires: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "lasinspectie kabelaccessoires: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "lasinspectie kabelaccessoires: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "lasinspectie kabelaccessoires: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "lasinspectie kabelaccessoires: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "lasinspectie kabelaccessoires: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "lasinspectie kabelaccessoires: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "lasinspectie kabelaccessoires: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "kontrola spoin akcesoriów wyciągu: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "kontrola spoin akcesoriów wyciągu: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "kontrola spoin akcesoriów wyciągu: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "kontrola spoin akcesoriów wyciągu: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "kontrola spoin akcesoriów wyciągu: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "kontrola spoin akcesoriów wyciągu: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "kontrola spoin akcesoriów wyciągu: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "kontrola spoin akcesoriów wyciągu: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "kontrola spoin akcesoriów wyciągu: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "kontrola spoin akcesoriów wyciągu: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "kontrola spoin akcesoriów wyciągu: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "kontrola spoin akcesoriów wyciągu: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "kontrola spoin akcesoriów wyciągu: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "kontrola spoin akcesoriów wyciągu: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "kontrola spoin akcesoriów wyciągu: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kiểm tra mối hàn phụ kiện cáp: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "فحص لحام ملحقات الكابل: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "فحص لحام ملحقات الكابل: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "فحص لحام ملحقات الكابل: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "فحص لحام ملحقات الكابل: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "فحص لحام ملحقات الكابل: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "فحص لحام ملحقات الكابل: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "فحص لحام ملحقات الكابل: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "فحص لحام ملحقات الكابل: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "فحص لحام ملحقات الكابل: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "فحص لحام ملحقات الكابل: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "فحص لحام ملحقات الكابل: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "فحص لحام ملحقات الكابل: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "فحص لحام ملحقات الكابل: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "فحص لحام ملحقات الكابل: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "فحص لحام ملحقات الكابل: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "케이블 어태치먼트 용접부 검사: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "케이블 어태치먼트 용접부 검사: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "케이블 어태치먼트 용접부 검사: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "케이블 어태치먼트 용접부 검사: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "케이블 어태치먼트 용접부 검사: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "케이블 어태치먼트 용접부 검사: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "케이블 어태치먼트 용접부 검사: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "케이블 어태치먼트 용접부 검사: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "케이블 어태치먼트 용접부 검사: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "케이블 어태치먼트 용접부 검사: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "케이블 어태치먼트 용접부 검사: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "케이블 어태치먼트 용접부 검사: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "케이블 어태치먼트 용접부 검사: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "케이블 어태치먼트 용접부 검사: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "케이블 어태치먼트 용접부 검사: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "inspeksi las attachment kabel: drawing and joint-location control",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "inspeksi las attachment kabel: visual inspection before finishing",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "inspeksi las attachment kabel: procedure and personnel evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "inspeksi las attachment kabel: surface indications versus design suitability",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "inspeksi las attachment kabel: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "inspeksi las attachment kabel: lot sampling across welding periods",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "inspeksi las attachment kabel: finish masking and post-finish checks",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "inspeksi las attachment kabel: connector-eye dimensional inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "inspeksi las attachment kabel: nonconformity containment and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "inspeksi las attachment kabel: engineering-change approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "inspeksi las attachment kabel: receiving quarantine triggers",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "inspeksi las attachment kabel: steel and aluminium acceptance boundaries",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "inspeksi las attachment kabel: complete-product validation boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "inspeksi las attachment kabel: private-label marking and traceability",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "inspeksi las attachment kabel: RFQ evidence matrix",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "cable attachment weld quality inspection",
+      "questions": [
+        "Can a buyer judge weld quality from a product photo?",
+        "Does a neat weld bead prove the attachment is strong enough?",
+        "Should every cable attachment use the same weld-size limit?",
+        "When should visual inspection happen?",
+        "Can ChinaFreeWeight prepare a welded-attachment control plan?"
+      ],
+      "evidence": [
+        "The en edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/resources/cable-attachment-weld-quality-inspection-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "inspeção de solda em acessórios de cabo",
+      "questions": [
+        "É possível avaliar a solda apenas pela foto?",
+        "Cordão bonito prova que o puxador é resistente?",
+        "Todo acessório deve ter a mesma medida de solda?",
+        "Em que momento fazer inspeção visual?",
+        "A ChinaFreeWeight prepara o plano de controle?"
+      ],
+      "evidence": [
+        "The pt-BR edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/pt/blog/inspecao-solda-acessorios-cabo"
+    },
+    "es": {
+      "targetKeyword": "inspección soldaduras accesorios de polea",
+      "questions": [
+        "¿Se puede valorar la soldadura con una foto?",
+        "¿Un cordón bonito demuestra suficiente resistencia?",
+        "¿Todos los accesorios deben usar la misma medida?",
+        "¿Cuándo conviene hacer inspección visual?",
+        "¿ChinaFreeWeight puede preparar el plan de control?"
+      ],
+      "evidence": [
+        "The es edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/es/blog/inspeccion-soldaduras-accesorios-polea"
+    },
+    "de": {
+      "targetKeyword": "Schweißnahtprüfung Kabelzuggriffe",
+      "questions": [
+        "Reicht ein Foto zur Bewertung?",
+        "Belegt eine schöne Raupe ausreichende Festigkeit?",
+        "Gilt ein einziges Nahtmaß für alle Griffe?",
+        "Wann sollte die Sichtprüfung erfolgen?",
+        "Kann ChinaFreeWeight einen Kontrollplan erstellen?"
+      ],
+      "evidence": [
+        "The de edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/de/blog/schweissnaehte-kabelzug-griffe-pruefen"
+    },
+    "fr": {
+      "targetKeyword": "contrôle soudure accessoires poulie",
+      "questions": [
+        "Une photo suffit-elle ?",
+        "Un beau cordon prouve-t-il la résistance ?",
+        "Peut-on imposer la même cote partout ?",
+        "Quand contrôler visuellement ?",
+        "ChinaFreeWeight peut-elle préparer le plan ?"
+      ],
+      "evidence": [
+        "The fr edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/fr/blog/controle-soudures-accessoires-poulie"
+    },
+    "sv": {
+      "targetKeyword": "svetskontroll kabelhandtag",
+      "questions": [
+        "Räcker ett produktfoto?",
+        "Bevisar en snygg sträng tillräcklig styrka?",
+        "Kan samma svetsmått användas överallt?",
+        "När görs visuell kontroll?",
+        "Kan ChinaFreeWeight ta fram kontrollplanen?"
+      ],
+      "evidence": [
+        "The sv edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/sv/blogg/kontrollera-svetsar-kabelhandtag"
+    },
+    "it": {
+      "targetKeyword": "controllo saldature accessori cavi",
+      "questions": [
+        "Basta una foto?",
+        "Un cordone bello prova la resistenza?",
+        "Vale la stessa misura per tutti?",
+        "Quando fare il controllo visivo?",
+        "ChinaFreeWeight può preparare il piano?"
+      ],
+      "evidence": [
+        "The it edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/it/blog/controllo-saldature-accessori-cavi"
+    },
+    "nl": {
+      "targetKeyword": "lasinspectie kabelaccessoires",
+      "questions": [
+        "Is een foto voldoende?",
+        "Bewijst een nette las voldoende sterkte?",
+        "Kan overal dezelfde lasmaat gelden?",
+        "Wanneer vindt visuele inspectie plaats?",
+        "Kan ChinaFreeWeight het controleplan maken?"
+      ],
+      "evidence": [
+        "The nl edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/nl/blog/lassen-kabelaccessoires-inspecteren"
+    },
+    "pl": {
+      "targetKeyword": "kontrola spoin akcesoriów wyciągu",
+      "questions": [
+        "Czy wystarczy zdjęcie?",
+        "Czy ładna spoina dowodzi wytrzymałości?",
+        "Czy wszędzie obowiązuje ten sam wymiar?",
+        "Kiedy kontrolować wizualnie?",
+        "Czy ChinaFreeWeight przygotuje plan?"
+      ],
+      "evidence": [
+        "The pl edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/pl/blog/kontrola-spoin-akcesoriow-wyciagu"
+    },
+    "vi": {
+      "targetKeyword": "kiểm tra mối hàn phụ kiện cáp",
+      "questions": [
+        "Ảnh sản phẩm có đủ để đánh giá không?",
+        "Đường hàn đẹp có chứng minh đủ bền không?",
+        "Mọi phụ kiện có dùng cùng một kích thước mối hàn không?",
+        "Khi nào nên kiểm tra trực quan?",
+        "ChinaFreeWeight có thể lập kế hoạch kiểm soát không?"
+      ],
+      "evidence": [
+        "The vi edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/vi/blog/kiem-tra-moi-han-phu-kien-cap"
+    },
+    "ar": {
+      "targetKeyword": "فحص لحام ملحقات الكابل",
+      "questions": [
+        "هل تكفي صورة المنتج؟",
+        "هل انتظام اللحام يثبت القوة الكافية؟",
+        "هل يصلح قياس واحد لكل الملحقات؟",
+        "متى يجري الفحص البصري؟",
+        "هل تعد ChinaFreeWeight خطة الضبط؟"
+      ],
+      "evidence": [
+        "The ar edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/ar/blog/cable-attachment-weld-inspection"
+    },
+    "ko": {
+      "targetKeyword": "케이블 어태치먼트 용접부 검사",
+      "questions": [
+        "제품 사진만으로 평가할 수 있나요?",
+        "비드가 깔끔하면 충분히 강한가요?",
+        "모든 손잡이에 같은 용접 치수를 적용하나요?",
+        "육안 검사는 언제 하나요?",
+        "ChinaFreeWeight가 관리 계획을 만들 수 있나요?"
+      ],
+      "evidence": [
+        "The ko edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/ko/blog/cable-attachment-weld-inspection"
+    },
+    "id": {
+      "targetKeyword": "inspeksi las attachment kabel",
+      "questions": [
+        "Apakah foto produk cukup?",
+        "Apakah jalur las rapi membuktikan kekuatan?",
+        "Apakah satu ukuran berlaku untuk semua?",
+        "Kapan inspeksi visual dilakukan?",
+        "Dapatkah ChinaFreeWeight menyiapkan rencana kontrol?"
+      ],
+      "evidence": [
+        "The id edition uses local purchasing terminology for drawings, sample approval, surface inspection, lot containment and receiving decisions.",
+        "Its questions distinguish visible workmanship from design suitability and avoid importing a universal weld size, load value or certification claim."
+      ],
+      "path": "/id/blog/inspeksi-las-attachment-kabel"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Hampton Fitness",
+      "url": "https://www.hamptonfit.com/blog/news/cable-machine-attachments/",
+      "observation": "Treats the connection eye as a key load-transfer point; its model claims were reviewed but not generalized."
+    },
+    {
+      "name": "Public buyer discussions",
+      "url": "https://www.reddit.com/r/homegym/comments/12u75oo",
+      "observation": "Show the language buyers use after equipment incidents; anecdotes were excluded from technical claims."
+    }
+  ],
+  "rejectedTopics": [
+    "Container loading — export-packaging and landed-cost owners already cover the intent.",
+    "Batch traceability — reorder-consistency content owns the intent.",
+    "Plate thickness — bumper-plate sleeve-capacity content owns the intent.",
+    "Selectorized dumbbell locking — the fixed-versus-adjustable guide already covers the sample and service decision."
+  ],
+  "siteGaps": [
+    "No existing page owns the joint drawing → procedure evidence → pre-finish visual examination → lot containment workflow for cable attachments."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1836,
+    "liveBlogUrlsReviewed": 966,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "cable attachment compatibility",
+      "complete-assembly load evidence",
+      "handle diameter and grip",
+      "swivel inspection",
+      "chrome plating and corrosion",
+      "OEM sample approval"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 17637:2016 visual testing of fusion-welded joints",
+      "url": "https://www.iso.org/standard/67259.html",
+      "primary": true,
+      "use": "Scope boundary for visual examination of metallic fusion welds and possible pre-weld joint examination."
+    },
+    {
+      "title": "ISO 5817:2023 quality levels for imperfections",
+      "url": "https://www.iso.org/standard/80209.html",
+      "primary": true,
+      "use": "Primary standard summary used to distinguish production workmanship levels from complete-product fitness."
+    },
+    {
+      "title": "ISO 15607:2019 general rules for welding procedures",
+      "url": "https://www.iso.org/standard/71495.html",
+      "primary": true,
+      "use": "Primary framework for procedure specification and qualification; no application-specific requirement is assumed."
+    },
+    {
+      "title": "ISO 10042:2018 quality levels for aluminium weld imperfections",
+      "url": "https://www.iso.org/standard/70566.html",
+      "primary": true,
+      "use": "Material-specific boundary showing that production quality levels do not by themselves establish fitness for purpose."
+    },
+    {
+      "title": "ISO 20957-1:2024 stationary training equipment",
+      "url": "https://www.iso.org/standard/81908.html",
+      "primary": true,
+      "use": "Training-equipment scope reviewed; exact applicability to an accessory and market must be confirmed rather than assumed."
+    },
+    {
+      "title": "Hampton Fitness cable-machine attachment guide",
+      "url": "https://www.hamptonfit.com/blog/news/cable-machine-attachments/",
+      "primary": false,
+      "use": "Competitor terminology for connection points reviewed; brand-specific durability and failure claims were not reused as universal facts."
+    },
+    {
+      "title": "Reddit discussion of a crossover attachment failure",
+      "url": "https://www.reddit.com/r/homegym/comments/12u75oo",
+      "primary": false,
+      "use": "Buyer-language and inspection concern only; the anecdote is not treated as engineering or product proof."
+    }
+  ],
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on them.",
+    "Reddit posts were used only to understand buyer wording, never as product or engineering evidence.",
+    "The scheduled paid keyword refresh is reserved for Sunday under the shared policy; this Wednesday run used public search, live sitemaps and the existing registry.",
+    "An exact application standard and acceptance level must be selected for the product, material, market and contract; the guide does not prescribe one universally."
+  ]
+}
