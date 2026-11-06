@@ -75,6 +75,7 @@ import { withFreeWeightMoqMixedSkuGuide } from "./free-weight-moq-mixed-sku-guid
 import { withFreeWeightProductionLeadTimeGuide } from "./free-weight-production-lead-time-guide";
 import { withFixedVsRotatingDumbbellHandleGuide } from "./fixed-vs-rotating-dumbbell-handle-guide";
 import { withCableAttachmentWeldInspectionGuide } from "./cable-attachment-weld-inspection-guide";
+import { withFixedDumbbellImpactValidationGuide } from "./fixed-dumbbell-impact-validation-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -242,7 +243,8 @@ const freeWeightMoqMixedSkuManifest = withFreeWeightMoqMixedSkuGuide(freeWeightA
 const freeWeightProductionLeadTimeManifest = withFreeWeightProductionLeadTimeGuide(freeWeightMoqMixedSkuManifest);
 const fixedVsRotatingDumbbellHandleManifest = withFixedVsRotatingDumbbellHandleGuide(freeWeightProductionLeadTimeManifest);
 const cableAttachmentWeldInspectionManifest = withCableAttachmentWeldInspectionGuide(fixedVsRotatingDumbbellHandleManifest);
+const fixedDumbbellImpactValidationManifest = withFixedDumbbellImpactValidationGuide(cableAttachmentWeldInspectionManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  cableAttachmentWeldInspectionManifest
+  fixedDumbbellImpactValidationManifest
 );

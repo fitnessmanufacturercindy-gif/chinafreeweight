@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-06",
+  "checkedAt": "2026-11-06T09:02:20.926Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-06-chinafreeweight-en-fixed-dumbbell-impact-validation",
+      "locale": "en",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-fixed-dumbbell-impact-validation",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-fixed-dumbbell-impact-validation",
+      "locale": "es",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-fixed-dumbbell-impact-validation",
+      "locale": "de",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-fixed-dumbbell-impact-validation",
+      "locale": "fr",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-fixed-dumbbell-impact-validation",
+      "locale": "sv",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-fixed-dumbbell-impact-validation",
+      "locale": "it",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-fixed-dumbbell-impact-validation",
+      "locale": "nl",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-fixed-dumbbell-impact-validation",
+      "locale": "pl",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-fixed-dumbbell-impact-validation",
+      "locale": "vi",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-fixed-dumbbell-impact-validation",
+      "locale": "ar",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-fixed-dumbbell-impact-validation",
+      "locale": "ko",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-fixed-dumbbell-impact-validation",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "locale": "en",
+    "path": "/resources/fixed-dumbbell-impact-validation-guide",
+    "title": "Fixed Dumbbell Impact Validation: A Buyer Test Guide",
+    "description": "Build a controlled impact-validation plan for fixed dumbbells: sample families, landing orientation, floor condition, before-and-after checks, stop rules and supplier evidence.",
+    "h1": "How to Specify Impact Validation for Fixed Dumbbells",
+    "keyword": "fixed dumbbell impact test specification",
+    "home": "Home",
+    "library": "Resources",
+    "eyebrow": "Fixed dumbbell purchasing and validation",
+    "sections": [
+      {
+        "heading": "The buyer answer in one minute",
+        "text": "A useful fixed-dumbbell impact plan defines the exact model, specimen condition, landing surface, release method, orientation and inspection points before any trial begins. It should produce comparable evidence, not a dramatic clip or a claim that a dumbbell is safe to drop without limit.\n\nAsk the supplier to connect the plan to the approved construction and to state what happens when a head, handle, coating or marking changes. One passing specimen cannot represent every weight and every future lot unless the family rationale and change rules are written down."
+      },
+      {
+        "heading": "Impact validation is not permission for unlimited dropping",
+        "text": "Separate intended use, foreseeable mishandling and deliberate abuse. The purchasing specification should explain which event the trial represents and should remain consistent with the operating and warranty instructions supplied for that model.\n\nAlso separate design validation from routine production checks. A development trial explores the construction; a first-piece or lot check confirms that controlled production still matches the approved reference. They answer different questions and should not share an unnamed pass rule."
+      },
+      {
+        "heading": "Freeze the specimen family and test setup",
+        "text": "Identify model code, nominal weight, head geometry, core and coating, handle construction, assembly revision and specimen history. Choose light, middle and heavy representatives only when the construction logic supports that grouping; otherwise treat the variants separately.\n\nRecord the landing surface and underlay, orientation, release fixture, release condition and camera view. Flat-face, edge, end and handle-first contacts load a fixed dumbbell differently, so an orientation must never be inferred from a generic statement such as “drop tested.”"
+      },
+      {
+        "heading": "Create a before-and-after evidence record",
+        "text": "Before impact, photograph all sides and record mass, overall geometry, head alignment, handle condition, coating seams and marking condition with suitable measuring tools. Tag every specimen so results cannot be mixed between weights or revisions.\n\nAfter each defined stage, inspect the head-to-handle joint, looseness or movement, cracks, deformation, coating separation, sharp edges, loss of stability and marking damage. Write stop conditions before the trial and quarantine a specimen immediately when continued handling could be unsafe."
+      },
+      {
+        "heading": "Decide with evidence, not a single pass label",
+        "text": "The report should show the setup, sequence, orientations, observations and disposition for each specimen. A pass decision is meaningful only against the buyer-approved acceptance language; absence of visible damage alone may not address internal movement or later serviceability.\n\nDo not return validation specimens to saleable stock as untouched goods. Retain, section, recheck or dispose of them according to the plan, and keep the evidence beside the approved sample record so purchasing and receiving teams can compare the same construction."
+      },
+      {
+        "heading": "Carry the result into production and receiving",
+        "text": "Link the validated revision to first-piece approval, lot identity and change notification. Routine checks can use visual, dimensional and functional indicators chosen from the validation, while a material, joint, coating or geometry change triggers review and, when relevant, renewed impact work.\n\nGive distributors and gym operators model-specific handling, floor and inspection instructions. Receiving teams need clear quarantine triggers, and warranty language should match the intended use rather than turn the trial into a broad durability promise."
+      },
+      {
+        "heading": "What to send a fixed-dumbbell factory",
+        "text": "Send the product family, drawings or reference sample, target market, use environment, rack and floor context, required orientations, inspection record and acceptance responsibility. ChinaFreeWeight can review manufacturability and build an evidence plan around the agreed construction without inventing a universal height, cycle count or pass threshold.\n\nFor OEM, ODM, Custom Logo, Private Label and Bulk Supply programs, define logo method, color, markings and packaging beside the mechanical revision. That keeps commercial customization from obscuring which sample was validated and which changes require approval."
+      }
+    ],
+    "table": {
+      "heading": "Evidence matrix for an impact-validation plan",
+      "columns": ["Control point", "Record before release", "Decision after impact"],
+      "rows": [
+        ["Specimen identity", "Model, weight, revision and history", "Result remains tied to one traceable unit"],
+        ["Landing system", "Surface, underlay and fixture", "Setup matches the approved scenario"],
+        ["Orientation", "Contact face and release alignment", "Each orientation is reported separately"],
+        ["Joint condition", "Alignment, movement and reference images", "No unacceptable loosening, shift or damage"],
+        ["Surface condition", "Seams, edges, coating and markings", "Damage is classified against written criteria"],
+        ["Disposition", "Stop rules and responsible reviewer", "Retain, quarantine, investigate or close" ]
+      ]
+    },
+    "checklist": {
+      "heading": "Ten items to place in the purchase file",
+      "items": [
+        "Exact model, weight and revision for every specimen",
+        "Rationale for the selected light, middle and heavy representatives",
+        "Landing surface and underlay description",
+        "Release method and orientation sequence",
+        "Pre-impact measurements and reference photographs",
+        "Written observation points and stop conditions",
+        "Post-impact inspection and disposition record",
+        "Approved-sample and production-lot link",
+        "Change-notification and revalidation rule",
+        "Model-specific handling, floor and warranty instructions"
+      ]
+    },
+    "faqHeading": "Fixed dumbbell impact validation FAQ",
+    "faq": [
+      ["Does one drop video prove that a fixed dumbbell range is durable?", "No. A video can document one event, but a buyer also needs specimen identity, setup, orientation, observations, acceptance language and a justified link to the rest of the range."],
+      ["Should every dumbbell weight be tested the same way?", "Not automatically. Weight, head size, handle joint and coating geometry can change the load path. Group variants only when the construction rationale is documented."],
+      ["Why record the landing surface?", "A hard floor, resilient tile and added underlay change the contact event. Without the surface description, results cannot be compared or transferred responsibly."],
+      ["What should stop an impact trial?", "Stop when a written safety or acceptance condition is reached, including unstable movement, a sharp edge, visible structural damage or any condition that makes further handling unsafe."],
+      ["Can a custom logo or color change require another review?", "Yes when the change alters material, geometry, coating build, cure or assembly. Pure artwork changes may need visual approval only, but the supplier and buyer should document the boundary." ]
+    ],
+    "linkHeading": "Continue the fixed-dumbbell purchasing review",
+    "linkLabels": ["Review the rubber hex dumbbell", "Compare commercial dumbbells", "Understand head-to-handle construction", "Choose fixed or adjustable dumbbells", "Inspect rubber coating adhesion", "Classify free-weight defects", "Approve an OEM sample", "Send the validation brief"],
+    "imageAlt": "Inspector checking a fixed hex dumbbell after a controlled impact validation setup",
+    "imageCaption": "A traceable specimen, controlled landing setup and defined post-impact checks make the evidence useful to a buyer.",
+    "cta": ["Build a reviewable dumbbell validation brief", "Send the model range, construction revision, use context and required evidence. We will align manufacturing, samples and production controls before the order decision.", "Discuss your fixed dumbbell program"]
+  },
+  {
+    "locale": "pt-BR",
+    "path": "/pt/blog/validacao-impacto-halter-fixo-compras",
+    "title": "Validação de impacto em halter fixo: guia para compras",
+    "description": "Estruture a validação de impacto de halteres fixos com amostras rastreáveis, piso, orientação, inspeção antes e depois, critérios de parada e controle de mudanças.",
+    "h1": "Como especificar a validação de impacto de halteres fixos",
+    "keyword": "validação de impacto de halter fixo",
+    "home": "Início",
+    "library": "Blog",
+    "eyebrow": "Compras e validação de halteres fixos",
+    "sections": [
+      {
+        "heading": "Resposta direta para comprador e academia",
+        "text": "Uma validação útil descreve modelo, condição da amostra, piso, método de soltura, orientação e pontos de inspeção antes do primeiro impacto. O objetivo é gerar evidência comparável para a compra, não um vídeo chamativo nem autorização para derrubar o halter sem limite.\n\nPeça ao fabricante que relacione o ensaio à construção aprovada e explique o que muda quando cabeça, empunhadura, revestimento ou marcação são alterados. Uma única peça não representa toda a faixa sem uma justificativa técnica de família e regras de mudança.\n\nPara uma rede de academias, esse registro também evita que o vídeo de um modelo seja usado para liberar outra coleção com núcleo, diâmetro ou união diferente. Para o distribuidor, ele cria uma base objetiva para comparar fornecedores e explicar ao cliente o uso previsto de cada referência."
+      },
+      {
+        "heading": "Uso previsto, manuseio previsível e abuso são situações diferentes",
+        "text": "O plano deve declarar qual ocorrência está sendo simulada e permanecer coerente com as instruções de uso, piso e garantia do modelo. Não transforme uma verificação controlada em promessa de que todo halter pode ser arremessado.\n\nSepare validação de projeto de controle rotineiro. Na fase de desenvolvimento, a construção é investigada; na primeira peça e no lote, confirma-se a repetibilidade da versão aprovada. Cada etapa precisa de objetivo e decisão próprios.\n\nO manual da academia, a página do catálogo e a garantia precisam contar a mesma história. Se a comunicação comercial recomenda colocação controlada no rack, o ensaio não deve ser apresentado como autorização para uso diferente; ele serve para avaliar um cenário definido e apoiar limites honestos."
+      },
+      {
+        "heading": "Trave a família de amostras e o arranjo de teste",
+        "text": "Registre código, peso nominal, geometria da cabeça, núcleo, revestimento, empunhadura, revisão de montagem e histórico da amostra. Selecione pesos leves, médios e altos apenas quando a lógica construtiva sustentar esse agrupamento.\n\nDescreva piso e base, orientação, dispositivo de soltura, condição de liberação e enquadramento das imagens. Contato pela face, quina, extremidade ou empunhadura transfere esforços diferentes; por isso, “testado contra queda” é informação incompleta.\n\nEm uma faixa extensa, compare os desenhos para localizar onde mudam diâmetro do núcleo, comprimento da empunhadura, seção da união ou espessura do revestimento. Esses pontos podem dividir a família em grupos diferentes e orientar uma amostragem mais defensável do que escolher apenas o menor e o maior peso."
+      },
+      {
+        "heading": "Monte o registro antes e depois do impacto",
+        "text": "Antes, fotografe todos os lados e registre massa, geometria, alinhamento das cabeças, condição da empunhadura, emendas e marcações. Identifique cada unidade para não misturar pesos, lotes ou revisões.\n\nDepois de cada etapa, verifique união cabeça-empunhadura, folga, deslocamento, trincas, deformação, separação do revestimento, arestas e legibilidade. Defina a parada antecipadamente e coloque a peça em quarentena quando continuar o manuseio não for seguro.\n\nUse os mesmos pontos de medição, iluminação e escala nas imagens inicial e final. Registre o instrumento e sua condição quando o resultado depender de medida. Essa disciplina ajuda a distinguir variação real de diferença de ângulo, sombra ou posicionamento da peça."
+      },
+      {
+        "heading": "Decida pelo conjunto de evidências",
+        "text": "O relatório precisa mostrar arranjo, sequência, orientações, observações e destino de cada peça. A palavra “aprovado” só é útil quando se apoia em critérios aceitos pelo comprador; ausência de dano visível pode não revelar movimento interno.\n\nNão devolva a amostra ensaiada ao estoque como se fosse nova. Retenha, seccione, reinspecione ou descarte conforme o plano e vincule o registro à amostra aprovada para facilitar recebimento e reposição.\n\nClassifique cada observação pela consequência: segurança no manuseio, função, aparência, manutenção ou rastreabilidade. O comprador pode então decidir se o problema bloqueia a família, exige investigação apenas daquela variante ou pede ajuste de instrução e embalagem sem confundir categorias."
+      },
+      {
+        "heading": "Leve o resultado para produção e recebimento",
+        "text": "Associe a revisão validada à primeira peça, à identificação do lote e à comunicação de mudança. Controles de rotina podem usar sinais visuais, dimensionais e funcionais; mudança de material, união, revestimento ou geometria exige nova análise.\n\nDistribuidores e academias precisam de instruções específicas de manuseio, piso e inspeção. A equipe de recebimento deve saber quando segregar uma unidade, e a garantia deve refletir o uso previsto do modelo.\n\nNo recebimento, uma unidade com cabeça desalinhada, movimento incomum, revestimento aberto ou aresta exposta deve seguir o fluxo escrito de segregação e avaliação. O objetivo não é repetir todo o ensaio em cada lote, mas reconhecer sinais relacionados à construção validada e impedir mistura com estoque liberado."
+      },
+      {
+        "heading": "Briefing para uma fábrica de halteres",
+        "text": "Envie faixa de produtos, desenho ou amostra de referência, mercado, ambiente de uso, rack e piso, orientações exigidas, formulário de inspeção e responsável pela aceitação. A ChinaFreeWeight pode revisar a fabricação e organizar o plano de evidências sem inventar altura, quantidade de ciclos ou limite universal.\n\nEm programas OEM, ODM, Custom Logo, Private Label e Bulk Supply, defina logo, cor, marcação e embalagem junto da revisão mecânica. Assim, a personalização comercial não esconde qual amostra foi validada nem quais mudanças precisam de aprovação.\n\nDefina também quem aprova o método, quem presencia ou revisa o registro, como uma não conformidade será comunicada e qual evidência acompanha a remessa. Um briefing completo reduz interpretações diferentes entre marca, fábrica, inspeção terceirizada e equipe de recebimento."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de evidências para a validação",
+      "columns": ["Ponto de controle", "Registrar antes", "Decisão depois"],
+      "rows": [
+        ["Identidade", "Modelo, peso, revisão e histórico", "Resultado ligado a uma unidade rastreável"],
+        ["Base de impacto", "Piso, camada inferior e dispositivo", "Arranjo igual ao cenário aprovado"],
+        ["Orientação", "Face de contato e alinhamento", "Cada orientação registrada separadamente"],
+        ["União", "Alinhamento, movimento e fotos", "Sem folga, deslocamento ou dano inaceitável"],
+        ["Superfície", "Emendas, quinas, revestimento e marcação", "Dano classificado por critério escrito"],
+        ["Destino", "Parada e responsável", "Reter, segregar, investigar ou encerrar"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dez itens para o arquivo de compras",
+      "items": ["Modelo, peso e revisão de cada amostra", "Justificativa da seleção de pesos", "Descrição do piso e da base", "Método de soltura e sequência de orientações", "Medições e fotos antes do impacto", "Pontos de observação e critérios de parada", "Inspeção e destino depois do impacto", "Vínculo com amostra aprovada e lote", "Regra de mudança e nova validação", "Instruções de manuseio, piso e garantia"]
+    },
+    "faqHeading": "Perguntas sobre validação de impacto",
+    "faq": [
+      ["Um vídeo de queda comprova a durabilidade da linha?", "Não. Ele documenta um evento, mas o comprador também precisa de identidade da amostra, arranjo, orientação, observações, critérios e justificativa para a família."],
+      ["Todos os pesos devem receber o mesmo teste?", "Não automaticamente. Tamanho da cabeça, peso, união e geometria do revestimento alteram o caminho dos esforços. O agrupamento precisa ser justificado."],
+      ["Por que registrar o piso?", "Piso rígido, placa resiliente e base adicional mudam o contato. Sem essa informação, não é possível comparar resultados de forma responsável."],
+      ["Quando o ensaio deve parar?", "Pare ao atingir uma condição de segurança ou aceitação escrita, como movimento instável, aresta cortante, dano estrutural ou risco no manuseio."],
+      ["Logo ou cor personalizados exigem nova análise?", "Sim quando a mudança afeta material, geometria, espessura, cura ou montagem. Uma alteração apenas gráfica pode exigir somente aprovação visual, desde que o limite esteja documentado."]
+    ],
+    "linkHeading": "Continue a avaliação do halter fixo",
+    "linkLabels": ["Ver o halter sextavado de borracha", "Comparar halteres profissionais", "Entender a união entre cabeça e empunhadura", "Escolher entre fixo e ajustável", "Inspecionar adesão do revestimento", "Classificar defeitos em pesos livres", "Aprovar uma amostra OEM", "Enviar o briefing de validação"],
+    "imageAlt": "Arranjo protegido para validação controlada de impacto em halter fixo redondo",
+    "imageCaption": "Amostra rastreável, piso definido e inspeção planejada tornam o resultado útil para a decisão de compra.",
+    "cta": ["Prepare um briefing de validação revisável", "Envie a faixa, revisão construtiva, contexto de uso e evidências necessárias. Alinhamos fabricação, amostras e controle de produção antes da decisão.", "Falar sobre o programa de halteres"]
+  },
+  {
+    "locale": "es",
+    "path": "/es/blog/validacion-impacto-mancuernas-fijas",
+    "title": "Validación de impacto de mancuernas fijas para compradores",
+    "description": "Defina una validación de impacto para mancuernas fijas con muestras trazables, suelo, orientación, revisión previa y posterior, reglas de parada y control de cambios.",
+    "h1": "Cómo especificar la validación de impacto de una mancuerna fija",
+    "keyword": "validación de impacto de mancuerna fija",
+    "home": "Inicio",
+    "library": "Blog",
+    "eyebrow": "Compras y validación de mancuernas fijas",
+    "sections": [
+      {
+        "heading": "Respuesta rápida para importadores y gimnasios",
+        "text": "Una validación útil fija modelo, estado de la muestra, superficie, método de liberación, orientación y puntos de inspección antes del primer impacto. Debe producir evidencia comparable para una decisión comercial, no un vídeo espectacular ni permiso para soltar la mancuerna sin límite.\n\nPida al fabricante que vincule el plan con la construcción aprobada y explique qué ocurre si cambian cabeza, mango, recubrimiento o marcado. Una sola unidad no representa toda la gama sin una justificación de familia y reglas de cambio.\n\nPara una cadena de gimnasios, el expediente evita que el vídeo de una referencia se utilice para liberar otra colección con núcleo, diámetro o unión diferentes. Para el importador, crea una base objetiva para comparar proveedores y comunicar al cliente el uso previsto del modelo."
+      },
+      {
+        "heading": "Uso previsto, manejo previsible y abuso no son equivalentes",
+        "text": "El documento debe indicar qué suceso representa la prueba y ser coherente con las instrucciones de uso, suelo y garantía del modelo. Una comprobación controlada no convierte cualquier caída repetida en uso aceptable.\n\nDistinga validación de diseño y control de producción. La primera explora la construcción; la pieza inicial y el lote confirman que la versión aprobada sigue siendo reproducible. Cada fase necesita su propia finalidad.\n\nEl manual del gimnasio, la ficha del distribuidor y la garantía deben mantener el mismo límite. Si la comunicación pide devolver la mancuerna al rack de forma controlada, la prueba no debe presentarse como permiso para un comportamiento distinto; representa un escenario definido."
+      },
+      {
+        "heading": "Cierre la familia de muestras y el montaje",
+        "text": "Identifique código, peso nominal, geometría, núcleo, recubrimiento, mango, revisión de montaje e historial. Seleccione referencias ligeras, medias y pesadas solo cuando la lógica constructiva permita agruparlas.\n\nRegistre suelo y base, orientación, dispositivo, liberación y vista de cámara. El contacto plano, de canto, de extremo o sobre el mango genera cargas distintas; por eso, la frase “probada en caída” no basta.\n\nEn una gama amplia, compare planos para localizar cambios de diámetro del núcleo, longitud del mango, sección de la unión o espesor del recubrimiento. Esos cambios pueden dividir la familia en varios grupos y orientar mejor el muestreo que elegir únicamente el menor y el mayor peso."
+      },
+      {
+        "heading": "Documente la condición antes y después",
+        "text": "Antes del impacto, fotografíe todos los lados y registre masa, geometría, alineación de cabezas, mango, juntas y marcado. Etiquete cada unidad para evitar mezclas entre pesos o revisiones.\n\nDespués de cada etapa, revise la unión cabeza-mango, holgura, desplazamiento, grietas, deformación, separación del recubrimiento, aristas y legibilidad. Defina las paradas por adelantado y ponga la unidad en cuarentena si seguir manipulándola no es seguro.\n\nUse los mismos puntos de medición, iluminación y escala en las imágenes iniciales y finales. Cuando la decisión dependa de una medida, identifique el instrumento y su condición. Así se distingue un cambio real de una diferencia de ángulo, sombra o apoyo."
+      },
+      {
+        "heading": "Decida con el expediente completo",
+        "text": "El informe debe mostrar montaje, secuencia, orientaciones, observaciones y destino de cada muestra. “Aprobado” solo tiene sentido frente al lenguaje de aceptación acordado; no ver daños no descarta movimiento interno.\n\nNo devuelva las piezas ensayadas al inventario como producto intacto. Reténgalas, seccione, vuelva a inspeccionar o elimine según el plan, y una el registro a la muestra aprobada.\n\nClasifique cada hallazgo por su consecuencia: seguridad de manipulación, función, apariencia, mantenimiento o trazabilidad. El comprador podrá decidir si el problema bloquea la familia, exige investigar una variante o requiere ajustar instrucciones y embalaje sin confundir categorías."
+      },
+      {
+        "heading": "Traslade el resultado a producción y recepción",
+        "text": "Relacione la revisión validada con primera pieza, lote y aviso de cambios. Los controles rutinarios pueden tomar indicadores visuales, dimensionales y funcionales; un cambio en material, unión, recubrimiento o geometría exige revisión.\n\nDistribuidores y gimnasios necesitan instrucciones específicas de manejo, suelo e inspección. Recepción debe conocer los motivos de cuarentena y la garantía debe corresponder al uso previsto.\n\nEn recepción, una unidad desalineada, con movimiento anormal, recubrimiento abierto o arista expuesta debe seguir el flujo escrito de segregación y evaluación. No se trata de repetir toda la prueba en cada lote, sino de reconocer señales relacionadas con la construcción validada."
+      },
+      {
+        "heading": "Información para una fábrica de mancuernas",
+        "text": "Envíe gama, plano o muestra de referencia, mercado, entorno, rack y suelo, orientaciones, registro de inspección y responsable de aceptación. ChinaFreeWeight puede revisar la fabricación y ordenar la evidencia sin inventar altura, número de ciclos o umbral universal.\n\nPara OEM, ODM, Custom Logo, Private Label y Bulk Supply, defina logo, color, marcado y embalaje junto a la revisión mecánica. Así la personalización no oculta qué muestra se validó ni qué cambios requieren aprobación.\n\nDefina además quién aprueba el método, quién presencia o revisa el registro, cómo se comunica una no conformidad y qué evidencia acompaña el envío. Un briefing completo reduce interpretaciones distintas entre marca, fábrica, inspección externa y almacén.\n\nIncluya fotografías de la muestra de referencia, códigos de cada peso y una lista de los archivos vigentes. Si el proyecto combina varios acabados, identifique qué superficies comparten construcción y cuáles requieren revisión separada. Esta preparación permite cotizar el trabajo de muestras, inspección y documentación con un alcance claro, sin convertir un requisito técnico en una frase comercial ambigua."
+      }
+    ],
+    "table": {
+      "heading": "Matriz de evidencia del plan de impacto",
+      "columns": ["Control", "Registro previo", "Decisión posterior"],
+      "rows": [
+        ["Identidad", "Modelo, peso, revisión e historial", "Resultado unido a una unidad trazable"],
+        ["Sistema de contacto", "Suelo, base y dispositivo", "Montaje conforme al escenario aprobado"],
+        ["Orientación", "Cara y alineación de liberación", "Cada orientación queda separada"],
+        ["Unión", "Alineación, movimiento e imágenes", "Sin holgura, cambio o daño inaceptable"],
+        ["Superficie", "Juntas, recubrimiento y marcado", "Daño clasificado con criterios escritos"],
+        ["Destino", "Paradas y revisor", "Retener, aislar, investigar o cerrar"]
+      ]
+    },
+    "checklist": {
+      "heading": "Diez puntos para el expediente de compra",
+      "items": ["Modelo, peso y revisión de cada muestra", "Justificación de las referencias elegidas", "Descripción del suelo y la base", "Método y secuencia de orientaciones", "Mediciones y fotos iniciales", "Observaciones y reglas de parada", "Inspección y destino final", "Vínculo con muestra y lote", "Regla de cambio y nueva revisión", "Instrucciones de manejo, suelo y garantía"]
+    },
+    "faqHeading": "Preguntas sobre validación de impacto",
+    "faq": [
+      ["¿Un vídeo de caída demuestra la durabilidad de toda la gama?", "No. Documenta un evento; faltan identidad, montaje, orientación, observaciones, aceptación y justificación para trasladar el resultado."],
+      ["¿Hay que probar todos los pesos de la misma forma?", "No de manera automática. Peso, tamaño de cabeza, unión y geometría cambian la carga. Agrupe solo con una razón constructiva documentada."],
+      ["¿Por qué debe constar el suelo?", "Una superficie rígida, una loseta resiliente o una base adicional cambian el contacto. Sin describirlos, los resultados no son comparables."],
+      ["¿Qué condición debe detener la prueba?", "Cualquier condición escrita de seguridad o aceptación, como movimiento inestable, arista cortante, daño estructural o manipulación insegura."],
+      ["¿Un logo o color especial puede exigir otra revisión?", "Sí, si altera material, geometría, espesor, curado o montaje. Un cambio exclusivamente gráfico puede limitarse a aprobación visual si se documenta."]
+    ],
+    "linkHeading": "Complete la revisión de la mancuerna fija",
+    "linkLabels": ["Ver la mancuerna hexagonal de goma", "Comparar mancuernas comerciales", "Entender la unión de cabeza y mango", "Elegir entre fijas y ajustables", "Inspeccionar adhesión del recubrimiento", "Clasificar defectos de peso libre", "Aprobar una muestra OEM", "Enviar el plan de validación"],
+    "imageAlt": "Dos orientaciones controladas para validar el impacto de una mancuerna fija",
+    "imageCaption": "La orientación modifica la carga; cada configuración debe quedar identificada y revisada por separado.",
+    "cta": ["Convierta el requisito en un plan revisable", "Comparta la gama, revisión, contexto de uso y evidencia solicitada. Alinearemos fabricación, muestra y controles antes de decidir el pedido.", "Hablar de su programa de mancuernas"]
+  },
+  {
+    "locale": "de",
+    "path": "/de/blog/feste-kurzhanteln-fallpruefung-pruefplan",
+    "title": "Fall- und Stoßprüfung fester Kurzhanteln im Einkauf",
+    "description": "Prüfplan für feste Kurzhanteln: rückverfolgbare Muster, Aufprallfläche, Lage, Vorher-Nachher-Befund, Abbruchkriterien und Änderungslenkung.",
+    "h1": "So spezifizieren Einkäufer die Stoßvalidierung fester Kurzhanteln",
+    "keyword": "Fallprüfung feste Kurzhantel Prüfplan",
+    "home": "Startseite",
+    "library": "Ratgeber",
+    "eyebrow": "Einkauf und Prüfung fester Kurzhanteln",
+    "sections": [
+      {
+        "heading": "Kurzantwort für den technischen Einkauf",
+        "text": "Ein belastbarer Prüfplan benennt Modell, Musterzustand, Aufprallfläche, Freigabemethode, Lage und Prüfmerkmale vor dem ersten Stoß. Er erzeugt vergleichbare Nachweise statt eines spektakulären Videos oder der pauschalen Aussage, eine Hantel dürfe unbegrenzt fallengelassen werden.\n\nDer Lieferant muss den Plan mit der freigegebenen Konstruktion verknüpfen und Änderungen an Kopf, Griff, Beschichtung oder Kennzeichnung bewerten. Ein Einzelmuster steht nur dann für eine Baureihe, wenn die Gruppierung technisch begründet und die Änderungsregel festgelegt ist."
+      },
+      {
+        "heading": "Vorgesehene Nutzung und Missbrauch sauber trennen",
+        "text": "Beschreiben Sie, welches Ereignis die Prüfung abbildet, und stimmen Sie es mit Nutzungs-, Boden- und Garantiehinweisen des Modells ab. Eine kontrollierte Prüfung ist keine Freigabe für wiederholtes Werfen.\n\nTrennen Sie Konstruktionsvalidierung und Serienüberwachung. Entwicklung untersucht den Aufbau; Erstteil- und Losprüfung bestätigen die Reproduzierbarkeit der freigegebenen Version. Die Entscheidungskriterien dürfen nicht namenlos vermischt werden."
+      },
+      {
+        "heading": "Musterfamilie und Aufbau eindeutig festlegen",
+        "text": "Dokumentieren Sie Modellcode, Nenngewicht, Kopfgeometrie, Kern, Beschichtung, Griff, Montagestand und Vorgeschichte. Leichte, mittlere und schwere Varianten dürfen nur mit nachvollziehbarer Konstruktionslogik zusammengefasst werden.\n\nHalten Sie Aufprallfläche, Unterlage, Lage, Vorrichtung, Freigabe und Kameraperspektive fest. Fläche, Kante, Stirnseite und Griff führen zu unterschiedlichen Lastpfaden; „fallgeprüft“ ohne Lageangabe ist daher unvollständig."
+      },
+      {
+        "heading": "Vorher-Nachher-Befund als Messakte führen",
+        "text": "Vor der Prüfung werden alle Seiten fotografiert und Masse, Geometrie, Kopfausrichtung, Griffzustand, Beschichtungsnähte und Kennzeichnungen erfasst. Jedes Muster benötigt eine eindeutige Kennung.\n\nNach jeder Stufe prüfen Sie Kopf-Griff-Verbindung, Spiel, Verschiebung, Risse, Verformung, Ablösung, scharfe Kanten, Standlage und Lesbarkeit. Abbruchkriterien werden vorher definiert; unsichere Muster kommen sofort in Quarantäne."
+      },
+      {
+        "heading": "Entscheidung auf den gesamten Nachweis stützen",
+        "text": "Der Bericht zeigt Aufbau, Reihenfolge, Lagen, Beobachtungen und Verbleib jedes Musters. Ein Bestanden-Vermerk ist nur im Verhältnis zur vereinbarten Annahmeregel aussagekräftig; äußerlich unauffällige Teile können intern Bewegung zeigen.\n\nGeprüfte Muster dürfen nicht als unberührte Neuware zurück in den Verkauf. Aufbewahrung, Schnittprüfung, Nachkontrolle oder Entsorgung werden geplant und mit dem Freigabemuster verknüpft."
+      },
+      {
+        "heading": "Ergebnis in Serie und Wareneingang überführen",
+        "text": "Verbinden Sie den validierten Stand mit Erstmuster, Loskennung und Änderungsmitteilung. Visuelle, maßliche und funktionale Merkmale aus der Validierung können in Routineprüfungen einfließen; Material-, Füge-, Beschichtungs- oder Geometrieänderungen lösen eine Bewertung aus.\n\nHändler und Studios benötigen modellspezifische Hinweise zu Handhabung, Boden und Inspektion. Der Wareneingang braucht Sperrgründe, und die Garantie muss zur vorgesehenen Nutzung passen."
+      },
+      {
+        "heading": "Prüfbriefing an die Kurzhantelfabrik",
+        "text": "Übermitteln Sie Baureihe, Zeichnung oder Referenz, Zielmarkt, Umgebung, Rack und Boden, erforderliche Lagen, Prüfblatt und Annahmeverantwortung. ChinaFreeWeight kann Herstellbarkeit und Nachweisplan prüfen, ohne universelle Fallhöhe, Zyklenzahl oder Grenzwert zu erfinden.\n\nBei OEM, ODM, Custom Logo, Private Label und Bulk Supply gehören Logo, Farbe, Kennzeichnung und Verpackung zur mechanischen Revision. So bleibt sichtbar, welches Muster validiert wurde und welche Änderung eine Freigabe benötigt."
+      }
+    ],
+    "table": {
+      "heading": "Nachweismatrix für den Prüfplan",
+      "columns": ["Prüfpunkt", "Vorher dokumentieren", "Danach entscheiden"],
+      "rows": [
+        ["Musteridentität", "Modell, Gewicht, Stand, Historie", "Ergebnis bleibt einem Teil zugeordnet"],
+        ["Aufprallsystem", "Fläche, Unterlage, Vorrichtung", "Aufbau entspricht dem Szenario"],
+        ["Lage", "Kontaktseite und Ausrichtung", "Jede Lage einzeln auswerten"],
+        ["Verbindung", "Ausrichtung, Spiel und Bilder", "Keine unzulässige Lockerung oder Schädigung"],
+        ["Oberfläche", "Nähte, Kanten, Beschichtung, Schrift", "Befund nach schriftlicher Regel klassifizieren"],
+        ["Verbleib", "Abbruch und Verantwortlicher", "Aufbewahren, sperren, untersuchen oder abschließen"]
+      ]
+    },
+    "checklist": {
+      "heading": "Zehn Punkte für die Einkaufsakte",
+      "items": ["Modell, Gewicht und Stand jedes Musters", "Begründung der ausgewählten Varianten", "Aufprallfläche und Unterlage", "Freigabemethode und Lagenfolge", "Ausgangsmaße und Referenzbilder", "Prüfmerkmale und Abbruchkriterien", "Nachbefund und Verbleib", "Verknüpfung zu Freigabemuster und Los", "Änderungs- und Wiederholungsregel", "Hinweise zu Handhabung, Boden und Garantie"]
+    },
+    "faqHeading": "Fragen zur Stoßvalidierung",
+    "faq": [
+      ["Beweist ein Fallvideo die Haltbarkeit einer ganzen Baureihe?", "Nein. Es dokumentiert ein Ereignis. Musteridentität, Aufbau, Lage, Befunde, Annahmeregel und Übertragbarkeit müssen zusätzlich belegt sein."],
+      ["Müssen alle Gewichte gleich geprüft werden?", "Nicht automatisch. Kopfgröße, Masse, Verbindung und Beschichtungsgeometrie verändern den Lastpfad. Eine Gruppierung benötigt eine technische Begründung."],
+      ["Warum ist die Aufprallfläche wichtig?", "Harter Boden, elastische Platte und zusätzliche Unterlage verändern den Kontakt. Ohne Beschreibung sind Ergebnisse nicht verantwortbar vergleichbar."],
+      ["Wann wird die Prüfung abgebrochen?", "Bei einem vorab definierten Sicherheits- oder Annahmekriterium, etwa instabiler Bewegung, scharfer Kante, sichtbarer Strukturschädigung oder unsicherer Handhabung."],
+      ["Kann eine Logo- oder Farbänderung eine Neubewertung auslösen?", "Ja, wenn Material, Geometrie, Schichtaufbau, Aushärtung oder Montage betroffen sind. Rein grafische Änderungen können auf Sichtfreigabe begrenzt bleiben, wenn dies dokumentiert ist."]
+    ],
+    "linkHeading": "Prüfung der festen Kurzhantel fortsetzen",
+    "linkLabels": ["Gummi-Sechskanthantel ansehen", "Gewerbliche Kurzhanteln vergleichen", "Kopf-Griff-Verbindung verstehen", "Fest oder verstellbar wählen", "Beschichtungshaftung prüfen", "Fehler an freien Gewichten klassifizieren", "OEM-Muster freigeben", "Prüfbriefing senden"],
+    "imageAlt": "Messtechnische Nachprüfung einer festen Kurzhantel nach kontrolliertem Stoß",
+    "imageCaption": "Messwerte und Referenzbilder zeigen, ob Ausrichtung und Verbindung nach dem definierten Ereignis unverändert sind.",
+    "cta": ["Einen prüfbaren Nachweisplan erstellen", "Senden Sie Baureihe, Konstruktionsstand, Nutzungskontext und gewünschte Nachweise. Wir stimmen Fertigung, Muster und Serienkontrollen vor der Bestellung ab.", "Kurzhantelprogramm besprechen"]
+  },
+  {
+    "locale": "fr",
+    "path": "/fr/blog/validation-impact-halteres-fixes",
+    "title": "Validation d’impact des haltères fixes pour les achats",
+    "description": "Construisez un plan de validation d’impact pour haltères fixes : échantillons traçables, sol, orientation, constats avant et après, arrêt et gestion des modifications.",
+    "h1": "Comment spécifier la validation d’impact d’un haltère fixe",
+    "keyword": "validation impact haltère fixe",
+    "home": "Accueil",
+    "library": "Blog",
+    "eyebrow": "Achat et validation des haltères fixes",
+    "sections": [
+      {
+        "heading": "La réponse utile à l’acheteur",
+        "text": "Un plan exploitable fixe le modèle, l’état de l’échantillon, la surface, le mode de libération, l’orientation et les points de contrôle avant le premier impact. Il produit une preuve comparable, pas une vidéo spectaculaire ni une autorisation de lâcher l’haltère sans limite.\n\nDemandez au fabricant de relier le protocole à la construction approuvée et d’expliquer les conséquences d’un changement de tête, poignée, revêtement ou marquage. Une pièce ne représente pas toute la gamme sans logique de famille et règle de modification."
+      },
+      {
+        "heading": "Distinguer usage prévu, mauvaise manipulation et abus",
+        "text": "Le cahier des charges indique l’événement représenté et reste cohérent avec les consignes d’usage, de sol et de garantie du modèle. Une vérification contrôlée ne transforme pas les chutes répétées en usage normal.\n\nSéparez validation de conception et contrôle de série. La première étudie la construction ; le premier article et le lot confirment que la version approuvée reste reproductible. Les objectifs et décisions ne se confondent pas."
+      },
+      {
+        "heading": "Figer la famille d’échantillons et le montage",
+        "text": "Notez code, masse nominale, géométrie, noyau, revêtement, poignée, révision d’assemblage et historique. Les références légère, moyenne et lourde ne forment une famille que si la construction justifie ce choix.\n\nDécrivez surface et sous-couche, orientation, dispositif, libération et vue de caméra. Un contact à plat, sur arête, en bout ou sur poignée ne sollicite pas l’haltère de la même manière ; la mention « testé en chute » reste incomplète."
+      },
+      {
+        "heading": "Constituer le constat avant et après",
+        "text": "Avant l’impact, photographiez toutes les faces et relevez masse, géométrie, alignement, poignée, jonctions de revêtement et marquages. Identifiez chaque pièce pour éviter tout mélange de poids ou de révision.\n\nAprès chaque étape, contrôlez liaison tête-poignée, jeu, déplacement, fissure, déformation, décollement, arête, stabilité et lisibilité. Les conditions d’arrêt sont écrites à l’avance ; une pièce dangereuse est isolée immédiatement."
+      },
+      {
+        "heading": "Décider sur le dossier complet",
+        "text": "Le rapport présente montage, séquence, orientations, observations et destination de chaque échantillon. La conclusion n’a de sens qu’au regard des critères approuvés ; l’absence de dégât visible n’écarte pas un mouvement interne.\n\nNe remettez pas les pièces sollicitées en stock comme produits intacts. Conservation, coupe, nouveau contrôle ou élimination sont définis et reliés à l’échantillon de référence."
+      },
+      {
+        "heading": "Relier le résultat à la série et à la réception",
+        "text": "Associez la révision validée au premier article, au lot et à l’avis de modification. Les contrôles courants peuvent reprendre des indicateurs visuels, dimensionnels et fonctionnels ; un changement de matière, liaison, revêtement ou géométrie impose une revue.\n\nDistributeurs et salles ont besoin de consignes propres au modèle pour la manipulation, le sol et l’inspection. La réception doit connaître les motifs d’isolement et la garantie doit refléter l’usage prévu."
+      },
+      {
+        "heading": "Brief à transmettre à une usine d’haltères",
+        "text": "Envoyez gamme, plan ou référence, marché, environnement, rack et sol, orientations, fiche de contrôle et responsabilité d’acceptation. ChinaFreeWeight peut revoir la fabricabilité et structurer les preuves sans inventer de hauteur, nombre de cycles ou seuil universel.\n\nPour OEM, ODM, Custom Logo, Private Label et Bulk Supply, fixez logo, couleur, marquage et emballage avec la révision mécanique. La personnalisation ne masque alors ni l’échantillon validé ni les changements à approuver."
+      }
+    ],
+    "table": {
+      "heading": "Matrice de preuves du plan d’impact",
+      "columns": ["Point", "Avant la libération", "Décision après impact"],
+      "rows": [
+        ["Identité", "Modèle, poids, révision, historique", "Résultat lié à une pièce traçable"],
+        ["Système de contact", "Surface, sous-couche, dispositif", "Montage conforme au scénario"],
+        ["Orientation", "Face et alignement", "Chaque orientation analysée séparément"],
+        ["Liaison", "Alignement, jeu, images", "Aucun jeu, déplacement ou dommage inacceptable"],
+        ["Surface", "Jonctions, arêtes, revêtement, marquage", "Dommage classé selon une règle écrite"],
+        ["Destination", "Arrêt et responsable", "Conserver, isoler, investiguer ou clôturer"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dix éléments pour le dossier d’achat",
+      "items": ["Modèle, poids et révision de chaque pièce", "Justification des variantes choisies", "Surface et sous-couche", "Libération et séquence des orientations", "Mesures et photos initiales", "Observations et conditions d’arrêt", "Contrôle final et destination", "Lien avec référence et lot", "Règle de modification et nouvelle revue", "Consignes de manipulation, sol et garantie"]
+    },
+    "faqHeading": "Questions sur la validation d’impact",
+    "faq": [
+      ["Une vidéo de chute prouve-t-elle la durabilité de la gamme ?", "Non. Elle documente un événement ; identité, montage, orientation, observations, critères et justification de famille restent nécessaires."],
+      ["Faut-il tester tous les poids de la même façon ?", "Pas automatiquement. Masse, taille de tête, liaison et géométrie modifient le chargement. Le regroupement doit être justifié."],
+      ["Pourquoi consigner la surface de réception ?", "Un sol dur, une dalle résiliente ou une sous-couche changent le contact. Sans cette donnée, les résultats ne sont pas comparables."],
+      ["Quand faut-il arrêter l’essai ?", "Dès qu’un critère écrit de sécurité ou d’acceptation est atteint : mouvement instable, arête vive, dommage structurel ou manipulation dangereuse."],
+      ["Un logo ou une couleur peut-il imposer une nouvelle revue ?", "Oui si matière, géométrie, épaisseur, cuisson ou assemblage changent. Une modification purement graphique peut rester visuelle si la limite est documentée."]
+    ],
+    "linkHeading": "Poursuivre l’évaluation de l’haltère fixe",
+    "linkLabels": ["Voir l’haltère hexagonal caoutchouc", "Comparer les haltères professionnels", "Comprendre la liaison tête-poignée", "Choisir fixe ou réglable", "Contrôler l’adhérence du revêtement", "Classer les défauts des poids libres", "Approuver un échantillon OEM", "Envoyer le brief de validation"],
+    "imageAlt": "Contrôle photographique et lumineux d’un haltère fixe après impact maîtrisé",
+    "imageCaption": "Des vues constantes et des repères mesurables rendent le constat de surface comparable avant et après l’impact.",
+    "cta": ["Transformer le besoin en plan vérifiable", "Partagez gamme, révision, contexte d’usage et preuves attendues. Nous alignons fabrication, échantillon et contrôles avant la décision d’achat.", "Discuter du programme d’haltères"]
+  }
+]
