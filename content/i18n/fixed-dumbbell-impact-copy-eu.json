@@ -1,0 +1,282 @@
+[
+  {
+    "locale": "sv",
+    "path": "/sv/blogg/slagprov-fasta-hantlar-inkop",
+    "title": "Stötvalidering av fasta hantlar för professionella inköp",
+    "description": "Bygg en spårbar stötvalidering för fasta hantlar med provfamilj, underlag, orientering, kontroll före och efter, stoppregler och ändringsstyrning.",
+    "h1": "Så specificerar inköpare stötprov för fasta hantlar",
+    "keyword": "stötprov fast hantel inköp",
+    "home": "Start",
+    "library": "Blogg",
+    "eyebrow": "Inköp och validering av fasta hantlar",
+    "sections": [
+      {
+        "heading": "Kort svar för inköparen",
+        "text": "En användbar validering anger modell, provets skick, träffyta, frigöringsmetod, orientering och kontrollpunkter innan första stöten. Den ska ge jämförbara belägg, inte en dramatisk film eller ett allmänt löfte om att hanteln kan tappas utan gräns.\n\nKnyt planen till godkänd konstruktion och kräv besked om vad som händer när huvud, handtag, beläggning eller märkning ändras. Ett enda prov representerar inte en hel viktserie utan dokumenterad familjelogik och ändringsregler."
+      },
+      {
+        "heading": "Skilj avsedd användning från felhantering och missbruk",
+        "text": "Beskriv vilken händelse provningen ska motsvara och stäm av den mot modellens instruktioner för användning, golv och garanti. En kontrollerad kontroll gör inte upprepad kastning till godkänd användning.\n\nSkilj även konstruktionsvalidering från löpande produktionskontroll. Utvecklingsprovet undersöker konstruktionen, medan förstastycke och parti visar om den godkända versionen kan upprepas."
+      },
+      {
+        "heading": "Lås provfamilj och provuppställning",
+        "text": "Registrera modellkod, nominell vikt, huvudgeometri, kärna, beläggning, handtag, monteringsrevision och provhistorik. Lätta, medeltunga och tunga varianter får bara grupperas när konstruktionen ger stöd för det.\n\nDokumentera träffyta, underlag, orientering, fixtur, frigöring och kameravy. Plan yta, kant, ändyta och handtag ger olika lastvägar, så uppgiften “fallprovad” utan orientering är otillräcklig."
+      },
+      {
+        "heading": "Skapa en före- och efterjournal",
+        "text": "Före stöten fotograferas alla sidor och massa, geometri, huvudens linjering, handtag, beläggningsskarvar och märkning registreras. Märk varje prov så att vikter och revisioner inte blandas ihop.\n\nEfter varje steg kontrolleras huvud–handtagsförband, glapp, förskjutning, sprickor, deformation, släpp i beläggning, vassa kanter, stabilitet och läsbarhet. Stoppregler skrivs i förväg och osäkra prov isoleras direkt."
+      },
+      {
+        "heading": "Fatta beslut från hela underlaget",
+        "text": "Rapporten visar uppställning, ordningsföljd, orienteringar, observationer och disposition för varje prov. Ett godkänt resultat har bara betydelse mot köparens fastställda kriterier; en oskadad utsida utesluter inte intern rörelse.\n\nSälj inte provade exemplar som orörd vara. Behåll, dela, kontrollera om eller kassera enligt planen och koppla journalen till referensprovet för inköp och mottagning."
+      },
+      {
+        "heading": "För över resultatet till produktion och mottagning",
+        "text": "Koppla validerad revision till förstastycke, partiidentitet och ändringsmeddelande. Visuella, dimensionella och funktionella tecken kan användas i rutinkontroll; ändrad råvara, fog, beläggning eller geometri kräver ny bedömning.\n\nÅterförsäljare och gym behöver modellspecifika råd om hantering, golv och inspektion. Mottagningen ska känna till spärrorsaker och garantin ska motsvara avsedd användning."
+      },
+      {
+        "heading": "Underlag till en hantelfabrik",
+        "text": "Skicka produktserie, ritning eller referens, marknad, miljö, rack och golv, önskade orienteringar, kontrolljournal och beslutsansvar. ChinaFreeWeight kan granska tillverkning och bevisplan utan att hitta på en universell fallhöjd, cykelmängd eller gräns.\n\nFör OEM, ODM, Custom Logo, Private Label och Bulk Supply ska logotyp, färg, märkning och förpackning kopplas till den mekaniska revisionen. Då framgår vilket prov som validerades och vilka ändringar som behöver godkännas."
+      }
+    ],
+    "table": {
+      "heading": "Bevismatris för stötvalideringen",
+      "columns": ["Kontrollpunkt", "Före frigöring", "Beslut efter stöt"],
+      "rows": [
+        ["Providentitet", "Modell, vikt, revision, historik", "Resultat kopplat till en spårbar enhet"],
+        ["Träffsystem", "Yta, underlag, fixtur", "Uppställningen motsvarar scenariot"],
+        ["Orientering", "Kontaktyta och inriktning", "Varje orientering redovisas separat"],
+        ["Förband", "Linjering, rörelse och bilder", "Inget oacceptabelt glapp eller skada"],
+        ["Yta", "Skarvar, kanter, beläggning, märkning", "Skada klassad mot skriven regel"],
+        ["Disposition", "Stoppregel och ansvarig", "Behåll, spärra, utred eller avsluta"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tio punkter i inköpsakten",
+      "items": ["Modell, vikt och revision för varje prov", "Motiv för valda viktrepresentanter", "Träffyta och underlag", "Frigöringsmetod och orienteringsföljd", "Utgångsmått och referensbilder", "Kontrollpunkter och stoppregler", "Efterkontroll och disposition", "Koppling till referensprov och parti", "Regel för ändring och omvalidering", "Råd om hantering, golv och garanti"]
+    },
+    "faqHeading": "Frågor om stötvalidering",
+    "faq": [
+      ["Bevisar en fallfilm hållbarheten för hela serien?", "Nej. Den visar en händelse; providentitet, uppställning, orientering, observationer, kriterier och överföring till serien måste också dokumenteras."],
+      ["Ska alla vikter provas på samma sätt?", "Inte automatiskt. Massa, huvudstorlek, fog och beläggningsgeometri ändrar lastvägen. Gruppera bara med dokumenterat konstruktionsstöd."],
+      ["Varför måste träffytan anges?", "Hårt golv, elastisk platta och extra underlag ändrar kontakten. Utan beskrivning går resultaten inte att jämföra ansvarsfullt."],
+      ["När ska provningen stoppas?", "När ett förutbestämt säkerhets- eller acceptanskriterium nås, till exempel instabil rörelse, vass kant, synlig strukturskada eller osäker hantering."],
+      ["Kan ny logotyp eller färg kräva ny bedömning?", "Ja om material, geometri, skikttjocklek, härdning eller montering påverkas. En ren grafisk ändring kan begränsas till visuell kontroll om gränsen dokumenteras."]
+    ],
+    "linkHeading": "Fortsätt granska den fasta hanteln",
+    "linkLabels": ["Se gummibelagd hexhantel", "Jämför kommersiella hantlar", "Förstå huvud–handtagsförbandet", "Välj fast eller justerbar hantel", "Kontrollera beläggningens vidhäftning", "Klassificera fel på fria vikter", "Godkänn ett OEM-prov", "Skicka valideringsunderlaget"],
+    "imageAlt": "Olika träffytor för kontrollerad stötvalidering av fasta hantlar",
+    "imageCaption": "Underlagets egenskaper påverkar stöten och måste därför identifieras i varje inköpsprotokoll.",
+    "cta": ["Gör kravet till en granskningsbar plan", "Skicka serie, konstruktionsrevision, användningsmiljö och önskade belägg. Vi samordnar tillverkning, prov och seriekontroll före inköpsbeslutet.", "Diskutera ert hantelprogram"]
+  },
+  {
+    "locale": "it",
+    "path": "/it/blog/validazione-urto-manubri-fissi",
+    "title": "Validazione d’urto dei manubri fissi per l’acquisto B2B",
+    "description": "Definisci la validazione d’urto dei manubri fissi con campioni tracciabili, superficie, orientamento, controlli prima e dopo, arresto e gestione modifiche.",
+    "h1": "Come specificare la validazione d’urto di un manubrio fisso",
+    "keyword": "validazione urto manubrio fisso",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Acquisto e validazione di manubri fissi",
+    "sections": [
+      {
+        "heading": "Risposta diretta per buyer e palestre",
+        "text": "Una validazione utile stabilisce modello, stato del campione, superficie, metodo di rilascio, orientamento e punti di controllo prima del primo urto. Deve produrre evidenze confrontabili, non un video spettacolare o il permesso di lasciar cadere il manubrio senza limiti.\n\nCollegate il piano alla costruzione approvata e chiedete cosa avviene quando cambiano testa, impugnatura, rivestimento o marcatura. Un campione non rappresenta tutta la gamma senza una logica di famiglia e regole di modifica."
+      },
+      {
+        "heading": "Separare uso previsto, gestione prevedibile e abuso",
+        "text": "Il capitolato dichiara quale evento viene simulato e resta coerente con le istruzioni di uso, pavimento e garanzia del modello. Una prova controllata non rende accettabili lanci o cadute ripetute.\n\nSeparate anche validazione del progetto e controllo di produzione. La prima esplora la costruzione; primo pezzo e lotto confermano la ripetibilità della versione approvata. Obiettivo e decisione sono diversi."
+      },
+      {
+        "heading": "Bloccare famiglia campioni e configurazione",
+        "text": "Registrate codice, peso nominale, geometria, nucleo, rivestimento, impugnatura, revisione di montaggio e storia del campione. Pesi leggeri, medi e pesanti si raggruppano solo quando la costruzione lo giustifica.\n\nDescrivete superficie e sottofondo, orientamento, attrezzatura, rilascio e ripresa. Faccia, bordo, estremità e impugnatura generano percorsi di carico diversi; “testato alla caduta” senza orientamento è incompleto."
+      },
+      {
+        "heading": "Creare il verbale prima e dopo l’urto",
+        "text": "Prima dell’urto fotografate ogni lato e registrate massa, geometria, allineamento, impugnatura, giunzioni e marcature. Identificate ogni pezzo per non confondere pesi e revisioni.\n\nDopo ogni fase controllate collegamento testa-impugnatura, gioco, spostamento, crepe, deformazione, distacco, spigoli, stabilità e leggibilità. I criteri di arresto si scrivono prima; il campione non sicuro viene isolato."
+      },
+      {
+        "heading": "Decidere sull’intero fascicolo",
+        "text": "Il rapporto mostra configurazione, sequenza, orientamenti, osservazioni e destinazione di ciascun campione. Un esito positivo vale solo rispetto ai criteri accettati dal buyer; l’assenza di danni esterni non esclude movimenti interni.\n\nNon rimettete i campioni provati in vendita come merce integra. Conservazione, sezione, ricontrollo o smaltimento seguono il piano e restano collegati al campione approvato."
+      },
+      {
+        "heading": "Portare il risultato in produzione e ricevimento",
+        "text": "Collegate la revisione validata a primo pezzo, identità del lotto e comunicazione delle modifiche. I controlli ordinari possono usare indicatori visivi, dimensionali e funzionali; variazioni di materiale, giunzione, rivestimento o geometria richiedono riesame.\n\nDistributori e palestre necessitano di istruzioni specifiche per gestione, pavimento e ispezione. Il ricevimento deve conoscere i motivi di isolamento e la garanzia deve riflettere l’uso previsto."
+      },
+      {
+        "heading": "Brief per una fabbrica di manubri",
+        "text": "Inviate gamma, disegno o riferimento, mercato, ambiente, rack e pavimento, orientamenti richiesti, scheda di controllo e responsabilità di accettazione. ChinaFreeWeight può verificare la producibilità e organizzare le evidenze senza inventare altezza, numero di cicli o soglia universale.\n\nPer OEM, ODM, Custom Logo, Private Label e Bulk Supply, collegate logo, colore, marcatura e imballo alla revisione meccanica. Così la personalizzazione non nasconde il campione validato né le modifiche da approvare."
+      }
+    ],
+    "table": {
+      "heading": "Matrice delle evidenze per il piano d’urto",
+      "columns": ["Controllo", "Prima del rilascio", "Decisione dopo l’urto"],
+      "rows": [
+        ["Identità", "Modello, peso, revisione, storia", "Risultato legato a un pezzo tracciabile"],
+        ["Sistema di contatto", "Superficie, sottofondo, attrezzatura", "Configurazione conforme allo scenario"],
+        ["Orientamento", "Faccia e allineamento", "Ogni orientamento valutato separatamente"],
+        ["Giunzione", "Allineamento, movimento, immagini", "Nessun gioco o danno inaccettabile"],
+        ["Superficie", "Giunti, spigoli, rivestimento, marcatura", "Danno classificato con regola scritta"],
+        ["Destinazione", "Arresto e responsabile", "Conservare, isolare, indagare o chiudere"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dieci elementi nel fascicolo acquisti",
+      "items": ["Modello, peso e revisione di ogni campione", "Motivo dei pesi rappresentativi", "Superficie e sottofondo", "Rilascio e sequenza degli orientamenti", "Misure e fotografie iniziali", "Osservazioni e criteri di arresto", "Controllo finale e destinazione", "Collegamento a campione e lotto", "Regola di modifica e nuova validazione", "Istruzioni per gestione, pavimento e garanzia"]
+    },
+    "faqHeading": "Domande sulla validazione d’urto",
+    "faq": [
+      ["Un video di caduta prova la durata dell’intera gamma?", "No. Documenta un evento; servono identità, configurazione, orientamento, osservazioni, criteri e motivazione per estendere il risultato."],
+      ["Tutti i pesi vanno provati allo stesso modo?", "Non automaticamente. Massa, dimensione della testa, giunzione e geometria cambiano il carico. Il raggruppamento richiede una motivazione tecnica."],
+      ["Perché registrare la superficie?", "Pavimento rigido, piastra resiliente e sottofondo aggiuntivo cambiano il contatto. Senza descrizione i risultati non sono confrontabili."],
+      ["Quando si deve fermare la prova?", "Quando si raggiunge un criterio scritto di sicurezza o accettazione, come movimento instabile, spigolo vivo, danno strutturale o gestione non sicura."],
+      ["Logo o colore personalizzati possono richiedere un nuovo riesame?", "Sì, se cambiano materiale, geometria, spessore, indurimento o montaggio. Una variazione solo grafica può restare visiva se il confine è documentato."]
+    ],
+    "linkHeading": "Proseguire la verifica del manubrio fisso",
+    "linkLabels": ["Vedere il manubrio esagonale in gomma", "Confrontare manubri professionali", "Capire il collegamento testa-impugnatura", "Scegliere fisso o regolabile", "Controllare l’adesione del rivestimento", "Classificare i difetti dei pesi liberi", "Approvare un campione OEM", "Inviare il brief di validazione"],
+    "imageAlt": "Ispezione ravvicinata di un manubrio fisso dopo un urto controllato",
+    "imageCaption": "Un esame coerente di giunzione, spigoli e rivestimento rende confrontabili i risultati tra campioni.",
+    "cta": ["Creare un piano verificabile", "Condividete gamma, revisione, contesto d’uso ed evidenze richieste. Allineiamo produzione, campioni e controlli prima della decisione.", "Parlare del programma manubri"]
+  },
+  {
+    "locale": "nl",
+    "path": "/nl/blog/impactvalidatie-vaste-halters",
+    "title": "Impactvalidatie van vaste halters voor professionele inkoop",
+    "description": "Stel impactvalidatie voor vaste halters op met traceerbare monsters, ondergrond, oriëntatie, controle voor en na, stopregels en wijzigingsbeheer.",
+    "h1": "Zo specificeert u impactvalidatie voor vaste halters",
+    "keyword": "impactvalidatie vaste halter",
+    "home": "Home",
+    "library": "Blog",
+    "eyebrow": "Inkoop en validatie van vaste halters",
+    "sections": [
+      {
+        "heading": "Het korte antwoord voor de inkoper",
+        "text": "Een bruikbaar plan legt model, toestand van het monster, contactvlak, vrijgavemethode, oriëntatie en controlepunten vast vóór de eerste impact. Het levert vergelijkbaar bewijs op, geen spectaculaire video of algemene toestemming om een halter onbeperkt te laten vallen.\n\nKoppel het plan aan de goedgekeurde constructie en leg vast wat er gebeurt bij wijziging van kop, greep, coating of markering. Eén monster vertegenwoordigt geen hele gewichtsreeks zonder onderbouwde familielogica en wijzigingsregels."
+      },
+      {
+        "heading": "Scheid bedoeld gebruik, voorzienbaar verkeerd gebruik en misbruik",
+        "text": "Beschrijf welke gebeurtenis de proef voorstelt en laat deze aansluiten op instructies voor gebruik, vloer en garantie van het model. Een gecontroleerde beoordeling maakt herhaald gooien niet tot normaal gebruik.\n\nScheid ook ontwerpvalidatie van routinecontrole. Ontwikkeling onderzoekt de constructie; eerste stuk en partij bevestigen dat de goedgekeurde versie reproduceerbaar blijft. Beide hebben een eigen doel en beslissing."
+      },
+      {
+        "heading": "Leg monsterfamilie en opstelling vast",
+        "text": "Registreer modelcode, nominaal gewicht, geometrie, kern, coating, greep, assemblagerevisie en voorgeschiedenis. Groepeer lichte, middelzware en zware varianten alleen wanneer de constructie dat aantoonbaar ondersteunt.\n\nNoteer contactvlak, onderlaag, oriëntatie, hulpstuk, vrijgave en camerastandpunt. Vlak, rand, kopse zijde en greep geven verschillende belastingen; “valgetest” zonder oriëntatie is dus onvolledig."
+      },
+      {
+        "heading": "Maak een dossier voor en na de impact",
+        "text": "Fotografeer vooraf alle zijden en leg massa, geometrie, kopuitlijning, greep, coatingnaden en markeringen vast. Geef elk monster een unieke code zodat gewichten en revisies niet worden verwisseld.\n\nControleer na elke stap de kop-greepverbinding, speling, verschuiving, scheuren, vervorming, loslating, scherpe randen, stabiliteit en leesbaarheid. Stopregels staan vooraf vast; onveilige monsters gaan direct in quarantaine."
+      },
+      {
+        "heading": "Beslis op basis van het volledige bewijs",
+        "text": "Het verslag toont opstelling, volgorde, oriëntaties, waarnemingen en bestemming van elk monster. Een goedkeuringslabel heeft alleen betekenis tegenover overeengekomen criteria; geen zichtbare schade sluit interne beweging niet uit.\n\nBreng beproefde monsters niet als onaangeroerde voorraad terug in verkoop. Bewaren, doorsnijden, hercontroleren of afvoeren volgt het plan en blijft gekoppeld aan het goedgekeurde referentiemonster."
+      },
+      {
+        "heading": "Vertaal het resultaat naar productie en ontvangst",
+        "text": "Koppel de gevalideerde revisie aan eerste stuk, partij-ID en wijzigingsmelding. Visuele, maat- en functie-indicatoren kunnen naar routinecontrole; een wijziging in materiaal, verbinding, coating of geometrie vraagt herbeoordeling.\n\nDistributeurs en sportscholen hebben modelspecifieke instructies nodig voor handling, vloer en inspectie. Ontvangst moet blokkadegronden kennen en de garantie moet passen bij bedoeld gebruik."
+      },
+      {
+        "heading": "Briefing voor een halterfabriek",
+        "text": "Stuur productreeks, tekening of referentie, markt, omgeving, rek en vloer, gewenste oriëntaties, inspectieformulier en acceptatieverantwoordelijke. ChinaFreeWeight kan maakbaarheid en bewijsplan beoordelen zonder universele valhoogte, cycli of grens te verzinnen.\n\nBij OEM, ODM, Custom Logo, Private Label en Bulk Supply legt u logo, kleur, markering en verpakking naast de mechanische revisie vast. Zo blijft duidelijk welk monster is gevalideerd en welke wijziging goedkeuring vereist."
+      }
+    ],
+    "table": {
+      "heading": "Bewijsmatrix voor impactvalidatie",
+      "columns": ["Controlepunt", "Voor vrijgave", "Besluit na impact"],
+      "rows": [
+        ["Identiteit", "Model, gewicht, revisie, geschiedenis", "Resultaat blijft aan één monster gekoppeld"],
+        ["Contactsysteem", "Vlak, onderlaag, hulpstuk", "Opstelling past bij het scenario"],
+        ["Oriëntatie", "Contactzijde en uitlijning", "Elke oriëntatie apart beoordeeld"],
+        ["Verbinding", "Uitlijning, beweging en beelden", "Geen onaanvaardbare speling of schade"],
+        ["Oppervlak", "Naden, randen, coating, markering", "Schade volgens geschreven regel ingedeeld"],
+        ["Bestemming", "Stopregels en beoordelaar", "Bewaren, blokkeren, onderzoeken of sluiten"]
+      ]
+    },
+    "checklist": {
+      "heading": "Tien punten voor het inkoopdossier",
+      "items": ["Model, gewicht en revisie per monster", "Motivering van de gekozen gewichten", "Contactvlak en onderlaag", "Vrijgavemethode en oriëntatievolgorde", "Beginmetingen en referentiefoto’s", "Controlepunten en stopregels", "Eindcontrole en bestemming", "Koppeling met referentie en partij", "Regel voor wijziging en hervalidatie", "Instructies voor handling, vloer en garantie"]
+    },
+    "faqHeading": "Vragen over impactvalidatie",
+    "faq": [
+      ["Bewijst één valvideo de duurzaamheid van de hele reeks?", "Nee. De video legt één gebeurtenis vast; identiteit, opstelling, oriëntatie, waarnemingen, criteria en overdracht naar de reeks zijn ook nodig."],
+      ["Moeten alle gewichten hetzelfde worden beproefd?", "Niet automatisch. Massa, kopmaat, verbinding en coatinggeometrie veranderen het belastingspad. Groepeer alleen met een vastgelegde technische reden."],
+      ["Waarom moet het contactvlak worden vermeld?", "Een harde vloer, veerkrachtige tegel en extra onderlaag veranderen het contact. Zonder beschrijving zijn resultaten niet verantwoord vergelijkbaar."],
+      ["Wanneer moet de proef stoppen?", "Bij een vooraf vastgelegd veiligheids- of acceptatiepunt, zoals instabiele beweging, scherpe rand, zichtbare constructieschade of onveilige handling."],
+      ["Kan een ander logo of kleur een nieuwe beoordeling vragen?", "Ja wanneer materiaal, geometrie, laagdikte, uitharding of montage verandert. Een puur grafische wijziging kan visueel blijven als de grens is vastgelegd."]
+    ],
+    "linkHeading": "Ga verder met de beoordeling van vaste halters",
+    "linkLabels": ["Bekijk de rubberen hexhalter", "Vergelijk professionele halters", "Begrijp de kop-greepverbinding", "Kies vast of verstelbaar", "Controleer coatinghechting", "Classificeer gebreken aan vrije gewichten", "Keur een OEM-monster goed", "Stuur de validatiebriefing"],
+    "imageAlt": "Traceerbaar vast haltermonster in een gecontroleerde impactopstelling",
+    "imageCaption": "Een unieke monster-ID verbindt de opstelling, waarnemingen en uiteindelijke beslissing met dezelfde constructierevisie.",
+    "cta": ["Maak een toetsbaar validatieplan", "Deel reeks, constructierevisie, gebruikssituatie en vereiste bewijsstukken. Wij stemmen productie, monster en seriecontrole af vóór de inkoopbeslissing.", "Bespreek uw halterprogramma"]
+  },
+  {
+    "locale": "pl",
+    "path": "/pl/blog/walidacja-udaru-hantli-stalych",
+    "title": "Walidacja udaru hantli stałych w zakupach profesjonalnych",
+    "description": "Opracuj walidację udaru hantli stałych: identyfikacja próbek, podłoże, orientacja, kontrola przed i po, warunki przerwania oraz nadzór zmian.",
+    "h1": "Jak określić walidację udaru dla hantli stałych",
+    "keyword": "walidacja udaru hantli stałych",
+    "home": "Strona główna",
+    "library": "Blog",
+    "eyebrow": "Zakup i walidacja hantli stałych",
+    "sections": [
+      {
+        "heading": "Krótka odpowiedź dla kupującego",
+        "text": "Użyteczny plan określa model, stan próbki, powierzchnię kontaktu, sposób zwolnienia, orientację i punkty kontroli przed pierwszym uderzeniem. Ma dać porównywalne dowody, a nie efektowny film ani ogólną zgodę na nieograniczone rzucanie hantlą.\n\nPowiąż plan z zatwierdzoną konstrukcją i wymagaj oceny zmian głowicy, uchwytu, powłoki lub oznaczeń. Jedna próbka nie reprezentuje całej serii bez uzasadnionej rodziny konstrukcyjnej i zasad zmian."
+      },
+      {
+        "heading": "Rozdzielić użycie zamierzone, przewidywalne i nadużycie",
+        "text": "Specyfikacja wskazuje, jakie zdarzenie odwzorowuje próba, oraz pozostaje zgodna z instrukcją użytkowania, podłoża i gwarancji danego modelu. Kontrolowana weryfikacja nie oznacza zgody na wielokrotne rzucanie.\n\nOddziel walidację konstrukcji od rutynowej kontroli produkcji. Próba rozwojowa bada konstrukcję, a pierwsza sztuka i partia potwierdzają powtarzalność zatwierdzonej wersji."
+      },
+      {
+        "heading": "Ustalić rodzinę próbek i stanowisko",
+        "text": "Zapisz kod, masę nominalną, geometrię, rdzeń, powłokę, uchwyt, rewizję montażu i historię próbki. Warianty lekkie, średnie i ciężkie grupuj tylko wtedy, gdy konstrukcja to uzasadnia.\n\nOpisz powierzchnię, warstwę pod nią, orientację, przyrząd, zwolnienie i widok kamery. Kontakt płaski, krawędziowy, czołowy i przez uchwyt daje różne obciążenia; określenie „po próbie upadku” bez orientacji jest niepełne."
+      },
+      {
+        "heading": "Prowadzić zapis stanu przed i po",
+        "text": "Przed uderzeniem sfotografuj wszystkie strony i zapisz masę, geometrię, ustawienie głowic, stan uchwytu, łączenia powłoki oraz oznaczenia. Każda próbka potrzebuje unikalnej identyfikacji.\n\nPo każdym etapie sprawdź połączenie głowica–uchwyt, luz, przesunięcie, pęknięcia, odkształcenie, odspojenie, ostre krawędzie, stabilność i czytelność. Kryteria przerwania ustala się wcześniej, a niebezpieczną próbkę izoluje."
+      },
+      {
+        "heading": "Decyzję oprzeć na pełnym materiale",
+        "text": "Raport pokazuje stanowisko, kolejność, orientacje, obserwacje i dalsze postępowanie z każdą próbką. Wynik pozytywny ma znaczenie tylko wobec uzgodnionych kryteriów; brak widocznych szkód nie wyklucza ruchu wewnętrznego.\n\nNie wprowadzaj badanych sztuk do sprzedaży jako nietkniętych. Zachowanie, przekrój, ponowna kontrola lub utylizacja wynikają z planu i pozostają połączone z próbką wzorcową."
+      },
+      {
+        "heading": "Przenieść wynik do produkcji i odbioru",
+        "text": "Połącz zatwierdzoną rewizję z pierwszą sztuką, identyfikatorem partii i zgłoszeniem zmiany. Wskaźniki wizualne, wymiarowe i funkcjonalne mogą wejść do rutynowej kontroli; zmiana materiału, połączenia, powłoki lub geometrii wymaga oceny.\n\nDystrybutorzy i siłownie potrzebują instrukcji dla modelu dotyczących obsługi, podłoża i oględzin. Odbiór musi znać powody blokady, a gwarancja odpowiadać użyciu zamierzonemu."
+      },
+      {
+        "heading": "Dane dla fabryki hantli",
+        "text": "Przekaż serię, rysunek lub wzorzec, rynek, środowisko, stojak i podłoże, wymagane orientacje, kartę kontroli i odpowiedzialność za akceptację. ChinaFreeWeight może ocenić wykonalność i plan dowodów bez wymyślania uniwersalnej wysokości, liczby cykli lub progu.\n\nW programach OEM, ODM, Custom Logo, Private Label i Bulk Supply logo, kolor, oznaczenie i opakowanie należy związać z rewizją mechaniczną. Dzięki temu wiadomo, którą próbkę zatwierdzono i jaka zmiana wymaga akceptacji."
+      }
+    ],
+    "table": {
+      "heading": "Macierz dowodów dla planu udaru",
+      "columns": ["Punkt kontroli", "Zapis przed", "Decyzja po"],
+      "rows": [
+        ["Identyfikacja", "Model, masa, rewizja, historia", "Wynik związany z jedną próbką"],
+        ["Układ kontaktu", "Powierzchnia, podłoże, przyrząd", "Stanowisko zgodne ze scenariuszem"],
+        ["Orientacja", "Strona kontaktu i ustawienie", "Każda orientacja oceniona osobno"],
+        ["Połączenie", "Ustawienie, ruch i zdjęcia", "Brak niedopuszczalnego luzu lub szkody"],
+        ["Powierzchnia", "Łączenia, krawędzie, powłoka, oznaczenia", "Szkoda sklasyfikowana według reguły"],
+        ["Postępowanie", "Przerwanie i odpowiedzialny", "Zachować, zablokować, zbadać lub zamknąć"]
+      ]
+    },
+    "checklist": {
+      "heading": "Dziesięć pozycji w dokumentacji zakupu",
+      "items": ["Model, masa i rewizja każdej próbki", "Uzasadnienie wybranych wariantów", "Powierzchnia i podłoże", "Zwolnienie i kolejność orientacji", "Pomiary i zdjęcia początkowe", "Punkty obserwacji i warunki przerwania", "Kontrola końcowa i postępowanie", "Powiązanie z wzorcem i partią", "Zasada zmian i ponownej walidacji", "Instrukcje obsługi, podłoża i gwarancji"]
+    },
+    "faqHeading": "Pytania o walidację udaru",
+    "faq": [
+      ["Czy film z upadku dowodzi trwałości całej serii?", "Nie. Pokazuje jedno zdarzenie; potrzebne są też identyfikacja, stanowisko, orientacja, obserwacje, kryteria i uzasadnienie przeniesienia wyniku."],
+      ["Czy wszystkie masy bada się tak samo?", "Nie automatycznie. Masa, rozmiar głowicy, połączenie i geometria powłoki zmieniają obciążenie. Grupowanie wymaga technicznego uzasadnienia."],
+      ["Dlaczego trzeba zapisać powierzchnię kontaktu?", "Twarda posadzka, elastyczna płyta i dodatkowa warstwa zmieniają kontakt. Bez opisu wyników nie można odpowiedzialnie porównać."],
+      ["Kiedy przerwać próbę?", "Po osiągnięciu wcześniej ustalonego warunku bezpieczeństwa lub akceptacji, na przykład niestabilnego ruchu, ostrej krawędzi, uszkodzenia konstrukcji lub ryzyka obsługi."],
+      ["Czy zmiana logo lub koloru wymaga ponownej oceny?", "Tak, jeśli wpływa na materiał, geometrię, grubość warstwy, utwardzanie lub montaż. Zmiana wyłącznie graficzna może pozostać kontrolą wizualną, jeśli granica jest zapisana."]
+    ],
+    "linkHeading": "Kontynuuj ocenę hantli stałych",
+    "linkLabels": ["Zobacz gumową hantlę hex", "Porównaj hantle profesjonalne", "Poznaj połączenie głowicy z uchwytem", "Wybierz stałe lub regulowane", "Sprawdź przyczepność powłoki", "Klasyfikuj wady wolnych ciężarów", "Zatwierdź próbkę OEM", "Wyślij plan walidacji"],
+    "imageAlt": "Porównanie badanej hantli stałej z zachowaną próbką referencyjną",
+    "imageCaption": "Próbka referencyjna pomaga porównać ustawienie, powierzchnię i oznaczenia po kontrolowanym zdarzeniu.",
+    "cta": ["Zbuduj plan możliwy do przeglądu", "Prześlij serię, rewizję konstrukcji, warunki użycia i wymagane dowody. Uzgodnimy produkcję, próbki i kontrole przed decyzją zakupową.", "Omów program hantli"]
+  }
+]

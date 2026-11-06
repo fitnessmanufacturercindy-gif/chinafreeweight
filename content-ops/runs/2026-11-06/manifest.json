@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-06",
+  "startedAt": "2026-11-06T08:19:14.450Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-11-06-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-en-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/resources/fixed-dumbbell-impact-validation-guide",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-pt-BR-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/pt/blog/validacao-impacto-halter-fixo-compras",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-es-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/es/blog/validacion-impacto-mancuernas-fijas",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-de-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/de/blog/feste-kurzhanteln-fallpruefung-pruefplan",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-fr-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/fr/blog/validation-impact-halteres-fixes",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-vi-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/vi/blog/xac-minh-va-dap-ta-tay-co-dinh",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-sv-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/sv/blogg/slagprov-fasta-hantlar-inkop",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-it-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/it/blog/validazione-urto-manubri-fissi",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-nl-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/nl/blog/impactvalidatie-vaste-halters",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-ar-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/ar/blog/tahqiq-sadma-dumbbell-thabit",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-ko-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/ko/blog/fixed-dumbbell-impact-validation",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-id-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/id/blog/validasi-benturan-dumbbell-tetap",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-06-chinafreeweight-pl-fixed-dumbbell-impact-validation",
+      "entityId": "fixed-dumbbell-impact-validation-guide",
+      "publicPath": "/pl/blog/walidacja-udaru-hantli-stalych",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-06-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    }
+  ],
+  "status": "prepared",
+  "preparedAt": "2026-11-06T09:00:57.331Z"
+}

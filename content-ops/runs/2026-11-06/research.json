@@ -1,0 +1,1467 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-06",
+  "status": "complete",
+  "selectedTopic": "Controlled impact-validation planning for fixed dumbbells",
+  "selectionReason": "A purchase-intent gap with no dedicated live owner. The guide separates specimen family, landing surface, orientation, before-and-after evidence, stop conditions and production change control from existing joint, coating, product-format and sample-approval pages.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "fixed dumbbell impact test specification: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "fixed dumbbell impact test specification: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "fixed dumbbell impact test specification: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "fixed dumbbell impact test specification: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "fixed dumbbell impact test specification: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "fixed dumbbell impact test specification: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "fixed dumbbell impact test specification: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "fixed dumbbell impact test specification: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "fixed dumbbell impact test specification: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "fixed dumbbell impact test specification: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "fixed dumbbell impact test specification: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "fixed dumbbell impact test specification: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "fixed dumbbell impact test specification: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "fixed dumbbell impact test specification: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "fixed dumbbell impact test specification: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "validação de impacto de halter fixo: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "validação de impacto de halter fixo: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "validação de impacto de halter fixo: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "validação de impacto de halter fixo: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "validação de impacto de halter fixo: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "validação de impacto de halter fixo: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "validação de impacto de halter fixo: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "validação de impacto de halter fixo: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "validação de impacto de halter fixo: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "validação de impacto de halter fixo: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "validação de impacto de halter fixo: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "validação de impacto de halter fixo: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "validação de impacto de halter fixo: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "validação de impacto de halter fixo: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "validação de impacto de halter fixo: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "validación de impacto de mancuerna fija: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "validación de impacto de mancuerna fija: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "validación de impacto de mancuerna fija: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "validación de impacto de mancuerna fija: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "validación de impacto de mancuerna fija: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "validación de impacto de mancuerna fija: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "validación de impacto de mancuerna fija: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "validación de impacto de mancuerna fija: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "validación de impacto de mancuerna fija: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "validación de impacto de mancuerna fija: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "validación de impacto de mancuerna fija: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "validación de impacto de mancuerna fija: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "validación de impacto de mancuerna fija: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "validación de impacto de mancuerna fija: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "validación de impacto de mancuerna fija: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Fallprüfung feste Kurzhantel Prüfplan: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "validation impact haltère fixe: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "validation impact haltère fixe: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "validation impact haltère fixe: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "validation impact haltère fixe: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "validation impact haltère fixe: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "validation impact haltère fixe: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "validation impact haltère fixe: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "validation impact haltère fixe: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "validation impact haltère fixe: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "validation impact haltère fixe: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "validation impact haltère fixe: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "validation impact haltère fixe: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "validation impact haltère fixe: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "validation impact haltère fixe: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "validation impact haltère fixe: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "stötprov fast hantel inköp: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "stötprov fast hantel inköp: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "stötprov fast hantel inköp: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "stötprov fast hantel inköp: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "stötprov fast hantel inköp: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "stötprov fast hantel inköp: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "stötprov fast hantel inköp: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "stötprov fast hantel inköp: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "stötprov fast hantel inköp: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "stötprov fast hantel inköp: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "stötprov fast hantel inköp: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "stötprov fast hantel inköp: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "stötprov fast hantel inköp: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "stötprov fast hantel inköp: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "stötprov fast hantel inköp: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "validazione urto manubrio fisso: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "validazione urto manubrio fisso: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "validazione urto manubrio fisso: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "validazione urto manubrio fisso: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "validazione urto manubrio fisso: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "validazione urto manubrio fisso: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "validazione urto manubrio fisso: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "validazione urto manubrio fisso: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "validazione urto manubrio fisso: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "validazione urto manubrio fisso: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "validazione urto manubrio fisso: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "validazione urto manubrio fisso: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "validazione urto manubrio fisso: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "validazione urto manubrio fisso: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "validazione urto manubrio fisso: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "impactvalidatie vaste halter: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "impactvalidatie vaste halter: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "impactvalidatie vaste halter: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "impactvalidatie vaste halter: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "impactvalidatie vaste halter: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "impactvalidatie vaste halter: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "impactvalidatie vaste halter: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "impactvalidatie vaste halter: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "impactvalidatie vaste halter: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "impactvalidatie vaste halter: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "impactvalidatie vaste halter: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "impactvalidatie vaste halter: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "impactvalidatie vaste halter: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "impactvalidatie vaste halter: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "impactvalidatie vaste halter: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "walidacja udaru hantli stałych: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "walidacja udaru hantli stałych: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "walidacja udaru hantli stałych: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "walidacja udaru hantli stałych: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "walidacja udaru hantli stałych: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "walidacja udaru hantli stałych: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "walidacja udaru hantli stałych: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "walidacja udaru hantli stałych: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "walidacja udaru hantli stałych: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "walidacja udaru hantli stałych: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "walidacja udaru hantli stałych: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "walidacja udaru hantli stałych: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "walidacja udaru hantli stałych: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "walidacja udaru hantli stałych: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "walidacja udaru hantli stałych: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "xác minh va đập tạ tay cố định: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "xác minh va đập tạ tay cố định: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "xác minh va đập tạ tay cố định: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "xác minh va đập tạ tay cố định: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "xác minh va đập tạ tay cố định: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "xác minh va đập tạ tay cố định: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "xác minh va đập tạ tay cố định: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "xác minh va đập tạ tay cố định: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "xác minh va đập tạ tay cố định: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "xác minh va đập tạ tay cố định: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "xác minh va đập tạ tay cố định: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "xác minh va đập tạ tay cố định: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "xác minh va đập tạ tay cố định: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "xác minh va đập tạ tay cố định: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "xác minh va đập tạ tay cố định: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "التحقق من صدمات الدمبل الثابت: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "التحقق من صدمات الدمبل الثابت: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "التحقق من صدمات الدمبل الثابت: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "التحقق من صدمات الدمبل الثابت: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "التحقق من صدمات الدمبل الثابت: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "التحقق من صدمات الدمبل الثابت: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "التحقق من صدمات الدمبل الثابت: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "التحقق من صدمات الدمبل الثابت: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "التحقق من صدمات الدمبل الثابت: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "التحقق من صدمات الدمبل الثابت: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "التحقق من صدمات الدمبل الثابت: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "التحقق من صدمات الدمبل الثابت: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "التحقق من صدمات الدمبل الثابت: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "التحقق من صدمات الدمبل الثابت: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "التحقق من صدمات الدمبل الثابت: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "고정식 덤벨 충격 검증 사양: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "고정식 덤벨 충격 검증 사양: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "고정식 덤벨 충격 검증 사양: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "고정식 덤벨 충격 검증 사양: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "고정식 덤벨 충격 검증 사양: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "고정식 덤벨 충격 검증 사양: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "고정식 덤벨 충격 검증 사양: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "고정식 덤벨 충격 검증 사양: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "고정식 덤벨 충격 검증 사양: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "고정식 덤벨 충격 검증 사양: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "고정식 덤벨 충격 검증 사양: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "고정식 덤벨 충격 검증 사양: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "고정식 덤벨 충격 검증 사양: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "고정식 덤벨 충격 검증 사양: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "고정식 덤벨 충격 검증 사양: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "validasi benturan dumbbell tetap: sample-family selection",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "validasi benturan dumbbell tetap: flat-versus-edge orientation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "validasi benturan dumbbell tetap: landing-surface definition",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "validasi benturan dumbbell tetap: release-fixture control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "validasi benturan dumbbell tetap: pre-impact measurement record",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "validasi benturan dumbbell tetap: head-handle post-impact check",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "validasi benturan dumbbell tetap: coating and sharp-edge inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "validasi benturan dumbbell tetap: stop and quarantine conditions",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "validasi benturan dumbbell tetap: validated-sample disposition",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "validasi benturan dumbbell tetap: first-piece linkage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "validasi benturan dumbbell tetap: lot traceability",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "validasi benturan dumbbell tetap: engineering-change review",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "validasi benturan dumbbell tetap: warranty and handling boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "validasi benturan dumbbell tetap: private-label revision control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "validasi benturan dumbbell tetap: RFQ evidence matrix",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "fixed dumbbell impact test specification",
+      "questions": [
+        "Does one drop video prove that a fixed dumbbell range is durable?",
+        "Should every dumbbell weight be tested the same way?",
+        "Why record the landing surface?",
+        "What should stop an impact trial?",
+        "Can a custom logo or color change require another review?"
+      ],
+      "evidence": [
+        "Uses the buyer phrase fixed dumbbell impact test while reframing it as a controlled evidence plan.",
+        "Separates orientation, surface and model instructions from a generic drop-proof claim."
+      ],
+      "path": "/resources/fixed-dumbbell-impact-validation-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "validação de impacto de halter fixo",
+      "questions": [
+        "Um vídeo de queda comprova a durabilidade da linha?",
+        "Todos os pesos devem receber o mesmo teste?",
+        "Por que registrar o piso?",
+        "Quando o ensaio deve parar?",
+        "Logo ou cor personalizados exigem nova análise?"
+      ],
+      "evidence": [
+        "Uses halter fixo, validação de impacto, academia, lote and recebimento in Brazilian procurement context.",
+        "Treats the floor and quarantine record as buyer controls, not marketing claims."
+      ],
+      "path": "/pt/blog/validacao-impacto-halter-fixo-compras"
+    },
+    "es": {
+      "targetKeyword": "validación de impacto de mancuerna fija",
+      "questions": [
+        "¿Un vídeo de caída demuestra la durabilidad de toda la gama?",
+        "¿Hay que probar todos los pesos de la misma forma?",
+        "¿Por qué debe constar el suelo?",
+        "¿Qué condición debe detener la prueba?",
+        "¿Un logo o color especial puede exigir otra revisión?"
+      ],
+      "evidence": [
+        "Uses mancuerna fija, validación de impacto, importador and gimnasio comercial.",
+        "Structures the decision around an expediente, sample family and reception."
+      ],
+      "path": "/es/blog/validacion-impacto-mancuernas-fijas"
+    },
+    "de": {
+      "targetKeyword": "Fallprüfung feste Kurzhantel Prüfplan",
+      "questions": [
+        "Beweist ein Fallvideo die Haltbarkeit einer ganzen Baureihe?",
+        "Müssen alle Gewichte gleich geprüft werden?",
+        "Warum ist die Aufprallfläche wichtig?",
+        "Wann wird die Prüfung abgebrochen?",
+        "Kann eine Logo- oder Farbänderung eine Neubewertung auslösen?"
+      ],
+      "evidence": [
+        "Uses Fallprüfung, Stoßvalidierung, Prüfplan and Einkaufsakte.",
+        "Emphasizes revision status, Erstmuster and Wareneingang."
+      ],
+      "path": "/de/blog/feste-kurzhanteln-fallpruefung-pruefplan"
+    },
+    "fr": {
+      "targetKeyword": "validation impact haltère fixe",
+      "questions": [
+        "Une vidéo de chute prouve-t-elle la durabilité de la gamme ?",
+        "Faut-il tester tous les poids de la même façon ?",
+        "Pourquoi consigner la surface de réception ?",
+        "Quand faut-il arrêter l’essai ?",
+        "Un logo ou une couleur peut-il imposer une nouvelle revue ?"
+      ],
+      "evidence": [
+        "Uses haltère fixe, validation d’impact, cahier des charges and réception.",
+        "Emphasizes a complete dossier and model-specific instructions."
+      ],
+      "path": "/fr/blog/validation-impact-halteres-fixes"
+    },
+    "sv": {
+      "targetKeyword": "stötprov fast hantel inköp",
+      "questions": [
+        "Bevisar en fallfilm hållbarheten för hela serien?",
+        "Ska alla vikter provas på samma sätt?",
+        "Varför måste träffytan anges?",
+        "När ska provningen stoppas?",
+        "Kan ny logotyp eller färg kräva ny bedömning?"
+      ],
+      "evidence": [
+        "Uses fast hantel, stötprov, inköpsakt and mottagning.",
+        "Treats the landing surface as a documented test variable."
+      ],
+      "path": "/sv/blogg/slagprov-fasta-hantlar-inkop"
+    },
+    "it": {
+      "targetKeyword": "validazione urto manubrio fisso",
+      "questions": [
+        "Un video di caduta prova la durata dell’intera gamma?",
+        "Tutti i pesi vanno provati allo stesso modo?",
+        "Perché registrare la superficie?",
+        "Quando si deve fermare la prova?",
+        "Logo o colore personalizzati possono richiedere un nuovo riesame?"
+      ],
+      "evidence": [
+        "Uses manubrio fisso, validazione d’urto, buyer and ricevimento.",
+        "Frames the output as a traceable fascicolo rather than a promotional clip."
+      ],
+      "path": "/it/blog/validazione-urto-manubri-fissi"
+    },
+    "nl": {
+      "targetKeyword": "impactvalidatie vaste halter",
+      "questions": [
+        "Bewijst één valvideo de duurzaamheid van de hele reeks?",
+        "Moeten alle gewichten hetzelfde worden beproefd?",
+        "Waarom moet het contactvlak worden vermeld?",
+        "Wanneer moet de proef stoppen?",
+        "Kan een ander logo of kleur een nieuwe beoordeling vragen?"
+      ],
+      "evidence": [
+        "Uses vaste halter, impactvalidatie, inkoopdossier and quarantaine.",
+        "Connects the sample identity to first-piece and lot controls."
+      ],
+      "path": "/nl/blog/impactvalidatie-vaste-halters"
+    },
+    "pl": {
+      "targetKeyword": "walidacja udaru hantli stałych",
+      "questions": [
+        "Czy film z upadku dowodzi trwałości całej serii?",
+        "Czy wszystkie masy bada się tak samo?",
+        "Dlaczego trzeba zapisać powierzchnię kontaktu?",
+        "Kiedy przerwać próbę?",
+        "Czy zmiana logo lub koloru wymaga ponownej oceny?"
+      ],
+      "evidence": [
+        "Uses walidacja udaru hantli stałych, próbka wzorcowa and dokumentacja zakupu.",
+        "Uses reference comparison and written stop conditions for the purchasing file."
+      ],
+      "path": "/pl/blog/walidacja-udaru-hantli-stalych"
+    },
+    "vi": {
+      "targetKeyword": "xác minh va đập tạ tay cố định",
+      "questions": [
+        "Một video thả tạ có chứng minh độ bền của cả dải không?",
+        "Có nên thử mọi mức tạ theo cùng một cách?",
+        "Tại sao phải ghi bề mặt tiếp xúc?",
+        "Khi nào cần dừng phép thử?",
+        "Đổi logo hoặc màu có thể cần xem xét lại không?"
+      ],
+      "evidence": [
+        "Uses tạ tay cố định, xác minh va đập, lô hàng and nhận hàng.",
+        "Explains representative weights through construction logic."
+      ],
+      "path": "/vi/blog/xac-minh-va-dap-ta-tay-co-dinh"
+    },
+    "ar": {
+      "targetKeyword": "التحقق من صدمات الدمبل الثابت",
+      "questions": [
+        "هل يثبت مقطع إسقاط واحد متانة المجموعة كلها؟",
+        "هل تختبر جميع الأوزان بالطريقة نفسها؟",
+        "لماذا نسجل سطح التلامس؟",
+        "متى يجب إيقاف التجربة؟",
+        "هل يمكن أن يتطلب تغيير الشعار أو اللون مراجعة جديدة؟"
+      ],
+      "evidence": [
+        "Uses Arabic purchasing language for fixed-dumbbell impact verification, sample isolation and acceptance responsibility.",
+        "Keeps OEM program terms recognizable while localizing the decision workflow."
+      ],
+      "path": "/ar/blog/tahqiq-sadma-dumbbell-thabit"
+    },
+    "ko": {
+      "targetKeyword": "고정식 덤벨 충격 검증 사양",
+      "questions": [
+        "낙하 영상 하나로 전체 제품군의 내구성을 증명할 수 있나요?",
+        "모든 중량을 같은 방식으로 시험해야 하나요?",
+        "충돌면을 왜 기록해야 하나요?",
+        "시험은 언제 중단해야 하나요?",
+        "로고나 색상 변경도 재검토가 필요한가요?"
+      ],
+      "evidence": [
+        "Uses 고정식 덤벨 충격 검증, 시편, 로트 and 입고 검사.",
+        "Emphasizes fixed camera view, specimen ID and production revision."
+      ],
+      "path": "/ko/blog/fixed-dumbbell-impact-validation"
+    },
+    "id": {
+      "targetKeyword": "validasi benturan dumbbell tetap",
+      "questions": [
+        "Apakah satu video jatuh membuktikan ketahanan seluruh rentang?",
+        "Haruskah semua berat diuji dengan cara yang sama?",
+        "Mengapa permukaan kontak harus dicatat?",
+        "Kapan pengujian harus dihentikan?",
+        "Bisakah perubahan logo atau warna memerlukan tinjauan ulang?"
+      ],
+      "evidence": [
+        "Uses dumbbell tetap, validasi benturan, sampel, lot and karantina.",
+        "Separates product evidence from distribution and packaging damage."
+      ],
+      "path": "/id/blog/validasi-benturan-dumbbell-tetap"
+    }
+  },
+  "competitors": [
+    {
+      "name": "TÜV SÜD",
+      "url": "https://www.tuvsud.com/en/customer-hub/ps-cert/certification-mark-for-dumbbells",
+      "observation": "Shows that product testing, documentation and production monitoring are distinct parts of a controlled program; no ChinaFreeWeight certification claim is made."
+    },
+    {
+      "name": "REP Fitness",
+      "url": "https://repfitness.com/collections/dumbbells/products/rep-x-pepin-fast-series-adjustable-dumbbell",
+      "observation": "Model instructions show why orientation and model-specific warranty language matter; adjustable-model statements were not generalized."
+    },
+    {
+      "name": "Eleiko",
+      "url": "https://eleiko.com/es-es/equipment/dumbbells/fixed/3060990-0060-eleiko-evo-dumbbell-fixed-6-kg",
+      "observation": "Publishes model-specific validation evidence; its figures were excluded from the article because they cannot be transferred to another design."
+    }
+  ],
+  "rejectedTopics": [
+    "Export packaging for dumbbells and plates — an exact live owner already exists.",
+    "OEM free-weight sample approval — an exact multilingual owner already exists.",
+    "Artwork and logo approval — the custom-logo guide owns the intent.",
+    "Weight-plate runout and concentricity — current flatness and plate-to-bar fit pages create a higher collision risk."
+  ],
+  "siteGaps": [
+    "No existing page owns the specimen family → landing setup → before-and-after evidence → stop and quarantine → production change-control workflow for fixed dumbbells."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1849,
+    "liveBlogUrlsReviewed": 979,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "dumbbell head-to-handle construction",
+      "rubber coating adhesion",
+      "fixed versus adjustable dumbbells",
+      "OEM sample approval",
+      "free-weight AQL defect classification",
+      "gym flooring"
+    ]
+  },
+  "sources": [
+    {
+      "title": "TÜV SÜD certification mark for dumbbells",
+      "url": "https://www.tuvsud.com/en/customer-hub/ps-cert/certification-mark-for-dumbbells",
+      "primary": true,
+      "use": "Official summary of documentation, construction review, testing, production monitoring and factory surveillance; no certification is claimed for ChinaFreeWeight."
+    },
+    {
+      "title": "TÜV SÜD German certification page for fixed dumbbells",
+      "url": "https://www.tuvsud.com/de-de/dienstleistungen/produktpruefung-und-produktzertifizierung/zertifikatsdatenbank/z2-308-hanteln",
+      "primary": true,
+      "use": "Official program language showing foreseeable misuse may be simulated with drop testing; no universal method or threshold is inferred."
+    },
+    {
+      "title": "ISO 20957-1:2024 stationary training equipment",
+      "url": "https://www.iso.org/standard/81908.html",
+      "primary": true,
+      "use": "Scope boundary reviewed; applicability to a loose fixed dumbbell is not assumed."
+    },
+    {
+      "title": "REP x PÉPIN FAST Series adjustable dumbbell",
+      "url": "https://repfitness.com/collections/dumbbells/products/rep-x-pepin-fast-series-adjustable-dumbbell",
+      "primary": false,
+      "use": "Model-specific instructions illustrate why landing orientation and abuse exclusions matter; adjustable-model claims are not generalized."
+    },
+    {
+      "title": "IRON COMPANY fixed urethane dumbbells",
+      "url": "https://www.ironcompany.com/iron-company-urethane-dumbbells",
+      "primary": false,
+      "use": "Model-specific handling and warranty language reviewed; not generalized to all fixed dumbbells."
+    },
+    {
+      "title": "Eleiko Evo fixed dumbbell",
+      "url": "https://eleiko.com/es-es/equipment/dumbbells/fixed/3060990-0060-eleiko-evo-dumbbell-fixed-6-kg",
+      "primary": true,
+      "use": "Manufacturer example of model-specific validation; published figures were not copied or transferred."
+    },
+    {
+      "title": "Reddit buyer discussion of a damaged dumbbell",
+      "url": "https://www.reddit.com/r/homegym/comments/1covvbl/was_working_out_at_home_and_then_this_happened/",
+      "primary": false,
+      "use": "Buyer wording only; anecdotal content is not treated as engineering evidence."
+    }
+  ],
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on them.",
+    "Reddit was used only to understand buyer wording, never as product or engineering proof.",
+    "The paid keyword refresh is reserved for Sunday under the shared policy; this Friday run used public search, live sitemaps, repository content and the shared topic ledger.",
+    "No universal drop height, repetition count or acceptance threshold is stated because the product design, use case, market and contract must define them.",
+    "Commissioned images are conceptual editorial illustrations, not evidence of an actual customer project or factory validation."
+  ]
+}
