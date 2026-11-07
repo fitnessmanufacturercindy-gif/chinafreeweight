@@ -1,0 +1,1460 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-07",
+  "status": "complete",
+  "selectedTopic": "How B2B buyers verify OEM free-weight test reports and certificates",
+  "selectionReason": "A high-intent documentation gap with no dedicated live owner. The guide teaches buyers to match document purpose, specimen and revision, test method, laboratory scope, results and production controls before relying on a report.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "verify OEM free weight test report: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "verify OEM free weight test report: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "verify OEM free weight test report: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "verify OEM free weight test report: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "verify OEM free weight test report: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "verify OEM free weight test report: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "verify OEM free weight test report: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "verify OEM free weight test report: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "verify OEM free weight test report: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "verify OEM free weight test report: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "verify OEM free weight test report: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "verify OEM free weight test report: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "verify OEM free weight test report: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "verify OEM free weight test report: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "verify OEM free weight test report: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "verificar laudo de pesos livres OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "verificar laudo de pesos livres OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "verificar laudo de pesos livres OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "verificar laudo de pesos livres OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "verificar laudo de pesos livres OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "verificar laudo de pesos livres OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "verificar laudo de pesos livres OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "verificar laudo de pesos livres OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "verificar laudo de pesos livres OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "verificar laudo de pesos livres OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "verificar laudo de pesos livres OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "verificar laudo de pesos livres OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "verificar laudo de pesos livres OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "verificar laudo de pesos livres OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "verificar laudo de pesos livres OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "verificar informe de ensayo peso libre OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "verificar informe de ensayo peso libre OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "verificar informe de ensayo peso libre OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "verificar informe de ensayo peso libre OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "verificar informe de ensayo peso libre OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "verificar informe de ensayo peso libre OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "verificar informe de ensayo peso libre OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "verificar informe de ensayo peso libre OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "verificar informe de ensayo peso libre OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "verificar informe de ensayo peso libre OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "verificar informe de ensayo peso libre OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "verificar informe de ensayo peso libre OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "verificar informe de ensayo peso libre OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "verificar informe de ensayo peso libre OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "verificar informe de ensayo peso libre OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Prüfbericht Freigewichte OEM prüfen: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "vérifier rapport essais poids libres OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "vérifier rapport essais poids libres OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "vérifier rapport essais poids libres OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "vérifier rapport essais poids libres OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "vérifier rapport essais poids libres OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "vérifier rapport essais poids libres OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "vérifier rapport essais poids libres OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "vérifier rapport essais poids libres OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "vérifier rapport essais poids libres OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "vérifier rapport essais poids libres OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "vérifier rapport essais poids libres OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "vérifier rapport essais poids libres OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "vérifier rapport essais poids libres OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "vérifier rapport essais poids libres OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "vérifier rapport essais poids libres OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "verifiera testrapport fria vikter OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "verifiera testrapport fria vikter OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "verifiera testrapport fria vikter OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "verifiera testrapport fria vikter OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "verifiera testrapport fria vikter OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "verifiera testrapport fria vikter OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "verifiera testrapport fria vikter OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "verifiera testrapport fria vikter OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "verifiera testrapport fria vikter OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "verifiera testrapport fria vikter OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "verifiera testrapport fria vikter OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "verifiera testrapport fria vikter OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "verifiera testrapport fria vikter OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "verifiera testrapport fria vikter OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "verifiera testrapport fria vikter OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "verificare rapporto di prova pesi liberi OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "verificare rapporto di prova pesi liberi OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "verificare rapporto di prova pesi liberi OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "verificare rapporto di prova pesi liberi OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "verificare rapporto di prova pesi liberi OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "verificare rapporto di prova pesi liberi OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "verificare rapporto di prova pesi liberi OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "verificare rapporto di prova pesi liberi OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "verificare rapporto di prova pesi liberi OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "verificare rapporto di prova pesi liberi OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "verificare rapporto di prova pesi liberi OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "verificare rapporto di prova pesi liberi OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "verificare rapporto di prova pesi liberi OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "verificare rapporto di prova pesi liberi OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "verificare rapporto di prova pesi liberi OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "testrapport vrije gewichten OEM controleren: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "testrapport vrije gewichten OEM controleren: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "testrapport vrije gewichten OEM controleren: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "testrapport vrije gewichten OEM controleren: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "testrapport vrije gewichten OEM controleren: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "testrapport vrije gewichten OEM controleren: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "testrapport vrije gewichten OEM controleren: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "testrapport vrije gewichten OEM controleren: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "testrapport vrije gewichten OEM controleren: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "testrapport vrije gewichten OEM controleren: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "testrapport vrije gewichten OEM controleren: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "testrapport vrije gewichten OEM controleren: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "testrapport vrije gewichten OEM controleren: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "testrapport vrije gewichten OEM controleren: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "testrapport vrije gewichten OEM controleren: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "weryfikacja raportu badań wolnych ciężarów OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kiểm tra báo cáo thử nghiệm tạ OEM: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "التحقق من تقرير اختبار الأوزان الحرة: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "프리웨이트 시험성적서 검증: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "프리웨이트 시험성적서 검증: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "프리웨이트 시험성적서 검증: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "프리웨이트 시험성적서 검증: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "프리웨이트 시험성적서 검증: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "프리웨이트 시험성적서 검증: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "프리웨이트 시험성적서 검증: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "프리웨이트 시험성적서 검증: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "프리웨이트 시험성적서 검증: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "프리웨이트 시험성적서 검증: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "프리웨이트 시험성적서 검증: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "프리웨이트 시험성적서 검증: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "프리웨이트 시험성적서 검증: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "프리웨이트 시험성적서 검증: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "프리웨이트 시험성적서 검증: RFQ evidence matrix",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "verifikasi laporan uji free weight OEM: document-purpose mapping",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "verifikasi laporan uji free weight OEM: exact specimen identity",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "verifikasi laporan uji free weight OEM: model and revision mapping",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "verifikasi laporan uji free weight OEM: product-family rationale",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "verifikasi laporan uji free weight OEM: method and edition",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "verifikasi laporan uji free weight OEM: laboratory accreditation scope",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "verifikasi laporan uji free weight OEM: report authenticity",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "verifikasi laporan uji free weight OEM: acceptance rule",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "verifikasi laporan uji free weight OEM: result units and uncertainty",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "verifikasi laporan uji free weight OEM: annex and exclusion review",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "verifikasi laporan uji free weight OEM: customization change impact",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "verifikasi laporan uji free weight OEM: first-article linkage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "verifikasi laporan uji free weight OEM: lot inspection linkage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "verifikasi laporan uji free weight OEM: shipment release boundary",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "verifikasi laporan uji free weight OEM: RFQ evidence matrix",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "verify OEM free weight test report",
+      "questions": [
+        "Does ISO 9001 mean a dumbbell or plate passed product testing?",
+        "Does ISO/IEC 17025 accreditation cover every test a laboratory performs?",
+        "Can one report cover every weight and color in a range?",
+        "Does a passing development report release the production shipment?",
+        "Do all free weights need CE marking in the European Union?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verify OEM free weight test report” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/resources/verify-oem-free-weight-test-reports-certificates"
+    },
+    "pt-BR": {
+      "targetKeyword": "verificar laudo de pesos livres OEM",
+      "questions": [
+        "ISO 9001 prova que o halter passou no ensaio?",
+        "A ISO/IEC 17025 cobre todos os serviços do laboratório?",
+        "Um laudo pode cobrir todos os pesos e cores?",
+        "Laudo de desenvolvimento libera o lote para embarque?",
+        "Todo peso livre precisa de marcação CE na União Europeia?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verificar laudo de pesos livres OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/pt/blog/verificar-laudos-certificados-pesos-livres-oem"
+    },
+    "es": {
+      "targetKeyword": "verificar informe de ensayo peso libre OEM",
+      "questions": [
+        "¿ISO 9001 prueba que una mancuerna superó un ensayo?",
+        "¿ISO/IEC 17025 cubre cualquier prueba del laboratorio?",
+        "¿Un informe cubre todos los pesos y colores?",
+        "¿Un ensayo de desarrollo libera el envío?",
+        "¿Todo peso libre necesita marcado CE en la Unión Europea?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verificar informe de ensayo peso libre OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/es/blog/verificar-informes-ensayo-certificados-peso-libre"
+    },
+    "de": {
+      "targetKeyword": "Prüfbericht Freigewichte OEM prüfen",
+      "questions": [
+        "Belegt ISO 9001 eine bestandene Produktprüfung?",
+        "Deckt ISO/IEC 17025 alle Laborprüfungen ab?",
+        "Kann ein Bericht alle Gewichte und Farben abdecken?",
+        "Gibt ein Entwicklungsbericht das Versandlos frei?",
+        "Brauchen alle Freigewichte in der EU eine CE-Kennzeichnung?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “Prüfbericht Freigewichte OEM prüfen” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/de/blog/pruefberichte-zertifikate-freigewichte-pruefen"
+    },
+    "fr": {
+      "targetKeyword": "vérifier rapport essais poids libres OEM",
+      "questions": [
+        "ISO 9001 prouve-t-il qu’un haltère a réussi un essai ?",
+        "ISO/IEC 17025 couvre-t-elle tous les essais du laboratoire ?",
+        "Un rapport peut-il couvrir toutes les charges et couleurs ?",
+        "Un rapport de développement libère-t-il l’expédition ?",
+        "Tous les poids libres nécessitent-ils le marquage CE dans l’UE ?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “vérifier rapport essais poids libres OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/fr/blog/verifier-rapports-essais-certificats-poids-libres"
+    },
+    "sv": {
+      "targetKeyword": "verifiera testrapport fria vikter OEM",
+      "questions": [
+        "Bevisar ISO 9001 att en hantel klarat produktprovning?",
+        "Omfattar ISO/IEC 17025 alla laboratoriets provningar?",
+        "Kan en rapport gälla alla vikter och färger?",
+        "Friger en utvecklingsrapport leveransen?",
+        "Behöver alla fria vikter CE-märkning i EU?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verifiera testrapport fria vikter OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/sv/blogg/verifiera-testrapporter-certifikat-fria-vikter"
+    },
+    "it": {
+      "targetKeyword": "verificare rapporto di prova pesi liberi OEM",
+      "questions": [
+        "ISO 9001 prova che un manubrio ha superato un test?",
+        "ISO/IEC 17025 copre ogni prova del laboratorio?",
+        "Un rapporto può coprire tutti i pesi e i colori?",
+        "Un rapporto di sviluppo libera la spedizione?",
+        "Tutti i pesi liberi richiedono il marchio CE nell’UE?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verificare rapporto di prova pesi liberi OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/it/blog/verificare-rapporti-prova-certificati-pesi-liberi"
+    },
+    "nl": {
+      "targetKeyword": "testrapport vrije gewichten OEM controleren",
+      "questions": [
+        "Bewijst ISO 9001 dat een dumbbell de producttest haalde?",
+        "Dekt ISO/IEC 17025 elke laboratoriumtest?",
+        "Kan één rapport alle gewichten en kleuren dekken?",
+        "Geeft een ontwikkelrapport de zending vrij?",
+        "Moeten alle vrije gewichten in de EU CE-markering hebben?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “testrapport vrije gewichten OEM controleren” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/nl/blog/testrapporten-certificaten-vrije-gewichten-controleren"
+    },
+    "pl": {
+      "targetKeyword": "weryfikacja raportu badań wolnych ciężarów OEM",
+      "questions": [
+        "Czy ISO 9001 dowodzi, że hantla przeszła badanie produktu?",
+        "Czy ISO/IEC 17025 obejmuje każde badanie laboratorium?",
+        "Czy jeden raport może objąć wszystkie ciężary i kolory?",
+        "Czy raport rozwojowy zwalnia wysyłkę?",
+        "Czy wszystkie wolne ciężary w UE wymagają znaku CE?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “weryfikacja raportu badań wolnych ciężarów OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/pl/blog/weryfikacja-raportow-badan-certyfikatow-wolne-ciezary"
+    },
+    "vi": {
+      "targetKeyword": "kiểm tra báo cáo thử nghiệm tạ OEM",
+      "questions": [
+        "ISO 9001 có chứng minh tạ tay đã qua thử nghiệm không?",
+        "ISO/IEC 17025 có bao phủ mọi phép thử của phòng thử không?",
+        "Một báo cáo có thể bao phủ mọi mức tạ và màu không?",
+        "Báo cáo phát triển có phát hành lô xuất không?",
+        "Mọi loại tạ tại EU có cần dấu CE không?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “kiểm tra báo cáo thử nghiệm tạ OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/vi/blog/kiem-tra-bao-cao-thu-nghiem-ta-oem"
+    },
+    "ar": {
+      "targetKeyword": "التحقق من تقرير اختبار الأوزان الحرة",
+      "questions": [
+        "هل تثبت ISO 9001 أن الدمبل اجتاز اختبار المنتج؟",
+        "هل يغطي اعتماد ISO/IEC 17025 كل اختبارات المختبر؟",
+        "هل يغطي تقرير واحد كل الأوزان والألوان؟",
+        "هل يجيز تقرير التطوير شحنة الإنتاج؟",
+        "هل تحتاج كل الأوزان الحرة في الاتحاد الأوروبي إلى علامة CE؟"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “التحقق من تقرير اختبار الأوزان الحرة” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/ar/blog/tahaqquq-taqarir-ikhtibar-shahadat-athqal-hurra"
+    },
+    "ko": {
+      "targetKeyword": "프리웨이트 시험성적서 검증",
+      "questions": [
+        "ISO 9001이면 덤벨 제품시험에 합격한 것입니까?",
+        "ISO/IEC 17025 인정은 시험소의 모든 시험을 포함합니까?",
+        "성적서 하나로 모든 무게와 색상을 포함할 수 있습니까?",
+        "개발시험 성적서가 양산 출하를 승인합니까?",
+        "EU에서 모든 프리웨이트에 CE 표시가 필요합니까?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “프리웨이트 시험성적서 검증” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/ko/blog/oem-free-weight-test-report-verification-guide"
+    },
+    "id": {
+      "targetKeyword": "verifikasi laporan uji free weight OEM",
+      "questions": [
+        "Apakah ISO 9001 membuktikan dumbbell lulus uji produk?",
+        "Apakah ISO/IEC 17025 mencakup semua uji laboratorium?",
+        "Dapatkah satu laporan mencakup semua berat dan warna?",
+        "Apakah laporan pengembangan merilis pengiriman?",
+        "Apakah semua free weight di Uni Eropa memerlukan tanda CE?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “verifikasi laporan uji free weight OEM” and distinguishes reports, product certificates, management-system certificates and declarations.",
+        "Builds the decision around exact specimen identity, method edition, laboratory scope, recorded results and production change control."
+      ],
+      "path": "/id/blog/verifikasi-laporan-uji-sertifikat-free-weight"
+    }
+  },
+  "competitors": [
+    {
+      "name": "TÜV SÜD",
+      "url": "https://www.tuvsud.com/en/industries/consumer-products-and-retail/sports-leisure/sports-equipment",
+      "observation": "Shows testing, certification and production assessment as separate evidence layers; no ChinaFreeWeight certification claim is made."
+    },
+    {
+      "name": "YR Fitness",
+      "url": "https://www.yanrefitness.com/testing-report/",
+      "observation": "Shows how a manufacturer presents a report; the article adds buyer-side specimen, scope and revision checks missing from a simple download."
+    },
+    {
+      "name": "ILAC",
+      "url": "https://ilac.org/ilac-mra-and-signatories/accredited-conformity-assessment-bodies/",
+      "observation": "Provides the authoritative verification route through accreditation bodies and relevant laboratory scopes."
+    }
+  ],
+  "rejectedTopics": [
+    "OEM free-weight sample approval — an exact multilingual owner already exists.",
+    "Shipment AQL and defect classification — an exact multilingual owner already exists.",
+    "Olympic-bar tensile and yield reports — a product-specific owner already exists.",
+    "Fixed-dumbbell impact evidence — yesterday’s exact multilingual owner already exists."
+  ],
+  "siteGaps": [
+    "No existing page owns the document type → exact specimen and revision → test method → laboratory scope → result and decision rule → production linkage workflow across free-weight categories."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1862,
+    "liveBlogUrlsReviewed": 992,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "OEM sample approval",
+      "free-weight AQL defect classification",
+      "Olympic-bar material reports",
+      "fixed-dumbbell impact validation",
+      "production lead-time planning"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO/IEC 17025:2017",
+      "url": "https://www.iso.org/standard/66912.html",
+      "primary": true,
+      "use": "Official scope: competence, impartiality and consistent operation of testing and calibration laboratories."
+    },
+    {
+      "title": "ILAC accredited conformity assessment bodies",
+      "url": "https://ilac.org/ilac-mra-and-signatories/accredited-conformity-assessment-bodies/",
+      "primary": true,
+      "use": "Official route for checking the issuing laboratory through the relevant accreditation body and reviewing its scope."
+    },
+    {
+      "title": "European Commission CE marking",
+      "url": "https://single-market-economy.ec.europa.eu/single-market/goods/ce-marking_en",
+      "primary": true,
+      "use": "Official boundary: CE marking applies only where harmonised legislation requires it and must not be used otherwise."
+    },
+    {
+      "title": "TÜV SÜD sports-equipment testing",
+      "url": "https://www.tuvsud.com/en/industries/consumer-products-and-retail/sports-leisure/sports-equipment",
+      "primary": true,
+      "use": "Separates product testing, certification and production-related assessment; no certification is claimed for ChinaFreeWeight."
+    },
+    {
+      "title": "YR Fitness test-report example",
+      "url": "https://www.yanrefitness.com/testing-report/",
+      "primary": false,
+      "use": "Competitor example reviewed for report presentation only; its results are not transferred to another product."
+    },
+    {
+      "title": "Reddit supplier-certification discussion",
+      "url": "https://www.reddit.com/r/Entrepreneur/comments/1n61k99/how_do_you_validate_a_suppliers_certifications/",
+      "primary": false,
+      "use": "Buyer wording only; anecdotal comments are not treated as compliance or technical evidence."
+    }
+  ],
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on them.",
+    "Reddit was used only to understand buyer wording, never as product, laboratory or legal proof.",
+    "The paid keyword refresh is reserved for Sunday under the shared policy; this Saturday run used public search, live pages, repository content and the shared topic ledger.",
+    "No report, certificate, accreditation, conformity result, price, MOQ, lead time or customer project is claimed for ChinaFreeWeight.",
+    "Commissioned images are conceptual editorial illustrations, not evidence of an actual laboratory, certificate, customer project or factory test."
+  ]
+}
