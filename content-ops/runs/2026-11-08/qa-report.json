@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-08",
+  "checkedAt": "2026-11-08T04:36:27.332Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-08-chinafreeweight-en-free-weight-tooling-ownership",
+      "locale": "en",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-pt-BR-free-weight-tooling-ownership",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-es-free-weight-tooling-ownership",
+      "locale": "es",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-fr-free-weight-tooling-ownership",
+      "locale": "fr",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-de-free-weight-tooling-ownership",
+      "locale": "de",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-sv-free-weight-tooling-ownership",
+      "locale": "sv",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-it-free-weight-tooling-ownership",
+      "locale": "it",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-nl-free-weight-tooling-ownership",
+      "locale": "nl",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-pl-free-weight-tooling-ownership",
+      "locale": "pl",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-vi-free-weight-tooling-ownership",
+      "locale": "vi",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-ar-free-weight-tooling-ownership",
+      "locale": "ar",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-ko-free-weight-tooling-ownership",
+      "locale": "ko",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-08-chinafreeweight-id-free-weight-tooling-ownership",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    }
+  ]
+}

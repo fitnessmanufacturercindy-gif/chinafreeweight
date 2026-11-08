@@ -109,6 +109,8 @@
     "audit:fixed-dumbbell-impact-rendered": "node scripts/verify-fixed-dumbbell-impact-validation-rendering.mjs",
     "audit:free-weight-test-reports": "tsx scripts/audit-free-weight-test-report-verification-guide.ts",
     "audit:free-weight-test-reports-rendered": "node scripts/verify-free-weight-test-report-verification-rendering.mjs",
+    "audit:free-weight-tooling-agreement": "tsx scripts/audit-free-weight-tooling-agreement-guide.ts",
+    "audit:free-weight-tooling-agreement-rendered": "node scripts/verify-free-weight-tooling-agreement-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",
