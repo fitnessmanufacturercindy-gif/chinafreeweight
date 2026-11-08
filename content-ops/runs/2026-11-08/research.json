@@ -1,0 +1,1476 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-08",
+  "status": "complete",
+  "selectedTopic": "Tooling and mold ownership, custody, maintenance, change control and transfer for custom free weights",
+  "selectionReason": "A high-intent contracting and supplier-dependency gap with no dedicated live owner. The guide gives buyers a model-specific record for molds, inserts, fixtures, gauges, files and transfer conditions without pretending that payment creates universal rights.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "custom free weight tooling ownership agreement: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "custom free weight tooling ownership agreement: asset register",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "custom free weight tooling ownership agreement: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "custom free weight tooling ownership agreement: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "custom free weight tooling ownership agreement: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "custom free weight tooling ownership agreement: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "custom free weight tooling ownership agreement: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "custom free weight tooling ownership agreement: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "custom free weight tooling ownership agreement: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "custom free weight tooling ownership agreement: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "custom free weight tooling ownership agreement: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "custom free weight tooling ownership agreement: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "custom free weight tooling ownership agreement: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "custom free weight tooling ownership agreement: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "custom free weight tooling ownership agreement: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "propriedade de moldes para pesos livres OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "propriedade de moldes para pesos livres OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "propriedade de moldes para pesos livres OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "propriedade de moldes para pesos livres OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "propriedade de moldes para pesos livres OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "propriedade de moldes para pesos livres OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "propriedade de moldes para pesos livres OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "propriedade de moldes para pesos livres OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "propriedade de moldes para pesos livres OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "propriedade de moldes para pesos livres OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "propriedade de moldes para pesos livres OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "propriedade de moldes para pesos livres OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "propriedade de moldes para pesos livres OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "propriedade de moldes para pesos livres OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "propriedade de moldes para pesos livres OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "propiedad de moldes para pesas OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "propiedad de moldes para pesas OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "propiedad de moldes para pesas OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "propiedad de moldes para pesas OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "propiedad de moldes para pesas OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "propiedad de moldes para pesas OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "propiedad de moldes para pesas OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "propiedad de moldes para pesas OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "propiedad de moldes para pesas OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "propiedad de moldes para pesas OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "propiedad de moldes para pesas OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "propiedad de moldes para pesas OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "propiedad de moldes para pesas OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "propiedad de moldes para pesas OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "propiedad de moldes para pesas OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "propriété moules poids libres OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "propriété moules poids libres OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "propriété moules poids libres OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "propriété moules poids libres OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "propriété moules poids libres OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "propriété moules poids libres OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "propriété moules poids libres OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "propriété moules poids libres OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "propriété moules poids libres OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "propriété moules poids libres OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "propriété moules poids libres OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "propriété moules poids libres OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "propriété moules poids libres OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "propriété moules poids libres OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "propriété moules poids libres OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Werkzeugeigentum Freigewichte OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Werkzeugeigentum Freigewichte OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Werkzeugeigentum Freigewichte OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Werkzeugeigentum Freigewichte OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Werkzeugeigentum Freigewichte OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Werkzeugeigentum Freigewichte OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Werkzeugeigentum Freigewichte OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Werkzeugeigentum Freigewichte OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Werkzeugeigentum Freigewichte OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Werkzeugeigentum Freigewichte OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Werkzeugeigentum Freigewichte OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Werkzeugeigentum Freigewichte OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Werkzeugeigentum Freigewichte OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Werkzeugeigentum Freigewichte OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Werkzeugeigentum Freigewichte OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "verktygsägande formar fria vikter OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "verktygsägande formar fria vikter OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "verktygsägande formar fria vikter OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "verktygsägande formar fria vikter OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "verktygsägande formar fria vikter OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "verktygsägande formar fria vikter OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "verktygsägande formar fria vikter OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "verktygsägande formar fria vikter OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "verktygsägande formar fria vikter OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "verktygsägande formar fria vikter OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "verktygsägande formar fria vikter OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "verktygsägande formar fria vikter OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "verktygsägande formar fria vikter OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "verktygsägande formar fria vikter OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "verktygsägande formar fria vikter OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "proprietà stampi pesi liberi OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "proprietà stampi pesi liberi OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "proprietà stampi pesi liberi OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "proprietà stampi pesi liberi OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "proprietà stampi pesi liberi OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "proprietà stampi pesi liberi OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "proprietà stampi pesi liberi OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "proprietà stampi pesi liberi OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "proprietà stampi pesi liberi OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "proprietà stampi pesi liberi OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "proprietà stampi pesi liberi OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "proprietà stampi pesi liberi OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "proprietà stampi pesi liberi OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "proprietà stampi pesi liberi OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "proprietà stampi pesi liberi OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "eigendom matrijzen vrije gewichten OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "eigendom matrijzen vrije gewichten OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "eigendom matrijzen vrije gewichten OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "eigendom matrijzen vrije gewichten OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "eigendom matrijzen vrije gewichten OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "eigendom matrijzen vrije gewichten OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "eigendom matrijzen vrije gewichten OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "eigendom matrijzen vrije gewichten OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "eigendom matrijzen vrije gewichten OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "eigendom matrijzen vrije gewichten OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "eigendom matrijzen vrije gewichten OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "eigendom matrijzen vrije gewichten OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "eigendom matrijzen vrije gewichten OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "eigendom matrijzen vrije gewichten OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "eigendom matrijzen vrije gewichten OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "własność form oprzyrządowania ciężary OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "własność form oprzyrządowania ciężary OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "własność form oprzyrządowania ciężary OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "własność form oprzyrządowania ciężary OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "własność form oprzyrządowania ciężary OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "własność form oprzyrządowania ciężary OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "własność form oprzyrządowania ciężary OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "własność form oprzyrządowania ciężary OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "własność form oprzyrządowania ciężary OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "własność form oprzyrządowania ciężary OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "własność form oprzyrządowania ciężary OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "własność form oprzyrządowania ciężary OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "własność form oprzyrządowania ciężary OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "własność form oprzyrządowania ciężary OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "własność form oprzyrządowania ciężary OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "quyền sở hữu khuôn tạ tay bánh tạ OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "ملكية قوالب الدمبل وأقراص الأوزان OEM: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: asset register",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "OEM 덤벨 중량 원판 금형 소유권: RFQ tooling schedule",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: ownership versus payment",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: asset register",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: custody and storage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: permitted use",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: standard versus dedicated inserts",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: logo-file access",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: background and project IP",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: maintenance responsibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: damage responsibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: engineering change approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: inventory evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: reorder revision",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: transfer package",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: exit conditions",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "kepemilikan cetakan dumbbell weight plate OEM: RFQ tooling schedule",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "custom free weight tooling ownership agreement",
+      "questions": [
+        "Does paying the full tooling charge automatically make the buyer the owner?",
+        "Is a custom logo insert the same as a complete product mold?",
+        "Should the mold stay at the factory between orders?",
+        "What should accompany a transferred tool?",
+        "Can one tooling agreement cover every dumbbell and plate size?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “custom free weight tooling ownership agreement” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Does paying the full tooling charge automatically make the buyer the owner?” and “What should accompany a transferred tool?”."
+      ],
+      "path": "/resources/custom-free-weight-tooling-mold-ownership-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "propriedade de moldes para pesos livres OEM",
+      "questions": [
+        "Pagar todo o ferramental torna o comprador proprietário?",
+        "O inserto do logotipo equivale ao molde completo?",
+        "É aceitável deixar o molde na fábrica?",
+        "Quais documentos devem acompanhar uma transferência?",
+        "Um acordo cobre todos os pesos da linha?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “propriedade de moldes para pesos livres OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Pagar todo o ferramental torna o comprador proprietário?” and “Quais documentos devem acompanhar uma transferência?”."
+      ],
+      "path": "/pt/blog/propriedade-moldes-ferramentais-halteres-anilhas"
+    },
+    "es": {
+      "targetKeyword": "propiedad de moldes para pesas OEM",
+      "questions": [
+        "¿Pagar el utillaje convierte automáticamente al comprador en propietario?",
+        "¿El inserto de logotipo es el molde completo?",
+        "¿Puede quedarse el molde en la fábrica?",
+        "¿Qué debe viajar con un molde transferido?",
+        "¿Un solo acuerdo cubre todos los pesos?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “propiedad de moldes para pesas OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “¿Pagar el utillaje convierte automáticamente al comprador en propietario?” and “¿Qué debe viajar con un molde transferido?”."
+      ],
+      "path": "/es/blog/propiedad-moldes-utillaje-mancuernas-discos"
+    },
+    "fr": {
+      "targetKeyword": "propriété moules poids libres OEM",
+      "questions": [
+        "Le paiement intégral rend-il automatiquement propriétaire ?",
+        "Un insert de logo est-il le moule complet ?",
+        "Le moule peut-il rester chez le fabricant ?",
+        "Que doit accompagner un outillage transféré ?",
+        "Une annexe couvre-t-elle tous les poids ?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “propriété moules poids libres OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Le paiement intégral rend-il automatiquement propriétaire ?” and “Que doit accompagner un outillage transféré ?”."
+      ],
+      "path": "/fr/blog/propriete-moules-outillages-halteres-disques"
+    },
+    "de": {
+      "targetKeyword": "Werkzeugeigentum Freigewichte OEM",
+      "questions": [
+        "Macht die vollständige Zahlung den Käufer automatisch zum Eigentümer?",
+        "Ist der Logo-Einsatz die vollständige Form?",
+        "Kann das Werkzeug beim Hersteller bleiben?",
+        "Was gehört zu einer Übergabe?",
+        "Deckt eine Vereinbarung alle Gewichte ab?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “Werkzeugeigentum Freigewichte OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Macht die vollständige Zahlung den Käufer automatisch zum Eigentümer?” and “Was gehört zu einer Übergabe?”."
+      ],
+      "path": "/de/blog/werkzeugeigentum-formen-kurzhanteln-hantelscheiben"
+    },
+    "sv": {
+      "targetKeyword": "verktygsägande formar fria vikter OEM",
+      "questions": [
+        "Blir köparen ägare efter full betalning?",
+        "Är logotypinsatsen hela formen?",
+        "Kan verktyget stå kvar hos fabriken?",
+        "Vad ska följa med vid en flytt?",
+        "Täcker ett avtal alla vikter?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “verktygsägande formar fria vikter OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Blir köparen ägare efter full betalning?” and “Vad ska följa med vid en flytt?”."
+      ],
+      "path": "/sv/blogg/verktygsagande-formar-hantlar-viktskivor"
+    },
+    "it": {
+      "targetKeyword": "proprietà stampi pesi liberi OEM",
+      "questions": [
+        "Il pagamento completo rende automaticamente proprietari?",
+        "L'inserto logo è lo stampo completo?",
+        "Lo stampo può restare in fabbrica?",
+        "Cosa accompagna un trasferimento?",
+        "Un accordo copre tutti i pesi?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “proprietà stampi pesi liberi OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Il pagamento completo rende automaticamente proprietari?” and “Cosa accompagna un trasferimento?”."
+      ],
+      "path": "/it/blog/proprieta-stampi-attrezzature-manubri-dischi"
+    },
+    "nl": {
+      "targetKeyword": "eigendom matrijzen vrije gewichten OEM",
+      "questions": [
+        "Wordt de koper eigenaar na volledige betaling?",
+        "Is de logo-inzet de hele matrijs?",
+        "Mag de matrijs bij de fabriek blijven?",
+        "Wat hoort bij een overdracht?",
+        "Dekt één overeenkomst alle gewichten?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “eigendom matrijzen vrije gewichten OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Wordt de koper eigenaar na volledige betaling?” and “Wat hoort bij een overdracht?”."
+      ],
+      "path": "/nl/blog/eigendom-matrijzen-gereedschap-dumbbells-schijven"
+    },
+    "pl": {
+      "targetKeyword": "własność form oprzyrządowania ciężary OEM",
+      "questions": [
+        "Czy pełna zapłata automatycznie daje własność?",
+        "Czy wkładka logo jest całą formą?",
+        "Czy forma może pozostać w fabryce?",
+        "Co przekazuje się razem z formą?",
+        "Czy jedna umowa obejmuje wszystkie wagi?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “własność form oprzyrządowania ciężary OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Czy pełna zapłata automatycznie daje własność?” and “Co przekazuje się razem z formą?”."
+      ],
+      "path": "/pl/blog/wlasnosc-form-oprzyrzadowania-hantle-obciazenia"
+    },
+    "vi": {
+      "targetKeyword": "quyền sở hữu khuôn tạ tay bánh tạ OEM",
+      "questions": [
+        "Trả tiền làm khuôn có nghĩa là người mua sở hữu khuôn không?",
+        "Nhà máy có thể dùng khuôn của người mua cho thương hiệu khác không?",
+        "Người mua có nên yêu cầu ảnh khuôn không?",
+        "Có thể chuyển khuôn sang nhà máy khác bất cứ lúc nào không?",
+        "Khi nào cần duyệt lại mẫu?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “quyền sở hữu khuôn tạ tay bánh tạ OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Trả tiền làm khuôn có nghĩa là người mua sở hữu khuôn không?” and “Có thể chuyển khuôn sang nhà máy khác bất cứ lúc nào không?”."
+      ],
+      "path": "/vi/blog/quyen-so-huu-khuon-ta-tay-banh-ta-oem"
+    },
+    "ar": {
+      "targetKeyword": "ملكية قوالب الدمبل وأقراص الأوزان OEM",
+      "questions": [
+        "هل دفع ثمن القالب يعني أن المشتري يملكه؟",
+        "هل يجوز للمصنع استخدام قالب المشتري لعلامة أخرى؟",
+        "هل يطلب المشتري صور القالب؟",
+        "هل يمكن نقل القالب إلى مصنع آخر في أي وقت؟",
+        "متى تعاد الموافقة على العينة؟"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “ملكية قوالب الدمبل وأقراص الأوزان OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “هل دفع ثمن القالب يعني أن المشتري يملكه؟” and “هل يمكن نقل القالب إلى مصنع آخر في أي وقت؟”."
+      ],
+      "path": "/ar/blog/milkiyat-qawalib-adawat-athqal-mukhasasa"
+    },
+    "ko": {
+      "targetKeyword": "OEM 덤벨 중량 원판 금형 소유권",
+      "questions": [
+        "금형비를 지급하면 구매자가 금형을 소유합니까?",
+        "공장이 구매자 금형을 다른 브랜드에 사용할 수 있습니까?",
+        "구매자가 금형 사진을 요청해야 합니까?",
+        "언제든 다른 공장으로 금형을 옮길 수 있습니까?",
+        "샘플을 언제 다시 승인해야 합니까?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “OEM 덤벨 중량 원판 금형 소유권” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “금형비를 지급하면 구매자가 금형을 소유합니까?” and “언제든 다른 공장으로 금형을 옮길 수 있습니까?”."
+      ],
+      "path": "/ko/blog/oem-dumbbell-weight-plate-tooling-ownership"
+    },
+    "id": {
+      "targetKeyword": "kepemilikan cetakan dumbbell weight plate OEM",
+      "questions": [
+        "Apakah membayar cetakan berarti pembeli memilikinya?",
+        "Bolehkah pabrik memakai cetakan pembeli untuk merek lain?",
+        "Perlukah pembeli meminta foto cetakan?",
+        "Dapatkah cetakan dipindahkan ke pabrik lain kapan saja?",
+        "Kapan sampel perlu disetujui ulang?"
+      ],
+      "evidence": [
+        "Uses the local buyer phrase “kepemilikan cetakan dumbbell weight plate OEM” and treats ownership, custody, permitted use, maintenance, change approval and transfer as separate decisions.",
+        "Answers five local-market questions from the edition, including “Apakah membayar cetakan berarti pembeli memilikinya?” and “Dapatkah cetakan dipindahkan ke pabrik lain kapan saja?”."
+      ],
+      "path": "/id/blog/kepemilikan-cetakan-tooling-dumbbell-weight-plate"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Ivanko",
+      "url": "https://ivankobarbell.com/pages/urethane-specs-engraving-and-warranty",
+      "observation": "Shows that custom-logo feasibility is tied to product geometry; the new guide addresses the missing buyer-side ownership, custody and change-control layer."
+    },
+    {
+      "name": "Speck/YogaFitness",
+      "url": "https://www.yogafitness.group/custom-manufacturing/",
+      "observation": "Public custom-manufacturing language confirms mold/tooling as a buyer question; no unverified capability or term is transferred to ChinaFreeWeight."
+    },
+    {
+      "name": "Kongsberg Automotive",
+      "url": "https://www.kongsbergautomotive.com/globalassets/for-suppliers/documents-for-suppliers/purchasing-conditions--manuals---indirect/general-purchasing-conditions-tooling-supplier-facility-december-2023.pdf",
+      "observation": "Provides a concrete buyer-terms example with identification, maintenance, storage and release provisions; it is clearly labeled an example, not universal law."
+    }
+  ],
+  "rejectedTopics": [
+    "OEM free-weight test-report verification — yesterday's exact multilingual owner is live.",
+    "OEM sample approval — an exact multilingual owner already exists.",
+    "Shipment AQL and defect classification — an exact multilingual owner already exists.",
+    "Custom-logo method selection — a dedicated multilingual owner already exists."
+  ],
+  "siteGaps": [
+    "No existing page owns the ownership → custody → permitted use → maintenance → change approval → inventory → transfer workflow for custom dumbbell and weight-plate tooling."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1875,
+    "repositoryPublishedVersionsReviewed": 1861,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "custom-logo options",
+      "OEM sample approval",
+      "reorder batch consistency",
+      "mixed-SKU MOQ",
+      "production lead-time planning"
+    ]
+  },
+  "sources": [
+    {
+      "title": "WIPO Frequently Asked Questions on Trade Secrets",
+      "url": "https://www.wipo.int/en/web/trade-secrets/tradesecrets_faqs",
+      "primary": true,
+      "use": "Defines trade-secret boundaries and reasonable safeguards for confidential manufacturing and commercial information."
+    },
+    {
+      "title": "WIPO Guide to Trade Secrets and Innovation: management",
+      "url": "https://www.wipo.int/web-publications/wipo-guide-to-trade-secrets-and-innovation/en/part-iv-trade-secret-management.html",
+      "primary": true,
+      "use": "Supports written controls for third-party access, use, return or destruction, and decision responsibility."
+    },
+    {
+      "title": "WIPO IP agreements with suppliers",
+      "url": "https://www.wipo.int/en/web/ip-commercialization/w/blog/ip-agreements-with-suppliers-what-ventures-need-to-know",
+      "primary": true,
+      "use": "Explains why background rights, project results, responsibilities and milestones should be clarified in writing."
+    },
+    {
+      "title": "ISO guidance on documented information",
+      "url": "https://www.iso.org/files/live/sites/isoorg/files/standards/docs/en/iso_9001_2015_guidance_documented_information.pdf",
+      "primary": true,
+      "use": "Supports controlled specifications, master samples and retained evidence without claiming certification for ChinaFreeWeight."
+    },
+    {
+      "title": "Kongsberg Automotive purchasing conditions for tooling at a supplier facility",
+      "url": "https://www.kongsbergautomotive.com/globalassets/for-suppliers/documents-for-suppliers/purchasing-conditions--manuals---indirect/general-purchasing-conditions-tooling-supplier-facility-december-2023.pdf",
+      "primary": true,
+      "use": "A real buyer-terms example showing identification, storage, maintenance, documentation and release clauses; it is not presented as universal law or our contract."
+    },
+    {
+      "title": "Ivanko urethane custom-logo program",
+      "url": "https://ivankobarbell.com/pages/urethane-specs-engraving-and-warranty",
+      "primary": false,
+      "use": "Competitor example showing that logo feasibility and setup are tied to product geometry; its commercial terms are not reused."
+    },
+    {
+      "title": "Reddit manufacturing discussion on custom tooling ownership",
+      "url": "https://www.reddit.com/r/manufacturing/comments/1jskh74",
+      "primary": false,
+      "use": "Buyer vocabulary and recurring concerns only; comments are not used as legal or technical proof."
+    }
+  ],
+  "paidSearchRefresh": {
+    "provider": "DataForSEO",
+    "tasksSubmitted": 20,
+    "tasksSucceeded": 10,
+    "organicUrlsCollected": 86,
+    "questionsCollected": 4,
+    "costUsd": 0.06,
+    "artifact": ".artifacts/free-weight-tooling-2026-11-08/serp-summary.json"
+  },
+  "limitations": [
+    "Ten paid search tasks returned provider-side errors or no results; public Google/Bing-visible search and primary sources filled the research gaps without inventing demand data.",
+    "Quora pages were not used because direct automated verification was blocked; no factual or legal claim depends on Quora.",
+    "Reddit was used only to understand buyer wording, never as legal, ownership, cost or technical proof.",
+    "The guide is procurement information, not legal advice; contract language and applicable law determine ownership and transfer rights.",
+    "No customer, project, tooling cost, MOQ, tool life, transfer right, lead time, certification or factory evidence is claimed.",
+    "Images are conceptual editorial illustrations, not evidence of an actual customer mold, owned asset, factory visit or transfer event."
+  ]
+}
