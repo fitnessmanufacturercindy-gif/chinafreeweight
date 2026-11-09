@@ -1,0 +1,1491 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-09",
+  "status": "complete",
+  "selectedTopic": "Corrective action, lot disposition and reinspection after a failed free-weight pre-shipment inspection",
+  "selectionReason": "A high-intent buyer problem with no dedicated live owner. Existing pages explain how to inspect and classify defects; this guide owns the next decision: hold release, define scope, contain, sort or rework, verify cause, reinspect and issue written release without treating one failed sample as proof about every unit.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "failed free weight inspection corrective action: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "failed free weight inspection corrective action: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "failed free weight inspection corrective action: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "failed free weight inspection corrective action: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "failed free weight inspection corrective action: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "failed free weight inspection corrective action: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "failed free weight inspection corrective action: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "failed free weight inspection corrective action: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "failed free weight inspection corrective action: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "failed free weight inspection corrective action: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "failed free weight inspection corrective action: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "failed free weight inspection corrective action: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "failed free weight inspection corrective action: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "failed free weight inspection corrective action: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "failed free weight inspection corrective action: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "ação corretiva após inspeção de pesos livres reprovada: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "acción correctiva tras inspección de pesas rechazada: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "acción correctiva tras inspección de pesas rechazada: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "acción correctiva tras inspección de pesas rechazada: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "acción correctiva tras inspección de pesas rechazada: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "acción correctiva tras inspección de pesas rechazada: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "acción correctiva tras inspección de pesas rechazada: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "acción correctiva tras inspección de pesas rechazada: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "acción correctiva tras inspección de pesas rechazada: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "acción correctiva tras inspección de pesas rechazada: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "acción correctiva tras inspección de pesas rechazada: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "acción correctiva tras inspección de pesas rechazada: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "acción correctiva tras inspección de pesas rechazada: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "acción correctiva tras inspección de pesas rechazada: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "acción correctiva tras inspección de pesas rechazada: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "acción correctiva tras inspección de pesas rechazada: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "action corrective après inspection de poids libres refusée: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "action corrective après inspection de poids libres refusée: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "action corrective après inspection de poids libres refusée: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "action corrective après inspection de poids libres refusée: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "action corrective après inspection de poids libres refusée: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "action corrective après inspection de poids libres refusée: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "action corrective après inspection de poids libres refusée: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "action corrective après inspection de poids libres refusée: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "action corrective après inspection de poids libres refusée: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "action corrective après inspection de poids libres refusée: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "action corrective après inspection de poids libres refusée: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "action corrective après inspection de poids libres refusée: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "action corrective après inspection de poids libres refusée: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "action corrective après inspection de poids libres refusée: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "action corrective après inspection de poids libres refusée: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "korrigerande åtgärd efter underkänd kontroll av fria vikter: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "azione correttiva dopo ispezione pesi liberi respinta: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "corrigerende maatregel na afgekeurde inspectie vrije gewichten: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "działania korygujące po niezgodnej kontroli wolnych ciężarów: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "hành động khắc phục sau khi lô tạ không đạt kiểm tra: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "프리웨이트 검사 불합격 시정조치: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "프리웨이트 검사 불합격 시정조치: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "프리웨이트 검사 불합격 시정조치: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "프리웨이트 검사 불합격 시정조치: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "프리웨이트 검사 불합격 시정조치: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "프리웨이트 검사 불합격 시정조치: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "프리웨이트 검사 불합격 시정조치: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "프리웨이트 검사 불합격 시정조치: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "프리웨이트 검사 불합격 시정조치: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "프리웨이트 검사 불합격 시정조치: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "프리웨이트 검사 불합격 시정조치: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "프리웨이트 검사 불합격 시정조치: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "프리웨이트 검사 불합격 시정조치: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "프리웨이트 검사 불합격 시정조치: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "프리웨이트 검사 불합격 시정조치: purchase-order failure clause",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: immediate shipment hold",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: report identity review",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: affected-scope tracing",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: containment zones",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: full-sort suitability",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: rework approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: replacement route",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: written deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: reinspection plan",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: rework-created risk",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: occurrence versus escape cause",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: supplier corrective response",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: effectiveness evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: repeat-failure escalation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "tindakan korektif setelah inspeksi free weight gagal: purchase-order failure clause",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "failed free weight inspection corrective action",
+      "questions": [
+        "Does a failed sample mean the entire lot is defective?",
+        "Should the buyer pay the balance after the report fails?",
+        "Who should pay for reinspection?",
+        "Are factory photos enough to release corrected goods?",
+        "Can a buyer accept a minor deviation?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “failed free weight inspection corrective action” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Does a failed sample mean the entire lot is defective?” and “Who should pay for reinspection?”."
+      ],
+      "path": "/resources/free-weight-failed-inspection-corrective-action-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "ação corretiva após inspeção de pesos livres reprovada",
+      "questions": [
+        "A amostra reprovada significa que todo o lote tem defeito?",
+        "O importador deve pagar o saldo depois da reprovação?",
+        "Quem paga a reinspeção?",
+        "Fotos da fábrica bastam para liberar?",
+        "O comprador pode aceitar um pequeno desvio?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “ação corretiva após inspeção de pesos livres reprovada” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “A amostra reprovada significa que todo o lote tem defeito?” and “Quem paga a reinspeção?”."
+      ],
+      "path": "/pt/blog/inspecao-pesos-livres-reprovada-acao-corretiva"
+    },
+    "es": {
+      "targetKeyword": "acción correctiva tras inspección de pesas rechazada",
+      "questions": [
+        "¿Una muestra rechazada significa que todo el lote es defectuoso?",
+        "¿Debe pagarse el saldo después del rechazo?",
+        "¿Quién paga la reinspección?",
+        "¿Bastan las fotos de la fábrica?",
+        "¿Puede aceptarse una desviación menor?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “acción correctiva tras inspección de pesas rechazada” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “¿Una muestra rechazada significa que todo el lote es defectuoso?” and “¿Quién paga la reinspección?”."
+      ],
+      "path": "/es/blog/inspeccion-pesas-fallida-accion-correctiva"
+    },
+    "fr": {
+      "targetKeyword": "action corrective après inspection de poids libres refusée",
+      "questions": [
+        "Un échantillon refusé signifie-t-il que tout le lot est mauvais ?",
+        "Faut-il payer le solde après le refus ?",
+        "Qui paie la nouvelle inspection ?",
+        "Les photos de l'usine suffisent-elles ?",
+        "L'acheteur peut-il accepter une petite dérogation ?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “action corrective après inspection de poids libres refusée” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Un échantillon refusé signifie-t-il que tout le lot est mauvais ?” and “Qui paie la nouvelle inspection ?”."
+      ],
+      "path": "/fr/blog/inspection-poids-libres-echec-action-corrective"
+    },
+    "de": {
+      "targetKeyword": "Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle",
+      "questions": [
+        "Ist nach einer schlechten Stichprobe die ganze Partie fehlerhaft?",
+        "Soll der Käufer nach der Ablehnung den Restbetrag zahlen?",
+        "Wer bezahlt die Nachprüfung?",
+        "Reichen Fotos des Werks zur Freigabe?",
+        "Darf der Käufer eine kleine Abweichung annehmen?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “Korrekturmaßnahme nach nicht bestandener Freihantelkontrolle” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Ist nach einer schlechten Stichprobe die ganze Partie fehlerhaft?” and “Wer bezahlt die Nachprüfung?”."
+      ],
+      "path": "/de/blog/vorversandkontrolle-hanteln-durchgefallen-korrektur"
+    },
+    "sv": {
+      "targetKeyword": "korrigerande åtgärd efter underkänd kontroll av fria vikter",
+      "questions": [
+        "Betyder ett underkänt stickprov att hela partiet är felaktigt?",
+        "Ska slutbetalningen göras efter underkännandet?",
+        "Vem betalar omkontrollen?",
+        "Räcker fabrikens bilder?",
+        "Kan köparen godkänna en mindre avvikelse?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “korrigerande åtgärd efter underkänd kontroll av fria vikter” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Betyder ett underkänt stickprov att hela partiet är felaktigt?” and “Vem betalar omkontrollen?”."
+      ],
+      "path": "/sv/blogg/underkand-kontroll-fria-vikter-korrigerande-atgard"
+    },
+    "it": {
+      "targetKeyword": "azione correttiva dopo ispezione pesi liberi respinta",
+      "questions": [
+        "Un campione respinto significa che tutto il lotto è difettoso?",
+        "Il compratore deve pagare il saldo?",
+        "Chi paga la nuova ispezione?",
+        "Bastano le foto della fabbrica?",
+        "Il compratore può accettare una piccola deroga?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “azione correttiva dopo ispezione pesi liberi respinta” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Un campione respinto significa che tutto il lotto è difettoso?” and “Chi paga la nuova ispezione?”."
+      ],
+      "path": "/it/blog/ispezione-pesi-liberi-fallita-azione-correttiva"
+    },
+    "nl": {
+      "targetKeyword": "corrigerende maatregel na afgekeurde inspectie vrije gewichten",
+      "questions": [
+        "Is na een afgekeurde steekproef het hele lot defect?",
+        "Moet de koper het restbedrag betalen?",
+        "Wie betaalt de herinspectie?",
+        "Zijn fabrieksfoto's voldoende?",
+        "Mag de koper een kleine afwijking accepteren?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “corrigerende maatregel na afgekeurde inspectie vrije gewichten” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Is na een afgekeurde steekproef het hele lot defect?” and “Wie betaalt de herinspectie?”."
+      ],
+      "path": "/nl/blog/afgekeurde-inspectie-vrije-gewichten-corrigerende-maatregel"
+    },
+    "pl": {
+      "targetKeyword": "działania korygujące po niezgodnej kontroli wolnych ciężarów",
+      "questions": [
+        "Czy niezgodna próbka oznacza wadę całej partii?",
+        "Czy kupujący powinien zapłacić saldo?",
+        "Kto płaci za ponowną kontrolę?",
+        "Czy zdjęcia fabryki wystarczą?",
+        "Czy kupujący może zaakceptować małe odstępstwo?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “działania korygujące po niezgodnej kontroli wolnych ciężarów” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Czy niezgodna próbka oznacza wadę całej partii?” and “Kto płaci za ponowną kontrolę?”."
+      ],
+      "path": "/pl/blog/nieudana-kontrola-wolnych-ciezarow-dzialania-korygujace"
+    },
+    "vi": {
+      "targetKeyword": "hành động khắc phục sau khi lô tạ không đạt kiểm tra",
+      "questions": [
+        "Mẫu không đạt có nghĩa toàn lô đều lỗi không?",
+        "Người mua có nên trả phần còn lại không?",
+        "Bên nào chịu phí kiểm lại?",
+        "Ảnh từ nhà máy có đủ không?",
+        "Người mua có thể chấp thuận sai lệch nhỏ không?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “hành động khắc phục sau khi lô tạ không đạt kiểm tra” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Mẫu không đạt có nghĩa toàn lô đều lỗi không?” and “Bên nào chịu phí kiểm lại?”."
+      ],
+      "path": "/vi/blog/kiem-tra-lo-ta-khong-dat-hanh-dong-khac-phuc"
+    },
+    "ar": {
+      "targetKeyword": "إجراء تصحيحي بعد رفض فحص الأوزان الحرة",
+      "questions": [
+        "هل تعني العينة المرفوضة أن الدفعة كلها معيبة؟",
+        "هل يدفع المشتري الرصيد بعد الرفض؟",
+        "من يتحمل تكلفة إعادة الفحص؟",
+        "هل تكفي صور المصنع؟",
+        "هل يقبل المشتري انحرافًا بسيطًا؟"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “إجراء تصحيحي بعد رفض فحص الأوزان الحرة” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “هل تعني العينة المرفوضة أن الدفعة كلها معيبة؟” and “من يتحمل تكلفة إعادة الفحص؟”."
+      ],
+      "path": "/ar/blog/fashal-fahs-alawzan-alhurra-ijra-tashihi"
+    },
+    "ko": {
+      "targetKeyword": "프리웨이트 검사 불합격 시정조치",
+      "questions": [
+        "표본이 불합격이면 전체 로트가 불량인가요?",
+        "불합격 뒤 잔금을 지급해야 하나요?",
+        "재검사 비용은 누가 내나요?",
+        "공장 사진만으로 출하할 수 있나요?",
+        "구매자가 작은 편차를 승인할 수 있나요?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “프리웨이트 검사 불합격 시정조치” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “표본이 불합격이면 전체 로트가 불량인가요?” and “재검사 비용은 누가 내나요?”."
+      ],
+      "path": "/ko/blog/free-weight-inspection-failure-corrective-action"
+    },
+    "id": {
+      "targetKeyword": "tindakan korektif setelah inspeksi free weight gagal",
+      "questions": [
+        "Apakah sampel gagal berarti seluruh lot cacat?",
+        "Haruskah pembeli melunasi setelah kegagalan?",
+        "Siapa membayar inspeksi ulang?",
+        "Apakah foto pabrik cukup?",
+        "Bisakah pembeli menerima deviasi kecil?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “tindakan korektif setelah inspeksi free weight gagal” and keeps a failed sample distinct from proof that every unit is defective.",
+        "Answers locally worded buyer questions including “Apakah sampel gagal berarti seluruh lot cacat?” and “Siapa membayar inspeksi ulang?”."
+      ],
+      "path": "/id/blog/inspeksi-free-weight-gagal-tindakan-korektif"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Harbor Freight",
+      "url": "https://images.harborfreight.com/hftweb/global-sourcing/Harbor-Freight-ETQ-Pre-shipping-Inspection-Guide.pdf",
+      "observation": "Public buyer-side manual provides a concrete disposition and reinspection sequence; the new article localizes that decision model to free-weight constructions without copying its text or contractual terms."
+    },
+    {
+      "name": "V-Trust",
+      "url": "https://www.v-trust.com/en/our-services/product-inspection/pre-shipment-inspection",
+      "observation": "Inspection-service content emphasizes the pass/fail report; the new guide addresses what the free-weight buyer should document after a failure."
+    },
+    {
+      "name": "HQTS",
+      "url": "https://www.hqts.com/what-happens-if-pre-shipment-inspection-fails/",
+      "observation": "Industry coverage confirms recurring buyer concern about failed inspection; the new guide adds affected-scope tracing, rework-created risk and written release authority."
+    }
+  ],
+  "rejectedTopics": [
+    "RFQ comparison — dedicated commercial free-weight RFQ owner exists.",
+    "OEM sample approval — dedicated multilingual owner exists.",
+    "AQL and defect classification — dedicated multilingual owner exists.",
+    "Test-report verification — recent exact multilingual owner exists.",
+    "Tooling ownership — yesterday's exact multilingual owner is live."
+  ],
+  "siteGaps": [
+    "No page owns the failed inspection → release hold → affected scope → containment → disposition → cause → effectiveness → reinspection → written release workflow."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1888,
+    "repositoryPublishedVersionsReviewed": 1874,
+    "dedicatedArticleFound": false,
+    "nearestTopics": [
+      "pre-shipment inspection planning",
+      "AQL defect classification",
+      "OEM sample approval",
+      "reorder batch consistency",
+      "test-report verification"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO/IAF review of nonconformity",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/PDF%20APG%20New%20Disclaimer%2012-2023/ISO-TC%20176-TF_APG-ReviewNonconformity.pdf",
+      "primary": true,
+      "use": "Separates correction from corrective action and requires evidence of implementation and effectiveness."
+    },
+    {
+      "title": "Harbor Freight pre-shipping inspection guide",
+      "url": "https://images.harborfreight.com/hftweb/global-sourcing/Harbor-Freight-ETQ-Pre-shipping-Inspection-Guide.pdf",
+      "primary": true,
+      "use": "A public buyer manual showing impact analysis, containment, sorting, rework, replacement, cause review and reinspection as distinct decisions."
+    },
+    {
+      "title": "ASQ supplier corrective action overview",
+      "url": "https://asq.org/quality-progress/articles/healing-ways?id=a2fcf84867b641af82c8dc8904a5aafc",
+      "primary": false,
+      "use": "Supports the sequence from containment through root cause, implementation, effectiveness and closure."
+    },
+    {
+      "title": "ASQ Eight Disciplines problem solving",
+      "url": "https://asq.org/quality-press/display-item?item=H1621",
+      "primary": false,
+      "use": "Industry reference for team-based containment, cause and permanent corrective action."
+    },
+    {
+      "title": "Reddit manufacturing discussion on supplier-fix verification",
+      "url": "https://www.reddit.com/r/manufacturing/comments/1war4ox/how_do_you_verify_a_supplier_fix_on_a_part_that/",
+      "primary": false,
+      "use": "Buyer vocabulary and recurring verification concerns only; not used as technical proof."
+    },
+    {
+      "title": "Reddit discussion on documenting supplier errors",
+      "url": "https://www.reddit.com/r/iso9001/comments/1x0wemf/how_do_i_document_a_supplier_error_aside_from_a/",
+      "primary": false,
+      "use": "Public practitioner wording around supplier nonconformity records only; no factual claim relies on comments."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 26,
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "fr",
+      "de",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Does a failed sample mean the whole lot is defective?",
+      "Should the balance be paid after failure?",
+      "Who pays for reinspection?",
+      "Are supplier photos enough?",
+      "Can the buyer accept a deviation?",
+      "What if a supplier resists a second inspection?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "not-scheduled",
+    "reason": "2026-11-09 is Monday; the repository protocol reserves the weekly paid refresh for Sunday."
+  },
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on Quora.",
+    "Reddit was used only for buyer wording and recurring questions, never as technical or contractual proof.",
+    "No universal rule is claimed for payment, reinspection cost, deviation authority or supplier liability; signed terms control the commercial decision.",
+    "No customer, project, quantity, price, MOQ, lead time, test result, certification or factory performance claim is made.",
+    "Images are conceptual editorial scenes, not evidence of an actual order, failed lot, customer, inspection visit or factory event."
+  ]
+}

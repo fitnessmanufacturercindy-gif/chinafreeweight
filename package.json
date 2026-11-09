@@ -111,6 +111,8 @@
     "audit:free-weight-test-reports-rendered": "node scripts/verify-free-weight-test-report-verification-rendering.mjs",
     "audit:free-weight-tooling-agreement": "tsx scripts/audit-free-weight-tooling-agreement-guide.ts",
     "audit:free-weight-tooling-agreement-rendered": "node scripts/verify-free-weight-tooling-agreement-rendering.mjs",
+    "audit:free-weight-corrective-action": "tsx scripts/audit-free-weight-corrective-action-guide.ts",
+    "audit:free-weight-corrective-action-rendered": "node scripts/verify-free-weight-corrective-action-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

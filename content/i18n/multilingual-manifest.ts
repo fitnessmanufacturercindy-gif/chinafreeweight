@@ -78,6 +78,7 @@ import { withCableAttachmentWeldInspectionGuide } from "./cable-attachment-weld-
 import { withFixedDumbbellImpactValidationGuide } from "./fixed-dumbbell-impact-validation-guide";
 import { withFreeWeightTestReportVerificationGuide } from "./free-weight-test-report-verification-guide";
 import { withFreeWeightToolingAgreementGuide } from "./free-weight-tooling-agreement-guide";
+import { withFreeWeightCorrectiveActionGuide } from "./free-weight-corrective-action-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -248,7 +249,8 @@ const cableAttachmentWeldInspectionManifest = withCableAttachmentWeldInspectionG
 const fixedDumbbellImpactValidationManifest = withFixedDumbbellImpactValidationGuide(cableAttachmentWeldInspectionManifest);
 const freeWeightTestReportVerificationManifest = withFreeWeightTestReportVerificationGuide(fixedDumbbellImpactValidationManifest);
 const freeWeightToolingAgreementManifest = withFreeWeightToolingAgreementGuide(freeWeightTestReportVerificationManifest);
+const freeWeightCorrectiveActionManifest = withFreeWeightCorrectiveActionGuide(freeWeightToolingAgreementManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightToolingAgreementManifest
+  freeWeightCorrectiveActionManifest
 );
