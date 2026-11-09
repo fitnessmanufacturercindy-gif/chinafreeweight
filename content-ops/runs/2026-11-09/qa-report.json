@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-09",
+  "checkedAt": "2026-11-09T04:17:55.664Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-09-chinafreeweight-en-failed-inspection-corrective-action",
+      "locale": "en",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-pt-BR-failed-inspection-corrective-action",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-es-failed-inspection-corrective-action",
+      "locale": "es",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-fr-failed-inspection-corrective-action",
+      "locale": "fr",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-de-failed-inspection-corrective-action",
+      "locale": "de",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-sv-failed-inspection-corrective-action",
+      "locale": "sv",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-it-failed-inspection-corrective-action",
+      "locale": "it",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-nl-failed-inspection-corrective-action",
+      "locale": "nl",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-pl-failed-inspection-corrective-action",
+      "locale": "pl",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-vi-failed-inspection-corrective-action",
+      "locale": "vi",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-ar-failed-inspection-corrective-action",
+      "locale": "ar",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-ko-failed-inspection-corrective-action",
+      "locale": "ko",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-09-chinafreeweight-id-failed-inspection-corrective-action",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "structuralIndependence": 20,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "inquiryConversionValue": 15
+      },
+      "errors": []
+    }
+  ]
+}
