@@ -15,7 +15,9 @@ export async function verifyLocalizedGuideRendering(config) {
   const expectedH3Count = config.expectedH3Count ?? 5;
   const baseUrl = (process.env.BASE_URL || "http://127.0.0.1:3000").replace(/\/$/u, "");
   const load = (name) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "content", "i18n", name), "utf8"));
-  const copies = config.copyFiles.flatMap(load);
+  const copies = config.routes
+    ? config.routes.map(([locale, route]) => ({ locale, path: route }))
+    : config.copyFiles.flatMap(load);
   const routes = copies.map(({ locale, path: route }) => [locale, route]);
   const expectedAlternates = Object.fromEntries([
     ...routes.map(([locale, route]) => [hreflangByLocale[locale], `${siteUrl}${route}`]),

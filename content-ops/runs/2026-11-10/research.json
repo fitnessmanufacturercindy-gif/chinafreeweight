@@ -1,0 +1,1505 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-10",
+  "status": "complete",
+  "selectedTopic": "Wholesale free-weight warranty scope, claim evidence, spare-parts control and remedy routes",
+  "selectionReason": "High-intent post-delivery buyer problem with no dedicated live owner. Buyers need to classify freight damage, receipt nonconformity, warranty, wear and service; preserve usable evidence; define compatible parts; and write responsibility before a claim occurs.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "wholesale free weight warranty claims: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "wholesale free weight warranty claims: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "wholesale free weight warranty claims: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "wholesale free weight warranty claims: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "wholesale free weight warranty claims: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "wholesale free weight warranty claims: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "wholesale free weight warranty claims: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "wholesale free weight warranty claims: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "wholesale free weight warranty claims: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "wholesale free weight warranty claims: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "wholesale free weight warranty claims: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "wholesale free weight warranty claims: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "wholesale free weight warranty claims: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "wholesale free weight warranty claims: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "wholesale free weight warranty claims: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "garantia de pesos livres no atacado: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "garantia de pesos livres no atacado: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "garantia de pesos livres no atacado: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "garantia de pesos livres no atacado: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "garantia de pesos livres no atacado: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "garantia de pesos livres no atacado: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "garantia de pesos livres no atacado: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "garantia de pesos livres no atacado: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "garantia de pesos livres no atacado: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "garantia de pesos livres no atacado: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "garantia de pesos livres no atacado: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "garantia de pesos livres no atacado: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "garantia de pesos livres no atacado: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "garantia de pesos livres no atacado: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "garantia de pesos livres no atacado: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "garantía de pesas al por mayor: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "garantía de pesas al por mayor: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "garantía de pesas al por mayor: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "garantía de pesas al por mayor: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "garantía de pesas al por mayor: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "garantía de pesas al por mayor: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "garantía de pesas al por mayor: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "garantía de pesas al por mayor: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "garantía de pesas al por mayor: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "garantía de pesas al por mayor: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "garantía de pesas al por mayor: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "garantía de pesas al por mayor: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "garantía de pesas al por mayor: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "garantía de pesas al por mayor: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "garantía de pesas al por mayor: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Garantie Freihanteln Reklamation Ersatzteile: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "garantie poids libres réclamation pièces détachées: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "garantie poids libres réclamation pièces détachées: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "garantie poids libres réclamation pièces détachées: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "garantie poids libres réclamation pièces détachées: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "garantie poids libres réclamation pièces détachées: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "garantie poids libres réclamation pièces détachées: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "garantie poids libres réclamation pièces détachées: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "garantie poids libres réclamation pièces détachées: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "garantie poids libres réclamation pièces détachées: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "garantie poids libres réclamation pièces détachées: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "garantie poids libres réclamation pièces détachées: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "garantie poids libres réclamation pièces détachées: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "garantie poids libres réclamation pièces détachées: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "garantie poids libres réclamation pièces détachées: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "garantie poids libres réclamation pièces détachées: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "garanti fria vikter reklamation reservdelar: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "garanti fria vikter reklamation reservdelar: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "garanti fria vikter reklamation reservdelar: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "garanti fria vikter reklamation reservdelar: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "garanti fria vikter reklamation reservdelar: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "garanti fria vikter reklamation reservdelar: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "garanti fria vikter reklamation reservdelar: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "garanti fria vikter reklamation reservdelar: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "garanti fria vikter reklamation reservdelar: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "garanti fria vikter reklamation reservdelar: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "garanti fria vikter reklamation reservdelar: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "garanti fria vikter reklamation reservdelar: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "garanti fria vikter reklamation reservdelar: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "garanti fria vikter reklamation reservdelar: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "garanti fria vikter reklamation reservdelar: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "garanzia pesi liberi reclami ricambi: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "garanzia pesi liberi reclami ricambi: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "garanzia pesi liberi reclami ricambi: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "garanzia pesi liberi reclami ricambi: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "garanzia pesi liberi reclami ricambi: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "garanzia pesi liberi reclami ricambi: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "garanzia pesi liberi reclami ricambi: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "garanzia pesi liberi reclami ricambi: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "garanzia pesi liberi reclami ricambi: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "garanzia pesi liberi reclami ricambi: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "garanzia pesi liberi reclami ricambi: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "garanzia pesi liberi reclami ricambi: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "garanzia pesi liberi reclami ricambi: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "garanzia pesi liberi reclami ricambi: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "garanzia pesi liberi reclami ricambi: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "garantie vrije gewichten claims onderdelen: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "garantie vrije gewichten claims onderdelen: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "garantie vrije gewichten claims onderdelen: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "garantie vrije gewichten claims onderdelen: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "garantie vrije gewichten claims onderdelen: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "garantie vrije gewichten claims onderdelen: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "garantie vrije gewichten claims onderdelen: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "garantie vrije gewichten claims onderdelen: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "garantie vrije gewichten claims onderdelen: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "garantie vrije gewichten claims onderdelen: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "garantie vrije gewichten claims onderdelen: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "garantie vrije gewichten claims onderdelen: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "garantie vrije gewichten claims onderdelen: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "garantie vrije gewichten claims onderdelen: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "garantie vrije gewichten claims onderdelen: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "gwarancja wolne ciężary reklamacje części zamienne: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "ضمان الأوزان الحرة المطالبات قطع الغيار: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "프리웨이트 보증 클레임 교체 부품: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "프리웨이트 보증 클레임 교체 부품: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "프리웨이트 보증 클레임 교체 부품: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "프리웨이트 보증 클레임 교체 부품: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "프리웨이트 보증 클레임 교체 부품: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "프리웨이트 보증 클레임 교체 부품: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "프리웨이트 보증 클레임 교체 부품: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "프리웨이트 보증 클레임 교체 부품: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "프리웨이트 보증 클레임 교체 부품: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "프리웨이트 보증 클레임 교체 부품: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "프리웨이트 보증 클레임 교체 부품: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "프리웨이트 보증 클레임 교체 부품: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "프리웨이트 보증 클레임 교체 부품: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "프리웨이트 보증 클레임 교체 부품: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "프리웨이트 보증 클레임 교체 부품: after-sales terms in purchase orders",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "garansi free weight klaim suku cadang: warranty scope by SKU and use",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "garansi free weight klaim suku cadang: arrival damage versus warranty",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "garansi free weight klaim suku cadang: claim evidence checklist",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "garansi free weight klaim suku cadang: commercial-use coverage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "garansi free weight klaim suku cadang: spare-parts planning",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "garansi free weight klaim suku cadang: local repair authority",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "garansi free weight klaim suku cadang: freight and labor responsibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "garansi free weight klaim suku cadang: replacement versus credit",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "garansi free weight klaim suku cadang: revision compatibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "garansi free weight klaim suku cadang: discontinued products",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "garansi free weight klaim suku cadang: normal wear boundaries",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "garansi free weight klaim suku cadang: private-label claim ownership",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "garansi free weight klaim suku cadang: unsafe-item stop-use route",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "garansi free weight klaim suku cadang: complaint trend review",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "garansi free weight klaim suku cadang: after-sales terms in purchase orders",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "wholesale free weight warranty claims",
+      "questions": [
+        "What information is normally needed for a free-weight claim?",
+        "Is commercial gym use automatically covered?",
+        "Who pays freight, labor or replacement costs?",
+        "Can a distributor repair a dumbbell, bar or cable handle locally?",
+        "Can spare parts be ordered after coverage ends?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “wholesale free weight warranty claims” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “What information is normally needed for a free-weight claim?” and “Is commercial gym use automatically covered?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/resources/wholesale-free-weight-warranty-claims-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "garantia de pesos livres no atacado",
+      "questions": [
+        "Quais dados devo enviar numa reclamação?",
+        "Uso em academia está automaticamente coberto?",
+        "Quem paga frete, mão de obra e reposição?",
+        "O distribuidor pode reparar localmente?",
+        "Posso comprar peças depois do fim da cobertura?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garantia de pesos livres no atacado” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Quais dados devo enviar numa reclamação?” and “Uso em academia está automaticamente coberto?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/pt/blog/garantia-pesos-livres-atacado-reclamacoes-pecas"
+    },
+    "es": {
+      "targetKeyword": "garantía de pesas al por mayor",
+      "questions": [
+        "¿Qué información se necesita para un reclamo?",
+        "¿El uso en un gimnasio comercial está siempre cubierto?",
+        "¿Quién paga transporte, mano de obra o sustitución?",
+        "¿Puede el distribuidor reparar localmente?",
+        "¿Se pueden comprar repuestos después de la cobertura?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garantía de pesas al por mayor” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “¿Qué información se necesita para un reclamo?” and “¿El uso en un gimnasio comercial está siempre cubierto?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/es/blog/garantia-pesas-mayorista-reclamaciones-repuestos"
+    },
+    "de": {
+      "targetKeyword": "Garantie Freihanteln Reklamation Ersatzteile",
+      "questions": [
+        "Welche Angaben braucht eine Reklamation?",
+        "Ist gewerbliche Nutzung automatisch eingeschlossen?",
+        "Wer trägt Fracht und Arbeitszeit?",
+        "Darf der Händler vor Ort reparieren?",
+        "Sind Teile nach Ablauf weiter erhältlich?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “Garantie Freihanteln Reklamation Ersatzteile” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Welche Angaben braucht eine Reklamation?” and “Ist gewerbliche Nutzung automatisch eingeschlossen?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/de/blog/garantie-kraftgeraete-reklamation-ersatzteile"
+    },
+    "fr": {
+      "targetKeyword": "garantie poids libres réclamation pièces détachées",
+      "questions": [
+        "Quelles informations envoyer ?",
+        "L'usage en salle est-il toujours couvert ?",
+        "Qui paie transport et intervention ?",
+        "Une réparation locale est-elle possible ?",
+        "Peut-on acheter des pièces après la couverture ?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garantie poids libres réclamation pièces détachées” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Quelles informations envoyer ?” and “L'usage en salle est-il toujours couvert ?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/fr/blog/garantie-poids-libres-reclamation-pieces"
+    },
+    "sv": {
+      "targetKeyword": "garanti fria vikter reklamation reservdelar",
+      "questions": [
+        "Vilka uppgifter behövs?",
+        "Ingår kommersiellt gym automatiskt?",
+        "Vem betalar frakt och arbete?",
+        "Kan distributören reparera lokalt?",
+        "Kan delar köpas efter garantitiden?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garanti fria vikter reklamation reservdelar” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Vilka uppgifter behövs?” and “Ingår kommersiellt gym automatiskt?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/sv/blog/garanti-fria-vikter-reklamation-reservdelar"
+    },
+    "it": {
+      "targetKeyword": "garanzia pesi liberi reclami ricambi",
+      "questions": [
+        "Quali dati servono?",
+        "L'uso in palestra è sempre coperto?",
+        "Chi paga trasporto e manodopera?",
+        "Il distributore può riparare?",
+        "Si acquistano ricambi dopo la copertura?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garanzia pesi liberi reclami ricambi” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Quali dati servono?” and “L'uso in palestra è sempre coperto?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/it/blog/garanzia-pesi-liberi-reclami-ricambi"
+    },
+    "nl": {
+      "targetKeyword": "garantie vrije gewichten claims onderdelen",
+      "questions": [
+        "Welke gegevens zijn nodig?",
+        "Is commercieel gebruik automatisch gedekt?",
+        "Wie betaalt transport en arbeid?",
+        "Mag lokaal worden gerepareerd?",
+        "Zijn onderdelen later te koop?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garantie vrije gewichten claims onderdelen” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Welke gegevens zijn nodig?” and “Is commercieel gebruik automatisch gedekt?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/nl/blog/garantie-vrije-gewichten-claims-onderdelen"
+    },
+    "pl": {
+      "targetKeyword": "gwarancja wolne ciężary reklamacje części zamienne",
+      "questions": [
+        "Jakie dane są potrzebne?",
+        "Czy klub komercyjny jest zawsze objęty?",
+        "Kto płaci za transport i pracę?",
+        "Czy dystrybutor może naprawić lokalnie?",
+        "Czy części są dostępne po okresie?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “gwarancja wolne ciężary reklamacje części zamienne” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Jakie dane są potrzebne?” and “Czy klub komercyjny jest zawsze objęty?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/pl/blog/gwarancja-wolne-ciezary-reklamacje-czesci"
+    },
+    "vi": {
+      "targetKeyword": "bảo hành tạ tự do hồ sơ khiếu nại linh kiện",
+      "questions": [
+        "Cần gửi thông tin gì?",
+        "Dùng trong phòng tập có luôn được bảo hành?",
+        "Bên nào trả phí vận chuyển và sửa chữa?",
+        "Nhà phân phối có thể tự sửa không?",
+        "Có thể mua linh kiện sau thời hạn không?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “bảo hành tạ tự do hồ sơ khiếu nại linh kiện” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Cần gửi thông tin gì?” and “Dùng trong phòng tập có luôn được bảo hành?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/vi/blog/bao-hanh-ta-tu-do-ho-so-khieu-nai-linh-kien"
+    },
+    "ar": {
+      "targetKeyword": "ضمان الأوزان الحرة المطالبات قطع الغيار",
+      "questions": [
+        "ما المعلومات اللازمة؟",
+        "هل استخدام الصالة التجارية مغطى دائماً؟",
+        "من يدفع الشحن والعمل؟",
+        "هل يمكن للموزع الإصلاح محلياً؟",
+        "هل تتوفر القطع بعد انتهاء التغطية؟"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “ضمان الأوزان الحرة المطالبات قطع الغيار” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “ما المعلومات اللازمة؟” and “هل استخدام الصالة التجارية مغطى دائماً؟”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/ar/blog/warranty-free-weights-claims-spare-parts"
+    },
+    "ko": {
+      "targetKeyword": "프리웨이트 보증 클레임 교체 부품",
+      "questions": [
+        "어떤 정보를 보내야 하나요?",
+        "상업용 체육시설 사용은 항상 포함되나요?",
+        "운송비와 공임은 누가 부담하나요?",
+        "유통사가 현지 수리할 수 있나요?",
+        "기간 이후에도 부품을 살 수 있나요?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “프리웨이트 보증 클레임 교체 부품” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “어떤 정보를 보내야 하나요?” and “상업용 체육시설 사용은 항상 포함되나요?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/ko/blog/free-weight-warranty-claims-spare-parts"
+    },
+    "id": {
+      "targetKeyword": "garansi free weight klaim suku cadang",
+      "questions": [
+        "Informasi apa yang perlu dikirim?",
+        "Apakah pemakaian gym komersial selalu dicakup?",
+        "Siapa membayar pengiriman dan pekerjaan?",
+        "Bolehkah distributor memperbaiki lokal?",
+        "Bisakah komponen dibeli setelah periode?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “garansi free weight klaim suku cadang” and distinguishes delivery damage, order nonconformity, warranty, wear and service instead of translating one generic label.",
+        "Answers locally worded buyer questions including “Informasi apa yang perlu dikirim?” and “Apakah pemakaian gym komersial selalu dicakup?”, with market-appropriate distributor, commercial-use and proof-of-purchase context."
+      ],
+      "path": "/id/blog/garansi-free-weight-klaim-suku-cadang"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Jordan Fitness",
+      "url": "https://www.jordanfitness.com/warranty/",
+      "observation": "Public claim route asks for purchase identity and photographs and may use inspection, repair or replacement; the new guide turns those fields into an importer-side buying file without copying terms."
+    },
+    {
+      "name": "REP Fitness",
+      "url": "https://repfitness.com/pages/warranty-information",
+      "observation": "Public coverage differs by product and use. The new guide explains how wholesale buyers should define exact SKU, revision and use class before shipment."
+    },
+    {
+      "name": "Titan Commercial",
+      "url": "https://commercial.titanfitness.com/pages/return-warranty-policy",
+      "observation": "Commercial policy illustrates product-specific remedies and exclusions; the new guide adds freight-versus-warranty classification and OEM spare-part revision control."
+    }
+  ],
+  "rejectedTopics": [
+    "Container and pallet loading — overlaps the existing export-packaging and landed-cost owners.",
+    "Golden-sample approval — a dedicated multilingual owner exists.",
+    "Incoterms — the landed-cost guide owns that decision.",
+    "General RFQ comparison — a dedicated commercial RFQ owner exists.",
+    "Failed pre-shipment inspection — yesterday's corrective-action owner covers the pre-release workflow."
+  ],
+  "siteGaps": [
+    "No page owns the post-delivery route from event classification through evidence, coverage, remedy, compatible parts and complaint trend review."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1901,
+    "liveBlogUrlsReviewed": 1031,
+    "repositoryPublishedVersionsReviewed": 1887,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "pre-shipment inspection planning",
+      "failed inspection corrective action",
+      "test-report verification",
+      "reorder consistency",
+      "Olympic-bar maintenance",
+      "cable attachment compatibility"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 10002:2018 Quality management — Customer satisfaction — Guidelines for complaints handling",
+      "url": "https://www.iso.org/standard/71580.html",
+      "primary": true,
+      "use": "Primary framework for planning, operating, maintaining and improving a complaints-handling process; ISO records the standard as reviewed and confirmed in 2023."
+    },
+    {
+      "title": "Jordan Fitness warranty procedure",
+      "url": "https://www.jordanfitness.com/warranty/",
+      "primary": true,
+      "use": "Public manufacturer example showing order identification, photographs, inspection and repair-or-replacement routes; used only to observe process fields, never to claim ChinaFreeWeight terms."
+    },
+    {
+      "title": "REP Fitness warranty information",
+      "url": "https://repfitness.com/pages/warranty-information",
+      "primary": true,
+      "use": "Public product- and use-specific warranty structure demonstrating why coverage must be tied to item and usage instead of a universal headline."
+    },
+    {
+      "title": "Titan Commercial return and warranty policy",
+      "url": "https://commercial.titanfitness.com/pages/return-warranty-policy",
+      "primary": true,
+      "use": "Public commercial-equipment policy used to compare evidence and remedy vocabulary, not copied as contract language."
+    },
+    {
+      "title": "American Barbell warranty and liability information",
+      "url": "https://americanbarbell.com/pages/warranty-and-liability-information",
+      "primary": true,
+      "use": "Public manufacturer source confirming that product categories and use conditions lead to different written boundaries."
+    },
+    {
+      "title": "Reddit home-gym discussions about replacement parts and support",
+      "url": "https://www.reddit.com/r/homegym/search/?q=replacement%20parts%20warranty&restrict_sr=1",
+      "primary": false,
+      "use": "Used only to identify recurring buyer language around missing parts, worn finishes, damaged deliveries and slow support; no technical or contractual claim relies on comments."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 31,
+    "surfaces": [
+      "Google query loaded",
+      "Bing-visible indexed results",
+      "People Also Ask-style result questions",
+      "Reddit",
+      "Quora attempted but blocked",
+      "manufacturer policies",
+      "local-language market results"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "What information is needed for a warranty claim?",
+      "Is commercial use covered?",
+      "Who pays return freight and labor?",
+      "Can the distributor repair locally?",
+      "Can replacement parts be ordered outside coverage?",
+      "Does every delivery problem count as warranty?",
+      "How should potentially unsafe equipment be isolated?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "not-scheduled",
+    "reason": "2026-11-10 is Tuesday; the repository protocol reserves the weekly paid refresh for Sunday."
+  },
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on Quora.",
+    "The Google query page loaded, but accessibility extraction timed out; indexed public results were verified through the search service instead.",
+    "Reddit was used only for buyer wording and recurring questions, never as technical, legal or contractual proof.",
+    "No universal warranty duration, remedy, freight allocation, spare availability, response time or legal duty is claimed; written terms and applicable law control each order.",
+    "No customer, project, quantity, price, MOQ, lead time, test result, certification or factory-performance claim is made.",
+    "Images are conceptual editorial scenes, not evidence of an actual claim, customer, order, factory event, repair or spare-parts commitment."
+  ]
+}
