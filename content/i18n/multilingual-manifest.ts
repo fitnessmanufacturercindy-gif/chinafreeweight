@@ -79,6 +79,7 @@ import { withFixedDumbbellImpactValidationGuide } from "./fixed-dumbbell-impact-
 import { withFreeWeightTestReportVerificationGuide } from "./free-weight-test-report-verification-guide";
 import { withFreeWeightToolingAgreementGuide } from "./free-weight-tooling-agreement-guide";
 import { withFreeWeightCorrectiveActionGuide } from "./free-weight-corrective-action-guide";
+import { withFreeWeightWarrantyClaimsGuide } from "./free-weight-warranty-claims-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -250,7 +251,8 @@ const fixedDumbbellImpactValidationManifest = withFixedDumbbellImpactValidationG
 const freeWeightTestReportVerificationManifest = withFreeWeightTestReportVerificationGuide(fixedDumbbellImpactValidationManifest);
 const freeWeightToolingAgreementManifest = withFreeWeightToolingAgreementGuide(freeWeightTestReportVerificationManifest);
 const freeWeightCorrectiveActionManifest = withFreeWeightCorrectiveActionGuide(freeWeightToolingAgreementManifest);
+const freeWeightWarrantyClaimsManifest = withFreeWeightWarrantyClaimsGuide(freeWeightCorrectiveActionManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightCorrectiveActionManifest
+  freeWeightWarrantyClaimsManifest
 );
