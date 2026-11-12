@@ -115,6 +115,8 @@
     "audit:free-weight-corrective-action-rendered": "node scripts/verify-free-weight-corrective-action-rendering.mjs",
     "audit:free-weight-warranty-claims": "tsx scripts/audit-free-weight-warranty-claims-guide.ts",
     "audit:free-weight-warranty-claims-rendered": "node scripts/verify-free-weight-warranty-claims-rendering.mjs",
+    "audit:free-weight-container-loading": "tsx scripts/audit-free-weight-container-loading-guide.ts",
+    "audit:free-weight-container-loading-rendered": "node scripts/verify-free-weight-container-loading-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

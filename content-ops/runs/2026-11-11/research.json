@@ -1,0 +1,1510 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-11",
+  "status": "complete",
+  "selectedTopic": "Wholesale free-weight container quantity, mixed-SKU load planning, securing and unloading",
+  "selectionReason": "High-intent purchasing question with no dedicated live owner. Buyers repeatedly ask how many dumbbells or plates fit, whether weight or CBM binds, which container to book and what the supplier must provide before loading.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "wholesale free weight container loading plan: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "wholesale free weight container loading plan: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "wholesale free weight container loading plan: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "wholesale free weight container loading plan: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "wholesale free weight container loading plan: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "wholesale free weight container loading plan: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "wholesale free weight container loading plan: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "wholesale free weight container loading plan: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "wholesale free weight container loading plan: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "wholesale free weight container loading plan: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "wholesale free weight container loading plan: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "wholesale free weight container loading plan: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "wholesale free weight container loading plan: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "wholesale free weight container loading plan: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "wholesale free weight container loading plan: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "plano de carga de contêiner para pesos livres: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "plano de carga de contêiner para pesos livres: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "plano de carga de contêiner para pesos livres: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "plano de carga de contêiner para pesos livres: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "plano de carga de contêiner para pesos livres: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "plano de carga de contêiner para pesos livres: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "plano de carga de contêiner para pesos livres: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "plano de carga de contêiner para pesos livres: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "plano de carga de contêiner para pesos livres: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "plano de carga de contêiner para pesos livres: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "plano de carga de contêiner para pesos livres: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "plano de carga de contêiner para pesos livres: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "plano de carga de contêiner para pesos livres: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "plano de carga de contêiner para pesos livres: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "plano de carga de contêiner para pesos livres: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "plan de carga de contenedor de pesas: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "plan de carga de contenedor de pesas: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "plan de carga de contenedor de pesas: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "plan de carga de contenedor de pesas: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "plan de carga de contenedor de pesas: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "plan de carga de contenedor de pesas: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "plan de carga de contenedor de pesas: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "plan de carga de contenedor de pesas: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "plan de carga de contenedor de pesas: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "plan de carga de contenedor de pesas: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "plan de carga de contenedor de pesas: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "plan de carga de contenedor de pesas: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "plan de carga de contenedor de pesas: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "plan de carga de contenedor de pesas: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "plan de carga de contenedor de pesas: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Container-Beladeplan Hanteln Hantelscheiben: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "plan de chargement conteneur poids libres: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "plan de chargement conteneur poids libres: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "plan de chargement conteneur poids libres: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "plan de chargement conteneur poids libres: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "plan de chargement conteneur poids libres: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "plan de chargement conteneur poids libres: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "plan de chargement conteneur poids libres: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "plan de chargement conteneur poids libres: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "plan de chargement conteneur poids libres: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "plan de chargement conteneur poids libres: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "plan de chargement conteneur poids libres: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "plan de chargement conteneur poids libres: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "plan de chargement conteneur poids libres: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "plan de chargement conteneur poids libres: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "plan de chargement conteneur poids libres: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "lastplan container fria vikter: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "lastplan container fria vikter: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "lastplan container fria vikter: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "lastplan container fria vikter: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "lastplan container fria vikter: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "lastplan container fria vikter: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "lastplan container fria vikter: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "lastplan container fria vikter: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "lastplan container fria vikter: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "lastplan container fria vikter: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "lastplan container fria vikter: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "lastplan container fria vikter: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "lastplan container fria vikter: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "lastplan container fria vikter: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "lastplan container fria vikter: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "piano di carico container pesi liberi: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "piano di carico container pesi liberi: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "piano di carico container pesi liberi: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "piano di carico container pesi liberi: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "piano di carico container pesi liberi: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "piano di carico container pesi liberi: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "piano di carico container pesi liberi: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "piano di carico container pesi liberi: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "piano di carico container pesi liberi: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "piano di carico container pesi liberi: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "piano di carico container pesi liberi: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "piano di carico container pesi liberi: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "piano di carico container pesi liberi: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "piano di carico container pesi liberi: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "piano di carico container pesi liberi: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "container laadplan vrije gewichten: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "container laadplan vrije gewichten: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "container laadplan vrije gewichten: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "container laadplan vrije gewichten: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "container laadplan vrije gewichten: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "container laadplan vrije gewichten: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "container laadplan vrije gewichten: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "container laadplan vrije gewichten: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "container laadplan vrije gewichten: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "container laadplan vrije gewichten: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "container laadplan vrije gewichten: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "container laadplan vrije gewichten: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "container laadplan vrije gewichten: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "container laadplan vrije gewichten: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "container laadplan vrije gewichten: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "plan załadunku kontenera z wolnymi ciężarami: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kế hoạch xếp container tạ tay: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kế hoạch xếp container tạ tay: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kế hoạch xếp container tạ tay: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kế hoạch xếp container tạ tay: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kế hoạch xếp container tạ tay: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kế hoạch xếp container tạ tay: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kế hoạch xếp container tạ tay: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kế hoạch xếp container tạ tay: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kế hoạch xếp container tạ tay: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kế hoạch xếp container tạ tay: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kế hoạch xếp container tạ tay: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kế hoạch xếp container tạ tay: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kế hoạch xếp container tạ tay: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kế hoạch xếp container tạ tay: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kế hoạch xếp container tạ tay: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "خطة تحميل حاوية أوزان حرة: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "خطة تحميل حاوية أوزان حرة: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "خطة تحميل حاوية أوزان حرة: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "خطة تحميل حاوية أوزان حرة: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "خطة تحميل حاوية أوزان حرة: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "خطة تحميل حاوية أوزان حرة: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "خطة تحميل حاوية أوزان حرة: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "خطة تحميل حاوية أوزان حرة: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "خطة تحميل حاوية أوزان حرة: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "خطة تحميل حاوية أوزان حرة: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "خطة تحميل حاوية أوزان حرة: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "خطة تحميل حاوية أوزان حرة: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "خطة تحميل حاوية أوزان حرة: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "خطة تحميل حاوية أوزان حرة: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "خطة تحميل حاوية أوزان حرة: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "덤벨 컨테이너 적재 계획: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "덤벨 컨테이너 적재 계획: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "덤벨 컨테이너 적재 계획: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "덤벨 컨테이너 적재 계획: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "덤벨 컨테이너 적재 계획: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "덤벨 컨테이너 적재 계획: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "덤벨 컨테이너 적재 계획: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "덤벨 컨테이너 적재 계획: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "덤벨 컨테이너 적재 계획: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "덤벨 컨테이너 적재 계획: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "덤벨 컨테이너 적재 계획: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "덤벨 컨테이너 적재 계획: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "덤벨 컨테이너 적재 계획: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "덤벨 컨테이너 적재 계획: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "덤벨 컨테이너 적재 계획: load-plan fields for RFQ",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "rencana muat kontainer dumbbell: how many dumbbells fit a 20-foot container",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "rencana muat kontainer dumbbell: weight versus volume constraint",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "rencana muat kontainer dumbbell: mixed-SKU layer plan",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "rencana muat kontainer dumbbell: 20-foot versus 40-foot decision",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "rencana muat kontainer dumbbell: pallet versus floor loading",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "rencana muat kontainer dumbbell: gross weight and packaging tare",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "rencana muat kontainer dumbbell: load distribution",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "rencana muat kontainer dumbbell: cargo securing",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "rencana muat kontainer dumbbell: VGM responsibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "rencana muat kontainer dumbbell: receiver dock and forklift access",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "rencana muat kontainer dumbbell: multi-stop unloading",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "rencana muat kontainer dumbbell: long Olympic bar support",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "rencana muat kontainer dumbbell: container inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "rencana muat kontainer dumbbell: packing-list reconciliation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "rencana muat kontainer dumbbell: load-plan fields for RFQ",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "wholesale free weight container loading plan",
+      "questions": [
+        "How many dumbbells fit in a 20-foot container?",
+        "Are free weights limited by weight or volume?",
+        "Does a 40-foot high-cube reduce unit cost?",
+        "Should dumbbells and plates be palletized?",
+        "What should a supplier provide after loading?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “wholesale free weight container loading plan” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “How many dumbbells fit in a 20-foot container?” and “Are free weights limited by weight or volume?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/resources/how-many-dumbbells-fit-container-loading-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "plano de carga de contêiner para pesos livres",
+      "questions": [
+        "Quantos halteres cabem num contêiner de 20 pés?",
+        "Halteres e anilhas limitam por peso ou volume?",
+        "40 High Cube sempre reduz o frete unitário?",
+        "É melhor paletizar?",
+        "Que prova pedir depois da estufagem?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “plano de carga de contêiner para pesos livres” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Quantos halteres cabem num contêiner de 20 pés?” and “Halteres e anilhas limitam por peso ou volume?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/pt/blog/plano-carga-container-halteres-anilhas"
+    },
+    "es": {
+      "targetKeyword": "plan de carga de contenedor de pesas",
+      "questions": [
+        "¿Cuántas mancuernas caben en un contenedor de 20 pies?",
+        "¿Las pesas limitan por masa o por volumen?",
+        "¿Conviene siempre un 40 High Cube?",
+        "¿Palé o carga suelta?",
+        "¿Qué documentos deben quedar al cerrar puertas?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “plan de carga de contenedor de pesas” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “¿Cuántas mancuernas caben en un contenedor de 20 pies?” and “¿Las pesas limitan por masa o por volumen?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/es/blog/plan-carga-contenedor-mancuernas-discos"
+    },
+    "de": {
+      "targetKeyword": "Container-Beladeplan Hanteln Hantelscheiben",
+      "questions": [
+        "Wie viele Hanteln passen in einen 20-Fuß-Container?",
+        "Ist bei Freihanteln Masse oder Volumen der Engpass?",
+        "Ist High Cube immer günstiger je Stück?",
+        "Palette oder lose Kartons?",
+        "Welche Abschlussunterlagen werden benötigt?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “Container-Beladeplan Hanteln Hantelscheiben” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Wie viele Hanteln passen in einen 20-Fuß-Container?” and “Ist bei Freihanteln Masse oder Volumen der Engpass?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/de/blog/container-beladeplan-hanteln-hantelscheiben"
+    },
+    "fr": {
+      "targetKeyword": "plan de chargement conteneur poids libres",
+      "questions": [
+        "Combien d'haltères dans un conteneur de 20 pieds ?",
+        "La contrainte est-elle la masse ou le volume ?",
+        "Le 40 pieds High Cube coûte-t-il toujours moins par pièce ?",
+        "Faut-il palettiser ?",
+        "Que recevoir après fermeture ?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “plan de chargement conteneur poids libres” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Combien d'haltères dans un conteneur de 20 pieds ?” and “La contrainte est-elle la masse ou le volume ?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/fr/blog/plan-chargement-conteneur-halteres-disques"
+    },
+    "sv": {
+      "targetKeyword": "lastplan container fria vikter",
+      "questions": [
+        "Hur många hantlar ryms i en 20-fotscontainer?",
+        "Begränsar massa eller volym?",
+        "Är High Cube alltid billigare per enhet?",
+        "Ska fria vikter pallast?",
+        "Vad ska levereras efter lastning?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “lastplan container fria vikter” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Hur många hantlar ryms i en 20-fotscontainer?” and “Begränsar massa eller volym?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/sv/blogg/container-lastplan-hantlar-viktskivor"
+    },
+    "it": {
+      "targetKeyword": "piano di carico container pesi liberi",
+      "questions": [
+        "Quanti manubri entrano in un container da 20 piedi?",
+        "Il vincolo è peso o volume?",
+        "High Cube costa sempre meno per pezzo?",
+        "Meglio pallet o cartoni sfusi?",
+        "Quali prove dopo il carico?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “piano di carico container pesi liberi” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Quanti manubri entrano in un container da 20 piedi?” and “Il vincolo è peso o volume?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/it/blog/piano-carico-container-manubri-dischi"
+    },
+    "nl": {
+      "targetKeyword": "container laadplan vrije gewichten",
+      "questions": [
+        "Hoeveel dumbbells passen in een 20ft-container?",
+        "Is massa of volume het knelpunt?",
+        "Is High Cube altijd voordeliger?",
+        "Palletiseren of los laden?",
+        "Wat hoort na laden in het dossier?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “container laadplan vrije gewichten” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Hoeveel dumbbells passen in een 20ft-container?” and “Is massa of volume het knelpunt?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/nl/blog/container-laadplan-dumbbells-halterschijven"
+    },
+    "pl": {
+      "targetKeyword": "plan załadunku kontenera z wolnymi ciężarami",
+      "questions": [
+        "Ile hantli mieści kontener 20-stopowy?",
+        "Ogranicza masa czy objętość?",
+        "Czy High Cube zawsze obniża koszt sztuki?",
+        "Paleta czy luzem?",
+        "Co zebrać po załadunku?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “plan załadunku kontenera z wolnymi ciężarami” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Ile hantli mieści kontener 20-stopowy?” and “Ogranicza masa czy objętość?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/pl/blog/plan-zaladunku-kontenera-hantle-obciazenia"
+    },
+    "vi": {
+      "targetKeyword": "kế hoạch xếp container tạ tay",
+      "questions": [
+        "Container 20 feet chứa bao nhiêu tạ tay?",
+        "Lô hàng bị giới hạn bởi khối lượng hay thể tích?",
+        "High Cube luôn giảm chi phí mỗi chiếc không?",
+        "Nên dùng pallet hay xếp thùng rời?",
+        "Cần nhận gì sau khi đóng container?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “kế hoạch xếp container tạ tay” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Container 20 feet chứa bao nhiêu tạ tay?” and “Lô hàng bị giới hạn bởi khối lượng hay thể tích?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/vi/blog/ke-hoach-xep-container-ta-dia-tap"
+    },
+    "ar": {
+      "targetKeyword": "خطة تحميل حاوية أوزان حرة",
+      "questions": [
+        "كم قطعة دمبل تدخل حاوية 20 قدماً؟",
+        "هل القيد هو الوزن أم الحجم؟",
+        "هل الحاوية المرتفعة تقلل تكلفة القطعة دائماً؟",
+        "هل أستخدم المنصات أم الكراتين المفردة؟",
+        "ما الذي يجب استلامه بعد الإغلاق؟"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “خطة تحميل حاوية أوزان حرة” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “كم قطعة دمبل تدخل حاوية 20 قدماً؟” and “هل القيد هو الوزن أم الحجم؟”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/ar/blog/khottat-tahmil-hawia-dumbbell-plates"
+    },
+    "ko": {
+      "targetKeyword": "덤벨 컨테이너 적재 계획",
+      "questions": [
+        "20피트 컨테이너에 덤벨은 몇 개 들어가나요?",
+        "중량과 부피 중 무엇이 제한하나요?",
+        "하이큐브는 항상 개당 비용을 낮추나요?",
+        "팔레트와 바닥 적재 중 무엇이 낫나요?",
+        "적재 완료 뒤 무엇을 받아야 하나요?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “덤벨 컨테이너 적재 계획” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “20피트 컨테이너에 덤벨은 몇 개 들어가나요?” and “중량과 부피 중 무엇이 제한하나요?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/ko/blog/free-weight-container-loading-plan"
+    },
+    "id": {
+      "targetKeyword": "rencana muat kontainer dumbbell",
+      "questions": [
+        "Berapa dumbbell dalam kontainer 20 kaki?",
+        "Apakah muatan dibatasi berat atau volume?",
+        "Apakah High Cube selalu menurunkan biaya per unit?",
+        "Pallet atau muat langsung di lantai?",
+        "Apa yang harus diterima setelah kontainer ditutup?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “rencana muat kontainer dumbbell” and separates carton geometry, gross mass, securing and receiving access instead of translating one generic freight phrase.",
+        "Answers locally worded buyer questions including “Berapa dumbbell dalam kontainer 20 kaki?” and “Apakah muatan dibatasi berat atau volume?”, with market-appropriate importer, distributor and warehouse terminology."
+      ],
+      "path": "/id/blog/rencana-muat-kontainer-dumbbell-plate"
+    }
+  },
+  "competitors": [
+    {
+      "name": "LMCC Fitness",
+      "url": "https://lmccfitness.com/gym-equipment-container-loading.html",
+      "observation": "Uses equipment mix, several physical ceilings and unloading sequence. The new guide narrows the decision to dense free weights and removes reusable-looking universal counts."
+    },
+    {
+      "name": "Maviet Supplies",
+      "url": "https://mavietsupplies.com/packaging/",
+      "observation": "Presents carton, layer, gross-weight and CBM fields. The new guide adds route validation, VGM separation and receiver access."
+    },
+    {
+      "name": "BETTWISER",
+      "url": "https://bettwiser.com/wholesale.html",
+      "observation": "Shows SKU-specific carton and load assumptions. The new guide makes clear that one product table cannot be applied to a different model or mixed order."
+    }
+  ],
+  "rejectedTopics": [
+    "Export packaging protection — a dedicated multilingual owner already covers carton and pallet protection.",
+    "Landed cost — a dedicated multilingual owner covers financial cost composition.",
+    "General RFQ comparison — a dedicated commercial RFQ owner exists.",
+    "Golden-sample approval — a dedicated multilingual owner exists.",
+    "Failed pre-shipment inspection — the corrective-action owner covers the pre-release workflow."
+  ],
+  "siteGaps": [
+    "No page owns the operational route from final SKU mix through measured packaging, dual weight-and-geometry calculation, distribution, securing, VGM handoff and receiver unloading."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1914,
+    "liveBlogUrlsReviewed": 1044,
+    "repositoryPublishedVersionsReviewed": 1900,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "export packaging for dumbbells and plates",
+      "landed cost of wholesale free weights",
+      "commercial free-weight RFQ",
+      "pre-shipment inspection"
+    ]
+  },
+  "sources": [
+    {
+      "title": "IMO — Verification of the gross mass of a packed container",
+      "url": "https://www.imo.org/en/ourwork/safety/pages/verification-of-the-gross-mass.aspx",
+      "primary": true,
+      "use": "Primary source for the requirement that verified gross mass be available before vessel loading and for distinguishing a commercial load plan from VGM."
+    },
+    {
+      "title": "UNECE — IMO/ILO/UNECE Code of Practice for Packing of Cargo Transport Units",
+      "url": "https://unece.org/transport/intermodal-transport/ctu-code",
+      "primary": true,
+      "use": "Primary safety reference for cargo transport unit suitability, load distribution, packing and securing."
+    },
+    {
+      "title": "LMCC Fitness — Gym Equipment Container Loading",
+      "url": "https://lmccfitness.com/gym-equipment-container-loading.html",
+      "primary": false,
+      "use": "Competitor example reviewed for buyer-facing load-plan structure, equipment mix and unloading sequence; its numeric examples were not reused as free-weight promises."
+    },
+    {
+      "title": "Maviet Supplies — Packaging",
+      "url": "https://mavietsupplies.com/packaging/",
+      "primary": false,
+      "use": "Industry example showing that a container load plan can include unit count, cartons, layers, gross weight and CBM; figures were not copied."
+    },
+    {
+      "title": "BETTWISER — Wholesale and OEM adjustable dumbbells",
+      "url": "https://bettwiser.com/wholesale.html",
+      "primary": false,
+      "use": "Competitor page reviewed for how suppliers expose carton, gross-weight and container assumptions; no supplier number is treated as universal."
+    },
+    {
+      "title": "Reddit logistics discussions about dense container cargo",
+      "url": "https://www.reddit.com/r/logistics/search/?q=container%20weight%20volume&restrict_sr=1",
+      "primary": false,
+      "use": "Used only to identify recurring buyer language about weight versus CBM, chassis limits, dock access and load shift; no technical claim depends on comments."
+    },
+    {
+      "title": "Quora search for container loading questions",
+      "url": "https://www.quora.com/search?q=how%20many%20dumbbells%20fit%20in%20a%20container",
+      "primary": false,
+      "use": "Attempted question-surface review; automated access was blocked, so no factual statement depends on it."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 34,
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "People Also Ask-style result questions",
+      "Reddit",
+      "Quora attempted but blocked",
+      "industry sites",
+      "competitor sites",
+      "local-language market results"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "How many dumbbells fit in a 20-foot container?",
+      "Are free weights limited by weight or CBM?",
+      "Does a high-cube reduce cost per unit?",
+      "Should dense weights be palletized?",
+      "How should mixed SKUs be sequenced?",
+      "Who verifies gross mass?",
+      "What must the supplier send after loading?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "not-scheduled",
+    "reason": "2026-11-11 is Tuesday; the repository protocol reserves the weekly paid refresh for Sunday."
+  },
+  "limitations": [
+    "Quora pages were not used because automated verification was blocked; no claim depends on Quora.",
+    "Reddit was used only for buyer wording and recurring questions, never as technical, legal or operational proof.",
+    "Competitor and industry quantity tables were reviewed but not copied; each SKU, package, container and route must be recalculated.",
+    "No universal payload, unit count, cost advantage, road allowance or securing method is claimed; the booked equipment, carrier, port and inland route control.",
+    "No customer, project, quantity, price, MOQ, lead time, test result, certification or factory-performance claim is made.",
+    "Images are conceptual editorial scenes, not evidence of an actual customer shipment, factory event, transport approval or load outcome."
+  ]
+}
