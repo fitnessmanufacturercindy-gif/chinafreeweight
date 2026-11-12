@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-11",
+  "checkedAt": "2026-11-12T09:51:27.100Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-11-chinafreeweight-en-container-loading",
+      "locale": "en",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-pt-BR-container-loading",
+      "locale": "pt-BR",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-es-container-loading",
+      "locale": "es",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-de-container-loading",
+      "locale": "de",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-fr-container-loading",
+      "locale": "fr",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-sv-container-loading",
+      "locale": "sv",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-it-container-loading",
+      "locale": "it",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-nl-container-loading",
+      "locale": "nl",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-pl-container-loading",
+      "locale": "pl",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-vi-container-loading",
+      "locale": "vi",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-ar-container-loading",
+      "locale": "ar",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-ko-container-loading",
+      "locale": "ko",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-11-chinafreeweight-id-container-loading",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    }
+  ]
+}
