@@ -1,0 +1,1505 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-12",
+  "status": "complete",
+  "selectedTopic": "OEM free-weight supplier quality agreement: specifications, responsibility, change control and release evidence",
+  "selectionReason": "High-intent pre-production purchasing question with no dedicated live owner. Buyers need a usable interface between the commercial order, specification, approved sample, inspection, change request and release file.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "OEM free weight supplier quality agreement: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "OEM free weight supplier quality agreement: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "OEM free weight supplier quality agreement: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "OEM free weight supplier quality agreement: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "OEM free weight supplier quality agreement: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "OEM free weight supplier quality agreement: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "OEM free weight supplier quality agreement: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "OEM free weight supplier quality agreement: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "OEM free weight supplier quality agreement: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "OEM free weight supplier quality agreement: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "OEM free weight supplier quality agreement: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "OEM free weight supplier quality agreement: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "OEM free weight supplier quality agreement: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "OEM free weight supplier quality agreement: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "OEM free weight supplier quality agreement: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "acordo de qualidade fornecedor pesos livres OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "acuerdo de calidad proveedor pesas OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "acuerdo de calidad proveedor pesas OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "acuerdo de calidad proveedor pesas OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "acuerdo de calidad proveedor pesas OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "acuerdo de calidad proveedor pesas OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "acuerdo de calidad proveedor pesas OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "acuerdo de calidad proveedor pesas OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "acuerdo de calidad proveedor pesas OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "acuerdo de calidad proveedor pesas OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "acuerdo de calidad proveedor pesas OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "acuerdo de calidad proveedor pesas OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "acuerdo de calidad proveedor pesas OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "acuerdo de calidad proveedor pesas OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "acuerdo de calidad proveedor pesas OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "acuerdo de calidad proveedor pesas OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Qualitätssicherungsvereinbarung Hanteln OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "accord qualité fournisseur poids libres OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "accord qualité fournisseur poids libres OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "accord qualité fournisseur poids libres OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "accord qualité fournisseur poids libres OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "accord qualité fournisseur poids libres OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "accord qualité fournisseur poids libres OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "accord qualité fournisseur poids libres OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "accord qualité fournisseur poids libres OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "accord qualité fournisseur poids libres OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "accord qualité fournisseur poids libres OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "accord qualité fournisseur poids libres OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "accord qualité fournisseur poids libres OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "accord qualité fournisseur poids libres OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "accord qualité fournisseur poids libres OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "accord qualité fournisseur poids libres OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "kvalitetsavtal leverantör fria vikter OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "accordo qualità fornitore pesi liberi OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "accordo qualità fornitore pesi liberi OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "accordo qualità fornitore pesi liberi OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "accordo qualità fornitore pesi liberi OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "accordo qualità fornitore pesi liberi OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "accordo qualità fornitore pesi liberi OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "accordo qualità fornitore pesi liberi OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "accordo qualità fornitore pesi liberi OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "accordo qualità fornitore pesi liberi OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "accordo qualità fornitore pesi liberi OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "accordo qualità fornitore pesi liberi OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "accordo qualità fornitore pesi liberi OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "accordo qualità fornitore pesi liberi OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "accordo qualità fornitore pesi liberi OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "accordo qualità fornitore pesi liberi OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "kwaliteitsovereenkomst leverancier vrije gewichten OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "umowa jakościowa dostawca wolne ciężary OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "thỏa thuận chất lượng nhà cung cấp tạ OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "اتفاقية جودة مورد أوزان حرة OEM: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "OEM 프리웨이트 공급업체 품질 협약: RFQ quality annex",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "perjanjian kualitas pemasok free weight OEM: supplier quality agreement contents",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "perjanjian kualitas pemasok free weight OEM: specification hierarchy",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "perjanjian kualitas pemasok free weight OEM: approved sample status",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "perjanjian kualitas pemasok free weight OEM: buyer and factory responsibilities",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "perjanjian kualitas pemasok free weight OEM: subcontractor disclosure",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "perjanjian kualitas pemasok free weight OEM: change-notification route",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "perjanjian kualitas pemasok free weight OEM: temporary deviation authority",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "perjanjian kualitas pemasok free weight OEM: release evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "perjanjian kualitas pemasok free weight OEM: nonconformance disposition",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "perjanjian kualitas pemasok free weight OEM: corrective-action closure",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "perjanjian kualitas pemasok free weight OEM: tooling and artwork control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "perjanjian kualitas pemasok free weight OEM: packaging approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "perjanjian kualitas pemasok free weight OEM: importer obligations",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "perjanjian kualitas pemasok free weight OEM: document revision control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "perjanjian kualitas pemasok free weight OEM: RFQ quality annex",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "OEM free weight supplier quality agreement",
+      "questions": [
+        "Is a supplier quality agreement the same as a purchase contract?",
+        "Should every free-weight order use the same template?",
+        "Does an approved sample replace written specifications?",
+        "Who may approve a nonconforming shipment?",
+        "Can an OEM factory use subcontractors?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “OEM free weight supplier quality agreement” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Is a supplier quality agreement the same as a purchase contract?” and “Who may approve a nonconforming shipment?” instead of reusing one translated question set."
+      ],
+      "path": "/resources/oem-free-weight-supplier-quality-agreement-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "acordo de qualidade fornecedor pesos livres OEM",
+      "questions": [
+        "Acordo de qualidade é igual ao contrato de compra?",
+        "Todo pedido usa o mesmo modelo?",
+        "A amostra aprovada substitui a ficha técnica?",
+        "Quem aprova um embarque fora da especificação?",
+        "A fábrica pode terceirizar processos?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “acordo de qualidade fornecedor pesos livres OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Acordo de qualidade é igual ao contrato de compra?” and “Quem aprova um embarque fora da especificação?” instead of reusing one translated question set."
+      ],
+      "path": "/pt/blog/acordo-qualidade-fornecedor-pesos-livres"
+    },
+    "es": {
+      "targetKeyword": "acuerdo de calidad proveedor pesas OEM",
+      "questions": [
+        "¿Es igual al contrato de compra?",
+        "¿Sirve una única plantilla para todos los productos?",
+        "¿La muestra aprobada sustituye la ficha?",
+        "¿Quién autoriza un envío no conforme?",
+        "¿Puede la fábrica subcontratar?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “acuerdo de calidad proveedor pesas OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “¿Es igual al contrato de compra?” and “¿Quién autoriza un envío no conforme?” instead of reusing one translated question set."
+      ],
+      "path": "/es/blog/acuerdo-calidad-proveedor-pesas-oem"
+    },
+    "de": {
+      "targetKeyword": "Qualitätssicherungsvereinbarung Hanteln OEM",
+      "questions": [
+        "Ist die QSV der Liefervertrag?",
+        "Passt dieselbe Vorlage für jedes Freigewicht?",
+        "Ersetzt das Freigabemuster die Zeichnung?",
+        "Wer darf abweichende Ware freigeben?",
+        "Darf das Werk Unterlieferanten einsetzen?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “Qualitätssicherungsvereinbarung Hanteln OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Ist die QSV der Liefervertrag?” and “Wer darf abweichende Ware freigeben?” instead of reusing one translated question set."
+      ],
+      "path": "/de/blog/qualitaetssicherungsvereinbarung-hanteln-gewichte"
+    },
+    "fr": {
+      "targetKeyword": "accord qualité fournisseur poids libres OEM",
+      "questions": [
+        "L'accord qualité est-il le contrat d'achat ?",
+        "Une seule trame suffit-elle pour tous les produits ?",
+        "L'échantillon approuvé remplace-t-il la spécification ?",
+        "Qui autorise une expédition dérogatoire ?",
+        "L'usine peut-elle sous-traiter ?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “accord qualité fournisseur poids libres OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “L'accord qualité est-il le contrat d'achat ?” and “Qui autorise une expédition dérogatoire ?” instead of reusing one translated question set."
+      ],
+      "path": "/fr/blog/accord-qualite-fournisseur-poids-libres"
+    },
+    "sv": {
+      "targetKeyword": "kvalitetsavtal leverantör fria vikter OEM",
+      "questions": [
+        "Är kvalitetsavtalet samma som leveransavtalet?",
+        "Kan samma mall användas för alla vikter?",
+        "Ersätter referensprovet specifikationen?",
+        "Vem får godkänna en avvikande leverans?",
+        "Får fabriken använda underleverantörer?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “kvalitetsavtal leverantör fria vikter OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Är kvalitetsavtalet samma som leveransavtalet?” and “Vem får godkänna en avvikande leverans?” instead of reusing one translated question set."
+      ],
+      "path": "/sv/blogg/kvalitetsavtal-leverantor-fria-vikter"
+    },
+    "it": {
+      "targetKeyword": "accordo qualità fornitore pesi liberi OEM",
+      "questions": [
+        "L'accordo qualità è il contratto di acquisto?",
+        "La stessa matrice vale per ogni prodotto?",
+        "Il campione sostituisce il capitolato?",
+        "Chi approva merce fuori specifica?",
+        "La fabbrica può subappaltare?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “accordo qualità fornitore pesi liberi OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “L'accordo qualità è il contratto di acquisto?” and “Chi approva merce fuori specifica?” instead of reusing one translated question set."
+      ],
+      "path": "/it/blog/accordo-qualita-fornitore-pesi-oem"
+    },
+    "nl": {
+      "targetKeyword": "kwaliteitsovereenkomst leverancier vrije gewichten OEM",
+      "questions": [
+        "Is dit hetzelfde als het inkoopcontract?",
+        "Past één sjabloon op elk product?",
+        "Vervangt een goedgekeurd monster de specificatie?",
+        "Wie mag afwijkende goederen vrijgeven?",
+        "Mag de fabriek werk uitbesteden?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “kwaliteitsovereenkomst leverancier vrije gewichten OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Is dit hetzelfde als het inkoopcontract?” and “Wie mag afwijkende goederen vrijgeven?” instead of reusing one translated question set."
+      ],
+      "path": "/nl/blog/kwaliteitsovereenkomst-leverancier-vrije-gewichten"
+    },
+    "pl": {
+      "targetKeyword": "umowa jakościowa dostawca wolne ciężary OEM",
+      "questions": [
+        "Czy umowa jakościowa jest umową zakupu?",
+        "Czy jeden wzór pasuje do wszystkich wyrobów?",
+        "Czy próbka zastępuje specyfikację?",
+        "Kto może zatwierdzić niezgodną wysyłkę?",
+        "Czy fabryka może korzystać z podwykonawców?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “umowa jakościowa dostawca wolne ciężary OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Czy umowa jakościowa jest umową zakupu?” and “Kto może zatwierdzić niezgodną wysyłkę?” instead of reusing one translated question set."
+      ],
+      "path": "/pl/blog/umowa-jakosciowa-dostawca-wolne-ciezary"
+    },
+    "vi": {
+      "targetKeyword": "thỏa thuận chất lượng nhà cung cấp tạ OEM",
+      "questions": [
+        "Thỏa thuận chất lượng có phải hợp đồng mua bán không?",
+        "Một mẫu dùng được cho mọi sản phẩm không?",
+        "Mẫu duyệt có thay được quy cách không?",
+        "Vai trò nào được duyệt hàng sai lệch?",
+        "Nhà máy có thể thuê ngoài không?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “thỏa thuận chất lượng nhà cung cấp tạ OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Thỏa thuận chất lượng có phải hợp đồng mua bán không?” and “Vai trò nào được duyệt hàng sai lệch?” instead of reusing one translated question set."
+      ],
+      "path": "/vi/blog/thoa-thuan-chat-luong-nha-cung-cap-ta"
+    },
+    "ar": {
+      "targetKeyword": "اتفاقية جودة مورد أوزان حرة OEM",
+      "questions": [
+        "هل اتفاقية الجودة هي عقد الشراء؟",
+        "هل يصلح نموذج واحد لكل المنتجات؟",
+        "هل تستبدل العينة المواصفة؟",
+        "من يوافق على شحنة غير مطابقة؟",
+        "هل يجوز للمصنع استخدام موردين فرعيين؟"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “اتفاقية جودة مورد أوزان حرة OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “هل اتفاقية الجودة هي عقد الشراء؟” and “من يوافق على شحنة غير مطابقة؟” instead of reusing one translated question set."
+      ],
+      "path": "/ar/blog/ittifaqiyat-jawdat-muwarrid-awzan-hurra"
+    },
+    "ko": {
+      "targetKeyword": "OEM 프리웨이트 공급업체 품질 협약",
+      "questions": [
+        "품질 협약은 구매 계약과 같은가요?",
+        "모든 제품에 같은 양식을 써도 되나요?",
+        "승인 샘플이 사양서를 대신하나요?",
+        "부적합 출하는 누가 승인하나요?",
+        "공장이 외주 공정을 사용할 수 있나요?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “OEM 프리웨이트 공급업체 품질 협약” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “품질 협약은 구매 계약과 같은가요?” and “부적합 출하는 누가 승인하나요?” instead of reusing one translated question set."
+      ],
+      "path": "/ko/blog/oem-free-weight-supplier-quality-agreement"
+    },
+    "id": {
+      "targetKeyword": "perjanjian kualitas pemasok free weight OEM",
+      "questions": [
+        "Apakah perjanjian kualitas sama dengan kontrak pembelian?",
+        "Bisakah satu template dipakai untuk semua produk?",
+        "Apakah sampel menggantikan spesifikasi?",
+        "Siapa boleh menyetujui barang menyimpang?",
+        "Bolehkah pabrik memakai subkontraktor?"
+      ],
+      "evidence": [
+        "Uses the local purchasing expression “perjanjian kualitas pemasok free weight OEM” and the market's normal terms for specification, release, deviation, subcontracting and importer responsibility.",
+        "Answers locally phrased buyer questions including “Apakah perjanjian kualitas sama dengan kontrak pembelian?” and “Siapa boleh menyetujui barang menyimpang?” instead of reusing one translated question set."
+      ],
+      "path": "/id/blog/perjanjian-kualitas-pemasok-free-weight"
+    }
+  },
+  "competitors": [
+    {
+      "name": "XRI Fitness",
+      "url": "https://xirifitness.com/quality-control/",
+      "observation": "Generic quality-control positioning was reviewed. It does not own the buyer's agreement structure, document priority or authorization route."
+    },
+    {
+      "name": "Dongli Fitness",
+      "url": "https://www.donglifitness.com/oem-odm/",
+      "observation": "OEM workflow positioning was reviewed. The new guide narrows the topic to the written buyer-factory quality interface without treating marketing process claims as evidence."
+    },
+    {
+      "name": "Chahang Fitness",
+      "url": "https://www.chahangfitness.com/quality-control/",
+      "observation": "Supplier quality-control language was reviewed for common market wording; no factory claim or numerical promise was reused."
+    }
+  ],
+  "rejectedTopics": [
+    "Factory audit — a dedicated multilingual factory-evaluation guide already owns the intent.",
+    "Incoterms and landed cost — existing guides already own commercial and logistics cost intent.",
+    "Failed inspection — a dedicated corrective-action guide owns post-inspection containment and disposition.",
+    "Warranty claims — a dedicated multilingual owner covers field-claim evidence and recurrence control.",
+    "Container planning — the prior run already owns quantity, mass, geometry, securing and unloading."
+  ],
+  "siteGaps": [
+    "No page owned the pre-production relationship among document hierarchy, approved product baseline, responsibility matrix, outsourced processes, change approval, release evidence and limited deviation authority."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1927,
+    "repositoryPublishedVersionsReviewed": 1913,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "OEM free-weight sample approval",
+      "free-weight AQL defect classification",
+      "failed-inspection corrective action",
+      "warranty claims workflow",
+      "test-report verification",
+      "tooling ownership agreement"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 9001 Auditing Practices Group — External Providers",
+      "url": "https://committee.iso.org/files/live/sites/tc176/files/documents/ISO%209001%20Auditing%20Practices%20Group%20docs/Auditing%20to%20ISO%209001%202015/APG-ExternalProviders2015.pdf",
+      "primary": true,
+      "use": "Authoritative guidance for defining external-provider criteria, monitoring, verification and risk-based controls without claiming that one template fits every supplier."
+    },
+    {
+      "title": "ISO — Quality management systems",
+      "url": "https://www.iso.org/standard/62085.html",
+      "primary": true,
+      "use": "Official standards page checked for edition status; the article avoids asserting a universal clause set or unverified certification."
+    },
+    {
+      "title": "TÜV SÜD — Vendor quality management requirements",
+      "url": "https://www.tuvsud.com/en-gb/-/media/regions/uk/pdf-files/industries/cps/tqmgent02-v30--september-2022-final.pdf",
+      "primary": true,
+      "use": "Industry example for product and process requirements, outsourced processes, monitoring and acceptance interfaces between vendor and OEM or ODM supplier."
+    },
+    {
+      "title": "China-Britain Business Council — Preparing for Trade with China",
+      "url": "https://www.cbbc.org/sites/default/files/2021-01/CBBC-China-Business-Guide-Preparing-for-Trade-with-China_1.pdf",
+      "primary": false,
+      "use": "Cross-border sourcing guidance reviewed for written technical, quality, acceptance, configuration, tooling, packaging and nonconformance terms."
+    },
+    {
+      "title": "Reddit manufacturing discussion — restrictions on subcontracting work",
+      "url": "https://www.reddit.com/r/manufacturing/",
+      "primary": false,
+      "use": "Used only to identify buyer wording around undisclosed subcontracting, change requests and approval authority; no technical or legal claim depends on comments."
+    },
+    {
+      "title": "Quora supplier quality agreement question surface",
+      "url": "https://www.quora.com/search?q=supplier%20quality%20agreement%20manufacturer",
+      "primary": false,
+      "use": "Attempted question-surface review; direct automated access was blocked, so no factual statement depends on it."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 36,
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "People Also Ask-style questions",
+      "Reddit",
+      "Quora attempted but blocked",
+      "industry guidance",
+      "competitor sites",
+      "local-language market results"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "What belongs in a supplier quality agreement?",
+      "Does an approved sample replace the specification?",
+      "Who approves a deviation?",
+      "Must subcontractors be disclosed?",
+      "How should engineering changes be approved?",
+      "What release evidence should the supplier provide?",
+      "Is the quality agreement the same as the purchase contract?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "not-scheduled",
+    "reason": "2026-11-12 is Thursday; the repository protocol reserves the weekly paid refresh for Sunday."
+  },
+  "limitations": [
+    "Quora pages were not used because direct automated verification was blocked; no claim depends on Quora.",
+    "Reddit was used only for buyer language and recurring concerns, never as technical or legal proof.",
+    "The guide is a procurement and manufacturing interface, not legal advice or a claim that one template is enforceable in every jurisdiction.",
+    "No universal response period, remedy, audit right, certification or compliance result is claimed.",
+    "No customer, project, quantity, price, MOQ, lead time, test result, certification or factory-performance claim is made.",
+    "Images are conceptual editorial scenes, not evidence of an actual agreement, customer order, factory event, inspection or release decision."
+  ]
+}

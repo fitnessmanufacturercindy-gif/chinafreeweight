@@ -117,6 +117,8 @@
     "audit:free-weight-warranty-claims-rendered": "node scripts/verify-free-weight-warranty-claims-rendering.mjs",
     "audit:free-weight-container-loading": "tsx scripts/audit-free-weight-container-loading-guide.ts",
     "audit:free-weight-container-loading-rendered": "node scripts/verify-free-weight-container-loading-rendering.mjs",
+    "audit:free-weight-quality-agreement": "tsx scripts/audit-free-weight-quality-agreement-guide.ts",
+    "audit:free-weight-quality-agreement-rendered": "node scripts/verify-free-weight-quality-agreement-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",
