@@ -447,28 +447,38 @@ async function checkMobile(browser, urls) {
     viewport: { width: 390, height: 844 },
     isMobile: true
   });
-  const page = await mobileContext.newPage();
   for (const url of urls.slice(0, 12)) {
-    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 }).catch((error) => {
-      issues.push(issue("High", "mobile", url, `Mobile navigation failed: ${error.message}`));
-    });
-    await page.waitForLoadState("networkidle", { timeout: MOBILE_IDLE_TIMEOUT_MS }).catch(() => {});
-    const layout = await page.evaluate(() => ({
-      scrollWidth: document.documentElement.scrollWidth,
-      clientWidth: document.documentElement.clientWidth,
-      hasMobileMenu: Boolean(document.querySelector(".mobile-nav-menu")),
-      mobileMenuOpen: document.querySelector(".mobile-nav-menu")?.hasAttribute("open") || false
-    }));
-    if (layout.scrollWidth > layout.clientWidth + 24) {
-      issues.push(issue("High", "mobile", url, `Mobile layout has horizontal overflow (${layout.scrollWidth}px > ${layout.clientWidth}px)`));
-    }
-    if (url.endsWith("/") && layout.hasMobileMenu) {
-      const summary = page.locator(".mobile-nav-menu summary").first();
-      await summary.click({ force: true }).catch(() => issues.push(issue("High", "navigation", url, "Mobile menu could not be opened")));
-      const opened = await page.locator(".mobile-nav-menu[open]").count();
-      await summary.click({ force: true }).catch(() => issues.push(issue("Medium", "navigation", url, "Mobile menu could not be closed")));
-      const closed = await page.locator(".mobile-nav-menu[open]").count();
-      if (!opened || closed) issues.push(issue("High", "navigation", url, "Mobile menu open/close state is not working"));
+    const page = await mobileContext.newPage();
+    try {
+      const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+      if (!response || response.status() >= 400) {
+        issues.push(issue("High", "mobile", url, `Mobile navigation returned ${response?.status() || "no response"}`));
+        continue;
+      }
+
+      await page.waitForLoadState("networkidle", { timeout: MOBILE_IDLE_TIMEOUT_MS }).catch(() => {});
+      await page.waitForTimeout(250);
+      const layout = await page.evaluate(() => ({
+        scrollWidth: document.documentElement.scrollWidth,
+        clientWidth: document.documentElement.clientWidth,
+        hasMobileMenu: Boolean(document.querySelector(".mobile-nav-menu")),
+        mobileMenuOpen: document.querySelector(".mobile-nav-menu")?.hasAttribute("open") || false
+      }));
+      if (layout.scrollWidth > layout.clientWidth + 24) {
+        issues.push(issue("High", "mobile", url, `Mobile layout has horizontal overflow (${layout.scrollWidth}px > ${layout.clientWidth}px)`));
+      }
+      if (url.endsWith("/") && layout.hasMobileMenu) {
+        const summary = page.locator(".mobile-nav-menu summary").first();
+        await summary.click({ force: true }).catch(() => issues.push(issue("High", "navigation", url, "Mobile menu could not be opened")));
+        const opened = await page.locator(".mobile-nav-menu[open]").count();
+        await summary.click({ force: true }).catch(() => issues.push(issue("Medium", "navigation", url, "Mobile menu could not be closed")));
+        const closed = await page.locator(".mobile-nav-menu[open]").count();
+        if (!opened || closed) issues.push(issue("High", "navigation", url, "Mobile menu open/close state is not working"));
+      }
+    } catch (error) {
+      issues.push(issue("High", "mobile", url, `Mobile inspection failed: ${error.message}`));
+    } finally {
+      await page.close().catch(() => {});
     }
   }
   await mobileContext.close();
