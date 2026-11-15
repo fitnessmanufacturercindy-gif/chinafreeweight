@@ -119,6 +119,8 @@
     "audit:free-weight-container-loading-rendered": "node scripts/verify-free-weight-container-loading-rendering.mjs",
     "audit:free-weight-quality-agreement": "tsx scripts/audit-free-weight-quality-agreement-guide.ts",
     "audit:free-weight-quality-agreement-rendered": "node scripts/verify-free-weight-quality-agreement-rendering.mjs",
+    "audit:bumper-plate-cracks": "tsx scripts/audit-bumper-plate-crack-guide.ts",
+    "audit:bumper-plate-cracks-rendered": "node scripts/verify-bumper-plate-crack-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

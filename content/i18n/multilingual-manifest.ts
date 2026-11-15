@@ -82,6 +82,7 @@ import { withFreeWeightCorrectiveActionGuide } from "./free-weight-corrective-ac
 import { withFreeWeightWarrantyClaimsGuide } from "./free-weight-warranty-claims-guide";
 import { withFreeWeightContainerLoadingGuide } from "./free-weight-container-loading-guide";
 import { withFreeWeightQualityAgreementGuide } from "./free-weight-quality-agreement-guide";
+import { withBumperPlateCrackGuide } from "./bumper-plate-crack-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -256,7 +257,8 @@ const freeWeightCorrectiveActionManifest = withFreeWeightCorrectiveActionGuide(f
 const freeWeightWarrantyClaimsManifest = withFreeWeightWarrantyClaimsGuide(freeWeightCorrectiveActionManifest);
 const freeWeightContainerLoadingManifest = withFreeWeightContainerLoadingGuide(freeWeightWarrantyClaimsManifest);
 const freeWeightQualityAgreementManifest = withFreeWeightQualityAgreementGuide(freeWeightContainerLoadingManifest);
+const bumperPlateCrackManifest = withBumperPlateCrackGuide(freeWeightQualityAgreementManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightQualityAgreementManifest
+  bumperPlateCrackManifest
 );
