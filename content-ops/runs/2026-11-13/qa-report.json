@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-13",
+  "checkedAt": "2026-11-15T04:13:09.322Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-13-chinafreeweight-en-bumper-crack-inspection",
+      "locale": "en",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-pt-BR-bumper-crack-inspection",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-es-bumper-crack-inspection",
+      "locale": "es",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-de-bumper-crack-inspection",
+      "locale": "de",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-fr-bumper-crack-inspection",
+      "locale": "fr",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-sv-bumper-crack-inspection",
+      "locale": "sv",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-it-bumper-crack-inspection",
+      "locale": "it",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-nl-bumper-crack-inspection",
+      "locale": "nl",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-pl-bumper-crack-inspection",
+      "locale": "pl",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-vi-bumper-crack-inspection",
+      "locale": "vi",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-ar-bumper-crack-inspection",
+      "locale": "ar",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-ko-bumper-crack-inspection",
+      "locale": "ko",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-13-chinafreeweight-id-bumper-crack-inspection",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 85,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 0,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    }
+  ]
+}

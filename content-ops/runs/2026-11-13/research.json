@@ -1,0 +1,1502 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-13",
+  "status": "complete",
+  "selectedTopic": "Bumper plate cracks, edge splits and rubber shedding: buyer inspection and lot-decision guide",
+  "selectionReason": "Repeated buyer questions have high receiving-inspection and supplier-claim intent, while the live site had no dedicated page owning body cracks, edge splits, shedding and evidence-based lot mapping.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "bumper plate crack inspection: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "bumper plate crack inspection: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "bumper plate crack inspection: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "bumper plate crack inspection: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "bumper plate crack inspection: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "bumper plate crack inspection: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "bumper plate crack inspection: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "bumper plate crack inspection: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "bumper plate crack inspection: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "bumper plate crack inspection: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "bumper plate crack inspection: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "bumper plate crack inspection: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "bumper plate crack inspection: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "bumper plate crack inspection: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "bumper plate crack inspection: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "inspeção de trincas em anilha bumper: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "inspeção de trincas em anilha bumper: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "inspeção de trincas em anilha bumper: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "inspeção de trincas em anilha bumper: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "inspeção de trincas em anilha bumper: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "inspeção de trincas em anilha bumper: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "inspeção de trincas em anilha bumper: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "inspeção de trincas em anilha bumper: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "inspeção de trincas em anilha bumper: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "inspeção de trincas em anilha bumper: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "inspeção de trincas em anilha bumper: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "inspeção de trincas em anilha bumper: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "inspeção de trincas em anilha bumper: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "inspeção de trincas em anilha bumper: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "inspeção de trincas em anilha bumper: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "inspección de grietas en discos bumper: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "inspección de grietas en discos bumper: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "inspección de grietas en discos bumper: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "inspección de grietas en discos bumper: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "inspección de grietas en discos bumper: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "inspección de grietas en discos bumper: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "inspección de grietas en discos bumper: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "inspección de grietas en discos bumper: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "inspección de grietas en discos bumper: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "inspección de grietas en discos bumper: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "inspección de grietas en discos bumper: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "inspección de grietas en discos bumper: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "inspección de grietas en discos bumper: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "inspección de grietas en discos bumper: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "inspección de grietas en discos bumper: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Bumper Plate Risse prüfen: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Bumper Plate Risse prüfen: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Bumper Plate Risse prüfen: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Bumper Plate Risse prüfen: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Bumper Plate Risse prüfen: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Bumper Plate Risse prüfen: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Bumper Plate Risse prüfen: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Bumper Plate Risse prüfen: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Bumper Plate Risse prüfen: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Bumper Plate Risse prüfen: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Bumper Plate Risse prüfen: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Bumper Plate Risse prüfen: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Bumper Plate Risse prüfen: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Bumper Plate Risse prüfen: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Bumper Plate Risse prüfen: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "contrôle fissures bumper plates: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "contrôle fissures bumper plates: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "contrôle fissures bumper plates: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "contrôle fissures bumper plates: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "contrôle fissures bumper plates: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "contrôle fissures bumper plates: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "contrôle fissures bumper plates: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "contrôle fissures bumper plates: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "contrôle fissures bumper plates: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "contrôle fissures bumper plates: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "contrôle fissures bumper plates: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "contrôle fissures bumper plates: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "contrôle fissures bumper plates: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "contrôle fissures bumper plates: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "contrôle fissures bumper plates: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "kontroll av sprickor i bumpervikter: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "kontroll av sprickor i bumpervikter: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "kontroll av sprickor i bumpervikter: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "kontroll av sprickor i bumpervikter: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "kontroll av sprickor i bumpervikter: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "kontroll av sprickor i bumpervikter: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "kontroll av sprickor i bumpervikter: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "kontroll av sprickor i bumpervikter: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "kontroll av sprickor i bumpervikter: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "kontroll av sprickor i bumpervikter: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "kontroll av sprickor i bumpervikter: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "kontroll av sprickor i bumpervikter: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "kontroll av sprickor i bumpervikter: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "kontroll av sprickor i bumpervikter: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "kontroll av sprickor i bumpervikter: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "ispezione crepe bumper plate: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "ispezione crepe bumper plate: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "ispezione crepe bumper plate: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "ispezione crepe bumper plate: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "ispezione crepe bumper plate: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "ispezione crepe bumper plate: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "ispezione crepe bumper plate: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "ispezione crepe bumper plate: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "ispezione crepe bumper plate: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "ispezione crepe bumper plate: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "ispezione crepe bumper plate: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "ispezione crepe bumper plate: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "ispezione crepe bumper plate: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "ispezione crepe bumper plate: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "ispezione crepe bumper plate: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "bumper plate scheuren inspecteren: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "bumper plate scheuren inspecteren: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "bumper plate scheuren inspecteren: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "bumper plate scheuren inspecteren: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "bumper plate scheuren inspecteren: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "bumper plate scheuren inspecteren: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "bumper plate scheuren inspecteren: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "bumper plate scheuren inspecteren: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "bumper plate scheuren inspecteren: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "bumper plate scheuren inspecteren: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "bumper plate scheuren inspecteren: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "bumper plate scheuren inspecteren: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "bumper plate scheuren inspecteren: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "bumper plate scheuren inspecteren: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "bumper plate scheuren inspecteren: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "kontrola pęknięć talerzy bumper: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "kontrola pęknięć talerzy bumper: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "kontrola pęknięć talerzy bumper: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "kontrola pęknięć talerzy bumper: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "kontrola pęknięć talerzy bumper: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "kontrola pęknięć talerzy bumper: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "kontrola pęknięć talerzy bumper: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "kontrola pęknięć talerzy bumper: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "kontrola pęknięć talerzy bumper: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "kontrola pęknięć talerzy bumper: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "kontrola pęknięć talerzy bumper: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "kontrola pęknięć talerzy bumper: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "kontrola pęknięć talerzy bumper: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "kontrola pęknięć talerzy bumper: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "kontrola pęknięć talerzy bumper: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kiểm tra vết nứt bumper plate: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kiểm tra vết nứt bumper plate: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kiểm tra vết nứt bumper plate: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kiểm tra vết nứt bumper plate: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kiểm tra vết nứt bumper plate: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kiểm tra vết nứt bumper plate: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kiểm tra vết nứt bumper plate: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kiểm tra vết nứt bumper plate: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kiểm tra vết nứt bumper plate: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kiểm tra vết nứt bumper plate: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kiểm tra vết nứt bumper plate: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kiểm tra vết nứt bumper plate: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kiểm tra vết nứt bumper plate: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kiểm tra vết nứt bumper plate: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kiểm tra vết nứt bumper plate: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "فحص شقوق أقراص البامبر: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "فحص شقوق أقراص البامبر: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "فحص شقوق أقراص البامبر: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "فحص شقوق أقراص البامبر: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "فحص شقوق أقراص البامبر: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "فحص شقوق أقراص البامبر: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "فحص شقوق أقراص البامبر: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "فحص شقوق أقراص البامبر: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "فحص شقوق أقراص البامبر: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "فحص شقوق أقراص البامبر: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "فحص شقوق أقراص البامبر: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "فحص شقوق أقراص البامبر: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "فحص شقوق أقراص البامبر: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "فحص شقوق أقراص البامبر: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "فحص شقوق أقراص البامبر: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "범퍼 플레이트 균열 검사: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "범퍼 플레이트 균열 검사: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "범퍼 플레이트 균열 검사: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "범퍼 플레이트 균열 검사: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "범퍼 플레이트 균열 검사: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "범퍼 플레이트 균열 검사: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "범퍼 플레이트 균열 검사: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "범퍼 플레이트 균열 검사: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "범퍼 플레이트 균열 검사: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "범퍼 플레이트 균열 검사: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "범퍼 플레이트 균열 검사: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "범퍼 플레이트 균열 검사: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "범퍼 플레이트 균열 검사: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "범퍼 플레이트 균열 검사: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "범퍼 플레이트 균열 검사: supplier claim package",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "inspeksi retak bumper plate: arrival crack classification",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "inspeksi retak bumper plate: edge split acceptance",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "inspeksi retak bumper plate: rubber shedding evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "inspeksi retak bumper plate: mould seam versus open crack",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "inspeksi retak bumper plate: hub-boundary tear",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "inspeksi retak bumper plate: carton damage correlation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "inspeksi retak bumper plate: lot mapping",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "inspeksi retak bumper plate: tear-test scope",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "inspeksi retak bumper plate: finished-product validation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "inspeksi retak bumper plate: quarantine and segregation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "inspeksi retak bumper plate: reinspection evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "inspeksi retak bumper plate: undocumented repair",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "inspeksi retak bumper plate: custom-logo inspection access",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "inspeksi retak bumper plate: private-label defect catalogue",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "inspeksi retak bumper plate: supplier claim package",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "bumper plate crack inspection",
+      "questions": [
+        "Is every visible line on a bumper plate a crack?",
+        "Can a buyer use one maximum crack length for every plate?",
+        "Does a rubber tear-strength report prove that finished plates will not crack?",
+        "Should a cracked plate be repaired before inspection?",
+        "What should an importer send with a supplier claim?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “bumper plate crack inspection” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Is every visible line on a bumper plate a crack?” and “What should an importer send with a supplier claim?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/resources/bumper-plate-cracks-edge-splits-inspection-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "inspeção de trincas em anilha bumper",
+      "questions": [
+        "Toda linha visível é uma trinca?",
+        "Posso adotar um comprimento máximo para todas as anilhas?",
+        "Ensaio de resistência ao rasgo garante a anilha pronta?",
+        "A fábrica pode reparar a trinca antes da inspeção?",
+        "O que enviar em uma reclamação?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “inspeção de trincas em anilha bumper” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Toda linha visível é uma trinca?” and “O que enviar em uma reclamação?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/pt/blog/trincas-rachaduras-anilha-bumper-inspecao"
+    },
+    "es": {
+      "targetKeyword": "inspección de grietas en discos bumper",
+      "questions": [
+        "¿Toda línea visible es una grieta?",
+        "¿Sirve un límite de longitud para todos los discos?",
+        "¿La resistencia al desgarro garantiza el disco terminado?",
+        "¿Puede repararse antes de decidir?",
+        "¿Qué debe acompañar una reclamación?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “inspección de grietas en discos bumper” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “¿Toda línea visible es una grieta?” and “¿Qué debe acompañar una reclamación?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/es/blog/grietas-roturas-disco-bumper-inspeccion"
+    },
+    "de": {
+      "targetKeyword": "Bumper Plate Risse prüfen",
+      "questions": [
+        "Ist jede sichtbare Linie ein Riss?",
+        "Gilt eine maximale Risslänge für alle Scheiben?",
+        "Belegt die Weiterreißfestigkeit das fertige Produkt?",
+        "Darf ein Riss vor der Bewertung repariert werden?",
+        "Was gehört in eine Lieferantenreklamation?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “Bumper Plate Risse prüfen” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Ist jede sichtbare Linie ein Riss?” and “Was gehört in eine Lieferantenreklamation?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/de/blog/bumper-plate-risse-kantenbruch-pruefen"
+    },
+    "fr": {
+      "targetKeyword": "contrôle fissures bumper plates",
+      "questions": [
+        "Toute ligne visible est-elle une fissure ?",
+        "Peut-on fixer une longueur maximale unique ?",
+        "La résistance à la déchirure garantit-elle le disque fini ?",
+        "Peut-on réparer avant la décision ?",
+        "Que joindre à une réclamation ?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “contrôle fissures bumper plates” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Toute ligne visible est-elle une fissure ?” and “Que joindre à une réclamation ?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/fr/blog/fissures-dechirures-disques-bumper-controle"
+    },
+    "sv": {
+      "targetKeyword": "kontroll av sprickor i bumpervikter",
+      "questions": [
+        "Är varje synlig linje en spricka?",
+        "Kan samma maximala spricklängd gälla alla skivor?",
+        "Bevisar rivhållfasthet att den färdiga skivan inte spricker?",
+        "Får en spricka repareras före bedömningen?",
+        "Vad ska följa en leverantörsreklamation?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “kontroll av sprickor i bumpervikter” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Är varje synlig linje en spricka?” and “Vad ska följa en leverantörsreklamation?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/sv/blogg/sprickor-kantskador-bumpervikter-kontroll"
+    },
+    "it": {
+      "targetKeyword": "ispezione crepe bumper plate",
+      "questions": [
+        "Ogni linea visibile è una crepa?",
+        "Un limite di lunghezza vale per tutti i dischi?",
+        "La resistenza alla lacerazione garantisce il prodotto?",
+        "Si può riparare prima della decisione?",
+        "Cosa inviare con un reclamo?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “ispezione crepe bumper plate” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Ogni linea visibile è una crepa?” and “Cosa inviare con un reclamo?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/it/blog/crepe-spaccature-bumper-plate-ispezione"
+    },
+    "nl": {
+      "targetKeyword": "bumper plate scheuren inspecteren",
+      "questions": [
+        "Is elke zichtbare lijn een scheur?",
+        "Kan één maximale scheurlengte voor alle schijven gelden?",
+        "Bewijst scheursterkte dat het eindproduct niet breekt?",
+        "Mag een scheur vóór beoordeling worden gerepareerd?",
+        "Wat hoort bij een leveranciersclaim?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “bumper plate scheuren inspecteren” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Is elke zichtbare lijn een scheur?” and “Wat hoort bij een leveranciersclaim?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/nl/blog/scheuren-randschade-bumper-plates-inspectie"
+    },
+    "pl": {
+      "targetKeyword": "kontrola pęknięć talerzy bumper",
+      "questions": [
+        "Czy każda widoczna linia jest pęknięciem?",
+        "Czy jeden limit długości pasuje do wszystkich talerzy?",
+        "Czy odporność na rozdzieranie gwarantuje gotowy talerz?",
+        "Czy można naprawić pęknięcie przed decyzją?",
+        "Co przesłać z reklamacją?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “kontrola pęknięć talerzy bumper” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Czy każda widoczna linia jest pęknięciem?” and “Co przesłać z reklamacją?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/pl/blog/pekniecia-odpryski-talerze-bumper-kontrola"
+    },
+    "vi": {
+      "targetKeyword": "kiểm tra vết nứt bumper plate",
+      "questions": [
+        "Mọi đường nhìn thấy có phải vết nứt không?",
+        "Có thể dùng một giới hạn chiều dài cho mọi bánh không?",
+        "Độ bền xé có bảo đảm bánh hoàn chỉnh không?",
+        "Có nên sửa vết nứt trước khi quyết định không?",
+        "Hồ sơ khiếu nại cần gì?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “kiểm tra vết nứt bumper plate” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Mọi đường nhìn thấy có phải vết nứt không?” and “Hồ sơ khiếu nại cần gì?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/vi/blog/kiem-tra-nut-tach-mep-bumper-plate"
+    },
+    "ar": {
+      "targetKeyword": "فحص شقوق أقراص البامبر",
+      "questions": [
+        "هل كل خط ظاهر شق؟",
+        "هل يصلح حد طول واحد لكل الأقراص؟",
+        "هل اختبار مقاومة التمزق يضمن القرص النهائي؟",
+        "هل يُصلح الشق قبل القرار؟",
+        "ماذا يرفق بمطالبة المورد؟"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “فحص شقوق أقراص البامبر” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “هل كل خط ظاهر شق؟” and “ماذا يرفق بمطالبة المورد؟” with country-appropriate buying and complaint language."
+      ],
+      "path": "/ar/blog/fuhus-shuqooq-tashaqquq-hawaf-bumper-plate"
+    },
+    "ko": {
+      "targetKeyword": "범퍼 플레이트 균열 검사",
+      "questions": [
+        "보이는 선은 모두 균열인가요?",
+        "모든 플레이트에 같은 최대 길이를 적용할 수 있나요?",
+        "인열강도 성적서가 완제품을 보증하나요?",
+        "검사 전에 균열을 수리해도 되나요?",
+        "공급사 이의 제기에 무엇을 보내야 하나요?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “범퍼 플레이트 균열 검사” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “보이는 선은 모두 균열인가요?” and “공급사 이의 제기에 무엇을 보내야 하나요?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/ko/blog/bumper-plate-crack-edge-split-inspection"
+    },
+    "id": {
+      "targetKeyword": "inspeksi retak bumper plate",
+      "questions": [
+        "Apakah setiap garis yang terlihat merupakan retak?",
+        "Bolehkah satu batas panjang dipakai untuk semua piringan?",
+        "Apakah ketahanan sobek menjamin barang jadi?",
+        "Bolehkah retak diperbaiki sebelum keputusan?",
+        "Apa yang dikirim bersama keluhan?"
+      ],
+      "evidence": [
+        "Uses the market-facing phrase “inspeksi retak bumper plate” and the local terms for mould seam, edge split, loose rubber, receiving inspection and lot disposition.",
+        "Answers locally framed questions including “Apakah setiap garis yang terlihat merupakan retak?” and “Apa yang dikirim bersama keluhan?” with country-appropriate buying and complaint language."
+      ],
+      "path": "/id/blog/inspeksi-retak-pecah-tepi-bumper-plate"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Again Faster",
+      "url": "https://againfaster.eu/en_gb/blog/bumper-plate-maintenance-guide/",
+      "observation": "Maintenance framing reviewed; it does not own a receiving evidence model, defect taxonomy or lot decision workflow."
+    },
+    {
+      "name": "Iron Company",
+      "url": "https://www.ironcompany.com/bumper-plates-buyers-guide",
+      "observation": "Buyer-guide positioning reviewed. Numerical marketing claims were not reused; the new guide focuses on reproducible defect records."
+    },
+    {
+      "name": "Escape Fitness",
+      "url": "https://escapefitness.com/media/escape_assets/product-information-guides/ESC7471-PIG0001-FREEWEIGHTS-A5-031123.pdf",
+      "observation": "Product-specific handling language confirms why one model's warning cannot become a universal acceptance or service-life claim."
+    }
+  ],
+  "rejectedTopics": [
+    "Crumb versus virgin rubber — the existing manufacturing guide already owns construction and material comparison.",
+    "Loose hub or insert — a dedicated multilingual retention guide owns that interface.",
+    "Bounce and Shore hardness — a dedicated guide owns rebound and hardness evidence.",
+    "Rubber coating peeling — the existing adhesion guide owns coated iron products rather than bumper-plate body splits."
+  ],
+  "siteGaps": [
+    "No page separated closed mould seams, gouges, open body cracks, edge splits, missing material, shedding and hub-boundary tearing while connecting each observation to receiving evidence and lot containment."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1940,
+    "repositoryPublishedVersionsReviewed": 1926,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "how bumper plates are made",
+      "bumper-plate hub retention",
+      "bounce and Shore hardness",
+      "rubber coating adhesion",
+      "failed-inspection corrective action"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 34-1:2022 — Rubber, vulcanized or thermoplastic — Determination of tear strength",
+      "url": "https://www.iso.org/standard/82445.html",
+      "primary": true,
+      "use": "Official method scope used to distinguish specimen tear testing from finished bumper-plate evidence."
+    },
+    {
+      "title": "ASTM D624-00(2020) — Tear Strength of Conventional Vulcanized Rubber and Thermoplastic Elastomers",
+      "url": "https://store.astm.org/standards/d624",
+      "primary": true,
+      "use": "Official standard summary checked for the condition-specific nature of laboratory tear results."
+    },
+    {
+      "title": "IWF Technical and Competition Rules & Regulations 2026",
+      "url": "https://iwf.sport/wp-content/uploads/downloads/2026/10/IWF-TCRR-2026.pdf",
+      "primary": true,
+      "use": "Competition-equipment requirements reviewed; they are not represented as a universal crack-acceptance rule."
+    },
+    {
+      "title": "Escape Fitness free-weights product information guide",
+      "url": "https://escapefitness.com/media/escape_assets/product-information-guides/ESC7471-PIG0001-FREEWEIGHTS-A5-031123.pdf",
+      "primary": false,
+      "use": "Model-specific care wording used only to show why use instructions must not be generalized across products."
+    },
+    {
+      "title": "Reddit bumper-plate question surface",
+      "url": "https://www.reddit.com/r/homegym/search/?q=bumper%20plate%20crack&restrict_sr=1",
+      "primary": false,
+      "use": "Used only to identify recurring buyer language about seam cracks, edge splits and crumbling; no technical claim depends on comments."
+    },
+    {
+      "title": "Again Faster bumper plate maintenance guide",
+      "url": "https://againfaster.eu/en_gb/blog/bumper-plate-maintenance-guide/",
+      "primary": false,
+      "use": "Industry care language reviewed for topic gaps without reusing lifecycle or durability claims."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 42,
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "People Also Ask-style questions",
+      "Reddit",
+      "Quora attempted but blocked",
+      "official standards pages",
+      "industry guides",
+      "competitor sites",
+      "local-language results"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Is a seam line on a new bumper plate a crack?",
+      "Should a small edge split be accepted?",
+      "Why is rubber crumbling from a new plate?",
+      "What evidence should accompany a supplier claim?",
+      "Does a tear-strength report prove the finished plate?",
+      "How much of the shipment should be quarantined?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "skipped-unavailable",
+    "reason": "The scheduled Sunday credential check found no DATAFORSEO_LOGIN or DATAFORSEO_PASSWORD in the isolated automation environment; no paid request was made."
+  },
+  "limitations": [
+    "Quora pages were not used because direct automated verification was blocked; no claim depends on Quora.",
+    "Reddit was used only for buyer language and recurring questions, never as technical evidence.",
+    "No universal crack size, lifetime, drop count, remedy, test result, certification or safety outcome is claimed.",
+    "No customer, project, quantity, price, MOQ, lead time, sales result or factory-performance claim is made.",
+    "Images are conceptual editorial scenes, not evidence of an actual customer incident, production batch, inspection or factory visit."
+  ]
+}
