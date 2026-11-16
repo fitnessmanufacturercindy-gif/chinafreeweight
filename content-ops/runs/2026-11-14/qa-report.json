@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-14",
+  "checkedAt": "2026-11-16T04:26:35.622Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-14-chinafreeweight-en-cable-attachment-branding",
+      "locale": "en",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-pt-BR-cable-attachment-branding",
+      "locale": "pt-BR",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-es-cable-attachment-branding",
+      "locale": "es",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-de-cable-attachment-branding",
+      "locale": "de",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-fr-cable-attachment-branding",
+      "locale": "fr",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-sv-cable-attachment-branding",
+      "locale": "sv",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-it-cable-attachment-branding",
+      "locale": "it",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-nl-cable-attachment-branding",
+      "locale": "nl",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-pl-cable-attachment-branding",
+      "locale": "pl",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-vi-cable-attachment-branding",
+      "locale": "vi",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-ar-cable-attachment-branding",
+      "locale": "ar",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-ko-cable-attachment-branding",
+      "locale": "ko",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-14-chinafreeweight-id-cable-attachment-branding",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    }
+  ]
+}

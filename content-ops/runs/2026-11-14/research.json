@@ -1,0 +1,1514 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-14",
+  "status": "complete",
+  "selectedTopic": "Private-label cable attachments and gym handles: marking-method selection, sample approval and bulk inspection",
+  "selectionReason": "Current search results repeatedly offer logo, color and packaging customization, yet few results help B2B buyers connect metal, molded, textile and packaging substrates to a controlled proof, finished sample and lot-inspection decision. The live site had no page owning this intent.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "custom logo cable attachments: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "custom logo cable attachments: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "custom logo cable attachments: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "custom logo cable attachments: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "custom logo cable attachments: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "custom logo cable attachments: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "custom logo cable attachments: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "custom logo cable attachments: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "custom logo cable attachments: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "custom logo cable attachments: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "custom logo cable attachments: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "custom logo cable attachments: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "custom logo cable attachments: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "custom logo cable attachments: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "custom logo cable attachments: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "logo personalizado em puxadores de polia: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "logo personalizado em puxadores de polia: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "logo personalizado em puxadores de polia: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "logo personalizado em puxadores de polia: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "logo personalizado em puxadores de polia: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "logo personalizado em puxadores de polia: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "logo personalizado em puxadores de polia: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "logo personalizado em puxadores de polia: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "logo personalizado em puxadores de polia: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "logo personalizado em puxadores de polia: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "logo personalizado em puxadores de polia: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "logo personalizado em puxadores de polia: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "logo personalizado em puxadores de polia: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "logo personalizado em puxadores de polia: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "logo personalizado em puxadores de polia: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "logo personalizado en agarres de polea: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "logo personalizado en agarres de polea: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "logo personalizado en agarres de polea: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "logo personalizado en agarres de polea: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "logo personalizado en agarres de polea: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "logo personalizado en agarres de polea: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "logo personalizado en agarres de polea: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "logo personalizado en agarres de polea: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "logo personalizado en agarres de polea: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "logo personalizado en agarres de polea: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "logo personalizado en agarres de polea: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "logo personalizado en agarres de polea: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "logo personalizado en agarres de polea: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "logo personalizado en agarres de polea: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "logo personalizado en agarres de polea: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Kabelzuggriffe mit eigenem Logo: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Kabelzuggriffe mit eigenem Logo: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Kabelzuggriffe mit eigenem Logo: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Kabelzuggriffe mit eigenem Logo: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Kabelzuggriffe mit eigenem Logo: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Kabelzuggriffe mit eigenem Logo: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Kabelzuggriffe mit eigenem Logo: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Kabelzuggriffe mit eigenem Logo: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Kabelzuggriffe mit eigenem Logo: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Kabelzuggriffe mit eigenem Logo: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Kabelzuggriffe mit eigenem Logo: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Kabelzuggriffe mit eigenem Logo: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Kabelzuggriffe mit eigenem Logo: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Kabelzuggriffe mit eigenem Logo: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Kabelzuggriffe mit eigenem Logo: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "logo personnalisé poignées de poulie: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "logo personnalisé poignées de poulie: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "logo personnalisé poignées de poulie: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "logo personnalisé poignées de poulie: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "logo personnalisé poignées de poulie: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "logo personnalisé poignées de poulie: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "logo personnalisé poignées de poulie: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "logo personnalisé poignées de poulie: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "logo personnalisé poignées de poulie: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "logo personnalisé poignées de poulie: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "logo personnalisé poignées de poulie: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "logo personnalisé poignées de poulie: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "logo personnalisé poignées de poulie: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "logo personnalisé poignées de poulie: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "logo personnalisé poignées de poulie: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "kabelhandtag med egen logotyp: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "kabelhandtag med egen logotyp: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "kabelhandtag med egen logotyp: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "kabelhandtag med egen logotyp: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "kabelhandtag med egen logotyp: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "kabelhandtag med egen logotyp: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "kabelhandtag med egen logotyp: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "kabelhandtag med egen logotyp: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "kabelhandtag med egen logotyp: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "kabelhandtag med egen logotyp: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "kabelhandtag med egen logotyp: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "kabelhandtag med egen logotyp: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "kabelhandtag med egen logotyp: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "kabelhandtag med egen logotyp: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "kabelhandtag med egen logotyp: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "maniglie per cavi con logo personalizzato: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "maniglie per cavi con logo personalizzato: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "maniglie per cavi con logo personalizzato: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "maniglie per cavi con logo personalizzato: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "maniglie per cavi con logo personalizzato: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "maniglie per cavi con logo personalizzato: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "maniglie per cavi con logo personalizzato: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "maniglie per cavi con logo personalizzato: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "maniglie per cavi con logo personalizzato: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "maniglie per cavi con logo personalizzato: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "maniglie per cavi con logo personalizzato: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "maniglie per cavi con logo personalizzato: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "maniglie per cavi con logo personalizzato: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "maniglie per cavi con logo personalizzato: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "maniglie per cavi con logo personalizzato: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "kabelgrepen met eigen logo: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "kabelgrepen met eigen logo: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "kabelgrepen met eigen logo: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "kabelgrepen met eigen logo: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "kabelgrepen met eigen logo: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "kabelgrepen met eigen logo: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "kabelgrepen met eigen logo: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "kabelgrepen met eigen logo: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "kabelgrepen met eigen logo: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "kabelgrepen met eigen logo: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "kabelgrepen met eigen logo: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "kabelgrepen met eigen logo: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "kabelgrepen met eigen logo: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "kabelgrepen met eigen logo: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "kabelgrepen met eigen logo: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "uchwyty do wyciągu z własnym logo: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "uchwyty do wyciągu z własnym logo: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "uchwyty do wyciągu z własnym logo: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "uchwyty do wyciągu z własnym logo: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "uchwyty do wyciągu z własnym logo: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "uchwyty do wyciągu z własnym logo: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "uchwyty do wyciągu z własnym logo: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "uchwyty do wyciągu z własnym logo: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "uchwyty do wyciągu z własnym logo: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "uchwyty do wyciągu z własnym logo: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "uchwyty do wyciągu z własnym logo: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "uchwyty do wyciągu z własnym logo: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "uchwyty do wyciągu z własnym logo: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "uchwyty do wyciągu z własnym logo: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "uchwyty do wyciągu z własnym logo: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "tay cầm kéo cáp in logo riêng: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "tay cầm kéo cáp in logo riêng: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "tay cầm kéo cáp in logo riêng: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "tay cầm kéo cáp in logo riêng: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "tay cầm kéo cáp in logo riêng: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "tay cầm kéo cáp in logo riêng: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "tay cầm kéo cáp in logo riêng: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "tay cầm kéo cáp in logo riêng: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "tay cầm kéo cáp in logo riêng: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "tay cầm kéo cáp in logo riêng: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "tay cầm kéo cáp in logo riêng: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "tay cầm kéo cáp in logo riêng: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "tay cầm kéo cáp in logo riêng: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "tay cầm kéo cáp in logo riêng: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "tay cầm kéo cáp in logo riêng: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "مقابض كابل بشعار مخصص: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "مقابض كابل بشعار مخصص: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "مقابض كابل بشعار مخصص: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "مقابض كابل بشعار مخصص: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "مقابض كابل بشعار مخصص: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "مقابض كابل بشعار مخصص: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "مقابض كابل بشعار مخصص: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "مقابض كابل بشعار مخصص: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "مقابض كابل بشعار مخصص: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "مقابض كابل بشعار مخصص: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "مقابض كابل بشعار مخصص: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "مقابض كابل بشعار مخصص: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "مقابض كابل بشعار مخصص: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "مقابض كابل بشعار مخصص: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "مقابض كابل بشعار مخصص: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "케이블 머신 손잡이 자체 로고: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "케이블 머신 손잡이 자체 로고: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "케이블 머신 손잡이 자체 로고: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "케이블 머신 손잡이 자체 로고: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "케이블 머신 손잡이 자체 로고: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "케이블 머신 손잡이 자체 로고: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "케이블 머신 손잡이 자체 로고: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "케이블 머신 손잡이 자체 로고: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "케이블 머신 손잡이 자체 로고: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "케이블 머신 손잡이 자체 로고: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "케이블 머신 손잡이 자체 로고: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "케이블 머신 손잡이 자체 로고: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "케이블 머신 손잡이 자체 로고: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "케이블 머신 손잡이 자체 로고: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "케이블 머신 손잡이 자체 로고: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "handle kabel dengan logo kustom: laser marking versus engraving",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "handle kabel dengan logo kustom: molded grip logo",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "handle kabel dengan logo kustom: printed grip acceptance",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "handle kabel dengan logo kustom: logo placement drawing",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "handle kabel dengan logo kustom: curved-handle orientation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "handle kabel dengan logo kustom: artwork revision control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "handle kabel dengan logo kustom: finished-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "handle kabel dengan logo kustom: cleaning and rub check",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "handle kabel dengan logo kustom: coating-removal risk",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "handle kabel dengan logo kustom: end-badge retention",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "handle kabel dengan logo kustom: textile label route",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "handle kabel dengan logo kustom: retail-box artwork",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "handle kabel dengan logo kustom: master-carton identity",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "handle kabel dengan logo kustom: bulk marking inspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "handle kabel dengan logo kustom: rework and reinspection",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "custom logo cable attachments",
+      "questions": [
+        "Is laser engraving always the best logo method for cable attachments?",
+        "Can one logo placement drawing cover every handle in a set?",
+        "Should the buyer approve only a digital proof?",
+        "How should logo durability be specified?",
+        "What should be sent for a private-label quotation?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “custom logo cable attachments” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Is laser engraving always the best logo method for cable attachments?” and “What should be sent for a private-label quotation?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/resources/custom-logo-cable-attachments-private-label-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "logo personalizado em puxadores de polia",
+      "questions": [
+        "Gravação a laser é sempre a melhor opção?",
+        "Uma posição de logo serve para todos os puxadores?",
+        "Basta aprovar a prova digital?",
+        "Como especificar a resistência da marca?",
+        "O que enviar para uma cotação de marca própria?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “logo personalizado em puxadores de polia” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Gravação a laser é sempre a melhor opção?” and “O que enviar para uma cotação de marca própria?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/pt/blog/logo-personalizado-puxadores-polia-marca-propria"
+    },
+    "es": {
+      "targetKeyword": "logo personalizado en agarres de polea",
+      "questions": [
+        "¿El grabado láser siempre es la mejor opción?",
+        "¿Una ubicación sirve para todos los agarres?",
+        "¿Basta con una prueba digital?",
+        "¿Cómo se especifica la resistencia de la marca?",
+        "¿Qué se envía para cotizar marca propia?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “logo personalizado en agarres de polea” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “¿El grabado láser siempre es la mejor opción?” and “¿Qué se envía para cotizar marca propia?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/es/blog/logo-personalizado-agarres-polea-marca-propia"
+    },
+    "de": {
+      "targetKeyword": "Kabelzuggriffe mit eigenem Logo",
+      "questions": [
+        "Ist Lasergravur immer die beste Lösung?",
+        "Gilt eine Logoposition für das ganze Set?",
+        "Reicht eine digitale Freigabe?",
+        "Wie wird Beständigkeit vereinbart?",
+        "Welche Daten braucht ein Private-Label-Angebot?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “Kabelzuggriffe mit eigenem Logo” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Ist Lasergravur immer die beste Lösung?” and “Welche Daten braucht ein Private-Label-Angebot?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/de/blog/kabelzuggriffe-logo-private-label-markierung"
+    },
+    "fr": {
+      "targetKeyword": "logo personnalisé poignées de poulie",
+      "questions": [
+        "La gravure laser est-elle toujours préférable ?",
+        "Une position convient-elle à tout le coffret ?",
+        "Un BAT numérique suffit-il ?",
+        "Comment définir la tenue du marquage ?",
+        "Que transmettre pour un devis marque propre ?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “logo personnalisé poignées de poulie” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “La gravure laser est-elle toujours préférable ?” and “Que transmettre pour un devis marque propre ?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/fr/blog/logo-personnalise-poignees-poulie-marque-propre"
+    },
+    "sv": {
+      "targetKeyword": "kabelhandtag med egen logotyp",
+      "questions": [
+        "Är lasergravyr alltid bäst?",
+        "Kan samma placering användas på hela setet?",
+        "Räcker en digital korrektur?",
+        "Hur anges hållbarhet?",
+        "Vad behövs för offert?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “kabelhandtag med egen logotyp” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Är lasergravyr alltid bäst?” and “Vad behövs för offert?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/sv/blogg/kabelhandtag-egen-logotyp-private-label"
+    },
+    "it": {
+      "targetKeyword": "maniglie per cavi con logo personalizzato",
+      "questions": [
+        "Il laser è sempre la scelta migliore?",
+        "Una posizione vale per tutto il set?",
+        "Basta la prova digitale?",
+        "Come si specifica la durata?",
+        "Cosa inviare per un preventivo?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “maniglie per cavi con logo personalizzato” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Il laser è sempre la scelta migliore?” and “Cosa inviare per un preventivo?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/it/blog/logo-personalizzato-maniglie-cavi-private-label"
+    },
+    "nl": {
+      "targetKeyword": "kabelgrepen met eigen logo",
+      "questions": [
+        "Is lasergraveren altijd de beste keuze?",
+        "Kan één positie voor het hele assortiment?",
+        "Is een digitale proef voldoende?",
+        "Hoe leg je duurzaamheid vast?",
+        "Wat is nodig voor een offerte?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “kabelgrepen met eigen logo” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Is lasergraveren altijd de beste keuze?” and “Wat is nodig voor een offerte?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/nl/blog/kabelgrepen-eigen-logo-private-label"
+    },
+    "pl": {
+      "targetKeyword": "uchwyty do wyciągu z własnym logo",
+      "questions": [
+        "Czy grawer laserowy jest zawsze najlepszy?",
+        "Czy jedna pozycja pasuje do całego zestawu?",
+        "Czy wystarczy wizualizacja cyfrowa?",
+        "Jak określić trwałość?",
+        "Co wysłać do wyceny?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “uchwyty do wyciągu z własnym logo” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Czy grawer laserowy jest zawsze najlepszy?” and “Co wysłać do wyceny?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/pl/blog/uchwyty-wyciagu-logo-marka-wlasna"
+    },
+    "vi": {
+      "targetKeyword": "tay cầm kéo cáp in logo riêng",
+      "questions": [
+        "Khắc laser có luôn là lựa chọn tốt nhất không?",
+        "Một vị trí logo dùng cho cả bộ được không?",
+        "Chỉ duyệt bản kỹ thuật số có đủ không?",
+        "Nên quy định độ bền ra sao?",
+        "Cần gửi gì để báo giá nhãn riêng?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “tay cầm kéo cáp in logo riêng” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Khắc laser có luôn là lựa chọn tốt nhất không?” and “Cần gửi gì để báo giá nhãn riêng?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/vi/blog/logo-rieng-tay-cam-keo-cap-nhan-hang-rieng"
+    },
+    "ar": {
+      "targetKeyword": "مقابض كابل بشعار مخصص",
+      "questions": [
+        "هل الحفر بالليزر هو الأفضل دائماً؟",
+        "هل يصلح موضع واحد لكل الطقم؟",
+        "هل تكفي البروفة الرقمية؟",
+        "كيف تحدد متانة العلامة؟",
+        "ماذا يرسل لعرض العلامة الخاصة؟"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “مقابض كابل بشعار مخصص” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “هل الحفر بالليزر هو الأفضل دائماً؟” and “ماذا يرسل لعرض العلامة الخاصة؟” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/ar/blog/custom-logo-cable-handles-private-label"
+    },
+    "ko": {
+      "targetKeyword": "케이블 머신 손잡이 자체 로고",
+      "questions": [
+        "레이저 각인이 항상 최선인가요?",
+        "세트 전체에 한 위치를 써도 되나요?",
+        "디지털 시안만 승인해도 되나요?",
+        "내구성은 어떻게 정하나요?",
+        "견적에 무엇을 보내야 하나요?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “케이블 머신 손잡이 자체 로고” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “레이저 각인이 항상 최선인가요?” and “견적에 무엇을 보내야 하나요?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/ko/blog/custom-logo-cable-machine-handles-private-label"
+    },
+    "id": {
+      "targetKeyword": "handle kabel dengan logo kustom",
+      "questions": [
+        "Apakah laser selalu pilihan terbaik?",
+        "Bisakah satu posisi dipakai untuk semua handle?",
+        "Apakah bukti digital sudah cukup?",
+        "Bagaimana menentukan ketahanan tanda?",
+        "Apa yang dikirim untuk penawaran harga?"
+      ],
+      "evidence": [
+        "Uses the local purchasing phrase “handle kabel dengan logo kustom” and distinguishes the market terms for laser marking, engraving, molded branding, sample approval and private-label packaging.",
+        "Answers locally phrased buyer questions including “Apakah laser selalu pilihan terbaik?” and “Apa yang dikirim untuk penawaran harga?” with terminology used by importers and distributors rather than translating an English keyword list."
+      ],
+      "path": "/id/blog/handle-kabel-logo-kustom-private-label"
+    }
+  },
+  "competitors": [
+    {
+      "name": "IRONHUE",
+      "url": "https://ironhue.com/products/barbells/cable-attachments",
+      "observation": "Search-visible category offers engraved or printed grips plus branded packaging. The new guide fills the buyer-side method, sample and inspection gap without reusing commercial claims."
+    },
+    {
+      "name": "Zhongda Sports",
+      "url": "https://www.zhongdafitness.com/cable-attachments.html",
+      "observation": "Offers logo branding, custom grip colors and private-label packaging but does not provide the same substrate-to-acceptance framework."
+    },
+    {
+      "name": "Ironpower Fitness",
+      "url": "https://www.ironpowerfitness.com/product/acs-al017-aluminum-dual-hook-straight-bar/",
+      "observation": "A model page mentions laser engraving on a bar or end caps. No dimensions, MOQ, price or performance statement was reused."
+    },
+    {
+      "name": "Ceta Form",
+      "url": "https://www.agstech.net/vi/_files/ugd/ef3ba0_a2b20d97343046e3add1208ed29ed4ec.pdf?index=true",
+      "observation": "Manufacturer brochure shows molded, printed and laser-marked grip routes, supporting the need to choose by component rather than treating logo customization as one process."
+    }
+  ],
+  "rejectedTopics": [
+    "Cable attachment universality — a complete multilingual compatibility guide already owns the intent.",
+    "Grip diameter and knurl — a dedicated guide owns grip geometry and handling.",
+    "Chrome corrosion — an existing guide owns plating, corrosion evidence and finish inspection.",
+    "Cable attachment welds — the latest dedicated guide owns weld acceptance and load-path evidence.",
+    "Custom logos on dumbbells and plates — an existing cluster owns those product families, while this topic is limited to cable attachments and gym handles."
+  ],
+  "siteGaps": [
+    "No dedicated guide compared direct metal marking, molded or printed grips, textile labels, badges and packaging for cable attachments while connecting each route to artwork revision, physical sample approval and batch inspection."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1953,
+    "liveBlogUrlsReviewed": 1083,
+    "repositoryPublishedVersionsReviewed": 1939,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "custom logo options for dumbbells and weight plates",
+      "cable attachment compatibility",
+      "cable handle grip diameter",
+      "cable attachment chrome plating",
+      "cable attachment weld inspection"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Trotec — Can a laser machine engrave and mark metal?",
+      "url": "https://www.troteclaser.com/en/resources/faqs/metal-engraving-marking",
+      "primary": true,
+      "use": "Official process overview used to distinguish annealing, engraving and coating removal rather than treating every laser mark as the same operation."
+    },
+    {
+      "title": "KEYENCE — Laser marking introduction",
+      "url": "https://www.keyence.com/landing/lpc/laser-chat.jsp",
+      "primary": true,
+      "use": "Official manufacturer explanation used only for material-dependent process categories and direct-part-marking context."
+    },
+    {
+      "title": "Ceta Form private-label brochure",
+      "url": "https://www.agstech.net/vi/_files/ugd/ef3ba0_a2b20d97343046e3add1208ed29ed4ec.pdf?index=true",
+      "primary": true,
+      "use": "Manufacturer brochure reviewed for real examples of molded, pad-printed and laser-marked grip branding without adopting its cost or permanence claims."
+    },
+    {
+      "title": "Ironpower Fitness OEM cable attachment product",
+      "url": "https://www.ironpowerfitness.com/product/acs-al017-aluminum-dual-hook-straight-bar/",
+      "primary": false,
+      "use": "Competitor product evidence that buyers encounter laser marking on bars or end caps; no model specifications were copied."
+    },
+    {
+      "title": "Zhongda cable attachments",
+      "url": "https://www.zhongdafitness.com/cable-attachments.html",
+      "primary": false,
+      "use": "Competitor category language confirms buyer interest in logo, grip color and private-label packaging."
+    },
+    {
+      "title": "Reddit home gym customization question surface",
+      "url": "https://www.reddit.com/r/homegym/search/?q=custom%20logo%20handle&restrict_sr=1",
+      "primary": false,
+      "use": "Used only for buyer wording about customization, availability and approval; no technical claim depends on comments."
+    },
+    {
+      "title": "ChinaFreeWeight gym accessories category",
+      "url": "https://www.chinafreeweight.com/products/gym-accessories",
+      "primary": true,
+      "use": "Current product scope and same-language internal-link destination verified before topic selection."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 20,
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "question-style searches",
+      "Reddit",
+      "Quora attempted but blocked",
+      "official laser-process pages",
+      "industry and competitor sites",
+      "local-language results for every publication market"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Can cable attachments carry a custom logo?",
+      "Is laser engraving better than printing?",
+      "Which file and placement information should a buyer send?",
+      "Does a digital proof replace a physical sample?",
+      "How should logo durability be checked?",
+      "Should the logo or the packaging carry model and retail information?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "not-scheduled",
+    "reason": "The recovered run date is Saturday. The repository protocol limits the paid weekly refresh to Sunday, so this run used public search evidence and incurred no paid request."
+  },
+  "limitations": [
+    "Quora pages were inaccessible to automated verification and supplied no claims.",
+    "Reddit was used only for buyer wording and recurring customization questions, never as technical evidence.",
+    "No universal durability, abrasion count, corrosion outcome, MOQ, price, lead time, sample time or marking guarantee is claimed.",
+    "No customer, project, certification, test result, production capacity or ChinaFreeWeight process-performance fact is invented.",
+    "Images are conceptual unbranded product-inspection scenes, not evidence of a customer program, actual factory floor or completed order."
+  ]
+}

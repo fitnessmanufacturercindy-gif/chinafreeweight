@@ -57,6 +57,7 @@ import { freeWeightWarrantyClaimsEnglishPost } from "../../content/i18n/free-wei
 import { freeWeightContainerLoadingEnglishPost } from "../../content/i18n/free-weight-container-loading-guide";
 import { freeWeightQualityAgreementEnglishPost } from "../../content/i18n/free-weight-quality-agreement-guide";
 import { bumperPlateCrackEnglishPost } from "../../content/i18n/bumper-plate-crack-guide";
+import { cableAttachmentBrandingEnglishPost } from "../../content/i18n/cable-attachment-branding-guide";
 import fs from "fs";
 import path from "path";
 import { getMultilingualBlogDocuments } from "../../lib/content/multilingual-blog-files";
@@ -1971,7 +1972,27 @@ export function getAllPosts(): ResourcePost[] {
     updatedAt: bumperPlateCrackEnglishPost.updatedAt
   };
 
-  return [...legacyPosts, ...expansionPosts, ...commercialGrowthPosts, steelDumbbellPost, cableAttachmentPost, weightPlateTolerancePost, commercialOlympicBarbellPost, dumbbellHeadRetentionPost, kgLbFreeWeightPost, fixedVsAdjustablePost, barbellFinishPost, plateBarFitPost, barbellKnurlingPost, bumperPlateLoadingPost, barbellStraightnessPost, bumperPlateBouncePost, cableAttachmentLoadPost, dumbbellHandlePost, plateDiameterPost, rubberCoatingAdhesionPost, barbellShaftStrengthPost, cableAttachmentGripPost, bumperPlateHubPost, barbellSleeveRetentionPost, barbellCollarPost, barbellSleeveRotationPost, plateGripOpeningsPost, tricepsRopePost, latPulldownBarPost, barbellWhipPost, castIronPlateFinishPost, barbellSleeveSurfacePost, customColorFreeWeightsPost, barbellMassPost, weightPlateFlatnessPost, changePlatesPost, dumbbellRackPost, barbellShaftDiameterPost, rubberOdorPost, weightPlateMarkingsPost, hexDumbbellAlignmentPost, cableAttachmentSwivelPost, castIronPlateManufacturingPost, weightPlateEdgePost, rubberDumbbellHardnessPost, rubberDumbbellSurfacePost, cableAttachmentFinishPost, dumbbellEndCapPost, barbellPackagingPost, barbellMaintenancePost, urethaneDumbbellSurfacePost, neopreneVinylDumbbellPost, weightPlateStoragePost, privateLabelGtinPost, freeWeightAqlPost, freeWeightMoqPost, freeWeightProductionLeadTimePost, fixedVsRotatingDumbbellHandlePost, cableAttachmentWeldInspectionPost, fixedDumbbellImpactValidationPost, freeWeightTestReportVerificationPost, freeWeightToolingAgreementPost, freeWeightCorrectiveActionPost, freeWeightWarrantyClaimsPost, freeWeightContainerLoadingPost, freeWeightQualityAgreementPost, bumperPlateCrackPost].sort((a, b) => {
+  const cableAttachmentBrandingPost: ResourcePost = {
+    slug: cableAttachmentBrandingEnglishPost.publicPath.split("/").filter(Boolean).at(-1) ?? cableAttachmentBrandingEnglishPost.entityId,
+    title: cableAttachmentBrandingEnglishPost.h1,
+    seoTitle: cableAttachmentBrandingEnglishPost.title,
+    metaDescription: cableAttachmentBrandingEnglishPost.description,
+    primaryKeyword: cableAttachmentBrandingEnglishPost.primaryKeyword,
+    secondaryKeywords: cableAttachmentBrandingEnglishPost.secondaryKeywords,
+    searchIntent: cableAttachmentBrandingEnglishPost.searchIntent,
+    content: cableAttachmentBrandingEnglishPost.content,
+    excerpt: getExcerpt(cableAttachmentBrandingEnglishPost.content),
+    readingTime: getReadingTime(cableAttachmentBrandingEnglishPost.content),
+    coverImage: cableAttachmentBrandingEnglishPost.images[0].src,
+    coverAlt: cableAttachmentBrandingEnglishPost.images[0].alt,
+    coverWidth: cableAttachmentBrandingEnglishPost.images[0].width,
+    coverHeight: cableAttachmentBrandingEnglishPost.images[0].height,
+    articleImages: cableAttachmentBrandingEnglishPost.images.slice(1).map((image) => ({ src: image.src, alt: image.alt, caption: image.caption ?? image.alt, width: image.width, height: image.height })),
+    publishedAt: cableAttachmentBrandingEnglishPost.publishedAt,
+    updatedAt: cableAttachmentBrandingEnglishPost.updatedAt
+  };
+
+  return [...legacyPosts, ...expansionPosts, ...commercialGrowthPosts, steelDumbbellPost, cableAttachmentPost, weightPlateTolerancePost, commercialOlympicBarbellPost, dumbbellHeadRetentionPost, kgLbFreeWeightPost, fixedVsAdjustablePost, barbellFinishPost, plateBarFitPost, barbellKnurlingPost, bumperPlateLoadingPost, barbellStraightnessPost, bumperPlateBouncePost, cableAttachmentLoadPost, dumbbellHandlePost, plateDiameterPost, rubberCoatingAdhesionPost, barbellShaftStrengthPost, cableAttachmentGripPost, bumperPlateHubPost, barbellSleeveRetentionPost, barbellCollarPost, barbellSleeveRotationPost, plateGripOpeningsPost, tricepsRopePost, latPulldownBarPost, barbellWhipPost, castIronPlateFinishPost, barbellSleeveSurfacePost, customColorFreeWeightsPost, barbellMassPost, weightPlateFlatnessPost, changePlatesPost, dumbbellRackPost, barbellShaftDiameterPost, rubberOdorPost, weightPlateMarkingsPost, hexDumbbellAlignmentPost, cableAttachmentSwivelPost, castIronPlateManufacturingPost, weightPlateEdgePost, rubberDumbbellHardnessPost, rubberDumbbellSurfacePost, cableAttachmentFinishPost, dumbbellEndCapPost, barbellPackagingPost, barbellMaintenancePost, urethaneDumbbellSurfacePost, neopreneVinylDumbbellPost, weightPlateStoragePost, privateLabelGtinPost, freeWeightAqlPost, freeWeightMoqPost, freeWeightProductionLeadTimePost, fixedVsRotatingDumbbellHandlePost, cableAttachmentWeldInspectionPost, fixedDumbbellImpactValidationPost, freeWeightTestReportVerificationPost, freeWeightToolingAgreementPost, freeWeightCorrectiveActionPost, freeWeightWarrantyClaimsPost, freeWeightContainerLoadingPost, freeWeightQualityAgreementPost, bumperPlateCrackPost, cableAttachmentBrandingPost].sort((a, b) => {
       const priority = [
         "do-dumbbells-help-with-bone-density",
         "why-is-it-called-a-dumbbell",
