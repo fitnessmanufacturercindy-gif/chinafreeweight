@@ -444,3 +444,42 @@ Before this gate in an isolated worktree, create a local directory junction from
 - Tags: windows, git-worktree, lighthouse, node-modules, quality-gate
 
 ---
+
+## [ERR-20261117-002] gh-pr-merge-worktree-main-conflict
+
+**Logged**: 2026-11-17T12:42:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+`gh pr merge --merge --delete-branch` refused to merge because its local Git workflow tried to use `main`, which was already checked out in a different worktree.
+
+### Error
+
+```text
+failed to run git: fatal: 'main' is already used by worktree at 'C:/Users/Kloe/Documents/chinafreeweight-main-delete-racks'
+```
+
+### Context
+
+- Task attempted: Merge the fully green ChinaFreeWeight content PR from an isolated publication worktree.
+- Command/tool/API: `gh pr merge 41 --merge --delete-branch`
+- Environment: Windows Git repository with several linked worktrees.
+
+### Suspected Cause
+
+The high-level GitHub CLI merge command performs local branch bookkeeping even though the actual merge is remote, and Git protects a branch already attached to another worktree.
+
+### Suggested Fix
+
+After confirming all required checks are green, use the GitHub pull-request merge API (`PUT /repos/{owner}/{repo}/pulls/{number}/merge`) from isolated worktrees. Delete the remote branch separately only after the merge if needed.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: .git/worktrees
+- Tags: github-cli, git-worktree, merge, windows
+
+---
