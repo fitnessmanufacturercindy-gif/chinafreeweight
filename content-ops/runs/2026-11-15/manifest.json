@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-15",
+  "startedAt": "2026-11-17T03:36:21.722Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-11-15-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-en-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/resources/rubber-dumbbell-mold-line-flash-inspection-guide",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-pt-BR-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/pt/blog/linha-molde-rebarba-halter-emborrachado-inspecao",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-es-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/es/blog/linea-molde-rebaba-mancuerna-caucho-inspeccion",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-de-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/de/blog/formtrennnaht-grat-gummihantel-pruefen",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-fr-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/fr/blog/ligne-moulage-bavure-haltere-caoutchouc-controle",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-vi-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/vi/blog/duong-khuon-via-thua-ta-tay-cao-su-kiem-tra",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-sv-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/sv/blogg/gjutskarv-grad-gummihantlar-kontroll",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-it-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/it/blog/linea-stampo-bava-manubri-gomma-controllo",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-nl-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/nl/blog/gietnaad-braam-rubber-dumbbells-inspectie",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-ar-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/ar/blog/rubber-dumbbell-mold-line-flash-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-ko-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/ko/blog/rubber-dumbbell-mold-line-flash-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-id-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/id/blog/garis-cetakan-flash-dumbbell-karet-inspeksi",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-15-chinafreeweight-pl-rubber-dumbbell-mold-inspection",
+      "entityId": "rubber-dumbbell-mold-line-flash-inspection-guide",
+      "publicPath": "/pl/blog/linia-podzialu-nadlew-hantle-gumowe-kontrola",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully verified edition is prepared for this run; additional daily slots are deferred rather than lowering evidence, media or review quality."
+    }
+  ],
+  "status": "prepared",
+  "preparedAt": "2026-11-17T04:11:29.598Z"
+}

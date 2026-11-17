@@ -404,3 +404,43 @@ Restricted the communication-target assertion to mail, email, phone, tel, and Wh
 Keep content-intent links separate from direct communication protocol checks; validate HTTP content links through the existing link-status crawler.
 
 ---
+
+## [ERR-20261117-001] worktree-quality-gate-lighthouse-path
+
+**Logged**: 2026-11-17T12:30:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+The full quality gate could resolve project commands through the parent repository but failed because it constructs an absolute Lighthouse path under the isolated worktree's missing `node_modules` directory.
+
+### Error
+
+```text
+Cannot find module '...\\.codex_work\\daily-2026-11-15\\node_modules\\lighthouse\\cli\\index.js'
+```
+
+### Context
+
+- Task attempted: Run the ChinaFreeWeight full website quality gate from a clean Git worktree.
+- Command/tool/API: `npm run quality:gate`
+- Inputs: Local production server at `http://127.0.0.1:3015`.
+- Environment: Windows PowerShell; dependencies installed in the parent checkout.
+
+### Suspected Cause
+
+Node's normal upward module resolution allowed Next.js, TypeScript and ESLint commands to run, but `scripts/quality-gate.mjs` directly joins the worktree root with `node_modules/lighthouse/cli/index.js`.
+
+### Suggested Fix
+
+Before this gate in an isolated worktree, create a local directory junction from the worktree `node_modules` path to the verified parent checkout `node_modules` directory, or install dependencies locally when no verified parent dependency tree exists.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: scripts/quality-gate.mjs
+- Tags: windows, git-worktree, lighthouse, node-modules, quality-gate
+
+---

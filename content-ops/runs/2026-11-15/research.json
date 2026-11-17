@@ -1,0 +1,1508 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-15",
+  "status": "complete",
+  "selectedTopic": "Rubber hex dumbbell mold parting lines, flash, surface pits and trim-damage inspection",
+  "selectionReason": "Public results and community questions repeatedly confuse normal molding witnesses with cracks, while industry guidance separates parting-line location, flash thickness and extension, pits, blisters, cuts and tears. The site lacked a buyer-side guide linking these names to zones, samples, evidence and lot disposition.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "rubber dumbbell mold line inspection: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "rubber dumbbell mold line inspection: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "rubber dumbbell mold line inspection: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "rubber dumbbell mold line inspection: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "rubber dumbbell mold line inspection: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "rubber dumbbell mold line inspection: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "rubber dumbbell mold line inspection: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "rubber dumbbell mold line inspection: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "rubber dumbbell mold line inspection: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "rubber dumbbell mold line inspection: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "rubber dumbbell mold line inspection: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "rubber dumbbell mold line inspection: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "rubber dumbbell mold line inspection: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "rubber dumbbell mold line inspection: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "rubber dumbbell mold line inspection: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "inspeção linha de molde halter emborrachado: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "inspeção linha de molde halter emborrachado: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "inspeção linha de molde halter emborrachado: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "inspeção linha de molde halter emborrachado: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "inspeção linha de molde halter emborrachado: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "inspeção linha de molde halter emborrachado: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "inspeção linha de molde halter emborrachado: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "inspeção linha de molde halter emborrachado: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "inspeção linha de molde halter emborrachado: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "inspeção linha de molde halter emborrachado: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "inspeção linha de molde halter emborrachado: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "inspeção linha de molde halter emborrachado: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "inspeção linha de molde halter emborrachado: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "inspeção linha de molde halter emborrachado: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "inspeção linha de molde halter emborrachado: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "inspección línea de molde mancuerna de caucho: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "inspección línea de molde mancuerna de caucho: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "inspección línea de molde mancuerna de caucho: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "inspección línea de molde mancuerna de caucho: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "inspección línea de molde mancuerna de caucho: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "inspección línea de molde mancuerna de caucho: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "inspección línea de molde mancuerna de caucho: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "inspección línea de molde mancuerna de caucho: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "inspección línea de molde mancuerna de caucho: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "inspección línea de molde mancuerna de caucho: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "inspección línea de molde mancuerna de caucho: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "inspección línea de molde mancuerna de caucho: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "inspección línea de molde mancuerna de caucho: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "inspección línea de molde mancuerna de caucho: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "inspección línea de molde mancuerna de caucho: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Formtrennnaht Gummihantel prüfen: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Formtrennnaht Gummihantel prüfen: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Formtrennnaht Gummihantel prüfen: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Formtrennnaht Gummihantel prüfen: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Formtrennnaht Gummihantel prüfen: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Formtrennnaht Gummihantel prüfen: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Formtrennnaht Gummihantel prüfen: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Formtrennnaht Gummihantel prüfen: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Formtrennnaht Gummihantel prüfen: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Formtrennnaht Gummihantel prüfen: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Formtrennnaht Gummihantel prüfen: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Formtrennnaht Gummihantel prüfen: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Formtrennnaht Gummihantel prüfen: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Formtrennnaht Gummihantel prüfen: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Formtrennnaht Gummihantel prüfen: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "contrôle ligne de moulage haltère caoutchouc: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "kontroll gjutskarv gummihantlar: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "kontroll gjutskarv gummihantlar: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "kontroll gjutskarv gummihantlar: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "kontroll gjutskarv gummihantlar: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "kontroll gjutskarv gummihantlar: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "kontroll gjutskarv gummihantlar: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "kontroll gjutskarv gummihantlar: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "kontroll gjutskarv gummihantlar: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "kontroll gjutskarv gummihantlar: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "kontroll gjutskarv gummihantlar: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "kontroll gjutskarv gummihantlar: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "kontroll gjutskarv gummihantlar: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "kontroll gjutskarv gummihantlar: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "kontroll gjutskarv gummihantlar: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "kontroll gjutskarv gummihantlar: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "controllo linea di stampo manubri in gomma: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "controllo linea di stampo manubri in gomma: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "controllo linea di stampo manubri in gomma: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "controllo linea di stampo manubri in gomma: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "controllo linea di stampo manubri in gomma: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "controllo linea di stampo manubri in gomma: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "controllo linea di stampo manubri in gomma: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "controllo linea di stampo manubri in gomma: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "controllo linea di stampo manubri in gomma: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "controllo linea di stampo manubri in gomma: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "controllo linea di stampo manubri in gomma: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "controllo linea di stampo manubri in gomma: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "controllo linea di stampo manubri in gomma: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "controllo linea di stampo manubri in gomma: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "controllo linea di stampo manubri in gomma: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "gietnaad rubber dumbbells inspecteren: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "gietnaad rubber dumbbells inspecteren: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "gietnaad rubber dumbbells inspecteren: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "gietnaad rubber dumbbells inspecteren: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "gietnaad rubber dumbbells inspecteren: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "gietnaad rubber dumbbells inspecteren: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "gietnaad rubber dumbbells inspecteren: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "gietnaad rubber dumbbells inspecteren: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "gietnaad rubber dumbbells inspecteren: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "gietnaad rubber dumbbells inspecteren: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "gietnaad rubber dumbbells inspecteren: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "gietnaad rubber dumbbells inspecteren: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "gietnaad rubber dumbbells inspecteren: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "gietnaad rubber dumbbells inspecteren: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "gietnaad rubber dumbbells inspecteren: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "kontrola linii podziału hantli gumowych: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "kontrola linii podziału hantli gumowych: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "kontrola linii podziału hantli gumowych: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "kontrola linii podziału hantli gumowych: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "kontrola linii podziału hantli gumowych: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "kontrola linii podziału hantli gumowych: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "kontrola linii podziału hantli gumowych: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "kontrola linii podziału hantli gumowych: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "kontrola linii podziału hantli gumowych: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "kontrola linii podziału hantli gumowych: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "kontrola linii podziału hantli gumowych: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "kontrola linii podziału hantli gumowych: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "kontrola linii podziału hantli gumowych: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "kontrola linii podziału hantli gumowych: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "kontrola linii podziału hantli gumowych: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "kiểm tra đường khuôn tạ tay bọc cao su: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "فحص خط قالب الدمبل المطاطي: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "فحص خط قالب الدمبل المطاطي: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "فحص خط قالب الدمبل المطاطي: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "فحص خط قالب الدمبل المطاطي: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "فحص خط قالب الدمبل المطاطي: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "فحص خط قالب الدمبل المطاطي: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "فحص خط قالب الدمبل المطاطي: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "فحص خط قالب الدمبل المطاطي: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "فحص خط قالب الدمبل المطاطي: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "فحص خط قالب الدمبل المطاطي: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "فحص خط قالب الدمبل المطاطي: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "فحص خط قالب الدمبل المطاطي: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "فحص خط قالب الدمبل المطاطي: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "فحص خط قالب الدمبل المطاطي: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "فحص خط قالب الدمبل المطاطي: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "고무 덤벨 금형 이음선 검사: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "고무 덤벨 금형 이음선 검사: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "고무 덤벨 금형 이음선 검사: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "고무 덤벨 금형 이음선 검사: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "고무 덤벨 금형 이음선 검사: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "고무 덤벨 금형 이음선 검사: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "고무 덤벨 금형 이음선 검사: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "고무 덤벨 금형 이음선 검사: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "고무 덤벨 금형 이음선 검사: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "고무 덤벨 금형 이음선 검사: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "고무 덤벨 금형 이음선 검사: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "고무 덤벨 금형 이음선 검사: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "고무 덤벨 금형 이음선 검사: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "고무 덤벨 금형 이음선 검사: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "고무 덤벨 금형 이음선 검사: packaging abrasion versus molding",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "inspeksi garis cetakan dumbbell karet: parting line versus crack",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "inspeksi garis cetakan dumbbell karet: flash thickness and extension",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "inspeksi garis cetakan dumbbell karet: sharp flash in handling zones",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "inspeksi garis cetakan dumbbell karet: surface pit and pinhole classification",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "inspeksi garis cetakan dumbbell karet: blister versus stable texture",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "inspeksi garis cetakan dumbbell karet: trim cut versus tear",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "inspeksi garis cetakan dumbbell karet: open crack and exposed core",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "inspeksi garis cetakan dumbbell karet: mold-half mismatch",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "inspeksi garis cetakan dumbbell karet: embedded foreign material",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "inspeksi garis cetakan dumbbell karet: void near handle transition",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "inspeksi garis cetakan dumbbell karet: display-face cosmetic zones",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "inspeksi garis cetakan dumbbell karet: boundary-sample approval",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "inspeksi garis cetakan dumbbell karet: scaled defect photography",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "inspeksi garis cetakan dumbbell karet: rework and reinspection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "inspeksi garis cetakan dumbbell karet: packaging abrasion versus molding",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "rubber dumbbell mold line inspection",
+      "questions": [
+        "Is a seam around a rubber hex dumbbell always a defect?",
+        "What is the difference between a mold line and flash?",
+        "Can an inspector trim flash during the inspection?",
+        "Should every pinhole cause rejection?",
+        "What should a buyer send with a rubber dumbbell RFQ?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “rubber dumbbell mold line inspection” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Is a seam around a rubber hex dumbbell always a defect?” and “Should every pinhole cause rejection?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/resources/rubber-dumbbell-mold-line-flash-inspection-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "inspeção linha de molde halter emborrachado",
+      "questions": [
+        "A emenda ao redor do halter é sempre defeito?",
+        "Qual é a diferença entre linha de molde e rebarba?",
+        "O inspetor pode aparar a rebarba?",
+        "Todo poro deve reprovar a peça?",
+        "O que enviar para cotar halteres de marca própria?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “inspeção linha de molde halter emborrachado” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “A emenda ao redor do halter é sempre defeito?” and “Todo poro deve reprovar a peça?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/pt/blog/linha-molde-rebarba-halter-emborrachado-inspecao"
+    },
+    "es": {
+      "targetKeyword": "inspección línea de molde mancuerna de caucho",
+      "questions": [
+        "¿La costura alrededor de la mancuerna es siempre un defecto?",
+        "¿En qué se diferencian línea de molde y rebaba?",
+        "¿Puede el inspector recortar la rebaba?",
+        "¿Debe rechazarse cualquier poro?",
+        "¿Qué necesita la fábrica para cotizar marca propia?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “inspección línea de molde mancuerna de caucho” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “¿La costura alrededor de la mancuerna es siempre un defecto?” and “¿Debe rechazarse cualquier poro?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/es/blog/linea-molde-rebaba-mancuerna-caucho-inspeccion"
+    },
+    "de": {
+      "targetKeyword": "Formtrennnaht Gummihantel prüfen",
+      "questions": [
+        "Ist eine Naht um den Gummikopf immer ein Fehler?",
+        "Was unterscheidet Trennnaht und Grat?",
+        "Darf der Inspektor Grat sofort abschneiden?",
+        "Muss jede Pore zur Ablehnung führen?",
+        "Welche Angaben gehören in eine Private-Label-Anfrage?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “Formtrennnaht Gummihantel prüfen” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Ist eine Naht um den Gummikopf immer ein Fehler?” and “Muss jede Pore zur Ablehnung führen?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/de/blog/formtrennnaht-grat-gummihantel-pruefen"
+    },
+    "fr": {
+      "targetKeyword": "contrôle ligne de moulage haltère caoutchouc",
+      "questions": [
+        "Une couture autour de la tête est-elle toujours un défaut ?",
+        "Quelle différence entre joint et bavure ?",
+        "L'inspecteur peut-il couper la bavure ?",
+        "Tout petit creux entraîne-t-il un refus ?",
+        "Que transmettre pour une offre de marque propre ?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “contrôle ligne de moulage haltère caoutchouc” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Une couture autour de la tête est-elle toujours un défaut ?” and “Tout petit creux entraîne-t-il un refus ?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/fr/blog/ligne-moulage-bavure-haltere-caoutchouc-controle"
+    },
+    "sv": {
+      "targetKeyword": "kontroll gjutskarv gummihantlar",
+      "questions": [
+        "Är en skarv runt gummihuvudet alltid fel?",
+        "Vad skiljer delningslinje och grad?",
+        "Får kontrollanten trimma graden direkt?",
+        "Måste varje liten grop underkännas?",
+        "Vad behövs för en private-label-offert?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “kontroll gjutskarv gummihantlar” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Är en skarv runt gummihuvudet alltid fel?” and “Måste varje liten grop underkännas?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/sv/blogg/gjutskarv-grad-gummihantlar-kontroll"
+    },
+    "it": {
+      "targetKeyword": "controllo linea di stampo manubri in gomma",
+      "questions": [
+        "La giunzione attorno alla testa è sempre un difetto?",
+        "Che differenza c'è tra linea e bava?",
+        "L'ispettore può rifilare subito?",
+        "Ogni piccolo poro implica rifiuto?",
+        "Cosa serve per quotare private label?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “controllo linea di stampo manubri in gomma” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “La giunzione attorno alla testa è sempre un difetto?” and “Ogni piccolo poro implica rifiuto?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/it/blog/linea-stampo-bava-manubri-gomma-controllo"
+    },
+    "nl": {
+      "targetKeyword": "gietnaad rubber dumbbells inspecteren",
+      "questions": [
+        "Is een naad rond de rubber kop altijd een defect?",
+        "Wat is het verschil tussen deellijn en braam?",
+        "Mag de inspecteur de braam direct afsnijden?",
+        "Moet ieder putje worden afgekeurd?",
+        "Wat is nodig voor een private-label-offerte?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “gietnaad rubber dumbbells inspecteren” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Is een naad rond de rubber kop altijd een defect?” and “Moet ieder putje worden afgekeurd?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/nl/blog/gietnaad-braam-rubber-dumbbells-inspectie"
+    },
+    "pl": {
+      "targetKeyword": "kontrola linii podziału hantli gumowych",
+      "questions": [
+        "Czy linia wokół głowicy zawsze jest wadą?",
+        "Czym różni się linia od nadlewu?",
+        "Czy inspektor może od razu usunąć nadlew?",
+        "Czy każdy wżer oznacza odrzut?",
+        "Co podać do wyceny marki własnej?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “kontrola linii podziału hantli gumowych” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Czy linia wokół głowicy zawsze jest wadą?” and “Czy każdy wżer oznacza odrzut?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/pl/blog/linia-podzialu-nadlew-hantle-gumowe-kontrola"
+    },
+    "vi": {
+      "targetKeyword": "kiểm tra đường khuôn tạ tay bọc cao su",
+      "questions": [
+        "Đường quanh đầu tạ có luôn là lỗi không?",
+        "Đường khuôn khác via như thế nào?",
+        "Người kiểm có thể tỉa via ngay không?",
+        "Mọi lỗ nhỏ đều phải loại bỏ?",
+        "Cần gửi gì để báo giá nhãn riêng?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “kiểm tra đường khuôn tạ tay bọc cao su” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Đường quanh đầu tạ có luôn là lỗi không?” and “Mọi lỗ nhỏ đều phải loại bỏ?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/vi/blog/duong-khuon-via-thua-ta-tay-cao-su-kiem-tra"
+    },
+    "ar": {
+      "targetKeyword": "فحص خط قالب الدمبل المطاطي",
+      "questions": [
+        "هل الخط حول الرأس عيب دائماً؟",
+        "ما الفرق بين خط القالب والزائد؟",
+        "هل يحق للمفتش قطع الزائد فوراً؟",
+        "هل تُرفض كل حفرة صغيرة؟",
+        "ما البيانات اللازمة لعرض علامة خاصة؟"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “فحص خط قالب الدمبل المطاطي” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “هل الخط حول الرأس عيب دائماً؟” and “هل تُرفض كل حفرة صغيرة؟” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/ar/blog/rubber-dumbbell-mold-line-flash-inspection"
+    },
+    "ko": {
+      "targetKeyword": "고무 덤벨 금형 이음선 검사",
+      "questions": [
+        "고무 헤드 둘레의 선은 항상 결함인가요?",
+        "이음선과 플래시는 무엇이 다른가요?",
+        "검사원이 플래시를 바로 잘라도 되나요?",
+        "작은 피트는 모두 불합격인가요?",
+        "자체 브랜드 견적에는 무엇이 필요한가요?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “고무 덤벨 금형 이음선 검사” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “고무 헤드 둘레의 선은 항상 결함인가요?” and “작은 피트는 모두 불합격인가요?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/ko/blog/rubber-dumbbell-mold-line-flash-inspection"
+    },
+    "id": {
+      "targetKeyword": "inspeksi garis cetakan dumbbell karet",
+      "questions": [
+        "Apakah garis di sekitar kepala selalu cacat?",
+        "Apa beda garis cetakan dan flash?",
+        "Bolehkah inspektur langsung memotong flash?",
+        "Apakah setiap pit kecil harus ditolak?",
+        "Apa yang diperlukan untuk penawaran merek privat?"
+      ],
+      "evidence": [
+        "Uses the local procurement phrase “inspeksi garis cetakan dumbbell karet” and market-language distinctions for a mold parting line, flash, pits, trimming damage, cracks and lot disposition.",
+        "Answers locally phrased buyer questions such as “Apakah garis di sekitar kepala selalu cacat?” and “Apakah setiap pit kecil harus ditolak?” rather than translating an English keyword list into visitor copy."
+      ],
+      "path": "/id/blog/garis-cetakan-flash-dumbbell-karet-inspeksi"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Protolabs",
+      "url": "https://www.protolabs.com/resources/design-tips/injection-molding-defects-and-how-to-avoid-them/",
+      "observation": "Explains parting lines, flash and knit-line consequences in molded parts. The guide adds dumbbell zones, sample approval and lot decisions without transferring plastic-part tolerances."
+    },
+    {
+      "name": "Vicone / ARPM RMA guidance",
+      "url": "https://viconerubber.com/en/resources/rma-quality-standard",
+      "observation": "Defines flash thickness and extension and stresses design-manufacturer agreement. ChinaFreeWeight applies that decision pattern without inventing numeric dumbbell limits."
+    },
+    {
+      "name": "Bick inspection guide",
+      "url": "https://bickreal.com/third-party-inspection-for-hex-rubber-dumbbell-set-pre-shipment-supplier/",
+      "observation": "Search-visible dumbbell inspection content discusses cosmetic lines and flash, confirming buyer intent. Its tolerances and commercial claims were not reused."
+    },
+    {
+      "name": "Rubber molding troubleshooting pages",
+      "url": "https://tasuinjection.com/blog/rubber-injection-molding-troubleshooting-guide/",
+      "observation": "Industry pages connect flash and surface imperfections to tooling and process factors. The article stays at buyer-observable evidence and does not diagnose a factory from one photo."
+    }
+  ],
+  "rejectedTopics": [
+    "Rubber coating peeling and cracking — a dedicated guide already owns coating adhesion and separation.",
+    "Rubber odor and emissions — an existing multilingual guide owns sensory comparison and evidence boundaries.",
+    "Rubber Shore hardness — a dedicated guide owns durometer method and interpretation.",
+    "Surface bloom and oily residue — an existing guide owns residue classification and receiving decisions.",
+    "Dumbbell head alignment and joint retention — dedicated guides own geometry and hidden head-to-handle construction."
+  ],
+  "siteGaps": [
+    "No dedicated guide distinguished a normal mold parting line from excess flash, pits, blisters, trim cuts, tears and open separation while connecting each finding to head zones, photographs, severity and lot disposition."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1966,
+    "liveBlogUrlsReviewed": 1096,
+    "repositoryPublishedVersionsReviewed": 1952,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "rubber coating peeling",
+      "rubber dumbbell hardness",
+      "surface bloom and oily residue",
+      "hex dumbbell alignment",
+      "dumbbell head retention"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 3302-1:2014 — Rubber tolerances for products",
+      "url": "https://www.iso.org/standard/62492.html",
+      "primary": true,
+      "use": "Official current standard record used to establish dimensional-tolerance and flash-classification scope without selecting a universal dumbbell grade."
+    },
+    {
+      "title": "ARPM/RMA molded-rubber quality guidance",
+      "url": "https://viconerubber.com/en/resources/rma-quality-standard",
+      "primary": false,
+      "use": "Industry guidance used to distinguish flash thickness, flash extension and parting-line designation; no generic numeric class is imposed on dumbbells."
+    },
+    {
+      "title": "Protolabs — Injection molding defects",
+      "url": "https://www.protolabs.com/resources/design-tips/injection-molding-defects-and-how-to-avoid-them/",
+      "primary": false,
+      "use": "Manufacturing explanation used to separate an expected parting line from knit lines and other process conditions in stressed zones."
+    },
+    {
+      "title": "GE Vernova cosmetic inspection guidance",
+      "url": "https://www.gevernova.com/electrification/sites/default/files/2025-04/GA-SRC-0002%20Cosmetic%20Inspection%20Guidelines%20for%20Mechanical%20Components.pdf",
+      "primary": false,
+      "use": "Industry defect vocabulary reviewed for flash, fracture and surface marks; no acceptance number was transferred to free weights."
+    },
+    {
+      "title": "Reddit buyer and repair discussions",
+      "url": "https://www.reddit.com/r/fixit/comments/yfb617/",
+      "primary": false,
+      "use": "Used only to confirm recurring buyer wording about seams, cracks near handles and whether visible damage is serviceable."
+    },
+    {
+      "title": "ChinaFreeWeight dumbbell category",
+      "url": "https://www.chinafreeweight.com/products/dumbbells",
+      "primary": true,
+      "use": "Current product scope and internal destination verified before topic selection."
+    }
+  ],
+  "publicSearch": {
+    "queriesReviewed": 24,
+    "surfaces": [
+      "Google- and Bing-visible indexed results",
+      "question-style searches",
+      "Reddit",
+      "Quora attempted but blocked",
+      "ISO official record",
+      "rubber-industry guidance",
+      "competitor and third-party inspection pages",
+      "local-language terminology for every publication market"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Is the seam around a rubber dumbbell normal?",
+      "What is the difference between a mold line and flash?",
+      "When does a line become a crack?",
+      "Are pinholes and surface pits acceptable?",
+      "Can flash be trimmed during inspection?",
+      "How should a buyer photograph and classify a repeated defect?"
+    ]
+  },
+  "paidSearchRefresh": {
+    "status": "credentials-unavailable",
+    "reason": "The recovered run date is Sunday in the editorial ledger. The repository connection test reported that DataForSEO credentials are not configured, so no paid request was made; topic selection relies on current public search plus primary and industry sources."
+  },
+  "limitations": [
+    "Quora pages were blocked from automated verification and supplied no claims.",
+    "Reddit was used only for buyer wording and recurring seam or crack questions, never as manufacturing proof.",
+    "No ISO or ARPM flash class is imposed as a universal dumbbell acceptance limit; buyer and factory must agree the construction-specific condition.",
+    "No customer, project, quantity, price, MOQ, lead time, certification, test result, defect rate or ChinaFreeWeight process-performance fact is invented.",
+    "Images are conceptual unbranded inspection scenes, not evidence of a customer program, real factory floor or completed shipment."
+  ]
+}

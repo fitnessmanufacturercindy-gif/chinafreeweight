@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-15",
+  "checkedAt": "2026-11-17T04:11:47.696Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-15-chinafreeweight-en-rubber-dumbbell-mold-inspection",
+      "locale": "en",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pt-BR-rubber-dumbbell-mold-inspection",
+      "locale": "pt-BR",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-es-rubber-dumbbell-mold-inspection",
+      "locale": "es",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-de-rubber-dumbbell-mold-inspection",
+      "locale": "de",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-fr-rubber-dumbbell-mold-inspection",
+      "locale": "fr",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-sv-rubber-dumbbell-mold-inspection",
+      "locale": "sv",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-it-rubber-dumbbell-mold-inspection",
+      "locale": "it",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-nl-rubber-dumbbell-mold-inspection",
+      "locale": "nl",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-pl-rubber-dumbbell-mold-inspection",
+      "locale": "pl",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-vi-rubber-dumbbell-mold-inspection",
+      "locale": "vi",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ar-rubber-dumbbell-mold-inspection",
+      "locale": "ar",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-ko-rubber-dumbbell-mold-inspection",
+      "locale": "ko",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-15-chinafreeweight-id-rubber-dumbbell-mold-inspection",
+      "locale": "id",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    }
+  ]
+}
