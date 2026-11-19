@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { ArrowRight, BookOpen, Factory, SearchCheck } from "lucide-react";
 import { getAllPosts } from "../../resources/blogData";
+import { siteUrl } from "../../site";
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
@@ -26,9 +27,39 @@ export const metadata: Metadata = {
 
 export default function ResourcesPage() {
   const posts = getAllPosts();
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${siteUrl}/resources#webpage`,
+    url: `${siteUrl}/resources`,
+    name: "PowerBaseFit Free Weight Knowledge Center",
+    description: metadata.description,
+    inLanguage: "en",
+    isPartOf: { "@type": "WebSite", "@id": `${siteUrl}#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: posts.length,
+      itemListElement: posts.map((post, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: post.title,
+        url: `${siteUrl}/resources/${post.slug}`
+      }))
+    }
+  };
+  const resourcesBreadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+      { "@type": "ListItem", position: 2, name: "Resources", item: `${siteUrl}/resources` }
+    ]
+  };
 
   return (
     <main className="resources-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(resourcesBreadcrumbJsonLd) }} />
       <header className="resources-header">
         <a className="resources-brand" href="/">
           <img src="/assets/logo-readable.webp" alt="PowerBaseFit" />

@@ -11,7 +11,7 @@ import {
   ShieldCheck,
   Upload
 } from "lucide-react";
-import { company, sourcingFacts } from "../../site";
+import { company, siteUrl, sourcingFacts } from "../../site";
 import InquiryForm from "../../contact/InquiryForm";
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
 
@@ -53,9 +53,32 @@ const faqs = [
   }
 ];
 
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": `${siteUrl}/contact#webpage`,
+  url: `${siteUrl}/contact`,
+  name: "Contact PowerBaseFit for a Gym Equipment Quote",
+  description: metadata.description,
+  inLanguage: "en",
+  isPartOf: { "@type": "WebSite", "@id": `${siteUrl}#website` },
+  about: { "@type": "Organization", "@id": `${siteUrl}#organization` }
+};
+
+const contactBreadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: siteUrl },
+    { "@type": "ListItem", position: 2, name: "Contact", item: `${siteUrl}/contact` }
+  ]
+};
+
 export default function ContactPage() {
   return (
     <main className="contact-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactPageJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactBreadcrumbJsonLd) }} />
       <section className="contact-hero">
         <div className="hero-copy">
           <span>PowerBaseFit Manufacturing & Export Base</span>
