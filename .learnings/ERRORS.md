@@ -746,3 +746,34 @@ Re-ran the production build in the same approved context that owned the existing
 Keep all build and render steps for one isolated worktree in a consistent execution context, especially when reusing `.next` on Windows.
 
 ---
+
+## [ERR-20261119-008] site-health-browser-close-hang
+
+**Logged**: 2026-11-19T14:00:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: testing
+
+### Summary
+
+The `main` Website Quality Gate finished all 14 incremental desktop page checks in 24 seconds, then remained in the daily site-health step until GitHub canceled the job at its 40-minute limit.
+
+### Error
+
+```text
+The job has exceeded the maximum execution time of 40m0s
+```
+
+### Root Cause
+
+Navigation calls were bounded, but Playwright page and context shutdown calls in the desktop, mobile, and contact-form phases had no timeout. A stalled close operation could therefore prevent the report from being written and consume the entire job budget.
+
+### Resolution
+
+Wrapped page and context cleanup in five-second races and added mobile-phase progress output so a browser cleanup problem can no longer hold the workflow indefinitely or remain invisible.
+
+### Prevention
+
+Every browser lifecycle operation in long-running CI audits must have an explicit upper bound, including cleanup calls after assertions have finished.
+
+---

@@ -114,6 +114,21 @@ async function mapConcurrent(items, concurrency, worker) {
   await Promise.all(workers);
 }
 
+async function settleWithTimeout(promise, timeoutMs = 5000) {
+  return Promise.race([
+    Promise.resolve(promise).then(() => "settled").catch(() => "failed"),
+    new Promise((resolve) => setTimeout(() => resolve("timeout"), timeoutMs))
+  ]);
+}
+
+async function closePageSafely(page) {
+  await settleWithTimeout(page.close(), 5000);
+}
+
+async function closeContextSafely(context) {
+  await settleWithTimeout(context.close(), 5000);
+}
+
 async function fetchText(url) {
   const response = await fetch(url, { redirect: "follow" });
   return { ok: response.ok, status: response.status, url: response.url, text: await response.text() };
@@ -447,7 +462,9 @@ async function checkMobile(browser, urls) {
     viewport: { width: 390, height: 844 },
     isMobile: true
   });
-  for (const url of urls.slice(0, 12)) {
+  const mobileUrls = urls.slice(0, 12);
+  for (const [index, url] of mobileUrls.entries()) {
+    console.log(`[site-health] Mobile ${index + 1}/${mobileUrls.length}: ${url}`);
     const page = await mobileContext.newPage();
     try {
       const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
@@ -478,10 +495,10 @@ async function checkMobile(browser, urls) {
     } catch (error) {
       issues.push(issue("High", "mobile", url, `Mobile inspection failed: ${error.message}`));
     } finally {
-      await page.close().catch(() => {});
+      await closePageSafely(page);
     }
   }
-  await mobileContext.close();
+  await closeContextSafely(mobileContext);
   return issues;
 }
 
@@ -527,7 +544,7 @@ async function checkContactForm(context) {
   } catch (error) {
     issues.push(issue("Critical", "conversion", `${BASE_URL}/contact`, `Contact form input/submit check failed: ${error.message}`));
   } finally {
-    await page.close();
+    await closePageSafely(page);
   }
   return issues;
 }
@@ -645,12 +662,12 @@ async function runSiteHealthCheck(options = {}) {
       { scrollDelayMs: SCROLL_DELAY_MS, postScrollWaitMs: POST_SCROLL_WAIT_MS }
     );
     pageResults.push(await checkPage(page, context, url, linkStatusCache));
-    await page.close();
+    await closePageSafely(page);
   }
 
   const mobileIssues = await checkMobile(browser, urls);
   const contactIssues = urls.some((url) => new URL(url).pathname === "/contact") ? await checkContactForm(context) : [];
-  await context.close().catch(() => {});
+  await closeContextSafely(context);
   await closeBrowserSafely(browser);
 
   const robotsIssues = await checkRobots();
