@@ -125,6 +125,8 @@
     "audit:cable-attachment-branding-rendered": "node scripts/verify-cable-attachment-branding-rendering.mjs",
     "audit:rubber-dumbbell-mold-defects": "tsx scripts/audit-rubber-dumbbell-mold-defect-guide.ts",
     "audit:rubber-dumbbell-mold-defects-rendered": "node scripts/verify-rubber-dumbbell-mold-defect-rendering.mjs",
+    "audit:bumper-plate-hub-corrosion": "tsx scripts/audit-bumper-plate-hub-corrosion-guide.ts",
+    "audit:bumper-plate-hub-corrosion-rendered": "node scripts/verify-bumper-plate-hub-corrosion-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

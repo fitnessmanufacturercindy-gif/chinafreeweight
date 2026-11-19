@@ -1,0 +1,1465 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-16",
+  "status": "complete",
+  "selectedTopic": "Bumper plate center-hub rust-colored staining, material verification and receiving disposition",
+  "selectionReason": "Exact community questions ask whether the metal center ring rusts, while authoritative corrosion sources show why transferred iron, persistent staining, coating damage and pitting require different evidence. The site had hub-retention and crack guides but no page owning this receiving decision.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "bumper plate hub rust inspection: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "bumper plate hub rust inspection: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "bumper plate hub rust inspection: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "bumper plate hub rust inspection: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "bumper plate hub rust inspection: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "bumper plate hub rust inspection: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "bumper plate hub rust inspection: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "bumper plate hub rust inspection: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "bumper plate hub rust inspection: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "bumper plate hub rust inspection: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "bumper plate hub rust inspection: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "bumper plate hub rust inspection: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "bumper plate hub rust inspection: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "bumper plate hub rust inspection: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "bumper plate hub rust inspection: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "corrosão no inserto metálico de anilha bumper: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "corrosão no inserto metálico de anilha bumper: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "corrosão no inserto metálico de anilha bumper: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "corrosão no inserto metálico de anilha bumper: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "corrosão no inserto metálico de anilha bumper: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "corrosão no inserto metálico de anilha bumper: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "corrosão no inserto metálico de anilha bumper: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "corrosão no inserto metálico de anilha bumper: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "corrosão no inserto metálico de anilha bumper: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "corrosão no inserto metálico de anilha bumper: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "corrosão no inserto metálico de anilha bumper: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "corrosão no inserto metálico de anilha bumper: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "corrosão no inserto metálico de anilha bumper: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "corrosão no inserto metálico de anilha bumper: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "corrosão no inserto metálico de anilha bumper: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "óxido en aro central de disco bumper: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "óxido en aro central de disco bumper: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "óxido en aro central de disco bumper: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "óxido en aro central de disco bumper: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "óxido en aro central de disco bumper: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "óxido en aro central de disco bumper: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "óxido en aro central de disco bumper: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "óxido en aro central de disco bumper: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "óxido en aro central de disco bumper: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "óxido en aro central de disco bumper: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "óxido en aro central de disco bumper: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "óxido en aro central de disco bumper: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "óxido en aro central de disco bumper: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "óxido en aro central de disco bumper: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "óxido en aro central de disco bumper: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Bumper Plates Innenring Rost prüfen: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Bumper Plates Innenring Rost prüfen: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Bumper Plates Innenring Rost prüfen: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Bumper Plates Innenring Rost prüfen: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Bumper Plates Innenring Rost prüfen: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Bumper Plates Innenring Rost prüfen: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Bumper Plates Innenring Rost prüfen: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Bumper Plates Innenring Rost prüfen: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Bumper Plates Innenring Rost prüfen: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Bumper Plates Innenring Rost prüfen: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Bumper Plates Innenring Rost prüfen: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Bumper Plates Innenring Rost prüfen: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Bumper Plates Innenring Rost prüfen: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Bumper Plates Innenring Rost prüfen: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Bumper Plates Innenring Rost prüfen: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "rouille bague centrale disque bumper: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "rouille bague centrale disque bumper: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "rouille bague centrale disque bumper: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "rouille bague centrale disque bumper: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "rouille bague centrale disque bumper: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "rouille bague centrale disque bumper: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "rouille bague centrale disque bumper: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "rouille bague centrale disque bumper: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "rouille bague centrale disque bumper: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "rouille bague centrale disque bumper: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "rouille bague centrale disque bumper: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "rouille bague centrale disque bumper: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "rouille bague centrale disque bumper: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "rouille bague centrale disque bumper: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "rouille bague centrale disque bumper: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "bumpervikter nav rost kontroll: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "bumpervikter nav rost kontroll: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "bumpervikter nav rost kontroll: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "bumpervikter nav rost kontroll: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "bumpervikter nav rost kontroll: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "bumpervikter nav rost kontroll: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "bumpervikter nav rost kontroll: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "bumpervikter nav rost kontroll: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "bumpervikter nav rost kontroll: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "bumpervikter nav rost kontroll: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "bumpervikter nav rost kontroll: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "bumpervikter nav rost kontroll: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "bumpervikter nav rost kontroll: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "bumpervikter nav rost kontroll: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "bumpervikter nav rost kontroll: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "ruggine anello centrale bumper plate: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "ruggine anello centrale bumper plate: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "ruggine anello centrale bumper plate: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "ruggine anello centrale bumper plate: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "ruggine anello centrale bumper plate: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "ruggine anello centrale bumper plate: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "ruggine anello centrale bumper plate: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "ruggine anello centrale bumper plate: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "ruggine anello centrale bumper plate: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "ruggine anello centrale bumper plate: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "ruggine anello centrale bumper plate: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "ruggine anello centrale bumper plate: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "ruggine anello centrale bumper plate: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "ruggine anello centrale bumper plate: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "ruggine anello centrale bumper plate: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "bumper plate RVS binnenring roest: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "bumper plate RVS binnenring roest: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "bumper plate RVS binnenring roest: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "bumper plate RVS binnenring roest: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "bumper plate RVS binnenring roest: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "bumper plate RVS binnenring roest: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "bumper plate RVS binnenring roest: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "bumper plate RVS binnenring roest: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "bumper plate RVS binnenring roest: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "bumper plate RVS binnenring roest: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "bumper plate RVS binnenring roest: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "bumper plate RVS binnenring roest: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "bumper plate RVS binnenring roest: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "bumper plate RVS binnenring roest: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "bumper plate RVS binnenring roest: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "rdza pierścień talerza bumper kontrola: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "rdza pierścień talerza bumper kontrola: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "rdza pierścień talerza bumper kontrola: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "rdza pierścień talerza bumper kontrola: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "rdza pierścień talerza bumper kontrola: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "rdza pierścień talerza bumper kontrola: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "rdza pierścień talerza bumper kontrola: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "rdza pierścień talerza bumper kontrola: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "rdza pierścień talerza bumper kontrola: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "rdza pierścień talerza bumper kontrola: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "rdza pierścień talerza bumper kontrola: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "rdza pierścień talerza bumper kontrola: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "rdza pierścień talerza bumper kontrola: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "rdza pierścień talerza bumper kontrola: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "rdza pierścień talerza bumper kontrola: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "vòng thép tạ bumper bị gỉ: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "vòng thép tạ bumper bị gỉ: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "vòng thép tạ bumper bị gỉ: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "vòng thép tạ bumper bị gỉ: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "vòng thép tạ bumper bị gỉ: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "vòng thép tạ bumper bị gỉ: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "vòng thép tạ bumper bị gỉ: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "vòng thép tạ bumper bị gỉ: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "vòng thép tạ bumper bị gỉ: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "vòng thép tạ bumper bị gỉ: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "vòng thép tạ bumper bị gỉ: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "vòng thép tạ bumper bị gỉ: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "vòng thép tạ bumper bị gỉ: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "vòng thép tạ bumper bị gỉ: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "vòng thép tạ bumper bị gỉ: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "صدأ الحلقة المعدنية قرص بامبر: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "범퍼 플레이트 허브 녹 검사: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "범퍼 플레이트 허브 녹 검사: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "범퍼 플레이트 허브 녹 검사: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "범퍼 플레이트 허브 녹 검사: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "범퍼 플레이트 허브 녹 검사: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "범퍼 플레이트 허브 녹 검사: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "범퍼 플레이트 허브 녹 검사: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "범퍼 플레이트 허브 녹 검사: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "범퍼 플레이트 허브 녹 검사: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "범퍼 플레이트 허브 녹 검사: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "범퍼 플레이트 허브 녹 검사: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "범퍼 플레이트 허브 녹 검사: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "범퍼 플레이트 허브 녹 검사: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "범퍼 플레이트 허브 녹 검사: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "범퍼 플레이트 허브 녹 검사: receiving photo sequence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "ring tengah bumper plate berkarat: removable ferrous transfer versus corrosion",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "ring tengah bumper plate berkarat: persistent rust-colored staining",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "ring tengah bumper plate berkarat: pitting after an agreed wipe",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "ring tengah bumper plate berkarat: plated insert finish breach",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "ring tengah bumper plate berkarat: stainless insert material evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "ring tengah bumper plate berkarat: magnet-test limits",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "ring tengah bumper plate berkarat: condensation inside packaging",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "ring tengah bumper plate berkarat: wet carton pallet mapping",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "ring tengah bumper plate berkarat: carbon-steel contact contamination",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "ring tengah bumper plate berkarat: hub sharp-edge containment",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "ring tengah bumper plate berkarat: insert looseness versus cosmetic staining",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "ring tengah bumper plate berkarat: salt-spray method limits",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "ring tengah bumper plate berkarat: approved reference sample",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "ring tengah bumper plate berkarat: private-label insert specification",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "ring tengah bumper plate berkarat: receiving photo sequence",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "bumper plate hub rust inspection",
+      "publicQuery": "Does the metal ring in bumper plates rust?",
+      "questions": [
+        "Does a rust-colored mark prove that the hub is carbon steel?",
+        "Can a magnet identify the exact stainless grade?",
+        "Should an inspector polish the hub until it looks clean?",
+        "Is a salt-spray hour count enough to approve a bumper plate?",
+        "What should buyers send with a private-label bumper plate inquiry?"
+      ],
+      "path": "/resources/bumper-plate-hub-rust-corrosion-inspection-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "corrosão no inserto metálico de anilha bumper",
+      "publicQuery": "anel central anilha bumper ferrugem fornecedor",
+      "questions": [
+        "A mancha prova que o anel é de aço carbono?",
+        "Um ímã identifica a classe do inox?",
+        "O inspetor pode polir o anel?",
+        "Horas de névoa salina bastam para aprovar?",
+        "O que enviar numa consulta Private Label?"
+      ],
+      "path": "/pt/blog/inspecao-ferrugem-anel-central-anilha-bumper"
+    },
+    "es": {
+      "targetKeyword": "óxido en aro central de disco bumper",
+      "publicQuery": "disco bumper aro central óxido proveedor",
+      "questions": [
+        "¿La mancha demuestra que el aro es de acero al carbono?",
+        "¿Un imán identifica el grado inoxidable?",
+        "¿Se puede pulir durante la inspección?",
+        "¿Basta una cifra de horas en niebla salina?",
+        "¿Qué debe incluir una consulta Private Label?"
+      ],
+      "path": "/es/blog/oxido-aro-central-disco-bumper-inspeccion"
+    },
+    "de": {
+      "targetKeyword": "Bumper Plates Innenring Rost prüfen",
+      "publicQuery": "Bumper Plates Innenring Rost Händler",
+      "questions": [
+        "Beweist Rostfarbe Kohlenstoffstahl?",
+        "Bestimmt ein Magnet die Edelstahlsorte?",
+        "Darf der Prüfer polieren?",
+        "Reicht eine Salzsprüh-Stundenzahl?",
+        "Was gehört in eine Private-Label-Anfrage?"
+      ],
+      "path": "/de/blog/bumper-plates-innenring-rost-pruefen"
+    },
+    "fr": {
+      "targetKeyword": "rouille bague centrale disque bumper",
+      "publicQuery": "disque bumper bague centrale rouille fournisseur",
+      "questions": [
+        "La couleur rouille prouve-t-elle un acier carbone ?",
+        "Un aimant identifie-t-il la nuance inox ?",
+        "Peut-on polir pendant le contrôle ?",
+        "Un nombre d’heures au brouillard salin suffit-il ?",
+        "Que transmettre pour un projet Private Label ?"
+      ],
+      "path": "/fr/blog/disque-bumper-bague-centrale-rouille-inspection"
+    },
+    "sv": {
+      "targetKeyword": "bumpervikter nav rost kontroll",
+      "publicQuery": "bumpervikter nav rost rostfritt stål",
+      "questions": [
+        "Bevisar rostfärg att navet är kolstål?",
+        "Identifierar en magnet exakt rostfri kvalitet?",
+        "Får inspektören polera?",
+        "Räcker ett antal saltspraytimmar?",
+        "Vad behövs i en Private Label-förfrågan?"
+      ],
+      "path": "/sv/blogg/bumpervikter-nav-rost-mottagningskontroll"
+    },
+    "it": {
+      "targetKeyword": "ruggine anello centrale bumper plate",
+      "publicQuery": "bumper plate anello centrale ruggine acciaio inox",
+      "questions": [
+        "Il colore ruggine dimostra acciaio al carbonio?",
+        "Un magnete identifica il grado inox?",
+        "Si può lucidare durante l’ispezione?",
+        "Bastano le ore in nebbia salina?",
+        "Cosa inviare per un progetto Private Label?"
+      ],
+      "path": "/it/blog/ispezione-ruggine-anello-centrale-bumper-plate"
+    },
+    "nl": {
+      "targetKeyword": "bumper plate RVS binnenring roest",
+      "publicQuery": "bumper plate binnenring roest roestvrij staal",
+      "questions": [
+        "Bewijst roestkleur dat de ring koolstofstaal is?",
+        "Bepaalt een magneet de RVS-kwaliteit?",
+        "Mag de inspecteur polijsten?",
+        "Is een aantal zoutneveluren voldoende?",
+        "Wat hoort in een Private Label-aanvraag?"
+      ],
+      "path": "/nl/blog/roest-binnenring-bumper-plate-inspectie"
+    },
+    "pl": {
+      "targetKeyword": "rdza pierścień talerza bumper kontrola",
+      "publicQuery": "talerze bumper pierścień rdzewieje stal nierdzewna",
+      "questions": [
+        "Czy kolor rdzy dowodzi stali węglowej?",
+        "Czy magnes wskazuje gatunek stali nierdzewnej?",
+        "Czy kontroler może polerować?",
+        "Czy liczba godzin mgły solnej wystarczy?",
+        "Co wysłać w zapytaniu Private Label?"
+      ],
+      "path": "/pl/blog/rdza-pierscien-talerza-bumper-kontrola"
+    },
+    "vi": {
+      "targetKeyword": "vòng thép tạ bumper bị gỉ",
+      "publicQuery": "vòng thép tạ bumper bị gỉ",
+      "questions": [
+        "Màu gỉ có chứng minh vòng là thép carbon không?",
+        "Nam châm có xác định đúng mác inox không?",
+        "Có nên đánh bóng ngay khi kiểm tra?",
+        "Số giờ phun muối có đủ để duyệt không?",
+        "Cần gửi gì khi hỏi Private Label?"
+      ],
+      "path": "/vi/blog/kiem-tra-gi-vong-thep-ta-bumper"
+    },
+    "ar": {
+      "targetKeyword": "صدأ الحلقة المعدنية قرص بامبر",
+      "publicQuery": "صدأ الحلقة المعدنية قرص بامبر ستيل مقاوم للصدأ",
+      "questions": [
+        "هل يثبت لون الصدأ أن الحلقة من فولاذ كربوني؟",
+        "هل يحدد المغناطيس درجة الستانلس؟",
+        "هل يجوز تلميع الحلقة أثناء الفحص؟",
+        "هل يكفي عدد ساعات الرش الملحي؟",
+        "ماذا يرسل المشتري لمشروع Private Label؟"
+      ],
+      "path": "/ar/blog/bumper-plate-center-ring-rust-inspection"
+    },
+    "ko": {
+      "targetKeyword": "범퍼 플레이트 허브 녹 검사",
+      "publicQuery": "범퍼 플레이트 허브 녹 스테인리스 링",
+      "questions": [
+        "녹빛이면 탄소강이라는 뜻인가요?",
+        "자석으로 스테인리스 강종을 알 수 있나요?",
+        "검사 중에 광택 작업을 해도 되나요?",
+        "염수분무 시간만으로 승인할 수 있나요?",
+        "Private Label 문의에는 무엇이 필요한가요?"
+      ],
+      "path": "/ko/blog/bumper-plate-hub-rust-inspection"
+    },
+    "id": {
+      "targetKeyword": "ring tengah bumper plate berkarat",
+      "publicQuery": "ring tengah bumper plate berkarat stainless steel",
+      "questions": [
+        "Apakah warna karat membuktikan ring dari baja karbon?",
+        "Apakah magnet menentukan kelas baja tahan karat?",
+        "Bolehkah ring dipoles saat inspeksi?",
+        "Apakah jumlah jam semprotan garam cukup?",
+        "Apa yang dikirim untuk permintaan merek privat?"
+      ],
+      "path": "/id/blog/inspeksi-karat-ring-tengah-bumper-plate"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Dongli",
+      "url": "https://www.sddlfit.com/products/weight-plates",
+      "observation": "Reviewed for supplier vocabulary and material declarations; no product claim or wording was reused."
+    },
+    {
+      "name": "FITRON",
+      "url": "https://www.fitron.eu/product/color-bumper-plates/",
+      "observation": "Reviewed for market descriptions of center rings; the article adds receiving evidence and avoids treating a seller declaration as universal."
+    },
+    {
+      "name": "Iron Company",
+      "url": "https://www.ironcompany.com/iron-company-premium-rubber-bumper-plates",
+      "observation": "Reviewed as current retail terminology only; no specifications were transferred."
+    }
+  ],
+  "rejectedTopics": [
+    "Hub looseness and retention — already owned by the dedicated hub-insert guide.",
+    "Plate-hole and sleeve fit — already owned by the dimensional fit guide.",
+    "Edge cracks and splits — published on 2026-11-13.",
+    "Cable-attachment chrome corrosion — a different product and failure boundary."
+  ],
+  "siteGaps": [
+    "No dedicated guide joined removable transfer, persistent hub staining, pits, packaging moisture, controlled material evidence and lot disposition."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1979,
+    "liveBlogUrlsReviewed": 1109,
+    "repositoryPublishedVersionsReviewed": 1965,
+    "registryTopicsReviewed": 2355,
+    "registryChinaFreeWeightTopicsReviewed": 571,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "bumper plate hub retention",
+      "plate-to-sleeve fit",
+      "bumper plate edge cracks",
+      "cable attachment finish corrosion"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ISO 9227:2022 — Corrosion tests in artificial atmospheres",
+      "url": "https://www.iso.org/standard/81744.html",
+      "primary": true,
+      "use": "Official scope used to explain that the standard describes salt-spray apparatus and procedure but does not set a bumper-plate specimen, exposure duration or interpretation."
+    },
+    {
+      "title": "ASTM B117-26 — Operating Salt Spray Apparatus",
+      "url": "https://store.astm.org/standards/b117",
+      "primary": true,
+      "use": "Official current record used for method scope and the limitation that stand-alone results do not reliably predict natural-service performance."
+    },
+    {
+      "title": "ASTM A380/A380M — Cleaning and passivation",
+      "url": "https://store.astm.org/a0380_a0380m-17.html",
+      "primary": true,
+      "use": "Official scope reviewed for free-iron contamination vocabulary and purchaser-supplier agreement; no chemical recipe is published in visitor copy."
+    },
+    {
+      "title": "BSSA — Iron contamination and rust staining",
+      "url": "https://bssa.org.uk/bssa_articles/iron-contamination-and-rust-staining-on-stainless-steel/",
+      "primary": false,
+      "use": "Technical explanation supporting the distinction between transferred iron contamination and corrosion of the underlying stainless surface."
+    },
+    {
+      "title": "Nickel Institute — Erection and installation",
+      "url": "https://nickelinstitute.org/media/2898/erectioninstallation.pdf",
+      "primary": false,
+      "use": "Handling guidance reviewed for preventing carbon-steel contamination during storage and transport."
+    },
+    {
+      "title": "US DLA bumper plate commercial item description",
+      "url": "https://quicksearch.dla.mil/Transient/38350E182FAA4BD491F0D84034C2A438.pdf",
+      "primary": true,
+      "use": "Used only as an example that one buyer specification can call for a stainless insert; never treated as a universal material rule."
+    },
+    {
+      "title": "Reddit buyer question — metal ring rust",
+      "url": "https://www.reddit.com/r/StartingStrength/comments/e41kwp",
+      "primary": false,
+      "use": "Used solely to confirm recurring buyer wording and the need to distinguish appearance from material evidence."
+    }
+  ],
+  "publicSearch": {
+    "surfaces": [
+      "Google- and Bing-visible indexed results",
+      "question-style searches",
+      "Reddit",
+      "Quora attempted but blocked",
+      "ISO and ASTM official records",
+      "stainless-steel industry guidance",
+      "supplier and competitor pages",
+      "local-language terminology for every publication market"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Does the metal ring in a bumper plate rust?",
+      "Can stainless steel show rust-colored staining?",
+      "Does a magnet prove the material grade?",
+      "Should the inspector clean or polish before reporting?",
+      "What does salt spray prove?",
+      "How should moisture and pallet position be recorded?"
+    ]
+  },
+  "limitations": [
+    "Quora blocked automated verification and supplied no claim.",
+    "Reddit was used only for buyer wording, not manufacturing proof.",
+    "No material grade, coating route, salt-spray duration or pass threshold is presented as universal.",
+    "No customer, quantity, price, MOQ, lead time, certification, test result or factory performance figure is invented.",
+    "Images are conceptual unbranded inspection scenes, not evidence of a customer program, factory event or shipment."
+  ]
+}
