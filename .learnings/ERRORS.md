@@ -367,6 +367,242 @@ Run `npm ci` to completion whenever `node_modules/.bin/next` is absent; do not u
 Use `Test-Path node_modules/.bin/next.cmd` (or the platform equivalent) before skipping installation in a fresh worktree.
 
 ---
+
+## [ERR-20261119-005] playwright-localhost-sandbox-boundary
+
+**Logged**: 2026-11-19T13:05:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: browser
+
+### Summary
+
+Playwright could not reach a production server started on the other side of the managed sandbox boundary.
+
+### Error
+
+```text
+net::ERR_NETWORK_ACCESS_DENIED, followed by net::ERR_CONNECTION_TIMED_OUT when only the browser was escalated
+```
+
+### Context
+
+- Task attempted: Render all new localized routes on localhost.
+- Command/tool/API: Next production server plus Playwright audit.
+- Environment: Managed Windows sandbox with isolated network contexts.
+
+### Suspected Cause
+
+The browser and localhost server were initially launched in different permission and network contexts.
+
+### Suggested Fix
+
+Start both the production server and Playwright audit with the same approved execution context.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: scripts/verify-localized-guide-rendering.mjs
+- Tags: playwright, localhost, sandbox, visual-qa
+
+---
+
+## [ERR-20261119-006] english-markdown-link-fallbacks
+
+**Logged**: 2026-11-19T13:10:00+08:00
+**Priority**: medium
+**Status**: resolved
+**Area**: marketing
+
+### Summary
+
+Two English article fallback links used inferred slugs rather than the established public paths.
+
+### Error
+
+```text
+broken internal link /resources/bumper-plate-hub-insert-loose-retention-inspection (404)
+broken internal link /resources/wholesale-free-weight-container-loading-guide (404)
+```
+
+### Context
+
+- Task attempted: Run rendered broken-link checks for the English resource article.
+- Command/tool/API: Local production Playwright audit.
+- Environment: `englishMarkdown()` builds links without a manifest and therefore uses the explicit fallback path list.
+
+### Suspected Cause
+
+Fallback slugs were inferred from entity IDs instead of read from the existing English versions.
+
+### Suggested Fix
+
+Use `/resources/bumper-plate-loose-insert-hub-retention-guide` and `/resources/how-many-dumbbells-fit-container-loading-guide`, and keep rendered link checks mandatory.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: content/i18n/bumper-plate-hub-corrosion-guide.ts
+- Tags: internal-links, slug, rendering, 404
+
+---
+
+## [ERR-20261119-004] apply-patch-accidental-diff-prefix
+
+**Logged**: 2026-11-19T12:55:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: docs
+
+### Summary
+
+A multi-file patch search block accidentally included a literal diff `+` before expected source lines and could not match them.
+
+### Error
+
+```text
+apply_patch verification failed: Failed to find expected lines
+```
+
+### Context
+
+- Task attempted: Expand Portuguese and Spanish article depth while updating route and test counts.
+- Command/tool/API: `apply_patch`.
+- Environment: Long one-line localized TypeScript copy objects.
+
+### Suspected Cause
+
+Replacement context was copied from an added-line representation rather than the actual file text.
+
+### Suggested Fix
+
+Locate exact source lines with ripgrep, then apply smaller replacements using literal file content without diff markers.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: content/i18n/bumper-plate-hub-corrosion-guide-copy-primary.ts
+- Tags: apply-patch, long-lines, localization
+
+---
+
+## [ERR-20261119-003] multilingual-static-counts-after-guide
+
+**Logged**: 2026-11-19T12:45:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: tests
+
+### Summary
+
+Infrastructure tests retained the previous locale, blog and sitemap counts after adding one published guide to every locale.
+
+### Error
+
+```text
+AssertionError: actual locale and sitemap counts exceeded expected values by the newly published entities.
+```
+
+### Context
+
+- Task attempted: Run the complete multilingual infrastructure suite.
+- Command/tool/API: `npm test -- --runInBand`.
+- Environment: A new blog entity with 13 localized versions and one English resource-list entry.
+
+### Suspected Cause
+
+The suite intentionally uses explicit publication and sitemap baselines, which must be advanced alongside a reviewed multilingual entity.
+
+### Suggested Fix
+
+Increment each locale publication and blog baseline by one, account for the additional English resource entry in both sitemap generators, and increase the global totals by thirteen.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: tests/i18n/infrastructure.test.ts
+- Tags: tests, sitemap, multilingual, content-counts
+
+---
+
+## [ERR-20261119-002] tsx-cjs-top-level-await
+
+**Logged**: 2026-11-19T12:35:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: data
+
+### Summary
+
+The run-artifact builder used top-level await while tsx compiled this project path as CommonJS.
+
+### Error
+
+```text
+Top-level await is currently not supported with the "cjs" output format
+```
+
+### Context
+
+- Task attempted: Generate multilingual daily-content research and draft artifacts.
+- Command/tool/API: `npx tsx content-ops/runs/2026-11-16/build-content-ops.ts`.
+- Environment: Project package output interpreted as CommonJS.
+
+### Suspected Cause
+
+The script was authored in module style without the explicit async `main()` pattern used by earlier run builders.
+
+### Suggested Fix
+
+Wrap asynchronous file operations in `async function main()` and terminate through a catch handler.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: content-ops/runs/2026-11-16/build-content-ops.ts
+- Tags: tsx, commonjs, top-level-await, content-ops
+
+---
+
+## [ERR-20261119-001] powershell-ripgrep-brace-file-list
+
+**Logged**: 2026-11-19T12:05:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+A ripgrep command used Bash-style brace expansion for a file list and PowerShell parsed the braces as syntax.
+
+### Error
+
+```text
+ParserError: Missing argument in parameter list.
+```
+
+### Context
+
+- Task attempted: Find entity IDs in a short list of TypeScript content files.
+- Command/tool/API: `rg` invoked from PowerShell.
+- Inputs: A path expression containing `{file-a.ts,file-b.ts}`.
+- Environment: Windows PowerShell.
+
+### Suspected Cause
+
+Brace expansion is a Bash feature and is not a portable way to pass multiple paths to ripgrep in PowerShell.
+
+### Suggested Fix
+
+Pass explicit quoted paths as separate arguments, search the containing directory with a narrow pattern, or use a PowerShell string array.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: none
+- Tags: powershell, ripgrep, shell-portability
+
+---
 ## [ERR-20260724-003] ci-daily-health-full-crawl-timeout
 
 **Logged**: 2026-07-24T10:08:00+08:00
@@ -481,5 +717,32 @@ After confirming all required checks are green, use the GitHub pull-request merg
 - Reproducible: yes
 - Related files: .git/worktrees
 - Tags: github-cli, git-worktree, merge, windows
+
+---
+
+## [ERR-20261119-007] next-build-cache-permission-context
+
+**Logged**: 2026-11-19T00:00:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: infra
+
+### Summary
+
+A normal-context production build could not recreate a directory under `.next` after an earlier escalated build created the cache with a different permission context.
+
+### Error
+
+```text
+EPERM: operation not permitted, mkdir '...\\.next\\server\\app'
+```
+
+### Resolution
+
+Re-ran the production build in the same approved context that owned the existing `.next` output; the build completed and generated all 2,006 static pages.
+
+### Prevention
+
+Keep all build and render steps for one isolated worktree in a consistent execution context, especially when reusing `.next` on Windows.
 
 ---

@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-16",
+  "startedAt": "2026-11-18T04:49:30.482Z",
+  "mode": "quality-gated-auto-publish",
+  "targetCount": 65,
+  "candidatePoolTarget": 195,
+  "slots": [
+    {
+      "id": "2026-11-16-chinafreeweight-en-blog-1",
+      "locale": "en",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-en-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/resources/bumper-plate-hub-rust-corrosion-inspection-guide",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-en-blog-2",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-en-blog-3",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-en-blog-4",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-en-blog-5",
+      "locale": "en",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pt-BR-blog-1",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-pt-BR-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/pt/blog/inspecao-ferrugem-anel-central-anilha-bumper",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pt-BR-blog-2",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pt-BR-blog-3",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pt-BR-blog-4",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pt-BR-blog-5",
+      "locale": "pt-BR",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-es-blog-1",
+      "locale": "es",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-es-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/es/blog/oxido-aro-central-disco-bumper-inspeccion",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-es-blog-2",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-es-blog-3",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-es-blog-4",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-es-blog-5",
+      "locale": "es",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-de-blog-1",
+      "locale": "de",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-de-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/de/blog/bumper-plates-innenring-rost-pruefen",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-de-blog-2",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-de-blog-3",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-de-blog-4",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-de-blog-5",
+      "locale": "de",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-fr-blog-1",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-fr-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/fr/blog/disque-bumper-bague-centrale-rouille-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-fr-blog-2",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-fr-blog-3",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-fr-blog-4",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-fr-blog-5",
+      "locale": "fr",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-vi-blog-1",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-vi-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/vi/blog/kiem-tra-gi-vong-thep-ta-bumper",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-vi-blog-2",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-vi-blog-3",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-vi-blog-4",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-vi-blog-5",
+      "locale": "vi",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-sv-blog-1",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-sv-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/sv/blogg/bumpervikter-nav-rost-mottagningskontroll",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-sv-blog-2",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-sv-blog-3",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-sv-blog-4",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-sv-blog-5",
+      "locale": "sv",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-it-blog-1",
+      "locale": "it",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-it-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/it/blog/ispezione-ruggine-anello-centrale-bumper-plate",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-it-blog-2",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-it-blog-3",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-it-blog-4",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-it-blog-5",
+      "locale": "it",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-nl-blog-1",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-nl-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/nl/blog/roest-binnenring-bumper-plate-inspectie",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-nl-blog-2",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-nl-blog-3",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-nl-blog-4",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-nl-blog-5",
+      "locale": "nl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ar-blog-1",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-ar-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/ar/blog/bumper-plate-center-ring-rust-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ar-blog-2",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ar-blog-3",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ar-blog-4",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ar-blog-5",
+      "locale": "ar",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ko-blog-1",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-ko-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/ko/blog/bumper-plate-hub-rust-inspection",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ko-blog-2",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ko-blog-3",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ko-blog-4",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-ko-blog-5",
+      "locale": "ko",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-id-blog-1",
+      "locale": "id",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-id-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/id/blog/inspeksi-karat-ring-tengah-bumper-plate",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-id-blog-2",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-id-blog-3",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-id-blog-4",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-id-blog-5",
+      "locale": "id",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pl-blog-1",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "prepared",
+      "documentId": "2026-11-16-chinafreeweight-pl-bumper-plate-hub-corrosion",
+      "entityId": "bumper-plate-hub-rust-corrosion-inspection-guide",
+      "publicPath": "/pl/blog/rdza-pierscien-talerza-bumper-kontrola",
+      "draft": "drafts/index.json"
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pl-blog-2",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pl-blog-3",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pl-blog-4",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    },
+    {
+      "id": "2026-11-16-chinafreeweight-pl-blog-5",
+      "locale": "pl",
+      "kind": "blog",
+      "status": "deferred",
+      "reason": "One independently localized, fully evidenced edition is prepared; extra daily slots are deferred rather than reducing research, media or review quality."
+    }
+  ],
+  "status": "prepared",
+  "preparedAt": "2026-11-19T04:55:40.096Z"
+}
