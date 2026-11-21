@@ -1,0 +1,1227 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-20",
+  "status": "complete",
+  "selectedTopic": "EXW, FCA, FOB, CIF and DDP selection for wholesale free-weight imports",
+  "selectionReason": "Current buyer questions repeatedly confuse the party paying freight with the point where risk moves, and ask who controls customs under EXW or DDP. The site already covered landed cost, export packing and container loading but had no page owning trade-term selection, named-place wording and quote-scope normalization.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "EXW vs FOB vs CIF vs DDP gym equipment: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP importação halteres anilhas: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP importar mancuernas discos: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP Hanteln Import: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP Hanteln Import: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP Hanteln Import: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP Hanteln Import: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP Hanteln Import: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP Hanteln Import: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP Hanteln Import: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP Hanteln Import: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP Hanteln Import: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP Hanteln Import: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP Hanteln Import: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP Hanteln Import: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP import haltères disques: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP import haltères disques: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP import haltères disques: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP import haltères disques: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP import haltères disques: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP import haltères disques: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP import haltères disques: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP import haltères disques: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP import haltères disques: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP import haltères disques: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP import haltères disques: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP import haltères disques: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP import hantlar viktskivor: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP importare manubri dischi: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP dumbbells importeren: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP import hantli obciążeń: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP استيراد أوزان حرة: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP 덤벨 수입: dense free-weight packing handoff",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: trade-term quote normalization",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: FCA versus FOB for containers",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: CIF freight and risk split",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: DDP importer-of-record feasibility",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: EXW export-clearance constraints",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: named-place drafting",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: destination-charge exclusions",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: cargo insurance scope",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: landed-cost comparison",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: product contract versus delivery rule",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: forwarder document set",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "EXW FOB CIF DDP impor dumbbell weight plate: dense free-weight packing handoff",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "EXW vs FOB vs CIF vs DDP gym equipment",
+      "publicQuery": "EXW vs FOB vs CIF vs DDP gym equipment import",
+      "questions": [
+        "Is FOB always better than EXW when buying from a factory?",
+        "Does CIF mean the seller carries the risk to my port?",
+        "Does DDP include every possible destination charge?",
+        "Do Incoterms decide when ownership transfers?",
+        "What should I send for a comparable factory quote?"
+      ],
+      "path": "/resources/exw-fob-cif-ddp-free-weight-import-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "EXW FOB CIF DDP importação halteres anilhas",
+      "publicQuery": "EXW FOB CIF DDP importação halteres anilhas",
+      "questions": [
+        "FOB é sempre melhor que EXW?",
+        "CIF mantém o risco com o vendedor até o Brasil?",
+        "DDP cobre qualquer despesa?",
+        "Incoterm define propriedade e pagamento?",
+        "O que enviar para uma cotação comparável?"
+      ],
+      "path": "/pt/blog/exw-fob-cif-ddp-importacao-halteres-anilhas"
+    },
+    "es": {
+      "targetKeyword": "EXW FOB CIF DDP importar mancuernas discos",
+      "publicQuery": "EXW FOB CIF DDP importar mancuernas discos",
+      "questions": [
+        "¿FOB siempre supera a EXW?",
+        "¿CIF mantiene el riesgo con el vendedor hasta destino?",
+        "¿DDP cubre todo?",
+        "¿El Incoterm define propiedad?",
+        "¿Qué datos necesita la fábrica?"
+      ],
+      "path": "/es/blog/exw-fob-cif-ddp-importar-mancuernas-discos"
+    },
+    "de": {
+      "targetKeyword": "EXW FOB CIF DDP Hanteln Import",
+      "publicQuery": "EXW FOB CIF DDP Hanteln importieren",
+      "questions": [
+        "Ist FOB immer besser als EXW?",
+        "Trägt der Verkäufer bei CIF das Risiko bis Deutschland?",
+        "Enthält DDP alle Kosten?",
+        "Regeln Incoterms das Eigentum?",
+        "Welche Daten braucht das Werk?"
+      ],
+      "path": "/de/blog/exw-fob-cif-ddp-hanteln-hantelscheiben-import"
+    },
+    "fr": {
+      "targetKeyword": "EXW FOB CIF DDP import haltères disques",
+      "publicQuery": "EXW FOB CIF DDP import matériel musculation",
+      "questions": [
+        "FOB est-il toujours préférable à EXW ?",
+        "Sous CIF, le vendeur garde-t-il le risque jusqu’en France ?",
+        "DDP comprend-il tous les frais ?",
+        "Les Incoterms règlent-ils la propriété ?",
+        "Que transmettre à l’usine ?"
+      ],
+      "path": "/fr/blog/exw-fob-cif-ddp-import-halteres-disques"
+    },
+    "sv": {
+      "targetKeyword": "EXW FOB CIF DDP import hantlar viktskivor",
+      "publicQuery": "EXW FOB CIF DDP importera gymutrustning hantlar",
+      "questions": [
+        "Är FOB alltid bättre än EXW?",
+        "Bär säljaren risken till Sverige under CIF?",
+        "Täcker DDP allt?",
+        "Styr Incoterms ägandet?",
+        "Vilka uppgifter behöver fabriken?"
+      ],
+      "path": "/sv/blogg/exw-fob-cif-ddp-import-hantlar-viktskivor"
+    },
+    "it": {
+      "targetKeyword": "EXW FOB CIF DDP importare manubri dischi",
+      "publicQuery": "EXW FOB CIF DDP importare manubri attrezzature",
+      "questions": [
+        "FOB è sempre migliore di EXW?",
+        "Con CIF il venditore mantiene il rischio fino in Italia?",
+        "DDP comprende ogni costo?",
+        "Gli Incoterms regolano la proprietà?",
+        "Quali dati servono alla fabbrica?"
+      ],
+      "path": "/it/blog/exw-fob-cif-ddp-importare-manubri-dischi"
+    },
+    "nl": {
+      "targetKeyword": "EXW FOB CIF DDP dumbbells importeren",
+      "publicQuery": "EXW FOB CIF DDP fitnessapparatuur dumbbells importeren",
+      "questions": [
+        "Is FOB altijd beter dan EXW?",
+        "Draagt de verkoper bij CIF risico tot Nederland?",
+        "Dekt DDP alles?",
+        "Regelen Incoterms eigendom?",
+        "Welke gegevens heeft de fabriek nodig?"
+      ],
+      "path": "/nl/blog/exw-fob-cif-ddp-dumbbells-halterschijven-importeren"
+    },
+    "pl": {
+      "targetKeyword": "EXW FOB CIF DDP import hantli obciążeń",
+      "publicQuery": "EXW FOB CIF DDP import sprzętu siłowni hantli",
+      "questions": [
+        "Czy FOB zawsze jest lepsze od EXW?",
+        "Czy przy CIF ryzyko pozostaje u sprzedawcy do Polski?",
+        "Czy DDP obejmuje wszystko?",
+        "Czy Incoterms regulują własność?",
+        "Jakie dane wysłać fabryce?"
+      ],
+      "path": "/pl/blog/exw-fob-cif-ddp-import-hantli-obciazen"
+    },
+    "vi": {
+      "targetKeyword": "EXW FOB CIF DDP nhập khẩu tạ tay bánh tạ",
+      "publicQuery": "EXW FOB CIF DDP nhập khẩu thiết bị gym tạ tay",
+      "questions": [
+        "FOB luôn tốt hơn EXW không?",
+        "CIF có giữ rủi ro ở người bán đến Việt Nam không?",
+        "DDP có bao gồm mọi chi phí không?",
+        "Incoterms có quyết định quyền sở hữu không?",
+        "Cần gửi gì cho nhà máy?"
+      ],
+      "path": "/vi/blog/exw-fob-cif-ddp-nhap-khau-ta-tay-banh-ta"
+    },
+    "ar": {
+      "targetKeyword": "EXW FOB CIF DDP استيراد أوزان حرة",
+      "publicQuery": "شروط EXW FOB CIF DDP استيراد معدات الجيم",
+      "questions": [
+        "هل FOB أفضل دائماً من EXW؟",
+        "هل يبقى الخطر على البائع حتى الوصول في CIF؟",
+        "هل يشمل DDP كل التكاليف؟",
+        "هل تحدد Incoterms الملكية؟",
+        "ماذا يرسل المشتري للمصنع؟"
+      ],
+      "path": "/ar/blog/exw-fob-cif-ddp-import-free-weights-china"
+    },
+    "ko": {
+      "targetKeyword": "EXW FOB CIF DDP 덤벨 수입",
+      "publicQuery": "EXW FOB CIF DDP 중국 덤벨 수입",
+      "questions": [
+        "FOB가 EXW보다 항상 좋은가요?",
+        "CIF이면 판매자가 한국까지 위험을 부담하나요?",
+        "DDP는 모든 비용을 포함하나요?",
+        "Incoterms가 소유권도 정하나요?",
+        "공장 견적에 어떤 정보를 보내야 하나요?"
+      ],
+      "path": "/ko/blog/exw-fob-cif-ddp-free-weight-import-guide"
+    },
+    "id": {
+      "targetKeyword": "EXW FOB CIF DDP impor dumbbell weight plate",
+      "publicQuery": "EXW FOB CIF DDP impor alat fitness dumbbell",
+      "questions": [
+        "Apakah FOB selalu lebih baik daripada EXW?",
+        "Apakah CIF membuat risiko tetap pada penjual sampai Indonesia?",
+        "Apakah DDP mencakup semua biaya?",
+        "Apakah Incoterms menentukan hak milik?",
+        "Data apa yang dikirim ke pabrik?"
+      ],
+      "path": "/id/blog/exw-fob-cif-ddp-impor-dumbbell-weight-plate"
+    }
+  },
+  "competitors": [
+    {
+      "name": "DZSD",
+      "url": "https://www.dzsd.com/",
+      "observation": "Reviewed indexed gym-equipment import content to confirm the query vocabulary; unsupported rates and generalized claims were not reused."
+    },
+    {
+      "name": "AthomFit",
+      "url": "https://www.athomfit.com/",
+      "observation": "Reviewed supplier-oriented shipping terminology; the guide adds primary-source rules and a buyer-side normalization method."
+    },
+    {
+      "name": "Powerstart",
+      "url": "https://www.powerstart.cn/",
+      "observation": "Reviewed visible export terminology only; no pricing, delivery promise or wording was transferred."
+    }
+  ],
+  "rejectedTopics": [
+    "Dumbbell weight tolerance — already owned by the weighing guide.",
+    "Export packaging — already owned by the dedicated packaging guide.",
+    "Container capacity — already owned by the load-plan guide.",
+    "Free-weight landed cost — existing guide owns cost categories; this edition owns legal handoff and quotation scope.",
+    "Hub corrosion — published in the preceding run and intentionally not repeated."
+  ],
+  "siteGaps": [
+    "No dedicated guide compared exact named-place wording, container FCA/FOB choice, CIF risk separation, DDP importer feasibility and an itemized supplier-quote worksheet."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 1122,
+    "liveBlogUrlsReviewed": 1122,
+    "repositoryPublishedVersionsReviewed": 1978,
+    "registryTopicsReviewed": 2355,
+    "registryChinaFreeWeightTopicsReviewed": 571,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "landed cost of wholesale free weights",
+      "container loading plan",
+      "export packaging",
+      "production lead time"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ICC — Incoterms® 2020",
+      "url": "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/",
+      "primary": true,
+      "use": "Official rule overview used for the eleven-rule framework, CIF insurance baseline and delivery distinctions."
+    },
+    {
+      "title": "ICC — Incoterms® 2020 checklist",
+      "url": "https://library.iccwbo.org/content/clp/Others/incoterms_2020_checklist_2024-update.pdf",
+      "primary": true,
+      "use": "Official checklist used for FCA on container or multimodal handoff, FOB for direct on-board sea delivery, EXW cautions and named-place wording."
+    },
+    {
+      "title": "ICC — Questions and answers on Incoterms® 2020",
+      "url": "https://library.iccwbo.org/clp/clp-incoterms-qa-2020.htm",
+      "primary": true,
+      "use": "Official explanation used to separate delivery rules from payment, title, governing law and product obligations."
+    },
+    {
+      "title": "U.S. International Trade Administration — Know Your Incoterms",
+      "url": "https://www.trade.gov/know-your-incoterms",
+      "primary": true,
+      "use": "Government guidance supporting exact named-place and rule wording in the sales contract."
+    },
+    {
+      "title": "European Commission Access2Markets — Guide for export of goods",
+      "url": "https://trade.ec.europa.eu/access-to-markets/en/content/guide-export-goods",
+      "primary": true,
+      "use": "Public authority guidance reviewed for transport, insurance, customs and regulatory responsibility."
+    },
+    {
+      "title": "Reddit logistics buyer question — Confused on FOB and DDP",
+      "url": "https://www.reddit.com/r/logistics/",
+      "primary": false,
+      "use": "Used only to confirm recurring buyer wording about forwarder control, importer of record and unexpected destination charges; no advice or price was reused."
+    }
+  ],
+  "publicSearch": {
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "question-style result panels",
+      "Reddit buyer discussions",
+      "Quora attempted but blocked by robots",
+      "ICC official publications",
+      "government trade guidance",
+      "industry and competitor pages",
+      "local-language terminology for all publication markets"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Is FOB always better than EXW?",
+      "Does CIF keep risk with the seller to destination?",
+      "Who is importer of record under DDP?",
+      "Which destination charges remain excluded?",
+      "Should container cargo use FCA rather than FOB?",
+      "What must a comparable supplier quote state?"
+    ]
+  },
+  "limitations": [
+    "Quora blocked automated verification and supplied no claim.",
+    "Reddit was used only for recurring buyer wording, not legal or logistics authority.",
+    "No freight rate, duty, tax, MOQ, lead time or customer outcome is presented as universal.",
+    "Rules are explained for procurement comparison and do not replace destination-specific customs or legal advice.",
+    "Images are unbranded conceptual scenes, not evidence of a customer shipment or factory event."
+  ]
+}

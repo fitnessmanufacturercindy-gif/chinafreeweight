@@ -90,6 +90,7 @@ const originalMediaGuideIds = new Set([
   "private-label-cable-attachment-logo-branding-guide",
   "rubber-dumbbell-mold-line-flash-inspection-guide",
   "bumper-plate-hub-rust-corrosion-inspection-guide",
+  "wholesale-free-weight-incoterms-import-guide",
   "case-custom-logo-fitness-chain-strength-equipment"
 ]);
 const usesOriginalMediaSet = (entityId: string) => originalMediaGuideIds.has(entityId);
@@ -97,7 +98,7 @@ const expectedOriginalImageCount = (entityId: string) => ["cable-attachment-swiv
 const expectedGuideFaqCount = (entityId: string) => ["bumper-plate-thickness-sleeve-capacity-guide", "olympic-barbell-straightness-sleeve-runout-guide", "bumper-plate-bounce-shore-hardness-test-guide", "cable-attachment-load-rating-inspection-guide", "fixed-dumbbell-handle-specification-guide", "rubber-coating-adhesion-dumbbell-plate-guide", "olympic-barbell-tensile-yield-strength-guide", "cable-attachment-handle-grip-specification-guide", "bumper-plate-hub-insert-retention-guide", "olympic-barbell-sleeve-retention-end-cap-guide", "olympic-barbell-whip-stiffness-guide", "cast-iron-weight-plate-finish-coating-guide", "olympic-barbell-smooth-grooved-sleeve-guide", "custom-color-free-weights-approval-guide", "olympic-barbell-mass-weight-tolerance-guide", "olympic-weight-plate-flatness-warp-inspection-guide", "change-plates-fractional-plates-buying-guide", "commercial-dumbbell-rack-compatibility-guide", "olympic-barbell-shaft-diameter-guide", "low-odor-rubber-free-weights-guide", "weight-plate-markings-readability-durability-guide", "hex-dumbbell-head-alignment-anti-roll-inspection-guide"].includes(entityId) ? 7 : ["dumbbell-head-handle-construction-guide", "kg-lb-free-weight-ordering-guide", "weight-plate-outside-diameter-profile-guide"].includes(entityId) ? 6 : entityId === "bulk-oem-steel-dumbbells-guide" ? 10 : ["cable-attachment-compatibility-oem-guide", "weight-plate-tolerance-bulk-order-guide", "commercial-olympic-barbell-buying-guide", "fixed-vs-adjustable-dumbbells-commercial-guide", "olympic-barbell-finish-coating-guide", "olympic-plate-hole-barbell-sleeve-fit-guide", "commercial-barbell-knurling-specification-guide"].includes(entityId) ? 8 : 5;
 
 const expectedEditorialImageCount = (entityId: string) =>
-  ["rubber-dumbbell-shore-hardness-guide", "rubber-dumbbell-surface-bloom-guide", "cable-attachment-chrome-plating-corrosion-guide", "custom-dumbbell-end-cap-logo-retention-guide", "olympic-barbell-export-packaging-guide", "olympic-barbell-maintenance-cleaning-guide", "urethane-dumbbell-surface-defects-guide", "neoprene-vinyl-dumbbell-wholesale-guide", "commercial-weight-plate-storage-planning-guide", "private-label-free-weight-gtin-packaging-guide", "free-weight-aql-defect-classification-guide", "free-weight-moq-mixed-sku-order-guide", "custom-free-weight-production-lead-time-guide", "fixed-vs-rotating-dumbbell-handle-guide", "cable-attachment-weld-quality-inspection-guide", "fixed-dumbbell-impact-validation-guide", "oem-free-weight-test-report-verification-guide", "custom-free-weight-tooling-ownership-guide", "free-weight-failed-inspection-corrective-action-guide", "wholesale-free-weight-warranty-claims-guide", "wholesale-free-weight-container-loading-guide", "oem-free-weight-supplier-quality-agreement-guide", "bumper-plate-cracks-edge-splits-inspection-guide", "private-label-cable-attachment-logo-branding-guide", "rubber-dumbbell-mold-line-flash-inspection-guide", "bumper-plate-hub-rust-corrosion-inspection-guide"].includes(entityId) ? 1 : expectedOriginalImageCount(entityId);
+  ["rubber-dumbbell-shore-hardness-guide", "rubber-dumbbell-surface-bloom-guide", "cable-attachment-chrome-plating-corrosion-guide", "custom-dumbbell-end-cap-logo-retention-guide", "olympic-barbell-export-packaging-guide", "olympic-barbell-maintenance-cleaning-guide", "urethane-dumbbell-surface-defects-guide", "neoprene-vinyl-dumbbell-wholesale-guide", "commercial-weight-plate-storage-planning-guide", "private-label-free-weight-gtin-packaging-guide", "free-weight-aql-defect-classification-guide", "free-weight-moq-mixed-sku-order-guide", "custom-free-weight-production-lead-time-guide", "fixed-vs-rotating-dumbbell-handle-guide", "cable-attachment-weld-quality-inspection-guide", "fixed-dumbbell-impact-validation-guide", "oem-free-weight-test-report-verification-guide", "custom-free-weight-tooling-ownership-guide", "free-weight-failed-inspection-corrective-action-guide", "wholesale-free-weight-warranty-claims-guide", "wholesale-free-weight-container-loading-guide", "oem-free-weight-supplier-quality-agreement-guide", "bumper-plate-cracks-edge-splits-inspection-guide", "private-label-cable-attachment-logo-branding-guide", "rubber-dumbbell-mold-line-flash-inspection-guide", "bumper-plate-hub-rust-corrosion-inspection-guide", "wholesale-free-weight-incoterms-import-guide"].includes(entityId) ? 1 : expectedOriginalImageCount(entityId);
 
 function localizedVersion(
   locale: "en" | "pt-BR",
@@ -172,20 +173,20 @@ test("published locale routing: all twelve launch languages are public", () => {
 });
 
 test("production manifest: only reviewed content in the public languages is published", () => {
-  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 160);
-  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 160);
-  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 164);
-  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 159);
-  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 165);
-  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 159);
-  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 159);
-  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 159);
-  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 69);
-  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 152);
-  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 157);
-  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 158);
-  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 157);
-  assert.equal(contentRepository.listPublished().length, 1978);
+  assert.equal(contentRepository.listPublished({ locale: "pt-BR" }).length, 161);
+  assert.equal(contentRepository.listPublished({ locale: "es" }).length, 161);
+  assert.equal(contentRepository.listPublished({ locale: "de" }).length, 165);
+  assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 160);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 166);
+  assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 160);
+  assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 160);
+  assert.equal(contentRepository.listPublished({ locale: "it" }).length, 160);
+  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 70);
+  assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 153);
+  assert.equal(contentRepository.listPublished({ locale: "id" }).length, 158);
+  assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 159);
+  assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 158);
+  assert.equal(contentRepository.listPublished().length, 1991);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
@@ -324,7 +325,7 @@ test("growth content: products and blogs meet useful Portuguese depth targets", 
   const blogWords = portuguese.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(productWords.length, 53);
   assert.ok(productWords.every((count) => count >= 700 && count <= 1500), JSON.stringify(productWords));
-  assert.equal(blogWords.length, 94);
+  assert.equal(blogWords.length, 95);
   assert.ok(blogWords.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogWords));
 });
 
@@ -347,7 +348,7 @@ test("Spanish expansion: products and blogs meet localized depth targets", () =>
   const blogs = spanish.filter(({ entity }) => entity.type === "blog").map(words);
   assert.equal(products.length, 53);
   assert.ok(products.every((count) => count >= 700 && count <= 1500), JSON.stringify(products));
-  assert.equal(blogs.length, 94);
+  assert.equal(blogs.length, 95);
   assert.ok(blogs.every((count) => count >= 1200 && count <= 2400), JSON.stringify(blogs));
 });
 
@@ -652,20 +653,20 @@ test("multilingual sitemap retains all English routes and adds every published l
   const dutchUrls = urls.filter((url) => new URL(url).pathname === "/nl" || new URL(url).pathname.startsWith("/nl/"));
   const arabicUrls = urls.filter((url) => new URL(url).pathname === "/ar" || new URL(url).pathname.startsWith("/ar/"));
   const englishUrls = urls.filter((url) => !portugueseUrls.includes(url) && !spanishUrls.includes(url) && !germanUrls.includes(url) && !frenchUrls.includes(url) && !vietnameseUrls.includes(url) && !swedishUrls.includes(url) && !italianUrls.includes(url) && !arabicUrls.includes(url) && !koreanUrls.includes(url) && !indonesianUrls.includes(url) && !polishUrls.includes(url) && !dutchUrls.includes(url));
-  assert.equal(englishUrls.length, 179);
-  assert.equal(portugueseUrls.length, 160);
-  assert.equal(spanishUrls.length, 160);
-  assert.equal(germanUrls.length, 164);
-  assert.equal(frenchUrls.length, 159);
-  assert.equal(vietnameseUrls.length, 159);
-  assert.equal(swedishUrls.length, 159);
-  assert.equal(italianUrls.length, 159);
-  assert.equal(arabicUrls.length, 69);
-  assert.equal(koreanUrls.length, 152);
-  assert.equal(indonesianUrls.length, 157);
-  assert.equal(polishUrls.length, 158);
-  assert.equal(dutchUrls.length, 157);
-  assert.equal(new Set(urls).size, 1992);
+  assert.equal(englishUrls.length, 180);
+  assert.equal(portugueseUrls.length, 161);
+  assert.equal(spanishUrls.length, 161);
+  assert.equal(germanUrls.length, 165);
+  assert.equal(frenchUrls.length, 160);
+  assert.equal(vietnameseUrls.length, 160);
+  assert.equal(swedishUrls.length, 160);
+  assert.equal(italianUrls.length, 160);
+  assert.equal(arabicUrls.length, 70);
+  assert.equal(koreanUrls.length, 153);
+  assert.equal(indonesianUrls.length, 158);
+  assert.equal(polishUrls.length, 159);
+  assert.equal(dutchUrls.length, 158);
+  assert.equal(new Set(urls).size, 2005);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -725,20 +726,20 @@ test("language sitemap contains all public URLs with the complete products hub c
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 177);
-  assert.equal(portuguese.length, 160);
-  assert.equal(spanish.length, 160);
-  assert.equal(german.length, 164);
-  assert.equal(french.length, 159);
-  assert.equal(vietnamese.length, 159);
-  assert.equal(swedish.length, 159);
-  assert.equal(italian.length, 159);
-  assert.equal(arabic.length, 69);
-  assert.equal(korean.length, 152);
-  assert.equal(indonesian.length, 157);
-  assert.equal(polish.length, 158);
-  assert.equal(dutch.length, 157);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 1990);
+  assert.equal(english.length, 178);
+  assert.equal(portuguese.length, 161);
+  assert.equal(spanish.length, 161);
+  assert.equal(german.length, 165);
+  assert.equal(french.length, 160);
+  assert.equal(vietnamese.length, 160);
+  assert.equal(swedish.length, 160);
+  assert.equal(italian.length, 160);
+  assert.equal(arabic.length, 70);
+  assert.equal(korean.length, 153);
+  assert.equal(indonesian.length, 158);
+  assert.equal(polish.length, 159);
+  assert.equal(dutch.length, 158);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 2003);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
@@ -764,7 +765,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 92,
+    blog: 93,
     blog_index: 1,
     case: 1,
     contact: 1,
@@ -776,13 +777,13 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 157);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 157);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 157);
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 158);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 158);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 158);
   const editorialSignatures = pages.map(({ version }) => version.body.slice(0, 6).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 180)}`).join("||"));
-  assert.equal(new Set(editorialSignatures).size, 157, "every Indonesian page must have a distinct below-hero editorial lead");
+  assert.equal(new Set(editorialSignatures).size, 158, "every Indonesian page must have a distinct below-hero editorial lead");
   const headingSignatures = pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"));
-  assert.equal(new Set(headingSignatures).size, 157, "every Indonesian page must have a distinct visible section sequence");
+  assert.equal(new Set(headingSignatures).size, 158, "every Indonesian page must have a distinct visible section sequence");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -875,7 +876,7 @@ test("Polish launch meets active-page coverage, content, English-asset and metad
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 92,
+    blog: 93,
     blog_index: 1,
     contact: 1,
     factory: 1,
@@ -886,10 +887,10 @@ test("Polish launch meets active-page coverage, content, English-asset and metad
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 156);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 156);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 156);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 156, "distinct Polish section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 157);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 157);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 157);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => block.heading ?? "").join("||"))).size, 157, "distinct Polish section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -953,7 +954,7 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
   const counts = new Map<string, number>();
   for (const { entity } of pages) counts.set(entity.type, (counts.get(entity.type) ?? 0) + 1);
   assert.deepEqual(Object.fromEntries([...counts].sort()), {
-    blog: 92,
+    blog: 93,
     blog_index: 1,
     case: 1,
     contact: 1,
@@ -965,10 +966,10 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     product_category: 4,
     projects: 1
   });
-  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 157);
-  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 157);
-  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 157);
-  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 157, "distinct Dutch section signatures");
+  assert.equal(new Set(pages.map(({ version }) => version.publicPath)).size, 158);
+  assert.equal(new Set(pages.map(({ version }) => version.title)).size, 158);
+  assert.equal(new Set(pages.map(({ version }) => version.h1)).size, 158);
+  assert.equal(new Set(pages.map(({ version }) => version.body.slice(0, 8).map((block) => `${block.heading ?? ""}|${(block.content ?? "").slice(0, 80)}`).join("||"))).size, 158, "distinct Dutch section signatures");
 
   const visibleText = (version: LocalizedContentVersion) => [
     version.title,
@@ -1064,9 +1065,9 @@ test("German launch: published pages pass depth, media, metadata, schema and lin
   const german = contentRepository.listPublished({ locale: "de" }).filter(({ entity }) => entity.type !== "case");
   const products = german.filter(({ entity }) => entity.type === "product");
   const guides = german.filter(({ entity }) => entity.type === "blog");
-  assert.equal(german.length, 162);
+  assert.equal(german.length, 163);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 87);
+  assert.equal(guides.length, 88);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1145,9 +1146,9 @@ test("French launch: active published pages pass depth, media, metadata, schema 
   const french = contentRepository.listPublished({ locale: "fr" }).filter(({ entity }) => entity.type !== "case");
   const products = french.filter(({ entity }) => entity.type === "product");
   const guides = french.filter(({ entity }) => entity.type === "blog");
-  assert.equal(french.length, 157);
+  assert.equal(french.length, 158);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 82);
+  assert.equal(guides.length, 83);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1226,9 +1227,9 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
   const vietnamese = contentRepository.listPublished({ locale: "vi" }).filter(({ entity }) => entity.type !== "case");
   const products = vietnamese.filter(({ entity }) => entity.type === "product");
   const guides = vietnamese.filter(({ entity }) => entity.type === "blog");
-  assert.equal(vietnamese.length, 157);
+  assert.equal(vietnamese.length, 158);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 82);
+  assert.equal(guides.length, 83);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1307,9 +1308,9 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
   const swedish = contentRepository.listPublished({ locale: "sv" }).filter(({ entity }) => entity.type !== "case");
   const products = swedish.filter(({ entity }) => entity.type === "product");
   const guides = swedish.filter(({ entity }) => entity.type === "blog");
-  assert.equal(swedish.length, 157);
+  assert.equal(swedish.length, 158);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 82);
+  assert.equal(guides.length, 83);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];
@@ -1388,9 +1389,9 @@ test("Italian launch: active published pages pass localization, depth, media, me
   const italian = contentRepository.listPublished({ locale: "it" }).filter(({ entity }) => entity.type !== "case");
   const products = italian.filter(({ entity }) => entity.type === "product");
   const guides = italian.filter(({ entity }) => entity.type === "blog");
-  assert.equal(italian.length, 157);
+  assert.equal(italian.length, 158);
   assert.equal(products.length, 64);
-  assert.equal(guides.length, 82);
+  assert.equal(guides.length, 83);
 
   const values = (value: unknown): string[] => {
     if (typeof value === "string") return [value];

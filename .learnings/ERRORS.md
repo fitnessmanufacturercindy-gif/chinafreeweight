@@ -777,3 +777,114 @@ Wrapped page and context cleanup in five-second races and added mobile-phase pro
 Every browser lifecycle operation in long-running CI audits must have an explicit upper bound, including cleanup calls after assertions have finished.
 
 ---
+
+## [ERR-20261121-001] powershell-ripgrep-alternation-quoting
+
+**Logged**: 2026-11-21T11:38:00+08:00
+**Priority**: low
+**Status**: resolved
+**Area**: data
+
+### Summary
+
+A read-only `rg` conflict scan failed because an alternation pattern containing pipe characters was interpolated into PowerShell without one quoted regex argument.
+
+### Error
+
+```text
+ParserError: Expressions are only allowed as the first element of a pipeline.
+```
+
+### Context
+
+- Task attempted: Scan the ChinaFreeWeight repository for possible topic overlap before research.
+- Command/tool/API: `rg` invoked from PowerShell.
+- Inputs: Multiple quoted phrases joined with `|`.
+- Environment: Windows PowerShell in an isolated Git worktree.
+
+### Suspected Cause
+
+PowerShell parsed the unprotected `|` characters as pipelines before `rg` received the pattern.
+
+### Suggested Fix
+
+Pass the complete alternation as one single-quoted PowerShell argument, or run separate fixed-string `rg -F` searches when the phrases contain shell metacharacters.
+
+### Metadata
+
+- Reproducible: yes
+- Related files: none
+- Tags: powershell, ripgrep, quoting, content-research
+
+---
+## [ERR-20261121-002] localized-banned-token-collision
+
+**Logged**: 2026-11-21T12:12:00+08:00
+**Status**: resolved
+**Area**: content-validation
+
+### Summary
+The public-copy gate correctly matched the standalone Vietnamese pronoun `ai` because the site-wide prohibited token list is case-insensitive.
+
+### Resolution
+Rephrased the Vietnamese questions with `bên nào` and `đơn vị nào`, then reran the guide audit. Future Vietnamese editions must avoid standalone `ai` even when it is ordinary local vocabulary.
+
+## [ERR-20261121-003] tsx-top-level-await-cjs
+
+**Logged**: 2026-11-21T12:28:00+08:00
+**Status**: resolved
+**Area**: content-ops
+
+### Summary
+The run artifact builder used top-level `await`, but this repository's `tsx` invocation transpiles the script as CommonJS.
+
+### Resolution
+Wrapped the writes in an async `main()` with an explicit failure handler, matching existing run builders.
+
+## [ERR-20261121-004] unapproved-content-structure-labels
+
+**Logged**: 2026-11-21T12:35:00+08:00
+**Status**: resolved
+**Area**: content-ops
+
+### Summary
+Seven otherwise complete editions were withheld because two descriptive structure labels were not in the central policy vocabulary.
+
+### Resolution
+Mapped `cost_scope_map` to the approved `cost_model` family and `responsibility_matrix` to `procurement_risk_map`; this changes artifact classification only, not public copy or gate thresholds.
+
+## [ERR-20261121-005] live-copy-audit-sandbox-dns
+
+**Logged**: 2026-11-21T12:45:00+08:00
+**Status**: resolved
+**Area**: validation-network
+
+### Summary
+The customer-visible-copy audit could not resolve the production hostname inside the restricted command sandbox.
+
+### Resolution
+Reran the same read-only audit with approved network access; no gate or target was changed.
+
+## [ERR-20261121-006] next-build-worktree-mkdir-eperm
+
+**Logged**: 2026-11-21T12:51:00+08:00
+**Status**: resolved
+**Area**: build-environment
+
+### Summary
+The isolated-worktree Next.js build hit a Windows `EPERM` while creating a route chunk directory under `.next` inside the managed sandbox.
+
+### Resolution
+Reran the unchanged build with approved workspace process access. The source tree and quality thresholds were not altered.
+
+## [ERR-20261121-007] playwright-localhost-access-denied
+
+**Logged**: 2026-11-21T12:55:00+08:00
+**Status**: resolved
+**Area**: visual-validation
+
+### Summary
+The Playwright renderer could not reach the already running localhost production server from the restricted browser process.
+
+### Resolution
+Reran the same desktop/mobile rendering audit with approved localhost browser access.
