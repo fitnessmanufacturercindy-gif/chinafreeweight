@@ -129,6 +129,8 @@
     "audit:bumper-plate-hub-corrosion-rendered": "node scripts/verify-bumper-plate-hub-corrosion-rendering.mjs",
     "audit:free-weight-incoterms": "tsx scripts/audit-free-weight-incoterms-guide.ts",
     "audit:free-weight-incoterms-rendered": "node scripts/verify-free-weight-incoterms-rendering.mjs",
+    "audit:free-weight-payment-terms": "tsx scripts/audit-free-weight-payment-terms-guide.ts",
+    "audit:free-weight-payment-terms-rendered": "node scripts/verify-free-weight-payment-terms-rendering.mjs",
     "content:acquire": "node scripts/daily-content-ops.mjs acquire",
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",

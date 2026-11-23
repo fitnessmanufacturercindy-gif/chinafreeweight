@@ -1,0 +1,1474 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-22",
+  "status": "complete",
+  "selectedTopic": "T/T, documentary credit and documentary collection for wholesale free-weight orders",
+  "selectionReason": "Buyers repeatedly ask whether to use T/T before or after shipment, when an L/C is justified, which evidence should release a later payment and how to respond to changed bank details. The live site and shared registry had no dedicated article. The preceding Incoterms guide explicitly excluded payment, so this edition owns bank method, documentary triggers and payment evidence without re-covering transport-risk allocation.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "T/T vs letter of credit for gym equipment: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "T/T vs letter of credit for gym equipment: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "T/T vs letter of credit for gym equipment: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "T/T vs letter of credit for gym equipment: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "T/T vs letter of credit for gym equipment: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "T/T vs letter of credit for gym equipment: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "T/T vs letter of credit for gym equipment: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "T/T vs letter of credit for gym equipment: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "T/T vs letter of credit for gym equipment: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "T/T vs letter of credit for gym equipment: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "T/T vs letter of credit for gym equipment: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "T/T vs letter of credit for gym equipment: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "T/T vs letter of credit for gym equipment: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "T/T vs letter of credit for gym equipment: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "T/T vs letter of credit for gym equipment: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "T/T ou carta de crédito importação halteres: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "T/T ou carta de crédito importação halteres: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "T/T ou carta de crédito importação halteres: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "T/T ou carta de crédito importação halteres: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "T/T ou carta de crédito importação halteres: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "T/T ou carta de crédito importação halteres: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "T/T ou carta de crédito importação halteres: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "T/T ou carta de crédito importação halteres: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "T/T ou carta de crédito importação halteres: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "T/T ou carta de crédito importação halteres: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "T/T ou carta de crédito importação halteres: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "T/T ou carta de crédito importação halteres: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "T/T ou carta de crédito importação halteres: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "T/T ou carta de crédito importação halteres: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "T/T ou carta de crédito importação halteres: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "pago T/T o carta de crédito importación pesas: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "pago T/T o carta de crédito importación pesas: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "pago T/T o carta de crédito importación pesas: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "pago T/T o carta de crédito importación pesas: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "pago T/T o carta de crédito importación pesas: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "pago T/T o carta de crédito importación pesas: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "pago T/T o carta de crédito importación pesas: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "pago T/T o carta de crédito importación pesas: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "pago T/T o carta de crédito importación pesas: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "pago T/T o carta de crédito importación pesas: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "pago T/T o carta de crédito importación pesas: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "pago T/T o carta de crédito importación pesas: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "pago T/T o carta de crédito importación pesas: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "pago T/T o carta de crédito importación pesas: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "pago T/T o carta de crédito importación pesas: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "T/T oder Akkreditiv Fitnessgeräte Import: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "T/T ou crédit documentaire import haltères: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "T/T ou crédit documentaire import haltères: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "T/T ou crédit documentaire import haltères: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "T/T ou crédit documentaire import haltères: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "T/T ou crédit documentaire import haltères: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "T/T ou crédit documentaire import haltères: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "T/T ou crédit documentaire import haltères: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "T/T ou crédit documentaire import haltères: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "T/T ou crédit documentaire import haltères: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "T/T ou crédit documentaire import haltères: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "T/T ou crédit documentaire import haltères: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "T/T ou crédit documentaire import haltères: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "T/T ou crédit documentaire import haltères: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "T/T ou crédit documentaire import haltères: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "T/T ou crédit documentaire import haltères: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "T/T eller remburs import gymutrustning: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "T/T eller remburs import gymutrustning: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "T/T eller remburs import gymutrustning: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "T/T eller remburs import gymutrustning: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "T/T eller remburs import gymutrustning: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "T/T eller remburs import gymutrustning: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "T/T eller remburs import gymutrustning: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "T/T eller remburs import gymutrustning: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "T/T eller remburs import gymutrustning: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "T/T eller remburs import gymutrustning: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "T/T eller remburs import gymutrustning: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "T/T eller remburs import gymutrustning: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "T/T eller remburs import gymutrustning: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "T/T eller remburs import gymutrustning: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "T/T eller remburs import gymutrustning: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "T/T o lettera di credito import attrezzatura palestra: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "T/T of letter of credit fitnessapparatuur import: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "T/T of letter of credit fitnessapparatuur import: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "T/T of letter of credit fitnessapparatuur import: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "T/T of letter of credit fitnessapparatuur import: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "T/T of letter of credit fitnessapparatuur import: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "T/T of letter of credit fitnessapparatuur import: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "T/T of letter of credit fitnessapparatuur import: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "T/T of letter of credit fitnessapparatuur import: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "T/T of letter of credit fitnessapparatuur import: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "T/T of letter of credit fitnessapparatuur import: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "T/T of letter of credit fitnessapparatuur import: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "T/T of letter of credit fitnessapparatuur import: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "T/T of letter of credit fitnessapparatuur import: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "T/T of letter of credit fitnessapparatuur import: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "T/T of letter of credit fitnessapparatuur import: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "T/T czy akredytywa import sprzętu fitness: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "T/T czy akredytywa import sprzętu fitness: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "T/T czy akredytywa import sprzętu fitness: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "T/T czy akredytywa import sprzętu fitness: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "T/T czy akredytywa import sprzętu fitness: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "T/T czy akredytywa import sprzętu fitness: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "T/T czy akredytywa import sprzętu fitness: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "T/T czy akredytywa import sprzętu fitness: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "T/T czy akredytywa import sprzętu fitness: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "T/T czy akredytywa import sprzętu fitness: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "T/T czy akredytywa import sprzętu fitness: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "T/T czy akredytywa import sprzętu fitness: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "T/T czy akredytywa import sprzętu fitness: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "T/T czy akredytywa import sprzętu fitness: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "T/T czy akredytywa import sprzętu fitness: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "thanh toán T/T hay L/C nhập khẩu thiết bị gym: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "التحويل T/T أم الاعتماد المستندي معدات الجيم: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "중국 헬스기구 수입 T/T 신용장 결제: project-specific payment RFQ",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: T/T versus documentary credit decision",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: payment milestone evidence map",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: beneficiary and account-change verification",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: letter-of-credit document design",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: D/P versus D/A collection",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: payment clause versus Incoterm",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: pre-shipment inspection payment gate",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: product acceptance versus bank presentation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: bank discrepancy authority",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: free-weight packing evidence",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: payment-file audit trail",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: supplier and buyer entity matching",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: open-account credit exposure",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: shipping-document release control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "pembayaran T/T atau letter of credit alat fitness: project-specific payment RFQ",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "T/T vs letter of credit for gym equipment",
+      "publicQuery": "T/T vs letter of credit importing gym equipment supplier payment terms",
+      "questions": [
+        "Is a letter of credit automatically safer than T/T?",
+        "Can an inspection report be required before a T/T balance stage?",
+        "Does a clean letter-of-credit presentation prove product quality?",
+        "Should I accept new bank details sent by email?",
+        "What should I send a free-weight factory for a payment review?"
+      ],
+      "path": "/resources/tt-vs-letter-of-credit-free-weight-order-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "T/T ou carta de crédito importação halteres",
+      "publicQuery": "pagamento T/T ou carta de crédito importação equipamento academia China",
+      "questions": [
+        "Carta de crédito elimina o risco de qualidade?",
+        "Posso vincular o saldo T/T à inspeção?",
+        "Cobrança documentária tem garantia bancária?",
+        "Como agir diante de nova conta enviada por e-mail?",
+        "Quais dados enviar à fábrica para discutir pagamento?"
+      ],
+      "path": "/pt/blog/tt-carta-credito-pagamento-importacao-halteres"
+    },
+    "es": {
+      "targetKeyword": "pago T/T o carta de crédito importación pesas",
+      "publicQuery": "pago T/T o carta de crédito importar equipamiento gimnasio China",
+      "questions": [
+        "¿Una carta de crédito siempre es más segura?",
+        "¿Se puede condicionar una T/T a la inspección?",
+        "¿Un conocimiento de embarque prueba la calidad?",
+        "¿Qué hago si el proveedor cambia la cuenta?",
+        "¿Qué necesita la fábrica para revisar las condiciones?"
+      ],
+      "path": "/es/blog/tt-carta-credito-pago-importacion-pesas"
+    },
+    "de": {
+      "targetKeyword": "T/T oder Akkreditiv Fitnessgeräte Import",
+      "publicQuery": "T/T oder Akkreditiv Import Fitnessgeräte China Zahlungsbedingungen",
+      "questions": [
+        "Ist ein Akkreditiv immer sicherer als T/T?",
+        "Kann die T/T-Restzahlung an eine Inspektion gebunden werden?",
+        "Beweist eine konforme Vorlage die Produktqualität?",
+        "Wie reagiere ich auf neue Kontodaten per E-Mail?",
+        "Welche Angaben benötigt die Fabrik?"
+      ],
+      "path": "/de/blog/tt-oder-akkreditiv-zahlung-freigewichte-import"
+    },
+    "fr": {
+      "targetKeyword": "T/T ou crédit documentaire import haltères",
+      "publicQuery": "paiement T/T ou crédit documentaire import matériel musculation Chine",
+      "questions": [
+        "Le crédit documentaire protège-t-il automatiquement la qualité ?",
+        "Peut-on conditionner un solde T/T à l'inspection ?",
+        "D/P comporte-t-il une garantie bancaire ?",
+        "Comment traiter un changement de compte ?",
+        "Que fournir à l'usine ?"
+      ],
+      "path": "/fr/blog/tt-credit-documentaire-paiement-poids-libres"
+    },
+    "sv": {
+      "targetKeyword": "T/T eller remburs import gymutrustning",
+      "publicQuery": "T/T eller remburs importera gymutrustning från Kina betalningsvillkor",
+      "questions": [
+        "Är remburs alltid säkrare än T/T?",
+        "Kan T/T-slutbetalning kopplas till inspektion?",
+        "Bevisar dokumenten produktkvaliteten?",
+        "Hur hanteras nya kontouppgifter?",
+        "Vilka uppgifter behöver fabriken?"
+      ],
+      "path": "/sv/blogg/tt-eller-remburs-betalning-fria-vikter"
+    },
+    "it": {
+      "targetKeyword": "T/T o lettera di credito import attrezzatura palestra",
+      "publicQuery": "pagamento T/T o lettera di credito importare attrezzatura palestra Cina",
+      "questions": [
+        "La lettera di credito è sempre più sicura del T/T?",
+        "Il saldo T/T può dipendere dall'ispezione?",
+        "Una presentazione conforme dimostra la qualità?",
+        "Come verificare nuove coordinate bancarie?",
+        "Cosa inviare alla fabbrica?"
+      ],
+      "path": "/it/blog/tt-lettera-credito-pagamento-pesi-import"
+    },
+    "nl": {
+      "targetKeyword": "T/T of letter of credit fitnessapparatuur import",
+      "publicQuery": "T/T of letter of credit fitnessapparatuur importeren China betalingsvoorwaarden",
+      "questions": [
+        "Is een letter of credit altijd veiliger?",
+        "Kan een T/T-saldo op inspectie wachten?",
+        "Bewijst een conforme presentatie kwaliteit?",
+        "Wat te doen bij gewijzigde bankgegevens?",
+        "Welke informatie heeft de fabriek nodig?"
+      ],
+      "path": "/nl/blog/tt-of-letter-of-credit-betaling-gewichten"
+    },
+    "pl": {
+      "targetKeyword": "T/T czy akredytywa import sprzętu fitness",
+      "publicQuery": "T/T czy akredytywa import sprzętu siłowni z Chin warunki płatności",
+      "questions": [
+        "Czy akredytywa jest zawsze bezpieczniejsza od T/T?",
+        "Czy saldo T/T może zależeć od inspekcji?",
+        "Czy zgodne dokumenty dowodzą jakości?",
+        "Co zrobić po otrzymaniu nowych danych bankowych?",
+        "Jakie dane przekazać fabryce?"
+      ],
+      "path": "/pl/blog/tt-czy-akredytywa-platnosc-wolne-ciezary"
+    },
+    "vi": {
+      "targetKeyword": "thanh toán T/T hay L/C nhập khẩu thiết bị gym",
+      "publicQuery": "thanh toán T/T hay L/C nhập khẩu thiết bị gym từ Trung Quốc",
+      "questions": [
+        "L/C có luôn an toàn hơn T/T không?",
+        "Có thể gắn số dư T/T với kiểm hàng không?",
+        "Bộ chứng từ phù hợp có chứng minh chất lượng không?",
+        "Làm gì khi nhà cung cấp đổi tài khoản?",
+        "Nhà máy cần dữ liệu gì?"
+      ],
+      "path": "/vi/blog/tt-lc-thanh-toan-nhap-khau-ta"
+    },
+    "ar": {
+      "targetKeyword": "التحويل T/T أم الاعتماد المستندي معدات الجيم",
+      "publicQuery": "الدفع T/T أم خطاب اعتماد استيراد معدات الجيم من الصين",
+      "questions": [
+        "هل الاعتماد المستندي أكثر أماناً دائماً؟",
+        "هل يمكن ربط رصيد T/T بالفحص؟",
+        "هل التقديم المطابق يثبت جودة المنتج؟",
+        "ماذا أفعل إذا تغير الحساب؟",
+        "ما البيانات التي يحتاجها المصنع؟"
+      ],
+      "path": "/ar/blog/tt-khitab-etimad-dafaa-awzan"
+    },
+    "ko": {
+      "targetKeyword": "중국 헬스기구 수입 T/T 신용장 결제",
+      "publicQuery": "중국 헬스기구 수입 T/T 신용장 결제 조건",
+      "questions": [
+        "신용장이 T/T보다 항상 안전한가요?",
+        "T/T 잔금을 검사와 연결할 수 있나요?",
+        "일치하는 서류가 품질을 증명하나요?",
+        "새 계좌정보를 받으면 어떻게 하나요?",
+        "공장 검토에 필요한 정보는 무엇인가요?"
+      ],
+      "path": "/ko/blog/tt-lc-free-weight-payment-guide"
+    },
+    "id": {
+      "targetKeyword": "pembayaran T/T atau letter of credit alat fitness",
+      "publicQuery": "pembayaran T/T atau letter of credit impor alat fitness China",
+      "questions": [
+        "Apakah L/C selalu lebih aman daripada T/T?",
+        "Bolehkah saldo T/T dikaitkan dengan inspeksi?",
+        "Apakah dokumen sesuai membuktikan mutu?",
+        "Apa yang dilakukan bila rekening berubah?",
+        "Data apa yang dibutuhkan pabrik?"
+      ],
+      "path": "/id/blog/tt-letter-of-credit-pembayaran-beban-bebas"
+    }
+  },
+  "competitors": [
+    {
+      "name": "LMCC Fitness",
+      "url": "https://lmccfitness.com/gym-equipment-payment-terms-importers.html",
+      "observation": "Reviewed current gym-equipment wording and recurring importer concerns. Unsupported percentages, fee ranges and universal claims were excluded."
+    },
+    {
+      "name": "Sorva",
+      "url": "https://sorvatrade.com/it/guide/payer-un-fournisseur-chinois-virement-lc",
+      "observation": "Reviewed localized bank-transfer and documentary-credit vocabulary; no commercial claims or wording were reused."
+    },
+    {
+      "name": "Seawing",
+      "url": "https://seawingglobaltrade.com/ar/blog/china-payment-terms-safety",
+      "observation": "Reviewed Arabic buyer terminology and the distinction between payment and delivery terms; factual explanations were independently grounded in ICC and government sources."
+    }
+  ],
+  "rejectedTopics": [
+    "Cable D-handle webbing and stitching — the existing cable-attachment load-rating guide already owns textile construction, seam damage and assembly testing.",
+    "Urethane dumbbell yellowing — credible technical material exists, but verified buyer demand was weaker and the custom-color guide already covers color approval and reorder consistency.",
+    "OEM sample approval — already owned by a dedicated multilingual guide.",
+    "Mixed-SKU MOQ and RFQ design — already owned by dedicated guides.",
+    "Incoterms selection — published in the immediately preceding run; payment is intentionally a separate intent."
+  ],
+  "siteGaps": [
+    "No dedicated page separated T/T milestones, documentary-credit presentation, D/P and D/A, physical acceptance and independent verification of bank-account changes for free-weight sourcing."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 2005,
+    "liveBlogUrlsReviewed": 2005,
+    "repositoryPublishedVersionsReviewed": 1991,
+    "registryTopicsReviewed": 789,
+    "registryChinaFreeWeightTopicsReviewed": 584,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "EXW, FCA, FOB, CIF and DDP selection",
+      "commercial free-weight RFQ",
+      "pre-shipment inspection",
+      "OEM sample approval"
+    ]
+  },
+  "sources": [
+    {
+      "title": "ICC — UCP 600 documentary credit rules",
+      "url": "https://library.iccwbo.org/content/tfb/RULES/tfb-ucp600-rules.htm",
+      "primary": true,
+      "use": "Official rules used for document examination, complying presentation and discrepancy handling when incorporated into a credit."
+    },
+    {
+      "title": "ICC — eUCP commercialisation briefing",
+      "url": "https://library.iccwbo.org/content/tfb/DIGITAL_COM_BRIEFINGS/20240402_Commercialisation_Briefing_eUCP_MT700_templates_n_3.pdf",
+      "primary": true,
+      "use": "Official ICC briefing used to preserve the distinction between documents and goods and to keep documentary requirements essential and precise."
+    },
+    {
+      "title": "U.S. International Trade Administration — Trade Finance Guide",
+      "url": "https://www.trade.gov/report/trade-finance-guide",
+      "primary": true,
+      "use": "Government overview used to compare cash in advance, letters of credit, documentary collection and open-account exposure without presenting one method as universal."
+    },
+    {
+      "title": "U.S. International Trade Administration — Documentary Collections",
+      "url": "https://www.trade.gov/documentary-collections",
+      "primary": true,
+      "use": "Government guidance used for D/P and D/A and the limited role of banks in collection."
+    },
+    {
+      "title": "ICC — Incoterms® 2020",
+      "url": "https://iccwbo.org/business-solutions/incoterms-rules/incoterms-2020/",
+      "primary": true,
+      "use": "Official overview used to keep delivery allocation separate from payment and product acceptance."
+    },
+    {
+      "title": "FBI — Business Email Compromise",
+      "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise",
+      "primary": true,
+      "use": "Law-enforcement guidance used for independent verification of beneficiary, account-number and payment-procedure changes."
+    },
+    {
+      "title": "IC3 — Business Email Compromise",
+      "url": "https://www.ic3.gov/CrimeInfo/BEC",
+      "primary": true,
+      "use": "Law-enforcement source reviewed for secondary-channel verification and account-change controls."
+    },
+    {
+      "title": "Reddit procurement buyer question — T/T or L/C",
+      "url": "https://www.reddit.com/r/procurement/",
+      "primary": false,
+      "use": "Used only to confirm recurring buyer wording about T/T before or after shipment and when a letter of credit is considered; no advice, figures or claims were reused."
+    }
+  ],
+  "publicSearch": {
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "question-style result panels",
+      "Reddit buyer discussions",
+      "Quora attempted but blocked by robots",
+      "ICC official rules and briefings",
+      "government trade-finance guidance",
+      "law-enforcement fraud guidance",
+      "industry and competitor pages",
+      "local-language queries for all publication markets"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "sv",
+      "it",
+      "nl",
+      "pl",
+      "vi",
+      "ar",
+      "ko",
+      "id"
+    ],
+    "recurringQuestions": [
+      "Should T/T be paid before or after shipment?",
+      "Is a letter of credit automatically safer?",
+      "Can a pre-shipment inspection release a later payment?",
+      "Do banks inspect the goods under an L/C?",
+      "What is the difference between D/P and D/A?",
+      "How should changed beneficiary details be verified?"
+    ]
+  },
+  "limitations": [
+    "Quora blocked automated verification and supplied no claim.",
+    "Reddit was used only to confirm buyer wording, not financial or legal advice.",
+    "No deposit ratio, bank fee, price, MOQ, lead time, credit availability or accepted payment method is presented as universal or as a standing factory promise.",
+    "The guide does not replace the buyer's bank, legal, tax, foreign-exchange or jurisdiction-specific advice.",
+    "Images are unbranded conceptual purchasing scenes, not evidence of a customer payment, bank approval or factory event."
+  ]
+}
