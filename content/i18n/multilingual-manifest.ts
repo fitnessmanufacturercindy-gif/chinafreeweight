@@ -88,6 +88,7 @@ import { withRubberDumbbellMoldDefectGuide } from "./rubber-dumbbell-mold-defect
 import { withBumperPlateHubCorrosionGuide } from "./bumper-plate-hub-corrosion-guide";
 import { withFreeWeightIncotermsGuide } from "./free-weight-incoterms-guide";
 import { withFreeWeightPaymentTermsGuide } from "./free-weight-payment-terms-guide";
+import { withFreeWeightLotTraceabilityGuide } from "./free-weight-lot-traceability-guide";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -268,7 +269,8 @@ const rubberDumbbellMoldDefectManifest = withRubberDumbbellMoldDefectGuide(cable
 const bumperPlateHubCorrosionManifest = withBumperPlateHubCorrosionGuide(rubberDumbbellMoldDefectManifest);
 const freeWeightIncotermsManifest = withFreeWeightIncotermsGuide(bumperPlateHubCorrosionManifest);
 const freeWeightPaymentTermsManifest = withFreeWeightPaymentTermsGuide(freeWeightIncotermsManifest);
+const freeWeightLotTraceabilityManifest = withFreeWeightLotTraceabilityGuide(freeWeightPaymentTermsManifest);
 
 export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightPaymentTermsManifest
+  freeWeightLotTraceabilityManifest
 );
