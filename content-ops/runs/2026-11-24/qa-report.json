@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-24",
+  "checkedAt": "2026-11-25T05:36:32.263Z",
+  "targetCount": 65,
+  "submittedCount": 13,
+  "publishableCount": 13,
+  "withheldCount": 0,
+  "results": [
+    {
+      "id": "2026-11-24-chinafreeweight-en-free-weight-lot-traceability",
+      "locale": "en",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-pt-BR-free-weight-lot-traceability",
+      "locale": "pt-BR",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-es-free-weight-lot-traceability",
+      "locale": "es",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-de-free-weight-lot-traceability",
+      "locale": "de",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-fr-free-weight-lot-traceability",
+      "locale": "fr",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-vi-free-weight-lot-traceability",
+      "locale": "vi",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-sv-free-weight-lot-traceability",
+      "locale": "sv",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-it-free-weight-lot-traceability",
+      "locale": "it",
+      "structureFamily": "procurement_risk_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-nl-free-weight-lot-traceability",
+      "locale": "nl",
+      "structureFamily": "quality_failure_analysis",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-ar-free-weight-lot-traceability",
+      "locale": "ar",
+      "structureFamily": "project_sequence",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-ko-free-weight-lot-traceability",
+      "locale": "ko",
+      "structureFamily": "technical_system_walkthrough",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-id-free-weight-lot-traceability",
+      "locale": "id",
+      "structureFamily": "manufacturing_process_map",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    },
+    {
+      "id": "2026-11-24-chinafreeweight-pl-free-weight-lot-traceability",
+      "locale": "pl",
+      "structureFamily": "comparison_decision_tree",
+      "passed": true,
+      "score": 100,
+      "rubric": {
+        "originalityAndIndependentViewpoint": 25,
+        "industryExpertise": 20,
+        "procurementValue": 20,
+        "searchIntentMatch": 15,
+        "inquiryConversionValue": 10,
+        "structuralIndependence": 10
+      },
+      "errors": []
+    }
+  ]
+}

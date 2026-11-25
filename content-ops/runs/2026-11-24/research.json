@@ -1,0 +1,1484 @@
+{
+  "schemaVersion": 1,
+  "siteId": "chinafreeweight",
+  "runDate": "2026-11-24",
+  "status": "complete",
+  "selectedTopic": "Lot and batch traceability for OEM free weights",
+  "selectionReason": "Buyers repeatedly ask what a batch number should identify, whether every product needs a serial number and how a supplier can trace a suspect component to cartons and shipments. The live site had a reorder-consistency guide but no dedicated identifier architecture or two-direction retrieval guide, so this article owns trace depth, lot boundaries, record linkage and trace exercises without re-covering visual consistency between reorders.",
+  "candidatePool": [
+    {
+      "locale": "en",
+      "rank": 1,
+      "topic": "free weight lot traceability: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "en",
+      "rank": 2,
+      "topic": "free weight lot traceability: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 3,
+      "topic": "free weight lot traceability: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 4,
+      "topic": "free weight lot traceability: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 5,
+      "topic": "free weight lot traceability: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 6,
+      "topic": "free weight lot traceability: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 7,
+      "topic": "free weight lot traceability: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 8,
+      "topic": "free weight lot traceability: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 9,
+      "topic": "free weight lot traceability: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 10,
+      "topic": "free weight lot traceability: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 11,
+      "topic": "free weight lot traceability: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 12,
+      "topic": "free weight lot traceability: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 13,
+      "topic": "free weight lot traceability: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 14,
+      "topic": "free weight lot traceability: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "en",
+      "rank": 15,
+      "topic": "free weight lot traceability: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 1,
+      "topic": "rastreabilidade de lote halteres OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 2,
+      "topic": "rastreabilidade de lote halteres OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 3,
+      "topic": "rastreabilidade de lote halteres OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 4,
+      "topic": "rastreabilidade de lote halteres OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 5,
+      "topic": "rastreabilidade de lote halteres OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 6,
+      "topic": "rastreabilidade de lote halteres OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 7,
+      "topic": "rastreabilidade de lote halteres OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 8,
+      "topic": "rastreabilidade de lote halteres OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 9,
+      "topic": "rastreabilidade de lote halteres OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 10,
+      "topic": "rastreabilidade de lote halteres OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 11,
+      "topic": "rastreabilidade de lote halteres OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 12,
+      "topic": "rastreabilidade de lote halteres OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 13,
+      "topic": "rastreabilidade de lote halteres OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 14,
+      "topic": "rastreabilidade de lote halteres OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "pt-BR",
+      "rank": 15,
+      "topic": "rastreabilidade de lote halteres OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 1,
+      "topic": "trazabilidad de lotes pesas libres: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "es",
+      "rank": 2,
+      "topic": "trazabilidad de lotes pesas libres: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 3,
+      "topic": "trazabilidad de lotes pesas libres: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 4,
+      "topic": "trazabilidad de lotes pesas libres: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 5,
+      "topic": "trazabilidad de lotes pesas libres: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 6,
+      "topic": "trazabilidad de lotes pesas libres: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 7,
+      "topic": "trazabilidad de lotes pesas libres: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 8,
+      "topic": "trazabilidad de lotes pesas libres: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 9,
+      "topic": "trazabilidad de lotes pesas libres: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 10,
+      "topic": "trazabilidad de lotes pesas libres: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 11,
+      "topic": "trazabilidad de lotes pesas libres: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 12,
+      "topic": "trazabilidad de lotes pesas libres: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 13,
+      "topic": "trazabilidad de lotes pesas libres: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 14,
+      "topic": "trazabilidad de lotes pesas libres: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "es",
+      "rank": 15,
+      "topic": "trazabilidad de lotes pesas libres: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 1,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "de",
+      "rank": 2,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 3,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 4,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 5,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 6,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 7,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 8,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 9,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 10,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 11,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 12,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 13,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 14,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "de",
+      "rank": 15,
+      "topic": "Chargenrückverfolgbarkeit Freigewichte: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 1,
+      "topic": "traçabilité lots poids libres OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "fr",
+      "rank": 2,
+      "topic": "traçabilité lots poids libres OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 3,
+      "topic": "traçabilité lots poids libres OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 4,
+      "topic": "traçabilité lots poids libres OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 5,
+      "topic": "traçabilité lots poids libres OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 6,
+      "topic": "traçabilité lots poids libres OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 7,
+      "topic": "traçabilité lots poids libres OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 8,
+      "topic": "traçabilité lots poids libres OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 9,
+      "topic": "traçabilité lots poids libres OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 10,
+      "topic": "traçabilité lots poids libres OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 11,
+      "topic": "traçabilité lots poids libres OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 12,
+      "topic": "traçabilité lots poids libres OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 13,
+      "topic": "traçabilité lots poids libres OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 14,
+      "topic": "traçabilité lots poids libres OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "fr",
+      "rank": 15,
+      "topic": "traçabilité lots poids libres OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 1,
+      "topic": "truy xuất lô tạ tự do OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "vi",
+      "rank": 2,
+      "topic": "truy xuất lô tạ tự do OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 3,
+      "topic": "truy xuất lô tạ tự do OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 4,
+      "topic": "truy xuất lô tạ tự do OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 5,
+      "topic": "truy xuất lô tạ tự do OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 6,
+      "topic": "truy xuất lô tạ tự do OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 7,
+      "topic": "truy xuất lô tạ tự do OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 8,
+      "topic": "truy xuất lô tạ tự do OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 9,
+      "topic": "truy xuất lô tạ tự do OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 10,
+      "topic": "truy xuất lô tạ tự do OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 11,
+      "topic": "truy xuất lô tạ tự do OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 12,
+      "topic": "truy xuất lô tạ tự do OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 13,
+      "topic": "truy xuất lô tạ tự do OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 14,
+      "topic": "truy xuất lô tạ tự do OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "vi",
+      "rank": 15,
+      "topic": "truy xuất lô tạ tự do OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 1,
+      "topic": "partispårbarhet fria vikter OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "sv",
+      "rank": 2,
+      "topic": "partispårbarhet fria vikter OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 3,
+      "topic": "partispårbarhet fria vikter OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 4,
+      "topic": "partispårbarhet fria vikter OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 5,
+      "topic": "partispårbarhet fria vikter OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 6,
+      "topic": "partispårbarhet fria vikter OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 7,
+      "topic": "partispårbarhet fria vikter OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 8,
+      "topic": "partispårbarhet fria vikter OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 9,
+      "topic": "partispårbarhet fria vikter OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 10,
+      "topic": "partispårbarhet fria vikter OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 11,
+      "topic": "partispårbarhet fria vikter OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 12,
+      "topic": "partispårbarhet fria vikter OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 13,
+      "topic": "partispårbarhet fria vikter OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 14,
+      "topic": "partispårbarhet fria vikter OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "sv",
+      "rank": 15,
+      "topic": "partispårbarhet fria vikter OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 1,
+      "topic": "tracciabilità lotti pesi liberi OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "it",
+      "rank": 2,
+      "topic": "tracciabilità lotti pesi liberi OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 3,
+      "topic": "tracciabilità lotti pesi liberi OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 4,
+      "topic": "tracciabilità lotti pesi liberi OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 5,
+      "topic": "tracciabilità lotti pesi liberi OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 6,
+      "topic": "tracciabilità lotti pesi liberi OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 7,
+      "topic": "tracciabilità lotti pesi liberi OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 8,
+      "topic": "tracciabilità lotti pesi liberi OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 9,
+      "topic": "tracciabilità lotti pesi liberi OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 10,
+      "topic": "tracciabilità lotti pesi liberi OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 11,
+      "topic": "tracciabilità lotti pesi liberi OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 12,
+      "topic": "tracciabilità lotti pesi liberi OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 13,
+      "topic": "tracciabilità lotti pesi liberi OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 14,
+      "topic": "tracciabilità lotti pesi liberi OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "it",
+      "rank": 15,
+      "topic": "tracciabilità lotti pesi liberi OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 1,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "nl",
+      "rank": 2,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 3,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 4,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 5,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 6,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 7,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 8,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 9,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 10,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 11,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 12,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 13,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 14,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "nl",
+      "rank": 15,
+      "topic": "batchtraceerbaarheid vrije gewichten OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 1,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "ar",
+      "rank": 2,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 3,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 4,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 5,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 6,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 7,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 8,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 9,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 10,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 11,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 12,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 13,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 14,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "ar",
+      "rank": 15,
+      "topic": "تتبع دفعات الأوزان الحرة OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 1,
+      "topic": "프리웨이트 로트 추적성 OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "ko",
+      "rank": 2,
+      "topic": "프리웨이트 로트 추적성 OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 3,
+      "topic": "프리웨이트 로트 추적성 OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 4,
+      "topic": "프리웨이트 로트 추적성 OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 5,
+      "topic": "프리웨이트 로트 추적성 OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 6,
+      "topic": "프리웨이트 로트 추적성 OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 7,
+      "topic": "프리웨이트 로트 추적성 OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 8,
+      "topic": "프리웨이트 로트 추적성 OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 9,
+      "topic": "프리웨이트 로트 추적성 OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 10,
+      "topic": "프리웨이트 로트 추적성 OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 11,
+      "topic": "프리웨이트 로트 추적성 OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 12,
+      "topic": "프리웨이트 로트 추적성 OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 13,
+      "topic": "프리웨이트 로트 추적성 OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 14,
+      "topic": "프리웨이트 로트 추적성 OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "ko",
+      "rank": 15,
+      "topic": "프리웨이트 로트 추적성 OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 1,
+      "topic": "ketertelusuran batch beban bebas OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "id",
+      "rank": 2,
+      "topic": "ketertelusuran batch beban bebas OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 3,
+      "topic": "ketertelusuran batch beban bebas OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 4,
+      "topic": "ketertelusuran batch beban bebas OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 5,
+      "topic": "ketertelusuran batch beban bebas OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 6,
+      "topic": "ketertelusuran batch beban bebas OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 7,
+      "topic": "ketertelusuran batch beban bebas OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 8,
+      "topic": "ketertelusuran batch beban bebas OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 9,
+      "topic": "ketertelusuran batch beban bebas OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 10,
+      "topic": "ketertelusuran batch beban bebas OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 11,
+      "topic": "ketertelusuran batch beban bebas OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 12,
+      "topic": "ketertelusuran batch beban bebas OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 13,
+      "topic": "ketertelusuran batch beban bebas OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 14,
+      "topic": "ketertelusuran batch beban bebas OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "id",
+      "rank": 15,
+      "topic": "ketertelusuran batch beban bebas OEM: OEM RFQ traceability fields",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 1,
+      "topic": "identyfikowalność partii wolne ciężary OEM: batch versus serial decision",
+      "selected": true
+    },
+    {
+      "locale": "pl",
+      "rank": 2,
+      "topic": "identyfikowalność partii wolne ciężary OEM: SKU and revision relationship",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 3,
+      "topic": "identyfikowalność partii wolne ciężary OEM: backward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 4,
+      "topic": "identyfikowalność partii wolne ciężary OEM: forward trace exercise",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 5,
+      "topic": "identyfikowalność partii wolne ciężary OEM: material-to-finished-lot linkage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 6,
+      "topic": "identyfikowalność partii wolne ciężary OEM: rework identity preservation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 7,
+      "topic": "identyfikowalność partii wolne ciężary OEM: split and merged lot control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 8,
+      "topic": "identyfikowalność partii wolne ciężary OEM: mixed-SKU pallet records",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 9,
+      "topic": "identyfikowalność partii wolne ciężary OEM: carton and packing-list linkage",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 10,
+      "topic": "identyfikowalność partii wolne ciężary OEM: distributor repacking control",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 11,
+      "topic": "identyfikowalność partii wolne ciężary OEM: coating lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 12,
+      "topic": "identyfikowalność partii wolne ciężary OEM: insert and assembly lot investigation",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 13,
+      "topic": "identyfikowalność partii wolne ciężary OEM: record retention ownership",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 14,
+      "topic": "identyfikowalność partii wolne ciężary OEM: supplier traceability audit",
+      "selected": false
+    },
+    {
+      "locale": "pl",
+      "rank": 15,
+      "topic": "identyfikowalność partii wolne ciężary OEM: OEM RFQ traceability fields",
+      "selected": false
+    }
+  ],
+  "locales": {
+    "en": {
+      "targetKeyword": "free weight lot traceability",
+      "publicQuery": "OEM gym equipment batch number lot traceability supplier",
+      "questions": [
+        "Is a batch number the same as a serial number?",
+        "Should every dumbbell have its own serial number?",
+        "Can the purchase-order number serve as the lot number?",
+        "Where should a lot code appear?",
+        "How can a buyer test a supplier's traceability?"
+      ],
+      "path": "/resources/free-weight-lot-batch-traceability-guide"
+    },
+    "pt-BR": {
+      "targetKeyword": "rastreabilidade de lote halteres OEM",
+      "publicQuery": "rastreabilidade lote halteres anilhas fornecedor OEM",
+      "questions": [
+        "Lote e número de série são iguais?",
+        "Todo halter precisa de número de série?",
+        "O número do pedido pode ser o lote?",
+        "Onde marcar o lote?",
+        "Como testar o fornecedor?"
+      ],
+      "path": "/pt/blog/rastreabilidade-lote-halteres-anilhas-oem"
+    },
+    "es": {
+      "targetKeyword": "trazabilidad de lotes pesas libres",
+      "publicQuery": "trazabilidad lotes mancuernas discos fabricante OEM",
+      "questions": [
+        "¿Lote y número de serie significan lo mismo?",
+        "¿Cada mancuerna necesita serie propia?",
+        "¿Puedo usar el número de pedido como lote?",
+        "¿Dónde se coloca el lote?",
+        "¿Cómo compruebo la trazabilidad del proveedor?"
+      ],
+      "path": "/es/blog/trazabilidad-lotes-pesas-libres-oem"
+    },
+    "de": {
+      "targetKeyword": "Chargenrückverfolgbarkeit Freigewichte",
+      "publicQuery": "Chargenrückverfolgbarkeit Hanteln Gewichtsscheiben OEM",
+      "questions": [
+        "Sind Charge und Seriennummer dasselbe?",
+        "Braucht jede Hantel eine Seriennummer?",
+        "Kann die Bestellnummer als Charge dienen?",
+        "Wo wird die Charge gekennzeichnet?",
+        "Wie lässt sich ein Lieferant prüfen?"
+      ],
+      "path": "/de/blog/chargenrueckverfolgbarkeit-freigewichte-oem"
+    },
+    "fr": {
+      "targetKeyword": "traçabilité lots poids libres OEM",
+      "publicQuery": "traçabilité lots haltères disques fournisseur OEM",
+      "questions": [
+        "Lot et numéro de série sont-ils identiques ?",
+        "Chaque haltère doit-il être sérialisé ?",
+        "Le numéro de commande suffit-il ?",
+        "Où placer le code ?",
+        "Comment tester le fournisseur ?"
+      ],
+      "path": "/fr/blog/tracabilite-lots-halteres-disques-oem"
+    },
+    "vi": {
+      "targetKeyword": "truy xuất lô tạ tự do OEM",
+      "publicQuery": "truy xuất lô tạ tay bánh tạ nhà máy OEM",
+      "questions": [
+        "Lô và số sê-ri có giống nhau không?",
+        "Mỗi quả tạ tay có cần số sê-ri?",
+        "Có thể dùng số đơn hàng làm mã lô không?",
+        "Đặt mã lô ở đâu?",
+        "Kiểm tra nhà cung cấp thế nào?"
+      ],
+      "path": "/vi/blog/truy-xuat-lo-ta-tay-banh-ta-oem"
+    },
+    "sv": {
+      "targetKeyword": "partispårbarhet fria vikter OEM",
+      "publicQuery": "spårbarhet partinummer hantlar viktskivor OEM",
+      "questions": [
+        "Är parti och serienummer samma sak?",
+        "Behöver varje hantel ett serienummer?",
+        "Kan ordernumret vara partinummer?",
+        "Var placeras koden?",
+        "Hur granskas leverantören?"
+      ],
+      "path": "/sv/blogg/sparbarhet-partinummer-fria-vikter-oem"
+    },
+    "it": {
+      "targetKeyword": "tracciabilità lotti pesi liberi OEM",
+      "publicQuery": "tracciabilità lotti manubri dischi produttore OEM",
+      "questions": [
+        "Lotto e matricola coincidono?",
+        "Ogni manubrio richiede una matricola?",
+        "Il numero d'ordine può essere il lotto?",
+        "Dove si applica il codice?",
+        "Come verificare il fornitore?"
+      ],
+      "path": "/it/blog/tracciabilita-lotti-pesi-liberi-oem"
+    },
+    "nl": {
+      "targetKeyword": "batchtraceerbaarheid vrije gewichten OEM",
+      "publicQuery": "traceerbaarheid batches dumbbells halterschijven OEM",
+      "questions": [
+        "Zijn batch en serienummer hetzelfde?",
+        "Heeft elke dumbbell een serienummer nodig?",
+        "Kan het ordernummer als batch dienen?",
+        "Waar komt de code?",
+        "Hoe wordt de leverancier getest?"
+      ],
+      "path": "/nl/blog/traceerbaarheid-batches-vrije-gewichten-oem"
+    },
+    "ar": {
+      "targetKeyword": "تتبع دفعات الأوزان الحرة OEM",
+      "publicQuery": "تتبع دفعات الدمبل وأقراص الأوزان مصنع OEM",
+      "questions": [
+        "هل الدفعة والرقم التسلسلي شيء واحد؟",
+        "هل يحتاج كل دمبل إلى رقم تسلسلي؟",
+        "هل يصلح رقم أمر الشراء كدفعة؟",
+        "أين يوضع الرمز؟",
+        "كيف يختبر المشتري المورد؟"
+      ],
+      "path": "/ar/blog/tatabue-dafaat-awzan-hurra-oem"
+    },
+    "ko": {
+      "targetKeyword": "프리웨이트 로트 추적성 OEM",
+      "publicQuery": "OEM 덤벨 원판 생산 로트 추적성",
+      "questions": [
+        "로트와 일련번호는 같습니까?",
+        "모든 덤벨에 일련번호가 필요합니까?",
+        "발주 번호를 로트로 쓸 수 있습니까?",
+        "코드는 어디에 표시합니까?",
+        "공급사를 어떻게 시험합니까?"
+      ],
+      "path": "/ko/blog/oem-free-weight-lot-traceability"
+    },
+    "id": {
+      "targetKeyword": "ketertelusuran batch beban bebas OEM",
+      "publicQuery": "ketertelusuran batch dumbbell weight plate OEM",
+      "questions": [
+        "Apakah batch sama dengan nomor seri?",
+        "Apakah setiap dumbbell perlu nomor seri?",
+        "Dapatkah nomor PO menjadi batch?",
+        "Di mana kode ditempatkan?",
+        "Bagaimana menguji pemasok?"
+      ],
+      "path": "/id/blog/ketertelusuran-batch-beban-bebas-oem"
+    },
+    "pl": {
+      "targetKeyword": "identyfikowalność partii wolne ciężary OEM",
+      "publicQuery": "identyfikowalność partii hantle talerze producent OEM",
+      "questions": [
+        "Czy partia i numer seryjny są tym samym?",
+        "Czy każdy hantel wymaga numeru seryjnego?",
+        "Czy numer zamówienia może być partią?",
+        "Gdzie umieścić kod?",
+        "Jak sprawdzić dostawcę?"
+      ],
+      "path": "/pl/blog/identyfikowalnosc-partii-wolne-ciezary-oem"
+    }
+  },
+  "competitors": [
+    {
+      "name": "Major Fitness",
+      "url": "https://www.majorfitness.com/pages/product-registration",
+      "observation": "Reviewed gym-product serial and batch lookup language only; no customer, warranty or product claim was reused."
+    },
+    {
+      "name": "Motherson",
+      "url": "https://www.motherson.com/storage/suppliers/supplier-quality-manual.pdf",
+      "observation": "Reviewed industry supplier requirements for forward and backward trace language; company-specific requirements were not presented as universal."
+    },
+    {
+      "name": "Kohler",
+      "url": "https://resources.kohler.com/plumbing/kohlercom-na/pdf/supplier-quality-manual-french.pdf",
+      "observation": "Reviewed French supplier-quality terminology for traceability and lot control; no wording was copied."
+    }
+  ],
+  "rejectedTopics": [
+    "Manufacturer versus trading company — already covered by the multilingual factory-evaluation guide.",
+    "OEM sample approval — already covered by a dedicated guide.",
+    "RFQ structure and mixed-SKU MOQ — already covered by dedicated guides.",
+    "Shipping marks — already covered inside packaging and loading guidance.",
+    "Reorder batch consistency — nearest existing topic, but it owns golden samples and variation between orders rather than lot identity and retrieval."
+  ],
+  "siteGaps": [
+    "No dedicated page explained how SKU, revision, production lot, serial number, carton, pallet and shipment records should connect for free-weight sourcing."
+  ],
+  "conflictCheck": {
+    "liveSitemapUrlsReviewed": 2019,
+    "liveBlogUrlsReviewed": 1149,
+    "liveLanguageUrlsReviewed": 2017,
+    "liveImageUrlsReviewed": 4707,
+    "repositoryPublishedVersionsReviewed": 2004,
+    "registryTopicsReviewed": 2394,
+    "registryChinaFreeWeightTopicsReviewed": 610,
+    "dedicatedArticleFound": false,
+    "slugTokenMatches": 0,
+    "nearestTopics": [
+      "free-weight reorder batch consistency",
+      "OEM sample approval",
+      "AQL defect classification",
+      "test report verification",
+      "warranty claim evidence"
+    ],
+    "boundary": "This guide covers identifier hierarchy, lot-opening rules, splits, merges, repacking, backward and forward retrieval. It excludes golden-sample comparison and repeat-order visual consistency owned by the existing reorder guide."
+  },
+  "sources": [
+    {
+      "title": "GS1 General Specifications",
+      "url": "https://ref.gs1.org/standards/genspecs/24.0.0/",
+      "primary": true,
+      "use": "Official reference for the distinct roles of batch or lot identifier (10) and serial identifier (21), used without implying that every project must adopt a GS1 barcode."
+    },
+    {
+      "title": "GS1 Global Traceability Standard",
+      "url": "https://ref.gs1.org/standards/global-traceability/",
+      "primary": true,
+      "use": "Official traceability framework for identifiable objects, parties, locations and events, applied as a record-linkage model."
+    },
+    {
+      "title": "European Commission GPSR business guidance",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025XC06233",
+      "primary": true,
+      "use": "Official guidance reviewed for product identification by type, batch, serial or another element; the article leaves market-specific legal assessment to the importer."
+    },
+    {
+      "title": "Motherson supplier quality manual",
+      "url": "https://www.motherson.com/storage/suppliers/supplier-quality-manual.pdf",
+      "primary": false,
+      "use": "Industry supplier manual reviewed for buyer wording around lot control and backward or forward tracing; no company-specific requirement is presented as universal."
+    },
+    {
+      "title": "Kohler supplier quality manual",
+      "url": "https://resources.kohler.com/plumbing/kohlercom-na/pdf/supplier-quality-manual-french.pdf",
+      "primary": false,
+      "use": "French-language supplier-quality terminology reviewed for record linkage and lot identification."
+    },
+    {
+      "title": "AEL supplier quality requirements",
+      "url": "https://www.ael.com.br/downloads/supplier-quality-requirements-pt.pdf",
+      "primary": false,
+      "use": "Portuguese-language supplier manual reviewed for localized traceability terminology and buyer questions."
+    },
+    {
+      "title": "Solaris supplier quality manual",
+      "url": "https://www.solarisbus.com/public/assets/content/supplier-quality-manual-pl.pdf",
+      "primary": false,
+      "use": "Polish-language supplier manual reviewed for batch identification vocabulary."
+    },
+    {
+      "title": "Reddit manufacturing batch tracking discussion",
+      "url": "https://www.reddit.com/r/manufacturing/comments/1dhkzqo/what_do_you_use_to_track_single_batches/",
+      "primary": false,
+      "use": "Used only to confirm recurring pain around batch boundaries that are too broad; no advice or claims were reused."
+    },
+    {
+      "title": "Reddit inventory receiving inspection discussion",
+      "url": "https://www.reddit.com/r/InventoryManagement/",
+      "primary": false,
+      "use": "Used only to confirm buyer wording about tying receiving inspection to purchase order and supplier lot."
+    }
+  ],
+  "publicSearch": {
+    "surfaces": [
+      "Google-visible indexed results",
+      "Bing-visible indexed results",
+      "question-style search results",
+      "Reddit manufacturing and inventory discussions",
+      "Quora attempted but blocked by robots",
+      "GS1 standards",
+      "EUR-Lex guidance",
+      "supplier quality manuals",
+      "gym-product and contract-manufacturing pages",
+      "local-language queries for all publication markets"
+    ],
+    "markets": [
+      "en",
+      "pt-BR",
+      "es",
+      "de",
+      "fr",
+      "vi",
+      "sv",
+      "it",
+      "nl",
+      "ar",
+      "ko",
+      "id",
+      "pl"
+    ],
+    "recurringQuestions": [
+      "Is a batch number the same as a serial number?",
+      "Does every dumbbell need a serial number?",
+      "Can a purchase-order number serve as the batch?",
+      "Where should the code appear?",
+      "How can a buyer test backward and forward traceability?",
+      "What happens when cartons are repacked or lots are split?"
+    ]
+  },
+  "limitations": [
+    "Quora blocked automated verification and supplied no claim.",
+    "Reddit was used only to confirm buyer wording, not as authority for standards or legal duties.",
+    "Arabic- and Korean-language public results were sparse; official sources and local terminology checks were used, and no unsupported local market claim was added.",
+    "The guide does not claim that every product requires serialization, that every raw material can be traced, or that a retrieval exercise proves legal conformity.",
+    "Images are unbranded conceptual editorial scenes, not evidence of a customer order, factory event, inspection result or certification."
+  ]
+}
