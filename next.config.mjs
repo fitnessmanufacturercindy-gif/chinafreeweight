@@ -2,12 +2,12 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: process.platform === "win32"
-    ? {
-        cpus: 1,
-        webpackBuildWorker: false
-      }
-    : undefined,
+  experimental: {
+    cpus: 1,
+    webpackBuildWorker: false,
+    staticGenerationMaxConcurrency: 2,
+    staticGenerationMinPagesPerWorker: 50
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 31536000
