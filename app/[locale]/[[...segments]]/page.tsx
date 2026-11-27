@@ -12,6 +12,9 @@ type LocalizedPageProps = {
   params: Promise<{ locale: string; segments?: string[] }>;
 };
 
+// Only published locale paths are generated. Unlisted paths use the global 404.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return contentRepository.listPublished().flatMap(({ version }) => {
     if (version.locale === "en") return [];

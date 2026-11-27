@@ -24,6 +24,8 @@ type PageProps = {
 
 type Faq = { question: string; answer: string };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
 }

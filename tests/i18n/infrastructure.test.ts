@@ -12,7 +12,7 @@ import { decideLocaleRequest } from "../../lib/i18n/request-policy";
 import { getLocaleByInternalLocale, type InternalLocale } from "../../i18n/locale-registry";
 import { createTranslationPipeline, type TranslationRecord } from "../../lib/publishing/translation-pipeline";
 import { isRetiredRacksBenchesEntity } from "../../lib/content/retired-racks-benches";
-import { legacyRedirects } from "../../lib/seo/legacy-redirects";
+import { legacyAssetRedirects, legacyRedirects } from "../../lib/seo/legacy-redirects.mjs";
 import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
 import { buildPublishedSitemap } from "../../lib/seo/sitemap";
@@ -1789,5 +1789,15 @@ test("legacy redirects land on published pages without hiding live routes or cha
     assert.ok(!isRetiredRacksBenchesEntity(target.entity), destination);
     assert.ok(!legacyRedirects.some((rule) => matches(rule.source, destination)), destination);
     assert.ok(!published.some(({ version }) => matches(source, version.publicPath)), source);
+  }
+});
+
+test("legacy exhibition image URLs redirect permanently to existing AVIF files", () => {
+  assert.equal(legacyAssetRedirects.length, 3);
+  for (const { source, destination, permanent } of legacyAssetRedirects) {
+    assert.match(source, /\.avif-\d+$/);
+    assert.equal(destination, source.replace(/-\d+$/, ""));
+    assert.equal(permanent, true);
+    assert.ok(existsSync(`public${destination}`), destination);
   }
 });

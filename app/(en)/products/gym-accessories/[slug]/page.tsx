@@ -11,6 +11,8 @@ type PageProps = {
   }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return gymAccessoryProducts.map((product) => ({
     slug: product.slug

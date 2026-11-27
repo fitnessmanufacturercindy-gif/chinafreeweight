@@ -210,6 +210,8 @@ function renderMarkdown(body: string) {
   return elements;
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() { return slugs(); }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {

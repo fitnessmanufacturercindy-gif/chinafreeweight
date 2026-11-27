@@ -241,8 +241,9 @@ export default function FactoryPage() {
         </div>
         <div className="exhibition-carousel" aria-label="PowerBaseFit exhibition photos">
           <div className="exhibition-track">
+            {/* The fixed track repeats each photo. Use its slot as the key. */}
             {[...exhibitionSlides, ...exhibitionSlides].map((image, index) => (
-              <figure key={`${image}-${index}`}>
+              <figure key={index}>
                 <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" loading="lazy" decoding="async" />
               </figure>
             ))}

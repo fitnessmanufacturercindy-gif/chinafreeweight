@@ -1,16 +1,17 @@
-import type { NextConfig } from "next";
-import { legacyRedirects } from "./lib/seo/legacy-redirects";
+import { legacyAssetRedirects, legacyRedirects } from "./lib/seo/legacy-redirects.mjs";
 import createNextIntlPlugin from "next-intl/plugin";
 
-const nextConfig: NextConfig = {
-  // Resolve legacy slash variants before the general trailing-slash redirect.
-  skipTrailingSlashRedirect: true,
-  experimental: process.platform === "win32"
-    ? {
-        cpus: 1,
-        webpackBuildWorker: false
-      }
-    : undefined,
+const redirects = [...legacyRedirects, ...legacyAssetRedirects];
+
+/** @type {import("next").NextConfig} */
+const nextConfig = {
+  experimental: {
+    globalNotFound: true,
+    ...(process.platform === "win32" && {
+      cpus: 1,
+      webpackBuildWorker: false
+    })
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 31536000
@@ -33,18 +34,13 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      ...legacyRedirects.map(({ source, destination }) => ({
+      ...redirects.map(({ source, destination }) => ({
         source,
-        has: [{ type: "host" as const, value: "chinafreeweight.com" }],
+        has: [{ type: "host", value: "chinafreeweight.com" }],
         destination: `https://www.chinafreeweight.com${destination}`,
         permanent: true
       })),
-      ...legacyRedirects,
-      {
-        source: "/:path+/",
-        destination: "/:path+",
-        permanent: true
-      },
+      ...redirects,
       {
         source: "/manufacturer/rubber-hex-dumbbell-manufacturer",
         destination: "/manufacturer/rubber-hex-dumbbells-manufacturer",

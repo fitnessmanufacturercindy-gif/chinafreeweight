@@ -10,6 +10,8 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return dumbbellProducts.map((product) => ({ slug: product.slug }));
 }
