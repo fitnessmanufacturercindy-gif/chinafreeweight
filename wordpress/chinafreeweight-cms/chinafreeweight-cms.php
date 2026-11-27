@@ -2,7 +2,7 @@
 /**
  * Plugin Name: ChinaFreeWeight CMS
  * Description: Product catalog and publishing controls for the ChinaFreeWeight headless site.
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 defined('ABSPATH') || exit;
@@ -27,8 +27,10 @@ function cfw_register_content() {
     register_post_type(CFW_PRODUCT, [
         'labels' => ['name' => '产品', 'singular_name' => '产品', 'add_new_item' => '新增产品', 'edit_item' => '编辑产品'],
         'public' => true,
-        'publicly_queryable' => false,
+        // WordPress requires publicly viewable posts for anonymous REST term embeds.
+        'publicly_queryable' => true,
         'rewrite' => false,
+        'query_var' => false,
         'show_in_rest' => true,
         'rest_base' => 'cfw-products',
         'menu_icon' => 'dashicons-products',
@@ -77,6 +79,15 @@ function cfw_register_content() {
     }
 }
 add_action('init', 'cfw_register_content');
+
+add_action('template_redirect', function () {
+    if (is_singular(CFW_PRODUCT) && !is_preview()) {
+        global $wp_query;
+        $wp_query->set_404();
+        status_header(404);
+        nocache_headers();
+    }
+});
 
 register_activation_hook(__FILE__, function () {
     cfw_register_content();
