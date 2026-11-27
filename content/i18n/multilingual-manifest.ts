@@ -1,3 +1,4 @@
+import { isRetiredRacksBenchesEntity, isRetiredRacksBenchesId } from "../../lib/content/retired-racks-benches";
 import type { ContentEntity, ContentManifest } from "../../lib/content/types";
 import { ptBrPilotManifest } from "./pt-br-pilot";
 import { spanishPublishedVersions } from "./spanish-manifest";
@@ -113,34 +114,6 @@ const baseManifest: ContentManifest = {
   schemaVersion: 1,
   entities: [...entities, ...expansionEntities]
 };
-
-function isRetiredRacksBenchesId(id: string) {
-  return id === "racks-benches-category" || id.startsWith("product:racks:");
-}
-
-const retiredRacksBenchesPathFragments = [
-  "/products/racks-benches",
-  "/pt/produtos/racks-e-bancos",
-  "/es/productos/racks-y-bancos",
-  "/de/produkte/racks-hantelbaenke",
-  "/fr/produits/racks-bancs",
-  "/vi/san-pham/khung-ghe-tap",
-  "/pl/produkty/stojaki-lawki",
-  "/id/produk/rak-bangku",
-  "/it/prodotti/rack-panche",
-  "/ko/products/racks-benches",
-  "/nl/producten/racks-banken",
-  "/sv/produkter/rack-bank"
-];
-
-function isRetiredRacksBenchesPath(path?: string) {
-  return Boolean(path && retiredRacksBenchesPathFragments.some((fragment) => path.includes(fragment)));
-}
-
-function isRetiredRacksBenchesEntity(entity: ContentEntity) {
-  if (isRetiredRacksBenchesId(entity.id)) return true;
-  return Object.values(entity.versions).some((version) => isRetiredRacksBenchesPath(version?.publicPath));
-}
 
 function withoutRetiredRacksBenches(manifest: ContentManifest): ContentManifest {
   return {

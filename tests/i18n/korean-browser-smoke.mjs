@@ -12,14 +12,14 @@ const schemas = async () => {
   return docs.flatMap((doc) => doc?.["@graph"] ?? [doc]).flat();
 };
 
-let response = await goto("/sitemaps/languages.xml");
+let response = await goto("/sitemap.xml");
 assert.equal(response?.status(), 200);
 const languageXml = await response.text();
 const paths = [...languageXml.matchAll(/<loc>([^<]+)<\/loc>/g)]
   .map((match) => new URL(match[1]).pathname)
   .filter((path) => path === "/ko" || path.startsWith("/ko/"));
-assert.equal(paths.length, 38);
-assert.equal(new Set(paths).size, 38);
+assert.equal(paths.length, 155);
+assert.equal(new Set(paths).size, 155);
 
 for (const path of paths) {
   response = await goto(path);
@@ -57,8 +57,8 @@ for (const path of paths) {
 response = await goto("/sitemap.xml");
 assert.equal(response?.status(), 200);
 const mainXml = await response.text();
-assert.equal((mainXml.match(/<loc>/g) ?? []).length, 891);
-assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/ko(?:<|\/)/g) ?? []).length, 38);
+assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2031);
+assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/ko(?:<|\/)/g) ?? []).length, 155);
 response = await goto("/robots.txt");
 assert.equal(response?.status(), 200);
 assert.match(await response.text(), /Allow: \/[\r\n]/);

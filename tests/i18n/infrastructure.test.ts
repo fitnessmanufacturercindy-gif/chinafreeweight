@@ -15,7 +15,6 @@ import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
 import { buildPublishedSitemap } from "../../lib/seo/sitemap";
 import { validateContentManifest } from "../../lib/validation/locale";
-import { localizedSitemapEntries } from "../../app/seo-data";
 import { commercialCompletionBCSelections } from "../../content/i18n/commercial-completion-bc";
 import { commercialCompletionCSelections } from "../../content/i18n/commercial-completion-c";
 import { indonesianExcludedContentIds } from "../../content/i18n/indonesian-manifest";
@@ -713,8 +712,8 @@ test("multilingual sitemap retains all English routes and adds every published l
   assert.equal(urls.some((url) => /^\/(ru|ja)(\/|$)/.test(new URL(url).pathname)), false);
 });
 
-test("language sitemap contains all public URLs with the complete products hub cluster", () => {
-  const entries = localizedSitemapEntries();
+test("main sitemap contains all public URLs with the complete products hub cluster", () => {
+  const entries = sitemap();
   const english = entries.filter((entry) => !/^\/(?:pt|es|de|fr|vi|sv|it|ar|ko|id|pl|nl)(?:\/|$)/.test(new URL(entry.url).pathname));
   const portuguese = entries.filter((entry) => /^\/pt(?:\/|$)/.test(new URL(entry.url).pathname));
   const spanish = entries.filter((entry) => /^\/es(?:\/|$)/.test(new URL(entry.url).pathname));
@@ -728,7 +727,7 @@ test("language sitemap contains all public URLs with the complete products hub c
   const indonesian = entries.filter((entry) => /^\/id(?:\/|$)/.test(new URL(entry.url).pathname));
   const polish = entries.filter((entry) => /^\/pl(?:\/|$)/.test(new URL(entry.url).pathname));
   const dutch = entries.filter((entry) => /^\/nl(?:\/|$)/.test(new URL(entry.url).pathname));
-  assert.equal(english.length, 180);
+  assert.equal(english.length, 182);
   assert.equal(portuguese.length, 163);
   assert.equal(spanish.length, 163);
   assert.equal(german.length, 167);
@@ -741,7 +740,7 @@ test("language sitemap contains all public URLs with the complete products hub c
   assert.equal(indonesian.length, 160);
   assert.equal(polish.length, 161);
   assert.equal(dutch.length, 160);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 2029);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 2031);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
@@ -1673,7 +1672,7 @@ test("commercial completion B/C priority release: 114 active pages pass quality,
     }
   }
 
-  const sitemapPaths = new Set(localizedSitemapEntries().map((entry) => new URL(entry.url).pathname));
+  const sitemapPaths = new Set(sitemap().map((entry) => new URL(entry.url).pathname));
   for (const { version } of localized) assert.ok(sitemapPaths.has(version.publicPath), `${version.publicPath}: language sitemap`);
 });
 
@@ -1761,6 +1760,6 @@ test("retired C-level rack completion cannot republish removed routes", () => {
     for (const locale of ["de","fr","vi","sv","it"] as const) assert.equal(entity.versions[locale]?.publishStatus,"published",`${id}: preserve ${locale}`);
   }
 
-  const sitemapPaths=new Set(localizedSitemapEntries().map((entry)=>new URL(entry.url).pathname));
+  const sitemapPaths=new Set(sitemap().map((entry)=>new URL(entry.url).pathname));
   for (const {version} of pages) assert.ok(sitemapPaths.has(version.publicPath),`${version.publicPath}: sitemap`);
 });

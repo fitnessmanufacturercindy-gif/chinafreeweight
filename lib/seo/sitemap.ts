@@ -1,82 +1,53 @@
 import type { MetadataRoute } from "next";
-import { getLocaleByInternalLocale, type InternalLocale } from "../../i18n/locale-registry";
+import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
 import type { ContentRepository } from "../content/repository";
-import type { ContentType } from "../content/types";
-
-export type SitemapGroup = "pages" | "products" | "blogs" | "cases" | "landings";
-
-export type MediaSitemapRecord = {
-  loc: string;
-  lastmod: string;
-  locale: InternalLocale;
-  images: Array<{ loc: string; caption: string }>;
-  videos: Array<{ thumbnailLoc: string; title: string; description: string; contentLoc?: string }>;
-};
-
-export function groupForType(type: ContentType): SitemapGroup {
-  if (type === "product" || type === "product_category") return "products";
-  if (type === "blog" || type === "blog_index") return "blogs";
-  if (type === "case" || type === "case_index" || type === "projects") return "cases";
-  if (type === "landing") return "landings";
-  return "pages";
-}
+import { isSitemapContentEligible, isSitemapPagePath, sitemapPageUrl } from "./sitemap-eligibility";
 
 export function buildPublishedSitemap(
   repository: ContentRepository,
   siteUrl: string,
-  filters?: { locale?: InternalLocale; group?: SitemapGroup }
+  options?: { englishEntries?: MetadataRoute.Sitemap }
 ): MetadataRoute.Sitemap {
-  return repository.listPublished({ locale: filters?.locale }).flatMap(({ entity, version }) => {
-    const locale = getLocaleByInternalLocale(version.locale);
-    if (!locale?.public || version.canonicalData.noindex || (filters?.group && groupForType(entity.type) !== filters.group)) {
-      return [];
-    }
-    const alternatePairs = repository.getPublishedVersions(entity.id).flatMap(({ version: alternateVersion }) => {
-      const alternateLocale = getLocaleByInternalLocale(alternateVersion.locale);
-      return alternateLocale?.public && alternateVersion.hreflangData.include
-        ? [[alternateLocale.hreflang, new URL(alternateVersion.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString()]]
-        : [];
-    });
-    const english = repository.getPublishedVersion(entity.id, "en");
-    if (english) {
-      alternatePairs.push(["x-default", new URL(english.version.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString()]);
-    } else {
-      const fallback = repository.getPublishedVersion(entity.id, entity.defaultLocale);
-      alternatePairs.push(["x-default", new URL(fallback?.version.publicPath ?? version.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString()]);
-    }
-    const alternates = Object.fromEntries(
-      alternatePairs
-    );
-    return [{
-      url: new URL(version.publicPath, `${siteUrl.replace(/\/$/, "")}/`).toString(),
-      lastModified: new Date(version.updatedAt),
-      changeFrequency: entity.type === "blog" ? "monthly" as const : "weekly" as const,
-      images: version.images.map((image) => new URL(image.src, `${siteUrl.replace(/\/$/, "")}/`).toString()),
-      alternates: Object.keys(alternates).length ? { languages: alternates } : undefined
-    }];
-  });
-}
+  const origin = new URL(siteUrl).origin;
+  const englishEntries = options?.englishEntries;
+  const entries = new Map<string, MetadataRoute.Sitemap[number]>();
+  const clusters = new Map<string, Record<string, string>>();
 
-export function buildPublishedMediaSitemap(
-  repository: ContentRepository,
-  siteUrl: string,
-  filters?: { locale?: InternalLocale; group?: SitemapGroup }
-): MediaSitemapRecord[] {
-  const baseUrl = `${siteUrl.replace(/\/$/, "")}/`;
-  return repository.listPublished({ locale: filters?.locale }).flatMap(({ entity, version }) => {
+  for (const entry of englishEntries ?? []) {
+    const url = new URL(entry.url);
+    if (url.origin !== origin || url.search || url.hash || !isSitemapPagePath(url.pathname)) continue;
+    const content = repository.resolvePublishedPath("en", url.pathname);
+    if (content && !isSitemapContentEligible(content, repository)) continue;
+
+    const canonical = sitemapPageUrl(url.pathname, origin);
+    entries.set(canonical, {
+      ...entry,
+      url: canonical,
+      alternates: { languages: { en: canonical, "x-default": canonical } }
+    });
+  }
+
+  for (const content of repository.listPublished()) {
+    if (!isSitemapContentEligible(content, repository)) continue;
+    const { entity, version } = content;
+    const url = sitemapPageUrl(version.publicPath, origin);
     const locale = getLocaleByInternalLocale(version.locale);
-    if (!locale?.public || version.canonicalData.noindex || (filters?.group && groupForType(entity.type) !== filters.group)) return [];
-    return [{
-      loc: new URL(version.publicPath, baseUrl).toString(),
-      lastmod: version.updatedAt,
-      locale: version.locale,
-      images: version.images.map((image) => ({ loc: new URL(image.src, baseUrl).toString(), caption: image.alt })),
-      videos: (version.schemaData.videos ?? []).map((video) => ({
-        thumbnailLoc: new URL(video.thumbnailUrl, baseUrl).toString(),
-        title: video.name,
-        description: video.description,
-        contentLoc: video.contentUrl ? new URL(video.contentUrl, baseUrl).toString() : undefined
-      }))
-    }];
-  });
+    if (!locale?.public || (locale.default && englishEntries && !entries.has(url))) continue;
+
+    const languages = clusters.get(entity.id) ?? {};
+    languages[locale.hreflang] = url;
+    clusters.set(entity.id, languages);
+    entries.set(url, {
+      url,
+      lastModified: new Date(version.updatedAt),
+      changeFrequency: entity.type === "blog" ? "monthly" : "weekly",
+      ...entries.get(url),
+      alternates: { languages }
+    });
+  }
+
+  for (const languages of clusters.values()) {
+    if (languages.en) languages["x-default"] = languages.en;
+  }
+  return [...entries.values()];
 }

@@ -9,6 +9,7 @@ const disallow = [
   "/checkout",
   "/search",
   "/*?s=",
+  "/*?dpl=",
   "/*?search=",
   "/*?query=",
   "/*?utm_",
@@ -55,12 +56,8 @@ export default function robots(): MetadataRoute.Robots {
     ],
     sitemap: [
       `${siteUrl}/sitemap.xml`,
-      `${siteUrl}/sitemap-index.xml`,
-      `${siteUrl}/sitemaps/products.xml`,
-      `${siteUrl}/sitemaps/blogs.xml`,
       `${siteUrl}/sitemaps/images.xml`,
-      `${siteUrl}/sitemaps/videos.xml`,
-      `${siteUrl}/sitemaps/languages.xml`
+      `${siteUrl}/sitemaps/videos.xml`
     ]
   };
 }

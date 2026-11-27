@@ -42,7 +42,7 @@ async function main() {
     }
 
     const mainSitemap=await (await request(page,"/sitemap.xml")).text();
-    const languageSitemap=await (await request(page,"/sitemaps/languages.xml")).text();
+    const languageSitemap=await (await request(page,"/sitemap.xml")).text();
     for(const {path} of pages) {
       const url=`https://www.chinafreeweight.com${path}`;
       assert.ok(mainSitemap.includes(url),`${path}: main sitemap`);
