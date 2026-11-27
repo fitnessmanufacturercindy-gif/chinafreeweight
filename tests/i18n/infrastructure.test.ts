@@ -9,8 +9,10 @@ import { contentRepository, createContentRepository } from "../../lib/content/re
 import type { ContentEntity, ContentManifest, LocalizedContentVersion, PublicationStatus } from "../../lib/content/types";
 import { buildPublicPath } from "../../lib/i18n/paths";
 import { decideLocaleRequest } from "../../lib/i18n/request-policy";
-import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
+import { getLocaleByInternalLocale, type InternalLocale } from "../../i18n/locale-registry";
 import { createTranslationPipeline, type TranslationRecord } from "../../lib/publishing/translation-pipeline";
+import { isRetiredRacksBenchesEntity } from "../../lib/content/retired-racks-benches";
+import { legacyRedirects } from "../../lib/seo/legacy-redirects";
 import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
 import { buildPublishedSitemap } from "../../lib/seo/sitemap";
@@ -1762,4 +1764,30 @@ test("retired C-level rack completion cannot republish removed routes", () => {
 
   const sitemapPaths=new Set(sitemap().map((entry)=>new URL(entry.url).pathname));
   for (const {version} of pages) assert.ok(sitemapPaths.has(version.publicPath),`${version.publicPath}: sitemap`);
+});
+
+test("legacy redirects land on published pages without hiding live routes or chaining", () => {
+  const matches = (source: string, path: string) => {
+    const branchSuffix = "/:path*";
+    if (!source.endsWith(branchSuffix)) return path === source;
+    const branch = source.slice(0, -branchSuffix.length);
+    return path === branch || path.startsWith(`${branch}/`);
+  };
+  const sources = new Set<string>();
+  const published = contentRepository.listPublished();
+  for (const { source, destination, permanent } of legacyRedirects) {
+    assert.equal(permanent, true, source);
+    assert.ok(!sources.has(source), source);
+    sources.add(source);
+
+    const request = decideLocaleRequest(destination);
+    assert.equal(request.action, "pass", destination);
+    if (request.action !== "pass") continue;
+    const target = contentRepository.resolvePublishedPath(request.internalLocale as InternalLocale, destination);
+    assert.ok(target, destination);
+    assert.equal(target.version.publicPath, destination);
+    assert.ok(!isRetiredRacksBenchesEntity(target.entity), destination);
+    assert.ok(!legacyRedirects.some((rule) => matches(rule.source, destination)), destination);
+    assert.ok(!published.some(({ version }) => matches(source, version.publicPath)), source);
+  }
 });

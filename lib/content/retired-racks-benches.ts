@@ -4,7 +4,7 @@ export function isRetiredRacksBenchesId(id: string) {
   return id === "racks-benches-category" || id.startsWith("product:racks:");
 }
 
-const retiredRacksBenchesPathFragments = [
+export const retiredRacksBenchesCategoryPaths = [
   "/products/racks-benches",
   "/pt/produtos/racks-e-bancos",
   "/es/productos/racks-y-bancos",
@@ -17,11 +17,11 @@ const retiredRacksBenchesPathFragments = [
   "/ko/products/racks-benches",
   "/nl/producten/racks-banken",
   "/sv/produkter/rack-bank"
-];
+] as const;
 
 export function isRetiredRacksBenchesPath(path?: string) {
   return Boolean(path && (
-    retiredRacksBenchesPathFragments.some((prefix) => path === prefix || path.startsWith(`${prefix}/`)) ||
+    retiredRacksBenchesCategoryPaths.some((prefix) => path === prefix || path.startsWith(`${prefix}/`)) ||
     /\/(?:cable-crossover-machine|six-column-functional-trainer|smith-squat-frame)\/?$/.test(path)
   ));
 }

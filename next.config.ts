@@ -1,7 +1,10 @@
+import type { NextConfig } from "next";
+import { legacyRedirects } from "./lib/seo/legacy-redirects";
 import createNextIntlPlugin from "next-intl/plugin";
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
+  // Resolve legacy slash variants before the general trailing-slash redirect.
+  skipTrailingSlashRedirect: true,
   experimental: process.platform === "win32"
     ? {
         cpus: 1,
@@ -30,9 +33,16 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      ...legacyRedirects.map(({ source, destination }) => ({
+        source,
+        has: [{ type: "host" as const, value: "chinafreeweight.com" }],
+        destination: `https://www.chinafreeweight.com${destination}`,
+        permanent: true
+      })),
+      ...legacyRedirects,
       {
-        source: "/products/racks-benches/:path*",
-        destination: "/products",
+        source: "/:path+/",
+        destination: "/:path+",
         permanent: true
       },
       {

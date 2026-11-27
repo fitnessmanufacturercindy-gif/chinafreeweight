@@ -42,7 +42,7 @@ function sourceStatus() {
     "docs",
     "package.json",
     "package-lock.json",
-    "next.config.mjs",
+    "next.config.ts",
     "playwright.config.js"
   ]);
 }
