@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { ArrowRight, CheckCircle2, Dumbbell, Factory, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
+import { CmsPilotList } from "../../../components/CmsPilot";
 import { dumbbellProducts } from "../../../products/dumbbells/productData";
 import { getEnglishAlternates } from "../../../../lib/seo/english-alternates";
 
@@ -199,6 +200,7 @@ export default function DumbbellsPage() {
           Get My Quotation <ArrowRight size={18} />
         </a>
       </section>
+      <CmsPilotList kind="products" category="dumbbells" />
     </main>
   );
 }

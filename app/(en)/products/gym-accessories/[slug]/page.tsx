@@ -1,5 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { CmsDetail, cmsMetadata } from "../../../../components/CmsPilot";
+import { findCmsEntry } from "../../../../../lib/content/wordpress";
 import { ArrowLeft, ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
 import { sourcingFacts } from "../../../../site";
@@ -22,6 +24,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = getGymAccessoryProduct(slug);
 
   if (!product) {
+    const entry = await findCmsEntry("products", slug, "gym-accessories");
+    if (entry) return cmsMetadata(entry);
     return {
       title: "Gym Accessories Manufacturer | PBF"
     };
@@ -41,6 +45,8 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
   const product = getGymAccessoryProduct(slug);
 
   if (!product) {
+    const entry = await findCmsEntry("products", slug, "gym-accessories");
+    if (entry) return <CmsDetail entry={entry} />;
     notFound();
   }
 

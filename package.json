@@ -151,13 +151,15 @@
     "next": "^15.5.7",
     "next-intl": "^4.13.2",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "sanitize-html": "^2.18.2"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
+    "@types/sanitize-html": "^2.16.2",
     "eslint": "^9.39.5",
     "eslint-config-next": "^15.5.20",
     "lighthouse": "^13.4.0",

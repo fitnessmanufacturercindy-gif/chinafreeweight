@@ -1,5 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { CmsDetail, cmsMetadata } from "../../../../components/CmsPilot";
+import { findCmsEntry } from "../../../../../lib/content/wordpress";
 import { ArrowRight, CheckCircle2, Factory, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
 import { siteUrl, sourcingFacts } from "../../../../site";
@@ -19,7 +21,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = getDumbbellProduct(slug);
 
   if (!product) {
-    return {};
+    const entry = await findCmsEntry("products", slug, "dumbbells");
+    return entry ? cmsMetadata(entry) : {};
   }
 
   return {
@@ -42,6 +45,8 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
   const product = getDumbbellProduct(slug);
 
   if (!product) {
+    const entry = await findCmsEntry("products", slug, "dumbbells");
+    if (entry) return <CmsDetail entry={entry} />;
     notFound();
   }
 

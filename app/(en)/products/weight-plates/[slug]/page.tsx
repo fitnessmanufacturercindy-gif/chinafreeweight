@@ -1,5 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { CmsDetail, cmsMetadata } from "../../../../components/CmsPilot";
+import { findCmsEntry } from "../../../../../lib/content/wordpress";
 import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
 import { sourcingFacts } from "../../../../site";
@@ -19,7 +21,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = getWeightPlateProduct(slug);
 
   if (!product) {
-    return {};
+    const entry = await findCmsEntry("products", slug, "weight-plates");
+    return entry ? cmsMetadata(entry) : {};
   }
 
   return {
@@ -34,6 +37,8 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
   const product = getWeightPlateProduct(slug);
 
   if (!product) {
+    const entry = await findCmsEntry("products", slug, "weight-plates");
+    if (entry) return <CmsDetail entry={entry} />;
     notFound();
   }
 

@@ -2,6 +2,7 @@
 import { ArrowRight, BookOpen, Factory, SearchCheck } from "lucide-react";
 import { getAllPosts } from "../../resources/blogData";
 import { siteUrl } from "../../site";
+import { CmsPilotList } from "../../components/CmsPilot";
 import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
@@ -424,6 +425,7 @@ export default function ResourcesPage() {
           }
         }
       `}</style>
+      <CmsPilotList kind="articles" />
     </main>
   );
 }

@@ -2,11 +2,11 @@ import type { MetadataRoute } from "next";
 import { siteUrl } from "../site";
 import { absoluteUrl, type SeoRoute } from "../seo-data";
 
-export function xmlResponse(body: string) {
+export function xmlResponse(body: string, hasCmsContent = false) {
   return new Response(body, {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600, s-maxage=86400"
+      "Cache-Control": hasCmsContent ? "no-cache" : "public, max-age=3600, s-maxage=86400"
     }
   });
 }

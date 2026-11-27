@@ -1,6 +1,7 @@
 ﻿import type { Metadata } from "next";
 import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
+import { CmsPilotList } from "../../../components/CmsPilot";
 import { gymAccessoryProducts } from "../../../products/gym-accessories/productData";
 
 export const metadata: Metadata = {
@@ -238,6 +239,7 @@ export default function GymAccessoriesPage() {
           Get Accessories Quote <ArrowRight size={18} />
         </a>
       </section>
+      <CmsPilotList kind="products" category="gym-accessories" />
     </main>
   );
 }

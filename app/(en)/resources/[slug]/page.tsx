@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { notFound } from "next/navigation";
+import { CmsDetail, cmsMetadata } from "../../../components/CmsPilot";
+import { findCmsEntry } from "../../../../lib/content/wordpress";
 import {
   ArrowLeft,
   ArrowRight,
@@ -32,7 +34,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
-  if (!post) return {};
+  if (!post) {
+    const entry = await findCmsEntry("articles", slug);
+    return entry ? cmsMetadata(entry) : {};
+  }
 
   return {
     title: post.seoTitle,
@@ -348,7 +353,11 @@ function articleSchemas(post: ResourcePost, faqs: Faq[]) {
 export default async function ResourceArticlePage({ params }: PageProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) notFound();
+  if (!post) {
+    const entry = await findCmsEntry("articles", slug);
+    if (entry) return <CmsDetail entry={entry} />;
+    notFound();
+  }
 
   const faqs = getFaqs(post.content);
   const relatedPosts = getAllPosts().filter((item) => item.slug !== slug).slice(0, 4);

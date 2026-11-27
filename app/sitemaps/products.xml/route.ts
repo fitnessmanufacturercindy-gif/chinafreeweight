@@ -1,8 +1,10 @@
 import { productSeoRoutes } from "../../seo-data";
 import { contentRepository } from "../../../lib/content/repository";
 import { routeUrlsetXml, xmlResponse } from "../sitemap-utils";
+import { listCmsPilot } from "../../../lib/content/wordpress-pilot";
+import { cmsEnabled } from "../../../lib/content/wordpress";
 
-export function GET() {
+export async function GET() {
   const localizedProducts = contentRepository
     .listPublished({ type: "product" })
     .filter(({ version }) => version.locale !== "en")
@@ -13,5 +15,8 @@ export function GET() {
       image: version.images[0]?.src,
       lastModified: version.updatedAt
     }));
-  return xmlResponse(routeUrlsetXml([...productSeoRoutes(), ...localizedProducts]));
+  const pilot = (await listCmsPilot("products")).map((entry) => ({
+    path: entry.path, title: entry.title, type: "product" as const, lastModified: entry.lastModified,
+  }));
+  return xmlResponse(routeUrlsetXml([...productSeoRoutes(), ...localizedProducts, ...pilot]), cmsEnabled());
 }
