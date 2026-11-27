@@ -66,3 +66,39 @@ Allowed automatic fixes stay narrow, such as missing image alt text or clearly s
 The system does not automatically rewrite product core information, prices, models, brand names, contact details, SEO titles at scale, H1s at scale, canonical/hreflang structures, full minor-language pages, page design structure, indexed URLs, or live business logic.
 
 All automated source changes must go through a separate branch and Pull Request. Nothing is merged into `main` automatically.
+
+## Validate sitemap URLs and indexing metadata
+
+Use Node 22 and start a production build on port 3311.
+
+```sh
+npx next build
+npx next start -p 3311 --hostname 127.0.0.1
+```
+
+Run the validator from another terminal.
+
+```sh
+npm run validate:sitemap -- --base http://127.0.0.1:3311
+```
+
+The validator fetches production sitemap paths from `--base` and checks the
+canonical and hreflang URLs against the published origin, which defaults to
+`https://www.chinafreeweight.com`. Use `--public-origin` if the build publishes
+another origin. Using the same origin for both options fetches the URLs as listed.
+
+- Use `--concurrency 8` to set the worker count and `--limit N` to cap checks
+  of distinct sitemap page URLs for a quick run.
+- Image uniqueness covers every page-image pair. The validator fetches 50
+  distinct images by default. Use `--image-sample N` or `--image-sample all`.
+- Pass the Search Console URL exports through `--gsc-404-csv PATH` and
+  `--gsc-redirect-csv PATH` to exercise historical URLs covered by the site's
+  redirect mappings.
+- Use `--live` on an HTTPS deployment to check the HTTP-to-HTTPS redirect,
+  bare-host-to-www redirect (for a www base), and CDN/intermediary response
+  headers on the main sitemap. CDN header values are included in the report.
+- Use `--report PATH` to override the default
+  `reports/sitemap-validation/<timestamp>.json`. Any failed check exits with
+  code 1. The console shows up to 200 failures and the report includes them all.
+  The report records the observed status of `/ar`, which currently must
+  return 404 with robots noindex.

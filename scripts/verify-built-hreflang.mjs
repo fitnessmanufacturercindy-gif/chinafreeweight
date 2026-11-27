@@ -2,19 +2,31 @@ import { readFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
-function attributes(tag) {
+export function decodeEntities(value) {
+  const named = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " " };
+  return value.replace(/&(#x[\da-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi, (entity, code) => {
+    if (!code.startsWith("#")) return named[code.toLowerCase()];
+    const point = code[1].toLowerCase() === "x" ? Number.parseInt(code.slice(2), 16) : Number(code.slice(1));
+    return point <= 0x10ffff ? String.fromCodePoint(point) : entity;
+  });
+}
+
+export function attributes(tag) {
   return Object.fromEntries(
-    Array.from(tag.matchAll(/([\w:-]+)="([^"]*)"/g), ([, name, value]) => [name.toLowerCase(), value])
+    Array.from(
+      tag.replace(/^<[^\s>]+/, "").matchAll(/([^\s=/>]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/g),
+      ([, name, double, single, bare]) => [name.toLowerCase(), decodeEntities(double ?? single ?? bare)]
+    )
   );
 }
 
-function alternates(tags) {
+export function alternates(tags) {
   return Array.from(tags, ([tag]) => attributes(tag))
-    .filter(({ rel, hreflang }) => rel === "alternate" && hreflang !== undefined)
+    .filter(({ rel, hreflang }) => rel?.toLowerCase().split(/\s+/).includes("alternate") && hreflang !== undefined)
     .map(({ hreflang, href }) => [hreflang, href]);
 }
 
-function sortedLinks(links) {
+export function sortedLinks(links) {
   return links.map((link) => JSON.stringify(link)).sort().join("\n");
 }
 
@@ -27,7 +39,7 @@ export function verifyBuiltHreflang(buildDir = ".next") {
     .map(({ regex }) => new RegExp(regex));
 
   const entries = Array.from(xml.matchAll(/<url>([\s\S]*?)<\/url>/g), ([, entry]) => ({
-    url: entry.match(/<loc>([^<]+)<\/loc>/)?.[1],
+    url: decodeEntities(entry.match(/<loc>([^<]+)<\/loc>/)?.[1] ?? ""),
     links: alternates(entry.matchAll(/<xhtml:link\b[^>]*>/g))
   }));
   if (!entries.length || entries.some(({ url }) => !url)) {
