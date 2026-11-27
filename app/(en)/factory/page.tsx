@@ -9,14 +9,14 @@ import {
   Wrench
 } from "lucide-react";
 import { sourcingFacts } from "../../site";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title:
     "Free Weight Manufacturer China | Dumbbell & Weight Plates Factory OEM Supplier",
   description:
     "Dumbbell manufacturer, weight plates supplier, OEM gym equipment factory in China. Custom gym equipment for global distributors and fitness brands.",
-  alternates: getEnglishAlternates("/factory")
+  ...getEnglishPageMetadata("/factory")
 };
 
 const trustStats = [

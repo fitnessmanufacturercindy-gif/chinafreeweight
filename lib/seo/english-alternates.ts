@@ -1,22 +1,16 @@
-import { contentRepository } from "../content/repository";
-import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
+import { siteUrl } from "../../app/site";
+import { getSitemapLanguages } from "../../app/sitemap-languages";
+import { englishLanguageCluster } from "./hreflang";
+import { englishIndexableRobots } from "./metadata";
+import { sitemapPageUrl } from "./sitemap-eligibility";
 
-export function getEnglishAlternates(path: string) {
-  const content = contentRepository.resolvePublishedPath("en", path);
-  const publishedLanguages = content
-    ? Object.fromEntries(contentRepository.getPublishedVersions(content.entity.id).flatMap(({ version }) => {
-        const locale = getLocaleByInternalLocale(version.locale);
-        return locale?.public && version.hreflangData.include
-          ? [[locale.hreflang, version.publicPath]]
-          : [];
-      }))
-    : {};
+export function getEnglishPageMetadata(path: string) {
+  const canonical = sitemapPageUrl(path, siteUrl);
   return {
-    canonical: path,
-    languages: {
-      ...publishedLanguages,
-      en: path,
-      "x-default": path
+    robots: englishIndexableRobots,
+    alternates: {
+      canonical,
+      languages: getSitemapLanguages().get(canonical) ?? englishLanguageCluster(canonical)
     }
   };
 }

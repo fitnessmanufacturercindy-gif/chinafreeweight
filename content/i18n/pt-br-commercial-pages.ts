@@ -36,7 +36,7 @@ export const ptBrCommercialPages: PilotPage[] = [
     author: ptBrEditorialAuthor, reviewedBy: ptBrTechnicalReviewer
   },
   {
-    id: "oem-private-label", type: "oem", ptPath: "/pt/oem-marca-propria",
+    id: "oem-private-label", type: "oem", enPath: "/oem", enTitle: "OEM & Private Label", ptPath: "/pt/oem-marca-propria",
     title: "Equipamentos de academia OEM e marca própria | PowerBaseFit",
     description: "Fabricação OEM de halteres, anilhas e equipamentos fitness com logo, cores, kg ou lb, embalagem, amostra, QC e suporte de exportação para compradores B2B.",
     h1: "Fabricação OEM de equipamentos fitness e marca própria",

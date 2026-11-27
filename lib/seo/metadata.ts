@@ -1,57 +1,53 @@
 import type { Metadata } from "next";
-import { defaultLocale, getLocaleByInternalLocale } from "../../i18n/locale-registry";
+import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
 import type { ContentRepository } from "../content/repository";
 import type { PublishedContent } from "../content/types";
+
+import { buildLanguageCluster } from "./hreflang";
+import { isSitemapContentEligible, sitemapPageUrl } from "./sitemap-eligibility";
 
 function absoluteUrl(siteUrl: string, path: string): string {
   return new URL(path, `${siteUrl.replace(/\/$/, "")}/`).toString();
 }
 
-export function buildAlternates(
-  content: PublishedContent,
-  repository: ContentRepository,
-  siteUrl: string
-): { canonical: string; languages: Record<string, string> } {
-  const canonical = absoluteUrl(siteUrl, content.version.publicPath);
-  const languages: Record<string, string> = {};
-
-  for (const { version } of repository.getPublishedVersions(content.entity.id)) {
-    if (!version.hreflangData.include) continue;
-    const definition = getLocaleByInternalLocale(version.locale);
-    if (!definition?.public) continue;
-    languages[definition.hreflang] = absoluteUrl(siteUrl, version.publicPath);
+export const englishIndexableRobots = {
+  index: true,
+  follow: true,
+  googleBot: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1
   }
-
-  const english = repository.getPublishedVersion(content.entity.id, defaultLocale.internalLocale);
-  if (english) {
-    languages["x-default"] = absoluteUrl(siteUrl, english.version.publicPath);
-  } else {
-    const fallback = repository.getPublishedVersion(content.entity.id, content.entity.defaultLocale);
-    languages["x-default"] = absoluteUrl(siteUrl, fallback?.version.publicPath ?? content.version.publicPath);
-  }
-
-  return { canonical, languages };
-}
+} satisfies Metadata["robots"];
 
 export function buildLocalizedMetadata(
   content: PublishedContent,
   repository: ContentRepository,
   siteUrl: string,
-  siteName: string
+  siteName: string,
+  sitemapLanguages?: ReadonlyMap<string, Record<string, string>>
 ): Metadata {
   const { version } = content;
   const definition = getLocaleByInternalLocale(version.locale);
   if (!definition) throw new Error(`Unsupported locale: ${version.locale}`);
 
-  const alternates = buildAlternates(content, repository, siteUrl);
-  const canonical = alternates.canonical;
-  const noindex = version.canonicalData.noindex === true;
+  const canonical = sitemapPageUrl(version.publicPath, siteUrl);
+  const languages = sitemapLanguages
+    ? sitemapLanguages.get(canonical)
+    : isSitemapContentEligible(content, repository)
+      ? buildLanguageCluster(content.entity.id, repository, siteUrl)
+      : undefined;
+  const indexable = Boolean(languages);
 
   return {
     title: version.title,
     description: version.description,
-    robots: { index: !noindex, follow: !noindex },
-    alternates,
+    robots: indexable && definition.default
+      ? englishIndexableRobots
+      : { index: indexable, follow: indexable },
+    alternates: { canonical, languages },
     openGraph: {
       type: content.entity.type === "blog" ? "article" : "website",
       siteName,

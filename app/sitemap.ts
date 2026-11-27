@@ -38,7 +38,7 @@ function entry(
   };
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   const productRoutes = [
     ...dumbbellProducts.map((product) => `/products/dumbbells/${product.slug}`),
     ...weightPlateProducts.map((product) => `/products/weight-plates/${product.slug}`),

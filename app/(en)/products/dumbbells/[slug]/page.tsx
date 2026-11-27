@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2, Factory, PackageCheck, ShieldCheck } from "lu
 import MegaMenu from "../../../../components/MegaMenu";
 import { siteUrl, sourcingFacts } from "../../../../site";
 import { dumbbellProducts, getDumbbellProduct } from "../../../../products/dumbbells/productData";
-import { getEnglishAlternates } from "../../../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: product.metaTitle ?? `${product.name} | ${product.range} | PBF Dumbbell Supplier`,
     description: product.metaDescription ?? `${product.name} from PBF. ${product.copy} Weight range: ${product.range}. OEM dumbbell customization and export support for global gym equipment buyers.`,
     keywords: product.seoKeywords ?? [product.seoKeyword, "commercial dumbbells", "OEM dumbbell supplier"],
-    alternates: getEnglishAlternates(`/products/dumbbells/${product.slug}`),
+    ...getEnglishPageMetadata(`/products/dumbbells/${product.slug}`),
     openGraph: {
       title: product.metaTitle ?? product.name,
       description: product.metaDescription ?? product.copy,

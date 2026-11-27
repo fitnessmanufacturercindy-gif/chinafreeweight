@@ -2,13 +2,13 @@
 import { ArrowRight, CheckCircle2, Dumbbell, Factory, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
 import { dumbbellProducts } from "../../../products/dumbbells/productData";
-import { getEnglishAlternates } from "../../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Dumbbells | PBF Free Weight Manufacturer",
   description:
     "Commercial dumbbells from PBF free weight manufacturer. CPU, TPU, PU, hex, neoprene, stainless steel, and adjustable dumbbells for gym projects, distributors, and OEM brands.",
-  alternates: getEnglishAlternates("/products/dumbbells")
+  ...getEnglishPageMetadata("/products/dumbbells")
 };
 
 const capabilities = [

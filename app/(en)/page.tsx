@@ -21,13 +21,13 @@ import {
 } from "lucide-react";
 import FreeSampleCTA from "../components/FreeSampleCTA";
 import { siteName, siteUrl } from "../site";
-import { getEnglishAlternates } from "../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Custom Dumbbells & Weight Plates Manufacturer | PowerBaseFit",
   description:
     "Source custom dumbbells and weight plates from PowerBaseFit, with OEM branding, export packaging and production support for importers and distributors.",
-  alternates: getEnglishAlternates("/"),
+  ...getEnglishPageMetadata("/"),
   openGraph: {
     type: "website",
     url: "/",

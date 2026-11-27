@@ -1,16 +1,21 @@
 import type { MetadataRoute } from "next";
 import { getLocaleByInternalLocale } from "../../i18n/locale-registry";
 import type { ContentRepository } from "../content/repository";
+import { buildLanguageCluster, englishLanguageCluster } from "./hreflang";
 import { isSitemapContentEligible, isSitemapPagePath, sitemapPageUrl } from "./sitemap-eligibility";
+
+type SitemapEntry = MetadataRoute.Sitemap[number] & {
+  alternates: { languages: Record<string, string> };
+};
 
 export function buildPublishedSitemap(
   repository: ContentRepository,
   siteUrl: string,
   options?: { englishEntries?: MetadataRoute.Sitemap }
-): MetadataRoute.Sitemap {
+): SitemapEntry[] {
   const origin = new URL(siteUrl).origin;
   const englishEntries = options?.englishEntries;
-  const entries = new Map<string, MetadataRoute.Sitemap[number]>();
+  const entries = new Map<string, SitemapEntry>();
   const clusters = new Map<string, Record<string, string>>();
 
   for (const entry of englishEntries ?? []) {
@@ -23,19 +28,19 @@ export function buildPublishedSitemap(
     entries.set(canonical, {
       ...entry,
       url: canonical,
-      alternates: { languages: { en: canonical, "x-default": canonical } }
+      alternates: { languages: englishLanguageCluster(canonical) }
     });
   }
 
+  const englishUrls = englishEntries && new Set(entries.keys());
   for (const content of repository.listPublished()) {
     if (!isSitemapContentEligible(content, repository)) continue;
     const { entity, version } = content;
     const url = sitemapPageUrl(version.publicPath, origin);
     const locale = getLocaleByInternalLocale(version.locale);
-    if (!locale?.public || (locale.default && englishEntries && !entries.has(url))) continue;
+    if (!locale?.public || (locale.default && englishUrls && !englishUrls.has(url))) continue;
 
-    const languages = clusters.get(entity.id) ?? {};
-    languages[locale.hreflang] = url;
+    const languages = clusters.get(entity.id) ?? buildLanguageCluster(entity.id, repository, origin, englishUrls);
     clusters.set(entity.id, languages);
     entries.set(url, {
       url,
@@ -46,8 +51,5 @@ export function buildPublishedSitemap(
     });
   }
 
-  for (const languages of clusters.values()) {
-    if (languages.en) languages["x-default"] = languages.en;
-  }
   return [...entries.values()];
 }

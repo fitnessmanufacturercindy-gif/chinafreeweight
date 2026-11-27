@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ArrowRight, Box, Check, CircleDot, ClipboardCheck, Factory, Layers3, PackageCheck, Palette, PenTool, Scale, Ship, Stamp, Tags } from "lucide-react";
 import FreeSampleCTA from "../../components/FreeSampleCTA";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 import { siteUrl } from "../../site";
 import OemInquiryForm from "./OemInquiryForm";
 import styles from "./OemPage.module.css";
@@ -10,7 +10,7 @@ import styles from "./OemPage.module.css";
 export const metadata: Metadata = {
   title: "OEM & Private Label Free Weight Equipment Manufacturer | PowerBaseFit",
   description: "Develop custom dumbbells, weight plates and gym accessories with product marking, colors, weight systems, packaging, samples and documented production control.",
-  alternates: getEnglishAlternates("/oem"),
+  ...getEnglishPageMetadata("/oem"),
   openGraph: {
     title: "OEM & Private Label Free Weight Equipment",
     description: "A clear OEM process for custom dumbbells, weight plates, gym accessories and private label packaging.",

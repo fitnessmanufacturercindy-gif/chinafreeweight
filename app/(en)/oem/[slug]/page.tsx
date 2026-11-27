@@ -1,6 +1,7 @@
 ﻿import fs from "fs";
 import path from "path";
 import type { Metadata } from "next";
+import { getEnglishPageMetadata } from "../../../../lib/seo/english-alternates";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { siteUrl } from "../../../site";
@@ -213,7 +214,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: page.data.title || "OEM Landing Page",
     description: page.data.meta_description || "PowerBaseFit sourcing page for global free weight buyers.",
-    alternates: { canonical: `/oem/${slug}` }
+    ...getEnglishPageMetadata(`/oem/${slug}`)
   };
 }
 

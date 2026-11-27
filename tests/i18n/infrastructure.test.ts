@@ -16,6 +16,7 @@ import { legacyAssetRedirects, legacyRedirects } from "../../lib/seo/legacy-redi
 import { buildLocalizedMetadata } from "../../lib/seo/metadata";
 import { buildLocalizedSchemaGraph } from "../../lib/seo/schema";
 import { buildPublishedSitemap } from "../../lib/seo/sitemap";
+import { sitemapPageUrl } from "../../lib/seo/sitemap-eligibility";
 import { validateContentManifest } from "../../lib/validation/locale";
 import { commercialCompletionBCSelections } from "../../content/i18n/commercial-completion-bc";
 import { commercialCompletionCSelections } from "../../content/i18n/commercial-completion-c";
@@ -180,7 +181,7 @@ test("production manifest: only reviewed content in the public languages is publ
   assert.equal(contentRepository.listPublished({ locale: "es" }).length, 163);
   assert.equal(contentRepository.listPublished({ locale: "de" }).length, 167);
   assert.equal(contentRepository.listPublished({ locale: "fr" }).length, 162);
-  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 168);
+  assert.equal(contentRepository.listPublished({ locale: "en" }).length, 169);
   assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 162);
   assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 162);
   assert.equal(contentRepository.listPublished({ locale: "it" }).length, 162);
@@ -189,7 +190,7 @@ test("production manifest: only reviewed content in the public languages is publ
   assert.equal(contentRepository.listPublished({ locale: "id" }).length, 160);
   assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 161);
   assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 160);
-  assert.equal(contentRepository.listPublished().length, 2017);
+  assert.equal(contentRepository.listPublished().length, 2018);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
@@ -386,7 +387,8 @@ test("multilingual commercial expansion: six active A-grade pages are deep, uniq
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList"), `${content.version.publicPath}: breadcrumb schema`);
     const alternates = buildLocalizedMetadata(content, contentRepository, siteUrl, "PowerBaseFit").alternates?.languages;
     const hasEnglishEquivalent = Boolean(contentRepository.getPublishedVersion(content.entity.id, "en"));
-    assert.ok(alternates && alternates["pt-BR"] && alternates.es && alternates["x-default"], `${content.version.publicPath}: hreflang cluster`);
+    assert.ok(alternates && alternates["pt-BR"] && alternates.es, `${content.version.publicPath}: hreflang cluster`);
+    assert.equal(alternates?.["x-default"], alternates?.en, `${content.version.publicPath}: only English is x-default`);
     assert.equal(Boolean(alternates?.en), hasEnglishEquivalent, `${content.version.publicPath}: English hreflang only when an English equivalent exists`);
     const inbound = contentRepository.listPublished({ locale: content.version.locale })
       .some(({ entity, version }) => entity.id !== content.entity.id && version.internalLinks.some((link) => link.targetContentId === content.entity.id));
@@ -763,6 +765,23 @@ test("main sitemap contains all public URLs with the complete products hub clust
   }
 });
 
+test("OEM translations share the English canonical and reciprocal alternates", () => {
+  const entries = new Map(sitemap().map((entry) => [new URL(entry.url).pathname, entry]));
+  const english = entries.get("/oem");
+  const dutch = entries.get("/nl/oem-private-label");
+  assert.ok(english && dutch);
+  const languages = english.alternates.languages;
+  assert.equal(languages["x-default"], english.url);
+  assert.equal(languages.en, english.url);
+  assert.equal(languages.nl, dutch.url);
+  assert.deepEqual(dutch.alternates.languages, languages);
+  const switcherLanguages = Object.fromEntries(getLanguageSwitchOptions("oem-private-label", "nl")
+    .map(({ hreflang, href }) => [hreflang, sitemapPageUrl(href, configuredSiteUrl)]));
+  assert.deepEqual(switcherLanguages, Object.fromEntries(
+    Object.entries(languages).filter(([code]) => code !== "x-default")
+  ));
+});
+
 test("Indonesian launch meets coverage, editorial, media, SEO and similarity gates", () => {
   const pages = contentRepository.listPublished({ locale: "id" });
   const counts = new Map<string, number>();
@@ -830,8 +849,8 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     assert.equal(metadata.alternates?.languages?.id, `${siteUrl}${version.publicPath}`, `${version.publicPath}: Indonesian hreflang`);
     const english = contentRepository.getPublishedVersion(entity.id, "en");
     if (english) {
-      assert.equal(metadata.alternates?.languages?.en, `${siteUrl}${english.version.publicPath}`, `${version.publicPath}: English hreflang`);
-      assert.equal(metadata.alternates?.languages?.["x-default"], `${siteUrl}${english.version.publicPath}`, `${version.publicPath}: x-default`);
+      assert.equal(metadata.alternates?.languages?.en, sitemapPageUrl(english.version.publicPath, siteUrl), `${version.publicPath}: English hreflang`);
+      assert.equal(metadata.alternates?.languages?.["x-default"], sitemapPageUrl(english.version.publicPath, siteUrl), `${version.publicPath}: x-default`);
     }
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "id"), `${version.publicPath}: breadcrumb schema`);
