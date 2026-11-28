@@ -38,14 +38,14 @@ async function switchDesktop(locale) {
   await switcher.locator(`a[lang="${locale}"]`).click();
 }
 
-const languageSitemap = await goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded" });
+const languageSitemap = await goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
 assert.equal(languageSitemap?.status(), 200);
 const languageXml = await languageSitemap.text();
 const sitemapUrls = [...languageXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const swedishPaths = sitemapUrls.map((url) => new URL(url).pathname).filter((path) => path === "/sv" || path.startsWith("/sv/"));
-assert.equal(sitemapUrls.length, 729);
-assert.equal(swedishPaths.length, 124);
-assert.equal(new Set(swedishPaths).size, 124);
+assert.equal(sitemapUrls.length, 2032);
+assert.equal(swedishPaths.length, 162);
+assert.equal(new Set(swedishPaths).size, 162);
 
 for (const path of swedishPaths) {
   const response = await goto(testUrl(path), { waitUntil: "domcontentloaded" });
@@ -94,8 +94,8 @@ for (const path of swedishPaths) {
 const mainSitemap = await goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
 assert.equal(mainSitemap?.status(), 200);
 const mainXml = await mainSitemap.text();
-assert.equal((mainXml.match(/<loc>/g) ?? []).length, 729);
-assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/sv(?:<|\/)/g) ?? []).length, 124);
+assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2032);
+assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/sv(?:<|\/)/g) ?? []).length, 162);
 
 const productXml = await (await goto(testUrl("/sitemaps/products.xml"), { waitUntil: "domcontentloaded" })).text();
 assert.equal((productXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/sv\/produkter\/(?:hantlar|viktskivor|rack-bank|gymtillbehor)\//g) ?? []).length, 97);

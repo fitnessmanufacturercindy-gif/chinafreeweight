@@ -1,13 +1,17 @@
+import { legacyAssetRedirects, legacyRedirects } from "./lib/seo/legacy-redirects.mjs";
 import createNextIntlPlugin from "next-intl/plugin";
 
-/** @type {import('next').NextConfig} */
+const redirects = [...legacyRedirects, ...legacyAssetRedirects];
+
+/** @type {import("next").NextConfig} */
 const nextConfig = {
-  experimental: process.platform === "win32"
-    ? {
-        cpus: 1,
-        webpackBuildWorker: false
-      }
-    : undefined,
+  experimental: {
+    globalNotFound: true,
+    ...(process.platform === "win32" && {
+      cpus: 1,
+      webpackBuildWorker: false
+    })
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 31536000
@@ -30,11 +34,13 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      {
-        source: "/products/racks-benches/:path*",
-        destination: "/products",
+      ...redirects.map(({ source, destination }) => ({
+        source,
+        has: [{ type: "host", value: "chinafreeweight.com" }],
+        destination: `https://www.chinafreeweight.com${destination}`,
         permanent: true
-      },
+      })),
+      ...redirects,
       {
         source: "/manufacturer/rubber-hex-dumbbell-manufacturer",
         destination: "/manufacturer/rubber-hex-dumbbells-manufacturer",

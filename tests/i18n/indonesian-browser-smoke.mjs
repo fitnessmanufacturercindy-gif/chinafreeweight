@@ -32,8 +32,8 @@ try {
   assert.equal(sitemapResponse.status(), 200);
   const sitemapXml = await sitemapResponse.text();
   const paths = [...sitemapXml.matchAll(/<loc>https:\/\/www\.chinafreeweight\.com(\/id(?:\/[^<]*)?)<\/loc>/g)].map((match) => match[1]);
-  assert.equal(paths.length, 122);
-  assert.equal(new Set(paths).size, 122);
+  assert.equal(paths.length, 160);
+  assert.equal(new Set(paths).size, 160);
 
   for (const path of paths) {
     const response = await page.goto(testUrl(path), { waitUntil: "domcontentloaded", timeout: 30000 });
@@ -84,12 +84,12 @@ try {
   await page.goto(testUrl("/id"), { waitUntil: "domcontentloaded" });
   assert.equal(await page.locator('main[data-page-family="home"] img[src="/assets/hero-poster.avif"]').count(), 1);
 
-  const languageResponse = await page.goto(testUrl("/sitemaps/languages.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
+  const languageResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(languageResponse);
   assert.equal(languageResponse.status(), 200);
   const languageXml = await languageResponse.text();
-  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 1481);
-  assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 122);
+  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 2032);
+  assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 160);
   const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(robotsResponse);
   assert.equal(robotsResponse.status(), 200);

@@ -53,7 +53,7 @@ for (const document of documents) {
   }
 }
 
-for (const sitemapPath of ["/sitemap.xml", "/sitemaps/blogs.xml", "/sitemaps/languages.xml"]) {
+for (const sitemapPath of ["/sitemap.xml", "/sitemaps/blogs.xml"]) {
   const response = await fetch(new URL(sitemapPath, `${baseUrl}/`));
   const xml = await response.text();
   check(response.status === 200, `${sitemapPath}: HTTP ${response.status}`);

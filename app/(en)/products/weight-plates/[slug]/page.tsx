@@ -4,11 +4,13 @@ import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } 
 import MegaMenu from "../../../../components/MegaMenu";
 import { sourcingFacts } from "../../../../site";
 import { getWeightPlateProduct, weightPlateProducts } from "../../../../products/weight-plates/productData";
-import { getEnglishAlternates } from "../../../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return weightPlateProducts.map((product) => ({ slug: product.slug }));
@@ -25,7 +27,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `Weight Plates Manufacturer | ${product.name}`,
     description: `${product.name} from PBF weight plates manufacturer. ${product.copy} OEM customization, commercial gym plates, and global supply for Europe, USA, Middle East, and South America.`,
-    alternates: getEnglishAlternates(`/products/weight-plates/${product.slug}`)
+    ...getEnglishPageMetadata(`/products/weight-plates/${product.slug}`)
   };
 }
 

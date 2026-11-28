@@ -9,14 +9,14 @@ import {
   Wrench
 } from "lucide-react";
 import { sourcingFacts } from "../../site";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title:
     "Free Weight Manufacturer China | Dumbbell & Weight Plates Factory OEM Supplier",
   description:
     "Dumbbell manufacturer, weight plates supplier, OEM gym equipment factory in China. Custom gym equipment for global distributors and fitness brands.",
-  alternates: getEnglishAlternates("/factory")
+  ...getEnglishPageMetadata("/factory")
 };
 
 const trustStats = [
@@ -241,8 +241,9 @@ export default function FactoryPage() {
         </div>
         <div className="exhibition-carousel" aria-label="PowerBaseFit exhibition photos">
           <div className="exhibition-track">
+            {/* The fixed track repeats each photo. Use its slot as the key. */}
             {[...exhibitionSlides, ...exhibitionSlides].map((image, index) => (
-              <figure key={`${image}-${index}`}>
+              <figure key={index}>
                 <img src={image} alt="PowerBaseFit exhibition booth and overseas buyers reviewing free weight products" loading="lazy" decoding="async" />
               </figure>
             ))}

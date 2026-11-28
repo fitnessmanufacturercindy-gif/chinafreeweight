@@ -675,7 +675,7 @@ function versionFor(copy: GuideCopy): LocalizedContentVersion {
     schemaData: {
       category: copy.intent,
       breadcrumbs: [
-        { name: copy.home, path: copy.locale === "en" || copy.locale === "ar" ? "/" : `/${segments[0]}` },
+        { name: copy.home, path: copy.locale === "en" ? "/" : copy.locale === "ar" ? "/ar" : `/${segments[0]}` },
         { name: copy.library, path: copy.locale === "en" || copy.locale === "ar" ? "/resources" : `/${segments.slice(0, 2).join("/")}` },
         { name: copy.h1, path: copy.path }
       ],

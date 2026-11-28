@@ -33,7 +33,6 @@ async function fetchText(url, method = "GET") {
 async function discoverSitemap(site) {
   const candidates = [
     `${site.origin}/sitemap.xml`,
-    `${site.origin}/sitemap-index.xml`,
     `${site.origin}/sitemap_index.xml`,
   ];
   const queue = [];

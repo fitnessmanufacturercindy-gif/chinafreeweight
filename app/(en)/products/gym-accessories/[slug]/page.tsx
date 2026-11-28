@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
@@ -10,6 +11,8 @@ type PageProps = {
     slug: string;
   }>;
 };
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return gymAccessoryProducts.map((product) => ({
@@ -30,9 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `Gym Accessories Manufacturer | ${product.name}`,
     description: `${product.name} from PBF fitness accessories supplier in China. OEM gym accessories for distributors, commercial gym projects, and global fitness brands.`,
-    alternates: {
-      canonical: `/products/gym-accessories/${product.slug}`
-    }
+    ...getEnglishPageMetadata(`/products/gym-accessories/${product.slug}`)
   };
 }
 

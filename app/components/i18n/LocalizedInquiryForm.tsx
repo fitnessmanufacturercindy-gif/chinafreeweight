@@ -176,10 +176,26 @@ const copy = {
     project: "Projecttype", projects: ["Import / distributie", "Private label", "Nieuwe sportschool", "Projectlevering"],
     message: "Omschrijving van de aanvraag", messagePlaceholder: "Vermeld producten, gewichten, aantallen, logo, verpakking, bestemming en planning.",
     submit: "B2B-offerte aanvragen"
-  }
+  },
+  ar: {
+    subject: "طلب عرض سعر جديد بالعربية — ChinaFreeWeight",
+    next: "https://www.chinafreeweight.com/contact?inquiry=sent#inquiry",
+    source: "الصفحة الرئيسية العربية لـ ChinaFreeWeight",
+    name: "الاسم", namePlaceholder: "الاسم الكامل",
+    email: "البريد الإلكتروني للعمل", phone: "واتساب / الهاتف", phonePlaceholder: "+966 / +971 / رمز الدولة",
+    company: "الشركة", companyPlaceholder: "اسم الشركة أو الصالة أو الموزّع",
+    country: "البلد / المنطقة", countryPlaceholder: "السعودية، الإمارات، مصر...",
+    demand: "المنتجات المطلوبة", demandPlaceholder: "دمبل، أقراص أثقال، تصنيع حسب الطلب، مشروع صالة...",
+    category: "الفئة", select: "اختر",
+    categories: ["دمبل", "أقراص أثقال", "أقراص بامبر", "تصنيع حسب الطلب / علامة خاصة", "حلول للصالات"],
+    quantity: "الكمية التقريبية", quantityPlaceholder: "مثال: 200 زوج / حاوية واحدة",
+    project: "نوع المشروع", projects: ["توزيع / استيراد", "علامة خاصة", "صالة جديدة", "بيع تجزئة"],
+    message: "الرسالة", messagePlaceholder: "بيّن الأوزان والكميات والشعار والتعبئة ووجهة الشحن والجدول الزمني المطلوب.",
+    submit: "طلب عرض سعر"
+  },
 } as const;
 
-export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" | "pl" | "nl" }) {
+export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es" | "de" | "fr" | "vi" | "sv" | "it" | "ko" | "id" | "pl" | "nl" | "ar" }) {
   const text = copy[locale];
   return (
     <form className="quote-form" action="https://formsubmit.co/kloe@powerbasefit.com" method="POST">
@@ -191,7 +207,7 @@ export default function LocalizedInquiryForm({ locale }: { locale: "pt-BR" | "es
       <LeadAttributionFields language={locale} />
       <input type="text" name="_honey" className="spam-field" tabIndex={-1} autoComplete="off" />
       <label>{text.name} <span className="required-mark">*</span><input name="name" type="text" placeholder={text.namePlaceholder} required /></label>
-      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "nl" ? "naam@bedrijf.nl" : locale === "pl" ? "imie@firma.pl" : locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : "nombre@empresa.com"} required /></label>
+      <label>{text.email} <span className="required-mark">*</span><input name="email" type="email" placeholder={locale === "nl" ? "naam@bedrijf.nl" : locale === "pl" ? "imie@firma.pl" : locale === "id" ? "nama@perusahaan.co.id" : locale === "ko" ? "name@company.co.kr" : locale === "de" ? "name@unternehmen.de" : locale === "fr" ? "nom@entreprise.fr" : locale === "vi" ? "ten@doanhnghiep.vn" : locale === "sv" ? "namn@foretag.se" : locale === "it" ? "nome@azienda.it" : locale === "ar" ? "name@company.com" : "nombre@empresa.com"} required /></label>
       <label>{text.phone} <span className="required-mark">*</span><input name="phone" type="tel" placeholder={text.phonePlaceholder} required /></label>
       <label>{text.company}<input name="company" type="text" placeholder={text.companyPlaceholder} /></label>
       <label>{text.country}<input name="country" type="text" placeholder={text.countryPlaceholder} /></label>

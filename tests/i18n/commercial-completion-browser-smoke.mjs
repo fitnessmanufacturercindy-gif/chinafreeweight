@@ -59,7 +59,7 @@ for (const path of paths) {
 }
 
 const sitemap = await fetch(`${baseUrl}/sitemap.xml`).then((response) => response.text());
-const languageSitemap = await fetch(`${baseUrl}/sitemaps/languages.xml`).then((response) => response.text());
+const languageSitemap = await fetch(`${baseUrl}/sitemap.xml`).then((response) => response.text());
 for (const path of paths) {
   const url = `https://www.chinafreeweight.com${path}`;
   assert.ok(sitemap.includes(url), `${path}: main sitemap`);

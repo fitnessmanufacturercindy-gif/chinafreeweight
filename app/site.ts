@@ -64,11 +64,6 @@ export const websiteJsonLd = {
     "@id": `${siteUrl}#organization`,
     name: company.legalName,
     url: siteUrl
-  },
-  potentialAction: {
-    "@type": "SearchAction",
-    target: `${siteUrl}/resources?query={search_term_string}`,
-    "query-input": "required name=search_term_string"
   }
 };
 

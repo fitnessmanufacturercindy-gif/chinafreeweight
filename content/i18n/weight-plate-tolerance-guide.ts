@@ -669,7 +669,7 @@ function versionFor(copy: GuideCopy): LocalizedContentVersion {
     schemaData: {
       category: copy.intent,
       breadcrumbs: [
-        { name: copy.home, path: copy.locale === "en" || copy.locale === "ar" ? "/" : `/${copy.path.split("/").filter(Boolean)[0]}` },
+        { name: copy.home, path: copy.locale === "en" ? "/" : copy.locale === "ar" ? "/ar" : `/${copy.path.split("/").filter(Boolean)[0]}` },
         { name: copy.library, path: copy.locale === "en" || copy.locale === "ar" ? "/resources" : copy.path.split("/").slice(0, 3).join("/") },
         { name: copy.h1, path: copy.path }
       ],

@@ -8,7 +8,7 @@ import { contentRepository } from "../lib/content/repository";
 import { buildPublishedSitemap } from "../lib/seo/sitemap";
 
 const staticRoutes = [
-  { path: "", priority: 1 },
+  { path: "/", priority: 1 },
   { path: "/products", priority: 0.92 },
   { path: "/products/dumbbells", priority: 0.9 },
   { path: "/products/weight-plates", priority: 0.9 },
@@ -38,7 +38,7 @@ function entry(
   };
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   const productRoutes = [
     ...dumbbellProducts.map((product) => `/products/dumbbells/${product.slug}`),
     ...weightPlateProducts.map((product) => `/products/weight-plates/${product.slug}`),
@@ -60,17 +60,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...seoLandingRoutes.map((path) => entry(path, 0.74, "monthly"))
   ];
 
-  const portugueseSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pt-BR" });
-  const spanishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "es" });
-  const germanSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "de" });
-  const frenchSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "fr" });
-  const vietnameseSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "vi" });
-  const swedishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "sv" });
-  const italianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "it" });
-  const arabicSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "ar" });
-  const koreanSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "ko" });
-  const indonesianSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "id" });
-  const polishSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "pl" });
-  const dutchSitemap = buildPublishedSitemap(contentRepository, siteUrl, { locale: "nl" });
-  return [...englishSitemap, ...portugueseSitemap, ...spanishSitemap, ...germanSitemap, ...frenchSitemap, ...vietnameseSitemap, ...swedishSitemap, ...italianSitemap, ...arabicSitemap, ...koreanSitemap, ...indonesianSitemap, ...polishSitemap, ...dutchSitemap];
+  return buildPublishedSitemap(contentRepository, siteUrl, { englishEntries: englishSitemap });
 }

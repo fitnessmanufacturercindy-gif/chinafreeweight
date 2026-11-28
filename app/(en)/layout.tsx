@@ -38,26 +38,6 @@ export const metadata: Metadata = {
     description:
       "OEM dumbbells, weight plates, barbells and gym accessories for global fitness equipment importers and commercial gyms.",
     images: ["/assets/hero-poster.avif"]
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1
-    }
-  },
-  alternates: {
-    canonical: "/",
-    languages: {
-      en: "/",
-      "pt-BR": "/pt",
-      es: "/es",
-      "x-default": "/"
-    }
   }
 };
 

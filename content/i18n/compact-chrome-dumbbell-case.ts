@@ -509,7 +509,7 @@ function version(copy: CaseCopy): LocalizedContentVersion {
     schemaData: {
       category: "Free Weight Equipment Application Case",
       breadcrumbs: [
-        { name: copy.breadcrumbHome, path: copy.locale === "en" || copy.locale === "ar" ? "/" : `/${copy.path.split("/").filter(Boolean)[0]}` },
+        { name: copy.breadcrumbHome, path: copy.locale === "en" ? "/" : copy.locale === "ar" ? "/ar" : `/${copy.path.split("/").filter(Boolean)[0]}` },
         { name: copy.breadcrumbProjects, path: copy.locale === "en" || copy.locale === "ar" ? "/projects" : copy.path.split("/").slice(0, 3).join("/") },
         { name: copy.h1, path: copy.path }
       ],

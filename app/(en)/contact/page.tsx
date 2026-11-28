@@ -13,13 +13,13 @@ import {
 } from "lucide-react";
 import { company, siteUrl, sourcingFacts } from "../../site";
 import InquiryForm from "../../contact/InquiryForm";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Contact Us | Free Weight Manufacturer & OEM Gym Equipment Supplier",
   description:
     "Contact a dumbbells manufacturer, weight plates supplier, and OEM gym equipment China factory for fast quotation, custom logo orders, and global shipping support.",
-  alternates: getEnglishAlternates("/contact")
+  ...getEnglishPageMetadata("/contact")
 };
 
 const whatsappMessage =

@@ -7,12 +7,7 @@ const REPORT_DIR = path.join(process.cwd(), "reports", "search-submissions");
 const DATE_ID = new Date().toISOString().replace(/[:.]/g, "-");
 const REPORT_PATH = path.join(REPORT_DIR, `${DATE_ID}-search-submission.json`);
 
-const sitemapSources = [
-  `${SITE_URL}/sitemap.xml`,
-  `${SITE_URL}/sitemaps/products.xml`,
-  `${SITE_URL}/sitemaps/blogs.xml`,
-  `${SITE_URL}/sitemaps/languages.xml`
-];
+const sitemapSources = [`${SITE_URL}/sitemap.xml`];
 
 function parseLocs(xml) {
   return [...new Set([...xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)].map((match) => match[1].trim()))];
