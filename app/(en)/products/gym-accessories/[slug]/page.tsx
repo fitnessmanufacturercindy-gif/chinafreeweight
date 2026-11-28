@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
 import { notFound } from "next/navigation";
 import { CmsDetail, cmsMetadata } from "../../../../components/CmsPilot";
 import { findCmsEntry } from "../../../../../lib/content/wordpress";
@@ -12,6 +13,9 @@ type PageProps = {
     slug: string;
   }>;
 };
+
+// Unknown slugs may be WordPress pilot entries (findCmsEntry); notFound() still returns HTTP 404.
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return gymAccessoryProducts.map((product) => ({
@@ -34,9 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `Gym Accessories Manufacturer | ${product.name}`,
     description: `${product.name} from PBF fitness accessories supplier in China. OEM gym accessories for distributors, commercial gym projects, and global fitness brands.`,
-    alternates: {
-      canonical: `/products/gym-accessories/${product.slug}`
-    }
+    ...getEnglishPageMetadata(`/products/gym-accessories/${product.slug}`)
   };
 }
 

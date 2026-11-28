@@ -1,8 +1,12 @@
+import { legacyAssetRedirects, legacyRedirects } from "./lib/seo/legacy-redirects.mjs";
 import createNextIntlPlugin from "next-intl/plugin";
 
-/** @type {import('next').NextConfig} */
+const redirects = [...legacyRedirects, ...legacyAssetRedirects];
+
+/** @type {import("next").NextConfig} */
 const nextConfig = {
   experimental: {
+    globalNotFound: true,
     cpus: 1,
     webpackBuildWorker: false,
     staticGenerationMaxConcurrency: 2,
@@ -30,11 +34,13 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      {
-        source: "/products/racks-benches/:path*",
-        destination: "/products",
+      ...redirects.map(({ source, destination }) => ({
+        source,
+        has: [{ type: "host", value: "chinafreeweight.com" }],
+        destination: `https://www.chinafreeweight.com${destination}`,
         permanent: true
-      },
+      })),
+      ...redirects,
       {
         source: "/manufacturer/rubber-hex-dumbbell-manufacturer",
         destination: "/manufacturer/rubber-hex-dumbbells-manufacturer",

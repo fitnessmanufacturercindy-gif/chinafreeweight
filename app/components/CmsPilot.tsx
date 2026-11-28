@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { CmsEntry, CmsKind } from "../../lib/content/wordpress";
 import { listCmsPilot } from "../../lib/content/wordpress-pilot";
-import { getEnglishAlternates } from "../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../lib/seo/english-alternates";
 
 export function cmsMetadata(entry: CmsEntry): Metadata {
   const title = entry.seoTitle || entry.title;
@@ -12,7 +12,7 @@ export function cmsMetadata(entry: CmsEntry): Metadata {
   return {
     title,
     description,
-    alternates: getEnglishAlternates(entry.path),
+    ...getEnglishPageMetadata(entry.path),
     openGraph: {
       title,
       description,

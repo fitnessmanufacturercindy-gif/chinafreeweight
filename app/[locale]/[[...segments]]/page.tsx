@@ -7,10 +7,14 @@ import { contentRepository } from "../../../lib/content/repository";
 import { buildLocalizedMetadata } from "../../../lib/seo/metadata";
 import { asJsonLdDocument, buildLocalizedSchemaGraph } from "../../../lib/seo/schema";
 import { siteName, siteUrl } from "../../site";
+import { getSitemapLanguages } from "../../sitemap-languages";
 
 type LocalizedPageProps = {
   params: Promise<{ locale: string; segments?: string[] }>;
 };
+
+// Only published locale paths are generated. Unlisted paths use the global 404.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return contentRepository.listPublished().flatMap(({ version }) => {
@@ -38,7 +42,7 @@ async function resolveContent(params: LocalizedPageProps["params"]) {
 export async function generateMetadata({ params }: LocalizedPageProps): Promise<Metadata> {
   const content = await resolveContent(params);
   if (!content) return { robots: { index: false, follow: false } };
-  return buildLocalizedMetadata(content, contentRepository, siteUrl, siteName);
+  return buildLocalizedMetadata(content, contentRepository, siteUrl, siteName, getSitemapLanguages());
 }
 
 export default async function LocalizedPage({ params }: LocalizedPageProps) {

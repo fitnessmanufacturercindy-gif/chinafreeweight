@@ -3,13 +3,13 @@ import { ArrowRight, BookOpen, Factory, SearchCheck } from "lucide-react";
 import { getAllPosts } from "../../resources/blogData";
 import { siteUrl } from "../../site";
 import { CmsPilotList } from "../../components/CmsPilot";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Resources | Free Weight Buying Guides for Importers & Gym Buyers",
   description:
     "Practical buying guides for commercial dumbbells, weight plates, bumper plates, and OEM gym equipment sourcing from China.",
-  alternates: getEnglishAlternates("/resources"),
+  ...getEnglishPageMetadata("/resources"),
   openGraph: {
     type: "website",
     title: "PowerBaseFit Free Weight Knowledge Center",

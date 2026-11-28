@@ -3,13 +3,13 @@ import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } 
 import MegaMenu from "../../../components/MegaMenu";
 import { CmsPilotList } from "../../../components/CmsPilot";
 import { weightPlateProducts } from "../../../products/weight-plates/productData";
-import { getEnglishAlternates } from "../../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Weight Plates Manufacturer | Gym Weight Plates Supplier & Bumper Plates Factory China",
   description:
     "PBF is a weight plates manufacturer and gym weight plates supplier for commercial gyms, distributors, and OEM brands. Browse bumper plates, rubber plates, PU plates, TPU plates, and custom weight plate programs from China.",
-  alternates: getEnglishAlternates("/products/weight-plates")
+  ...getEnglishPageMetadata("/products/weight-plates")
 };
 
 const categories = [

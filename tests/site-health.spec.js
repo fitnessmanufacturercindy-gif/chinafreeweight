@@ -24,3 +24,11 @@ test("daily site health has no Critical or High issues", async () => {
   expect(report.summary.severityCounts.Critical, "Critical site health issues").toBe(0);
   expect(report.summary.severityCounts.High, "High site health issues").toBe(0);
 });
+
+test("factory carousel uses unmodified exhibition asset URLs", async ({ request }) => {
+  const response = await request.get("/factory");
+  expect(response.ok()).toBeTruthy();
+  const html = await response.text();
+  expect(html.match(/<img src="\/assets\/exhibitions\/pbf-exhibition-(?:0[1-8]|team)\.avif"/g)).toHaveLength(18);
+  expect(html).not.toMatch(/\/assets\/exhibitions\/pbf-exhibition-(?:0[1-8]|team)\.avif-\d+/);
+});

@@ -6,13 +6,13 @@ import {
   Globe2,
   ShieldCheck
 } from "lucide-react";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 
 export const metadata: Metadata = {
   title: "Free Weight Application Scenarios | Gym Project Examples",
   description:
     "Free weight application scenarios and project examples for commercial gyms, distributors, and OEM brands. Compare possible dumbbell, plate, rack, bench, packaging, and mixed-container configurations.",
-  alternates: getEnglishAlternates("/projects")
+  ...getEnglishPageMetadata("/projects")
 };
 
 const projectTypes = [

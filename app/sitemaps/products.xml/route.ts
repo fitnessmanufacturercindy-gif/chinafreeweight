@@ -1,22 +1,21 @@
-import { productSeoRoutes } from "../../seo-data";
-import { contentRepository } from "../../../lib/content/repository";
-import { routeUrlsetXml, xmlResponse } from "../sitemap-utils";
-import { listCmsPilot } from "../../../lib/content/wordpress-pilot";
+import type { MetadataRoute } from "next";
 import { cmsEnabled } from "../../../lib/content/wordpress";
+import { listCmsPilot } from "../../../lib/content/wordpress-pilot";
+import { absoluteUrl, sitemapEntriesFor } from "../../seo-data";
+import { metadataRouteUrlsetXml, xmlResponse } from "../sitemap-utils";
 
 export async function GET() {
-  const localizedProducts = contentRepository
-    .listPublished({ type: "product" })
-    .filter(({ version }) => version.locale !== "en")
-    .map(({ version }) => ({
-      path: version.publicPath,
-      type: "product" as const,
-      title: version.title,
-      image: version.images[0]?.src,
-      lastModified: version.updatedAt
-    }));
-  const pilot = (await listCmsPilot("products")).map((entry) => ({
-    path: entry.path, title: entry.title, type: "product" as const, lastModified: entry.lastModified,
-  }));
-  return xmlResponse(routeUrlsetXml([...productSeoRoutes(), ...localizedProducts, ...pilot]), cmsEnabled());
+  const whitelist = sitemapEntriesFor("product");
+  const urls = new Set(whitelist.map((entry) => entry.url));
+  const pilot: MetadataRoute.Sitemap = [];
+
+  for (const entry of await listCmsPilot("products")) {
+    const url = absoluteUrl(entry.path);
+    if (urls.has(url)) continue;
+
+    urls.add(url);
+    pilot.push({ url, lastModified: entry.lastModified });
+  }
+
+  return xmlResponse(metadataRouteUrlsetXml([...whitelist, ...pilot]), cmsEnabled());
 }

@@ -111,7 +111,7 @@ async function fetchText(url) {
 }
 
 async function discoverUrls() {
-  const sitemapQueue = [`${baseUrl}/sitemap-index.xml`, `${baseUrl}/sitemap.xml`];
+  const sitemapQueue = [`${baseUrl}/sitemap.xml`];
   const visitedSitemaps = new Set();
   const pages = new Set();
 

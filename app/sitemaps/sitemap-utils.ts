@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteUrl } from "../site";
-import { absoluteUrl, type SeoRoute } from "../seo-data";
+import sitemap from "../sitemap";
 
 export function xmlResponse(body: string, hasCmsContent = false) {
   return new Response(body, {
@@ -13,21 +13,6 @@ export function xmlResponse(body: string, hasCmsContent = false) {
 
 export function escapeXml(value: string) {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
-}
-
-export function routeUrlsetXml(routes: SeoRoute[]) {
-  const urls = routes
-    .map((route) => `  <url>
-    <loc>${escapeXml(absoluteUrl(route.path))}</loc>
-${route.lastModified ? `    <lastmod>${escapeXml(new Date(route.lastModified).toISOString())}</lastmod>\n` : ""}
-    <changefreq>${route.type === "blog" ? "monthly" : "weekly"}</changefreq>
-  </url>`)
-    .join("\n");
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls}
-</urlset>
-`;
 }
 
 export function metadataRouteUrlsetXml(entries: MetadataRoute.Sitemap) {
@@ -52,29 +37,17 @@ ${urls}
 `;
 }
 
-export function sitemapIndexXml(paths: string[]) {
-  const sitemaps = paths
-    .map((path) => `  <sitemap>
-    <loc>${escapeXml(new URL(path, `${siteUrl.replace(/\/$/, "")}/`).toString())}</loc>
-  </sitemap>`)
-    .join("\n");
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemaps}
-</sitemapindex>
-`;
-}
-
-export function imageSitemapXml(items: Array<{ pageUrl: string; imageUrl: string; title: string }>) {
-  const urls = items
-    .map((item) => `  <url>
-    <loc>${escapeXml(item.pageUrl)}</loc>
-    <image:image>
-      <image:loc>${escapeXml(item.imageUrl)}</image:loc>
-      <image:title>${escapeXml(item.title)}</image:title>
-    </image:image>
-  </url>`)
-    .join("\n");
+export function imageSitemapXml(items: Array<{ pageUrl: string; imageUrl: string }>) {
+  const imagesByPage = new Map<string, Set<string>>();
+  for (const { pageUrl, imageUrl } of items) {
+    const images = imagesByPage.get(pageUrl) ?? new Set<string>();
+    images.add(imageUrl);
+    imagesByPage.set(pageUrl, images);
+  }
+  const urls = [...imagesByPage].map(([pageUrl, images]) => `  <url>
+    <loc>${escapeXml(pageUrl)}</loc>
+${[...images].map((image) => `    <image:image><image:loc>${escapeXml(image)}</image:loc></image:image>`).join("\n")}
+  </url>`).join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${urls}
@@ -83,28 +56,36 @@ ${urls}
 }
 
 export function videoSitemapXml() {
+  const pages = new Set(sitemap().map(({ url }) => url));
+  const videos = [
+    {
+      page: siteUrl,
+      thumbnail: "/assets/hero-poster.avif",
+      content: "/assets/hero-loop-2.mp4",
+      title: "PowerBaseFit free weight equipment manufacturing video",
+      description: "Hero manufacturing video showing commercial dumbbells and free weight equipment for B2B gym equipment buyers."
+    },
+    {
+      page: `${siteUrl}/products/dumbbells/textured-rubber-hex-dumbbell`,
+      thumbnail: "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-video-poster.webp",
+      content: "/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-demo.mp4",
+      title: "Textured rubber hex dumbbell product demonstration",
+      description: "Close-up product video of a 7.5 kg textured rubber hex dumbbell with a knurled metal handle for commercial gym, wholesale and OEM buyers."
+    }
+  ];
+  const urls = videos.filter(({ page }) => pages.has(page)).map((video) => `  <url>
+    <loc>${escapeXml(video.page)}</loc>
+    <video:video>
+      <video:thumbnail_loc>${escapeXml(siteUrl + video.thumbnail)}</video:thumbnail_loc>
+      <video:title>${escapeXml(video.title)}</video:title>
+      <video:description>${escapeXml(video.description)}</video:description>
+      <video:content_loc>${escapeXml(siteUrl + video.content)}</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>`).join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-  <url>
-    <loc>${escapeXml(siteUrl)}</loc>
-    <video:video>
-      <video:thumbnail_loc>${escapeXml(`${siteUrl}/assets/hero-poster.avif`)}</video:thumbnail_loc>
-      <video:title>${escapeXml("PowerBaseFit free weight equipment manufacturing video")}</video:title>
-      <video:description>${escapeXml("Hero manufacturing video showing commercial dumbbells and free weight equipment for B2B gym equipment buyers.")}</video:description>
-      <video:content_loc>${escapeXml(`${siteUrl}/assets/hero-loop-2.mp4`)}</video:content_loc>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-  </url>
-  <url>
-    <loc>${escapeXml(`${siteUrl}/products/dumbbells/textured-rubber-hex-dumbbell`)}</loc>
-    <video:video>
-      <video:thumbnail_loc>${escapeXml(`${siteUrl}/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-video-poster.webp`)}</video:thumbnail_loc>
-      <video:title>${escapeXml("Textured rubber hex dumbbell product demonstration")}</video:title>
-      <video:description>${escapeXml("Close-up product video of a 7.5 kg textured rubber hex dumbbell with a knurled metal handle for commercial gym, wholesale and OEM buyers.")}</video:description>
-      <video:content_loc>${escapeXml(`${siteUrl}/assets/products/dumbbells/textured-rubber-hex/textured-rubber-hex-dumbbell-demo.mp4`)}</video:content_loc>
-      <video:family_friendly>yes</video:family_friendly>
-    </video:video>
-  </url>
+${urls}
 </urlset>
 `;
 }

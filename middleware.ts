@@ -29,12 +29,10 @@ export function middleware(request: NextRequest) {
   }
 
   if (decision.action === "not_found") {
-    return new NextResponse("Not Found", {
-      status: 404,
-      headers: {
-        "content-type": "text/plain; charset=utf-8",
-        "x-robots-tag": "noindex, nofollow"
-      }
+    // Private locales have no generated routes and the locale layout rejects them.
+    // Let Next render the shared 404 at the requested URL.
+    return NextResponse.next({
+      headers: { "x-robots-tag": "noindex" }
     });
   }
 

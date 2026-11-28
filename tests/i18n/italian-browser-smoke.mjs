@@ -9,12 +9,12 @@ const page=await context.newPage();
 const goto=(path,waitUntil="domcontentloaded")=>page.goto(new URL(path,`${baseUrl}/`).toString(),{waitUntil});
 const schemas=async()=>{const docs=(await page.locator('script[type="application/ld+json"]').allTextContents()).map(JSON.parse);return docs.flatMap((doc)=>doc?.["@graph"]??[doc]).flat();};
 
-let response=await goto("/sitemaps/languages.xml");
+let response=await goto("/sitemap.xml");
 assert.equal(response?.status(),200);
 const languageXml=await response.text();
 const paths=[...languageXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match)=>new URL(match[1]).pathname).filter((path)=>path==="/it"||path.startsWith("/it/"));
-assert.equal(paths.length,124);
-assert.equal(new Set(paths).size,124);
+assert.equal(paths.length,162);
+assert.equal(new Set(paths).size,162);
 
 for(const path of paths){
   response=await goto(path);
@@ -39,7 +39,7 @@ for(const path of paths){
   for(const image of images)assert.ok((await image.getAttribute("alt"))?.trim(),`${path}: alt`);
 }
 
-response=await goto("/sitemap.xml");assert.equal(response?.status(),200);const mainXml=await response.text();assert.equal((mainXml.match(/<loc>/g)??[]).length,853);assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/it(?:<|\/)/g)??[]).length,124);
+response=await goto("/sitemap.xml");assert.equal(response?.status(),200);const mainXml=await response.text();assert.equal((mainXml.match(/<loc>/g)??[]).length,2032);assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/it(?:<|\/)/g)??[]).length,162);
 response=await goto("/robots.txt");assert.equal(response?.status(),200);assert.match(await response.text(),/Allow: \/[\r\n]/);
 
 await goto("/products/dumbbells/hex-dumbbell-kg","networkidle");

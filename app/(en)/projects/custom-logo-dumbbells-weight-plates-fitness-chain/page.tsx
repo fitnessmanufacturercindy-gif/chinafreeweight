@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getSitemapLanguages } from "../../../sitemap-languages";
 import { notFound } from "next/navigation";
 import LocalizedPageTemplate from "../../../components/i18n/LocalizedPageTemplate";
 import { contentRepository } from "../../../../lib/content/repository";
@@ -15,7 +16,7 @@ function getContent() {
 export function generateMetadata(): Metadata {
   const content = getContent();
   return content
-    ? buildLocalizedMetadata(content, contentRepository, siteUrl, siteName)
+    ? buildLocalizedMetadata(content, contentRepository, siteUrl, siteName, getSitemapLanguages())
     : { robots: { index: false, follow: false } };
 }
 

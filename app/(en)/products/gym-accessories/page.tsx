@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import { getEnglishPageMetadata } from "../../../../lib/seo/english-alternates";
 import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../components/MegaMenu";
 import { CmsPilotList } from "../../../components/CmsPilot";
@@ -8,9 +9,7 @@ export const metadata: Metadata = {
   title: "Gym Accessories Manufacturer | Fitness Accessories Supplier China",
   description:
     "PBF supplies gym accessories including gym handles, cable attachments, kettlebells, yoga mats, balance trainers, aerobic steps, and OEM fitness accessories for global distributors and gym projects.",
-  alternates: {
-    canonical: "/products/gym-accessories"
-  }
+  ...getEnglishPageMetadata("/products/gym-accessories")
 };
 
 const categories = [

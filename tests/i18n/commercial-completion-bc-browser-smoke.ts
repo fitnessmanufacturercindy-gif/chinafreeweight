@@ -51,7 +51,7 @@ for (const { locale, path, h1 } of pages) {
 
 const [mainSitemap, languageSitemap] = await Promise.all([
   fetchWithRetry(`${baseUrl}/sitemap.xml`).then((response) => response.text()),
-  fetchWithRetry(`${baseUrl}/sitemaps/languages.xml`).then((response) => response.text())
+  fetchWithRetry(`${baseUrl}/sitemap.xml`).then((response) => response.text())
 ]);
 for (const { path } of pages) {
   const url = `https://www.chinafreeweight.com${path}`;

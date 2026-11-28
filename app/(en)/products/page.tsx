@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import { ArrowRight, Boxes, Dumbbell, Factory, Globe2, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../components/MegaMenu";
 import { CmsPilotList } from "../../components/CmsPilot";
-import { getEnglishAlternates } from "../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../lib/seo/english-alternates";
 import { company, siteName, siteUrl } from "../../site";
 
 export const metadata: Metadata = {
   title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",
   description:
     "Browse PowerBaseFit free weight products including dumbbells, weight plates and gym accessories for global B2B gym equipment buyers.",
-  alternates: getEnglishAlternates("/products"),
+  ...getEnglishPageMetadata("/products"),
   openGraph: {
     type: "website",
     title: "Products | Free Weight Equipment Manufacturer & OEM Supplier",

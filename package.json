@@ -137,7 +137,8 @@
     "content:release": "node scripts/daily-content-ops.mjs release",
     "content:init": "node scripts/daily-content-ops.mjs init",
     "content:qa": "node scripts/daily-content-ops.mjs qa",
-    "content:record": "node scripts/daily-content-ops.mjs record"
+    "content:record": "node scripts/daily-content-ops.mjs record",
+    "validate:sitemap": "node scripts/validate-sitemap.mjs"
   },
   "browserslist": [
     "Chrome >= 111",

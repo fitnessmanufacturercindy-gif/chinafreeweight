@@ -1,3 +1,4 @@
+import { isRetiredRacksBenchesEntity, isRetiredRacksBenchesId } from "../../lib/content/retired-racks-benches";
 import type { ContentEntity, ContentManifest } from "../../lib/content/types";
 import { ptBrPilotManifest } from "./pt-br-pilot";
 import { spanishPublishedVersions } from "./spanish-manifest";
@@ -89,6 +90,7 @@ import { withBumperPlateHubCorrosionGuide } from "./bumper-plate-hub-corrosion-g
 import { withFreeWeightIncotermsGuide } from "./free-weight-incoterms-guide";
 import { withFreeWeightPaymentTermsGuide } from "./free-weight-payment-terms-guide";
 import { withFreeWeightLotTraceabilityGuide } from "./free-weight-lot-traceability-guide";
+import { withArabicHomepage } from "./arabic-homepage";
 
 const spanishById = new Map(spanishPublishedVersions.map((item) => [item.id, item.version]));
 
@@ -113,34 +115,6 @@ const baseManifest: ContentManifest = {
   schemaVersion: 1,
   entities: [...entities, ...expansionEntities]
 };
-
-function isRetiredRacksBenchesId(id: string) {
-  return id === "racks-benches-category" || id.startsWith("product:racks:");
-}
-
-const retiredRacksBenchesPathFragments = [
-  "/products/racks-benches",
-  "/pt/produtos/racks-e-bancos",
-  "/es/productos/racks-y-bancos",
-  "/de/produkte/racks-hantelbaenke",
-  "/fr/produits/racks-bancs",
-  "/vi/san-pham/khung-ghe-tap",
-  "/pl/produkty/stojaki-lawki",
-  "/id/produk/rak-bangku",
-  "/it/prodotti/rack-panche",
-  "/ko/products/racks-benches",
-  "/nl/producten/racks-banken",
-  "/sv/produkter/rack-bank"
-];
-
-function isRetiredRacksBenchesPath(path?: string) {
-  return Boolean(path && retiredRacksBenchesPathFragments.some((fragment) => path.includes(fragment)));
-}
-
-function isRetiredRacksBenchesEntity(entity: ContentEntity) {
-  if (isRetiredRacksBenchesId(entity.id)) return true;
-  return Object.values(entity.versions).some((version) => isRetiredRacksBenchesPath(version?.publicPath));
-}
 
 function withoutRetiredRacksBenches(manifest: ContentManifest): ContentManifest {
   return {
@@ -271,6 +245,6 @@ const freeWeightIncotermsManifest = withFreeWeightIncotermsGuide(bumperPlateHubC
 const freeWeightPaymentTermsManifest = withFreeWeightPaymentTermsGuide(freeWeightIncotermsManifest);
 const freeWeightLotTraceabilityManifest = withFreeWeightLotTraceabilityGuide(freeWeightPaymentTermsManifest);
 
-export const multilingualManifest: ContentManifest = withoutRetiredRacksBenches(
-  freeWeightLotTraceabilityManifest
+export const multilingualManifest: ContentManifest = withArabicHomepage(
+  withoutRetiredRacksBenches(freeWeightLotTraceabilityManifest)
 );

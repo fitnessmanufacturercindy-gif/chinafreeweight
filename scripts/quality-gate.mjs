@@ -30,12 +30,10 @@ const thresholds = {
 const requiredEndpoints = [
   "/robots.txt",
   "/sitemap.xml",
-  "/sitemap-index.xml",
   "/sitemaps/products.xml",
   "/sitemaps/blogs.xml",
   "/sitemaps/images.xml",
   "/sitemaps/videos.xml",
-  "/sitemaps/languages.xml",
   "/llms.txt",
   `/${INDEXNOW_KEY}.txt`
 ];
@@ -274,7 +272,7 @@ async function checkMachineEndpoints(issues) {
 
 async function discoverUrls(issues) {
   const urls = [];
-  for (const sitemapUrl of [`${BASE_URL}/sitemap.xml`, `${BASE_URL}/sitemap-index.xml`]) {
+  for (const sitemapUrl of [`${BASE_URL}/sitemap.xml`]) {
     const sitemap = await fetchText(sitemapUrl).catch((error) => ({ ok: false, status: 0, text: "", error }));
     if (!sitemap.ok) {
       issues.push(fail("sitemap", `${sitemapUrl} is not reachable`));

@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import type { ResourceImage, ResourcePost } from "../../../resources/blogData";
 import { getAllPosts, getPostBySlug } from "../../../resources/blogData";
-import { getEnglishAlternates } from "../../../../lib/seo/english-alternates";
+import { getEnglishPageMetadata } from "../../../../lib/seo/english-alternates";
 import { siteName, siteUrl } from "../../../site";
 
 type PageProps = {
@@ -25,6 +25,9 @@ type PageProps = {
 };
 
 type Faq = { question: string; answer: string };
+
+// Unknown slugs may be WordPress pilot entries (findCmsEntry); notFound() still returns HTTP 404.
+export const dynamicParams = true;
 
 export function generateStaticParams() {
   return getAllPosts().map((post) => ({ slug: post.slug }));
@@ -44,7 +47,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: post.metaDescription,
     keywords: [post.primaryKeyword, ...post.secondaryKeywords],
     authors: [{ name: "PowerBaseFit Technical Team", url: "/factory" }],
-    alternates: getEnglishAlternates(`/resources/${post.slug}`),
+    ...getEnglishPageMetadata(`/resources/${post.slug}`),
     openGraph: {
       type: "article",
       siteName,
