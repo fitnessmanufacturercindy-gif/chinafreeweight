@@ -38,7 +38,7 @@ for (const path of paths) {
   assert.ok(graph.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "ko"), `${path}: FAQ schema`);
   assert.ok(graph.some((node) => node?.["@type"] === "BreadcrumbList" && node.inLanguage === "ko"), `${path}: breadcrumb schema`);
   if (/^\/ko\/products\/(?:dumbbells|weight-plates|racks-benches|gym-accessories)\//.test(path)) {
-    assert.ok(graph.some((node) => node?.["@type"] === "Product" && node.inLanguage === "ko"), `${path}: Product schema`);
+    assert.ok(graph.some((node) => node?.["@type"] === "Thing" && String(node?.["@id"]).endsWith("#product")), `${path}: Product schema`);
   }
   if (/^\/ko\/blog\//.test(path)) {
     assert.ok(graph.some((node) => node?.["@type"] === "BlogPosting" && node.inLanguage === "ko"), `${path}: BlogPosting schema`);

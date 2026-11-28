@@ -35,7 +35,7 @@ async function main() {
       assert.match(html,new RegExp(`hrefLang=["']${locale}["'][^>]+href=["']https://www\\.chinafreeweight\\.com${path.replaceAll("/","\\/")}["']`,"i"),`${path}: self hreflang`);
       for(const hreflang of ["en","pt-BR","es","de","fr","vi","sv","it","ko","x-default"]) assert.match(html,new RegExp(`hrefLang=["']${hreflang}["']`,"i"),`${path}: ${hreflang}`);
       assert.ok(html.includes(`\"inLanguage\":\"${locale}\"`),`${path}: schema language`);
-      for(const type of ["Product","FAQPage","BreadcrumbList"]) assert.ok(html.includes(`\"@type\":\"${type}\"`),`${path}: ${type}`);
+      for(const type of ["Thing","FAQPage","BreadcrumbList"]) assert.ok(html.includes(`\"@type\":\"${type}\"`),`${path}: ${type}`);
       assert.match(html,/<img[^>]+alt=["'][^"']{20,}/i,`${path}: image alt`);
       assert.doesNotMatch(html,/<meta[^>]+name=["']robots["'][^>]+noindex/i,`${path}: noindex`);
       assert.doesNotMatch(html,/\b(?:SEO|GEO|AIO|AI Search|keyword optimization|ranking optimization)\b/i,`${path}: internal terms`);
