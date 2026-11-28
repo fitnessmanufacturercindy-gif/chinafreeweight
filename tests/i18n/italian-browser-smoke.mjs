@@ -32,7 +32,7 @@ for(const path of paths){
   const graph=await schemas();
   assert.ok(graph.some((node)=>node?.["@type"]==="FAQPage"&&node.inLanguage==="it"),`${path}: FAQ schema`);
   assert.ok(graph.some((node)=>node?.["@type"]==="BreadcrumbList"&&node.inLanguage==="it"),`${path}: breadcrumb schema`);
-  if(/^\/it\/prodotti\/(?:manubri|dischi-pesi|rack-panche|accessori-palestra)\//.test(path))assert.ok(graph.some((node)=>node?.["@type"]==="Product"&&node.inLanguage==="it"),`${path}: Product schema`);
+  if(/^\/it\/prodotti\/(?:manubri|dischi-pesi|rack-panche|accessori-palestra)\//.test(path))assert.ok(graph.some((node)=>node?.["@type"] === "Thing" && String(node?.["@id"]).endsWith("#product")),`${path}: Product schema`);
   if(/^\/it\/blog\//.test(path))assert.ok(graph.some((node)=>node?.["@type"]==="BlogPosting"&&node.inLanguage==="it"),`${path}: BlogPosting schema`);
   for(const node of graph){const types=Array.isArray(node?.["@type"])?node["@type"]:[node?.["@type"]];if(types.some((type)=>["WebSite","Organization","LocalBusiness","Product","FAQPage","BreadcrumbList","BlogPosting"].includes(type)))assert.equal(node.inLanguage,"it",`${path}: ${types.join("/")}`);}
   const images=await page.locator("main img").all();assert.ok(images.length>=3,`${path}: images`);

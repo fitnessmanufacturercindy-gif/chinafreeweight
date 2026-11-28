@@ -170,10 +170,10 @@ export default function RootDocument({
         {
           ...organizationJsonLd,
           inLanguage: schemaLanguage,
-          makesOffer: localizedSchema.products.map((name) => ({
-            "@type": "Offer",
-            itemOffered: { "@type": "Product", name, inLanguage: schemaLanguage }
-          }))
+          // Product names are listed as topics, not as Offer/Product items: Google flags
+          // Offer/Product markup without price, review or rating as invalid, and this B2B OEM
+          // site has no public prices. See lib/seo/schema.ts (buildProductEntityNode).
+          knowsAbout: localizedSchema.products
         },
         {
           ...websiteJsonLd,

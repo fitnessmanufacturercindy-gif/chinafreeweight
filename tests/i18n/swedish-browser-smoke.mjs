@@ -65,7 +65,7 @@ for (const path of swedishPaths) {
   const schemas = await schemaNodes();
   assert.ok(schemas.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "sv"), `${path}: FAQ schema`);
   assert.ok(schemas.some((node) => node?.["@type"] === "BreadcrumbList" && node.inLanguage === "sv"), `${path}: breadcrumb schema`);
-  if (/^\/sv\/produkter\/(?:hantlar|viktskivor|rack-bank|gymtillbehor)\//.test(path)) assert.ok(schemas.some((node) => node?.["@type"] === "Product" && node.inLanguage === "sv"), `${path}: Product schema`);
+  if (/^\/sv\/produkter\/(?:hantlar|viktskivor|rack-bank|gymtillbehor)\//.test(path)) assert.ok(schemas.some((node) => node?.["@type"] === "Thing" && String(node?.["@id"]).endsWith("#product")), `${path}: Product schema`);
   if (/^\/sv\/blogg\//.test(path)) assert.ok(schemas.some((node) => node?.["@type"] === "BlogPosting" && node.inLanguage === "sv"), `${path}: BlogPosting schema`);
   for (const node of schemas) {
     const types = Array.isArray(node?.["@type"]) ? node["@type"] : [node?.["@type"]];

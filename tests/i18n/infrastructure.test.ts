@@ -23,6 +23,18 @@ import { commercialCompletionCSelections } from "../../content/i18n/commercial-c
 import { indonesianExcludedContentIds } from "../../content/i18n/indonesian-manifest";
 
 const siteUrl = "https://www.chinafreeweight.com";
+
+type SchemaNode = Record<string, unknown>;
+// Product pages describe their subject as a plain Thing (no offers/reviews/ratings exist for a
+// B2B OEM catalog, and a bare Product is an invalid Google Product snippet). It is identified by @id.
+function isProductEntity(node: SchemaNode): boolean {
+  return typeof node["@id"] === "string" && node["@id"].endsWith("#product") && node["@type"] !== "Product";
+}
+function hasPrimaryNode(graph: SchemaNode[], primary: string, language: string): boolean {
+  const pageInLanguage = graph.some((node) => node["@type"] === "WebPage" && node.inLanguage === language);
+  if (primary === "Thing") return pageInLanguage && graph.some(isProductEntity);
+  return graph.some((node) => node["@type"] === primary && node.inLanguage === language);
+}
 const timestamp = "2026-07-14T00:00:00.000Z";
 const originalMediaGuideIds = new Set([
   "fixed-vs-adjustable-dumbbells-commercial-guide",
@@ -303,9 +315,9 @@ test("schema language: localized schema uses the current locale text and URL", (
   const content = repository.getPublishedVersion("product:rubber-hex-dumbbells", "pt-BR");
   assert.ok(content);
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
-  const product = graph.find((node) => node["@type"] === "Product");
+  const product = graph.find(isProductEntity);
   const breadcrumb = graph.find((node) => node["@type"] === "BreadcrumbList");
-  assert.equal(product?.inLanguage, "pt-BR");
+  assert.equal(graph.find((node) => node["@type"] === "WebPage")?.inLanguage, "pt-BR");
   assert.equal(breadcrumb?.inLanguage, "pt-BR");
   assert.equal(product?.url, `${siteUrl}/pt/products/dumbbells/rubber-hex-dumbbells`);
   assert.equal(product?.name, "pt-BR fixture heading");
@@ -460,9 +472,9 @@ test("product localization batch 1: eighteen pages meet content, image, schema a
     if (contentRepository.getPublishedVersion(entity.id, "nl")) expectedLanguages.push("nl");
     assert.deepEqual(Object.keys(metadata.alternates?.languages ?? {}).sort(), expectedLanguages.sort(), `${version.publicPath}: hreflang`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primaryType = entity.type === "blog" ? "BlogPosting" : "Product";
+    const primaryType = entity.type === "blog" ? "BlogPosting" : "Thing";
     const schemaLanguage = version.locale;
-    assert.ok(graph.some((node) => node["@type"] === primaryType && node.inLanguage === schemaLanguage), `${version.publicPath}: primary schema`);
+    assert.ok(hasPrimaryNode(graph, primaryType, schemaLanguage), `${version.publicPath}: primary schema`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === schemaLanguage), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === schemaLanguage), `${version.publicPath}: breadcrumb schema`);
     const inbound = contentRepository.listPublished({ locale: version.locale })
@@ -522,9 +534,10 @@ test("growth schema: product facts and editorial review are machine readable", (
   const productContent = contentRepository.getPublishedVersion("rubber-round-dumbbell", "pt-BR");
   assert.ok(productContent);
   const productGraph = buildLocalizedSchemaGraph(productContent, siteUrl);
-  const product = productGraph.find((node) => node["@type"] === "Product");
-  assert.equal(product?.manufacturer && typeof product.manufacturer === "object" && "name" in product.manufacturer ? product.manufacturer.name : undefined, "Powerbase Fitness Equipment Co.,Ltd");
-  assert.ok(Array.isArray(product?.additionalProperty));
+  const product = productGraph.find(isProductEntity);
+  assert.equal(product?.["@type"], "Thing", "B2B OEM product pages must not emit a Product without offers/review/aggregateRating");
+  assert.ok(product?.name && product?.url);
+  assert.equal(product?.offers, undefined);
 
   const blogContent = contentRepository.getPublishedVersion("import-guide", "pt-BR");
   assert.ok(blogContent);
@@ -557,10 +570,10 @@ test("Spanish metadata and schema use Spanish text and language", () => {
     "x-default": `${siteUrl}/products/dumbbells/hex-dumbbell-kg`
   });
   const graph = buildLocalizedSchemaGraph(content, siteUrl);
-  const product = graph.find((node) => node["@type"] === "Product");
+  const product = graph.find(isProductEntity);
   const faq = graph.find((node) => node["@type"] === "FAQPage");
   const breadcrumb = graph.find((node) => node["@type"] === "BreadcrumbList");
-  assert.equal(product?.inLanguage, "es");
+  assert.equal(graph.find((node) => node["@type"] === "WebPage")?.inLanguage, "es");
   assert.match(String(product?.name), /Mancuerna hexagonal/);
   assert.equal(faq?.inLanguage, "es");
   assert.equal(breadcrumb?.inLanguage, "es");
@@ -856,7 +869,7 @@ test("Indonesian launch meets coverage, editorial, media, SEO and similarity gat
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "id"), `${version.publicPath}: breadcrumb schema`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "id"), `${version.publicPath}: FAQ schema`);
-    if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "id"), `${version.publicPath}: product schema`);
+    if (entity.type === "product") assert.ok(graph.some((node) => isProductEntity(node) && graph.some((page) => page["@type"] === "WebPage" && page.inLanguage === "id")), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "id"), `${version.publicPath}: article schema`);
 
     if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
@@ -953,7 +966,7 @@ if (english?.version.images[0]) assert.equal(version.images[0]?.src, entity.id =
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "pl"), `${version.publicPath}: breadcrumb schema`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "pl"), `${version.publicPath}: FAQ schema`);
-    if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "pl"), `${version.publicPath}: product schema`);
+    if (entity.type === "product") assert.ok(graph.some((node) => isProductEntity(node) && graph.some((page) => page["@type"] === "WebPage" && page.inLanguage === "pl")), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "pl"), `${version.publicPath}: article schema`);
 
     if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
@@ -1032,7 +1045,7 @@ test("Dutch launch meets active-page coverage, localized content, source assets 
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "nl"), `${version.publicPath}: breadcrumb schema`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "nl"), `${version.publicPath}: FAQ schema`);
-    if (entity.type === "product") assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === "nl"), `${version.publicPath}: product schema`);
+    if (entity.type === "product") assert.ok(graph.some((node) => isProductEntity(node) && graph.some((page) => page["@type"] === "WebPage" && page.inLanguage === "nl")), `${version.publicPath}: product schema`);
     if (entity.type === "blog") assert.ok(graph.some((node) => node["@type"] === "BlogPosting" && node.inLanguage === "nl"), `${version.publicPath}: article schema`);
 
     if ((entity.type === "product" || entity.type === "blog") && !isOriginalMediaGuide) {
@@ -1141,8 +1154,8 @@ test("German launch: published pages pass depth, media, metadata, schema and lin
     for (const href of Object.values(alternates)) assert.ok(typeof href === "string" && href.startsWith(siteUrl));
 
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "de"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "de"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "de"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "de"), `${version.publicPath}: breadcrumb schema`);
   }
@@ -1220,8 +1233,8 @@ test("French launch: active published pages pass depth, media, metadata, schema 
     assert.deepEqual(metadata.robots, { index: true, follow: true });
     assert.equal(metadata.alternates?.languages?.fr, `${siteUrl}${version.publicPath}`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "fr"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "fr"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "fr"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "fr"), `${version.publicPath}: breadcrumb schema`);
     const visible = visibleText(version);
@@ -1302,8 +1315,8 @@ test("Vietnamese launch: active published pages pass depth, media, metadata, sch
     assert.deepEqual(metadata.robots, { index: true, follow: true });
     assert.equal(metadata.alternates?.languages?.vi, `${siteUrl}${version.publicPath}`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "vi"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "vi"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "vi"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "vi"), `${version.publicPath}: breadcrumb schema`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AI Search|keyword optimization|Google ranking)\b/i, `${version.publicPath}: internal terminology`);
@@ -1383,8 +1396,8 @@ test("Swedish launch: active published pages pass depth, media, metadata, schema
     assert.deepEqual(metadata.robots, { index: true, follow: true });
     assert.equal(metadata.alternates?.languages?.sv, `${siteUrl}${version.publicPath}`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "sv"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "sv"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "sv"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "sv"), `${version.publicPath}: breadcrumb schema`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AI Search|keyword optimization|Google ranking)\b/i, `${version.publicPath}: internal terminology`);
@@ -1461,8 +1474,8 @@ test("Italian launch: active published pages pass localization, depth, media, me
     assert.deepEqual(metadata.robots, { index: true, follow: true });
     assert.equal(metadata.alternates?.languages?.it, `${siteUrl}${version.publicPath}`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "it"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "it"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "it"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "it"), `${version.publicPath}: breadcrumb schema`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AI Search|keyword optimization|Google ranking)\b/i, `${version.publicPath}: internal terminology`);
@@ -1535,8 +1548,8 @@ test("Korean A-tier launch: active published pages pass localization, depth, med
     assert.deepEqual(metadata.robots, { index: true, follow: true });
     assert.equal(metadata.alternates?.languages?.ko, `${siteUrl}${version.publicPath}`);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === "ko"), `${version.publicPath}: ${primary}`);
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, "ko"), `${version.publicPath}: ${primary}`);
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === "ko"), `${version.publicPath}: FAQ schema`);
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === "ko"), `${version.publicPath}: breadcrumb schema`);
     assert.doesNotMatch(visibleText(version), /\b(?:SEO|GEO|AIO|AI Search|keyword optimization|Google ranking)\b/i, `${version.publicPath}: internal terminology`);
@@ -1613,8 +1626,8 @@ test("commercial completion A: 17 active Portuguese, Spanish and Korean pages pa
     assert.ok(metadata.alternates?.languages?.en);
     assert.equal(metadata.alternates?.languages?.["x-default"], metadata.alternates?.languages?.en);
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    const primary = entity.type === "product" ? "Product" : entity.type === "blog" ? "BlogPosting" : undefined;
-    if (primary) assert.ok(graph.some((node) => node["@type"] === primary && node.inLanguage === version.locale));
+    const primary = entity.type === "product" ? "Thing" : entity.type === "blog" ? "BlogPosting" : undefined;
+    if (primary) assert.ok(hasPrimaryNode(graph, primary, version.locale));
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === version.locale));
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === version.locale));
   }
@@ -1684,7 +1697,7 @@ test("commercial completion B/C priority release: 114 active pages pass quality,
       if (typeof alternate === "string") assert.ok(allPublishedPaths.has(new URL(alternate).pathname), `${version.publicPath}: missing alternate ${alternate}`);
     }
     const graph = buildLocalizedSchemaGraph(content, siteUrl);
-    assert.ok(graph.some((node) => node["@type"] === "Product" && node.inLanguage === version.locale));
+    assert.ok(graph.some((node) => isProductEntity(node) && graph.some((page) => page["@type"] === "WebPage" && page.inLanguage === version.locale)));
     assert.ok(graph.some((node) => node["@type"] === "FAQPage" && node.inLanguage === version.locale));
     assert.ok(graph.some((node) => node["@type"] === "BreadcrumbList" && node.inLanguage === version.locale));
 
@@ -1748,7 +1761,7 @@ test("retired C-level rack completion cannot republish removed routes", () => {
     assert.equal(metadata.alternates?.languages?.["x-default"],metadata.alternates?.languages?.en);
     for (const alternate of Object.values(metadata.alternates?.languages ?? {})) if (typeof alternate === "string") assert.ok(allPaths.has(new URL(alternate).pathname), `${version.publicPath}: ${alternate}`);
     const graph = buildLocalizedSchemaGraph(content,siteUrl);
-    assert.ok(graph.some((node)=>node["@type"] === "Product" && node.inLanguage === version.locale));
+    assert.ok(hasPrimaryNode(graph, "Thing", version.locale));
     assert.ok(graph.some((node)=>node["@type"] === "FAQPage" && node.inLanguage === version.locale));
     assert.ok(graph.some((node)=>node["@type"] === "BreadcrumbList" && node.inLanguage === version.locale));
     for (const locale of ["en","pt-BR","es","de","fr","vi","sv","it","ko"] as const) {
@@ -1855,3 +1868,17 @@ test("arabic homepage is indexable and in the home hreflang cluster", () => {
   assert.equal(arabicHome?.alternates?.languages?.["x-default"], arabicHome?.alternates?.languages?.en);
 });
 
+
+test("structured data: no Product item without offers, review or aggregateRating (Google Product snippet rule)", () => {
+  let checked = 0;
+  for (const version of contentRepository.listPublished()) {
+    const graph = buildLocalizedSchemaGraph(version, siteUrl);
+    for (const node of graph) {
+      if (node["@type"] === "Product") {
+        assert.ok(node.offers || node.review || node.aggregateRating, `${version.version.publicPath}: bare Product node`);
+      }
+    }
+    checked += 1;
+  }
+  assert.ok(checked > 100);
+});

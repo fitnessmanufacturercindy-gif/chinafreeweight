@@ -36,7 +36,7 @@ try {
     assert.ok(nodes.some((node) => node?.["@type"] === "BreadcrumbList" && node.inLanguage === "pl"), `${path}: BreadcrumbList`);
     assert.ok(nodes.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "pl"), `${path}: FAQPage`);
     if (/^\/pl\/produkty\/[^/]+\/[^/]+$/.test(path)) {
-      assert.ok(nodes.some((node) => node?.["@type"] === "Product" && node.inLanguage === "pl"), `${path}: Product`);
+      assert.ok(nodes.some((node) => node?.["@type"] === "Thing" && String(node["@id"]).endsWith("#product")), `${path}: Product`);
       assert.equal(await page.locator('main[data-page-family="product-detail"]').count(), 1, `${path}: product family`);
       assert.ok(await page.locator('main[data-page-family="product-detail"] img[src^="/assets/products/"]').count() >= 1, `${path}: English product asset`);
     }

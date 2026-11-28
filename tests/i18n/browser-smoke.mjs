@@ -305,7 +305,7 @@ assert.equal(await page.locator('link[hreflang="en"]').count(), 1);
 assert.equal(await page.locator('link[hreflang="pt-BR"]').count(), 1);
 assert.equal(await page.locator('link[hreflang="x-default"]').count(), 1);
 const schemas = await page.locator('script[type="application/ld+json"]').allTextContents();
-assert.ok(schemas.some((value) => value.includes('"Product"')));
+assert.ok(schemas.some((value) => value.includes('"Thing"') && value.includes("#product")));
 assert.ok(schemas.some((value) => value.includes('"FAQPage"')));
 assert.ok(schemas.some((value) => value.includes('"BreadcrumbList"')));
 

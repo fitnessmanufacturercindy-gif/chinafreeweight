@@ -53,7 +53,7 @@ try {
     const nodes = schemaNodes(documents);
     assert.ok(nodes.some((node) => node?.["@type"] === "BreadcrumbList" && node.inLanguage === "id"), `${path}: breadcrumb schema`);
     assert.ok(nodes.some((node) => node?.["@type"] === "FAQPage" && node.inLanguage === "id"), `${path}: FAQ schema`);
-    if (/^\/id\/produk\/[^/]+\/[^/]+$/.test(path)) assert.ok(nodes.some((node) => node?.["@type"] === "Product" && node.inLanguage === "id"), `${path}: Product schema`);
+    if (/^\/id\/produk\/[^/]+\/[^/]+$/.test(path)) assert.ok(nodes.some((node) => node?.["@type"] === "Thing" && String(node["@id"]).endsWith("#product")), `${path}: Product schema`);
     if (/^\/id\/blog\/[^/]+$/.test(path)) assert.ok(nodes.some((node) => node?.["@type"] === "BlogPosting" && node.inLanguage === "id"), `${path}: BlogPosting schema`);
     const mirror = page.locator("main[data-page-family]");
     assert.equal(await mirror.count(), 1, `${path}: English-mirrored page family`);
