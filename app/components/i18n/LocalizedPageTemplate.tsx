@@ -233,7 +233,7 @@ export default function LocalizedPageTemplate({ content }: { content: PublishedC
   const ctaTitle = typeof extra.ctaTitle === "string" ? extra.ctaTitle : text.finalTitle;
   const ctaText = typeof extra.ctaText === "string" ? extra.ctaText : text.finalText;
   const ctaLabel = typeof extra.ctaLabel === "string" ? extra.ctaLabel : text.finalLink;
-  const formLocale = locale === "en" || locale === "ar" ? "es" : locale;
+  const formLocale = locale === "en" ? "es" : locale;
   const inlineImagePositions = entity.type === "case" ? [2, 5, 8, 11] : [3, 7, 11, 12];
 
   return (

@@ -51,7 +51,7 @@ function versionFor(copy: GuideCopy, manifest: ContentManifest): LocalizedConten
     author: { id: `powerbasefit-unit-team-${copy.locale}`, name: "PowerBaseFit", kind: "Organization", role: copy.eyebrow },
     reviewedBy: { id: `powerbasefit-unit-review-${copy.locale}`, name: "PowerBaseFit", kind: "Organization", role: copy.checklist.heading },
     schemaData: { category: copy.keyword, breadcrumbs: [
-      { name: copy.home, path: copy.locale === "en" || copy.locale === "ar" ? "/" : `/${parts[0]}` },
+      { name: copy.home, path: copy.locale === "en" ? "/" : copy.locale === "ar" ? "/ar" : `/${parts[0]}` },
       { name: copy.library, path: copy.locale === "en" || copy.locale === "ar" ? "/resources" : `/${parts.slice(0, 2).join("/")}` },
       { name: copy.h1, path: copy.path }
     ], extra: { primaryKeyword: copy.keyword, useLocalizedHero: true, eyebrow: copy.eyebrow, contactPath: contact, ctaTitle: copy.cta[0], ctaText: copy.cta[1], ctaLabel: copy.cta[2] } },

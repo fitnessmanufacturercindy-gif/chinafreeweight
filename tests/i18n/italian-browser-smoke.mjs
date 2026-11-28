@@ -39,7 +39,7 @@ for(const path of paths){
   for(const image of images)assert.ok((await image.getAttribute("alt"))?.trim(),`${path}: alt`);
 }
 
-response=await goto("/sitemap.xml");assert.equal(response?.status(),200);const mainXml=await response.text();assert.equal((mainXml.match(/<loc>/g)??[]).length,2031);assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/it(?:<|\/)/g)??[]).length,162);
+response=await goto("/sitemap.xml");assert.equal(response?.status(),200);const mainXml=await response.text();assert.equal((mainXml.match(/<loc>/g)??[]).length,2032);assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/it(?:<|\/)/g)??[]).length,162);
 response=await goto("/robots.txt");assert.equal(response?.status(),200);assert.match(await response.text(),/Allow: \/[\r\n]/);
 
 await goto("/products/dumbbells/hex-dumbbell-kg","networkidle");

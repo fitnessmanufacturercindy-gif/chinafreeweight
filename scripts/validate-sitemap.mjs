@@ -295,11 +295,10 @@ export async function validateSitemap({
     check("Legacy redirects", source, () => verifyRedirect(local(source), local(destination), new URL(destination, publicOrigin).href)));
 
   const missingPaths = [`/this-page-does-not-exist-${randomUUID()}`, "/de/does-not-exist",
-    "/products/dumbbells/does-not-exist", "/resources/does-not-exist", "/ar"];
+    "/products/dumbbells/does-not-exist", "/resources/does-not-exist"];
   for (const path of missingPaths) {
     await check("404 pages", path, async () => {
       const { response, body } = await read(local(path));
-      if (path === "/ar") result.observations.arStatus = response.status;
       const meta = htmlMetadata(body);
       const errors = [];
       if (response.status !== 404) errors.push(`Expected HTTP 404, got ${response.status}`);
@@ -310,6 +309,35 @@ export async function validateSitemap({
       requireCheck(!errors.length, errors.join(". "));
     });
   }
+
+  await check("Pages", "/ar homepage", async () => {
+    const loc = new URL("/ar", publicOrigin).href;
+    const { response, body } = await read(fetchUrl(scopedUrl(loc)));
+    result.observations.arStatus = response.status;
+    status200(response);
+    requireCheck(mediaType(response) === "text/html", `Expected text/html, got ${mediaType(response) || "none"}`);
+    const meta = htmlMetadata(body);
+    const errors = [];
+    if (meta.canonicals.length !== 1 || meta.canonicals[0].href !== loc) {
+      errors.push(`Expected self-canonical ${loc}, got ${JSON.stringify(meta.canonicals.map(({ href }) => href))}`);
+    }
+    if ([...meta.robots, ...meta.googlebot, response.headers.get("x-robots-tag") ?? ""].some(hasNoindex)) {
+      errors.push("Found noindex in robots metadata or X-Robots-Tag");
+    }
+    const byLang = Object.fromEntries(meta.alternates);
+    const englishHome = new URL("/", publicOrigin).href.replace(/\/$/, "");
+    if (byLang.ar !== loc) errors.push(`hreflang ar is ${byLang.ar ?? "missing"}`);
+    if (byLang.en !== englishHome && byLang.en !== `${englishHome}/`) {
+      errors.push(`hreflang en is ${byLang.en ?? "missing"}`);
+    }
+    if (byLang["x-default"] !== englishHome && byLang["x-default"] !== `${englishHome}/`) {
+      errors.push(`x-default is ${byLang["x-default"] ?? "missing"}`);
+    }
+    const required = ["ar", "en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ko", "id", "pl", "nl", "x-default"];
+    const missing = required.filter((lang) => !byLang[lang]);
+    if (missing.length) errors.push(`Incomplete hreflang, missing ${missing.join(", ")}`);
+    requireCheck(!errors.length, errors.join(". "));
+  });
 
   if (live) {
     const target = new URL(base);

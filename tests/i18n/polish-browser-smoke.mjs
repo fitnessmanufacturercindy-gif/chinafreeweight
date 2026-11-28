@@ -65,7 +65,7 @@ try {
 
   const languages = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
   const languageXml = await languages.text();
-  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 2031);
+  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 2032);
   assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pl(?:<|\/)/g) ?? []).length, 161);
   const robots = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded" });
   assert.doesNotMatch(await robots.text(), /^Disallow:\s*\/pl(?:\/|$)/im);

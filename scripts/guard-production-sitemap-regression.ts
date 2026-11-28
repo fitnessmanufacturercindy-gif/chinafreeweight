@@ -32,7 +32,7 @@ async function checkCandidate() {
   assert.equal(urls.size, entries.length);
   for (const entry of entries) {
     const url = new URL(entry.url);
-    assert.ok(isSitemapPagePath(url.pathname) && !url.search && !url.hash && url.pathname !== "/ar", entry.url);
+    assert.ok(isSitemapPagePath(url.pathname) && !url.search && !url.hash, entry.url);
     assert.equal(entry.url, sitemapPageUrl(url.pathname, siteUrl));
     assert.equal(entry.images, undefined, entry.url);
     const languages = entry.alternates?.languages ?? {};

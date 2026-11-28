@@ -41,3 +41,17 @@ if (entity.type === "blog" && pausedBlogLocales.has(version.locale) && pilotBlog
 ```
 
 Enable or roll back the pilot by editing the locale list on one line. The legacy blog sitemap and image sitemap derive their page URLs from the main sitemap and would pick up the same removal. Update the regression guard to accept the exact selected URLs for the pilot. Step 1 leaves all 1,161 posts in the sitemap.
+
+## Decision recorded (2026-11-28, Asia/Shanghai)
+
+春燕 chose **option A**: ship a real, indexable Arabic homepage at `/ar`. Arabic stays in the sitemap, hreflang, and internal links. Existing `/ar/...` articles remain published.
+
+This branch implements that homepage. Leftover gaps, intentionally out of scope for this change:
+
+- There is still no Arabic products index, factory, OEM, or contact page. The homepage inquiry form is in Arabic; the thank-you URL is the English contact page (`/contact?inquiry=sent#inquiry`). Body links to `/products`, `/factory`, `/oem`, and `/contact` are labeled as English pages.
+- Discontinued racks/benches still have no Arabic catalog destination.
+
+## Blogs: keep everything
+
+All existing language blog URLs stay in the sitemap. No locale exclusion or pilot switch is active. The earlier long-tail blog sitemap proposal remains a **future plan only** and must not drop URLs unless 春燕 later approves a curated list.
+

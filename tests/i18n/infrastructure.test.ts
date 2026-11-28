@@ -185,12 +185,12 @@ test("production manifest: only reviewed content in the public languages is publ
   assert.equal(contentRepository.listPublished({ locale: "vi" }).length, 162);
   assert.equal(contentRepository.listPublished({ locale: "sv" }).length, 162);
   assert.equal(contentRepository.listPublished({ locale: "it" }).length, 162);
-  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 72);
+  assert.equal(contentRepository.listPublished({ locale: "ar" }).length, 73);
   assert.equal(contentRepository.listPublished({ locale: "ko" }).length, 155);
   assert.equal(contentRepository.listPublished({ locale: "id" }).length, 160);
   assert.equal(contentRepository.listPublished({ locale: "pl" }).length, 161);
   assert.equal(contentRepository.listPublished({ locale: "nl" }).length, 160);
-  assert.equal(contentRepository.listPublished().length, 2018);
+  assert.equal(contentRepository.listPublished().length, 2019);
   assert.equal(contentRepository.listPublished().some(({ version }) => !["en", "pt-BR", "es", "de", "fr", "vi", "sv", "it", "ar", "ko", "id", "pl", "nl"].includes(version.locale)), false);
 });
 
@@ -269,7 +269,7 @@ test("fitness chain customization case: every public locale has complete content
       assert.ok(graph.some((node) => node["@type"] === type), `${version.publicPath}: ${type}`);
     }
     assert.equal(graph.some((node) => ["Review", "AggregateRating", "Rating", "CaseStudy"].includes(String(node["@type"]))), false);
-    if (version.locale === "ar") assert.equal(version.schemaData.breadcrumbs?.[0]?.path, "/", "Arabic breadcrumb uses the published default home");
+    if (version.locale === "ar") assert.equal(version.schemaData.breadcrumbs?.[0]?.path, "/ar", "Arabic breadcrumb uses the published Arabic home");
   }
 
   const options = getLanguageSwitchOptions(contentId, "en");
@@ -666,12 +666,12 @@ test("multilingual sitemap retains all English routes and adds every published l
   assert.equal(vietnameseUrls.length, 162);
   assert.equal(swedishUrls.length, 162);
   assert.equal(italianUrls.length, 162);
-  assert.equal(arabicUrls.length, 72);
+  assert.equal(arabicUrls.length, 73);
   assert.equal(koreanUrls.length, 155);
   assert.equal(indonesianUrls.length, 160);
   assert.equal(polishUrls.length, 161);
   assert.equal(dutchUrls.length, 160);
-  assert.equal(new Set(urls).size, 2031);
+  assert.equal(new Set(urls).size, 2032);
   assert.ok(urls.includes(configuredSiteUrl));
   assert.ok(urls.includes(`${configuredSiteUrl}/products/dumbbells`));
   assert.ok(urls.includes(`${configuredSiteUrl}/resources/how-to-choose-commercial-dumbbells`));
@@ -712,6 +712,7 @@ test("multilingual sitemap retains all English routes and adds every published l
   assert.ok(urls.includes(`${configuredSiteUrl}/nl`));
   assert.ok(urls.includes(`${configuredSiteUrl}/nl/producten`));
   assert.ok(urls.includes(`${configuredSiteUrl}/nl/blog/fitnessapparatuur-uit-china-importeren-naar-nederland`));
+  assert.ok(urls.includes(`${configuredSiteUrl}/ar`));
   assert.ok(urls.includes(`${configuredSiteUrl}/ar/projects/compact-chrome-dumbbell-set`));
   assert.equal(urls.some((url) => /^\/(ru|ja)(\/|$)/.test(new URL(url).pathname)), false);
 });
@@ -739,12 +740,12 @@ test("main sitemap contains all public URLs with the complete products hub clust
   assert.equal(vietnamese.length, 162);
   assert.equal(swedish.length, 162);
   assert.equal(italian.length, 162);
-  assert.equal(arabic.length, 72);
+  assert.equal(arabic.length, 73);
   assert.equal(korean.length, 155);
   assert.equal(indonesian.length, 160);
   assert.equal(polish.length, 161);
   assert.equal(dutch.length, 160);
-  assert.equal(new Set(entries.map((entry) => entry.url)).size, 2031);
+  assert.equal(new Set(entries.map((entry) => entry.url)).size, 2032);
   for (const path of ["/products", "/pt/produtos", "/es/productos", "/de/produkte", "/fr/produits", "/vi/san-pham", "/sv/produkter", "/it/prodotti", "/ko/products", "/id/produk", "/pl/produkty", "/nl/producten"]) {
     const entry = entries.find((item) => new URL(item.url).pathname === path);
     assert.deepEqual(entry?.alternates?.languages, {
@@ -1820,3 +1821,37 @@ test("legacy exhibition image URLs redirect permanently to existing AVIF files",
     assert.ok(existsSync(`public${destination}`), destination);
   }
 });
+
+test("arabic homepage is indexable and in the home hreflang cluster", () => {
+  const content = contentRepository.getPublishedVersion("home", "ar");
+  assert.ok(content);
+  assert.equal(content.version.publicPath, "/ar");
+  assert.equal(content.version.publishStatus, "published");
+  assert.equal(content.version.canonicalData.mode, "self");
+  assert.notEqual(content.version.canonicalData.noindex, true);
+  const entries = sitemap();
+  const arabicHome = entries.find((entry) => new URL(entry.url).pathname === "/ar");
+  const englishHome = entries.find((entry) => new URL(entry.url).pathname === "/");
+  assert.ok(arabicHome, "sitemap contains /ar");
+  assert.ok(englishHome, "sitemap contains English home");
+  const expected = {
+    ar: `${siteUrl}/ar`,
+    en: siteUrl,
+    "pt-BR": `${siteUrl}/pt`,
+    es: `${siteUrl}/es`,
+    de: `${siteUrl}/de`,
+    fr: `${siteUrl}/fr`,
+    vi: `${siteUrl}/vi`,
+    sv: `${siteUrl}/sv`,
+    it: `${siteUrl}/it`,
+    ko: `${siteUrl}/ko`,
+    id: `${siteUrl}/id`,
+    pl: `${siteUrl}/pl`,
+    nl: `${siteUrl}/nl`,
+    "x-default": siteUrl
+  };
+  assert.deepEqual(arabicHome?.alternates?.languages, expected);
+  assert.deepEqual(englishHome?.alternates?.languages, expected);
+  assert.equal(arabicHome?.alternates?.languages?.["x-default"], arabicHome?.alternates?.languages?.en);
+});
+

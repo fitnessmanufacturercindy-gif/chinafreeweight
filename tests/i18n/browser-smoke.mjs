@@ -277,7 +277,7 @@ const sitemapResponse = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "d
 assert.ok(sitemapResponse);
 const sitemapXml = await sitemapResponse.text();
 assert.equal(sitemapResponse.status(), 200);
-assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 2031);
+assert.equal((sitemapXml.match(/<loc>/g) ?? []).length, 2032);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/pt(?:<|\/)/g) ?? []).length, 163);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/es(?:<|\/)/g) ?? []).length, 163);
 assert.equal((sitemapXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 167);

@@ -57,7 +57,7 @@ for (const path of paths) {
 response = await goto("/sitemap.xml");
 assert.equal(response?.status(), 200);
 const mainXml = await response.text();
-assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2031);
+assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2032);
 assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/ko(?:<|\/)/g) ?? []).length, 155);
 response = await goto("/robots.txt");
 assert.equal(response?.status(), 200);

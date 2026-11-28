@@ -88,7 +88,7 @@ try {
   assert.ok(languageResponse);
   assert.equal(languageResponse.status(), 200);
   const languageXml = await languageResponse.text();
-  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 2031);
+  assert.equal((languageXml.match(/<loc>/g) ?? []).length, 2032);
   assert.equal((languageXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/id(?:<|\/)/g) ?? []).length, 160);
   const robotsResponse = await page.goto(testUrl("/robots.txt"), { waitUntil: "domcontentloaded", timeout: 30000 });
   assert.ok(robotsResponse);

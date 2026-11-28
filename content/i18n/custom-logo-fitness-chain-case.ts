@@ -530,7 +530,7 @@ function makeVersion(copy: CaseCopy): LocalizedContentVersion {
     schemaData: {
       category: "Commercial Gym Equipment Customization Case",
       breadcrumbs: [
-        { name: copy.home, path: prefix || "/" },
+        { name: copy.home, path: copy.locale === "ar" ? "/ar" : prefix || "/" },
         { name: copy.projects, path: projectPath },
         { name: copy.h1, path: copy.path }
       ],

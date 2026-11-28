@@ -36,7 +36,7 @@ assert.equal(languageSitemap?.status(), 200);
 const languageXml = await languageSitemap.text();
 const sitemapUrls = [...languageXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const germanPaths = sitemapUrls.map((url) => new URL(url).pathname).filter((path) => path === "/de" || path.startsWith("/de/"));
-assert.equal(sitemapUrls.length, 2031);
+assert.equal(sitemapUrls.length, 2032);
 assert.equal(germanPaths.length, 167);
 assert.equal(new Set(germanPaths).size, 167);
 
@@ -78,7 +78,7 @@ for (const path of germanPaths) {
 const mainSitemap = await page.goto(testUrl("/sitemap.xml"), { waitUntil: "domcontentloaded" });
 assert.equal(mainSitemap?.status(), 200);
 const mainXml = await mainSitemap.text();
-assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2031);
+assert.equal((mainXml.match(/<loc>/g) ?? []).length, 2032);
 assert.equal((mainXml.match(/<loc>https:\/\/www\.chinafreeweight\.com\/de(?:<|\/)/g) ?? []).length, 167);
 
 const productSitemap = await page.goto(testUrl("/sitemaps/products.xml"), { waitUntil: "domcontentloaded" });
