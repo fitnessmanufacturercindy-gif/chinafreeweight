@@ -5,6 +5,7 @@ import MegaMenu from "../../../../components/MegaMenu";
 import { siteUrl, sourcingFacts } from "../../../../site";
 import { dumbbellProducts, getDumbbellProduct } from "../../../../products/dumbbells/productData";
 import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
+import { buildProductPageJsonLd } from "../../../../../lib/seo/schema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -69,37 +70,14 @@ export default async function DumbbellDetailPage({ params }: PageProps) {
       answer: "This depends on the selected material and use scenario. PBF can help match the dumbbell type with commercial gym, retail, or OEM requirements."
     }
   ];
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    inLanguage: "en",
+  const jsonLd = buildProductPageJsonLd({
     url: `${siteUrl}/products/dumbbells/${product.slug}`,
-    sku: product.slug,
     name: product.name,
-    image: (product.gallery ?? [product.image]).map((image) => `${siteUrl}${image}`),
     description: `${product.copy} Weight range: ${product.range}.`,
-    brand: {
-      "@type": "Brand",
-      name: "PowerBaseFit"
-    },
-    manufacturer: {
-      "@type": "Organization",
-      name: "PowerBaseFit"
-    },
-    category: "Commercial Dumbbells",
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "Weight range",
-        value: product.range
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Product type",
-        value: product.type
-      }
-    ]
-  };
+    sku: product.slug,
+    images: (product.gallery ?? [product.image]).map((image) => `${siteUrl}${image}`),
+    inLanguage: "en"
+  });
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

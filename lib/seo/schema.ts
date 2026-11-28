@@ -33,6 +33,82 @@ export function buildWebSiteSchema(siteUrl: string, name: string, inLanguage: st
   };
 }
 
+/**
+ * Google only accepts a `Product` item when it carries `offers`, `review` or `aggregateRating`
+ * (Product snippets) and, for merchant listings, an `Offer` with a real price. This site is a
+ * B2B OEM factory: there are no public retail prices, reviews or ratings, and we must never
+ * invent them. A bare `Product` is reported by Search Console as an invalid Product snippet item.
+ *
+ * Rule: emit `Product` only when a real price + currency exists; otherwise describe the page's
+ * subject as a plain `Thing`, which is valid schema.org and not a Product-snippet candidate.
+ */
+export type ProductEntityInput = {
+  id?: string;
+  url: string;
+  name: string;
+  description?: string;
+  sku?: string;
+  brand?: string;
+  manufacturer?: string;
+  material?: string;
+  category?: string;
+  specifications?: Array<{ name: string; value: string }>;
+  images?: string[];
+  inLanguage?: string;
+  offer?: { price: string | number; priceCurrency: string; availability?: string };
+};
+
+export function buildProductEntityNode(input: ProductEntityInput): JsonLd {
+  const images = input.images?.length ? input.images : undefined;
+  if (input.offer) {
+    return {
+      "@type": "Product",
+      "@id": input.id,
+      url: input.url,
+      name: input.name,
+      description: input.description,
+      sku: input.sku,
+      brand: input.brand ? { "@type": "Brand", name: input.brand } : undefined,
+      manufacturer: input.manufacturer ? { "@type": "Organization", name: input.manufacturer } : undefined,
+      material: input.material,
+      category: input.category,
+      additionalProperty: input.specifications?.map((specification) => ({
+        "@type": "PropertyValue",
+        name: specification.name,
+        value: specification.value
+      })),
+      image: images,
+      inLanguage: input.inLanguage,
+      offers: { "@type": "Offer", ...input.offer, url: input.url }
+    };
+  }
+  return {
+    "@type": "Thing",
+    "@id": input.id,
+    url: input.url,
+    name: input.name,
+    description: input.description,
+    identifier: input.sku,
+    image: images
+  };
+}
+
+/** Standalone JSON-LD document for hand-written (English) product templates. */
+export function buildProductPageJsonLd(input: ProductEntityInput & { inLanguage: string }): JsonLd {
+  const entity = buildProductEntityNode({ ...input, id: undefined, inLanguage: undefined });
+  const { url, name, description, inLanguage } = input;
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    description,
+    inLanguage,
+    mainEntity: entity
+  };
+}
+
 export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: string): JsonLd[] {
   const { entity, version } = content;
   const definition = getLocaleByInternalLocale(version.locale);
@@ -59,34 +135,30 @@ export function buildLocalizedSchemaGraph(content: PublishedContent, siteUrl: st
   });
 
   if (entity.type === "product") {
-    graph.push({
-      "@type": "Product",
-      "@id": `${url}#product`,
-      url,
-      name: version.h1,
-      description: version.description,
-      sku: version.schemaData.sku,
-      brand: version.schemaData.brand ? { "@type": "Brand", name: version.schemaData.brand } : undefined,
-      manufacturer: version.schemaData.manufacturer ? { "@type": "Organization", name: version.schemaData.manufacturer } : undefined,
-      material: version.schemaData.material,
-      category: version.schemaData.category,
-      additionalProperty: version.schemaData.specifications?.map((specification) => ({
-        "@type": "PropertyValue",
-        name: specification.name,
-        value: specification.value
-      })),
-      image: version.images.map((image) => absoluteUrl(siteUrl, image.src)),
-      inLanguage,
-      offers: version.schemaData.price
-        ? {
-            "@type": "Offer",
-            price: version.schemaData.price,
-            priceCurrency: version.schemaData.priceCurrency,
-            availability: version.schemaData.availability,
-            url
-          }
-        : undefined
-    });
+    graph.push(
+      buildProductEntityNode({
+        id: `${url}#product`,
+        url,
+        name: version.h1,
+        description: version.description,
+        sku: version.schemaData.sku,
+        brand: version.schemaData.brand,
+        manufacturer: version.schemaData.manufacturer,
+        material: version.schemaData.material,
+        category: version.schemaData.category,
+        specifications: version.schemaData.specifications,
+        images: version.images.map((image) => absoluteUrl(siteUrl, image.src)),
+        inLanguage,
+        offer:
+          version.schemaData.price && version.schemaData.priceCurrency
+            ? {
+                price: version.schemaData.price,
+                priceCurrency: version.schemaData.priceCurrency,
+                availability: version.schemaData.availability
+              }
+            : undefined
+      })
+    );
   }
 
   if (entity.type === "blog") {

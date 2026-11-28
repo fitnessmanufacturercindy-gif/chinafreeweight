@@ -2,9 +2,10 @@
 import { notFound } from "next/navigation";
 import { ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, ShieldCheck } from "lucide-react";
 import MegaMenu from "../../../../components/MegaMenu";
-import { sourcingFacts } from "../../../../site";
+import { siteUrl, sourcingFacts } from "../../../../site";
 import { getWeightPlateProduct, weightPlateProducts } from "../../../../products/weight-plates/productData";
 import { getEnglishPageMetadata } from "../../../../../lib/seo/english-alternates";
+import { buildProductPageJsonLd } from "../../../../../lib/seo/schema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -40,35 +41,14 @@ export default async function WeightPlateDetailPage({ params }: PageProps) {
   }
 
   const related = weightPlateProducts.filter((item) => item.slug !== product.slug).slice(0, 4);
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    inLanguage: "en",
+  const productUrl = `${siteUrl}/products/weight-plates/${product.slug}`;
+  const jsonLd = buildProductPageJsonLd({
+    url: productUrl,
     name: product.name,
-    image: product.image,
     description: product.copy,
-    brand: {
-      "@type": "Brand",
-      name: "PowerBaseFit"
-    },
-    manufacturer: {
-      "@type": "Organization",
-      name: "PowerBaseFit"
-    },
-    category: "Weight Plates",
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "Product type",
-        value: product.type
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Weight range",
-        value: product.range
-      }
-    ]
-  };
+    images: [`${siteUrl}${product.image}`],
+    inLanguage: "en"
+  });
 
   return (
     <main className="product-page">

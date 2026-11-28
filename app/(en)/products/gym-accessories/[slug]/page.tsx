@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, CheckCircle2, Factory, Globe2, PackageCheck, Shi
 import MegaMenu from "../../../../components/MegaMenu";
 import { sourcingFacts } from "../../../../site";
 import { getGymAccessoryProduct, gymAccessoryProducts } from "../../../../products/gym-accessories/productData";
+import { buildProductPageJsonLd } from "../../../../../lib/seo/schema";
 
 type PageProps = {
   params: Promise<{
@@ -74,46 +75,13 @@ export default async function GymAccessoryProductPage({ params }: PageProps) {
     : product.image.includes("cable-machine-attachments-large")
       ? { width: 1100, height: 956 }
       : { width: 698, height: 520 };
-  const productJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: product.name,
-    image: `${siteUrl}${product.image}`,
-    description: product.copy,
-    brand: {
-      "@type": "Brand",
-      name: "PowerBaseFit"
-    },
-    manufacturer: {
-      "@type": "Organization",
-      name: "PowerBaseFit",
-      url: siteUrl
-    },
-    category: "Gym Accessories",
+  const productJsonLd = buildProductPageJsonLd({
     url: productUrl,
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "Product type",
-        value: product.type
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Range",
-        value: product.range
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Material",
-        value: product.material
-      },
-      {
-        "@type": "PropertyValue",
-        name: "OEM options",
-        value: product.oemOptions.join(", ")
-      }
-    ]
-  };
+    name: product.name,
+    description: product.copy,
+    images: [`${siteUrl}${product.image}`],
+    inLanguage: "en"
+  });
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
